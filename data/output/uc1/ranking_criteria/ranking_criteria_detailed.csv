@@ -1,0 +1,92 @@
+id,name,metric,data_source
+M_001,Popularity,Number of downloads,Apple App Store
+M_002,Popularity,Number of downloads,Google Play Store
+M_003,Popularity,Number of downloads,App Annie
+M_004,Popularity,Active user base,Apple App Store
+M_005,Popularity,Active user base,Google Play Store
+M_006,Popularity,Active user base,App Annie
+M_007,Popularity,User ratings,Apple App Store
+M_008,Popularity,User ratings,Google Play Store
+M_009,Popularity,User ratings,App Annie
+M_010,Features,Integration capabilities,User reviews
+M_011,Features,Integration capabilities,Tech blogs
+M_012,Features,Integration capabilities,Tech review sites
+M_013,Features,Integration capabilities,Official app websites
+M_014,Features,Variety of tracking options,User reviews
+M_015,Features,Variety of tracking options,Tech blogs
+M_016,Features,Variety of tracking options,Tech review sites
+M_017,Features,Variety of tracking options,Official app websites
+M_018,Features,User engagement features,User reviews
+M_019,Features,User engagement features,Tech blogs
+M_020,Features,User engagement features,Tech review sites
+M_021,Features,User engagement features,Official app websites
+M_022,Features,Integration with other platforms,User reviews
+M_023,Features,Integration with other platforms,Tech blogs
+M_024,Features,Integration with other platforms,Tech review sites
+M_025,Features,Integration with other platforms,Official app websites
+M_026,Features,Integration with other services,User reviews
+M_027,Features,Integration with other services,Tech blogs
+M_028,Features,Integration with other services,Tech review sites
+M_029,Features,Integration with other services,Official app websites
+M_030,User Experience,Ease of use,App Store reviews
+M_031,User Experience,Ease of use,App reviews
+M_032,User Experience,Ease of use,User feedback
+M_033,User Experience,Ease of use,User reviews
+M_034,User Experience,Ease of use,UX design analysis
+M_035,User Experience,Ease of use,App testing reports
+M_036,User Experience,Ease of use,UX design reports
+M_037,User Experience,Ease of use,Tech blogs
+M_038,User Experience,Ease of use,Tech review sites
+M_039,User Experience,App interface design,App Store reviews
+M_040,User Experience,App interface design,App reviews
+M_041,User Experience,App interface design,User feedback
+M_042,User Experience,App interface design,User reviews
+M_043,User Experience,App interface design,UX design analysis
+M_044,User Experience,App interface design,App testing reports
+M_045,User Experience,App interface design,UX design reports
+M_046,User Experience,App interface design,Tech blogs
+M_047,User Experience,App interface design,Tech review sites
+M_048,User Experience,App design,App Store reviews
+M_049,User Experience,App design,App reviews
+M_050,User Experience,App design,User feedback
+M_051,User Experience,App design,User reviews
+M_052,User Experience,App design,UX design analysis
+M_053,User Experience,App design,App testing reports
+M_054,User Experience,App design,UX design reports
+M_055,User Experience,App design,Tech blogs
+M_056,User Experience,App design,Tech review sites
+M_057,User Experience,Customer support,App Store reviews
+M_058,User Experience,Customer support,App reviews
+M_059,User Experience,Customer support,User feedback
+M_060,User Experience,Customer support,User reviews
+M_061,User Experience,Customer support,UX design analysis
+M_062,User Experience,Customer support,App testing reports
+M_063,User Experience,Customer support,UX design reports
+M_064,User Experience,Customer support,Tech blogs
+M_065,User Experience,Customer support,Tech review sites
+M_066,User Engagement,Number of active users,App Store reviews
+M_067,User Engagement,Number of active users,Google Play Store reviews
+M_068,User Engagement,Number of active users,Industry reports
+M_069,User Engagement,User retention rate,App Store reviews
+M_070,User Engagement,User retention rate,Google Play Store reviews
+M_071,User Engagement,User retention rate,Industry reports
+M_072,Feature Set,Variety of tracking features,Official app websites
+M_073,Feature Set,Variety of tracking features,User reviews
+M_074,Feature Set,Variety of tracking features,Tech blogs
+M_075,Feature Set,Integration with other platforms,Official app websites
+M_076,Feature Set,Integration with other platforms,User reviews
+M_077,Feature Set,Integration with other platforms,Tech blogs
+M_078,User Ratings,Average rating score,App Store
+M_079,User Ratings,Average rating score,Google Play Store
+M_080,User Ratings,Number of ratings,App Store
+M_081,User Ratings,Number of ratings,Google Play Store
+M_082,Innovation,Unique features,Tech news
+M_083,Innovation,Unique features,App update logs
+M_084,Innovation,Recent updates,Tech news
+M_085,Innovation,Recent updates,App update logs
+M_086,Market Presence,Download numbers,App Store
+M_087,Market Presence,Download numbers,Google Play Store
+M_088,Market Presence,Download numbers,Industry analysis reports
+M_089,Market Presence,Global availability,App Store
+M_090,Market Presence,Global availability,Google Play Store
+M_091,Market Presence,Global availability,Industry analysis reports
