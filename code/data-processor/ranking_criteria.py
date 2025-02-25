@@ -97,6 +97,21 @@ def main():
     combined_criteria = combine_criteria(all_data)
     output_file = os.path.join(output_dir, 'ranking_criteria_aggregated.csv')
     write_criteria_to_csv(combined_criteria, output_file)
+
+    # Write combined criteria to JSON file
+    json_output_file = os.path.join(output_dir, 'ranking_criteria.json')
+    json_data = {
+        "ranking_criteria": [
+            {
+                "name": criterion["name"],
+                "metrics": criterion["metrics"],
+                "data_sources": criterion["data_sources"]
+            }
+            for criterion in combined_criteria
+        ]
+    }
+    with open(json_output_file, 'w') as f:
+        json.dump(json_data, f, indent=2)
     
     # Write detailed aggregated file with individual rows
     detailed_output_file = os.path.join(output_dir, 'ranking_criteria_detailed.csv')

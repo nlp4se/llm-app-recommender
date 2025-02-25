@@ -1,0 +1,3 @@
+Identify {k} popular {category} apps currently available based on the following ranking criteria:
+
+{ranking_criteria}

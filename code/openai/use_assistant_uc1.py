@@ -46,10 +46,11 @@ def save_response(response: str, output_folder: str, base_name: str, run_number:
     with open(output_file, 'w', encoding='utf-8') as f:
         f.write(response)
 
-def main(input_file: str, output_folder: str, k: int, category: str, n: int = 1, model: str = "gpt-4o"):
+def main(output_folder: str, k: int, category: str, n: int = 1, model: str = "gpt-4o"):
     print(f"Starting process at {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
 
-    # Get the formatted prompt
+    # Use hardcoded prompt file path
+    input_file = "data/input/prompts/user-prompt-uc1.txt"
     user_prompt = read_and_format_prompt(input_file, k, category)
     
     assistant_id = get_assistant(model)
@@ -104,7 +105,6 @@ def main(input_file: str, output_folder: str, k: int, category: str, n: int = 1,
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Run prompts with Assistants API')
-    parser.add_argument('--input', required=True, help='Input prompt template file')
     parser.add_argument('--output', required=True, help='Output folder')
     parser.add_argument('--k', type=int, required=True, help='Value for k parameter')
     parser.add_argument('--category', type=str, required=True, help='Category parameter')
@@ -112,4 +112,4 @@ if __name__ == "__main__":
     parser.add_argument('--model', type=str, default='gpt-4o', help='Model name for assistant')
     args = parser.parse_args()
     
-    main(args.input, args.output, args.k, args.category, args.n, args.model)
+    main(args.output, args.k, args.category, args.n, args.model)
