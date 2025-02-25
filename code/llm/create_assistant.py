@@ -3,7 +3,7 @@ import logging
 import os
 from typing import Any, Optional
 
-class BaseAssistantCreator(ABC):
+class CreateAssistant(ABC):
     def __init__(self, model: str):
         self.model = model
         self.logger = logging.getLogger(self.__class__.__name__)

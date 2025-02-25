@@ -8,6 +8,7 @@ from typing import List, Dict
 def parse_args():
     parser = argparse.ArgumentParser(description='Process ranking criteria from JSON files')
     parser.add_argument('--input_folder', required=True, help='Folder containing JSON files')
+    parser.add_argument('--output_folder', required=True, help='Folder for output files')
     parser.add_argument('--experiment_name', required=True, help='Experiment name prefix for JSON files')
     return parser.parse_args()
 
@@ -85,7 +86,7 @@ def main():
     all_data = read_json_files(args.input_folder, args.experiment_name)
     
     # Create output directory if it doesn't exist
-    output_dir = os.path.join(args.input_folder, 'ranking_criteria')
+    output_dir = os.path.join(args.output_folder, 'ranking_criteria')
     os.makedirs(output_dir, exist_ok=True)
     
     # Write individual iteration files

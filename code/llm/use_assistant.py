@@ -3,7 +3,7 @@ import os
 from datetime import datetime
 import time
 
-class BaseAssistant(ABC):
+class UseAssistant(ABC):
     def __init__(self, model: str):
         self.model = model
 
