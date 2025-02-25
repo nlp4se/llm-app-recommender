@@ -1,1 +1,1 @@
-Identify {k} popular {category} apps currently available.
+Identify {k} popular {category} apps

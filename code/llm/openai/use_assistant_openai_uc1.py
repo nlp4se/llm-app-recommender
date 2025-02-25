@@ -9,9 +9,10 @@ from code.llm.use_assistant import UseAssistant
 load_dotenv()
 
 class OpenAIAssistant(UseAssistant):
-    def __init__(self, model: str):
+    def __init__(self, model: str, sleep_time: int = 10):
         super().__init__(model)
         self.client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+        self.sleep_time = sleep_time
 
     def load_assistant_id(self) -> str:
         assistant_id_file = f"data/assistants/assistant_id_{self.model}.txt"
@@ -54,13 +55,13 @@ class OpenAIAssistant(UseAssistant):
                 break
             elif run_status.status != "in_progress" and run_status.status != "queued":
                 print(run_status)
-            time.sleep(2)
+            time.sleep(self.sleep_time)
 
         messages = self.client.beta.threads.messages.list(thread_id=thread_id)
         return messages.data[0].content[0].text.value
 
-def main(output_folder: str, k: int, category: str, n: int = 1, model: str = "gpt-4o"):
-    assistant = OpenAIAssistant(model)
+def main(output_folder: str, k: int, category: str, n: int = 1, model: str = "gpt-4o", sleep_time: int = 2):
+    assistant = OpenAIAssistant(model, sleep_time)
     assistant.run_prompt(output_folder, k, category, n)
 
 if __name__ == "__main__":
@@ -70,6 +71,7 @@ if __name__ == "__main__":
     parser.add_argument('--category', type=str, required=True, help='Category parameter')
     parser.add_argument('--n', type=int, default=1, help='Number of runs to perform')
     parser.add_argument('--model', type=str, default='gpt-4o', help='Model name for assistant')
+    parser.add_argument('--sleep', type=int, default=2, help='Sleep time between status checks (seconds)')
     args = parser.parse_args()
     
-    main(args.output, args.k, args.category, args.n, args.model)
+    main(args.output, args.k, args.category, args.n, args.model, args.sleep)

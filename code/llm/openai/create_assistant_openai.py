@@ -3,7 +3,7 @@ import argparse
 from dotenv import load_dotenv
 import os
 import logging
-from code.llm.create_assistant import BaseAssistantCreator
+from code.llm.create_assistant import CreateAssistant
 
 # Load environment variables from .env file
 load_dotenv()
@@ -14,7 +14,7 @@ logging.basicConfig(
     format='%(asctime)s - %(levelname)s - %(message)s'
 )
 
-class OpenAIAssistantCreator(BaseAssistantCreator):
+class OpenAIAssistantCreator(CreateAssistant):
     def __init__(self, model: str = "gpt-4"):
         super().__init__(model)
         self.client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
@@ -47,14 +47,9 @@ class OpenAIAssistantCreator(BaseAssistantCreator):
                                         "type": "object",
                                         "properties": {
                                             "rank": {"type": "integer", "description": "Position in the ranking"},
-                                            "name": {"type": "string", "description": "Name of the app"},
-                                            "features": {
-                                                "type": "array",
-                                                "items": {"type": "string"},
-                                                "description": "List of notable features"
-                                            }
+                                            "name": {"type": "string", "description": "Name of the app"}
                                         },
-                                        "required": ["rank", "name", "features"]
+                                        "required": ["rank", "name"]
                                     }
                                 },
                                 "ranking_criteria": {

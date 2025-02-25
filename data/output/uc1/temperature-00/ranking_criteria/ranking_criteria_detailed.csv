@@ -1,0 +1,127 @@
+id,name,metric,data_source
+M_001,User Popularity,User ratings,App Annie
+M_002,User Popularity,User ratings,Google Play Store
+M_003,User Popularity,User ratings,Apple App Store
+M_004,User Popularity,Number of downloads,App Annie
+M_005,User Popularity,Number of downloads,Google Play Store
+M_006,User Popularity,Number of downloads,Apple App Store
+M_007,User Popularity,Active user base,App Annie
+M_008,User Popularity,Active user base,Google Play Store
+M_009,User Popularity,Active user base,Apple App Store
+M_010,Feature Set,Workout variety,User reviews
+M_011,Feature Set,Workout variety,TechRadar
+M_012,Feature Set,Workout variety,Official app websites
+M_013,Feature Set,Social features,User reviews
+M_014,Feature Set,Social features,TechRadar
+M_015,Feature Set,Social features,Official app websites
+M_016,Feature Set,Social sharing features,User reviews
+M_017,Feature Set,Social sharing features,TechRadar
+M_018,Feature Set,Social sharing features,Official app websites
+M_019,Feature Set,Workout logging,User reviews
+M_020,Feature Set,Workout logging,TechRadar
+M_021,Feature Set,Workout logging,Official app websites
+M_022,Feature Set,Integration with wearables,User reviews
+M_023,Feature Set,Integration with wearables,TechRadar
+M_024,Feature Set,Integration with wearables,Official app websites
+M_025,Feature Set,GPS tracking,User reviews
+M_026,Feature Set,GPS tracking,TechRadar
+M_027,Feature Set,GPS tracking,Official app websites
+M_028,Feature Set,Workout analysis,User reviews
+M_029,Feature Set,Workout analysis,TechRadar
+M_030,Feature Set,Workout analysis,Official app websites
+M_031,Integration and Compatibility,Device compatibility,Tech review sites
+M_032,Integration and Compatibility,Device compatibility,Official app websites
+M_033,Integration and Compatibility,Device compatibility,CNET
+M_034,Integration and Compatibility,Device compatibility,User forums
+M_035,Integration and Compatibility,Device compatibility,Official app documentation
+M_036,Integration and Compatibility,Wearable support,Tech review sites
+M_037,Integration and Compatibility,Wearable support,Official app websites
+M_038,Integration and Compatibility,Wearable support,CNET
+M_039,Integration and Compatibility,Wearable support,User forums
+M_040,Integration and Compatibility,Wearable support,Official app documentation
+M_041,Integration and Compatibility,Third-party app integration,Tech review sites
+M_042,Integration and Compatibility,Third-party app integration,Official app websites
+M_043,Integration and Compatibility,Third-party app integration,CNET
+M_044,Integration and Compatibility,Third-party app integration,User forums
+M_045,Integration and Compatibility,Third-party app integration,Official app documentation
+M_046,User Experience,App interface design,UX design reviews
+M_047,User Experience,App interface design,App Store reviews
+M_048,User Experience,App interface design,User feedback
+M_049,User Experience,Customer support,UX design reviews
+M_050,User Experience,Customer support,App Store reviews
+M_051,User Experience,Customer support,User feedback
+M_052,User Experience,Ease of use,UX design reviews
+M_053,User Experience,Ease of use,App Store reviews
+M_054,User Experience,Ease of use,User feedback
+M_055,Features and Functionality,Workout variety,User reviews
+M_056,Features and Functionality,Workout variety,App reviews
+M_057,Features and Functionality,Workout variety,TechRadar
+M_058,Features and Functionality,Workout variety,Official app websites
+M_059,Features and Functionality,Social features,User reviews
+M_060,Features and Functionality,Social features,App reviews
+M_061,Features and Functionality,Social features,TechRadar
+M_062,Features and Functionality,Social features,Official app websites
+M_063,Features and Functionality,Integration with wearables,User reviews
+M_064,Features and Functionality,Integration with wearables,App reviews
+M_065,Features and Functionality,Integration with wearables,TechRadar
+M_066,Features and Functionality,Integration with wearables,Official app websites
+M_067,Features and Functionality,GPS tracking,User reviews
+M_068,Features and Functionality,GPS tracking,App reviews
+M_069,Features and Functionality,GPS tracking,TechRadar
+M_070,Features and Functionality,GPS tracking,Official app websites
+M_071,User Engagement,Community size,User feedback forums
+M_072,User Engagement,Community size,User forums
+M_073,User Engagement,Community size,Social media presence
+M_074,User Engagement,Community size,App analytics reports
+M_075,User Engagement,Community size,Sensor Tower
+M_076,User Engagement,Community size,Statista
+M_077,User Engagement,User retention rate,User feedback forums
+M_078,User Engagement,User retention rate,User forums
+M_079,User Engagement,User retention rate,Social media presence
+M_080,User Engagement,User retention rate,App analytics reports
+M_081,User Engagement,User retention rate,Sensor Tower
+M_082,User Engagement,User retention rate,Statista
+M_083,User Engagement,Average session duration,User feedback forums
+M_084,User Engagement,Average session duration,User forums
+M_085,User Engagement,Average session duration,Social media presence
+M_086,User Engagement,Average session duration,App analytics reports
+M_087,User Engagement,Average session duration,Sensor Tower
+M_088,User Engagement,Average session duration,Statista
+M_089,User Engagement,Active user base,User feedback forums
+M_090,User Engagement,Active user base,User forums
+M_091,User Engagement,Active user base,Social media presence
+M_092,User Engagement,Active user base,App analytics reports
+M_093,User Engagement,Active user base,Sensor Tower
+M_094,User Engagement,Active user base,Statista
+M_095,User Engagement,Community features,User feedback forums
+M_096,User Engagement,Community features,User forums
+M_097,User Engagement,Community features,Social media presence
+M_098,User Engagement,Community features,App analytics reports
+M_099,User Engagement,Community features,Sensor Tower
+M_100,User Engagement,Community features,Statista
+M_101,Cross-Platform Availability,Availability on iOS and Android,Official app websites
+M_102,Cross-Platform Availability,Availability on iOS and Android,App Store listings
+M_103,Cross-Platform Availability,Integration with other platforms,Official app websites
+M_104,Cross-Platform Availability,Integration with other platforms,App Store listings
+M_105,User Base and Popularity,Active user count,Google Play Store
+M_106,User Base and Popularity,Active user count,Apple App Store
+M_107,User Base and Popularity,Number of downloads,Google Play Store
+M_108,User Base and Popularity,Number of downloads,Apple App Store
+M_109,User Ratings and Reviews,Number of reviews,Google Play Store
+M_110,User Ratings and Reviews,Number of reviews,Apple App Store
+M_111,User Ratings and Reviews,Average rating,Google Play Store
+M_112,User Ratings and Reviews,Average rating,Apple App Store
+M_113,Updates and Support,Frequency of updates,User feedback forums
+M_114,Updates and Support,Frequency of updates,User feedback platforms
+M_115,Updates and Support,Frequency of updates,Official app websites
+M_116,Updates and Support,Frequency of updates,App update history
+M_117,Updates and Support,Frequency of updates,App update logs
+M_118,Updates and Support,Customer support quality,User feedback forums
+M_119,Updates and Support,Customer support quality,User feedback platforms
+M_120,Updates and Support,Customer support quality,Official app websites
+M_121,Updates and Support,Customer support quality,App update history
+M_122,Updates and Support,Customer support quality,App update logs
+M_123,Integration Capabilities,Compatibility with wearables,Official app websites
+M_124,Integration Capabilities,Compatibility with wearables,Tech review sites
+M_125,Integration Capabilities,Third-party app integrations,Official app websites
+M_126,Integration Capabilities,Third-party app integrations,Tech review sites

@@ -32,7 +32,7 @@ class OpenAIAssistantUC2(OpenAIAssistant):
         with open(output_file, 'w', encoding='utf-8') as f:
             f.write(response)
 
-    def run_prompt(self, output_folder: str, k: int, category: str, ranking_criteria_file: str, n: int = 1):
+    def run_prompt(self, output_folder: str, k: int, category: str, ranking_criteria_file: str, n: int = 1, sleep_time: int = 10):
         print(f"Starting process at {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
 
         user_prompt = self.read_and_format_prompt(k, category, ranking_criteria_file)
@@ -54,16 +54,16 @@ class OpenAIAssistantUC2(OpenAIAssistant):
                 process_time = time.time() - start_time
                 print(f"Run {i+1} completed (Time: {process_time:.2f}s)")
                 
-                time.sleep(10)  # Rate limiting between runs
+                time.sleep(sleep_time)  # Rate limiting between runs
 
             except Exception as e:
                 print(f"Error in run {i}: {e}")
 
         print("Process complete.")
 
-def main(output_folder: str, k: int, category: str, ranking_criteria_file: str, n: int = 1, model: str = "gpt-4o"):
+def main(output_folder: str, k: int, category: str, ranking_criteria_file: str, n: int = 1, model: str = "gpt-4o", sleep_time: int = 10):
     assistant = OpenAIAssistantUC2(model)
-    assistant.run_prompt(output_folder, k, category, ranking_criteria_file, n)
+    assistant.run_prompt(output_folder, k, category, ranking_criteria_file, n, sleep_time)
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Run prompts with Assistants API')
@@ -73,6 +73,7 @@ if __name__ == "__main__":
     parser.add_argument('--ranking_criteria', type=str, required=True, help='Ranking criteria file')
     parser.add_argument('--n', type=int, default=1, help='Number of runs to perform')
     parser.add_argument('--model', type=str, default='gpt-4o', help='Model name for assistant')
+    parser.add_argument('--sleep_time', type=int, default=10, help='Sleep time between runs in seconds')
     args = parser.parse_args()
     
-    main(args.output, args.k, args.category, args.ranking_criteria, args.n, args.model)
+    main(args.output, args.k, args.category, args.ranking_criteria, args.n, args.model, args.sleep_time)
