@@ -32,7 +32,7 @@ class OpenAIAssistantCreator(CreateAssistant):
                 name="App Ranking Assistant",
                 instructions=system_prompt,
                 model=self.model,
-                temperature=0.0,
+                temperature=0.7,
                 response_format={
                     "type": "json_schema",
                     "json_schema": {

@@ -1,0 +1,382 @@
+{
+  "ranking_criteria": [
+    {
+      "name": "User Engagement",
+      "metrics": [
+        "Monthly active users",
+        "Average session duration",
+        "User retention rate",
+        "Session length",
+        "Active user base",
+        "User retention rates"
+      ],
+      "data_sources": [
+        "User reviews",
+        "Developer press releases",
+        "Google Play ratings",
+        "Market analysis reports",
+        "App Store ratings"
+      ]
+    },
+    {
+      "name": "Features",
+      "metrics": [
+        "Social features",
+        "Social sharing capabilities",
+        "Variety of sports tracked",
+        "Workout analytics",
+        "Integration with devices",
+        "GPS tracking",
+        "Integration with wearables",
+        "Workout variety",
+        "Tracking accuracy"
+      ],
+      "data_sources": [
+        "User reviews",
+        "Official app descriptions",
+        "Official app websites",
+        "User feedback",
+        "Tech review sites"
+      ]
+    },
+    {
+      "name": "User Experience",
+      "metrics": [
+        "App interface design",
+        "Ease of use",
+        "Ease of Use",
+        "Customer Support",
+        "Customer support",
+        "User feedback",
+        "User Interface",
+        "Interface design"
+      ],
+      "data_sources": [
+        "User reviews",
+        "Tech Blogs",
+        "User Feedback",
+        "App store reviews",
+        "App Store ratings",
+        "User feedback",
+        "Tech blogs",
+        "Design critique articles",
+        "App Store Reviews"
+      ]
+    },
+    {
+      "name": "Performance and Reliability",
+      "metrics": [
+        "App loading time",
+        "Bug frequency",
+        "Battery consumption"
+      ],
+      "data_sources": [
+        "Performance benchmarks",
+        "User reviews",
+        "Developer notes"
+      ]
+    },
+    {
+      "name": "Innovation",
+      "metrics": [
+        "Regular updates",
+        "Unique features",
+        "Partnerships and integrations",
+        "Updates frequency",
+        "Technology integration",
+        "Community engagement"
+      ],
+      "data_sources": [
+        "Tech news",
+        "App updates history",
+        "User feedback",
+        "Developer blogs",
+        "Tech news outlets",
+        "App announcements"
+      ]
+    },
+    {
+      "name": "User Base and Popularity",
+      "metrics": [
+        "Active users",
+        "Number of downloads",
+        "Active user count"
+      ],
+      "data_sources": [
+        "App Store",
+        "Google Play Store",
+        "Official app press releases"
+      ]
+    },
+    {
+      "name": "Features and Functionality",
+      "metrics": [
+        "Tracking accuracy",
+        "Integration with wearable devices",
+        "Variety of sports tracked"
+      ],
+      "data_sources": [
+        "Official app websites",
+        "User reviews"
+      ]
+    },
+    {
+      "name": "User Reviews and Ratings",
+      "metrics": [
+        "Average rating",
+        "Number of reviews"
+      ],
+      "data_sources": [
+        "App Store",
+        "Google Play Store"
+      ]
+    },
+    {
+      "name": "Updates and Support",
+      "metrics": [
+        "User support services",
+        "User support quality",
+        "Frequency of updates",
+        "User support satisfaction"
+      ],
+      "data_sources": [
+        "App Store",
+        "Official app websites",
+        "Apple App Store",
+        "Google Play Store",
+        "App Store release notes"
+      ]
+    },
+    {
+      "name": "User Popularity",
+      "metrics": [
+        "User reviews",
+        "Number of downloads",
+        "User Ratings",
+        "Active User Base",
+        "User ratings",
+        "App store ratings",
+        "Number of Downloads",
+        "Active user base"
+      ],
+      "data_sources": [
+        "Apple App Store",
+        "Google Play Store",
+        "Statista"
+      ]
+    },
+    {
+      "name": "Features Offered",
+      "metrics": [
+        "Social features",
+        "Route Mapping",
+        "Social Integration",
+        "Integration with other devices",
+        "Workout Plans",
+        "GPS Tracking",
+        "Variety of tracking options"
+      ],
+      "data_sources": [
+        "User reviews",
+        "App Descriptions",
+        "Official app websites",
+        "User Reviews",
+        "Independent App Reviews",
+        "TechCrunch"
+      ]
+    },
+    {
+      "name": "App Performance",
+      "metrics": [
+        "App stability",
+        "Battery efficiency",
+        "Update frequency"
+      ],
+      "data_sources": [
+        "User reviews",
+        "App version history",
+        "TechRadar"
+      ]
+    },
+    {
+      "name": "Community and Support",
+      "metrics": [
+        "User community size",
+        "Customer support options",
+        "Online forums"
+      ],
+      "data_sources": [
+        "Reddit",
+        "Official app forums",
+        "TrustPilot"
+      ]
+    },
+    {
+      "name": "Cross-Platform Availability",
+      "metrics": [
+        "Available on Android",
+        "Available on iOS",
+        "Web access"
+      ],
+      "data_sources": [
+        "Google Play Store",
+        "Apple App Store",
+        "Official app websites"
+      ]
+    },
+    {
+      "name": "Feature Set",
+      "metrics": [
+        "Social features",
+        "Workout logging",
+        "Social integration",
+        "Activity variety",
+        "Goals and challenges",
+        "GPS tracking",
+        "Activity logging",
+        "Social sharing"
+      ],
+      "data_sources": [
+        "User reviews",
+        "Tech blogs and reviews",
+        "App store descriptions",
+        "App official websites",
+        "Official app websites"
+      ]
+    },
+    {
+      "name": "Platform Compatibility",
+      "metrics": [
+        "Availability on iOS and Android",
+        "Integration with wearables"
+      ],
+      "data_sources": [
+        "Official app descriptions",
+        "User reviews"
+      ]
+    },
+    {
+      "name": "Integration Capabilities",
+      "metrics": [
+        "Device compatibility",
+        "Third-party app integration"
+      ],
+      "data_sources": [
+        "App documentation",
+        "User forums"
+      ]
+    },
+    {
+      "name": "Performance",
+      "metrics": [
+        "App stability",
+        "Battery usage"
+      ],
+      "data_sources": [
+        "User reports",
+        "Tech review sites"
+      ]
+    },
+    {
+      "name": "Popularity",
+      "metrics": [
+        "User ratings",
+        "Active users",
+        "Number of downloads",
+        "Active user base"
+      ],
+      "data_sources": [
+        "Apple App Store",
+        "Google Play Store",
+        "App Annie"
+      ]
+    },
+    {
+      "name": "User Ratings",
+      "metrics": [
+        "Number of ratings",
+        "Average rating score",
+        "Average user rating"
+      ],
+      "data_sources": [
+        "Apple App Store",
+        "Google Play Store",
+        "App Store"
+      ]
+    },
+    {
+      "name": "Integration",
+      "metrics": [
+        "Compatibility with wearables",
+        "Third-party app integration"
+      ],
+      "data_sources": [
+        "Official app websites",
+        "Tech review articles"
+      ]
+    },
+    {
+      "name": "Functionality",
+      "metrics": [
+        "GPS accuracy",
+        "Range of sports supported",
+        "Integration with other devices"
+      ],
+      "data_sources": [
+        "App review sites",
+        "User reviews",
+        "Tech blogs"
+      ]
+    },
+    {
+      "name": "User Base",
+      "metrics": [
+        "Number of active users",
+        "Download count"
+      ],
+      "data_sources": [
+        "App Store",
+        "Google Play Store"
+      ]
+    },
+    {
+      "name": "Community Engagement",
+      "metrics": [
+        "Social features",
+        "Community challenges"
+      ],
+      "data_sources": [
+        "Official app websites",
+        "User reviews"
+      ]
+    },
+    {
+      "name": "User Ratings and Reviews",
+      "metrics": [
+        "Average app store rating",
+        "Number of reviews"
+      ],
+      "data_sources": [
+        "Google Play Store",
+        "Apple App Store"
+      ]
+    },
+    {
+      "name": "Compatibility and Integration",
+      "metrics": [
+        "Device compatibility",
+        "Device Compatibility",
+        "Third-Party App Support",
+        "Wearable Integration",
+        "Integration with other devices or services"
+      ],
+      "data_sources": [
+        "User reviews",
+        "User Forums",
+        "Official app websites",
+        "Tech Review Sites",
+        "Official App Websites"
+      ]
+    }
+  ]
+}

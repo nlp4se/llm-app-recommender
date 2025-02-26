@@ -4,6 +4,7 @@ import glob
 import os
 import argparse
 from typing import List, Dict
+import pandas as pd
 
 def parse_args():
     parser = argparse.ArgumentParser(description='Process ranking criteria from JSON files')
@@ -38,6 +39,11 @@ def write_criteria_to_csv(criteria: List[Dict], output_file: str):
             row['metrics'] = '; '.join(criterion['metrics'])
             row['data_sources'] = '; '.join(criterion['data_sources'])
             writer.writerow(row)
+    
+    # Also save as xlsx
+    xlsx_output_file = output_file.replace('.csv', '.xlsx')
+    df = pd.read_csv(output_file)
+    df.to_excel(xlsx_output_file, index=False)
 
 def write_detailed_criteria_to_csv(criteria: List[Dict], output_file: str):
     """Write criteria to CSV with one row per name-metric-data_source combination."""
@@ -62,6 +68,11 @@ def write_detailed_criteria_to_csv(criteria: List[Dict], output_file: str):
                     }
                     writer.writerow(row)
                     counter += 1
+    
+    # Also save as xlsx
+    xlsx_output_file = output_file.replace('.csv', '.xlsx')
+    df = pd.read_csv(output_file)
+    df.to_excel(xlsx_output_file, index=False)
 
 def combine_criteria(all_data: List[tuple]) -> List[Dict]:
     """Combine ranking criteria from all iterations, merging metrics and data_sources for duplicate names."""
@@ -88,11 +99,6 @@ def main():
     # Create output directory if it doesn't exist
     output_dir = os.path.join(args.output_folder, 'ranking_criteria')
     os.makedirs(output_dir, exist_ok=True)
-    
-    # Write individual iteration files
-    for iteration, data in all_data:
-        output_file = os.path.join(output_dir, f'ranking_criteria_{iteration}.csv')
-        write_criteria_to_csv(data['ranking_criteria'], output_file)
     
     # Write aggregated file combining data from all iterations
     combined_criteria = combine_criteria(all_data)
