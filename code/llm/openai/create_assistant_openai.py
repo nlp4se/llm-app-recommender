@@ -15,7 +15,7 @@ logging.basicConfig(
 )
 
 class OpenAIAssistantCreator(CreateAssistant):
-    def __init__(self, model: str = "gpt-4"):
+    def __init__(self, model: str = "gpt-4o-search-preview"):
         super().__init__(model)
         self.client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
@@ -41,7 +41,7 @@ class OpenAIAssistantCreator(CreateAssistant):
                         "schema": {
                             "type": "object",
                             "properties": {
-                                "apps_ranked": {
+                                "apps": {
                                     "type": "array",
                                     "items": {
                                         "type": "object",
@@ -52,28 +52,25 @@ class OpenAIAssistantCreator(CreateAssistant):
                                         "required": ["rank", "name"]
                                     }
                                 },
-                                "ranking_criteria": {
+                                "criteria": {
                                     "type": "array",
                                     "items": {
                                         "type": "object",
                                         "properties": {
                                             "name": {"type": "string", "description": "Name of the ranking criterion"},
-                                            "metrics": {
-                                                "type": "array",
-                                                "items": {"type": "string"},
-                                                "description": "List of metrics used"
-                                            },
-                                            "data_sources": {
+                                            "description": {"type": "string", "description": "Description of the ranking criterion"},
+                                            "type": {"type": "string", "description": "Data type(e.g., Integer, Float, Boolean, Text, Media...) and cardinality (e.g., [1], [5], [*]...)"},
+                                            "sources": {
                                                 "type": "array",
                                                 "items": {"type": "string"},
                                                 "description": "List of data sources"
-                                            }
+                                            },
                                         },
-                                        "required": ["name", "metrics", "data_sources"]
+                                        "required": ["name", "description", "type", "sources"]
                                     }
                                 }
                             },
-                            "required": ["apps_ranked", "ranking_criteria"]
+                            "required": ["apps", "criteria"]
                         }
                     }
                 }

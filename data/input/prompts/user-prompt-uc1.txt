@@ -1,1 +1,1 @@
-Recommend {k} popular {category} apps
+Recommend {k} {category} apps.

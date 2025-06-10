@@ -1,0 +1,23 @@
+ASO_001 - icon - App icon - Image
+ASO_002 - media - App images/videos in app store description - Media[*]
+ASO_003 - description - Written description of the app - Text
+ASO_004 - rating - Average rating from users in user reviews - Float
+ASO_005 - reviews - Total number of user reviews - Integer
+ASO_006 - rank - Position on top chart's app category - Integer
+ASO_007 - downloads - Number of app downloads  - Integer
+ASO_008 - downloads_day - Number of app downloads (previous day) - Integer
+ASO_009 - reviews_content - Positive/negative impressions from users - Text[*]
+ASO_010 - localization - Languages/localizations available on the app - Locale[*]
+ASO_011 - name - App name/title - Text
+ASO_012 - genre - App genre - Text
+ASO_013 - url - Available external URL - Boolean
+ASO_014 - last_update_date - Date of last update - Date
+ASO_015 - update_list - List of updates - Date[*]
+ASO_016 - system_version - Operating system version requirement - Text
+ASO_017 - developer - Name of the developer - Text
+ASO_018 - content_rating - Age group suitable to use the mobile app - AgeRating
+ASO_019 - changelog - Description of changes in last update - Text
+ASO_020 - price - Price to purchase app - Float
+ASO_021 - category - App category - Text
+ASO_022 - release_date - The release date of the app - Date
+ASO_023 - rating_distribution - The number of {1,2,3,4,5} ratings of the app - Float[5]
