@@ -1,0 +1,57 @@
+
+{
+  "apps": [
+    {"rank": 1, "name": "Reclaim.ai"},
+    {"rank": 2, "name": "ChatGPT"},
+    {"rank": 3, "name": "Fitbod"},
+    {"rank": 4, "name": "MyFitnessPal"},
+    {"rank": 5, "name": "Motion"},
+    {"rank": 6, "name": "Woebot"},
+    {"rank": 7, "name": "Google Assistant"},
+    {"rank": 8, "name": "HealthifyMe"},
+    {"rank": 9, "name": "Sleep Cycle"},
+    {"rank": 10, "name": "FitnessAI"},
+    {"rank": 11, "name": "Wysa"},
+    {"rank": 12, "name": "Ada Health"},
+    {"rank": 13, "name": "Noom"},
+    {"rank": 14, "name": "Oura Ring Gen 4 (with Sleep Reset App)"},
+    {"rank": 15, "name": "Foodvisor"},
+    {"rank": 16, "name": "Nutrition AI"},
+    {"rank": 17, "name": "Freeletics"},
+    {"rank": 18, "name": "Pillow"},
+    {"rank": 19, "name": "Eat Beat"},
+    {"rank": 20, "name": "Manifest"}
+  ],
+  "criteria": [
+    {
+      "name": "AI-Powered Personalization",
+      "description": "The app utilizes AI to tailor content, recommendations, and features to the individual user's needs, preferences, and goals. This includes personalized workout plans, meal suggestions, habit tracking, and mental health support.",
+      "type": "Boolean[1]",
+      "sources": "Multiple sources"
+    },
+    {
+      "name": "Integration with Wearable Devices/Health Platforms",
+      "description": "The app seamlessly integrates with other health and fitness platforms (e.g., Apple Health, Google Fit, Samsung Health, Fitbit, Garmin) and wearable devices (e.g. Oura Ring) to provide a holistic view of the user's health data.",
+      "type": "Boolean[1]",
+      "sources": "Multiple sources"
+    },
+    {
+      "name": "User Ratings and Reviews",
+      "description": "The average rating and number of reviews the app has received in app stores (e.g., Apple App Store, Google Play Store). Higher ratings and a greater number of reviews indicate higher user satisfaction and popularity.",
+      "type": "Float and Integer[2]",
+      "sources": "Multiple sources"
+    },
+    {
+      "name": "Versatility and Scope of Features",
+      "description": "The breadth of lifestyle aspects the app covers, such as fitness, nutrition, sleep, mental well-being, productivity, and habit formation.",
+      "type": "Text[*]",
+      "sources": "Multiple sources"
+    },
+    {
+      "name": "AI-Driven Insights and Recommendations",
+      "description": "The app uses AI to analyze user data and provide actionable insights, personalized recommendations, and intelligent coaching to help users improve their lifestyle habits and achieve their goals.",
+      "type": "Text[*]",
+      "sources": "Multiple sources"
+    }
+  ]
+}

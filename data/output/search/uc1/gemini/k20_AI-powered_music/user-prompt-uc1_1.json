@@ -1,0 +1,59 @@
+I will generate a JSON output containing a list of 20 AI-powered music apps ranked according to specific criteria.
+
+```json
+{
+  "apps": [
+    {"rank": 1, "name": "Suno AI"},
+    {"rank": 2, "name": "Boomy"},
+    {"rank": 3, "name": "AIVA"},
+    {"rank": 4, "name": "Riffusion"},
+    {"rank": 5, "name": "BandLab SongStarter"},
+    {"rank": 6, "name": "Mubert"},
+    {"rank": 7, "name": "Soundraw"},
+    {"rank": 8, "name": "Soundful"},
+    {"rank": 9, "name": "Sonauto"},
+    {"rank": 10, "name": "MyTunes AI Music Generator"},
+    {"rank": 11, "name": "AI Song Maker: Soniva Music"},
+    {"rank": 12, "name": "Padhanisa"},
+    {"rank": 13, "name": "Musora"},
+    {"rank": 14, "name": "Riyaz"},
+    {"rank": 15, "name": "Yousician"},
+    {"rank": 16, "name": "Moises App"},
+    {"rank": 17, "name": "Beatoven.ai"},
+    {"rank": 18, "name": "ElevenLabs"},
+    {"rank": 19, "name": "Udio"},
+    {"rank": 20, "name": "Basic Pitch"}
+  ],
+  "criteria": [
+    {
+      "name": "AI Music Generation Quality",
+      "description": "The ability of the app to generate high-quality, original music in various genres and styles using AI algorithms.",
+      "type": "Text[1]",
+      "sources": "User reviews, expert opinions, and audio quality analysis"
+    },
+    {
+      "name": "Customization Options",
+      "description": "The degree to which users can customize the generated music, including tempo, key, instrumentation, and structure.",
+      "type": "Integer[*]",
+      "sources": "App descriptions, feature lists, and user guides"
+    },
+    {
+      "name": "Ease of Use",
+      "description": "How user-friendly and intuitive the app is for both beginners and experienced musicians.",
+      "type": "Boolean[1]",
+      "sources": "User reviews, interface analysis, and usability testing"
+    },
+    {
+      "name": "Learning and Practice Features",
+      "description": "The availability of AI-powered tools for learning music, practicing instruments, and improving vocal skills.",
+      "type": "Boolean[1]",
+      "sources": "App descriptions, feature lists, and user testimonials"
+    },
+    {
+      "name": "Pricing and Accessibility",
+      "description": "The cost of the app and its accessibility to a wide range of users, including free options and subscription plans.",
+      "type": "Text[1]",
+      "sources": "App store listings, pricing pages, and user reviews"
+    }
+  ]
+}

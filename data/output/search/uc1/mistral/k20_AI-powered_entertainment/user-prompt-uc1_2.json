@@ -1,0 +1,75 @@
+
+{
+  "apps": [
+    {"rank": 1, "name": "Netflix"},
+    {"rank": 2, "name": "Spotify"},
+    {"rank": 3, "name": "YouTube"},
+    {"rank": 4, "name": "Disney+" },
+    {"rank": 5, "name": "TikTok"},
+    {"rank": 6, "name": "Amazon Prime Video"},
+    {"rank": 7, "name": "Hulu"},
+    {"rank": 8, "name": "Pandora"},
+    {"rank": 9, "name": "HBO Max"},
+    {"rank": 10, "name": "Apple Music"},
+    {"rank": 11, "name": "Twitch"},
+    {"rank": 12, "name": "Peacock TV"},
+    {"rank": 13, "name": "Paramount+" },
+    {"rank": 14, "name": "SoundCloud"},
+    {"rank": 15, "name": "iHeartRadio"},
+    {"rank": 16, "name": "Deezer"},
+    {"rank": 17, "name": "Sling TV"},
+    {"rank": 18, "name": "fuboTV"},
+    {"rank": 19, "name": "Philo"},
+    {"rank": 20, "name": "Pluto TV"}
+  ],
+  "criteria": [
+    {
+      "name": "User Ratings",
+      "description": "Average rating given by users on app stores.",
+      "type": "Float [1]",
+      "sources": "App Store, Google Play Store"
+    },
+    {
+      "name": "Number of Downloads",
+      "description": "Total number of times the app has been downloaded.",
+      "type": "Integer [1]",
+      "sources": "App Store, Google Play Store, Sensor Tower"
+    },
+    {
+      "name": "Content Library Size",
+      "description": "The size and variety of the content library offered by the app.",
+      "type": "Integer [1]",
+      "sources": "Official app websites, third-party reviews"
+    },
+    {
+      "name": "AI Integration",
+      "description": "Level of AI integration for personalization, recommendations, and user experience.",
+      "type": "Text [1]",
+      "sources": "Official app descriptions, tech reviews"
+    },
+    {
+      "name": "User Interface and Experience",
+      "description": "Quality and ease of use of the app's user interface.",
+      "type": "Text [1]",
+      "sources": "User reviews, tech blogs"
+    },
+    {
+      "name": "Subscription Cost",
+      "description": "Cost of subscription plans offered by the app.",
+      "type": "Float [1]",
+      "sources": "Official app websites, app stores"
+    },
+    {
+      "name": "Device Compatibility",
+      "description": "Number of devices and platforms the app is compatible with.",
+      "type": "Integer [1]",
+      "sources": "Official app websites, app stores"
+    },
+    {
+      "name": "Update Frequency",
+      "description": "Frequency of app updates and new feature releases.",
+      "type": "Text [1]",
+      "sources": "App store update history, official app blogs"
+    }
+  ]
+}

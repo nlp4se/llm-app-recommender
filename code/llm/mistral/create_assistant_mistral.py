@@ -39,10 +39,10 @@ class MistralAssistantCreator(CreateAssistant):
                 description="App Ranking Assistant",
                 instructions=system_prompt,
                 tools=[{"type": "web_search"}],
-                completion_args={
-                    "temperature": self.temperature,
-                    "top_p": self.top_p
-                }
+                #completion_args={
+                #    "temperature": self.temperature,
+                #    "top_p": self.top_p
+                #}
             )
 
             self.save_assistant_id(assistant.id)

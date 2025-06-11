@@ -1,0 +1,87 @@
+
+{
+  "apps": [
+    {"rank": 1, "name": "Notion"},
+    {"rank": 2, "name": "Evernote"},
+    {"rank": 3, "name": "Todoist"},
+    {"rank": 4, "name": "Microsoft To Do"},
+    {"rank": 5, "name": " Trello"},
+    {"rank": 6, "name": "Asana"},
+    {"rank": 7, "name": "Google Keep"},
+    {"rank": 8, "name": "Any.do"},
+    {"rank": 9, "name": "ClickUp"},
+    {"rank": 10, "name": "Monday.com"},
+    {"rank": 11, "name": "Zapier"},
+    {"rank": 12, "name": "IFTTT"},
+    {"rank": 13, "name": "RescueTime"},
+    {"rank": 14, "name": "Forest"},
+    {"rank": 15, "name": "Focus@Will"},
+    {"rank": 16, "name": "Brain.fm"},
+    {"rank": 17, "name": "Noisli"},
+    {"rank": 18, "name": "Headspace"},
+    {"rank": 19, "name": "Calm"},
+    {"rank": 20, "name": "Otter.ai"}
+  ],
+  "criteria": [
+    {
+      "name": "User Ratings",
+      "description": "Average user ratings on popular app stores like Google Play Store and Apple App Store.",
+      "type": "Float [1]",
+      "sources": "Google Play Store, Apple App Store"
+    },
+    {
+      "name": "Number of Downloads",
+      "description": "Total number of downloads or installs from app stores.",
+      "type": "Integer [1]",
+      "sources": "Google Play Store, Apple App Store, Sensor Tower"
+    },
+    {
+      "name": "AI Integration",
+      "description": "Level and effectiveness of AI integration in the app's features.",
+      "type": "Text [1]",
+      "sources": "Expert reviews, app descriptions, developer websites"
+    },
+    {
+      "name": "User Interface and Experience",
+      "description": "Quality of the app's user interface and overall user experience.",
+      "type": "Text [1]",
+      "sources": "User reviews, expert reviews, design awards"
+    },
+    {
+      "name": "Feature Set",
+      "description": "Range and usefulness of the app's features and tools.",
+      "type": "Text [1]",
+      "sources": "App descriptions, user reviews, expert analyses"
+    },
+    {
+      "name": "Cross-Platform Availability",
+      "description": "Availability of the app across different platforms and devices.",
+      "type": "Text [1]",
+      "sources": "App descriptions, developer websites"
+    },
+    {
+      "name": "Integration with Other Services",
+      "description": "Ability to integrate with other apps, services, and tools.",
+      "type": "Text [1]",
+      "sources": "App descriptions, user reviews, developer websites"
+    },
+    {
+      "name": "Innovation and Uniqueness",
+      "description": "Degree of innovation and uniqueness in the app's approach to productivity.",
+      "type": "Text [1]",
+      "sources": "Expert reviews, app descriptions, industry awards"
+    },
+    {
+      "name": "Accessibility",
+      "description": "App's accessibility features and compliance with accessibility standards.",
+      "type": "Text [1]",
+      "sources": "App descriptions, user reviews, accessibility reports"
+    },
+    {
+      "name": "Privacy and Security",
+      "description": "Effectiveness of the app's privacy and security measures.",
+      "type": "Text [1]",
+      "sources": "App descriptions, user reviews, security audits"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+
+{
+  "apps": [
+    {"rank": 1, "name": "Google Assistant"},
+    {"rank": 2, "name": "Fitbod"},
+    {"rank": 3, "name": "Noom"},
+    {"rank": 4, "name": "Youper"},
+    {"rank": 5, "name": "Taskade"},
+    {"rank": 6, "name": "Alexa"},
+    {"rank": 7, "name": "Siri"},
+    {"rank": 8, "name": "Otter.ai"},
+    {"rank": 9, "name": "Motion"},
+    {"rank": 10, "name": "Aaptiv"},
+    {"rank": 11, "name": "Keelo"},
+    {"rank": 12, "name": "Buoy"},
+    {"rank": 13, "name": "HeyLife"},
+    {"rank": 14, "name": "Sweatcoin"},
+    {"rank": 15, "name": "Strava"},
+    {"rank": 16, "name": "ASENSEI"},
+    {"rank": 17, "name": "MyPlate"},
+    {"rank": 18, "name": "Healthily"},
+    {"rank": 19, "name": "Calm"},
+    {"rank": 20, "name": "Woebot"}
+  ],
+  "criteria": [
+    {
+      "name": "User Ratings and Reviews",
+      "description": "Reflects user satisfaction and app quality based on ratings and reviews in app stores.",
+      "type": "Float [1]",
+      "sources": "Google Play Store, App Store"
+    },
+    {
+      "name": "AI Personalization",
+      "description": "The degree to which the app uses AI to tailor content, recommendations, or experiences to individual user needs and preferences.",
+      "type": "Text [*]",
+      "sources": "App descriptions, user reviews, expert reviews"
+    },
+    {
+      "name": "Functionality and Features",
+      "description": "The breadth and depth of features offered by the app, including task management, health tracking, content generation, and integration with other services.",
+      "type": "Text [*]",
+      "sources": "App descriptions, expert reviews"
+    },
+    {
+      "name": "Number of Downloads/Active Users",
+      "description": "Indicates the app's popularity and adoption rate.",
+      "type": "Integer [1]",
+      "sources": "App store statistics, Sensor Tower, Similarweb"
+    },
+    {
+      "name": "Expert Reviews and Mentions",
+      "description": "Assessments and recommendations from tech blogs, industry experts, and publications.",
+      "type": "Text [*]",
+      "sources": "Tech blogs, industry publications"
+    }
+  ]
+}

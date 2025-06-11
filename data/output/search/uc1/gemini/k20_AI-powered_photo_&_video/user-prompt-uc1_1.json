@@ -1,0 +1,82 @@
+I need to define the criteria by which I will rank and select the 20 AI-powered photo & video apps. Here are some potential criteria, which I will refine and use in my final JSON output:
+
+*   **User Ratings and Reviews:** How do users perceive the app's AI features and overall performance? (Source: App Stores)
+*   **Number of Downloads/Installs:** Indicates the app's popularity and reach. (Source: App Stores)
+*   **AI Feature Set:** The breadth and depth of AI-powered features for photo and video editing (e.g., object removal, style transfer, super-resolution, etc.). (Source: App descriptions, tech reviews)
+*   **Ease of Use:** How easy is it for users to understand and use the AI features? (Source: App Reviews, tech reviews)
+*   **Performance & Stability:** How well does the app perform in terms of speed, crashes, and overall stability? (Source: App Reviews, tech reviews)
+*   **Privacy:** How does the app handle user data and privacy, especially concerning AI processing? (Source: Privacy policies, app descriptions, tech reviews)
+*   **Cost:** Is it free, subscription-based, or a one-time purchase? (Source: App Stores)
+*   **Update Frequency:** How often is the app updated with new features and improvements? (Source: App Stores)
+*   **Cross-Platform Availability:** Is the app available on multiple platforms (iOS, Android, Web)? (Source: App Stores, App Website)
+*   **Output Quality:** How good are the results of the AI processing in terms of resolution, clarity, and realism? (Source: Tech Reviews, User Reviews)
+
+```json
+{
+  "apps": [
+    {"rank": 1, "name": "YouCam Video"},
+    {"rank": 2, "name": "Quso.ai"},
+    {"rank": 3, "name": "Adobe Photoshop"},
+    {"rank": 4, "name": "Meitu"},
+    {"rank": 5, "name": "Luminar Neo"},
+    {"rank": 6, "name": "PicsArt"},
+    {"rank": 7, "name": "Remini"},
+    {"rank": 8, "name": "InVideo AI"},
+    {"rank": 9, "name": "Runway ML"},
+    {"rank": 10, "name": "Synthesia"},
+    {"rank": 11, "name": "YouCam Enhance"},
+    {"rank": 12, "name": "Filmora AI Video Editor"},
+    {"rank": 13, "name": "CapCut"},
+    {"rank": 14, "name": "Photoroom"},
+    {"rank": 15, "name": "Pixlr"},
+    {"rank": 16, "name": "PhotoDirector"},
+    {"rank": 17, "name": "Fotor AI"},
+    {"rank": 18, "name": "Lensa AI"},
+    {"rank": 19, "name": "Adobe Premiere Pro"},
+    {"rank": 20, "name": "Canva"}
+  ],
+  "criteria": [
+    {
+      "name": "AI Feature Set",
+      "description": "Breadth and depth of AI-powered features for photo and video editing (e.g., object removal, style transfer, super-resolution, generative AI, etc.).",
+      "type": "Text[*]",
+      "sources": "App descriptions, tech reviews"
+    },
+    {
+      "name": "User Ratings and Reviews",
+      "description": "User perception of the app's AI features and overall performance, ease of use, and output quality.",
+      "type": "Float[1]",
+      "sources": "App Stores, tech reviews"
+    },
+    {
+      "name": "Number of Downloads/Installs",
+      "description": "Indicates the app's popularity and reach.",
+      "type": "Integer[1]",
+      "sources": "App Stores"
+    },
+    {
+      "name": "Ease of Use",
+      "description": "How easy it is for users to understand and use the AI features.",
+      "type": "Text[1]",
+      "sources": "App Reviews, tech reviews"
+    },
+    {
+      "name": "Cross-Platform Availability",
+      "description": "Availability of the app on multiple platforms (iOS, Android, Web).",
+      "type": "Boolean[1]",
+      "sources": "App Stores, App Website"
+    },
+    {
+      "name": "Cost",
+      "description": "Pricing model of the app (free, subscription-based, or one-time purchase).",
+      "type": "Text[1]",
+      "sources": "App Stores"
+    },
+    {
+      "name": "Output Quality",
+      "description": "Quality of the results of the AI processing in terms of resolution, clarity, and realism.",
+      "type": "Text[1]",
+      "sources": "Tech Reviews, User Reviews"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+
+{
+  "apps": [
+    {"rank": 1, "name": "Notion"},
+    {"rank": 2, "name": "Todoist"},
+    {"rank": 3, "name": "Evernote"},
+    {"rank": 4, "name": " Trello"},
+    {"rank": 5, "name": "Asana"},
+    {"rank": 6, "name": "Microsoft To Do"},
+    {"rank": 7, "name": "Any.do"},
+    {"rank": 8, "name": "Google Keep"},
+    {"rank": 9, "name": "ClickUp"},
+    {"rank": 10, "name": "Monday.com"},
+    {"rank": 11, "name": "Forest"},
+    {"rank": 12, "name": "TickTick"},
+    {"rank": 13, "name": "Habitica"},
+    {"rank": 14, "name": "Remember The Milk"},
+    {"rank": 15, "name": "Wunderlist"},
+    {"rank": 16, "name": "OmniFocus"},
+    {"rank": 17, "name": "Things 3"},
+    {"rank": 18, "name": "Zenkit"},
+    {"rank": 19, "name": "MeisterTask"},
+    {"rank": 20, "name": "WorkFlowy"}
+  ],
+  "criteria": [
+    {
+      "name": "User Ratings",
+      "description": "Average user ratings on major app stores (e.g., Google Play, Apple App Store).",
+      "type": "Float [1]",
+      "sources": "Google Play Store, Apple App Store"
+    },
+    {
+      "name": "Number of Downloads",
+      "description": "Total number of downloads across major app stores.",
+      "type": "Integer [1]",
+      "sources": "Google Play Store, Apple App Store"
+    },
+    {
+      "name": "AI Integration",
+      "description": "Level of AI integration and features such as natural language processing, predictive analytics, and automation.",
+      "type": "Text [1]",
+      "sources": "App descriptions, user reviews, official app websites"
+    },
+    {
+      "name": "User Interface and Experience",
+      "description": "Quality and intuitiveness of the user interface and overall user experience.",
+      "type": "Text [1]",
+      "sources": "User reviews, expert reviews, app screenshots"
+    },
+    {
+      "name": "Feature Set",
+      "description": "Range and depth of features offered by the app, including task management, note-taking, collaboration tools, etc.",
+      "type": "Text [1]",
+      "sources": "App descriptions, official app websites, user reviews"
+    },
+    {
+      "name": "Cross-Platform Availability",
+      "description": "Availability of the app across different platforms (e.g., iOS, Android, Web, Desktop).",
+      "type": "Text [1]",
+      "sources": "Official app websites, app store listings"
+    },
+    {
+      "name": "Integration with Other Services",
+      "description": "Ability to integrate with other productivity tools, calendars, email clients, etc.",
+      "type": "Text [1]",
+      "sources": "App descriptions, official app websites, user reviews"
+    },
+    {
+      "name": "Regular Updates and Support",
+      "description": "Frequency of app updates and quality of customer support.",
+      "type": "Text [1]",
+      "sources": "App store listings, user reviews, official app websites"
+    }
+  ]
+}

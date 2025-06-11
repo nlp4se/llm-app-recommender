@@ -1,0 +1,57 @@
+
+{
+  "apps": [
+    {"rank": 1, "name": "ChatGPT"},
+    {"rank": 2, "name": "Google Gemini"},
+    {"rank": 3, "name": "Microsoft Copilot"},
+    {"rank": 4, "name": "Otter"},
+    {"rank": 5, "name": "Perplexity AI"},
+    {"rank": 6, "name": "GitHub Copilot"},
+    {"rank": 7, "name": "Socratic"},
+    {"rank": 8, "name": "Claude"},
+    {"rank": 9, "name": "Zapier"},
+    {"rank": 10, "name": "Jasper"},
+    {"rank": 11, "name": "Nova"},
+    {"rank": 12, "name": "ChatOn"},
+    {"rank": 13, "name": "Chatbot AI"},
+    {"rank": 14, "name": "Talkie"},
+    {"rank": 15, "name": "Character AI"},
+    {"rank": 16, "name": "Grok"},
+    {"rank": 17, "name": "Bing"},
+    {"rank": 18, "name": "Invideo AI"},
+    {"rank": 19, "name": "Texts.com"},
+    {"rank": 20, "name": "Humata AI"}
+  ],
+  "criteria": [
+    {
+      "name": "Downloads",
+      "description": "Number of times the app has been downloaded.",
+      "type": "Integer[1]",
+      "sources": "Backlinko"
+    },
+    {
+      "name": "Monthly Active Users",
+      "description": "Number of users actively using the app on a monthly basis.",
+      "type": "Integer[1]",
+      "sources": "Backlinko"
+    },
+    {
+      "name": "AI Functionality",
+      "description": "The breadth and depth of AI features offered by the app.",
+      "type": "Text[1]",
+      "sources": "Built In, Golden Owl, Formaloo"
+    },
+    {
+      "name": "User Reviews and Ratings",
+      "description": "Average rating and number of reviews by users.",
+      "type": "Float[1]",
+      "sources": "App Store, Google Play Store"
+    },
+    {
+      "name": "Versatility",
+      "description": "The range of tasks the app can perform.",
+      "type": "Text[1]",
+      "sources": "Various"
+    }
+  ]
+}

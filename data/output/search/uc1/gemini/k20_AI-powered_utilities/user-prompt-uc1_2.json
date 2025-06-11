@@ -1,0 +1,119 @@
+Okay, I can recommend 20 AI-powered utility apps and rank them. However, I need to define the ranking criteria first. The goal is to provide a useful ranking, so let's consider criteria that reflect app quality, functionality, and user satisfaction.
+
+```json
+{
+  "apps": [
+    {
+      "rank": 1,
+      "name": "ChatGPT"
+    },
+    {
+      "rank": 2,
+      "name": "Google Gemini"
+    },
+    {
+      "rank": 3,
+      "name": "Microsoft Copilot"
+    },
+    {
+      "rank": 4,
+      "name": "Perplexity AI"
+    },
+    {
+      "rank": 5,
+      "name": "Claude"
+    },
+    {
+      "rank": 6,
+      "name": "Canva Magic Studio"
+    },
+    {
+      "rank": 7,
+      "name": "Grammarly"
+    },
+    {
+      "rank": 8,
+      "name": "Notion AI"
+    },
+    {
+      "rank": 9,
+      "name": "Runway"
+    },
+    {
+      "rank": 10,
+      "name": "Descript"
+    },
+    {
+      "rank": 11,
+      "name": "Otter.ai"
+    },
+    {
+      "rank": 12,
+      "name": "Synthesia"
+    },
+    {
+      "rank": 13,
+      "name": "Jasper"
+    },
+    {
+      "rank": 14,
+      "name": "DALL-E 3"
+    },
+    {
+      "rank": 15,
+      "name": "Midjourney"
+    },
+    {
+      "rank": 16,
+      "name": "ElevenLabs"
+    },
+    {
+      "rank": 17,
+      "name": "Zapier"
+    },
+    {
+      "rank": 18,
+      "name": "Filmora"
+    },
+    {
+      "rank": 19,
+      "name": "DeepL"
+    },
+    {
+      "rank": 20,
+      "name": "Mem"
+    }
+  ],
+  "criteria": [
+    {
+      "name": "Functionality and Utility",
+      "description": "The breadth and depth of useful features offered by the app, including AI-powered capabilities like content generation, summarization, automation, and task assistance.",
+      "type": "Text[*]",
+      "sources": "Multiple sources detailing app features and capabilities"
+    },
+    {
+      "name": "User Reviews and Ratings",
+      "description": "Aggregate user feedback indicating satisfaction, ease of use, and overall app quality.",
+      "type": "Float[1]",
+      "sources": "App stores, user review sites"
+    },
+    {
+      "name": "AI Model Sophistication",
+      "description": "The underlying AI model's capabilities (e.g., GPT-4o, Claude 3 Opus), including reasoning, accuracy, and multimodality.",
+      "type": "Text[1]",
+      "sources": "AI model benchmarks, technical specifications"
+    },
+    {
+      "name": "Integration and Compatibility",
+      "description": "How well the app integrates with other platforms and services, and its compatibility across different devices and operating systems.",
+      "type": "Text[*]",
+      "sources": "App descriptions, user reviews, technical specifications"
+    },
+    {
+      "name": "Cost and Accessibility",
+      "description": "The availability of free tiers, trial periods, and subscription pricing, considering the value provided for the cost.",
+      "type": "Float[1]",
+      "sources": "App store listings, pricing pages"
+    }
+  ]
+}

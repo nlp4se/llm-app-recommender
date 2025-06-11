@@ -1,0 +1,75 @@
+
+{
+  "apps": [
+    {"rank": 1, "name": "Microsoft Math Solver"},
+    {"rank": 2, "name": "Photomath"},
+    {"rank": 3, "name": "CamScanner"},
+    {"rank": 4, "name": "Socratic by Google"},
+    {"rank": 5, "name": "Replika"},
+    {"rank": 6, "name": "Wysa"},
+    {"rank": 7, "name": "Youper"},
+    {"rank": 8, "name": "DataBot"},
+    {"rank": 9, "name": "ELSA Speak"},
+    {"rank": 10, "name": "MyScript Calculator"},
+    {"rank": 11, "name": "Prisma"},
+    {"rank": 12, "name": "Fotor"},
+    {"rank": 13, "name": "FaceApp"},
+    {"rank": 14, "name": "Lensa"},
+    {"rank": 15, "name": "Voicemod"},
+    {"rank": 16, "name": "Descript"},
+    {"rank": 17, "name": "Runway ML"},
+    {"rank": 18, "name": "DeepArt"},
+    {"rank": 19, "name": "PicsArt"},
+    {"rank": 20, "name": "Remini"}
+  ],
+  "criteria": [
+    {
+      "name": "User Ratings",
+      "description": "Average rating given by users on app stores.",
+      "type": "Float [1]",
+      "sources": "Google Play Store, Apple App Store"
+    },
+    {
+      "name": "Downloads",
+      "description": "Total number of times the app has been downloaded.",
+      "type": "Integer [1]",
+      "sources": "Google Play Store, Apple App Store, Sensor Tower"
+    },
+    {
+      "name": "AI Integration",
+      "description": "Level and effectiveness of AI integration in the app's core functionality.",
+      "type": "Text [1]",
+      "sources": "App descriptions, user reviews, expert analysis"
+    },
+    {
+      "name": "User Interface",
+      "description": "Ease of use and intuitiveness of the app's interface.",
+      "type": "Text [1]",
+      "sources": "User reviews, expert analysis"
+    },
+    {
+      "name": "Functionality",
+      "description": "Range and usefulness of the app's features.",
+      "type": "Text [1]",
+      "sources": "App descriptions, user reviews, expert analysis"
+    },
+    {
+      "name": "Innovation",
+      "description": "Uniqueness and innovativeness of the app's AI-powered features.",
+      "type": "Text [1]",
+      "sources": "App descriptions, user reviews, expert analysis"
+    },
+    {
+      "name": "Update Frequency",
+      "description": "How often the app is updated with new features, improvements, and bug fixes.",
+      "type": "Text [1]",
+      "sources": "Google Play Store, Apple App Store"
+    },
+    {
+      "name": "Accessibility",
+      "description": "App's availability and performance across different platforms and devices.",
+      "type": "Text [1]",
+      "sources": "App descriptions, user reviews, expert analysis"
+    }
+  ]
+}

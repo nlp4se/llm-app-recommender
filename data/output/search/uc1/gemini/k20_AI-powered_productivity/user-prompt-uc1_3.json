@@ -1,0 +1,57 @@
+
+{
+  "apps": [
+    {"rank": 1, "name": "ChatGPT"},
+    {"rank": 2, "name": "Notion AI"},
+    {"rank": 3, "name": "Grammarly"},
+    {"rank": 4, "name": "Otter.ai"},
+    {"rank": 5, "name": "Midjourney"},
+    {"rank": 6, "name": "Fireflies.ai"},
+    {"rank": 7, "name": "Motion"},
+    {"rank": 8, "name": "Claude"},
+    {"rank": 9, "name": "Canva"},
+    {"rank": 10, "name": "Gamma"},
+    {"rank": 11, "name": "Humata"},
+    {"rank": 12, "name": "Recast"},
+    {"rank": 13, "name": "Arc Browser"},
+    {"rank": 14, "name": "Perplexity"},
+    {"rank": 15, "name": "Texts"},
+    {"rank": 16, "name": "Missive"},
+    {"rank": 17, "name": "Reclaim"},
+    {"rank": 18, "name": "Taskade"},
+    {"rank": 19, "name": "Superhuman"},
+    {"rank": 20, "name": "DeepSeek"}
+  ],
+  "criteria": [
+    {
+      "name": "Versatility",
+      "description": "The capability of the app to be applied to a variety of tasks and workflows.",
+      "type": "Text[*]",
+      "sources": "iAppList, Motion"
+    },
+    {
+      "name": "Task Automation",
+      "description": "The degree to which the app automates repetitive tasks, freeing up user time.",
+      "type": "Boolean[1]",
+      "sources": "Reddit"
+    },
+    {
+      "name": "Integration Capabilities",
+      "description": "The ability of the app to seamlessly integrate with other tools and platforms.",
+      "type": "Text[*]",
+      "sources": "Motion, Zapier"
+    },
+    {
+      "name": "User Experience",
+      "description": "The intuitiveness and ease of use of the app's interface and features.",
+      "type": "Text[1]",
+      "sources": "Motion"
+    },
+    {
+      "name": "AI Model",
+      "description": "The type and sophistication of the AI models used by the app (e.g., GPT-4o, GPT-3.5).",
+      "type": "Text[1]",
+      "sources": "Motion"
+    }
+  ]
+}

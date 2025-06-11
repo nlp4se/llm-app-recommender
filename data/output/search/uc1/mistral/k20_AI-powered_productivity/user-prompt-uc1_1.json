@@ -1,0 +1,87 @@
+
+{
+  "apps": [
+    {"rank": 1, "name": "Notion"},
+    {"rank": 2, "name": "Todoist"},
+    {"rank": 3, "name": "Evernote"},
+    {"rank": 4, "name": "Trello"},
+    {"rank": 5, "name": "Asana"},
+    {"rank": 6, "name": "Microsoft To Do"},
+    {"rank": 7, "name": "Any.do"},
+    {"rank": 8, "name": "ClickUp"},
+    {"rank": 9, "name": "Google Keep"},
+    {"rank": 10, "name": "Monday.com"},
+    {"rank": 11, "name": "Wunderlist"},
+    {"rank": 12, "name": "Habitica"},
+    {"rank": 13, "name": "Remember The Milk"},
+    {"rank": 14, "name": "OmniFocus"},
+    {"rank": 15, "name": "Things 3"},
+    {"rank": 16, "name": "TickTick"},
+    {"rank": 17, "name": "MeisterTask"},
+    {"rank": 18, "name": "Zoho Projects"},
+    {"rank": 19, "name": "Basecamp"},
+    {"rank": 20, "name": "Airtable"}
+  ],
+  "criteria": [
+    {
+      "name": "User Ratings",
+      "description": "Average user ratings on platforms like Google Play Store and Apple App Store.",
+      "type": "Float [1]",
+      "sources": "Google Play Store, Apple App Store"
+    },
+    {
+      "name": "Downloads",
+      "description": "Total number of downloads across platforms.",
+      "type": "Integer [1]",
+      "sources": "Google Play Store, Apple App Store, Sensor Tower"
+    },
+    {
+      "name": "AI Integration",
+      "description": "Level of AI integration and features such as natural language processing, predictive analytics, and automation.",
+      "type": "Text [1]",
+      "sources": "App descriptions, reviews, developer websites"
+    },
+    {
+      "name": "User Interface",
+      "description": "Ease of use and intuitiveness of the app's interface.",
+      "type": "Text [1]",
+      "sources": "User reviews, expert opinions"
+    },
+    {
+      "name": "Cross-Platform Availability",
+      "description": "Availability of the app across different platforms such as iOS, Android, Web, and Desktop.",
+      "type": "Boolean [1]",
+      "sources": "App descriptions, developer websites"
+    },
+    {
+      "name": "Integration with Other Tools",
+      "description": "Ability to integrate with other productivity tools and services.",
+      "type": "Text [1]",
+      "sources": "App descriptions, developer websites, user reviews"
+    },
+    {
+      "name": "Feature Set",
+      "description": "Range and depth of features offered by the app.",
+      "type": "Text [1]",
+      "sources": "App descriptions, developer websites, user reviews"
+    },
+    {
+      "name": "Security and Privacy",
+      "description": "Measures taken to ensure user data security and privacy.",
+      "type": "Text [1]",
+      "sources": "App descriptions, developer websites, security audits"
+    },
+    {
+      "name": "Customer Support",
+      "description": "Quality and responsiveness of customer support.",
+      "type": "Text [1]",
+      "sources": "User reviews, developer websites"
+    },
+    {
+      "name": "Pricing",
+      "description": "Cost of the app and any additional in-app purchases or subscriptions.",
+      "type": "Text [1]",
+      "sources": "App descriptions, developer websites"
+    }
+  ]
+}

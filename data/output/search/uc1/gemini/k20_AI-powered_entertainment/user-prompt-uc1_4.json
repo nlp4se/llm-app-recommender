@@ -1,0 +1,57 @@
+
+{
+  "apps": [
+    {"rank": 1, "name": "DeepEditor"},
+    {"rank": 2, "name": "ElevenLabs"},
+    {"rank": 3, "name": "Sora"},
+    {"rank": 4, "name": "FireCut"},
+    {"rank": 5, "name": "Move"},
+    {"rank": 6, "name": "Wonder Studio"},
+    {"rank": 7, "name": "Vanity AI"},
+    {"rank": 8, "name": "Respeecher Marketplace"},
+    {"rank": 9, "name": "Beatoven"},
+    {"rank": 10, "name": "Spotlight"},
+    {"rank": 11, "name": "Janitor AI"},
+    {"rank": 12, "name": "Lovescape"},
+    {"rank": 13, "name": "PolyBuzz"},
+    {"rank": 14, "name": "Fotor Hairstyle Changer"},
+    {"rank": 15, "name": "CrushOn.AI"},
+    {"rank": 16, "name": "Moescape AI"},
+    {"rank": 17, "name": "Candy AI"},
+    {"rank": 18, "name": "Talkie AI"},
+    {"rank": 19, "name": "Chub"},
+    {"rank": 20, "name": "Joi AI"}
+  ],
+  "criteria": [
+    {
+      "name": "Functionality",
+      "description": "The core features and capabilities of the app, including AI-driven content generation, editing, or personalization.",
+      "type": "Text[*]",
+      "sources": "Multiple sources"
+    },
+    {
+      "name": "User Experience",
+      "description": "How easy and enjoyable the app is to use, including the interface, navigation, and overall design.",
+      "type": "Text",
+      "sources": "Multiple sources"
+    },
+    {
+      "name": "AI Implementation",
+      "description": "The sophistication and effectiveness of the AI algorithms used in the app.",
+      "type": "Text",
+      "sources": "Multiple sources"
+    },
+    {
+      "name": "Content Quality",
+      "description": "The quality and originality of the content generated or enhanced by the AI.",
+      "type": "Text",
+      "sources": "Multiple sources"
+    },
+    {
+      "name": "Personalization",
+      "description": "The ability of the app to tailor content and experiences to individual user preferences.",
+      "type": "Text",
+      "sources": "Multiple sources"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+
+{
+  "apps": [
+    {"rank": 1, "name": "Luminar Neo"},
+    {"rank": 2, "name": "Adobe Photoshop"},
+    {"rank": 3, "name": "Canva"},
+    {"rank": 4, "name": "Picsart"},
+    {"rank": 5, "name": "Pixlr"},
+    {"rank": 6, "name": "Fotor Photo Editor"},
+    {"rank": 7, "name": "Lensa AI"},
+    {"rank": 8, "name": "Remini"},
+    {"rank": 9, "name": "YouCam Makeup"},
+    {"rank": 10, "name": "PhotoDirector"},
+    {"rank": 11, "name": "Invideo AI"},
+    {"rank": 12, "name": "Descript"},
+    {"rank": 13, "name": "RunwayML"},
+    {"rank": 14, "name": "Wondershare Filmora"},
+    {"rank": 15, "name": "NeuralCam AI Camera"},
+    {"rank": 16, "name": "LightCut"},
+    {"rank": 17, "name": "Captions AI"},
+    {"rank": 18, "name": "FireCut"},
+    {"rank": 19, "name": "Gling"},
+    {"rank": 20, "name": "Opus Clip"}
+  ],
+  "criteria": [
+    {
+      "name": "AI-Powered Tools",
+      "description": "Presence and quality of AI-driven features such as object removal, background replacement, style transfer, image enhancement, and intelligent editing assistance.",
+      "type": "Boolean[1]",
+      "sources": "Guru, YouTube, Zapier, Kripesh Adwani, Invideo AI, Reddit"
+    },
+    {
+      "name": "User Interface and Ease of Use",
+      "description": "Intuitiveness and user-friendliness of the app's interface, making it accessible for both beginners and professionals.",
+      "type": "Text[1]",
+      "sources": "Guru, Kripesh Adwani, LightCut"
+    },
+    {
+      "name": "Versatility and Functionality",
+      "description": "Range of editing tools and features available, including basic adjustments, filters, effects, and advanced capabilities like layering and masking.",
+      "type": "Text[*]",
+      "sources": "Zapier, Kripesh Adwani, Invideo AI, YouTube"
+    },
+    {
+      "name": "Platform Availability",
+      "description": "Availability of the app on multiple platforms such as iOS, Android, Windows, and macOS.",
+      "type": "Text[*]",
+      "sources": "Guru, Kripesh Adwani, Wondershare Filmora"
+    },
+    {
+      "name": "Price",
+      "description": "Cost of the app, including subscription fees, in-app purchases, and the availability of a free version.",
+      "type": "Float[1]",
+      "sources": "Zapier, Neural Studio"
+    },
+    {
+      "name": "Object Identification",
+      "description": "Ability of the app to identify objects, landmarks, and other elements within a photo using AI.",
+      "type": "Boolean[1]",
+      "sources": "App Store"
+    },
+    {
+      "name": "Real-time Guidance",
+      "description": "Provides real-time guidance to help users create better compositions, identify compelling subjects, find creative angles, and use lighting to their advantage.",
+      "type": "Boolean[1]",
+      "sources": "Deepgram"
+    },
+    {
+      "name": "Video Editing Capabilities",
+      "description": "Ability to perform video editing tasks, such as cutting, trimming, adding captions, and generating short clips from longer videos.",
+      "type": "Boolean[1]",
+      "sources": "YouTube"
+    }
+  ]
+}

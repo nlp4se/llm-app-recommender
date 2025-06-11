@@ -1,0 +1,57 @@
+
+{
+  "apps": [
+    {"rank": 1, "name": "FeedHive"},
+    {"rank": 2, "name": "Buffer"},
+    {"rank": 3, "name": "Flick"},
+    {"rank": 4, "name": "Predis.ai"},
+    {"rank": 5, "name": "Publer"},
+    {"rank": 6, "name": "ContentStudio"},
+    {"rank": 7, "name": "Hootsuite"},
+    {"rank": 8, "name": "StoryChief"},
+    {"rank": 9, "name": "ChatGPT"},
+    {"rank": 10, "name": "Canva AI"},
+    {"rank": 11, "name": "Jasper AI"},
+    {"rank": 12, "name": "Supermeme.ai"},
+    {"rank": 13, "name": "Pictory"},
+    {"rank": 14, "name": "Sprinklr"},
+    {"rank": 15, "name": "Chatfuel"},
+    {"rank": 16, "name": "Lumen5"},
+    {"rank": 17, "name": "VSCO"},
+    {"rank": 18, "name": "Mentionlytics"},
+    {"rank": 19, "name": "Meltwater"},
+    {"rank": 20, "name": "Mandala AI"}
+  ],
+  "criteria": [
+    {
+      "name": "AI-Powered Content Generation",
+      "description": "The app utilizes AI to assist in creating social media content, including text, images, and videos.",
+      "type": "Boolean[1]",
+      "sources": "Multiple sources"
+    },
+    {
+      "name": "Social Media Management",
+      "description": "The app provides tools for managing multiple social media accounts, scheduling posts, and analyzing performance.",
+      "type": "Boolean[1]",
+      "sources": "Multiple sources"
+    },
+    {
+      "name": "AI-Driven Analytics",
+      "description": "The app uses AI to analyze social media data, providing insights into audience sentiment, engagement, and trends.",
+      "type": "Boolean[1]",
+      "sources": "Multiple sources"
+    },
+    {
+      "name": "Automation Capabilities",
+      "description": "The app automates repetitive tasks such as posting, responding to inquiries, and content recycling.",
+      "type": "Boolean[1]",
+      "sources": "Multiple sources"
+    },
+    {
+      "name": "Content Repurposing",
+      "description": "The app helps repurpose existing content for different social media platforms.",
+      "type": "Boolean[1]",
+      "sources": "Multiple sources"
+    }
+  ]
+}

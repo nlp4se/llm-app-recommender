@@ -1,0 +1,75 @@
+
+{
+  "apps": [
+    {"rank": 1, "name": "Netflix"},
+    {"rank": 2, "name": "Spotify"},
+    {"rank": 3, "name": "YouTube"},
+    {"rank": 4, "name": "Disney+"},
+    {"rank": 5, "name": "Amazon Prime Video"},
+    {"rank": 6, "name": "Hulu"},
+    {"rank": 7, "name": "Apple Music"},
+    {"rank": 8, "name": "TikTok"},
+    {"rank": 9, "name": "Pandora"},
+    {"rank": 10, "name": "HBO Max"},
+    {"rank": 11, "name": "Peacock"},
+    {"rank": 12, "name": "Twitch"},
+    {"rank": 13, "name": "SoundCloud"},
+    {"rank": 14, "name": "Deezer"},
+    {"rank": 15, "name": "Paramount+"},
+    {"rank": 16, "name": "Audible"},
+    {"rank": 17, "name": "iHeartRadio"},
+    {"rank": 18, "name": "Vimeo"},
+    {"rank": 19, "name": "Crunchyroll"},
+    {"rank": 20, "name": "Funimation"}
+  ],
+  "criteria": [
+    {
+      "name": "User Ratings",
+      "description": "Average user ratings on app stores (e.g., Google Play, Apple App Store).",
+      "type": "Float [1]",
+      "sources": "Google Play Store, Apple App Store"
+    },
+    {
+      "name": "Downloads",
+      "description": "Total number of downloads across platforms.",
+      "type": "Integer [1]",
+      "sources": "Google Play Store, Apple App Store, Sensor Tower"
+    },
+    {
+      "name": "Active Users",
+      "description": "Monthly active users (MAU) or daily active users (DAU).",
+      "type": "Integer [1]",
+      "sources": "Company reports, App Annie"
+    },
+    {
+      "name": "Content Library Size",
+      "description": "Size and variety of the content library offered by the app.",
+      "type": "Integer [1]",
+      "sources": "Official app websites, third-party reviews"
+    },
+    {
+      "name": "AI Integration",
+      "description": "Level and effectiveness of AI integration for personalization, recommendations, and other features.",
+      "type": "Text [1]",
+      "sources": "App descriptions, user reviews, tech blogs"
+    },
+    {
+      "name": "User Interface and Experience",
+      "description": "Quality and ease of use of the app's interface and overall user experience.",
+      "type": "Text [1]",
+      "sources": "User reviews, expert reviews, usability testing reports"
+    },
+    {
+      "name": "Subscription Cost",
+      "description": "Cost of subscription plans and value for money.",
+      "type": "Float [1]",
+      "sources": "Official app websites, pricing pages"
+    },
+    {
+      "name": "Cross-Platform Availability",
+      "description": "Availability of the app across different platforms and devices.",
+      "type": "Text [1]",
+      "sources": "Official app websites, app store listings"
+    }
+  ]
+}

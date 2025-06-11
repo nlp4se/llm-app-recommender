@@ -1,0 +1,75 @@
+
+{
+  "apps": [
+    {"rank": 1, "name": "Mint"},
+    {"rank": 2, "name": "Personal Capital"},
+    {"rank": 3, "name": "You Need A Budget (YNAB)"},
+    {"rank": 4, "name": "PocketGuard"},
+    {"rank": 5, "name": "Goodbudget"},
+    {"rank": 6, "name": "EveryDollar"},
+    {"rank": 7, "name": "Spendee"},
+    {"rank": 8, "name": "Money Lover"},
+    {"rank": 9, "name": "Wallet"},
+    {"rank": 10, "name": "Monefy"},
+    {"rank": 11, "name": "Expensify"},
+    {"rank": 12, "name": "HomeBudget"},
+    {"rank": 13, "name": "Pocketsmith"},
+    {"rank": 14, "name": "Simplifi"},
+    {"rank": 15, "name": "Copilot"},
+    {"rank": 16, "name": "Cleo"},
+    {"rank": 17, "name": "Emma"},
+    {"rank": 18, "name": "Truebill"},
+    {"rank": 19, "name": "Albert"},
+    {"rank": 20, "name": "Digit"}
+  ],
+  "criteria": [
+    {
+      "name": "User Ratings",
+      "description": "Average user ratings on app stores (e.g., Google Play, Apple App Store).",
+      "type": "Float [1]",
+      "sources": "Google Play Store, Apple App Store"
+    },
+    {
+      "name": "Number of Downloads",
+      "description": "Total number of downloads or installs from app stores.",
+      "type": "Integer [1]",
+      "sources": "Google Play Store, Apple App Store, Sensor Tower"
+    },
+    {
+      "name": "AI Integration",
+      "description": "Level and effectiveness of AI integration in the app's features.",
+      "type": "Text [1]",
+      "sources": "App descriptions, user reviews, tech blogs"
+    },
+    {
+      "name": "Feature Set",
+      "description": "Range and usefulness of features offered by the app.",
+      "type": "Text [1]",
+      "sources": "App descriptions, user reviews, tech blogs"
+    },
+    {
+      "name": "User Interface and Experience",
+      "description": "Quality and intuitiveness of the app's user interface and overall experience.",
+      "type": "Text [1]",
+      "sources": "User reviews, tech blogs, design awards"
+    },
+    {
+      "name": "Security and Privacy",
+      "description": "Strength of security measures and privacy protections.",
+      "type": "Text [1]",
+      "sources": "App descriptions, user reviews, security audits"
+    },
+    {
+      "name": "Customer Support",
+      "description": "Quality and responsiveness of customer support.",
+      "type": "Text [1]",
+      "sources": "User reviews, customer support ratings"
+    },
+    {
+      "name": "Update Frequency",
+      "description": "Frequency of app updates and improvements.",
+      "type": "Integer [1]",
+      "sources": "App store update history, developer blogs"
+    }
+  ]
+}
