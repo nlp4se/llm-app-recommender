@@ -48,7 +48,7 @@ class MistralSearch:
 
     def read_and_format_prompt(self, k: int, category: str) -> str:
         """Read the prompt template and replace placeholders with parameters."""
-        input_file = "data/input/prompts/user-prompt-uc1.txt"
+        input_file = "data/input/prompts/user-prompt-rq1.txt"
         with open(input_file, 'r') as file:
             prompt = file.read()
         
@@ -74,7 +74,7 @@ class MistralSearch:
         user_prompt = self.read_and_format_prompt(k, category)
         os.makedirs(output_folder, exist_ok=True)
 
-        base_name = os.path.splitext(os.path.basename("user-prompt-uc1.txt"))[0]
+        base_name = os.path.splitext(os.path.basename("user-prompt-rq1.txt"))[0]
 
         for i in range(n):
             print(f"Processing run {i+1}/{n}")

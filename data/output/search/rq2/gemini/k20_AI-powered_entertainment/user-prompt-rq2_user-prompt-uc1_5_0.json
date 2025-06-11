@@ -1,0 +1,25 @@
+
+{
+  "apps": [
+    {"rank": 1, "name": "ChatGPT"},
+    {"rank": 2, "name": "Google Gemini"},
+    {"rank": 3, "name": "Netflix"},
+    {"rank": 4, "name": "Spotify"},
+    {"rank": 5, "name": "Lensa"},
+    {"rank": 6, "name": "Facetune"},
+    {"rank": 7, "name": "Prisma"},
+    {"rank": 8, "name": "AIVA"},
+    {"rank": 9, "name": "Remini"},
+    {"rank": 10, "name": "YouCam Makeup"},
+    {"rank": 11, "name": "AI Dungeon"},
+    {"rank": 12, "name": "Replika"},
+    {"rank": 13, "name": "Talkie AI"},
+    {"rank": 14, "name": "Character AI"},
+    {"rank": 15, "name": "Reface: Face Swap Videos"},
+    {"rank": 16, "name": "Descript"},
+    {"rank": 17, "name": "Runway ML"},
+    {"rank": 18, "name": "DALL-E"},
+    {"rank": 19, "name": "Synthesia"},
+    {"rank": 20, "name": "Lumen5"}
+  ]
+}

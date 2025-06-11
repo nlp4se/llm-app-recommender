@@ -1,0 +1,25 @@
+
+{
+  "apps": [
+    {"rank": 1, "name": "SOUNDRAW"},
+    {"rank": 2, "name": "Suno AI"},
+    {"rank": 3, "name": "Udio"},
+    {"rank": 4, "name": "AIVA"},
+    {"rank": 5, "name": "Mubert"},
+    {"rank": 6, "name": "Boomy"},
+    {"rank": 7, "name": "Controlla Voice"},
+    {"rank": 8, "name": "Kits AI"},
+    {"rank": 9, "name": "ACE Studio"},
+    {"rank": 10, "name": "Riffusion"},
+    {"rank": 11, "name": "Soundful"},
+    {"rank": 12, "name": "SongR"},
+    {"rank": 13, "name": "Beatoven AI"},
+    {"rank": 14, "name": "BandLab SongStarter"},
+    {"rank": 15, "name": "Moises"},
+    {"rank": 16, "name": "Loudly"},
+    {"rank": 17, "name": "ElevenLabs"},
+    {"rank": 18, "name": "Vocaloid"},
+    {"rank": 19, "name": "RecordLabel.AI"},
+    {"rank": 20, "name": "WavTool"}
+  ]
+}

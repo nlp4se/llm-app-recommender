@@ -1,0 +1,25 @@
+
+{
+  "apps": [
+    {"rank": 1, "name": "TikTok"},
+    {"rank": 2, "name": "Instagram"},
+    {"rank": 3, "name": "Snapchat"},
+    {"rank": 4, "name": "LinkedIn"},
+    {"rank": 5, "name": "Pinterest"},
+    {"rank": 6, "name": "Reddit"},
+    {"rank": 7, "name": "Twitter"},
+    {"rank": 8, "name": "Bumble"},
+    {"rank": 9, "name": "Discord"},
+    {"rank": 10, "name": "Clubhouse"},
+    {"rank": 11, "name": "Triller"},
+    {"rank": 12, "name": "Replika"},
+    {"rank": 13, "name": "Houseparty"},
+    {"rank": 14, "name": "Meetup"},
+    {"rank": 15, "name": "Hi5"},
+    {"rank": 16, "name": "Yubo"},
+    {"rank": 17, "name": "Ablo"},
+    {"rank": 18, "name": "Elsa Speak"},
+    {"rank": 19, "name": "Wink"},
+    {"rank": 20, "name": "Amino"}
+  ]
+}

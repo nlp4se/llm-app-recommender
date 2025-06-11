@@ -1,0 +1,24 @@
+{
+  "apps": [
+    {"rank": 1, "name": "Shopify AI Commerce"},
+    {"rank": 2, "name": "Nosto"},
+    {"rank": 3, "name": "Klevu"},
+    {"rank": 4, "name": "Tidio AI"},
+    {"rank": 5, "name": "Shopmate"},
+    {"rank": 6, "name": "GrapheneAI"},
+    {"rank": 7, "name": "Rufus"},
+    {"rank": 8, "name": "Shopbox AI"},
+    {"rank": 9, "name": "Vanchat AI"},
+    {"rank": 10, "name": "AskTimmy.ai"},
+    {"rank": 11, "name": "Rep AI"},
+    {"rank": 12, "name": "Ochatbot"},
+    {"rank": 13, "name": "Claros"},
+    {"rank": 14, "name": "Infichat"},
+    {"rank": 15, "name": "Shopdev Shopping Assistant"},
+    {"rank": 16, "name": "Verifast AI"},
+    {"rank": 17, "name": "Gorgias"},
+    {"rank": 18, "name": "Shop (Shopify app)"},
+    {"rank": 19, "name": "MOI (Klevu)"},
+    {"rank": 20, "name": "Tidio"}
+  ]
+}

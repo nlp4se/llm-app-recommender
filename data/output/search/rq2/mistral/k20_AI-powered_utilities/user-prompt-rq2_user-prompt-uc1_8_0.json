@@ -1,0 +1,25 @@
+
+{
+  "apps": [
+    {"rank": 1, "name": "Microsoft SwiftKey"},
+    {"rank": 2, "name": "Google Assistant"},
+    {"rank": 3, "name": "Amazon Alexa"},
+    {"rank": 4, "name": "Replika"},
+    {"rank": 5, "name": "Cortana"},
+    {"rank": 6, "name": "ELSA Speak"},
+    {"rank": 7, "name": "Socratic by Google"},
+    {"rank": 8, "name": "Focos"},
+    {"rank": 9, "name": "Wysa"},
+    {"rank": 10, "name": "Youper"},
+    {"rank": 11, "name": "DataBot"},
+    {"rank": 12, "name": "Hound"},
+    {"rank": 13, "name": "Robin"},
+    {"rank": 14, "name": "Andy"},
+    {"rank": 15, "name": "24me"},
+    {"rank": 16, "name": "Recolor"},
+    {"rank": 17, "name": "Hipmunk"},
+    {"rank": 18, "name": "Photoshop Camera"},
+    {"rank": 19, "name": "Molecular"},
+    {"rank": 20, "name": "Google Arts & Culture"}
+  ]
+}

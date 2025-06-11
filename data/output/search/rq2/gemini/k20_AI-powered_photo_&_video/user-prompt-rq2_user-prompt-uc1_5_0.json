@@ -1,0 +1,105 @@
+
+{
+  "apps": [
+    {
+      "rank": 1,
+      "name": "Adobe Photoshop",
+      "description": "Full-featured photo editing and design app with robust AI-powered tools like the Remove Tool and generative fill. Available on web, iOS, and Android."
+    },
+    {
+      "rank": 2,
+      "name": "Luminar Neo",
+      "description": "AI-powered photo editor with an intuitive interface and tools for background removal, lighting enhancement, and generative AI. Available on Windows, macOS, and as a plugin for Lightroom and Photoshop."
+    },
+    {
+      "rank": 3,
+      "name": "Canva",
+      "description": "AI-powered design app with Magic Design, Magic Media, Magic Eraser, and Magic Edit features for creating templates, generating images and videos, and removing unwanted objects. Available on web, iOS, and Android."
+    },
+    {
+      "rank": 4,
+      "name": "Adobe Lightroom Mobile",
+      "description": "Professional mobile photo editing app with AI-powered features, a wide range of adjustments, and a shockingly great free plan. Available on iOS and Android."
+    },
+    {
+      "rank": 5,
+      "name": "Filmora",
+      "description": "Video editor with AI tools like AI Video Enhancer, AI Text-Based Editing, and AI Music Generator. Available on Windows, Mac, iOS, and Android."
+    },
+    {
+      "rank": 6,
+      "name": "Picsart",
+      "description": "Creative platform with AI-powered editing and design tools, including background removal, generative fill, and customizable doodles and stickers. Available on Android, iOS, and web."
+    },
+    {
+      "rank": 7,
+      "name": "Lensa AI",
+      "description": "AI-powered photo editing app specializing in selfie enhancement, artistic transformations, and portrait retouching. Available on iOS and Android."
+    },
+    {
+      "rank": 8,
+      "name": "YouCam Enhance",
+      "description": "AI-powered photo editing app with tools for unblurring, denoising, color correction, and lightening photos. Available on iOS and Android."
+    },
+    {
+      "rank": 9,
+      "name": "CapCut",
+      "description": "Video editing app known for its advanced features, including AI-powered background removal and automatic transitions. Available on iPhone and Android."
+    },
+    {
+      "rank": 10,
+      "name": "Invideo AI",
+      "description": "AI video editing tool that uses proprietary AI models to edit scripts, media, audio, music, and voiceovers. Available on the web."
+    },
+    {
+      "rank": 11,
+      "name": "Runway",
+      "description": "AI video editor with features like background removal and the ability to generate videos from text prompts. Has both a web version and a Premier plug-in."
+    },
+    {
+      "rank": 12,
+      "name": "Videoleap",
+      "description": "AI video editor with intuitive interface, premade templates, and AI tools like AI Infinite Zoom, AI Video Effects and AI Background Generator. Available online and as an iPhone and Android app."
+    },
+    {
+      "rank": 13,
+      "name": "Pixlr",
+      "description": "Free AI photo editor with AI Face Swap, AI Remove Object, Generative Expand, and Crop Images. Available in web browsers, on smartphones (iPhone and Android), and on desktop."
+    },
+    {
+      "rank": 14,
+      "name": "Descript",
+      "description": "Video editor that allows editing video by editing the script, with nifty AI features. Focused on transcript-based editing."
+    },
+    {
+      "rank": 15,
+      "name": "YouCam Perfect",
+      "description": "All-in-one free photo editing app with filters and enhancing features, including an “AI Enhance” feature. Available on iOS and Android devices."
+    },
+     {
+      "rank": 16,
+      "name": "FireCut",
+      "description": "Video editor that makes video edits stand out from the competition, adding zooms, chapters, captions and B-roll. Has a web version and is available as a Premier plug-in."
+    },
+    {
+      "rank": 17,
+      "name": "Opus Clip",
+      "description": "AI tool that analyzes long-form video, finds the most interesting moments, and creates short, fully edited video clips. "
+    },
+    {
+      "rank": 18,
+      "name": "Remini",
+      "description": "AI photo editing app specializing in photo enhancement and restoration. Available on both Android and iOS."
+    },
+    {
+      "rank": 19,
+      "name": "Afterlight",
+      "description": "Impressively powerful and feature-rich iPhone app that's easy to use. The free version offers a good set of basic editing features, but many of its best tools are available only in the paid version."
+    },
+    {
+      "rank": 20,
+      "name": "Snapseed",
+      "description": "A super powerful and completely free mobile image editing app. Packs in all the basic tools, as well as some decent filters, and a great selective adjustment system."
+    }
+  ]
+}

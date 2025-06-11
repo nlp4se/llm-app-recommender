@@ -1,0 +1,25 @@
+
+{
+  "apps": [
+    {"rank": 1, "name": "Mint"},
+    {"rank": 2, "name": "Cleo"},
+    {"rank": 3, "name": "Personal Capital"},
+    {"rank": 4, "name": "Plum"},
+    {"rank": 5, "name": "Origin"},
+    {"rank": 6, "name": "Alpha by Public"},
+    {"rank": 7, "name": "SoFi"},
+    {"rank": 8, "name": "Albert"},
+    {"rank": 9, "name": "PocketGuard"},
+    {"rank": 10, "name": "YNAB (You Need A Budget)"},
+    {"rank": 11, "name": "Empower Personal Dashboard"},
+    {"rank": 12, "name": "Monarch Money"},
+    {"rank": 13, "name": "Credit Karma"},
+    {"rank": 14, "name": "Quicken Simplifi"},
+    {"rank": 15, "name": "Goodbudget"},
+    {"rank": 16, "name": "NerdWallet"},
+    {"rank": 17, "name": "Rocket Money"},
+    {"rank": 18, "name": "Stash"},
+    {"rank": 19, "name": "EveryDollar"},
+    {"rank": 20, "name": "Snoop"}
+  ]
+}

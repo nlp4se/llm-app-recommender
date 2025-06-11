@@ -1,0 +1,25 @@
+
+{
+  "apps": [
+    {"rank": 1, "name": "TikTok"},
+    {"rank": 2, "name": "Instagram"},
+    {"rank": 3, "name": "Snapchat"},
+    {"rank": 4, "name": "LinkedIn"},
+    {"rank": 5, "name": "Pinterest"},
+    {"rank": 6, "name": "Reddit"},
+    {"rank": 7, "name": "Bumble"},
+    {"rank": 8, "name": "Discord"},
+    {"rank": 9, "name": "Twitter"},
+    {"rank": 10, "name": "Facebook"},
+    {"rank": 11, "name": "Meetup"},
+    {"rank": 12, "name": "Nextdoor"},
+    {"rank": 13, "name": "Quora"},
+    {"rank": 14, "name": "Tinder"},
+    {"rank": 15, "name": "WeChat"},
+    {"rank": 16, "name": "WhatsApp"},
+    {"rank": 17, "name": "Telegram"},
+    {"rank": 18, "name": "Signal"},
+    {"rank": 19, "name": "Clubhouse"},
+    {"rank": 20, "name": " Houseparty"}
+  ]
+}

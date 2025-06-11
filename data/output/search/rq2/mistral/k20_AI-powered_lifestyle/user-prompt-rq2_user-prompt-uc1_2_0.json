@@ -1,0 +1,25 @@
+
+{
+  "apps": [
+    {"rank": 1, "name": "MyFitnessPal"},
+    {"rank": 2, "name": "Headspace"},
+    {"rank": 3, "name": "Sleep Cycle"},
+    {"rank": 4, "name": "Calm"},
+    {"rank": 5, "name": "Fitbit"},
+    {"rank": 6, "name": "Strava"},
+    {"rank": 7, "name": "Lifesum"},
+    {"rank": 8, "name": "Noom"},
+    {"rank": 9, "name": "Youper"},
+    {"rank": 10, "name": "Wysa"},
+    {"rank": 11, "name": "Flo"},
+    {"rank": 12, "name": "Clue"},
+    {"rank": 13, "name": "Habitica"},
+    {"rank": 14, "name": "Plant Nanny"},
+    {"rank": 15, "name": "Forest"},
+    {"rank": 16, "name": "Mint"},
+    {"rank": 17, "name": "Yolt"},
+    {"rank": 18, "name": "Spendee"},
+    {"rank": 19, "name": "Pocket"},
+    {"rank": 20, "name": "Blinkist"}
+  ]
+}

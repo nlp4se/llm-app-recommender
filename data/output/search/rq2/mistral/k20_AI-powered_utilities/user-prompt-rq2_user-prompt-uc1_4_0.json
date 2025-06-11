@@ -1,0 +1,25 @@
+
+{
+  "apps": [
+    {"rank": 1, "name": "Microsoft Lens"},
+    {"rank": 2, "name": "Adobe Scan"},
+    {"rank": 3, "name": "CamScanner"},
+    {"rank": 4, "name": "Otter"},
+    {"rank": 5, "name": "Replika"},
+    {"rank": 6, "name": "Wysa"},
+    {"rank": 7, "name": "Youper"},
+    {"rank": 8, "name": "Socratic"},
+    {"rank": 9, "name": "Photomath"},
+    {"rank": 10, "name": "ELSA Speak"},
+    {"rank": 11, "name": "DataBot"},
+    {"rank": 12, "name": "Hound"},
+    {"rank": 13, "name": "SoundHound"},
+    {"rank": 14, "name": "Prisma"},
+    {"rank": 15, "name": "Focos"},
+    {"rank": 16, "name": "FaceApp"},
+    {"rank": 17, "name": "MyHeritage"},
+    {"rank": 18, "name": "PictureThis"},
+    {"rank": 19, "name": "PlantSnap"},
+    {"rank": 20, "name": "Leafsnap"}
+  ]
+}

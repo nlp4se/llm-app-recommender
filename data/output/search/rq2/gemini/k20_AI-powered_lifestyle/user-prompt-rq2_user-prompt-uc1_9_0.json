@@ -1,0 +1,25 @@
+
+{
+  "apps": [
+    {"rank": 1, "name": "ChatGPT"},
+    {"rank": 2, "name": "Google Assistant"},
+    {"rank": 3, "name": "Microsoft Copilot"},
+    {"rank": 4, "name": "Motion"},
+    {"rank": 5, "name": "Notion"},
+    {"rank": 6, "name": "Grammarly"},
+    {"rank": 7, "name": "Freeletics"},
+    {"rank": 8, "name": "Reclaim.ai"},
+    {"rank": 9, "name": "Akiflow"},
+    {"rank": 10, "name": "Siri"},
+    {"rank": 11, "name": "Amazon Alexa"},
+    {"rank": 12, "name": "FocusBox"},
+    {"rank": 13, "name": "Todoist"},
+    {"rank": 14, "name": "MealMind"},
+    {"rank": 15, "name": "FinFluent"},
+    {"rank": 16, "name": "NeuroFit AI"},
+    {"rank": 17, "name": "Cleo"},
+    {"rank": 18, "name": "Otter.ai"},
+    {"rank": 19, "name": "Taskade"},
+    {"rank": 20, "name": "Morgen"}
+  ]
+}

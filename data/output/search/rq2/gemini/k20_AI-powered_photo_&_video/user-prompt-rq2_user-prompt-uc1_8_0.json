@@ -1,0 +1,85 @@
+
+{
+  "apps": [
+    {
+      "rank": 1,
+      "name": "Adobe Photoshop"
+    },
+    {
+      "rank": 2,
+      "name": "Luminar Neo"
+    },
+    {
+      "rank": 3,
+      "name": "Canva"
+    },
+    {
+      "rank": 4,
+      "name": "Pixlr"
+    },
+    {
+      "rank": 5,
+      "name": "Filmora"
+    },
+    {
+      "rank": 6,
+      "name": "Captions AI"
+    },
+    {
+      "rank": 7,
+      "name": "Descript"
+    },
+    {
+      "rank": 8,
+      "name": "FireCut"
+    },
+    {
+      "rank": 9,
+      "name": "Opus Clip"
+    },
+    {
+      "rank": 10,
+      "name": "Videoleap"
+    },
+    {
+      "rank": 11,
+      "name": "YouCam Enhance"
+    },
+    {
+      "rank": 12,
+      "name": "YouCam Perfect"
+    },
+    {
+      "rank": 13,
+      "name": "PhotoDirector"
+    },
+    {
+      "rank": 14,
+      "name": "Gling AI"
+    },
+    {
+      "rank": 15,
+      "name": "LightCut"
+    },
+    {
+      "rank": 16,
+      "name": "Remini"
+    },
+    {
+      "rank": 17,
+      "name": "Invideo AI"
+    },
+    {
+      "rank": 18,
+      "name": "Fotor"
+    },
+    {
+      "rank": 19,
+      "name": "MyEdit"
+    },
+    {
+      "rank": 20,
+      "name": "SnapEdit"
+    }
+  ]
+}

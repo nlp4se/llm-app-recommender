@@ -1,0 +1,85 @@
+
+{
+  "apps": [
+    {
+      "rank": 1,
+      "name": "HealthifyMe"
+    },
+    {
+      "rank": 2,
+      "name": "Fitbod"
+    },
+    {
+      "rank": 3,
+      "name": "Noom"
+    },
+    {
+      "rank": 4,
+      "name": "Wysa"
+    },
+    {
+      "rank": 5,
+      "name": "Youper"
+    },
+    {
+      "rank": 6,
+      "name": "BetterMe"
+    },
+    {
+      "rank": 7,
+      "name": "MyFitnessPal"
+    },
+    {
+      "rank": 8,
+      "name": "Foodvisor"
+    },
+    {
+      "rank": 9,
+      "name": "Nourish"
+    },
+    {
+      "rank": 10,
+      "name": "SnapCalorie"
+    },
+    {
+      "rank": 11,
+      "name": "Eat Beat"
+    },
+    {
+      "rank": 12,
+      "name": "Virtuagym"
+    },
+    {
+      "rank": 13,
+      "name": "Jefit"
+    },
+    {
+      "rank": 14,
+      "name": "Runna"
+    },
+    {
+      "rank": 15,
+      "name": "PUSH Workout & Gym Tracker"
+    },
+    {
+      "rank": 16,
+      "name": "Strava"
+    },
+    {
+      "rank": 17,
+      "name": "Manifest"
+    },
+    {
+      "rank": 18,
+      "name": "Nutrition AI"
+    },
+    {
+      "rank": 19,
+      "name": "Mentat Ai"
+    },
+    {
+      "rank": 20,
+      "name": "Aaptiv"
+    }
+  ]
+}

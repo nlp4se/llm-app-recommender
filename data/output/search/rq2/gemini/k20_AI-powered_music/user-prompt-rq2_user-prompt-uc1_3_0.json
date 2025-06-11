@@ -1,0 +1,25 @@
+
+{
+  "apps": [
+    {"rank": 1, "name": "Suno AI"},
+    {"rank": 2, "name": "SOUNDRAW"},
+    {"rank": 3, "name": "Mubert"},
+    {"rank": 4, "name": "AIVA (Artificial Intelligence Virtual Artist)"},
+    {"rank": 5, "name": "Boomy"},
+    {"rank": 6, "name": "Soundful"},
+    {"rank": 7, "name": "Loudly"},
+    {"rank": 8, "name": "Udio"},
+    {"rank": 9, "name": "Beatoven"},
+    {"rank": 10, "name": "Riffusion"},
+    {"rank": 11, "name": "SendFame"},
+    {"rank": 12, "name": "Landr"},
+    {"rank": 13, "name": "Ecrett Music"},
+    {"rank": 14, "name": "Amper Music"},
+    {"rank": 15, "name": "Melobytes"},
+    {"rank": 16, "name": "Soundverse"},
+    {"rank": 17, "name": "Magenta Studio by Google"},
+    {"rank": 18, "name": "BandLab SongStarter"},
+    {"rank": 19, "name": "LyricStudio"},
+    {"rank": 20, "name": "Moises"}
+  ]
+}

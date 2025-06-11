@@ -1,0 +1,25 @@
+
+{
+  "apps": [
+    {"rank": 1, "name": "Mint"},
+    {"rank": 2, "name": "Personal Capital"},
+    {"rank": 3, "name": "You Need A Budget (YNAB)"},
+    {"rank": 4, "name": "PocketGuard"},
+    {"rank": 5, "name": "Albert"},
+    {"rank": 6, "name": "Cleo"},
+    {"rank": 7, "name": "Digit"},
+    {"rank": 8, "name": "Qapital"},
+    {"rank": 9, "name": "Goodbudget"},
+    {"rank": 10, "name": "EveryDollar"},
+    {"rank": 11, "name": "Simplifi by Quicken"},
+    {"rank": 12, "name": "Prism"},
+    {"rank": 13, "name": "Mvelopes"},
+    {"rank": 14, "name": "Wally"},
+    {"rank": 15, "name": "Mobills"},
+    {"rank": 16, "name": "PocketSmith"},
+    {"rank": 17, "name": "MoneyPatrol"},
+    {"rank": 18, "name": "Spendee"},
+    {"rank": 19, "name": "BudgetBakers"},
+    {"rank": 20, "name": "Dollarbird"}
+  ]
+}

@@ -1,0 +1,25 @@
+
+{
+  "apps": [
+    {"rank": 1, "name": "Spotify"},
+    {"rank": 2, "name": "Apple Music"},
+    {"rank": 3, "name": "YouTube Music"},
+    {"rank": 4, "name": "Deezer"},
+    {"rank": 5, "name": "Pandora"},
+    {"rank": 6, "name": "Tidal"},
+    {"rank": 7, "name": "Amazon Music"},
+    {"rank": 8, "name": "SoundCloud"},
+    {"rank": 9, "name": "iHeartRadio"},
+    {"rank": 10, "name": "Napster"},
+    {"rank": 11, "name": "Audiomack"},
+    {"rank": 12, "name": "Yandex.Music"},
+    {"rank": 13, "name": "Gaana"},
+    {"rank": 14, "name": "JioSaavn"},
+    {"rank": 15, "name": "Anghami"},
+    {"rank": 16, "name": "Qobuz"},
+    {"rank": 17, "name": "Boomplay"},
+    {"rank": 18, "name": "YY Music"},
+    {"rank": 19, "name": "Melon"},
+    {"rank": 20, "name": "KKBOX"}
+  ]
+}

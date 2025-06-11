@@ -1,0 +1,24 @@
+{
+    "type": "json_schema",
+    "json_schema": {
+        "name": "rank_apps",
+        "description": "Ranks apps based on specified criteria and provides detailed ranking information",
+        "schema": {
+            "type": "object",
+            "properties": {
+                "apps": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "rank": {"type": "integer", "description": "Position in the ranking"},
+                            "name": {"type": "string", "description": "Name of the app"}
+                        },
+                        "required": ["rank", "name"]
+                    }
+                }
+            },
+            "required": ["apps", "criteria"]
+        }
+    }
+}

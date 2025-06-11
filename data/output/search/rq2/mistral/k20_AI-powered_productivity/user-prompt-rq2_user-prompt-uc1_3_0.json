@@ -1,0 +1,25 @@
+
+{
+  "apps": [
+    {"rank": 1, "name": "Microsoft 365"},
+    {"rank": 2, "name": "Google Workspace"},
+    {"rank": 3, "name": "Notion"},
+    {"rank": 4, "name": "Evernote"},
+    {"rank": 5, "name": "Todoist"},
+    {"rank": 6, "name": "Trello"},
+    {"rank": 7, "name": "Asana"},
+    {"rank": 8, "name": "Slack"},
+    {"rank": 9, "name": "Monday.com"},
+    {"rank": 10, "name": "ClickUp"},
+    {"rank": 11, "name": "Zoho"},
+    {"rank": 12, "name": "Wunderlist"},
+    {"rank": 13, "name": "Any.do"},
+    {"rank": 14, "name": "Forest"},
+    {"rank": 15, "name": "RescueTime"},
+    {"rank": 16, "name": "Focus@Will"},
+    {"rank": 17, "name": "Habitica"},
+    {"rank": 18, "name": "TickTick"},
+    {"rank": 19, "name": "Eisenhower"},
+    {"rank": 20, "name": "Nozbe"}
+  ]
+}

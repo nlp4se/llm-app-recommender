@@ -1,0 +1,24 @@
+{
+  "apps": [
+    {"rank": 1, "name": "Photomath"},
+    {"rank": 2, "name": "Duolingo"},
+    {"rank": 3, "name": "Quizlet"},
+    {"rank": 4, "name": "Brainly"},
+    {"rank": 5, "name": "Socratic by Google"},
+    {"rank": 6, "name": "Kahoot!"},
+    {"rank": 7, "name": "Chegg Study"},
+    {"rank": 8, "name": "BYJU'S"},
+    {"rank": 9, "name": "Khan Academy"},
+    {"rank": 10, "name": "Microsoft Math Solver"},
+    {"rank": 11, "name": "Grammarly"},
+    {"rank": 12, "name": "Coursera"},
+    {"rank": 13, "name": "edX"},
+    {"rank": 14, "name": "Udemy"},
+    {"rank": 15, "name": "LinkedIn Learning"},
+    {"rank": 16, "name": "SoloLearn"},
+    {"rank": 17, "name": "Memrise"},
+    {"rank": 18, "name": "Mubert"},
+    {"rank": 19, "name": "Lingvist"},
+    {"rank": 20, "name": "Elsa Speak"}
+  ]
+}

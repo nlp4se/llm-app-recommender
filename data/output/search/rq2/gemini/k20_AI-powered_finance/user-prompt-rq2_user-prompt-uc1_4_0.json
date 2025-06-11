@@ -1,0 +1,25 @@
+
+{
+  "apps": [
+    {"rank": 1, "name": "Cleo"},
+    {"rank": 2, "name": "Mint"},
+    {"rank": 3, "name": "Emma"},
+    {"rank": 4, "name": "PocketGuard"},
+    {"rank": 5, "name": "Plum"},
+    {"rank": 6, "name": "Albert"},
+    {"rank": 7, "name": "YNAB (You Need A Budget)"},
+    {"rank": 8, "name": "Personal Capital"},
+    {"rank": 9, "name": "Monarch Money"},
+    {"rank": 10, "name": "Wally"},
+    {"rank": 11, "name": "Betterment"},
+    {"rank": 12, "name": "Acorns"},
+    {"rank": 13, "name": "Origin"},
+    {"rank": 14, "name": "Trim"},
+    {"rank": 15, "name": "Rolly"},
+    {"rank": 16, "name": "Expensify"},
+    {"rank": 17, "name": "Botkeeper"},
+    {"rank": 18, "name": "Magnifi"},
+    {"rank": 19, "name": "DoNotPay"},
+    {"rank": 20, "name": "Peek"}
+  ]
+}

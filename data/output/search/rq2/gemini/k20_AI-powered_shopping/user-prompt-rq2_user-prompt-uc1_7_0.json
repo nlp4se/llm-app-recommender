@@ -1,0 +1,85 @@
+
+{
+  "apps": [
+    {
+      "rank": 1,
+      "name": "Glance AI"
+    },
+    {
+      "rank": 2,
+      "name": "shopdev Shopping Assistant"
+    },
+    {
+      "rank": 3,
+      "name": "Google Lens"
+    },
+    {
+      "rank": 4,
+      "name": "Amazon StyleSnap"
+    },
+    {
+      "rank": 5,
+      "name": "Aipoly Vision"
+    },
+    {
+      "rank": 6,
+      "name": "CamFind"
+    },
+    {
+      "rank": 7,
+      "name": "ScreenShop"
+    },
+    {
+      "rank": 8,
+      "name": "Infichat"
+    },
+    {
+      "rank": 9,
+      "name": "Shopmate"
+    },
+    {
+      "rank": 10,
+      "name": "Shopping Bot"
+    },
+    {
+      "rank": 11,
+      "name": "Intercom AI Chatbot"
+    },
+    {
+      "rank": 12,
+      "name": "Giosg"
+    },
+    {
+      "rank": 13,
+      "name": "Manifest AI"
+    },
+    {
+      "rank": 14,
+      "name": "Relish AI"
+    },
+    {
+      "rank": 15,
+      "name": "Samsung Food"
+    },
+    {
+      "rank": 16,
+      "name": "HoneyDo"
+    },
+    {
+      "rank": 17,
+      "name": "Kooper"
+    },
+    {
+      "rank": 18,
+      "name": "Listify"
+    },
+     {
+      "rank": 19,
+      "name": "Ada"
+    },
+    {
+      "rank": 20,
+      "name": "Alby's AI Shopping Assistant"
+    }
+  ]
+}

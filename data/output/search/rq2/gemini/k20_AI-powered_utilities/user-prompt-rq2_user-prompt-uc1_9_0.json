@@ -1,0 +1,24 @@
+{
+  "apps": [
+    {"rank": 1, "name": "ChatGPT"},
+    {"rank": 2, "name": "Google Gemini"},
+    {"rank": 3, "name": "Microsoft Copilot"},
+    {"rank": 4, "name": "Claude"},
+    {"rank": 5, "name": "Perplexity"},
+    {"rank": 6, "name": "Synthesia"},
+    {"rank": 7, "name": "Runway"},
+    {"rank": 8, "name": "Grammarly"},
+    {"rank": 9, "name": "DALL-E 3"},
+    {"rank": 10, "name": "Midjourney"},
+    {"rank": 11, "name": "DeepSeek"},
+    {"rank": 12, "name": "Otter.ai"},
+    {"rank": 13, "name": "Jasper"},
+    {"rank": 14, "name": "Filmora"},
+    {"rank": 15, "name": "n8n"},
+    {"rank": 16, "name": "Guru"},
+    {"rank": 17, "name": "Vista Social"},
+    {"rank": 18, "name": "Descript"},
+    {"rank": 19, "name": "FeedHive"},
+    {"rank": 20, "name": "Wordtune"}
+  ]
+}

@@ -1,0 +1,85 @@
+
+{
+  "apps": [
+    {
+      "rank": 1,
+      "name": "Khanmigo"
+    },
+    {
+      "rank": 2,
+      "name": "Duolingo"
+    },
+    {
+      "rank": 3,
+      "name": "Babbel"
+    },
+    {
+      "rank": 4,
+      "name": "Quizlet"
+    },
+    {
+      "rank": 5,
+      "name": "ChatGPT"
+    },
+    {
+      "rank": 6,
+      "name": "Grammarly"
+    },
+    {
+      "rank": 7,
+      "name": "MagicSchool AI"
+    },
+    {
+      "rank": 8,
+      "name": "Eduaide.AI"
+    },
+    {
+      "rank": 9,
+      "name": "Gradescope"
+    },
+    {
+      "rank": 10,
+      "name": "Socratic by Google"
+    },
+    {
+      "rank": 11,
+      "name": "Coursera"
+    },
+    {
+      "rank": 12,
+      "name": "edX"
+    },
+    {
+      "rank": 13,
+      "name": "TED-Ed"
+    },
+    {
+      "rank": 14,
+      "name": "Photomath"
+    },
+    {
+      "rank": 15,
+      "name": "MindGrasp"
+    },
+    {
+      "rank": 16,
+      "name": "Syntea"
+    },
+    {
+      "rank": 17,
+      "name": "TutorMe"
+    },
+    {
+      "rank": 18,
+      "name": "Canva for Education"
+    },
+    {
+      "rank": 19,
+      "name": "Google Classroom"
+    },
+    {
+      "rank": 20,
+      "name": "Loora"
+    }
+  ]
+}

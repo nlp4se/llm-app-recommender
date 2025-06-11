@@ -1,0 +1,25 @@
+
+{
+  "apps": [
+    {"rank": 1, "name": "Hootsuite"},
+    {"rank": 2, "name": "Buffer"},
+    {"rank": 3, "name": "Sprout Social"},
+    {"rank": 4, "name": "SocialBee"},
+    {"rank": 5, "name": "ContentStudio"},
+    {"rank": 6, "name": "Publer"},
+    {"rank": 7, "name": "FeedHive"},
+    {"rank": 8, "name": "Flick"},
+    {"rank": 9, "name": "Predis.ai"},
+    {"rank": 10, "name": "Loomly"},
+    {"rank": 11, "name": "Vista Social"},
+    {"rank": 12, "name": "Sendible"},
+    {"rank": 13, "name": "Later"},
+    {"rank": 14, "name": "Emplifi"},
+    {"rank": 15, "name": "Brand24"},
+    {"rank": 16, "name": "Writesonic"},
+    {"rank": 17, "name": "Piktochart AI Carousel Maker"},
+    {"rank": 18, "name": "InVideo AI"},
+    {"rank": 19, "name": "Mentionlytics"},
+    {"rank": 20, "name": "Nuelink"}
+  ]
+}

@@ -1,0 +1,25 @@
+
+{
+  "apps": [
+    {"rank": 1, "name": "Glance AI"},
+    {"rank": 2, "name": "Amazon"},
+    {"rank": 3, "name": "Shopify (Shop.app)"},
+    {"rank": 4, "name": "ASOS"},
+    {"rank": 5, "name": "Sephora Virtual Artist"},
+    {"rank": 6, "name": "Warby Parker"},
+    {"rank": 7, "name": "IKEA Place"},
+    {"rank": 8, "name": "Wayfair"},
+    {"rank": 9, "name": "H&M"},
+    {"rank": 10, "name": "Yuma AI"},
+    {"rank": 11, "name": "Tidio AI"},
+    {"rank": 12, "name": "Shopmate"},
+    {"rank": 13, "name": "Manifest AI"},
+    {"rank": 14, "name": "Gorgias"},
+    {"rank": 15, "name": "Rufus (Amazon AI Shopping Assistant)"},
+    {"rank": 16, "name": "YesPlz AI"},
+    {"rank": 17, "name": "Antla AI Virtual Try On"},
+    {"rank": 18, "name": "Klicker AI Shopping Assistant"},
+    {"rank": 19, "name": "Best Buy"},
+    {"rank": 20, "name": "Gucci"}
+  ]
+}

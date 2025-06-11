@@ -1,0 +1,24 @@
+{
+  "apps": [
+    {"rank": 1, "name": "Netflix"},
+    {"rank": 2, "name": "Spotify"},
+    {"rank": 3, "name": "YouTube"},
+    {"rank": 4, "name": "Amazon Prime Video"},
+    {"rank": 5, "name": "Disney+"},
+    {"rank": 6, "name": "Hulu"},
+    {"rank": 7, "name": "Apple Music"},
+    {"rank": 8, "name": "TikTok"},
+    {"rank": 9, "name": "HBO Max"},
+    {"rank": 10, "name": "Pandora"},
+    {"rank": 11, "name": "Peacock TV"},
+    {"rank": 12, "name": "Paramount+"},
+    {"rank": 13, "name": "Twitch"},
+    {"rank": 14, "name": "iHeartRadio"},
+    {"rank": 15, "name": "SoundCloud"},
+    {"rank": 16, "name": "Deezer"},
+    {"rank": 17, "name": "Tidal"},
+    {"rank": 18, "name": "Pluto TV"},
+    {"rank": 19, "name": "Sling TV"},
+    {"rank": 20, "name": "fuboTV"}
+  ]
+}

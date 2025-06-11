@@ -1,0 +1,25 @@
+
+{
+  "apps": [
+    {"rank": 1, "name": "Adobe Lightroom"},
+    {"rank": 2, "name": "VSCO"},
+    {"rank": 3, "name": "Prisma"},
+    {"rank": 4, "name": "PicsArt"},
+    {"rank": 5, "name": "Snapseed"},
+    {"rank": 6, "name": "FaceApp"},
+    {"rank": 7, "name": "Lensa"},
+    {"rank": 8, "name": "Meitu"},
+    {"rank": 9, "name": "Photoleap"},
+    {"rank": 10, "name": "Remini"},
+    {"rank": 11, "name": "TouchRetouch"},
+    {"rank": 12, "name": "Facetune2"},
+    {"rank": 13, "name": "Afterlight"},
+    {"rank": 14, "name": "Pixlr"},
+    {"rank": 15, "name": "Fotor"},
+    {"rank": 16, "name": "Canva"},
+    {"rank": 17, "name": "Camera+ 2"},
+    {"rank": 18, "name": "Darkroom"},
+    {"rank": 19, "name": "PhotoDirector"},
+    {"rank": 20, "name": "Polarr"}
+  ]
+}

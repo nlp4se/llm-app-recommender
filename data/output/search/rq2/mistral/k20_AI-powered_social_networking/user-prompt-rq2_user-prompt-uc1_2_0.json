@@ -1,0 +1,25 @@
+
+{
+  "apps": [
+    {"rank": 1, "name": "Replika"},
+    {"rank": 2, "name": "Elsa Speak"},
+    {"rank": 3, "name": "Wink"},
+    {"rank": 4, "name": "Moonly"},
+    {"rank": 5, "name": "Keen"},
+    {"rank": 6, "name": "Yubo"},
+    {"rank": 7, "name": "Wakie"},
+    {"rank": 8, "name": "Anonymous Chat Rooms"},
+    {"rank": 9, "name": "Connected2.me"},
+    {"rank": 10, "name": "Chatous"},
+    {"rank": 11, "name": "Holla"},
+    {"rank": 12, "name": "Skout"},
+    {"rank": 13, "name": "Azar"},
+    {"rank": 14, "name": "MeetMe"},
+    {"rank": 15, "name": "Qeep"},
+    {"rank": 16, "name": "Mico"},
+    {"rank": 17, "name": "Ablo"},
+    {"rank": 18, "name": "Bottled"},
+    {"rank": 19, "name": "Peach"},
+    {"rank": 20, "name": "Path"}
+  ]
+}

@@ -1,0 +1,105 @@
+
+{
+  "apps": [
+    {
+      "rank": 1,
+      "name": "YNAB (You Need A Budget)",
+      "description": "AI-powered budgeting tool with personalized budgets, real-time tracking, and AI-driven insights for expense tracking and goal setting."
+    },
+    {
+      "rank": 2,
+      "name": "Mint",
+      "description": "Free AI budgeting tool with comprehensive features for tracking expenses, creating budgets, and providing personalized tips using AI to analyze spending patterns. Offers bill payment reminders and credit score tracking."
+    },
+    {
+      "rank": 3,
+      "name": "Cleo",
+      "description": "AI financial assistant with a conversational chatbot interface that provides personalized budgeting tips, spending insights, and automated savings through smart round-ups. Offers bill negotiation and credit builder capabilities."
+    },
+    {
+      "rank": 4,
+      "name": "PocketGuard",
+      "description": "AI personal finance app that analyzes spending habits to determine discretionary spending, tracks bills, and provides AI-suggested customizable spending categories with bank-level security."
+    },
+    {
+      "rank": 5,
+      "name": "Plum",
+      "description": "Intelligent saving assistant that uses AI to analyze income, expenses, and spending habits to automate savings and provides smart investment options. Offers bill switching service."
+    },
+    {
+      "rank": 6,
+      "name": "Origin",
+      "description": "One-stop financial management app consolidating tax filing, estate planning, budgeting, and investment management with an AI sidekick acting as a personalized financial advisor."
+    },
+    {
+      "rank": 7,
+      "name": "Magnifi",
+      "description": "AI-driven search engine for investments with personalized recommendations based on user queries, explaining risks and growth opportunities. Offers a commission-free brokerage."
+    },
+    {
+      "rank": 8,
+      "name": "Albert",
+      "description": "AI-powered app that analyzes income and spending habits to automate savings and monitor subscriptions. Offers personalized advice from human financial experts via text."
+    },
+    {
+      "rank": 9,
+      "name": "Trim",
+      "description": "AI-powered financial assistant designed to save money by managing subscriptions and recurring expenses, negotiating bills, and providing debt payoff tools."
+    },
+    {
+      "rank": 10,
+      "name": "Betterment",
+      "description": "AI-enhanced investment management platform that tailors investment strategies, provides personalized planning, diversification, and tax optimization."
+    },
+    {
+      "rank": 11,
+      "name": "Expense AI",
+      "description": "AI-powered expense tracking app that simplifies managing expenses by scanning receipts, forwarding emails, and generating detailed expense reports using natural language commands."
+    },
+    {
+      "rank": 12,
+      "name": "QuickBooks",
+      "description": "Accounting software enhanced with AI-driven insights for automated expense categorization, real-time income tracking, and AI-driven cash flow forecasting."
+    },
+    {
+      "rank": 13,
+      "name": "Zoho Books",
+      "description": "AI-powered accounting software automating transaction categorization, invoice management, and overdue payment tracking, providing real-time insights into financial data."
+    },
+     {
+      "rank": 14,
+      "name": "Alpha by Public",
+      "description": "AI-powered real-time analysis tool providing instant responses to investment questions, pulling live market data for stocks and ETFs."
+    },
+    {
+      "rank": 15,
+      "name": "Tally",
+      "description": "AI-driven credit card management app that automates payments, prioritizing high-interest debts, and simplifying credit card management."
+    },
+    {
+      "rank": 16,
+      "name": "RockFlow",
+      "description": "AI investing app, simplifying the investment process for beginners and automating it. Offers personalized insights and automated savings."
+    },
+    {
+      "rank": 17,
+      "name": "TalkieMoney",
+      "description": "AI budget tracker app with voice and text input. Uses ChatGPT to help track expenses and budget and manage spending."
+    },
+    {
+      "rank": 18,
+      "name": "Rolly",
+      "description": "AI Finance Tracker that automates everything, saving users from manual expense logs and spreadsheets, automatically tracking and categorizing transactions."
+    },
+    {
+      "rank": 19,
+      "name": "Bright Money",
+      "description": "AI Debt Manager guides users toward a smart debt repayment plan and budgeting with AI. Offers customized debt pay-off plan with Bright Plan."
+    },
+    {
+      "rank": 20,
+      "name": "AInvest",
+      "description": "AI Stock Investing enhances stock trading with Aime, AI financial advisor. Sync investing accounts to invest faster, easier, and with confidence."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+
+{
+  "apps": [
+    {"rank": 1, "name": "Hootsuite"},
+    {"rank": 2, "name": "SocialPilot"},
+    {"rank": 3, "name": "Buffer"},
+    {"rank": 4, "name": "FeedHive"},
+    {"rank": 5, "name": "Sprout Social"},
+    {"rank": 6, "name": "Meltwater"},
+    {"rank": 7, "name": "Ocoya"},
+    {"rank": 8, "name": "ContentStudio"},
+    {"rank": 9, "name": "Publer"},
+    {"rank": 10, "name": "SocialBee"},
+    {"rank": 11, "name": "Flick"},
+    {"rank": 12, "name": "Writesonic"},
+    {"rank": 13, "name": "Piktochart AI Carousel Maker"},
+    {"rank": 14, "name": "InVideo AI"},
+    {"rank": 15, "name": "Onlypult"},
+    {"rank": 16, "name": "Copy.ai"},
+    {"rank": 17, "name": "Vista Social"},
+    {"rank": 18, "name": "Predis.ai"},
+    {"rank": 19, "name": "Brandwatch"},
+    {"rank": 20, "name": "Agorapulse"}
+  ]
+}

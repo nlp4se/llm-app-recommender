@@ -1,0 +1,25 @@
+
+{
+  "apps": [
+    {"rank": 1, "name": "Duolingo"},
+    {"rank": 2, "name": "Photomath"},
+    {"rank": 3, "name": "Quizlet"},
+    {"rank": 4, "name": "Khan Academy"},
+    {"rank": 5, "name": "SoloLearn"},
+    {"rank": 6, "name": "Brainly"},
+    {"rank": 7, "name": "BYJU'S"},
+    {"rank": 8, "name": "Coursera"},
+    {"rank": 9, "name": "Udemy"},
+    {"rank": 10, "name": "edX"},
+    {"rank": 11, "name": "Memrise"},
+    {"rank": 12, "name": "Lumosity"},
+    {"rank": 13, "name": "Mango Languages"},
+    {"rank": 14, "name": "Rosetta Stone"},
+    {"rank": 15, "name": "Babbel"},
+    {"rank": 16, "name": "Busuu"},
+    {"rank": 17, "name": "HelloTalk"},
+    {"rank": 18, "name": "Tandem"},
+    {"rank": 19, "name": "Drops"},
+    {"rank": 20, "name": "Mondly"}
+  ]
+}

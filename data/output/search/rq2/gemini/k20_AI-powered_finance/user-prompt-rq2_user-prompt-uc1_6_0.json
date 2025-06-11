@@ -1,0 +1,25 @@
+
+{
+  "apps": [
+    {"rank": 1, "name": "Cleo"},
+    {"rank": 2, "name": "Mint"},
+    {"rank": 3, "name": "Emma"},
+    {"rank": 4, "name": "Plum"},
+    {"rank": 5, "name": "Betterment"},
+    {"rank": 6, "name": "YNAB (You Need A Budget)"},
+    {"rank": 7, "name": "PocketGuard"},
+    {"rank": 8, "name": "Personal Capital"},
+    {"rank": 9, "name": "Monarch Money"},
+    {"rank": 10, "name": "Albert"},
+    {"rank": 11, "name": "Wally"},
+    {"rank": 12, "name": "Alpha by Public"},
+    {"rank": 13, "name": "Digit"},
+    {"rank": 14, "name": "Trim"},
+    {"rank": 15, "name": "RockFlow"},
+    {"rank": 16, "name": "Magnifi"},
+    {"rank": 17, "name": "Fyle"},
+    {"rank": 18, "name": "Piere"},
+    {"rank": 19, "name": "Tink"},
+    {"rank": 20, "name": "Qapital"}
+  ]
+}

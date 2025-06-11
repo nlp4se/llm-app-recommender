@@ -1,0 +1,85 @@
+
+{
+  "apps": [
+    {
+      "rank": 1,
+      "name": "Nourish"
+    },
+    {
+      "rank": 2,
+      "name": "Wysa"
+    },
+    {
+      "rank": 3,
+      "name": "Youper"
+    },
+    {
+      "rank": 4,
+      "name": "FitnessAI"
+    },
+    {
+      "rank": 5,
+      "name": "HealthifyMe"
+    },
+    {
+      "rank": 6,
+      "name": "Notion AI"
+    },
+    {
+      "rank": 7,
+      "name": "SnapCalorie"
+    },
+    {
+      "rank": 8,
+      "name": "Fitbod"
+    },
+    {
+      "rank": 9,
+      "name": "Foodvisor"
+    },
+    {
+      "rank": 10,
+      "name": "Freeletics"
+    },
+    {
+      "rank": 11,
+      "name": "MyFitnessPal"
+    },
+    {
+      "rank": 12,
+      "name": "Todoist AI Assistant"
+    },
+    {
+      "rank": 13,
+      "name": "Welling"
+    },
+    {
+      "rank": 14,
+      "name": "Runna"
+    },
+    {
+      "rank": 15,
+      "name": "NeuroFit AI"
+    },
+    {
+      "rank": 16,
+      "name": "MealMind"
+    },
+    {
+      "rank": 17,
+      "name": "FinFluent"
+    },
+    {
+      "rank": 18,
+      "name": "Manifest"
+    },
+    {
+      "rank": 19,
+      "name": "Calm"
+    },
+    {
+      "rank": 20,
+      "name": "Levels"
+    }
+  ]
+}

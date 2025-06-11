@@ -1,0 +1,25 @@
+
+{
+  "apps": [
+    {"rank": 1, "name": "Microsoft To Do"},
+    {"rank": 2, "name": "Todoist"},
+    {"rank": 3, "name": "Any.do"},
+    {"rank": 4, "name": "Notion"},
+    {"rank": 5, "name": "Evernote"},
+    {"rank": 6, "name": "Forest"},
+    {"rank": 7, "name": "TickTick"},
+    {"rank": 8, "name": "Trello"},
+    {"rank": 9, "name": "Asana"},
+    {"rank": 10, "name": "Google Keep"},
+    {"rank": 11, "name": "Monday.com"},
+    {"rank": 12, "name": "ClickUp"},
+    {"rank": 13, "name": "Wunderlist"},
+    {"rank": 14, "name": "Habitica"},
+    {"rank": 15, "name": "Remember The Milk"},
+    {"rank": 16, "name": "OmniFocus"},
+    {"rank": 17, "name": "Things 3"},
+    {"rank": 18, "name": "Google Tasks"},
+    {"rank": 19, "name": "Ike"},
+    {"rank": 20, "name": "Focus@Will"}
+  ]
+}

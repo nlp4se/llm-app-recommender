@@ -1,0 +1,25 @@
+
+{
+  "apps": [
+    {"rank": 1, "name": "Mubert"},
+    {"rank": 2, "name": "Suno"},
+    {"rank": 3, "name": "Replika"},
+    {"rank": 4, "name": "Netflix"},
+    {"rank": 5, "name": "Spotify"},
+    {"rank": 6, "name": "YouTube"},
+    {"rank": 7, "name": "TikTok"},
+    {"rank": 8, "name": "Twitch"},
+    {"rank": 9, "name": "Amazon Prime Video"},
+    {"rank": 10, "name": "Peacock"},
+    {"rank": 11, "name": "Endel"},
+    {"rank": 12, "name": "SoundHound"},
+    {"rank": 13, "name": "Hound"},
+    {"rank": 14, "name": "ChatGPT"},
+    {"rank": 15, "name": "Grammarly"},
+    {"rank": 16, "name": "Google Assistant"},
+    {"rank": 17, "name": "Gemini"},
+    {"rank": 18, "name": "Youper"},
+    {"rank": 19, "name": "Runway ML"},
+    {"rank": 20, "name": "Jasper AI"}
+  ]
+}

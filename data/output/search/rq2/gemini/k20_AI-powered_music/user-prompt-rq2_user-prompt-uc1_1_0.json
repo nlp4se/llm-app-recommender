@@ -1,0 +1,85 @@
+
+{
+  "apps": [
+    {
+      "rank": 1,
+      "name": "Suno AI"
+    },
+    {
+      "rank": 2,
+      "name": "SOUNDRAW"
+    },
+    {
+      "rank": 3,
+      "name": "Mubert"
+    },
+    {
+      "rank": 4,
+      "name": "AIVA"
+    },
+    {
+      "rank": 5,
+      "name": "Udio"
+    },
+    {
+      "rank": 6,
+      "name": "MusicGen"
+    },
+    {
+      "rank": 7,
+      "name": "Riffusion"
+    },
+    {
+      "rank": 8,
+      "name": "Beatoven"
+    },
+    {
+      "rank": 9,
+      "name": "Splash Pro"
+    },
+    {
+      "rank": 10,
+      "name": "Loudly"
+    },
+    {
+      "rank": 11,
+      "name": "BandLab SongStarter"
+    },
+    {
+      "rank": 12,
+      "name": "Amadeus Topline"
+    },
+    {
+      "rank": 13,
+      "name": "AIMusicGen.ai"
+    },
+    {
+      "rank": 14,
+      "name": "MyTunes"
+    },
+    {
+      "rank": 15,
+      "name": "Ecrett Music"
+    },
+    {
+      "rank": 16,
+      "name": "Soundful"
+    },
+    {
+      "rank": 17,
+      "name": "Sonauto"
+    },
+    {
+      "rank": 18,
+      "name": "Mureka"
+    },
+    {
+      "rank": 19,
+      "name": "SongR"
+    },
+    {
+      "rank": 20,
+      "name": "TemPolor"
+    }
+  ]
+}

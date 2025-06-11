@@ -1,0 +1,25 @@
+
+{
+  "apps": [
+    {"rank": 1, "name": "Cleo"},
+    {"rank": 2, "name": "Mint"},
+    {"rank": 3, "name": "Albert"},
+    {"rank": 4, "name": "Plum"},
+    {"rank": 5, "name": "Origin"},
+    {"rank": 6, "name": "Betterment"},
+    {"rank": 7, "name": "PocketGuard"},
+    {"rank": 8, "name": "Wally"},
+    {"rank": 9, "name": "YNAB (You Need A Budget)"},
+    {"rank": 10, "name": "Emma"},
+    {"rank": 11, "name": "Digit"},
+    {"rank": 12, "name": "Magnifi"},
+    {"rank": 13, "name": "Acorns"},
+    {"rank": 14, "name": "RockFlow"},
+    {"rank": 15, "name": "Trim"},
+    {"rank": 16, "name": "MoneyLion"},
+    {"rank": 17, "name": "Qapital"},
+    {"rank": 18, "name": "Bright Money"},
+    {"rank": 19, "name": "Rolly: AI Money Tracker"},
+    {"rank": 20, "name": "Expense AI"}
+  ]
+}

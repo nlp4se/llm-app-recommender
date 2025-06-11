@@ -1,0 +1,25 @@
+
+{
+  "apps": [
+    {"rank": 1, "name": "ChatGPT"},
+    {"rank": 2, "name": "Google Gemini"},
+    {"rank": 3, "name": "Notion AI"},
+    {"rank": 4, "name": "Grammarly ProVision"},
+    {"rank": 5, "name": "Fireflies.ai"},
+    {"rank": 6, "name": "Otter.ai Agent Edition"},
+    {"rank": 7, "name": "Microsoft Copilot"},
+    {"rank": 8, "name": "Salesforce Einstein"},
+    {"rank": 9, "name": "ClickUp Brain"},
+    {"rank": 10, "name": "Superhuman AI Inbox"},
+    {"rank": 11, "name": "Clockwise AI Scheduler"},
+    {"rank": 12, "name": "DALL·E Business Suite"},
+    {"rank": 13, "name": "Rytr"},
+    {"rank": 14, "name": "Wordtune"},
+    {"rank": 15, "name": "Perplexity"},
+    {"rank": 16, "name": "Canva Magic Studio"},
+    {"rank": 17, "name": "Descript"},
+    {"rank": 18, "name": "Jasper"},
+    {"rank": 19, "name": "Midjourney"},
+    {"rank": 20, "name": "Glean"}
+  ]
+}

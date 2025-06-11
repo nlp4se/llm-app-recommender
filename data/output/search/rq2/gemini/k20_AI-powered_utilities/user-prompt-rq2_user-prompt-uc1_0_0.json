@@ -1,0 +1,25 @@
+
+{
+  "apps": [
+    {"rank": 1, "name": "ChatGPT"},
+    {"rank": 2, "name": "Google Gemini"},
+    {"rank": 3, "name": "Microsoft Copilot"},
+    {"rank": 4, "name": "DeepSeek"},
+    {"rank": 5, "name": "Canva"},
+    {"rank": 6, "name": "Grammarly"},
+    {"rank": 7, "name": "Perplexity AI"},
+    {"rank": 8, "name": "Midjourney"},
+    {"rank": 9, "name": "DALL-E 3"},
+    {"rank": 10, "name": "Notion AI"},
+    {"rank": 11, "name": "Jasper"},
+    {"rank": 12, "name": "Otter.ai"},
+    {"rank": 13, "name": "Synthesia"},
+    {"rank": 14, "name": "Claude"},
+    {"rank": 15, "name": "Remini"},
+    {"rank": 16, "name": "PhotoRoom"},
+    {"rank": 17, "name": "ElevenLabs"},
+    {"rank": 18, "name": "Suno"},
+    {"rank": 19, "name": "Fireflies.ai"},
+    {"rank": 20, "name": "Nyota"}
+  ]
+}

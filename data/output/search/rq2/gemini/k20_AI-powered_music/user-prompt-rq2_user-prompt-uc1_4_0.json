@@ -1,0 +1,25 @@
+
+{
+  "apps": [
+    {"rank": 1, "name": "Suno AI"},
+    {"rank": 2, "name": "AIVA"},
+    {"rank": 3, "name": "Soundraw"},
+    {"rank": 4, "name": "Mubert"},
+    {"rank": 5, "name": "Udio"},
+    {"rank": 6, "name": "LALAL.AI"},
+    {"rank": 7, "name": "Soundful"},
+    {"rank": 8, "name": "Boomy"},
+    {"rank": 9, "name": "Loudly"},
+    {"rank": 10, "name": "MusicHero.ai"},
+    {"rank": 11, "name": "Padhanisa"},
+    {"rank": 12, "name": "BandLab Splitter"},
+    {"rank": 13, "name": "Gaudio Studio"},
+    {"rank": 14, "name": "Riffusion"},
+    {"rank": 15, "name": "MusicGen (Meta AI)"},
+    {"rank": 16, "name": "Amadeus Topline"},
+    {"rank": 17, "name": "Voice.ai"},
+    {"rank": 18, "name": "TemPolor"},
+    {"rank": 19, "name": "Ecrett Music"},
+    {"rank": 20, "name": "Musora"}
+  ]
+}

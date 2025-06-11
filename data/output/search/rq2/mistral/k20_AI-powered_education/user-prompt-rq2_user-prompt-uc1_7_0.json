@@ -1,0 +1,25 @@
+
+{
+  "apps": [
+    {"rank": 1, "name": "Duolingo"},
+    {"rank": 2, "name": "Photomath"},
+    {"rank": 3, "name": "Quizlet"},
+    {"rank": 4, "name": "Khan Academy"},
+    {"rank": 5, "name": "Socratic by Google"},
+    {"rank": 6, "name": "Brainly"},
+    {"rank": 7, "name": "BYJU'S"},
+    {"rank": 8, "name": "Coursera"},
+    {"rank": 9, "name": "edX"},
+    {"rank": 10, "name": "Udemy"},
+    {"rank": 11, "name": "LinkedIn Learning"},
+    {"rank": 12, "name": "Memrise"},
+    {"rank": 13, "name": "Lumosity"},
+    {"rank": 14, "name": "Elevate"},
+    {"rank": 15, "name": "MobiLearn"},
+    {"rank": 16, "name": "SoloLearn"},
+    {"rank": 17, "name": "Tinycards"},
+    {"rank": 18, "name": "Brilliant"},
+    {"rank": 19, "name": "Mimo"},
+    {"rank": 20, "name": "Curiosity"}
+  ]
+}

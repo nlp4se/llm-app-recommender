@@ -1,0 +1,25 @@
+
+{
+  "apps": [
+    {"rank": 1, "name": "Acloset"},
+    {"rank": 2, "name": "Shop.app"},
+    {"rank": 3, "name": "LolaAI (Open Wardrobe)"},
+    {"rank": 4, "name": "Google AI Mode (via Search)"},
+    {"rank": 5, "name": "Style DNA"},
+    {"rank": 6, "name": "Cladwell"},
+    {"rank": 7, "name": "Whering"},
+    {"rank": 8, "name": "Slayrobe"},
+    {"rank": 9, "name": "LookSky.ai"},
+    {"rank": 10, "name": "FitRoom"},
+    {"rank": 11, "name": "OnYou"},
+    {"rank": 12, "name": "GIGI"},
+    {"rank": 13, "name": "Shopmate"},
+    {"rank": 14, "name": "Rufus (Amazon)"},
+    {"rank": 15, "name": "Shopbox AI"},
+    {"rank": 16, "name": "Tidio AI"},
+    {"rank": 17, "name": "LimeSpot"},
+    {"rank": 18, "name": "Wiser"},
+    {"rank": 19, "name": "Klevu"},
+    {"rank": 20, "name": "Infichat"}
+  ]
+}

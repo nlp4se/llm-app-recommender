@@ -1,0 +1,25 @@
+
+{
+  "apps": [
+    {"rank": 1, "name": "Suno AI"},
+    {"rank": 2, "name": "Udio"},
+    {"rank": 3, "name": "Riffusion"},
+    {"rank": 4, "name": "Mubert AI Music Generator"},
+    {"rank": 5, "name": "AIVA (Artificial Intelligence Virtual Artist)"},
+    {"rank": 6, "name": "WavTool"},
+    {"rank": 7, "name": "Boomy"},
+    {"rank": 8, "name": "BandLab SongStarter"},
+    {"rank": 9, "name": "Soundful"},
+    {"rank": 10, "name": "Sonauto"},
+    {"rank": 11, "name": "Moises App"},
+    {"rank": 12, "name": "Padhanisa"},
+    {"rank": 13, "name": "Musora"},
+    {"rank": 14, "name": "Artium Academy"},
+    {"rank": 15, "name": "Yousician"},
+    {"rank": 16, "name": "LALAL.AI"},
+    {"rank": 17, "name": "MusicHero.ai"},
+    {"rank": 18, "name": "Beatoven"},
+    {"rank": 19, "name": "Stemz: AI Tool for Musicians"},
+    {"rank": 20, "name": "Klangio"}
+  ]
+}

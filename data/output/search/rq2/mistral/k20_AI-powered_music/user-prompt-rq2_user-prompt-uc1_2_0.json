@@ -1,0 +1,25 @@
+
+{
+  "apps": [
+    {"rank": 1, "name": "Spotify"},
+    {"rank": 2, "name": "Apple Music"},
+    {"rank": 3, "name": "Amazon Music"},
+    {"rank": 4, "name": "YouTube Music"},
+    {"rank": 5, "name": "Deezer"},
+    {"rank": 6, "name": "Pandora"},
+    {"rank": 7, "name": "Tidal"},
+    {"rank": 8, "name": "SoundCloud"},
+    {"rank": 9, "name": "iHeartRadio"},
+    {"rank": 10, "name": "Napster"},
+    {"rank": 11, "name": "Yandex.Music"},
+    {"rank": 12, "name": "Gaana"},
+    {"rank": 13, "name": "JioSaavn"},
+    {"rank": 14, "name": "Anghami"},
+    {"rank": 15, "name": "Qobuz"},
+    {"rank": 16, "name": "Boomplay"},
+    {"rank": 17, "name": "Melon"},
+    {"rank": 18, "name": "KKBOX"},
+    {"rank": 19, "name": "AWA"},
+    {"rank": 20, "name": "NetEase Cloud Music"}
+  ]
+}

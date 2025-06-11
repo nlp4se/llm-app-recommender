@@ -1,0 +1,25 @@
+
+{
+  "apps": [
+    {"rank": 1, "name": "Microsoft SwiftKey"},
+    {"rank": 2, "name": "Google Assistant"},
+    {"rank": 3, "name": "Replika"},
+    {"rank": 4, "name": "Cortana"},
+    {"rank": 5, "name": " ELSA Speak"},
+    {"rank": 6, "name": "Socratic by Google"},
+    {"rank": 7, "name": "Wysa"},
+    {"rank": 8, "name": "Youper"},
+    {"rank": 9, "name": "DataBot"},
+    {"rank": 10, "name": "Hound"},
+    {"rank": 11, "name": "Amazon Alexa"},
+    {"rank": 12, "name": "SoundHound"},
+    {"rank": 13, "name": "Fyle"},
+    {"rank": 14, "name": "Otter Voice Notes"},
+    {"rank": 15, "name": "24me"},
+    {"rank": 16, "name": "Edison Assistant"},
+    {"rank": 17, "name": "Andy"},
+    {"rank": 18, "name": "Humby"},
+    {"rank": 19, "name": "MyScript Calculator 2"},
+    {"rank": 20, "name": "CamScanner"}
+  ]
+}

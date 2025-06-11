@@ -1,0 +1,85 @@
+
+{
+  "apps": [
+    {
+      "rank": 1,
+      "name": "Wondershare Filmora"
+    },
+    {
+      "rank": 2,
+      "name": "Adobe Photoshop"
+    },
+    {
+      "rank": 3,
+      "name": "Luminar Neo"
+    },
+    {
+      "rank": 4,
+      "name": "Picsart"
+    },
+    {
+      "rank": 5,
+      "name": "YouCam Enhance"
+    },
+    {
+      "rank": 6,
+      "name": "Pixlr"
+    },
+    {
+      "rank": 7,
+      "name": "Canva"
+    },
+    {
+      "rank": 8,
+      "name": "CyberLink PowerDirector 365"
+    },
+    {
+      "rank": 9,
+      "name": "Meitu"
+    },
+    {
+      "rank": 10,
+      "name": "PhotoRoom"
+    },
+    {
+      "rank": 11,
+      "name": "TouchRetouch"
+    },
+    {
+      "rank": 12,
+      "name": "SnapEdit"
+    },
+    {
+      "rank": 13,
+      "name": "LightCut"
+    },
+    {
+      "rank": 14,
+      "name": "Descript"
+    },
+    {
+      "rank": 15,
+      "name": "RunwayML"
+    },
+    {
+      "rank": 16,
+      "name": "Opus Clip"
+    },
+    {
+      "rank": 17,
+      "name": "Gling"
+    },
+    {
+      "rank": 18,
+      "name": "Synthesia"
+    },
+    {
+      "rank": 19,
+      "name": "Renderforest"
+    },
+    {
+      "rank": 20,
+      "name": "FireCut"
+    }
+  ]
+}

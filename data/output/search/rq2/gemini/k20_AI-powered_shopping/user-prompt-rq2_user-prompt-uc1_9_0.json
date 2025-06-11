@@ -1,0 +1,104 @@
+{
+  "apps": [
+    {
+      "rank": 1,
+      "name": "Shop.app",
+      "description": "Shop.app AI by Shopify offers intuitive product suggestions, refines searches with follow-up questions, and tracks past conversations for modified preferences."
+    },
+    {
+      "rank": 2,
+      "name": "shopdev Shopping Assistant",
+      "description": "Provides personalized product recommendations, conversational assistance, and utilizes multimodal AI to combine data from different sources."
+    },
+    {
+      "rank": 3,
+      "name": "Perplexity",
+      "description": "AI-powered shopping assistant with one-click checkout (for Pro users in the US), visual search, and unbiased product recommendations."
+    },
+    {
+      "rank": 4,
+      "name": "Amazon",
+      "description": "Features a user-friendly interface, AI-powered search, and personalization. It has mastered personalization for shoppers."
+    },
+    {
+      "rank": 5,
+      "name": "Google Lens",
+      "description": "Facilitates visual search by taking a picture of something, finding similar items online, and identifying products. Displays product info such as price and reviews."
+    },
+    {
+      "rank": 6,
+      "name": "Rufus (Amazon)",
+      "description": "Amazon's built-in AI shopping assistant designed to help users find products via natural language queries and provides detailed product information."
+    },
+    {
+      "rank": 7,
+      "name": "Infichat",
+      "description": "AI-powered shopping chatbot providing personalized recommendations and 24/7 customer support with minimal setup."
+    },
+    {
+      "rank": 8,
+      "name": "Shopmate",
+      "description": "AI chatbot with 24/7 customer support, analyzes shopping history and preferences for intelligent recommendations."
+    },
+    {
+      "rank": 9,
+      "name": "Tidio AI",
+      "description": "Customer support with live chat and chatbot functionalities, customization based on brand requirements, and easy setup."
+    },
+    {
+      "rank": 10,
+      "name": "Gorgias",
+      "description": "AI-driven helpdesk solution, designed to manage conversations from multiple channels with machine learning to enhance automated workflow."
+    },
+    {
+      "rank": 11,
+      "name": "LimeSpot Personalizer",
+      "description": "Delivers tailored shopping experiences with AI-driven product recommendations and dynamic content across various channels."
+    },
+    {
+      "rank": 12,
+      "name": "Wiser",
+      "description": "Provides personalized product recommendations using browsing patterns, order data, and preferences."
+    },
+    {
+      "rank": 13,
+      "name": "Claros",
+      "description": "AI shopping assistant for Amazon providing detailed product information through a question-based search."
+    },
+    {
+      "rank": 14,
+      "name": "Buysmart.ai",
+      "description": "AI tool to find products and learn more about them through a category system and AI-driven questions."
+    },
+    {
+      "rank": 15,
+      "name": "Rep AI",
+      "description": "Conversational AI Shopify app providing immediate support for customer concerns and automating support-related tasks."
+    },
+    {
+      "rank": 16,
+      "name": "MOI (Klevu)",
+      "description": "Chat-based product search tool that allows visitors to ask for product information."
+    },
+    {
+      "rank": 17,
+      "name": "Alby",
+      "description": "Uses generative AI to predict and answer customer queries directly on product pages."
+    },
+     {
+      "rank": 18,
+      "name": "VanChat",
+      "description": "AI shopping assistant that answers customer questions and proactively suggests products to enhance sales."
+    },
+   {
+      "rank": 19,
+      "name": "Cherry",
+      "description": "Image search app that focuses on shopping, that uses state-of-the-art visual recognition technology and personalized recommendations."
+    },
+    {
+      "rank": 20,
+      "name": "Lykdat",
+      "description": "Lets you find fashion items by searching with images."
+    }
+  ]
+}

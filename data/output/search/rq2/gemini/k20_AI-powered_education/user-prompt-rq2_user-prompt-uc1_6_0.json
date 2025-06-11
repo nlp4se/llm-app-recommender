@@ -1,0 +1,25 @@
+
+{
+  "apps": [
+    {"rank": 1, "name": "Khanmigo"},
+    {"rank": 2, "name": "Duolingo"},
+    {"rank": 3, "name": "Babbel"},
+    {"rank": 4, "name": "Quizizz"},
+    {"rank": 5, "name": "Talkpal"},
+    {"rank": 6, "name": "Loora AI"},
+    {"rank": 7, "name": "Speak"},
+    {"rank": 8, "name": "Tutor Lily"},
+    {"rank": 9, "name": "Univerbal"},
+    {"rank": 10, "name": "Lingvist"},
+    {"rank": 11, "name": "Eklavvya"},
+    {"rank": 12, "name": "LearnWorlds"},
+    {"rank": 13, "name": "CYPHER Learning"},
+    {"rank": 14, "name": "Absorb LMS"},
+    {"rank": 15, "name": "Education Copilot"},
+    {"rank": 16, "name": "Eduaide.AI"},
+    {"rank": 17, "name": "Slidesgo"},
+    {"rank": 18, "name": "Grammarly"},
+    {"rank": 19, "name": "ChatGPT"},
+    {"rank": 20, "name": "MakesYouFluent"}
+  ]
+}

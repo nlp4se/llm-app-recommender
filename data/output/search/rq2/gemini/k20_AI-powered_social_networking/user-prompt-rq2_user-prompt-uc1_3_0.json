@@ -1,0 +1,25 @@
+
+{
+  "apps": [
+    {"rank": 1, "name": "Sprout Social"},
+    {"rank": 2, "name": "Hootsuite"},
+    {"rank": 3, "name": "FeedHive"},
+    {"rank": 4, "name": "Buffer"},
+    {"rank": 5, "name": "Ocoya"},
+    {"rank": 6, "name": "SocialBee"},
+    {"rank": 7, "name": "Predis.ai"},
+    {"rank": 8, "name": "Publer"},
+    {"rank": 9, "name": "Agorapulse"},
+    {"rank": 10, "name": "Brandwatch"},
+    {"rank": 11, "name": "YouScan"},
+    {"rank": 12, "name": "ContentStudio"},
+    {"rank": 13, "name": "Loomly"},
+    {"rank": 14, "name": "Sendible"},
+    {"rank": 15, "name": "Postly"},
+    {"rank": 16, "name": "Dash Social"},
+    {"rank": 17, "name": "Audiense"},
+    {"rank": 18, "name": "Exolyt"},
+    {"rank": 19, "name": "All Ears"},
+    {"rank": 20, "name": "Mandala AI"}
+  ]
+}

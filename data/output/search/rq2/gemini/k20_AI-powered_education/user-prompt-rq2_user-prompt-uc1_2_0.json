@@ -1,0 +1,25 @@
+
+{
+  "apps": [
+    {"rank": 1, "name": "Quizizz"},
+    {"rank": 2, "name": "Khanmigo"},
+    {"rank": 3, "name": "MagicSchool AI"},
+    {"rank": 4, "name": "Duolingo"},
+    {"rank": 5, "name": "Grammarly"},
+    {"rank": 6, "name": "Eklavvya"},
+    {"rank": 7, "name": "MentalUP"},
+    {"rank": 8, "name": "LearnUpon"},
+    {"rank": 9, "name": "CYPHER Learning"},
+    {"rank": 10, "name": "360Learning"},
+    {"rank": 11, "name": "Cornerstone"},
+    {"rank": 12, "name": "Loora AI"},
+    {"rank": 13, "name": "MakesYouFluent"},
+    {"rank": 14, "name": "Eduaide.AI"},
+    {"rank": 15, "name": "Babbel"},
+    {"rank": 16, "name": "Quizlet"},
+    {"rank": 17, "name": "Gradescope"},
+    {"rank": 18, "name": "ChatGPT"},
+    {"rank": 19, "name": "The Drive AI"},
+    {"rank": 20, "name": "EdPuzzle"}
+  ]
+}

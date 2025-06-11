@@ -1,0 +1,25 @@
+
+{
+  "apps": [
+    {"rank": 1, "name": "Khanmigo"},
+    {"rank": 2, "name": "Duolingo"},
+    {"rank": 3, "name": "Babbel"},
+    {"rank": 4, "name": "Quizlet"},
+    {"rank": 5, "name": "Coursera"},
+    {"rank": 6, "name": "EdX"},
+    {"rank": 7, "name": "Google Classroom"},
+    {"rank": 8, "name": "Socratic by Google"},
+    {"rank": 9, "name": "TED-Ed"},
+    {"rank": 10, "name": "Wolfram Alpha"},
+    {"rank": 11, "name": "Grammarly"},
+    {"rank": 12, "name": "Gradescope"},
+    {"rank": 13, "name": "Classcraft"},
+    {"rank": 14, "name": "Gimkit"},
+    {"rank": 15, "name": "SoloLearn"},
+    {"rank": 16, "name": "CodeCombat"},
+    {"rank": 17, "name": "Quizizz"},
+    {"rank": 18, "name": "Brisk Teaching"},
+    {"rank": 19, "name": "EdApp"},
+    {"rank": 20, "name": "Tutor AI"}
+  ]
+}

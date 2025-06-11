@@ -4,6 +4,7 @@ from dotenv import load_dotenv
 import os
 import logging
 from code.llm.create_assistant import CreateAssistant
+import json
 
 # Load environment variables from .env file
 load_dotenv()
@@ -19,10 +20,23 @@ class OpenAIAssistantCreator(CreateAssistant):
         super().__init__(model)
         self.client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
-    def create_assistant(self, guidelines_file: str):
+    def load_json_schema(self, schema_file: str) -> dict:
+        """Load JSON schema from a file."""
+        self.logger.info(f"Loading JSON schema from {schema_file}")
+        try:
+            with open(schema_file, 'r', encoding='utf-8') as file:
+                schema = json.loads(file.read())
+                self.logger.info("JSON schema loaded successfully")
+                return schema
+        except Exception as e:
+            self.logger.error(f"Error loading JSON schema: {str(e)}")
+            raise
+
+    def create_assistant(self, guidelines_file: str, schema_file: str):
         """Create an OpenAI assistant with guidelines stored in memory."""
         self.logger.info(f"Creating new assistant with model {self.model}")
         system_prompt = self.load_system_prompt(guidelines_file)
+        response_format = self.load_json_schema(schema_file)
 
         try:
             print("Creating a new assistant...")
@@ -33,47 +47,7 @@ class OpenAIAssistantCreator(CreateAssistant):
                 instructions=system_prompt,
                 model=self.model,
                 temperature=0.7,
-                response_format={
-                    "type": "json_schema",
-                    "json_schema": {
-                        "name": "rank_apps",
-                        "description": "Ranks apps based on specified criteria and provides detailed ranking information",
-                        "schema": {
-                            "type": "object",
-                            "properties": {
-                                "apps": {
-                                    "type": "array",
-                                    "items": {
-                                        "type": "object",
-                                        "properties": {
-                                            "rank": {"type": "integer", "description": "Position in the ranking"},
-                                            "name": {"type": "string", "description": "Name of the app"}
-                                        },
-                                        "required": ["rank", "name"]
-                                    }
-                                },
-                                "criteria": {
-                                    "type": "array",
-                                    "items": {
-                                        "type": "object",
-                                        "properties": {
-                                            "name": {"type": "string", "description": "Name of the ranking criterion"},
-                                            "description": {"type": "string", "description": "Description of the ranking criterion"},
-                                            "type": {"type": "string", "description": "Data type(e.g., Integer, Float, Boolean, Text, Media...) and cardinality (e.g., [1], [5], [*]...)"},
-                                            "sources": {
-                                                "type": "array",
-                                                "items": {"type": "string"},
-                                                "description": "List of data sources"
-                                            },
-                                        },
-                                        "required": ["name", "description", "type", "sources"]
-                                    }
-                                }
-                            },
-                            "required": ["apps", "criteria"]
-                        }
-                    }
-                }
+                response_format=response_format
             )
 
             self.save_assistant_id(assistant.id)
@@ -88,12 +62,13 @@ class OpenAIAssistantCreator(CreateAssistant):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Create an OpenAI assistant for emotion annotation.')
     parser.add_argument('--system_prompt', required=True, help='Path to the system prompt file')
+    parser.add_argument('--schema_file', required=True, help='Path to the JSON schema file')
     parser.add_argument('--model', default="gpt-4o", help='OpenAI model to use')
 
     args = parser.parse_args()
     try:
         creator = OpenAIAssistantCreator(args.model)
-        creator.create_assistant(args.system_prompt)
+        creator.create_assistant(args.system_prompt, args.schema_file)
     except Exception as e:
         logging.error(f"Application failed: {str(e)}")
         raise

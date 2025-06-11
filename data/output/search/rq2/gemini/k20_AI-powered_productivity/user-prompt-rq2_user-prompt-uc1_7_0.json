@@ -1,0 +1,85 @@
+
+{
+  "apps": [
+    {
+      "rank": 1,
+      "name": "Motion"
+    },
+    {
+      "rank": 2,
+      "name": "ClickUp"
+    },
+    {
+      "rank": 3,
+      "name": "Notion"
+    },
+    {
+      "rank": 4,
+      "name": "ChatGPT"
+    },
+    {
+      "rank": 5,
+      "name": "Taskade"
+    },
+    {
+      "rank": 6,
+      "name": "Asana"
+    },
+    {
+      "rank": 7,
+      "name": "Zapier"
+    },
+    {
+      "rank": 8,
+      "name": "Slack"
+    },
+    {
+      "rank": 9,
+      "name": "Microsoft Teams"
+    },
+    {
+      "rank": 10,
+      "name": "Jasper AI"
+    },
+    {
+      "rank": 11,
+      "name": "Canva"
+    },
+    {
+      "rank": 12,
+      "name": "Otter.ai"
+    },
+    {
+      "rank": 13,
+      "name": "Todoist"
+    },
+    {
+      "rank": 14,
+      "name": "Synthesia"
+    },
+    {
+      "rank": 15,
+      "name": "Descript"
+    },
+    {
+      "rank": 16,
+      "name": "Reclaim"
+    },
+    {
+      "rank": 17,
+      "name": "Fireflies.ai"
+    },
+    {
+      "rank": 18,
+      "name": "Copy.ai"
+    },
+    {
+      "rank": 19,
+      "name": "Trello"
+    },
+    {
+      "rank": 20,
+      "name": "TimeHero"
+    }
+  ]
+}

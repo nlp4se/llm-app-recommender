@@ -1,0 +1,85 @@
+
+{
+  "apps": [
+    {
+      "rank": 1,
+      "name": "Motion"
+    },
+    {
+      "rank": 2,
+      "name": "ChatGPT"
+    },
+    {
+      "rank": 3,
+      "name": "Zapier"
+    },
+    {
+      "rank": 4,
+      "name": "Notion AI"
+    },
+    {
+      "rank": 5,
+      "name": "Otter.ai"
+    },
+    {
+      "rank": 6,
+      "name": "Superhuman"
+    },
+    {
+      "rank": 7,
+      "name": "Perplexity AI"
+    },
+    {
+      "rank": 8,
+      "name": "Grammarly ProVision"
+    },
+    {
+      "rank": 9,
+      "name": "ClickUp Brain"
+    },
+    {
+      "rank": 10,
+      "name": "Reclaim AI"
+    },
+    {
+      "rank": 11,
+      "name": "Jasper"
+    },
+    {
+      "rank": 12,
+      "name": "Claude"
+    },
+    {
+      "rank": 13,
+      "name": "Taskade"
+    },
+    {
+      "rank": 14,
+      "name": "Any.do"
+    },
+    {
+      "rank": 15,
+      "name": "Fireflies.ai"
+    },
+    {
+      "rank": 16,
+      "name": "FeedHive"
+    },
+    {
+      "rank": 17,
+      "name": "Mem"
+    },
+    {
+      "rank": 18,
+      "name": "Wordtune"
+    },
+    {
+      "rank": 19,
+      "name": "Shortwave"
+    },
+    {
+      "rank": 20,
+      "name": "AI Magicx WorkFlow"
+    }
+  ]
+}

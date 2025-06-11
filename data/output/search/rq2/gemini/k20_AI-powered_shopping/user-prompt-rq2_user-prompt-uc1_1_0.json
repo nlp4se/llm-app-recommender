@@ -1,0 +1,25 @@
+
+{
+  "apps": [
+    {"rank": 1, "name": "shopdev Shopping Assistant"},
+    {"rank": 2, "name": "App0"},
+    {"rank": 3, "name": "Rufus (Amazon)"},
+    {"rank": 4, "name": "Shopmate"},
+    {"rank": 5, "name": "Tidio AI"},
+    {"rank": 6, "name": "Rep AI"},
+    {"rank": 7, "name": "AskTimmy.ai"},
+    {"rank": 8, "name": "Manifest AI Chatbot"},
+    {"rank": 9, "name": "Claros"},
+    {"rank": 10, "name": "Zoovu AI Shopping Assistant"},
+    {"rank": 11, "name": "Limespot"},
+    {"rank": 12, "name": "Bold Brain"},
+    {"rank": 13, "name": "Nosto"},
+    {"rank": 14, "name": "Algolia"},
+    {"rank": 15, "name": "YesPlz AI Fashion Discovery Suite"},
+    {"rank": 16, "name": "ZuPick: Ai Shopping Assistant"},
+    {"rank": 17, "name": "Klicker"},
+    {"rank": 18, "name": "Gorgias"},
+    {"rank": 19, "name": "Alhena AI"},
+    {"rank": 20, "name": "Lily AI"}
+  ]
+}

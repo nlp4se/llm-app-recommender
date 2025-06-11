@@ -39,3 +39,6 @@ Extract ranking criteria
 ```python -m code.data-processor.ranking_criteria_to_csv --input-folder .\data\output\search\uc1\gemini\ --output-file-all .\data\output\search\uc1\gemini\ranking-criteria-all.csv --output-file-grouped .\data\output\search\uc1\gemini\ranking-criteria-grouped.csv```
 
 Internal consistency
+
+```python -m code.data-processor.ranking_matrix --input_folder .\data\output\search\uc1\gemini\k20_AI-powered_education\ --experiment_name user-prompt-uc1 --output_folder .\data\output\search\uc1\gemini\k20_AI-powered_education\ --category_name "AI-powered education" --max_rank 10```
+

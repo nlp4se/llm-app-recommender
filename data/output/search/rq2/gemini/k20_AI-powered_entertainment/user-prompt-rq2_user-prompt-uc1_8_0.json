@@ -1,0 +1,25 @@
+
+{
+  "apps": [
+    {"rank": 1, "name": "ChatGPT"},
+    {"rank": 2, "name": "Google Gemini"},
+    {"rank": 3, "name": "Nova AI Chatbot"},
+    {"rank": 4, "name": "Talkie AI"},
+    {"rank": 5, "name": "Lensa"},
+    {"rank": 6, "name": "Remini"},
+    {"rank": 7, "name": "FaceApp"},
+    {"rank": 8, "name": "AI Dungeon"},
+    {"rank": 9, "name": "AIVA"},
+    {"rank": 10, "name": "Prisma"},
+    {"rank": 11, "name": "Netflix"},
+    {"rank": 12, "name": "Spotify"},
+    {"rank": 13, "name": "Synthesia"},
+    {"rank": 14, "name": "RunwayML"},
+    {"rank": 15, "name": "Descript"},
+    {"rank": 16, "name": "Opus Clip"},
+    {"rank": 17, "name": "Beatoven"},
+    {"rank": 18, "name": "FireCut"},
+    {"rank": 19, "name": "AI Allure"},
+    {"rank": 20, "name": "Luzia: Your AI Assistant"}
+  ]
+}

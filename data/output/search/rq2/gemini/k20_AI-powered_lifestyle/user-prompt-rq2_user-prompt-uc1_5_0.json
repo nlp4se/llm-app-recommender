@@ -1,0 +1,25 @@
+
+{
+  "apps": [
+    {"rank": 1, "name": "HealthifyMe"},
+    {"rank": 2, "name": "Wysa"},
+    {"rank": 3, "name": "Youper"},
+    {"rank": 4, "name": "FitnessAI"},
+    {"rank": 5, "name": "Noom"},
+    {"rank": 6, "name": "Fitbod"},
+    {"rank": 7, "name": "Freeletics"},
+    {"rank": 8, "name": "MyFitnessPal"},
+    {"rank": 9, "name": "Headspace"},
+    {"rank": 10, "name": "Zing AI Coach"},
+    {"rank": 11, "name": "Athlytic"},
+    {"rank": 12, "name": "Nike Training Club"},
+    {"rank": 13, "name": "Calm"},
+    {"rank": 14, "name": "Habit Driven"},
+    {"rank": 15, "name": "FormFusion"},
+    {"rank": 16, "name": "Foodvisor"},
+    {"rank": 17, "name": "Reclaim.ai"},
+    {"rank": 18, "name": "AI Nutrition Tracker"},
+    {"rank": 19, "name": "Nutrition AI"},
+    {"rank": 20, "name": "Goaly - AI Habit Tracker"}
+  ]
+}

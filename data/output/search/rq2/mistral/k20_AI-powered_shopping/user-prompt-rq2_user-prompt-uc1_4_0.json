@@ -1,0 +1,25 @@
+
+{
+  "apps": [
+    {"rank": 1, "name": "Amazon"},
+    {"rank": 2, "name": "eBay"},
+    {"rank": 3, "name": "Wish"},
+    {"rank": 4, "name": "AliExpress"},
+    {"rank": 5, "name": "Etsy"},
+    {"rank": 6, "name": "Zara"},
+    {"rank": 7, "name": "ASOS"},
+    {"rank": 8, "name": "H&M"},
+    {"rank": 9, "name": "Nike"},
+    {"rank": 10, "name": "Sephora"},
+    {"rank": 11, "name": "Shein"},
+    {"rank": 12, "name": "Walmart"},
+    {"rank": 13, "name": "Target"},
+    {"rank": 14, "name": "Macy's"},
+    {"rank": 15, "name": "IKEA"},
+    {"rank": 16, "name": "Pinterest"},
+    {"rank": 17, "name": "Depop"},
+    {"rank": 18, "name": "Poshmark"},
+    {"rank": 19, "name": "Mercari"},
+    {"rank": 20, "name": "Rakuten"}
+  ]
+}

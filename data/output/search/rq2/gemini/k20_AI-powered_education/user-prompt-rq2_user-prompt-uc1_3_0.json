@@ -1,0 +1,25 @@
+
+{
+  "apps": [
+    {"rank": 1, "name": "Duolingo"},
+    {"rank": 2, "name": "Khan Academy"},
+    {"rank": 3, "name": "Babbel"},
+    {"rank": 4, "name": "Loora AI"},
+    {"rank": 5, "name": "Quizlet"},
+    {"rank": 6, "name": "Grammarly"},
+    {"rank": 7, "name": "Wolfram Alpha"},
+    {"rank": 8, "name": "Socratic by Google"},
+    {"rank": 9, "name": "Elicit"},
+    {"rank": 10, "name": "Caktus AI"},
+    {"rank": 11, "name": "Synthesia"},
+    {"rank": 12, "name": "Otter.ai"},
+    {"rank": 13, "name": "EducateMe"},
+    {"rank": 14, "name": "Pathwright"},
+    {"rank": 15, "name": "Whatfix"},
+    {"rank": 16, "name": "TalentLMS"},
+    {"rank": 17, "name": "LearnUpon"},
+    {"rank": 18, "name": "EdApp"},
+    {"rank": 19, "name": "CYPHER Learning"},
+    {"rank": 20, "name": "Cornerstone"}
+  ]
+}

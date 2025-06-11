@@ -1,0 +1,25 @@
+
+{
+  "apps": [
+    {"rank": 1, "name": "Microsoft SwiftKey"},
+    {"rank": 2, "name": "Google Assistant"},
+    {"rank": 3, "name": "Replika"},
+    {"rank": 4, "name": "Cortana"},
+    {"rank": 5, "name": "DataBot"},
+    {"rank": 6, "name": "Socratic"},
+    {"rank": 7, "name": "Elsa Speak"},
+    {"rank": 8, "name": "Fyle"},
+    {"rank": 9, "name": "Otter"},
+    {"rank": 10, "name": "Forest"},
+    {"rank": 11, "name": "Hound"},
+    {"rank": 12, "name": "Youper"},
+    {"rank": 13, "name": "Wysa"},
+    {"rank": 14, "name": "Andy"},
+    {"rank": 15, "name": "Robin"},
+    {"rank": 16, "name": "MyScript Calculator"},
+    {"rank": 17, "name": "CamFind"},
+    {"rank": 18, "name": "Leia"},
+    {"rank": 19, "name": "Recapp"},
+    {"rank": 20, "name": "StarChat"}
+  ]
+}

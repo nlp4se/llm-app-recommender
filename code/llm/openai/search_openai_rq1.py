@@ -24,7 +24,7 @@ class OpenAISearch:
 
     def read_and_format_prompt(self, k: int, category: str) -> str:
         """Read the prompt template and replace placeholders with parameters."""
-        input_file = "data/input/prompts/user-prompt-uc1.txt"
+        input_file = "data/input/prompts/user-prompt-rq1.txt"
         with open(input_file, 'r') as file:
             prompt = file.read()
         
@@ -32,9 +32,14 @@ class OpenAISearch:
 
     def read_system_prompt(self) -> str:
         """Read the system prompt from a file."""
-        system_prompt_file = "data/input/prompts/system-prompt.txt"
+        system_prompt_file = "data/input/prompts/system-prompt-rq1.txt"
         with open(system_prompt_file, 'r') as file:
             return file.read()
+
+    def read_json_schema(self, schema_file: str) -> dict:
+        """Read the JSON schema from a file."""
+        with open(schema_file, 'r') as file:
+            return json.load(file)
 
     def save_response(self, response: str, output_folder: str, base_name: str, run_number: int):
         """Save the response to a JSON file."""
@@ -42,15 +47,16 @@ class OpenAISearch:
         with open(output_file, 'w', encoding='utf-8') as f:
             f.write(response)
 
-    def run_prompt(self, output_folder: str, k: int, category: str, n: int = 1, sleep_time: int = 10):
+    def run_prompt(self, output_folder: str, k: int, category: str, n: int = 1, sleep_time: int = 10, schema_file: str = "data/input/schema/rank_apps_schema.json"):
         """Run the prompt n times and save responses."""
         print(f"Starting process at {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
 
         user_prompt = self.read_and_format_prompt(k, category)
         system_prompt = self.read_system_prompt()
+        json_schema = self.read_json_schema(schema_file)
         os.makedirs(output_folder, exist_ok=True)
 
-        base_name = os.path.splitext(os.path.basename("user-prompt-uc1.txt"))[0]
+        base_name = os.path.splitext(os.path.basename("user-prompt-rq1.txt"))[0]
 
         for i in range(n):
             print(f"Processing run {i+1}/{n}")
@@ -70,43 +76,7 @@ class OpenAISearch:
                             "content": user_prompt
                         }
                     ],
-                    response_format={
-                        "type": "json_schema",
-                        "json_schema": {
-                            "name": "rank_apps",
-                            "description": "Ranks apps based on specified criteria and provides detailed ranking information",
-                            "schema": {
-                                "type": "object",
-                                "properties": {
-                                    "apps": {
-                                        "type": "array",
-                                        "items": {
-                                            "type": "object",
-                                            "properties": {
-                                                "rank": {"type": "integer", "description": "Position in the ranking"},
-                                                "name": {"type": "string", "description": "Name of the app"}
-                                            },
-                                            "required": ["rank", "name"]
-                                        }
-                                    },
-                                    "criteria": {
-                                        "type": "array",
-                                        "items": {
-                                            "type": "object",
-                                            "properties": {
-                                                "name": {"type": "string", "description": "Name of the ranking criterion"},
-                                                "description": {"type": "string", "description": "Description of the ranking criterion"},
-                                                "type": {"type": "string", "description": "Data type(e.g., Integer, Float, Boolean, Text, Media...) and cardinality (e.g., [1], [5], [*]...)"},
-                                                "sources": {"type": "string", "description": "Sources of the criterion"},
-                                            },
-                                            "required": ["name", "description", "type", "sources"]
-                                        }
-                                    }
-                                },
-                                "required": ["apps", "criteria"]
-                            }
-                        }
-                    }
+                    response_format=json_schema
                 )
 
                 # Extract the response content
@@ -124,9 +94,9 @@ class OpenAISearch:
 
         print("Process complete.")
 
-def main(output_folder: str, k: int, category: str, n: int = 1, model: str = "gpt-4o-search-preview", sleep_time: int = 10):
+def main(output_folder: str, k: int, category: str, n: int = 1, model: str = "gpt-4o-search-preview", sleep_time: int = 10, schema_file: str = "data/input/schema/rank_apps_schema.json"):
     search = OpenAISearch(model)
-    search.run_prompt(output_folder, k, category, n, sleep_time)
+    search.run_prompt(output_folder, k, category, n, sleep_time, schema_file)
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Run prompts with Chat Completions API')
@@ -136,6 +106,7 @@ if __name__ == "__main__":
     parser.add_argument('--n', type=int, default=1, help='Number of runs to perform')
     parser.add_argument('--model', type=str, default='gpt-4o-search-preview', help='Model name')
     parser.add_argument('--sleep', type=int, default=10, help='Sleep time between runs in seconds')
+    parser.add_argument('--schema', type=str, default='data/input/schema/rank_apps_schema.json', help='Path to JSON schema file')
     args = parser.parse_args()
     
-    main(args.output, args.k, args.category, args.n, args.model, args.sleep)
+    main(args.output, args.k, args.category, args.n, args.model, args.sleep, args.schema)

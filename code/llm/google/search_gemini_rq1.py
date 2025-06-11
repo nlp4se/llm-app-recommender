@@ -28,7 +28,7 @@ class GeminiSearch:
 
     def read_and_format_prompt(self, k: int, category: str) -> str:
         """Read the prompt template and replace placeholders with parameters."""
-        input_file = "data/input/prompts/user-prompt-uc1.txt"
+        input_file = "data/input/prompts/user-prompt-rq1.txt"
         with open(input_file, 'r') as file:
             prompt = file.read()
         
@@ -60,7 +60,7 @@ class GeminiSearch:
         system_instruction = self.read_system_prompt(system_prompt_path)
         os.makedirs(output_folder, exist_ok=True)
 
-        base_name = os.path.splitext(os.path.basename("user-prompt-uc1.txt"))[0]
+        base_name = os.path.splitext(os.path.basename("user-prompt-rq1.txt"))[0]
 
         for i in range(n):
             print(f"Processing run {i+1}/{n}")

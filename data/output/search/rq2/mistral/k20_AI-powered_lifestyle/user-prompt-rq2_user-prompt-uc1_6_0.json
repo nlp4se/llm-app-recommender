@@ -1,0 +1,25 @@
+
+{
+  "apps": [
+    {"rank": 1, "name": "MyFitnessPal"},
+    {"rank": 2, "name": "Headspace"},
+    {"rank": 3, "name": "Sleep Cycle"},
+    {"rank": 4, "name": "Calm"},
+    {"rank": 5, "name": "Flo"},
+    {"rank": 6, "name": "Lifesum"},
+    {"rank": 7, "name": "Youper"},
+    {"rank": 8, "name": "Fabulous"},
+    {"rank": 9, "name": "Clue"},
+    {"rank": 10, "name": "MyTherapy"},
+    {"rank": 11, "name": "Moodpath"},
+    {"rank": 12, "name": "YAZIO"},
+    {"rank": 13, "name": "Happify"},
+    {"rank": 14, "name": "Noom"},
+    {"rank": 15, "name": "WW (Weight Watchers)"},
+    {"rank": 16, "name": "Fitbit"},
+    {"rank": 17, "name": "Strava"},
+    {"rank": 18, "name": "Nike Training Club"},
+    {"rank": 19, "name": "Endomondo"},
+    {"rank": 20, "name": "Runtastic"}
+  ]
+}
