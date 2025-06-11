@@ -1,0 +1,80 @@
+App,Run_1,Run_2,Run_3,Run_4,Run_5,Run_6,Run_7,Run_8,Run_9,Run_10
+ChatGPT,1,1,1,1,1,1,1,1,1,1
+Google Gemini,2,0,5,0,0,0,2,2,2,0
+Microsoft Copilot,3,9,4,4,2,3,3,3,3,2
+Google AI Studio,0,0,0,0,15,2,0,0,0,0
+Grammarly,5,3,2,2,0,7,0,7,7,0
+Gemini,0,0,0,6,3,5,0,0,0,3
+Grammarly AI,0,0,0,0,4,0,0,0,0,6
+Notion AI,9,4,3,3,0,0,0,8,14,0
+DeepSeek AI,0,0,0,0,0,0,0,0,5,0
+Perplexity AI,0,0,6,0,0,4,5,4,4,12
+Google Assistant,10,2,0,5,0,8,0,0,16,0
+DALLÂ·E 3,6,5,0,0,0,0,0,0,0,0
+Deepseek,0,0,0,0,0,6,0,0,0,0
+GitHub Copilot,0,0,0,0,0,0,6,0,0,0
+Claude,0,0,16,0,11,0,8,5,6,4
+Salesforce Einstein,0,0,0,7,0,0,0,0,0,0
+Jasper,4,10,11,0,5,0,10,13,12,5
+Midjourney,7,6,0,0,7,0,0,15,0,8
+DALL-E 3,0,0,0,0,6,0,0,14,0,7
+Otter,13,12,0,0,9,9,4,0,0,0
+IBM Watsonx,0,0,0,8,0,0,0,0,0,0
+Socratic,11,0,0,0,0,0,7,0,0,0
+Perplexity,8,8,0,0,10,0,0,0,0,0
+UiPath AI-powered RPA,0,0,0,9,0,0,0,0,0,0
+Otter.ai,0,0,7,0,0,0,0,11,8,16
+Google Vertex AI,0,0,0,10,0,0,0,0,0,0
+Runway,15,7,12,0,12,10,0,9,9,11
+Canva Magic Studio,18,0,9,0,0,0,0,6,0,20
+Synthesia,0,11,13,0,8,12,0,12,10,10
+DALLÂ·E Business Suite,0,0,0,11,0,0,0,0,0,0
+Nova,0,0,0,0,0,0,11,0,0,0
+Fireflies.ai,12,0,8,0,18,0,0,0,0,0
+Fathom,0,0,0,0,0,13,0,0,11,0
+Hugging Face AI Models,0,0,0,12,0,0,0,0,0,0
+ChatOn,0,0,0,0,0,0,12,0,0,0
+Stable Diffusion,0,0,0,0,19,0,0,0,0,9
+Descript,14,17,10,0,0,15,0,10,0,0
+AI Magicx WorkFlow,0,0,0,13,0,0,0,0,0,0
+Chatbot AI,0,0,0,0,0,0,13,0,0,0
+Motion,0,0,15,0,0,0,0,0,13,0
+Otter.ai Agent Edition,0,0,0,14,0,0,0,0,0,0
+Canva,0,0,0,0,14,0,0,0,0,0
+Talkie,0,0,0,0,0,0,14,0,0,0
+Zapier,17,18,14,0,0,0,9,17,0,0
+Filmora,16,13,0,0,13,11,0,18,0,17
+Copy.ai,0,0,0,0,16,0,0,0,0,13
+Character AI,0,0,0,0,0,0,15,0,0,0
+Rytr,0,0,0,0,0,0,0,0,15,0
+Writer AI,0,0,0,0,17,0,0,0,0,14
+Siri,0,16,0,0,0,0,0,0,0,0
+Superhuman AI Inbox,0,0,0,16,0,0,0,0,0,0
+DeepSeek,0,14,0,0,0,0,0,0,0,19
+n8n,0,0,0,0,0,14,0,0,19,0
+Cleo,0,15,0,0,0,19,0,0,0,0
+ClickUp Brain,0,0,19,15,0,0,0,0,0,0
+ElevenLabs,19,0,0,0,0,16,0,16,0,0
+Clockwise AI Scheduler,0,0,0,17,0,0,0,0,0,0
+Udio,0,0,0,0,0,17,0,0,0,0
+Bing,0,0,0,0,0,0,17,0,0,0
+IFTTT,0,0,0,0,0,0,0,0,17,0
+Adobe Firefly,0,0,0,0,20,0,0,0,0,15
+Grok,0,0,0,0,0,20,16,0,0,0
+DeepL,0,0,17,0,0,0,0,19,0,0
+Wordtune,0,0,18,0,0,0,0,0,0,0
+Fathom Insight Dashboards,0,0,0,18,0,0,0,0,0,0
+Seeing AI,0,0,0,0,0,18,0,0,0,0
+Invideo AI,0,0,0,0,0,0,18,0,0,0
+Reclaim.ai,0,0,0,0,0,0,0,0,18,0
+Glean,0,0,0,0,0,0,0,0,0,18
+BeforeSunset AI,0,19,0,0,0,0,0,0,0,0
+Motion AI Task Planner,0,0,0,19,0,0,0,0,0,0
+Texts.com,0,0,0,0,0,0,19,0,0,0
+Beautiful.ai,20,0,0,0,0,0,0,0,0,0
+Vista Social,0,20,0,0,0,0,0,0,0,0
+Anyword,0,0,20,0,0,0,0,0,0,0
+Loom AI Coach,0,0,0,20,0,0,0,0,0,0
+Humata AI,0,0,0,0,0,0,20,0,0,0
+Mem,0,0,0,0,0,0,0,20,0,0
+Taskade,0,0,0,0,0,0,0,0,20,0

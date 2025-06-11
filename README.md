@@ -34,6 +34,8 @@ Use search OpenAI model
 
 ```python -m code.llm.openai.search_openai_uc1 --output ./data/output/search/uc1/openai --k 10 --category "sports tracking" --n 10 --model gpt-4o-search-preview --sleep 10```
 
-Extract ranking criteria (flat)
+Extract ranking criteria
 
 ```python -m code.data-processor.ranking_criteria_to_csv --input-folder .\data\output\search\uc1\gemini\ --output-file-all .\data\output\search\uc1\gemini\ranking-criteria-all.csv --output-file-grouped .\data\output\search\uc1\gemini\ranking-criteria-grouped.csv```
+
+Internal consistency
