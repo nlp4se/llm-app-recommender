@@ -9,49 +9,49 @@
     {"rank": 6, "name": "Zara"},
     {"rank": 7, "name": "H&M"},
     {"rank": 8, "name": "Etsy"},
-    {"rank": 9, "name": "Zalando"},
+    {"rank": 9, "name": "Zappos"},
     {"rank": 10, "name": "Nike"},
     {"rank": 11, "name": "Adidas"},
     {"rank": 12, "name": "Sephora"},
-    {"rank": 13, "name": "Uniqlo"},
-    {"rank": 14, "name": "Macy's"},
+    {"rank": 13, "name": "IKEA"},
+    {"rank": 14, "name": "Walmart"},
     {"rank": 15, "name": "Target"},
-    {"rank": 16, "name": "Walmart"},
-    {"rank": 17, "name": "IKEA"},
+    {"rank": 16, "name": "Macy's"},
+    {"rank": 17, "name": "Best Buy"},
     {"rank": 18, "name": "Home Depot"},
-    {"rank": 19, "name": "Best Buy"},
-    {"rank": 20, "name": "Newegg"}
+    {"rank": 19, "name": "Lowe's"},
+    {"rank": 20, "name": "Wayfair"}
   ],
   "criteria": [
     {
       "name": "User Ratings",
-      "description": "Average user ratings on app stores (Google Play, Apple App Store).",
+      "description": "Average rating given by users on app stores.",
       "type": "Float [1]",
-      "sources": "Google Play Store, Apple App Store"
+      "sources": "App Store, Google Play Store"
     },
     {
       "name": "Downloads",
-      "description": "Total number of downloads on app stores.",
+      "description": "Total number of downloads from app stores.",
       "type": "Integer [1]",
-      "sources": "Google Play Store, Apple App Store"
+      "sources": "App Store, Google Play Store, Sensor Tower"
     },
     {
       "name": "AI Integration",
-      "description": "Level of AI integration for personalized recommendations, search, and other features.",
+      "description": "Level of AI integration for personalized recommendations, search, and user experience.",
       "type": "Text [1]",
-      "sources": "App descriptions, reviews, and developer websites"
+      "sources": "App descriptions, user reviews, tech blogs"
     },
     {
       "name": "User Interface",
-      "description": "Ease of use and intuitiveness of the app interface.",
+      "description": "Ease of use and design quality of the app.",
       "type": "Text [1]",
-      "sources": "User reviews, expert reviews"
+      "sources": "User reviews, tech reviews, design awards"
     },
     {
       "name": "Feature Set",
-      "description": "Range and relevance of features offered by the app.",
+      "description": "Range and innovation of features offered.",
       "type": "Text [1]",
-      "sources": "App descriptions, user reviews"
+      "sources": "App descriptions, user reviews, tech blogs"
     },
     {
       "name": "Customer Support",
@@ -60,16 +60,10 @@
       "sources": "User reviews, customer support ratings"
     },
     {
-      "name": "Update Frequency",
-      "description": "Frequency of app updates and improvements.",
-      "type": "Text [1]",
-      "sources": "App store update history"
-    },
-    {
       "name": "Security",
-      "description": "Level of security and data protection offered by the app.",
+      "description": "Level of security and privacy features.",
       "type": "Text [1]",
-      "sources": "App descriptions, user reviews, security audits"
+      "sources": "App descriptions, security reviews, privacy policies"
     }
   ]
 }

@@ -1,0 +1,69 @@
+
+{
+  "apps": [
+    {"rank": 1, "name": "Suno AI"},
+    {"rank": 2, "name": "SOUNDRAW"},
+    {"rank": 3, "name": "Mubert"},
+    {"rank": 4, "name": "AIVA"},
+    {"rank": 5, "name": "Udio"},
+    {"rank": 6, "name": "Boomy"},
+    {"rank": 7, "name": "Soundful"},
+    {"rank": 8, "name": "Riffusion"},
+    {"rank": 9, "name": "Moises"},
+    {"rank": 10, "name": "Beatoven"},
+    {"rank": 11, "name": "BandLab SongStarter"},
+    {"rank": 12, "name": "Loudly"},
+    {"rank": 13, "name": "Sonauto"},
+    {"rank": 14, "name": "ElevenLabs"},
+    {"rank": 15, "name": "ACE Studio"},
+    {"rank": 16, "name": "Vocaloid"},
+    {"rank": 17, "name": "Controlla Voice"},
+    {"rank": 18, "name": "Revocalize"},
+    {"rank": 19, "name": "Spotify Basic Pitch"},
+    {"rank": 20, "name": "Landr"}
+  ],
+  "criteria": [
+    {
+      "name": "AI Music Generation",
+      "description": "The app's ability to generate original music compositions using artificial intelligence algorithms.",
+      "type": "Boolean[1]",
+      "sources": "Multiple sources"
+    },
+    {
+      "name": "Customization Options",
+      "description": "The extent to which users can customize generated music, including genres, styles, and instruments.",
+      "type": "Text[*]",
+      "sources": "Multiple sources"
+    },
+    {
+      "name": "User Interface",
+      "description": "The app's ease of use and intuitiveness of design.",
+      "type": "Text[1]",
+      "sources": "[4]"
+    },
+    {
+      "name": "Licensing and Copyright",
+      "description": "The app's terms regarding ownership and commercial use of generated music.",
+      "type": "Text[1]",
+      "sources": "[4, 7]"
+    },
+    {
+      "name": "Vocal Integration",
+      "description": "The ability to add and manipulate AI-generated vocals in music compositions.",
+      "type": "Boolean[1]",
+      "sources": "[2, 6]"
+    },
+    {
+      "name": "Stem Separation",
+      "description": "The capability to separate audio tracks into individual instrument stems.",
+      "type": "Boolean[1]",
+      "sources": "[1, 8]"
+    },
+    {
+      "name": "Pricing Model",
+      "description": "The app's subscription fees and available free options.",
+      "type": "Text[1]",
+      "sources": "[2, 6]"
+    }
+  ]
+}

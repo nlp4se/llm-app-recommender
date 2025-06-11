@@ -5,33 +5,33 @@
     {"rank": 2, "name": "eBay"},
     {"rank": 3, "name": "AliExpress"},
     {"rank": 4, "name": "Wish"},
-    {"rank": 5, "name": "ASOS"},
+    {"rank": 5, "name": "Etsy"},
     {"rank": 6, "name": "Zara"},
-    {"rank": 7, "name": "H&M"},
-    {"rank": 8, "name": "Etsy"},
-    {"rank": 9, "name": "Zalando"},
-    {"rank": 10, "name": "Nike"},
-    {"rank": 11, "name": "Adidas"},
-    {"rank": 12, "name": "Sephora"},
-    {"rank": 13, "name": "IKEA"},
-    {"rank": 14, "name": "Walmart"},
-    {"rank": 15, "name": "Target"},
-    {"rank": 16, "name": "Macy's"},
-    {"rank": 17, "name": "Best Buy"},
-    {"rank": 18, "name": "Home Depot"},
-    {"rank": 19, "name": "Lowe's"},
-    {"rank": 20, "name": "Wayfair"}
+    {"rank": 7, "name": "ASOS"},
+    {"rank": 8, "name": "H&M"},
+    {"rank": 9, "name": "Shein"},
+    {"rank": 10, "name": "Zalando"},
+    {"rank": 11, "name": "Myntra"},
+    {"rank": 12, "name": "Flipkart"},
+    {"rank": 13, "name": "Shopee"},
+    {"rank": 14, "name": "Rakuten"},
+    {"rank": 15, "name": "JD.com"},
+    {"rank": 16, "name": "Pinduoduo"},
+    {"rank": 17, "name": "Zozo"},
+    {"rank": 18, "name": "Mercari"},
+    {"rank": 19, "name": "Depop"},
+    {"rank": 20, "name": "POSHMARK"}
   ],
   "criteria": [
     {
       "name": "User Ratings",
-      "description": "Average user ratings on app stores (Google Play, Apple App Store).",
+      "description": "Average rating given by users on app stores.",
       "type": "Float [1]",
       "sources": "Google Play Store, Apple App Store"
     },
     {
       "name": "Downloads",
-      "description": "Total number of downloads on app stores.",
+      "description": "Total number of downloads from app stores.",
       "type": "Integer [1]",
       "sources": "Google Play Store, Apple App Store, Sensor Tower"
     },
@@ -43,19 +43,13 @@
     },
     {
       "name": "User Interface",
-      "description": "Ease of use and intuitiveness of the app's interface.",
+      "description": "Ease of use and navigation within the app.",
       "type": "Text [1]",
       "sources": "User reviews, tech blogs, app store descriptions"
     },
     {
-      "name": "Feature Set",
-      "description": "Range and quality of features offered, such as product variety, payment options, and customer support.",
-      "type": "Text [1]",
-      "sources": "App descriptions, user reviews, tech blogs"
-    },
-    {
-      "name": "Security",
-      "description": "Security measures in place to protect user data and transactions.",
+      "name": "Product Variety",
+      "description": "Range and variety of products available on the platform.",
       "type": "Text [1]",
       "sources": "App descriptions, user reviews, tech blogs"
     },
@@ -66,10 +60,16 @@
       "sources": "User reviews, tech blogs, app store descriptions"
     },
     {
-      "name": "Update Frequency",
-      "description": "Frequency of app updates and improvements.",
+      "name": "Security Features",
+      "description": "Features ensuring the security of user data and transactions.",
       "type": "Text [1]",
-      "sources": "App store update history, tech blogs"
+      "sources": "App descriptions, user reviews, tech blogs"
+    },
+    {
+      "name": "Update Frequency",
+      "description": "Frequency of app updates and new feature releases.",
+      "type": "Text [1]",
+      "sources": "App store descriptions, tech blogs"
     }
   ]
 }

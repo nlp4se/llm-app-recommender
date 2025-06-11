@@ -1,0 +1,63 @@
+
+{
+  "apps": [
+    {"rank": 1, "name": "Shop.app"},
+    {"rank": 2, "name": "Buysmart.ai"},
+    {"rank": 3, "name": "Claros"},
+    {"rank": 4, "name": "ShopGuru"},
+    {"rank": 5, "name": "Rufus (Amazon)"},
+    {"rank": 6, "name": "Manifest AI"},
+    {"rank": 7, "name": "Shopdev Shopping Assistant"},
+    {"rank": 8, "name": "Lyro AI Agent by Tidio"},
+    {"rank": 9, "name": "Zipchat AI"},
+    {"rank": 10, "name": "Verloop"},
+    {"rank": 11, "name": "Infichat"},
+    {"rank": 12, "name": "Shopmate"},
+    {"rank": 13, "name": "Giosg"},
+    {"rank": 14, "name": "Tidio AI"},
+    {"rank": 15, "name": "Caper Cart (Instacart)"},
+    {"rank": 16, "name": "Flash.co"},
+    {"rank": 17, "name": "Sobot AI Chatbot"},
+    {"rank": 18, "name": "Perplexity"},
+    {"rank": 19, "name": "Preezie"},
+    {"rank": 20, "name": "AI Nudge"}
+  ],
+  "criteria": [
+    {
+      "name": "AI Personalization",
+      "description": "The degree to which the app provides personalized product recommendations and shopping experiences based on user data, preferences, and shopping history.",
+      "type": "Text[*]",
+      "sources": "Multiple sources"
+    },
+    {
+      "name": "Multimodal AI capabilities",
+      "description": "Ability to combine data from multiple sources (e.g., text, images) to provide a comprehensive shopping solution.",
+      "type": "Boolean[1]",
+      "sources": "shopdev"
+    },
+    {
+      "name": "Platform Integration",
+      "description": "Seamless integration with e-commerce platforms (e.g., Shopify, BigCommerce) and physical stores for omnichannel support.",
+      "type": "Text[*]",
+      "sources": "Multiple sources"
+    },
+    {
+      "name": "Customer Support",
+      "description": "Availability of 24/7 customer support and AI-driven assistance for product searches, queries, and issue resolution.",
+      "type": "Boolean[1]",
+      "sources": "Infichat, Shopmate"
+    },
+    {
+      "name": "Ease of Use",
+      "description": "Intuitive interface and minimal setup required for both customers and businesses.",
+      "type": "Text[*]",
+      "sources": "Multiple sources"
+    },
+    {
+      "name": "Cost Saving Features",
+      "description": "AI features that help save money, such as finding deals, discounts, and best prices effortlessly.",
+      "type": "Boolean[1]",
+      "sources": "Buysmart.ai"
+    }
+  ]
+}

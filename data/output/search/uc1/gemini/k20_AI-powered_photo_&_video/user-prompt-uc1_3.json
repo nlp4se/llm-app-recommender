@@ -19,111 +19,123 @@
     },
     {
       "rank": 5,
-      "name": "Lensa AI"
-    },
-    {
-      "rank": 6,
       "name": "PicsArt"
     },
     {
-      "rank": 7,
-      "name": "Photoroom"
-    },
-    {
-      "rank": 8,
-      "name": "PhotoDirector"
-    },
-    {
-      "rank": 9,
+      "rank": 6,
       "name": "Fotor"
     },
     {
+      "rank": 7,
+      "name": "YouCam Enhance"
+    },
+    {
+      "rank": 8,
+      "name": "YouCam Perfect"
+    },
+    {
+      "rank": 9,
+      "name": "Filmora"
+    },
+    {
       "rank": 10,
-      "name": "Remini"
-    },
-    {
-      "rank": 11,
-      "name": "Adobe Lightroom"
-    },
-    {
-      "rank": 12,
-      "name": "Photoleap"
-    },
-    {
-      "rank": 13,
-      "name": "Wondershare Filmora"
-    },
-    {
-      "rank": 14,
       "name": "Descript"
     },
     {
-      "rank": 15,
-      "name": "Invideo AI"
+      "rank": 11,
+      "name": "Opus Clip"
     },
     {
-      "rank": 16,
+      "rank": 12,
       "name": "Runway"
     },
     {
+      "rank": 13,
+      "name": "Captions AI"
+    },
+    {
+      "rank": 14,
+      "name": "FireCut"
+    },
+    {
+      "rank": 15,
+      "name": "Veed"
+    },
+    {
+      "rank": 16,
+      "name": "Synthesia"
+    },
+    {
       "rank": 17,
-      "name": "LightCut"
+      "name": "Sora"
     },
     {
       "rank": 18,
-      "name": "Gling"
+      "name": "PhotoDirector"
     },
     {
       "rank": 19,
-      "name": "Fire Cut"
+      "name": "Davinici Resolve"
     },
     {
       "rank": 20,
-      "name": "Opus Clip"
+      "name": "Lensa"
     }
   ],
   "criteria": [
     {
-      "name": "AI-Powered Tools",
-      "description": "Presence and effectiveness of AI-driven features such as object removal, background replacement, image enhancement, style transfer, and generative AI capabilities.",
+      "name": "AI-Powered Features",
+      "description": "Presence and quality of AI-driven tools for tasks like object removal, background replacement, style transfer, smart enhancements, and generative AI capabilities.",
       "type": "Boolean[1]",
-      "sources": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AbF9wXEdsg8KfLduGnYgbqk7_cYxVM1_SSGaq2rG90KWWOyoTX619iJy7y6iRSv17QsSCmvx5Dajr4I3Ed-no1iPtY1I2uMr0RlDaqMwHKwhAFFg6uMws6ycqR0eiefVHfC85ntRW5M1gG9ucg==, https://vertexaisearch.cloud.google.com/grounding-api-redirect/AbF9wXFWcZK-aund1V2JM--vB62MKBw20qmD1278OlRdfqA7Ks_Ci4xPt7gGzSMQBBreZGXK3nctT9rvnUzH4CcFuAVTZ4snZFWKheM7TmUFOG8KFxfkrp-H6Rmb6CosQd4mSY2MfNSJRTDv2R4Scs8KdiNdEg=="
+      "sources": "Multiple sources"
     },
     {
-      "name": "User Interface and Experience",
-      "description": "Ease of use, intuitiveness, and overall user-friendliness of the app, including navigation, editing tools, and workflow.",
+      "name": "User Interface and Ease of Use",
+      "description": "Intuitiveness and accessibility of the app's interface for both beginners and professionals.",
       "type": "Text[1]",
-      "sources": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AbF9wXEhr9NWK70notw1K7cMDqz3DWJnNw8WjB1xxfyb-CzJiayBgnfEI1FjQb1CEn9dTTseD0QDsgrHXvl-19lvzfAU1_I5-SghTO5rXRSPZasXvG86ZQ2_gx_r4NY4Q56Xt5stTgzV9wpo-0D_W1e9dXF4XwE="
+      "sources": "Multiple sources"
     },
     {
-      "name": "Editing Features",
-      "description": "Range and quality of standard editing tools such as trimming, cropping, color correction, filters, effects, and transitions.",
+      "name": "Editing Capabilities",
+      "description": "Range and precision of editing tools, including color correction, retouching, filters, layers, and masking.",
       "type": "Text[*]",
-      "sources": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AbF9wXFlQMAr_wn72WCOjNqS8ZW9yT9Udh5BhhQ2nHcPr8JZ8OhGaEpS3pkYiRi_G0g9MlKT57CxOOjSeukKA651Pz1Cho_KweR0zskvuIzla6cYpRQccyznwXX7biNZVrv1YqzncvLswjxsFD1rtR5djtqlBgxXPfErZ-kO9OrGEm56, https://vertexaisearch.cloud.google.com/grounding-api-redirect/AbF9wXGeY7YJtYdUNkAcd2sADUB1UYoZuk1nBHMZvjb2YkJQaM9A6HGLEGgZ1jXLd_bpModdJlBvypHsJaoMNl0yEkpkJelgNLe2Tr8uhrKgIeYTdNK62-LrG6dTSqgrPlvgVdJ0_dvF-MiNkhwtstNrxGGgQoSaof8XNN5F7vndin3QFQtAtSgqXVY="
-    },
-    {
-      "name": "Output Quality",
-      "description": "Resolution, format, and overall quality of the edited photos and videos.",
-      "type": "Text[1]",
-      "sources": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AbF9wXG7j3nzG6RlInzdF3v9DF3APlZ2evOcCrFXRW11kDlVTn3gkrfYjiqX0Q-twU87rvSVMEpBVj41uzW9aC0r4IDBhE2tnmxTE8nhGA-tdnCYTafd0RS1NRqMtYIhsFbeSujWVsM1oC125gVmVw=="
+      "sources": "Multiple sources"
     },
     {
       "name": "Platform Availability",
-      "description": "Availability of the app on different operating systems (iOS, Android, Windows, macOS, Web) and devices.",
+      "description": "Availability of the app on various platforms such as Windows, macOS, iOS, Android, and web browsers.",
       "type": "Text[*]",
-      "sources": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AbF9wXFlQMAr_wn72WCOjNqS8ZW9yT9Udh5BhhQ2nHcPr8JZ8OhGaEpS3pkYiRi_G0g9MlKT57CxOOjSeukKA651Pz1Cho_KweR0zskvuIzla6cYpRQccyznwXX7biNZVrv1YqzncvLswjxsFD1rtR5djtqlBgxXPfErZ-kO9OrGEm56"
+      "sources": "Multiple sources"
     },
     {
-      "name": "Pricing and Subscription",
-      "description": "Cost of the app, subscription models, and availability of free versions or trials.",
-      "type": "Text[1]",
-      "sources": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AbF9wXEdsg8KfLduGnYgbqk7_cYxVM1_SSGaq2rG90KWWOyoTX619iJy7y6iRSv17QsSCmvx5Dajr4I3Ed-no1iPtY1I2uMr0RlDaqMwHKwhAFFg6uMws6ycqR0eiefVHfC85ntRW5M1gG9ucg=="
+      "name": "Price",
+      "description": "Cost of the app, considering free versions, subscription plans, and one-time purchases.",
+      "type": "Float[1]",
+      "sources": "Multiple sources"
     },
     {
-      "name": "Integration",
-      "description": "How well the app integrates with other services.",
+      "name": "Integration with Other Tools",
+      "description": "Seamlessness of integration with other software and platforms, such as Adobe Creative Cloud, Lightroom, and social media.",
+      "type": "Boolean[1]",
+      "sources": "Multiple sources"
+    },
+    {
+      "name": "Community and Support",
+      "description": "Availability of community forums, tutorials, and customer support resources.",
+      "type": "Boolean[1]",
+      "sources": "Multiple sources"
+    },
+    {
+      "name": "Speed and Efficiency",
+      "description": "Efficiency of AI tools in automating repetitive tasks and accelerating the editing process.",
       "type": "Text[1]",
-      "sources": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AbF9wXFWcZK-aund1V2JM--vB62MKBw20qmD1278OlRdfqA7Ks_Ci4xPt7gGzSMQBBreZGXK3nctT9rvnUzH4CcFuAVTZ4snZFWKheM7TmUFOG8KFxfkrp-H6Rmb6CosQd4mSY2MfNSJRTDv2R4Scs8KdiNdEg=="
+      "sources": "Multiple sources"
+    },
+    {
+      "name": "Output Quality",
+      "description": "The quality of the final output of the videos and photos.",
+      "type": "Text[1]",
+      "sources": "Multiple sources"
     }
   ]
 }

@@ -1,0 +1,75 @@
+
+{
+  "apps": [
+    {"rank": 1, "name": "Amazon"},
+    {"rank": 2, "name": "eBay"},
+    {"rank": 3, "name": "AliExpress"},
+    {"rank": 4, "name": "Wish"},
+    {"rank": 5, "name": "ASOS"},
+    {"rank": 6, "name": "Zara"},
+    {"rank": 7, "name": "H&M"},
+    {"rank": 8, "name": "Etsy"},
+    {"rank": 9, "name": "Zalando"},
+    {"rank": 10, "name": "Nike"},
+    {"rank": 11, "name": "Adidas"},
+    {"rank": 12, "name": "Sephora"},
+    {"rank": 13, "name": "IKEA"},
+    {"rank": 14, "name": "Walmart"},
+    {"rank": 15, "name": "Target"},
+    {"rank": 16, "name": "Macy's"},
+    {"rank": 17, "name": "Best Buy"},
+    {"rank": 18, "name": "Home Depot"},
+    {"rank": 19, "name": "Lowe's"},
+    {"rank": 20, "name": "Wayfair"}
+  ],
+  "criteria": [
+    {
+      "name": "User Ratings",
+      "description": "Average user ratings on app stores (Google Play, Apple App Store).",
+      "type": "Float [1]",
+      "sources": "Google Play Store, Apple App Store"
+    },
+    {
+      "name": "Downloads",
+      "description": "Total number of downloads on app stores.",
+      "type": "Integer [1]",
+      "sources": "Google Play Store, Apple App Store, Sensor Tower"
+    },
+    {
+      "name": "AI Integration",
+      "description": "Level of AI integration for personalized recommendations, search, and other features.",
+      "type": "Text [1]",
+      "sources": "App descriptions, user reviews, tech blogs"
+    },
+    {
+      "name": "User Interface",
+      "description": "Ease of use and intuitiveness of the app's interface.",
+      "type": "Text [1]",
+      "sources": "User reviews, tech blogs, app store descriptions"
+    },
+    {
+      "name": "Feature Set",
+      "description": "Range and quality of features offered, such as product variety, payment options, and customer support.",
+      "type": "Text [1]",
+      "sources": "App descriptions, user reviews, tech blogs"
+    },
+    {
+      "name": "Security",
+      "description": "Security measures in place to protect user data and transactions.",
+      "type": "Text [1]",
+      "sources": "App descriptions, user reviews, tech blogs"
+    },
+    {
+      "name": "Customer Support",
+      "description": "Quality and responsiveness of customer support.",
+      "type": "Text [1]",
+      "sources": "User reviews, tech blogs, app store descriptions"
+    },
+    {
+      "name": "Update Frequency",
+      "description": "Frequency of app updates and improvements.",
+      "type": "Text [1]",
+      "sources": "App store update history, tech blogs"
+    }
+  ]
+}

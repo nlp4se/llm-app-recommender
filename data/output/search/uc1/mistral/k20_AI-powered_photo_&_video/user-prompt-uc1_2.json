@@ -2,25 +2,25 @@
 {
   "apps": [
     {"rank": 1, "name": "Adobe Lightroom"},
-    {"rank": 2, "name": "Lensa AI"},
+    {"rank": 2, "name": "Lensa"},
     {"rank": 3, "name": "Prisma"},
     {"rank": 4, "name": "FaceApp"},
     {"rank": 5, "name": "PicsArt"},
     {"rank": 6, "name": "VSCO"},
     {"rank": 7, "name": "Snapseed"},
-    {"rank": 8, "name": "Pixlr"},
-    {"rank": 9, "name": "Fotor"},
-    {"rank": 10, "name": "Meitu"},
-    {"rank": 11, "name": "BeautyPlus"},
-    {"rank": 12, "name": "CamScanner"},
-    {"rank": 13, "name": "Photoshop Express"},
-    {"rank": 14, "name": "Canva"},
-    {"rank": 15, "name": "Instasize"},
-    {"rank": 16, "name": "Afterlight"},
-    {"rank": 17, "name": "Darkroom"},
-    {"rank": 18, "name": "TouchRetouch"},
-    {"rank": 19, "name": "Enlight"},
-    {"rank": 20, "name": "Pixelmator"}
+    {"rank": 8, "name": "Photoleap"},
+    {"rank": 9, "name": "Meitu"},
+    {"rank": 10, "name": "Pixlr"},
+    {"rank": 11, "name": "Canva"},
+    {"rank": 12, "name": "Fotor"},
+    {"rank": 13, "name": "Afterlight"},
+    {"rank": 14, "name": "TouchRetouch"},
+    {"rank": 15, "name": "Remini"},
+    {"rank": 16, "name": "BeCasso"},
+    {"rank": 17, "name": "Glitch Art"},
+    {"rank": 18, "name": "Pixaloop"},
+    {"rank": 19, "name": "DeepArt"},
+    {"rank": 20, "name": "ToonMe"}
   ],
   "criteria": [
     {
@@ -31,21 +31,21 @@
     },
     {
       "name": "Downloads",
-      "description": "Total number of downloads of the app.",
+      "description": "Total number of downloads across platforms.",
       "type": "Integer [1]",
       "sources": "App Store, Google Play Store, Sensor Tower"
     },
     {
       "name": "AI Features",
-      "description": "Availability and effectiveness of AI-powered features such as automatic enhancements, object removal, and style transfer.",
+      "description": "Availability and sophistication of AI-powered features such as automatic enhancements, filters, and object recognition.",
       "type": "Text [*]",
-      "sources": "App descriptions, user reviews, tech blogs"
+      "sources": "Official app descriptions, tech reviews"
     },
     {
       "name": "User Interface",
-      "description": "Ease of use and intuitiveness of the app's interface.",
+      "description": "Ease of use and intuitiveness of the app interface.",
       "type": "Text [*]",
-      "sources": "User reviews, tech blogs, expert reviews"
+      "sources": "User reviews, tech blogs"
     },
     {
       "name": "Update Frequency",
@@ -54,10 +54,16 @@
       "sources": "App Store, Google Play Store"
     },
     {
-      "name": "Subscription Model",
-      "description": "Cost and value of the app's subscription model, if applicable.",
+      "name": "Subscription Cost",
+      "description": "Cost of premium features or subscriptions.",
+      "type": "Float [1]",
+      "sources": "App Store, Google Play Store"
+    },
+    {
+      "name": "Cross-Platform Availability",
+      "description": "Availability of the app on different platforms like iOS, Android, Web, etc.",
       "type": "Text [*]",
-      "sources": "App Store, Google Play Store, user reviews"
+      "sources": "Official app websites, app stores"
     }
   ]
 }

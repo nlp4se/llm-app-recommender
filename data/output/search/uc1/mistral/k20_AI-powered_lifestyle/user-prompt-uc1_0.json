@@ -8,18 +8,18 @@
     {"rank": 5, "name": "Headspace"},
     {"rank": 6, "name": "Calm"},
     {"rank": 7, "name": "Fabulous"},
-    {"rank": 8, "name": "Balance"},
-    {"rank": 9, "name": "Shine"},
+    {"rank": 8, "name": "Happify"},
+    {"rank": 9, "name": "Moodpath"},
     {"rank": 10, "name": "Sanvello"},
-    {"rank": 11, "name": "BetterHelp"},
-    {"rank": 12, "name": "Talkspace"},
-    {"rank": 13, "name": "Moodpath"},
-    {"rank": 14, "name": "Daylio"},
-    {"rank": 15, "name": "Happify"},
-    {"rank": 16, "name": "Pzizz"},
+    {"rank": 11, "name": "Ada Health"},
+    {"rank": 12, "name": "Flo"},
+    {"rank": 13, "name": "Clue"},
+    {"rank": 14, "name": "MyFitnessPal"},
+    {"rank": 15, "name": "Lose It!"},
+    {"rank": 16, "name": "Noom"},
     {"rank": 17, "name": "Sleep Cycle"},
-    {"rank": 18, "name": "Aloe Bud"},
-    {"rank": 19, "name": "Moodfit"},
+    {"rank": 18, "name": "Pillow"},
+    {"rank": 19, "name": "MoodKit"},
     {"rank": 20, "name": "What's Up"}
   ],
   "criteria": [
@@ -31,37 +31,37 @@
     },
     {
       "name": "Downloads",
-      "description": "Total number of downloads of the app.",
+      "description": "Total number of downloads across platforms.",
       "type": "Integer [1]",
       "sources": "App Store, Google Play Store, Sensor Tower"
     },
     {
       "name": "AI Integration",
-      "description": "Level and effectiveness of AI integration in the app's features.",
+      "description": "Level and effectiveness of AI features within the app.",
       "type": "Text [1]",
       "sources": "App descriptions, user reviews, expert analysis"
     },
     {
       "name": "User Interface",
-      "description": "Ease of use and design quality of the app's interface.",
+      "description": "Ease of use and design quality of the app.",
       "type": "Text [1]",
       "sources": "User reviews, expert analysis"
     },
     {
-      "name": "Feature Set",
-      "description": "Range and usefulness of the app's features.",
+      "name": "Functionality",
+      "description": "Range and effectiveness of features offered.",
       "type": "Text [1]",
       "sources": "App descriptions, user reviews, expert analysis"
     },
     {
-      "name": "Accessibility",
-      "description": "Availability and performance of the app on different platforms and devices.",
+      "name": "Update Frequency",
+      "description": "How often the app is updated with new features or improvements.",
       "type": "Text [1]",
-      "sources": "App Store, Google Play Store, developer websites"
+      "sources": "App Store, Google Play Store"
     },
     {
       "name": "Privacy and Security",
-      "description": "Effectiveness of the app's privacy measures and security features.",
+      "description": "How well the app protects user data and privacy.",
       "type": "Text [1]",
       "sources": "App privacy policies, user reviews, expert analysis"
     }

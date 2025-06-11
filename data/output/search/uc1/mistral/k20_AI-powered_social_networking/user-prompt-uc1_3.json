@@ -3,55 +3,55 @@
   "apps": [
     {"rank": 1, "name": "Replika"},
     {"rank": 2, "name": "Wink"},
-    {"rank": 3, "name": "Elsa Speak"},
-    {"rank": 4, "name": "MoviePass"},
-    {"rank": 5, "name": "HiHello"},
-    {"rank": 6, "name": "Peanut"},
-    {"rank": 7, "name": "Bumble"},
-    {"rank": 8, "name": "Hey!"},
-    {"rank": 9, "name": "Yubo"},
-    {"rank": 10, "name": "Ablo"},
-    {"rank": 11, "name": "Fachat"},
-    {"rank": 12, "name": "Wakie"},
-    {"rank": 13, "name": "Anonymous Chat Rooms"},
-    {"rank": 14, "name": "Chatous"},
-    {"rank": 15, "name": "Connected2.me"},
-    {"rank": 16, "name": "Holla"},
-    {"rank": 17, "name": "Lemon"},
-    {"rank": 18, "name": "MeetMe"},
-    {"rank": 19, "name": "Mico"},
-    {"rank": 20, "name": "PURE"}
+    {"rank": 3, "name": "MovieGoer"},
+    {"rank": 4, "name": "ELSA Speak"},
+    {"rank": 5, "name": "Anonymous Chat Rooms"},
+    {"rank": 6, "name": "Wakie"},
+    {"rank": 7, "name": "Connections"},
+    {"rank": 8, "name": "Monkey"},
+    {"rank": 9, "name": "Chatous"},
+    {"rank": 10, "name": "Holla"},
+    {"rank": 11, "name": "Lunchclub"},
+    {"rank": 12, "name": "Clubhouse"},
+    {"rank": 13, "name": "Pinterest"},
+    {"rank": 14, "name": "MeetMe"},
+    {"rank": 15, "name": "Skout"},
+    {"rank": 16, "name": "Mico"},
+    {"rank": 17, "name": "Tagged"},
+    {"rank": 18, "name": "Yubo"},
+    {"rank": 19, "name": "Spotafriend"},
+    {"rank": 20, "name": "Meet4U"}
   ],
   "criteria": [
     {
       "name": "User Engagement",
-      "description": "The average amount of time users spend on the app and the frequency of their interactions.",
+      "description": "The level of user interaction and activity within the app, measured by metrics such as daily active users, session length, and retention rates.",
       "type": "Float [1]",
-      "sources": "App Store and Google Play Store analytics, in-app usage data"
+      "sources": "App Store and Google Play Store analytics, in-app analytics tools, and third-party market intelligence platforms."
     },
     {
       "name": "AI Integration",
       "description": "The extent and effectiveness of AI features integrated into the app, such as chatbots, recommendation engines, and natural language processing.",
       "type": "Text [1]",
-      "sources": "App descriptions, user reviews, and technical documentation"
+      "sources": "App descriptions, user reviews, and expert analysis."
     },
     {
       "name": "User Reviews and Ratings",
-      "description": "The average rating and the sentiment of user reviews on app stores.",
-      "type": "Float [1], Text [*]",
-      "sources": "App Store and Google Play Store reviews"
-    },
-    {
-      "name": "Downloads and Popularity",
-      "description": "The total number of downloads and the app's ranking in the social networking category.",
-      "type": "Integer [1]",
-      "sources": "App Store and Google Play Store statistics"
+      "description": "The average rating and the number of reviews on app stores, reflecting user satisfaction and feedback.",
+      "type": "Float [2]",
+      "sources": "App Store and Google Play Store listings."
     },
     {
       "name": "Innovation and Uniqueness",
-      "description": "The originality and uniqueness of the app's features and user experience compared to other social networking apps.",
+      "description": "The originality and creativity of the app's features and user experience, setting it apart from competitors.",
       "type": "Text [1]",
-      "sources": "Expert reviews, industry analyses, and app descriptions"
+      "sources": "Expert reviews, tech blogs, and industry awards."
+    },
+    {
+      "name": "Privacy and Security",
+      "description": "The robustness of the app's privacy policies and security measures to protect user data.",
+      "type": "Text [1]",
+      "sources": "App privacy policies, security audits, and user feedback."
     }
   ]
 }

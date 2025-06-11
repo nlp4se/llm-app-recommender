@@ -12,64 +12,64 @@
     {"rank": 9, "name": "iHeartRadio"},
     {"rank": 10, "name": "Napster"},
     {"rank": 11, "name": "Audiomack"},
-    {"rank": 12, "name": "Yandex Music"},
+    {"rank": 12, "name": "Yandex.Music"},
     {"rank": 13, "name": "Gaana"},
     {"rank": 14, "name": "JioSaavn"},
     {"rank": 15, "name": "Anghami"},
     {"rank": 16, "name": "Melon"},
-    {"rank": 17, "name": "KKBox"},
+    {"rank": 17, "name": "KKBOX"},
     {"rank": 18, "name": "Qobuz"},
-    {"rank": 19, "name": "NetEase Cloud Music"},
-    {"rank": 20, "name": "Boomplay"}
+    {"rank": 19, "name": "Boomplay"},
+    {"rank": 20, "name": "Yonder Music"}
   ],
   "criteria": [
     {
-      "name": "User Ratings",
-      "description": "Average user ratings on app stores (Google Play, Apple App Store).",
-      "type": "Float [1]",
-      "sources": "Google Play Store, Apple App Store"
-    },
-    {
-      "name": "Number of Downloads",
-      "description": "Total number of downloads across app stores.",
+      "name": "User Base",
+      "description": "The number of active users on the platform.",
       "type": "Integer [1]",
-      "sources": "Google Play Store, Apple App Store, Sensor Tower"
-    },
-    {
-      "name": "AI Integration",
-      "description": "Level of AI integration for personalized recommendations, playlist generation, and voice assistants.",
-      "type": "Text [1]",
-      "sources": "App descriptions, user reviews, tech blogs"
+      "sources": "App Annie, Sensor Tower, SimilarWeb"
     },
     {
       "name": "Music Library Size",
-      "description": "Total number of songs and albums available in the app's library.",
+      "description": "The total number of songs available in the app's library.",
       "type": "Integer [1]",
       "sources": "Official app websites, tech reviews"
     },
     {
+      "name": "AI Features",
+      "description": "The presence and sophistication of AI-powered features such as personalized recommendations, voice assistants, and automatic playlist generation.",
+      "type": "Text [1]",
+      "sources": "Official app websites, tech blogs, user reviews"
+    },
+    {
       "name": "User Interface and Experience",
-      "description": "Ease of use, design, and overall user experience.",
+      "description": "The design, ease of use, and overall user experience of the app.",
       "type": "Text [1]",
       "sources": "User reviews, tech blogs, expert reviews"
     },
     {
       "name": "Subscription Cost",
-      "description": "Cost of premium subscription plans.",
+      "description": "The cost of premium subscription plans.",
       "type": "Float [1]",
-      "sources": "Official app websites, app store listings"
-    },
-    {
-      "name": "Unique Features",
-      "description": "Unique features such as exclusive content, live streaming, social features, etc.",
-      "type": "Text [1]",
-      "sources": "App descriptions, user reviews, tech blogs"
+      "sources": "Official app websites, tech reviews"
     },
     {
       "name": "Platform Availability",
-      "description": "Availability across different platforms (iOS, Android, Web, etc.).",
+      "description": "The number of platforms the app is available on (iOS, Android, Web, Desktop, etc.).",
+      "type": "Integer [1]",
+      "sources": "Official app websites, app stores"
+    },
+    {
+      "name": "User Ratings",
+      "description": "The average rating of the app on various app stores.",
+      "type": "Float [1]",
+      "sources": "App Store, Google Play Store"
+    },
+    {
+      "name": "Unique Features",
+      "description": "Any unique features that set the app apart from competitors.",
       "type": "Text [1]",
-      "sources": "Official app websites, app store listings"
+      "sources": "Official app websites, tech blogs, user reviews"
     }
   ]
 }

@@ -1,26 +1,26 @@
 
 {
   "apps": [
-    {"rank": 1, "name": "MyFitnessPal"},
-    {"rank": 2, "name": "Headspace"},
-    {"rank": 3, "name": "Sleep Cycle"},
-    {"rank": 4, "name": "Calm"},
-    {"rank": 5, "name": "Fitbit"},
-    {"rank": 6, "name": "Strava"},
-    {"rank": 7, "name": "Noom"},
-    {"rank": 8, "name": "Lifesum"},
-    {"rank": 9, "name": "Youper"},
-    {"rank": 10, "name": "Ada Health"},
-    {"rank": 11, "name": "Flo"},
-    {"rank": 12, "name": "Clue"},
-    {"rank": 13, "name": "Habitica"},
-    {"rank": 14, "name": "Plant Nanny"},
-    {"rank": 15, "name": "Forest"},
-    {"rank": 16, "name": "Moodpath"},
-    {"rank": 17, "name": "Daylio"},
-    {"rank": 18, "name": "Fabulous"},
-    {"rank": 19, "name": "Moment"},
-    {"rank": 20, "name": "Rescuetime"}
+    {"rank": 1, "name": "Replika"},
+    {"rank": 2, "name": "Youper"},
+    {"rank": 3, "name": "Wysa"},
+    {"rank": 4, "name": "MyLife Meditation"},
+    {"rank": 5, "name": "Headspace"},
+    {"rank": 6, "name": "Calm"},
+    {"rank": 7, "name": "Fabulous"},
+    {"rank": 8, "name": "Happify"},
+    {"rank": 9, "name": "Moodpath"},
+    {"rank": 10, "name": "What's Up"},
+    {"rank": 11, "name": "Sanvello"},
+    {"rank": 12, "name": "Daylio"},
+    {"rank": 13, "name": "MoodKit"},
+    {"rank": 14, "name": "Pacifica"},
+    {"rank": 15, "name": "7 Cups"},
+    {"rank": 16, "name": "MoodMission"},
+    {"rank": 17, "name": "MindDoc"},
+    {"rank": 18, "name": "Cove"},
+    {"rank": 19, "name": "MoodPanda"},
+    {"rank": 20, "name": "Moody"}
   ],
   "criteria": [
     {
@@ -31,39 +31,45 @@
     },
     {
       "name": "Downloads",
-      "description": "Total number of times the app has been downloaded.",
+      "description": "Total number of downloads across platforms.",
       "type": "Integer [1]",
       "sources": "App Store, Google Play Store, Sensor Tower"
     },
     {
       "name": "AI Integration",
-      "description": "Level and effectiveness of AI integration in the app's features.",
+      "description": "Level and effectiveness of AI features within the app.",
       "type": "Text [1]",
-      "sources": "App descriptions, user reviews, tech blogs"
+      "sources": "App descriptions, user reviews, expert analyses"
     },
     {
       "name": "User Interface",
       "description": "Ease of use and design quality of the app.",
       "type": "Text [1]",
-      "sources": "User reviews, tech blogs, design awards"
+      "sources": "User reviews, design awards, expert opinions"
     },
     {
       "name": "Feature Set",
-      "description": "Range and usefulness of the app's features.",
+      "description": "Range and usefulness of features offered by the app.",
       "type": "Text [1]",
       "sources": "App descriptions, user reviews, comparative analyses"
     },
     {
-      "name": "Privacy and Security",
-      "description": "Effectiveness of the app's privacy and security measures.",
+      "name": "Update Frequency",
+      "description": "How often the app is updated with new features and bug fixes.",
       "type": "Text [1]",
-      "sources": "App permissions, privacy policies, security audits"
+      "sources": "App Store, Google Play Store, developer blogs"
+    },
+    {
+      "name": "Privacy and Security",
+      "description": "Measures taken to protect user data and ensure privacy.",
+      "type": "Text [1]",
+      "sources": "App privacy policies, security audits, user feedback"
     },
     {
       "name": "Accessibility",
-      "description": "Availability and functionality of accessibility features.",
+      "description": "Availability and performance of the app across different platforms and devices.",
       "type": "Text [1]",
-      "sources": "App descriptions, user reviews, accessibility audits"
+      "sources": "App Store, Google Play Store, user reviews"
     }
   ]
 }

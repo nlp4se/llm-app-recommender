@@ -1,57 +1,117 @@
 
 {
   "apps": [
-    {"rank": 1, "name": "Google Assistant"},
-    {"rank": 2, "name": "Fitbod"},
-    {"rank": 3, "name": "Noom"},
-    {"rank": 4, "name": "Youper"},
-    {"rank": 5, "name": "Taskade"},
-    {"rank": 6, "name": "Alexa"},
-    {"rank": 7, "name": "Siri"},
-    {"rank": 8, "name": "Otter.ai"},
-    {"rank": 9, "name": "Motion"},
-    {"rank": 10, "name": "Aaptiv"},
-    {"rank": 11, "name": "Keelo"},
-    {"rank": 12, "name": "Buoy"},
-    {"rank": 13, "name": "HeyLife"},
-    {"rank": 14, "name": "Sweatcoin"},
-    {"rank": 15, "name": "Strava"},
-    {"rank": 16, "name": "ASENSEI"},
-    {"rank": 17, "name": "MyPlate"},
-    {"rank": 18, "name": "Healthily"},
-    {"rank": 19, "name": "Calm"},
-    {"rank": 20, "name": "Woebot"}
+    {
+      "rank": 1,
+      "name": "Noom"
+    },
+    {
+      "rank": 2,
+      "name": "Lifesum"
+    },
+    {
+      "rank": 3,
+      "name": "MyFitnessPal"
+    },
+    {
+      "rank": 4,
+      "name": "Fitbit"
+    },
+    {
+      "rank": 5,
+      "name": "Health AI"
+    },
+    {
+      "rank": 6,
+      "name": "Fitbod"
+    },
+    {
+      "rank": 7,
+      "name": "Aaptiv"
+    },
+    {
+      "rank": 8,
+      "name": "Keelo"
+    },
+    {
+      "rank": 9,
+      "name": "Carrot"
+    },
+    {
+      "rank": 10,
+      "name": "Eazy"
+    },
+    {
+      "rank": 11,
+      "name": "Youper"
+    },
+    {
+      "rank": 12,
+      "name": "Ada"
+    },
+    {
+      "rank": 13,
+      "name": "Buoy"
+    },
+    {
+      "rank": 14,
+      "name": "FitnessAI"
+    },
+    {
+      "rank": 15,
+      "name": "FitGenie"
+    },
+    {
+      "rank": 16,
+      "name": "ASENSEI"
+    },
+    {
+      "rank": 17,
+      "name": "Strava"
+    },
+    {
+      "rank": 18,
+      "name": "Sweatcoin"
+    },
+    {
+      "rank": 19,
+      "name": "HealthifyMe"
+    },
+    {
+      "rank": 20,
+      "name": "Nourish"
+    }
   ],
   "criteria": [
     {
-      "name": "User Ratings and Reviews",
-      "description": "Reflects user satisfaction and app quality based on ratings and reviews in app stores.",
-      "type": "Float [1]",
-      "sources": "Google Play Store, App Store"
+      "name": "Personalization",
+      "description": "The degree to which the app adapts to individual user needs, preferences, and goals using AI.",
+      "type": "Boolean[1]",
+      "sources": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AbF9wXH0gNpqm3ocjWs9Zzy0-B27uWcrcqGEjGKrMlElU1zeH_ZScHJNB6SaMaMCmQBVmH5bUPcqQxpGLZX_OdHt-VdmQb7O51pzcU8SvBdurppzJKJC2SwsQ7r1ffTK1O2bIAydhi-f-t6ItIOcuFwMTQ=="
     },
     {
-      "name": "AI Personalization",
-      "description": "The degree to which the app uses AI to tailor content, recommendations, or experiences to individual user needs and preferences.",
-      "type": "Text [*]",
-      "sources": "App descriptions, user reviews, expert reviews"
+      "name": "AI-Powered Features",
+      "description": "The breadth and depth of AI functionalities, including personalized recommendations, intelligent tracking, and data analysis.",
+      "type": "Text[*]",
+      "sources": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AbF9wXH0gNpqm3ocjWs9Zzy0-B27uWcrcqGEjGKrMlElU1zeH_ZScHJNB6SaMaMCmQBVmH5bUPcqQxpGLZX_OdHt-VdmQb7O51pzcU8SvBdurppzJKJC2SwsQ7r1ffTK1O2bIAydhi-f-t6ItIOcuFwMTQ=="
     },
     {
-      "name": "Functionality and Features",
-      "description": "The breadth and depth of features offered by the app, including task management, health tracking, content generation, and integration with other services.",
-      "type": "Text [*]",
-      "sources": "App descriptions, expert reviews"
+      "name": "Integration & Compatibility",
+      "description": "Seamless integration with other devices, platforms, and services to provide a cohesive user experience.",
+      "type": "Boolean[1]",
+      "sources": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AbF9wXGKUgWFgm1wk240T_pPKPM9zM_wpTtdg9xDz9INAwNzIdTdy3px3i3ZhMus3B-9a_90UO3M026Ij0vH1qMv7U8om1vN4v9WWXsCI3QAYw3vqVW35A5vvZqj3wlZIIxNXenW5QQyaYHy0G0IGZ7tiz-8A0h8Mhlk_EtOP-eOaq09SQC4ow=="
     },
     {
-      "name": "Number of Downloads/Active Users",
-      "description": "Indicates the app's popularity and adoption rate.",
-      "type": "Integer [1]",
-      "sources": "App store statistics, Sensor Tower, Similarweb"
+      "name": "User Engagement",
+      "description": "The app's ability to motivate and encourage consistent usage through rewards, challenges, and community features.",
+      "type": "Integer[1]",
+      "sources": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AbF9wXH0gNpqm3ocjWs9Zzy0-B27uWcrcqGEjGKrMlElU1zeH_ZScHJNB6SaMaMCmQBVmH5bUPcqQxpGLZX_OdHt-VdmQb7O51pzcU8SvBdurppzJKJC2SwsQ7r1ffTK1O2bIAydhi-f-t6ItIOcuFwMTQ=="
     },
     {
-      "name": "Expert Reviews and Mentions",
-      "description": "Assessments and recommendations from tech blogs, industry experts, and publications.",
-      "type": "Text [*]",
-      "sources": "Tech blogs, industry publications"
+      "name": "Data Privacy & Security",
+      "description": "Measures taken to protect user data and ensure privacy while utilizing AI functionalities.",
+      "type": "Boolean[1]",
+      "sources": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AbF9wXGKUgWFgm1wk240T_pPKPM9zM_wpTtdg9xDz9INAwNzIdTdy3px3i3ZhMus3B-9a_90UO3M026Ij0vH1qMv7U8om1vN4v9WWXsCI3QAYw3vqVW35A5vvZqj3wlZIIxNXenW5QQyaYHy0G0IGZ7tiz-8A0h8Mhlk_EtOP-eOaq09SQC4ow=="
     }
   ]
 }

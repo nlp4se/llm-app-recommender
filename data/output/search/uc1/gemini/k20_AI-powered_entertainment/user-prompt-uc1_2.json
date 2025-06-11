@@ -1,74 +1,51 @@
+
 {
   "apps": [
-    {"rank": 1, "name": "Replika"},
-    {"rank": 2, "name": "WOMBO Dream"},
-    {"rank": 3, "name": "Lensa AI"},
-    {"rank": 4, "name": "Reface"},
-    {"rank": 5, "name": "TikTok"},
-    {"rank": 6, "name": "Jasper Art"},
-    {"rank": 7, "name": "Aiva"},
-    {"rank": 8, "name": "Boomy"},
-    {"rank": 9, "name": "Jukebox (OpenAI)"},
-    {"rank": 10, "name": "RunwayML"},
-    {"rank": 11, "name": "Talk to Books (Google)"},
-    {"rank": 12, "name": "AI Dungeon"},
-    {"rank": 13, "name": "Charisma.ai"},
-    {"rank": 14, "name": "Rose AI"},
-    {"rank": 15, "name": "Vidyo.ai"},
-    {"rank": 16, "name": "Hour One"},
-    {"rank": 17, "name": "Synthesia"},
-    {"rank": 18, "name": "Descript"},
-    {"rank": 19, "name": "Murf AI"},
-    {"rank": 20, "name": "Wellsaid Labs"}
+    {"rank": 1, "name": "Netflix"},
+    {"rank": 2, "name": "DeepEditor"},
+    {"rank": 3, "name": "ElevenLabs"},
+    {"rank": 4, "name": "Sora"},
+    {"rank": 5, "name": "FireCut"},
+    {"rank": 6, "name": "Move"},
+    {"rank": 7, "name": "Wonder Studio"},
+    {"rank": 8, "name": "Vanity AI"},
+    {"rank": 9, "name": "Respeecher Marketplace"},
+    {"rank": 10, "name": "Beatoven"},
+    {"rank": 11, "name": "Spotlight"},
+    {"rank": 12, "name": "AI Dating Coach by Mimetic Labs"},
+    {"rank": 13, "name": "Italian Brainrot Generator"},
+    {"rank": 14, "name": "AI Allure"},
+    {"rank": 15, "name": "Soulmaite.io"},
+    {"rank": 16, "name": "Cotinga AI"},
+    {"rank": 17, "name": "Uforia AI"},
+    {"rank": 18, "name": "My Muse"},
+    {"rank": 19, "name": "ReelShort"},
+    {"rank": 20, "name": "DramaBox"}
   ],
   "criteria": [
     {
-      "name": "AI Feature Variety",
-      "description": "Diversity of AI-driven entertainment features offered (e.g., personalized content generation, style transfer, interactive experiences).",
-      "type": "Integer[1]",
-      "sources": "App Store descriptions, Google Play Store descriptions, User reviews, Expert reviews"
+      "name": "Personalized Content Recommendation",
+      "description": "The ability of the app to provide content recommendations tailored to individual user preferences using AI algorithms.",
+      "type": "Text[*]",
+      "sources": "Litslink, IdeaUsher"
     },
     {
-      "name": "User Rating",
-      "description": "Average user rating on app stores (e.g., Google Play Store, Apple App Store).",
-      "type": "Float[1]",
-      "sources": "Google Play Store, Apple App Store"
+      "name": "Content Creation",
+      "description": "AI-driven generation of original content such as music, video, and text.",
+      "type": "Media[*]",
+      "sources": "Litslink, VKTR.com"
     },
     {
-      "name": "Number of Downloads/Installs",
-      "description": "Total number of times the app has been downloaded or installed.",
-      "type": "Integer[1]",
-      "sources": "Google Play Store, Apple App Store"
+      "name": "AI-Powered Editing",
+      "description": "Use of AI for video and audio editing tasks like dialogue refinement, noise reduction, and automatic subtitling.",
+      "type": "Text[*]",
+      "sources": "VKTR.com"
     },
     {
-      "name": "Content Personalization",
-      "description": "The extent to which the app personalizes content based on user preferences and behavior.",
-      "type": "Boolean[1]",
-      "sources": "App descriptions, User reviews, Expert reviews"
-    },
-    {
-      "name": "Creative Output Quality",
-      "description": "Quality and originality of AI-generated content (images, videos, music, text).",
-      "type": "Text[1]",
-      "sources": "User reviews, Expert reviews, Example outputs"
-    },
-    {
-      "name": "Ease of Use",
-      "description": "How easy it is for users to navigate and use the app's features.",
-      "type": "Text[1]",
-      "sources": "User reviews, Expert reviews"
-    },
-    {
-      "name": "Update Frequency",
-      "description": "How often the app is updated with new features and improvements.",
-      "type": "Integer[1]",
-      "sources": "App Store update history, Google Play Store update history"
-    },
-    {
-      "name": "Subscription Cost",
-      "description": "The cost of subscription if aplicable.",
-      "type": "Float[1]",
-      "sources": "App Store, Google Play Store, App website"
+      "name": "Virtual Companion",
+      "description": "AI to create virtual relationships and personalized interactions.",
+      "type": "Text[*]",
+      "sources": "BestofAI"
     }
   ]
 }

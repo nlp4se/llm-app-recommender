@@ -1,0 +1,69 @@
+
+{
+  "apps": [
+    {"rank": 1, "name": "MyFitnessPal"},
+    {"rank": 2, "name": "Headspace"},
+    {"rank": 3, "name": "Sleep Cycle"},
+    {"rank": 4, "name": "Calm"},
+    {"rank": 5, "name": "Flo"},
+    {"rank": 6, "name": "Lifesum"},
+    {"rank": 7, "name": "Clue"},
+    {"rank": 8, "name": "Youper"},
+    {"rank": 9, "name": "Fabulous"},
+    {"rank": 10, "name": "Happify"},
+    {"rank": 11, "name": "Noom"},
+    {"rank": 12, "name": "Ada Health"},
+    {"rank": 13, "name": "Wysa"},
+    {"rank": 14, "name": "Moodpath"},
+    {"rank": 15, "name": "Daylio"},
+    {"rank": 16, "name": "Remente"},
+    {"rank": 17, "name": "MoodKit"},
+    {"rank": 18, "name": "Pacer"},
+    {"rank": 19, "name": "Strong"},
+    {"rank": 20, "name": "Fitbit"}
+  ],
+  "criteria": [
+    {
+      "name": "User Ratings",
+      "description": "Average user ratings on app stores (e.g., Google Play, Apple App Store).",
+      "type": "Float [1]",
+      "sources": "Google Play Store, Apple App Store"
+    },
+    {
+      "name": "Downloads",
+      "description": "Total number of downloads across all platforms.",
+      "type": "Integer [1]",
+      "sources": "Google Play Store, Apple App Store, Sensor Tower"
+    },
+    {
+      "name": "AI Integration",
+      "description": "Level and effectiveness of AI integration in the app's features.",
+      "type": "Text [1]",
+      "sources": "App descriptions, user reviews, tech blogs"
+    },
+    {
+      "name": "User Interface",
+      "description": "Quality and user-friendliness of the app's interface.",
+      "type": "Text [1]",
+      "sources": "User reviews, tech blogs, design awards"
+    },
+    {
+      "name": "Feature Set",
+      "description": "Range and usefulness of the app's features.",
+      "type": "Text [1]",
+      "sources": "App descriptions, user reviews, tech blogs"
+    },
+    {
+      "name": "Update Frequency",
+      "description": "Frequency of app updates and improvements.",
+      "type": "Text [1]",
+      "sources": "App store update history, developer blogs"
+    },
+    {
+      "name": "Privacy and Security",
+      "description": "Level of privacy and security measures implemented in the app.",
+      "type": "Text [1]",
+      "sources": "App privacy policies, security audits, user reviews"
+    }
+  ]
+}

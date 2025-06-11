@@ -1,0 +1,57 @@
+
+{
+  "apps": [
+    {"rank": 1, "name": "Suno AI"},
+    {"rank": 2, "name": "Udio"},
+    {"rank": 3, "name": "Mubert"},
+    {"rank": 4, "name": "Riyaz"},
+    {"rank": 5, "name": "Moises"},
+    {"rank": 6, "name": "BandLab"},
+    {"rank": 7, "name": "Beatoven AI"},
+    {"rank": 8, "name": "Loudly"},
+    {"rank": 9, "name": "SongR"},
+    {"rank": 10, "name": "Amadeus Code"},
+    {"rank": 11, "name": "Musicfy"},
+    {"rank": 12, "name": "eMastered"},
+    {"rank": 13, "name": "Soundraw"},
+    {"rank": 14, "name": "LALAL.AI"},
+    {"rank": 15, "name": "Chord ai"},
+    {"rank": 16, "name": "Stable Audio"},
+    {"rank": 17, "name": "MusicFX"},
+    {"rank": 18, "name": "Riffusion"},
+    {"rank": 19, "name": "ACE Studio"},
+    {"rank": 20, "name": "Artium Academy"}
+  ],
+  "criteria": [
+    {
+      "name": "AI-Powered Music Generation",
+      "description": "The app utilizes AI to generate original music, stems, or song ideas from text prompts or other inputs.",
+      "type": "Boolean[1]",
+      "sources": "Multiple sources"
+    },
+    {
+      "name": "Personalized Learning/Practice",
+      "description": "The app uses AI to tailor music lessons or practice exercises to the user's skill level and preferences, providing real-time feedback.",
+      "type": "Boolean[1]",
+      "sources": "Source 1"
+    },
+    {
+      "name": "AI-Driven Music Analysis",
+      "description": "The app analyzes music to separate tracks, identify chords, or provide insights into song structure and elements.",
+      "type": "Boolean[1]",
+      "sources": "Source 2"
+    },
+    {
+      "name": "Text-to-Music Capabilities",
+      "description": "The app can generate music based on text prompts, allowing users to create songs by simply describing what they want.",
+      "type": "Boolean[1]",
+      "sources": "Source 3"
+    },
+    {
+      "name": "User Ratings/Reviews",
+      "description": "Average rating and number of reviews from app stores and other platforms, reflecting user satisfaction.",
+      "type": "Float[1]",
+      "sources": "App Store, Google Play Store"
+    }
+  ]
+}

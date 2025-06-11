@@ -1,0 +1,57 @@
+
+{
+  "apps": [
+    {"rank": 1, "name": "ChatGPT"},
+    {"rank": 2, "name": "Google Gemini"},
+    {"rank": 3, "name": "Microsoft Copilot"},
+    {"rank": 4, "name": "Perplexity AI"},
+    {"rank": 5, "name": "DeepSeek AI"},
+    {"rank": 6, "name": "Claude"},
+    {"rank": 7, "name": "Grammarly"},
+    {"rank": 8, "name": "Otter.ai"},
+    {"rank": 9, "name": "Runway"},
+    {"rank": 10, "name": "Synthesia"},
+    {"rank": 11, "name": "Fathom"},
+    {"rank": 12, "name": "Jasper"},
+    {"rank": 13, "name": "Motion"},
+    {"rank": 14, "name": "Notion AI"},
+    {"rank": 15, "name": "Rytr"},
+    {"rank": 16, "name": "Google Assistant"},
+    {"rank": 17, "name": "IFTTT"},
+    {"rank": 18, "name": "Reclaim.ai"},
+    {"rank": 19, "name": "n8n"},
+    {"rank": 20, "name": "Taskade"}
+  ],
+  "criteria": [
+    {
+      "name": "Functionality",
+      "description": "The breadth and depth of AI-driven features offered by the app, including but not limited to natural language processing, machine learning, and automation capabilities.",
+      "type": "Text[*]",
+      "sources": "Multiple sources"
+    },
+    {
+      "name": "User Reviews and Ratings",
+      "description": "Aggregated feedback from users on app stores and other platforms, reflecting user satisfaction and perceived value.",
+      "type": "Float[1]",
+      "sources": "App Store, Google Play Store"
+    },
+    {
+      "name": "Integration Capabilities",
+      "description": "The extent to which the app can seamlessly integrate with other commonly used tools and platforms, enhancing workflow and productivity.",
+      "type": "Text[*]",
+      "sources": "Multiple sources"
+    },
+    {
+      "name": "Personalization",
+      "description": "The ability of the app to adapt to individual user preferences and provide tailored experiences.",
+      "type": "Boolean[1]",
+      "sources": "Multiple sources"
+    },
+    {
+      "name": "Pricing",
+      "description": "The cost-effectiveness of the app, considering both free and paid versions, and the value provided relative to the price.",
+      "type": "Float[1]",
+      "sources": "App Store, Google Play Store, Multiple sources"
+    }
+  ]
+}

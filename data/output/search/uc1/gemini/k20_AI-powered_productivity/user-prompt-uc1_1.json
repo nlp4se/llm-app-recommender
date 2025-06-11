@@ -2,56 +2,62 @@
 {
   "apps": [
     {"rank": 1, "name": "ChatGPT"},
-    {"rank": 2, "name": "Motion"},
-    {"rank": 3, "name": "Notion AI"},
+    {"rank": 2, "name": "Notion AI"},
+    {"rank": 3, "name": "Grammarly"},
     {"rank": 4, "name": "Otter.ai"},
-    {"rank": 5, "name": "Grammarly"},
-    {"rank": 6, "name": "Jasper"},
-    {"rank": 7, "name": "Claude"},
-    {"rank": 8, "name": "Reclaim.ai"},
-    {"rank": 9, "name": "Asana"},
-    {"rank": 10, "name": "HubSpot"},
-    {"rank": 11, "name": "Zapier"},
-    {"rank": 12, "name": "Canva Magic Studio"},
-    {"rank": 13, "name": "Fathom"},
-    {"rank": 14, "name": "Nyota"},
-    {"rank": 15, "name": "Mem"},
-    {"rank": 16, "name": "Runway"},
-    {"rank": 17, "name": "Timely"},
-    {"rank": 18, "name": "ClickUp"},
-    {"rank": 19, "name": "Todoist"},
-    {"rank": 20, "name": "Wordtune"}
+    {"rank": 5, "name": "Motion"},
+    {"rank": 6, "name": "Claude"},
+    {"rank": 7, "name": "Perplexity"},
+    {"rank": 8, "name": "Asana"},
+    {"rank": 9, "name": "Fireflies.ai"},
+    {"rank": 10, "name": "Microsoft 365 Copilot"},
+    {"rank": 11, "name": "Any.do"},
+    {"rank": 12, "name": "Taskade"},
+    {"rank": 13, "name": "Mem"},
+    {"rank": 14, "name": "Reclaim"},
+    {"rank": 15, "name": "Jasper"},
+    {"rank": 16, "name": "Wordtune"},
+    {"rank": 17, "name": "DALL·E 3"},
+    {"rank": 18, "name": "Superhuman"},
+    {"rank": 19, "name": "ClickUp"},
+    {"rank": 20, "name": "Shortwave"}
   ],
   "criteria": [
     {
       "name": "AI-Powered Task Automation",
-      "description": "The extent to which the app uses AI to automate repetitive tasks, streamline workflows, and reduce manual effort.",
+      "description": "The app's ability to automate repetitive tasks, set smart reminders, and prioritize tasks based on workload and deadlines.",
       "type": "Boolean[1]",
-      "sources": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AbF9wXETt4plAChjrbJIdjKsxLKBpSC4wHaBENLeGCehIQ5ewVpzRAzYQlc9Njl817T5ne_mqKtsROmfNunNX_e-Gu-UrRZtM5x6ZoTs2yGTiCNdNqnQWypmjv9mjseJ5xdcWDe2KVi7DTu23UkD"
-    },
-    {
-      "name": "Intelligent Assistance",
-      "description": "How well the app provides intelligent assistance, such as smart summaries, automated suggestions, and personalized recommendations.",
-      "type": "Text[*]",
-      "sources": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AbF9wXEv3-IDyQvi6eVPzG29qK8ODR4GzODtYUEkFay_E89nDud88Ym2Tjn5VBtUWaDuB90OQX6tfKruV2nNAtL5QqUCrZOvoFr83SFbDAb4BRRyBsZFM0A5bO3Y4Ur5MJt8IVv85ss3QO26myl_5X5vajrzpzioQfMIVwHP"
+      "sources": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AbF9wXGoPRBthD30OyNoVi_4hlJ5OVDosvTRA00we1YTLmmySKqjnsR_joMbSovyZx9yo7YOVFjB8RXhEvOIcjdJ6ZE-OqM7MP3Aldqf7RyL8JgaInu3W4GYiIK5cg6_OYDDHBlupyvRlalbu1xK1dWRhPbvfRI="
     },
     {
       "name": "Natural Language Processing (NLP)",
-      "description": "The effectiveness of the app in understanding and processing natural language for tasks like writing assistance, content creation, and meeting transcription.",
+      "description": "The tool's capability to understand and generate human language for tasks like summarizing text, drafting emails, and providing conversational assistance.",
       "type": "Boolean[1]",
-      "sources": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AbF9wXGx_Yb8N_Z7WtdB3iROA6oc0rthveiShDmajKloBvS4QZ8rNBtnF5yDbbjyrxlcmH1KAOg5MSGI0QVbIzsQG8iJ0NIynss3NccjAD5psZYVqZNRRTxSmE-lCGYACgmXVaASndpY3oxOCwDUykEoBa3qiu-MoCvNEoR0Iu3Y-D8P0Tdxlt-JUmk="
+      "sources": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AbF9wXF2VUDN5sirkLgLlpqIcYuevSb5F8-NKMTE4EqcDMP_9OMlJT8Y8lD70uPDHUXWlzXZRd8-4uOPQClVkmGc_14PjyXfHo7IAq2MYB6fcBK9ERD7jODN4r-8ZTtY_rOF1ms3h4LxuWF82HrjTyavRvln4g="
     },
     {
       "name": "Integration Capabilities",
-      "description": "The ability of the app to seamlessly integrate with other productivity tools and platforms to streamline workflows.",
+      "description": "The extent to which the app seamlessly integrates with other productivity tools, such as calendars, email services, project management platforms, and communication apps.",
       "type": "Text[*]",
-      "sources": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AbF9wXHC0SMsZZ_SG2Uc1-I2HNE9mbJgQLlwPJ7B0bi9YLDSEiCiVrccohHk2wr7jtj50Uf1bgttjrHf_GN6XS9WPW2QMVBTA9HI5Jp7S-Bml2727mWFvD_FZkzFup1SAB5wGcCDyiMJmpRx3wEQqHUXzA=="
+      "sources": "multiple"
     },
     {
-      "name": "User Experience",
-      "description": "The overall user experience, including ease of use, intuitive design, and customer reviews.",
-      "type": "Text[1]",
-      "sources": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AbF9wXH7TBW-XWbg5qX_3fwR9y00p0dz6IyawIIMHSSOqDZH0qst3aq4QtrPIw2kRDjI_M4WGF7tfG-D5DapSA4PJY5tjx1Kn8KT6qxcHRaeIZQEhLJU-0G4BxxTG8RjNtFCe8YVB_USvxNzSjht00l3U_w="
+      "name": "Content Creation and Enhancement",
+      "description": "The tool's ability to assist in creating various forms of content, including text, images, and videos, and to enhance the quality and clarity of existing content.",
+      "type": "Text[*]",
+      "sources": "multiple"
+    },
+    {
+      "name": "Meeting Assistance",
+      "description": "Features that aid in meeting transcription, summarization, note-taking, and action item extraction to improve meeting productivity.",
+      "type": "Boolean[1]",
+      "sources": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AbF9wXGwcIIThzyBsUGoZd6b8TZC5fYPtEPFA0Eb4AdBbBZaannus2o92UCU2zfbUXOyCsA2bx-w7hRTf4tAj3ITeacyv40xkGytpR8M9pvsKtnjaZZUSBRjskWDnpkBc1bj_4a3MXRTFxqU_bo="
+    },
+    {
+      "name": "Personalization",
+      "description": "The degree to which the app can be customized to individual user preferences and workflows, providing a tailored productivity experience.",
+      "type": "Text[*]",
+      "sources": "multiple"
     }
   ]
 }

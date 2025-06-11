@@ -1,0 +1,57 @@
+
+{
+  "apps": [
+    {"rank": 1, "name": "Duolingo"},
+    {"rank": 2, "name": "Khanmigo (Khan Academy)"},
+    {"rank": 3, "name": "Babbel"},
+    {"rank": 4, "name": "Loora AI"},
+    {"rank": 5, "name": "Quizizz"},
+    {"rank": 6, "name": "ChatGPT"},
+    {"rank": 7, "name": "Grammarly"},
+    {"rank": 8, "name": "Notion AI"},
+    {"rank": 9, "name": "Lingvist"},
+    {"rank": 10, "name": "Talkpal"},
+    {"rank": 11, "name": "Rosetta Stone"},
+    {"rank": 12, "name": "MakesYouFluent"},
+    {"rank": 13, "name": "Univerbal"},
+    {"rank": 14, "name": "The Drive AI"},
+    {"rank": 15, "name": "Quizlet"},
+    {"rank": 16, "name": "Eklavvya"},
+    {"rank": 17, "name": "Mindgrasp"},
+    {"rank": 18, "name": "Osmo"},
+    {"rank": 19, "name": "DreamBox Learning"},
+    {"rank": 20, "name": "Canva for Education"}
+  ],
+  "criteria": [
+    {
+      "name": "Personalization Capabilities",
+      "description": "The degree to which the app adapts to individual learning styles and paces using AI.",
+      "type": "Float [1]",
+      "sources": "App Store/Google Play descriptions, user reviews, expert reviews"
+    },
+    {
+      "name": "AI-Driven Content Generation",
+      "description": "The ability of the app to create new learning materials, exercises, or assessments using AI.",
+      "type": "Boolean [1]",
+      "sources": "App features list, developer documentation"
+    },
+    {
+      "name": "Intelligent Tutoring",
+      "description": "The presence and effectiveness of AI-powered tutoring features, including feedback and guidance.",
+      "type": "Float [1]",
+      "sources": "User reviews, expert testing, app descriptions"
+    },
+   {
+      "name": "User Rating",
+      "description": "Average rating given by users on app stores.",
+      "type": "Float [1]",
+      "sources": "Google Play Store, Apple App Store"
+    },
+    {
+      "name": "Number of Downloads",
+      "description": "Total number of times the application has been downloaded.",
+      "type": "Integer [1]",
+      "sources": "Google Play Store, Apple App Store"
+    }
+  ]
+}

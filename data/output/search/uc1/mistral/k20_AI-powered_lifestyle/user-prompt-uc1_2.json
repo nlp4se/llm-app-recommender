@@ -5,22 +5,22 @@
     {"rank": 2, "name": "Headspace"},
     {"rank": 3, "name": "Sleep Cycle"},
     {"rank": 4, "name": "Calm"},
-    {"rank": 5, "name": "Flo"},
-    {"rank": 6, "name": "Lifesum"},
-    {"rank": 7, "name": "Youper"},
-    {"rank": 8, "name": "Fabulous"},
-    {"rank": 9, "name": "Happify"},
-    {"rank": 10, "name": "Noom"},
-    {"rank": 11, "name": "Clue"},
-    {"rank": 12, "name": "Daylio"},
-    {"rank": 13, "name": "Ada Health"},
-    {"rank": 14, "name": "Moodpath"},
-    {"rank": 15, "name": "Simple Habit"},
-    {"rank": 16, "name": "YAZIO"},
-    {"rank": 17, "name": "Moodkit"},
-    {"rank": 18, "name": "Rise"},
-    {"rank": 19, "name": "Wysa"},
-    {"rank": 20, "name": "MoodMission"}
+    {"rank": 5, "name": "Fitbit"},
+    {"rank": 6, "name": "Strava"},
+    {"rank": 7, "name": "Noom"},
+    {"rank": 8, "name": "WW (Weight Watchers)"},
+    {"rank": 9, "name": "Lifesum"},
+    {"rank": 10, "name": "Youper"},
+    {"rank": 11, "name": "Flo"},
+    {"rank": 12, "name": "Clue"},
+    {"rank": 13, "name": "MyTherapy"},
+    {"rank": 14, "name": "Happify"},
+    {"rank": 15, "name": "Fabulous"},
+    {"rank": 16, "name": "Moodpath"},
+    {"rank": 17, "name": "Daylio"},
+    {"rank": 18, "name": "YAZIO"},
+    {"rank": 19, "name": "Lose It!"},
+    {"rank": 20, "name": "Cronometer"}
   ],
   "criteria": [
     {
@@ -37,7 +37,7 @@
     },
     {
       "name": "AI Integration",
-      "description": "Level and effectiveness of AI features in the app.",
+      "description": "Level and effectiveness of AI features within the app.",
       "type": "Text [1]",
       "sources": "App descriptions, user reviews, tech blogs"
     },
@@ -45,13 +45,13 @@
       "name": "User Interface",
       "description": "Ease of use and design quality of the app.",
       "type": "Text [1]",
-      "sources": "User reviews, tech blogs, design awards"
+      "sources": "User reviews, tech reviews"
     },
     {
-      "name": "Functionality",
+      "name": "Feature Set",
       "description": "Range and usefulness of features offered by the app.",
       "type": "Text [1]",
-      "sources": "App descriptions, user reviews, tech blogs"
+      "sources": "App descriptions, user reviews"
     },
     {
       "name": "Update Frequency",
@@ -61,9 +61,9 @@
     },
     {
       "name": "Privacy and Security",
-      "description": "How well the app protects user data and privacy.",
+      "description": "How well the app protects user data and ensures privacy.",
       "type": "Text [1]",
-      "sources": "App privacy policies, user reviews, tech blogs"
+      "sources": "App privacy policies, user reviews"
     }
   ]
 }

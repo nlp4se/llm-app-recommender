@@ -5,22 +5,22 @@
     {"rank": 2, "name": "Quizlet"},
     {"rank": 3, "name": "Photomath"},
     {"rank": 4, "name": "Socratic by Google"},
-    {"rank": 5, "name": "Khan Academy"},
+    {"rank": 5, "name": "Kahoot!"},
     {"rank": 6, "name": "Brainly"},
     {"rank": 7, "name": "Chegg Study"},
-    {"rank": 8, "name": "MyScript Calculator"},
-    {"rank": 9, "name": "WolframAlpha"},
-    {"rank": 10, "name": "Grammarly"},
-    {"rank": 11, "name": "Coursera"},
-    {"rank": 12, "name": "edX"},
-    {"rank": 13, "name": "Udemy"},
-    {"rank": 14, "name": "LinkedIn Learning"},
-    {"rank": 15, "name": "SoloLearn"},
-    {"rank": 16, "name": "Memrise"},
-    {"rank": 17, "name": "Babbel"},
-    {"rank": 18, "name": "Rosetta Stone"},
-    {"rank": 19, "name": "Busuu"},
-    {"rank": 20, "name": "Yousician"}
+    {"rank": 8, "name": "Khan Academy"},
+    {"rank": 9, "name": "Coursera"},
+    {"rank": 10, "name": "edX"},
+    {"rank": 11, "name": "Udemy"},
+    {"rank": 12, "name": "LinkedIn Learning"},
+    {"rank": 13, "name": "Byju's"},
+    {"rank": 14, "name": "Microsoft Math Solver"},
+    {"rank": 15, "name": "Grammarly"},
+    {"rank": 16, "name": "Hemingway Editor"},
+    {"rank": 17, "name": "MyScript Calculator"},
+    {"rank": 18, "name": "WolframAlpha"},
+    {"rank": 19, "name": "Tynker"},
+    {"rank": 20, "name": "SoloLearn"}
   ],
   "criteria": [
     {
@@ -30,46 +30,40 @@
       "sources": "Google Play Store, Apple App Store"
     },
     {
-      "name": "Downloads",
+      "name": "Number of Downloads",
       "description": "Total number of times the app has been downloaded.",
       "type": "Integer [1]",
       "sources": "Google Play Store, Apple App Store, Sensor Tower"
     },
     {
-      "name": "User Interface",
-      "description": "Ease of use and navigation within the app.",
-      "type": "Text [1]",
-      "sources": "Expert reviews, user feedback"
-    },
-    {
-      "name": "Content Quality",
-      "description": "Quality and relevance of the educational content provided.",
-      "type": "Text [1]",
-      "sources": "Expert reviews, user feedback"
-    },
-    {
       "name": "AI Integration",
-      "description": "Effectiveness and innovation in the use of AI for educational purposes.",
+      "description": "Level and effectiveness of AI features integrated into the app.",
       "type": "Text [1]",
-      "sources": "App descriptions, expert reviews"
+      "sources": "App descriptions, user reviews, tech blogs"
+    },
+    {
+      "name": "Educational Content Quality",
+      "description": "Quality and variety of educational content offered.",
+      "type": "Text [1]",
+      "sources": "Expert reviews, user feedback, educational blogs"
+    },
+    {
+      "name": "User Interface and Experience",
+      "description": "Ease of use and overall user experience.",
+      "type": "Text [1]",
+      "sources": "User reviews, design awards, tech reviews"
     },
     {
       "name": "Accessibility",
       "description": "Availability and performance across different platforms and devices.",
       "type": "Text [1]",
-      "sources": "App descriptions, user feedback"
+      "sources": "App store listings, user reviews, tech blogs"
     },
     {
-      "name": "Engagement Features",
-      "description": "Features that enhance user engagement and learning outcomes.",
+      "name": "Innovation",
+      "description": "Unique features and innovative approaches in education.",
       "type": "Text [1]",
-      "sources": "App descriptions, expert reviews"
-    },
-    {
-      "name": "Updates and Support",
-      "description": "Frequency of updates and quality of customer support.",
-      "type": "Text [1]",
-      "sources": "App store updates, user reviews"
+      "sources": "Tech blogs, educational reviews, app updates"
     }
   ]
 }

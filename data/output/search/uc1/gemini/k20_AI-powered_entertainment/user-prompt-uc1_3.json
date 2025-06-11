@@ -1,111 +1,51 @@
 
 {
   "apps": [
-    {
-      "rank": 1,
-      "name": "ChatGPT"
-    },
-    {
-      "rank": 2,
-      "name": "Netflix"
-    },
-    {
-      "rank": 3,
-      "name": "Spotify"
-    },
-    {
-      "rank": 4,
-      "name": "Runway ML"
-    },
-    {
-      "rank": 5,
-      "name": "Descript"
-    },
-    {
-      "rank": 6,
-      "name": "DALL-E"
-    },
-    {
-      "rank": 7,
-      "name": "Synthesia"
-    },
-    {
-      "rank": 8,
-      "name": "Jasper"
-    },
-    {
-      "rank": 9,
-      "name": "Adobe Sensei"
-    },
-    {
-      "rank": 10,
-      "name": "Rephrase.ai"
-    },
-    {
-      "rank": 11,
-      "name": "ElevenLabs"
-    },
-    {
-      "rank": 12,
-      "name": "FireCut"
-    },
-    {
-      "rank": 13,
-      "name": "Beatoven"
-    },
-    {
-      "rank": 14,
-      "name": "Facetune"
-    },
-    {
-      "rank": 15,
-      "name": "Lensa"
-    },
-    {
-      "rank": 16,
-      "name": "Prisma"
-    },
-    {
-      "rank": 17,
-      "name": "AIVA"
-    },
-    {
-      "rank": 18,
-      "name": "Lumen5"
-    },
-    {
-      "rank": 19,
-      "name": "Google Gemini"
-    },
-    {
-      "rank": 20,
-      "name": "Character AI"
-    }
+    {"rank": 1, "name": "ChatGPT"},
+    {"rank": 2, "name": "Remini"},
+    {"rank": 3, "name": "PhotoRoom"},
+    {"rank": 4, "name": "Google Gemini"},
+    {"rank": 5, "name": "豆瓣 (Douban)"},
+    {"rank": 6, "name": "UpFoto"},
+    {"rank": 7, "name": "Hypic"},
+    {"rank": 8, "name": "Microsoft Copilot"},
+    {"rank": 9, "name": "Artimind"},
+    {"rank": 10, "name": "AI Chatbot Nova"},
+    {"rank": 11, "name": "Character AI"},
+    {"rank": 12, "name": "ChatOn"},
+    {"rank": 13, "name": "EPIK"},
+    {"rank": 14, "name": "Beat.ly"},
+    {"rank": 15, "name": "Gauthi"},
+    {"rank": 16, "name": "FireCut"},
+    {"rank": 17, "name": "ElevenLabs"},
+    {"rank": 18, "name": "Wonder Studio"},
+    {"rank": 19, "name": "AIVA"},
+    {"rank": 20, "name": "Amper Music"}
   ],
   "criteria": [
     {
-      "name": "AI Capabilities",
-      "description": "Extent to which the app utilizes AI for content generation, personalization, or enhancement.",
-      "type": "Text[*]",
+      "name": "Download Popularity",
+      "description": "Ranking based on the number of downloads between January and August 2024",
+      "type": "Integer[1]",
+      "sources": "Sensor Tower data"
+    },
+    {
+      "name": "AI-Driven Content Creation",
+      "description": "Apps that offer AI-driven tools for image, video, or music creation and editing.",
+      "type": "Boolean[1]",
       "sources": "Multiple sources"
     },
     {
-      "name": "User Ratings and Reviews",
-      "description": "Average rating and number of reviews on app stores.",
-      "type": "Float[1]",
-      "sources": "App Store, Google Play Store"
+      "name": "AI Chat and Personalization",
+      "description": "Apps that provide personalized AI interactions and chat functionalities.",
+      "type": "Boolean[1]",
+      "sources": "Multiple sources"
     },
     {
-      "name": "Functionality",
-      "description": "Core features and functions that the app provides.",
-      "type": "Text[*]",
-      "sources": "App description, Reviews"
-    },
-    {
-      "name": "Popularity/Downloads",
-      "description": "Number of downloads and active users.",
-      "type": "Integer[1]",
-      "sources": "Sensor Tower"
+      "name": "AI Music Composition",
+      "description": "AI applications that create music for films and video games",
+      "type": "Text[1]",
+      "sources": "litslink.com"
     }
   ]
 }

@@ -4,72 +4,72 @@
     {"rank": 1, "name": "Netflix"},
     {"rank": 2, "name": "Spotify"},
     {"rank": 3, "name": "YouTube"},
-    {"rank": 4, "name": "Disney+"},
-    {"rank": 5, "name": "Amazon Prime Video"},
-    {"rank": 6, "name": "Hulu"},
-    {"rank": 7, "name": "Apple Music"},
-    {"rank": 8, "name": "TikTok"},
+    {"rank": 4, "name": "TikTok"},
+    {"rank": 5, "name": "Disney+"},
+    {"rank": 6, "name": "Amazon Prime Video"},
+    {"rank": 7, "name": "Hulu"},
+    {"rank": 8, "name": "Apple Music"},
     {"rank": 9, "name": "Pandora"},
     {"rank": 10, "name": "HBO Max"},
-    {"rank": 11, "name": "Peacock"},
-    {"rank": 12, "name": "Paramount+"},
-    {"rank": 13, "name": "Twitch"},
+    {"rank": 11, "name": "Twitch"},
+    {"rank": 12, "name": "Peacock"},
+    {"rank": 13, "name": "Paramount+"},
     {"rank": 14, "name": "SoundCloud"},
     {"rank": 15, "name": "Deezer"},
     {"rank": 16, "name": "iHeartRadio"},
-    {"rank": 17, "name": "Vudu"},
-    {"rank": 18, "name": "Crunchyroll"},
-    {"rank": 19, "name": "Funimation"},
-    {"rank": 20, "name": "Pluto TV"}
+    {"rank": 17, "name": "Tidal"},
+    {"rank": 18, "name": "Vimeo"},
+    {"rank": 19, "name": "Crunchyroll"},
+    {"rank": 20, "name": "Funimation"}
   ],
   "criteria": [
     {
       "name": "User Ratings",
-      "description": "Average user ratings on app stores (e.g., Google Play, Apple App Store).",
+      "description": "Average rating given by users on app stores.",
       "type": "Float [1]",
-      "sources": "Google Play Store, Apple App Store"
+      "sources": "App Store, Google Play Store"
     },
     {
       "name": "Downloads",
-      "description": "Total number of downloads across platforms.",
+      "description": "Total number of downloads across all platforms.",
       "type": "Integer [1]",
-      "sources": "Google Play Store, Apple App Store, Sensor Tower"
+      "sources": "App Store, Google Play Store, Sensor Tower"
     },
     {
       "name": "Active Users",
-      "description": "Monthly active users (MAU) or daily active users (DAU).",
+      "description": "Number of monthly active users.",
       "type": "Integer [1]",
-      "sources": "App Annie, Sensor Tower"
+      "sources": "Company reports, App Annie"
     },
     {
-      "name": "Content Library Size",
-      "description": "The size and variety of the content library offered by the app.",
+      "name": "Content Variety",
+      "description": "Diversity and quantity of content available.",
       "type": "Integer [1]",
-      "sources": "Official app websites, third-party reviews"
+      "sources": "App descriptions, user reviews"
     },
     {
       "name": "AI Integration",
-      "description": "The level and effectiveness of AI integration in features like recommendations, personalization, and content discovery.",
+      "description": "Level of AI integration for personalization and recommendations.",
       "type": "Text [1]",
-      "sources": "Official app descriptions, user reviews, tech blogs"
+      "sources": "App features, tech blogs, company announcements"
     },
     {
-      "name": "User Interface and Experience",
-      "description": "The quality and intuitiveness of the user interface and overall user experience.",
+      "name": "User Interface",
+      "description": "Ease of use and design quality of the app.",
       "type": "Text [1]",
-      "sources": "User reviews, tech blogs, app store descriptions"
+      "sources": "User reviews, design awards"
     },
     {
       "name": "Subscription Cost",
-      "description": "The cost of subscription plans and value for money.",
+      "description": "Cost of premium subscription plans.",
       "type": "Float [1]",
-      "sources": "Official app websites, app store listings"
+      "sources": "App Store, Google Play Store, company websites"
     },
     {
       "name": "Cross-Platform Availability",
-      "description": "Availability across different platforms and devices.",
+      "description": "Availability of the app across different platforms and devices.",
       "type": "Text [1]",
-      "sources": "Official app websites, app store listings"
+      "sources": "App Store, Google Play Store, company websites"
     }
   ]
 }

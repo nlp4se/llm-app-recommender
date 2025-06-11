@@ -1,0 +1,57 @@
+
+{
+  "apps": [
+    {"rank": 1, "name": "Adobe Photoshop"},
+    {"rank": 2, "name": "Luminar Neo"},
+    {"rank": 3, "name": "Canva"},
+    {"rank": 4, "name": "Pixlr"},
+    {"rank": 5, "name": "Lensa"},
+    {"rank": 6, "name": "Runway"},
+    {"rank": 7, "name": "Descript"},
+    {"rank": 8, "name": "Wondershare Filmora"},
+    {"rank": 9, "name": "Capsule"},
+    {"rank": 10, "name": "InVideo AI"},
+    {"rank": 11, "name": "Peech"},
+    {"rank": 12, "name": "Synthesia"},
+    {"rank": 13, "name": "Vyond"},
+    {"rank": 14, "name": "Revid.ai"},
+    {"rank": 15, "name": "LTX Studio"},
+    {"rank": 16, "name": "Picsart"},
+    {"rank": 17, "name": "Fotor Photo Editor"},
+    {"rank": 18, "name": "PhotoDirector"},
+    {"rank": 19, "name": "Topaz Photo AI"},
+    {"rank": 20, "name": "CapCut"}
+  ],
+  "criteria": [
+    {
+      "name": "AI-Powered Features",
+      "description": "The extent to which the app utilizes AI to automate and enhance photo and video editing tasks, such as object removal, background replacement, style transfer, and intelligent adjustments.",
+      "type": "Boolean[*]",
+      "sources": "Zapier, Dzine Blog, Reddit, DigitalOcean, Kripesh Adwani, YouTube"
+    },
+    {
+      "name": "Ease of Use",
+      "description": "How intuitive and user-friendly the app is, especially for beginners or users without extensive photo or video editing experience. This includes the interface design, the learning curve, and the availability of tutorials or guides.",
+      "type": "Text[1]",
+      "sources": "Zapier, Reddit, Aeon, DigitalOcean, Kripesh Adwani"
+    },
+    {
+      "name": "Editing Capabilities",
+      "description": "The breadth and depth of editing tools and features available, including basic adjustments (brightness, contrast, color), advanced tools (curves, HSL, local adjustments), and specialized features (noise reduction, sharpening, upscaling).",
+      "type": "Text[*]",
+      "sources": "Zapier, Dzine Blog, Reddit, DigitalOcean, Kripesh Adwani"
+    },
+    {
+      "name": "Cost and Availability",
+      "description": "The pricing model of the app (free, subscription, one-time purchase), the availability of a free tier or trial, and the platforms on which the app is available (iOS, Android, Web, macOS, Windows).",
+      "type": "Text[1]",
+      "sources": "Zapier, Reddit, DigitalOcean, Kripesh Adwani"
+    },
+    {
+      "name": "Output Quality",
+      "description": "The resolution and quality of the final edited photos and videos, as well as the available export options and formats.",
+      "type": "Text[1]",
+      "sources": "Zapier"
+    }
+  ]
+}

@@ -2,74 +2,50 @@
 {
   "apps": [
     {"rank": 1, "name": "Mint"},
-    {"rank": 2, "name": "Personal Capital"},
-    {"rank": 3, "name": "You Need A Budget (YNAB)"},
+    {"rank": 2, "name": "You Need A Budget (YNAB)"},
+    {"rank": 3, "name": "Personal Capital"},
     {"rank": 4, "name": "PocketGuard"},
-    {"rank": 5, "name": "EveryDollar"},
-    {"rank": 6, "name": "Goodbudget"},
-    {"rank": 7, "name": "Spendee"},
-    {"rank": 8, "name": "Monefy"},
-    {"rank": 9, "name": "Wally"},
-    {"rank": 10, "name": "Expensify"},
-    {"rank": 11, "name": "Prism"},
-    {"rank": 12, "name": "Albert"},
-    {"rank": 13, "name": "Cleo"},
-    {"rank": 14, "name": "Chime"},
-    {"rank": 15, "name": "Acorns"},
-    {"rank": 16, "name": "Robinhood"},
-    {"rank": 17, "name": "Stash"},
-    {"rank": 18, "name": "Betterment"},
-    {"rank": 19, "name": "Wealthfront"},
-    {"rank": 20, "name": "Ellevest"}
+    {"rank": 5, "name": "Albert"},
+    {"rank": 6, "name": "Cleo"},
+    {"rank": 7, "name": "Goodbudget"},
+    {"rank": 8, "name": "EveryDollar"},
+    {"rank": 9, "name": "Spendee"},
+    {"rank": 10, "name": "Monefy"},
+    {"rank": 11, "name": "Wally"},
+    {"rank": 12, "name": "Mobills"},
+    {"rank": 13, "name": "Money Lover"},
+    {"rank": 14, "name": "Dollarbird"},
+    {"rank": 15, "name": "Wallet"},
+    {"rank": 16, "name": "Bluecoins"},
+    {"rank": 17, "name": "MoneyManager"},
+    {"rank": 18, "name": "Expensify"},
+    {"rank": 19, "name": "AndroMoney"},
+    {"rank": 20, "name": "Toshl Finance"}
   ],
   "criteria": [
     {
-      "name": "User Ratings",
-      "description": "Average rating of the app on major app stores like Google Play and Apple App Store.",
-      "type": "Float [1]",
-      "sources": "Google Play Store, Apple App Store"
+      "name": "Popularity",
+      "description": "The number of downloads and active users of the app.",
+      "type": "Integer[1]",
+      "sources": ["App Store metrics", "Google Play metrics", "Sensor Tower", "App Annie"]
     },
     {
-      "name": "Downloads",
-      "description": "Total number of downloads of the app across major app stores.",
-      "type": "Integer [1]",
-      "sources": "Google Play Store, Apple App Store, Sensor Tower"
+      "name": "Features",
+      "description": "The range and sophistication of features offered by the app, such as budgeting tools, investment tracking, bill reminders, and AI-powered insights.",
+      "type": "Text[*]",
+      "sources": ["App Store descriptions", "Google Play descriptions", "Official app websites", "Expert reviews"]
     },
     {
-      "name": "AI Integration",
-      "description": "Level and effectiveness of AI integration in the app for features like budgeting, savings, and investment recommendations.",
-      "type": "Text [1]",
-      "sources": "App descriptions, user reviews, tech blogs"
+      "name": "User Reviews",
+      "description": "The average rating and number of reviews left by users on app marketplaces.",
+      "type": "Float[1]",
+      "sources": ["App Store metrics", "Google Play metrics"]
     },
     {
-      "name": "Feature Set",
-      "description": "Range and depth of features offered by the app, including budgeting, tracking expenses, investment options, and financial advice.",
-      "type": "Text [1]",
-      "sources": "App descriptions, user reviews, tech blogs"
-    },
-    {
-      "name": "User Interface",
-      "description": "Ease of use and intuitiveness of the app's user interface.",
-      "type": "Text [1]",
-      "sources": "User reviews, tech blogs, app screenshots"
-    },
-    {
-      "name": "Security",
-      "description": "Security measures implemented by the app to protect user data and financial information.",
-      "type": "Text [1]",
-      "sources": "App descriptions, security audits, user reviews"
-    },
-    {
-      "name": "Customer Support",
-      "description": "Quality and responsiveness of the app's customer support.",
-      "type": "Text [1]",
-      "sources": "User reviews, tech blogs, customer support ratings"
-    },
-    {
-      "name": "Innovation",
-      "description": "Innovative features or approaches that set the app apart from competitors.",
-      "type": "Text [1]",
-      "sources": "Tech blogs, app descriptions, user reviews"
+      "name": "AI Capabilities",
+      "description": "The extent and effectiveness of AI integration in the app, such as predictive analytics, chatbots, and automated financial advice.",
+      "type": "Text[*]",
+      "sources": ["App Store descriptions", "Google Play descriptions", "Official app websites", "Expert reviews"]
     }
   ]
 }

@@ -1,75 +1,141 @@
 
 {
   "apps": [
-    {"rank": 1, "name": "ChatGPT"},
-    {"rank": 2, "name": "Notion AI"},
-    {"rank": 3, "name": "Jasper"},
-    {"rank": 4, "name": "Grammarly"},
-    {"rank": 5, "name": "Otter.ai"},
-    {"rank": 6, "name": "Reclaim AI"},
-    {"rank": 7, "name": "Zapier"},
-    {"rank": 8, "name": "DALL·E 3"},
-    {"rank": 9, "name": "Asana"},
-    {"rank": 10, "name": "Motion"},
-    {"rank": 11, "name": "Claude"},
-    {"rank": 12, "name": "Fireflies.ai"},
-    {"rank": 13, "name": "HubSpot"},
-    {"rank": 14, "name": "Canva"},
-    {"rank": 15, "name": "Todoist AI Assistant"},
-    {"rank": 16, "name": "Wordtune"},
-    {"rank": 17, "name": "Perplexity"},
-    {"rank": 18, "name": "Microsoft Copilot Pro for Outlook"},
-    {"rank": 19, "name": "FeedHive"},
-    {"rank": 20, "name": "Superhuman"}
+    {
+      "rank": 1,
+      "name": "Motion"
+    },
+    {
+      "rank": 2,
+      "name": "ChatGPT"
+    },
+    {
+      "rank": 3,
+      "name": "Reclaim.ai"
+    },
+    {
+      "rank": 4,
+      "name": "Notion"
+    },
+    {
+      "rank": 5,
+      "name": "Clockwise"
+    },
+    {
+      "rank": 6,
+      "name": "Superhuman"
+    },
+    {
+      "rank": 7,
+      "name": "Taskade"
+    },
+    {
+      "rank": 8,
+      "name": "Todoist"
+    },
+    {
+      "rank": 9,
+      "name": "Zapier"
+    },
+    {
+      "rank": 10,
+      "name": "Grammarly"
+    },
+    {
+      "rank": 11,
+      "name": "Fireflies.ai"
+    },
+    {
+      "rank": 12,
+      "name": "Writer"
+    },
+    {
+      "rank": 13,
+      "name": "Perplexity"
+    },
+    {
+      "rank": 14,
+      "name": "Otter.ai"
+    },
+    {
+      "rank": 15,
+      "name": "Runway"
+    },
+    {
+      "rank": 16,
+      "name": "Microsoft Copilot"
+    },
+    {
+      "rank": 17,
+      "name": "Mem"
+    },
+    {
+      "rank": 18,
+      "name": "Asana"
+    },
+    {
+      "rank": 19,
+      "name": "ClickUp"
+    },
+    {
+      "rank": 20,
+      "name": "Trevor AI"
+    }
   ],
   "criteria": [
     {
-      "name": "Task Automation",
-      "description": "The ability of the app to automate repetitive and time-consuming tasks, such as email sorting, scheduling, and data entry.",
+      "name": "AI-Powered Task Management",
+      "description": "The app utilizes AI to automate task creation, prioritization, and scheduling.",
       "type": "Boolean[1]",
-      "sources": "https://www.digitalocean.com/community/tutorials/ai-productivity-tools"
+      "sources": "Motion, Taskade, ClickUp, Todoist, Asana, Wrike"
     },
     {
-      "name": "Content Creation",
-      "description": "The app's capacity to generate high-quality content, including articles, marketing copy, and social media posts.",
-      "type": "Text[*]",
-      "sources": "https://www.zapier.com/blog/best-ai-productivity-tools"
-    },
-    {
-      "name": "Project Management",
-      "description": "The app's capabilities for organizing tasks, setting deadlines, assigning responsibilities, and tracking progress within teams.",
+      "name": "Intelligent Calendar Integration",
+      "description": "Seamlessly integrates with calendar applications to optimize scheduling and time blocking using AI.",
       "type": "Boolean[1]",
-      "sources": "https://www.timecamp.com/blog/best-ai-productivity-tools/"
+      "sources": "Reclaim.ai, Clockwise, Motion, Trevor AI"
     },
     {
-      "name": "Communication Enhancement",
-      "description": "The app's ability to improve team communication through features like real-time transcription, translation, and meeting summaries.",
+      "name": "AI Writing Assistance",
+      "description": "Provides AI-driven suggestions for writing, grammar, and content creation to enhance productivity.",
       "type": "Boolean[1]",
-      "sources": "https://www.nbold.com/blog/ai-productivity-tools-microsoft-365/"
+      "sources": "Grammarly, Writer, ChatGPT, Superhuman"
     },
     {
-      "name": "Learning Curve",
-      "description": "How easy it is for new users to understand and effectively use the app's features.",
-      "type": "Text[1]",
-      "sources": "https://www.buffer.com/library/ai-productivity-tools/"
-    },
-    {
-      "name": "Integration with Existing Tools",
-      "description": "The app's ability to seamlessly connect with other productivity tools and platforms.",
+      "name": "Meeting Transcription and Summarization",
+      "description": "Automatically transcribes and summarizes meetings using AI, saving time on note-taking.",
       "type": "Boolean[1]",
-      "sources": "https://www.zapier.com/blog/best-ai-productivity-tools"
+      "sources": "Otter.ai, Fireflies.ai"
     },
     {
-      "name": "Personalization",
-      "description": "The extent to which the app adapts to individual user needs and preferences, providing customized experiences and recommendations.",
-      "type": "Text[1]",
-      "sources": "https://www.euphoriaxr.com/blog/top-ai-productivity-tools"
-    },
-    {
-      "name": "Data Analysis and Reporting",
-      "description": "The app's capacity to process raw data and provide actionable insights through comprehensive reporting features.",
+      "name": "Workflow Automation",
+      "description": "Enables users to create automated workflows between different apps using AI to streamline repetitive tasks.",
       "type": "Boolean[1]",
-      "sources": "https://www.timecamp.com/blog/best-ai-productivity-tools/"
+      "sources": "Zapier"
+    },
+    {
+      "name": "AI-Enhanced Search",
+      "description": "Uses AI to provide more relevant and efficient search results within the app or across multiple platforms.",
+      "type": "Boolean[1]",
+      "sources": "Perplexity"
+    },
+    {
+      "name": "AI-Powered Content Creation",
+      "description": "Leverages AI to generate various forms of content, including text, images, and videos.",
+      "type": "Boolean[1]",
+      "sources": "Runway"
+    },
+    {
+      "name": "AI-Driven Email Management",
+      "description": "Employs AI to sort, prioritize, and summarize emails, making inbox management more efficient.",
+      "type": "Boolean[1]",
+      "sources": "Superhuman, Microsoft Copilot"
+    },
+    {
+      "name": "AI Knowledge Management",
+      "description": "Utilizes AI to organize and connect information, creating a smart knowledge base for improved productivity.",
+      "type": "Boolean[1]",
+      "sources": "Notion, Mem"
     }
   ]
 }

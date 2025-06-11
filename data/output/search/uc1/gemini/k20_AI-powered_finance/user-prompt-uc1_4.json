@@ -2,56 +2,56 @@
 {
   "apps": [
     {"rank": 1, "name": "Mint"},
-    {"rank": 2, "name": "Betterment"},
-    {"rank": 3, "name": "Cleo"},
-    {"rank": 4, "name": "YNAB (You Need A Budget)"},
-    {"rank": 5, "name": "Acorns"},
-    {"rank": 6, "name": "Wealthfront"},
-    {"rank": 7, "name": "PocketGuard"},
-    {"rank": 8, "name": "Plum"},
-    {"rank": 9, "name": "Tally"},
-    {"rank": 10, "name": "Credit Karma"},
-    {"rank": 11, "name": "Digit"},
-    {"rank": 12, "name": "Qapital"},
-    {"rank": 13, "name": "Origin"},
-    {"rank": 14, "name": "Trim"},
-    {"rank": 15, "name": "Monarch Money"},
-    {"rank": 16, "name": "RockFlow"},
-    {"rank": 17, "name": "eToro"},
-    {"rank": 18, "name": "Magnifi"},
+    {"rank": 2, "name": "Cleo"},
+    {"rank": 3, "name": "Betterment"},
+    {"rank": 4, "name": "Acorns"},
+    {"rank": 5, "name": "Plum"},
+    {"rank": 6, "name": "Trim"},
+    {"rank": 7, "name": "Alpha by Public"},
+    {"rank": 8, "name": "RockFlow"},
+    {"rank": 9, "name": "Magnifi"},
+    {"rank": 10, "name": "Rolly"},
+    {"rank": 11, "name": "PocketGuard"},
+    {"rank": 12, "name": "QuickBooks"},
+    {"rank": 13, "name": "Xero"},
+    {"rank": 14, "name": "Tally ERP 9"},
+    {"rank": 15, "name": "Arya.ai"},
+    {"rank": 16, "name": "Spindle AI"},
+    {"rank": 17, "name": "Quantivate"},
+    {"rank": 18, "name": "Streetbeat"},
     {"rank": 19, "name": "AInvest"},
-    {"rank": 20, "name": "Streetbeat"}
+    {"rank": 20, "name": "FINQ"}
   ],
   "criteria": [
     {
-      "name": "AI-Powered Features",
-      "description": "The extent to which the app utilizes AI to provide personalized financial advice, automate tasks, and offer predictive analytics.",
-      "type": "Boolean[*]",
+      "name": "AI-Powered Personalization",
+      "description": "The app leverages AI to analyze user's financial data and provide personalized advice, insights, and recommendations tailored to their specific financial situation and goals.",
+      "type": "Text[*]",
       "sources": "Multiple sources"
     },
     {
-      "name": "User Interface",
-      "description": "The intuitiveness and ease of use of the app's interface.",
-      "type": "Text[1]",
-      "sources": "money.co.uk, Digicrusader"
-    },
-    {
-      "name": "Comprehensive Financial Management",
-      "description": "The ability of the app to handle multiple financial tasks such as budgeting, expense tracking, investment management, and debt reduction.",
-      "type": "Boolean[*]",
-      "sources": "Forbes, AI IXX, DX Talks"
-    },
-    {
-      "name": "Personalization",
-      "description": "The degree to which the app provides tailored advice and recommendations based on individual financial behaviors and goals.",
-      "type": "Text[1]",
-      "sources": "Forbes, AI IXX, DX Talks"
-    },
-    {
-      "name": "Automation",
-      "description": "The level of automation in tasks such as saving, investing, and expense tracking.",
+      "name": "Automation of Financial Tasks",
+      "description": "The app uses AI to automate tasks such as expense tracking, budgeting, saving, and investment, reducing manual effort and improving efficiency.",
       "type": "Boolean[1]",
-      "sources": "Forbes, RockFlow"
+      "sources": "Multiple sources"
+    },
+    {
+      "name": "Investment Analysis and Insights",
+      "description": "The app employs AI algorithms to analyze market trends, identify investment opportunities, and provide users with data-driven insights to make informed investment decisions.",
+      "type": "Text[*]",
+      "sources": "Multiple sources"
+    },
+    {
+      "name": "Bill Management and Negotiation",
+      "description": "The app utilizes AI to help users manage their bills, including tracking due dates, automating payments, and negotiating lower rates with service providers.",
+      "type": "Boolean[1]",
+      "sources": "Forbes, Digicrusader"
+    },
+    {
+      "name": "User Interface and Experience",
+      "description": "The app provides a user-friendly interface and intuitive experience, making it easy for users to navigate and understand their financial data.",
+      "type": "Text[1]",
+      "sources": "Digicrusader, Fintech Review"
     }
   ]
 }

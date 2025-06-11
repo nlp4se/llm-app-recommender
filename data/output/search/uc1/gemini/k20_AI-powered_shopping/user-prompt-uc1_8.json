@@ -1,0 +1,135 @@
+
+{
+  "apps": [
+    {
+      "rank": 1,
+      "name": "Shop.app"
+    },
+    {
+      "rank": 2,
+      "name": "Buysmart.ai"
+    },
+    {
+      "rank": 3,
+      "name": "Claros"
+    },
+    {
+      "rank": 4,
+      "name": "ShopGuru"
+    },
+    {
+      "rank": 5,
+      "name": "Rufus (Amazon)"
+    },
+    {
+      "rank": 6,
+      "name": "Shopbox AI"
+    },
+    {
+      "rank": 7,
+      "name": "GrapheneAI"
+    },
+    {
+      "rank": 8,
+      "name": "Klarna (ChatGPT Plugin)"
+    },
+    {
+      "rank": 9,
+      "name": "MOI (Klevu)"
+    },
+    {
+      "rank": 10,
+      "name": "Shopmate"
+    },
+    {
+      "rank": 11,
+      "name": "Rep AI"
+    },
+    {
+      "rank": 12,
+      "name": "Tidio AI"
+    },
+    {
+      "rank": 13,
+      "name": "Revery"
+    },
+    {
+      "rank": 14,
+      "name": "Fotor"
+    },
+    {
+      "rank": 15,
+      "name": "VirtuLook by Wondershare"
+    },
+    {
+      "rank": 16,
+      "name": "YourFit by 3DLOOK"
+    },
+    {
+      "rank": 17,
+      "name": "Styleme"
+    },
+     {
+      "rank": 18,
+      "name": "AI Background Remove&Generate"
+    },
+     {
+      "rank": 19,
+      "name": "Pebblely AI"
+    },
+    {
+      "rank": 20,
+      "name": "CreatorKit ‑ AI Image & Video"
+    }
+  ],
+  "criteria": [
+    {
+      "name": "AI-Powered Recommendations",
+      "description": "The app utilizes AI to provide personalized product recommendations based on user preferences, shopping history, and browsing behavior.",
+      "type": "Boolean[1]",
+      "sources": "Shop.app, Buysmart.ai, Shopmate, Revery"
+    },
+    {
+      "name": "Intelligent Search and Discovery",
+      "description": "The app employs AI to understand natural language queries and provide relevant product suggestions, even refining searches with follow-up questions.",
+      "type": "Boolean[1]",
+      "sources": "Shop.app, Rufus, MOI"
+    },
+    {
+      "name": "Review Summarization",
+      "description": "The app summarizes product reviews using AI, highlighting key aspects such as durability, quality, and value for money.",
+      "type": "Boolean[1]",
+      "sources": "Rufus"
+    },
+    {
+      "name": "Personalized Shopping Experience",
+      "description": "The app adapts the shopping experience in real-time according to the visitor's interests and behavior, curating product displays and suggestions.",
+      "type": "Boolean[1]",
+      "sources": "Shopbox AI, GrapheneAI"
+    },
+    {
+      "name": "AI-Driven Customer Support",
+      "description": "The app uses AI-powered chatbots to provide instant customer support, answer frequently asked questions, and recommend products based on shopping history.",
+      "type": "Boolean[1]",
+      "sources": "Rep AI, Tidio AI"
+    },
+    {
+      "name": "Virtual Try-On",
+      "description": "The app offers virtual try-on technology, allowing users to visualize clothing and accessories on themselves or models.",
+      "type": "Boolean[1]",
+      "sources": "Revery, Fotor, YourFit by 3DLOOK"
+    },
+    {
+      "name": "AI-Enhanced Product Imagery",
+      "description": "The app utilizes AI to generate high-resolution product photos in diverse scenes and layouts, enhancing visual appeal.",
+      "type": "Boolean[1]",
+      "sources": "VirtuLook by Wondershare"
+    },
+     {
+      "name": "AI photo editing",
+      "description": "The app utilizes AI to retouch your photos and generate new backgrounds.",
+      "type": "Boolean[1]",
+      "sources": "AI Background Remove&Generate, Pebblely AI, CreatorKit ‑ AI Image & Video"
+    }
+  ]
+}

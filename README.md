@@ -36,4 +36,4 @@ Use search OpenAI model
 
 Extract ranking criteria (flat)
 
-```python -m code.data-processor.ranking_criteria_to_csv --input-folder data\output\search\uc1\openai --output-file data\output\search\uc1\openai\criteria.csv```
+```python -m code.data-processor.ranking_criteria_to_csv --input-folder .\data\output\search\uc1\gemini\ --output-file-all .\data\output\search\uc1\gemini\ranking-criteria-all.csv --output-file-grouped .\data\output\search\uc1\gemini\ranking-criteria-grouped.csv```

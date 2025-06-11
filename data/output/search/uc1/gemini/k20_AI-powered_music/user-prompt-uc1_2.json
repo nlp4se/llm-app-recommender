@@ -1,57 +1,57 @@
 
 {
   "apps": [
-    {"rank": 1, "name": "SOUNDRAW"},
-    {"rank": 2, "name": "Hydra II"},
-    {"rank": 3, "name": "Soundful"},
-    {"rank": 4, "name": "AIVA (Artificial Intelligence Virtual Artist)"},
-    {"rank": 5, "name": "Mubert"},
-    {"rank": 6, "name": "Landr"},
-    {"rank": 7, "name": "Beatoven"},
-    {"rank": 8, "name": "Moises"},
-    {"rank": 9, "name": "Udio"},
-    {"rank": 10, "name": "Suno"},
-    {"rank": 11, "name": "Sonauto"},
-    {"rank": 12, "name": "AI Music Generator"},
-    {"rank": 13, "name": "Backbone"},
-    {"rank": 14, "name": "Midjourney"},
-    {"rank": 15, "name": "Controlla Voice"},
-    {"rank": 16, "name": "ACE Studio"},
-    {"rank": 17, "name": "Vocaloid"},
-    {"rank": 18, "name": "Riffusion"},
-    {"rank": 19, "name": "Loudly"},
-    {"rank": 20, "name": "ElevenLabs"}
+    {"rank": 1, "name": "Suno AI"},
+    {"rank": 2, "name": "Udio"},
+    {"rank": 3, "name": "Mubert"},
+    {"rank": 4, "name": "AIVA"},
+    {"rank": 5, "name": "Riffusion"},
+    {"rank": 6, "name": "Boomy"},
+    {"rank": 7, "name": "BandLab SongStarter"},
+    {"rank": 8, "name": "Beatoven AI"},
+    {"rank": 9, "name": "Soundraw"},
+    {"rank": 10, "name": "Soundful"},
+    {"rank": 11, "name": "Moises"},
+    {"rank": 12, "name": "Loudly"},
+    {"rank": 13, "name": "SongR"},
+    {"rank": 14, "name": "Mureka"},
+    {"rank": 15, "name": "Padhanisa"},
+    {"rank": 16, "name": "Artium Academy"},
+    {"rank": 17, "name": "Riyaz"},
+    {"rank": 18, "name": "Musora"},
+    {"rank": 19, "name": "Yousician"},
+    {"rank": 20, "name": "MyTunes"}
   ],
   "criteria": [
     {
-      "name": "AI Music Generation",
-      "description": "Ability to generate original music based on user input such as text prompts, genre selection, or style descriptions.",
-      "type": "Text[*]",
-      "sources": "SOUNDRAW Blog, DigitalOcean, Kripesh Adwani"
+      "name": "AI Music Generation Capability",
+      "description": "The app's ability to generate original music from various inputs like text prompts, melodies, or selected styles.",
+      "type": "Boolean[1]",
+      "sources": "Multiple"
     },
     {
       "name": "Customization Options",
-      "description": "The extent to which users can customize generated music, including editing capabilities, instrument selection, and arrangement modifications.",
-      "type": "Integer[1]",
-      "sources": "SOUNDRAW Blog, DigitalOcean"
+      "description": "The extent to which users can customize the generated music, including genre selection, tempo adjustment, key changes, and instrument choices.",
+      "type": "Text[*]",
+      "sources": "Multiple"
     },
     {
-      "name": "Licensing and Rights",
-      "description": "Clarity and flexibility of licensing terms for commercial use of AI-generated music.",
+      "name": "User Friendliness",
+      "description": "Ease of use for both beginners and experienced musicians.",
       "type": "Text[1]",
-      "sources": "SOUNDRAW Blog"
+      "sources": "Multiple"
     },
     {
-      "name": "AI Singing Voice Generation/Voice changing",
-      "description": "Ability to generate or modify singing voices using AI, including control over parameters like timbre, style, and volume.",
+      "name": "Learning and Practice Features",
+      "description": "Availability of AI-powered features for music education, such as real-time feedback, personalized lessons, and instrument separation.",
       "type": "Boolean[1]",
-      "sources": "AudioCipher"
+      "sources": "Multiple"
     },
     {
-      "name": "User Interface/Ease of Use",
-      "description": "The user-friendliness and intuitiveness of the app's interface.",
-      "type": "Text[1]",
-      "sources": "SOUNDRAW Blog"
+      "name": "Collaboration and Sharing",
+      "description": "Features that allow users to collaborate with others and share their creations on social media or other platforms.",
+      "type": "Boolean[1]",
+      "sources": "Multiple"
     }
   ]
 }

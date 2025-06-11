@@ -1,0 +1,75 @@
+
+{
+  "apps": [
+    {"rank": 1, "name": "Mint"},
+    {"rank": 2, "name": "Personal Capital"},
+    {"rank": 3, "name": "You Need A Budget (YNAB)"},
+    {"rank": 4, "name": "PocketGuard"},
+    {"rank": 5, "name": "EveryDollar"},
+    {"rank": 6, "name": "Goodbudget"},
+    {"rank": 7, "name": "Spendee"},
+    {"rank": 8, "name": "Monefy"},
+    {"rank": 9, "name": "Wally"},
+    {"rank": 10, "name": "Expensify"},
+    {"rank": 11, "name": "Prism"},
+    {"rank": 12, "name": "Albert"},
+    {"rank": 13, "name": "Cleo"},
+    {"rank": 14, "name": "Chime"},
+    {"rank": 15, "name": "Acorns"},
+    {"rank": 16, "name": "Robinhood"},
+    {"rank": 17, "name": "Stash"},
+    {"rank": 18, "name": "Betterment"},
+    {"rank": 19, "name": "Wealthfront"},
+    {"rank": 20, "name": "Ellevest"}
+  ],
+  "criteria": [
+    {
+      "name": "User Ratings",
+      "description": "Average rating of the app on major app stores like Google Play and Apple App Store.",
+      "type": "Float [1]",
+      "sources": "Google Play Store, Apple App Store"
+    },
+    {
+      "name": "Downloads",
+      "description": "Total number of downloads of the app across major app stores.",
+      "type": "Integer [1]",
+      "sources": "Google Play Store, Apple App Store, Sensor Tower"
+    },
+    {
+      "name": "AI Integration",
+      "description": "Level and effectiveness of AI integration in the app for features like budgeting, savings, and investment recommendations.",
+      "type": "Text [1]",
+      "sources": "App descriptions, user reviews, tech blogs"
+    },
+    {
+      "name": "Feature Set",
+      "description": "Range and depth of features offered by the app, including budgeting, tracking expenses, investment options, and financial advice.",
+      "type": "Text [1]",
+      "sources": "App descriptions, user reviews, tech blogs"
+    },
+    {
+      "name": "User Interface",
+      "description": "Ease of use and intuitiveness of the app's user interface.",
+      "type": "Text [1]",
+      "sources": "User reviews, tech blogs, app screenshots"
+    },
+    {
+      "name": "Security",
+      "description": "Security measures implemented by the app to protect user data and financial information.",
+      "type": "Text [1]",
+      "sources": "App descriptions, security audits, user reviews"
+    },
+    {
+      "name": "Customer Support",
+      "description": "Quality and responsiveness of the app's customer support.",
+      "type": "Text [1]",
+      "sources": "User reviews, tech blogs, customer support ratings"
+    },
+    {
+      "name": "Innovation",
+      "description": "Innovative features or approaches that set the app apart from competitors.",
+      "type": "Text [1]",
+      "sources": "Tech blogs, app descriptions, user reviews"
+    }
+  ]
+}

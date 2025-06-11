@@ -10,78 +10,54 @@
     {"rank": 7, "name": "Youper"},
     {"rank": 8, "name": "DataBot"},
     {"rank": 9, "name": "ELSA Speak"},
-    {"rank": 10, "name": "Remini"},
-    {"rank": 11, "name": "Fotor"},
-    {"rank": 12, "name": "Lensa"},
-    {"rank": 13, "name": "FaceApp"},
-    {"rank": 14, "name": "Prisma"},
-    {"rank": 15, "name": "HotPot AI"},
-    {"rank": 16, "name": "TinyWow"},
-    {"rank": 17, "name": "Runway ML"},
-    {"rank": 18, "name": "DeepArt"},
-    {"rank": 19, "name": "ToonMe"},
-    {"rank": 20, "name": "Voila AI Artist"}
+    {"rank": 10, "name": "AnkiDroid Flashcards"},
+    {"rank": 11, "name": "Remember: Grocery List"},
+    {"rank": 12, "name": "Microsoft Soundscape"},
+    {"rank": 13, "name": "Focos"},
+    {"rank": 14, "name": "Lensa"},
+    {"rank": 15, "name": "FaceApp"},
+    {"rank": 16, "name": "Prisma"},
+    {"rank": 17, "name": "Voicemod"},
+    {"rank": 18, "name": "iTranslate Voice"},
+    {"rank": 19, "name": "Otter Voice Notes"},
+    {"rank": 20, "name": "Descript"}
   ],
   "criteria": [
     {
       "name": "User Ratings",
-      "description": "Average user ratings on app stores like Google Play and Apple App Store.",
+      "description": "Average rating given by users on various app stores.",
       "type": "Float [1]",
-      "sources": "Google Play Store, Apple App Store"
+      "sources": "Google Play Store, Apple App Store, etc."
     },
     {
-      "name": "Number of Downloads",
-      "description": "Total number of downloads or installs from app stores.",
+      "name": "Downloads",
+      "description": "Total number of times the app has been downloaded.",
       "type": "Integer [1]",
-      "sources": "Google Play Store, Apple App Store, Sensor Tower"
+      "sources": "Google Play Store, Apple App Store, etc."
     },
     {
-      "name": "User Reviews",
-      "description": "Qualitative feedback and reviews provided by users.",
-      "type": "Text [*]",
-      "sources": "Google Play Store, Apple App Store, Trustpilot"
+      "name": "AI Integration",
+      "description": "Level and effectiveness of AI integration in the app's functionality.",
+      "type": "Text [1]",
+      "sources": "App descriptions, user reviews, expert analysis"
     },
     {
-      "name": "App Features",
-      "description": "The range and innovativeness of AI-powered features offered by the app.",
-      "type": "Text [*]",
-      "sources": "App descriptions, developer websites, tech blogs"
+      "name": "User Interface",
+      "description": "Ease of use and navigability of the app.",
+      "type": "Text [1]",
+      "sources": "User reviews, expert analysis"
     },
     {
       "name": "Update Frequency",
-      "description": "How often the app is updated with new features, bug fixes, and improvements.",
-      "type": "Integer [1]",
-      "sources": "Google Play Store, Apple App Store"
-    },
-    {
-      "name": "User Interface and Experience",
-      "description": "The design, usability, and overall user experience of the app.",
-      "type": "Text [*]",
-      "sources": "User reviews, tech blogs, expert analyses"
-    },
-    {
-      "name": "Privacy and Security",
-      "description": "The app's handling of user data, privacy policies, and security measures.",
-      "type": "Text [*]",
-      "sources": "App privacy policies, security audits, user reviews"
+      "description": "How often the app is updated with new features and bug fixes.",
+      "type": "Text [1]",
+      "sources": "App store update history, developer announcements"
     },
     {
       "name": "Accessibility",
-      "description": "The app's support for accessibility features like screen readers, text-to-speech, and high contrast modes.",
-      "type": "Text [*]",
-      "sources": "App descriptions, accessibility reviews, developer documentation"
-    },
-    {
-      "name": "Performance",
-      "description": "The app's speed, responsiveness, and resource consumption.",
-      "type": "Text [*]",
-      "sources": "User reviews, performance benchmarks, technical analyses"
-    },
-    {
-      "name": "Compatibility",
-      "description": "The range of devices and operating systems the app supports.",
-      "type": "Text [*]",
-      "sources": "App store listings, developer documentation"
+      "description": "Availability and performance of the app across different platforms and devices.",
+      "type": "Text [1]",
+      "sources": "App store listings, user reviews"
     }
   ]
 }

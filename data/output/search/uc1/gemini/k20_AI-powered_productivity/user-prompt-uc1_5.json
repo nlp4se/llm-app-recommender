@@ -1,0 +1,75 @@
+
+{
+  "apps": [
+    {"rank": 1, "name": "ChatGPT"},
+    {"rank": 2, "name": "Notion AI"},
+    {"rank": 3, "name": "Jasper"},
+    {"rank": 4, "name": "Grammarly"},
+    {"rank": 5, "name": "Otter.ai"},
+    {"rank": 6, "name": "Reclaim AI"},
+    {"rank": 7, "name": "Zapier"},
+    {"rank": 8, "name": "DALL·E 3"},
+    {"rank": 9, "name": "Asana"},
+    {"rank": 10, "name": "Motion"},
+    {"rank": 11, "name": "Claude"},
+    {"rank": 12, "name": "Fireflies.ai"},
+    {"rank": 13, "name": "HubSpot"},
+    {"rank": 14, "name": "Canva"},
+    {"rank": 15, "name": "Todoist AI Assistant"},
+    {"rank": 16, "name": "Wordtune"},
+    {"rank": 17, "name": "Perplexity"},
+    {"rank": 18, "name": "Microsoft Copilot Pro for Outlook"},
+    {"rank": 19, "name": "FeedHive"},
+    {"rank": 20, "name": "Superhuman"}
+  ],
+  "criteria": [
+    {
+      "name": "Task Automation",
+      "description": "The ability of the app to automate repetitive and time-consuming tasks, such as email sorting, scheduling, and data entry.",
+      "type": "Boolean[1]",
+      "sources": "https://www.digitalocean.com/community/tutorials/ai-productivity-tools"
+    },
+    {
+      "name": "Content Creation",
+      "description": "The app's capacity to generate high-quality content, including articles, marketing copy, and social media posts.",
+      "type": "Text[*]",
+      "sources": "https://www.zapier.com/blog/best-ai-productivity-tools"
+    },
+    {
+      "name": "Project Management",
+      "description": "The app's capabilities for organizing tasks, setting deadlines, assigning responsibilities, and tracking progress within teams.",
+      "type": "Boolean[1]",
+      "sources": "https://www.timecamp.com/blog/best-ai-productivity-tools/"
+    },
+    {
+      "name": "Communication Enhancement",
+      "description": "The app's ability to improve team communication through features like real-time transcription, translation, and meeting summaries.",
+      "type": "Boolean[1]",
+      "sources": "https://www.nbold.com/blog/ai-productivity-tools-microsoft-365/"
+    },
+    {
+      "name": "Learning Curve",
+      "description": "How easy it is for new users to understand and effectively use the app's features.",
+      "type": "Text[1]",
+      "sources": "https://www.buffer.com/library/ai-productivity-tools/"
+    },
+    {
+      "name": "Integration with Existing Tools",
+      "description": "The app's ability to seamlessly connect with other productivity tools and platforms.",
+      "type": "Boolean[1]",
+      "sources": "https://www.zapier.com/blog/best-ai-productivity-tools"
+    },
+    {
+      "name": "Personalization",
+      "description": "The extent to which the app adapts to individual user needs and preferences, providing customized experiences and recommendations.",
+      "type": "Text[1]",
+      "sources": "https://www.euphoriaxr.com/blog/top-ai-productivity-tools"
+    },
+    {
+      "name": "Data Analysis and Reporting",
+      "description": "The app's capacity to process raw data and provide actionable insights through comprehensive reporting features.",
+      "type": "Boolean[1]",
+      "sources": "https://www.timecamp.com/blog/best-ai-productivity-tools/"
+    }
+  ]
+}

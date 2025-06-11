@@ -1,63 +1,62 @@
-
 {
   "apps": [
     {"rank": 1, "name": "Shop.app"},
-    {"rank": 2, "name": "Buysmart.ai"},
-    {"rank": 3, "name": "Claros"},
-    {"rank": 4, "name": "ShopGuru"},
-    {"rank": 5, "name": "Rufus (Amazon)"},
+    {"rank": 2, "name": "Amazon"},
+    {"rank": 3, "name": "Klarna"},
+    {"rank": 4, "name": "Shopdev Shopping Assistant"},
+    {"rank": 5, "name": "Buysmart.ai"},
     {"rank": 6, "name": "Manifest AI"},
-    {"rank": 7, "name": "Shopdev Shopping Assistant"},
-    {"rank": 8, "name": "Lyro AI Agent by Tidio"},
-    {"rank": 9, "name": "Zipchat AI"},
-    {"rank": 10, "name": "Verloop"},
-    {"rank": 11, "name": "Infichat"},
-    {"rank": 12, "name": "Shopmate"},
-    {"rank": 13, "name": "Giosg"},
-    {"rank": 14, "name": "Tidio AI"},
-    {"rank": 15, "name": "Caper Cart (Instacart)"},
-    {"rank": 16, "name": "Flash.co"},
-    {"rank": 17, "name": "Sobot AI Chatbot"},
-    {"rank": 18, "name": "Perplexity"},
-    {"rank": 19, "name": "Preezie"},
-    {"rank": 20, "name": "AI Nudge"}
+    {"rank": 7, "name": "Vetted AI Smart Shopping Agent"},
+    {"rank": 8, "name": "SHEIN"},
+    {"rank": 9, "name": "H&M"},
+    {"rank": 10, "name": "Rufus (Amazon AI assistant)"},
+    {"rank": 11, "name": "GrapheneAI"},
+    {"rank": 12, "name": "Shopbox AI"},
+    {"rank": 13, "name": "Tidio AI"},
+    {"rank": 14, "name": "Infichat"},
+    {"rank": 15, "name": "Shopmate"},
+    {"rank": 16, "name": "Gorgias"},
+    {"rank": 17, "name": "Claros"},
+    {"rank": 18, "name": "ShopGuru"},
+    {"rank": 19, "name": "Glance AI"},
+    {"rank": 20, "name": "Namshi"}
   ],
   "criteria": [
     {
-      "name": "AI Personalization",
-      "description": "The degree to which the app provides personalized product recommendations and shopping experiences based on user data, preferences, and shopping history.",
-      "type": "Text[*]",
-      "sources": "Multiple sources"
+      "name": "Personalization",
+      "description": "The degree to which the app provides personalized product recommendations, search results, and overall shopping experiences based on user data (browsing history, purchase history, preferences, demographics).",
+      "type": "Float [1]",
+      "sources": "Multiple sources, user reviews, app descriptions"
     },
     {
-      "name": "Multimodal AI capabilities",
-      "description": "Ability to combine data from multiple sources (e.g., text, images) to provide a comprehensive shopping solution.",
-      "type": "Boolean[1]",
-      "sources": "shopdev"
-    },
-    {
-      "name": "Platform Integration",
-      "description": "Seamless integration with e-commerce platforms (e.g., Shopify, BigCommerce) and physical stores for omnichannel support.",
-      "type": "Text[*]",
-      "sources": "Multiple sources"
+      "name": "AI-Powered Search & Discovery",
+      "description": "The effectiveness of AI in understanding natural language queries, image-based searches, and voice searches to deliver relevant and accurate results.",
+      "type": "Boolean [1]",
+      "sources": "App descriptions, expert reviews"
     },
     {
       "name": "Customer Support",
-      "description": "Availability of 24/7 customer support and AI-driven assistance for product searches, queries, and issue resolution.",
-      "type": "Boolean[1]",
-      "sources": "Infichat, Shopmate"
+      "description": "The availability and quality of AI-powered chatbots or virtual assistants for instant customer support, answering questions, and guiding users through the purchasing process.",
+      "type": "Boolean [1]",
+      "sources": "App descriptions, user reviews"
     },
     {
-      "name": "Ease of Use",
-      "description": "Intuitive interface and minimal setup required for both customers and businesses.",
-      "type": "Text[*]",
-      "sources": "Multiple sources"
+      "name": "Price Comparison & Deal Finding",
+      "description": "The app's ability to compare prices across different retailers, locate deals and discounts, and predict price fluctuations to help users save money.",
+      "type": "Boolean [1]",
+      "sources": "App descriptions, expert reviews, user reviews"
     },
     {
-      "name": "Cost Saving Features",
-      "description": "AI features that help save money, such as finding deals, discounts, and best prices effortlessly.",
-      "type": "Boolean[1]",
-      "sources": "Buysmart.ai"
+      "name": "User Experience (UX)",
+      "description": "The overall intuitiveness, ease of navigation, and visual appeal of the app's interface, contributing to a seamless and enjoyable shopping experience.",
+      "type": "Text [1]",
+      "sources": "User reviews, app descriptions"
+    },
+    {
+      "name": "AR/VR Integration",
+      "description": "The extent to which the app utilizes augmented reality (AR) or virtual reality (VR) technologies to enhance the shopping experience, such as virtual try-on features.",
+      "type": "Boolean [1]",
+      "sources": "App descriptions, expert reviews"
     }
   ]
 }

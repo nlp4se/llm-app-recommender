@@ -2,25 +2,25 @@
 {
   "apps": [
     {"rank": 1, "name": "Adobe Lightroom"},
-    {"rank": 2, "name": "VSCO"},
-    {"rank": 3, "name": "Prisma"},
-    {"rank": 4, "name": "PicsArt"},
-    {"rank": 5, "name": "FaceApp"},
-    {"rank": 6, "name": "Lensa"},
+    {"rank": 2, "name": "Prisma"},
+    {"rank": 3, "name": "FaceApp"},
+    {"rank": 4, "name": "Lensa"},
+    {"rank": 5, "name": "PicsArt"},
+    {"rank": 6, "name": "VSCO"},
     {"rank": 7, "name": "Meitu"},
-    {"rank": 8, "name": "BeautyPlus"},
-    {"rank": 9, "name": "Snapseed"},
-    {"rank": 10, "name": "Afterlight"},
-    {"rank": 11, "name": "TouchRetouch"},
-    {"rank": 12, "name": "Facetune2"},
-    {"rank": 13, "name": "PhotoDirector"},
-    {"rank": 14, "name": "Remini"},
-    {"rank": 15, "name": "Pixlr"},
-    {"rank": 16, "name": "Canva"},
-    {"rank": 17, "name": "FilmoraGo"},
-    {"rank": 18, "name": "InShot"},
-    {"rank": 19, "name": "KineMaster"},
-    {"rank": 20, "name": "Magisto"}
+    {"rank": 8, "name": "Photolemur"},
+    {"rank": 9, "name": "Let's Enhance"},
+    {"rank": 10, "name": "DeepArt"},
+    {"rank": 11, "name": "Google Photos"},
+    {"rank": 12, "name": "Snapseed"},
+    {"rank": 13, "name": "Afterlight"},
+    {"rank": 14, "name": "TouchRetouch"},
+    {"rank": 15, "name": "Remini"},
+    {"rank": 16, "name": "Glitch Art Studio"},
+    {"rank": 17, "name": "Pixaloop"},
+    {"rank": 18, "name": "Enlight Photofox"},
+    {"rank": 19, "name": "FilmoraGo"},
+    {"rank": 20, "name": "InShot"}
   ],
   "criteria": [
     {
@@ -31,45 +31,45 @@
     },
     {
       "name": "Downloads",
-      "description": "Total number of downloads of the app.",
+      "description": "Total number of downloads on app stores.",
       "type": "Integer [1]",
       "sources": "App Store, Google Play Store, Sensor Tower"
     },
     {
       "name": "AI Features",
-      "description": "The variety and effectiveness of AI-powered features such as filters, effects, and editing tools.",
-      "type": "Text [*]",
-      "sources": "App descriptions, user reviews, tech blogs"
+      "description": "Number and sophistication of AI-powered features.",
+      "type": "Integer [1]",
+      "sources": "App descriptions, tech reviews, official websites"
     },
     {
       "name": "User Interface",
-      "description": "Ease of use and intuitiveness of the app's interface.",
+      "description": "Ease of use and design quality of the app.",
       "type": "Text [1]",
-      "sources": "User reviews, tech reviews"
+      "sources": "User reviews, tech blogs, expert opinions"
     },
     {
       "name": "Update Frequency",
-      "description": "How often the app is updated with new features and bug fixes.",
-      "type": "Integer [1]",
-      "sources": "App Store, Google Play Store"
-    },
-    {
-      "name": "Subscription Cost",
-      "description": "Cost of premium features or subscriptions.",
-      "type": "Float [1]",
-      "sources": "App Store, Google Play Store"
-    },
-    {
-      "name": "Social Media Integration",
-      "description": "Ability to share edited photos and videos directly to social media platforms.",
-      "type": "Boolean [1]",
-      "sources": "App descriptions, user reviews"
-    },
-    {
-      "name": "Customer Support",
-      "description": "Quality and responsiveness of customer support.",
+      "description": "Frequency of app updates and improvements.",
       "type": "Text [1]",
-      "sources": "User reviews, tech blogs"
+      "sources": "App Store, Google Play Store, official blogs"
+    },
+    {
+      "name": "Community and Support",
+      "description": "Availability of user community and support services.",
+      "type": "Text [1]",
+      "sources": "Official forums, social media, customer support reviews"
+    },
+    {
+      "name": "Performance",
+      "description": "App speed, stability, and resource consumption.",
+      "type": "Text [1]",
+      "sources": "User reviews, performance benchmarks, tech reviews"
+    },
+    {
+      "name": "Innovation",
+      "description": "Unique and innovative features compared to competitors.",
+      "type": "Text [1]",
+      "sources": "Tech blogs, app descriptions, expert analyses"
     }
   ]
 }

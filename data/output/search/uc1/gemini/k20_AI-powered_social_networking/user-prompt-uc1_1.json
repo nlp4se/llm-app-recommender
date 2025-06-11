@@ -1,57 +1,118 @@
 
 {
-  "apps": [
-    {"rank": 1, "name": "FeedHive"},
-    {"rank": 2, "name": "Buffer"},
-    {"rank": 3, "name": "Flick"},
-    {"rank": 4, "name": "Predis.ai"},
-    {"rank": 5, "name": "Publer"},
-    {"rank": 6, "name": "ContentStudio"},
-    {"rank": 7, "name": "Hootsuite"},
-    {"rank": 8, "name": "StoryChief"},
-    {"rank": 9, "name": "ChatGPT"},
-    {"rank": 10, "name": "Canva AI"},
-    {"rank": 11, "name": "Jasper AI"},
-    {"rank": 12, "name": "Supermeme.ai"},
-    {"rank": 13, "name": "Pictory"},
-    {"rank": 14, "name": "Sprinklr"},
-    {"rank": 15, "name": "Chatfuel"},
-    {"rank": 16, "name": "Lumen5"},
-    {"rank": 17, "name": "VSCO"},
-    {"rank": 18, "name": "Mentionlytics"},
-    {"rank": 19, "name": "Meltwater"},
-    {"rank": 20, "name": "Mandala AI"}
-  ],
-  "criteria": [
-    {
-      "name": "AI-Powered Content Generation",
-      "description": "The app utilizes AI to assist in creating social media content, including text, images, and videos.",
-      "type": "Boolean[1]",
-      "sources": "Multiple sources"
-    },
-    {
-      "name": "Social Media Management",
-      "description": "The app provides tools for managing multiple social media accounts, scheduling posts, and analyzing performance.",
-      "type": "Boolean[1]",
-      "sources": "Multiple sources"
-    },
-    {
-      "name": "AI-Driven Analytics",
-      "description": "The app uses AI to analyze social media data, providing insights into audience sentiment, engagement, and trends.",
-      "type": "Boolean[1]",
-      "sources": "Multiple sources"
-    },
-    {
-      "name": "Automation Capabilities",
-      "description": "The app automates repetitive tasks such as posting, responding to inquiries, and content recycling.",
-      "type": "Boolean[1]",
-      "sources": "Multiple sources"
-    },
-    {
-      "name": "Content Repurposing",
-      "description": "The app helps repurpose existing content for different social media platforms.",
-      "type": "Boolean[1]",
-      "sources": "Multiple sources"
-    }
-  ]
-}
+    "apps": [
+      {
+        "rank": 1,
+        "name": "Mee"
+      },
+      {
+        "rank": 2,
+        "name": "Hootsuite"
+      },
+      {
+        "rank": 3,
+        "name": "Buffer"
+      },
+      {
+        "rank": 4,
+        "name": "SocialPilot"
+      },
+      {
+        "rank": 5,
+        "name": "Sprout Social"
+      },
+      {
+        "rank": 6,
+        "name": "Flick"
+      },
+      {
+        "rank": 7,
+        "name": "Predis.ai"
+      },
+      {
+        "rank": 8,
+        "name": "Audiense"
+      },
+      {
+        "rank": 9,
+        "name": "ContentStudio"
+      },
+      {
+        "rank": 10,
+        "name": "Copy.ai"
+      },
+      {
+        "rank": 11,
+        "name": "Writesonic"
+      },
+      {
+        "rank": 12,
+        "name": "AdCreative.ai"
+      },
+      {
+        "rank": 13,
+        "name": "Social Bee"
+      },
+      {
+        "rank": 14,
+        "name": "Canva"
+      },
+      {
+        "rank": 15,
+        "name": "VistaCreate"
+      },
+      {
+        "rank": 16,
+        "name": "InVideo AI"
+      },
+      {
+        "rank": 17,
+        "name": "Loom AI"
+      },
+      {
+        "rank": 18,
+        "name": "StoryLab.ai"
+      },
+      {
+        "rank": 19,
+        "name": "SocialBu"
+      },
+      {
+        "rank": 20,
+        "name": "VistaSocial"
+      }
+    ],
+    "criteria": [
+      {
+        "name": "AI-Powered Features",
+        "description": "The extent to which the app utilizes AI to enhance social networking functionalities, including content creation, scheduling, analytics, and user experience personalization.",
+        "type": "Text[*]",
+        "sources": "Multiple sources"
+      },
+      {
+        "name": "User Interface and Experience",
+        "description": "How user-friendly and intuitive the app is to navigate, including design, ease of use, and overall user satisfaction.",
+        "type": "Text[1]",
+        "sources": "Multiple sources"
+      },
+      {
+        "name": "Automation Capabilities",
+        "description": "The ability of the app to automate social media management tasks, such as scheduling posts, generating content, and responding to messages.",
+        "type": "Boolean[1]",
+        "sources": "Multiple sources"
+      },
+      {
+        "name": "Content Creation Tools",
+        "description": "Availability of AI-driven tools for generating engaging and relevant content, including text, images, and videos.",
+        "type": "Text[*]",
+        "sources": "Multiple sources"
+      },
+      {
+        "name": "Analytics and Reporting",
+        "description": "The depth and accuracy of analytics provided by the app, including insights into audience behavior, engagement metrics, and performance tracking.",
+        "type": "Text[1]",
+        "sources": "Multiple sources"
+      }
+    ]
+  }
+  

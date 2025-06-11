@@ -1,0 +1,87 @@
+
+{
+  "apps": [
+    {"rank": 1, "name": "Spotify"},
+    {"rank": 2, "name": "Apple Music"},
+    {"rank": 3, "name": "YouTube Music"},
+    {"rank": 4, "name": "Pandora"},
+    {"rank": 5, "name": "Deezer"},
+    {"rank": 6, "name": "Tidal"},
+    {"rank": 7, "name": "Amazon Music"},
+    {"rank": 8, "name": "SoundCloud"},
+    {"rank": 9, "name": "iHeartRadio"},
+    {"rank": 10, "name": "Napster"},
+    {"rank": 11, "name": "Audiomack"},
+    {"rank": 12, "name": "Yandex.Music"},
+    {"rank": 13, "name": "Gaana"},
+    {"rank": 14, "name": "JioSaavn"},
+    {"rank": 15, "name": "Anghami"},
+    {"rank": 16, "name": "Melon"},
+    {"rank": 17, "name": "KKBOX"},
+    {"rank": 18, "name": "Qobuz"},
+    {"rank": 19, "name": "Boomplay"},
+    {"rank": 20, "name": "Youtube Music"}
+  ],
+  "criteria": [
+    {
+      "name": "User Ratings",
+      "description": "Average user ratings on app stores like Google Play and Apple App Store.",
+      "type": "Float [1]",
+      "sources": "Google Play Store, Apple App Store"
+    },
+    {
+      "name": "Number of Downloads",
+      "description": "Total number of downloads across all platforms.",
+      "type": "Integer [1]",
+      "sources": "Google Play Store, Apple App Store, Sensor Tower"
+    },
+    {
+      "name": "AI Features",
+      "description": "Presence and quality of AI-powered features such as personalized recommendations, voice assistants, and music discovery tools.",
+      "type": "Text [*]",
+      "sources": "App descriptions, user reviews, tech blogs"
+    },
+    {
+      "name": "Music Library Size",
+      "description": "Total number of songs and albums available in the app's library.",
+      "type": "Integer [1]",
+      "sources": "Official app websites, tech reviews"
+    },
+    {
+      "name": "User Interface and Experience",
+      "description": "Ease of use, design, and overall user experience.",
+      "type": "Text [*]",
+      "sources": "User reviews, tech blogs, expert reviews"
+    },
+    {
+      "name": "Subscription Cost",
+      "description": "Cost of premium subscription plans.",
+      "type": "Float [1]",
+      "sources": "Official app websites, app store listings"
+    },
+    {
+      "name": "Platform Availability",
+      "description": "Availability across different platforms such as iOS, Android, Web, etc.",
+      "type": "Text [*]",
+      "sources": "Official app websites, app store listings"
+    },
+    {
+      "name": "Social Features",
+      "description": "Features that allow users to share music, connect with friends, and engage with the community.",
+      "type": "Text [*]",
+      "sources": "App descriptions, user reviews"
+    },
+    {
+      "name": "Offline Access",
+      "description": "Ability to download music for offline listening.",
+      "type": "Boolean [1]",
+      "sources": "App descriptions, user reviews"
+    },
+    {
+      "name": "Integration with Other Services",
+      "description": "Integration with other apps and services like smart speakers, wearables, and social media.",
+      "type": "Text [*]",
+      "sources": "App descriptions, tech blogs"
+    }
+  ]
+}

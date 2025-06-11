@@ -1,26 +1,26 @@
 
 {
   "apps": [
-    {"rank": 1, "name": "Replika"},
-    {"rank": 2, "name": "Wysa"},
-    {"rank": 3, "name": "Youper"},
-    {"rank": 4, "name": "Woebot Health"},
-    {"rank": 5, "name": "Moodkit"},
-    {"rank": 6, "name": "What3Words"},
-    {"rank": 7, "name": "Forest"},
-    {"rank": 8, "name": "Habitica"},
-    {"rank": 9, "name": "Socratic"},
-    {"rank": 10, "name": "Photomath"},
-    {"rank": 11, "name": "CamScanner"},
-    {"rank": 12, "name": "Microsoft Lens"},
-    {"rank": 13, "name": "Clue"},
-    {"rank": 14, "name": "Flo"},
-    {"rank": 15, "name": "MyFitnessPal"},
-    {"rank": 16, "name": "Lose It!"},
-    {"rank": 17, "name": "Sleep Cycle"},
-    {"rank": 18, "name": "Pillow"},
-    {"rank": 19, "name": "Headspace"},
-    {"rank": 20, "name": "Calm"}
+    {"rank": 1, "name": "Microsoft Math Solver"},
+    {"rank": 2, "name": "Photomath"},
+    {"rank": 3, "name": "CamScanner"},
+    {"rank": 4, "name": "Socratic by Google"},
+    {"rank": 5, "name": "Replika"},
+    {"rank": 6, "name": "Wysa"},
+    {"rank": 7, "name": "Youper"},
+    {"rank": 8, "name": "DataBot"},
+    {"rank": 9, "name": "ELSA Speak"},
+    {"rank": 10, "name": "MyScript Calculator"},
+    {"rank": 11, "name": "Focos"},
+    {"rank": 12, "name": "Lensa"},
+    {"rank": 13, "name": "Prisma"},
+    {"rank": 14, "name": "FaceApp"},
+    {"rank": 15, "name": "Voicemod"},
+    {"rank": 16, "name": "iTranslate Voice"},
+    {"rank": 17, "name": "Otter"},
+    {"rank": 18, "name": "Descript"},
+    {"rank": 19, "name": "Runway ML"},
+    {"rank": 20, "name": "DeepArt"}
   ],
   "criteria": [
     {
@@ -37,33 +37,21 @@
     },
     {
       "name": "AI Integration",
-      "description": "Level and effectiveness of AI integration in the app's functionality.",
+      "description": "Level and effectiveness of AI integration in the app's features.",
       "type": "Text [1]",
-      "sources": "App descriptions, user reviews, expert analysis"
+      "sources": "App descriptions, user reviews, expert analyses"
     },
     {
       "name": "User Interface",
-      "description": "Ease of use and intuitive design of the app.",
+      "description": "Ease of use and intuitiveness of the app's interface.",
       "type": "Text [1]",
-      "sources": "User reviews, expert analysis"
-    },
-    {
-      "name": "Functionality",
-      "description": "Range and usefulness of the app's features.",
-      "type": "Text [1]",
-      "sources": "App descriptions, user reviews, expert analysis"
+      "sources": "User reviews, expert analyses"
     },
     {
       "name": "Update Frequency",
-      "description": "How often the app is updated with new features and bug fixes.",
+      "description": "How often the app is updated with new features and improvements.",
       "type": "Text [1]",
       "sources": "App store update history"
-    },
-    {
-      "name": "Privacy and Security",
-      "description": "How well the app protects user data and privacy.",
-      "type": "Text [1]",
-      "sources": "App privacy policies, user reviews, expert analysis"
     }
   ]
 }

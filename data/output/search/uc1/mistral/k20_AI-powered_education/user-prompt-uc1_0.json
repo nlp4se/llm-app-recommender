@@ -8,80 +8,68 @@
     {"rank": 5, "name": "Kahoot!"},
     {"rank": 6, "name": "Brainly"},
     {"rank": 7, "name": "Chegg Study"},
-    {"rank": 8, "name": "Coursera"},
-    {"rank": 9, "name": "edX"},
-    {"rank": 10, "name": "Udemy"},
-    {"rank": 11, "name": "Khan Academy"},
-    {"rank": 12, "name": "BYJU'S"},
-    {"rank": 13, "name": "Microsoft Math Solver"},
-    {"rank": 14, "name": "Google Arts & Culture"},
-    {"rank": 15, "name": "Tynker"},
-    {"rank": 16, "name": "SoloLearn"},
-    {"rank": 17, "name": "Memrise"},
-    {"rank": 18, "name": "Lumosity"},
-    {"rank": 19, "name": "BrainPOP"},
-    {"rank": 20, "name": "Codeacademy Go"}
+    {"rank": 8, "name": "Khan Academy"},
+    {"rank": 9, "name": "Coursera"},
+    {"rank": 10, "name": "edX"},
+    {"rank": 11, "name": "Udemy"},
+    {"rank": 12, "name": "Byju's"},
+    {"rank": 13, "name": "Tynker"},
+    {"rank": 14, "name": "SoloLearn"},
+    {"rank": 15, "name": "Memrise"},
+    {"rank": 16, "name": "Lumosity"},
+    {"rank": 17, "name": "Elevate"},
+    {"rank": 18, "name": "Peak"},
+    {"rank": 19, "name": "Mimo"},
+    {"rank": 20, "name": "Curiosity"}
   ],
   "criteria": [
     {
       "name": "User Ratings",
-      "description": "Average user ratings on popular app stores like Google Play and Apple App Store.",
+      "description": "Average rating given by users on app stores.",
       "type": "Float [1]",
-      "sources": "Google Play Store, Apple App Store"
+      "sources": "App Store, Google Play Store"
     },
     {
-      "name": "Downloads",
-      "description": "Total number of downloads across all platforms.",
+      "name": "Number of Downloads",
+      "description": "Total number of times the app has been downloaded.",
       "type": "Integer [1]",
-      "sources": "Google Play Store, Apple App Store, App Annie"
+      "sources": "App Store, Google Play Store, Sensor Tower"
     },
     {
-      "name": "User Interface and Experience",
-      "description": "Quality and ease of use of the app's interface and overall user experience.",
+      "name": "Educational Content Quality",
+      "description": "Quality and relevance of the educational material provided.",
       "type": "Text [1]",
       "sources": "Expert reviews, user feedback"
     },
     {
-      "name": "Educational Content Quality",
-      "description": "Accuracy, depth, and relevance of the educational content provided.",
-      "type": "Text [1]",
-      "sources": "Educational institutions, expert reviews"
-    },
-    {
       "name": "AI Integration",
-      "description": "Effectiveness and innovation in the use of AI for educational purposes.",
+      "description": "Level and effectiveness of AI features integrated into the app.",
       "type": "Text [1]",
       "sources": "App descriptions, tech reviews"
+    },
+    {
+      "name": "User Interface and Experience",
+      "description": "Ease of use and overall user experience.",
+      "type": "Text [1]",
+      "sources": "User reviews, design awards"
     },
     {
       "name": "Accessibility",
       "description": "Availability and performance across different platforms and devices.",
       "type": "Text [1]",
-      "sources": "App stores, developer websites"
+      "sources": "App Store, Google Play Store, developer websites"
     },
     {
-      "name": "User Engagement",
-      "description": "Metrics such as daily active users, session duration, and retention rates.",
-      "type": "Integer/Float  [*]",
-      "sources": "App Annie, Sensor Tower"
+      "name": "Engagement and Retention",
+      "description": "User engagement metrics and retention rates.",
+      "type": "Float [1]",
+      "sources": "App analytics platforms, developer reports"
     },
     {
       "name": "Innovation",
-      "description": "Unique features and functionalities that set the app apart from competitors.",
+      "description": "Unique features and innovative approaches in education.",
       "type": "Text [1]",
-      "sources": "Tech blogs, app reviews"
-    },
-    {
-      "name": "Security and Privacy",
-      "description": "Measures taken to ensure user data security and privacy.",
-      "type": "Text [1]",
-      "sources": "App privacy policies, security reviews"
-    },
-    {
-      "name": "Monetization Strategy",
-      "description": "How the app generates revenue, such as through subscriptions, in-app purchases, or ads.",
-      "type": "Text [1]",
-      "sources": "App store listings, financial reports"
+      "sources": "Tech blogs, education forums"
     }
   ]
 }

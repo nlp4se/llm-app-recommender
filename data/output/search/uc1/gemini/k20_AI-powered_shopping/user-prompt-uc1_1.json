@@ -1,6 +1,3 @@
-Okay, I'll recommend 20 AI-powered shopping apps and rank them based on several criteria. To give you the most accurate and up-to-date ranking, I'll use real-time data from app stores and reliable sources. First, I need to fetch information about available apps and their features.
-
-```json
 {
   "apps": [
     {"rank": 1, "name": "Shop.app"},
@@ -8,64 +5,52 @@ Okay, I'll recommend 20 AI-powered shopping apps and rank them based on several 
     {"rank": 3, "name": "Claros"},
     {"rank": 4, "name": "ShopGuru"},
     {"rank": 5, "name": "Rufus (Amazon)"},
-    {"rank": 6, "name": "shopdev Shopping Assistant"},
-    {"rank": 7, "name": "Infichat"},
-    {"rank": 8, "name": "Tidio AI"},
-    {"rank": 9, "name": "Shopbox AI"},
-    {"rank": 10, "name": "GrapheneAI"},
+    {"rank": 6, "name": "Shopbox AI"},
+    {"rank": 7, "name": "GrapheneAI"},
+    {"rank": 8, "name": "Klarna (ChatGPT plugin)"},
+    {"rank": 9, "name": "Shop (Shopify)"},
+    {"rank": 10, "name": "MOI (Klevu)"},
     {"rank": 11, "name": "Gorgias"},
-    {"rank": 12, "name": "MOI (Klevu)"},
-    {"rank": 13, "name": "alby's AI Shopping Assistant"},
-    {"rank": 14, "name": "Boost AI Search & Filter"},
-    {"rank": 15, "name": "Jolt: AI Blog & Image Creation"},
-    {"rank": 16, "name": "AskTimmy.ai"},
-    {"rank": 17, "name": "Verifast AI"},
-    {"rank": 18, "name": "ZuPick"},
-    {"rank": 19, "name": "Flash.co"},
-    {"rank": 20, "name": "Klicker"}
+    {"rank": 12, "name": "AskTimmy.ai"},
+    {"rank": 13, "name": "Verifast AI"},
+    {"rank": 14, "name": "Rep AI"},
+    {"rank": 15, "name": "SmartBot AI"},
+    {"rank": 16, "name": "Vanchat AI"},
+    {"rank": 17, "name": "shopdev Shopping Assistant"},
+    {"rank": 18, "name": "Shopmate"},
+    {"rank": 19, "name": "Infichat"},
+    {"rank": 20, "name": "Tidio AI"}
   ],
   "criteria": [
     {
       "name": "AI-Powered Personalization",
-      "description": "The degree to which the app uses AI to personalize the shopping experience, including product recommendations, search results, and user interface adaptations.",
-      "type": "Float [1]",
-      "sources": "Multiple sources describing app features"
+      "description": "The app uses AI to personalize the shopping experience, providing tailored product recommendations, search results, and content based on user behavior and preferences.",
+      "type": "Boolean[1]",
+      "sources": "Multiple sources"
+    },
+    {
+      "name": "AI Chatbot Assistance",
+      "description": "The app incorporates an AI chatbot to assist customers with product searches, answer questions, provide support, and offer personalized recommendations in real-time.",
+      "type": "Boolean[1]",
+      "sources": "Multiple sources"
     },
     {
       "name": "AI-Driven Product Discovery",
-      "description": "The effectiveness of AI in helping users discover new products, including natural language processing, image recognition, and predictive capabilities.",
-      "type": "Float [1]",
-      "sources": "Multiple sources describing app features"
+      "description": "The app utilizes AI algorithms to enhance product discovery, enabling users to find relevant items more efficiently through intelligent search, image recognition, and contextual understanding.",
+      "type": "Boolean[1]",
+      "sources": "Multiple sources"
     },
     {
-      "name": "AI-Assisted Customer Support",
-      "description": "The quality and availability of AI-powered customer support features, such as chatbots, automated FAQs, and personalized assistance.",
-      "type": "Float [1]",
-      "sources": "Multiple sources describing app features"
+      "name": "Customer Service Automation",
+      "description": "The app employs AI to automate customer service interactions, such as answering frequently asked questions, resolving issues, and providing support, improving efficiency and response times.",
+      "type": "Boolean[1]",
+      "sources": "Multiple sources"
     },
     {
-      "name": "User Interface and Experience",
-      "description": "The ease of use, intuitiveness, and overall user experience of the app, including design, navigation, and accessibility.",
-      "type": "Float [1]",
-      "sources": "App store reviews and expert reviews"
-    },
-    {
-      "name": "Integration and Compatibility",
-      "description": "The extent to which the app integrates with other platforms and services, such as e-commerce platforms, payment gateways, and social media channels.",
-      "type": "Text [1]",
-      "sources": "App descriptions and compatibility information"
-    },
-    {
-      "name": "Review Analysis & Summarization",
-      "description": "Ability of the AI to analyze and summarize product reviews, highlighting key pros, cons, and customer sentiments to aid in decision-making.",
-      "type": "Boolean [1]",
-      "sources": "App descriptions and user reviews"
-    },
-    {
-      "name": "Virtual Try-On & Augmented Reality",
-      "description": "Use of AI and AR to allow users to virtually try on clothing, accessories, or visualize furniture in their own spaces before purchasing.",
-      "type": "Boolean [1]",
-      "sources": "App descriptions and feature lists"
+      "name": "Integration with E-commerce Platforms",
+      "description": "The app seamlessly integrates with popular e-commerce platforms like Shopify, allowing merchants to leverage AI capabilities to enhance their online stores and improve the customer experience.",
+      "type": "Boolean[1]",
+      "sources": "Multiple sources"
     }
   ]
 }

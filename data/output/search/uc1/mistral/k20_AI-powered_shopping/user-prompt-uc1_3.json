@@ -5,71 +5,83 @@
     {"rank": 2, "name": "eBay"},
     {"rank": 3, "name": "AliExpress"},
     {"rank": 4, "name": "Wish"},
-    {"rank": 5, "name": "Etsy"},
+    {"rank": 5, "name": "ASOS"},
     {"rank": 6, "name": "Zara"},
-    {"rank": 7, "name": "ASOS"},
-    {"rank": 8, "name": "H&M"},
-    {"rank": 9, "name": "Nike"},
-    {"rank": 10, "name": "Adidas"},
-    {"rank": 11, "name": "Sephora"},
-    {"rank": 12, "name": "Walmart"},
-    {"rank": 13, "name": "Target"},
-    {"rank": 14, "name": "IKEA"},
+    {"rank": 7, "name": "H&M"},
+    {"rank": 8, "name": "Shein"},
+    {"rank": 9, "name": "Etsy"},
+    {"rank": 10, "name": "Zappos"},
+    {"rank": 11, "name": "Nike"},
+    {"rank": 12, "name": "Adidas"},
+    {"rank": 13, "name": "Sephora"},
+    {"rank": 14, "name": "Ulta Beauty"},
     {"rank": 15, "name": "Wayfair"},
-    {"rank": 16, "name": "Overstock"},
-    {"rank": 17, "name": "Best Buy"},
-    {"rank": 18, "name": "Newegg"},
-    {"rank": 19, "name": "Rakuten"},
-    {"rank": 20, "name": "Zappos"}
+    {"rank": 16, "name": "IKEA"},
+    {"rank": 17, "name": "Target"},
+    {"rank": 18, "name": "Walmart"},
+    {"rank": 19, "name": "Best Buy"},
+    {"rank": 20, "name": "Macy's"}
   ],
   "criteria": [
     {
       "name": "User Ratings",
       "description": "Average rating given by users on app stores.",
       "type": "Float [1]",
-      "sources": "App Store, Google Play Store"
+      "sources": "Google Play Store, Apple App Store"
     },
     {
-      "name": "Number of Downloads",
+      "name": "Downloads",
       "description": "Total number of times the app has been downloaded.",
       "type": "Integer [1]",
-      "sources": "App Store, Google Play Store, Sensor Tower"
+      "sources": "Google Play Store, Apple App Store, Sensor Tower"
     },
     {
       "name": "AI Integration",
-      "description": "Level of AI integration for personalized recommendations, chatbots, and other AI-powered features.",
+      "description": "Level of AI integration for personalized recommendations, visual search, and chatbots.",
       "type": "Text [1]",
-      "sources": "App descriptions, user reviews, official websites"
+      "sources": "App descriptions, user reviews, tech blogs"
     },
     {
       "name": "User Interface",
       "description": "Ease of use and navigability of the app.",
       "type": "Text [1]",
-      "sources": "User reviews, expert reviews"
+      "sources": "User reviews, tech reviews, app store descriptions"
     },
     {
       "name": "Product Variety",
-      "description": "Range and variety of products available on the app.",
+      "description": "Range and diversity of products available on the app.",
       "type": "Text [1]",
-      "sources": "App descriptions, official websites"
+      "sources": "App descriptions, user reviews, official websites"
     },
     {
       "name": "Customer Support",
       "description": "Quality and responsiveness of customer support services.",
       "type": "Text [1]",
-      "sources": "User reviews, official websites"
+      "sources": "User reviews, customer support ratings, official websites"
     },
     {
-      "name": "Secure Transactions",
-      "description": "Security measures in place for safe transactions.",
+      "name": "Security Features",
+      "description": "Strength of security measures to protect user data.",
+      "type": "Text [1]",
+      "sources": "App descriptions, user reviews, tech blogs"
+    },
+    {
+      "name": "Payment Options",
+      "description": "Variety and convenience of payment methods offered.",
       "type": "Text [1]",
       "sources": "App descriptions, user reviews, official websites"
     },
     {
-      "name": "Update Frequency",
-      "description": "Frequency of app updates and new feature releases.",
+      "name": "Shipping Options",
+      "description": "Variety and convenience of shipping methods offered.",
       "type": "Text [1]",
-      "sources": "App Store, Google Play Store"
+      "sources": "App descriptions, user reviews, official websites"
+    },
+    {
+      "name": "Return Policy",
+      "description": "Ease and flexibility of the return process.",
+      "type": "Text [1]",
+      "sources": "App descriptions, user reviews, official websites"
     }
   ]
 }

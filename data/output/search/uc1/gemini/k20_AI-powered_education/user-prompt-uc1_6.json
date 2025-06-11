@@ -1,0 +1,63 @@
+
+{
+  "apps": [
+    {"rank": 1, "name": "Duolingo"},
+    {"rank": 2, "name": "Carnegie Learning"},
+    {"rank": 3, "name": "Education Copilot"},
+    {"rank": 4, "name": "Gradescope"},
+    {"rank": 5, "name": "Grammarly"},
+    {"rank": 6, "name": "Quizizz"},
+    {"rank": 7, "name": "Wolfram Alpha"},
+    {"rank": 8, "name": "Otter.ai"},
+    {"rank": 9, "name": "Elicit"},
+    {"rank": 10, "name": "Socratic by Google"},
+    {"rank": 11, "name": "ChatGPT"},
+    {"rank": 12, "name": "Exam AI"},
+    {"rank": 13, "name": "Babbel"},
+    {"rank": 14, "name": "Rosetta Stone"},
+    {"rank": 15, "name": "Talkpal"},
+    {"rank": 16, "name": "Loora"},
+    {"rank": 17, "name": "MakesYouFluent"},
+    {"rank": 18, "name": "Memrise"},
+    {"rank": 19, "name": "Busuu"},
+     {"rank": 20, "name": "Writely AI"}
+  ],
+  "criteria": [
+    {
+      "name": "Personalized Learning",
+      "description": "Adapts to the individual student's pace and learning style using AI algorithms.",
+      "type": "Boolean[1]",
+      "sources": "Multiple sources"
+    },
+    {
+      "name": "AI-Powered Tutoring",
+      "description": "Offers AI-driven support and feedback to students, mimicking a human tutor.",
+      "type": "Boolean[1]",
+      "sources": "Multiple sources"
+    },
+    {
+      "name": "Writing Assistance",
+      "description": "Provides AI assistance for writing, including grammar checks, style suggestions, and content generation.",
+      "type": "Boolean[1]",
+      "sources": "Multiple sources"
+    },
+    {
+      "name": "Language Learning",
+      "description": "Uses AI to facilitate language acquisition through interactive lessons and personalized feedback.",
+      "type": "Boolean[1]",
+      "sources": "Multiple sources"
+    },
+    {
+      "name": "Real-time Feedback",
+      "description": "Delivers immediate assessment and guidance to students, enhancing their learning experience.",
+      "type": "Boolean[1]",
+      "sources": "Multiple sources"
+    },
+        {
+      "name": "Content Generation",
+      "description": "The app can generate practice questions, flashcards, and study guides using AI.",
+      "type": "Boolean[1]",
+      "sources": "Multiple sources"
+    }
+  ]
+}

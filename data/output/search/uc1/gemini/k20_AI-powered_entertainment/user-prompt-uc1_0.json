@@ -1,56 +1,56 @@
 {
   "apps": [
-    {"rank": 1, "name": "ChatGPT"},
-    {"rank": 2, "name": "Nova"},
-    {"rank": 3, "name": "Character AI"},
-    {"rank": 4, "name": "Google Gemini"},
-    {"rank": 5, "name": "Famefy"},
-    {"rank": 6, "name": "Talkie AI"},
-    {"rank": 7, "name": "Mubert"},
-    {"rank": 8, "name": "DALL-E 2"},
-    {"rank": 9, "name": "Replika"},
-    {"rank": 10, "name": "Luminar Neo"},
-    {"rank": 11, "name": "YouCam Makeup"},
-    {"rank": 12, "name": "Beatoven"},
-    {"rank": 13, "name": "Sora"},
-    {"rank": 14, "name": "ElevenLabs"},
-    {"rank": 15, "name": "FireCut"},
-    {"rank": 16, "name": "Luma AI"},
-    {"rank": 17, "name": "Groovifi"},
-    {"rank": 18, "name": "Vmake"},
-    {"rank": 19, "name": "StarryAI"},
-    {"rank": 20, "name": "Joyland.AI"}
+    {"rank": 1, "name": "Netflix"},
+    {"rank": 2, "name": "AI Dungeon"},
+    {"rank": 3, "name": "Replika"},
+    {"rank": 4, "name": "Talkie AI"},
+    {"rank": 5, "name": "Nova"},
+    {"rank": 6, "name": "My Muse"},
+    {"rank": 7, "name": "ReelShort"},
+    {"rank": 8, "name": "Lumen5"},
+    {"rank": 9, "name": "Sora"},
+    {"rank": 10, "name": "Runway"},
+    {"rank": 11, "name": "Descript"},
+    {"rank": 12, "name": "Wondershare Filmora"},
+    {"rank": 13, "name": "Synthesia"},
+    {"rank": 14, "name": "Vyond"},
+    {"rank": 15, "name": "Facetune"},
+    {"rank": 16, "name": "Candy AI"},
+    {"rank": 17, "name": "CrushOn.AI"},
+    {"rank": 18, "name": "Joi AI"},
+    {"rank": 19, "name": "Nextpart AI"},
+    {"rank": 20, "name": "Cotinga AI"}
   ],
   "criteria": [
     {
-      "name": "User Ratings",
-      "description": "Average rating given by users in app stores (e.g., Google Play Store, Apple App Store).",
-      "type": "Float [1]",
-      "sources": "Google Play Store, Apple App Store"
+      "name": "Personalized Content Recommendation",
+      "description": "The app's ability to provide entertainment content recommendations tailored to individual user preferences using AI algorithms. The better the AI can learn user tastes, the higher the ranking.",
+      "type": "Text[*]",
+      "sources": "Multiple sources; primarily app descriptions and reviews"
     },
     {
-      "name": "Number of Downloads",
-      "description": "The total number of times the app has been downloaded.",
-      "type": "Integer [1]",
-      "sources": "App Store analytics platforms"
+      "name": "AI-Powered Content Generation",
+      "description": "The extent to which the app utilizes AI to generate original entertainment content, such as stories, music, or videos. This includes apps that generate text adventures, AI companions, or edit videos using AI.",
+      "type": "Boolean[1]",
+      "sources": "Multiple sources; primarily app descriptions and reviews"
     },
     {
-      "name": "AI Implementation Quality",
-      "description": "Subjective assessment of how well AI is integrated and used within the app to enhance the user experience.",
-      "type": "Text [1]",
-      "sources": "User reviews, expert reviews, app descriptions"
+      "name": "User Interactivity and Engagement",
+      "description": "The level of interactivity the app offers and how well it keeps users engaged through AI-driven features, such as interactive narratives, virtual companions, or AI-enhanced content creation tools.",
+      "type": "Integer[1]",
+      "sources": "App store reviews and descriptions"
     },
     {
-      "name": "Uniqueness of Entertainment",
-      "description": "The degree to which the app offers novel or distinct entertainment experiences compared to other apps.",
-      "type": "Text [1]",
-      "sources": "App descriptions, expert reviews"
+      "name": "Content Variety and Freshness",
+      "description": "The diversity of entertainment content offered and how frequently the app updates its content library with new AI-generated or AI-curated material.",
+      "type": "Text[*]",
+      "sources": "App store descriptions and user reviews"
     },
     {
-      "name": "User Reviews Sentiment",
-      "description": "Analysis of user reviews to determine the overall sentiment (positive, negative, neutral) regarding the app's entertainment value and AI features.",
-      "type": "Text [1]",
-      "sources": "Google Play Store, Apple App Store"
+      "name": "Creative Expression and Customization",
+      "description": "The ability for users to express their creativity and customize their entertainment experiences through AI tools, such as creating AI personas, generating unique images, or personalizing virtual companions.",
+      "type": "Boolean[1]",
+      "sources": "App descriptions and user reviews"
     }
   ]
 }

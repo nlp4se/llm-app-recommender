@@ -1,105 +1,57 @@
 
 {
   "apps": [
-    {"rank": 1, "name": "Mint"},
-    {"rank": 2, "name": "Cleo"},
-    {"rank": 3, "name": "Betterment"},
-    {"rank": 4, "name": "YNAB (You Need A Budget)"},
-    {"rank": 5, "name": "Acorns"},
-    {"rank": 6, "name": "Plum"},
-    {"rank": 7, "name": "Origin"},
-    {"rank": 8, "name": "Magnifi"},
-    {"rank": 9, "name": "Personal Capital"},
-    {"rank": 10, "name": "Trim"},
-    {"rank": 11, "name": "Monarch Money"},
-    {"rank": 12, "name": "PocketGuard"},
-    {"rank": 13, "name": "RockFlow"},
-    {"rank": 14, "name": "eToro"},
-    {"rank": 15, "name": "TrendSpider"},
-    {"rank": 16, "name": "FINQ AI"},
-    {"rank": 17, "name": "Incite AI"},
-    {"rank": 18, "name": "Vena Copilot"},
-    {"rank": 19, "name": "Planful Predict"},
-    {"rank": 20, "name": "Stampli AI Copilot"}
+    {"rank": 1, "name": "RockFlow"},
+    {"rank": 2, "name": "Betterment"},
+    {"rank": 3, "name": "Acorns"},
+    {"rank": 4, "name": "eToro"},
+    {"rank": 5, "name": "Plum"},
+    {"rank": 6, "name": "Mint"},
+    {"rank": 7, "name": "Cleo"},
+    {"rank": 8, "name": "Trim"},
+    {"rank": 9, "name": "Albert"},
+    {"rank": 10, "name": "PocketGuard"},
+    {"rank": 11, "name": "Magnifi"},
+    {"rank": 12, "name": "AInvest"},
+    {"rank": 13, "name": "Kavout"},
+    {"rank": 14, "name": "Incite AI"},
+    {"rank": 15, "name": "Vena Copilot"},
+    {"rank": 16, "name": "Stampli AI Copilot"},
+    {"rank": 17, "name": "Planful Predict"},
+    {"rank": 18, "name": "Arya.ai"},
+    {"rank": 19, "name": "AlphaSense"},
+    {"rank": 20, "name": "Spindle AI"}
   ],
   "criteria": [
     {
-      "name": "AI-Powered Budgeting/Expense Tracking",
-      "description": "Apps that utilize AI to automatically categorize transactions, track spending habits, and provide insights for better budget allocation.",
+      "name": "AI-Powered Personalization",
+      "description": "The app utilizes AI algorithms to provide personalized financial advice, insights, and recommendations tailored to individual user profiles and financial goals.",
       "type": "Boolean[1]",
-      "sources": "Forbes, AI IXX, DX Talks, Landmark National Bank, Digicrusader"
+      "sources": "Multiple sources"
     },
     {
-      "name": "Personalized Financial Advice/Recommendations",
-      "description": "Apps that leverage AI to offer tailored advice, budgeting tips, and recommendations based on individual financial behaviors and goals.",
-      "type": "Text[*]",
-      "sources": "Forbes, DX Talks, Landmark National Bank, Digicrusader"
-    },
-    {
-      "name": "AI-Driven Investment Management",
-      "description": "Apps that use AI algorithms to automate investment strategies, provide portfolio management, and offer insights on market trends and investment opportunities.",
+      "name": "Automated Savings/Investment",
+      "description": "The app automates savings or investment processes using AI, such as rounding up transactions, optimizing portfolios, or rebalancing assets.",
       "type": "Boolean[1]",
-      "sources": "Forbes, RockFlow, WallStreetZen, Landmark National Bank, Magnifi, Incite AI"
+      "sources": "Multiple sources"
     },
     {
-      "name": "Bill Negotiation/Subscription Management",
-      "description": "Apps that employ AI to identify potential savings by negotiating bills and managing subscriptions to reduce recurring expenses.",
+      "name": "Expense Tracking and Budgeting",
+      "description": "The app uses AI to automatically track expenses, categorize transactions, and provide smart budgeting suggestions to help users manage their spending.",
       "type": "Boolean[1]",
-      "sources": "Forbes, Digicrusader"
+      "sources": "Multiple sources"
     },
     {
-      "name": "Goal Setting/Tracking",
-      "description": "Apps that allow users to set financial goals (e.g., saving for emergencies, paying off debt) and provide visual progress indicators and AI-driven insights to stay motivated.",
-      "type": "Text[*]",
-      "sources": "AI IXX"
-    },
-    {
-      "name": "AI-Powered Chatbot Assistance",
-      "description": "Apps that feature AI-powered chatbots to assist users with budgeting, expense tracking, and savings through conversational interfaces.",
+      "name": "Financial Forecasting and Analysis",
+      "description": "The app employs AI to forecast financial trends, analyze market behavior, and provide users with data-driven insights for better decision-making.",
       "type": "Boolean[1]",
-      "sources": "AI IXX, Forbes, Landmark National Bank, Digicrusader"
+      "sources": "Multiple sources"
     },
     {
-      "name": "Comprehensive Financial Planning",
-      "description": "Apps that combine budgeting, financial planning, and investment tracking into one platform, providing a detailed analysis of users' financial health.",
+      "name": "Risk Management",
+      "description": "The app incorporates AI-powered tools to help users assess and manage financial risks, ensuring compliance and mitigating potential losses.",
       "type": "Boolean[1]",
-      "sources": "AI IXX"
-    },
-    {
-      "name": "AI for Credit Scoring/Loans",
-      "description": "Apps using AI for credit scoring to provide loans and financial services",
-      "type": "Boolean[1]",
-      "sources": "DX Talks"
-    },
-    {
-      "name": "AI-Powered Financial Analytics",
-      "description": "Apps using AI to provide financial analytics and data visualization",
-      "type": "Boolean[1]",
-      "sources": "DX Talks, Osfin"
-    },
-    {
-      "name": "AI for Cybersecurity in Finance",
-      "description": "Apps using AI for cybersecurity and fraud detection",
-      "type": "Boolean[1]",
-      "sources": "DX Talks, Landmark National Bank"
-    },
-    {
-      "name": "AI for Automating Accounting Workflows",
-      "description": "AI-powered platforms that streamline finance and accounting workflows with intelligent automation, such as financial reconciliations.",
-      "type": "Boolean[1]",
-      "sources": "Osfin"
-    },
-    {
-      "name": "AI for Financial Planning and Analysis (FP&A)",
-      "description": "Tools designed to help teams make sense of data for informed financial decisions, integrating with tools like Microsoft Excel and Power BI.",
-      "type": "Boolean[1]",
-      "sources": "Osfin, Vena Solutions"
-    },
-    {
-      "name": "AI for Anomaly Detection",
-      "description": "AI-powered anomaly detection that continuously monitors data to highlight risks, errors, or unexpected activity across forecasts, budgets, and performance reports.",
-      "type": "Boolean[1]",
-      "sources": "Vena Solutions"
+      "sources": "Multiple sources"
     }
   ]
 }

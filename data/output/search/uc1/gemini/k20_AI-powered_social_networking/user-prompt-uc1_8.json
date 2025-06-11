@@ -1,0 +1,146 @@
+{
+  "apps": [
+    {
+      "rank": 1,
+      "name": "App A"
+    },
+    {
+      "rank": 2,
+      "name": "App B"
+    },
+    {
+      "rank": 3,
+      "name": "App C"
+    },
+    {
+      "rank": 4,
+      "name": "App D"
+    },
+    {
+      "rank": 5,
+      "name": "App E"
+    },
+    {
+      "rank": 6,
+      "name": "App F"
+    },
+    {
+      "rank": 7,
+      "name": "App G"
+    },
+    {
+      "rank": 8,
+      "name": "App H"
+    },
+    {
+      "rank": 9,
+      "name": "App I"
+    },
+    {
+      "rank": 10,
+      "name": "App J"
+    },
+    {
+      "rank": 11,
+      "name": "App K"
+    },
+    {
+      "rank": 12,
+      "name": "App L"
+    },
+    {
+      "rank": 13,
+      "name": "App M"
+    },
+    {
+      "rank": 14,
+      "name": "App N"
+    },
+    {
+      "rank": 15,
+      "name": "App O"
+    },
+    {
+      "rank": 16,
+      "name": "App P"
+    },
+    {
+      "rank": 17,
+      "name": "App Q"
+    },
+    {
+      "rank": 18,
+      "name": "App R"
+    },
+    {
+      "rank": 19,
+      "name": "App S"
+    },
+    {
+      "rank": 20,
+      "name": "App T"
+    }
+  ],
+  "criteria": [
+    {
+      "name": "AI-Powered Features",
+      "description": "The number and sophistication of AI-driven features such as content recommendation, smart search, personalized user experience, and moderation.",
+      "type": "Integer[1]",
+      "sources": "App Store descriptions, user reviews, tech reviews, developer documentation"
+    },
+    {
+      "name": "User Rating",
+      "description": "Average user rating on app stores (e.g., Apple App Store, Google Play Store).",
+      "type": "Float[1]",
+      "sources": "Apple App Store, Google Play Store"
+    },
+    {
+      "name": "Number of Downloads/Installs",
+      "description": "The total number of times the app has been downloaded or installed.",
+      "type": "Integer[1]",
+      "sources": "App Store data, third-party app analytics platforms"
+    },
+    {
+      "name": "User Engagement",
+      "description": "Metrics indicating how actively users engage with the app (e.g., daily active users, session length).",
+      "type": "Integer[*]",
+      "sources": "App analytics platforms (e.g., Firebase, Amplitude), developer reports"
+    },
+    {
+      "name": "Privacy Features",
+      "description": "Quality of privacy controls and data protection measures.",
+      "type": "Text[1]",
+      "sources": "App privacy policy, security audits, user reviews"
+    },
+    {
+      "name": "Content Moderation",
+      "description": "Effectiveness of AI in moderating content and preventing harmful content.",
+      "type": "Text[1]",
+      "sources": "User reviews, app guidelines, reports on content moderation effectiveness"
+    },
+    {
+      "name": "Personalization",
+      "description": "Level of personalization offered to users through AI algorithms.",
+      "type": "Text[1]",
+      "sources": "User reviews, app features, developer descriptions"
+    },
+    {
+      "name": "Recommendation Accuracy",
+      "description": "Accuracy and relevance of AI-driven recommendations.",
+      "type": "Float[1]",
+      "sources": "User reviews, A/B testing results, internal metrics"
+    },
+    {
+      "name": "Scalability",
+      "description": "The ability of the app to handle a growing number of users and data.",
+      "type": "Boolean[1]",
+      "sources": "Developer statements, infrastructure details, performance reports"
+    },
+    {
+      "name": "Innovation",
+      "description": "How innovative and unique the AI-powered features are compared to competitors.",
+      "type": "Text[1]",
+      "sources": "Tech reviews, industry analysis, patent filings"
+    }
+  ]
+}

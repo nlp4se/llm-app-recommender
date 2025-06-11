@@ -1,0 +1,75 @@
+
+{
+  "apps": [
+    {"rank": 1, "name": "Spotify"},
+    {"rank": 2, "name": "Apple Music"},
+    {"rank": 3, "name": "YouTube Music"},
+    {"rank": 4, "name": "Amazon Music"},
+    {"rank": 5, "name": "Deezer"},
+    {"rank": 6, "name": "Tidal"},
+    {"rank": 7, "name": "Pandora"},
+    {"rank": 8, "name": "SoundCloud"},
+    {"rank": 9, "name": "iHeartRadio"},
+    {"rank": 10, "name": "Napster"},
+    {"rank": 11, "name": "Audiomack"},
+    {"rank": 12, "name": "Yandex.Music"},
+    {"rank": 13, "name": "Gaana"},
+    {"rank": 14, "name": "JioSaavn"},
+    {"rank": 15, "name": "Anghami"},
+    {"rank": 16, "name": "Melon"},
+    {"rank": 17, "name": "KKBox"},
+    {"rank": 18, "name": "QQ Music"},
+    {"rank": 19, "name": "NetEase Cloud Music"},
+    {"rank": 20, "name": "Yonder Music"}
+  ],
+  "criteria": [
+    {
+      "name": "User Base",
+      "description": "The total number of active users on the platform.",
+      "type": "Integer[1]",
+      "sources": "App Annie, Sensor Tower, SimilarWeb"
+    },
+    {
+      "name": "Music Library Size",
+      "description": "The total number of songs available in the app's library.",
+      "type": "Integer[1]",
+      "sources": "Official app websites, tech reviews"
+    },
+    {
+      "name": "AI Features",
+      "description": "The presence and sophistication of AI-powered features such as personalized recommendations, voice assistants, and automated playlists.",
+      "type": "Text[1]",
+      "sources": "Official app descriptions, tech blogs, user reviews"
+    },
+    {
+      "name": "User Interface and Experience",
+      "description": "The overall design, ease of use, and user satisfaction with the app's interface.",
+      "type": "Text[1]",
+      "sources": "User reviews, tech blogs, app store ratings"
+    },
+    {
+      "name": "Subscription Cost",
+      "description": "The cost of premium subscription plans, if applicable.",
+      "type": "Float[1]",
+      "sources": "Official app websites, tech reviews"
+    },
+    {
+      "name": "Platform Availability",
+      "description": "The number of platforms the app is available on (e.g., iOS, Android, Web, Desktop).",
+      "type": "Integer[1]",
+      "sources": "Official app websites, app store listings"
+    },
+    {
+      "name": "User Reviews and Ratings",
+      "description": "The average rating and number of reviews on app stores.",
+      "type": "Float[1], Integer[1]",
+      "sources": "App Store, Google Play Store"
+    },
+    {
+      "name": "Unique Features",
+      "description": "Any unique features that set the app apart from competitors, such as exclusive content, social features, or integration with other services.",
+      "type": "Text[1]",
+      "sources": "Official app descriptions, tech blogs, user reviews"
+    }
+  ]
+}

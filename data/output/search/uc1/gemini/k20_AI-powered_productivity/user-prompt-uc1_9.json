@@ -1,0 +1,87 @@
+
+{
+  "apps": [
+    {"rank": 1, "name": "ChatGPT"},
+    {"rank": 2, "name": "Notion AI"},
+    {"rank": 3, "name": "Jasper"},
+    {"rank": 4, "name": "Otter.ai"},
+    {"rank": 5, "name": "Reclaim AI"},
+    {"rank": 6, "name": "Motion"},
+    {"rank": 7, "name": "Claude"},
+    {"rank": 8, "name": "Midjourney"},
+    {"rank": 9, "name": "Canva"},
+    {"rank": 10, "name": "Gamma"},
+    {"rank": 11, "name": "Fireflies.ai"},
+    {"rank": 12, "name": "Humata"},
+    {"rank": 13, "name": "Recast"},
+    {"rank": 14, "name": "Arc Browser"},
+    {"rank": 15, "name": "Perplexity"},
+    {"rank": 16, "name": "Texts"},
+    {"rank": 17, "name": "Missive"},
+    {"rank": 18, "name": "Asana"},
+    {"rank": 19, "name": "Todoist AI Assistant"},
+    {"rank": 20, "name": "Buffer AI Assistant"}
+  ],
+  "criteria": [
+    {
+      "name": "Versatility",
+      "description": "The range of tasks the app can assist with, such as writing, coding, brainstorming, and summarization.",
+      "type": "Text[*]",
+      "sources": "Various sources"
+    },
+    {
+      "name": "Task Management",
+      "description": "Ability to manage tasks, break them down, and provide tips for completion.",
+      "type": "Text[*]",
+      "sources": "Source 1, Source 2"
+    },
+    {
+      "name": "Scheduling and Time Management",
+      "description": "Capabilities for scheduling tasks, blocking time for important activities, and optimizing calendars.",
+      "type": "Text[*]",
+      "sources": "Source 1, Source 2"
+    },
+    {
+      "name": "Content Creation",
+      "description": "Features for generating text, images, and other content types for marketing, social media, and other purposes.",
+      "type": "Text[*]",
+      "sources": "Source 3, Source 4"
+    },
+    {
+      "name": "Meeting Assistance",
+      "description": "Tools for transcribing meetings, summarizing key points, and automating note-taking.",
+      "type": "Text[*]",
+      "sources": "Source 4, Source 7"
+    },
+    {
+      "name": "Research and Information Retrieval",
+      "description": "Capabilities for searching the internet, summarizing documents, and providing citations.",
+      "type": "Text[*]",
+      "sources": "Source 2, Source 8"
+    },
+    {
+      "name": "Team Collaboration",
+      "description": "Features for team communication, project management, and collaborative document editing.",
+      "type": "Text[*]",
+      "sources": "Source 6, Source 8"
+    },
+    {
+      "name": "Automation",
+      "description": "Ability to automate repetitive tasks, connect to other apps, and create custom chatbots.",
+      "type": "Text[*]",
+      "sources": "Source 3, Source 6"
+    },
+        {
+      "name": "User Experience",
+      "description": "Ease of use, intuitive interface, and overall user satisfaction.",
+      "type": "Text[1]",
+      "sources": "Source 2"
+    },
+    {
+      "name": "Integration Capabilities",
+      "description": "Seamless integration with other productivity tools and platforms.",
+      "type": "Boolean[1]",
+      "sources": "Source 2"
+    }
+  ]
+}

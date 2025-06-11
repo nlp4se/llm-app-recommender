@@ -14,62 +14,74 @@
     {"rank": 11, "name": "Khan Academy"},
     {"rank": 12, "name": "BYJU'S"},
     {"rank": 13, "name": "Microsoft Math Solver"},
-    {"rank": 14, "name": "MyScript Calculator"},
-    {"rank": 15, "name": "Symbolab"},
-    {"rank": 16, "name": "WolframAlpha"},
-    {"rank": 17, "name": "Google Arts & Culture"},
-    {"rank": 18, "name": "TED"},
-    {"rank": 19, "name": "LinkedIn Learning"},
-    {"rank": 20, "name": "SoloLearn"}
+    {"rank": 14, "name": "Google Classroom"},
+    {"rank": 15, "name": "Remind"},
+    {"rank": 16, "name": "MyScript Calculator"},
+    {"rank": 17, "name": "SoloLearn"},
+    {"rank": 18, "name": "Tinycards by Duolingo"},
+    {"rank": 19, "name": "Yup Homework Help"},
+    {"rank": 20, "name": "WolframAlpha"}
   ],
   "criteria": [
     {
       "name": "User Ratings",
-      "description": "Average rating given by users on app stores.",
+      "description": "Average user ratings on major app stores like Google Play and Apple App Store.",
       "type": "Float [1]",
       "sources": "Google Play Store, Apple App Store"
     },
     {
       "name": "Number of Downloads",
-      "description": "Total number of times the app has been downloaded.",
+      "description": "Total number of downloads or installs from major app stores.",
       "type": "Integer [1]",
       "sources": "Google Play Store, Apple App Store, Sensor Tower"
     },
     {
       "name": "AI Integration",
-      "description": "Level and effectiveness of AI features within the app.",
+      "description": "Level and effectiveness of AI integration in the app's core features.",
       "type": "Text [1]",
-      "sources": "App descriptions, user reviews, expert analysis"
+      "sources": "App descriptions, user reviews, tech blogs"
     },
     {
       "name": "Educational Content Quality",
-      "description": "Quality and relevance of the educational material provided.",
+      "description": "Quality and breadth of the educational content provided by the app.",
       "type": "Text [1]",
-      "sources": "User reviews, educational reviews, expert analysis"
+      "sources": "Expert reviews, user feedback, educational blogs"
     },
     {
       "name": "User Interface and Experience",
-      "description": "Ease of use and overall user experience.",
+      "description": "Ease of use, navigation, and overall user experience.",
       "type": "Text [1]",
-      "sources": "User reviews, app descriptions, expert analysis"
+      "sources": "User reviews, design awards, tech reviews"
     },
     {
       "name": "Accessibility",
-      "description": "Availability and performance across different platforms and devices.",
+      "description": "Availability and functionality across different platforms and devices.",
       "type": "Text [1]",
-      "sources": "App descriptions, user reviews, expert analysis"
+      "sources": "App store listings, developer websites"
     },
     {
       "name": "Innovation",
-      "description": "Unique features and innovations brought by the app.",
+      "description": "Unique features and innovative approaches to education.",
       "type": "Text [1]",
-      "sources": "App descriptions, user reviews, expert analysis"
+      "sources": "Tech blogs, app reviews, developer updates"
     },
     {
-      "name": "Update Frequency",
-      "description": "How often the app is updated with new features and bug fixes.",
+      "name": "User Engagement",
+      "description": "Level of user engagement and retention rates.",
+      "type": "Float [1]",
+      "sources": "App analytics platforms, user reviews"
+    },
+    {
+      "name": "Security and Privacy",
+      "description": "Measures taken to ensure user data security and privacy.",
       "type": "Text [1]",
-      "sources": "App store update history, developer blogs"
+      "sources": "Privacy policies, security audits, user reviews"
+    },
+    {
+      "name": "Customer Support",
+      "description": "Quality and responsiveness of customer support.",
+      "type": "Text [1]",
+      "sources": "User reviews, support forums, developer websites"
     }
   ]
 }

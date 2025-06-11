@@ -1,75 +1,69 @@
 
 {
   "apps": [
-    {"rank": 1, "name": "Shop.app"},
-    {"rank": 2, "name": "Buysmart.ai"},
-    {"rank": 3, "name": "Claros"},
-    {"rank": 4, "name": "ShopGuru"},
-    {"rank": 5, "name": "Rufus (Amazon's AI shopping assistant)"},
-    {"rank": 6, "name": "Google Shopping"},
-    {"rank": 7, "name": "Macy's"},
-    {"rank": 8, "name": "Amazon Alexa"},
-    {"rank": 9, "name": "Tidio AI"},
-    {"rank": 10, "name": "Infichat"},
-    {"rank": 11, "name": "shopdev Shopping Assistant"},
-    {"rank": 12, "name": "Giosg"},
-    {"rank": 13, "name": "Glance AI"},
-    {"rank": 14, "name": "Vetted AI Smart Shopping Agent"},
-    {"rank": 15, "name": "Flash.co"},
-    {"rank": 16, "name": "Temu"},
-    {"rank": 17, "name": "Shein"},
-    {"rank": 18, "name": "Lyro AI Chatbot"},
-    {"rank": 19, "name": "Nosto"},
-    {"rank": 20, "name": "Octane AI"}
+    {"rank": 1, "name": "Acloset – AI Fashion Assistant"},
+    {"rank": 2, "name": "shopdev Shopping Assistant"},
+    {"rank": 3, "name": "Rufus (Amazon's AI shopping assistant)"},
+    {"rank": 4, "name": "Lyro AI Chatbot"},
+    {"rank": 5, "name": "Nosto"},
+    {"rank": 6, "name": "Klaviyo AI"},
+    {"rank": 7, "name": "Salesforce Einstein"},
+    {"rank": 8, "name": "Sephora's Virtual Artist"},
+    {"rank": 9, "name": "Neiman Marcus's Snap. Find. Shop."},
+    {"rank": 10, "name": "Conversica"},
+    {"rank": 11, "name": "GoFind.ai"},
+    {"rank": 12, "name": "ShopAdvisor"},
+    {"rank": 13, "name": "Lyst"},
+    {"rank": 14, "name": "Bold Brain"},
+    {"rank": 15, "name": "LimeSpot"},
+    {"rank": 16, "name": "Intellisence.io"},
+    {"rank": 17, "name": "ModeMagic"},
+    {"rank": 18, "name": "Shop.app"},
+    {"rank": 19, "name": "Buysmart.ai"},
+    {"rank": 20, "name": "ShopGuru"}
   ],
   "criteria": [
     {
       "name": "Personalized Recommendations",
-      "description": "The app uses AI to provide product suggestions tailored to the user's preferences and past behavior.",
+      "description": "The app provides tailored product suggestions based on user preferences, browsing history, and shopping behavior.",
       "type": "Text[*]",
-      "sources": "shopdev, Nosto, Octane AI, Bold Brain"
+      "sources": "Multiple sources"
     },
     {
-      "name": "AI-Powered Chatbots/Assistants",
-      "description": "The app incorporates AI chatbots to assist customers with product searches, answer questions, and provide support.",
-      "type": "Boolean[1]",
-      "sources": "Tidio AI, Infichat, shopdev, Lyro AI Chatbot"
+      "name": "AI-Powered Search",
+      "description": "The app uses AI to understand natural language queries and provide relevant search results, including visual search capabilities.",
+      "type": "Text",
+      "sources": "Multiple sources"
     },
     {
-      "name": "Visual Search",
-      "description": "The app allows users to search for products using images, either taken with their camera or uploaded from their device.",
-      "type": "Media[1]",
-      "sources": "Google Shopping, GoFind.ai, Neiman Marcus's Snap. Find. Shop."
+      "name": "Virtual Try-On",
+      "description": "The app offers virtual try-on features using augmented reality (AR) or AI to visualize how clothing or beauty products look on the user.",
+      "type": "Media",
+      "sources": "Multiple sources"
     },
     {
-      "name": "Price Comparison",
-      "description": "The app compares prices from different retailers to help users find the best deals.",
-      "type": "Float[*]",
-      "sources": "Vetted AI Smart Shopping Agent"
+      "name": "AI Chatbots",
+      "description": "The app incorporates AI-driven chatbots for customer support, personalized shopping assistance, and answering product-related questions.",
+      "type": "Text",
+      "sources": "Multiple sources"
     },
     {
-      "name": "Style Recommendations",
-      "description": "The app provides style recommendations based on user preferences and AI-generated looks.",
+      "name": "Outfit Recommendations",
+      "description": "The app suggests complete outfit ideas based on the user's wardrobe, style preferences, and current trends, often considering weather conditions.",
+      "type": "Media[*]",
+      "sources": "Multiple sources"
+    },
+    {
+      "name": "Wardrobe Management",
+      "description": "The app helps users organize their digital closet by allowing them to upload clothing items, track purchase dates/costs, and get insights into their wardrobe usage.",
+      "type": "Media[*]",
+      "sources": "Multiple sources"
+    },
+    {
+      "name": "Competitor Analysis",
+      "description": "AI is used to analyze competitors by tracking keyword rankings, app store visuals, and user feedback.",
       "type": "Text[*]",
-      "sources": "Glance AI"
-    },
-    {
-      "name": "Seamless Integration",
-      "description": "The app seamlessly integrates with other platforms and tools, such as e-commerce platforms and marketing automation systems.",
-      "type": "Boolean[1]",
-      "sources": "Caper, Octane AI"
-    },
-    {
-      "name": "AI-driven personalization",
-      "description": "AI analyses customer data to create personalized marketing campaigns and shopping experiences.",
-      "type": "Boolean[1]",
-      "sources": "OptiMonk AI, Salesforce Einstein"
-    },
-     {
-      "name": "Customer support automation",
-      "description": "AI helps automate customer support through chatbots and other tools",
-      "type": "Boolean[1]",
-      "sources": "Chatfuel, Tidio"
+      "sources": "Source 15"
     }
   ]
 }

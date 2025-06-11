@@ -1,0 +1,58 @@
+
+{
+    "apps": [
+      {"rank": 1, "name": "Sprout Social"},
+      {"rank": 2, "name": "Buffer"},
+      {"rank": 3, "name": "Flick"},
+      {"rank": 4, "name": "Predis.ai"},
+      {"rank": 5, "name": "Publer"},
+      {"rank": 6, "name": "ContentStudio"},
+      {"rank": 7, "name": "Hootsuite"},
+      {"rank": 8, "name": "StoryChief"},
+      {"rank": 9, "name": "Kapwing"},
+      {"rank": 10, "name": "ExtendImage"},
+      {"rank": 11, "name": "Brandwatch"},
+      {"rank": 12, "name": "Dash Social (formerly Dash Hudson)"},
+      {"rank": 13, "name": "Brand24"},
+      {"rank": 14, "name": "VistaSocial"},
+      {"rank": 15, "name": "ChatGPT"},
+      {"rank": 16, "name": "Canva AI"},
+      {"rank": 17, "name": "Jasper AI"},
+      {"rank": 18, "name": "Pictory"},
+      {"rank": 19, "name": "Lumen5"},
+      {"rank": 20, "name": "Mee (SocialAI)"}
+    ],
+    "criteria": [
+      {
+        "name": "AI-Powered Content Creation",
+        "description": "Ability to generate engaging and relevant content, including text, images, and videos, using AI algorithms.",
+        "type": "Boolean[1]",
+        "sources": "Multiple sources [2, 4, 5, 9]"
+      },
+      {
+        "name": "Social Media Management",
+        "description": "Capabilities for scheduling posts, managing multiple accounts, and analyzing performance across various social media platforms.",
+        "type": "Boolean[1]",
+        "sources": "Multiple sources [1, 3, 4]"
+      },
+      {
+        "name": "AI-Driven Analytics and Insights",
+        "description": "Provides data-driven recommendations and insights using AI to optimize social media strategies and improve engagement.",
+        "type": "Boolean[1]",
+        "sources": "Multiple sources [3, 4]"
+      },
+      {
+        "name": "Automation of Tasks",
+        "description": "Automates repetitive tasks such as content posting, hashtag optimization, and responding to customer inquiries.",
+        "type": "Boolean[1]",
+        "sources": "Multiple sources [3, 4]"
+      },
+      {
+        "name": "Personalized User Experience",
+        "description": "Offers a tailored experience for users, including AI-driven conversations and content recommendations.",
+        "type": "Boolean[1]",
+        "sources": "Multiple sources [7, 8]"
+      }
+    ]
+  }
+  

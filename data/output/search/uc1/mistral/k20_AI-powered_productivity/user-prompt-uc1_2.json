@@ -2,86 +2,86 @@
 {
   "apps": [
     {"rank": 1, "name": "Notion"},
-    {"rank": 2, "name": "Evernote"},
-    {"rank": 3, "name": "Todoist"},
+    {"rank": 2, "name": "Todoist"},
+    {"rank": 3, "name": "Evernote"},
     {"rank": 4, "name": "Microsoft To Do"},
     {"rank": 5, "name": " Trello"},
     {"rank": 6, "name": "Asana"},
-    {"rank": 7, "name": "Google Keep"},
-    {"rank": 8, "name": "Any.do"},
+    {"rank": 7, "name": "Any.do"},
+    {"rank": 8, "name": "Google Keep"},
     {"rank": 9, "name": "ClickUp"},
-    {"rank": 10, "name": "Monday.com"},
-    {"rank": 11, "name": "Zapier"},
-    {"rank": 12, "name": "IFTTT"},
-    {"rank": 13, "name": "RescueTime"},
-    {"rank": 14, "name": "Forest"},
-    {"rank": 15, "name": "Focus@Will"},
-    {"rank": 16, "name": "Brain.fm"},
-    {"rank": 17, "name": "Noisli"},
-    {"rank": 18, "name": "Headspace"},
-    {"rank": 19, "name": "Calm"},
-    {"rank": 20, "name": "Otter.ai"}
+    {"rank": 10, "name": "monday.com"},
+    {"rank": 11, "name": "Wunderlist"},
+    {"rank": 12, "name": "Remember The Milk"},
+    {"rank": 13, "name": "OmniFocus"},
+    {"rank": 14, "name": "Things 3"},
+    {"rank": 15, "name": "Habitica"},
+    {"rank": 16, "name": "TickTick"},
+    {"rank": 17, "name": "Nozbe"},
+    {"rank": 18, "name": "Fantastical 2"},
+    {"rank": 19, "name": "2Do"},
+    {"rank": 20, "name": "Accompany"}
   ],
   "criteria": [
     {
       "name": "User Ratings",
-      "description": "Average user ratings on popular app stores like Google Play Store and Apple App Store.",
+      "description": "Average user ratings on various app stores and platforms.",
       "type": "Float [1]",
-      "sources": "Google Play Store, Apple App Store"
+      "sources": "Google Play Store, Apple App Store, and other relevant platforms."
     },
     {
-      "name": "Number of Downloads",
-      "description": "Total number of downloads or installs from app stores.",
+      "name": "Downloads/Installs",
+      "description": "Total number of downloads or installs across all platforms.",
       "type": "Integer [1]",
-      "sources": "Google Play Store, Apple App Store, Sensor Tower"
+      "sources": "Google Play Store, Apple App Store, and other relevant platforms."
     },
     {
-      "name": "AI Integration",
-      "description": "Level and effectiveness of AI integration in the app's features.",
-      "type": "Text [1]",
-      "sources": "Expert reviews, app descriptions, developer websites"
-    },
-    {
-      "name": "User Interface and Experience",
-      "description": "Quality of the app's user interface and overall user experience.",
-      "type": "Text [1]",
-      "sources": "User reviews, expert reviews, design awards"
+      "name": "Active Users",
+      "description": "Number of active users on a monthly or daily basis.",
+      "type": "Integer [1]",
+      "sources": "App analytics platforms, company reports, and industry analyses."
     },
     {
       "name": "Feature Set",
-      "description": "Range and usefulness of the app's features and tools.",
-      "type": "Text [1]",
-      "sources": "App descriptions, user reviews, expert analyses"
+      "description": "Range and depth of features offered by the app, including AI capabilities.",
+      "type": "Text [*]",
+      "sources": "Official app descriptions, user reviews, and expert analyses."
     },
     {
-      "name": "Cross-Platform Availability",
-      "description": "Availability of the app across different platforms and devices.",
-      "type": "Text [1]",
-      "sources": "App descriptions, developer websites"
+      "name": "User Interface and Experience",
+      "description": "Quality and intuitiveness of the app's user interface and overall user experience.",
+      "type": "Text [*]",
+      "sources": "User reviews, expert analyses, and design awards."
     },
     {
-      "name": "Integration with Other Services",
-      "description": "Ability to integrate with other apps, services, and tools.",
-      "type": "Text [1]",
-      "sources": "App descriptions, user reviews, developer websites"
+      "name": "Innovation",
+      "description": "Degree of innovation and unique features brought by the app to the market.",
+      "type": "Text [*]",
+      "sources": "Industry analyses, tech blogs, and innovation awards."
     },
     {
-      "name": "Innovation and Uniqueness",
-      "description": "Degree of innovation and uniqueness in the app's approach to productivity.",
-      "type": "Text [1]",
-      "sources": "Expert reviews, app descriptions, industry awards"
+      "name": "Integration Capabilities",
+      "description": "Ability to integrate with other apps, services, and platforms.",
+      "type": "Text [*]",
+      "sources": "Official app descriptions, user reviews, and integration directories."
+    },
+    {
+      "name": "AI Functionality",
+      "description": "Effectiveness and variety of AI-powered features within the app.",
+      "type": "Text [*]",
+      "sources": "Official app descriptions, user reviews, and expert analyses."
     },
     {
       "name": "Accessibility",
-      "description": "App's accessibility features and compliance with accessibility standards.",
-      "type": "Text [1]",
-      "sources": "App descriptions, user reviews, accessibility reports"
+      "description": "Availability and performance of the app across different platforms and devices.",
+      "type": "Text [*]",
+      "sources": "Official app descriptions, user reviews, and compatibility tests."
     },
     {
-      "name": "Privacy and Security",
-      "description": "Effectiveness of the app's privacy and security measures.",
-      "type": "Text [1]",
-      "sources": "App descriptions, user reviews, security audits"
+      "name": "Security and Privacy",
+      "description": "Strength of security measures and privacy protections offered by the app.",
+      "type": "Text [*]",
+      "sources": "Official app descriptions, user reviews, and security audits."
     }
   ]
 }

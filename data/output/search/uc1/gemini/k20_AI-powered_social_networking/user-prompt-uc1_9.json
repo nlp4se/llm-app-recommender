@@ -1,0 +1,56 @@
+{
+  "apps": [
+    {"rank": 1, "name": "Sprout Social"},
+    {"rank": 2, "name": "Hootsuite"},
+    {"rank": 3, "name": "Buffer"},
+    {"rank": 4, "name": "FeedHive"},
+    {"rank": 5, "name": "Flick"},
+    {"rank": 6, "name": "Predis.ai"},
+    {"rank": 7, "name": "Publer"},
+    {"rank": 8, "name": "ContentStudio"},
+    {"rank": 9, "name": "StoryChief"},
+    {"rank": 10, "name": "Planable"},
+    {"rank": 11, "name": "SocialPilot"},
+    {"rank": 12, "name": "Brandwatch"},
+    {"rank": 13, "name": "Dash Social"},
+    {"rank": 14, "name": "VistaSocial"},
+    {"rank": 15, "name": "Ocoya"},
+    {"rank": 16, "name": "Chatfuel"},
+    {"rank": 17, "name": "Canva"},
+    {"rank": 18, "name": "Lumen5"},
+    {"rank": 19, "name": "VSCO"},
+     {"rank": 20, "name": "Pictory"}
+  ],
+  "criteria": [
+    {
+      "name": "AI-Powered Content Creation",
+      "description": "The app utilizes AI to assist users in generating content, including text, images, and videos. This can include features such as AI writing assistants, AI image generators, and AI video editing tools.",
+      "type": "Boolean[1]",
+      "sources": "Zapier, Sprout Social, SocialPilot, Ocoya, Sprinklr, YouTube, Piktochart"
+    },
+    {
+      "name": "AI-Driven Analytics and Insights",
+      "description": "The app employs AI to analyze user data, providing insights into user behavior, content performance, and trending topics. This includes features such as sentiment analysis, predictive analytics, and personalized recommendations.",
+      "type": "Boolean[1]",
+      "sources": "Sprout Social, SocialPilot, Sprinklr, YouTube"
+    },
+    {
+      "name": "Automation and Scheduling",
+      "description": "The app automates tasks such as post scheduling, content curation, and customer service. This includes features such as AI-powered chatbots, automated replies, and optimized posting times.",
+      "type": "Boolean[1]",
+      "sources": "Zapier, Sprout Social, SocialPilot, Ocoya, Sprinklr, YouTube"
+    },
+    {
+      "name": "Ease of Use",
+      "description": "The app is user-friendly and easy to navigate, with a clear and intuitive interface.",
+      "type": "Text[1]",
+      "sources": "Zapier, SocialPilot"
+    },
+        {
+      "name": "Integration with Other Platforms",
+      "description": "The extent to which the app can be integrated with other social media platforms.",
+      "type": "Integer[1]",
+      "sources": "Zapier"
+    }
+  ]
+}

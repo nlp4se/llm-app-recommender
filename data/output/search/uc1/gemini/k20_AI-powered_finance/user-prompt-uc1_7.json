@@ -1,0 +1,68 @@
+{
+  "apps": [
+    {"rank": 1, "name": "Personal Capital"},
+    {"rank": 2, "name": "Mint"},
+    {"rank": 3, "name": "PocketGuard"},
+    {"rank": 4, "name": "YNAB (You Need A Budget)"},
+    {"rank": 5, "name": "Acorns"},
+    {"rank": 6, "name": "Stash"},
+    {"rank": 7, "name": "Robinhood"},
+    {"rank": 8, "name": "Wealthfront"},
+    {"rank": 9, "name": "Betterment"},
+    {"rank": 10, "name": "Ellevest"},
+    {"rank": 11, "name": "SigFig"},
+    {"rank": 12, "name": "SoFi"},
+    {"rank": 13, "name": "NerdWallet"},
+    {"rank": 14, "name": "Credit Karma"},
+    {"rank": 15, "name": "Albert"},
+    {"rank": 16, "name": "Cleo"},
+    {"rank": 17, "name": "Digit"},
+    {"rank": 18, "name": "Qapital"},
+    {"rank": 19, "name": "Chime"},
+    {"rank": 20, "name": "Simple"}
+  ],
+  "criteria": [
+    {
+      "name": "User Ratings",
+      "description": "Average rating given by users on app stores (e.g., Apple App Store, Google Play Store). Higher ratings indicate better user satisfaction.",
+      "type": "Float[1]",
+      "sources": "Apple App Store, Google Play Store"
+    },
+    {
+      "name": "Number of Downloads/Installs",
+      "description": "Total number of times the app has been downloaded or installed. Indicates popularity and reach.",
+      "type": "Integer[1]",
+      "sources": "Apple App Store, Google Play Store"
+    },
+    {
+      "name": "AI Features",
+      "description": "The breadth and depth of AI-powered features within the app, including personalized insights, automated savings, investment recommendations, and fraud detection.",
+      "type": "Text[*]",
+      "sources": "App description, user reviews, tech reviews, company website"
+    },
+    {
+      "name": "Security",
+      "description": "Security measures implemented by the app to protect user financial data, including encryption, two-factor authentication, and data privacy policies.",
+      "type": "Text[*]",
+      "sources": "App description, privacy policy, security audits"
+    },
+    {
+      "name": "Personalization",
+      "description": "The degree to which the app tailors its advice, recommendations, and features to the individual user's financial situation and goals.",
+      "type": "Text[*]",
+      "sources": "App description, user reviews, tech reviews"
+    },
+    {
+      "name": "Cost",
+      "description": "The pricing model of the app (free, subscription, transaction fees).",
+      "type": "Text[1]",
+      "sources": "App Store, Google Play Store, Company Website"
+    },
+    {
+      "name": "Range of Financial Services",
+      "description": "The variety of financial services offered by the app (e.g., budgeting, investment, banking).",
+      "type": "Text[*]",
+      "sources": "App Description, Company Website"
+    }
+  ]
+}

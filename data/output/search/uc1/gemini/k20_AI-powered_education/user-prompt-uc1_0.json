@@ -1,122 +1,57 @@
-Okay, I can recommend and rank 20 AI-powered education apps. To do this effectively, I need to define specific ranking criteria. Here's the JSON schema I'll use to present the information:
 
-```json
 {
   "apps": [
-    {"rank": 1, "name": "App A"},
-    {"rank": 2, "name": "App B"},
-    {"rank": 3, "name": "App C"},
-    {"rank": 4, "name": "App D"},
-    {"rank": 5, "name": "App E"},
-    {"rank": 6, "name": "App F"},
-    {"rank": 7, "name": "App G"},
-    {"rank": 8, "name": "App H"},
-    {"rank": 9, "name": "App I"},
-    {"rank": 10, "name": "App J"},
-    {"rank": 11, "name": "App K"},
-    {"rank": 12, "name": "App L"},
-    {"rank": 13, "name": "App M"},
-    {"rank": 14, "name": "App N"},
-    {"rank": 15, "name": "App O"},
-    {"rank": 16, "name": "App P"},
-    {"rank": 17, "name": "App Q"},
-    {"rank": 18, "name": "App R"},
-    {"rank": 19, "name": "App S"},
-    {"rank": 20, "name": "App T"}
+    {"rank": 1, "name": "Education Copilot"},
+    {"rank": 2, "name": "Gradescope"},
+    {"rank": 3, "name": "Grammarly"},
+    {"rank": 4, "name": "Quizizz"},
+    {"rank": 5, "name": "ChatGPT"},
+    {"rank": 6, "name": "Notion AI"},
+    {"rank": 7, "name": "QuillBot"},
+    {"rank": 8, "name": "Wolfram Alpha"},
+    {"rank": 9, "name": "Otter.ai"},
+    {"rank": 10, "name": "Elicit"},
+    {"rank": 11, "name": "Socratic by Google"},
+    {"rank": 12, "name": "Caktus AI"},
+    {"rank": 13, "name": "Todoist"},
+    {"rank": 14, "name": "Trello"},
+    {"rank": 15, "name": "Khan Academy"},
+    {"rank": 16, "name": "Coursera"},
+    {"rank": 17, "name": "Duolingo"},
+    {"rank": 18, "name": "Brilliant"},
+    {"rank": 19, "name": "Talkpal"},
+    {"rank": 20, "name": "Loora"}
   ],
   "criteria": [
     {
-      "name": "Personalization Capabilities",
-      "description": "The degree to which the app adapts to individual learning styles and paces using AI.",
-      "type": "Float [1]",
-      "sources": "App Store/Google Play descriptions, user reviews, expert reviews"
+      "name": "Personalization",
+      "description": "The extent to which the app adapts to individual learning styles and needs.",
+      "type": "Boolean[1]",
+      "sources": "Quora, Makesyoufluent.com"
     },
     {
-      "name": "AI-Driven Content Generation",
-      "description": "The ability of the app to create new learning materials, exercises, or assessments using AI.",
-      "type": "Boolean [1]",
-      "sources": "App features list, developer documentation"
+      "name": "Content Generation",
+      "description": "The app's ability to generate educational content such as quizzes, lesson plans, and summaries.",
+      "type": "Text[*]",
+      "sources": "Schools That Lead, Edutopia"
     },
     {
-      "name": "Intelligent Tutoring",
-      "description": "The presence and effectiveness of AI-powered tutoring features, including feedback and guidance.",
-      "type": "Float [1]",
-      "sources": "User reviews, expert testing, app descriptions"
-    },
-   {
-      "name": "User Rating",
-      "description": "Average rating given by users on app stores.",
-      "type": "Float [1]",
-      "sources": "Google Play Store, Apple App Store"
+      "name": "Writing Assistance",
+      "description": "Capabilities for grammar checking, vocabulary enhancement, and writing style improvement.",
+      "type": "Text[*]",
+      "sources": "SSBM Geneva"
     },
     {
-      "name": "Number of Downloads",
-      "description": "Total number of times the application has been downloaded.",
-      "type": "Integer [1]",
-      "sources": "Google Play Store, Apple App Store"
-    }
-  ]
-}
-```
-
-Now, let's populate the JSON with actual app names. I'll use general names for now, as I need to research specific apps and their ranking based on my criteria. I will perform a search for specific AI education apps that meet this criteria.
-
-Okay, after reviewing the search results, here's a revised JSON output with 20 AI-powered education apps, ranked based on the criteria I defined earlier. The ranking is based on a combination of factors mentioned in the search results, including personalization, AI-driven content generation, intelligent tutoring, user ratings, and number of downloads (where available). Note that some of these rankings are subjective and based on the overall impression from the search results.
-
-```json
-{
-  "apps": [
-    {"rank": 1, "name": "Duolingo"},
-    {"rank": 2, "name": "Khanmigo (Khan Academy)"},
-    {"rank": 3, "name": "Babbel"},
-    {"rank": 4, "name": "Loora AI"},
-    {"rank": 5, "name": "Quizizz"},
-    {"rank": 6, "name": "ChatGPT"},
-    {"rank": 7, "name": "Grammarly"},
-    {"rank": 8, "name": "Notion AI"},
-    {"rank": 9, "name": "Lingvist"},
-    {"rank": 10, "name": "Talkpal"},
-    {"rank": 11, "name": "Rosetta Stone"},
-    {"rank": 12, "name": "MakesYouFluent"},
-    {"rank": 13, "name": "Univerbal"},
-    {"rank": 14, "name": "The Drive AI"},
-    {"rank": 15, "name": "Quizlet"},
-    {"rank": 16, "name": "Eklavvya"},
-    {"rank": 17, "name": "Mindgrasp"},
-    {"rank": 18, "name": "Osmo"},
-    {"rank": 19, "name": "DreamBox Learning"},
-    {"rank": 20, "name": "Canva for Education"}
-  ],
-  "criteria": [
-    {
-      "name": "Personalization Capabilities",
-      "description": "The degree to which the app adapts to individual learning styles and paces using AI.",
-      "type": "Float [1]",
-      "sources": "App Store/Google Play descriptions, user reviews, expert reviews"
+      "name": "Efficiency",
+      "description": "How the app streamlines tasks like grading, research, and note-taking.",
+      "type": "Boolean[1]",
+      "sources": "Schools That Lead, SSBM Geneva, Edutopia"
     },
     {
-      "name": "AI-Driven Content Generation",
-      "description": "The ability of the app to create new learning materials, exercises, or assessments using AI.",
-      "type": "Boolean [1]",
-      "sources": "App features list, developer documentation"
-    },
-    {
-      "name": "Intelligent Tutoring",
-      "description": "The presence and effectiveness of AI-powered tutoring features, including feedback and guidance.",
-      "type": "Float [1]",
-      "sources": "User reviews, expert testing, app descriptions"
-    },
-   {
-      "name": "User Rating",
-      "description": "Average rating given by users on app stores.",
-      "type": "Float [1]",
-      "sources": "Google Play Store, Apple App Store"
-    },
-    {
-      "name": "Number of Downloads",
-      "description": "Total number of times the application has been downloaded.",
-      "type": "Integer [1]",
-      "sources": "Google Play Store, Apple App Store"
+      "name": "Interactivity",
+      "description": "Level of user engagement through interactive lessons and gamified elements.",
+      "type": "Boolean[1]",
+      "sources": "Schools That Lead, Quora, Makesyoufluent.com"
     }
   ]
 }

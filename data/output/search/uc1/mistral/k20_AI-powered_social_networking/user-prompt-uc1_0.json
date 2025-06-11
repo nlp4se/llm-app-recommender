@@ -2,56 +2,56 @@
 {
   "apps": [
     {"rank": 1, "name": "Replika"},
-    {"rank": 2, "name": "Meeff"},
-    {"rank": 3, "name": "Wink"},
-    {"rank": 4, "name": "Yubo"},
-    {"rank": 5, "name": "Ablo"},
-    {"rank": 6, "name": "Azar"},
-    {"rank": 7, "name": "Badoo"},
-    {"rank": 8, "name": "Bumble"},
-    {"rank": 9, "name": "Hinge"},
-    {"rank": 10, "name": "Hola"},
-    {"rank": 11, "name": "Holla"},
-    {"rank": 12, "name": "JAUMO"},
-    {"rank": 13, "name": "Lovoo"},
-    {"rank": 14, "name": "MeetMe"},
-    {"rank": 15, "name": "OkCupid"},
-    {"rank": 16, "name": "Paktor"},
-    {"rank": 17, "name": "Skout"},
-    {"rank": 18, "name": "Tagged"},
-    {"rank": 19, "name": "Tantan"},
-    {"rank": 20, "name": "The League"}
+    {"rank": 2, "name": "Wink"},
+    {"rank": 3, "name": "Molome"},
+    {"rank": 4, "name": "Hall"},
+    {"rank": 5, "name": "Yik Yak"},
+    {"rank": 6, "name": "Clubhouse"},
+    {"rank": 7, "name": "Peanut"},
+    {"rank": 8, "name": "Lunchclub"},
+    {"rank": 9, "name": "Bumble BFF"},
+    {"rank": 10, "name": "Hey!"},
+    {"rank": 11, "name": "Camsurf"},
+    {"rank": 12, "name": "Monkey"},
+    {"rank": 13, "name": "Ablo"},
+    {"rank": 14, "name": "F3"},
+    {"rank": 15, "name": "Friender"},
+    {"rank": 16, "name": "Patook"},
+    {"rank": 17, "name": "Atleto"},
+    {"rank": 18, "name": "Jodel"},
+    {"rank": 19, "name": "Anomo"},
+    {"rank": 20, "name": "Peach"}
   ],
   "criteria": [
     {
       "name": "User Engagement",
-      "description": "The level of user activity and interaction within the app, including metrics like daily active users (DAU), monthly active users (MAU), and session duration.",
-      "type": "Integer[1]",
-      "sources": "App Store and Google Play Store analytics, in-app analytics tools, and third-party market research reports."
+      "description": "The level of user interaction and activity within the app, measured by metrics such as daily active users, session length, and retention rates.",
+      "type": "Float [1]",
+      "sources": "App analytics platforms, user reviews, and app store metrics."
     },
     {
       "name": "AI Integration",
-      "description": "The extent and effectiveness of AI features such as chatbots, recommendation systems, and content moderation tools.",
-      "type": "Text[1]",
-      "sources": "App descriptions, user reviews, and technical analyses from app review websites and tech blogs."
+      "description": "The extent and effectiveness of AI features integrated into the app, such as chatbots, recommendation systems, and content moderation tools.",
+      "type": "Text [1]",
+      "sources": "App descriptions, user reviews, and tech blogs."
     },
     {
       "name": "User Reviews and Ratings",
-      "description": "The average rating and the number of reviews on app stores, reflecting user satisfaction and feedback.",
-      "type": "Float[1]",
-      "sources": "App Store and Google Play Store reviews and ratings."
-    },
-    {
-      "name": "Downloads and Installations",
-      "description": "The total number of app downloads and installations, indicating the app's popularity and reach.",
-      "type": "Integer[1]",
-      "sources": "App Store and Google Play Store download statistics, and third-party app market intelligence platforms."
+      "description": "The average rating and sentiment of user reviews on app stores, indicating user satisfaction and feedback.",
+      "type": "Float [1]",
+      "sources": "App store listings and review analysis tools."
     },
     {
       "name": "Innovation and Uniqueness",
-      "description": "The originality and uniqueness of the app's features and user experience, setting it apart from competitors.",
-      "type": "Text[1]",
-      "sources": "Expert reviews, tech blogs, and industry reports highlighting innovative features and technologies."
+      "description": "The originality and creativity of the app's features and user experience, setting it apart from competitors.",
+      "type": "Text [1]",
+      "sources": "Tech blogs, app descriptions, and expert reviews."
+    },
+    {
+      "name": "Privacy and Security",
+      "description": "The robustness of the app's privacy policies and security measures to protect user data and ensure safe interactions.",
+      "type": "Boolean [1]",
+      "sources": "App permissions, privacy policies, and security audit reports."
     }
   ]
 }

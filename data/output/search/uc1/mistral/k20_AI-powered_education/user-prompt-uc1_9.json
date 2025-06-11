@@ -1,0 +1,87 @@
+
+{
+  "apps": [
+    {"rank": 1, "name": "Duolingo"},
+    {"rank": 2, "name": "Quizlet"},
+    {"rank": 3, "name": "Photomath"},
+    {"rank": 4, "name": "Socratic by Google"},
+    {"rank": 5, "name": "Kahoot!"},
+    {"rank": 6, "name": "Brainly"},
+    {"rank": 7, "name": "Chegg Study"},
+    {"rank": 8, "name": "Khan Academy"},
+    {"rank": 9, "name": "Coursera"},
+    {"rank": 10, "name": "edX"},
+    {"rank": 11, "name": "Udemy"},
+    {"rank": 12, "name": "LinkedIn Learning"},
+    {"rank": 13, "name": "Museum of Science"},
+    {"rank": 14, "name": "SoloLearn"},
+    {"rank": 15, "name": "Memrise"},
+    {"rank": 16, "name": "Blinkist"},
+    {"rank": 17, "name": "Tinycards"},
+    {"rank": 18, "name": "Lingvist"},
+    {"rank": 19, "name": "Busuu"},
+    {"rank": 20, "name": "Yousician"}
+  ],
+  "criteria": [
+    {
+      "name": "User Ratings",
+      "description": "Average rating given by users on app stores.",
+      "type": "Float [1]",
+      "sources": "App Store, Google Play Store"
+    },
+    {
+      "name": "Number of Downloads",
+      "description": "Total number of times the app has been downloaded.",
+      "type": "Integer [1]",
+      "sources": "App Store, Google Play Store, Sensor Tower"
+    },
+    {
+      "name": "Engagement Metrics",
+      "description": "Metrics such as daily active users (DAU) and monthly active users (MAU).",
+      "type": "Integer [2]",
+      "sources": "App Annie, Sensor Tower"
+    },
+    {
+      "name": "Educational Content Quality",
+      "description": "Quality and variety of educational content offered by the app.",
+      "type": "Text [1]",
+      "sources": "Expert reviews, educational blogs, user feedback"
+    },
+    {
+      "name": "AI Integration",
+      "description": "Level and effectiveness of AI features integrated into the app.",
+      "type": "Text [1]",
+      "sources": "App descriptions, tech reviews, developer documentation"
+    },
+    {
+      "name": "User Interface and Experience",
+      "description": "Ease of use, design, and overall user experience.",
+      "type": "Text [1]",
+      "sources": "User reviews, design awards, UI/UX analysis"
+    },
+    {
+      "name": "Accessibility Features",
+      "description": "Features that make the app accessible to users with disabilities.",
+      "type": "Text [1]",
+      "sources": "App descriptions, accessibility reviews, developer notes"
+    },
+    {
+      "name": "In-App Purchases and Subscription Models",
+      "description": "Cost and value of in-app purchases and subscription plans.",
+      "type": "Text [1]",
+      "sources": "App Store, Google Play Store, user reviews"
+    },
+    {
+      "name": "Cross-Platform Availability",
+      "description": "Availability of the app on different platforms (iOS, Android, Web, etc.).",
+      "type": "Text [1]",
+      "sources": "App Store, Google Play Store, official app websites"
+    },
+    {
+      "name": "Update Frequency",
+      "description": "Frequency of app updates and improvements.",
+      "type": "Text [1]",
+      "sources": "App Store, Google Play Store, developer blogs"
+    }
+  ]
+}

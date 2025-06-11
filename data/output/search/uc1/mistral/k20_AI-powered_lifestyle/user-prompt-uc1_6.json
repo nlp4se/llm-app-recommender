@@ -1,0 +1,69 @@
+
+{
+  "apps": [
+    {"rank": 1, "name": "MyFitnessPal"},
+    {"rank": 2, "name": "Headspace"},
+    {"rank": 3, "name": "Sleep Cycle"},
+    {"rank": 4, "name": "Calm"},
+    {"rank": 5, "name": "Fitbit"},
+    {"rank": 6, "name": "Strava"},
+    {"rank": 7, "name": "Noom"},
+    {"rank": 8, "name": "Lifesum"},
+    {"rank": 9, "name": "Youper"},
+    {"rank": 10, "name": "Ada Health"},
+    {"rank": 11, "name": "Flo"},
+    {"rank": 12, "name": "Clue"},
+    {"rank": 13, "name": "Habitica"},
+    {"rank": 14, "name": "Plant Nanny"},
+    {"rank": 15, "name": "Forest"},
+    {"rank": 16, "name": "Moodpath"},
+    {"rank": 17, "name": "Daylio"},
+    {"rank": 18, "name": "Fabulous"},
+    {"rank": 19, "name": "Moment"},
+    {"rank": 20, "name": "Rescuetime"}
+  ],
+  "criteria": [
+    {
+      "name": "User Ratings",
+      "description": "Average rating given by users on app stores.",
+      "type": "Float [1]",
+      "sources": "App Store, Google Play Store"
+    },
+    {
+      "name": "Downloads",
+      "description": "Total number of times the app has been downloaded.",
+      "type": "Integer [1]",
+      "sources": "App Store, Google Play Store, Sensor Tower"
+    },
+    {
+      "name": "AI Integration",
+      "description": "Level and effectiveness of AI integration in the app's features.",
+      "type": "Text [1]",
+      "sources": "App descriptions, user reviews, tech blogs"
+    },
+    {
+      "name": "User Interface",
+      "description": "Ease of use and design quality of the app.",
+      "type": "Text [1]",
+      "sources": "User reviews, tech blogs, design awards"
+    },
+    {
+      "name": "Feature Set",
+      "description": "Range and usefulness of the app's features.",
+      "type": "Text [1]",
+      "sources": "App descriptions, user reviews, comparative analyses"
+    },
+    {
+      "name": "Privacy and Security",
+      "description": "Effectiveness of the app's privacy and security measures.",
+      "type": "Text [1]",
+      "sources": "App permissions, privacy policies, security audits"
+    },
+    {
+      "name": "Accessibility",
+      "description": "Availability and functionality of accessibility features.",
+      "type": "Text [1]",
+      "sources": "App descriptions, user reviews, accessibility audits"
+    }
+  ]
+}

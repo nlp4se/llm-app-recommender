@@ -1,0 +1,69 @@
+
+{
+  "apps": [
+    {"rank": 1, "name": "Microsoft Math Solver"},
+    {"rank": 2, "name": "Photomath"},
+    {"rank": 3, "name": "CamScanner"},
+    {"rank": 4, "name": "Socratic by Google"},
+    {"rank": 5, "name": "Replika"},
+    {"rank": 6, "name": "Wysa"},
+    {"rank": 7, "name": "Youper"},
+    {"rank": 8, "name": "Ada Health"},
+    {"rank": 9, "name": "MyStudyLife"},
+    {"rank": 10, "name": "SoloLearn"},
+    {"rank": 11, "name": "Moonly"},
+    {"rank": 12, "name": "Forest"},
+    {"rank": 13, "name": "Habitica"},
+    {"rank": 14, "name": "Trello"},
+    {"rank": 15, "name": "Any.do"},
+    {"rank": 16, "name": "Todoist"},
+    {"rank": 17, "name": "Microsoft To Do"},
+    {"rank": 18, "name": "Evernote"},
+    {"rank": 19, "name": "Notion"},
+    {"rank": 20, "name": "Google Keep"}
+  ],
+  "criteria": [
+    {
+      "name": "User Ratings",
+      "description": "Average rating given by users on app stores.",
+      "type": "Float [1]",
+      "sources": "Google Play Store, Apple App Store"
+    },
+    {
+      "name": "Downloads",
+      "description": "Total number of times the app has been downloaded.",
+      "type": "Integer [1]",
+      "sources": "Google Play Store, Apple App Store, Sensor Tower"
+    },
+    {
+      "name": "AI Integration",
+      "description": "Level and effectiveness of AI integration in the app's features.",
+      "type": "Text [1]",
+      "sources": "App descriptions, user reviews, tech blogs"
+    },
+    {
+      "name": "User Interface",
+      "description": "Ease of use and intuitiveness of the app's interface.",
+      "type": "Text [1]",
+      "sources": "User reviews, tech blogs, expert reviews"
+    },
+    {
+      "name": "Functionality",
+      "description": "Range and effectiveness of the app's features.",
+      "type": "Text [1]",
+      "sources": "App descriptions, user reviews, tech blogs"
+    },
+    {
+      "name": "Innovation",
+      "description": "Unique and innovative features offered by the app.",
+      "type": "Text [1]",
+      "sources": "Tech blogs, app descriptions, expert reviews"
+    },
+    {
+      "name": "Accessibility",
+      "description": "App's availability and performance across different platforms and devices.",
+      "type": "Text [1]",
+      "sources": "App descriptions, user reviews, tech blogs"
+    }
+  ]
+}

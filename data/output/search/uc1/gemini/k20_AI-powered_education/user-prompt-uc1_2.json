@@ -1,60 +1,57 @@
-Okay, I will provide a JSON output containing a ranking of 20 AI-powered education apps, along with the criteria used for ranking. First, I need to gather information on available apps and their features.
 
-```json
 {
   "apps": [
-    {"rank": 1, "name": "Duolingo"},
-    {"rank": 2, "name": "Talkpal"},
-    {"rank": 3, "name": "Loora"},
-    {"rank": 4, "name": "Quizizz"},
-    {"rank": 5, "name": "Education Copilot"},
-    {"rank": 6, "name": "Gradescope"},
-    {"rank": 7, "name": "Grammarly"},
-    {"rank": 8, "name": "Wolfram Alpha"},
-    {"rank": 9, "name": "Otter.ai"},
-    {"rank": 10, "name": "Elicit"},
-    {"rank": 11, "name": "Socratic by Google"},
-    {"rank": 12, "name": "Caktus AI"},
-    {"rank": 13, "name": "Canva Magic Write"},
-    {"rank": 14, "name": "Curipod"},
-    {"rank": 15, "name": "Eduaide.AI"},
-    {"rank": 16, "name": "Slidesgo"},
-    {"rank": 17, "name": "Babbel"},
-    {"rank": 18, "name": "Rosetta Stone"},
-    {"rank": 19, "name": "QuillBot"},
-    {"rank": 20, "name": "Univerbal"}
+    {"rank": 1, "name": "Quizlet"},
+    {"rank": 2, "name": "Gradescope"},
+    {"rank": 3, "name": "MagicSchool AI"},
+    {"rank": 4, "name": "ChatPDF"},
+    {"rank": 5, "name": "Lumen5"},
+    {"rank": 6, "name": "Squirrel AI"},
+    {"rank": 7, "name": "Owlfitt"},
+    {"rank": 8, "name": "EduGPT"},
+    {"rank": 9, "name": "Curipod"},
+    {"rank": 10, "name": "Eduaide"},
+    {"rank": 11, "name": "Almanack"},
+    {"rank": 12, "name": "Descript"},
+    {"rank": 13, "name": "Pictory"},
+    {"rank": 14, "name": "Humata AI"},
+    {"rank": 15, "name": "Bing Chat"},
+    {"rank": 16, "name": "Codio"},
+    {"rank": 17, "name": "Brightspace"},
+    {"rank": 18, "name": "Absorb Intelligence"},
+    {"rank": 19, "name": "Create AI"},
+    {"rank": 20, "name": "LearnWorlds"}
   ],
   "criteria": [
     {
       "name": "Personalized Learning",
-      "description": "The degree to which the app adapts to the individual learner's pace, skill level, and learning style using AI algorithms to provide customized content and feedback.",
+      "description": "The app uses AI to tailor the learning experience based on individual needs, preferences, and learning styles, providing custom content and learning paths.",
       "type": "Boolean[1]",
-      "sources": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AbF9wXGVnyVrfI2IjDZGHH0eOes8jsVXRyw51NqwpfA_s9WURFPBBNzRoOnicMRYMaDqkZkreO95LvDr-sg_WuJY98Jw9zWnNeWUm-6jokJOeyOv0OLHFouK66dKK3USaV07bUQK2S4hbX-B8RvQLcC3GbbRrqg=, https://vertexaisearch.cloud.google.com/grounding-api-redirect/AbF9wXGW6DNZqpClrtN9GXpegLwWvDQJViOnsQWEc_JogJfSLXdnGBKKLzvfHzXpI-eYq2DJJ-mUGOZOX-6OuDCL2pT8lr41FLQKxcRR3VfQSZ3L77cKquJhSUsjZPXGaDCTMhPWgZccVht-_ijtMqLJmsBJXp6suaVs1eBD3WSvUIuf8Hen5QdVWzT3fA=="
+      "sources": "learnWorlds, Owlfitt, Squirrel AI"
     },
     {
-      "name": "AI Tutoring & Assistance",
-      "description": "The availability and effectiveness of AI-powered tutors, chatbots, or virtual assistants within the app that provide real-time support, answer questions, and guide users through learning materials.",
+      "name": "Usability",
+      "description": "The app has a user-friendly interface and seamless integration with existing systems, making it easy for both teachers and students to use.",
       "type": "Boolean[1]",
-      "sources": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AbF9wXGVnyVrfI2IjDZGHH0eOes8jsVXRyw51NqwpfA_s9WURFPBBNzRoOnicMRYMaDqkZkreO95LvDr-sg_WuJY98Jw9zWnNeWUm-6jokJOeyOv0OLHFouK66dKK3USaV07bUQK2S4hbX-B8RvQLcC3GbbRrqg=, https://vertexaisearch.cloud.google.com/grounding-api-redirect/AbF9wXH9bHjsfm0nXd-zfobvgZPS5v8X8hkyBgjR9E-NNZm2nUemGqEXQjvIDaIzramO__YWXS3zxFYsUTRSu0gkCi0X54NUGYb2hIh2OAtGT8Z7kDrSOcGQwDqfaA7l4x8mmzy-YQKtgBMrVTO69DplOa47Eof2FWdJ-10EdSjkO9eiK9ilUu4teFLJTRB9jIGKFdM="
+      "sources": "Owlfitt"
     },
     {
-      "name": "Automated Assessment & Feedback",
-      "description": "The app's ability to automatically evaluate assignments, provide detailed feedback, and identify learning gaps using AI, saving time for educators and offering immediate insights for students.",
+      "name": "Impact on Learning Outcomes",
+      "description": "The app improves student performance, engagement, and overall learning experience, demonstrating measurable benefits in student learning.",
       "type": "Boolean[1]",
-      "sources": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AbF9wXGVnyVrfI2IjDZGHH0eOes8jsVXRyw51NqwpfA_s9WURFPBBNzRoOnicMRYMaDqkZkreO95LvDr-sg_WuJY98Jw9zWnNeWUm-6jokJOeyOv0OLHFouK66dKK3USaV07bUQK2S4hbX-B8RvQLcC3GbbRrqg=, https://vertexaisearch.cloud.google.com/grounding-api-redirect/AbF9wXGW6DNZqpClrtN9GXpegLwWvDQJViOnsQWEc_JogJfSLXdnGBKKLzvfHzXpI-eYq2DJJ-mUGOZOX-6OuDCL2pT8lr41FLQKxcRR3VfQSZ3L77cKquJhSUsjZPXGaDCTMhPWgZccVht-_ijtMqLJmsBJXp6suaVs1eBD3WSvUIuf8Hen5QdVWzT3fA=="
+      "sources": "Owlfitt"
     },
     {
-      "name": "Content Generation",
-      "description": "The use of AI to generate quizzes, summaries, lesson plans, or other educational content automatically, reducing workload and ensuring consistent quality.",
+      "name": "Efficiency",
+      "description": "The app automates tasks such as assessments, recommendations, and progress tracking, improving efficiency for educators and students.",
       "type": "Boolean[1]",
-      "sources": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AbF9wXGVnyVrfI2IjDZGHH0eOes8jsVXRyw51NqwpfA_s9WURFPBBNzRoOnicMRYMaDqkZkreO95LvDr-sg_WuJY98Jw9zWnNeWUm-6jokJOeyOv0OLHFouK66dKK3USaV07bUQK2S4hbX-B8RvQLcC3GbbRrqg=",
-      "type": "Boolean[1]"
+      "sources": "LearnWorlds, Gradescope"
     },
     {
-      "name": "Gamification",
-      "description": "The integration of game-like elements, such as points, badges, leaderboards, and virtual rewards, to increase user engagement and motivation.",
+      "name": "Innovation",
+      "description": "The app introduces new methods or concepts that improve educational experiences, offering unique features that set it apart from traditional methods.",
       "type": "Boolean[1]",
-      "sources": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AbF9wXGVnyVrfI2IjDZGHH0eOes8jsVXRyw51NqwpfA_s9WURFPBBNzRoOnicMRYMaDqkZkreO95LvDr-sg_WuJY98Jw9zWnNeWUm-6jokJOeyOv0OLHFouK66dKK3USaV07bUQK2S4hbX-B8RvQLcC3GbbRrqg=, https://vertexaisearch.cloud.google.com/grounding-api-redirect/AbF9wXGW6DNZqpClrtN9GXpegLwWvDQJViOnsQWEc_JogJfSLXdnGBKKLzvfHzXpI-eYq2DJJ-mUGOZOX-6OuDCL2pT8lr41FLQKxcRR3VfQSZ3L77cKquJhSUsjZPXGaDCTMhPWgZccVht-_ijtMqLJmsBJXp6suaVs1eBD3WSvUIuf8Hen5QdVWzT3fA=="
+      "sources": "Owlfitt"
     }
   ]
 }

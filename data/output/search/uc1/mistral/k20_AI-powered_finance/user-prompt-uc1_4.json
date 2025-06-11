@@ -4,23 +4,23 @@
     {"rank": 1, "name": "Mint"},
     {"rank": 2, "name": "Personal Capital"},
     {"rank": 3, "name": "You Need A Budget (YNAB)"},
-    {"rank": 4, "name": "PocketGuard"},
-    {"rank": 5, "name": "Goodbudget"},
-    {"rank": 6, "name": "EveryDollar"},
-    {"rank": 7, "name": "Spendee"},
-    {"rank": 8, "name": "Money Lover"},
-    {"rank": 9, "name": "Wallet"},
-    {"rank": 10, "name": "Monefy"},
-    {"rank": 11, "name": "Expensify"},
-    {"rank": 12, "name": "HomeBudget"},
-    {"rank": 13, "name": "Pocketsmith"},
-    {"rank": 14, "name": "Simplifi"},
-    {"rank": 15, "name": "Copilot"},
-    {"rank": 16, "name": "Cleo"},
-    {"rank": 17, "name": "Emma"},
-    {"rank": 18, "name": "Truebill"},
-    {"rank": 19, "name": "Albert"},
-    {"rank": 20, "name": "Digit"}
+    {"rank": 4, "name": "Acorns"},
+    {"rank": 5, "name": "Robinhood"},
+    {"rank": 6, "name": "Cleo"},
+    {"rank": 7, "name": "PocketGuard"},
+    {"rank": 8, "name": "Albert"},
+    {"rank": 9, "name": "Digit"},
+    {"rank": 10, "name": "Goodbudget"},
+    {"rank": 11, "name": "EveryDollar"},
+    {"rank": 12, "name": "Simplifi"},
+    {"rank": 13, "name": "Prism"},
+    {"rank": 14, "name": "Mvelopes"},
+    {"rank": 15, "name": "Wally"},
+    {"rank": 16, "name": "Monefy"},
+    {"rank": 17, "name": "Spendee"},
+    {"rank": 18, "name": "Dollarbird"},
+    {"rank": 19, "name": "Wallet"},
+    {"rank": 20, "name": "Bluecoins"}
   ],
   "criteria": [
     {
@@ -37,27 +37,27 @@
     },
     {
       "name": "AI Integration",
-      "description": "Level and effectiveness of AI integration in the app's features.",
+      "description": "Level and effectiveness of AI integration for features like budgeting, savings, and investment advice.",
       "type": "Text [1]",
-      "sources": "App descriptions, user reviews, tech blogs"
+      "sources": "App descriptions, user reviews, expert analyses"
     },
     {
       "name": "Feature Set",
-      "description": "Range and usefulness of features offered by the app.",
+      "description": "Range and depth of features offered, such as budget tracking, investment options, bill reminders, etc.",
       "type": "Text [1]",
-      "sources": "App descriptions, user reviews, tech blogs"
+      "sources": "App descriptions, user reviews, expert analyses"
     },
     {
       "name": "User Interface and Experience",
-      "description": "Quality and intuitiveness of the app's user interface and overall experience.",
+      "description": "Ease of use, design, and overall user experience.",
       "type": "Text [1]",
-      "sources": "User reviews, tech blogs, design awards"
+      "sources": "User reviews, expert analyses"
     },
     {
       "name": "Security and Privacy",
-      "description": "Strength of security measures and privacy protections.",
+      "description": "Strength of security measures and privacy policies.",
       "type": "Text [1]",
-      "sources": "App descriptions, user reviews, security audits"
+      "sources": "App descriptions, privacy policies, security audits"
     },
     {
       "name": "Customer Support",
@@ -68,7 +68,7 @@
     {
       "name": "Update Frequency",
       "description": "Frequency of app updates and improvements.",
-      "type": "Integer [1]",
+      "type": "Text [1]",
       "sources": "App store update history, developer blogs"
     }
   ]

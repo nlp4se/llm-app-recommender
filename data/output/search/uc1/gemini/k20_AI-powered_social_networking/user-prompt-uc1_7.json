@@ -1,0 +1,56 @@
+{
+  "apps": [
+    {"rank": 1, "name": "Hootsuite"},
+    {"rank": 2, "name": "Sprout Social"},
+    {"rank": 3, "name": "Buffer"},
+    {"rank": 4, "name": "FeedHive"},
+    {"rank": 5, "name": "Agorapulse"},
+    {"rank": 6, "name": "SocialBee"},
+    {"rank": 7, "name": "Flick"},
+    {"rank": 8, "name": "Predis.ai"},
+    {"rank": 9, "name": "Publer"},
+    {"rank": 10, "name": "ContentStudio"},
+    {"rank": 11, "name": "n8n workflow"},
+    {"rank": 12, "name": "Brand24"},
+    {"rank": 13, "name": "Copy.ai"},
+    {"rank": 14, "name": "VistaSocial"},
+    {"rank": 15, "name": "StoryLab.ai"},
+    {"rank": 16, "name": "Pictory"},
+    {"rank": 17, "name": "Canva AI"},
+    {"rank": 18, "name": "Jasper AI"},
+    {"rank": 19, "name": "Meta AI"},
+    {"rank": 20, "name": "Loomly"}
+  ],
+  "criteria": [
+    {
+      "name": "AI-Powered Content Creation",
+      "description": "The app's ability to generate engaging and relevant content, including text, images, and videos, using AI algorithms.",
+      "type": "Text, Media[*]",
+      "sources": "Zapier, n8n, Sprout Social, YouTube, Ocoya, Piktochart"
+    },
+    {
+      "name": "Automation Capabilities",
+      "description": "The extent to which the app automates tasks such as scheduling posts, responding to inquiries, and managing workflows.",
+      "type": "Boolean[1]",
+      "sources": "Sprout Social, YouTube, Ocoya, FeedHive"
+    },
+    {
+      "name": "Social Listening and Analytics",
+      "description": "The app's capacity to monitor social media channels, analyze data, and provide insights into audience behavior and brand performance.",
+      "type": "Text[*]",
+      "sources": "Sprout Social, YouTube, FeedHive, Agorapulse, Ferretly"
+    },
+    {
+      "name": "Multi-Platform Support",
+      "description": "The app's ability to manage and publish content across various social media platforms, including LinkedIn, Instagram, Facebook, and Twitter.",
+      "type": "Text[*]",
+      "sources": "n8n, YouTube, Ocoya"
+    },
+    {
+      "name": "User Experience",
+      "description": "The ease of use and overall experience of using the app, including its interface, features, and customer support.",
+      "type": "Text[1]",
+      "sources": "Piktochart"
+    }
+  ]
+}

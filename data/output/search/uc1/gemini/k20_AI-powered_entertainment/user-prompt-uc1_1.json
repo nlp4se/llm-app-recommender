@@ -2,56 +2,56 @@
 {
   "apps": [
     {"rank": 1, "name": "Netflix"},
-    {"rank": 2, "name": "Spotify"},
-    {"rank": 3, "name": "Character AI"},
-    {"rank": 4, "name": "Lensa"},
-    {"rank": 5, "name": "Replika"},
-    {"rank": 6, "name": "Nova"},
-    {"rank": 7, "name": "Runway ML"},
-    {"rank": 8, "name": "Descript"},
-    {"rank": 9, "name": "DALL-E"},
-    {"rank": 10, "name": "Jasper"},
-    {"rank": 11, "name": "Facetune"},
-    {"rank": 12, "name": "Prisma"},
-    {"rank": 13, "name": "AIVA"},
-    {"rank": 14, "name": "Lumen5"},
-    {"rank": 15, "name": "Remini"},
-    {"rank": 16, "name": "PhotoRoom"},
-    {"rank": 17, "name": "UpFoto"},
-    {"rank": 18, "name": "Hypic"},
-    {"rank": 19, "name": "Artimind"},
-    {"rank": 20, "name": "EPIK"}
+    {"rank": 2, "name": "Nova"},
+    {"rank": 3, "name": "ChatGPT"},
+    {"rank": 4, "name": "Google Gemini"},
+    {"rank": 5, "name": "Character AI"},
+    {"rank": 6, "name": "Remini"},
+    {"rank": 7, "name": "PhotoRoom"},
+    {"rank": 8, "name": "UpFoto"},
+    {"rank": 9, "name": "Microsoft Copilot"},
+    {"rank": 10, "name": "DeepL"},
+    {"rank": 11, "name": "Hypic"},
+    {"rank": 12, "name": "Artimind"},
+    {"rank": 13, "name": "EPIK"},
+    {"rank": 14, "name": "AI Chatbot Nova"},
+    {"rank": 15, "name": "ChatOn"},
+    {"rank": 16, "name": "Gauthi"},
+    {"rank": 17, "name": "Beat.ly"},
+    {"rank": 18, "name": "Amper Music"},
+    {"rank": 19, "name": "AIVA"},
+    {"rank": 20, "name": "Nextpart AI"}
   ],
   "criteria": [
     {
-      "name": "AI Personalization",
-      "description": "The degree to which the app uses AI to personalize the user experience, including content recommendations, adaptive interfaces, and customized settings.",
-      "type": "Float [1]",
-      "sources": "Multiple sources"
+      "name": "Personalized Recommendations",
+      "description": "The app uses AI to track user interests and provide personalized content or product recommendations.",
+      "type": "Boolean[1]",
+      "sources": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AbF9wXE5TtaBZpdk6sYk_YJiiLVz-f-BPr0NevYsgdjnZ-w57ANW_nZ2mzgURpaEaQmBgMIrIyh0U7BnkkMcHt4A2vn8i4o1AzLDhl4AAfPAyZNTitRZUWp1y7q75nh6POEUS7ENZxV1curV8uU-IqVOO03GHb3IOK5TEw=="
     },
     {
-      "name": "Content Generation",
-      "description": "The app's ability to generate new content, such as images, text, or music, using AI algorithms.",
-      "type": "Boolean [1]",
-      "sources": "Multiple sources"
+      "name": "Content Creation",
+      "description": "The app provides tools or features that allow users to create original content, such as music, videos, or images, using AI assistance.",
+      "type": "Boolean[1]",
+      "sources": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AbF9wXE5TtaBZpdk6sYk_YJiiLVz-f-BPr0NevYsgdjnZ-w57ANW_nZ2mzgURpaEaQmBgMIrIyh0U7BnkkMcHt4A2vn8i4o1AzLDhl4AAfPAyZNTitRZUWp1y7q75nh6POEUS7ENZxV1curV8uU-IqVOO03GHb3IOK5TEw=="
     },
     {
-      "name": "User Engagement",
-      "description": "How well the app keeps users entertained and coming back for more, measured by metrics such as session length, daily active users, and retention rate.",
-      "type": "Float [1]",
-      "sources": "Multiple sources"
+      "name": "AI Chatbots",
+      "description": "The app incorporates AI-powered chatbots to enhance user interaction, provide customer support, or offer personalized recommendations.",
+      "type": "Boolean[1]",
+      "sources": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AbF9wXEytPWSYa67qTvvPwcGTB2DCwbVkBSPp0rDlnRRRr3SjAErlj_UrTXS5HxhWfxSG0ZAA9zOcUV3YFH8NrMveBErToYuUgTv4-4GZ8GMKOdq3VaeniypXO1pt52nww_X552fOvrghvkuGIqI5f9mZ1mmORor36ehzepsoDMPFGXJqo9Erlvm"
     },
     {
-      "name": "Creative Enhancement",
-      "description": "The extent to which the app enhances creativity and allows users to express themselves through AI-powered tools.",
-      "type": "Boolean [1]",
-      "sources": "Multiple sources"
+      "name": "VR/AR Integration",
+      "description": "The app utilizes AI to enhance virtual reality (VR) or augmented reality (AR) experiences, enabling more immersive and interactive content.",
+      "type": "Boolean[1]",
+      "sources": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AbF9wXE5TtaBZpdk6sYk_YJiiLVz-f-BPr0NevYsgdjnZ-w57ANW_nZ2mzgURpaEaQmBgMIrIyh0U7BnkkMcHt4A2vn8i4o1AzLDhl4AAfPAyZNTitRZUWp1y7q75nh6POEUS7ENZxV1curV8uU-IqVOO03GHb3IOK5TEw=="
     },
-    {
-      "name": "AI Chatbot Interaction",
-      "description": "The quality and engagement level of AI-powered chatbot interactions within the app.",
-      "type": "Boolean [1]",
-      "sources": "Multiple sources"
+      {
+      "name": "AI Generated Content",
+      "description": "The app provides AI-generated content, such as stories, music, or videos, offering users new and unique experiences.",
+      "type": "Boolean[1]",
+      "sources": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AbF9wXHbS5k7bocn8HR874aTuPMkrddW8H3Llhef6BwpSKorU6CaEK3V8ovK-azkn_HNqwgQQgxldHjy9lHrGGE6hIVTZweaam4yejDtNBIg3O0JNWTBA3ygEJ8TlFPRG2Yv7ML_MQe0HwnT_AgCzIjsnRBZV5kNfN-sH4Pn2M9OihKitg=="
     }
   ]
 }

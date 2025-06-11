@@ -1,0 +1,87 @@
+
+{
+  "apps": [
+    {"rank": 1, "name": "Spotify"},
+    {"rank": 2, "name": "Apple Music"},
+    {"rank": 3, "name": "YouTube Music"},
+    {"rank": 4, "name": "Amazon Music"},
+    {"rank": 5, "name": "Deezer"},
+    {"rank": 6, "name": "Tidal"},
+    {"rank": 7, "name": "Pandora"},
+    {"rank": 8, "name": "SoundCloud"},
+    {"rank": 9, "name": "iHeartRadio"},
+    {"rank": 10, "name": "Napster"},
+    {"rank": 11, "name": "AIVA"},
+    {"rank": 12, "name": "Amper"},
+    {"rank": 13, "name": "Jukedeck"},
+    {"rank": 14, "name": "Mubert"},
+    {"rank": 15, "name": "Endel"},
+    {"rank": 16, "name": "Brain.fm"},
+    {"rank": 17, "name": "Melodrive"},
+    {"rank": 18, "name": "Humtap"},
+    {"rank": 19, "name": "Boomy"},
+    {"rank": 20, "name": "Soundraw"}
+  ],
+  "criteria": [
+    {
+      "name": "User Ratings",
+      "description": "Average user ratings on app stores (e.g., Google Play, Apple App Store).",
+      "type": "Float [1]",
+      "sources": "Google Play Store, Apple App Store"
+    },
+    {
+      "name": "Number of Downloads",
+      "description": "Total number of downloads or installs from app stores.",
+      "type": "Integer [1]",
+      "sources": "Google Play Store, Apple App Store, Sensor Tower"
+    },
+    {
+      "name": "AI Features",
+      "description": "Availability and sophistication of AI-powered features such as personalized recommendations, AI-generated music, etc.",
+      "type": "Text [*]",
+      "sources": "App descriptions, developer websites, tech reviews"
+    },
+    {
+      "name": "User Interface and Experience",
+      "description": "Quality and ease of use of the app's interface and overall user experience.",
+      "type": "Text [*]",
+      "sources": "User reviews, tech blogs, expert reviews"
+    },
+    {
+      "name": "Music Library Size",
+      "description": "Size and diversity of the music library available on the app.",
+      "type": "Integer [1]",
+      "sources": "App descriptions, developer websites, tech reviews"
+    },
+    {
+      "name": "Subscription Cost",
+      "description": "Cost of premium subscription plans, if applicable.",
+      "type": "Float [1]",
+      "sources": "App descriptions, developer websites"
+    },
+    {
+      "name": "Platform Availability",
+      "description": "Availability of the app on different platforms (iOS, Android, Web, etc.).",
+      "type": "Text [*]",
+      "sources": "Google Play Store, Apple App Store, developer websites"
+    },
+    {
+      "name": "Unique Features",
+      "description": "Unique features that set the app apart from competitors.",
+      "type": "Text [*]",
+      "sources": "App descriptions, developer websites, tech reviews"
+    },
+    {
+      "name": "Integration with Other Services",
+      "description": "Ability to integrate with other services and platforms (e.g., social media, smart home devices).",
+      "type": "Text [*]",
+      "sources": "App descriptions, developer websites, tech reviews"
+    },
+    {
+      "name": "Update Frequency",
+      "description": "Frequency of app updates and improvements.",
+      "type": "Text [*]",
+      "sources": "Google Play Store, Apple App Store, developer websites"
+    }
+  ]
+}

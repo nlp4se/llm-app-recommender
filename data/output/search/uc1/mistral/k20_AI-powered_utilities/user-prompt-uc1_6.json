@@ -1,0 +1,69 @@
+
+{
+  "apps": [
+    {"rank": 1, "name": "Replika"},
+    {"rank": 2, "name": "Wysa"},
+    {"rank": 3, "name": "Youper"},
+    {"rank": 4, "name": "Woebot Health"},
+    {"rank": 5, "name": "Moodkit"},
+    {"rank": 6, "name": "What3Words"},
+    {"rank": 7, "name": "Forest"},
+    {"rank": 8, "name": "Habitica"},
+    {"rank": 9, "name": "Socratic"},
+    {"rank": 10, "name": "Photomath"},
+    {"rank": 11, "name": "CamScanner"},
+    {"rank": 12, "name": "Microsoft Lens"},
+    {"rank": 13, "name": "Clue"},
+    {"rank": 14, "name": "Flo"},
+    {"rank": 15, "name": "MyFitnessPal"},
+    {"rank": 16, "name": "Lose It!"},
+    {"rank": 17, "name": "Sleep Cycle"},
+    {"rank": 18, "name": "Pillow"},
+    {"rank": 19, "name": "Headspace"},
+    {"rank": 20, "name": "Calm"}
+  ],
+  "criteria": [
+    {
+      "name": "User Ratings",
+      "description": "Average rating given by users on app stores.",
+      "type": "Float [1]",
+      "sources": "Google Play Store, Apple App Store"
+    },
+    {
+      "name": "Downloads",
+      "description": "Total number of times the app has been downloaded.",
+      "type": "Integer [1]",
+      "sources": "Google Play Store, Apple App Store, Sensor Tower"
+    },
+    {
+      "name": "AI Integration",
+      "description": "Level and effectiveness of AI integration in the app's functionality.",
+      "type": "Text [1]",
+      "sources": "App descriptions, user reviews, expert analysis"
+    },
+    {
+      "name": "User Interface",
+      "description": "Ease of use and intuitive design of the app.",
+      "type": "Text [1]",
+      "sources": "User reviews, expert analysis"
+    },
+    {
+      "name": "Functionality",
+      "description": "Range and usefulness of the app's features.",
+      "type": "Text [1]",
+      "sources": "App descriptions, user reviews, expert analysis"
+    },
+    {
+      "name": "Update Frequency",
+      "description": "How often the app is updated with new features and bug fixes.",
+      "type": "Text [1]",
+      "sources": "App store update history"
+    },
+    {
+      "name": "Privacy and Security",
+      "description": "How well the app protects user data and privacy.",
+      "type": "Text [1]",
+      "sources": "App privacy policies, user reviews, expert analysis"
+    }
+  ]
+}

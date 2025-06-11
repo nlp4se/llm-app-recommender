@@ -5,53 +5,53 @@
     {"rank": 2, "name": "Wink"},
     {"rank": 3, "name": "Moonly"},
     {"rank": 4, "name": "Anima"},
-    {"rank": 5, "name": "Wysa"},
-    {"rank": 6, "name": "Kuki"},
-    {"rank": 7, "name": "Joy" },
-    {"rank": 8, "name": "Mubert" },
-    {"rank": 9, "name": "Elomia"},
-    {"rank": 10, "name": "Emma"},
-    {"rank": 11, "name": "Vencha"},
-    {"rank": 12, "name": "Lyka"},
-    {"rank": 13, "name": "Chai"},
-    {"rank": 14, "name": "Ping" },
-    {"rank": 15, "name": "Veronika" },
-    {"rank": 16, "name": "Anima"},
-    {"rank": 17, "name": "Clevy"},
-    {"rank": 18, "name": "Buddy"}
-    {"rank": 19, "name": "Botify"},
-    {"rank": 20, "name": "Bond"}
+    {"rank": 5, "name": "Wolf"},
+    {"rank": 6, "name": "Swiipe"},
+    {"rank": 7, "name": "Yubo"},
+    {"rank": 8, "name": "Softer"},
+    {"rank": 9, "name": "Lemon"},
+    {"rank": 10, "name": "Ablo"},
+    {"rank": 11, "name": "Bottled"},
+    {"rank": 12, "name": "Peachs"},
+    {"rank": 13, "name": "Fam"},
+    {"rank": 14, "name": "Mappen"},
+    {"rank": 15, "name": "Melon"},
+    {"rank": 16, "name": "Vanish"},
+    {"rank": 17, "name": "Pathshare"},
+    {"rank": 18, "name": "Familonet"},
+    {"rank": 19, "name": "Snapchat"},
+    {"rank": 20, "name": "Bumble"}
   ],
   "criteria": [
     {
       "name": "User Engagement",
-      "description": "The level of user interaction and engagement with the app, measured by metrics such as daily active users (DAU), monthly active users (MAU), and session duration.",
-      "type": "Integer [1]",
-      "sources": "App analytics platforms, app store metrics"
+      "description": "The level of user interaction and activity within the app.",
+      "type": "Float [1]",
+      "sources": "App Store and Google Play Store ratings, reviews, and download statistics."
     },
     {
       "name": "AI Integration",
-      "description": "The extent and effectiveness of AI integration in the app, including features like chatbots, recommendation engines, and personalization.",
+      "description": "The extent and effectiveness of AI features within the app.",
       "type": "Text [1]",
-      "sources": "App descriptions, user reviews, expert analysis"
+      "sources": "App descriptions, user reviews, and tech blogs."
     },
     {
-      "name": "User Reviews and Ratings",
-      "description": "The average rating and sentiment of user reviews on app stores, reflecting user satisfaction and feedback.",
-      "type": "Float [1]",
-      "sources": "App store listings, review aggregation sites"
+      "name": "User Base",
+      "description": "The size and growth rate of the app's user base.",
+      "type": "Integer [1]",
+      "sources": "App Store and Google Play Store download statistics, market analysis reports."
     },
     {
-      "name": "Innovation and Uniqueness",
-      "description": "The app's uniqueness and innovation in terms of features, design, and user experience compared to other apps in the category.",
+      "name": "Innovation",
+      "description": "The uniqueness and innovativeness of the app's features.",
       "type": "Text [1]",
-      "sources": "Expert reviews, tech blogs, app descriptions"
+      "sources": "Tech blogs, app descriptions, and user reviews."
     },
     {
-      "name": "Privacy and Security",
-      "description": "The app's measures to ensure user data privacy and security, including encryption, secure data storage, and transparent privacy policies.",
-      "type": "Boolean [1]",
-      "sources": "App permissions, privacy policies, security audits"
+      "name": "User Interface and Experience",
+      "description": "The design, usability, and overall user experience of the app.",
+      "type": "Text [1]",
+      "sources": "User reviews, app descriptions, and design critiques."
     }
   ]
 }

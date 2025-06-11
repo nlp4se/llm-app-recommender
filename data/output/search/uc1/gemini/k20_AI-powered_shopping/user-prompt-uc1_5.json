@@ -1,0 +1,75 @@
+
+{
+  "apps": [
+    {"rank": 1, "name": "Shop.app"},
+    {"rank": 2, "name": "Buysmart.ai"},
+    {"rank": 3, "name": "Claros"},
+    {"rank": 4, "name": "ShopGuru"},
+    {"rank": 5, "name": "Rufus (Amazon's AI shopping assistant)"},
+    {"rank": 6, "name": "Google Shopping"},
+    {"rank": 7, "name": "Macy's"},
+    {"rank": 8, "name": "Amazon Alexa"},
+    {"rank": 9, "name": "Tidio AI"},
+    {"rank": 10, "name": "Infichat"},
+    {"rank": 11, "name": "shopdev Shopping Assistant"},
+    {"rank": 12, "name": "Giosg"},
+    {"rank": 13, "name": "Glance AI"},
+    {"rank": 14, "name": "Vetted AI Smart Shopping Agent"},
+    {"rank": 15, "name": "Flash.co"},
+    {"rank": 16, "name": "Temu"},
+    {"rank": 17, "name": "Shein"},
+    {"rank": 18, "name": "Lyro AI Chatbot"},
+    {"rank": 19, "name": "Nosto"},
+    {"rank": 20, "name": "Octane AI"}
+  ],
+  "criteria": [
+    {
+      "name": "Personalized Recommendations",
+      "description": "The app uses AI to provide product suggestions tailored to the user's preferences and past behavior.",
+      "type": "Text[*]",
+      "sources": "shopdev, Nosto, Octane AI, Bold Brain"
+    },
+    {
+      "name": "AI-Powered Chatbots/Assistants",
+      "description": "The app incorporates AI chatbots to assist customers with product searches, answer questions, and provide support.",
+      "type": "Boolean[1]",
+      "sources": "Tidio AI, Infichat, shopdev, Lyro AI Chatbot"
+    },
+    {
+      "name": "Visual Search",
+      "description": "The app allows users to search for products using images, either taken with their camera or uploaded from their device.",
+      "type": "Media[1]",
+      "sources": "Google Shopping, GoFind.ai, Neiman Marcus's Snap. Find. Shop."
+    },
+    {
+      "name": "Price Comparison",
+      "description": "The app compares prices from different retailers to help users find the best deals.",
+      "type": "Float[*]",
+      "sources": "Vetted AI Smart Shopping Agent"
+    },
+    {
+      "name": "Style Recommendations",
+      "description": "The app provides style recommendations based on user preferences and AI-generated looks.",
+      "type": "Text[*]",
+      "sources": "Glance AI"
+    },
+    {
+      "name": "Seamless Integration",
+      "description": "The app seamlessly integrates with other platforms and tools, such as e-commerce platforms and marketing automation systems.",
+      "type": "Boolean[1]",
+      "sources": "Caper, Octane AI"
+    },
+    {
+      "name": "AI-driven personalization",
+      "description": "AI analyses customer data to create personalized marketing campaigns and shopping experiences.",
+      "type": "Boolean[1]",
+      "sources": "OptiMonk AI, Salesforce Einstein"
+    },
+     {
+      "name": "Customer support automation",
+      "description": "AI helps automate customer support through chatbots and other tools",
+      "type": "Boolean[1]",
+      "sources": "Chatfuel, Tidio"
+    }
+  ]
+}

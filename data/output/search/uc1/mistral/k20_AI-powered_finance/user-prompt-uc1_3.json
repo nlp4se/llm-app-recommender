@@ -7,25 +7,25 @@
     {"rank": 4, "name": "PocketGuard"},
     {"rank": 5, "name": "Goodbudget"},
     {"rank": 6, "name": "EveryDollar"},
-    {"rank": 7, "name": "Simple"},
-    {"rank": 8, "name": "Acorns"},
-    {"rank": 9, "name": "Robinhood"},
-    {"rank": 10, "name": "Stash"},
-    {"rank": 11, "name": "Betterment"},
-    {"rank": 12, "name": "Wealthfront"},
-    {"rank": 13, "name": "Ellevest"},
-    {"rank": 14, "name": "Clarity Money"},
-    {"rank": 15, "name": "Albert"},
-    {"rank": 16, "name": "Cleo"},
-    {"rank": 17, "name": "Chime"},
-    {"rank": 18, "name": "Venmo"},
-    {"rank": 19, "name": "Zelle"},
-    {"rank": 20, "name": "Qapital"}
+    {"rank": 7, "name": "Simplifi"},
+    {"rank": 8, "name": "Prism"},
+    {"rank": 9, "name": "Spendee"},
+    {"rank": 10, "name": "Mvelopes"},
+    {"rank": 11, "name": "Albert"},
+    {"rank": 12, "name": "Cleo"},
+    {"rank": 13, "name": "Empower"},
+    {"rank": 14, "name": "Charlie"},
+    {"rank": 15, "name": "Digit"},
+    {"rank": 16, "name": "Qapital"},
+    {"rank": 17, "name": "Acorns"},
+    {"rank": 18, "name": "Stash"},
+    {"rank": 19, "name": "Robinhood"},
+    {"rank": 20, "name": "Wealthfront"}
   ],
   "criteria": [
     {
       "name": "User Ratings",
-      "description": "Average user ratings on app stores like Google Play and Apple App Store.",
+      "description": "Average user ratings on platforms like Google Play Store and Apple App Store.",
       "type": "Float [1]",
       "sources": "Google Play Store, Apple App Store"
     },
@@ -37,39 +37,33 @@
     },
     {
       "name": "AI Integration",
-      "description": "Level and effectiveness of AI features such as predictive analytics, chatbots, and personalized recommendations.",
+      "description": "Level and effectiveness of AI integration in the app's features.",
       "type": "Text [1]",
       "sources": "App descriptions, user reviews, tech blogs"
     },
     {
-      "name": "Security Features",
-      "description": "Strength of security measures including encryption, multi-factor authentication, and data privacy policies.",
+      "name": "Feature Set",
+      "description": "Range and usefulness of features offered by the app.",
       "type": "Text [1]",
-      "sources": "App descriptions, security audits, user reviews"
+      "sources": "App descriptions, user reviews, tech blogs"
     },
     {
       "name": "User Interface",
-      "description": "Ease of use, design aesthetics, and overall user experience.",
+      "description": "Ease of use and intuitiveness of the app's interface.",
       "type": "Text [1]",
-      "sources": "User reviews, design awards, tech blogs"
+      "sources": "User reviews, tech blogs, app screenshots"
     },
     {
-      "name": "Functionality",
-      "description": "Range and effectiveness of financial management features such as budgeting, investing, and expense tracking.",
+      "name": "Security",
+      "description": "Level of security and data protection offered by the app.",
       "type": "Text [1]",
-      "sources": "App descriptions, user reviews, tech blogs"
-    },
-    {
-      "name": "Customer Support",
-      "description": "Quality and responsiveness of customer support services.",
-      "type": "Text [1]",
-      "sources": "User reviews, customer support ratings"
+      "sources": "App descriptions, security audits, tech blogs"
     },
     {
       "name": "Innovation",
-      "description": "Introduction of new and unique features that enhance financial management.",
+      "description": "Unique and innovative features that set the app apart from competitors.",
       "type": "Text [1]",
-      "sources": "Tech blogs, app updates, user reviews"
+      "sources": "Tech blogs, app descriptions, user reviews"
     }
   ]
 }

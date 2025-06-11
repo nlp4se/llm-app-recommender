@@ -1,0 +1,57 @@
+
+{
+  "apps": [
+    {"rank": 1, "name": "Replika"},
+    {"rank": 2, "name": "Wink"},
+    {"rank": 3, "name": "Elsa Speak"},
+    {"rank": 4, "name": "Mystic Messenger"},
+    {"rank": 5, "name": "Anyme"},
+    {"rank": 6, "name": "Wysa"},
+    {"rank": 7, "name": "Joy"},
+    {"rank": 8, "name": "Swelly"},
+    {"rank": 9, "name": "Monkey"},
+    {"rank": 10, "name": "Holla"},
+    {"rank": 11, "name": "Azar"},
+    {"rank": 12, "name": "Ablo"},
+    {"rank": 13, "name": "Bottle"},
+    {"rank": 14, "name": "MeetMe"},
+    {"rank": 15, "name": "Mico"},
+    {"rank": 16, "name": "Yalla"},
+    {"rank": 17, "name": "YoYo"},
+    {"rank": 18, "name": "Hi"},
+    {"rank": 19, "name": "Chatous"},
+    {"rank": 20, "name": "Connected2.me"}
+  ],
+  "criteria": [
+    {
+      "name": "User Engagement",
+      "description": "The level of user interaction and time spent on the app.",
+      "type": "Float [1]",
+      "sources": "App Store and Google Play Store analytics, in-app usage data"
+    },
+    {
+      "name": "AI Integration",
+      "description": "The extent and effectiveness of AI features within the app.",
+      "type": "Text [1]",
+      "sources": "App descriptions, user reviews, and expert analysis"
+    },
+    {
+      "name": "User Reviews",
+      "description": "The average rating and sentiment of user reviews.",
+      "type": "Float [1]",
+      "sources": "App Store and Google Play Store reviews"
+    },
+    {
+      "name": "Downloads",
+      "description": "The total number of app downloads.",
+      "type": "Integer [1]",
+      "sources": "App Store and Google Play Store download statistics"
+    },
+    {
+      "name": "Innovation",
+      "description": "The uniqueness and creativity of the app's features.",
+      "type": "Text [1]",
+      "sources": "Expert analysis, tech blogs, and industry reports"
+    }
+  ]
+}

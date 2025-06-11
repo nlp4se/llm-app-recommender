@@ -1,0 +1,56 @@
+{
+  "apps": [
+    {"rank": 1, "name": "Motion"},
+    {"rank": 2, "name": "Google Assistant"},
+    {"rank": 3, "name": "Luzia"},
+    {"rank": 4, "name": "Freeletics"},
+    {"rank": 5, "name": "Fitbod"},
+    {"rank": 6, "name": "Aaptiv"},
+    {"rank": 7, "name": "Noom"},
+    {"rank": 8, "name": "Wysa"},
+    {"rank": 9, "name": "Calm"},
+    {"rank": 10, "name": "HealthifyMe"},
+    {"rank": 11, "name": "SnapCalorie"},
+    {"rank": 12, "name": "Nourish"},
+    {"rank": 13, "name": "Simple"},
+    {"rank": 14, "name": "Youper"},
+    {"rank": 15, "name": "TrainHeroic"},
+    {"rank": 16, "name": "MyFitnessPal"},
+    {"rank": 17, "name": "Ada"},
+    {"rank": 18, "name": "Buoy"},
+    {"rank": 19, "name": "Siri"},
+    {"rank": 20, "name": "Alexa"}
+  ],
+  "criteria": [
+    {
+      "name": "AI Personalization",
+      "description": "The degree to which the app adapts to individual user preferences, habits, and goals using AI algorithms.",
+      "type": "Float [1]",
+      "sources": "Multiple app reviews and descriptions"
+    },
+    {
+      "name": "Functionality",
+      "description": "The breadth of lifestyle aspects covered by the AI, including fitness, nutrition, mental health, productivity, and general assistance.",
+      "type": "Integer [1]",
+      "sources": "App descriptions and expert reviews"
+    },
+    {
+      "name": "User Rating",
+      "description": "Average rating given by users in app stores.",
+      "type": "Float [1]",
+      "sources": "Google Play Store, Apple App Store"
+    },
+    {
+      "name": "AI Technology Used",
+      "description": "The sophistication and variety of AI technologies employed, such as machine learning, natural language processing, computer vision, and generative AI.",
+      "type": "Text [*]",
+      "sources": "Technical app reviews and developer documentation"
+    },
+    {
+      "name": "Integration with Other Services",
+      "description": "The ability of the app to connect and synchronize data with other apps, devices, and platforms.",
+      "type": "Boolean [1]",
+      "sources": "App descriptions and user reviews"
+    }
+  ]
+}

@@ -4,84 +4,72 @@
     {"rank": 1, "name": "Mint"},
     {"rank": 2, "name": "Personal Capital"},
     {"rank": 3, "name": "You Need A Budget (YNAB)"},
-    {"rank": 4, "name": "Acorns"},
-    {"rank": 5, "name": "Robinhood"},
-    {"rank": 6, "name": "Betterment"},
-    {"rank": 7, "name": "Wealthfront"},
-    {"rank": 8, "name": "Cleo"},
-    {"rank": 9, "name": "Chime"},
-    {"rank": 10, "name": "Digit"},
-    {"rank": 11, "name": "Albert"},
-    {"rank": 12, "name": "Empower"},
-    {"rank": 13, "name": "Goodbudget"},
-    {"rank": 14, "name": "PocketGuard"},
-    {"rank": 15, "name": "Simplifi by Quicken"},
-    {"rank": 16, "name": "EveryDollar"},
-    {"rank": 17, "name": "Prism"},
-    {"rank": 18, "name": "Mvelopes"},
-    {"rank": 19, "name": "Wally"},
-    {"rank": 20, "name": "Spendee"}
+    {"rank": 4, "name": "PocketGuard"},
+    {"rank": 5, "name": "Albert"},
+    {"rank": 6, "name": "Acorns"},
+    {"rank": 7, "name": "Digit"},
+    {"rank": 8, "name": "Qapital"},
+    {"rank": 9, "name": "Goodbudget"},
+    {"rank": 10, "name": "EveryDollar"},
+    {"rank": 11, "name": "Simplifi by Quicken"},
+    {"rank": 12, "name": "Clarity Money"},
+    {"rank": 13, "name": "Mvelopes"},
+    {"rank": 14, "name": "Wally"},
+    {"rank": 15, "name": "Spendee"},
+    {"rank": 16, "name": "Mobills"},
+    {"rank": 17, "name": "Dollarbird"},
+    {"rank": 18, "name": "HomeBudget"},
+    {"rank": 19, "name": "Monefy"},
+    {"rank": 20, "name": "Wallet by BudgetBakers"}
   ],
   "criteria": [
     {
       "name": "User Ratings",
-      "description": "Average user ratings on app stores (e.g., Google Play, Apple App Store).",
+      "description": "Average user ratings on major app stores like Google Play and Apple App Store.",
       "type": "Float [1]",
       "sources": "Google Play Store, Apple App Store"
     },
     {
       "name": "Downloads",
-      "description": "Total number of downloads across all platforms.",
+      "description": "Total number of downloads across major app stores.",
       "type": "Integer [1]",
-      "sources": "Google Play Store, Apple App Store, Sensor Tower"
+      "sources": "Google Play Store, Apple App Store, App Annie"
     },
     {
       "name": "AI Integration",
-      "description": "Level of AI integration for features like budgeting, investing, and financial advice.",
+      "description": "Level and effectiveness of AI features such as automated budgeting, spending predictions, and personalized financial advice.",
       "type": "Text [1]",
-      "sources": "App descriptions, user reviews, official websites"
+      "sources": "App descriptions, user reviews, tech blogs"
     },
     {
       "name": "Security Features",
-      "description": "Strength of security measures such as encryption, multi-factor authentication, and data privacy policies.",
+      "description": "Strength of security measures including encryption, multi-factor authentication, and data privacy policies.",
       "type": "Text [1]",
-      "sources": "App descriptions, official websites, security audits"
+      "sources": "App descriptions, security audit reports, user reviews"
     },
     {
       "name": "User Interface",
-      "description": "Ease of use and intuitiveness of the app's user interface.",
+      "description": "Ease of use, intuitiveness, and overall design quality of the app interface.",
       "type": "Text [1]",
-      "sources": "User reviews, expert reviews, usability testing"
+      "sources": "User reviews, design awards, tech blogs"
     },
     {
-      "name": "Feature Set",
-      "description": "Range and depth of features offered, such as budgeting tools, investment options, and financial planning.",
+      "name": "Functionality",
+      "description": "Range and depth of features offered, including budgeting tools, investment tracking, bill reminders, and more.",
       "type": "Text [1]",
-      "sources": "App descriptions, user reviews, official websites"
+      "sources": "App descriptions, user reviews, feature comparison articles"
     },
     {
       "name": "Customer Support",
-      "description": "Quality and responsiveness of customer support.",
+      "description": "Quality and responsiveness of customer support services.",
       "type": "Text [1]",
-      "sources": "User reviews, official websites, customer support forums"
+      "sources": "User reviews, customer support ratings, official support channels"
     },
     {
-      "name": "Integration with Financial Institutions",
-      "description": "Number and variety of financial institutions supported for account syncing and transactions.",
-      "type": "Integer [1]",
-      "sources": "App descriptions, official websites, user reviews"
-    },
-    {
-      "name": "Pricing and Subscription Models",
-      "description": "Cost of the app, including any subscription fees or in-app purchases.",
+      "name": "Integration",
+      "description": "Ability to integrate with other financial services, banks, and third-party apps.",
       "type": "Text [1]",
-      "sources": "App descriptions, official websites, user reviews"
-    },
-    {
-      "name": "Update Frequency",
-      "description": "Frequency of app updates and new feature releases.",
-      "type": "Text [1]",
-      "sources": "App store update history, official blogs, release notes"
+      "sources": "App descriptions, integration partnerships, user reviews"
     }
   ]
 }

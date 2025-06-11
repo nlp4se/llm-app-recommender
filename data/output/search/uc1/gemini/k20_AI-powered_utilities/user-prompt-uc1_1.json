@@ -2,56 +2,56 @@
 {
   "apps": [
     {"rank": 1, "name": "ChatGPT"},
-    {"rank": 2, "name": "Google Gemini"},
-    {"rank": 3, "name": "Microsoft Copilot"},
-    {"rank": 4, "name": "Otter"},
-    {"rank": 5, "name": "Perplexity AI"},
-    {"rank": 6, "name": "GitHub Copilot"},
-    {"rank": 7, "name": "Socratic"},
-    {"rank": 8, "name": "Claude"},
-    {"rank": 9, "name": "Zapier"},
+    {"rank": 2, "name": "Google Assistant"},
+    {"rank": 3, "name": "Grammarly"},
+    {"rank": 4, "name": "Notion AI"},
+    {"rank": 5, "name": "DALL·E 3"},
+    {"rank": 6, "name": "Midjourney"},
+    {"rank": 7, "name": "Runway"},
+    {"rank": 8, "name": "Perplexity"},
+    {"rank": 9, "name": "Microsoft Copilot"},
     {"rank": 10, "name": "Jasper"},
-    {"rank": 11, "name": "Nova"},
-    {"rank": 12, "name": "ChatOn"},
-    {"rank": 13, "name": "Chatbot AI"},
-    {"rank": 14, "name": "Talkie"},
-    {"rank": 15, "name": "Character AI"},
-    {"rank": 16, "name": "Grok"},
-    {"rank": 17, "name": "Bing"},
-    {"rank": 18, "name": "Invideo AI"},
-    {"rank": 19, "name": "Texts.com"},
-    {"rank": 20, "name": "Humata AI"}
+    {"rank": 11, "name": "Synthesia"},
+    {"rank": 12, "name": "Otter"},
+    {"rank": 13, "name": "Filmora"},
+    {"rank": 14, "name": "DeepSeek"},
+    {"rank": 15, "name": "Cleo"},
+    {"rank": 16, "name": "Siri"},
+    {"rank": 17, "name": "Descript"},
+    {"rank": 18, "name": "Zapier"},
+    {"rank": 19, "name": "BeforeSunset AI"},
+    {"rank": 20, "name": "Vista Social"}
   ],
   "criteria": [
     {
-      "name": "Downloads",
-      "description": "Number of times the app has been downloaded.",
-      "type": "Integer[1]",
-      "sources": "Backlinko"
+      "name": "Functionality",
+      "description": "The breadth and depth of AI-powered utilities offered by the app, including but not limited to content creation, task automation, information retrieval, and personalization.",
+      "type": "Text[*]",
+      "sources": "Multiple"
     },
     {
-      "name": "Monthly Active Users",
-      "description": "Number of users actively using the app on a monthly basis.",
-      "type": "Integer[1]",
-      "sources": "Backlinko"
-    },
-    {
-      "name": "AI Functionality",
-      "description": "The breadth and depth of AI features offered by the app.",
+      "name": "User Interface and Experience",
+      "description": "The ease of use, intuitiveness, and overall user satisfaction when interacting with the app.",
       "type": "Text[1]",
-      "sources": "Built In, Golden Owl, Formaloo"
+      "sources": "Multiple"
     },
     {
-      "name": "User Reviews and Ratings",
-      "description": "Average rating and number of reviews by users.",
+      "name": "Integration Capabilities",
+      "description": "The ability of the app to seamlessly integrate with other platforms, services, and devices to enhance workflow and productivity.",
+      "type": "Boolean[1]",
+      "sources": "Multiple"
+    },
+    {
+      "name": "AI Model and Technology",
+      "description": "The sophistication, accuracy, and efficiency of the underlying AI models and technologies powering the app's features.",
+      "type": "Text[1]",
+      "sources": "Multiple"
+    },
+    {
+      "name": "Customer Reviews and Ratings",
+      "description": "Aggregated feedback and ratings from users regarding the app's performance, reliability, and value.",
       "type": "Float[1]",
-      "sources": "App Store, Google Play Store"
-    },
-    {
-      "name": "Versatility",
-      "description": "The range of tasks the app can perform.",
-      "type": "Text[1]",
-      "sources": "Various"
+      "sources": "App Stores"
     }
   ]
 }

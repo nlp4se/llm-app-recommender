@@ -1,0 +1,75 @@
+
+{
+  "apps": [
+    {"rank": 1, "name": "Notion"},
+    {"rank": 2, "name": "Evernote"},
+    {"rank": 3, "name": "Todoist"},
+    {"rank": 4, "name": "Microsoft To Do"},
+    {"rank": 5, "name": "Forest"},
+    {"rank": 6, "name": "Trello"},
+    {"rank": 7, "name": "Asana"},
+    {"rank": 8, "name": "Google Keep"},
+    {"rank": 9, "name": "Any.do"},
+    {"rank": 10, "name": "TickTick"},
+    {"rank": 11, "name": "Habitica"},
+    {"rank": 12, "name": "Remember The Milk"},
+    {"rank": 13, "name": "Wunderlist"},
+    {"rank": 14, "name": "OmniFocus"},
+    {"rank": 15, "name": "Things 3"},
+    {"rank": 16, "name": "Google Tasks"},
+    {"rank": 17, "name": "Microsoft OneNote"},
+    {"rank": 18, "name": "Bear"},
+    {"rank": 19, "name": "Standard Notes"},
+    {"rank": 20, "name": "Simplenote"}
+  ],
+  "criteria": [
+    {
+      "name": "User Ratings",
+      "description": "Average user ratings on popular app stores like Google Play and Apple App Store.",
+      "type": "Float [1]",
+      "sources": "Google Play Store, Apple App Store"
+    },
+    {
+      "name": "Downloads/Installs",
+      "description": "Total number of downloads or installs from app stores.",
+      "type": "Integer [1]",
+      "sources": "Google Play Store, Apple App Store, Sensor Tower"
+    },
+    {
+      "name": "AI Integration",
+      "description": "Level and effectiveness of AI integration in the app's features.",
+      "type": "Text [1]",
+      "sources": "App descriptions, user reviews, tech blogs"
+    },
+    {
+      "name": "Feature Set",
+      "description": "Range and usefulness of features offered by the app.",
+      "type": "Text [1]",
+      "sources": "App descriptions, user reviews, tech blogs"
+    },
+    {
+      "name": "User Interface",
+      "description": "Ease of use and intuitiveness of the app's interface.",
+      "type": "Text [1]",
+      "sources": "User reviews, tech blogs, app screenshots"
+    },
+    {
+      "name": "Cross-Platform Availability",
+      "description": "Availability of the app across different platforms (iOS, Android, Web, Desktop).",
+      "type": "Text [1]",
+      "sources": "App descriptions, official app websites"
+    },
+    {
+      "name": "Update Frequency",
+      "description": "Frequency of app updates, indicating ongoing development and support.",
+      "type": "Text [1]",
+      "sources": "App store update history, official app blogs"
+    },
+    {
+      "name": "Privacy and Security",
+      "description": "Level of privacy and security features offered by the app.",
+      "type": "Text [1]",
+      "sources": "App descriptions, privacy policies, security reviews"
+    }
+  ]
+}

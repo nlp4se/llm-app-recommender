@@ -8,62 +8,68 @@
     {"rank": 5, "name": "Khan Academy"},
     {"rank": 6, "name": "Brainly"},
     {"rank": 7, "name": "Chegg Study"},
-    {"rank": 8, "name": "MyScript Calculator"},
-    {"rank": 9, "name": "WolframAlpha"},
-    {"rank": 10, "name": "Grammarly"},
-    {"rank": 11, "name": "Coursera"},
-    {"rank": 12, "name": "edX"},
-    {"rank": 13, "name": "Udemy"},
-    {"rank": 14, "name": "LinkedIn Learning"},
-    {"rank": 15, "name": "Google Classroom"},
-    {"rank": 16, "name": "Microsoft OneNote"},
-    {"rank": 17, "name": "Evernote"},
-    {"rank": 18, "name": "Notability"},
-    {"rank": 19, "name": "GoodNotes"},
-    {"rank": 20, "name": "Kahoot!"}
+    {"rank": 8, "name": "Coursera"},
+    {"rank": 9, "name": "edX"},
+    {"rank": 10, "name": "Udemy"},
+    {"rank": 11, "name": "LinkedIn Learning"},
+    {"rank": 12, "name": "Byju's"},
+    {"rank": 13, "name": "SoloLearn"},
+    {"rank": 14, "name": "Memrise"},
+    {"rank": 15, "name": "Lumosity"},
+    {"rank": 16, "name": "Brilliant"},
+    {"rank": 17, "name": "Mimo"},
+    {"rank": 18, "name": "Yousician"},
+    {"rank": 19, "name": "Elevate"},
+    {"rank": 20, "name": "Peak"}
   ],
   "criteria": [
     {
       "name": "User Ratings",
-      "description": "Average user ratings on app stores (e.g., Google Play, Apple App Store).",
+      "description": "Average rating given by users on app stores.",
       "type": "Float [1]",
       "sources": "Google Play Store, Apple App Store"
     },
     {
-      "name": "Downloads",
-      "description": "Total number of downloads or installs from app stores.",
+      "name": "Number of Downloads",
+      "description": "Total number of times the app has been downloaded.",
       "type": "Integer [1]",
       "sources": "Google Play Store, Apple App Store, Sensor Tower"
     },
     {
-      "name": "User Interface",
-      "description": "Ease of use and intuitiveness of the app's interface.",
-      "type": "Text [1]",
-      "sources": "Expert reviews, user feedback"
-    },
-    {
-      "name": "Content Quality",
-      "description": "Quality and relevance of the educational content provided.",
-      "type": "Text [1]",
-      "sources": "Educational reviews, user feedback"
-    },
-    {
       "name": "AI Integration",
-      "description": "Effectiveness and innovation in the use of AI for educational purposes.",
+      "description": "Level and effectiveness of AI features within the app.",
       "type": "Text [1]",
-      "sources": "App descriptions, expert reviews"
+      "sources": "App descriptions, user reviews, expert analyses"
+    },
+    {
+      "name": "Educational Content Quality",
+      "description": "Quality and breadth of the educational material provided.",
+      "type": "Text [1]",
+      "sources": "User reviews, educational reviews, content analysis"
+    },
+    {
+      "name": "User Engagement",
+      "description": "Metrics indicating user interaction and retention.",
+      "type": "Float [1]",
+      "sources": "App analytics, user reviews, engagement metrics from app stores"
     },
     {
       "name": "Accessibility",
-      "description": "Availability and performance across different platforms and devices.",
+      "description": "Availability and performance of the app across different platforms and devices.",
       "type": "Text [1]",
-      "sources": "App descriptions, user feedback"
+      "sources": "App store listings, compatibility checks, user reviews"
     },
     {
-      "name": "Updates and Support",
-      "description": "Frequency of updates and quality of customer support.",
+      "name": "Innovation",
+      "description": "Unique features and innovations introduced by the app.",
       "type": "Text [1]",
-      "sources": "App store updates history, user reviews"
+      "sources": "App descriptions, tech reviews, innovation awards"
+    },
+    {
+      "name": "User Interface and Experience",
+      "description": "Ease of use, design, and overall user experience.",
+      "type": "Text [1]",
+      "sources": "User reviews, UI/UX analyses, app store ratings"
     }
   ]
 }

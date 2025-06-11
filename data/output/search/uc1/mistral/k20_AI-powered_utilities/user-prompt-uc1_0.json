@@ -1,75 +1,75 @@
 
 {
   "apps": [
-    {"rank": 1, "name": "Replika"},
-    {"rank": 2, "name": "Wysa"},
-    {"rank": 3, "name": "Youper"},
-    {"rank": 4, "name": "Woebot Health"},
-    {"rank": 5, "name": "Moodkit"},
-    {"rank": 6, "name": "What3Words"},
-    {"rank": 7, "name": "CamScanner"},
-    {"rank": 8, "name": "Photomath"},
-    {"rank": 9, "name": "Socratic"},
-    {"rank": 10, "name": "Microsoft Math Solver"},
-    {"rank": 11, "name": "MyScript Calculator"},
-    {"rank": 12, "name": "Adobe Scan"},
-    {"rank": 13, "name": "Genius Scan"},
-    {"rank": 14, "name": "Tiny Scanner"},
-    {"rank": 15, "name": "Scanner Pro"},
-    {"rank": 16, "name": "Google Lens"},
-    {"rank": 17, "name": "Text Fairy"},
-    {"rank": 18, "name": "Office Lens"},
-    {"rank": 19, "name": "ELSA Speak"},
-    {"rank": 20, "name": "HelloTalk"}
+    {"rank": 1, "name": "Microsoft Math Solver"},
+    {"rank": 2, "name": "Photomath"},
+    {"rank": 3, "name": "CamScanner"},
+    {"rank": 4, "name": "Socratic by Google"},
+    {"rank": 5, "name": "Replika"},
+    {"rank": 6, "name": "Wysa"},
+    {"rank": 7, "name": "Youper"},
+    {"rank": 8, "name": "Ada Health"},
+    {"rank": 9, "name": "MyStudyLife"},
+    {"rank": 10, "name": "Forest"},
+    {"rank": 11, "name": "Google Lens"},
+    {"rank": 12, "name": "ELSA Speak"},
+    {"rank": 13, "name": "Molecular Functions"},
+    {"rank": 14, "name": "DrugStars"},
+    {"rank": 15, "name": "Goodbudget"},
+    {"rank": 16, "name": "Spendee"},
+    {"rank": 17, "name": "Mint"},
+    {"rank": 18, "name": "Prisma"},
+    {"rank": 19, "name": "FaceApp"},
+    {"rank": 20, "name": "PicsArt"}
   ],
   "criteria": [
     {
       "name": "User Ratings",
-      "description": "Average user ratings on app stores (e.g., Google Play, Apple App Store).",
+      "description": "Average user ratings on major app stores (e.g., Google Play, Apple App Store).",
       "type": "Float [1]",
       "sources": "Google Play Store, Apple App Store"
     },
     {
       "name": "Downloads",
-      "description": "Total number of downloads or installs from app stores.",
+      "description": "Total number of downloads or installs from major app stores.",
       "type": "Integer [1]",
       "sources": "Google Play Store, Apple App Store, Sensor Tower"
     },
     {
-      "name": "AI Integration",
-      "description": "Level and effectiveness of AI integration in the app's core functionality.",
-      "type": "Text [1]",
-      "sources": "App descriptions, user reviews, tech blogs"
+      "name": "User Reviews",
+      "description": "Number and sentiment of user reviews on major app stores.",
+      "type": "Text [*]",
+      "sources": "Google Play Store, Apple App Store"
     },
     {
-      "name": "User Interface",
-      "description": "Ease of use and intuitiveness of the app's user interface.",
-      "type": "Text [1]",
-      "sources": "User reviews, tech blogs, app screenshots"
+      "name": "App Features",
+      "description": "Unique and innovative features offered by the app, particularly those powered by AI.",
+      "type": "Text [*]",
+      "sources": "App descriptions, developer websites, tech reviews"
     },
     {
-      "name": "Functionality",
-      "description": "Range and usefulness of the app's features.",
+      "name": "UI/UX Design",
+      "description": "Quality and user-friendliness of the app's user interface and user experience.",
       "type": "Text [1]",
-      "sources": "App descriptions, user reviews, tech blogs"
+      "sources": "User reviews, tech blogs, design critiques"
     },
     {
-      "name": "Innovation",
-      "description": "Unique or innovative features that set the app apart from competitors.",
+      "name": "Update Frequency",
+      "description": "Frequency of app updates, indicating ongoing development and support.",
       "type": "Text [1]",
-      "sources": "Tech blogs, app descriptions, user reviews"
+      "sources": "App store update history, developer blogs"
     },
     {
       "name": "Accessibility",
-      "description": "App's availability and performance across different platforms and devices.",
+      "description": "Availability and performance of the app across different platforms and devices.",
       "type": "Text [1]",
-      "sources": "App descriptions, user reviews, tech blogs"
+      "sources": "App store listings, user reviews, developer specifications"
     },
     {
       "name": "Privacy and Security",
-      "description": "App's handling of user data and implementation of security measures.",
+      "description": "App's handling of user data, privacy policies, and security features.",
       "type": "Text [1]",
-      "sources": "App permissions, privacy policies, user reviews"
+      "sources": "Privacy policies, security audits, user reviews"
     }
   ]
 }

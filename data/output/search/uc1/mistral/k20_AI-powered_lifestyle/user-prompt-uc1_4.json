@@ -5,65 +5,71 @@
     {"rank": 2, "name": "Headspace"},
     {"rank": 3, "name": "Sleep Cycle"},
     {"rank": 4, "name": "Calm"},
-    {"rank": 5, "name": "Flo"},
-    {"rank": 6, "name": "Lifesum"},
-    {"rank": 7, "name": "Clue"},
-    {"rank": 8, "name": "Youper"},
-    {"rank": 9, "name": "Fabulous"},
-    {"rank": 10, "name": "Happify"},
-    {"rank": 11, "name": "Noom"},
-    {"rank": 12, "name": "Ada Health"},
-    {"rank": 13, "name": "Wysa"},
-    {"rank": 14, "name": "Moodpath"},
-    {"rank": 15, "name": "Daylio"},
-    {"rank": 16, "name": "Remente"},
-    {"rank": 17, "name": "MoodKit"},
-    {"rank": 18, "name": "Pacer"},
-    {"rank": 19, "name": "Strong"},
-    {"rank": 20, "name": "Fitbit"}
+    {"rank": 5, "name": "Fitbit"},
+    {"rank": 6, "name": "Noom"},
+    {"rank": 7, "name": "Strava"},
+    {"rank": 8, "name": "Nike Training Club"},
+    {"rank": 9, "name": "Lifesum"},
+    {"rank": 10, "name": "Youper"},
+    {"rank": 11, "name": "Flo"},
+    {"rank": 12, "name": "Clue"},
+    {"rank": 13, "name": "MyPlate"},
+    {"rank": 14, "name": "Runtastic"},
+    {"rank": 15, "name": "Endomondo"},
+    {"rank": 16, "name": "MapMyRun"},
+    {"rank": 17, "name": "Cronometer"},
+    {"rank": 18, "name": "Fooducate"},
+    {"rank": 19, "name": "Lose It!"},
+    {"rank": 20, "name": "WW (Weight Watchers)"}
   ],
   "criteria": [
     {
       "name": "User Ratings",
-      "description": "Average user ratings on app stores (e.g., Google Play, Apple App Store).",
+      "description": "Average rating given by users on app stores.",
       "type": "Float [1]",
       "sources": "Google Play Store, Apple App Store"
     },
     {
       "name": "Downloads",
-      "description": "Total number of downloads across all platforms.",
+      "description": "Total number of downloads across platforms.",
       "type": "Integer [1]",
       "sources": "Google Play Store, Apple App Store, Sensor Tower"
     },
     {
       "name": "AI Integration",
-      "description": "Level and effectiveness of AI integration in the app's features.",
+      "description": "Level and effectiveness of AI features integrated into the app.",
       "type": "Text [1]",
       "sources": "App descriptions, user reviews, tech blogs"
     },
     {
       "name": "User Interface",
-      "description": "Quality and user-friendliness of the app's interface.",
+      "description": "Ease of use and design quality of the app interface.",
       "type": "Text [1]",
       "sources": "User reviews, tech blogs, design awards"
     },
     {
       "name": "Feature Set",
-      "description": "Range and usefulness of the app's features.",
+      "description": "Range and usefulness of features offered by the app.",
       "type": "Text [1]",
       "sources": "App descriptions, user reviews, tech blogs"
     },
     {
-      "name": "Update Frequency",
-      "description": "Frequency of app updates and improvements.",
+      "name": "Community Engagement",
+      "description": "Level of user interaction and community features within the app.",
       "type": "Text [1]",
-      "sources": "App store update history, developer blogs"
+      "sources": "User reviews, app descriptions, social media engagement"
     },
     {
       "name": "Privacy and Security",
-      "description": "Level of privacy and security measures implemented in the app.",
+      "description": "Measures taken to ensure user data privacy and security.",
       "type": "Text [1]",
-      "sources": "App privacy policies, security audits, user reviews"
+      "sources": "App privacy policies, user reviews, security audits"
+    },
+    {
+      "name": "Innovation",
+      "description": "Uniqueness and innovation in the app's approach to lifestyle management.",
+      "type": "Text [1]",
+      "sources": "Tech blogs, app descriptions, industry awards"
     }
   ]
 }

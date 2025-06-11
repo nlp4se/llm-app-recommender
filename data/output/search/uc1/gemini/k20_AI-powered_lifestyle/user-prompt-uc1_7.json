@@ -1,0 +1,57 @@
+
+{
+  "apps": [
+    {"rank": 1, "name": "Freeletics"},
+    {"rank": 2, "name": "Aaptiv"},
+    {"rank": 3, "name": "Fitbod"},
+    {"rank": 4, "name": "Strava"},
+    {"rank": 5, "name": "TrainHeroic"},
+    {"rank": 6, "name": "Noom"},
+    {"rank": 7, "name": "MyPlate"},
+    {"rank": 8, "name": "Healthily"},
+    {"rank": 9, "name": "FitGenie"},
+    {"rank": 10, "name": "ASENSEI"},
+    {"rank": 11, "name": "FitnessAI"},
+    {"rank": 12, "name": "ReciMe"},
+    {"rank": 13, "name": "Simple"},
+    {"rank": 14, "name": "HealthifyMe"},
+    {"rank": 15, "name": "Nourish"},
+    {"rank": 16, "name": "Ada"},
+    {"rank": 17, "name": "Babylon"},
+    {"rank": 18, "name": "Buoy"},
+    {"rank": 19, "name": "Klara"},
+    {"rank": 20, "name": "Keelo"}
+  ],
+  "criteria": [
+    {
+      "name": "Personalization",
+      "description": "The degree to which the app adapts to individual user needs, preferences, and goals using AI.",
+      "type": "Text[*]",
+      "sources": "Multiple sources"
+    },
+    {
+      "name": "AI-powered features",
+      "description": "Specific functionalities of the app that are powered by artificial intelligence, such as workout/meal plan generation, progress tracking, and personalized feedback.",
+      "type": "Text[*]",
+      "sources": "Multiple sources"
+    },
+    {
+      "name": "User Engagement",
+      "description": "How well the app keeps users motivated and actively participating in lifestyle improvements.",
+      "type": "Text[*]",
+      "sources": "Multiple sources"
+    },
+    {
+      "name": "Data Analysis",
+      "description": "The app's ability to analyze user data (e.g., activity levels, dietary habits) to provide insights and recommendations.",
+      "type": "Text[*]",
+      "sources": "Multiple sources"
+    },
+    {
+      "name": "Adaptability",
+      "description": "The app's capacity to adjust workout intensity and provide evolving routines as the user progresses.",
+      "type": "Text[*]",
+      "sources": "Multiple sources"
+    }
+  ]
+}

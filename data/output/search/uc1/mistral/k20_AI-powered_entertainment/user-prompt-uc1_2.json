@@ -4,72 +4,72 @@
     {"rank": 1, "name": "Netflix"},
     {"rank": 2, "name": "Spotify"},
     {"rank": 3, "name": "YouTube"},
-    {"rank": 4, "name": "Disney+" },
-    {"rank": 5, "name": "TikTok"},
-    {"rank": 6, "name": "Amazon Prime Video"},
-    {"rank": 7, "name": "Hulu"},
-    {"rank": 8, "name": "Pandora"},
-    {"rank": 9, "name": "HBO Max"},
-    {"rank": 10, "name": "Apple Music"},
-    {"rank": 11, "name": "Twitch"},
-    {"rank": 12, "name": "Peacock TV"},
-    {"rank": 13, "name": "Paramount+" },
+    {"rank": 4, "name": "Disney+"},
+    {"rank": 5, "name": "Amazon Prime Video"},
+    {"rank": 6, "name": "Hulu"},
+    {"rank": 7, "name": "Apple Music"},
+    {"rank": 8, "name": "TikTok"},
+    {"rank": 9, "name": "Pandora"},
+    {"rank": 10, "name": "HBO Max"},
+    {"rank": 11, "name": "Peacock"},
+    {"rank": 12, "name": "Paramount+"},
+    {"rank": 13, "name": "Twitch"},
     {"rank": 14, "name": "SoundCloud"},
-    {"rank": 15, "name": "iHeartRadio"},
-    {"rank": 16, "name": "Deezer"},
-    {"rank": 17, "name": "Sling TV"},
-    {"rank": 18, "name": "fuboTV"},
-    {"rank": 19, "name": "Philo"},
-    {"rank": 20, "name": "Pluto TV"}
+    {"rank": 15, "name": "Deezer"},
+    {"rank": 16, "name": "iHeartRadio"},
+    {"rank": 17, "name": "Audible"},
+    {"rank": 18, "name": "Vimeo"},
+    {"rank": 19, "name": "Crunchyroll"},
+    {"rank": 20, "name": "Funimation"}
   ],
   "criteria": [
     {
       "name": "User Ratings",
-      "description": "Average rating given by users on app stores.",
+      "description": "Average user ratings on app stores (e.g., Google Play, Apple App Store).",
       "type": "Float [1]",
-      "sources": "App Store, Google Play Store"
+      "sources": "Google Play Store, Apple App Store"
     },
     {
-      "name": "Number of Downloads",
-      "description": "Total number of times the app has been downloaded.",
+      "name": "Downloads",
+      "description": "Total number of downloads across platforms.",
       "type": "Integer [1]",
-      "sources": "App Store, Google Play Store, Sensor Tower"
+      "sources": "Google Play Store, Apple App Store, Sensor Tower"
+    },
+    {
+      "name": "Active Users",
+      "description": "Monthly active users (MAU) or daily active users (DAU).",
+      "type": "Integer [1]",
+      "sources": "Company reports, App Annie"
     },
     {
       "name": "Content Library Size",
-      "description": "The size and variety of the content library offered by the app.",
+      "description": "Size and variety of the content library offered by the app.",
       "type": "Integer [1]",
       "sources": "Official app websites, third-party reviews"
     },
     {
       "name": "AI Integration",
-      "description": "Level of AI integration for personalization, recommendations, and user experience.",
+      "description": "Level and effectiveness of AI integration for personalization, recommendations, and other features.",
       "type": "Text [1]",
-      "sources": "Official app descriptions, tech reviews"
+      "sources": "App descriptions, user reviews, tech blogs"
     },
     {
       "name": "User Interface and Experience",
-      "description": "Quality and ease of use of the app's user interface.",
+      "description": "Quality and intuitiveness of the user interface and overall user experience.",
       "type": "Text [1]",
-      "sources": "User reviews, tech blogs"
+      "sources": "User reviews, tech reviews, design awards"
     },
     {
       "name": "Subscription Cost",
-      "description": "Cost of subscription plans offered by the app.",
+      "description": "Cost of subscription plans and value for money.",
       "type": "Float [1]",
-      "sources": "Official app websites, app stores"
+      "sources": "Official app websites, pricing comparisons"
     },
     {
-      "name": "Device Compatibility",
-      "description": "Number of devices and platforms the app is compatible with.",
-      "type": "Integer [1]",
-      "sources": "Official app websites, app stores"
-    },
-    {
-      "name": "Update Frequency",
-      "description": "Frequency of app updates and new feature releases.",
+      "name": "Cross-Platform Availability",
+      "description": "Availability across different platforms (iOS, Android, Web, Smart TVs, etc.).",
       "type": "Text [1]",
-      "sources": "App store update history, official app blogs"
+      "sources": "Official app websites, app store listings"
     }
   ]
 }

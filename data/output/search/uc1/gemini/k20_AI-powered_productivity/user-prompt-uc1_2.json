@@ -4,54 +4,54 @@
     {"rank": 1, "name": "ChatGPT"},
     {"rank": 2, "name": "Notion AI"},
     {"rank": 3, "name": "Grammarly"},
-    {"rank": 4, "name": "Otter.ai"},
+    {"rank": 4, "name": "Claude"},
     {"rank": 5, "name": "Asana"},
-    {"rank": 6, "name": "Reclaim AI"},
-    {"rank": 7, "name": "DALL·E 3"},
-    {"rank": 8, "name": "Midjourney"},
-    {"rank": 9, "name": "Jasper"},
-    {"rank": 10, "name": "Claude"},
-    {"rank": 11, "name": "Perplexity"},
-    {"rank": 12, "name": "Runway"},
-    {"rank": 13, "name": "Fireflies.ai"},
-    {"rank": 14, "name": "Mem"},
-    {"rank": 15, "name": "Taskade"},
-    {"rank": 16, "name": "Superhuman"},
-    {"rank": 17, "name": "Motion"},
-    {"rank": 18, "name": "Canva"},
-    {"rank": 19, "name": "Zapier"},
-    {"rank": 20, "name": "Nyota"}
+    {"rank": 6, "name": "Fathom"},
+    {"rank": 7, "name": "Runway"},
+    {"rank": 8, "name": "Jasper"},
+    {"rank": 9, "name": "DALL·E 3"},
+    {"rank": 10, "name": "Wordtune"},
+    {"rank": 11, "name": "Otter.ai"},
+    {"rank": 12, "name": "Fireflies.ai"},
+    {"rank": 13, "name": "Superhuman"},
+    {"rank": 14, "name": "Any.do"},
+    {"rank": 15, "name": "Mem"},
+    {"rank": 16, "name": "Perplexity"},
+    {"rank": 17, "name": "Synthesia"},
+    {"rank": 18, "name": "Reclaim"},
+    {"rank": 19, "name": "Microsoft 365 Copilot"},
+    {"rank": 20, "name": "Rytr"}
   ],
   "criteria": [
     {
-      "name": "AI Capabilities",
-      "description": "The extent to which the app leverages AI to enhance productivity, including features like content generation, task automation, and intelligent suggestions.",
-      "type": "Boolean[*]",
-      "sources": "Zapier, Motion, iAppList, Synthesia, TimeCamp, V7 Labs, Various"
+      "name": "Functionality",
+      "description": "The range of tasks the app can perform, including text generation, task management, video editing, and more.",
+      "type": "Text[*]",
+      "sources": "Multiple sources"
     },
     {
-      "name": "Task Management",
-      "description": "The app's ability to help users manage tasks, projects, and schedules effectively, often through features like automated scheduling, reminders, and progress tracking.",
-      "type": "Boolean[*]",
-      "sources": "Motion, iAppList, Synthesia, TimeCamp, V7 Labs, Various"
+      "name": "Ease of Use",
+      "description": "How intuitive and user-friendly the app interface is.",
+      "type": "Text[1]",
+      "sources": "Multiple sources"
     },
     {
-      "name": "Content Creation",
-      "description": "The app's capacity to assist users in generating various forms of content, such as text, images, and videos, leveraging AI for enhanced creativity and efficiency.",
-      "type": "Boolean[*]",
-      "sources": "Zapier, Motion, Synthesia, iAppList, Various"
+      "name": "Integration Capabilities",
+      "description": "The ability of the app to connect and work with other platforms and tools.",
+      "type": "Boolean[1]",
+      "sources": "Multiple sources"
     },
     {
-      "name": "Communication & Collaboration",
-      "description": "The app's features that facilitate seamless communication and collaboration among team members, including real-time messaging, file sharing, and integrated workflows.",
-      "type": "Boolean[*]",
-      "sources": "V7 Labs, Synthesia, iAppList, Various"
+      "name": "Customer Reviews",
+      "description": "Summarized ratings or reviews.",
+      "type": "Text[*]",
+      "sources": "Multiple sources"
     },
-    {
-      "name": "User Experience",
-      "description": "How intuitive, efficient, and enjoyable the app is to use, considering factors like ease of navigation, customization options, and overall design.",
-      "type": "Text",
-      "sources": "Motion, V7 Labs, TimeCamp, Various"
+     {
+      "name": "AI model and Features",
+      "description": "The Features that each AI model provide.",
+      "type": "Text[*]",
+      "sources": "Multiple sources"
     }
   ]
 }

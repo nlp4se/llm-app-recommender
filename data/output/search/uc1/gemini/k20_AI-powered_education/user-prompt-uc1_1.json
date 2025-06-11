@@ -1,63 +1,62 @@
-
 {
   "apps": [
     {"rank": 1, "name": "Duolingo"},
-    {"rank": 2, "name": "Carnegie Learning"},
-    {"rank": 3, "name": "Education Copilot"},
-    {"rank": 4, "name": "Gradescope"},
-    {"rank": 5, "name": "Grammarly"},
-    {"rank": 6, "name": "Quizizz"},
-    {"rank": 7, "name": "Wolfram Alpha"},
-    {"rank": 8, "name": "Otter.ai"},
-    {"rank": 9, "name": "Elicit"},
-    {"rank": 10, "name": "Socratic by Google"},
-    {"rank": 11, "name": "ChatGPT"},
-    {"rank": 12, "name": "Exam AI"},
-    {"rank": 13, "name": "Babbel"},
-    {"rank": 14, "name": "Rosetta Stone"},
-    {"rank": 15, "name": "Talkpal"},
-    {"rank": 16, "name": "Loora"},
-    {"rank": 17, "name": "MakesYouFluent"},
-    {"rank": 18, "name": "Memrise"},
-    {"rank": 19, "name": "Busuu"},
-     {"rank": 20, "name": "Writely AI"}
+    {"rank": 2, "name": "Grammarly"},
+    {"rank": 3, "name": "Socratic by Google"},
+    {"rank": 4, "name": "Khan Academy"},
+    {"rank": 5, "name": "Coursera"},
+    {"rank": 6, "name": "Talkpal"},
+    {"rank": 7, "name": "Loora"},
+    {"rank": 8, "name": "MakesYouFluent"},
+    {"rank": 9, "name": "Caktus AI"},
+    {"rank": 10, "name": "Exam AI"},
+    {"rank": 11, "name": "Education Copilot"},
+    {"rank": 12, "name": "Gradescope"},
+    {"rank": 13, "name": "Quizizz"},
+    {"rank": 14, "name": "Wolfram Alpha"},
+    {"rank": 15, "name": "Brilliant"},
+    {"rank": 16, "name": "Synto"},
+    {"rank": 17, "name": "Brisk Teaching"},
+    {"rank": 18, "name": "Photomath"},
+    {"rank": 19, "name": "Mainstay"},
+    {"rank": 20, "name": "Canva AI Design Generator"}
   ],
   "criteria": [
     {
-      "name": "Personalized Learning",
-      "description": "Adapts to the individual student's pace and learning style using AI algorithms.",
+      "name": "Personalized Learning Paths",
+      "description": "The app's ability to create customized study plans that cater to each learner's unique needs by assessing individual strengths and weaknesses based on performance data using AI algorithms.",
       "type": "Boolean[1]",
-      "sources": "Multiple sources"
+      "sources": "weblineindia.com, ideausher.com"
     },
     {
       "name": "AI-Powered Tutoring",
-      "description": "Offers AI-driven support and feedback to students, mimicking a human tutor.",
+      "description": "Availability of AI to offer tutoring and writing assistance in various subjects.",
       "type": "Boolean[1]",
-      "sources": "Multiple sources"
+      "sources": "ideausher.com, sbm Geneva"
     },
     {
-      "name": "Writing Assistance",
-      "description": "Provides AI assistance for writing, including grammar checks, style suggestions, and content generation.",
+      "name": "Automated Assessment and Feedback",
+      "description": "The app's capacity to evaluate assignments, provide detailed feedback, streamline the grading process, ensure consistency, and save teachers time using AI.",
       "type": "Boolean[1]",
-      "sources": "Multiple sources"
+      "sources": "ideausher.com, University of San Diego Online Degrees"
     },
     {
-      "name": "Language Learning",
-      "description": "Uses AI to facilitate language acquisition through interactive lessons and personalized feedback.",
+      "name": "Adaptive Learning Algorithms",
+      "description": "AI algorithms assess a learner's pace, strengths, and gaps, dynamically tailoring lessons and challenges to meet individual needs to increases engagement and retention, especially in self-paced learning.",
       "type": "Boolean[1]",
-      "sources": "Multiple sources"
+      "sources": "kitlabsinc.com"
     },
     {
-      "name": "Real-time Feedback",
-      "description": "Delivers immediate assessment and guidance to students, enhancing their learning experience.",
-      "type": "Boolean[1]",
-      "sources": "Multiple sources"
+      "name": "User Ratings/Reviews",
+      "description": "Aggregated user feedback reflecting overall satisfaction and perceived effectiveness of the app based on user experiences.",
+      "type": "Float[*]",
+      "sources": "App Store, Google Play Store"
     },
-        {
-      "name": "Content Generation",
-      "description": "The app can generate practice questions, flashcards, and study guides using AI.",
+    {
+      "name": "Accessibility Features",
+      "description": "The extent to which the app incorporates features that make it usable by individuals with disabilities, including support for screen readers, alternative text for images, and adjustable font sizes.",
       "type": "Boolean[1]",
-      "sources": "Multiple sources"
+      "sources": "ideausher.com, quokkalabs.com"
     }
   ]
 }
