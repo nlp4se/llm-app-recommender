@@ -1,0 +1,57 @@
+
+{
+  "a": [
+    "Poweramp",
+    "Retro Music Player",
+    "BlackPlayer",
+    "Pulsar Music Player",
+    "Stellio Music Player",
+    "Samsung Music",
+    "eSound",
+    "Evermusic",
+    "Flacbox",
+    "Doppler",
+    "Foobar2000",
+    "Swinsian",
+    "Gapless",
+    "AIMP",
+    "Rocket Player",
+    "Cesium",
+    "VLC",
+    "Muziqi",
+    "Frolomuse",
+    "Nyx Music Player"
+  ],
+  "c": [
+    {
+      "n": "Shuffle Algorithm Quality",
+      "d": "Evaluates how well the app shuffles songs to avoid repetition and ensure randomness.",
+      "t": "Text[1]",
+      "s": "User reviews, app descriptions"
+    },
+    {
+      "n": "Playlist Management",
+      "d": "Assesses the ease of creating, managing, and shuffling playlists.",
+      "t": "Boolean[1]",
+      "s": "App features list, reviews"
+    },
+    {
+      "n": "Offline Playback",
+      "d": "Determines if the app can play music offline.",
+      "t": "Boolean[1]",
+      "s": "App description, user reviews"
+    },
+    {
+      "n": "User Interface and Customization",
+      "d": "Evaluates the ease of use and available customization options.",
+      "t": "Text[1]",
+      "s": "App reviews, app descriptions"
+    },
+    {
+      "n": "Format Support",
+      "d": "Checks for support for major audio formats (MP3, AAC, WAV, FLAC, etc.).",
+      "t": "Text[*]",
+      "s": "App description"
+    }
+  ]
+}

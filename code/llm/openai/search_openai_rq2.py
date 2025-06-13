@@ -23,13 +23,13 @@ class OpenAISearch:
         self.client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
         self.model = model
 
-    def read_and_format_prompt(self, k: int, category: str, ranking_criteria: str) -> str:
+    def read_and_format_prompt(self, k: int, search: str, ranking_criteria: str) -> str:
         """Read the prompt template and replace placeholders with parameters."""
-        input_file = "data/input/prompts/user-prompt-rq2.txt"
+        input_file = "data/input/prompts/user-prompt-feature-rq2.txt"
         with open(input_file, 'r') as file:
             prompt = file.read()
         
-        return prompt.replace('{k}', str(k)).replace('{category}', category).replace('{ranking_criteria}', ranking_criteria)
+        return prompt.replace('{k}', str(k)).replace('{search}', search).replace('{ranking_criteria}', ranking_criteria)
 
     def read_system_prompt(self) -> str:
         """Read the system prompt from a file."""
@@ -54,7 +54,7 @@ class OpenAISearch:
             data = json.load(file)
             return json.dumps(data.get('criteria', []), indent=2)
 
-    def run_prompt(self, output_folder: str, k: int, category: str, criteria_folder: str, n: int = 1, sleep_time: int = 10, schema_file: str = "data/input/schema/rank_apps_schema.json"):
+    def run_prompt(self, output_folder: str, k: int, search: str, criteria_folder: str, n: int = 1, sleep_time: int = 10, schema_file: str = "data/input/schema/rank_apps_schema.json"):
         """Run the prompt n times for each criteria file and save responses."""
         print(f"Starting process at {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
 
@@ -62,7 +62,7 @@ class OpenAISearch:
         json_schema = self.read_json_schema(schema_file)
         os.makedirs(output_folder, exist_ok=True)
 
-        base_name = os.path.splitext(os.path.basename("user-prompt-rq2.txt"))[0]
+        base_name = os.path.splitext(os.path.basename("user-prompt-feature-rq2.txt"))[0]
 
         # Get all JSON files from the criteria folder
         criteria_files = glob.glob(os.path.join(criteria_folder, "*.json"))
@@ -70,7 +70,7 @@ class OpenAISearch:
         for criteria_file in criteria_files:
             criteria_file_name = os.path.splitext(os.path.basename(criteria_file))[0]
             ranking_criteria = self.process_criteria_file(criteria_file)
-            user_prompt = self.read_and_format_prompt(k, category, ranking_criteria)
+            user_prompt = self.read_and_format_prompt(k, search, ranking_criteria)
 
             for i in range(n):
                 print(f"Processing criteria file {criteria_file_name}, run {i+1}/{n}")
@@ -108,15 +108,15 @@ class OpenAISearch:
 
         print("Process complete.")
 
-def main(output_folder: str, k: int, category: str, criteria_folder: str, n: int = 1, model: str = "gpt-4o-search-preview", sleep_time: int = 10, schema_file: str = "data/input/schema/rank_apps_schema.json"):
-    search = OpenAISearch(model)
-    search.run_prompt(output_folder, k, category, criteria_folder, n, sleep_time, schema_file)
+def main(output_folder: str, k: int, search: str, criteria_folder: str, n: int = 1, model: str = "gpt-4o-search-preview", sleep_time: int = 10, schema_file: str = "data/input/schema/rank_apps_schema.json"):
+    searchOpenAI = OpenAISearch(model)
+    searchOpenAI.run_prompt(output_folder, k, search, criteria_folder, n, sleep_time, schema_file)
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Run prompts with Chat Completions API')
     parser.add_argument('--output', required=True, help='Output folder')
     parser.add_argument('--k', type=int, required=True, help='Value for k parameter')
-    parser.add_argument('--category', type=str, required=True, help='Category parameter')
+    parser.add_argument('--search', type=str, required=True, help='search parameter')
     parser.add_argument('--criteria-folder', required=True, help='Folder containing JSON files with criteria')
     parser.add_argument('--n', type=int, default=1, help='Number of runs to perform')
     parser.add_argument('--model', type=str, default='gpt-4o-search-preview', help='Model name')
@@ -124,4 +124,4 @@ if __name__ == "__main__":
     parser.add_argument('--schema', type=str, default='data/input/schema/rq2.json', help='Path to JSON schema file')
     args = parser.parse_args()
     
-    main(args.output, args.k, args.category, args.criteria_folder, args.n, args.model, args.sleep, args.schema)
+    main(args.output, args.k, args.search, args.criteria_folder, args.n, args.model, args.sleep, args.schema)

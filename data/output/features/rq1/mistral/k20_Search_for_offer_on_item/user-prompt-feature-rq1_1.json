@@ -1,0 +1,57 @@
+
+{
+  "a": [
+    "RetailMeNot",
+    "Honey",
+    "Rakuten",
+    "Ibotta",
+    "Checkout 51",
+    "Fetch Rewards",
+    "SavingStar",
+    "Coupons.com",
+    "Groupon",
+    "LivingSocial",
+    "Brad's Deals",
+    "DealNews",
+    "Slickdeals",
+    "Offers.com",
+    "Shopkick",
+    "Receipt Hog",
+    "Mobee",
+    "Shopmium",
+    "Cash App",
+    "Dosh"
+  ],
+  "c": [
+    {
+      "n": "User Ratings",
+      "d": "The average rating given by users on various app stores.",
+      "t": "Float [1]",
+      "s": "Google Play Store, Apple App Store, Amazon Appstore"
+    },
+    {
+      "n": "Number of Downloads",
+      "d": "The total number of times the app has been downloaded.",
+      "t": "Integer [1]",
+      "s": "Google Play Store, Apple App Store, Amazon Appstore"
+    },
+    {
+      "n": "Offer Variety",
+      "d": "The range and diversity of offers and deals available within the app.",
+      "t": "Text [1]",
+      "s": "Official app websites, user reviews, app descriptions"
+    },
+    {
+      "n": "Ease of Use",
+      "d": "The user-friendliness and navigability of the app.",
+      "t": "Text [1]",
+      "s": "User reviews, app descriptions, tech blogs"
+    },
+    {
+      "n": "Customer Support",
+      "d": "The quality and responsiveness of the app's customer support.",
+      "t": "Text [1]",
+      "s": "User reviews, official app websites, tech blogs"
+    }
+  ]
+}

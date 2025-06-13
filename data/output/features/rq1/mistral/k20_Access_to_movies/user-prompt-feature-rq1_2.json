@@ -1,0 +1,87 @@
+
+{
+  "a": [
+    "Netflix",
+    "Amazon Prime Video",
+    "Disney+",
+    "Hulu",
+    "HBO Max",
+    "Apple TV+",
+    "Peacock",
+    "Paramount+",
+    "YouTube",
+    "Google Play Movies & TV",
+    "Vudu",
+    "Tubi",
+    "Pluto TV",
+    "Crackle",
+    "IMDb TV",
+    "Mubi",
+    "The Criterion Channel",
+    "Shudder",
+    "BritBox",
+    "Acorn TV"
+  ],
+  "c": [
+    {
+      "n": "Content Library Size",
+      "d": "The total number of movies and TV shows available on the platform.",
+      "t": "Integer [1]",
+      "s": "Official app websites, third-party reviews, app store descriptions"
+    },
+    {
+      "n": "Streaming Quality",
+      "d": "The quality of the streaming service, including resolution (HD, 4K) and buffering times.",
+      "t": "Text [1]",
+      "s": "User reviews, tech reviews, official app websites"
+    },
+    {
+      "n": "User Interface and Experience",
+      "d": "The ease of use and navigation within the app, including search functionality and recommendations.",
+      "t": "Text [1]",
+      "s": "User reviews, app store ratings, tech reviews"
+    },
+    {
+      "n": "Subscription Cost",
+      "d": "The monthly or yearly cost of the subscription, including any free trials or discounts.",
+      "t": "Float [1]",
+      "s": "Official app websites, app store descriptions"
+    },
+    {
+      "n": "Device Compatibility",
+      "d": "The range of devices that the app is compatible with, including smartphones, tablets, smart TVs, and gaming consoles.",
+      "t": "Text [*]",
+      "s": "Official app websites, app store descriptions, user reviews"
+    },
+    {
+      "n": "User Ratings",
+      "d": "The average rating given by users on app stores and review platforms.",
+      "t": "Float [1]",
+      "s": "App store ratings, user reviews, third-party review sites"
+    },
+    {
+      "n": "Exclusive Content",
+      "d": "The availability of exclusive movies and TV shows that are not available on other platforms.",
+      "t": "Text [1]",
+      "s": "Official app websites, tech reviews, user discussions"
+    },
+    {
+      "n": "Offline Downloads",
+      "d": "The ability to download movies and TV shows for offline viewing.",
+      "t": "Boolean [1]",
+      "s": "Official app websites, app store descriptions, user reviews"
+    },
+    {
+      "n": "Parental Controls",
+      "d": "The availability and effectiveness of parental controls and content filtering options.",
+      "t": "Text [1]",
+      "s": "Official app websites, user reviews, tech reviews"
+    },
+    {
+      "n": "Customer Support",
+      "d": "The quality and responsiveness of customer support, including availability of live chat, email, and phone support.",
+      "t": "Text [1]",
+      "s": "User reviews, official app websites, tech reviews"
+    }
+  ]
+}

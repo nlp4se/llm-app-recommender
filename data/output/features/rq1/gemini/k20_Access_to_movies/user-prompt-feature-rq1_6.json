@@ -1,0 +1,63 @@
+
+{
+  "a": [
+    "Netflix",
+    "Hulu",
+    "Amazon Prime Video",
+    "Disney+",
+    "Max",
+    "Peacock",
+    "Tubi",
+    "Pluto TV",
+    "Freevee",
+    "YouTube (free movies section)",
+    "Vudu",
+    "Plex",
+    "The Criterion Channel",
+    "KweliTV",
+    "Kanopy",
+    "OnStream",
+    "Movie Box",
+    "Flixeon",
+    "Popcorn Box Time",
+    "Mflix-"
+  ],
+  "c": [
+    {
+      "n": "Content Library Size",
+      "d": "Total number of movies available on the platform.",
+      "t": "Integer[*]",
+      "s": "App Store, Google Play Store, Third-party app analysis websites"
+    },
+    {
+      "n": "Streaming Quality",
+      "d": "Maximum resolution and HDR support offered (e.g., 4K HDR, 1080p).",
+      "t": "Text[1]",
+      "s": "App description, official website"
+    },
+    {
+      "n": "Ad Frequency",
+      "d": "Number of ads displayed per hour of viewing.",
+      "t": "Integer[1]",
+      "s": "User reviews, personal testing"
+    },
+    {
+      "n": "Offline Downloads",
+      "d": "Ability to download movies for offline viewing.",
+      "t": "Boolean[1]",
+      "s": "App description, FAQ"
+    },
+    {
+      "n": "Device Compatibility",
+      "d": "Range of devices supported (e.g., iOS, Android, Roku, Smart TVs).",
+      "t": "Text[*]",
+      "s": "App description, official website"
+    },
+    {
+      "n": "User Interface",
+      "d": "Ease of navigation and search functionality within the app.",
+      "t": "Text[1]",
+      "s": "User reviews, personal testing"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+
+{
+  "a": [
+    "WhatsApp",
+    "Telegram",
+    "Signal",
+    "Facebook Messenger",
+    "WeChat",
+    "Line",
+    "Viber",
+    "Slack",
+    "Microsoft Teams",
+    "Discord",
+    "Skype",
+    "Google Chat",
+    "Threema",
+    "Bridgefy",
+    "Wire",
+    "Riot.im",
+    "Zalo",
+    "KakaoTalk",
+    "imov”,
+    "Band"
+  ],
+  "c": [
+    {
+      "n": "Number of Active Users",
+      "d": "The total number of active users on the platform, indicating popularity and reach.",
+      "t": "Integer [1]",
+      "s": "App Stores, Official Press Releases, Market Analysis Reports"
+    },
+    {
+      "n": "Broadcast Feature Availability",
+      "d": "The presence and functionality of the broadcast feature to send messages to multiple contacts.",
+      "t": "Boolean [1]",
+      "s": "App Features List, User Reviews, Official Documentation"
+    },
+    {
+      "n": "User Ratings",
+      "d": "Average user ratings on app stores, reflecting user satisfaction and experience.",
+      "t": "Float [1]",
+      "s": "Google Play Store, Apple App Store, Other App Stores"
+    },
+    {
+      "n": "Security and Privacy Features",
+      "d": "The strength of security and privacy features, such as end-to-end encryption and data protection policies.",
+      "t": "Text [*]",
+      "s": "Official Documentation, Security Audits, Expert Reviews"
+    },
+    {
+      "n": "Ease of Use",
+      "d": "The simplicity and intuitiveness of the app's user interface and overall user experience.",
+      "t": "Text [*]",
+      "s": "User Reviews, Expert Reviews, Usability Testing Reports"
+    }
+  ]
+}

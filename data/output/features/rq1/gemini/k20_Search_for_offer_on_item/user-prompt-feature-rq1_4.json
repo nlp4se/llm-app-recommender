@@ -1,0 +1,57 @@
+
+{
+  "a": [
+    "Amazon App",
+    "ShopSavvy",
+    "Flipp",
+    "BuyVia",
+    "Price.com",
+    "Honey",
+    "Rakuten",
+    "Ibotta",
+    "RetailMeNot",
+    "Slickdeals",
+    "Vouchercloud",
+    "HotUKDeals",
+    "MySupermarket",
+    "Unidays",
+    "Drop",
+    "The Coupons App",
+    "Sherpa Perks",
+    "Shopkick",
+    "Checkout 51",
+    "GasBuddy"
+  ],
+  "c": [
+    {
+      "n": "Price Comparison",
+      "d": "Compares prices across different retailers for the same item.",
+      "t": "Boolean[1]",
+      "s": "Multiple sources"
+    },
+    {
+      "n": "Coupon Availability",
+      "d": "Availability of digital coupons for online and in-store use.",
+      "t": "Boolean[1]",
+      "s": "Multiple sources"
+    },
+    {
+      "n": "Cashback Offers",
+      "d": "Offers cashback on purchases made through the app.",
+      "t": "Boolean[1]",
+      "s": "Multiple sources"
+    },
+    {
+      "n": "Deal Alerts",
+      "d": "Sends notifications when the price of a tracked item drops.",
+      "t": "Boolean[1]",
+      "s": "Multiple sources"
+    },
+    {
+      "n": "Barcode Scanner",
+      "d": "Allows scanning barcodes to quickly find prices and deals.",
+      "t": "Boolean[1]",
+      "s": "Multiple sources"
+    }
+  ]
+}

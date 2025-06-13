@@ -1,0 +1,57 @@
+
+{
+  "a": [
+    "Minecraft",
+    "Terraria",
+    "Stardew Valley",
+    "Bloons TD 6",
+    "XCOM 2 Collection",
+    "Siralim Ultimate",
+    "Infinitode 2",
+    "Balatro",
+    "Genshin Impact",
+    "Slice & Dice",
+    "League of Legends: Wild Rift",
+    "Call of Duty Mobile",
+    "Honkai Star Rail",
+    "Forge of Empires",
+    "Crypt of the NecroDancer",
+    "Roblox",
+    "Free Fire",
+    "Subway Surfers",
+    "Honor of Kings",
+    "Royal Match"
+  ],
+  "c": [
+    {
+      "n": "Graphics Quality",
+      "d": "The visual fidelity and artistic style of the game.",
+      "t": "Text[1]",
+      "s": "User reviews, App Store descriptions, gaming blogs"
+    },
+    {
+      "n": "Gameplay Mechanics",
+      "d": "How engaging and innovative the core gameplay loop is.",
+      "t": "Text[1]",
+      "s": "Gaming blogs, User reviews, Playthrough videos"
+    },
+    {
+      "n": "Replayability",
+      "d": "The game's ability to keep players engaged over long periods.",
+      "t": "Text[1]",
+      "s": "User reviews, Gaming forums, App Store descriptions"
+    },
+    {
+      "n": "Monetization Model",
+      "d": "How the game generates revenue (e.g., in-app purchases, ads) and its impact on gameplay.",
+      "t": "Text[1]",
+      "s": "App Store descriptions, User reviews, Gaming blogs"
+    },
+    {
+      "n": "User Reviews & Ratings",
+      "d": "Aggregated scores and feedback from players.",
+      "t": "Float[1]",
+      "s": "App Store, Google Play Store"
+    }
+  ]
+}

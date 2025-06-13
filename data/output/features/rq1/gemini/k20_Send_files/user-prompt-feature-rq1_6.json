@@ -1,0 +1,63 @@
+
+{
+  "a": [
+    "WeTransfer",
+    "Send Anywhere",
+    "Google Drive",
+    "Dropbox",
+    "Hightail",
+    "Filemail",
+    "Smash",
+    "Citrix ShareFile",
+    "Microsoft OneDrive",
+    "Box",
+    "Tresorit",
+    "pCloud",
+    "Sync.com",
+    "MediaFire",
+    "EasyShare",
+    "InShare",
+    "AirDroid Personal",
+    "LocalSend",
+    "KDE Connect",
+    "QRClip"
+  ],
+  "c": [
+    {
+      "n": "File Size Limit",
+      "d": "Maximum size of files that can be sent or shared.",
+      "t": "Float, [1]",
+      "s": "Product Specifications, Reviews"
+    },
+    {
+      "n": "Security",
+      "d": "Security measures implemented to protect files during transfer and storage, including encryption and password protection.",
+      "t": "Text, [*]",
+      "s": "Product Specifications, Security Audits, User Reviews"
+    },
+    {
+      "n": "Ease of Use",
+      "d": "How easy the app is to use, including the user interface and setup process.",
+      "t": "Text, [1]",
+      "s": "User Reviews, Expert Reviews"
+    },
+    {
+      "n": "Platform Compatibility",
+      "d": "The range of operating systems and devices that the app supports.",
+      "t": "Text, [*]",
+      "s": "Product Specifications, App Store Listings"
+    },
+    {
+      "n": "Transfer Speed",
+      "d": "The speed at which files are transferred between devices or to the cloud.",
+      "t": "Float, [1]",
+      "s": "User Reviews, Expert Reviews"
+    },
+    {
+      "n": "Free Storage",
+      "d": "Amount of free storage offered by the app.",
+      "t": "Integer, [1]",
+      "s": "Product Specifications"
+    }
+  ]
+}

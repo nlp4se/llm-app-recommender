@@ -1,0 +1,63 @@
+
+{
+  "a": [
+    "Among Us",
+    "Roblox",
+    "Minecraft",
+    "Genshin Impact",
+    "Pokémon GO",
+    "Call of Duty: Mobile",
+    "PUBG Mobile",
+    "Clash of Clans",
+    "Candy Crush Saga",
+    "Subway Surfers",
+    "8 Ball Pool",
+    "Clash Royale",
+    "Brawl Stars",
+    "Asphalt 9: Legends",
+    "Angry Birds 2",
+    "Temple Run 2",
+    "Fruit Ninja",
+    "Hill Climb Racing 2",
+    "Ludo King",
+    "Carrom Pool"
+  ],
+  "c": [
+    {
+      "n": "User Ratings",
+      "d": "The average rating given by users on app stores.",
+      "t": "Float [1]",
+      "s": "Google Play Store, Apple App Store, Amazon Appstore"
+    },
+    {
+      "n": "Number of Downloads",
+      "d": "The total number of times the app has been downloaded.",
+      "t": "Integer [1]",
+      "s": "Google Play Store, Apple App Store, Amazon Appstore, Sensor Tower"
+    },
+    {
+      "n": "User Engagement",
+      "d": "The average time users spend on the app per day.",
+      "t": "Float [1]",
+      "s": "App Annie, Sensor Tower, Google Play Store"
+    },
+    {
+      "n": "In-App Purchases",
+      "d": "The availability and variety of in-app purchases.",
+      "t": "Boolean [1]",
+      "s": "Google Play Store, Apple App Store"
+    },
+    {
+      "n": "Multiplayer Features",
+      "d": "The presence and quality of multiplayer modes.",
+      "t": "Text [1]",
+      "s": "Official app descriptions, user reviews"
+    },
+    {
+      "n": "Regular Updates",
+      "d": "Frequency of updates and new content releases.",
+      "t": "Float [1]",
+      "s": "Google Play Store, Apple App Store, official app websites"
+    }
+  ]
+}

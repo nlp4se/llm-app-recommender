@@ -1,0 +1,57 @@
+
+{
+  "a": [
+    "Pocket Casts",
+    "Overcast",
+    "Podcast Addict",
+    "Spotify",
+    "Apple Podcasts",
+    "Google Podcasts",
+    "AntennaPod",
+    "Downcast",
+    "Castro",
+    "Fountain",
+    "Podbean",
+    "Podcast Republic",
+    "YouTube Music",
+    "Amazon Music",
+    "Podcast Guru",
+    "Podverse",
+    "CurioCaster",
+    "PodLP",
+    "Steno.fm",
+    "TrueFans"
+  ],
+  "c": [
+    {
+      "n": "User Ratings",
+      "d": "Average rating given by users in app stores (e.g., Google Play Store, Apple App Store).",
+      "t": "Float[1]",
+      "s": "Google Play Store, Apple App Store"
+    },
+    {
+      "n": "Cross-Platform Availability",
+      "d": "Indicates whether the app is available on multiple operating systems (e.g., iOS, Android, Web).",
+      "t": "Boolean[1]",
+      "s": "App Store Descriptions, Reviews"
+    },
+    {
+      "n": "Offline Playback",
+      "d": "Ability to download podcasts for listening without an internet connection.",
+      "t": "Boolean[1]",
+      "s": "App Store Descriptions, Reviews"
+    },
+    {
+      "n": "Customization Options",
+      "d": "The degree to which users can customize the app's appearance and functionality (e.g., themes, playback speed).",
+      "t": "Integer[1]",
+      "s": "App Reviews, Expert Reviews"
+    },
+    {
+      "n": "Discovery Features",
+      "d": "Effectiveness in helping users find new and interesting podcasts.",
+      "t": "Integer[1]",
+      "s": "App Reviews, Expert Reviews"
+    }
+  ]
+}

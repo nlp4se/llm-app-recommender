@@ -1,0 +1,75 @@
+
+{
+  "a": [
+    "ClickUp",
+    "Notion",
+    "Evernote",
+    "Microsoft OneNote",
+    "Apple Notes",
+    "Google Keep",
+    "Obsidian",
+    "Joplin",
+    "Simplenote",
+    "Bear",
+    "UpNote",
+    "Joplin",
+    "CollaNote",
+    "GoodNotes",
+    "Notability",
+    "Coda",
+    "Xtiles",
+    "Scrintal",
+    "AnyType",
+    "Capacities"
+  ],
+  "c": [
+    {
+      "n": "Note-Taking Capabilities",
+      "d": "The richness and flexibility of the note-taking tools available within the app, including text formatting, multimedia support, and organization features.",
+      "t": "Text[*]",
+      "s": "App Store, User Reviews, Expert Reviews"
+    },
+    {
+      "n": "User Interface",
+      "d": "The intuitiveness and ease of navigation within the app, affecting the speed and efficiency of note creation and retrieval.",
+      "t": "Text[1]",
+      "s": "User Reviews, Expert Reviews"
+    },
+    {
+      "n": "Cross-Platform Sync",
+      "d": "The ability to seamlessly synchronize notes across multiple devices and operating systems.",
+      "t": "Boolean[1]",
+      "s": "App Description, User Reviews"
+    },
+    {
+      "n": "Search Functionality",
+      "d": "The effectiveness and speed of the app's search feature in locating specific notes or information.",
+      "t": "Text[1]",
+      "s": "App Reviews, User Feedback"
+    },
+    {
+      "n": "Organization Features",
+      "d": "Tools such as folders, tags, and linking capabilities that enable users to categorize and structure their notes effectively.",
+      "t": "Text[*]",
+      "s": "App Description, Expert Reviews"
+    },
+    {
+      "n": "Integration Capabilities",
+      "d": "The app's ability to integrate with other productivity tools and services, such as calendars, project management software, and cloud storage.",
+      "t": "Text[*]",
+      "s": "App Description, Expert Reviews"
+    },
+    {
+      "n": "AI Assistance",
+      "d": "The presence and quality of AI-powered features that help summarize, generate, edit, transcribe, and organize notes.",
+      "t": "Boolean[1]",
+      "s": "App Description, Expert Reviews"
+    },
+    {
+      "n": "Pricing",
+      "d": "The cost of the app, including any subscription fees or in-app purchases, and the value provided for the price.",
+      "t": "Float[1]",
+      "s": "App Store, Google Play Store"
+    }
+  ]
+}

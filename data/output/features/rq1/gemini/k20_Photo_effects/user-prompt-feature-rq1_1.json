@@ -1,0 +1,57 @@
+
+{
+  "a": [
+    "Adobe Photoshop Lightroom",
+    "Snapseed",
+    "VSCO",
+    "Afterlight",
+    "PicsArt",
+    "Pixlr",
+    "Fotor",
+    "PhotoDirector",
+    "YouCam Perfect",
+    "Canva",
+    "FaceApp",
+    "Lightleap",
+    "Darkroom",
+    "Photopea",
+    "Photoroom",
+    "Krita",
+    "PhotoScape X",
+    "MyEdit",
+    "Polarr",
+    "Polish"
+  ],
+  "c": [
+    {
+      "n": "Ease of Use",
+      "d": "Reflects how easy the app is to use for beginners and professionals, considering the user interface and learning curve.",
+      "t": "Text[1]",
+      "s": "User reviews, editor reviews"
+    },
+    {
+      "n": "Feature Richness",
+      "d": "Number and quality of photo editing tools and effects available in the app (filters, AI tools, etc.).",
+      "t": "Integer[1]",
+      "s": "App description, editor reviews"
+    },
+    {
+      "n": "Platform Availability",
+      "d": "Platforms on which the app is available (iOS, Android, Web, Windows, macOS).",
+      "t": "Text[*]",
+      "s": "App description"
+    },
+    {
+      "n": "Pricing Model",
+      "d": "The cost of the app, whether free, subscription-based, or one-time purchase, including in-app purchases.",
+      "t": "Text[1]",
+      "s": "App store, in-app information"
+    },
+    {
+      "n": "AI Integration",
+      "d": "How well the app uses Artificial Intelligence to enhance or automate photo editing processes.",
+      "t": "Boolean[1]",
+      "s": "App description, editor reviews"
+    }
+  ]
+}

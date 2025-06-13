@@ -1,0 +1,63 @@
+
+{
+  "a": [
+    "Spotify",
+    "Apple Music",
+    "YouTube Music",
+    "Pandora",
+    "Deezer",
+    "Tidal",
+    "Amazon Music",
+    "SoundCloud",
+    "iHeartRadio",
+    "Napster",
+    "Google Play Music",
+    "Audiomack",
+    "JioSaavn",
+    "Gaana",
+    "Anghami",
+    "Yandex Music",
+    "Qobuz",
+    "Musi",
+    "Boomplay",
+    "Poweramp"
+  ],
+  "c": [
+    {
+      "n": "Shuffle Mode Availability",
+      "d": "The app must support shuffle mode for playlists.",
+      "t": "Boolean, [1]",
+      "s": "App store descriptions, official app websites, user reviews"
+    },
+    {
+      "n": "Music Library Size",
+      "d": "The total number of songs available in the app's library.",
+      "t": "Integer, [1]",
+      "s": "Official app websites, tech reviews, news articles"
+    },
+    {
+      "n": "User Interface and Experience",
+      "d": "The ease of use and navigability of the app's interface.",
+      "t": "Text, [1]",
+      "s": "User reviews, tech blogs, app store ratings"
+    },
+    {
+      "n": "Platform Compatibility",
+      "d": "The number of platforms the app is compatible with (iOS, Android, Web, etc.).",
+      "t": "Integer, [1]",
+      "s": "App store descriptions, official app websites"
+    },
+    {
+      "n": "User Ratings",
+      "d": "The average rating given by users on app stores.",
+      "t": "Float, [1]",
+      "s": "App store ratings, user review websites"
+    },
+    {
+      "n": "Additional Features",
+      "d": "The availability of additional features like offline downloads, social sharing, etc.",
+      "t": "Text, [*]",
+      "s": "App store descriptions, official app websites, user reviews"
+    }
+  ]
+}

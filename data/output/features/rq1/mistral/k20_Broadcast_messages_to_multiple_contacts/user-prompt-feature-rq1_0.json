@@ -1,0 +1,75 @@
+
+{
+  "a": [
+    "WhatsApp",
+    "Telegram",
+    "Signal",
+    "Facebook Messenger",
+    "WeChat",
+    "Line",
+    "Viber",
+    "Kik",
+    "GroupMe",
+    "BAND",
+    "Slack",
+    "Microsoft Teams",
+    "Discord",
+    "Skype",
+    "Google Chat",
+    "Threema",
+    "Bridgefy",
+    "Zalo",
+    "KaKaoTalk",
+    "IMO"
+  ],
+  "c": [
+    {
+      "n": "User Base",
+      "d": "The total number of active users on the platform.",
+      "t": "Integer [1]",
+      "s": "App Annie, Sensor Tower, SimilarWeb, Official App Websites"
+    },
+    {
+      "n": "Group Size Limit",
+      "d": "The maximum number of participants that can be included in a single broadcast or group message.",
+      "t": "Integer [1]",
+      "s": "Official App Documentation, Help Centers, Tech Specification Websites"
+    },
+    {
+      "n": "Message Delivery Success Rate",
+      "d": "The percentage of messages successfully delivered to the intended recipients.",
+      "t": "Float [1]",
+      "s": "App Reviews, User Feedback, Independent Testing Reports"
+    },
+    {
+      "n": "Cross-Platform Availability",
+      "d": "The availability of the app across different platforms such as iOS, Android, Web, Desktop, etc.",
+      "t": "Text [*]",
+      "s": "Official App Websites, App Store Listings, Tech Blogs"
+    },
+    {
+      "n": "User Interface and Experience",
+      "d": "The overall design, ease of use, and user satisfaction with the app's interface and features.",
+      "t": "Text [1]",
+      "s": "App Reviews, User Feedback, UI/UX Analysis Reports"
+    },
+    {
+      "n": "Security and Privacy Features",
+      "d": "The measures taken by the app to ensure user data security and privacy, such as end-to-end encryption, two-factor authentication, etc.",
+      "t": "Text [*]",
+      "s": "Official App Documentation, Security Audit Reports, Tech News Articles"
+    },
+    {
+      "n": "Integration with Other Services",
+      "d": "The ability of the app to integrate with other services and platforms for extended functionality.",
+      "t": "Text [*]",
+      "s": "Official App Websites, Developer Documentation, Tech Blogs"
+    },
+    {
+      "n": "Cost",
+      "d": "The cost associated with using the app, including any subscription fees or in-app purchases.",
+      "t": "Text [1]",
+      "s": "App Store Listings, Official App Websites, Pricing Pages"
+    }
+  ]
+}

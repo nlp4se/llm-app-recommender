@@ -1,0 +1,57 @@
+
+{
+  "a": [
+    "Twitch",
+    "YouTube Live",
+    "Facebook Live",
+    "Instagram Live",
+    "TikTok Live",
+    "Kick",
+    "Streamlabs",
+    "Prism Live Studio",
+    "StreamYard",
+    "Camo Studio",
+    "Bigo Live",
+    "YouNow",
+    "LiveMe",
+    "Larix Broadcaster",
+    "nanoStream",
+    "Wirecast Go",
+    "AIRMIX",
+    "BroadcastMe",
+    "Switcher Studio",
+    "Vimeo"
+  ],
+  "c": [
+    {
+      "n": "Audience Reach",
+      "d": "Estimated number of active users on the platform.",
+      "t": "Integer[*]",
+      "s": "Various sources based on platform analytics and reports"
+    },
+    {
+      "n": "Monetization Options",
+      "d": "Availability of features like subscriptions, ads, donations, and virtual gifts.",
+      "t": "Text[*]",
+      "s": "Platform descriptions, user reviews"
+    },
+    {
+      "n": "Ease of Use",
+      "d": "How simple it is to set up and start a live stream.",
+      "t": "Text[1]",
+      "s": "User reviews, app descriptions"
+    },
+    {
+      "n": "Mobile Optimization",
+      "d": "Performance and features specific to mobile devices.",
+      "t": "Boolean[1]",
+      "s": "App descriptions, user reviews"
+    },
+    {
+      "n": "Community Engagement Tools",
+      "d": "Features available to interact with viewers (e.g., chat, polls, reactions).",
+      "t": "Text[*]",
+      "s": "Platform descriptions"
+    }
+  ]
+}

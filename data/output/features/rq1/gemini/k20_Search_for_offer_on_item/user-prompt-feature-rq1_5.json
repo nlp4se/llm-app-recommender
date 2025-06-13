@@ -1,0 +1,57 @@
+
+{
+  "a": [
+    "Flipp",
+    "Slickdeals",
+    "Best Buy",
+    "Groupon",
+    "Amazon Shopping",
+    "Capital One Shopping",
+    "Walmart",
+    "Wish",
+    "eBay",
+    "PayPal Honey",
+    "AliExpress",
+    "OfferUp",
+    "Fetch",
+    "LightInTheBox",
+    "KCL",
+    "Mercari",
+    "Poshmark",
+    "Whatnot",
+    "Old Navy",
+    "Temu"
+  ],
+  "c": [
+    {
+      "n": "Breadth of Deals",
+      "d": "The variety of deals and discounts available across different retailers and product categories.",
+      "t": "Integer[*]",
+      "s": "App Store, Google Play Store, Expert Reviews"
+    },
+    {
+      "n": "User Ratings",
+      "d": "Average user rating from app stores, reflecting user satisfaction with the app's functionality and deal quality.",
+      "t": "Float[1]",
+      "s": "App Store, Google Play Store"
+    },
+    {
+      "n": "Deal personalization",
+      "d": "How well the app tailors deals to individual user preferences and shopping habits.",
+      "t": "Boolean[1]",
+      "s": "Expert Reviews, User Reviews"
+    },
+    {
+      "n": "Ease of Use",
+      "d": "The intuitiveness and simplicity of the app's interface and navigation.",
+      "t": "Text[1]",
+      "s": "User Reviews, Expert Reviews"
+    },
+    {
+      "n": "Community Engagement",
+      "d": "The level of user interaction and community-driven deal sharing within the app.",
+      "t": "Integer[1]",
+      "s": "App Store, Google Play Store, Expert Reviews"
+    }
+  ]
+}

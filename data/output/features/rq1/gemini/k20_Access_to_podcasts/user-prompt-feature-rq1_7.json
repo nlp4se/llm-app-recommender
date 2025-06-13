@@ -1,0 +1,87 @@
+
+{
+  "a": [
+    "Spotify",
+    "Apple Podcasts",
+    "Pocket Casts",
+    "Overcast",
+    "Podcast Addict",
+    "Castbox",
+    "Audials Play",
+    "Google Podcasts",
+    "Downcast",
+    "AntennaPod",
+    "Castro",
+    "Player FM",
+    "Podcast Player",
+    "Audible",
+    "SiriusXM",
+    "Podcast App",
+    "Desktop Browser",
+    "Mobile Browser",
+    "Embed Player",
+    "Storybutton"
+  ],
+  "c": [
+    {
+      "n": "Cross-Platform Availability",
+      "d": "The app is available on multiple platforms (iOS, Android, Web, Desktop).",
+      "t": "Boolean[*]",
+      "s": "App Store, Google Play Store, Developer Website"
+    },
+    {
+      "n": "User Interface",
+      "d": "Cleanliness and ease of navigation of the app's user interface.",
+      "t": "Text[1]",
+      "s": "User Reviews, Expert Reviews"
+    },
+    {
+      "n": "Free Features",
+      "d": "Availability of essential features (e.g., playback control, subscription management) in the free version.",
+      "t": "Boolean[*]",
+      "s": "App Store, Google Play Store, User Reviews"
+    },
+    {
+      "n": "Offline Playback",
+      "d": "Ability to download podcasts for offline listening.",
+      "t": "Boolean[1]",
+      "s": "App Description, User Reviews"
+    },
+    {
+      "n": "Variable Speed Playback",
+      "d": "Allows adjusting the playback speed of podcasts.",
+      "t": "Boolean[1]",
+      "s": "App Description, User Reviews"
+    },
+    {
+      "n": "Ad-Free Option",
+      "d": "Availability of a paid subscription to remove ads.",
+      "t": "Boolean[1]",
+      "s": "App Store, Google Play Store, Developer Website"
+    },
+    {
+      "n": "Podcast Discovery",
+      "d": "Features that aid in discovering new podcasts (e.g., recommendations, curated lists).",
+      "t": "Boolean[*]",
+      "s": "App Description, Expert Reviews"
+    },
+    {
+      "n": "Customization Options",
+      "d": "Extent to which the app allows customization of the listening experience (e.g., themes, playback settings).",
+      "t": "Integer[1]",
+      "s": "Expert Reviews, App Settings"
+    },
+    {
+      "n": "Storage Management",
+      "d": "Features that help manage downloaded podcast episodes and storage space.",
+      "t": "Boolean[1]",
+      "s": "App Description, User Reviews"
+    },
+    {
+      "n": "Cross-Device Sync",
+      "d": "Synchronizes listening progress and subscriptions across multiple devices.",
+      "t": "Boolean[1]",
+      "s": "App Description, User Reviews"
+    }
+  ]
+}

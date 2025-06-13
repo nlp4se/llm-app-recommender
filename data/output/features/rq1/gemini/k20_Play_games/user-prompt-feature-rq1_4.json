@@ -1,0 +1,57 @@
+
+{
+  "a": [
+    "Balatro",
+    "Hades Mobile",
+    "Zenless Zone Zero",
+    "Wuthering Waves",
+    "Afterimage",
+    "Ex Astris",
+    "Honour of Kings",
+    "AFK Journey",
+    "Star Wars: Hunters",
+    "Fall Guys Mobile",
+    "Solo Leveling: Arise",
+    "Devil May Cry: Peak of Combat",
+    "Cookie Run: Tower of Adventures",
+    "COD Warzone Mobile",
+    "Pokemon TCG Pocket",
+    "Royal Match",
+    "Monopoly Go",
+    "Genshin Impact",
+    "Clash of Clans",
+    "Sonic Rumble"
+  ],
+  "c": [
+    {
+      "n": "Graphics Quality",
+      "d": "Visual fidelity and artistic style of the game.",
+      "t": "Text",
+      "s": "User reviews, app store descriptions, game reviews"
+    },
+    {
+      "n": "Gameplay Mechanics",
+      "d": "How engaging, innovative, and polished the game's core mechanics are.",
+      "t": "Text",
+      "s": "Game reviews, gameplay videos, user feedback"
+    },
+    {
+      "n": "Genre",
+      "d": "The game's genre and its popularity among mobile gamers.",
+      "t": "Text",
+      "s": "App store categories, game descriptions, market analysis"
+    },
+    {
+      "n": "Monetization Model",
+      "d": "How the game implements in-app purchases or other monetization strategies (e.g., free-to-play, premium).",
+      "t": "Text",
+      "s": "App store information, user reviews, game industry reports"
+    },
+    {
+      "n": "User Reviews and Ratings",
+      "d": "Overall sentiment and scores from user reviews on app stores.",
+      "t": "Float [1]",
+      "s": "App stores (e.g., Google Play Store, Apple App Store)"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+
+{
+  "a": [
+    "eBay",
+    "Facebook Marketplace",
+    "Poshmark",
+    "Mercari",
+    "OfferUp",
+    "Etsy",
+    "Depop",
+    "Vestiaire Collective",
+    "ThredUp",
+    "Decluttr",
+    "5miles",
+    "Chairish",
+    "Letgo (Now Part of OfferUp)",
+    "Nextdoor",
+    "Craigslist",
+    "Reverb",
+    "Vendoo",
+    "Vinted",
+    "Grailed",
+    "Amazon"
+  ],
+  "c": [
+    {
+      "n": "Fees",
+      "d": "The amount charged per listing or when an item sells, affecting profitability.",
+      "t": "Float[*]",
+      "s": "Various sources"
+    },
+    {
+      "n": "Target Audience",
+      "d": "The specific group of buyers and sellers the app caters to (e.g., local, global, luxury, fashion, electronics).",
+      "t": "Text[*]",
+      "s": "Various sources"
+    },
+    {
+      "n": "Ease of Use",
+      "d": "How simple the app is to navigate, list items, and complete transactions.",
+      "t": "Text",
+      "s": "Various sources"
+    },
+    {
+      "n": "Shipping Options",
+      "d": "The available choices for shipping items to buyers, including prepaid labels and independent shipping.",
+      "t": "Text[*]",
+      "s": "Various sources"
+    },
+    {
+      "n": "Product Categories",
+      "d": "The range of items that can be sold on the app, from clothing to electronics to furniture.",
+      "t": "Text[*]",
+      "s": "Various sources"
+    },
+    {
+      "n": "User Base",
+      "d": "The number of active users on the platform, influencing potential reach and sales volume.",
+      "t": "Integer",
+      "s": "Various sources"
+    }
+  ]
+}

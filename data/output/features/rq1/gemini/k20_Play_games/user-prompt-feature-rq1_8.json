@@ -1,0 +1,57 @@
+
+{
+  "a": [
+    "Balatro",
+    "Halls of Torment",
+    "Afterimage",
+    "Wuthering Waves",
+    "Zenless Zone Zero",
+    "AFK Journey",
+    "Honkai: Star Rail",
+    "Genshin Impact",
+    "Pokemon TCG Pocket",
+    "Squad Busters",
+    "Cookie Run: Tower of Adventures",
+    "Devil May Cry: Peak of Combat",
+    "Sonic Mania Plus",
+    "Star Wars Hunters",
+    "Ex Astris",
+    "One Punch Man World",
+    "Infinity Nikki",
+    "Clash of Clans",
+    "Royal Match",
+    "Roblox"
+  ],
+  "c": [
+    {
+      "n": "User Ratings",
+      "d": "Average rating given by users on app stores (e.g., Google Play Store, Apple App Store)",
+      "t": "Float [1]",
+      "s": "Google Play Store, Apple App Store"
+    },
+    {
+      "n": "Number of Downloads",
+      "d": "The total number of times the app has been downloaded.",
+      "t": "Integer [1]",
+      "s": "Google Play Store, 3rd party app analytics providers"
+    },
+    {
+      "n": "Genre Popularity",
+      "d": "How popular the game's genre is, based on download numbers and active players.",
+      "t": "Float [1]",
+      "s": "Mobilegamer.biz, Internal analysis"
+    },
+    {
+      "n": "Critic Reviews",
+      "d": "Average rating assigned by professional game critics.",
+      "t": "Float [1]",
+      "s": "IGN, GameSpot, MiniReview"
+    },
+    {
+      "n": "In-App Purchases",
+      "d": "Presence and intrusiveness of in-app purchase options.",
+      "t": "Boolean [1]",
+      "s": "Google Play Store, Apple App Store, Game Reviews"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+
+{
+  "a": [
+    "Netflix",
+    "Hulu",
+    "Amazon Prime Video",
+    "Disney+",
+    "Max",
+    "Peacock",
+    "Tubi",
+    "Pluto TV",
+    "Crackle",
+    "The Roku Channel",
+    "Movies Anywhere",
+    "Viki",
+    "FilmRise",
+    "Yidio",
+    "Popcornflix",
+    "Stremio",
+    "BeeTV",
+    "FilmPlus",
+    "Cinema APK",
+    "OnStream"
+  ],
+  "c": [
+    {
+      "n": "Content Library Size",
+      "d": "Total number of movies available on the app.",
+      "t": "Integer[*]",
+      "s": "App Store, Google Play Store, Company Website"
+    },
+    {
+      "n": "Subscription Cost",
+      "d": "Monthly or annual fee required to access premium content.",
+      "t": "Float[1]",
+      "s": "App Store, Google Play Store, Company Website"
+    },
+    {
+      "n": "Ad Frequency",
+      "d": "How often ads appear during movie playback.",
+      "t": "Integer[1]",
+      "s": "User Reviews, Personal Testing"
+    },
+    {
+      "n": "Video Quality",
+      "d": "Maximum resolution supported by the app (e.g., 4K, 1080p, 720p).",
+      "t": "Text[1]",
+      "s": "App Description, User Reviews"
+    },
+    {
+      "n": "User Interface",
+      "d": "Ease of navigation and overall app design.",
+      "t": "Text[1]",
+      "s": "User Reviews, Personal Testing"
+    }
+  ]
+}

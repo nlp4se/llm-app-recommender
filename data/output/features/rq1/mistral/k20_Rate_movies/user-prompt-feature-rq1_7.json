@@ -1,0 +1,63 @@
+
+{
+  "a": [
+    "IMDb",
+    "Letterboxd",
+    "Rotten Tomatoes",
+    "Metacritic",
+    "Flickster",
+    "MovieDiary",
+    "iCheckMovies",
+    "Trakt",
+    "JustWatch",
+    "Flixster Video",
+    "Cinemark",
+    "AMC Theatres",
+    "CinemaBox",
+    "MovieMate Pro",
+    "Taste",
+    "MUBI",
+    "FilmStruck",
+    "Shuffle",
+    "MovieBase",
+    "Cinema Time"
+  ],
+  "c": [
+    {
+      "n": "User Base",
+      "d": "The number of active users or downloads of the app, indicating its popularity and reliability.",
+      "t": "Integer [1]",
+      "s": "App Store, Google Play Store, Sensor Tower, App Annie"
+    },
+    {
+      "n": "Rating System",
+      "d": "The method and effectiveness of the app's movie rating system, including user reviews and critic scores.",
+      "t": "Text [1]",
+      "s": "Official app websites, user reviews on app stores"
+    },
+    {
+      "n": "User Interface",
+      "d": "The design and ease of use of the app's interface, affecting the overall user experience.",
+      "t": "Text [1]",
+      "s": "User reviews on app stores, tech blogs, official app websites"
+    },
+    {
+      "n": "Feature Set",
+      "d": "The range and quality of features offered by the app, such as watchlists, trailers, showtimes, and integration with other services.",
+      "t": "Text [1]",
+      "s": "Official app websites, user reviews on app stores, tech blogs"
+    },
+    {
+      "n": "Update Frequency",
+      "d": "How often the app is updated with new features, bug fixes, and improvements.",
+      "t": "Text [1]",
+      "s": "App Store, Google Play Store, Sensor Tower"
+    },
+    {
+      "n": "Cross-Platform Availability",
+      "d": "The availability of the app across different platforms and devices, including iOS, Android, web, and smart TVs.",
+      "t": "Text [1]",
+      "s": "Official app websites, App Store, Google Play Store"
+    }
+  ]
+}

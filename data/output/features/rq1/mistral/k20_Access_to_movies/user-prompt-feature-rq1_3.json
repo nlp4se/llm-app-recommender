@@ -1,0 +1,87 @@
+
+{
+  "a": [
+    "Netflix",
+    "Disney+",
+    "Hulu",
+    "Amazon Prime Video",
+    "HBO Max",
+    "Apple TV+",
+    "Paramount+",
+    "Peacock",
+    "YouTube",
+    "Google Play Movies & TV",
+    "Vudu",
+    "Tubi",
+    "Pluto TV",
+    "Crackle",
+    "IMDb TV",
+    "Mubi",
+    "The Criterion Channel",
+    "Shudder",
+    "Kanopy",
+    "Hoopla"
+  ],
+  "c": [
+    {
+      "n": "Content Library Size",
+      "d": "The total number of movies and TV shows available on the platform.",
+      "t": "Integer [1]",
+      "s": "Official app descriptions, third-party reviews, app websites"
+    },
+    {
+      "n": "Subscription Cost",
+      "d": "The monthly or yearly fee required to access the service.",
+      "t": "Float [1]",
+      "s": "Official app descriptions, app websites, third-party reviews"
+    },
+    {
+      "n": "User Interface and Experience",
+      "d": "The ease of use and overall design of the app, including navigation and search functionality.",
+      "t": "Text [1]",
+      "s": "User reviews, third-party reviews, expert analyses"
+    },
+    {
+      "n": "Streaming Quality",
+      "d": "The quality of video streaming, including resolution options and buffering times.",
+      "t": "Text [1]",
+      "s": "User reviews, third-party reviews, expert analyses"
+    },
+    {
+      "n": "Device Compatibility",
+      "d": "The range of devices and platforms on which the app is available.",
+      "t": "Text [1]",
+      "s": "Official app descriptions, app websites, third-party reviews"
+    },
+    {
+      "n": "User Ratings",
+      "d": "The average rating given by users on app stores and review platforms.",
+      "t": "Float [1]",
+      "s": "App store listings, third-party review platforms"
+    },
+    {
+      "n": "Exclusive Content",
+      "d": "The availability of exclusive movies and TV shows that are not available on other platforms.",
+      "t": "Boolean [1]",
+      "s": "Official app descriptions, third-party reviews, app websites"
+    },
+    {
+      "n": "Offline Downloads",
+      "d": "The ability to download movies and TV shows for offline viewing.",
+      "t": "Boolean [1]",
+      "s": "Official app descriptions, app websites, third-party reviews"
+    },
+    {
+      "n": "Parental Controls",
+      "d": "The availability of features to control and monitor content access for children.",
+      "t": "Boolean [1]",
+      "s": "Official app descriptions, app websites, third-party reviews"
+    },
+    {
+      "n": "Ad-Supported Content",
+      "d": "The presence of ads within the content and the option to remove ads with a premium subscription.",
+      "t": "Boolean [1]",
+      "s": "Official app descriptions, app websites, third-party reviews"
+    }
+  ]
+}

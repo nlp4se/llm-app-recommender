@@ -26,13 +26,13 @@ class GeminiSearch:
         self.model = model
         logger.info(f"Using model: {self.model}")
 
-    def read_and_format_prompt(self, k: int, category: str) -> str:
+    def read_and_format_prompt(self, k: int, search: str) -> str:
         """Read the prompt template and replace placeholders with parameters."""
-        input_file = "data/input/prompts/user-prompt-rq1.txt"
+        input_file = "data/input/prompts/user-prompt-feature-rq1.txt"
         with open(input_file, 'r') as file:
             prompt = file.read()
         
-        return prompt.replace('{k}', str(k)).replace('{category}', category)
+        return prompt.replace('{k}', str(k)).replace('{search}', search)
 
     def read_system_prompt(self, system_prompt_path: str) -> str:
         """Read the system prompt from the specified file."""
@@ -52,15 +52,15 @@ class GeminiSearch:
         with open(output_file, 'w', encoding='utf-8') as f:
             f.write(response)
 
-    def run_prompt(self, output_folder: str, k: int, category: str, system_prompt_path: str, n: int = 1, sleep_time: int = 10):
+    def run_prompt(self, output_folder: str, k: int, search: str, system_prompt_path: str, n: int = 1, sleep_time: int = 10):
         """Run the prompt n times and save responses."""
         print(f"Starting process at {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
 
-        user_prompt = self.read_and_format_prompt(k, category)
+        user_prompt = self.read_and_format_prompt(k, search)
         system_instruction = self.read_system_prompt(system_prompt_path)
         os.makedirs(output_folder, exist_ok=True)
 
-        base_name = os.path.splitext(os.path.basename("user-prompt-rq1.txt"))[0]
+        base_name = os.path.splitext(os.path.basename("user-prompt-feature-rq1.txt"))[0]
 
         for i in range(n):
             print(f"Processing run {i+1}/{n}")
@@ -106,19 +106,19 @@ class GeminiSearch:
 
         print("Process complete.")
 
-def main(output_folder: str, k: int, category: str, system_prompt_path: str, n: int = 1, model: str = "gemini-2.0-flash", sleep_time: int = 10):
-    search = GeminiSearch(model)
-    search.run_prompt(output_folder, k, category, system_prompt_path, n, sleep_time)
+def main(output_folder: str, k: int, search: str, system_prompt_path: str, n: int = 1, model: str = "gemini-2.0-flash", sleep_time: int = 10):
+    searchGemini = GeminiSearch(model)
+    searchGemini.run_prompt(output_folder, k, search, system_prompt_path, n, sleep_time)
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Run prompts with Google Gemini API')
     parser.add_argument('--output', required=True, help='Output folder')
     parser.add_argument('--k', type=int, required=True, help='Value for k parameter')
-    parser.add_argument('--category', type=str, required=True, help='Category parameter')
+    parser.add_argument('--search', type=str, required=True, help='search parameter')
     parser.add_argument('--system-prompt', required=True, help='Path to the system prompt file')
     parser.add_argument('--n', type=int, default=1, help='Number of runs to perform')
     parser.add_argument('--model', type=str, default='gemini-2.0-flash', help='Model name')
     parser.add_argument('--sleep', type=int, default=10, help='Sleep time between runs in seconds')
     args = parser.parse_args()
     
-    main(args.output, args.k, args.category, args.system_prompt, args.n, args.model, args.sleep)
+    main(args.output, args.k, args.search, args.system_prompt, args.n, args.model, args.sleep)

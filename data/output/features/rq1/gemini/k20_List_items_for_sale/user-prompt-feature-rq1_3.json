@@ -1,0 +1,75 @@
+
+{
+  "a": [
+    "eBay",
+    "Facebook Marketplace",
+    "Poshmark",
+    "Decluttr",
+    "Etsy Seller",
+    "OfferUp",
+    "ThredUp",
+    "Mercari",
+    "Nextdoor",
+    "Craigslist",
+    "Depop",
+    "Reverb",
+    "Vestiaire Collective",
+    "TheRealReal",
+    "Gameflip",
+    "Vinted",
+    "Shopify",
+    "Amazon",
+    "5miles",
+    "Letgo"
+  ],
+  "c": [
+    {
+      "n": "User Base",
+      "d": "Number of active users on the platform. A larger user base increases the likelihood of a sale.",
+      "t": "Integer[*]",
+      "s": "Multiple sources"
+    },
+    {
+      "n": "Fees",
+      "d": "Listing fees, commission fees, and payment processing fees charged by the app.",
+      "t": "Float[*]",
+      "s": "Multiple sources"
+    },
+    {
+      "n": "Target Audience",
+      "d": "The specific demographic or type of buyer that the app caters to (e.g., fashion enthusiasts, collectors, local buyers).",
+      "t": "Text[*]",
+      "s": "Multiple sources"
+    },
+    {
+      "n": "Ease of Use",
+      "d": "The simplicity and intuitiveness of the app's interface for listing items, managing inventory, and communicating with buyers.",
+      "t": "Text[1]",
+      "s": "Multiple sources"
+    },
+    {
+      "n": "Shipping Options",
+      "d": "The availability of prepaid shipping labels, integrated shipping services, and options for local pickup.",
+      "t": "Boolean[1]",
+      "s": "Multiple sources"
+    },
+    {
+      "n": "Payment Security",
+      "d": "The security measures in place to protect sellers from fraud and ensure timely payments.",
+      "t": "Boolean[1]",
+      "s": "Multiple sources"
+    },
+    {
+      "n": "Item categories",
+      "d": "Types of the items that you can list on the app.",
+      "t": "Text[*]",
+      "s": "Multiple sources"
+    },
+    {
+      "n": "Seller tools",
+      "d": "Tools available to sellers to help them manage their listings and sales (e.g., inventory management, analytics, marketing tools).",
+      "t": "Text[*]",
+      "s": "Multiple sources"
+    }
+  ]
+}

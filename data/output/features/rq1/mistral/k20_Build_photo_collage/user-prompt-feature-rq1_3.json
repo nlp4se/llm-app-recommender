@@ -1,0 +1,69 @@
+
+{
+  "a": [
+    "PicCollage",
+    "Layout from Instagram",
+    "Canva",
+    "Adobe Spark",
+    "PicsArt",
+    "Fotor",
+    "Ribbet",
+    "BeFunky",
+    "PhotoGrid",
+    "Pic Stitch",
+    "Moldiv",
+    "Diptic",
+    "PicPlayPost",
+    "Collage Maker",
+    "Photo Blend & Shape Collage Maker",
+    "Fuzel Collage",
+    "PicJointer",
+    "Frame Swagg",
+    "Photo Collage Editor",
+    "Kizu — Frame & Photo Collage"
+  ],
+  "c": [
+    {
+      "n": "User Ratings",
+      "d": "Average rating of the app given by users on platforms such as Google Play Store and Apple App Store.",
+      "t": "Float [1]",
+      "s": "Google Play Store, Apple App Store, AppAnnie"
+    },
+    {
+      "n": "Number of Downloads",
+      "d": "Total number of times the app has been downloaded from major app stores.",
+      "t": "Integer [1]",
+      "s": "Google Play Store, Apple App Store, Sensor Tower"
+    },
+    {
+      "n": "User Interface Design",
+      "d": "Quality and usability of the app's user interface based on reviews and expert opinions.",
+      "t": "Text [1]",
+      "s": "TechRadar, CNET, User Reviews"
+    },
+    {
+      "n": "Feature Set",
+      "d": "Range and quality of features offered by the app, such as templates, editing tools, and sharing options.",
+      "t": "Text [1]",
+      "s": "App Store Descriptions, Expert Reviews, User Feedback"
+    },
+    {
+      "n": "Ease of Use",
+      "d": "Simplicity and intuitiveness of the app's interface and tools based on user feedback.",
+      "t": "Text [1]",
+      "s": "User Reviews, Expert Analysis"
+    },
+    {
+      "n": "Regular Updates",
+      "d": "Frequency and quality of app updates, including bug fixes and new features.",
+      "t": "Boolean [1]",
+      "s": "App Store Update History, Developer Announcements"
+    },
+    {
+      "n": "Cross-Platform Availability",
+      "d": "Availability of the app on multiple platforms such as iOS, Android, and web.",
+      "t": "Boolean [1]",
+      "s": "Google Play Store, Apple App Store, Official Websites"
+    }
+  ]
+}

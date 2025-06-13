@@ -1,0 +1,69 @@
+
+{
+  "a": [
+    "Google Drive",
+    "Dropbox",
+    "WeTransfer",
+    "Microsoft OneDrive",
+    "Box",
+    "Send Anywhere",
+    "Hightail",
+    "iCloud Drive",
+    "Filemail",
+    "Citrix ShareFile",
+    "TitanFile",
+    "pCloud",
+    "ShareIt",
+    "Zapya",
+    "Xender",
+    "Slack",
+    "AnyViewer",
+    "Filestage",
+    "Smash",
+    "Files.com"
+  ],
+  "c": [
+    {
+      "n": "File Size Limit",
+      "d": "Maximum file size that can be transferred using the app.",
+      "t": "Float, [1]",
+      "s": "App Store, Google Play Store, Vendor Website"
+    },
+    {
+      "n": "Security",
+      "d": "Security measures implemented by the app to protect files during transfer and storage, including encryption and password protection.",
+      "t": "Text, [*]",
+      "s": "Vendor Website, Security Audits"
+    },
+    {
+      "n": "Ease of Use",
+      "d": "How intuitive and user-friendly the app is for sending and receiving files.",
+      "t": "Text, [1]",
+      "s": "User Reviews, Expert Reviews"
+    },
+    {
+      "n": "Storage Capacity",
+      "d": "Amount of storage space offered by the app, both free and paid.",
+      "t": "Float, [1]",
+      "s": "Vendor Website, App Store, Google Play Store"
+    },
+    {
+      "n": "Platform Compatibility",
+      "d": "The range of operating systems and devices supported by the app.",
+      "t": "Text, [*]",
+      "s": "App Store, Google Play Store, Vendor Website"
+    },
+    {
+      "n": "Speed",
+      "d": "The speed at which files are transferred using the app.",
+      "t": "Text, [1]",
+      "s": "User Reviews, Expert Reviews"
+    },
+    {
+      "n": "Cost",
+      "d": "The pricing structure of the app, including free and paid options.",
+      "t": "Text, [1]",
+      "s": "Vendor Website, App Store, Google Play Store"
+    }
+  ]
+}

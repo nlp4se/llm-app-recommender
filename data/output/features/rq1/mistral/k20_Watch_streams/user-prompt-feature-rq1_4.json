@@ -1,0 +1,75 @@
+
+{
+  "a": [
+    "YouTube",
+    "Twitch",
+    "Netflix",
+    "Hulu",
+    "Amazon Prime Video",
+    "Disney+",
+    "HBO Max",
+    "Peacock",
+    "Paramount+",
+    "Apple TV+",
+    "Sling TV",
+    "fuboTV",
+    "Philo",
+    "Pluto TV",
+    "Tubi",
+    "Crunchyroll",
+    "Funimation",
+    "Vudu",
+    "Crackle",
+    "Plex"
+  ],
+  "c": [
+    {
+      "n": "User Base",
+      "d": "The number of active users or subscribers of the app.",
+      "t": "Integer [1]",
+      "s": "Company reports, market analysis reports, app store intelligence platforms"
+    },
+    {
+      "n": "Content Library Size",
+      "d": "The total number of movies, TV shows, and other video content available on the app.",
+      "t": "Integer [1]",
+      "s": "Company reports, third-party databases, streaming service websites"
+    },
+    {
+      "n": "Streaming Quality",
+      "d": "The maximum video quality (e.g., 4K, 1080p, 720p) supported by the app.",
+      "t": "Text [1]",
+      "s": "Official app specifications, user reviews, tech reviews"
+    },
+    {
+      "n": "User Interface and Experience",
+      "d": "The ease of use, navigation, and overall user experience of the app.",
+      "t": "Text [1]",
+      "s": "User reviews, tech reviews, app store ratings"
+    },
+    {
+      "n": "Subscription Cost",
+      "d": "The cost of subscription plans offered by the app.",
+      "t": "Float [1]",
+      "s": "Official app websites, market analysis reports"
+    },
+    {
+      "n": "Device Compatibility",
+      "d": "The number of different devices and platforms that the app supports.",
+      "t": "Integer [1]",
+      "s": "Official app specifications, tech reviews"
+    },
+    {
+      "n": "User Ratings",
+      "d": "The average rating given by users on app stores.",
+      "t": "Float [1]",
+      "s": "App store listings, user review platforms"
+    },
+    {
+      "n": "Unique Features",
+      "d": "Any unique features or functionalities offered by the app, such as offline downloads, multiple profiles, etc.",
+      "t": "Text [*]",
+      "s": "Official app specifications, tech reviews, user feedback"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+
+{
+  "a": [
+    "YouTube",
+    "Twitch",
+    "Netflix",
+    "Hulu",
+    "Disney+",
+    "Amazon Prime Video",
+    "HBO Max",
+    "Peacock",
+    "Paramount+",
+    "Apple TV+",
+    "Sling TV",
+    "fuboTV",
+    "Philo",
+    "Pluto TV",
+    "Tubi",
+    "Crunchyroll",
+    "Funimation",
+    "Vudu",
+    "Crackle",
+    "Plex"
+  ],
+  "c": [
+    {
+      "n": "User Base",
+      "d": "The total number of active users or subscribers of the app.",
+      "t": "Integer [1]",
+      "s": "App Annie, Sensor Tower, SimilarWeb, Official app websites"
+    },
+    {
+      "n": "Content Library Size",
+      "d": "The total number of movies, TV shows, and other video content available on the app.",
+      "t": "Integer [1]",
+      "s": "Official app websites, JustWatch, Reelgood"
+    },
+    {
+      "n": "Streaming Quality",
+      "d": "The maximum video quality (e.g., SD, HD, 4K) supported by the app.",
+      "t": "Text [1]",
+      "s": "Official app websites, TechRadar, CNET"
+    },
+    {
+      "n": "User Interface and Experience",
+      "d": "The overall design, ease of use, and user satisfaction with the app's interface.",
+      "t": "Float [1]",
+      "s": "App Store ratings, Google Play ratings, Trustpilot"
+    },
+    {
+      "n": "Cross-Platform Availability",
+      "d": "The number of different platforms (e.g., iOS, Android, Web, Smart TVs) the app is available on.",
+      "t": "Integer [1]",
+      "s": "Official app websites, App Store, Google Play"
+    },
+    {
+      "n": "Pricing and Plans",
+      "d": "The cost of subscription plans or if the app is free with ads.",
+      "t": "Text [1]",
+      "s": "Official app websites, TechRadar, CNET"
+    },
+    {
+      "n": "Live Streaming Availability",
+      "d": "Whether the app offers live streaming content in addition to on-demand content.",
+      "t": "Boolean [1]",
+      "s": "Official app websites, TechRadar, CNET"
+    }
+  ]
+}

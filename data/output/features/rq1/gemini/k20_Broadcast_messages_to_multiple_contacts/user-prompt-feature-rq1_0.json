@@ -1,0 +1,57 @@
+
+{
+  "a": [
+    "WhatsApp Business",
+    "Telegram",
+    "SimpleTexting",
+    "TextMagic",
+    "Textedly",
+    "SlickText",
+    "EZ Texting",
+    "Podium",
+    "Attentive",
+    "Mailchimp",
+    "MessageMedia",
+    "DialMyCalls",
+    "SMSBump",
+    "Klaviyo",
+    "Omnisend",
+    "Postscript",
+    "Sakari",
+    "Bulk Sender for Marketing",
+    "SleekFlow",
+    "Viber"
+  ],
+  "c": [
+    {
+      "n": "Reach",
+      "d": "Number of contacts that can be reached through the app.",
+      "t": "Integer[*]",
+      "s": "vendor website, app store description"
+    },
+    {
+      "n": "Personalization Options",
+      "d": "Availability of features to personalize messages for individual recipients.",
+      "t": "Boolean[1]",
+      "s": "app store description, reviews"
+    },
+    {
+      "n": "Automation Capabilities",
+      "d": "Extent to which message sending and follow-up can be automated.",
+      "t": "Text[1]",
+      "s": "vendor website, reviews"
+    },
+    {
+      "n": "Pricing Model",
+      "d": "The cost structure associated with using the app.",
+      "t": "Text[1]",
+      "s": "vendor website, app store"
+    },
+    {
+      "n": "Ease of Use",
+      "d": "How user-friendly the app is for sending broadcast messages.",
+      "t": "Text[1]",
+      "s": "user reviews, app store rating"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+
+{
+  "a": [
+    "Honor of Kings",
+    "PUBG Mobile",
+    "Monopoly GO!",
+    "Royal Match",
+    "Roblox",
+    "Candy Crush Saga",
+    "Genshin Impact",
+    "AFK Journey",
+    "Brawl Stars",
+    "Subway Surfers",
+    "Last War: Survival",
+    "Honkai: Star Rail",
+    "Whiteout Survival",
+    "Coin Master",
+    "Gardenscapes",
+    "Pokemon GO",
+    "Clash of Clans",
+    "Zenless Zone Zero",
+    "Dungeon & Fighter Mobile",
+    "Squad Busters"
+  ],
+  "c": [
+    {
+      "n": "Popularity",
+      "d": "Number of downloads and active users.",
+      "t": "Integer[*]",
+      "s": "App Store, Google Play Store"
+    },
+    {
+      "n": "User Ratings",
+      "d": "Average rating given by users in app stores.",
+      "t": "Float[1]",
+      "s": "App Store, Google Play Store"
+    },
+    {
+      "n": "Revenue Generation",
+      "d": "Total revenue generated through in-app purchases and ads.",
+      "t": "Float[1]",
+      "s": "AppMagic, Appfigures"
+    },
+    {
+      "n": "Genre diversity",
+      "d": "Includes a range of genres to cater to different player preferences.",
+      "t": "Text[*]",
+      "s": "App Store, Google Play Store"
+    },
+    {
+      "n": "Game of the Year Awards",
+      "d": "Accolades from major mobile gaming review platforms.",
+      "t": "Boolean[1]",
+      "s": "Google Play Store, The Game Awards"
+    }
+  ]
+}

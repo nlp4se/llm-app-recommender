@@ -1,0 +1,57 @@
+
+{
+  "a": [
+    "Twitch",
+    "YouTube Live",
+    "Facebook Gaming",
+    "Kick",
+    "Trovo",
+    "DLive",
+    "Nimo TV",
+    "Vimeo Livestream",
+    "Smashcast",
+    "Steam Broadcasting",
+    "Dacast",
+    "Restream",
+    "OBS Studio",
+    "TikTok Live",
+    "Instagram Live",
+    "Bigo Live",
+    "Caffeine",
+    "Plex",
+    "Hulu + Live TV",
+    "Fubo TV"
+  ],
+  "c": [
+    {
+      "n": "Content Variety",
+      "d": "Range of content available, including gaming, creative, and IRL streams.",
+      "t": "Text[*]",
+      "s": "Multiple sources"
+    },
+    {
+      "n": "Community Size",
+      "d": "Active user base and engagement levels.",
+      "t": "Integer[1]",
+      "s": "Multiple sources"
+    },
+    {
+      "n": "Monetization Options",
+      "d": "Availability of subscriptions, donations, ads, and other revenue streams for streamers.",
+      "t": "Text[*]",
+      "s": "Multiple sources"
+    },
+    {
+      "n": "Platform Features",
+      "d": "Tools for moderation, viewer interaction, stream customization, and analytics.",
+      "t": "Text[*]",
+      "s": "Multiple sources"
+    },
+    {
+      "n": "Mobile Streaming Capabilities",
+      "d": "Functionality and ease of use for streaming from mobile devices.",
+      "t": "Boolean[1]",
+      "s": "Multiple sources"
+    }
+  ]
+}

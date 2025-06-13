@@ -1,0 +1,57 @@
+
+{
+  "a": [
+    "Microsoft OneNote",
+    "Evernote",
+    "Google Keep",
+    "Notion",
+    "Obsidian",
+    "Apple Notes",
+    "Joplin",
+    "Simplenote",
+    "Bear",
+    "ClickUp",
+    "Notability",
+    "Goodnotes",
+    "Zoho Notebook",
+    "Pencil Notes: Penbook",
+    "Roam Research",
+    "UpNote",
+    "LiquidText",
+    "CollaNote",
+    "Noteshelf",
+    "RemNote"
+  ],
+  "c": [
+    {
+      "n": "Cross-Platform Availability",
+      "d": "Indicates the platforms (iOS, Android, macOS, Windows, Web) on which the app is accessible.",
+      "t": "Text[*]",
+      "s": "App Store, Google Play Store, Developer Website"
+    },
+    {
+      "n": "Free vs. Paid Features",
+      "d": "Specifies which features are available in the free version and which require a subscription or one-time purchase.",
+      "t": "Text[*]",
+      "s": "App Store, Google Play Store, Developer Website"
+    },
+    {
+      "n": "Organization Options",
+      "d": "Describes the different ways notes can be organized within the app (e.g., notebooks, tags, folders).",
+      "t": "Text[*]",
+      "s": "App Reviews, User Manuals, App Store"
+    },
+    {
+      "n": "Media Support",
+      "d": "Lists the types of media that can be added to notes (e.g., images, audio, video, PDFs).",
+      "t": "Media[*]",
+      "s": "App Reviews, User Manuals, App Store"
+    },
+    {
+      "n": "Collaboration Features",
+      "d": "Details the collaboration options available, such as real-time editing, sharing notes, and task assignment.",
+      "t": "Text[*]",
+      "s": "App Reviews, User Manuals, Developer Website"
+    }
+  ]
+}

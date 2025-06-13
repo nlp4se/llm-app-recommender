@@ -1,0 +1,69 @@
+
+{
+  "a": [
+    "ShareIt",
+    "Zapya",
+    "SuperBeam",
+    "Portal",
+    "AirDroid",
+    "Pushbullet",
+    "Feem",
+    "SHAREall",
+    "Send Anywhere",
+    "WeTransfer",
+    "Xender",
+    "Firefox Send",
+    "Snapdrop",
+    "TrebleShot",
+    "JioSwitch",
+    "Sweet Send",
+    "Dukto",
+    "Roamit",
+    "LanXchange",
+    "SilFer"
+  ],
+  "c": [
+    {
+      "n": "File Transfer Speed",
+      "d": "The speed at which the app can transfer files between devices.",
+      "t": "Float [1]",
+      "s": "App Stores, User reviews, Developer websites, Tech blogs"
+    },
+    {
+      "n": "Cross-Platform Support",
+      "d": "The availability of the app across different platforms (iOS, Android, Web, etc.).",
+      "t": "Boolean [1]",
+      "s": "App Stores, Developer websites"
+    },
+    {
+      "n": "User Interface and Experience",
+      "d": "The ease of use and intuitiveness of the app's interface.",
+      "t": "Text [1]",
+      "s": "User reviews, Tech blogs, App Stores"
+    },
+    {
+      "n": "Security Features",
+      "d": "The measures taken by the app to ensure the security of file transfers.",
+      "t": "Text [1]",
+      "s": "Developer websites, Tech blogs, Security reviews"
+    },
+    {
+      "n": "File Size Limit",
+      "d": "The maximum file size that can be transferred using the app.",
+      "t": "Integer [1]",
+      "s": "Developer websites, App Stores, User reviews"
+    },
+    {
+      "n": "Additional Features",
+      "d": "Any extra features provided by the app, such as cloud storage integration, chat, etc.",
+      "t": "Text [*]",
+      "s": "App Stores, Developer websites, User reviews"
+    },
+    {
+      "n": "User Ratings",
+      "d": "The average rating given by users on app stores.",
+      "t": "Float [1]",
+      "s": "App Stores"
+    }
+  ]
+}

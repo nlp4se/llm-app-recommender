@@ -1,0 +1,57 @@
+
+{
+  "a": [
+    "Spotify",
+    "Apple Music",
+    "YouTube Music",
+    "Amazon Music Unlimited",
+    "Deezer",
+    "Tidal",
+    "Qobuz",
+    "Pandora",
+    "LiveOne (formerly Slacker Radio)",
+    "SoundCloud",
+    "TuneIn Radio",
+    "BBC Sounds",
+    "Bandcamp",
+    "PowerAmp",
+    "Retro Music Player",
+    "BlackPlayer",
+    "Nyx Music Player",
+    "Oto Music",
+    "Frolomuse",
+    "REAL Shuffle Player"
+  ],
+  "c": [
+    {
+      "n": "Shuffle Algorithm Quality",
+      "d": "Evaluates how effectively the app randomizes playlist playback, avoiding repetition and ensuring a diverse listening experience.",
+      "t": "Text",
+      "s": "User reviews, app descriptions, expert opinions"
+    },
+    {
+      "n": "Playlist Management",
+      "d": "Assesses the ease and flexibility with which users can create, organize, and manage their playlists.",
+      "t": "Text",
+      "s": "App features, user reviews"
+    },
+    {
+      "n": "Offline Playback",
+      "d": "Determines the availability and reliability of offline playback for downloaded songs, which is crucial for users in areas with limited connectivity.",
+      "t": "Boolean",
+      "s": "App features, user reviews"
+    },
+    {
+      "n": "User Interface",
+      "d": "Considers the app's user interface in terms of intuitiveness, ease of navigation, and overall aesthetic appeal.",
+      "t": "Text",
+      "s": "User reviews, expert reviews"
+    },
+    {
+      "n": "Audio Quality",
+      "d": "Measures the quality of audio playback, including support for high-resolution audio and options for audio customization.",
+      "t": "Text",
+      "s": "App specifications, expert reviews"
+    }
+  ]
+}

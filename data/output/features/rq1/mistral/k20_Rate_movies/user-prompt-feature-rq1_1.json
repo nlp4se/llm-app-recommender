@@ -1,0 +1,69 @@
+
+{
+  "a": [
+    "IMDb",
+    "Letterboxd",
+    "Rotten Tomatoes",
+    "Metacritic",
+    "Flickster",
+    "MovieDiary",
+    "iCheckMovies",
+    "Trakt",
+    "MUBI",
+    "FilmAffinity",
+    "JustWatch",
+    "Flixster",
+    "CinemaTime",
+    "Taste",
+    "MovieJoy",
+    "Cinemark",
+    "Showtimes",
+    "Atom Tickets",
+    "Fandango",
+    "CinemaClock"
+  ],
+  "c": [
+    {
+      "n": "User Base",
+      "d": "The number of active users or installs of the app, indicating popularity and community size.",
+      "t": "Integer[1]",
+      "s": "App Store, Google Play Store, Sensor Tower, App Annie"
+    },
+    {
+      "n": "Rating System",
+      "d": "The method and scale used for rating movies (e.g., stars, letters, percentages).",
+      "t": "Text[1]",
+      "s": "Official app descriptions, user reviews"
+    },
+    {
+      "n": "User Interface",
+      "d": "The design and ease of use of the app interface.",
+      "t": "Text[1]",
+      "s": "User reviews, expert reviews, personal assessment"
+    },
+    {
+      "n": "Social Features",
+      "d": "The availability of social features like following friends, joining groups, or sharing reviews.",
+      "t": "Boolean[1]",
+      "s": "Official app descriptions, user reviews"
+    },
+    {
+      "n": "Database Size",
+      "d": "The number of movies available in the app's database.",
+      "t": "Integer[1]",
+      "s": "Official app descriptions, user reviews, developer information"
+    },
+    {
+      "n": "Update Frequency",
+      "d": "How often the app is updated with new features, bug fixes, or database entries.",
+      "t": "Text[1]",
+      "s": "App Store, Google Play Store, official app blogs"
+    },
+    {
+      "n": "Cross-Platform Availability",
+      "d": "The availability of the app on different platforms (iOS, Android, Web, etc.).",
+      "t": "Text[1]",
+      "s": "Official app descriptions, App Store, Google Play Store"
+    }
+  ]
+}

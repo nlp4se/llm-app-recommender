@@ -1,0 +1,57 @@
+
+{
+  "a": [
+    "Adobe Photoshop Express",
+    "PicsArt",
+    "Snapseed",
+    "VSCO",
+    "Adobe Lightroom Mobile",
+    "Polarr",
+    "YouCam Perfect",
+    "PhotoDirector",
+    "Fotor",
+    "Afterlight",
+    "Pixlr",
+    "Photo Lab Picture Editor",
+    "LightX Photo Editor",
+    "Photo Editor Pro",
+    "Canva",
+    "Prisma",
+    "Bazaart",
+    "Facetune 2",
+    "Google Photos",
+    "Apple Photos"
+  ],
+  "c": [
+    {
+      "n": "Variety of Effects",
+      "d": "The breadth and depth of available photo effects, including filters, overlays, and artistic styles.",
+      "t": "Integer[*]",
+      "s": "App Store, Google Play Store, Expert Reviews"
+    },
+    {
+      "n": "Ease of Use",
+      "d": "How intuitive and user-friendly the app is for applying and customizing photo effects.",
+      "t": "Float[1]",
+      "s": "User Reviews, Expert Reviews"
+    },
+    {
+      "n": "Customization Options",
+      "d": "The degree to which users can adjust and personalize effects to achieve their desired look.",
+      "t": "Integer[1]",
+      "s": "App Features, Expert Reviews"
+    },
+    {
+      "n": "Performance and Stability",
+      "d": "The app's speed and reliability in applying effects without crashing or lagging.",
+      "t": "Float[1]",
+      "s": "User Reviews, Performance Tests"
+    },
+    {
+      "n": "Community and Sharing",
+      "d": "Availability of a built-in community for sharing and discovering new effects, as well as easy sharing to social media.",
+      "t": "Boolean[1]",
+      "s": "App Features, User Reviews"
+    }
+  ]
+}

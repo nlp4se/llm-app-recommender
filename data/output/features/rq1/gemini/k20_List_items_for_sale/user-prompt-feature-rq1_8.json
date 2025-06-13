@@ -1,0 +1,57 @@
+
+{
+  "a": [
+    "eBay",
+    "Facebook Marketplace",
+    "Poshmark",
+    "Etsy",
+    "Mercari",
+    "OfferUp",
+    "Depop",
+    "thredUP",
+    "Vestiaire Collective",
+    "Decluttr",
+    "Craigslist",
+    "Amazon Seller",
+    "Chairish",
+    "Nextdoor",
+    "Letgo (integrated into OfferUp)",
+    "Cashify",
+    "InstaCash",
+    "Swappa",
+    "5miles",
+    "Reverb"
+  ],
+  "c": [
+    {
+      "n": "User Base / Reach",
+      "d": "The number of active users on the platform. A larger user base increases the chances of selling items quickly.",
+      "t": "Integer[*]",
+      "s": "AMZScout, SimiCart, SellerApp"
+    },
+    {
+      "n": "Fees",
+      "d": "The costs associated with listing and selling items, including listing fees, commission fees, and transaction fees. Lower fees increase profitability.",
+      "t": "Float[*]",
+      "s": "AMZScout, Shopify New Zealand, Greenlight"
+    },
+    {
+      "n": "Ease of Use",
+      "d": "How simple the app is to use, including listing creation, navigation, and communication with buyers. An intuitive interface saves time and effort.",
+      "t": "Boolean[1]",
+      "s": "AMZScout, Greenlight, Honeygain"
+    },
+    {
+      "n": "Shipping Options",
+      "d": "The availability of integrated shipping labels, discounted shipping rates, and options for local pickup or delivery. Convenient shipping options attract more buyers.",
+      "t": "Text[*]",
+      "s": "AMZScout, Greenlight, Honeygain"
+    },
+    {
+      "n": "Product Category Focus",
+      "d": "The app's specialization in specific product categories, such as fashion, electronics, or handmade goods. A focused category can attract a more targeted audience.",
+      "t": "Text[1]",
+      "s": "AMZScout, Shopify New Zealand, Greenlight"
+    }
+  ]
+}

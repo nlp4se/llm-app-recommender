@@ -1,0 +1,87 @@
+
+{
+  "a": [
+    "Slack",
+    "Microsoft Teams",
+    "Google Workspace (Google Chat, Google Docs, Google Sheets, Google Slides, Google Drive)",
+    "Asana",
+    "Trello",
+    "Monday.com",
+    "Zoom",
+    "Miro",
+    "Basecamp",
+    "Notion",
+    "Confluence",
+    "ClickUp",
+    "Wrike",
+    "Airtable",
+    "Filestage",
+    "Figma",
+    "Webex",
+    "Zoho Projects",
+    "Teamwork",
+    "Discord"
+  ],
+  "c": [
+    {
+      "n": "Real-time Communication",
+      "d": "The ability to communicate with team members instantly through messaging, chat, voice, and video calls.",
+      "t": "Boolean[1]",
+      "s": "Multiple"
+    },
+    {
+      "n": "File Sharing and Collaboration",
+      "d": "Enables users to easily share files, documents, and media with team members, with features for version control and collaborative editing.",
+      "t": "Boolean[1]",
+      "s": "Multiple"
+    },
+    {
+      "n": "Task Management",
+      "d": "Provides tools for creating, assigning, and tracking tasks, setting deadlines, and monitoring progress.",
+      "t": "Boolean[1]",
+      "s": "Multiple"
+    },
+    {
+      "n": "Project Management",
+      "d": "Offers features for planning, organizing, and managing projects, including Gantt charts, Kanban boards, and timeline views.",
+      "t": "Boolean[1]",
+      "s": "Multiple"
+    },
+    {
+      "n": "Integrations",
+      "d": "Compatibility with other popular tools and platforms, such as Google Workspace, Microsoft 365, Slack, and other project management or CRM systems.",
+      "t": "Text[*]",
+      "s": "Multiple"
+    },
+    {
+      "n": "User-Friendliness",
+      "d": "Ease of use and intuitive interface for all team members, regardless of their technical expertise.",
+      "t": "Boolean[1]",
+      "s": "Multiple"
+    },
+    {
+      "n": "Customization",
+      "d": "The ability to tailor the app to specific team needs and workflows, including custom fields, views, and automations.",
+      "t": "Boolean[1]",
+      "s": "Multiple"
+    },
+    {
+      "n": "Scalability",
+      "d": "The capacity of the app to accommodate growing teams and increasing project complexity.",
+      "t": "Boolean[1]",
+      "s": "Multiple"
+    },
+    {
+      "n": "Mobile Accessibility",
+      "d": "Availability of mobile apps for iOS and Android devices, ensuring team members can collaborate on the go.",
+      "t": "Boolean[1]",
+      "s": "Multiple"
+    },
+    {
+      "n": "AI Integration",
+      "d": "AI-powered features that automate tasks, provide insights, and improve decision-making",
+      "t": "Boolean[1]",
+      "s": "Multiple"
+    }
+  ]
+}

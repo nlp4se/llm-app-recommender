@@ -1,0 +1,63 @@
+
+{
+  "a": [
+    "PicCollage",
+    "Layout from Instagram",
+    "Moldiv",
+    "PhotoGrid",
+    "Canva",
+    "PicsArt",
+    "FotoJet",
+    "Ribbet",
+    "BeFunky",
+    "PiZap",
+    "Pic Stitch",
+    "Photo Blend & Shape Collage Maker",
+    "Collage Maker",
+    "Kizuna",
+    "PicPlayPost",
+    "Fuzel Collage",
+    "Photo Collage Editor",
+    "LiveCollage",
+    "Diptic",
+    "PicJointer"
+  ],
+  "c": [
+    {
+      "n": "User Ratings",
+      "d": "Average user ratings on app stores (e.g., Google Play, Apple App Store).",
+      "t": "Float [1]",
+      "s": "Google Play Store, Apple App Store, Amazon Appstore"
+    },
+    {
+      "n": "Number of Downloads",
+      "d": "Total number of downloads or installs from app stores.",
+      "t": "Integer [1]",
+      "s": "Google Play Store, Apple App Store, Amazon Appstore, Sensor Tower, App Annie"
+    },
+    {
+      "n": "Feature Set",
+      "d": "Availability of key features such as templates, stickers, text options, and sharing capabilities.",
+      "t": "Text [*]",
+      "s": "Official app websites, App Store descriptions, tech reviews"
+    },
+    {
+      "n": "User Interface and Experience",
+      "d": "Ease of use, intuitiveness, and overall user experience based on reviews and expert opinions.",
+      "t": "Text [*]",
+      "s": "Tech blogs, YouTube reviews, user reviews on app stores"
+    },
+    {
+      "n": "Update Frequency",
+      "d": "How often the app is updated with new features, bug fixes, and improvements.",
+      "t": "Text [*]",
+      "s": "App Store update history, official app blogs"
+    },
+    {
+      "n": "Cross-Platform Availability",
+      "d": "Availability of the app on different platforms (iOS, Android, Web, etc.).",
+      "t": "Text [*]",
+      "s": "Official app websites, App Store listings"
+    }
+  ]
+}

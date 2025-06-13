@@ -1,0 +1,87 @@
+
+{
+  "a": [
+    "Twitch",
+    "YouTube Gaming",
+    "Hulu + Live TV",
+    "Sling TV",
+    "Fubo",
+    "DirecTV Stream",
+    "Philo",
+    "Peacock",
+    "Paramount+",
+    "Netflix",
+    "Disney+",
+    "Amazon Prime Video",
+    "Kick",
+    "TikTok Live",
+    "DAZN",
+    "FloSports",
+    "ESPN+",
+    "Tubi",
+    "Plex",
+    "XUMO"
+  ],
+  "c": [
+    {
+      "n": "Content Variety",
+      "d": "The breadth of content available, including live sports, gaming, movies, TV shows, and original content.",
+      "t": "Text[*]",
+      "s": "Various sources"
+    },
+    {
+      "n": "Streaming Quality",
+      "d": "Resolution and frame rate of the streams, including support for 1080p/60fps and 4K.",
+      "t": "Text",
+      "s": "PCMag, Engadget"
+    },
+    {
+      "n": "Device Compatibility",
+      "d": "Availability of the app across various platforms, including phones, tablets, web browsers, gaming consoles, and media streaming devices.",
+      "t": "Text[*]",
+      "s": "PCMag"
+    },
+    {
+      "n": "Community Engagement",
+      "d": "Features that facilitate interaction between streamers and viewers, such as live chats, polls, and channel points.",
+      "t": "Text[*]",
+      "s": "Esports Charts, Twitch Help"
+    },
+    {
+      "n": "Monetization Options",
+      "d": "Availability of monetization programs for streamers, including subscriptions, ads, and donations.",
+      "t": "Text[*]",
+      "s": "Esports Charts"
+    },
+    {
+      "n": "Sports Coverage",
+      "d": "Specific sports content offered, including live games, replays, and exclusive coverage.",
+      "t": "Text[*]",
+      "s": "PCMag, FloSports"
+    },
+    {
+      "n": "User Interface",
+      "d": "The ease of navigation and overall user-friendliness of the app.",
+      "t": "Text",
+      "s": "CNET"
+    },
+    {
+      "n": "Price",
+      "d": "Monthly subscription cost and available free trials.",
+      "t": "Float",
+      "s": "PCMag, CNET, TROYPOINT"
+    },
+    {
+      "n": "DVR Features",
+      "d": "Availability and robustness of DVR features for recording live streams.",
+      "t": "Boolean",
+      "s": "PCMag, CNET"
+    },
+    {
+      "n": "Esports Focus",
+      "d": "The platform's emphasis on esports content, including tournaments and dedicated channels.",
+      "t": "Boolean",
+      "s": "Esports Charts, Movavi Video Editor"
+    }
+  ]
+}

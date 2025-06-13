@@ -1,0 +1,69 @@
+
+{
+  "a": [
+    "eBay",
+    "Craigslist",
+    "Facebook Marketplace",
+    "OfferUp",
+    "letgo",
+    "Poshmark",
+    "Mercari",
+    "Decluttr",
+    "ThredUp",
+    "Depop",
+    "Vinted",
+    "Tradesy",
+    "Grailed",
+    "Chairish",
+    "Etsy",
+    "Ruby Lane",
+    "Bonanza",
+    "eBid",
+    "Listia",
+    "VarageSale"
+  ],
+  "c": [
+    {
+      "n": "User Base",
+      "d": "The number of active users on the platform, indicating the market reach and potential exposure for listed items.",
+      "t": "Integer [1]",
+      "s": "App Annie, Sensor Tower, SimilarWeb, Official company reports"
+    },
+    {
+      "n": "Ease of Use",
+      "d": "The simplicity and intuitiveness of the app's interface and listing process, affecting user experience and efficiency.",
+      "t": "Text [1]",
+      "s": "App Store reviews, Google Play reviews, Expert reviews from tech blogs"
+    },
+    {
+      "n": "Fees and Commission",
+      "d": "The cost associated with listing and selling items, including insertion fees, final value fees, and payment processing fees.",
+      "t": "Float [3]",
+      "s": "Official fee structures from the app's website, User reports, Expert comparisons"
+    },
+    {
+      "n": "Local Availability",
+      "d": "The app's support for local listings and face-to-face transactions, enhancing convenience and reducing shipping costs.",
+      "t": "Boolean [1]",
+      "s": "App features listed on the app's website, User reviews, Expert articles"
+    },
+    {
+      "n": "Niche Focus",
+      "d": "The app's specialization in specific product categories, serving particular market segments more effectively.",
+      "t": "Text [*]",
+      "s": "App descriptions, User reviews, Expert analyses"
+    },
+    {
+      "n": "Seller Protection",
+      "d": "The measures in place to safeguard sellers against fraud, scams, and disputes, promoting a secure selling environment.",
+      "t": "Text [1]",
+      "s": "App's safety features and policies, User reports, Expert evaluations"
+    },
+    {
+      "n": "Promotion Features",
+      "d": "The availability of tools and options to enhance the visibility of listings, such as promoted ads, featured placements, or discounts.",
+      "t": "Text [*]",
+      "s": "App's promotional services, User experiences, Expert insights"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+
+{
+  "a": [
+    "WhatsApp",
+    "Telegram",
+    "Signal",
+    "iMessage",
+    "Facebook Messenger",
+    "WeChat",
+    "Line",
+    "Viber",
+    "Slack",
+    "Microsoft Teams",
+    "Google Chat",
+    "Discord",
+    "Skype",
+    "Threema",
+    "Bridgefy",
+    "GroupMe",
+    "Band",
+    "KakaoTalk",
+    "Zalo",
+    "Imo"
+  ],
+  "c": [
+    {
+      "n": "User Base",
+      "d": "The total number of active users on the platform.",
+      "t": "Integer [1]",
+      "s": "App Store, Google Play Store, Official Press Releases"
+    },
+    {
+      "n": "Group Size Limit",
+      "d": "The maximum number of participants that can be included in a group chat or broadcast.",
+      "t": "Integer [1]",
+      "s": "Official Documentation, App Reviews"
+    },
+    {
+      "n": "Message Delivery Success Rate",
+      "d": "The percentage of messages successfully delivered to recipients.",
+      "t": "Float [1]",
+      "s": "User Reviews, Technical Blogs, Official Reports"
+    },
+    {
+      "n": "Security and Privacy Features",
+      "d": "The availability of features such as end-to-end encryption, two-factor authentication, and privacy settings.",
+      "t": "Text [*]",
+      "s": "Official Documentation, Security Audits, Tech Reviews"
+    },
+    {
+      "n": "User Interface and Experience",
+      "d": "The ease of use and overall user experience of the app.",
+      "t": "Text [1]",
+      "s": "App Store Reviews, Google Play Store Reviews, User Feedback"
+    }
+  ]
+}

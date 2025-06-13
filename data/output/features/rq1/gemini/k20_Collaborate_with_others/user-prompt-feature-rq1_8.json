@@ -1,0 +1,69 @@
+
+{
+  "a": [
+    "Slack",
+    "Microsoft Teams",
+    "Asana",
+    "Trello",
+    "Monday.com",
+    "Google Workspace",
+    "Zoom",
+    "Notion",
+    "ClickUp",
+    "Miro",
+    "Confluence",
+    "Jira",
+    "Basecamp",
+    "Airtable",
+    "Dropbox",
+    "Wrike",
+    "Quixy",
+    "Zoho Cliq",
+    "Guru",
+    "Hive"
+  ],
+  "c": [
+    {
+      "n": "Communication Channels",
+      "d": "Variety of communication methods (e.g., chat, video conferencing, direct messaging).",
+      "t": "Text, Media[*]",
+      "s": "Multiple sources"
+    },
+    {
+      "n": "Task Management",
+      "d": "Features for creating, assigning, and tracking tasks with deadlines and dependencies.",
+      "t": "Text, Integer, Date",
+      "s": "Multiple sources"
+    },
+    {
+      "n": "File Sharing",
+      "d": "Ability to easily share and manage files within the platform, with version control.",
+      "t": "Media[*]",
+      "s": "Multiple sources"
+    },
+    {
+      "n": "Integrations",
+      "d": "Seamless integration with other business applications like email, calendar, and CRM systems.",
+      "t": "Boolean",
+      "s": "Multiple sources"
+    },
+    {
+      "n": "Customization",
+      "d": "Allows modification of interface and functionalities to fit specific workflows.",
+      "t": "Text[*]",
+      "s": "Multiple sources"
+    },
+    {
+      "n": "Real-time Collaboration",
+      "d": "Enable team members to communicate, share files, and work together in real-time.",
+      "t": "Boolean",
+      "s": "Multiple sources"
+    },
+    {
+      "n": "Ease of Use",
+      "d": "Refers to how user-friendly and intuitive the software is.",
+      "t": "Boolean",
+      "s": "Multiple sources"
+    }
+  ]
+}

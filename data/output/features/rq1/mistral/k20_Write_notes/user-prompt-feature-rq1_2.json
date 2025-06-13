@@ -1,0 +1,75 @@
+
+{
+  "a": [
+    "Evernote",
+    "Notion",
+    "Microsoft OneNote",
+    "Google Keep",
+    "Apple Notes",
+    "Bear",
+    "Zoho Notebook",
+    "SimpleNote",
+    "Ulysses",
+    "Standard Notes",
+    "Roam Research",
+    "Obsidian",
+    "Craft",
+    "GoodNotes",
+    "Notability",
+    "Joplin",
+    "Turtl",
+    "Laverna",
+    "Standard Notes",
+    "Boost Note"
+  ],
+  "c": [
+    {
+      "n": "User Ratings",
+      "d": "Average rating of the app on various app stores.",
+      "t": "Float [1]",
+      "s": "Google Play Store, Apple App Store, Microsoft Store"
+    },
+    {
+      "n": "Number of Downloads",
+      "d": "Total number of times the app has been downloaded.",
+      "t": "Integer [1]",
+      "s": "Google Play Store, Apple App Store, Microsoft Store"
+    },
+    {
+      "n": "Feature Set",
+      "d": "Availability of key features such as text formatting, multimedia support, syncing, and collaboration tools.",
+      "t": "Text [*]",
+      "s": "Official app websites, app store descriptions, user reviews"
+    },
+    {
+      "n": "Cross-Platform Availability",
+      "d": "Availability of the app on different platforms like iOS, Android, Windows, macOS, and web.",
+      "t": "Boolean [*]",
+      "s": "Official app websites, app store descriptions"
+    },
+    {
+      "n": "User Interface and Experience",
+      "d": "Ease of use and intuitiveness of the app's interface.",
+      "t": "Text [*]",
+      "s": "User reviews, tech blogs, official app websites"
+    },
+    {
+      "n": "Security and Privacy",
+      "d": "Features related to data encryption, privacy policies, and security measures.",
+      "t": "Text [*]",
+      "s": "Official app websites, privacy policies, security audits"
+    },
+    {
+      "n": "Integration Capabilities",
+      "d": "Ability to integrate with other apps and services.",
+      "t": "Text [*]",
+      "s": "Official app websites, app store descriptions, user reviews"
+    },
+    {
+      "n": "Customer Support",
+      "d": "Availability and quality of customer support.",
+      "t": "Text [*]",
+      "s": "User reviews, official app websites, customer support forums"
+    }
+  ]
+}

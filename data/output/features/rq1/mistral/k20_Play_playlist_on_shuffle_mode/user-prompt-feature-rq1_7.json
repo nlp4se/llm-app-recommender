@@ -1,0 +1,69 @@
+
+{
+  "a": [
+    "Spotify",
+    "Apple Music",
+    "YouTube Music",
+    "Pandora",
+    "Deezer",
+    "Tidal",
+    "Amazon Music",
+    "SoundCloud",
+    "iHeartRadio",
+    "Napster",
+    "Google Play Music",
+    "Microsoft Groove",
+    "Audiomack",
+    "JioSaavn",
+    "Gaana",
+    "Anghami",
+    "Yandex Music",
+    "Qobuz",
+    "IDAGIO",
+    "Primephonic"
+  ],
+  "c": [
+    {
+      "n": "Shuffle Mode Availability",
+      "d": "The app must have a shuffle mode feature to play playlists randomly.",
+      "t": "Boolean, [1]",
+      "s": "App store descriptions, official app websites, tech reviews"
+    },
+    {
+      "n": "Library Size",
+      "d": "The total number of songs available in the app's library.",
+      "t": "Integer, [1]",
+      "s": "Official app websites, tech blogs, music industry reports"
+    },
+    {
+      "n": "User Interface",
+      "d": "The ease of use and navigation within the app, including accessing shuffle mode.",
+      "t": "Text, [1]",
+      "s": "User reviews, tech reviews, app store ratings"
+    },
+    {
+      "n": "Streaming Quality",
+      "d": "The audio quality options available for streaming music.",
+      "t": "Text, [1]",
+      "s": "Official app websites, tech specifications, user reviews"
+    },
+    {
+      "n": "Platform Availability",
+      "d": "The number of platforms the app is available on (iOS, Android, Web, Desktop, etc.).",
+      "t": "Integer, [1]",
+      "s": "App store listings, official app websites"
+    },
+    {
+      "n": "User Ratings",
+      "d": "The average rating of the app on various app stores.",
+      "t": "Float, [1]",
+      "s": "App store listings, review aggregation sites"
+    },
+    {
+      "n": "Unique Features",
+      "d": "Any unique features that enhance the shuffle mode experience, such as smart playlists or personalized recommendations.",
+      "t": "Text, [1]",
+      "s": "Official app websites, tech reviews, user feedback"
+    }
+  ]
+}

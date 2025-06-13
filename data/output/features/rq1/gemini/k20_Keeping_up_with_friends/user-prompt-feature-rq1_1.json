@@ -1,0 +1,57 @@
+
+{
+  "a": [
+    "Facebook",
+    "Instagram",
+    "WhatsApp",
+    "Snapchat",
+    "Marco Polo",
+    "Houseparty",
+    "Bunch",
+    "Teleparty",
+    "BeReal",
+    "Locket",
+    "Cappucino",
+    "Howbout",
+    "Airbuds",
+    "Shelf",
+    "GroupMe",
+    "ooVoo",
+    "Viber",
+    "Skype",
+    "Truth Truth Lie",
+    "Plato"
+  ],
+  "c": [
+    {
+      "n": "Active User Base",
+      "d": "Number of active users on the platform; higher user base allows for broader connection with friends.",
+      "t": "Integer, [1]",
+      "s": "AppFigures, Statista"
+    },
+    {
+      "n": "Communication Features",
+      "d": "Variety and quality of communication tools available (e.g., text, voice, video, file sharing).",
+      "t": "Text, [*]",
+      "s": "App Store descriptions, Expert reviews"
+    },
+    {
+      "n": "Group Interaction Capabilities",
+      "d": "Features that facilitate group communication and activities (e.g., group chats, shared calendars, collaborative playlists).",
+      "t": "Boolean, [1]",
+      "s": "App reviews, Feature lists"
+    },
+    {
+      "n": "Privacy Controls",
+      "d": "Options for managing privacy and controlling who can see your content and contact you.",
+      "t": "Boolean, [1]",
+      "s": "App settings, Privacy policy"
+    },
+    {
+      "n": "Integration with Other Platforms",
+      "d": "Ability to connect and share content with other social media platforms and services.",
+      "t": "Boolean, [1]",
+      "s": "App descriptions, User reviews"
+    }
+  ]
+}

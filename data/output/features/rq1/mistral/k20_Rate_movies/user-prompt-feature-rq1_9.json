@@ -1,0 +1,69 @@
+
+{
+  "a": [
+    "IMDb",
+    "Letterboxd",
+    "Rotten Tomatoes",
+    "Metacritic",
+    "Flickchart",
+    "MovieDiary",
+    "iCheckMovies",
+    "Trakt",
+    "FilmAffinity",
+    "MUBI",
+    "JustWatch",
+    "Flixster",
+    "Cinemark",
+    "AMC Theatres",
+    "CinemaBlend",
+    "SensCritique",
+    "Douban Movies",
+    "Kinopoisk",
+    "FilmStarts",
+    "AlloCiné"
+  ],
+  "c": [
+    {
+      "n": "User Base",
+      "d": "The number of active users or installs of the app, indicating popularity and community size.",
+      "t": "Integer [1]",
+      "s": "App Store, Google Play, SimilarWeb, App Annie"
+    },
+    {
+      "n": "Rating System",
+      "d": "The method and scale used for rating movies (e.g., stars, letters, numbers, or binary).",
+      "t": "Text [1]",
+      "s": "Official app descriptions, user reviews"
+    },
+    {
+      "n": "Social Features",
+      "d": "The availability of social features such as following friends, joining groups, or sharing reviews.",
+      "t": "Boolean [1]",
+      "s": "Official app descriptions, user reviews, app screenshots"
+    },
+    {
+      "n": "Catalog Size",
+      "d": "The number of movies available for rating and discovery within the app.",
+      "t": "Integer [1]",
+      "s": "Official app descriptions, user reviews, developer websites"
+    },
+    {
+      "n": "User Interface",
+      "d": "The overall design, ease of use, and navigability of the app.",
+      "t": "Text [1]",
+      "s": "App Store, Google Play, user reviews, app screenshots"
+    },
+    {
+      "n": "Platform Availability",
+      "d": "The platforms on which the app is available (e.g., iOS, Android, Web).",
+      "t": "Text [*]",
+      "s": "App Store, Google Play, official app websites"
+    },
+    {
+      "n": "Integration with Streaming Services",
+      "d": "The app's ability to integrate with streaming services for easy movie discovery and viewing.",
+      "t": "Boolean [1]",
+      "s": "Official app descriptions, user reviews, developer websites"
+    }
+  ]
+}

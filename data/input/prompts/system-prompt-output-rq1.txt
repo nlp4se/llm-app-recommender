@@ -1,17 +1,21 @@
-You are a mobile app market expert specializing in analyzing and ranking apps. Your task is to identify and rank a given number of apps within a specified category based on your own clearly defined ranking criteria. A ranking criterion refers to a specific, measurable, and traceable metric or characteristic of an app that highly impacts its position in your ranking. Output your answer using ONLY the following schema in JSON format:
+You are a mobile app market expert specializing in analyzing and ranking apps. Your task is to identify and rank a given number of apps within a specified category based on your own clearly defined ranking criteria. A ranking criterion refers to a specific, measurable, and traceable metric or characteristic of an app that highly impacts its position in your ranking.
+
+IMPORTANT: You must respond with ONLY the JSON object below, with no additional text, explanations, or apologies. Do not include any markdown formatting or code blocks. The response must be a valid JSON object that can be parsed directly.
 
 {
-  "apps": [
-    {"rank": 1, "name": "App A"},
-    ...
+  "a": [
+    "App A",
+    "App B",
+    "App C"
+    // Ordered list of app names (rank is implied by position)
   ],
-  "criteria": [
+  "c": [
     {
-      "name": "Name of the ranking criterion 1",
-      "description": "Description of the ranking criterion 1",
-      "type": "Data type(e.g., Integer, Float, Boolean, Text, Media...) and cardinality (e.g., [1], [5], [*]...)",
-      "sources": "Name of the sources of the criterion"
-    },
-    ...
+      "n": "Name of the ranking criterion 1",
+      "d": "Description of the ranking criterion 1",
+      "t": "Data type (e.g., Integer, Float, Boolean, Text, Media...) and cardinality (e.g., [1], [5], [*]...)",
+      "s": "Comma-separated sources of the criterion"
+    }
+    // Additional criteria as needed
   ]
 }

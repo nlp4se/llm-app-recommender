@@ -1,0 +1,75 @@
+
+{
+  "a": [
+    "eBay",
+    "Facebook Marketplace",
+    "Poshmark",
+    "Mercari",
+    "Etsy",
+    "Depop",
+    "OfferUp",
+    "Vestiaire Collective",
+    "thredUP",
+    "Decluttr",
+    "Craigslist",
+    "Nextdoor",
+    "5miles",
+    "Chairish",
+    "Vinted",
+    "Grailed",
+    "TheRealReal",
+    "Amazon Seller Central",
+    "Shopify",
+    "Reverb"
+  ],
+  "c": [
+    {
+      "n": "Fees",
+      "d": "The commission or listing fees associated with selling on the app.",
+      "t": "Float[*]",
+      "s": "Multiple sources"
+    },
+    {
+      "n": "Target Audience",
+      "d": "The primary demographic or interest group the app caters to.",
+      "t": "Text[*]",
+      "s": "Multiple sources"
+    },
+    {
+      "n": "Item Categories",
+      "d": "The range of product types that are commonly sold on the app.",
+      "t": "Text[*]",
+      "s": "Multiple sources"
+    },
+    {
+      "n": "Shipping Options",
+      "d": "Whether the app provides prepaid shipping labels or requires sellers to handle shipping independently.",
+      "t": "Boolean",
+      "s": "Multiple sources"
+    },
+    {
+      "n": "Payment Method",
+      "d": "How sellers receive payment for their sales (e.g., direct deposit, PayPal).",
+      "t": "Text[*]",
+      "s": "Multiple sources"
+    },
+    {
+      "n": "User Base",
+      "d": "The approximate number of active users on the platform.",
+      "t": "Integer[1]",
+      "s": "Multiple sources"
+    },
+    {
+      "n": "Listing Simplicity",
+      "d": "Ease of creating and managing product listings.",
+      "t": "Text[1]",
+      "s": "Multiple sources"
+    },
+    {
+      "n": "Seller Protection",
+      "d": "Policies and procedures in place to protect sellers from fraudulent buyers or transactions.",
+      "t": "Text[1]",
+      "s": "Multiple sources"
+    }
+  ]
+}

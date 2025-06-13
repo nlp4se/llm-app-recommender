@@ -1,0 +1,81 @@
+
+{
+  "a": [
+    "Facebook",
+    "Instagram",
+    "WhatsApp",
+    "Telegram",
+    "Snapchat",
+    "TikTok",
+    "Facebook Messenger",
+    "BeReal",
+    "Locket",
+    "Marco Polo",
+    "Houseparty",
+    "Airchat",
+    "Howbout",
+    "Soonly",
+    "Bunch Group",
+    "Viber",
+    "ooVoo",
+    "GroupMe",
+    "Zoom",
+    "Skype"
+  ],
+  "c": [
+    {
+      "n": "Active User Base",
+      "d": "Number of monthly active users on the platform, indicating popularity and reach.",
+      "t": "Integer [1]",
+      "s": "Sensor Tower, AgileTech Vietnam, SOAX"
+    },
+    {
+      "n": "Communication Features",
+      "d": "Types of communication supported (text, voice, video calls, media sharing) impacting user experience and versatility.",
+      "t": "Text [*]",
+      "s": "Lake Travis Community Library, Firefly - Sunrise Medical, Sunday Edit"
+    },
+    {
+      "n": "Group Interaction Capabilities",
+      "d": "Features for group chats, shared activities, and collaborative experiences, enhancing social bonding.",
+      "t": "Boolean [1]",
+      "s": "Wise, St Christopher's Inns, Firefly - Sunrise Medical"
+    },
+    {
+      "n": "Content Sharing Options",
+      "d": "Variety and ease of sharing different types of content (photos, videos, links, music) influencing user engagement.",
+      "t": "Text [*]",
+      "s": "AgileTech Vietnam, Mashable, Practical Ecommerce"
+    },
+    {
+      "n": "Real-Time Updates",
+      "d": "Ability to provide live or immediate updates on friends' activities, fostering a sense of presence and connection.",
+      "t": "Boolean [1]",
+      "s": "Symptoms of Living, Howbout"
+    },
+    {
+      "n": "Privacy Controls",
+      "d": "Options for managing privacy settings and content visibility, ensuring user comfort and safety.",
+      "t": "Text [*]",
+      "s": "Monica"
+    },
+    {
+      "n": "Integration with Other Platforms",
+      "d": "Seamless integration with other apps and services (e.g., calendars, music apps), streamlining user workflows.",
+      "t": "Boolean [1]",
+      "s": "Soonly"
+    },
+    {
+      "n": "Unique Features",
+      "d": "Distinctive functionalities like built-in games, location sharing, or audio-first communication that set the app apart.",
+      "t": "Text [*]",
+      "s": "St Christopher's Inns, Practical Ecommerce, Mashable"
+    },
+    {
+      "n": "User Interface",
+      "d": "Intuitive design and ease of use, leading to better user adoption and satisfaction.",
+      "t": "Text [1]",
+      "s": "Lake Travis Community Library"
+    }
+  ]
+}

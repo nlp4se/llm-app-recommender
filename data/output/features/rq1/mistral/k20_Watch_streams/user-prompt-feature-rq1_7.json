@@ -1,0 +1,75 @@
+
+{
+  "a": [
+    "YouTube",
+    "Twitch",
+    "Netflix",
+    "Hulu",
+    "Amazon Prime Video",
+    "Disney+",
+    "HBO Max",
+    "Peacock",
+    "Paramount+",
+    "Apple TV+",
+    "Sling TV",
+    "FuboTV",
+    "Philo",
+    "Pluto TV",
+    "Tubi",
+    "Crunchyroll",
+    "Funimation",
+    "Vudu",
+    "Crackle",
+    "Plex"
+  ],
+  "c": [
+    {
+      "n": "User Ratings",
+      "d": "Average user ratings on various app stores and platforms.",
+      "t": "Float [1]",
+      "s": "App Store, Google Play Store, Amazon Appstore"
+    },
+    {
+      "n": "Number of Downloads",
+      "d": "Total number of downloads across all platforms.",
+      "t": "Integer [1]",
+      "s": "App Store, Google Play Store, Amazon Appstore, Sensor Tower"
+    },
+    {
+      "n": "Content Variety",
+      "d": "Diversity and breadth of content available for streaming.",
+      "t": "Text [1]",
+      "s": "Official app descriptions, user reviews, content catalogs"
+    },
+    {
+      "n": "Streaming Quality",
+      "d": "Quality of video streaming, including resolution and buffering times.",
+      "t": "Text [1]",
+      "s": "User reviews, technical specifications, expert reviews"
+    },
+    {
+      "n": "Subscription Cost",
+      "d": "Cost of subscription plans, if applicable.",
+      "t": "Float [1]",
+      "s": "Official app websites, app store listings"
+    },
+    {
+      "n": "User Interface",
+      "d": "Ease of use and navigability of the app interface.",
+      "t": "Text [1]",
+      "s": "User reviews, expert reviews, app screenshots"
+    },
+    {
+      "n": "Device Compatibility",
+      "d": "Number of devices and platforms supported by the app.",
+      "t": "Integer [1]",
+      "s": "Official app websites, app store listings"
+    },
+    {
+      "n": "Unique Features",
+      "d": "Special features that differentiate the app from competitors.",
+      "t": "Text [1]",
+      "s": "Official app descriptions, user reviews, expert analyses"
+    }
+  ]
+}

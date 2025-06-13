@@ -1,0 +1,87 @@
+
+{
+  "a": [
+    "eBay",
+    "Facebook Marketplace",
+    "Poshmark",
+    "Etsy Seller",
+    "OfferUp",
+    "ThredUp",
+    "Decluttr",
+    "Chairish",
+    "Nextdoor",
+    "Vestiaire Collective",
+    "Depop",
+    "Mercari",
+    "Letgo (integrated into OfferUp)",
+    "5miles",
+    "Amazon Seller Central",
+    "Vendoo",
+    "TheRealReal",
+    "Shopify",
+    "Crosslist",
+    "Vinted"
+  ],
+  "c": [
+    {
+      "n": "User Base",
+      "d": "Number of active users on the platform. A larger user base increases the likelihood of sales.",
+      "t": "Integer[*]",
+      "s": "Various sources"
+    },
+    {
+      "n": "Fees",
+      "d": "Listing fees, commission fees, or transaction fees charged by the app. Lower fees increase seller profit.",
+      "t": "Float[*]",
+      "s": "Various sources"
+    },
+    {
+      "n": "Ease of Use",
+      "d": "How easy it is to list items, manage inventory, and communicate with buyers.",
+      "t": "Text[1]",
+      "s": "User reviews, app descriptions"
+    },
+    {
+      "n": "Shipping Options",
+      "d": "Availability of prepaid shipping labels, integrated shipping options, and buyer-paid shipping.",
+      "t": "Boolean[1]",
+      "s": "App descriptions, seller information"
+    },
+    {
+      "n": "Payment Options",
+      "d": "Variety of payment methods accepted and ease of transferring funds to the seller.",
+      "t": "Text[*]",
+      "s": "App descriptions, user reviews"
+    },
+    {
+      "n": "Target Audience",
+      "d": "Specific types of items or categories that the app is best suited for (e.g., fashion, electronics, handmade items).",
+      "t": "Text[*]",
+      "s": "App descriptions, user reviews"
+    },
+    {
+      "n": "Global Reach",
+      "d": "The geographical reach of the platform, whether it's local, national, or international.",
+      "t": "Text[1]",
+      "s": "App descriptions"
+    },
+    {
+      "n": "Seller Tools",
+      "d": "Availability of tools like analytics, listing templates, and automated listing renewals.",
+      "t": "Boolean[1]",
+      "s": "App descriptions"
+    },
+    {
+      "n": "Cross-listing Capabilities",
+      "d": "Ability to list items on multiple platforms simultaneously to increase visibility.",
+      "t": "Boolean[1]",
+      "s": "App descriptions"
+    },
+    {
+      "n": "Specialization",
+      "d": "Whether the platform specializes in certain categories like luxury items, vintage goods, or electronics.",
+      "t": "Boolean[1]",
+      "s": "App descriptions"
+    }
+  ]
+}

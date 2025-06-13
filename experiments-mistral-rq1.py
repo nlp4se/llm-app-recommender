@@ -12,38 +12,38 @@ def read_csv_values(file_path):
         # Get all values from the first column
         return [row[0] for row in reader]
 
-def run_command(k, category, output_dir, n=10, model="mistral-large-2411", sleep=10):
+def run_command(k, search, output_dir, n=10, model="mistral-large-2411", sleep=10):
     """Run the search command with given parameters."""
     cmd = [
         "python", "-m", "code.llm.mistral.search_mistral_rq1",
         "--output", output_dir,
         "--k", str(k),
-        "--category", category,
+        "--search", search,
         "--n", str(n),
         "--model", model,
         "--sleep", str(sleep)
     ]
     
-    print(f"Running command with k={k}, category={category}")
+    print(f"Running command with k={k}, search={search}")
     subprocess.run(cmd)
     time.sleep(sleep)  # Wait between runs
 
 def main():
     # Read values from CSV files
     k_values = read_csv_values("data/input/use-case/k.csv")
-    categories = read_csv_values("data/input/use-case/categories.csv")
+    categories = read_csv_values("data/input/use-case/features.csv")
     
     # Base output directory
-    base_output_dir = "./data/output/search/rq1/mistral"
+    base_output_dir = "./data/output/features/rq1/mistral"
     
     # Run command for each combination
-    for k, category in product(k_values, categories):
+    for k, search in product(k_values, categories):
         # Create a subdirectory for this combination
-        output_dir = f"{base_output_dir}/k{k}_{category.replace(' ', '_')}"
+        output_dir = f"{base_output_dir}/k{k}_{search.replace(' ', '_')}"
         
         run_command(
             k=k,
-            category=category,
+            search=search,
             output_dir=output_dir
         )
 

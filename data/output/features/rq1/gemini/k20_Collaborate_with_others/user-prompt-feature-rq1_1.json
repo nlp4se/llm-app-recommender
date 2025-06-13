@@ -1,0 +1,87 @@
+
+{
+  "a": [
+    "Slack",
+    "Microsoft Teams",
+    "Google Chat",
+    "Discord",
+    "Trello",
+    "Asana",
+    "ClickUp",
+    "Wrike",
+    "Miro",
+    "Notion",
+    "Confluence",
+    "Jira",
+    "Basecamp",
+    "Monday.com",
+    "Airtable",
+    "Zoom",
+    "Webex Messaging",
+    "Zoho Connect",
+    "Flock",
+    "Connecteam"
+  ],
+  "c": [
+    {
+      "n": "Communication Channels",
+      "d": "The variety of communication methods offered, including text, audio, and video, to facilitate real-time and asynchronous discussions.",
+      "t": "Text",
+      "s": "Multiple"
+    },
+    {
+      "n": "Task Management",
+      "d": "Ability to organize tasks, set deadlines, assign responsibilities, and track progress to ensure projects stay on schedule.",
+      "t": "Boolean",
+      "s": "Multiple"
+    },
+    {
+      "n": "File Sharing",
+      "d": "Capability to easily share documents, images, and other files within the app to support collaborative work on projects and tasks.",
+      "t": "Media[*]",
+      "s": "Multiple"
+    },
+    {
+      "n": "Integrations",
+      "d": "Seamless integration with other tools and platforms like Google Workspace, Microsoft 365, and other project management software to streamline workflows.",
+      "t": "Text[*]",
+      "s": "Multiple"
+    },
+    {
+      "n": "User Interface",
+      "d": "The user-friendliness and intuitiveness of the app's design, impacting ease of use and overall adoption by team members.",
+      "t": "Text",
+      "s": "Multiple"
+    },
+    {
+      "n": "Customization",
+      "d": "The extent to which the app can be tailored to fit specific team needs and workflows, including custom fields, views, and automation options.",
+      "t": "Boolean",
+      "s": "Multiple"
+    },
+    {
+      "n": "Real-time Collaboration",
+      "d": "Features that enable simultaneous editing, commenting, and feedback to facilitate real-time teamwork.",
+      "t": "Boolean",
+      "s": "Multiple"
+    },
+    {
+      "n": "Video Conferencing",
+      "d": "Built-in or integrated video conferencing capabilities for virtual meetings, presentations, and team discussions.",
+      "t": "Boolean",
+      "s": "Multiple"
+    },
+    {
+      "n": "Mobile Accessibility",
+      "d": "Availability of mobile apps (iOS and Android) to allow team members to stay connected and productive while on the go.",
+      "t": "Boolean",
+      "s": "Multiple"
+    },
+    {
+      "n": "Pricing",
+      "d": "The cost of the app, including the availability of free plans or trials, and the pricing structure for different subscription levels.",
+      "t": "Float",
+      "s": "Multiple"
+    }
+  ]
+}

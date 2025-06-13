@@ -1,0 +1,57 @@
+
+{
+  "a": [
+    "Google Drive",
+    "Dropbox",
+    "WeTransfer",
+    "Send Anywhere",
+    "Microsoft OneDrive",
+    "Box",
+    "Filestage",
+    "Hightail",
+    "pCloud",
+    "MediaFire",
+    "iCloud Drive",
+    "ShareFile",
+    "TransferNow",
+    "Jumpshare",
+    "Egnyte",
+    "Sync.com",
+    "Tresorit",
+    "SpiderOak One",
+    "LockTransfer",
+    "BlueFiles"
+  ],
+  "c": [
+    {
+      "n": "File Size Limit",
+      "d": "Maximum file size that can be transferred.",
+      "t": "Float[1]",
+      "s": "vendor website, reviews"
+    },
+    {
+      "n": "Security",
+      "d": "Security measures employed such as encryption.",
+      "t": "Text[*]",
+      "s": "vendor website, reviews"
+    },
+    {
+      "n": "Storage Space",
+      "d": "Amount of storage space available for file sharing.",
+      "t": "Integer[1]",
+      "s": "vendor website, reviews"
+    },
+    {
+      "n": "Ease of Use",
+      "d": "How user-friendly the app is for file sharing.",
+      "t": "Text[1]",
+      "s": "user reviews, expert reviews"
+    },
+    {
+      "n": "Platform Compatibility",
+      "d": "Platforms on which the app is available (e.g., iOS, Android, Windows, macOS).",
+      "t": "Text[*]",
+      "s": "vendor website, app store descriptions"
+    }
+  ]
+}

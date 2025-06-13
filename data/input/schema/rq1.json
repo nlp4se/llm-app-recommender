@@ -1,41 +1,45 @@
 {
     "type": "json_schema",
     "json_schema": {
-        "name": "rank_apps",
-        "description": "Ranks apps based on specified criteria and provides detailed ranking information",
-        "schema": {
-            "type": "object",
-            "properties": {
-                "apps": {
-                    "type": "array",
-                    "items": {
-                        "type": "object",
-                        "properties": {
-                            "rank": {"type": "integer", "description": "Position in the ranking"},
-                            "name": {"type": "string", "description": "Name of the app"}
-                        },
-                        "required": ["rank", "name"]
-                    }
-                },
-                "criteria": {
-                    "type": "array",
-                    "items": {
-                        "type": "object",
-                        "properties": {
-                            "name": {"type": "string", "description": "Name of the ranking criterion"},
-                            "description": {"type": "string", "description": "Description of the ranking criterion"},
-                            "type": {"type": "string", "description": "Data type(e.g., Integer, Float, Boolean, Text, Media...) and cardinality (e.g., [1], [5], [*]...)"},
-                            "sources": {
-                                "type": "array",
-                                "items": {"type": "string"},
-                                "description": "List of data sources"
-                            }
-                        },
-                        "required": ["name", "description", "type", "sources"]
-                    }
-                }
+      "name": "rank_apps",
+      "description": "Ranks apps based on specified criteria and provides detailed ranking information",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "a": {
+            "type": "array",
+            "items": {
+              "type": "string"
             },
-            "required": ["apps", "criteria"]
-        }
+            "description": "Ordered list of app names (rank implied by position)"
+          },
+          "c": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "n": {
+                  "type": "string",
+                  "description": "Name of the ranking criterion"
+                },
+                "d": {
+                  "type": "string",
+                  "description": "Description of the ranking criterion"
+                },
+                "t": {
+                  "type": "string",
+                  "description": "Data type (e.g., Integer, Float, Boolean, Text, Media...) and cardinality (e.g., [1], [5], [*]...)"
+                },
+                "s": {
+                  "type": "string",
+                  "description": "Comma-separated list of data sources"
+                }
+              },
+              "required": ["n", "d", "t", "s"]
+            }
+          }
+        },
+        "required": ["a", "c"]
+      }
     }
-}
+  }  

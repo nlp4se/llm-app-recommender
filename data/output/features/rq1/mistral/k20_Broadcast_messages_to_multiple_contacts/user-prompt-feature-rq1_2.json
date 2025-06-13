@@ -1,0 +1,57 @@
+
+{
+  "a": [
+    "WhatsApp",
+    "Telegram",
+    "Signal",
+    "Threema",
+    "GroupMe",
+    "BAND",
+    "Slack",
+    "Microsoft Teams",
+    "Discord",
+    "Viber",
+    "WeChat",
+    "Line",
+    "KakaoTalk",
+    "Bridgefy",
+    "Zello",
+    "FireChat",
+    "HeyTell",
+    "Nextplus",
+    "TextNow",
+    "TextFree"
+  ],
+  "c": [
+    {
+      "n": "User Base",
+      "d": "The total number of active users on the platform.",
+      "t": "Integer [1]",
+      "s": "App Store, Google Play Store, Official Press Releases"
+    },
+    {
+      "n": "Group Size Limit",
+      "d": "The maximum number of participants that can be included in a single broadcast or group message.",
+      "t": "Integer [1]",
+      "s": "Official Documentation, App Reviews"
+    },
+    {
+      "n": "Message Encryption",
+      "d": "The type of encryption used to secure messages (e.g., end-to-end encryption).",
+      "t": "Text [1]",
+      "s": "Official Documentation, Security Audits"
+    },
+    {
+      "n": "Platform Availability",
+      "d": "The number of platforms the app is available on (e.g., iOS, Android, Web, Desktop).",
+      "t": "Integer [1]",
+      "s": "App Store, Google Play Store, Official Website"
+    },
+    {
+      "n": "User Ratings",
+      "d": "The average rating given by users on various app stores.",
+      "t": "Float [1]",
+      "s": "App Store, Google Play Store"
+    }
+  ]
+}

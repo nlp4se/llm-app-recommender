@@ -1,0 +1,57 @@
+
+{
+  "a": [
+    "Twitch",
+    "YouTube Live",
+    "Netflix",
+    "Disney+",
+    "Hulu",
+    "Amazon Prime Video",
+    "Peacock",
+    "Paramount+",
+    "Apple TV+",
+    "Max",
+    "Pluto TV",
+    "Tubi",
+    "Sling FreeStream",
+    "Crackle",
+    "Freevee",
+    "YouNow",
+    "LiveMe",
+    "Bigo Live",
+    "TikTok Live",
+    "Facebook Live"
+  ],
+  "c": [
+    {
+      "n": "Content Variety",
+      "d": "Range of available streams, including live and on-demand content.",
+      "t": "Text[*]",
+      "s": "Various app reviews, expert opinions"
+    },
+    {
+      "n": "User Engagement Features",
+      "d": "Tools for interacting with streamers and other viewers (chat, emotes, virtual gifts).",
+      "t": "Boolean",
+      "s": "App descriptions, user reviews"
+    },
+    {
+      "n": "Platform Support",
+      "d": "Compatibility with different devices and operating systems.",
+      "t": "Text[*]",
+      "s": "App specifications, user feedback"
+    },
+    {
+      "n": "Subscription Cost",
+      "d": "Monthly or annual fee for accessing premium content or ad-free viewing.",
+      "t": "Float[1]",
+      "s": "App pricing details, subscription plans"
+    },
+    {
+      "n": "Ad Frequency",
+      "d": "How often ads are displayed during streams.",
+      "t": "Integer",
+      "s": "User reviews, free tier descriptions"
+    }
+  ]
+}

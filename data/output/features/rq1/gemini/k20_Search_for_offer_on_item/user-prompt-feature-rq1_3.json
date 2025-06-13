@@ -1,0 +1,57 @@
+
+{
+  "a": [
+    "Amazon App",
+    "ShopSavvy",
+    "Flipp",
+    "BuyVia",
+    "Price.com",
+    "DealNews",
+    "iSlick",
+    "Deal Drop",
+    "Google Shopper",
+    "Honey",
+    "Drop",
+    "RetailMeNot",
+    "The Coupons App",
+    "Ibotta",
+    "Shopkick",
+    "Checkout 51",
+    "Rakuten",
+    "Target Circle and RedCard App",
+    "Upside",
+    "GasBuddy"
+  ],
+  "c": [
+    {
+      "n": "Price Comparison Accuracy",
+      "d": "The degree to which the app provides accurate and up-to-date price comparisons across multiple retailers.",
+      "t": "Float[1]",
+      "s": "User reviews, independent testing"
+    },
+    {
+      "n": "Breadth of Retailer Coverage",
+      "d": "The number and variety of retailers and product categories the app searches for deals.",
+      "t": "Integer[*]",
+      "s": "App description, app features list"
+    },
+    {
+      "n": "Deal Notification Frequency",
+      "d": "How often the app updates and notifies users of new deals and price drops.",
+      "t": "Text[1]",
+      "s": "App settings, user reviews"
+    },
+    {
+      "n": "User Interface and Experience",
+      "d": "The ease of navigation, clarity of information, and overall user-friendliness of the app.",
+      "t": "Text[1]",
+      "s": "User reviews, app store ratings"
+    },
+    {
+      "n": "Customization Options",
+      "d": "The ability for users to set price alerts, customize deal preferences, and save favorite stores.",
+      "t": "Boolean[*]",
+      "s": "App settings, app features list"
+    }
+  ]
+}

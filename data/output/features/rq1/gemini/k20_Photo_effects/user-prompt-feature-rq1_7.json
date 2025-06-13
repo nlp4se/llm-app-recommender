@@ -1,0 +1,57 @@
+
+{
+  "a": [
+    "Adobe Lightroom Mobile",
+    "Snapseed",
+    "VSCO",
+    "Picsart",
+    "Polarr",
+    "Polish",
+    "Afterlight",
+    "Adobe Photoshop Express",
+    "PhotoDirector Photo Editor",
+    "YouCam Perfect",
+    "LightX Photo Editor",
+    "Fotor",
+    "Toolwiz Photos",
+    "Prisma",
+    "Facetune2",
+    "Bazaart",
+    "Camera+",
+    "Canva",
+    "Movavi Picverse",
+    "Pixlr"
+  ],
+  "c": [
+    {
+      "n": "Ease of Use",
+      "d": "The intuitiveness and simplicity of the app's interface and tools for creating photo effects.",
+      "t": "Integer[1]",
+      "s": "User reviews, app store descriptions"
+    },
+    {
+      "n": "Variety of Effects",
+      "d": "The range and uniqueness of photo effects available, including filters, overlays, and artistic tools.",
+      "t": "Integer[*]",
+      "s": "App features list, expert reviews"
+    },
+    {
+      "n": "Customization Options",
+      "d": "The ability to adjust and personalize effects to achieve a desired look.",
+      "t": "Boolean[1]",
+      "s": "App settings, user feedback"
+    },
+    {
+      "n": "Performance",
+      "d": "The app's speed, stability, and overall performance when applying effects and editing photos.",
+      "t": "Float[1]",
+      "s": "App store reviews, benchmark tests"
+    },
+    {
+      "n": "Cost",
+      "d": "The app's pricing model, including free features and subscription costs for premium effects.",
+      "t": "Float[1]",
+      "s": "App store pricing, in-app purchase information"
+    }
+  ]
+}

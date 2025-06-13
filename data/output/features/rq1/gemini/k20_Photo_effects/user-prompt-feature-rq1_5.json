@@ -1,0 +1,57 @@
+
+{
+  "a": [
+    "VSCO",
+    "Snapseed",
+    "Adobe Lightroom Mobile",
+    "Afterlight",
+    "PicsArt",
+    "Canva",
+    "Fotor",
+    "PhotoDirector",
+    "YouCam Perfect",
+    "Pixlr",
+    "Photo Editor Pro",
+    "Photoleap",
+    "Prisma",
+    "Hyperspektiv",
+    "Ultrapop",
+    "Darkroom",
+    "Polarr",
+    "Polish",
+    "Adobe Photoshop Express",
+    "Photopea"
+  ],
+  "c": [
+    {
+      "n": "Variety of Effects/Filters",
+      "d": "The number and diversity of effects and filters available within the app to alter the look and feel of photos.",
+      "t": "Integer, [1,*]",
+      "s": "App description, reviews"
+    },
+    {
+      "n": "User Interface (UI)",
+      "d": "How easy and intuitive the app is to use, including the placement of tools and navigation.",
+      "t": "Text, [1]",
+      "s": "Reviews, expert opinions"
+    },
+    {
+      "n": "Customization Options",
+      "d": "The degree to which effects and filters can be adjusted or modified to achieve a specific look.",
+      "t": "Boolean, [1]",
+      "s": "App description, tutorials"
+    },
+    {
+      "n": "Platform Availability",
+      "d": "The platforms (iOS, Android, Web) on which the app is available.",
+      "t": "Text, [1]",
+      "s": "App description"
+    },
+    {
+      "n": "Cost",
+      "d": "The pricing model of the app, including whether it is free, has in-app purchases, or requires a subscription.",
+      "t": "Text, [1]",
+      "s": "App store, reviews"
+    }
+  ]
+}

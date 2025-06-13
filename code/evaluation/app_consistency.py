@@ -14,8 +14,8 @@ def run_ranking_matrix_commands(model: str):
     k_values = k_df['k'].unique()
     
     # Base paths
-    base_input_path = Path('data/output/search/uc1') / model
-    base_output_path = Path('data/output/search/uc1') / model
+    base_input_path = Path('data/output/search/rq1') / model
+    base_output_path = Path('data/output/search/rq1') / model
     
     # Run commands for each combination
     for k in k_values:
@@ -39,7 +39,7 @@ def run_ranking_matrix_commands(model: str):
                 '--experiment_name', 'user-prompt-uc1',
                 '--output_folder', str(output_folder),
                 '--category_name', f'"{category}"',
-                '--max_rank', '20'
+                '--max_rank', '10'
             ]
             
             print(f"\nRunning command for model={model}, k={k}, category={category}")

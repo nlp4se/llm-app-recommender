@@ -1,0 +1,57 @@
+
+{
+  "a": [
+    "RetailMeNot",
+    "Honey",
+    "Rakuten",
+    "Ibotta",
+    "Capital One Shopping",
+    "Coupons.com",
+    "Groupon",
+    "Slickdeals",
+    "Brad's Deals",
+    "DealNews",
+    "Offers.com",
+    "Shopkick",
+    "Checkout 51",
+    "Fetch Rewards",
+    "Receipt Hog",
+    "Flipp",
+    "Shopular",
+    "Ebates",
+    "Swagbucks",
+    "Piggy"
+  ],
+  "c": [
+    {
+      "n": "User Ratings",
+      "d": "Average rating given by users on app stores.",
+      "t": "Float [1]",
+      "s": "Google Play Store, Apple App Store"
+    },
+    {
+      "n": "Number of Downloads",
+      "d": "Total number of times the app has been downloaded.",
+      "t": "Integer [1]",
+      "s": "Google Play Store, Apple App Store, Sensor Tower"
+    },
+    {
+      "n": "Offer Variety",
+      "d": "Range and diversity of offers and deals available.",
+      "t": "Text [1]",
+      "s": "Official app websites, user reviews"
+    },
+    {
+      "n": "Ease of Use",
+      "d": "User-friendliness and navigability of the app.",
+      "t": "Text [1]",
+      "s": "User reviews, app store descriptions"
+    },
+    {
+      "n": "Update Frequency",
+      "d": "How often the app is updated with new features and bug fixes.",
+      "t": "Text [1]",
+      "s": "App store update history"
+    }
+  ]
+}

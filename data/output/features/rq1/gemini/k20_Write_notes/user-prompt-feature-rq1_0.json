@@ -1,0 +1,69 @@
+
+{
+  "a": [
+    "ClickUp",
+    "Notion",
+    "Evernote",
+    "Microsoft OneNote",
+    "Apple Notes",
+    "Google Keep",
+    "Obsidian",
+    "Joplin",
+    "Simplenote",
+    "Bear",
+    "UpNote",
+    "Zoho Notebook",
+    "GoodNotes",
+    "Notability",
+    "CollaNote",
+    "Nebo",
+    "LiquidText",
+    "MarginNote 4",
+    "Noteshelf",
+    "Anytype"
+  ],
+  "c": [
+    {
+      "n": "Features & Functionality",
+      "d": "The range and depth of features offered, including text formatting, multimedia support, task management, and organizational tools (folders, tags, etc.).",
+      "t": "Text[*]",
+      "s": "App Store, G2, User Reviews"
+    },
+    {
+      "n": "Ease of Use",
+      "d": "The intuitiveness and simplicity of the user interface, making it easy to add, edit, organize, and retrieve notes quickly.",
+      "t": "Float[1]",
+      "s": "Zapier, User Reviews"
+    },
+    {
+      "n": "Cross-Platform Availability & Syncing",
+      "d": "Availability across multiple platforms (iOS, Android, macOS, Windows, Web) and seamless synchronization of notes across devices.",
+      "t": "Boolean[1]",
+      "s": "App Store, Google Play Store"
+    },
+    {
+      "n": "Organization",
+      "d": "The effectiveness of organizational tools such as folders, tags, notebooks, and linking capabilities for categorizing and retrieving notes.",
+      "t": "Text[*]",
+      "s": "PCMag, User Reviews"
+    },
+    {
+      "n": "AI Assistance",
+      "d": "The availability and quality of AI-powered features such as summarizing notes, generating transcripts, and improving organization.",
+      "t": "Boolean[1]",
+      "s": "ClickUp, Notta"
+    },
+    {
+      "n": "Collaboration Features",
+      "d": "The ability to share and collaborate on notes with others in real-time, including features for team collaboration and project management.",
+      "t": "Boolean[1]",
+      "s": "Zapier, ProofHub"
+    },
+    {
+      "n": "Pricing",
+      "d": "The cost of the app, considering both free and paid options, and the value offered for the price.",
+      "t": "Float[1]",
+      "s": "App Store, Google Play Store"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+
+{
+  "a": [
+    "Evernote",
+    "Notion",
+    "Microsoft OneNote",
+    "Google Keep",
+    "Apple Notes",
+    "Bear",
+    "Zoho Notebook",
+    "Simplenote",
+    "Ulysses",
+    "GoodNotes",
+    "Notability",
+    "Standard Notes",
+    "Joplin",
+    "Craft",
+    "Roam Research",
+    "Obsidian",
+    "Turtl",
+    "Laverna",
+    "Boost Note",
+    "CherryTree"
+  ],
+  "c": [
+    {
+      "n": "User Ratings",
+      "d": "Average rating of the app on various app stores.",
+      "t": "Float [1]",
+      "s": "Google Play Store, Apple App Store, Microsoft Store"
+    },
+    {
+      "n": "Number of Downloads",
+      "d": "Total number of times the app has been downloaded.",
+      "t": "Integer [1]",
+      "s": "Google Play Store, Apple App Store, Microsoft Store"
+    },
+    {
+      "n": "Cross-Platform Availability",
+      "d": "Availability of the app across different platforms (iOS, Android, Windows, macOS, Web).",
+      "t": "Text [*]",
+      "s": "Official app websites, app store listings"
+    },
+    {
+      "n": "Feature Set",
+      "d": "Range and depth of features offered by the app, such as text formatting, multimedia support, tagging, and organization tools.",
+      "t": "Text [*]",
+      "s": "Official app websites, user reviews, tech blogs"
+    },
+    {
+      "n": "Syncing Capabilities",
+      "d": "Ability to sync notes across multiple devices and platforms.",
+      "t": "Boolean [1]",
+      "s": "Official app websites, user reviews"
+    },
+    {
+      "n": "Security and Privacy",
+      "d": "Features related to data encryption, privacy policies, and security measures.",
+      "t": "Text [*]",
+      "s": "Official app websites, privacy policies, security audits"
+    },
+    {
+      "n": "User Interface and Experience",
+      "d": "Ease of use, intuitiveness, and overall user experience of the app.",
+      "t": "Text [*]",
+      "s": "User reviews, tech blogs, official app websites"
+    },
+    {
+      "n": "Integration with Other Services",
+      "d": "Ability to integrate with other apps and services for enhanced functionality.",
+      "t": "Text [*]",
+      "s": "Official app websites, user reviews, tech blogs"
+    },
+    {
+      "n": "Pricing Model",
+      "d": "Cost of the app, including any subscription fees or in-app purchases.",
+      "t": "Text [*]",
+      "s": "Official app websites, app store listings"
+    },
+    {
+      "n": "Customer Support",
+      "d": "Quality and responsiveness of customer support offered by the app developers.",
+      "t": "Text [*]",
+      "s": "User reviews, official app websites, customer support forums"
+    }
+  ]
+}

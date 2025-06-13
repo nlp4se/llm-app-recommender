@@ -1,0 +1,57 @@
+
+{
+  "a": [
+    "Facebook",
+    "WhatsApp",
+    "Instagram",
+    "Telegram",
+    "Snapchat",
+    "TikTok",
+    "YouTube",
+    "Facebook Messenger",
+    "Skype",
+    "Viber",
+    "GroupMe",
+    "Marco Polo",
+    "BeReal",
+    "Houseparty",
+    "AirChat",
+    "Noplace",
+    "RedNote",
+    "Supernova",
+    "Cappuccino",
+    "Ren"
+  ],
+  "c": [
+    {
+      "n": "Active Users",
+      "d": "Number of active users on the platform; a higher number indicates a larger potential audience.",
+      "t": "Integer [1]",
+      "s": "SOAX, AgileTech Vietnam"
+    },
+    {
+      "n": "Communication Features",
+      "d": "Variety of communication tools offered, such as text messaging, voice calls, video calls, and group chats.",
+      "t": "Text [*]",
+      "s": "AgileTech Vietnam, Firefly"
+    },
+    {
+      "n": "Content Sharing Options",
+      "d": "Range of content types that can be shared, including photos, videos, stories, and live streams.",
+      "t": "Text [*]",
+      "s": "St Christopher's Inns, Symptoms of Living"
+    },
+    {
+      "n": "Privacy Controls",
+      "d": "Options available for managing privacy, such as setting message expiration times and controlling who can view content.",
+      "t": "Boolean [1]",
+      "s": "SOAX, Symptoms of Living"
+    },
+    {
+      "n": "Unique Features",
+      "d": "Distinctive functionalities that differentiate the app from its competitors, such as ephemeral content, audio-first communication, or community-building tools.",
+      "t": "Text [*]",
+      "s": "Mashable, Hootsuite Blog"
+    }
+  ]
+}

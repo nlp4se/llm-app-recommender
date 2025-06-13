@@ -1,0 +1,75 @@
+
+{
+  "a": [
+    "Netflix",
+    "Disney+",
+    "HBO Max",
+    "Amazon Prime Video",
+    "Hulu",
+    "Apple TV+",
+    "Paramount+",
+    "Peacock",
+    "YouTube",
+    "Google Play Movies & TV",
+    "Vudu",
+    "Tubi",
+    "Pluto TV",
+    "Crackle",
+    "IMDb TV",
+    "Mubi",
+    "The Criterion Channel",
+    "Shudder",
+    "BritBox",
+    "Acorn TV"
+  ],
+  "c": [
+    {
+      "n": "Content Library Size",
+      "d": "The total number of movies and TV shows available on the platform.",
+      "t": "Integer [1]",
+      "s": "Official platform websites, third-party reviews, app descriptions"
+    },
+    {
+      "n": "Streaming Quality",
+      "d": "The resolution and quality of the video streaming offered (e.g., HD, 4K).",
+      "t": "Text [1]",
+      "s": "Official platform websites, user reviews, tech reviews"
+    },
+    {
+      "n": "User Interface and Experience",
+      "d": "The ease of use and navigability of the app interface.",
+      "t": "Text [1]",
+      "s": "User reviews, tech reviews, app store ratings"
+    },
+    {
+      "n": "Subscription Cost",
+      "d": "The monthly or yearly cost of subscription to the service.",
+      "t": "Float [1]",
+      "s": "Official platform websites, app store listings"
+    },
+    {
+      "n": "Device Compatibility",
+      "d": "The number of devices and platforms supported by the app.",
+      "t": "Integer [1]",
+      "s": "Official platform websites, app store listings, tech reviews"
+    },
+    {
+      "n": "User Ratings",
+      "d": "The average rating given by users on app stores.",
+      "t": "Float [1]",
+      "s": "App store listings, user reviews"
+    },
+    {
+      "n": "Exclusive Content",
+      "d": "The availability of exclusive movies and TV shows not found on other platforms.",
+      "t": "Boolean [1]",
+      "s": "Official platform websites, third-party reviews"
+    },
+    {
+      "n": "Offline Downloads",
+      "d": "The ability to download movies and TV shows for offline viewing.",
+      "t": "Boolean [1]",
+      "s": "Official platform websites, app store listings, user reviews"
+    }
+  ]
+}

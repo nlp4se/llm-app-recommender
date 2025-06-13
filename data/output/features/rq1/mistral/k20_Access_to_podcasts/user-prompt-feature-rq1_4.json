@@ -1,0 +1,87 @@
+
+{
+  "a": [
+    "Spotify",
+    "Apple Podcasts",
+    "Google Podcasts",
+    "Audible",
+    "Pocket Casts",
+    "Stitcher",
+    "Overcast",
+    "Castbox",
+    "Podbean",
+    "TuneIn Radio",
+    "iHeartRadio",
+    "Deezer",
+    "Amazon Music",
+    "SoundCloud",
+    "Pandora",
+    "Spreaker",
+    "Acast",
+    "Firstory",
+    "Buzzsprout",
+    "Libsyn"
+  ],
+  "c": [
+    {
+      "n": "User Ratings",
+      "d": "The average rating given by users on app stores.",
+      "t": "Float [1]",
+      "s": "App Store, Google Play Store"
+    },
+    {
+      "n": "Number of Downloads",
+      "d": "The total number of times the app has been downloaded.",
+      "t": "Integer [1]",
+      "s": "App Store, Google Play Store, Sensor Tower"
+    },
+    {
+      "n": "Content Library Size",
+      "d": "The number of podcasts available in the app's library.",
+      "t": "Integer [1]",
+      "s": "Official app websites, App Store descriptions"
+    },
+    {
+      "n": "User Interface Design",
+      "d": "The quality and usability of the app's user interface.",
+      "t": "Text [1]",
+      "s": "Expert reviews, user reviews"
+    },
+    {
+      "n": "Unique Features",
+      "d": "Any unique features that set the app apart from competitors.",
+      "t": "Text [*]",
+      "s": "Official app websites, App Store descriptions, expert reviews"
+    },
+    {
+      "n": "Cross-Platform Availability",
+      "d": "The availability of the app across different platforms (iOS, Android, Web, etc.).",
+      "t": "Text [*]",
+      "s": "Official app websites, App Store descriptions"
+    },
+    {
+      "n": "Integration with Other Services",
+      "d": "The app's ability to integrate with other services and devices.",
+      "t": "Text [*]",
+      "s": "Official app websites, App Store descriptions, expert reviews"
+    },
+    {
+      "n": "Subscription Cost",
+      "d": "The cost of subscription plans, if any.",
+      "t": "Float [1]",
+      "s": "Official app websites, App Store descriptions"
+    },
+    {
+      "n": "Ad-Supported",
+      "d": "Whether the app is supported by ads.",
+      "t": "Boolean [1]",
+      "s": "Official app websites, App Store descriptions"
+    },
+    {
+      "n": "Offline Listening",
+      "d": "The ability to download podcasts for offline listening.",
+      "t": "Boolean [1]",
+      "s": "Official app websites, App Store descriptions"
+    }
+  ]
+}
