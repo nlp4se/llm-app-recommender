@@ -1,0 +1,12 @@
+name,description,type,sources
+Additional Features,"The availability of additional features like offline downloads, social sharing, etc.",Text [*],"App store descriptions, official app websites, user reviews"
+Library Size,The total number of songs available in the app's library.,"Integer, [1]","Official app websites, music industry reports, news articles, tech blogs"
+Music Library Size,The total number of songs available in the app's library.,Integer [1],"Official app websites, app store descriptions, industry reports, music industry reports, news articles, tech blogs, tech reviews, user reviews"
+Platform Availability,"The number of platforms the app is available on (iOS, Android, Web, etc.).",Integer [1],"App Store, App Store descriptions, App store descriptions, App store listings, Google Play Store, official app websites"
+Platform Compatibility,"The availability of the app across different platforms such as iOS, Android, Web, etc.","Text, [1]","App Store descriptions, App store descriptions, official app websites"
+Shuffle Mode Availability,The app must support shuffle mode for playlists.,Boolean [1],"App Store descriptions, App store descriptions, official app websites, tech reviews, user reviews"
+Subscription Cost,"The cost of premium subscription plans, if applicable.",Float [1],"Official app websites, app store descriptions, app store listings, tech blogs, tech reviews, user reviews"
+Unique Features,"Any unique features that enhance the shuffle mode experience, such as smart playlists or personalized recommendations.","Text, [1]","Official app websites, tech reviews, user feedback"
+User Interface,"The ease of use and navigation within the app, including the accessibility of the shuffle feature.","Text, [1]","User reviews, app store ratings, tech reviews"
+User Interface and Experience,The ease of use and navigability of the app's interface.,Text [1],"User reviews, app store ratings, expert opinions, expert reviews, tech blogs, tech reviews"
+User Ratings,The average rating given by users on app stores.,Float [1],"App Store ratings, App store listings, App store ratings, Google Play ratings, review aggregation sites, user review websites, user reviews"

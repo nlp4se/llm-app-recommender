@@ -1,0 +1,148 @@
+name,description,cluster_id
+Item Categories,The types of items that can be listed and sold on the platform.,1
+Listing Features,The variety and quality of features available for creating and managing listings.,1
+Product Category Focus,"The primary types of items that are commonly sold on the app (e.g., clothing, electronics, handmade items).",1
+Seller Tools,"The features and resources available to sellers, such as listing templates, analytics, and advertising options.",1
+Analytics,The availability of data and insights on viewer behavior and stream performance.,2
+Barcode Scanning,Feature to scan product barcodes for instant price comparison.,2
+Breadth of Retailer Coverage,The number of retailers and online stores included in the app's price comparison search.,2
+Price Comparison Accuracy,The app's ability to accurately compare prices across multiple retailers and product categories.,2
+Price Tracking,Feature to track price changes over time and alert users to price drops.,2
+Reporting and Analytics,"Availability of tools to track message delivery, open rates, click-through rates, and other relevant metrics.",2
+Local Availability,The ability to reach local buyers and facilitate local pickup or delivery.,3
+Payment Options,The methods available for buyers to pay and sellers to receive funds.,3
+Payment Processing,The methods available for processing payments and the associated fees.,3
+Shipping Options,"The availability of prepaid shipping labels, integrated shipping services, and options for local pickup.",3
+Shipping Support,The assistance or services provided by the platform for shipping items to buyers.,3
+Transaction Fees,The percentage or fixed fee deducted from the sale price upon a successful transaction.,3
+Ad-Free Option,Availability of a subscription or version without advertisements.,4
+Ad-Supported Free Access,Whether the platform offers free content with advertisements.,4
+Free Trial Availability,"Whether the service offers a trial period at no cost, allowing users to evaluate before subscribing.",4
+Free vs. Paid Features,The balance between features available in the free version and those locked behind a subscription or purchase.,4
+Cashback Offers,Provision of cashback rewards on purchases made through the app.,5
+Cost and Subscription Plans,"The pricing structure of the app, including free tiers, subscription plans, and any associated costs.",5
+Coupon Integration,Availability of coupons and promo codes to apply additional discounts.,5
+Deal Coverage,"Breadth of deals and offers available, including coupons, discounts, and cashback opportunities.",5
+Fees,"Listing fees, commission fees, or transaction fees charged by the app.",5
+In-App Purchases,The availability and variety of in-app purchases.,5
+Mobile App Availability,Availability and functionality of mobile applications for listing and managing sales.,5
+Monetization Model,"How the game generates revenue (e.g., free-to-play with in-app purchases, paid).",5
+Monetization Options,"Availability of features that allow content creators to earn revenue, such as ads, subscriptions, or virtual gifts.",5
+Offer Variety,The range and diversity of offers and deals available in the app.,5
+Storage Capacity,"Amount of storage space offered by the app, both free and paid.",5
+Customization,"The ability to customize workflows, dashboards, and notifications to fit the specific needs of the team.",6
+Customization Options,"The extent to which users can personalize their collages, including adjusting layouts, adding text, stickers, backgrounds, and filters.",6
+Customization and Extensibility,The extent to which the app allows customization and supports plugins or extensions.,6
+Personalization Features,"Availability and sophistication of personalization options (e.g., inserting recipient names, custom fields).",6
+Template Variety,The number and diversity of pre-designed collage templates available.,6
+Variety of Templates and Layouts,The app should offer a diverse selection of pre-designed templates and customizable layouts to suit different collage styles and photo arrangements.,6
+AI Assistance,"The availability and quality of AI-powered features such as summarizing notes, generating transcripts, and improving organization.",7
+AI Features,The presence and effectiveness of AI-powered tools for automatic collage generation and editing.,7
+AI-Powered Features,"The presence and effectiveness of AI-driven tools such as object removal, style transfer, and intelligent adjustments.",7
+Collaboration Features,The tools and functionalities that enable multiple users to work together on notes or projects within the app.,7
+Note-Taking Capabilities,"Various note-taking tools, including typing, drawing, handwriting recognition, voice recording and transcription, and the ability to add multimedia elements (images, videos, audio files, PDFs).",7
+Organization Features,"Tools such as folders, tags, and linking capabilities that enable users to categorize and structure their notes effectively.",7
+Search Functionality,"The effectiveness of the app's search feature in locating specific notes or content within notes, including keyword search and handwriting recognition.",7
+Project Management,"Tools for planning, organizing, and managing projects, including timelines, Gantt charts, and resource allocation.",8
+Task Management,"Capabilities for creating, assigning, and tracking tasks and projects.",8
+Advanced Editing Tools,"Availability of advanced tools like layers, masking, healing, and RAW support.",9
+Photo Editing Tools,"The app includes built-in photo editing tools to enhance images, such as cropping, resizing, adjusting brightness and contrast, and applying filters.",9
+User Interface (UI),The ease of use and intuitiveness of the app's interface for applying effects and editing photos.,9
+User Interface and Usability,"An intuitive, clutter-free interface that is easy to navigate and customize. Quick access to essential features, smooth navigation, and a responsive, reliable performance.",9
+Variety of Effects/Filters,"The number and types of photo effects and filters available, including artistic, vintage, and AI-powered options.",9
+Whiteboarding,"Digital whiteboarding tools for brainstorming, ideation, and visual collaboration.",9
+Playlist Size Handling,Assesses the app's ability to efficiently shuffle and play large playlists (1000+ tracks) without performance issues.,10
+Shuffle Algorithm Quality,How effectively the app shuffles songs to avoid repetition or predictable patterns.,10
+Shuffle Play Feature,Availability of a shuffle play mode that allows users to play playlists in a randomized order.,10
+Content Curation,The quality and relevance of content recommendations provided to users.,11
+Personalization,Ability to provide personalized recommendations based on user preferences.,11
+Personalized Recommendations,The app's capability to suggest movies based on user preferences and viewing history.,11
+Watchlist Management,Tools for users to create and manage lists of movies they want to watch.,11
+Audio Quality,"Maximum audio quality offered by the app (e.g., standard, high, lossless).",12
+Content Updates,Frequency and quality of content updates and new features.,12
+Customer Support,The quality and responsiveness of the app's customer support services.,12
+Data Accuracy and Completeness,The comprehensiveness and accuracy of the movie database used by the app.,12
+Performance and Stability,"The app should be stable and perform smoothly without crashing or lagging, even when working with large numbers of photos or high-resolution images.",12
+Scalability,The capacity of the app to accommodate growing teams and increasing project complexity.,12
+Stream Quality,"The overall quality of the live stream, including resolution, frame rate, and buffering times.",12
+Update Frequency,"How often the app is updated with new features, bug fixes, and improvements.",12
+App Store Rating,The average rating of the app on various app stores.,13
+Critic Score,"Score assigned by professional movie critics, often aggregated from multiple sources.",13
+Engagement Rate,The average time users spend on the app daily or monthly.,13
+Number of Ratings/Reviews,Total number of ratings and reviews an app has received. Higher numbers indicate broader user engagement.,13
+Rating System,"The method and scale used for rating movies (e.g., stars, letters, percentages).",13
+User Ratings and Reviews,"The ability for users to rate and review movies, providing personal insights and opinions.",13
+User Reviews and Ratings,"Feedback from users regarding their experiences with the app, reflecting satisfaction and reliability.",13
+Availability Information,"Information on where to stream or purchase movies, including integration with streaming services.",14
+Availability of Exclusive Content,The presence of unique or exclusive movies and TV shows not available on other platforms.,14
+Content Library Size,The total number of movies and TV shows available on the platform.,14
+Device Compatibility,"The range of devices (e.g., smartphones, smart TVs, streaming devices) supported by the app.",14
+Download Count,Number of times the game has been downloaded across all platforms. Indicates popularity and reach.,14
+Exclusive Titles,"Availability of games that are exclusive to the platform, offering unique gaming experiences.",14
+Integration with Streaming Services,The app's ability to integrate with streaming services for easy movie discovery and viewing.,14
+Live Streaming Availability,Whether the app offers live streaming content in addition to on-demand content.,14
+Live TV Availability,Access to live television channels or events through the platform.,14
+Multi-Platform Streaming,The ability to simultaneously broadcast to multiple platforms.,14
+Platform Accessibility,"The availability of the app across different devices and operating systems, such as iOS, Android, smart TVs, and web browsers.",14
+Platform Availability,"The range of operating systems and devices on which the app is available (e.g., iOS, Android, Web).",14
+Platform Features,"Unique tools and functionalities offered to streamers and viewers (e.g., interactive elements, overlays, analytics).",14
+Content Focus,"The primary type of content the platform is known for, such as gaming, professional events, or social interactions.",15
+Content Variety,"The range and diversity of live streaming content available on the platform, including genres like sports, gaming, entertainment, and news.",15
+Genre Popularity,"How popular the game's genre is, based on download numbers and active players.",15
+Genre diversity,"The variety of gameplay experiences offered, including action, puzzle, strategy, and simulation. A diverse genre selection appeals to a broader audience.",15
+Active User Base,Refers to the number of monthly active users on the platform. A larger user base increases the likelihood of connecting with more friends.,16
+Ad Frequency,Number of ads displayed per hour of viewing (for free services).,16
+Audience Size,Estimated number of active users or viewers on the platform. A larger audience provides greater potential reach for live streams.,16
+Geographical Reach,The regions or countries where the platform operates and has a significant user base.,16
+Platform Popularity,The number of active users and overall reach of the platform.,16
+Target Audience,The primary demographic or market segment the platform caters to.,16
+Content Sharing Options,"Variety and ease of sharing different types of content (photos, videos, links, music) influencing user engagement.",17
+File Sharing and Collaboration,"Securely share and collaborate on documents, presentations, and other files in real-time, with version control and access permissions.",17
+File Size Limitations,"The maximum file size the app allows for transfer, indicating suitability for large files.",17
+File Type Support,"The variety of file types and formats that can be transferred using the app, including documents, images, videos, and executables.",17
+Media Support,"The types of media (e.g., images, videos) that can be included in broadcast messages.",17
+Multimedia Sharing,"Ease and variety of sharing multimedia content like photos, videos, and audio messages.",17
+Security,"Security measures implemented to protect files during transfer and storage, including encryption and password protection.",17
+Supported Audio Formats,"Lists the variety of audio formats supported by the app (e.g., MP3, FLAC, AAC).",17
+Transfer Speed,The average speed at which files are transferred between devices using the app.,17
+Offline Listening,The ability to download podcasts for offline listening.,18
+Podcast 2.0 Support,"Support for modern podcasting features like value for value, live streaming and community interaction.",18
+Podcast Discovery,"The effectiveness of the app's search, recommendations, and browsing features for finding new podcasts.",18
+Cross-Platform Synchronization,The ability to sync listening progress and subscriptions across multiple devices and platforms.,19
+Integration with Other Apps,"Seamlessly integrates with other popular apps, such as Google Drive, Microsoft Office, and Salesforce, to streamline workflows and avoid app switching.",19
+Offline Play,"The ability to download and play games without an internet connection, providing flexibility.",19
+Offline Transfer Capability,"The ability to transfer files without an active internet connection, useful in areas with limited connectivity.",19
+Synchronization and Backup,The app's ability to sync notes across devices and provide backup options.,19
+Syncing and Backup Options,Availability and reliability of syncing and backup features.,19
+Communication,"The ability to facilitate real-time and asynchronous communication among team members through features like chat, messaging, and video conferencing.",20
+Communication Channels,"The variety and effectiveness of communication methods offered within the app (e.g., chat, video conferencing, threaded conversations).",20
+Communication Features,"The range and quality of communication tools available, such as chat, video calls, and file sharing.",20
+Contact Management,Features for managing and segmenting contacts for targeted broadcasting.,20
+Group Interaction,"Features that facilitate group communication and activities, such as group chats, shared calendars, and collaborative games.  Essential for staying connected with multiple friends at once.",20
+Group Size Limit,The maximum number of contacts that can be included in a single broadcast or group message.,20
+Message Delivery Success Rate,The percentage of messages successfully delivered to recipients.,20
+Message Scheduling,The ability to schedule messages to be sent at a later time or date.,20
+Reach,Number of contacts that can be reached through the app.,20
+Two-Way Messaging,"Supports two-way communication, allowing recipients to reply to messages.",20
+Controller Support,"Compatibility with various gaming controllers, enhancing gameplay options.",21
+Gameplay Mechanics,"How engaging, innovative, and polished the game's core mechanics are.",21
+Graphics Quality,Visual fidelity and artistic style of the game.,21
+Latency,"The delay between user input and on-screen response, influencing gameplay responsiveness.",21
+Mobile Optimization,Performance and features specific to mobile devices.,21
+Performance Optimization Features,Tools and settings available to enhance gaming performance.,21
+Playback Controls,"Features like speed adjustment, offline listening, and sleep timers provide flexibility.",21
+Key Features,"Notable functionalities offered by the app, such as offline listening, personalized recommendations, or exclusive content.",22
+Parental Controls,The availability and effectiveness of parental control features.,22
+Privacy Controls,"Options for managing privacy settings and content visibility, ensuring user comfort and safety.",22
+Safety Features,"Measures taken to ensure secure transactions and user verification (e.g., user ratings, verified profiles, safe meeting spots).",22
+Security and Privacy Features,"The level of security and privacy features offered by the app, such as end-to-end encryption.",22
+Seller Protection,The measures and policies in place to protect sellers from fraud and disputes.,22
+Special Features,"Unique features such as offline downloads, multiple profiles, parental controls, etc.",22
+Community Engagement,Level of user interaction and community features within the app.,23
+Community and Social Features,"Features that allow user interaction, such as commenting, sharing, or live discussions.",23
+Community and Support,"Availability of user community, tutorials, and customer support.",23
+Integration with Social Media,"The ability to integrate with other social media platforms, enhancing the ease of keeping up with friends across different services.",23
+Multiplayer Features,The availability and quality of multiplayer modes.,23
+Social Networking Features,"Features that allow users to connect with friends, share recommendations, and see friends' ratings.",23
+Social Sharing,Functionality to share ratings and reviews on social media platforms.,23
+User Engagement Features,"Interactive features such as live chat, virtual gifting, and community building tools.",23

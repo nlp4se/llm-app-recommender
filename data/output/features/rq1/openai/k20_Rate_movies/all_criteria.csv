@@ -1,0 +1,79 @@
+name,description,type,sources
+Active User Base,Estimated number of active users or downloads.,Integer [1],"App Store, Google Play Store, company reports"
+Active Users,Estimated number of active users or downloads,Integer [1],"App Store, Google Play Store, Company Reports"
+Additional Features,Any other notable features that enhance the movie rating experience.,Text [*],"App Store, Google Play Store"
+Availability Information,"Information on where to stream or purchase movies, including integration with streaming services.",Boolean [1],App feature descriptions
+Availability Information,"Information on where to watch or stream movies, including links to platforms.",Boolean [1],App integrations
+Availability Information,"Information on where to watch or stream movies, including integration with streaming services.",Boolean,App integrations
+Availability Information,Information on where to stream or purchase movies.,Text [*],Streaming service data
+Availability on Multiple Platforms,The app is available on both iOS and Android platforms.,Boolean [1],"App Store, Google Play Store"
+Community Engagement,"The presence of active user communities, forums, or discussion boards within the app.",Boolean [1],App feature descriptions
+Community Engagement,Level of user interaction and community features within the app.,Text [1],"User reviews, app descriptions"
+Community Engagement,"The level of user interaction within the app, such as forums, discussions, and community events.",Boolean,App feature set
+Community Engagement,Presence of active user communities and social features,Boolean [1],"Official App Descriptions, User Reviews"
+Cost and Subscription Options,"Information on whether the app is free, offers in-app purchases, or requires a subscription.",Text [1],App store listings
+Cost and Subscription Options,"Information on whether the app is free, offers in-app purchases, or requires a subscription.",Text,App store listings
+Cost and Subscription Options,"Information on whether the app is free, ad-supported, or requires a subscription.",Text [*],"App store listings, App websites"
+Data Accuracy,Reliability and accuracy of movie data and recommendations.,Text [1],"User reviews, expert reviews"
+Data Accuracy,Reliability and comprehensiveness of movie data and metadata,Boolean [1],"Official App Descriptions, User Reviews"
+Data Accuracy and Completeness,The comprehensiveness and accuracy of the movie database used by the app.,Boolean [1],App feature descriptions
+Data Accuracy and Completeness,The comprehensiveness and accuracy of the movie database within the app.,Boolean,App data sources
+Data Privacy and Security,Measures taken to protect user data and privacy.,Boolean,App privacy policies
+Feature Set,"Range of features offered, such as rating, reviewing, tracking, and social sharing.",Text [*],"Official app descriptions, user manuals"
+Feature Set,"Range of features offered, such as rating, reviewing, tracking, and social sharing",Text [*],"Official App Descriptions, User Reviews"
+Integration with Other Services,"The ability to sync with other platforms or services, such as streaming accounts or social media.",Boolean,App features
+Integration with Streaming Services,Ability to integrate with various streaming platforms for seamless viewing.,Text [1],"App descriptions, user reviews"
+Integration with Streaming Services,Ability to integrate with or provide information about streaming platforms,Boolean [1],"Official App Descriptions, User Reviews"
+Number of Reviews,Total number of user reviews for the app.,Integer [1],"App Store, Google Play Store"
+Number of Reviews,Total number of user reviews for the app,Integer [1],"App Store, Google Play Store"
+Personalization,Ability to provide personalized recommendations based on user preferences.,Text [1],"User reviews, app descriptions"
+Personalization,Ability to provide personalized recommendations based on user preferences,Boolean [1],"Official App Descriptions, User Reviews"
+Personalized Recommendations,The app's capability to suggest movies based on user preferences and viewing history.,Boolean [1],App feature descriptions
+Personalized Recommendations,The app's capability to suggest movies based on user preferences and viewing history.,Boolean [1],App algorithms
+Personalized Recommendations,The app's capability to suggest movies based on user preferences and viewing history.,Boolean [1],"App feature descriptions, User testimonials"
+Personalized Recommendations,The app provides movie recommendations tailored to the user's preferences.,Boolean [1],"App Store, Google Play Store"
+Personalized Recommendations,The app provides movie recommendations tailored to the user's preferences.,Boolean [1],"App Store, Google Play Store"
+Personalized Recommendations,The app's capability to suggest movies based on user preferences and viewing history.,Boolean,App algorithms
+Personalized Recommendations,The app's capability to suggest movies based on user preferences and viewing history.,Text [*],"App algorithms, User data"
+Platform Availability,"The availability of the app across different platforms (iOS, Android, web).",Text [1],App store listings
+Platform Availability,"The availability of the app across different platforms such as iOS, Android, and web.",Text [1],"App Store listings, Official app websites"
+Platform Availability,"The operating systems on which the app is available (e.g., iOS, Android).",Text [1],"App Store, Google Play Store"
+Platform Availability,"Availability across different platforms (iOS, Android, web).",Text [*],"Official app websites, app stores"
+Platform Availability,"The availability of the app across different platforms (iOS, Android, web).",Text,App store listings
+Platform Availability,"Availability across different platforms (iOS, Android, Web)",Text [*],Official App Descriptions
+Platform Availability,The availability of the app across different operating systems and devices.,Text [*],App store listings
+Social Features,"Features that allow users to connect, share, and discuss movies with friends or a community.",Boolean [1],"App Store, Google Play Store"
+Social Features,"Features that allow users to connect, share, and discuss movies with friends or a community.",Boolean [1],"App Store, Google Play Store"
+Social Features,"Features that allow users to connect with friends, share reviews, and see what others are watching.",Boolean [1],"App Store, Google Play Store, Official App Websites"
+Social Features,"Options to connect with friends, share ratings, and see friends' activities.",Boolean,App features
+Social Networking Features,"Features that allow users to connect with friends, share recommendations, and see what others are watching.",Boolean [1],App feature descriptions
+Social Networking Features,"Features that allow users to connect with friends, share recommendations, and discuss movies.",Boolean [1],App feature set
+Social Networking Features,"Features that allow users to connect with friends, share ratings, and discover movies through social interactions.",Boolean [1],"App feature descriptions, User testimonials"
+Social Networking Features,"Features that allow users to connect with friends, share recommendations, and see friends' ratings.",Boolean,App feature set
+Streaming Availability Information,Information on where movies are available for streaming.,Boolean [1],"App Store, Google Play Store"
+Streaming Availability Information,Information on where movies are available for streaming across various platforms.,Boolean [1],"App Store, Google Play Store, Official App Websites"
+Streaming Integration,Integration with streaming services to watch movies directly through the app.,Boolean [1],"App Store, Google Play Store"
+User Interface,Quality and intuitiveness of the user interface.,Text [1],"User reviews, expert reviews"
+User Interface,Quality and intuitiveness of the user interface,Text [1],"User Reviews, App Store Screenshots"
+User Interface and Experience,"The design and usability of the app, ensuring a seamless and engaging user experience.",Text [1],User reviews and app descriptions
+User Interface and Experience,"The design and usability of the app, ensuring a seamless and engaging user experience.",Text [1],"App Store reviews, User feedback"
+User Interface and Experience,The overall design and usability of the app.,Text [1],"App Store, Google Play Store"
+User Interface and Experience,"The design and usability of the app, ensuring a smooth and engaging user experience.",Text [1],"App Store, Google Play Store, Official App Websites"
+User Interface and Experience,"The design and usability of the app, ensuring a seamless and engaging user experience.",Text,"User reviews, app design analysis"
+User Interface and Experience,"The design and usability of the app, affecting ease of navigation and overall user satisfaction.",Text [*],"User feedback, App reviews"
+User Ratings,Average user rating for the app on app stores and review platforms.,Float [1],"App Store, Google Play Store, Trustpilot"
+User Ratings,Average user rating of the app on app stores,Float [1],"App Store, Google Play Store"
+User Ratings and Reviews,"The ability for users to rate and review movies, providing personal insights and opinions.","Text, Float [1]",User-generated content
+User Ratings and Reviews,"The ability for users to rate and review movies, providing personal insights and opinions.","Text, Float [1]",User-generated content
+User Ratings and Reviews,"The ability for users to rate and review movies, providing personal insights and opinions.","Text, Integer [1]","User-generated content, App Store reviews"
+User Ratings and Reviews,The ability for users to rate and review movies within the app.,Boolean [1],"App Store, Google Play Store"
+User Ratings and Reviews,The ability for users to rate and review movies within the app.,Boolean [1],"App Store, Google Play Store"
+User Ratings and Reviews,"The ability for users to rate and review movies, providing personal insights and opinions.","Text, Integer [1]","App Store, Google Play Store, Official App Websites"
+User Ratings and Reviews,"The ability for users to rate and review movies, providing personal insights and opinions.","Text, Integer [*]",User-generated content
+User Ratings and Reviews,"The ability for users to rate and review movies, providing personal insights and opinions.","Integer, Text [*]",User-generated content
+Watchlist Management,Tools for users to create and manage lists of movies they want to watch.,Boolean [1],App feature descriptions
+Watchlist Management,Tools for users to create and manage lists of movies they want to watch.,Boolean [1],App feature set
+Watchlist Management,Tools for users to create and manage lists of movies they want to watch.,Boolean [1],"App Store, Google Play Store"
+Watchlist Management,Tools for users to create and manage lists of movies they want to watch.,Boolean [1],"App Store, Google Play Store, Official App Websites"
+Watchlist Management,Tools for users to create and manage lists of movies they want to watch.,Boolean,App feature set
+Watchlist Management,Tools to create and manage lists of movies to watch or already watched.,Text [*],User input

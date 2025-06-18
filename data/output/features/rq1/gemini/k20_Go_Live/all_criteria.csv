@@ -1,0 +1,56 @@
+name,description,type,sources
+Analytics,The availability of data and insights on viewer behavior and stream performance.,Boolean[1],Platform Features
+Audience Reach,The potential number of viewers that can be reached through the platform.,Integer[*],"Similarweb, Platform Statistics"
+Audience Reach,Estimated number of active users on the platform.,Integer[*],Various sources based on platform analytics and reports
+Audience Size,Estimated number of active users or viewers on the platform. A larger audience provides greater potential reach for live streams.,Integer[1],Various sources reporting platform user statistics
+Audience Size,Potential reach based on the platform's user base.,Integer[*],various
+Audience Size/Reach,The potential number of viewers that can be reached through the platform.,Integer[*],"Various sources depending on platform. e.g., Streams Charts, YouTube Analytics, Facebook Insights"
+Audience Size/Reach,"Potential audience size and platform reach, considering active user base.",Integer[*],"Streams Charts, YouTube Live, Facebook Live, Instagram Live, TikTok Live"
+Community Engagement,Strength and activity of the platform's community.,Text,"Twitch, Facebook Gaming"
+Community Engagement Tools,"Features available to interact with viewers (e.g., chat, polls, reactions).",Text[*],Platform descriptions
+Content Archiving,The ability to save and store live streams for later viewing.,Boolean[1],Platform Features
+Content Category Suitability,The platform's primary focus and the types of content that perform best on it.,Text[*],"Platform analytics, expert reviews"
+Content Focus,"Primary content type (e.g., gaming, general entertainment, music).",Text[1],"App Store/Play Store description, user reviews"
+Customization,"Ability to add overlays, alerts, and other graphics.",Boolean[*],"App features list, tutorials"
+DVR,The ability to record live streams.,Boolean[1],Platform documentation
+Ease of Use,"Subjective assessment of how simple and intuitive the app is to use for both streaming and viewing, considering interface design and available features.",Text[1],App reviews and comparisons
+Ease of Use,How user-friendly the platform is for both beginners and experienced streamers.,Text[1],"User reviews, expert reviews"
+Ease of Use,The intuitiveness and simplicity of the platform's interface and features.,Text[1],"User Reviews, Expert Reviews"
+Ease of Use,"User-friendliness of the app, especially for beginners.",Text,"Facebook Live, Prism Live Studio, StreamYard, Go Live"
+Ease of Use,How simple it is to set up and start a live stream.,Text[1],"User reviews, app descriptions"
+Ease of Use,How user-friendly the app is for beginners and experienced streamers.,Text[1],"user reviews, app descriptions"
+Ease of Use,"The simplicity and intuitiveness of the app's interface, making it easy for creators to start and manage live streams.",Integer,"User reviews, Expert reviews"
+Engagement Features,"Tools for interacting with viewers (chat, polls, reactions, gifts).",Text[*],"Twitch, YouTube, TikTok Live, Facebook Live"
+Features,"Variety and quality of tools and functionalities offered, such as chat, alerts, overlays, multistreaming, and analytics.",Text[*],App descriptions and feature lists
+Features,"The range of tools and options available for customizing and enhancing live streams (e.g., overlays, chat moderation, analytics).",Text[*],"app descriptions, tech reviews"
+Features,"Additional functionalities that enhance the live streaming experience, such as chat, filters, overlays, and analytics.",Text,"App descriptions, Expert reviews"
+Gaming Focus,Primary focus on gaming content.,Boolean,"Twitch, Kick"
+Interactive Features,"The types of tools available for engaging with the audience in real-time (e.g., chat, polls, Q&A).",Text[*],"Platform documentation, expert reviews"
+Mobile Optimization,Optimized for mobile streaming and viewing.,Boolean,"TikTok Live, Facebook, YouTube"
+Mobile Optimization,Performance and features specific to mobile devices.,Boolean[1],"App descriptions, user reviews"
+Mobile-Friendly,Responsiveness and usability of the platform on mobile devices.,Boolean[1],"User Reviews, App Store Ratings"
+Monetization Options,"Methods available for creators to earn revenue, including ads, subscriptions, donations, virtual gifts, and pay-per-view.",Text[*],Various sources discussing monetization strategies for live streaming apps
+Monetization Options,"The availability and variety of methods for creators to earn revenue from their live streams (e.g., ads, subscriptions, donations).",Text[*],"Platform documentation, user reviews"
+Monetization Options,The availability of features that allow creators to earn revenue from their live streams.,Boolean[*],"Platform Features, User Reviews"
+Monetization Options,"Availability of monetization features (ads, subscriptions, tips, gifts).",Boolean[*],"YouTube Live, Twitch, TikTok Live, Bigo Live, Stream, JWP"
+Monetization Options,"Availability of features like subscriptions, donations, ads.",Boolean[*],"App documentation, user testimonials"
+Monetization Options,"Availability of features like subscriptions, ads, donations, and virtual gifts.",Text[*],"Platform descriptions, user reviews"
+Monetization Options,"Opportunities for streamers to earn money through ads, subscriptions, donations, etc.",Boolean[1],"platform terms, user reports"
+Monetization Options,"The availability of features that allow creators to earn revenue from their live streams, such as subscriptions, donations, or ad revenue sharing.",Boolean,"App descriptions, User reviews"
+Multi-Platform Streaming,The ability to simultaneously broadcast to multiple platforms.,Boolean[1],"Platform Specifications, User Manuals"
+Multi-Platform Streaming,Ability to stream to multiple platforms simultaneously.,Boolean,"Restream, Prism Live Studio, Streamlabs"
+Multi-Streaming Capabilities,The ability to stream to multiple platforms simultaneously.,Boolean[1],Platform documentation
+Multi-Streaming Support,Ability to stream to multiple platforms simultaneously.,Boolean[1],"App documentation, user reviews"
+Platform Compatibility,"Operating systems and devices supported by the app (e.g., iOS, Android, Windows, macOS).",Text[*],App store listings and developer information
+Platform Compatibility,"Whether the app is available on iOS, Android, and/or desktop.",Text[*],"app stores, developer websites"
+Platform Compatibility,"The number of platforms to which the app can stream (e.g., Twitch, YouTube, Facebook).",Integer,App description
+Platform Reach,Number of active users or potential audience on the platform.,Integer[*],"Various sources (e.g., official reports, third-party statistics)"
+Pricing,"Pricing model, whether it is free, subscription-based, or has in-app purchases.",Text,Each App's respective app store page.
+Professional/Business Features,"Features tailored for professional use (analytics, security, AI).",Boolean,"LinkedIn Live, Vimeo Livestream, Wowza, Dacast, IBM Video Streaming, JWP"
+Real-Time Interaction,"The availability of features such as live chat, polls, and Q&A sessions.",Boolean[1],"Platform Features, User Reviews"
+Security,"The measures taken to protect content and viewers, such as encryption and moderation tools.",Boolean[1],Platform Specifications
+Simultaneous Streams,Number of streams that can be watched at the same time.,Integer[1],Platform documentation
+Streaming Quality,The maximum resolution and frame rate supported by the platform.,Text[1],"Platform documentation, user reviews"
+User Base,The number of active users on the platform. A larger user base provides a higher potential audience for live streams.,Integer,"Publicly available statistics, App store data"
+Video Quality,The maximum supported video resolution and frame rate for live streams.,Text[1],Platform Specifications
+Video Quality & Features,"Quality of video streaming, customization options, and special effects.",Text,"YouTube Live, Prism Live Studio, Camo Studio"

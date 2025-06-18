@@ -1,0 +1,72 @@
+name,description,type,sources
+Availability,"Platforms the app is available on (iOS, Android, Web).",Text [*],"App Store, Google Play Store"
+Availability Tracking,Shows where a movie is available for streaming or purchase.,Text[*],Multiple
+Community,Strength and activity of the app's community for discussions and reviews.,Integer [1],"App Store reviews, Reddit, Quora"
+Community,Size and engagement of the app's user community.,Integer [*],"App Store, Google Play Store, Reddit, Number of registered users"
+Community,"Strength and activity of the user community (e.g., active forums, user lists, social features).",Boolean,"User reviews, app descriptions"
+Community and Social Features,"Availability of social networking features such as sharing reviews, following other users, and participating in discussions.",Boolean,"App features list, user reviews, expert reviews"
+Community Features,Includes social networking aspects like following other users and commenting on reviews.,Boolean[1],Multiple
+Community Features,"Availability of social features like lists, friend following, and discussion forums.",Boolean [1],"App description, user reviews, expert reviews"
+Community Features,"Offers social networking aspects such as following friends, sharing reviews, and participating in discussions.",Boolean,User Account
+Community Features,"Features that allow users to connect, discuss, and share movie opinions.",Boolean[1],"App description, user reviews"
+Community Features,"Availability of social features like lists, reviews, and discussions.",Boolean[1],"App's feature list, user reviews"
+Comprehensive Information,"Availability of cast, crew, plot summaries, trailers, and other movie details.",Boolean,App description
+Content Coverage,"Breadth of movie database, including new releases, classics, and obscure titles.",Integer [1],"App description, database size (if available)"
+Content Database,"The breadth and depth of the movie database, including information on cast, crew, trailers, and user reviews.",Integer,"App specifications, expert reviews"
+Content richness,"Availability of trailers, cast information, reviews, and related content.",Boolean [1],App's internal data
+Content Variety,Breadth of movies and TV shows covered in the app.,Integer [1],App database size
+Critic Reviews,Aggregates reviews from professional critics and provides an overall score.,Float[*],"Website, API"
+Critic Reviews,Reviews and scores from professional movie critics.,"Text[*], Integer[*]","App's internal database, Metacritic, Rotten Tomatoes"
+Critic Reviews,"Professional film critic scores and reviews, providing expert analysis and perspectives.",Float[1],"Rotten Tomatoes, Metacritic, IMDb"
+Critic Reviews,Integration of critic reviews and scores from various publications.,Boolean,App description
+Critic Score,"Score assigned by professional movie critics, often aggregated from multiple sources.",Float [1],"Metacritic, Rotten Tomatoes, IMDb"
+Critic Score,Aggregate score from professional movie critics.,Float [1],"App's internal data, Metacritic, Rotten Tomatoes"
+Critic Scores,Aggregate score from professional movie critics.,Float [1],"Rotten Tomatoes, Metacritic, IMDb"
+Critic Scores,Aggregate score from professional movie critics.,Float[1],"Metacritic, Rotten Tomatoes, APIs"
+Cross-Platform Availability,Availability of the app on multiple operating systems and devices.,Boolean[1],"App Store, Google Play Store"
+Detailed Movie Information,"Offers comprehensive details about movies, including cast, crew, trailers, and trivia.",Text[*],API
+Ease of Use,Intuitiveness and simplicity of the app's interface and features.,Text [1],"User reviews, expert reviews"
+Ease of Use,How intuitive and user-friendly the app interface is.,Text[1],"User reviews, app reviews"
+Ease of Use,How user-friendly and intuitive the app interface is.,Boolean,User reviews
+External Ratings,"Aggregates ratings from other platforms like IMDb, Rotten Tomatoes, and Metacritic.",Float[*],Multiple
+Genre Filtering,Allows users to filter movies by genre.,Text[*],API
+In-depth Content,"Access detailed information about films and shows, including cast, crew, and trivia.",Boolean[1],"IMDb, Moviebase"
+Movie Information,"Comprehensive details about movies, including cast, crew, synopsis, and trailers.","Text[*], Media[*]","IMDb, TMDB"
+Number of Ratings/Reviews,The total count of ratings and reviews. Higher count indicates broader user engagement and a more reliable average rating.,Integer [1],"App Store, Google Play Store, Third-party review aggregators"
+Number of Ratings/Reviews,Total number of ratings and reviews an app has received. Higher numbers indicate broader user engagement.,Integer [1],"App Store, Google Play Store"
+Number of Reviews,Total count of user and critic reviews available.,Integer[1],"App's database, APIs"
+Oscar Season Tracking,"Ability to track potential nominees, offering reviews that keep you in the loop.",Boolean[1],"IMDb, Moviebase"
+Personalization,Level of customization and tailoring of the app experience to individual user tastes.,Boolean[1],"App settings, user reviews"
+Personalized Recommendations,Offers movie recommendations based on user ratings and preferences.,Boolean[1],Multiple
+Personalized Recommendations,The accuracy and relevance of movie recommendations based on user ratings and preferences.,Boolean,"User reviews, app descriptions"
+Personalized Recommendations,Quality and accuracy of movie recommendations based on user's viewing history and preferences.,Text [1],"User reviews, expert reviews, app description"
+Personalized Recommendations,Provides movie recommendations based on user's viewing history and ratings.,Boolean,"User Account, Algorithm"
+Personalized Recommendations,Suggestions for movies based on the user's viewing history and preferences.,Boolean[1],"IMDb, MovieDiary, YourNextFilm"
+Personalized recommendations,How well the app recommends movies based on user taste.,Boolean [1],"App's internal data, User reviews"
+Personalized Recommendations,Algorithm-driven movie suggestions based on viewing history and preferences.,Boolean[1],"App description, user reviews"
+Personalized Recommendations,Ability of the app to provide movie recommendations based on user ratings and preferences.,Boolean,"App description, user reviews"
+Platform Availability,Availability on iOS and Android platforms.,Boolean [1],"App Store, Google Play Store"
+Rating System and Customization,"The granularity and flexibility of the rating system, including options for half-stars or detailed aspect-based ratings.",Text,"App descriptions, user reviews"
+Recommendation Accuracy,How well the app predicts movie preferences based on past ratings.,Float [1],"User reviews, Criticker"
+Recommendation Engine,Algorithm-driven movie suggestions based on user preferences and viewing history.,Boolean[1],"App's internal algorithm, user data"
+Reviews,Enables users to write and read movie reviews.,Text[*],Multiple
+Social Features,"Ability to connect with other users, share reviews, and follow their activity.",Boolean[1],"Letterboxd, Criticker, YourNextFilm"
+Social Sharing,Functionality to share ratings and reviews on social media platforms.,Boolean,App description
+Streaming Availability,Indicates where movies are available for streaming.,Text[*],API
+Streaming Service Integration,Links to streaming services where movies are available.,Boolean[1],"JustWatch, Google TV, Apple TV"
+Ticket Purchase,Ability to purchase movie tickets directly through the app.,Boolean[1],"App description, user reviews"
+User Interface and Experience,"How intuitive and user-friendly the app is, including navigation, search functionality, and overall design.",Text,"User reviews, app store descriptions, expert reviews"
+User Ratings,Allows users to rate movies on a defined scale.,Integer[1],Multiple
+User Ratings,Average rating provided by users. High average suggests better user satisfaction.,Float [1],"App Store, Google Play Store, Third-party review aggregators"
+User Ratings,Allows users to rate movies and see average user scores.,Float[*],"App Store, Google Play Store"
+User Ratings,Average rating provided by users of the app.,Float [1],"App Store, Google Play Store, Internal App Data"
+User Ratings,"Aggregated ratings from users, reflecting general audience opinion.","Float[*], Integer[*]","App Store, Google Play Store"
+User Ratings,"Aggregated scores and reviews from the general audience, reflecting overall public opinion.",Float[1],"IMDb, Letterboxd, Rotten Tomatoes"
+User Ratings,Average rating given by users of the app.,Float [1],"App Store, Google Play Store"
+User Ratings,Average rating provided by users for a movie.,Float[1],"App's internal database, APIs like TMDB, IMDb"
+User Ratings,Average rating provided by users of the app/platform.,Float [1],"App Store, Google Play Store, Various Sources"
+Watchlist,Provides a feature to create and manage a list of movies to watch.,Boolean[1],Multiple
+Watchlist,Enables users to create and manage a list of movies they want to watch.,Boolean,User Account
+Watchlist,Ability to create and manage a list of movies to watch.,Boolean[1],"App description, user reviews"
+Watchlist Features,Ability to create and manage a watchlist of movies to watch.,Boolean,"App description, user reviews"
+Watchlist Management,Ability to create and manage personalized lists of movies to watch.,Boolean[1],"IMDb, Letterboxd, MovieDiary"

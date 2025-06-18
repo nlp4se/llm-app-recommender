@@ -1,0 +1,12 @@
+name,description,type,sources
+Cost,"The pricing structure of the app, including free and paid options.","Text, [1]","App Store, Google Play Store, Multiple sources, Vendor Website"
+Cross-Platform Compatibility,Ability to transfer files between different operating systems and devices.,Boolean,"App specifications, Developer information, Multiple sources, User reviews"
+Ease of Use,How user-friendly and intuitive the app interface is.,Text[1],"App Store feedback, Expert Reviews, Expert reviews, Filestage, Google Drive Review, Multiple Sources, Multiple sources, Tom's Guide, User Reviews, User reviews, expert reviews, user reviews"
+File Size Limit,Maximum file size that can be transferred.,Float[1],"App Store, Google Play Store, Multiple Sources, Multiple sources, Product Documentation, Product Specifications, Reviews, Tom's Guide, Vendor Website, app documentation, reviews, vendor website"
+Free Storage,Amount of free storage offered by the app.,Integer[1],"App specifications, Multiple Sources, Pricing plans, Product Specifications, Product details, app description, vendor website"
+Platform Compatibility,The range of operating systems and devices the app supports.,Text[*],"App Store, App Store Listings, App description, Google Play Store, Multiple Sources, Multiple sources, Product Specifications, Vendor Website, app store descriptions, vendor website"
+Security,"Security measures implemented to protect files during transfer and storage, including encryption and password protection.",Text,"App descriptions, Multiple Sources, Multiple sources, Product Specifications, Security Audits, Security audits, User Reviews, User reviews, Vendor Website, reviews, vendor website"
+Security Features,"Security measures implemented by the app, such as encryption, password protection, and two-factor authentication.",Text[*],"App documentation, Filestage, The Digital Project Manager, security audits, vendor website"
+Storage Capacity,"Amount of storage space offered by the app, both free and paid.","Float, [1]","App Store, Google Play Store, Multiple sources, Vendor Website"
+Storage Space (Free Tier),Amount of free storage space offered by the app.,Float[1],"App specifications, Google Drive Review, Tom's Guide, vendor website"
+Transfer Speed,The speed at which files are transferred between devices or to the cloud.,Float[1],"App testing, Expert Reviews, Multiple sources, Review websites, User Reviews, User feedback"

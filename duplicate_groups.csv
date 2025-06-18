@@ -1,0 +1,221 @@
+group_id,name,description,similarity_score
+1,Geographic Availability,The countries or regions where the platform is accessible.,0.9202928
+1,Geographical Availability,The countries or regions where the platform is accessible.,0.92045134
+1,Geographical Reach,The regions or countries where the platform operates and has a significant user base.,0.844868
+2,Syncing and Backup Options,Availability and reliability of syncing and backup features.,0.99629796
+2,Sync and Backup Options,Availability and reliability of sync and backup features.,0.99629784
+3,User Ratings,The average rating given by users on app stores.,0.95343477
+3,App Store Rating,The average rating of the app on various app stores.,0.9109302
+3,User Rating,Average rating given by users on app stores.,0.94667846
+4,Content Library Size,The total number of movies and TV shows available on the platform.,0.7620486
+4,Music Library Size,The total number of songs available in the app's library.,0.823473
+4,Library Size,The total number of songs available in the app's library.,0.83177775
+4,Game Library Size,The number of games available through the app.,0.800591
+4,Database Size,The number of movies available in the app's database.,0.790249
+5,Download Count,Number of times the game has been downloaded across all platforms. Indicates popularity and reach.,0.7907354
+5,Number of Downloads,Total number of times the app has been downloaded,0.8656305
+5,Downloads,Total number of times the app has been downloaded.,0.9001843
+5,App Downloads,The total number of times the app has been downloaded.,0.900383
+6,Update Frequency,"How often the app is updated with new features, bug fixes, and improvements.",0.9857917
+6,Frequency of Updates,How often the app is updated with new features and bug fixes.,0.98579156
+7,Seller Protection Policies,The measures in place to protect sellers from fraud and disputes.,0.9829391
+7,Seller Protection,The measures and policies in place to protect sellers from fraud and disputes.,0.9829394
+8,Platform Availability,"The range of operating systems and devices on which the app is available (e.g., iOS, Android, Web).",0.85641617
+8,Multi-Platform Support,"Availability of the app across different platforms such as iOS, Android, Web, etc.",0.90831715
+8,Cross-Platform Availability,"The availability of the app across different platforms (iOS, Android, Web, etc.).",0.91216516
+8,Cross-Platform Support,"The availability of the app across different platforms (iOS, Android, Web, etc.).",0.9032558
+9,Pricing,"The cost of the app, including free tiers and premium plans.",0.86541194
+9,Pricing Model,"The cost structure of the app, including free tiers, subscription plans, and one-time purchases.",0.8183404
+9,Pricing and Plans,Cost-effectiveness and variety of pricing plans offered by the app.,0.8003906
+9,Cost,"The pricing structure of the app, including free tiers and subscription options.",0.8748299
+9,Cost and Subscription Options,"Information on whether the app is free, offers in-app purchases, or requires a subscription.",0.8003615
+9,Cost and Subscription Plans,"The pricing structure of the app, including free tiers, subscription plans, and any associated costs.",0.87095726
+9,Subscription Cost,The monthly or annual fee required to access the platform's content (if applicable).,0.70649505
+9,Price,"The cost of the app, including any subscription fees or in-app purchases.",0.8390554
+10,User Reviews,Feedback and ratings from users regarding the app's performance and reliability.,0.9787973
+10,User Reviews and Ratings,"Feedback from users regarding their experiences with the app, reflecting satisfaction and reliability.",0.97879726
+11,Ease of Use,The user-friendliness and intuitiveness of the app's interface.,0.8260889
+11,User Experience,"Overall ease of use, interface design, and user satisfaction.",0.7714
+11,User Interface,The ease of use and intuitiveness of the app's interface.,0.86269045
+11,User Interface (UI),The ease of use and intuitiveness of the app's interface for applying effects and editing photos.,0.7199704
+11,User Interface and Ease of Use,The intuitiveness and user-friendliness of the app's interface.,0.8716905
+11,User Interface and Experience,The ease of use and overall user experience of the app.,0.8579204
+12,File Size Limit,The maximum file size that can be transferred using the app.,0.9726334
+12,File Size Limitations,"The maximum file size the app allows for transfer, indicating suitability for large files.",0.9726336
+13,File Transfer Speed,The speed at which the app can transfer files between devices.,0.9724102
+13,Transfer Speed,The average speed at which files are transferred between devices using the app.,0.9724102
+14,Delivery Rate,Percentage of messages successfully delivered to recipients.,0.9682721
+14,Message Delivery Success Rate,The percentage of messages successfully delivered to recipients.,0.96827173
+15,Exclusive Content,The availability of exclusive movies and TV shows not found on other platforms.,0.898077
+15,Original Content,The number of exclusive movies and TV series produced by the platform.,0.81918335
+15,Availability of Exclusive Content,The presence of unique or exclusive movies and TV shows not available on other platforms.,0.87801594
+16,Streaming Availability Information,Information on where movies are available for streaming.,0.96198756
+16,Availability Information,"Information on where to stream or purchase movies, including integration with streaming services.",0.9619877
+17,Offline Functionality,Capability to transfer files without an internet connection.,0.9597574
+17,Offline Transfer Capability,"The ability to transfer files without an active internet connection, useful in areas with limited connectivity.",0.9597573
+18,Message Scheduling,The ability to schedule messages to be sent at a later time or date.,0.95905584
+18,Scheduling,Ability to schedule messages to be sent at a future date and time.,0.95905614
+19,Device Compatibility,"The range of devices (e.g., smartphones, smart TVs, streaming devices) supported by the app.",0.8841741
+19,Platform Compatibility,The range of devices and operating systems the app supports.,0.92107385
+19,Cross-Platform Compatibility,"Ability to use the app on multiple devices, like laptop, tablet, or phone.",0.9027954
+20,Fees,"Listing fees, commission fees, or transaction fees charged by the app.",0.7652146
+20,Fees and Commission,The cost associated with listing and selling items on the platform.,0.82361585
+20,Listing Fees,The cost associated with listing an item for sale on the platform.,0.82336456
+20,Transaction Fees,The percentage or fixed fee deducted from the sale price upon a successful transaction.,0.7081666
+20,Seller Fees,The fees and commissions charged by the platform for selling items.,0.8348049
+21,Watchlist,Ability to create and manage a list of movies to watch.,0.95258164
+21,Watchlist Management,Tools for users to create and manage lists of movies they want to watch.,0.95258176
+22,Cashback Offers,Provision of cashback rewards on purchases made through the app.,0.9524895
+22,Cash Back Rewards,Offers cash back on purchases made through the app.,0.9524895
+23,Range of Offers,The variety and number of offers available in the app.,0.9496987
+23,Offer Variety,The range and diversity of offers and deals available in the app.,0.9496993
+24,Interactive Features,"Tools available for audience engagement, like live chat, polls, or Q&A sessions.",0.8840948
+24,Interactivity Features,"Tools available for audience engagement, such as live chat, polls, and Q&A sessions.",0.8661082
+24,User Engagement Features,"Interactive features such as live chat, virtual gifting, and community building tools.",0.8191719
+25,Critic Reviews,Reviews and scores from professional movie critics.,0.8623438
+25,Critic Score,"Score assigned by professional movie critics, often aggregated from multiple sources.",0.8901252
+25,Critic Scores,Aggregate score from professional movie critics.,0.9026103
+26,Engagement Rate,The average time users spend on the app daily or monthly.,0.947287
+26,User Engagement,The average time users spend on the app per day.,0.947287
+27,Free Storage,Amount of free storage offered by the app.,0.91451365
+27,Storage Capacity,"Amount of storage space offered by the app, both free and paid.",0.89679664
+27,Storage Space (Free Tier),Amount of free storage space offered by the app.,0.8818383
+28,Integration with Social Media,"The ability to integrate with other social media platforms, enhancing the ease of keeping up with friends across different services.",0.8808491
+28,Social Media Integration,"The ability to directly share collages to social media platforms such as Instagram, Facebook, and others.",0.87618285
+28,Social Sharing Integration,The ease with which users can share their collages on social media platforms directly from the app.,0.8377944
+28,Social Integration,The level of integration with social media platforms for sharing and engagement.,0.84647584
+29,Security Measures,The robustness of the app's security features to protect user data and privacy.,0.8631688
+29,Security and Privacy,The level of security and privacy features offered by the app.,0.90420693
+29,Security and Privacy Features,"The level of security and privacy features offered by the app, such as end-to-end encryption.",0.87838125
+30,Message Personalization,The ability to customize messages with placeholders for recipient-specific information.,0.87548405
+30,Personalization Features,"Availability and sophistication of personalization options (e.g., inserting recipient names, custom fields).",0.85638
+30,Personalization Options,Availability of features to personalize messages for individual recipients.,0.9002373
+31,Offline Listening,The ability to download podcasts for offline listening.,0.90760636
+31,Offline Listening Capability,The ability to download episodes for offline playback.,0.91588974
+31,Offline Playback,Ability to download songs for offline listening.,0.90948266
+32,User Ratings & Reviews,Average user rating and number of reviews on app stores.,0.89419216
+32,Number of Ratings/Reviews,Total number of ratings and reviews an app has received. Higher numbers indicate broader user engagement.,0.8805983
+32,Number of Reviews,Total number of user reviews for the app.,0.90195495
+33,User Interface Design,The quality and usability of the app's user interface.,0.8734085
+33,User Interface Quality,The ease of navigation and overall user experience of the app.,0.85348195
+33,User Interface and Usability,"An intuitive, clutter-free interface that is easy to navigate and customize. Quick access to essential features, smooth navigation, and a responsive, reliable performance.",0.81218404
+34,Price Tracking & Alerts,Ability to track prices and receive notifications when prices drop.,0.8793464
+34,Price Drop Alerts,Effectiveness and customizability of price drop alert features.,0.8333376
+34,Price Tracking,Feature to track price changes over time and alert users to price drops.,0.8685358
+35,Supported Audio Formats,"Lists the variety of audio formats supported by the app (e.g., MP3, FLAC, AAC).",0.93570995
+35,Format Support,"The variety of audio formats supported by the app (e.g., MP3, FLAC, WAV).",0.93571
+36,Group Communication,"Features that facilitate group chats and calls, making it easier to connect with multiple friends simultaneously.",0.8528242
+36,Group Interaction,"Features that facilitate group communication and activities, such as group chats, shared calendars, and collaborative games.  Essential for staying connected with multiple friends at once.",0.89794445
+36,Group Interaction Capabilities,"Features that facilitate group communication and activities (e.g., group chats, shared calendars, collaborative playlists).",0.86626196
+37,Number of Effects/Filters,Quantity and variety of available photo effects and filters.,0.8743666
+37,Variety of Effects,"The range and uniqueness of photo effects available, including filters, overlays, and artistic tools.",0.8844621
+37,Variety of Effects/Filters,"The number and types of photo effects and filters available, including artistic, vintage, and AI-powered options.",0.89974594
+38,Community Features,"Availability of social features like lists, reviews, and discussions.",0.93023336
+38,Community and Social Features,"Features that allow user interaction, such as commenting, sharing, or live discussions.",0.9302335
+39,Integration,"Ability to integrate with other platforms and services such as CRM, marketing automation, and e-commerce platforms.",0.74651384
+39,Integration Capabilities,Ability of the app to integrate with other tools and services.,0.78035885
+39,Integration with Other Apps,"Seamlessly integrates with other popular apps, such as Google Drive, Microsoft Office, and Salesforce, to streamline workflows and avoid app switching.",0.7485978
+39,Integration with Other Platforms,The app's ability to integrate with other social media platforms and services.,0.718288
+39,Integration with Other Services,The app's ability to integrate with other platforms and services.,0.80376184
+39,Integration with Other Tools,"Seamless integration with other business or productivity tools (e.g., CRM, marketing platforms).",0.722643
+39,Integrations,The ability to connect with other apps and services to enhance functionality.,0.82421076
+40,Syncing Capabilities,Ability to sync notes across multiple devices and platforms.,0.9259414
+40,Synchronization and Backup,The app's ability to sync notes across devices and provide backup options.,0.92594165
+41,Performance and Reliability,"The app's speed, responsiveness, and stability during use.",0.8749873
+41,Performance and Stability,"The app should be stable and perform smoothly without crashing or lagging, even when working with large numbers of photos or high-resolution images.",0.8399963
+41,Performance,Speed and stability of the app during use,0.8661666
+42,Editing Features,Range of photo editing tools and customization options.,0.7527336
+42,Editing Tools,"The availability and quality of built-in photo editing tools such as filters, effects, and adjustments.",0.77369386
+42,Advanced Editing Tools,"Availability of advanced tools like layers, masking, healing, and RAW support.",0.6611639
+42,Feature Set,Range and quality of photo editing features offered by the app.,0.6503607
+42,Photo Editing Tools,"The app includes built-in photo editing tools to enhance images, such as cropping, resizing, adjusting brightness and contrast, and applying filters.",0.74701583
+43,Privacy and Security,"The measures implemented to protect user data and communications, including end-to-end encryption and data policies.",0.7134889
+43,Additional Features,"Any extra features that enhance the file transfer experience, such as cloud storage integration, chat, etc.",0.6176309
+43,Security,"Security measures implemented to protect files during transfer and storage, including encryption and password protection.",0.7379778
+43,Security & Privacy,Data protection and privacy options are increasingly important in today's digital world.,0.66848046
+43,Security Features,"The security measures implemented to protect file transfers, such as encryption.",0.7679203
+44,Product Categories,"The variety of items that can be sold on the app (e.g., clothing, electronics, furniture, handmade items).",0.9237515
+44,Product Category Focus,"The primary types of items that are commonly sold on the app (e.g., clothing, electronics, handmade items).",0.9237516
+45,User Interface and Customization,The ease of use and available customization options for playlist shuffling.,0.7897794
+45,Shuffle Algorithm Quality,How effectively the app shuffles songs to avoid repetition or predictable patterns.,0.7538374
+45,Shuffle Mode Availability,The app must support shuffle mode for playlists.,0.81920624
+45,Shuffle Play Feature,Availability of a shuffle play mode that allows users to play playlists in a randomized order.,0.8202786
+46,Regular Updates,Frequency of updates and new content releases.,0.921049
+46,Content Updates,Frequency and quality of content updates and new features.,0.9210494
+47,Mobile Streaming Capabilities,Functionality and ease of use for streaming directly from mobile devices.,0.7910111
+47,Live Streaming Availability,Whether the app offers live streaming content in addition to on-demand content.,0.8305168
+47,Live Streaming Features,The variety and quality of live streaming features offered by the app.,0.8530839
+48,Offline Viewing,Availability of downloading content for offline viewing.,0.7860504
+48,Offline Downloads,The ability to download movies and TV shows for offline viewing.,0.8239342
+48,Offline Access,The app's capability to function without an internet connection.,0.77356845
+48,Offline Play,"The ability to download and play games without an internet connection, providing flexibility.",0.79801416
+49,Social Networking Features,"Features that allow users to connect with friends, share recommendations, and see friends' ratings.",0.9176893
+49,Social Features,"The availability of social features such as sharing reviews, following friends, and joining groups.",0.91768944
+50,User Base,The number of active users on the platform.,0.8046581
+50,User Base Size,"The number of active users on the platform, indicating potential reach for sellers.",0.7485673
+50,Active User Base,Refers to the number of monthly active users on the platform. A larger user base increases the likelihood of connecting with more friends.,0.78627527
+50,Active Users,Number of active users on the platform; a higher number suggests a larger pool of friends to connect with.,0.76841325
+50,Number of Active Users,The total number of active users on the app.,0.7245649
+51,Communication,"The ability to facilitate real-time and asynchronous communication among team members through features like chat, messaging, and video conferencing.",0.8148086
+51,Real-time Communication,"The ability to communicate with team members instantly through messaging, chat, voice, and video calls.",0.85160285
+51,Real-time Updates,"Ability to provide real-time updates on friends' activities and availability, facilitating spontaneous interactions.",0.779053
+52,Real-time Collaboration,Functionality that allows multiple users to work on the same document or project simultaneously.,0.70253277
+52,File Sharing,"Capability to easily share documents, images, and other files within the app to support collaborative work on projects and tasks.",0.74122965
+52,File Sharing and Collaboration,"Securely share and collaborate on documents, presentations, and other files in real-time, with version control and access permissions.",0.7602751
+52,File Sharing and Storage,Ease of sharing and storing files within the app for team access.,0.69990236
+52,Collaboration Tools,"Features that facilitate teamwork, such as shared workspaces, task assignments, and real-time editing.",0.6647998
+53,Stream Quality,"The overall quality of the live stream, including resolution, frame rate, and buffering times.",0.91118777
+53,Streaming Quality,"The resolution and quality of the video streaming offered (e.g., HD, 4K).",0.9111879
+54,Media Support,"The types of media (e.g., images, videos) that can be included in broadcast messages.",0.9111831
+54,Multimedia Support,"The ability to send images, videos, and other media types in messages.",0.9111831
+55,Messaging Features,"The availability and quality of messaging features such as text, voice, and video calls.",0.9098121
+55,Communication Features,"The range and quality of communication tools available, such as chat, video calls, and file sharing.",0.9098121
+56,Community Engagement,Level of user interaction and community features within the app.,0.9082567
+56,Community,Size and engagement of the app's user community.,0.90825653
+57,Unique Features,Special features that set the app apart from competitors.,0.7937113
+57,Features,"The range of functionalities offered by the app, such as messaging, video calls, group chats, and unique features.",0.8038646
+57,Special Features,"Unique features such as offline downloads, multiple profiles, parental controls, etc.",0.760816
+57,Key Features,"Notable functionalities offered by the app, such as offline listening, personalized recommendations, or exclusive content.",0.80388457
+58,Ad-Supported Content,The presence of ads and the option for ad-free viewing.,0.9020192
+58,Ad-Supported Free Access,Whether the platform offers free content with advertisements.,0.90201926
+59,Video Quality,"Maximum resolution supported by the app (e.g., 4K, 1080p, 720p).",0.9018872
+59,Audio Quality,"Maximum audio quality offered by the app (e.g., standard, high, lossless).",0.9018872
+60,Audience Size,Estimated number of active users or viewers on the platform. A larger audience provides greater potential reach for live streams.,0.79622877
+60,Audience Size/Reach,"Potential audience size and platform reach, considering active user base.",0.82247037
+60,Platform Popularity,The number of active users and overall reach of the platform.,0.7547643
+60,Audience Reach,The potential number of viewers that can be reached through the platform.,0.8035686
+61,Podcast Discovery,"The effectiveness of the app's search, recommendations, and browsing features for finding new podcasts.",0.8958523
+61,Content Library,The size and diversity of the podcast library available through the app.,0.8958526
+62,Free vs. Paid Features,The balance between features available in the free version and those locked behind a subscription or purchase.,0.89232314
+62,Free Features,"Availability of essential features (e.g., playback control, subscription management) in the free version.",0.892323
+63,Data Accuracy,Reliability and accuracy of movie data and recommendations.,0.89059806
+63,Data Accuracy and Completeness,The comprehensiveness and accuracy of the movie database used by the app.,0.89059806
+64,Playlist Size Handling,Assesses the app's ability to efficiently shuffle and play large playlists (1000+ tracks) without performance issues.,0.8896866
+64,Playlist Management,"Assesses the ease of creating, managing, and shuffling playlists.",0.8896864
+65,Item Categories,The types of items that can be listed and sold on the platform.,0.889544
+65,Item Categories Supported,The range of product categories that can be listed for sale.,0.8895445
+66,Safety Features,"Measures taken to ensure secure transactions and user verification (e.g., user ratings, verified profiles, safe meeting spots).",0.79030293
+66,Safety and Security,The measures in place to protect users from fraud and ensure secure transactions.,0.8444729
+66,Payment Security,The security measures in place to protect payments and transactions.,0.78283167
+67,Recommendation Engine,Algorithm-driven movie suggestions based on user preferences and viewing history.,0.7972662
+67,Personalization,Ability to provide personalized recommendations based on user preferences.,0.77447826
+67,Personalized Recommendations,The app's capability to suggest movies based on user preferences and viewing history.,0.82560056
+68,Coupon Availability,Availability of coupons and promo codes within the app.,0.8838705
+68,Coupon Integration,Availability of coupons and promo codes to apply additional discounts.,0.8838705
+69,Monetization Model,"How the game generates revenue (e.g., free-to-play with in-app purchases, paid).",0.7837365
+69,Revenue Generation,The total revenue generated by the app through in-app purchases and ads.,0.8230261
+69,In-App Purchases,The availability and variety of in-app purchases.,0.76315135
+70,Subscription Options,Availability of free and premium subscription plans.,0.8813779
+70,Ad-Free Option,Availability of a subscription or version without advertisements.,0.8813777
+71,Genre,The game's genre and its popularity among mobile gamers.,0.87909305
+71,Genre Popularity,"How popular the game's genre is, based on download numbers and active players.",0.87909317
+72,Platform Accessibility,"The availability of the app across different devices and operating systems, such as iOS, Android, smart TVs, and web browsers.",0.8783816
+72,Mobile Accessibility,"Mobile apps available for iOS and Android devices, enabling team members to collaborate on the go.",0.8783817
+73,Performance Optimization,Effectiveness of the app in enhancing gaming performance.,0.8755177
+73,Performance Optimization Features,Tools and settings available to enhance gaming performance.,0.8755177
+74,Price Comparison,Ability to compare prices across multiple retailers to find the best deal.,0.875383
+74,Price Comparison Accuracy,The app's ability to accurately compare prices across multiple retailers and product categories.,0.8753828
+75,AI Assistance,"The availability and quality of AI-powered features such as summarizing notes, generating transcripts, and improving organization.",0.872466
+75,AI Integration,"Availability of AI-powered features such as text summarization, voice transcription, and intelligent search.",0.8724664
+76,Collaboration,"Can you share notes with others, and if so, how well does the app support collaboration?",0.8607713
+76,Collaboration Features,The tools and functionalities that enable multiple users to work together on notes or projects within the app.,0.86077154

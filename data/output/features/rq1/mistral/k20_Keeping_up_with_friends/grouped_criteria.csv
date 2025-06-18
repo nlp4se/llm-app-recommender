@@ -1,0 +1,12 @@
+name,description,type,sources
+Engagement Rate,The average time users spend on the app daily or monthly.,Float [1],"App Annie, App analytics platforms, Sensor Tower, SimilarWeb, company reports, market research data"
+Feature Set,"The range and quality of features offered, such as messaging, voice calls, video calls, group chats, etc.",Text[*],"Official app descriptions, tech blogs, user reviews"
+Messaging Features,"The availability and quality of messaging features such as text, voice, and video calls.",Text [1],"App Reviews, App Store descriptions, App store descriptions, Google Play Store descriptions, Google Play descriptions, Official App Websites, Official app descriptions, Official app websites, Tech Reviews, TechCrunch, The Verge, feature comparisons, tech blogs, user reviews"
+Privacy and Security,The level of privacy and security features offered by the app.,Text [1],"App Store descriptions, Electronic Frontier Foundation, Google Play Store descriptions, Google Play descriptions, Official App Websites, Official app descriptions, Official app websites, Privacy International, Security Reports, Security Reviews, Security audits, Tech Reviews, TechCrunch, The Verge, privacy policies, security reviews, user reviews"
+Security and Privacy,"The level of security and privacy features implemented, such as end-to-end encryption, two-factor authentication, etc.",Text[*],"Official app descriptions, Official privacy policies, security audits, security reports, tech blogs, tech news articles"
+Social Integration,The ease of connecting with friends through social media integrations.,Text[*],"App Store descriptions, CNET, Google Play descriptions, Official app websites, TechCrunch, TechRadar, The Verge"
+User Base,The total number of active users on the platform.,Integer [1],"App Annie, App Store, Company reports, Google Play Store, Official App Websites, Sensor Tower, SimilarWeb, app store statistics, market analysis reports"
+User Base Size,The total number of active users on the platform.,Integer[1],"App Annie, App Store, Apple App Store, Google Play Store, Sensor Tower, SimilarWeb"
+User Engagement,The average time users spend on the app per day.,Float[1],"App Annie, Sensor Tower, SimilarWeb"
+User Ratings,Average user ratings on app stores.,Float [1],"App Store, Apple App Store, Google Play Store, third-party review sites"
+User Reviews,The average rating and number of reviews on app stores.,"Float[1], Integer[1]","App Store, Apple App Store, Google Play, Google Play Store, third-party review sites"

@@ -1,0 +1,12 @@
+similarity,is_duplicate,criterion1_name,criterion1_description,criterion2_name,criterion2_description
+0.72678393,True,User Experience,"Overall ease of use, interface design, and user satisfaction.",User Interface,The ease of use and intuitiveness of the app's interface.
+0.7245905,False,User Ratings,The average rating given by users on app stores.,User Reviews and Ratings,"Feedback from users regarding their experiences with the app, reflecting satisfaction and reliability."
+0.71908945,False,Cross-Platform Availability,"The availability of the app across different platforms (iOS, Android, Web, etc.).",Geographical Availability,The countries or regions where the platform is accessible.
+0.77417463,False,User Ratings & Reviews,Average user rating and number of reviews on app stores.,User Reviews,Feedback and ratings from users regarding the app's performance and reliability.
+0.77478766,True,Critic Reviews,Reviews and scores from professional movie critics.,Critic Score,"Score assigned by professional movie critics, often aggregated from multiple sources."
+0.8946485,True,User Interface,The ease of use and intuitiveness of the app's interface.,User Interface and Experience,The ease of use and overall user experience of the app.
+0.744805,True,User Experience,"Overall ease of use, interface design, and user satisfaction.",User Interface Quality,The ease of navigation and overall user experience of the app.
+0.7402125,True,Community and Social Features,"Features that allow user interaction, such as commenting, sharing, or live discussions.",Social Networking Features,"Features that allow users to connect with friends, share recommendations, and see friends' ratings."
+0.85062826,True,Integration with Other Platforms,The app's ability to integrate with other social media platforms and services.,Integration with Other Services,The app's ability to integrate with other platforms and services.
+0.72199637,True,Platform Accessibility,"The availability of the app across different devices and operating systems, such as iOS, Android, smart TVs, and web browsers.",Platform Availability,"The range of operating systems and devices on which the app is available (e.g., iOS, Android, Web)."
+0.7271735,True,Editing Features,Range of photo editing tools and customization options.,Feature Set,Range and quality of photo editing features offered by the app.

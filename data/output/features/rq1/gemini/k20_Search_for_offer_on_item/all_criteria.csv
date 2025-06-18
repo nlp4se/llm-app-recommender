@@ -1,0 +1,60 @@
+name,description,type,sources
+Barcode Scanner,Allows scanning barcodes to quickly find prices and deals.,Boolean[1],Multiple sources
+Barcode Scanning,Ability to scan barcodes for quick price comparisons while shopping in physical stores.,Boolean [1],App features list
+Barcode Scanning,Ability to scan barcodes of products in physical stores to compare prices online.,Boolean [1],App features list
+Barcode Scanning,Allows users to scan product barcodes to quickly compare prices and find deals.,Boolean[1],Multiple sources
+Barcode Scanning,Availability and accuracy of barcode scanning feature for in-store price comparison.,Boolean [1],"App features list, expert reviews"
+Barcode Scanning,Functionality to scan barcodes for quick price comparisons in physical stores.,Boolean [1],"App features, expert reviews"
+Barcode Scanning,Allows users to scan barcodes in-store to compare prices instantly.,Boolean[1],"App Features, App Description"
+Breadth of Deals,The variety of deals and discounts available across different retailers and product categories.,Integer[*],"App Store, Google Play Store, Expert Reviews"
+Breadth of Retailer Coverage,The number of retailers and online stores included in the app's price comparison search.,Integer [*],"App description, independent reviews"
+Breadth of Retailer Coverage,The number and variety of retailers and product categories the app searches for deals.,Integer[*],"App description, app features list"
+Cash Back Offers,Availability and value of cash-back rewards for purchases made through the app.,Float [*],"App description, user terms"
+Cash Back Rewards,Availability of cash back rewards or rebates on purchases made through the app.,Boolean [1],"App description, independent reviews"
+Cash Back Rewards,Offers cash back or rebates on purchases made through the app or by submitting receipts after purchase.,Boolean[1],Multiple sources
+Cash Back Rewards,Offers cash back on purchases made through the app.,Boolean[1],"App Description, User Reviews"
+Cashback Offers,Offers cashback on purchases made through the app.,Boolean[1],Multiple sources
+Cashback Offers,Availability of cashback offers and rewards programs.,Boolean [1],"App features list, user reviews"
+Community Engagement,The level of user interaction and community-driven deal sharing within the app.,Integer[1],"App Store, Google Play Store, Expert Reviews"
+Coupon and Discount Availability,"Availability of coupons, promo codes, and other discounts within the app.",Boolean [1],"App description, user reviews"
+Coupon Availability,Availability of coupons that are automatically applied.,Boolean [1],App details
+Coupon Availability,Identifies and applies available coupons and promo codes for online and in-store purchases to maximize savings.,Boolean[1],Multiple sources
+Coupon Availability,Availability of digital coupons for online and in-store use.,Boolean[1],Multiple sources
+Coupon Availability,Availability of coupons and promo codes within the app.,Boolean [1],"App features list, user reviews"
+Coupon Availability,Provides access to digital coupons and promo codes for additional savings.,Boolean[1],"App Description, App Features"
+Customization Options,"The ability for users to set price alerts, customize deal preferences, and save favorite stores.",Boolean[*],"App settings, app features list"
+Deal Alerts,Sends notifications when the price of a tracked item drops.,Boolean[1],Multiple sources
+Deal Coverage,"The breadth of deals and discounts covered, including coupons, promo codes, and cash-back offers.",Integer [*],"App description, user feedback"
+Deal Coverage,"Breadth of deals and offers available, including coupons, discounts, and cashback opportunities.",Integer[*],"App description, user reviews"
+Deal Notification Frequency,How often the app updates and notifies users of new deals and price drops.,Text[1],"App settings, user reviews"
+Deal personalization,How well the app tailors deals to individual user preferences and shopping habits.,Boolean[1],"Expert Reviews, User Reviews"
+Deal Types,"Types of deals offered (e.g., cashback, coupons, discounts).",Text[*],"App description, user reviews"
+Ease of Use,The intuitiveness and simplicity of the app's interface and navigation.,Text[1],"User Reviews, Expert Reviews"
+Ease of Use,Subjective assessment of how user-friendly the app interface is.,Text[1],"User reviews, expert reviews"
+In-Store Deals,"Highlights local, in-store deals and offers based on the user's location.",Boolean[1],Multiple sources
+Number of Downloads,"Total number of times the app has been downloaded, indicating popularity and reach.",Integer[1],"Google Play Store, Apple App Store"
+Price Alert Functionality,Ability to set price alerts and receive notifications when the price of a desired item drops.,Boolean [1],"App features list, user reviews"
+Price Comparison,"Compares prices across multiple retailers, both online and local, to find the best deals for a specific item.",Boolean[1],Multiple sources
+Price Comparison,Compares prices across different retailers for the same item.,Boolean[1],Multiple sources
+Price Comparison,Compares prices across multiple retailers to find the best deals on a specific item.,Boolean[1],"App Description, User Reviews"
+Price Comparison Accuracy,"Accuracy of price comparisons across multiple retailers, both online and in-store.",Float [1],"User reviews, app testing reports"
+Price Comparison Accuracy,The app's ability to accurately compare prices across multiple retailers and product categories.,Float [1],"App Store Reviews, Google Play Store Reviews, independent reviews"
+Price Comparison Accuracy,The degree to which the app provides accurate and up-to-date price comparisons across multiple retailers.,Float[1],"User reviews, independent testing"
+Price Comparison Accuracy,The ability of the app to accurately compare prices across multiple retailers.,Float [1],"User reviews, expert reviews, app store descriptions"
+Price Comparison Accuracy,Accuracy of price comparisons across multiple retailers and product categories.,Float [1],"User reviews, independent testing"
+Price Drop Alerts,Effectiveness and customizability of price drop alert features.,Boolean [1],"App features list, user reviews"
+Price Drop Alerts,Notifies users when the price of a tracked item drops to a desired level.,Boolean[1],Multiple sources
+Price Tracking & Alerts,Ability to track price changes over time and receive alerts when prices drop.,Boolean [1],"App features list, user reviews"
+Price Tracking & Alerts,Ability to track prices and receive notifications when prices drop.,Boolean [1],"App features, user reviews"
+Retailer Coverage,Number and variety of retailers included in the price comparison.,Integer [*],"App descriptions, expert reviews"
+Store Variety,Number of retailers included for comparison.,Integer [1],"App details, marketing material"
+User Interface,Ease of use and navigation within the app.,Text [1],"App store reviews, user feedback"
+User Interface,Ease of use and navigation within the app.,Text [1],"User reviews, expert reviews"
+User Interface,"Ease of navigation, search functionality, and overall user experience.",Text [1],"User reviews, expert opinions"
+User Interface and Experience,"Ease of use, navigation, and overall user-friendliness of the app.",Text [1],"App Store Reviews, Google Play Store Reviews, independent reviews"
+User Interface and Experience,"The ease of navigation, clarity of information, and overall user-friendliness of the app.",Text[1],"User reviews, app store ratings"
+User Ratings,"Average user rating from app stores, reflecting user satisfaction with the app's functionality and deal quality.",Float[1],"App Store, Google Play Store"
+User Ratings,"Average rating given by users on app stores, reflecting user satisfaction.",Float[1],"Google Play Store, Apple App Store"
+User Ratings,Reflects user satisfaction and app performance based on available reviews.,Float[1],"App Store, Google Play Store"
+User Reviews,Provides access to product reviews from other customers to aid in purchase decisions.,Boolean[1],Multiple sources
+Variety of Retailers,The number of different stores and online retailers supported by the app.,Integer[1],"App description, user reviews"
