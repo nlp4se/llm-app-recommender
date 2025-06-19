@@ -16,7 +16,7 @@ def setup_logging():
     )
     return logging.getLogger(__name__)
 
-def process_rankings(input_folder: str, experiment_name: str, output_folder: str, category_name: str, max_rank: int = 20):
+def process_rankings(input_folder: str, experiment_name: str, output_folder: str, feature_name: str, max_rank: int = 20):
     logger = setup_logging()
     
     # Create output folder if it doesn't exist
@@ -33,38 +33,69 @@ def process_rankings(input_folder: str, experiment_name: str, output_folder: str
     
     # Process each JSON file
     total_runs = len(json_files)
+    valid_runs = 0  # Track number of valid runs
     for run_index, json_file in enumerate(json_files):
         logger.info(f"Processing file: {json_file}")
-        with open(json_file, 'r') as f:
-            data = json.load(f)
-            current_apps = set()  # Track apps in current run
-            
-            for app in data['apps']:
-                app_name = app['name']
-                current_apps.add(app_name)
-                rank = int(app['rank'])
+        try:
+            with open(json_file, 'r', encoding='utf-8') as f:
+                # Check if file is empty
+                content = f.read().strip()
+                if not content:
+                    logger.warning(f"Skipping empty file: {json_file}")
+                    continue
                 
-                # Only consider ranks up to max_rank
-                if rank <= max_rank:
-                    if app_name not in app_rankings:
-                        app_rankings[app_name] = [None] * run_index
-                    app_rankings[app_name].append(rank)
-                else:
-                    if app_name not in app_rankings:
-                        app_rankings[app_name] = [None] * run_index
-                    app_rankings[app_name].append(None)
-            
-            # Add None for apps that didn't appear in this run
-            for app_name in app_rankings:
-                if app_name not in current_apps:
-                    app_rankings[app_name].append(None)
+                # Reset file pointer and load JSON
+                f.seek(0)
+                data = json.load(f)
+                
+                # Validate JSON structure
+                if 'a' not in data or not isinstance(data['a'], list):
+                    logger.warning(f"Skipping file with invalid structure (missing 'a' key or not a list): {json_file}")
+                    continue
+                
+                current_apps = set()  # Track apps in current run
+                
+                # Handle flat array structure: app_name is the value, rank is position + 1
+                for position, app_name in enumerate(data['a']):
+                    current_apps.add(app_name)
+                    rank = position + 1  # Rank is position + 1
+                    
+                    # Only consider ranks up to max_rank
+                    if rank <= max_rank:
+                        if app_name not in app_rankings:
+                            app_rankings[app_name] = [None] * valid_runs
+                        app_rankings[app_name].append(rank)
+                    else:
+                        if app_name not in app_rankings:
+                            app_rankings[app_name] = [None] * valid_runs
+                        app_rankings[app_name].append(None)
+                
+                # Add None for apps that didn't appear in this run
+                for app_name in app_rankings:
+                    if app_name not in current_apps:
+                        app_rankings[app_name].append(None)
+                
+                valid_runs += 1
+                
+        except json.JSONDecodeError as e:
+            logger.warning(f"Skipping invalid JSON file {json_file}: {e}")
+            continue
+        except Exception as e:
+            logger.warning(f"Skipping file {json_file} due to error: {e}")
+            continue
                     
     # Ensure all apps have the same number of rankings
     for app_name in app_rankings:
         current_length = len(app_rankings[app_name])
-        if current_length < total_runs:
+        if current_length < valid_runs:
             # Pad with None values if necessary
-            app_rankings[app_name].extend([None] * (total_runs - current_length))
+            app_rankings[app_name].extend([None] * (valid_runs - current_length))
+    
+    if valid_runs == 0:
+        logger.error("No valid JSON files found. Cannot proceed with analysis.")
+        return
+    
+    logger.info(f"Successfully processed {valid_runs} out of {total_runs} files")
     
     # Create DataFrame for heatmap
     apps = list(app_rankings.keys())
@@ -110,7 +141,7 @@ def process_rankings(input_folder: str, experiment_name: str, output_folder: str
     # Create heatmap
     plt.figure(figsize=(12, 8))
     sns.heatmap(heatmap_df, annot=True, fmt='d', cmap='YlGn', annot_kws={'size': 12})
-    plt.title(f'App Rankings Distribution - {category_name}')
+    plt.title(f'App Rankings Distribution - {feature_name}')
     plt.ylabel('Apps')
     plt.xlabel('Ranking Position')
     
@@ -125,20 +156,20 @@ def process_rankings(input_folder: str, experiment_name: str, output_folder: str
     for app in filtered_apps:
         rankings = app_rankings[app]
         # Ensure rankings is the same length as the number of runs
-        if len(rankings) < len(json_files):
-            rankings = rankings + [None] * (len(json_files) - len(rankings))
-        elif len(rankings) > len(json_files):
-            rankings = rankings[:len(json_files)]
+        if len(rankings) < valid_runs:
+            rankings = rankings + [None] * (valid_runs - len(rankings))
+        elif len(rankings) > valid_runs:
+            rankings = rankings[:valid_runs]
         csv_data.append([app] + rankings)
     
     # Create DataFrame and save to CSV
     csv_df = pd.DataFrame(
         csv_data,
-        columns=['App'] + [f'Run_{i+1}' for i in range(len(json_files))]
+        columns=['App'] + [f'Run_{i+1}' for i in range(valid_runs)]
     )
     
     # Convert numeric columns to Int64 type and replace None with -1
-    numeric_columns = [f'Run_{i+1}' for i in range(len(json_files))]
+    numeric_columns = [f'Run_{i+1}' for i in range(valid_runs)]
     csv_df[numeric_columns] = csv_df[numeric_columns].fillna(0).astype('Int64')
 
     csv_path = os.path.join(output_folder, f"{experiment_name}_rankings.csv")
@@ -187,15 +218,19 @@ def process_rankings(input_folder: str, experiment_name: str, output_folder: str
     # Calculate ranking metrics
     metrics = calculate_ranking_metrics(app_rankings, max_rank)
     
+    # Get the input folder name (tail)
+    input_folder_name = os.path.basename(input_folder)
+    
     # Create metrics DataFrame
     metrics_df = pd.DataFrame([{
-        'category_name': category_name,
+        'input_folder': input_folder_name,  # Add input folder name as first column
+        'feature_name': feature_name,
         'avg_run_correlation': metrics['avg_run_correlation'],
         'rss_position_correlation': metrics['rss_position_correlation'],
         **{f'rss_k{k}': metrics[f'rss_k{k}'] for k in range(1, max_rank + 1)},
         **{f'apps_k{k}': metrics[f'apps_k{k}'] for k in range(1, max_rank + 1)},
         'total_apps': len(filtered_apps),
-        'total_runs': len(json_files)
+        'total_runs': valid_runs  # Use valid_runs instead of len(json_files)
     }])
     
     # Save metrics to CSV in parent folder
@@ -217,7 +252,7 @@ def process_rankings(input_folder: str, experiment_name: str, output_folder: str
     
     # Print metadata
     logger.info(f"Total number of distinct apps: {len(filtered_apps)}")
-    logger.info(f"Number of experiment runs: {len(json_files)}")
+    logger.info(f"Number of valid experiment runs: {valid_runs} (out of {total_runs} files)")
     
     # Print apps that maintained consistent rankings
     for app in filtered_apps:
@@ -286,12 +321,12 @@ def main():
     parser = argparse.ArgumentParser(description='Process app rankings from JSON files')
     parser.add_argument('--input_folder', required=True, help='Input folder containing JSON files')
     parser.add_argument('--experiment_name', required=True, help='Experiment name prefix for JSON files')
-    parser.add_argument('--category_name', required=True, help='Category name for the experiment')
+    parser.add_argument('--feature_name', required=True, help='feature name for the experiment')
     parser.add_argument('--output_folder', required=True, help='Output folder for results')
     parser.add_argument('--max_rank', type=int, default=20, help='Maximum rank position to consider (default: 20)')
     
     args = parser.parse_args()
-    process_rankings(args.input_folder, args.experiment_name, args.output_folder, args.category_name, args.max_rank)
+    process_rankings(args.input_folder, args.experiment_name, args.output_folder, args.feature_name, args.max_rank)
 
 if __name__ == "__main__":
     main()
