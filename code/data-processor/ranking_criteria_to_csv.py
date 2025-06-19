@@ -9,6 +9,8 @@ from sklearn.metrics.pairwise import cosine_similarity
 import numpy as np
 from typing import List, Dict, Set, Tuple
 import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
 
 def clean_source(source):
     """Clean a source string by removing trailing punctuation and whitespace."""
@@ -144,8 +146,264 @@ def get_criteria_by_occurrence_count(criteria_list, occurrence_counts, get_occur
     return {count: merge_exact_name_matches(criteria) 
             for count, criteria in result.items()}
 
-def process_files(input_files: List[str]):
+def read_criteria_from_csv(csv_path: str) -> List[Dict]:
+    """Read criteria from a CSV file."""
+    criteria = []
+    try:
+        with open(csv_path, 'r', encoding='utf-8') as f:
+            reader = csv.DictReader(f)
+            for row in reader:
+                criteria.append(row)
+    except FileNotFoundError:
+        print(f"Warning: File {csv_path} not found")
+    except Exception as e:
+        print(f"Error reading {csv_path}: {str(e)}")
+    return criteria
+
+def create_folder_minN_visualizations(folder_criteria, occurrence_counts, output_folder):
+    """Create individual histograms for each input folder showing criteria distribution by minN."""
+    print("Creating individual folder minN visualizations...")
+    
+    # Calculate number of subplots needed
+    num_folders = len(folder_criteria)
+    cols = min(3, num_folders)  # Max 3 columns
+    rows = (num_folders + cols - 1) // cols  # Calculate rows needed
+    
+    # Create figure with subplots
+    fig, axes = plt.subplots(rows, cols, figsize=(15, 5 * rows))
+    
+    # Handle different subplot configurations
+    if num_folders == 1:
+        axes = [axes]  # Single subplot
+    elif rows == 1 and cols == 1:
+        axes = [axes]  # Single subplot (1x1 grid)
+    elif rows == 1:
+        axes = axes.reshape(1, -1).flatten()  # 1D array of subplots
+    else:
+        axes = axes.flatten()  # Flatten 2D array to 1D
+    
+    # Set modern style
+    sns.set_style("whitegrid")
+    plt.rcParams['font.size'] = 10
+    plt.rcParams['axes.labelsize'] = 12
+    plt.rcParams['axes.titlesize'] = 14
+    
+    folder_names = sorted(folder_criteria.keys())  # Sort folder names
+    
+    # First pass: collect all data to determine global min/max for y-axis
+    all_minN_data = {}
+    for folder in folder_names:
+        minN_data = {}
+        for count in occurrence_counts:
+            minN_file = os.path.join(folder, f'grouped_all_criteria_min{count}.csv')
+            try:
+                criteria = read_criteria_from_csv(minN_file)
+                minN_data[count] = len(criteria)
+            except FileNotFoundError:
+                minN_data[count] = 0
+        all_minN_data[folder] = minN_data
+    
+    # Calculate global min and max values for y-axis
+    all_values = []
+    for minN_data in all_minN_data.values():
+        all_values.extend(minN_data.values())
+    
+    if all_values:
+        y_min = 0  # Always start from 0 for bar charts
+        y_max = max(all_values) + 1  # Add some padding
+    else:
+        y_min, y_max = 0, 10  # Default range if no data
+    
+    # Second pass: create the plots with consistent y-axis
+    for idx, folder in enumerate(folder_names):
+        if idx >= len(axes):
+            break
+            
+        ax = axes[idx]
+        minN_data = all_minN_data[folder]
+        
+        # Create histogram for this folder
+        bars = ax.bar(minN_data.keys(), minN_data.values(), 
+                     color='#2E86AB', alpha=0.8, edgecolor='#1B4965', linewidth=1.5)
+        
+        # Add value labels on top of bars
+        for bar, value in zip(bars, minN_data.values()):
+            if value > 0:
+                ax.text(bar.get_x() + bar.get_width()/2, bar.get_height() + 0.5, 
+                       str(value), ha='center', va='bottom', fontweight='bold', fontsize=9)
+        
+        # Customize subplot
+        # Get the last part of the folder name (after the last separator)
+        folder_display_name = folder.split(os.sep)[-1] if folder != '.' else 'Root'
+        # If the folder name is empty (e.g., root directory), use a default name
+        if not folder_display_name:
+            folder_display_name = 'Root'
+        
+        # Set title with larger font and more padding
+        ax.set_title(f'{folder_display_name}', fontweight='bold', fontsize=14, pad=15)
+        ax.set_xlabel('minN', fontweight='bold')
+        ax.set_ylabel('Criteria Count', fontweight='bold')
+        ax.set_xticks(list(minN_data.keys()))
+        ax.grid(axis='y', alpha=0.3)
+        
+        # Set consistent y-axis range for all subplots
+        ax.set_ylim(y_min, y_max)
+        
+        # Remove top and right spines
+        ax.spines['top'].set_visible(False)
+        ax.spines['right'].set_visible(False)
+    
+    # Hide unused subplots
+    for idx in range(num_folders, len(axes)):
+        axes[idx].set_visible(False)
+    
+    # Add overall title
+    fig.suptitle('Criteria Distribution by minN Value - Individual Folders', 
+                 fontsize=16, fontweight='bold', y=0.98)
+    
+    # Adjust layout with more space for titles
+    plt.tight_layout()
+    plt.subplots_adjust(top=0.88, hspace=0.3)  # More space for titles and between subplots
+    
+    # Save the plot to output folder
+    output_path = os.path.join(output_folder, 'folder_criteria_distribution_histograms.png')
+    plt.savefig(output_path, dpi=300, bbox_inches='tight')
+    output_path_pdf = os.path.join(output_folder, 'folder_criteria_distribution_histograms.pdf')
+    plt.savefig(output_path_pdf, bbox_inches='tight')
+    print(f"Saved folder histograms as '{output_path}' and '{output_path_pdf}'")
+    
+    plt.show()
+
+def create_minN_visualization_and_csv(occurrence_counts, output_folder):
+    """Create a modern histogram of criteria distribution across minN values and save CSV with criteria names."""
+    print("Creating global minN visualization and CSV...")
+    
+    # Collect data for each minN value
+    minN_data = {}
+    criteria_names_by_minN = {}
+    
+    for count in occurrence_counts:
+        filename = os.path.join(output_folder, f'global_grouped_all_criteria_min{count}.csv')
+        try:
+            criteria = read_criteria_from_csv(filename)
+            minN_data[count] = len(criteria)
+            criteria_names_by_minN[count] = [c['name'] for c in criteria]
+            print(f"min{count}: {len(criteria)} criteria")
+        except FileNotFoundError:
+            minN_data[count] = 0
+            criteria_names_by_minN[count] = []
+    
+    # Create modern styled histogram
+    plt.figure(figsize=(12, 8))
+    
+    # Set modern style
+    sns.set_style("whitegrid")
+    plt.rcParams['font.size'] = 12
+    plt.rcParams['axes.labelsize'] = 14
+    plt.rcParams['axes.titlesize'] = 16
+    
+    # Create the histogram
+    bars = plt.bar(minN_data.keys(), minN_data.values(), 
+                   color='#2E86AB', alpha=0.8, edgecolor='#1B4965', linewidth=1.5)
+    
+    # Add value labels on top of bars
+    for bar, value in zip(bars, minN_data.values()):
+        if value > 0:
+            plt.text(bar.get_x() + bar.get_width()/2, bar.get_height() + 0.5, 
+                    str(value), ha='center', va='bottom', fontweight='bold')
+    
+    # Customize the plot
+    plt.xlabel('Minimum Occurrence Count (minN)', fontweight='bold')
+    plt.ylabel('Number of Criteria', fontweight='bold')
+    plt.title('Global Distribution of Ranking Criteria by Minimum Occurrence Count', 
+              fontweight='bold', pad=20)
+    
+    # Set x-axis ticks to show all minN values
+    plt.xticks(list(minN_data.keys()))
+    
+    # Add grid for better readability
+    plt.grid(axis='y', alpha=0.3)
+    
+    # Remove top and right spines
+    plt.gca().spines['top'].set_visible(False)
+    plt.gca().spines['right'].set_visible(False)
+    
+    # Add some padding
+    plt.tight_layout()
+    
+    # Save the plot to output folder
+    output_path = os.path.join(output_folder, 'global_criteria_distribution_histogram.png')
+    plt.savefig(output_path, dpi=300, bbox_inches='tight')
+    output_path_pdf = os.path.join(output_folder, 'global_criteria_distribution_histogram.pdf')
+    plt.savefig(output_path_pdf, bbox_inches='tight')
+    print(f"Saved global histogram as '{output_path}' and '{output_path_pdf}'")
+    
+    # Create CSV with criteria names by minN value
+    create_minN_criteria_csv(criteria_names_by_minN, occurrence_counts, output_folder)
+    
+    plt.show()
+
+def create_minN_criteria_csv(criteria_names_by_minN, occurrence_counts, output_folder):
+    """Create a CSV file where each column is a minN value and contains the list of criteria names."""
+    # Find the maximum number of criteria across all minN values
+    max_criteria = max(len(names) for names in criteria_names_by_minN.values())
+    
+    # Create a DataFrame with minN values as columns
+    data = {}
+    for count in occurrence_counts:
+        names = criteria_names_by_minN.get(count, [])
+        # Pad with empty strings to make all columns the same length
+        padded_names = names + [''] * (max_criteria - len(names))
+        data[f'min{count}'] = padded_names
+    
+    # Create DataFrame and save to CSV
+    df = pd.DataFrame(data)
+    csv_filename = os.path.join(output_folder, 'criteria_by_minN_values.csv')
+    df.to_csv(csv_filename, index=False)
+    print(f"Saved criteria names by minN values to '{csv_filename}'")
+    
+    # Also create a summary CSV with counts
+    summary_data = {
+        'minN_value': list(occurrence_counts),
+        'criteria_count': [len(criteria_names_by_minN.get(count, [])) for count in occurrence_counts]
+    }
+    summary_df = pd.DataFrame(summary_data)
+    summary_filename = os.path.join(output_folder, 'criteria_summary_by_minN.csv')
+    summary_df.to_csv(summary_filename, index=False)
+    print(f"Saved criteria summary to '{summary_filename}'")
+
+def merge_global_minN_files(folder_criteria, occurrence_counts, output_folder):
+    """Merge all grouped_all_criteria_minN.csv files from different folders into global files."""
+    print("Merging global minN files...")
+    
+    # For each occurrence count, collect criteria from all folders
+    for count in occurrence_counts:
+        all_criteria_for_count = []
+        
+        # Collect criteria from each folder's minN file
+        for folder in sorted(folder_criteria.keys()):  # Sort folder names
+            minN_file = os.path.join(folder, f'grouped_all_criteria_min{count}.csv')
+            criteria = read_criteria_from_csv(minN_file)
+            all_criteria_for_count.extend(criteria)
+        
+        if all_criteria_for_count:
+            # Merge exact name matches and save to output folder
+            merged_criteria = merge_exact_name_matches(all_criteria_for_count)
+            global_file = os.path.join(output_folder, f'global_grouped_all_criteria_min{count}.csv')
+            write_criteria_to_csv(merged_criteria, global_file)
+            print(f"Created {global_file} with {len(merged_criteria)} criteria")
+    
+    # First create individual folder visualizations
+    create_folder_minN_visualizations(folder_criteria, occurrence_counts, output_folder)
+    
+    # Then create global visualization and CSV
+    create_minN_visualization_and_csv(occurrence_counts, output_folder)
+
+def process_files(input_files: List[str], output_folder: str = '.'):
     """Process multiple input files and create corresponding output files."""
+    # Create output folder if it doesn't exist
+    os.makedirs(output_folder, exist_ok=True)
+    
     # Dictionary to store criteria by folder
     folder_criteria = defaultdict(list)
     # Dictionary to store criteria by feature (lowest level subfolder)
@@ -177,7 +435,7 @@ def process_files(input_files: List[str]):
                     file_criteria[json_file] = criteria_data
                     
                     # Add to folder criteria
-                    folder = os.path.dirname(input_path)  # Use the input directory as the folder
+                    folder = input_path
                     folder_criteria[folder].extend(criteria_data)
                     
                     # Add to feature criteria (lowest level subfolder)
@@ -203,10 +461,15 @@ def process_files(input_files: List[str]):
         print("No criteria found in any input files")
         return
     
-    # Process each folder (input directory)
-    for folder, criteria in folder_criteria.items():
-        # Create output files in the same folder
-        folder_all_file = os.path.join(folder, 'all_criteria.csv')
+    # Process each folder (input directory) - sort folders for consistent output
+    for folder in sorted(folder_criteria.keys()):
+        criteria = folder_criteria[folder]
+        
+        # Create output files in the output folder with folder name prefix
+        folder_name = os.path.basename(folder) if folder != '.' else 'root'
+        folder_all_file = os.path.join(output_folder, f'{folder_name}_all_criteria.csv')
+        
+        # Save grouped criteria in the input folder itself
         folder_grouped_file = os.path.join(folder, 'grouped_criteria.csv')
         
         # Write all criteria for this folder (with deduplication)
@@ -236,18 +499,18 @@ def process_files(input_files: List[str]):
             return len(subfolder_criteria[criterion_name])
         
         # Get criteria for different occurrence counts
-        occurrence_counts = [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]  # Can be easily modified to include more counts
+        occurrence_counts = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17]  # Can be easily modified to include more counts
         subfolder_criteria_by_count = get_criteria_by_occurrence_count(
             criteria, occurrence_counts, get_subfolder_count)
         
         # Write files for each occurrence count
         for count, filtered_criteria in subfolder_criteria_by_count.items():
-            output_file = os.path.join(folder, f'grouped_all_criteria_min{count}.csv')
+            output_file = os.path.join(output_folder, f'{folder_name}_grouped_all_criteria_min{count}.csv')
             write_criteria_to_csv(filtered_criteria, output_file)
     
-    # Process global criteria
-    global_all_file = 'global_all_criteria.csv'
-    global_grouped_file = 'global_grouped_criteria.csv'
+    # Process global criteria - only include criteria that appear in multiple folders
+    global_all_file = os.path.join(output_folder, 'global_all_criteria.csv')
+    global_grouped_file = os.path.join(output_folder, 'global_grouped_criteria.csv')
     
     # Write all global criteria (with deduplication)
     unique_global_criteria = merge_exact_name_matches(all_criteria)
@@ -265,26 +528,9 @@ def process_files(input_files: List[str]):
     merged_global_criteria = merge_exact_name_matches(multi_folder_criteria)
     write_criteria_to_csv(merged_global_criteria, global_grouped_file)
 
-    # For global level - find criteria present in at least N input folders
-    all_folders = set(folder_criteria.keys())
-    folder_criteria_count = defaultdict(int)
-    for criterion in all_criteria:
-        criterion_name = criterion['name'].lower()
-        for folder in all_folders:
-            if any(c['name'].lower() == criterion_name for c in folder_criteria[folder]):
-                folder_criteria_count[criterion_name] += 1
-    
-    def get_folder_count(criterion_name):
-        return folder_criteria_count[criterion_name]
-    
-    # Get criteria for different occurrence counts
-    global_criteria_by_count = get_criteria_by_occurrence_count(
-        all_criteria, occurrence_counts, get_folder_count)
-    
-    # Write files for each occurrence count
-    for count, filtered_criteria in global_criteria_by_count.items():
-        output_file = f'global_grouped_all_criteria_min{count}.csv'
-        write_criteria_to_csv(filtered_criteria, output_file)
+    # NEW: Merge all minN files from different folders into global minN files
+    occurrence_counts = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]
+    merge_global_minN_files(folder_criteria, occurrence_counts, output_folder)
 
     print_criteria_tables("data/output/features")
 
@@ -357,6 +603,7 @@ def count_criteria_by_occurrence():
 def main():
     parser = argparse.ArgumentParser(description='Convert ranking criteria from JSON files to CSV')
     parser.add_argument('--input-files', nargs='+', required=True, help='List of input JSON files')
+    parser.add_argument('--output-folder', default='.', help='Output folder for all generated files (default: current directory)')
     
     args = parser.parse_args()
     
@@ -366,7 +613,7 @@ def main():
             print(f"Error: Input file '{input_file}' does not exist")
             return
     
-    process_files(args.input_files)
+    process_files(args.input_files, args.output_folder)
 
 if __name__ == '__main__':
     main()
