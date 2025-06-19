@@ -65,24 +65,23 @@ def find_most_representative_description(descriptions: List[str]) -> str:
         # If vectorization fails, return the longest description
         return max(descriptions, key=len)
 
-def merge_exact_name_matches(criteria_list: List[Dict], min_occurrences: int = 1) -> List[Dict]:
-    """Merge criteria with exactly the same name, keeping most representative description and type."""
-    # Group criteria by name
-    name_groups = defaultdict(list)
+def merge_exact_name_description_matches(criteria_list: List[Dict], min_occurrences: int = 1) -> List[Dict]:
+    """Merge criteria with exactly the same name AND description, keeping most representative type."""
+    # Group criteria by name AND description
+    name_desc_groups = defaultdict(list)
     for criterion in criteria_list:
-        name_groups[criterion['name'].lower()].append(criterion)
+        # Create a key that combines name and description (both lowercase for comparison)
+        key = (criterion['name'].lower(), criterion['description'].lower())
+        name_desc_groups[key].append(criterion)
     
     merged_criteria = []
-    for name, group in name_groups.items():
+    for (name_lower, desc_lower), group in name_desc_groups.items():
         if len(group) < min_occurrences:
             # Skip if not enough occurrences
             continue
             
-        # Find most representative description and type
-        descriptions = [c['description'] for c in group]
+        # Find most representative type
         types = [c['type'] for c in group]
-        
-        best_desc = find_most_representative_description(descriptions)
         best_type = find_most_representative_description(types)
         
         # Collect all unique sources
@@ -95,7 +94,7 @@ def merge_exact_name_matches(criteria_list: List[Dict], min_occurrences: int = 1
         # Create merged criterion
         merged = {
             'name': group[0]['name'],  # Use original case from first occurrence
-            'description': best_desc,
+            'description': group[0]['description'],  # Use original case from first occurrence
             'type': best_type,
             'sources': ', '.join(sorted(all_sources))
         }
@@ -142,8 +141,8 @@ def get_criteria_by_occurrence_count(criteria_list, occurrence_counts, get_occur
             if count >= min_count:
                 result.setdefault(min_count, []).append(criterion)
     
-    # Merge exact name matches for each count
-    return {count: merge_exact_name_matches(criteria) 
+    # Merge exact name AND description matches for each count
+    return {count: merge_exact_name_description_matches(criteria) 
             for count, criteria in result.items()}
 
 def read_criteria_from_csv(csv_path: str) -> List[Dict]:
@@ -387,8 +386,8 @@ def merge_global_minN_files(folder_criteria, occurrence_counts, output_folder):
             all_criteria_for_count.extend(criteria)
         
         if all_criteria_for_count:
-            # Merge exact name matches and save to output folder
-            merged_criteria = merge_exact_name_matches(all_criteria_for_count)
+            # Merge exact name AND description matches and save to output folder
+            merged_criteria = merge_exact_name_description_matches(all_criteria_for_count)
             global_file = os.path.join(output_folder, f'global_grouped_all_criteria_min{count}.csv')
             write_criteria_to_csv(merged_criteria, global_file)
             print(f"Created {global_file} with {len(merged_criteria)} criteria")
@@ -447,7 +446,9 @@ def process_files(input_files: List[str], output_folder: str = '.'):
                     
                     # Track which subfolder each criterion appears in
                     for criterion in criteria_data:
-                        criterion_subfolders[criterion['name'].lower()].add(feature_dir)
+                        # Use both name and description as key for tracking
+                        criterion_key = (criterion['name'].lower(), criterion['description'].lower())
+                        criterion_subfolders[criterion_key].add(feature_dir)
                     
                 except Exception as e:
                     print(f"Error processing {json_file}: {str(e)}")
@@ -472,8 +473,8 @@ def process_files(input_files: List[str], output_folder: str = '.'):
         # Save grouped criteria in the input folder itself
         folder_grouped_file = os.path.join(folder, 'grouped_criteria.csv')
         
-        # Write all criteria for this folder (with deduplication)
-        unique_criteria = merge_exact_name_matches(criteria)
+        # Write all criteria for this folder (with deduplication by name AND description)
+        unique_criteria = merge_exact_name_description_matches(criteria)
         write_criteria_to_csv(unique_criteria, folder_all_file)
         
         # Write grouped criteria for this folder (only those appearing in multiple files)
@@ -481,22 +482,29 @@ def process_files(input_files: List[str], output_folder: str = '.'):
         criteria_occurrences = defaultdict(int)
         for file_name in file_names:
             for criterion in file_criteria[file_name]:
-                criteria_occurrences[criterion['name'].lower()] += 1
+                # Use both name and description as key
+                criterion_key = (criterion['name'].lower(), criterion['description'].lower())
+                criteria_occurrences[criterion_key] += 1
         
         # Filter criteria that appear in multiple files
-        multi_file_criteria = [c for c in criteria if criteria_occurrences[c['name'].lower()] > 1]
-        merged_criteria = merge_exact_name_matches(multi_file_criteria)
+        multi_file_criteria = [c for c in criteria if criteria_occurrences[(c['name'].lower(), c['description'].lower())] > 1]
+        merged_criteria = merge_exact_name_description_matches(multi_file_criteria)
         write_criteria_to_csv(merged_criteria, folder_grouped_file)
         
         # For folder level - find criteria present in at least N subfolders
         folder_subfolders = {f for f in feature_criteria.keys() if f.startswith(folder)}
         subfolder_criteria = defaultdict(set)
         for criterion in criteria:
-            criterion_name = criterion['name'].lower()
-            subfolder_criteria[criterion_name].update(criterion_subfolders[criterion_name].intersection(folder_subfolders))
+            criterion_key = (criterion['name'].lower(), criterion['description'].lower())
+            subfolder_criteria[criterion_key].update(criterion_subfolders[criterion_key].intersection(folder_subfolders))
         
         def get_subfolder_count(criterion_name):
-            return len(subfolder_criteria[criterion_name])
+            # Find all criteria with this name (regardless of description)
+            count = 0
+            for key, subfolders in subfolder_criteria.items():
+                if key[0] == criterion_name.lower():  # key[0] is the name
+                    count += len(subfolders)
+            return count
         
         # Get criteria for different occurrence counts
         occurrence_counts = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17]  # Can be easily modified to include more counts
@@ -512,27 +520,30 @@ def process_files(input_files: List[str], output_folder: str = '.'):
     global_all_file = os.path.join(output_folder, 'global_all_criteria.csv')
     global_grouped_file = os.path.join(output_folder, 'global_grouped_criteria.csv')
     
-    # Write all global criteria (with deduplication)
-    unique_global_criteria = merge_exact_name_matches(all_criteria)
+    # Write all global criteria (with deduplication by name AND description)
+    unique_global_criteria = merge_exact_name_description_matches(all_criteria)
     write_criteria_to_csv(unique_global_criteria, global_all_file)
     
     # Write grouped global criteria (only those appearing in multiple folders)
     folder_occurrences = defaultdict(int)
     for criterion in all_criteria:
+        criterion_key = (criterion['name'].lower(), criterion['description'].lower())
         for folder in folder_criteria.keys():
-            if any(c['name'].lower() == criterion['name'].lower() for c in folder_criteria[folder]):
-                folder_occurrences[criterion['name'].lower()] += 1
+            if any(c['name'].lower() == criterion['name'].lower() and 
+                   c['description'].lower() == criterion['description'].lower() 
+                   for c in folder_criteria[folder]):
+                folder_occurrences[criterion_key] += 1
     
     # Filter criteria that appear in multiple folders
-    multi_folder_criteria = [c for c in all_criteria if folder_occurrences[c['name'].lower()] > 1]
-    merged_global_criteria = merge_exact_name_matches(multi_folder_criteria)
+    multi_folder_criteria = [c for c in all_criteria if folder_occurrences[(c['name'].lower(), c['description'].lower())] > 1]
+    merged_global_criteria = merge_exact_name_description_matches(multi_folder_criteria)
     write_criteria_to_csv(merged_global_criteria, global_grouped_file)
 
     # NEW: Merge all minN files from different folders into global minN files
     occurrence_counts = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]
     merge_global_minN_files(folder_criteria, occurrence_counts, output_folder)
 
-    print_criteria_tables("data/output/features")
+    #print_criteria_tables("data/output/features")
 
 def count_criteria_in_csv(csv_path):
     """Count the number of criteria (rows) in a CSV file, excluding the header."""
