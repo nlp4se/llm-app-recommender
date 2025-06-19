@@ -1,0 +1,83 @@
+name,description,cluster_id
+Subscription Cost,The monthly or annual fee required to access the app's content (if applicable).,1
+Subscription Cost,"The cost of subscription plans, if applicable.",1
+Subscription Cost,The monthly fee required to access the platform's content.,1
+Cost,"The pricing model of the app, including whether it is free, has in-app purchases, or requires a subscription.",2
+Cost,"The pricing structure of the app, including free tiers and subscription options.",2
+Cost and Subscription Options,"Information on whether the app is free, offers in-app purchases, or requires a subscription.",2
+Price,"The cost of the app, including any subscription fees or in-app purchases.",2
+Price,"Cost of the app, including any in-app purchases or subscription fees.",2
+Pricing,"The cost of the app, considering both free and paid options, and the value offered for the price.",2
+Pricing Model,Cost of the app and available in-app purchases or subscriptions.,2
+Pricing Model,"The cost structure of the app, including free tiers, subscription plans, and one-time purchases.",2
+Pricing and Plans,Cost-effectiveness and variety of pricing plans offered by the app.,2
+Cross-Platform Compatibility,"Ability to use the app on multiple devices, like laptop, tablet, or phone.",3
+Device Compatibility,"The range of devices (smartphones, tablets, smart TVs, streaming devices) the app supports.",3
+Device Compatibility,The range of devices and platforms supported by the app.,3
+Device Compatibility,"The range of devices (e.g., smartphones, smart TVs, streaming devices) that support the platform's app.",3
+Platform Compatibility,The range of operating systems and devices the app supports.,3
+Platform Compatibility,"Availability of the app across different platforms (iOS, Android, Web, etc.).",3
+Platform Compatibility,The range of devices and operating systems the app supports.,3
+Cross-Platform Availability,"Availability on multiple operating systems (iOS, Android, Web).",4
+Cross-Platform Availability,"The availability of the app across different platforms (iOS, Android, Web, etc.).",4
+Platform Availability,"The platforms (iOS, Android, Web) on which the app is available.",4
+Platform Availability,"The number of platforms the app is available on (iOS, Android, Web, etc.).",4
+Platform Availability,"The range of operating systems and devices on which the app is available (e.g., iOS, Android, Web).",4
+Geographical Accessibility,The countries or regions where the platform is accessible.,5
+Geographical Availability,Number of countries where the service is available,5
+Ease of Use,How intuitive and user-friendly the app interface is.,6
+Ease of Use,The user-friendliness and intuitiveness of the app interface.,6
+Ease of Use,User-friendliness and intuitiveness of the app interface.,6
+User Interface,The ease of navigation and overall user experience of the app.,6
+User Interface,The ease of use and intuitiveness of the app's interface.,6
+User Interface,"The design and usability of the app's interface, affecting ease of use and user experience.",6
+User Interface Design,The quality and usability of the app's user interface.,6
+User Interface Quality,The ease of navigation and overall user experience of the app.,6
+User Interface and Ease of Use,The intuitiveness and user-friendliness of the app's interface.,6
+User Interface and Experience,"The ease of navigation, search functionality, and overall user-friendliness of the app.",6
+User Interface and Experience,The ease of use and overall user experience of the app.,6
+User Interface and Experience,"The design, ease of navigation, and overall user experience of the app.",6
+Active User Base,Refers to the number of monthly active users on the platform. A larger user base increases the likelihood of connecting with more friends.,7
+User Base,The number of active users on the platform. A larger user base increases the likelihood of a sale.,7
+User Base,The total number of active users on the platform.,7
+User Base,"The number of active users on the platform, indicating its popularity and reach.",7
+User Base Size,"The number of active users on the platform, indicating potential reach for sellers.",7
+User Ratings and Reviews,Overall app rating and user feedback on app performance and features.,8
+User Reviews,Qualitative feedback from users about the app's performance and usability.,8
+User Reviews and Ratings,"Feedback from users regarding their experiences with the app, reflecting satisfaction and reliability.",8
+App Store Rating,The average rating of the app on various app stores.,9
+User Ratings,Average rating given by users in app stores.,9
+User Ratings,The average rating given by users on app stores.,9
+User Ratings,"Average user rating on app stores, indicating overall user satisfaction.",9
+User Ratings & Reviews,Average user rating and number of reviews on app stores.,9
+Regular Updates,Frequency of updates and new content releases.,10
+Update Frequency,"How often the app is updated with new features, bug fixes, and improvements.",10
+Update Frequency,How often the app is updated to fix bugs or add new features,10
+Downloads,Total number of times the app has been downloaded.,11
+Number of Downloads,Total number of times the app has been downloaded.,11
+Number of Downloads,Total number of times the app has been downloaded,11
+Ad Frequency,Number of ads displayed per hour of viewing (for free services).,12
+Number of Active Users,Total number of active users of the app.,12
+Ad-Free Option,Availability of a subscription or version without advertisements.,13
+Ad-Supported Content,The presence of ads and the option for ad-free viewing.,13
+Free vs. Paid Features,The balance between features available in the free version and those locked behind a subscription or purchase.,13
+Integration Capabilities,Ability to integrate with other tools and services.,14
+Integration with Other Services,The ability to integrate with other services and apps for enhanced functionality.,14
+Community and Support,"Availability of user community, tutorials, and customer support.",15
+Customer Support,The quality and responsiveness of the app's customer support.,15
+Customer Support,The availability and quality of customer support services.,15
+Community Engagement,The level of user interaction and community-driven deal sharing within the app.,16
+Community Engagement,The level of engagement and interaction within the app's community.,16
+Community Engagement,Level of user interaction and community features within the app.,16
+Privacy and Security,The level of privacy and security features offered by the app.,17
+Security and Privacy,Level of security and privacy features offered by the app.,17
+Security and Privacy,"The measures taken by the app to protect user data, including encryption and privacy policies.",17
+Security and Privacy Features,"The level of security and privacy features offered by the app, such as end-to-end encryption.",17
+Additional Features,"Extra functionalities offered by the app, such as cloud storage integration, media playback, or collaboration tools.",18
+Customization Options,The extent to which users can customize the app's appearance and functionality.,18
+In-App Purchases,The availability and variety of in-app purchases.,18
+Performance and Stability,"The app should be stable and perform smoothly without crashing or lagging, even when working with large numbers of photos or high-resolution images.",18
+Personalization,Level of customization and tailoring of the app experience to individual user tastes.,18
+Unique Features,Special features that set the app apart from competitors.,18
+User Engagement,The average time users spend on the app per day.,18
+Mobile Optimization,Performance and features specific to mobile devices.,19
