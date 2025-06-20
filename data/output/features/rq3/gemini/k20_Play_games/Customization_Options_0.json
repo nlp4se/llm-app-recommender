@@ -1,25 +1,27 @@
+I need to gather information about specific games to rank them effectively. To do this, I will use online searches to find games with customization options and user reviews mentioning these features.
 
+```json
 {
   "a": [
     "Black Desert Mobile",
     "Genshin Impact",
     "Lineage 2: Revolution",
-    "Cyberpunk 2077",
-    "Dragon Raja",
-    "Undawn",
+    "Blade & Soul Revolution",
     "Tower of Fantasy",
-    "Sword Art Online: Integral Factor",
+    "Dragon Raja",
+    "A3 Still Alive",
     "Adventure Quest 3D",
-    "RuneScape",
-    "Final Fantasy Tactics: War of the Lions",
-    "Monster Hunter World",
-    "LifeAfter",
-    "Earth Revival",
-    "Among Us",
-    "Street Fighter 6",
-    "Melon Playground",
-    "Mindustry",
-    "Unciv",
-    "Minetest"
+    "Runescape",
+    "Final Fantasy XIV",
+    "Cyberpunk 2077",
+    "Fallout 4",
+    "The Elder Scrolls: Skyrim",
+    "Monster Hunter Stories",
+    "Siralim Ultimate",
+    "Perfect Grind",
+    "Stardew Valley",
+    "Minecraft",
+    "Terraria",
+    "Life Makeover Global"
   ]
 }

@@ -1,27 +1,25 @@
-Okay, I will rank 20 file-sharing apps based on the availability and quality of their customer support services.
 
-```json
 {
   "a": [
     "Google Drive",
     "Dropbox",
-    "Microsoft OneDrive",
-    "Box",
     "WeTransfer",
-    "Filestage",
+    "OneDrive",
+    "Box",
     "Send Anywhere",
-    "Slack",
-    "Zoho Docs",
-    "MediaFire",
-    "EaseUS Todo PCTrans",
-    "iCloud Drive",
+    "Files.com",
+    "Filestage",
+    "InShare",
+    "ShareMe",
+    "TransferNow",
+    "ShareFile by Citrix",
     "Tresorit",
+    "Sync.com",
+    "FileCloud",
     "Egnyte",
-    "TitanFile",
-    "JSCAPE",
-    "Axway",
-    "GoAnywhere",
-    "Filecamp",
-    "Pics.io"
+    "Hightail",
+    "SpiderOak One",
+    "QR File Transfer",
+    "Sharetru"
   ]
 }

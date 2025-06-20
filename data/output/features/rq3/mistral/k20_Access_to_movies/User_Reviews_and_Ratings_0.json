@@ -2,10 +2,10 @@
 {
   "a": [
     "Netflix",
-    "Amazon Prime Video",
     "Disney+",
-    "Hulu",
     "HBO Max",
+    "Amazon Prime Video",
+    "Hulu",
     "Apple TV+",
     "Paramount+",
     "Peacock",
@@ -15,11 +15,11 @@
     "Tubi",
     "Pluto TV",
     "Crackle",
-    "Plex",
     "IMDb TV",
+    "Plex",
+    "Kodi",
     "Mubi",
-    "Shudder",
-    "Criterion Channel",
-    "Kanopy"
+    "The Criterion Channel",
+    "Shudder"
   ]
 }

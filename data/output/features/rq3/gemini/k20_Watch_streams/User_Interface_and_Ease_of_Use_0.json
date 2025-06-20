@@ -1,25 +1,25 @@
 
 {
   "a": [
+    "Twitch",
+    "YouTube Live",
+    "Streamlabs Mobile",
+    "Prism Live Studio",
+    "StreamYard",
+    "Periscope",
+    "TikTok",
+    "Instagram Live",
+    "Facebook Live",
+    "Zoom Cloud Meetings",
     "Netflix",
+    "Disney+",
     "Hulu",
     "Amazon Prime Video",
-    "Disney+",
     "Max",
-    "Apple TV+",
-    "YouTube TV",
     "Peacock",
-    "Fubo",
-    "Sling TV",
-    "Tubi",
-    "Plex",
-    "Kodi",
     "Paramount+",
-    "Crunchyroll",
-    "WOW",
-    "IQIYI",
-    "Magenta TV",
-    "Redbox",
-    "Philo"
+    "Apple TV+",
+    "VK Live",
+    "Kodi"
   ]
 }

@@ -1,27 +1,25 @@
-Here are 20 podcast apps, ranked primarily by the availability of free options and then by the cost of subscriptions, from lowest to highest when a subscription is needed:
 
-```json
 {
   "a": [
     "AntennaPod",
-    "Google Podcasts",
-    "Apple Podcasts",
-    "Spotify",
-    "Overcast",
-    "Podcast Addict",
     "Pocket Casts",
-    "Podurama",
-    "Podcast Republic",
-    "Podcast App",
+    "Overcast",
+    "Spotify",
+    "YouTube Music",
+    "Apple Podcasts",
+    "Podcast Addict",
     "Castbox",
-    "Player FM",
     "Downcast",
-    "ListenApp",
-    "Wondery",
+    "Player FM",
+    "RadioPublic",
+    "Podkicker",
+    "Fountain",
     "Podbean",
-    "Audible",
-    "Stitcher",
-    "Luminary",
-    "Castro"
+    "Podurama",
+    "Luminary Podcasts",
+    "Wondery+",
+    "Castro",
+    "Supercast",
+    "iHeartRadio"
   ]
 }

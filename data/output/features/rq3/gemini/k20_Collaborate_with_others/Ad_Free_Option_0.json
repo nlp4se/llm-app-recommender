@@ -1,27 +1,25 @@
-Based on the ranking criterion of ad-free options, here are 20 collaboration apps. Note that availability can change, so it's always best to check the app's current offerings:
 
-```json
 {
   "a": [
-    "DuoDo",
     "Slack",
-    "Trello",
-    "Asana",
     "Microsoft Teams",
-    "Google Meet",
-    "Google Docs",
-    "Zoom",
-    "Monday.com",
+    "Google Workspace (Google Chat, Google Docs, Google Sheets, Google Meet)",
+    "Asana",
+    "Trello",
     "ClickUp",
-    "Teamplate",
-    "Quixy",
-    "Zoho Projects",
+    "Zoom",
+    "Notion",
     "Discord",
+    "Miro",
+    "Teamplate",
     "Flock",
-    "Join.me",
-    "Loom",
-    "Bit.ai",
-    "Ryver",
-    "Webex"
+    "RingCentral Glip",
+    "Microsoft 365",
+    "Brosix",
+    "Band",
+    "Zoho Connect",
+    "Webex App",
+    "Figma",
+    "Airtable"
   ]
 }

@@ -1,25 +1,27 @@
+Okay, I will recommend 20 note-taking apps based on their cost. I will analyze whether the app is free, offers in-app purchases, or requires a subscription. Here's the JSON output:
 
+```json
 {
   "a": [
-    "Microsoft OneNote (Free with paid options for increased storage and Copilot features)",
-    "Apple Notes (Free with paid iCloud storage upgrades)",
-    "Google Keep (Free with paid Google storage upgrades)",
-    "Notion (Free for personal use, paid plans for teams)",
-    "Obsidian (Free for personal use, paid plans for commercial use and sync)",
-    "Joplin (Free and open-source, optional paid sync)",
-    "Simplenote (Free)",
-    "ClickUp (Free plan available, paid plans for more features)",
-    "Evernote (Free basic plan, paid plans for more features and storage)",
-    "Bear (Free with a premium subscription for advanced features like cloud sync)",
-    "Notability (Free download with in-app purchases for Notability Plus subscription)",
-    "GoodNotes (Paid app)",
-    "Nebo (Free download with in-app purchases for full feature packs)",
-    "UpNote (Free with a premium subscription for more features and devices)",
-    "Agenda (Free with paid premium features, or a one-time purchase for lifetime access)",
-    "Noteshelf (Paid app)",
-    "CollaNote (Free)",
-    "Anytype (Free)",
-    "Capacities (Free plan, paid plans for pro features)",
-    "Notedrafts Pro (One-time purchase)"
+    "Google Keep",
+    "Evernote",
+    "Microsoft OneNote",
+    "Simplenote",
+    "Bear",
+    "Notion",
+    "Zoho Notebook",
+    "Standard Notes",
+    "Obsidian",
+    "Joplin",
+    "Laverna",
+    "CollaNote",
+    "GoodNotes 5",
+    "Noteshelf",
+    "Nebo",
+    "Bear",
+    "Ulysses",
+    "iA Writer",
+    "Drafts",
+    "Roam Research"
   ]
 }

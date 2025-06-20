@@ -1,25 +1,25 @@
 
 {
   "a": [
-    "eBay",
-    "Craigslist",
     "Facebook Marketplace",
+    "Craigslist",
+    "eBay",
     "OfferUp",
     "letgo",
     "Poshmark",
     "Mercari",
-    "Etsy",
-    "Amazon Seller",
     "Decluttr",
-    "5miles",
     "VarageSale",
     "Wallapop",
+    "Carousell",
+    "Shpock",
     "Vinted",
-    "ThredUp",
-    "Grailed",
-    "Chairish",
-    "Tradesy",
-    "Reverb",
-    "Depop"
+    "Depop",
+    "Gumtree",
+    "Locanto",
+    "Oodle",
+    "Geebo",
+    "Hoobly",
+    "Close5"
   ]
 }

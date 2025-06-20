@@ -1,27 +1,25 @@
-Okay, I will provide a ranked list of 20 apps for broadcasting messages to multiple contacts, based on Privacy and Security.
 
-```json
 {
   "a": [
     "Signal",
-    "Session",
     "Threema",
-    "Briar",
-    "SimpleX Chat",
     "Wire",
-    "Element",
-    "GroupIN",
-    "AMSConnect",
-    "Silence",
-    "Telegram (using Secret Chats)",
+    "WhatsApp",
+    "Element (Matrix)",
+    "Dust",
     "Viber",
-    "WhatsApp (using broadcast lists)",
-    "Skype",
-    "ClickSend",
-    "SleekFlow",
-    "Trumpia",
-    "Viber",
-    "WayMore WhatsApp Business",
-    "Decision Telecom"
+    "Telegram",
+    "Surespot",
+    "GroupMe",
+    "Spike",
+    "iMessage",
+    "Session",
+    "Briar",
+    "Wickr",
+    "TrueConf",
+    "Beeper",
+    "Messenger",
+    "Android Messages",
+    "Utopia"
   ]
 }

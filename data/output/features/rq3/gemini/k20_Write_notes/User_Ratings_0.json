@@ -1,25 +1,25 @@
 
 {
   "a": [
-    "Evernote",
     "Microsoft OneNote",
-    "Google Keep",
+    "Evernote",
     "Notion",
-    "Bear",
-    "Simplenote",
-    "Zoho Notebook",
+    "Google Keep",
     "Apple Notes",
-    "Standard Notes",
     "Obsidian",
     "Joplin",
+    "Simplenote",
+    "ClickUp",
+    "Bear",
+    "Roam Research",
+    "Standard Notes",
+    "UpNote",
     "GoodNotes",
-    "Notability",
-    "CollaNote",
     "Nebo",
     "Noteshelf",
-    "Bear",
-    "Milanote",
-    "Roam Research",
-    "Dropbox Paper"
+    "Flexcil",
+    "Jnotes",
+    "LectureNotes",
+    "Notewise"
   ]
 }

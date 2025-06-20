@@ -1,27 +1,25 @@
-Based on geographical availability, here are 20 apps for sending files, ranked based on their estimated global reach:
 
-```json
 {
   "a": [
     "Google Drive",
     "Dropbox",
+    "Microsoft OneDrive",
+    "Box",
     "WeTransfer",
     "Send Anywhere",
-    "AirDroid",
-    "SHAREit",
-    "OneDrive",
-    "Box",
-    "Filemail",
-    "Smash",
-    "Raysync",
-    "MASV",
+    "FileCloud",
     "TitanFile",
-    "Internxt Send",
-    "Filestack",
-    "Aspera",
-    "FileCatalyst",
-    "SpiderOak One",
+    "ShareFile",
+    "Files.com",
+    "Hightail",
+    "MEGA",
+    "AnyShare",
+    "LocalSend",
     "Quick Share",
-    "Localsend"
+    "Snapdrop",
+    "iCloud Drive",
+    "SendSafely",
+    "Egnyte",
+    "Internxt"
   ]
 }

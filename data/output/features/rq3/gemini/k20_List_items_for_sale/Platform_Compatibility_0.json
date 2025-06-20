@@ -2,24 +2,24 @@
 {
   "a": [
     "eBay",
-    "Facebook Marketplace",
-    "OfferUp",
-    "Poshmark",
-    "Mercari",
-    "Etsy",
-    "Depop",
-    "Vestiaire Collective",
     "Amazon Seller Central",
-    "ThredUp",
+    "Facebook Marketplace",
+    "Poshmark",
+    "Etsy",
+    "Mercari",
+    "OfferUp",
+    "Depop",
     "Craigslist",
     "Nextdoor",
-    "Chairish",
+    "ThredUp",
+    "Vestiaire Collective",
     "Decluttr",
     "Shopify",
-    "Letgo (Now Part of OfferUp)",
     "5miles",
-    "Reverb",
-    "Grailed",
-    "Ruby Lane"
+    "Letgo (Now Part of OfferUp)",
+    "Chairish",
+    "AliExpress",
+    "Vendoo",
+    "ListPerfectly"
   ]
 }

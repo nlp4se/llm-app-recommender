@@ -1,0 +1,57 @@
+================================================================================
+RBO ANALYSIS SUMMARY REPORT
+================================================================================
+
+1. MODEL-SPECIFIC ANALYSIS
+----------------------------------------
+Average RBO by model (blind vs guided recommendations):
+  gemini: 0.283 (n=214)
+  mistral: 0.415 (n=304)
+  openai: 0.254 (n=304)
+
+Average RBO by ranking criteria:
+  Ad_Free_Option: 0.285 (n=42)
+  Ad_Frequency: 0.280 (n=38)
+  Community_Engagement: 0.298 (n=42)
+  Cost: 0.290 (n=47)
+  Customer_Support: 0.355 (n=38)
+  Customization_Options: 0.271 (n=45)
+  Geographical_Availability: 0.324 (n=43)
+  Integration_Capabilities: 0.318 (n=45)
+  Mobile_Optimization: 0.346 (n=45)
+  Number_of_Downloads: 0.331 (n=42)
+
+2. CRITERIA-SPECIFIC ANALYSIS
+----------------------------------------
+Best performing criteria (highest average RBO):
+  Ad_Free_Option: 0.238 (n=48)
+  Ad_Frequency: 0.226 (n=48)
+  Community_Engagement: 0.227 (n=48)
+  Cost: 0.244 (n=48)
+  Customer_Support: 0.284 (n=48)
+
+Best performing models (highest average RBO):
+  gemini: 0.228 (n=304)
+  mistral: 0.299 (n=304)
+  openai: 0.248 (n=304)
+
+3. INTER-CRITERIA ANALYSIS
+----------------------------------------
+Most similar ranking criteria pairs:
+  Platform_Availability ↔ Platform_Compatibility: 0.410
+  User_Interface_and_Ease_of_Use ↔ User_Reviews_and_Ratings: 0.384
+  Platform_Availability ↔ User_Interface_and_Ease_of_Use: 0.380
+  User_Ratings ↔ User_Reviews_and_Ratings: 0.371
+  User_Interface_and_Ease_of_Use ↔ User_Ratings: 0.370
+  Platform_Compatibility ↔ User_Interface_and_Ease_of_Use: 0.369
+  Platform_Compatibility ↔ User_Ratings: 0.368
+  Platform_Compatibility ↔ User_Reviews_and_Ratings: 0.365
+  Platform_Availability ↔ User_Ratings: 0.360
+  Platform_Compatibility ↔ Update_Frequency: 0.356
+
+4. KEY INSIGHTS
+----------------------------------------
+• Overall average RBO: 0.321
+• Low RBO suggests significant differences between blind and guided recommendations
+
+================================================================================

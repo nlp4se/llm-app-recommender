@@ -1,25 +1,27 @@
+Based on the ranking criteria of Community Engagement, here are 20 photo collage apps:
 
+```json
 {
   "a": [
-    "PicsArt",
-    "Pic Collage",
+    "PicsArt Photo & Collage Maker",
     "PhotoGrid",
+    "VSCO",
+    "Adobe Lightroom",
+    "Snapseed",
+    "Facetune",
     "Canva",
-    "PicMonkey",
-    "Diptic",
-    "PiZap",
+    "SCRL",
+    "PicCollage",
+    "MOLDIV",
     "Fotor Collage Maker",
+    "BeFunky Collage Maker",
     "Layout from Instagram",
     "Adobe Spark",
-    "Instasize Photo Editor + Video",
-    "BeFunky Collage Maker",
-    "MOLDIV",
-    "PicPlayPost",
-    "Fuzel Collage",
-    "Pic Stitch",
-    "Google Photos",
-    "Pic Jointer for Photo Collage",
     "PhotoCollage",
-    "InVideo"
+    "Diptic",
+    "Pixlr",
+    "PiZap",
+    "Pic Stitch",
+    "Photo & Shape Collage Maker"
   ]
 }

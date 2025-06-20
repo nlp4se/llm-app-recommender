@@ -2,24 +2,24 @@
 {
   "a": [
     "WhatsApp",
-    "Telegram",
-    "WeChat",
     "Facebook Messenger",
+    "WeChat",
+    "Telegram",
     "Signal",
-    "ShareIt",
-    "Zapya",
-    "Xender",
     "Google Drive",
     "Dropbox",
     "Microsoft OneDrive",
+    "ShareIt",
+    "Zapya",
     "WeTransfer",
     "Firefox Send",
     "Send Anywhere",
+    "Pushbullet",
     "SuperBeam",
     "AirDroid",
-    "Pushbullet",
-    "Feem v4",
+    "Portal by Pushbullet",
     "SHAREall",
-    "Portal by Pushbullet"
+    "Xender",
+    "Snapdrop"
   ]
 }

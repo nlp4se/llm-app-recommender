@@ -1,25 +1,25 @@
 
 {
   "a": [
-    "Twitch",
     "YouTube",
+    "Twitch",
+    "TikTok",
+    "Facebook Watch",
+    "Instagram",
     "Hulu",
     "Netflix",
     "Disney+",
     "Amazon Prime Video",
+    "HBO Max",
+    "Peacock",
+    "Paramount+",
+    "Apple TV+",
     "Sling TV",
     "fuboTV",
     "Philo",
-    "Peacock TV",
-    "Paramount+",
-    "ESPN",
     "Pluto TV",
     "Tubi",
     "Crunchyroll",
-    "Funimation",
-    "HBO Max",
-    "Apple TV",
-    "Discovery+",
-    "Crackle"
+    "Funimation"
   ]
 }

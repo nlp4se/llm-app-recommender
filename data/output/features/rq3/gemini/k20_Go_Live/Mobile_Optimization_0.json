@@ -1,25 +1,27 @@
+I need to gather information about apps that allow users to go live, focusing on their mobile optimization.
 
+```json
 {
   "a": [
+    "Streamlabs Mobile",
     "Prism Live Studio",
-    "StreamYard",
-    "Camo Studio",
+    "YouTube Live",
+    "TikTok Live",
+    "Instagram Live",
+    "Twitch",
+    "Facebook Live",
     "Larix Broadcaster",
     "Wirecast Go",
-    "Streamlabs Mobile App",
-    "Switcher Studio",
-    "BoxCast",
-    "YouTube Live",
-    "Facebook Live",
-    "Twitch",
-    "Instagram Live",
-    "TikTok Live",
-    "Vimeo",
-    "Dacast",
-    "BroadcastMe",
-    "Tango",
+    "ManyCam Mobile",
     "Bigo Live",
     "YouNow",
-    "Muvi Live"
+    "LiveMe",
+    "Tango",
+    "Dacast",
+    "Uscreen",
+    "Castr",
+    "Vimeo",
+    "Wowza Streaming Engine",
+    "Kick.com"
   ]
 }

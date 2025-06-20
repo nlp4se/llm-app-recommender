@@ -3,14 +3,14 @@
   "a": [
     "YouTube",
     "Twitch",
-    "Netflix",
     "Hulu",
-    "Amazon Prime Video",
+    "Netflix",
     "Disney+",
+    "Amazon Prime Video",
     "HBO Max",
     "Peacock",
     "Paramount+",
-    "Apple TV+",
+    "Apple TV",
     "Sling TV",
     "FuboTV",
     "Philo",
@@ -20,6 +20,6 @@
     "Vudu",
     "Plex",
     "Kodi",
-    "Roku Channel"
+    "Roku"
   ]
 }

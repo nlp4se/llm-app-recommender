@@ -1,24 +1,25 @@
+
 {
   "a": [
     "Netflix",
     "Disney+",
-    "Hulu",
-    "Amazon Prime Video",
     "HBO Max",
+    "Amazon Prime Video",
+    "Hulu",
     "Apple TV",
     "Paramount+",
-    "Peacock TV",
+    "Peacock",
     "YouTube",
-    "Google TV",
+    "Google Play Movies & TV",
+    "Vudu",
     "Tubi",
     "Pluto TV",
-    "Vudu",
     "Crackle",
-    "Plex",
     "IMDb TV",
-    "Sling TV",
-    "Philo",
-    "Mubi",
-    "The Criterion Channel"
+    "Plex",
+    "Kodi",
+    "Popcornflix",
+    "FilmRise",
+    "Kanopy"
   ]
 }

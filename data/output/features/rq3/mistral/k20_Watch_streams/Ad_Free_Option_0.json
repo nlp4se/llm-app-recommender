@@ -1,25 +1,25 @@
 
 {
   "a": [
-    "YouTube",
     "Netflix",
-    "Amazon Prime Video",
     "Hulu",
-    "Disney+",
+    "Amazon Prime Video",
     "HBO Max",
+    "Disney+",
+    "YouTube Premium",
     "Apple TV+",
     "Peacock",
     "Paramount+",
     "Discovery+",
     "ESPN+",
     "Sling TV",
-    "fuboTV",
+    "FuboTV",
     "Philo",
-    "YouTube TV",
+    "Starz",
+    "Showtime",
     "Crunchyroll",
     "Funimation",
-    "Vudu",
-    "Twitch",
-    "Pluto TV"
+    "BritBox",
+    "Acorn TV"
   ]
 }

@@ -1,25 +1,25 @@
 
 {
   "a": [
-    "Netflix",
-    "Amazon Prime Video",
-    "Disney+",
-    "Hulu",
-    "HBO Max",
-    "YouTube",
-    "Google TV",
-    "Apple TV",
     "Plex",
     "Kodi",
+    "Infuse 7",
+    "Jellyfin",
+    "Emby",
+    "Stremio",
     "Vudu",
-    "Tubi",
-    "Pluto TV",
-    "Crackle",
-    "IMDb TV",
-    "Peacock",
-    "Paramount+",
-    "Sling TV",
-    "FuboTV",
-    "Philo"
+    "Movies Anywhere",
+    "JustWatch",
+    "Reelgood",
+    "FandangoNOW",
+    "Google TV",
+    "Roku",
+    "Amazon Prime Video",
+    "Netflix",
+    "Hulu",
+    "Disney+",
+    "HBO Max",
+    "Apple TV",
+    "Tubi"
   ]
 }

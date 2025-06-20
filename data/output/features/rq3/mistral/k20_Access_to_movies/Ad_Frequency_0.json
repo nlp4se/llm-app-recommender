@@ -2,24 +2,24 @@
 {
   "a": [
     "Netflix",
-    "Hulu",
     "Disney+",
-    "Amazon Prime Video",
     "HBO Max",
     "Apple TV+",
-    "Paramount+",
+    "Amazon Prime Video",
+    "Hulu",
     "Peacock",
+    "Paramount+",
     "YouTube Premium",
+    "Discovery+",
     "Crackle",
     "Tubi",
     "Pluto TV",
-    "Vudu",
     "IMDb TV",
+    "Vudu",
     "The Roku Channel",
     "Plex",
     "Popcornflix",
     "Crunchyroll",
-    "Funimation",
-    "Mubi"
+    "Funimation"
   ]
 }

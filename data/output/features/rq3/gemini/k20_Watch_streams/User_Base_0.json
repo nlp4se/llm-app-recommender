@@ -1,25 +1,25 @@
 
 {
   "a": [
-    "YouTube Gaming",
     "Twitch",
-    "Facebook Gaming",
-    "Rumble",
+    "YouTube",
     "Kick",
+    "Rumble",
+    "Bilibili",
+    "Douyu",
+    "Huya",
+    "Vaughn Live",
     "DLive",
     "Trovo",
-    "Vaughn Live",
-    "Netflix",
-    "Amazon Prime Video",
-    "Disney+",
-    "Hulu",
-    "ESPN+",
-    "Max",
-    "Paramount+",
-    "Apple TV+",
-    "Peacock",
-    "Tubi",
-    "Crackle",
-    "Pluto TV"
+    "Nonolive",
+    "Mildom",
+    "Facebook Gaming",
+    "Instagram Live",
+    "TikTok Live",
+    "VK Live",
+    "Periscope (Twitter Live)",
+    "YouNow",
+    "StreamYard",
+    "Caffeine"
   ]
 }

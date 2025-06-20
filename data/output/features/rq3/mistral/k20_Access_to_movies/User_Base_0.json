@@ -6,9 +6,9 @@
     "Amazon Prime Video",
     "Hulu",
     "HBO Max",
-    "Apple TV+",
-    "Peacock",
     "Paramount+",
+    "Peacock",
+    "Apple TV+",
     "YouTube",
     "Tubi",
     "Pluto TV",
@@ -16,10 +16,10 @@
     "Vudu",
     "IMDb TV",
     "Sling TV",
+    "FuboTV",
     "Philo",
     "Mubi",
     "Crunchyroll",
-    "Funimation",
-    "Shudder"
+    "Funimation"
   ]
 }

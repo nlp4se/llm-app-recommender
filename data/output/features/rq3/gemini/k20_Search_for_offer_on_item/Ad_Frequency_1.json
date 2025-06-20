@@ -1,0 +1,27 @@
+Okay, I'll provide a ranking of 20 apps designed for searching for offers on items, based primarily on the ad frequency, aiming to minimize disruptions for the user. Since I cannot directly measure the ad frequency of each app, I will use a combination of user reviews, app descriptions, and available information to estimate and rank them. Please note that "Ad Frequency" information is self reported by app developers and or users which may be subjective and not entirely accurate.
+
+```json
+{
+  "a": [
+    "Quick Unit Price Comparison",
+    "Unit Price Comparison",
+    "eWishHub WishList Notification",
+    "BuyVia",
+    "ShopSavvy",
+    "Flipp",
+    "Price.com",
+    "Amazon",
+    "Honey",
+    "Rakuten",
+    "Ibotta",
+    "The Coupons App",
+    "RetailMeNot",
+    "Shopkick",
+    "Checkout 51",
+    "Slickdeals",
+    "PriceNotify",
+    "Deals Finders",
+    "Vouchercloud",
+    "MySupermarket"
+  ]
+}

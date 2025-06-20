@@ -8,18 +8,18 @@
     "WeChat",
     "Line",
     "Viber",
+    "KakaoTalk",
+    "Discord",
     "Slack",
     "Microsoft Teams",
-    "Discord",
     "Skype",
     "Google Chat",
-    "KakaoTalk",
-    "imessage",
+    "iMessage",
+    "Snapchat",
+    "Instagram Direct",
+    "Twitter Direct Messages",
+    "LinkedIn Messaging",
     "GroupMe",
-    "BAND",
-    "Tango",
-    "Kik",
-    "Hike",
-    "Bridgefy"
+    "BAND"
   ]
 }

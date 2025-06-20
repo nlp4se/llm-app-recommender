@@ -5,53 +5,54 @@ CORRELATION ANALYSIS SUMMARY REPORT
 1. MODEL-SPECIFIC ANALYSIS
 ----------------------------------------
 Average correlation by model (blind vs guided recommendations):
-  mistral: 0.347
-  gemini: -0.055
-  openai: -0.082
+  gemini: -0.055 (95% CI: [-0.111, 0.002], n=214)
+  mistral: 0.347 (95% CI: [0.292, 0.402], n=304)
+  openai: -0.082 (95% CI: [-0.135, -0.030], n=304)
 
 Average correlation by ranking criteria:
-  Platform_Compatibility: 0.257
-  Platform_Availability: 0.219
-  User_Reviews_and_Ratings: 0.193
-  Customer_Support: 0.184
-  User_Interface_and_Ease_of_Use: 0.180
-  User_Ratings: 0.170
-  Mobile_Optimization: 0.145
-  Update_Frequency: 0.129
-  Integration_Capabilities: 0.073
-  User_Base: 0.071
+  Ad_Free_Option: 0.018 (95% CI: [-0.139, 0.176], n=42)
+  Ad_Frequency: 0.042 (95% CI: [-0.117, 0.200], n=38)
+  Community_Engagement: 0.061 (95% CI: [-0.101, 0.223], n=42)
+  Cost: 0.011 (95% CI: [-0.132, 0.155], n=47)
+  Customer_Support: 0.184 (95% CI: [0.017, 0.351], n=38)
+  Customization_Options: -0.018 (95% CI: [-0.161, 0.125], n=45)
+  Geographical_Availability: 0.066 (95% CI: [-0.076, 0.208], n=43)
+  Integration_Capabilities: 0.073 (95% CI: [-0.081, 0.227], n=45)
+  Mobile_Optimization: 0.145 (95% CI: [-0.010, 0.299], n=45)
+  Number_of_Downloads: 0.048 (95% CI: [-0.099, 0.196], n=42)
 
 2. CRITERIA-SPECIFIC ANALYSIS
 ----------------------------------------
 Best performing criteria (highest average correlation):
-  Platform_Compatibility: 0.044
-  Platform_Availability: 0.025
-  User_Interface_and_Ease_of_Use: -0.005
-  User_Reviews_and_Ratings: -0.017
-  Update_Frequency: -0.036
+  Ad_Free_Option: -0.137 (95% CI: [-0.240, -0.035], n=48)
+  Ad_Frequency: -0.137 (95% CI: [-0.231, -0.042], n=48)
+  Community_Engagement: -0.164 (95% CI: [-0.265, -0.062], n=48)
+  Cost: -0.146 (95% CI: [-0.229, -0.063], n=48)
+  Customer_Support: -0.046 (95% CI: [-0.153, 0.061], n=48)
 
 Best performing models (highest average correlation):
-  mistral: 0.029
-  openai: -0.132
-  gemini: -0.202
+  gemini: -0.202 (95% CI: [-0.240, -0.164], n=304)
+  mistral: 0.029 (95% CI: [-0.011, 0.069], n=304)
+  openai: -0.132 (95% CI: [-0.176, -0.088], n=304)
 
 3. INTER-CRITERIA ANALYSIS
 ----------------------------------------
 Most similar ranking criteria pairs:
-  Platform_Availability ↔ Platform_Compatibility: 0.290
-  Customer_Support ↔ Platform_Compatibility: 0.245
-  User_Interface_and_Ease_of_Use ↔ User_Ratings: 0.245
+  Platform_Availability ↔ Platform_Compatibility: 0.281
+  User_Interface_and_Ease_of_Use ↔ User_Ratings: 0.236
   Platform_Availability ↔ User_Interface_and_Ease_of_Use: 0.230
-  User_Ratings ↔ User_Reviews_and_Ratings: 0.229
-  User_Interface_and_Ease_of_Use ↔ User_Reviews_and_Ratings: 0.220
-  Platform_Compatibility ↔ User_Interface_and_Ease_of_Use: 0.214
-  Platform_Compatibility ↔ User_Ratings: 0.193
-  Customer_Support ↔ Platform_Availability: 0.192
-  Platform_Availability ↔ User_Ratings: 0.190
+  User_Interface_and_Ease_of_Use ↔ User_Reviews_and_Ratings: 0.210
+  Platform_Compatibility ↔ User_Interface_and_Ease_of_Use: 0.208
+  User_Ratings ↔ User_Reviews_and_Ratings: 0.202
+  Platform_Availability ↔ User_Ratings: 0.183
+  Platform_Compatibility ↔ User_Ratings: 0.173
+  Platform_Compatibility ↔ Update_Frequency: 0.172
+  Platform_Compatibility ↔ User_Reviews_and_Ratings: 0.170
 
 4. KEY INSIGHTS
 ----------------------------------------
-• Overall average correlation: 0.084
+• Overall average correlation: 0.084 (95% CI: [0.049, 0.118], n=822)
 • Low correlation suggests significant differences between blind and guided recommendations
+• Confidence interval suggests low correlation is statistically significant
 
 ================================================================================

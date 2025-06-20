@@ -3,23 +3,23 @@
   "a": [
     "Netflix",
     "Amazon Prime Video",
-    "HBO Max",
     "Disney+",
-    "Apple TV+",
+    "HBO Max",
     "Hulu",
-    "Peacock",
+    "Apple TV+",
     "Paramount+",
-    "YouTube",
+    "Peacock",
+    "YouTube Premium",
+    "Crunchyroll",
+    "Funimation",
     "Vudu",
     "Google Play Movies & TV",
     "Microsoft Movies & TV",
-    "Plex",
-    "Kodi",
+    "Mubi",
+    "The Criterion Channel",
+    "Shudder",
     "Tubi",
     "Pluto TV",
-    "Crackle",
-    "Popcornflix",
-    "FilmRise",
-    "Viki"
+    "Plex"
   ]
 }

@@ -1,25 +1,27 @@
+Based on geographical availability, here are 20 podcast apps, ranked with consideration of their availability across various countries and regions:
 
+```json
 {
   "a": [
-    "Apple Podcasts",
     "Spotify",
-    "Podcast Player",
-    "Podcast Guru",
+    "Apple Podcasts",
     "Pocket Casts",
     "Podcast Addict",
-    "Overcast",
-    "Downcast",
-    "AntennaPod",
-    "Snipd",
-    "Podimo",
-    "Podcast App",
-    "TuneIn",
     "Castbox",
-    "Podbay",
-    "Podurama",
-    "YouTube Music",
     "Amazon Music",
-    "Cosmos (Xiaoyuzhou FM)",
-    "Himalaya"
+    "Audible",
+    "iHeartRadio",
+    "Overcast",
+    "Podbean",
+    "AntennaPod",
+    "Player FM",
+    "SiriusXM",
+    "YouTube Music",
+    "Web Browser",
+    "Buzzsprout Embed Player",
+    "Apple iTunes",
+    "Podimo",
+    "MixerBox",
+    "Luminary Podcasts"
   ]
 }

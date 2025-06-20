@@ -1,25 +1,25 @@
 
 {
   "a": [
-    "Streamlabs",
-    "Prism Live Studio",
-    "StreamYard",
-    "Twitch",
     "YouTube Live",
+    "Twitch",
+    "Instagram Live",
     "Facebook Live",
+    "Streamlabs",
+    "Bigo Live",
+    "TikTok Live",
+    "Stream",
+    "LinkedIn Live",
+    "Wowza",
+    "Uscreen",
+    "Wirecast Go",
+    "BoxCast",
+    "Switcher Studio",
     "Restream Studio",
     "OBS Studio",
-    "Camo Studio",
-    "Wirecast",
-    "Lightstream",
-    "Dacast",
-    "Vimeo",
-    "Switcher Studio",
-    "Go Live",
-    "Periscope",
+    "VK Live",
+    "YouNow",
     "LiveMe",
-    "SuperLive",
-    "Castr",
-    "JW Player"
+    "Periscope"
   ]
 }

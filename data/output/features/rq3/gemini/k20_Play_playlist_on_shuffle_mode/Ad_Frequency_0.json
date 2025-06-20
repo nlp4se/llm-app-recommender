@@ -1,27 +1,27 @@
-Based on the criteria of "Ad Frequency" (number of ads displayed per hour), and aiming for the *least* intrusive ad experience while still offering shuffle playlist functionality, here's a ranked list of 20 music player apps. Keep in mind that ad frequency can vary and this is based on available information and common app models. Note that absence from this list does *not* necessarily indicate high ad frequency, just a lack of information regarding it.
+Okay, I will provide a JSON formatted list of 20 apps that play playlists on shuffle mode, ranked primarily by "Ad Frequency" (number of ads displayed per hour of viewing for free services), and secondarily by overall user rating and library size. Keep in mind that precise ad frequency data is difficult to obtain and can vary. The ranking is based on a combination of available data and estimations.
 
 ```json
 {
   "a": [
-    "Pulsar",
-    "Auxio",
-    "Metro",
-    "Vanilla Music",
-    "Retromusic",
-    "REAL Shuffle Player",
-    "BlackPlayer",
+    "Symfonium",
+    "Pulsar Music Player",
+    "BlackPlayer EX",
+    "Retro Music Player",
+    "Musicolet Music Player",
     "Shuttle Music Player",
+    "AIMP",
+    "Namida",
+    "Audiofy",
+    "Lotus",
+    "Minimalist Music Player",
+    "REAL Shuffle Player",
+    "Poweramp",
     "KM Player",
-    "MusicBee",
-    "jetAudio HD",
-    "Spotify",
-    "Apple Music",
-    "Boomplay",
-    "Musixmatch",
-    "Emby",
-    "Plex",
-    "MediaMonkey",
-    "Fire TV",
-    "Chromecast"
+    "Music X",
+    "jetAudio HD Music Player",
+    "Rocket Player",
+    "Stellio Music Player",
+    "Muzio",
+    "CLS Music Player"
   ]
 }

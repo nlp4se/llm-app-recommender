@@ -3,23 +3,23 @@
   "a": [
     "Signal",
     "Telegram",
-    "WhatsApp Business",
+    "WhatsApp",
     "Threema",
-    "Briar",
-    "Session",
     "Wickr Me",
-    "Element",
-    "Viber",
     "Bridgefy",
+    "Session",
+    "Viber",
     "Silence",
+    "Element",
+    "Briar",
+    "RingID",
+    "SureSpot",
+    "Skred Messenger",
     "Delta Chat",
     "Riot.im",
-    "Zom",
     "Antox",
     "Status",
     "Mattermost",
-    "Rocket.Chat",
-    "Square Enix",
-    "Surespot Encrypted Messenger"
+    "Rocket.Chat"
   ]
 }

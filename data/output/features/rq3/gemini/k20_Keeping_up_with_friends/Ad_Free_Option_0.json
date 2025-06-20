@@ -1,25 +1,27 @@
+Okay, I will provide a ranked list of 20 apps for "Keeping up with friends," prioritizing those with an ad-free option based on information available from the App Store, Google Play Store, app descriptions, review articles, and user reviews.
 
+```json
 {
   "a": [
-    "Signal Private Messenger",
-    "WhatsApp",
+    "Vero",
+    "Mastodon",
+    "Kin",
+    "MeWe",
+    "CARA",
+    "Cohost",
+    "Friendly Social Browser",
+    "UNBLND",
     "Telegram",
-    "Session",
-    "Briar",
-    "Viber",
-    "Threema",
-    "Wire",
-    "Yabb",
-    "Bumble For Friends",
-    "Skype",
-    "Discord",
-    "SnapHabit",
-    "Marco Polo",
-    "GroupMe",
-    "Slack",
-    "Google Duo",
-    "Houseparty",
+    "Threads",
+    "Bluesky",
+    "Moment App",
+    "Meetup",
+    "Nextdoor",
+    "Bumble BFF",
+    "WhatsApp",
+    "Hive Social",
+    "Locket Widget",
     "Cappuccino",
-    "Locket Widget"
+    "Retro"
   ]
 }

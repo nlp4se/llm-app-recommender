@@ -1,27 +1,17 @@
-Based on geographical availability (number of countries where the service is available), here is a ranking of 20 apps that allow you to play playlists on shuffle mode. Note that precise country availability data can be difficult to ascertain and constantly changes; the ranking below is based on the best available information.
 
-```json
 {
   "a": [
-    "Spotify",
     "Apple Music",
-    "YouTube Music",
     "Deezer",
-    "Amazon Music",
-    "Pandora",
-    "Tidal",
-    "Qobuz",
-    "iHeartRadio",
+    "Spotify",
+    "YouTube Music",
+    "TIDAL",
     "SoundCloud",
-    "JioSaavn",
-    "Gaana",
-    "Wynk Music",
-    "Anghami",
-    "Resso",
-    "NetEase Cloud Music",
-    "Yandex Music",
-    "AWA",
-    "Line Music",
-    "Shuffle Music"
+    "Napster",
+    "Amazon Music Unlimited",
+    "Qobuz",
+    "Pandora",
+    "Amazon Music Prime",
+    "YouTube Premium"
   ]
 }

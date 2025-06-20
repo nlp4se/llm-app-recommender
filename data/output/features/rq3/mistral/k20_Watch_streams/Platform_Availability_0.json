@@ -5,21 +5,21 @@
     "Netflix",
     "Twitch",
     "Hulu",
-    "Amazon Prime Video",
     "Disney+",
+    "Amazon Prime Video",
     "HBO Max",
     "Peacock",
     "Paramount+",
-    "Apple TV+",
+    "Apple TV",
     "Sling TV",
-    "fuboTV",
+    "FuboTV",
     "Philo",
     "Pluto TV",
     "Tubi",
-    "Crackle",
+    "Crunchyroll",
+    "Funimation",
     "Vudu",
-    "Plex",
-    "Kodi",
-    "Locast"
+    "Crackle",
+    "Plex"
   ]
 }

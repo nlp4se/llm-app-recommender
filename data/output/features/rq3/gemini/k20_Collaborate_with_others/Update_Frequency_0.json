@@ -1,25 +1,25 @@
 
 {
   "a": [
-    "Slack",
     "Microsoft Teams",
-    "Zoom",
+    "Slack",
     "Google Workspace",
     "Asana",
     "Trello",
-    "Notion",
-    "ClickUp",
-    "Miro",
-    "Confluence",
-    "Jira",
-    "Basecamp",
     "Monday.com",
+    "ClickUp",
+    "Notion",
+    "Confluence",
+    "Zoom",
+    "Miro",
+    "Basecamp",
     "Airtable",
     "Dropbox",
-    "Taskade",
-    "Dialpad Meetings",
-    "Loom",
+    "Jira",
+    "Quickbase",
     "Wrike",
-    "Microsoft 365"
+    "Brosix",
+    "Smartsheet",
+    "Axero"
   ]
 }

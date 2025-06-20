@@ -1,25 +1,27 @@
+Okay, I will provide a JSON formatted list of 20 apps for watching streams, ranked according to platform availability.
 
+```json
 {
   "a": [
-    "Netflix",
-    "Amazon Prime Video",
-    "Disney+",
-    "YouTube",
-    "Hulu",
-    "Peacock",
-    "Paramount+",
-    "Max",
-    "Tubi",
-    "Pluto TV",
-    "The Roku Channel",
-    "Crackle",
-    "Vudu",
-    "Freevee",
-    "Sling Free",
-    "Streamlabs",
-    "Prism Live Studio",
     "Twitch",
+    "YouTube",
+    "Facebook Gaming",
+    "Kick",
+    "DLive",
+    "Trovo",
+    "Vimeo",
+    "Glip",
+    "REALITY",
+    "Rumble",
+    "Nimo TV",
+    "Periscope",
     "YouNow",
-    "LiveMe"
+    "Mixer",
+    "BOOYAH!",
+    "Prism Live Studio",
+    "StreamYard",
+    "Caffeine",
+    "PeerTube",
+    "Odysee"
   ]
 }

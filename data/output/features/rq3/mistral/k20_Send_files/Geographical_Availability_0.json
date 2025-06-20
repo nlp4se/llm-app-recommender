@@ -3,23 +3,23 @@
   "a": [
     "WhatsApp",
     "Telegram",
+    "Signal",
     "WeChat",
     "Facebook Messenger",
-    "Signal",
-    "Viber",
-    "Line",
+    "Google Drive",
+    "Dropbox",
+    "OneDrive",
     "ShareIt",
     "Zapya",
+    "Send Anywhere",
     "WeTransfer",
     "Firefox Send",
-    "Send Anywhere",
-    "Pushbullet",
-    "AirDroid",
     "SuperBeam",
-    "Portal",
-    "Xender",
-    "Snapdrop",
+    "AirDroid",
+    "Pushbullet",
+    "Feem",
     "SHAREall",
-    "TrebleShot"
+    "Portal",
+    "Snapdrop"
   ]
 }

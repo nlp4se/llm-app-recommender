@@ -1,34 +1,25 @@
-Okay, I will identify and rank 20 "Keeping up with friends" apps based on geographical availability.
 
-Based on the geographical availability and global reach of apps for keeping in touch with friends, here is a ranked list of 20 apps:
-
-```json
 {
   "a": [
     "Facebook",
     "WhatsApp",
-    "YouTube",
     "Instagram",
+    "YouTube",
     "Messenger",
-    "WeChat",
     "TikTok",
+    "WeChat",
     "Telegram",
     "Snapchat",
-    "Douyin",
     "QQ",
-    "Viber",
-    "Line",
+    "X (Formerly Twitter)",
+    "Reddit",
     "Pinterest",
-    "Skype",
-    "Zoom",
+    "LinkedIn",
     "Discord",
-    "Signal",
-    "Kuaishou",
-    "Reddit"
+    "Skype",
+    "Viber",
+    "Meetup",
+    "Slowly",
+    "Teleparty"
   ]
 }
-```
-
-**Reasoning:**
-
-The ranking is based primarily on the reported number of monthly active users (MAU) and the number of countries in which the app is used. Facebook, WhatsApp, YouTube, and Instagram consistently appear as the top social media and messaging platforms with the widest global reach and largest user bases. Messenger, WeChat, TikTok, Telegram, and Snapchat follow with substantial global usage. Further down the list, apps like Viber, Line, and others have a strong presence in specific regions, influencing their ranking.

@@ -1,25 +1,27 @@
+Based on the ranking criterion of "Privacy and Security," here are 20 apps for building photo collages, ranked from those perceived to have stronger privacy and security features to those with potentially weaker ones, based on available information:
 
+```json
 {
   "a": [
-    "Layout from Instagram",
-    "PicsArt",
-    "Pic Collage",
+    "PhotoDirector",
+    "SCRL",
+    "PicCollage",
+    "MOLDIV",
     "Canva",
-    "Fotor Collage Maker",
-    "Photo Grid",
-    "Moldiv",
-    "PiZap Photo Editor",
+    "PicPlayPost",
+    "LiveCollage",
+    "PicsArt Photo & Collage Maker",
+    "Collage Maker - LiveCollage",
+    "PiZap Photo Editor & Design",
     "Ribbet",
-    "BeFunky Collage Maker",
-    "Pic Jointer",
-    "Collageable",
-    "PhotoShape",
     "Diptic",
-    "Mojo",
-    "StoryArt",
-    "Unfold",
-    "Over",
-    "Adobe Spark Post",
-    "PosterMyWall"
+    "FotoCollage Photo Editor",
+    "Collage Maker",
+    "Photo Collage Maker & Creator",
+    "Mixgram",
+    "Photo Collage & Grid Maker",
+    "Photo Video Editor",
+    "Punch : India's Short Video Apps",
+    "Collageable"
   ]
 }

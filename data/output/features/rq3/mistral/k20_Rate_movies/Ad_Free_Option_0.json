@@ -1,25 +1,25 @@
 
 {
   "a": [
-    "IMDb",
     "Letterboxd",
-    "Flixster",
-    "MovieMate Pro",
-    "MoviePro",
-    "MovieJoy",
+    "IMDb",
     "JustWatch",
-    "Metacritic",
+    "Flixster",
+    "Cinemark Theatres",
     "Fandango",
-    "Cinemark",
-    "CinemaCloud",
-    "MovieDiary",
-    "MovieBase",
-    "MoviePilot",
-    "CinemaTime",
-    "MovieVault",
-    "CineTrak",
-    "MovieList",
-    "MovieTracker",
-    "MovieDB"
+    "Atom Tickets",
+    "MoviePass",
+    "Rotten Tomatoes",
+    "Metacritic",
+    "CinemaBlend",
+    "MovieGuide",
+    "FilmAffinity",
+    "TasteDive",
+    "Criticker",
+    "iCheckMovies",
+    "MovieLens",
+    "Trakt",
+    "SensCritique",
+    "MUBI"
   ]
 }

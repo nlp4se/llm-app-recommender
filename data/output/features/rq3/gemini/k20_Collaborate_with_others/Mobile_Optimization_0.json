@@ -1,25 +1,25 @@
 
 {
   "a": [
-    "Slack",
     "Microsoft Teams",
-    "Google Workspace (Google Meet, Google Docs, etc.)",
+    "Slack",
     "Asana",
     "Trello",
-    "Monday.com",
-    "Discord",
-    "Connecteam",
-    "ClickUp",
-    "Zoho Projects",
+    "Google Workspace",
     "Miro",
-    "Quixy",
-    "Confluence",
-    "Jira",
-    "Airtable",
+    "Zoom",
+    "Monday.com",
+    "ClickUp",
+    "Wrike",
     "Notion",
-    "Blink",
-    "Studio Organiser",
-    "Axero",
-    "Quickbase"
+    "Basecamp",
+    "Airtable",
+    "Confluence",
+    "Podio",
+    "Zoho Projects",
+    "Quixy",
+    "Connecteam",
+    "Redbooth",
+    "Brosix"
   ]
 }

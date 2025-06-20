@@ -1,27 +1,27 @@
-Okay, I will identify and rank 20 apps for searching offers on items, prioritizing the availability of an ad-free option.
+Okay, I will rank 20 apps for searching offers on items based on the "Ad-Free Option" criterion. This means I will prioritize apps that offer a way to remove advertisements, either through a subscription or a paid version.
 
 ```json
 {
   "a": [
-    "Unit Price Comparison",
-    "Quick Unit Price Comparison",
-    "ShopSavvy",
-    "Flipp",
     "BuyVia",
-    "Rakuten",
-    "Honey",
+    "Flipp",
+    "ShopSavvy",
+    "The Coupons App",
     "Ibotta",
-    "DealNews",
-    "OurGroceries",
-    "Amazon Shopping",
-    "Walmart",
-    "Target",
-    "eBay",
-    "Best Buy",
-    "Choose: Daily Discovery",
-    "ShopFully: Offers & Catalogs",
-    "PriceSpy",
+    "Rakuten",
+    "CouponCabin",
+    "Slickdeals",
+    "AnyList",
+    "ShopFully",
+    "Amazon App",
+    "Target Circle",
+    "All in One Shopping",
+    "Cozi Family Organizer",
+    "Wish",
+    "Joom",
     "ShopPuppet",
-    "Slickdeals"
+    "Aggregator News - RSS Reader",
+    "E121 Shopping Ads+",
+    "Food Coupons Fast Deals Reward"
   ]
 }

@@ -1,27 +1,25 @@
-Based on the provided ranking criteria of integration capabilities, here's a ranked list of 20 apps suitable for broadcasting messages to multiple contacts:
 
-```json
 {
   "a": [
-    "WhatsApp Business API (via Route Mobile)",
     "SimpleTexting",
-    "TextMagic",
-    "EZ Texting",
-    "MessageMedia",
-    "Mailchimp",
-    "Podium",
-    "Attentive",
-    "CallHub",
-    "Hustle",
-    "Phone2Action",
-    "Sakari",
+    "BulkSMS",
+    "SleekFlow",
     "DialMyCalls",
-    "SlickText",
-    "Textedly",
-    "MessageWhiz",
+    "Hit Em Up: Mass Text Bulk SMS",
+    "Mailchimp",
+    "Sakari",
     "Emitrr",
-    "Multi SMS & Group SMS",
-    "WhatsApp Business App",
-    "Google Voice"
+    "Viber",
+    "WhatsApp",
+    "Skype",
+    "Podium",
+    "MessageMedia",
+    "Clickatell Platform",
+    "SendPulse",
+    "CallHippo",
+    "Paperflite",
+    "Google Meet",
+    "SweepSouth",
+    "GO-JEK"
   ]
 }

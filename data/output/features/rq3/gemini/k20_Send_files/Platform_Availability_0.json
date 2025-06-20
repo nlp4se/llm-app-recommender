@@ -1,25 +1,27 @@
+Okay, I will rank 20 file-sending apps based on platform availability. Here's the JSON output:
 
+```json
 {
   "a": [
+    "Send Anywhere",
     "Google Drive",
     "WeTransfer",
-    "Send Anywhere",
     "Dropbox",
-    "Hightail",
-    "AnyViewer",
-    "pCloud Transfer",
-    "OneDrive",
-    "Syncthing",
-    "EasyShare",
-    "InShare",
+    "Smash",
     "Box",
-    "Microsoft OneDrive",
-    "Apple iCloud Drive",
-    "SpiderOak",
-    "Pushbullet",
-    "FolderSync",
-    "Toffeeshare",
-    "Feem",
-    "Flying Carpet"
+    "OneDrive",
+    "MEGA",
+    "MediaFire",
+    "pCloud",
+    "Resilio Sync",
+    "Filemail",
+    "Terashare",
+    "Hightail",
+    "TransferXL",
+    "JumboMail",
+    "DropSend",
+    "MailBigFile",
+    "MyAirBridge",
+    "SendGB"
   ]
 }

@@ -2,24 +2,24 @@
 {
   "a": [
     "OfferUp",
-    "Letgo",
     "Craigslist",
     "eBay",
     "Facebook Marketplace",
-    "Mercari",
     "Poshmark",
+    "Mercari",
+    "letgo",
+    "VarageSale",
     "Decluttr",
     "5miles",
     "Trovit",
-    "VarageSale",
-    "Wallapop",
+    "Oodle Marketplace",
+    "Close5",
     "Shpock",
     "Vinted",
-    "Depop",
-    "ThredUp",
-    "Grailed",
-    "Tradesy",
-    "Chairish",
-    "Reverb"
+    "Wallapop",
+    "Carousell",
+    "Gumtree",
+    "KSL Classifieds",
+    "HOBBIZ"
   ]
 }

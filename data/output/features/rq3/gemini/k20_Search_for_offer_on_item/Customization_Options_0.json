@@ -1,25 +1,27 @@
+Okay, I understand. I will identify and rank 20 apps for searching for offers on items based on the customizability options they offer.
 
+```json
 {
   "a": [
-    "ShopSavvy",
-    "BuyVia",
-    "Flipp",
-    "Price.com",
-    "Amazon App",
-    "RetailMeNot",
-    "Honey App",
-    "Ibotta",
-    "Rakuten",
-    "Google Shopping",
-    "Shopzilla",
+    "CamelCamelCamel",
+    "Honey",
+    "Slickdeals",
     "PriceGrabber",
-    "Purchx",
-    "ScanLife",
-    "Now Discount",
-    "Quick Scan",
-    "TTPM",
-    "Shopular",
-    "Barcode Lookup",
-    "Deals Finders"
+    "Dealnews",
+    "iSlick",
+    "Deal Drop",
+    "Google Shopper",
+    "ShopSavvy",
+    "RetailMeNot",
+    "Flipp",
+    "Amazon App",
+    "LimeSpot Personalizer",
+    "Wiser",
+    "LoopClub's Personalized Recommendations",
+    "Personalized Offers by Polymatiks",
+    "ZeroOut",
+    "Notim App",
+    "MB Low Stock Alert",
+    "Groupon"
   ]
 }

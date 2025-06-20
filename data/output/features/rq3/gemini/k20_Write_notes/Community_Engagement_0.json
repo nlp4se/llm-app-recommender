@@ -2,24 +2,24 @@
 {
   "a": [
     "Notion",
-    "Obsidian",
-    "AFFiNE",
-    "Supernotes",
-    "Microsoft OneNote",
     "Evernote",
+    "Microsoft OneNote",
+    "Obsidian",
     "Google Keep",
-    "Joplin",
     "Apple Notes",
-    "Fleeting Notes",
-    "Unstuck AI Note Taker",
-    "Mem.ai",
-    "Bear",
-    "Roam Research",
-    "Simplenote",
+    "Supernotes",
+    "Bear Notes",
     "Zoho Notebook",
+    "Nimbus Note",
+    "Simplenote",
+    "Joplin",
     "Standard Notes",
-    "nvALT",
-    "Boostnote",
-    "Laverna"
+    "Roam Research",
+    "Taskade",
+    "Fathom",
+    "Otter AI",
+    "Anytype",
+    "Capacities",
+    "Coda"
   ]
 }

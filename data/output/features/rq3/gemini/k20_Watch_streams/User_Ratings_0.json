@@ -1,27 +1,25 @@
-Based on user ratings and popularity as a key indicator, here are 20 apps for watching streams, ranked accordingly:
 
-```json
 {
   "a": [
-    "Netflix",
-    "Disney+",
-    "Hulu",
-    "Amazon Prime Video",
-    "Max",
-    "Peacock",
-    "Paramount+",
-    "YouTube TV",
-    "Apple TV+",
-    "Sling TV",
-    "Tubi",
-    "Fubo TV",
-    "ESPN+",
-    "Crunchyroll",
-    "Pluto TV",
-    "DirecTV Stream",
-    "Discovery+",
-    "Now TV",
-    "Curiosity Stream",
-    "ViX"
+    "Twitch",
+    "YouTube",
+    "Kick",
+    "Rumble",
+    "TikTok",
+    "Instagram",
+    "Facebook Watch",
+    "DLive",
+    "Vimeo",
+    "Bilibili",
+    "Trovo",
+    "AfreecaTV",
+    "Nonolive",
+    "Periscope (defunct, but historically significant)",
+    "YouNow",
+    "Livestream",
+    "Mixer (defunct, but historically significant)",
+    "Ustream (IBM Cloud Video)",
+    "Huya Live",
+    "Douyu"
   ]
 }

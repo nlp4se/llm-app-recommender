@@ -1,0 +1,25 @@
+
+{
+  "a": [
+    "Signal",
+    "Wire",
+    "Telegram",
+    "WhatsApp",
+    "Microsoft Teams",
+    "Slack",
+    "Zoom",
+    "Google Workspace",
+    "Cisco Webex",
+    "Element",
+    "Viber",
+    "Discord",
+    "Skype",
+    "Tox",
+    "Threema",
+    "Rocket.Chat",
+    "Mattermost",
+    "Keybase",
+    "Session",
+    "Briar"
+  ]
+}

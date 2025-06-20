@@ -1,25 +1,27 @@
+I understand that I need to rank 20 note-taking apps based on the number of active users. Since I do not have direct access to live user counts for all apps, I will use a combination of publicly available data (app store statistics, where available), general popularity indicators, and my knowledge of the app market to create a reasonable ranking. I will prioritize apps with wide recognition and established user bases.
 
+```json
 {
   "a": [
     "Evernote",
     "Microsoft OneNote",
-    "Google Keep",
     "Notion",
-    "Simplenote",
-    "Bear",
-    "Zoho Notebook",
-    "Standard Notes",
-    "Obsidian",
-    "Joplin",
-    "Roam Research",
-    "Bear",
-    "GoodNotes",
-    "Notability",
-    "CollaNote",
-    "Nebo",
-    "Noteshelf",
-    "Samsung Notes",
     "Apple Notes",
-    "Mem"
+    "Google Keep",
+    "Goodnotes",
+    "Notability",
+    "Obsidian",
+    "Simplenote",
+    "Joplin",
+    "Zoho Notebook",
+    "Bear",
+    "CollaNote",
+    "Noteshelf",
+    "LiquidText",
+    "MarginNote",
+    "Nebo",
+    "ClickUp",
+    "Coda",
+    "Scrintal"
   ]
 }

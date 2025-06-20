@@ -1,25 +1,25 @@
 
 {
   "a": [
-    "WhatsApp Messenger",
+    "WhatsApp",
     "Telegram",
     "Signal",
-    "Facebook Messenger",
+    "GroupMe",
+    "BAND",
+    "TextNow",
     "WeChat",
     "Line",
     "Viber",
-    "Skype",
-    "Google Chat",
-    "Discord",
-    "Slack",
-    "Microsoft Teams",
-    "GroupMe",
     "KakaoTalk",
-    "imessage",
     "Bridgefy",
     "Zalo",
-    "Hike",
-    "Threema",
-    "Session"
+    "imessage",
+    "TextFree",
+    "Slack",
+    "Discord",
+    "Skype",
+    "Microsoft Teams",
+    "Google Chat",
+    "Threema"
   ]
 }

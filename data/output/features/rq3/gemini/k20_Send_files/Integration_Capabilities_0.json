@@ -2,24 +2,24 @@
 {
   "a": [
     "Google Drive",
-    "Microsoft OneDrive",
     "Dropbox",
+    "Microsoft OneDrive",
     "Box",
-    "ShareFile",
-    "FileCloud",
+    "Filestage",
     "WeTransfer",
-    "Hightail",
+    "ShareFile",
     "Files.com",
+    "Hightail",
+    "Send Anywhere",
+    "FileCloud",
     "ONLYOFFICE",
-    "Sync",
-    "iCloud Drive",
-    "IDrive",
-    "Egnyte",
     "TitanFile",
+    "Axway",
+    "NordLocker",
+    "MediaFire",
+    "Egnyte",
     "Slack",
-    "Mattermost",
-    "NirvaShare",
-    "Tresorit",
-    "SpiderOak One"
+    "iCloud Drive",
+    "SendSafely"
   ]
 }

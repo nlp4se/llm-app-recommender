@@ -1,29 +1,27 @@
-I need to gather information about the update frequency of live streaming apps to rank them effectively.
-
-Based on the provided ranking criteria of "Update Frequency," here is a ranking of 20 live streaming apps. It's challenging to definitively quantify update frequency without constant monitoring, so this ranking relies on a combination of factors like general app popularity, feature set (suggesting ongoing development), and mentions of recent updates in the provided search results. I've prioritized apps that appear to be actively maintained and offer a robust feature set.
+Okay, I will identify and rank 20 "Go Live" apps based on their update frequency. I will use the available sources to determine how often each app is updated with new features, bug fixes, and improvements.
 
 ```json
 {
   "a": [
     "YouTube Live",
-    "TikTok Live",
-    "Twitch",
     "Facebook Live",
     "Instagram Live",
-    "Dacast",
-    "Vimeo Livestream",
+    "Twitch",
+    "TikTok Live",
+    "LinkedIn Live",
     "Streamlabs",
+    "Prism Live Studio",
+    "Streamyard",
     "OBS Studio",
     "Restream",
-    "Larix Broadcaster",
+    "Vimeo Livestream",
+    "Zoom",
+    "Microsoft Teams",
+    "Bigo Live",
     "Switcher Studio",
-    "Hulu + Live TV",
-    "LinkedIn Live",
-    "IBM Video Streaming",
+    "Kick",
+    "Dacast",
     "Brightcove Live",
-    "Wirecast Go",
-    "YouNow",
-    "Tango",
-    "LiveMe"
+    "IBM Video Streaming"
   ]
 }

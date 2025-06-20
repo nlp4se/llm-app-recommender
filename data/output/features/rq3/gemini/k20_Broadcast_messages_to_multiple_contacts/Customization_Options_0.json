@@ -1,27 +1,25 @@
-Okay, I will rank 20 apps for broadcasting messages to multiple contacts based on customization options. Here's the JSON output:
 
-```json
 {
   "a": [
-    "WhatsApp Business",
-    "Telegram",
-    "Signal",
-    "SendPulse",
-    "Twilio",
-    "MessageBird",
-    "TextMagic",
-    "ClickSend",
+    "Hit Em Up",
+    "Multi SMS & Group SMS",
+    "DialMyCalls",
+    "Mobile Text Alerts",
     "EZ Texting",
     "SimpleTexting",
-    "Mozeo",
+    "TextMagic",
+    "ClickSend",
+    "SendPulse",
+    "Text-Em-All",
     "Trumpia",
-    "Salesmsg",
-    "Podium",
-    "Birdeye",
+    "BulkSMS",
+    "MessageDesk",
     "SlickText",
-    "SMSGlobal",
-    "Infobip",
-    "Plivo",
-    "Bandwidth"
+    "TextUs",
+    "Emitrr",
+    "Wati",
+    "Rasayel",
+    "WAnotifier",
+    "Sinch"
   ]
 }

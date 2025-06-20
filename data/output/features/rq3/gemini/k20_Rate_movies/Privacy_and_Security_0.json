@@ -1,27 +1,27 @@
-Okay, I will recommend 20 movie rating apps, ranked with a focus on privacy and security features. Here's the JSON output:
+Okay, I will rank 20 movie rating apps based on "Privacy and Security". Here's the JSON output:
 
 ```json
 {
   "a": [
     "Letterboxd",
     "IMDb",
-    "Trakter",
     "Criticker",
-    "Taste",
-    "FilmAffinity",
-    "MovieLens",
     "Rotten Tomatoes",
     "Metacritic",
-    "Fandango",
+    "Taste",
+    "MovieLens",
+    "Flickchart",
+    "Trakt",
+    "Simkl",
+    "Plex",
+    "JustWatch",
+    "Tubi",
+    "Mubi",
+    "Kanopy",
+    "Vudu",
     "Google TV",
     "Apple TV",
-    "MUBI",
-    "Kanopy",
     "The Movie Database (TMDb)",
-    "BETA Cinema",
-    "Popcornflix",
-    "Vudu",
-    "Microsoft Movies & TV",
-    "YouTube Movies"
+    "Binged"
   ]
 }

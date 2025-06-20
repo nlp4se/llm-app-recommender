@@ -1,27 +1,25 @@
-Based on user ratings and popularity, here are 20 apps to keep up with friends:
 
-```json
 {
   "a": [
-    "WhatsApp",
     "Facebook",
     "Instagram",
-    "TikTok",
-    "Telegram",
-    "Facebook Messenger",
+    "WhatsApp",
     "Snapchat",
-    "WeChat",
-    "Threads",
+    "Twitter",
+    "TikTok",
+    "LinkedIn",
     "Discord",
-    "Locket Widget",
-    "Howbout",
-    "Meetup",
-    "Bumble BFF",
-    "Cappuccino",
-    "Co-Star",
-    "Plato",
-    "AirChat",
-    "Nextdoor",
-    "Catchup: Friendship Tracker"
+    "Telegram",
+    "Pinterest",
+    "Reddit",
+    "Viber",
+    "WeChat",
+    "Line",
+    "Skype",
+    "Marco Polo",
+    "Houseparty",
+    "Yubo",
+    "Tumblr",
+    "Clubhouse"
   ]
 }

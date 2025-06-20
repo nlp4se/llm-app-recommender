@@ -1,27 +1,25 @@
-Based on the "Number of Downloads" ranking criteria, here are 20 note-taking apps:
 
-```json
 {
   "a": [
-    "Evernote",
     "Microsoft OneNote",
-    "Google Keep",
+    "Evernote",
     "Notion",
-    "Simplenote",
-    "Bear",
-    "Obsidian",
-    "Joplin",
+    "Google Keep",
     "Apple Notes",
     "ClickUp",
-    "Craft",
-    "Goodnotes 6",
-    "Notability",
-    "Otter Transcribe Voice Notes",
-    "Post-it",
-    "Pencil Notes: Penbook",
+    "Obsidian",
+    "Simplenote",
+    "Joplin",
+    "Bear",
     "UpNote",
-    "Easy Notes",
+    "Notability",
+    "GoodNotes",
+    "Logseq",
+    "Craft",
     "Mem",
-    "CollaNote"
+    "CollaNote",
+    "Bear Notes",
+    "Notes+",
+    "Anytype"
   ]
 }

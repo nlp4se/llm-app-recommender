@@ -1,29 +1,25 @@
-Okay, I understand. I need to identify and rank 20 apps that help users search for offers on items. My ranking will prioritize the availability and quality of customer support services offered by these apps, using information gleaned from company websites, official app documentation, support pages, user reviews, and user testimonials.
 
-Based on my analysis and focusing on apps that help search for offers on items, while prioritizing customer support, here's my ranked list of 20 apps:
-
-```json
 {
   "a": [
-    "Zendesk",
-    "Help Scout",
-    "Freshdesk",
-    "Intercom",
-    "Gorgias",
-    "Reamaze",
-    "Richpanel",
-    "Zoho Desk",
-    "HubSpot Service Hub",
-    "Salesforce",
-    "BuyVia",
     "ShopSavvy",
-    "Flipp",
-    "Google Shopping",
-    "Price.com",
+    "BuyVia",
+    "Amazon App",
+    "PriceGrabber",
     "DealNews",
-    "SlickDeals",
-    "Google My Business",
-    "Slack",
+    "Flipp",
+    "RetailMeNot",
+    "Groupon",
+    "Honey",
+    "Slickdeals",
+    "iSlick",
+    "Deal Drop",
+    "Mycartsavings",
+    "Price.com",
+    "Rakuten",
+    "Target Circle and RedCard App",
+    "Daily Deals",
+    "Zyft",
+    "idealo",
     "Social Deal"
   ]
 }

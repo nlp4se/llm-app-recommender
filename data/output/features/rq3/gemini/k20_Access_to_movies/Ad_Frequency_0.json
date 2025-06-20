@@ -1,24 +1,36 @@
+Based on the ranking criteria of "Ad Frequency," here are 20 apps to access movies, ranked from lowest to highest ad frequency (estimated based on available information):
+
+```json
 {
   "a": [
-    "Kanopy",
-    "Flixeon",
-    "Plex",
+    "Apple TV+ (Paid Subscription)",
+    "Criterion Channel (Paid Subscription)",
+    "Disney+ (Paid Subscription)",
+    "Hulu (No Ads) (Paid Subscription)",
+    "Max (Ad-Free) (Paid Subscription)",
+    "Netflix (Ad-Free) (Paid Subscription)",
+    "OnStream",
+    "Filmzie",
     "Tubi",
-    "Crackle",
-    "Xumo",
-    "Sling Freestream",
-    "Amazon Freevee",
-    "The Roku Channel",
+    "Plex",
     "Vudu",
+    "IMDB TV",
     "Peacock",
-    "Max",
-    "Netflix",
-    "Disney+",
-    "Paramount+",
-    "Hulu",
-    "Fawesome",
-    "Kapang TV",
+    "MX Player",
+    "Crackle",
+    "The Roku Channel",
+    "Xumo",
     "Pluto TV",
-    "Midnight Pulp"
+    "Amazon Freevee",
+    "Flixeon"
   ]
 }
+```
+
+**Explanation:**
+
+*   **Paid Subscriptions (Apple TV+, Criterion Channel, Disney+, Hulu (No Ads), Max (Ad-Free), Netflix (Ad-Free)):** These services offer ad-free viewing with a subscription, so they are ranked highest, assuming zero ads per hour.
+
+*   **OnStream:** Some sources suggest that this app offers an ad-free experience.
+
+*   **Tubi, Plex, Vudu, IMDB TV, Peacock, MX Player, Crackle, The Roku Channel, Xumo, Pluto TV, Amazon Freevee, Flixeon:** These are free, ad-supported services. Their relative ranking is based on the general ad load reported in various user reviews and comparisons, keeping in mind that ad frequency can vary. The 2021 Reddit thread "[Which ad-supported streamer has the fewest ads?](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG0mU24mIdnqkkePG-wFTnndy2-WLnm2HU0QzRTkMkAuBRsvuV5BT4-BP7zZIh745Mx9jUOwGEgt5WSvAup0MksMxRU4RxjgGOfqAC4EXQLuYm9KEf9qvn51dbc0DGAhtWj5HitZSVigUZfwQs5Jt58TYyHQoo8Fgvst3lpTZX0CUrCh5Jy1Vjp7ulEGPpSYiHM1LunzWtNXeTJDJde)" suggests that **Tubi** has fewer ads. Based on the search results, **Pluto TV** tends to have a higher ad frequency.

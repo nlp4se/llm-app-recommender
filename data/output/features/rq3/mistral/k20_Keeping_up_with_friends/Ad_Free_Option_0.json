@@ -12,14 +12,15 @@
     "WeChat",
     "KakaoTalk",
     "GroupMe",
-    "Kik",
+    "Slack",
+    "Microsoft Teams",
     "Marco Polo",
-    "Bridgefy",
-    "Wire",
-    "Threema",
-    "Session",
-    "Element",
-    "Mattermost",
-    "Riot"
+    "HeyTell",
+    "Tango",
+    "Kik",
+    "Houseparty",
+    "BAND",
+    "Tox"
+    // Ordered list of app names (rank is implied by position)
   ]
 }

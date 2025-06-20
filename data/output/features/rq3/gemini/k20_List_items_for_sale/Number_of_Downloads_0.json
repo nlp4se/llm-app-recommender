@@ -1,25 +1,29 @@
+I am unable to provide a precise ranking based on the number of downloads due to the lack of publicly available, up-to-date download figures for each app. App download numbers are typically proprietary data.
 
+However, based on the provided sources and general app market knowledge, here is a list of 20 apps that are popular for listing items for sale.
+
+```json
 {
   "a": [
     "eBay",
     "Facebook Marketplace",
-    "OfferUp",
     "Poshmark",
     "Etsy",
+    "OfferUp",
     "Mercari",
     "Depop",
+    "ThredUp",
     "Decluttr",
-    "thredUP",
     "Vestiaire Collective",
+    "Chairish",
     "5miles",
     "Nextdoor",
     "Craigslist",
-    "Chairish",
+    "Vendoo",
+    "Shopify",
+    "Amazon Seller Central",
+    "Letgo (integrated into OfferUp)",
     "VarageSale",
-    "Gumroad",
-    "Creative Market",
-    "Payhip",
-    "Teachable",
-    "Amazon Seller Central"
+    "The RealReal"
   ]
 }

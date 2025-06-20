@@ -1,25 +1,27 @@
+Here are 20 note-taking apps, ranked according to privacy and security features:
 
+```json
 {
   "a": [
     "Standard Notes",
     "Notesnook",
     "Obsidian",
     "Joplin",
-    "Signal Note to Self",
-    "Turtl",
     "Cryptee",
-    "Bitwarden",
-    "ProtonMail",
-    "NordLocker",
-    "UpNote",
-    "Synology Note Station",
-    "NextCloud",
+    "Turtl",
+    "Proton Mail",
+    "Signal Note to Self",
+    "Brave",
+    "1Password",
+    "OneDrive",
+    "PureWriter",
+    "BlackNote",
+    "Noto",
     "Evernote",
-    "OneNote",
-    "Simplenote",
+    "Microsoft OneNote",
+    "Apple Notes",
     "Google Keep",
-    "Bear Notes",
     "Notion",
-    "Apple Notes"
+    "Simplenote"
   ]
 }

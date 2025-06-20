@@ -1,25 +1,25 @@
 
 {
   "a": [
-    "AirDroid Personal",
+    "LocalSend",
+    "Quick Share",
+    "Snapdrop",
+    "WeTransfer",
+    "Send Anywhere",
     "Google Drive",
     "Dropbox",
-    "Send Anywhere",
-    "WeTransfer",
-    "SHAREit",
-    "Xender",
-    "InShare",
-    "EasyShare",
-    "OneDrive",
-    "Box",
-    "FileCloud",
-    "Egnyte",
-    "Zapya",
+    "Microsoft OneDrive",
+    "AirDrop",
     "Filestage",
-    "TransferNow",
-    "MyAirBridge",
     "Hightail",
-    "Pushbullet",
-    "Avica Remote Desktop"
+    "Box",
+    "ShareFile by Citrix",
+    "Tresorit",
+    "Pcloud",
+    "Sync.com",
+    "KDEConnect",
+    "Intel Unison",
+    "Warpinator",
+    "Anyshare"
   ]
 }

@@ -1,25 +1,25 @@
 
 {
   "a": [
-    "YouTube Music",
     "Spotify",
-    "Tencent Music",
-    "iHeartRadio",
-    "Gaana",
-    "SoundCloud",
-    "JioSaavn",
+    "YouTube Music",
     "Apple Music",
     "Amazon Music",
     "Pandora",
-    "Anghami",
+    "SoundCloud",
     "Deezer",
     "Tidal",
-    "Qobuz",
-    "LiveOne",
-    "TuneIn",
-    "Jango Radio",
-    "SiriusXM",
-    "Idagio",
-    "NetEase"
+    "Lark Player",
+    "Omnia Music Player",
+    "HiBy Music",
+    "NRG Music Player",
+    "NYX Music Player",
+    "MusicBee",
+    "VLC Media Player",
+    "Real Shuffle Player",
+    "Musify",
+    "AIMP Music Player",
+    "Pulsar Music",
+    "Namida"
   ]
 }

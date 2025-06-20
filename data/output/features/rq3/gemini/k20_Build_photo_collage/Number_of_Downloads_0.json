@@ -1,27 +1,27 @@
-Based on the "Number of Downloads" ranking criteria, here are 20 photo collage apps. Note that actual download numbers can fluctuate and are difficult to obtain precisely, so this list is based on the general popularity and availability of the apps, combined with mentions in multiple sources:
+Based on the "Number of Downloads" ranking criteria, here are 20 photo collage apps:
 
 ```json
 {
   "a": [
-    "Pic Collage",
-    "PicsArt Photo & Collage Maker",
-    "Canva",
-    "PhotoDirector",
-    "Collage Maker - LiveCollage",
-    "MOLDIV",
-    "PhotoGrid",
-    "Diptic",
-    "piZap Photo Editor & Design",
     "YouCam Perfect",
-    "Adobe Express",
-    "Fotor Collage Maker",
-    "Photo Collage Maker & Creator",
+    "PhotoDirector",
+    "PicCollage",
+    "PhotoGrid",
+    "PicsArt Photo & Collage Maker",
+    "MOLDIV",
+    "Canva",
+    "piZap Photo Editor & Design",
+    "Collage Maker - LiveCollage",
     "Collageable",
     "PicPlayPost",
+    "Diptic",
+    "Phototastic Collage Maker",
+    "Photo Collage Maker & Creator",
     "Mixgram",
     "Ribbet",
-    "FotoCollage Photo Editor",
-    "SCRL",
-    "Layout from Instagram"
+    "InCollage",
+    "Layout from Instagram",
+    "Pixlr",
+    "Appy Pie's AI Photo Collage Maker"
   ]
 }

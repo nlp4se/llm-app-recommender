@@ -1,25 +1,25 @@
 
 {
   "a": [
-    "Pocket Casts",
     "Spotify",
+    "Google Podcasts",
     "Apple Podcasts",
-    "Podcast Addict",
+    "Pocket Casts",
     "Overcast",
     "Castbox",
-    "AntennaPod",
-    "YouTube Music",
-    "Downcast",
-    "Fountain",
-    "Castro",
-    "Podurama",
-    "Podcast Go",
-    "Castamatic Podcast Player",
-    "Luminary",
+    "Podcast Addict",
+    "Stitcher",
+    "TuneIn Radio",
+    "iHeartRadio",
     "Audible",
-    "Supercast",
-    "Glow.fm",
-    "Patreon",
-    "Supporting Cast"
+    "Amazon Music",
+    "Pandora",
+    "RadioPublic",
+    "Breaker",
+    "Castro",
+    "Downcast",
+    "Player FM",
+    "Podbean",
+    "AntennaPod"
   ]
 }

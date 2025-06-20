@@ -2,24 +2,24 @@
 {
   "a": [
     "Discord",
-    "Microsoft Teams",
     "Slack",
-    "Zoom",
+    "Microsoft Teams",
     "Google Workspace",
+    "Zoom",
     "Trello",
     "Asana",
     "Miro",
-    "Notion",
     "Monday.com",
     "Basecamp",
-    "Figma",
-    "Skype",
-    "Google Meet",
-    "Cisco Webex",
-    "GoToMeeting",
-    "Jira",
-    "Confluence",
-    "ClickUp",
-    "smartsheet"
+    "Flock",
+    "Rocket.Chat",
+    "Mattermost",
+    "Twist",
+    "Ryver",
+    "Chanty",
+    "Glip",
+    "Samepage",
+    "Wire",
+    "Zoho Cliq"
   ]
 }

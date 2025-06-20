@@ -1,25 +1,24 @@
 
 {
   "a": [
+    "Discord",
+    "Spotify",
     "Instagram",
-    "TikTok",
+    "Twitter",
     "Facebook",
     "WhatsApp",
-    "Snapchat",
-    "Twitter",
-    "Pinterest",
-    "LinkedIn",
-    "Spotify",
-    "YouTube",
     "Netflix",
+    "YouTube",
+    "Snapchat",
+    "Pinterest",
+    "Reddit",
+    "LinkedIn",
+    "TikTok",
     "Amazon",
     "Uber",
     "Airbnb",
-    "Google Maps",
-    "Gmail",
-    "Microsoft Outlook",
+    "Dropbox",
     "Slack",
-    "Discord",
     "Zoom"
   ]
 }

@@ -1,27 +1,25 @@
-Okay, I will identify and rank 20 photo effects apps based on customer support availability and quality, using information from company websites, app documentation, user reviews, and official support channels.
 
-```json
 {
   "a": [
-    "Adobe Photoshop Lightroom",
+    "PicsArt",
+    "Adobe Lightroom",
     "Snapseed",
     "VSCO",
-    "PicsArt",
+    "Pixlr",
+    "Fotor",
+    "PhotoDirector",
+    "Canva",
+    "YouCam Perfect",
     "Adobe Photoshop Express",
     "Afterlight",
-    "Luminar Neo",
-    "YouCam Perfect",
-    "Photo Lab Picture Editor & Art",
     "Polarr",
-    "Pixlr",
-    "Google Photos",
-    "Apple Photos",
+    "Lensa",
+    "BeautyPlus",
+    "AirBrush",
+    "Photo Editor & Filters",
     "Photo Editor Pro",
-    "CapCut",
-    "EyeEm",
-    "Photo Editor Effects + Filters",
-    "Photo Studio App Photo Compare",
-    "AI Photo Editor - Lumii",
-    "Imagen"
+    "Remini",
+    "Bazaart",
+    "Photopea"
   ]
 }

@@ -1,1 +1,27 @@
-I need more information to fulfill your request. To recommend 20 apps for going live based on ad frequency, I need a list of apps to evaluate. Please provide the list of apps that you want me to rank. Once I have that, I will rank them based on the "Ad Frequency" criteria you provided, using the specified sources.
+I need to gather information about the ad frequency of different live streaming apps to rank them effectively. I will use the search queries to find data from user reviews, third-party reviews, and other available sources.
+
+```json
+{
+  "a": [
+    "Apple TV+",
+    "Criterion Channel",
+    "Hulu (No Ads)",
+    "Twitch",
+    "YouTube Live",
+    "StreamYard",
+    "Go Live",
+    "Instagram Live",
+    "TikTok",
+    "Facebook Live",
+    "Periscope",
+    "VK Live",
+    "Restream",
+    "Wowza Streaming Engine",
+    "Castr",
+    "Dacast",
+    "Vimeo",
+    "JW Player",
+    "Brightcove",
+    "Uscreen"
+  ]
+}

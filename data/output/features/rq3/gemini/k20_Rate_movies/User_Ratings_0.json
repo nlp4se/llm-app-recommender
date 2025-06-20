@@ -1,25 +1,25 @@
 
 {
   "a": [
-    "Letterboxd",
     "IMDb",
+    "Letterboxd",
     "Rotten Tomatoes",
-    "Criticker",
+    "Flixster",
     "Metacritic",
-    "Tubi",
+    "Criticker",
+    "MovieFone",
     "Moviebase",
-    "Taste",
-    "Plex",
-    "Serializd",
-    "The Movie Database (TMDb)",
-    "Film Affinity",
-    "Trakt",
-    "Simkl",
-    "RateIt",
-    "iCheckMovies",
-    "Filmaholic",
-    "MUBI",
-    "Breezometer",
-    "Popcorn Garage"
+    "Movie Pal",
+    "Raters: Movie Reviews, Ratings",
+    "Plugged In – Movie Reviews",
+    "Movie Reviews (Voice)",
+    "YourNextFilm",
+    "FilmStory",
+    "Roger Ebert",
+    "A.V. Club",
+    "IndieWire",
+    "ReelSpeak",
+    "Flico",
+    "Douban"
   ]
 }

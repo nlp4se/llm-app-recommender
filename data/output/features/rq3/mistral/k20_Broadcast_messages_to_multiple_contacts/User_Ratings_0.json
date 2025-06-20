@@ -8,18 +8,18 @@
     "WeChat",
     "Line",
     "Viber",
-    "Kik",
     "KakaoTalk",
-    "Google Chat",
-    "Slack",
-    "Microsoft Teams",
     "Skype",
+    "Microsoft Teams",
+    "Slack",
     "Discord",
-    "GroupMe",
-    "BAND",
-    "Tango",
-    "imo",
-    "Zalo",
-    "Threema"
+    "Google Chat",
+    "Hangouts",
+    "Threema",
+    "Bridgefy",
+    "Wickr Me",
+    "Session",
+    "Element",
+    "Riot.im"
   ]
 }

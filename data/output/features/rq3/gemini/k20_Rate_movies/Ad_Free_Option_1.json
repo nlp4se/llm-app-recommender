@@ -1,0 +1,27 @@
+Okay, I understand. I need to identify and rank 20 movie rating apps, prioritizing the availability of an ad-free option. Here's the JSON output containing the ranked list of apps based on that criterion.
+
+```json
+{
+  "a": [
+    "IMDb",
+    "Letterboxd",
+    "Moviebase",
+    "MUBI",
+    "Plex",
+    "Tubi",
+    "Hulu",
+    "Disney+",
+    "Amazon Prime Video",
+    "Peacock",
+    "JustWatch",
+    "Rotten Tomatoes",
+    "Metacritic",
+    "Taste",
+    "TV Time",
+    "Movie Pal",
+    "Movie Reviews (Voice)",
+    "Criticker",
+    "MovieMash",
+    "Trakt"
+  ]
+}

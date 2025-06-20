@@ -9,17 +9,17 @@
     "Viber",
     "Line",
     "KakaoTalk",
-    "iMessage",
     "Snapchat",
     "Discord",
-    "Skype",
-    "Microsoft Teams",
     "Slack",
+    "Microsoft Teams",
+    "Skype",
     "Google Chat",
+    "iMessage",
     "GroupMe",
-    "Band",
-    "Bridge",
-    "Tango",
-    "Threema"
+    "BAND",
+    "Threema",
+    "Bridgefy",
+    "Zello"
   ]
 }

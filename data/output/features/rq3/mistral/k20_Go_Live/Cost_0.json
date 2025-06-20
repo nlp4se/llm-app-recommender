@@ -1,25 +1,25 @@
 
 {
   "a": [
-    "Instagram",
-    "Facebook",
-    "Twitch",
-    "TikTok",
-    "YouTube",
-    "Snapchat",
-    "Twitter",
-    "Pinterest",
-    "LinkedIn",
-    "Reddit",
-    "WhatsApp",
-    "Messenger",
+    "Houseparty",
+    "Cameo",
+    "Marco Polo",
+    "Viber",
+    "Telegram",
     "Skype",
-    "Zoom",
-    "Microsoft Teams",
-    "Slack",
+    "Facebook Messenger",
+    "Instagram",
+    "Snapchat",
+    "WhatsApp",
+    "Google Duo",
     "Discord",
-    "Spotify",
-    "Apple Music",
-    "Pandora"
+    "Zoom",
+    "Twitch",
+    "LinkedIn Live",
+    "Facebook Live",
+    "YouTube Live",
+    "Instagram Live",
+    "TikTok Live",
+    "Periscope"
   ]
 }

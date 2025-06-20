@@ -1,25 +1,25 @@
 
 {
   "a": [
-    "VLC for Android",
-    "AIMP",
+    "VLC for Mobile",
     "Poweramp Music Player",
+    "Foobar2000",
+    "AIMP",
+    "Neutron Music Player",
     "Musicolet Music Player",
     "Shuttle Music Player",
-    "Pulsar Music Player",
-    "Phonograph Music Player",
-    "Pixel Music Player",
     "BlackPlayer Music Player",
-    "Stellio Player",
-    "Rocket Music Player",
-    "Neutron Music Player",
-    "MediaMonkey",
-    "jetAudio HD Music Player",
+    "Phonograph Music Player",
+    "Pulsar Music Player",
     "n7player Music Player",
-    "Foobar2000",
-    "GoneMAD Music Player",
-    "ONKYO HF Player",
+    "Stellio Music Player",
+    "Rocket Music Player",
+    "GSam Music Player",
+    "MediaMonkey",
+    "JetAudio HD Music Player",
+    "Onkyo HF Player",
     "USB Audio Player PRO",
-    "UAPP - USB Audio Player PRO"
+    "Lightning Music Player",
+    "Tidal"
   ]
 }

@@ -2,24 +2,24 @@
 {
   "a": [
     "Netflix",
-    "Hulu",
     "Amazon Prime Video",
     "Disney+",
-    "Max",
+    "Hulu",
+    "HBO Max",
     "Peacock",
+    "Paramount+",
+    "Apple TV+",
+    "Mubi",
+    "Criterion Channel",
     "Tubi",
-    "Pluto TV",
-    "Plex",
+    "Crackle",
+    "Vudu",
+    "Google Play Movies & TV",
+    "YouTube Movies",
     "The Roku Channel",
-    "Apple TV",
-    "YouTube",
-    "JustWatch",
-    "Scener",
-    "Teleparty (Netflix Party)",
-    "Kast",
-    "OTTplay",
-    "Qewd",
-    "Movies Anywhere",
-    "Amazon Freevee"
+    "Plex",
+    "Kanopy",
+    "Shudder",
+    "FandangoNOW"
   ]
 }

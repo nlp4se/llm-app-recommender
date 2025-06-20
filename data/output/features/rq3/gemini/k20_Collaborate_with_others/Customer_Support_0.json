@@ -1,25 +1,25 @@
 
 {
   "a": [
-    "Zendesk",
-    "Help Scout",
-    "Intercom",
-    "Zoho Desk",
-    "Freshdesk",
-    "HubSpot Service Hub",
-    "Hiver",
     "Slack",
     "Microsoft Teams",
     "Zoom",
-    "Asana",
-    "Wrike",
-    "monday.com",
     "Trello",
-    "Basecamp",
+    "Asana",
     "Google Workspace",
-    "Avaza",
-    "ClickUp",
+    "monday.com",
     "Miro",
-    "Notion"
+    "Airtable",
+    "Basecamp",
+    "Notion",
+    "Freshdesk",
+    "Zendesk",
+    "Wrike",
+    "ClickUp",
+    "Jira",
+    "Podio",
+    "Confluence by Atlassian",
+    "Help Scout",
+    "Filestage"
   ]
 }

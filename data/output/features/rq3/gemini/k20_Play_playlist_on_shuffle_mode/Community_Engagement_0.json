@@ -1,25 +1,25 @@
 
 {
   "a": [
-    "Poweramp",
+    "Spotify",
+    "YouTube Music",
+    "Apple Music",
+    "Deezer",
+    "Pandora",
+    "Tidal",
+    "Qobuz",
+    "Amazon Music Unlimited",
+    "SoundCloud",
+    "LiveOne",
+    "iHeartRadio",
+    "Audiomack",
+    "MusicBee",
+    "VLC Media Player",
     "BlackPlayer",
-    "Pulsar",
-    "Stellio",
-    "Retro Music",
-    "REAL Shuffle Player",
-    "True Shuffle Player",
-    "AIMP",
     "Musicolet",
-    "MediaMonkey",
-    "Rocket Player",
-    "Shuttle",
-    "VLC for Android",
-    "foobar2000",
-    "Pi Music Player",
-    "Oto Music",
-    "Phonograph Music Player",
     "Omnia Music Player",
-    "DoubleTwist",
-    "jetAudio"
+    "Poweramp",
+    "Pulsar",
+    "Last.fm"
   ]
 }

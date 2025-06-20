@@ -1,27 +1,27 @@
-Based on the ranking criteria of geographical availability, here are 20 game apps:
+It's difficult to provide an accurate ranking of 20 apps based solely on geographical availability without specific data on the number of countries each app is available in. This kind of information is also constantly changing. However, I can offer a list of 20 popular mobile games that are likely to have broad geographical availability based on their popularity and success:
 
 ```json
 {
-"a": [
-    "Garena Free Fire",
+  "a": [
     "Roblox",
-    "Subway Surfers",
     "Candy Crush Saga",
     "PUBG Mobile",
     "Call of Duty Mobile",
-    "Among Us",
+    "Free Fire",
+    "Minecraft",
+    "Subway Surfers",
     "Genshin Impact",
+    "Ludo King",
+    "8 Ball Pool",
     "Honor of Kings",
     "Royal Match",
-    "Last War:Survival",
     "MONOPOLY GO!",
-    "Block Blast!",
-    "Ludo King",
+    "Whiteout Survival",
+    "Last War:Survival",
+    "Pokémon GO",
+    "Clash of Clans",
     "Mobile Legends: Bang Bang",
-    "Brawl Stars",
-    "Bubble Shooter",
-    "Google Earth",
-    "Seterra Geography",
-    "GeoGuessr"
-]
+    "Honkai: Star Rail",
+    "Among Us"
+  ]
 }

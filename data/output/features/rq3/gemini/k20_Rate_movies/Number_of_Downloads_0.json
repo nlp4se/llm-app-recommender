@@ -1,27 +1,25 @@
-Based on the number of downloads, here are 20 apps to rate movies:
 
-```json
 {
   "a": [
-    "IMDb: Movies & TV Shows",
+    "IMDb",
+    "Letterboxd",
+    "Rotten Tomatoes",
     "JustWatch",
     "Moviebase",
-    "Raters: Movie Reviews, Ratings",
-    "Letterboxd",
-    "Criticker",
     "MUBI",
+    "Flixster",
+    "Metacritic",
     "MovieFone",
+    "Criticker",
     "YourNextFilm",
     "FilmStory",
     "BetaSeries",
+    "Cineast",
     "Universe of Movies And TV (UMAT)",
     "Action!",
-    "Cineast",
-    "Google TV",
-    "Apple TV",
-    "Real Good",
-    "Kernel",
-    "Showli",
-    "TMDB"
+    "Raters: Movie Reviews, Ratings on the App Store",
+    "Movie Pal",
+    "MovieMashApp",
+    "ReelSpeak Movie & TV Reviews"
   ]
 }

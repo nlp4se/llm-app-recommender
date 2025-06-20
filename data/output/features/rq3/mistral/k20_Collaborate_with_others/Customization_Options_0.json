@@ -3,23 +3,23 @@
   "a": [
     "Slack",
     "Microsoft Teams",
+    "Google Workspace",
     "Asana",
     "Trello",
-    "Google Workspace",
     "Zoom",
     "Miro",
     "Notion",
     "Monday.com",
+    "ClickUp",
     "Basecamp",
     "Figma",
     "Confluence",
     "Jira",
-    "ClickUp",
-    "Evernote",
     "Skype",
     "Discord",
-    "WhatsApp",
-    "Telegram",
-    "Signal"
+    "Evernote",
+    "Dropbox",
+    "Box",
+    "OneDrive"
   ]
 }

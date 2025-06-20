@@ -1,28 +1,26 @@
-Okay, I will recommend 20 note-taking apps based on geographical availability. I will use the App Store, Google Play, official app descriptions, official app websites, and tech blogs as my sources.
-
-Based on the available information and focusing on maximizing geographical availability, here's a ranked list of 20 note-taking apps. Please note that precise country-by-country availability data is difficult to obtain and constantly changes, so this is based on the general availability of popular apps across major platforms.
+Okay, I will identify and rank 20 note-taking apps based on their geographical availability, using information from the App Store, Google Play, official app descriptions, official websites, and tech blogs.
 
 ```json
 {
   "a": [
+    "Evernote",
     "Microsoft OneNote",
     "Google Keep",
-    "Evernote",
     "Apple Notes",
     "Notion",
     "Simplenote",
-    "Joplin",
-    "Obsidian",
-    "Zoho Notebook",
     "Standard Notes",
+    "Zoho Notebook",
     "Bear",
-    "UpNote",
-    "CollaNote",
-    "GoodNotes",
+    "Ulysses",
     "Notability",
-    "Nebo",
+    "GoodNotes",
     "Bear",
-    "Craft",
+    "Dropbox Paper",
+    "Obsidian",
+    "Roam Research",
+    "Joplin",
+    "Bear",
     "Milanote",
     "Slite"
   ]

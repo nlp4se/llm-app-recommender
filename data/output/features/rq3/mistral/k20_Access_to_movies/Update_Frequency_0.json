@@ -2,8 +2,8 @@
 {
   "a": [
     "Netflix",
-    "Hulu",
     "Amazon Prime Video",
+    "Hulu",
     "Disney+",
     "HBO Max",
     "Apple TV",
@@ -20,6 +20,6 @@
     "Mubi",
     "Crunchyroll",
     "Funimation",
-    "Plex"
+    "Shudder"
   ]
 }

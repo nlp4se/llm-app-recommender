@@ -1,25 +1,25 @@
 
 {
   "a": [
-    "Trebel",
     "Smart Shuffle",
-    "Spotify",
-    "YouTube Music",
-    "Apple Music",
-    "Deezer",
-    "Tidal",
-    "Amazon Music",
-    "Pandora",
-    "SoundCloud",
-    "iHeartRadio",
-    "Napster",
-    "Qobuz",
-    "JioSaavn",
-    "Gaana",
-    "Wynk Music",
-    "Hungama Music",
-    "Boomplay",
+    "Trebel",
     "Audiomack",
-    "Anghami"
+    "SoundCloud",
+    "Spotify",
+    "Wynk Music",
+    "Gaana",
+    "Hungama Music",
+    "YouTube Music",
+    "Boomplay",
+    "JioSaavn",
+    "Deezer",
+    "Anghami",
+    "Apple Music",
+    "Pandora",
+    "Napster",
+    "Amazon Music",
+    "Tidal",
+    "Qobuz",
+    "iHeartRadio"
   ]
 }

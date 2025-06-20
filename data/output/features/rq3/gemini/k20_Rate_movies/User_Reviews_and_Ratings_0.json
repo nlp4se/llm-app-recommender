@@ -1,25 +1,27 @@
+Based on the user review and rating ranking criteria, here are 20 apps to rate movies:
 
+```json
 {
   "a": [
     "IMDb",
     "Letterboxd",
+    "Moviebase",
+    "Raters: Movie Reviews, Ratings",
+    "Criticker",
+    "MUBI",
+    "Flixster",
+    "MovieFone",
+    "My Movie Review",
+    "Tubi",
+    "Pluto TV",
+    "Crackle",
+    "Flico",
+    "MovieLens",
     "Rotten Tomatoes",
     "Metacritic",
-    "Flixster",
-    "Moviebase",
-    "Movie Pal",
-    "Criticker",
-    "YourNextFilm",
-    "MovieFone",
-    "FilmStory",
-    "Raters",
     "Trakt",
-    "JustWatch",
-    "Plugged In – Movie Reviews",
-    "Movie Reviews (Voice)",
-    "Douban",
-    "DVDPedia",
-    "Roger Ebert",
-    "A.V. Club"
+    "YourNextFilm",
+    "FilmStory",
+    "PopcornFlix"
   ]
 }

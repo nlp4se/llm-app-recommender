@@ -1,25 +1,25 @@
 
 {
   "a": [
-    "Amazon App",
-    "BuyVia",
-    "Flipp",
-    "ShopSavvy",
-    "Price.com",
-    "RetailMeNot",
-    "Groupon",
-    "DealNews",
-    "iSlick",
-    "Deal Drop",
     "Honey",
+    "RetailMeNot",
     "Rakuten",
-    "Google Shopping",
-    "ShopMania",
-    "Yahoo Shopping",
-    "Unidays",
-    "Vouchercloud",
-    "HotUKDeals",
-    "MySupermarket",
-    "Too Good To Go"
+    "DealNews",
+    "Slickdeals",
+    "Woot",
+    "Ibotta",
+    "Fetch",
+    "Checkout 51",
+    "DealMachine",
+    "IFTTT",
+    "Zapier",
+    "Salesmate",
+    "CloseNow CRM",
+    "DealFlow Tracker",
+    "DealSync",
+    "Linkup",
+    "APILayer",
+    "Apigee API Exchange",
+    "Apidog's API Hub"
   ]
 }

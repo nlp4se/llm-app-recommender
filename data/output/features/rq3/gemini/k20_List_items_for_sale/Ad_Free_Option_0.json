@@ -1,27 +1,27 @@
-Okay, I will rank the apps based on the availability of an ad-free option.
+Based on the ranking criteria of the availability of an ad-free option, here are 20 apps to list items for sale. Note that the availability of an ad-free experience often comes through a subscription or a premium version of the app. The apps are listed in no particular order.
 
 ```json
 {
   "a": [
     "eBay",
+    "OfferUp",
     "Facebook Marketplace",
     "Poshmark",
     "Mercari",
-    "OfferUp",
+    "Depop",
     "Etsy",
     "thredUP",
     "Vinted",
-    "Craigslist",
-    "Nextdoor",
-    "Vestiaire Collective",
-    "Depop",
-    "Grailed",
+    "Tradesy",
     "Chairish",
-    "Letgo (Now Part of OfferUp)",
+    "Decluttr",
+    "Nextdoor",
+    "Letgo (integrated into OfferUp)",
+    "Vestiaire Collective",
+    "VarageSale",
     "5miles",
-    "Amazon Seller Central",
-    "Shopify",
-    "TikTok Shop",
-    "Tradet Marketplace"
+    "SellRaze",
+    "Shpock",
+    "Klasy"
   ]
 }

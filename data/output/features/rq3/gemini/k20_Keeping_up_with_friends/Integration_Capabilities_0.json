@@ -1,25 +1,25 @@
 
 {
   "a": [
-    "WhatsApp",
+    "IFTTT",
+    "Zapier",
     "Facebook",
     "Instagram",
-    "TikTok",
-    "Telegram",
-    "Snapchat",
-    "WeChat",
-    "Facebook Messenger",
+    "Twitter",
+    "LinkedIn",
+    "YouTube",
     "Discord",
-    "Signal",
-    "Viber",
-    "Line",
-    "Skype",
-    "Google Meet",
-    "Zoom",
-    "Houseparty",
-    "Marco Polo",
-    "Locket",
-    "BeReal",
-    "Threads"
+    "Buffer",
+    "Hootsuite",
+    "Planly",
+    "Google Sheets",
+    "Slack",
+    "Trello",
+    "OnlySocial",
+    "Meetup",
+    "Bumble BFF",
+    "Howbout",
+    "UNBLND",
+    "MeetMe"
   ]
 }

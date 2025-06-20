@@ -1,3 +1,4 @@
+
 {
   "a": [
     "Calm",
@@ -5,11 +6,12 @@
     "Duolingo",
     "Spotify",
     "Netflix",
-    "Google Maps",
-    "WhatsApp",
-    "Instagram",
-    "YouTube",
     "Amazon",
+    "YouTube",
+    "Instagram",
+    "WhatsApp",
+    "Facebook",
+    "Google Maps",
     "Uber",
     "Airbnb",
     "TikTok",
@@ -17,8 +19,7 @@
     "LinkedIn",
     "Pinterest",
     "Snapchat",
-    "Etsy",
-    "eBay",
-    "Shazam"
+    "Discord",
+    "Zoom"
   ]
 }

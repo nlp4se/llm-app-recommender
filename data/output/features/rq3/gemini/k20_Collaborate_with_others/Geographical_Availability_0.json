@@ -1,25 +1,25 @@
 
 {
   "a": [
-    "Slack",
     "Microsoft Teams",
-    "Google Workspace",
-    "Asana",
-    "Trello",
-    "Miro",
-    "Airtable",
-    "Monday.com",
+    "Slack",
     "Zoom",
-    "Basecamp",
-    "Wrike",
-    "Notion",
-    "Podio",
+    "Google Workspace (Google Docs, Google Meet, Google Drive, Google Chat)",
+    "Trello",
+    "Asana",
+    "Miro",
     "Filestage",
-    "Smartsheet",
-    "Zoho Projects",
-    "Ryver",
-    "Teamwork",
-    "ClickUp",
-    "Loom"
+    "Notion",
+    "ProofHub",
+    "Skype",
+    "GanttPRO",
+    "Confluence",
+    "Monday.com",
+    "Dropbox",
+    "Airtable",
+    "Zoho Office Suite",
+    "Yammer",
+    "LumApps",
+    "Talkspirit"
   ]
 }

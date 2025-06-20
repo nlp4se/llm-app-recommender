@@ -2,24 +2,24 @@
 {
   "a": [
     "WhatsApp",
-    "Facebook Messenger",
+    "Messenger",
     "Instagram",
     "Snapchat",
     "Telegram",
-    "Discord",
     "Signal",
+    "Discord",
     "Viber",
     "WeChat",
     "Line",
-    "Kik",
-    "Tango",
-    "Skype",
-    "Microsoft Teams",
-    "GroupMe",
     "KakaoTalk",
-    "Imo",
+    "GroupMe",
+    "imessage",
+    "Tango",
+    "Kik",
+    "Hangouts",
     "Marco Polo",
-    "Houseparty",
-    "BAND"
+    "BAND",
+    "HeyTell",
+    "Dust"
   ]
 }

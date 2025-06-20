@@ -5,8 +5,8 @@
     "Slack",
     "Google Workspace",
     "Zoom",
-    "Asana",
     "Trello",
+    "Asana",
     "Miro",
     "Notion",
     "Monday.com",
@@ -16,10 +16,10 @@
     "Confluence",
     "Jira",
     "Dropbox",
+    "OneDrive",
     "Evernote",
-    "Microsoft OneNote",
-    "Google Meet",
-    "Cisco Webex",
-    "GoToMeeting"
+    "Skype",
+    "Discord",
+    "Webex"
   ]
 }

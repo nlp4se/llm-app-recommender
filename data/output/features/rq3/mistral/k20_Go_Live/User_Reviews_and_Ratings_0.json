@@ -1,24 +1,24 @@
 
 {
   "a": [
-    "Instagram",
-    "Twitch",
-    "Facebook",
-    "YouTube",
     "TikTok",
-    "Snapchat",
-    "LinkedIn",
-    "Pinterest",
+    "Instagram",
+    "YouTube",
+    "Facebook",
+    "WhatsApp",
     "Twitter",
-    "Discord",
-    " Houseparty",
-    "Caffeine",
+    "Snapchat",
+    "Pinterest",
+    "LinkedIn",
     "Reddit",
-    "Triller",
-    "Periscope",
-    "Kumu",
-    "Mixer",
-    "VK",
-    "MeetMe"
+    "Spotify",
+    "Netflix",
+    "Amazon",
+    "Google Maps",
+    "Uber",
+    "Airbnb",
+    "Dropbox",
+    "Evernote",
+    "Slack"
   ]
 }

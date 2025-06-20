@@ -1,25 +1,27 @@
+Based on the ranking criteria of integration capabilities, here are 20 apps for watching streams, ordered from the highest to lowest integration capabilities:
 
+```json
 {
   "a": [
-    "Wowza",
-    "Muvi",
-    "Streamlabs Mobile",
-    "StreamYard",
-    "Wirecast",
-    "vMix",
-    "Uscreen",
+    "Zapier",
+    "BytePlus Live",
+    "Castr",
     "Dacast",
-    "VideoSDK",
-    "MirrorFly",
-    "ZEGOCLOUD",
-    "Vonage",
-    "Mux",
-    "100ms",
-    "Stream",
-    "Spotify",
+    "Wowza Streaming Engine",
+    "Muvi One",
+    "Brightcove",
+    "Uscreen",
+    "Vimeo OTT",
+    "JW Player",
+    "IBM Cloud Video",
+    "Plex",
     "YouTube",
-    "Twitch",
-    "IFTTT",
-    "Zapier"
+    "Hulu",
+    "Netflix",
+    "Tubi",
+    "Peacock TV",
+    "HBO Max",
+    "Vudu",
+    "FuboTV"
   ]
 }

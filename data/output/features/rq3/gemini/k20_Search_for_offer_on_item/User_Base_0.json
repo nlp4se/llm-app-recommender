@@ -1,27 +1,25 @@
-Based on the user base criterion, here are 20 apps to search for offers on items, ranked considering available data and general popularity:
 
-```json
 {
   "a": [
     "Honey",
-    "Rakuten (formerly Ebates)",
+    "Rakuten",
     "Ibotta",
-    "RetailMeNot",
-    "Slickdeals",
-    "Groupon",
-    "Shopkick",
     "Flipp",
     "ShopSavvy",
-    "Brad's Deals",
-    "Coupons.com",
+    "RetailMeNot",
+    "Amazon App",
+    "BuyVia",
+    "Price.com",
     "DealNews",
-    "Offers.com",
-    "VoucherCodes",
-    "Secret Escapes",
-    "Karma",
-    "GasBuddy",
+    "Drop",
     "The Coupons App",
+    "Shopkick",
     "Checkout 51",
-    "Compare Me"
+    "Receipt Hog",
+    "Target Circle and RedCard App",
+    "iSlick",
+    "Deal Drop",
+    "Google Shopper",
+    "Deals Finders"
   ]
 }

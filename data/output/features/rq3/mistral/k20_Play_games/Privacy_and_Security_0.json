@@ -2,24 +2,24 @@
 {
   "a": [
     "Signal",
-    "ProtonMail",
     "Telegram",
+    "WhatsApp",
+    "ProtonMail",
     "DuckDuckGo",
-    "Brave Browser",
+    "Brave",
+    "Firefox",
     "Bitwarden",
-    "1Password",
     "LastPass",
+    "1Password",
     "NordVPN",
     "ExpressVPN",
     "CyberGhost VPN",
     "Surfshark",
-    "Private Internet Access",
     "ProtonVPN",
-    "Windscribe",
-    "Mullvad VPN",
-    "Tutanota",
-    "Threema",
-    "Wickr Me",
-    "Jitsi Meet"
+    "Tor Browser",
+    "Orbot",
+    "Orfox",
+    "Jitsi Meet",
+    "Element"
   ]
 }

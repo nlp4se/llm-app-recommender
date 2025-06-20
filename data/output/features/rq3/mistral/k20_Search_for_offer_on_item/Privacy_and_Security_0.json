@@ -1,9 +1,9 @@
 
 {
   "a": [
-    "Signal",
-    "ProtonMail",
     "DuckDuckGo",
+    "ProtonVPN",
+    "Signal",
     "Telegram",
     "Brave Browser",
     "Firefox Focus",
@@ -14,12 +14,12 @@
     "ExpressVPN",
     "CyberGhost VPN",
     "Surfshark",
-    "ProtonVPN",
     "Windscribe",
     "TunnelBear",
     "Private Internet Access",
-    "Tor Browser",
-    "Keepass2Android",
-    "Orbot"
+    "ProtonMail",
+    "Tutanota",
+    "Threema",
+    "Wickr Me"
   ]
 }

@@ -10,16 +10,16 @@
     "Notion",
     "Evernote",
     "Dropbox",
-    "OneDrive",
     "Google Drive",
-    "Calendly",
-    "Zapier",
-    "IFTTT",
+    "OneDrive",
+    "Box",
+    "Airtable",
     "Miro",
     "Figma",
-    "Canva",
     "Adobe Creative Cloud",
-    "Spotify",
-    "Strava"
+    "Canva",
+    "Calendly",
+    "HubSpot",
+    "Salesforce"
   ]
 }

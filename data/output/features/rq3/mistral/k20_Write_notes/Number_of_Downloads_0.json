@@ -1,10 +1,10 @@
 
 {
   "a": [
-    "Notion",
     "Evernote",
     "Microsoft OneNote",
     "Google Keep",
+    "Notion",
     "Apple Notes",
     "Bear",
     "Zoho Notebook",
@@ -12,14 +12,14 @@
     "Ulysses",
     "GoodNotes",
     "Notability",
-    "Joplin",
-    "Standard Notes",
+    "Squid",
+    "Nebo",
+    "MetaMoJi Note",
+    "Microsoft Word",
+    "Google Docs",
+    "Quip",
+    "Dropbox Paper",
     "Craft",
-    "Agenda",
-    "Roam Research",
-    "Obsidian",
-    "Elephant",
-    "UpNote",
-    "Nimbus Note"
+    "Joplin"
   ]
 }

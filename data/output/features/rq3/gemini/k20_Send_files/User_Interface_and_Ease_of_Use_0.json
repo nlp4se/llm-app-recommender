@@ -1,25 +1,25 @@
 
 {
   "a": [
-    "Google Drive",
-    "WeTransfer",
+    "AirDroid",
     "Send Anywhere",
+    "WeTransfer",
     "Dropbox",
-    "AirDroid Personal",
+    "Google Drive",
+    "OneDrive",
+    "Box",
     "SHAREit",
     "Xender",
     "Zapya",
-    "Samsung Smart Switch",
-    "EasyShare",
-    "InShare",
-    "Microsoft OneDrive",
-    "iCloud Drive",
-    "Box",
-    "Filestage",
+    "Smash",
     "Hightail",
-    "MobileTrans App",
-    "Avica Remote Desktop",
-    "Nearby Share (Quick Share)",
-    "MediaFire"
+    "MediaFire",
+    "Mega",
+    "Filemail",
+    "TeraBox",
+    "pCloud Transfer",
+    "Tresorit Send",
+    "Sync",
+    "Firefox Send (discontinued, but conceptually relevant for understanding alternatives)"
   ]
 }

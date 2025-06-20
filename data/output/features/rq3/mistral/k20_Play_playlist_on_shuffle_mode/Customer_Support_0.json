@@ -1,4 +1,3 @@
-
 {
   "a": [
     "Spotify",
@@ -6,20 +5,20 @@
     "YouTube Music",
     "Deezer",
     "Tidal",
-    "Amazon Music",
     "Pandora",
+    "Amazon Music",
     "SoundCloud",
     "iHeartRadio",
     "Napster",
-    "Google Play Music",
-    "SiriusXM",
     "Qobuz",
     "Yandex.Music",
     "JioSaavn",
     "Gaana",
     "Anghami",
-    "Boomplay",
-    "KKBOX",
-    "MelOn"
+    "KKBox",
+    "Melon",
+    "Genie",
+    "Bugs!",
+    "Flo"
   ]
 }

@@ -1,25 +1,25 @@
 
 {
   "a": [
-    "eBay",
-    "Facebook Marketplace",
     "Poshmark",
-    "Etsy",
-    "Decluttr",
-    "OfferUp",
-    "Mercari",
-    "ThredUp",
-    "Vestiaire Collective",
-    "Amazon Seller",
-    "Craigslist",
-    "Shopify",
-    "Chairish",
     "Depop",
-    "5miles",
-    "Letgo (Now Part of OfferUp)",
-    "Nextdoor",
-    "VarageSale",
+    "Mercari",
+    "eBay",
+    "Etsy",
+    "Facebook Marketplace",
+    "OfferUp",
+    "Vinted",
+    "Grailed",
+    "ThredUp",
     "Vendoo",
-    "TheRealReal"
+    "Chairish",
+    "Kidizen",
+    "TheRealReal",
+    "Vestiaire Collective",
+    "Tradesy",
+    "Nextdoor",
+    "Decluttr",
+    "SellRaze",
+    "Amazon Seller"
   ]
 }

@@ -1,25 +1,25 @@
 
 {
   "a": [
+    "JustWatch",
+    "Reelgood",
+    "Plex",
+    "Teleparty (Netflix Party)",
+    "Scener",
+    "Kast",
+    "Hulu",
+    "Disney+",
     "Netflix",
     "Amazon Prime Video",
-    "Disney+",
-    "Hulu",
     "HBO Max",
+    "Tubi",
+    "Vudu",
+    "Peacock TV",
     "YouTube",
-    "Stremio",
-    "Kodi",
-    "Dacast",
-    "Mux",
-    "100ms",
-    "Wowza Streaming Engine",
-    "Ant Media Server",
-    "Muvi",
-    "Applicaster",
-    "JW Player",
-    "Vimeo",
-    "uNoGS API",
-    "Utelly API",
-    "IMDb API"
+    "Qewd",
+    "PlayOn",
+    "Trakt",
+    "Movieclips",
+    "Vimeo"
   ]
 }

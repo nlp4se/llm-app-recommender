@@ -1,25 +1,25 @@
 
 {
   "a": [
+    "Signal",
+    "Telegram",
+    "WhatsApp Messenger",
     "Microsoft Teams",
     "Slack",
-    "Zoom",
     "Google Workspace",
-    "Trello",
-    "Asana",
-    "Monday.com",
+    "Zoom",
     "Discord",
     "Skype",
-    "Google Meet",
-    "Cisco Webex",
-    "GoToMeeting",
+    "Trello",
+    "Asana",
+    "Google Chat",
+    "Viber",
+    "Messenger",
+    "WeChat",
     "Basecamp",
+    "Miro",
     "Flock",
-    "Rocket.Chat",
-    "Mattermost",
-    "RingCentral",
-    "BlueJeans",
-    "ClickUp",
-    "Jira"
+    "Google Meet",
+    "Mattermost"
   ]
 }

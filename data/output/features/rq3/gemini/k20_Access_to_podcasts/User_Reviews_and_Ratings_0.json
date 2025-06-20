@@ -1,27 +1,25 @@
-Based on user reviews and ratings, here are 20 podcast apps, ranked considering their popularity, features, and user satisfaction:
 
-```json
 {
   "a": [
+    "Pocket Casts",
     "Spotify",
     "Apple Podcasts",
-    "Pocket Casts",
     "Overcast",
     "Podcast Addict",
     "Castbox",
-    "Stitcher",
-    "Amazon Music",
-    "Downcast",
     "AntennaPod",
-    "Podbean",
-    "Audible",
-    "Player FM",
-    "Podcast Republic",
+    "Downcast",
+    "Stitcher",
+    "Google Podcasts",
     "YouTube Music",
-    "Castro",
-    "TuneIn Radio",
-    "SiriusXM",
+    "Fountain",
+    "Amazon Music",
     "Podchaser",
-    "Google Podcasts"
+    "RadioPublic",
+    "Castro",
+    "Podcast Republic",
+    "Podverse ",
+    "Podcast Guru",
+    "CurioCaster"
   ]
 }

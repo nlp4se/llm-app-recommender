@@ -2,24 +2,24 @@
 {
   "a": [
     "Spotify",
-    "Apple Music",
     "Deezer",
-    "YouTube Music",
     "SoundCloud",
-    "Amazon Music",
-    "Tidal",
+    "Apple Music",
+    "Amazon Music Unlimited",
     "Qobuz",
-    "Pandora",
+    "TIDAL",
+    "YouTube Music",
     "JioSaavn",
-    "Gaana",
-    "AT Player",
-    "Music Assistant",
-    "Shuttle Music Player",
+    "Plex",
+    "Emby",
+    "Navidrome",
+    "Substreamer",
     "Musicolet",
     "BlackPlayer",
-    "Media Monkey",
-    "Shuffle Music",
+    "Pulsar",
+    "Stellio",
     "REAL Shuffle Player",
-    "NEWM"
+    "Foldplay",
+    "Samba Network Music Player"
   ]
 }

@@ -1,25 +1,25 @@
 
 {
   "a": [
+    "WeTransfer",
     "Google Drive",
     "Dropbox",
     "Microsoft OneDrive",
-    "Box",
-    "WeTransfer",
-    "ShareFile by Citrix",
-    "MediaFire",
-    "TransferNow",
     "Send Anywhere",
-    "AirDroid Personal",
+    "Box",
+    "TransferNow",
+    "Filemail",
     "Filestage",
-    "pCloud",
-    "Smash",
+    "AirDroid",
+    "ShareFile",
+    "Hightail",
     "Files.com",
     "FileCloud",
-    "Egnyte",
-    "Tresorit",
-    "Hightail",
-    "MEGA",
-    "Sync.com"
+    "MediaFire",
+    "MOVEit",
+    "Stockpress",
+    "KnowledgeOwl",
+    "Filecamp",
+    "Pics.io"
   ]
 }
