@@ -1,6 +1,0 @@
-,0
-jaccard_similarity,Similarity of app presence patterns across runs (0-1)
-overlap_coefficient,Overlap in recommendations considering different recommendation frequencies (0-1)
-cosine_similarity,Cosine similarity between rank vectors (-1 to 1)
-spearman_correlation,Average Spearman correlation across all runs (aggregated only)
-kendall_correlation,Average Kendall Tau correlation across all runs (aggregated only)
