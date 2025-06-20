@@ -1,44 +1,214 @@
-## How to use
+# Empirical Study: LLM Behavior as System Recommenders in Mobile App Domain
 
-Create assistant
+An empirical research study that investigates how Large Language Models (LLMs) behave when deployed as system recommenders in the mobile app domain. This study systematically evaluates multiple LLM providers (OpenAI, Google Gemini, and Mistral) to understand their recommendation patterns, consistency, and behavior when generating app rankings based on specific features and categories.
 
-```python -m code.llm.openai.create_assistant_openai --system_prompt ./data/input/prompts/system-prompt.txt --model gpt-4o```
+## 📋 Study Overview
 
-Use assitant (UC1)
+This empirical investigation examines LLM behavior in mobile app recommendation scenarios across different AI-powered categories and features. The study focuses on:
 
-```python -m code.llm.openai.use_assistant_openai_uc1 --output ./data/output/uc1/openai --k 10 --category "sports tracking" --n 10 --model gpt-4o --sleep 10```
+- **Multi-LLM Behavioral Analysis**: Comparing recommendation patterns across OpenAI GPT-4, Google Gemini, and Mistral models
+- **Feature-Based Recommendation Studies**: Analyzing how LLMs generate app recommendations for specific app features (e.g., "Photo effects", "Go Live", "Collaborate with others")
+- **Category-Based Behavioral Analysis**: Examining LLM behavior when evaluating apps within AI-powered categories (e.g., "AI-powered entertainment", "AI-powered productivity")
+- **Consistency Measurement**: Quantifying ranking consistency both within and across different LLM models
+- **Behavioral Visualization**: Creating comprehensive visualizations of LLM recommendation patterns and criteria
 
-Process rankings
+## 📁 Project Structure
 
-```python -m code.data-processor.ranking_matrix --input_folder ./data/output/uc1/openai --output_folder ./data/output/uc1/openai --experiment_name user-prompt-uc1```
+```
+llm-recommender-system/
+├── code/                          # Main source code
+│   ├── llm/                      # LLM integration modules
+│   │   ├── google/               # Google Gemini implementation
+│   │   ├── mistral/              # Mistral AI implementation
+│   │   ├── openai/               # OpenAI implementation
+│   │   ├── create_assistant.py   # Abstract assistant creation
+│   │   └── use_assistant.py      # Assistant usage utilities
+│   ├── consistency/              # Ranking consistency analysis
+│   │   ├── app_consistency.py    # App ranking consistency
+│   │   ├── app_internal_consistency.py
+│   │   └── ranking_criteria_consistency.py
+│   ├── correlation/              # Correlation analysis tools
+│   ├── data-processor/           # Data processing utilities
+│   └── visualization/            # Visualization modules
+│       ├── criteria_visualization.py
+│       └── source_visualization.py
+├── data/                         # Data directory
+│   ├── input/                    # Input data and configurations
+│   │   ├── prompts/              # System and user prompts
+│   │   ├── schema/               # JSON schemas for responses
+│   │   └── use-case/             # Categories and features data
+│   ├── output/                   # Generated outputs
+│   │   ├── category/             # Category-based results
+│   │   ├── features/             # Feature-based results
+│   │   ├── evaluation/           # Evaluation metrics
+│   │   └── search/               # Search results
+│   └── assistants/               # Stored assistant IDs
+├── experiments-*.py              # Experiment runner scripts
+└── hot-fix.py                    # Utility scripts
+```
 
-Process recommendation ranking criteria
+## 🚀 Features
 
-```python -m code.data-processor.ranking_criteria --input_folder ./data/output/uc1/openai --output_folder ./data/output/uc1/openai --experiment_name user-prompt-uc1```
+### Supported LLM Providers
+- **OpenAI GPT-4**: Advanced reasoning and ranking capabilities
+- **Google Gemini**: Web search integration for real-time data
+- **Mistral AI**: Cost-effective alternative with strong performance
 
-After normalization, generate json criteria file
+### Analysis Capabilities
+- **Multi-Model Comparison**: Evaluate consistency across different LLMs
+- **Feature-Specific Rankings**: Generate recommendations for specific app features
+- **Category-Based Analysis**: Analyze apps within AI-powered categories
+- **Consistency Metrics**: 
+  - Rank-Biased Overlap (RBO)
+  - Jaccard Similarity
+  - Internal consistency (within model)
+  - External consistency (across models)
 
-```python -m code.data-processor.ranking_criteria_csv_to_json --input ./data/output/uc1/openai/ranking_criteria/ranking_criteria_normalized.xlsx --output ./data/output/uc1/openai/ranking_criteria/ranking_criteria_normalized.json```
+### Advanced Analytics
+- **Semantic Clustering**: Group similar ranking criteria using embeddings
+- **Active Learning**: Interactive threshold optimization for criteria deduplication
+- **Visualization**: Heatmaps, dendrograms, and comprehensive charts
+- **Data Processing**: Automated merging and cleaning of recommendation data
 
-Use assitant (UC2)
+## 🎯 Study Features
 
-```python -m code.llm.openai.use_assistant_openai_uc2 --output ./data/output/uc2/openai --k 10 --category "sports tracking" --ranking_criteria ./data/output/uc1/openai/ranking_criteria/ranking_criteria.json --n 10 --model gpt-4o --sleep 10```
+The empirical study examines LLM behavior when generating recommendations for 16 specific app features:
+- Broadcast messages to multiple contacts
+- Send files
+- Watch streams
+- Go Live
+- Play playlist on shuffle mode
+- Access to podcasts
+- Build photo collage
+- Photo effects
+- Access to movies
+- Rate movies
+- Keeping up with friends
+- Play games
+- Collaborate with others
+- Write notes
+- Search for offer on item
+- List items for sale
 
-Evaluate internal consistency
+## 🛠️ Experimental Setup
 
-```python -m code.evaluation.internal_consistency --uc1_file ./data/output/uc1/openai/user-prompt-uc1_rankings.csv --uc2_file ./data/output/uc2/openai/user-prompt-uc2_rankings.csv --output_path ./data/output/evaluation/openai/internal-consistency/all-criteria```
+### Prerequisites
+- Python 3.8+
+- Required API keys for LLM providers
 
-## Search-based
+### Environment Setup
+1. Clone the repository:
+```bash
+git clone <repository-url>
+cd llm-recommender-system
+```
 
-Use search OpenAI model
+2. Create a virtual environment:
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
 
-```python -m code.llm.openai.search_openai_uc1 --output ./data/output/search/uc1/openai --k 10 --category "sports tracking" --n 10 --model gpt-4o-search-preview --sleep 10```
+3. Install dependencies:
+```bash
+pip install -r requirements.txt
+```
 
-Extract ranking criteria
+4. Set up environment variables:
+```bash
+# Create .env file with your API keys
+OPENAI_API_KEY=your_openai_key
+GOOGLE_API_KEY=your_google_key
+MISTRAL_API_KEY=your_mistral_key
+```
 
-```python -m code.data-processor.ranking_criteria_to_csv --input-folder .\data\output\search\uc1\gemini\ --output-file-all .\data\output\search\uc1\gemini\ranking-criteria-all.csv --output-file-grouped .\data\output\search\uc1\gemini\ranking-criteria-grouped.csv```
+## 🔬 Running Experiments
 
-Internal consistency
+### Feature-Based Behavioral Analysis (RQ1)
+```bash
+# Run experiments for all LLM providers
+python experiments-gemini-rq1.py
+python experiments-mistral-rq1.py
+python experiments-openai-rq1.py
+```
 
-```python -m code.data-processor.ranking_matrix --input_folder .\data\output\search\uc1\gemini\k20_AI-powered_education\ --experiment_name user-prompt-uc1 --output_folder .\data\output\search\uc1\gemini\k20_AI-powered_education\ --category_name "AI-powered education" --max_rank 10```
+### Category-Based Behavioral Analysis (RQ3)
+```bash
+# Run category-based experiments
+python experiments-gemini-rq3.py
+python experiments-mistral-rq3.py
+python experiments-openai-rq3.py
+```
 
+### Individual LLM Searches
+
+#### Google Gemini
+```bash
+python -m code.llm.google.search_gemini_rq1 \
+    --output ./data/output/features/rq1/gemini/k20_Photo_effects \
+    --k 20 \
+    --search "Photo effects" \
+    --n 10 \
+    --model "gemini-2.0-flash" \
+    --system-prompt "data/input/prompts/system-prompt-output-rq1.txt"
+```
+
+#### OpenAI
+```bash
+python -m code.llm.openai.search_openai_rq1 \
+    --output ./data/output/features/rq1/openai/k20_Photo_effects \
+    --k 20 \
+    --search "Photo effects" \
+    --n 10 \
+    --model "gpt-4o" \
+    --system-prompt "data/input/prompts/system-prompt-output-rq1.txt"
+```
+
+#### Mistral
+```bash
+python -m code.llm.mistral.search_mistral_rq1 \
+    --output ./data/output/features/rq1/mistral/k20_Photo_effects \
+    --k 20 \
+    --search "Photo effects" \
+    --n 10 \
+    --model "mistral-large-latest" \
+    --system-prompt "data/input/prompts/system-prompt-output-rq1.txt"
+```
+
+### Consistency Analysis
+
+#### App Ranking Consistency
+```bash
+python -m code.consistency.app_consistency \
+    --input data/output/evaluation/app_rankings.csv \
+    --output data/output/evaluation/consistency
+```
+
+#### Ranking Criteria Consistency
+```bash
+python -m code.consistency.ranking_criteria_consistency \
+    --input data/output/evaluation/app_ranking_criteria.csv \
+    --output data/output/evaluation/consistency/ranking_criteria
+```
+
+### Visualization
+
+#### Criteria Visualization
+```bash
+python -m code.visualization.criteria_visualization \
+    --input data/output/features/rq1/gemini/all_criteria.csv \
+    --output data/output/features/rq1/gemini/ \
+    --similarity-threshold 0.72
+```
+
+#### Source Visualization
+```bash
+python -m code.visualization.source_visualization \
+    --input data/output/features/rq1/gemini/all_criteria.csv \
+    --output data/output/features/rq1/gemini/
+```
+
+## 📊 Experimental Output Structure
+
+### Generated Data
+- **JSON Responses**: Individual LLM responses for each experimental trial
