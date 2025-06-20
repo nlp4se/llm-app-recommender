@@ -1,0 +1,57 @@
+================================================================================
+CORRELATION ANALYSIS SUMMARY REPORT
+================================================================================
+
+1. MODEL-SPECIFIC ANALYSIS
+----------------------------------------
+Average correlation by model (blind vs guided recommendations):
+  mistral: 0.347
+  gemini: -0.055
+  openai: -0.082
+
+Average correlation by ranking criteria:
+  Platform_Compatibility: 0.257
+  Platform_Availability: 0.219
+  User_Reviews_and_Ratings: 0.193
+  Customer_Support: 0.184
+  User_Interface_and_Ease_of_Use: 0.180
+  User_Ratings: 0.170
+  Mobile_Optimization: 0.145
+  Update_Frequency: 0.129
+  Integration_Capabilities: 0.073
+  User_Base: 0.071
+
+2. CRITERIA-SPECIFIC ANALYSIS
+----------------------------------------
+Best performing criteria (highest average correlation):
+  Platform_Compatibility: 0.044
+  Platform_Availability: 0.025
+  User_Interface_and_Ease_of_Use: -0.005
+  User_Reviews_and_Ratings: -0.017
+  Update_Frequency: -0.036
+
+Best performing models (highest average correlation):
+  mistral: 0.029
+  openai: -0.132
+  gemini: -0.202
+
+3. INTER-CRITERIA ANALYSIS
+----------------------------------------
+Most similar ranking criteria pairs:
+  Platform_Availability ↔ Platform_Compatibility: 0.290
+  Customer_Support ↔ Platform_Compatibility: 0.245
+  User_Interface_and_Ease_of_Use ↔ User_Ratings: 0.245
+  Platform_Availability ↔ User_Interface_and_Ease_of_Use: 0.230
+  User_Ratings ↔ User_Reviews_and_Ratings: 0.229
+  User_Interface_and_Ease_of_Use ↔ User_Reviews_and_Ratings: 0.220
+  Platform_Compatibility ↔ User_Interface_and_Ease_of_Use: 0.214
+  Platform_Compatibility ↔ User_Ratings: 0.193
+  Customer_Support ↔ Platform_Availability: 0.192
+  Platform_Availability ↔ User_Ratings: 0.190
+
+4. KEY INSIGHTS
+----------------------------------------
+• Overall average correlation: 0.084
+• Low correlation suggests significant differences between blind and guided recommendations
+
+================================================================================

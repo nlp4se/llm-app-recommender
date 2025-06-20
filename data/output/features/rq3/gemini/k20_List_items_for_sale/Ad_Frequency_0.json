@@ -1,0 +1,27 @@
+Okay, I will recommend 20 apps for listing items for sale, ranked primarily by ad frequency (least frequent ads first, for free services). I will use a combination of available data and, where necessary, make reasonable assumptions to create the ranking. Given that I don't have real-time, precise ad frequency data for each app, I'll leverage user reviews and general app information to estimate the ranking.
+
+```json
+{
+  "a": [
+    "Facebook Marketplace",
+    "Craigslist",
+    "Nextdoor",
+    "OfferUp",
+    "5miles",
+    "Letgo (Now Part of OfferUp)",
+    "eBay",
+    "Mercari",
+    "Poshmark",
+    "Depop",
+    "Etsy",
+    "ThredUp",
+    "Decluttr",
+    "Vestiaire Collective",
+    "Chairish",
+    "Amazon Seller Central",
+    "Shopify",
+    "Vinted",
+    "Bonanza",
+    "Ruby Lane"
+  ]
+}

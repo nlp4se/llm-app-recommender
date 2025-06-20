@@ -1,0 +1,27 @@
+Based on user reviews, ratings, and overall quality, here are 20 apps to access movies:
+
+```json
+{
+  "a": [
+    "Netflix",
+    "Hulu",
+    "Disney+",
+    "Amazon Prime Video",
+    "Max",
+    "Peacock",
+    "Paramount+",
+    "Tubi",
+    "Apple TV+",
+    "Mubi",
+    "Criterion Channel",
+    "Pluto TV",
+    "Vudu",
+    "YouTube (Free Movies)",
+    "Kanopy",
+    "Freevee",
+    "Xumo",
+    "Plex",
+    "Sling TV",
+    "fuboTV"
+  ]
+}
