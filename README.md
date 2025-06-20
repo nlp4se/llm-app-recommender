@@ -212,3 +212,58 @@ python -m code.visualization.source_visualization \
 
 ### Generated Data
 - **JSON Responses**: Individual LLM responses for each experimental trial
+- **CSV Rankings**: Consolidated app rankings across all trials and models
+- **Consistency Metrics**: RBO and Jaccard similarity calculations
+- **Visualization Files**: Heatmaps, dendrograms, and analysis charts
+- **Evaluation Reports**: Comprehensive analysis of LLM behavior patterns
+
+### Data Organization
+```
+data/output/
+├── features/rq1/           # Feature-based analysis results
+│   ├── gemini/            # Google Gemini results
+│   ├── mistral/           # Mistral AI results
+│   └── openai/            # OpenAI results
+├── category/rq1/          # Category-based analysis results
+│   ├── gemini/            # Google Gemini results
+│   ├── mistral/           # Mistral AI results
+│   └── openai/            # OpenAI results
+├── evaluation/            # Consistency and correlation analysis
+│   ├── consistency/       # Ranking consistency metrics
+│   └── correlation/       # Cross-model correlation analysis
+└── search/               # Search functionality results
+```
+
+## 📈 Results and Analysis
+
+### Key Findings
+- **Model Consistency**: Analysis of ranking consistency within and across LLM models
+- **Feature Sensitivity**: How different app features affect recommendation patterns
+- **Category Behavior**: LLM behavior variations across AI-powered app categories
+- **Ranking Criteria**: Semantic analysis of ranking criteria used by different models
+
+### Visualization Examples
+- **Heatmaps**: Model comparison matrices showing ranking similarities
+- **Dendrograms**: Hierarchical clustering of ranking criteria
+- **Consistency Charts**: RBO and Jaccard similarity visualizations
+- **Correlation Plots**: Cross-model correlation analysis
+
+## 📚 References
+
+### Research Papers
+- ...
+
+### Technical Resources
+- [OpenAI API Documentation](https://platform.openai.com/docs)
+- [Google Gemini API Documentation](https://ai.google.dev/docs)
+- [Mistral AI API Documentation](https://docs.mistral.ai/)
+
+### Related Work
+- ....
+## 📄 License
+
+This project is licensed under the GPL version 3 - see the [LICENSE](LICENSE) file for details.
+
+## 📄 Acknowledgments
+
+- ...
