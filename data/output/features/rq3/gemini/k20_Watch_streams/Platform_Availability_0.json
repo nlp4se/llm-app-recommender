@@ -1,27 +1,24 @@
-Okay, I will provide a JSON formatted list of 20 apps for watching streams, ranked according to platform availability.
-
-```json
 {
   "a": [
     "Twitch",
-    "YouTube",
-    "Facebook Gaming",
-    "Kick",
-    "DLive",
-    "Trovo",
-    "Vimeo",
-    "Glip",
-    "REALITY",
-    "Rumble",
-    "Nimo TV",
-    "Periscope",
-    "YouNow",
-    "Mixer",
-    "BOOYAH!",
+    "YouTube Live",
+    "Streamlabs",
     "Prism Live Studio",
-    "StreamYard",
-    "Caffeine",
-    "PeerTube",
-    "Odysee"
+    "Mobizen Live",
+    "Facebook Live",
+    "Instagram Live",
+    "TikTok",
+    "StreamElements",
+    "Restream",
+    "XSplit Broadcaster",
+    "Wirecast Go",
+    "OBS Studio",
+    "vMix",
+    "Larix Broadcaster",
+    "nanoStream",
+    "AIRMIX",
+    "BroadcastMe",
+    "YouNow",
+    "Tango"
   ]
 }

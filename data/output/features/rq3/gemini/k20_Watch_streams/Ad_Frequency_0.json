@@ -1,27 +1,24 @@
-Okay, I will provide a ranked list of 20 apps for watching streams, based primarily on "Ad Frequency," meaning the number of ads displayed per hour. Since direct ad frequency data is often not explicitly published, I will use a combination of available information from user reviews, free tier descriptions (where available), independent reviews, and my general knowledge/estimation of the app landscape to create a ranked list. Note that "Personal Testing" data will not be available to me.
-
-```json
 {
   "a": [
-    "Kanopy",
+    "Vimeo",
     "Apple TV+",
-    "Criterion Channel",
-    "Netflix (Premium/Ad-Free)",
-    "Disney+ (Premium/Ad-Free)",
-    "Max (Ad-Free)",
-    "Hulu (No Ads)",
-    "Paramount+ with Showtime (Ad-Free)",
-    "Peacock (Premium Plus)",
-    "Tubi",
-    "Pluto TV",
-    "Freevee",
-    "Crackle",
-    "Sling Freestream",
-    "Xumo",
-    "Plex",
+    "Netflix",
     "YouTube",
-    "Vudu",
-    "Fubo Free",
-    "MyFree (DirecTV)"
+    "Peacock",
+    "Max",
+    "Hulu",
+    "Rumble",
+    "Trovo",
+    "Twitch",
+    "Dailymotion",
+    "Pluto TV",
+    "Tubi",
+    "The Roku Channel",
+    "Xumo Play",
+    "FuboTV",
+    "Sling",
+    "Philo",
+    "Streamlabs",
+    "Kick"
   ]
 }

@@ -1,27 +1,24 @@
-Based on the ranking criteria of the availability of an ad-free option, here are 20 apps to list items for sale. Note that the availability of an ad-free experience often comes through a subscription or a premium version of the app. The apps are listed in no particular order.
-
-```json
 {
   "a": [
     "eBay",
+    "Etsy",
     "OfferUp",
-    "Facebook Marketplace",
     "Poshmark",
     "Mercari",
-    "Depop",
-    "Etsy",
-    "thredUP",
-    "Vinted",
-    "Tradesy",
-    "Chairish",
     "Decluttr",
-    "Nextdoor",
-    "Letgo (integrated into OfferUp)",
+    "thredUP",
     "Vestiaire Collective",
-    "VarageSale",
+    "Chairish",
+    "Facebook Marketplace",
+    "Nextdoor",
     "5miles",
-    "SellRaze",
-    "Shpock",
-    "Klasy"
+    "VarageSale",
+    "Localyft",
+    "CPlus for Craigslist",
+    "CL Mobile",
+    "Postings",
+    "cPro",
+    "CLapp",
+    "CLX for Craigslist"
   ]
 }

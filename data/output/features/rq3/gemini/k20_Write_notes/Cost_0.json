@@ -1,27 +1,24 @@
-Okay, I will recommend 20 note-taking apps based on their cost. I will analyze whether the app is free, offers in-app purchases, or requires a subscription. Here's the JSON output:
-
-```json
 {
   "a": [
-    "Google Keep",
-    "Evernote",
     "Microsoft OneNote",
-    "Simplenote",
-    "Bear",
+    "Google Keep",
+    "Apple Notes",
+    "Evernote",
     "Notion",
-    "Zoho Notebook",
-    "Standard Notes",
     "Obsidian",
     "Joplin",
-    "Laverna",
-    "CollaNote",
-    "GoodNotes 5",
-    "Noteshelf",
-    "Nebo",
+    "UpNote",
+    "Simplenote",
+    "Zoho Notebook",
     "Bear",
+    "ProofHub",
     "Ulysses",
-    "iA Writer",
-    "Drafts",
-    "Roam Research"
+    "nTask",
+    "Slite",
+    "Trello",
+    "Asana",
+    "ClickUp Notepad",
+    "Dropbox Paper",
+    "Notepad"
   ]
 }

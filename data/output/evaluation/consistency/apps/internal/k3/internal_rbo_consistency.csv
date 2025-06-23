@@ -1,0 +1,49 @@
+feature,model,rbo
+Access to movies,openai,1.0
+Access to podcasts,openai,1.0
+Broadcast messages to multiple contacts,openai,0.8944649446494465
+Build photo collage,openai,0.9062730627306276
+Collaborate with others,openai,1.0
+Go Live,openai,0.9055350553505536
+Keeping up with friends,openai,0.738909389093891
+List items for sale,openai,0.49446494464944646
+Photo effects,openai,0.891512915129151
+Play games,openai,0.193439934399344
+Play playlist on shuffle mode,openai,1.0
+Rate movies,openai,0.9003690036900369
+Search for offer on item,openai,0.7084870848708487
+Send files,openai,0.8
+Watch streams,openai,0.7940959409594096
+Write notes,openai,0.6175481754817548
+Access to movies,mistral,0.851660516605166
+Access to podcasts,mistral,1.0
+Broadcast messages to multiple contacts,mistral,1.0
+Build photo collage,mistral,0.9402214022140222
+Collaborate with others,mistral,0.9468634686346865
+Go Live,mistral,0.9261992619926199
+Keeping up with friends,mistral,0.8760147601476015
+List items for sale,mistral,1.0
+Photo effects,mistral,0.48733087330873315
+Play games,mistral,0.9468634686346863
+Play playlist on shuffle mode,mistral,1.0
+Rate movies,mistral,1.0
+Search for offer on item,mistral,1.0
+Send files,mistral,0.7151291512915129
+Watch streams,mistral,0.9077490774907746
+Write notes,mistral,1.0
+Access to movies,gemini,0.8199261992619925
+Access to podcasts,gemini,0.4997949979499794
+Broadcast messages to multiple contacts,gemini,0.16432964329643296
+Build photo collage,gemini,0.4077080770807707
+Collaborate with others,gemini,0.8464944649446497
+Go Live,gemini,0.6978123352662099
+Keeping up with friends,gemini,0.4618286182861828
+List items for sale,gemini,0.9468634686346863
+Photo effects,gemini,0.38687986879868785
+Play games,gemini,0.10742107421074211
+Play playlist on shuffle mode,gemini,0.4455719557195571
+Rate movies,gemini,0.8311603116031162
+Search for offer on item,gemini,0.21968019680196804
+Send files,gemini,0.6857728577285774
+Watch streams,gemini,0.7756457564575645
+Write notes,gemini,0.50660106601066

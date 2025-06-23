@@ -1,27 +1,24 @@
-Okay, I will rank 20 photo collage apps based on their integration capabilities.
-
-```json
 {
   "a": [
-    "PicsArt",
+    "Picsart",
     "Canva",
-    "Adobe Express",
     "Fotor",
-    "PhotoGrid",
-    "PicCollage",
+    "Adobe Express (formerly Adobe Spark)",
+    "PhotoDirector",
     "BeFunky Collage Maker",
-    "Google Photos",
+    "PicCollage",
+    "Moldiv",
     "Pixlr",
-    "MOLDIV",
-    "Diptic",
-    "PhotoRoom",
-    "Bannerbear",
-    "Claid",
-    "Visme",
-    "Photo Blend & Shape Collage Maker",
-    "Shape Collage Photo Editor",
-    "Layout from Instagram",
     "PicPlayPost",
-    "Photo Collage Maker"
+    "PiZap",
+    "Diptic",
+    "Google Photos",
+    "IFTTT DO Camera",
+    "PhotoGrid",
+    "Collage Maker - LiveCollage",
+    "Layout by Instagram",
+    "Photovisi",
+    "Ribbet",
+    "PhotoCollage"
   ]
 }

@@ -1,27 +1,24 @@
-Based on community engagement, here are 20 apps for sending files, ranked according to the available information and focusing on platforms that facilitate community interaction around file sharing:
-
-```json
 {
   "a": [
-    "Slack",
-    "Discord",
     "Google Drive",
     "Dropbox",
+    "Slack",
     "Microsoft OneDrive",
     "Box",
-    "NextCloud",
-    "OwnCloud",
-    "ProjectSend",
-    "Zoho Docs",
+    "WeTransfer",
+    "Hightail",
+    "FileCloud",
+    "ShareFile",
+    "MediaFire",
+    "Telegram",
+    "AirDroid",
+    "Xender",
+    "ShareMe",
+    "EasyShare",
+    "Zapya",
     "Quip",
-    "Circle",
-    "Mighty Networks",
-    "Hivebrite",
-    "Tradewing",
-    "Breezio",
-    "Personify Community",
-    "MemberNova",
-    "Discourse",
-    "Facebook Groups"
+    "Zoho Docs",
+    "ProjectSend",
+    "Feem"
   ]
 }

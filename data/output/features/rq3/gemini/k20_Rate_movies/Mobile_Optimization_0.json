@@ -1,27 +1,24 @@
-Based on the criterion of mobile optimization (performance and features specific to mobile devices) and considering user reviews, app descriptions, and other available information, here's a ranked list of 20 movie rating apps:
-
-```json
 {
   "a": [
     "IMDb",
     "Letterboxd",
-    "Rotten Tomatoes (Flixster)",
-    "Metacritic",
+    "Rotten Tomatoes",
+    "Trakt.tv",
     "Moviebase",
-    "Criticker",
-    "YourNextFilm",
-    "MovieFone",
+    "JustWatch",
     "Fandango",
-    "Plugged In Movie Reviews",
-    "ReelSpeak",
-    "Roger Ebert",
-    "The Guardian film section",
-    "Flico",
-    "DVDPedia",
-    "Douban",
-    "Movie Reviews (Voice)",
-    "FilmStory",
-    "MovieMashApp",
-    "Trakt"
+    "Cineast",
+    "Pluto TV",
+    "Tubi TV",
+    "Crackle",
+    "Viewster",
+    "SnagFilms",
+    "PopcornFlix",
+    "MyDramaList",
+    "Google TV",
+    "Apple TV",
+    "RealGood",
+    "BetaSeries",
+    "Kernel"
   ]
 }

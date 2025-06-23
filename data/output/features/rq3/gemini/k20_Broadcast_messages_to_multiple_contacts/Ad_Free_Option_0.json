@@ -1,27 +1,24 @@
-Okay, I understand. I need to identify and rank 20 apps that allow broadcasting messages to multiple contacts, based primarily on whether they offer an ad-free option.
-
-```json
 {
   "a": [
     "Broadcast Messenger",
-    "Group Text | Fast Messaging",
-    "Signal",
-    "Briar",
-    "Hit Em Up: Mass Text Bulk SMS",
-    "Multi SMS & Group SMS",
+    "Signal Private Messenger",
+    "WhatsApp Business (via API solutions like Interakt or AiSensy)",
+    "Telegram Messenger",
+    "TextSpot (offers a free trial)",
+    "Textmagic",
+    "SlickText",
     "Mobile Text Alerts",
-    "Textedly",
-    "SimpleTexting",
-    "ClickSend",
-    "TextMagic",
+    "Twilio",
+    "Textedly (offers a free trial)",
     "EZ Texting",
-    "Discord",
+    "WASender (offers a free version)",
+    "SimpleTexting",
+    "Salesmsg",
+    "Textla",
     "SleekFlow",
-    "WhatsApp Business",
-    "Telegram",
-    "Viber",
-    "Messenger",
-    "DialMyCalls",
-    "Interakt"
+    "MailChimp",
+    "Hustle",
+    "Group Text | Mass Text message",
+    "Google Voice"
   ]
 }

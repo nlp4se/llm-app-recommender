@@ -1,29 +1,24 @@
-I need to gather information about photo collage apps from the App Store and Google Play Store to evaluate their user base and provide a relevant ranking.
-
-Based on the search results, here's a ranked list of 20 photo collage apps, prioritizing user base and popularity:
-
-```json
 {
   "a": [
+    "PicCollage",
+    "PhotoGrid",
     "PicsArt",
     "Canva",
-    "PicCollage",
-    "PhotoDirector",
-    "PhotoGrid",
+    "InCollage",
     "Collage Maker | Photo Editor",
     "YouCam Perfect",
+    "Adobe Express",
     "MOLDIV",
-    "Collageable",
-    "piZap",
-    "FotoJet",
-    "Fotor Collage Maker",
-    "PicPlayPost",
-    "Mixgram",
-    "Ribbet",
+    "Pixlr",
+    "PhotoDirector",
+    "LiveCollage",
+    "piZap Photo Editor & Design",
     "Photo Collage Maker & Creator",
+    "Collageable",
+    "PicPlayPost",
+    "Ribbet",
     "Layout from Instagram",
-    "Diptic",
     "SCRL",
-    "BeFunky Collage Maker"
+    "Fotor Collage Maker"
   ]
 }

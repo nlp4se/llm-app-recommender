@@ -1,27 +1,24 @@
-I need to gather information about the number of active users on different live streaming platforms to rank them effectively. I will use the app stores, company reports, and industry analyses to determine the user base for each app.
-
-```json
 {
   "a": [
-    "TikTok Live",
-    "Twitch",
+    "Netflix",
     "YouTube Live",
-    "Facebook Live",
-    "Instagram Live",
-    "BIGO LIVE",
-    "MeetMe Live",
-    "Kick",
-    "Paltalk",
-    "DLive",
-    "Streamlabs",
-    "Periscope",
-    "LiveMe",
-    "Nonolive",
-    "Houseparty",
-    "Discord",
-    "Vaughn Live",
-    "MeetMe",
-    "Camfrog",
-    "Rumble"
+    "Amazon Prime Video",
+    "TikTok Live",
+    "Disney+",
+    "Max",
+    "Paramount+",
+    "Hulu",
+    "Peacock",
+    "Tencent Video",
+    "iQIYI",
+    "ESPN+",
+    "Apple TV+",
+    "Hotstar",
+    "Twitch",
+    "SonyLiv",
+    "DAZN",
+    "Pluto TV",
+    "Roku Channel",
+    "Tubi"
   ]
 }

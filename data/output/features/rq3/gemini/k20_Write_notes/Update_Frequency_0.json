@@ -1,27 +1,24 @@
-Okay, I will rank the top 20 note-taking apps based on the "Update Frequency" criterion, as defined in the prompt.
-
-```json
 {
   "a": [
+    "ClickUp",
     "Notion",
     "Evernote",
     "Microsoft OneNote",
-    "Google Keep",
     "Apple Notes",
+    "Google Keep",
     "Obsidian",
-    "Simplenote",
-    "Bear",
-    "Roam Research",
-    "Standard Notes",
-    "Zoho Notebook",
     "Joplin",
-    "Microsoft Sticky Notes",
+    "Simplenote",
     "Capacities",
-    "Microsoft Loop",
-    "Milanote",
-    "GoodNotes",
-    "Notability",
-    "Samsung Notes",
-    "Craft"
+    "NotePlan",
+    "Reflect Notes",
+    "Anytype",
+    "RemNote",
+    "Amplenote",
+    "Bear",
+    "UpNote",
+    "Coda",
+    "Xtiles",
+    "Scrintal"
   ]
 }

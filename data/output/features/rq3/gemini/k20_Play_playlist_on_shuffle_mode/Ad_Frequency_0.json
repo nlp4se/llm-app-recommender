@@ -1,27 +1,24 @@
-Okay, I will provide a JSON formatted list of 20 apps that play playlists on shuffle mode, ranked primarily by "Ad Frequency" (number of ads displayed per hour of viewing for free services), and secondarily by overall user rating and library size. Keep in mind that precise ad frequency data is difficult to obtain and can vary. The ranking is based on a combination of available data and estimations.
-
-```json
 {
   "a": [
-    "Symfonium",
-    "Pulsar Music Player",
-    "BlackPlayer EX",
-    "Retro Music Player",
-    "Musicolet Music Player",
-    "Shuttle Music Player",
+    "Musicolet",
     "AIMP",
-    "Namida",
-    "Audiofy",
-    "Lotus",
-    "Minimalist Music Player",
-    "REAL Shuffle Player",
-    "Poweramp",
+    "BlackPlayer",
+    "Pulsar Music Player",
+    "VLC",
+    "Vanilla Music",
+    "Auxio",
+    "Retro Music Player",
+    "Fossify Music Player",
+    "Symphony",
+    "Oto Music",
+    "Nyx Music Player",
+    "Frolomuse",
+    "Freefy",
     "KM Player",
-    "Music X",
-    "jetAudio HD Music Player",
+    "Gonemad Music Player",
     "Rocket Player",
-    "Stellio Music Player",
-    "Muzio",
-    "CLS Music Player"
+    "Shuttle Music Player",
+    "Poweramp",
+    "Apple Music"
   ]
 }

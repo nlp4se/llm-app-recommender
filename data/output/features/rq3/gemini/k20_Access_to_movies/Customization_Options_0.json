@@ -1,27 +1,24 @@
-Okay, I will provide a JSON file containing 20 movie streaming apps based on Customization Options. I will use web searches to gather the information.
-
-```json
 {
   "a": [
-    "Muvi One",
+    "Muvi",
     "VPlayed",
-    "Uscreen",
-    "Vimeo OTT",
-    "Dacast",
-    "Filmgrail",
+    "Enjoy Movies Your Way",
     "Plex",
     "Tubi",
+    "Hulu",
     "Netflix",
     "Amazon Prime Video",
-    "Hulu",
     "Disney+",
-    "HBO Max",
-    "Peacock TV",
-    "Paramount+",
-    "Pluto TV",
     "Crackle",
-    "Vudu",
-    "Cyberflix TV",
-    "FlixHQ"
+    "The Roku Channel",
+    "Fandango at Home",
+    "VLC Media Player",
+    "IMDb TV",
+    "Peacock",
+    "Brightcove",
+    "Dacast",
+    "Streamit",
+    "PlayLab",
+    "Funflix"
   ]
 }

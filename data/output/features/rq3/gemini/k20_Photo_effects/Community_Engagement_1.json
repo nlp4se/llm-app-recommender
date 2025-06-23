@@ -1,27 +1,24 @@
-Okay, I will rank 20 photo effects apps based on community engagement, considering data from social media, community forums, in-app activity, user forums, and user reviews. Since I do not have real-time access to app store data or live social media/forum activity, the ranking below is based on my general knowledge and previously available information of popular photo editing apps and their perceived community engagement. The apps listed are not in any specific order. I will run some searches to ensure I have the latest information possible.
-
-```json
 {
   "a": [
+    "PicsArt",
     "VSCO",
-    "Picsart",
-    "Adobe Lightroom Mobile",
     "Snapseed",
+    "Adobe Lightroom Mobile",
     "Polarr",
-    "Afterlight",
-    "Photoshop Express",
+    "PhotoDirector",
     "Fotor",
     "YouCam Perfect",
     "Remini",
-    "Pixelup",
-    "PicWish",
-    "PixelCut",
-    "Lensa AI Photo Editor",
-    "Phonto",
+    "Afterlight",
     "Prisma",
-    "PhotoDirector",
-    "Pixlr",
-    "ColorSplash Magic",
-    "SnapEdit Pro"
+    "Facetune",
+    "A Color Story",
+    "Foodie",
+    "Google Photos",
+    "Adobe Photoshop Express",
+    "Pixelmator",
+    "GIMP",
+    "Darktable",
+    "Photopea"
   ]
 }

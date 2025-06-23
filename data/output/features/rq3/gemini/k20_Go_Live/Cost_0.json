@@ -1,13 +1,24 @@
-I need more information to accurately rank "Go Live" apps. Please provide the following:
-
-1.  **App Category:** What specific type of "Go Live" apps are you interested in (e.g., social media live streaming, game streaming, professional webinars, etc.)?
-2.  **Ranking Criteria Weights:** How important is "Cost" compared to other factors? If "Cost" is the *only* criteria, please specify that explicitly.
-3.  **Other Criteria:** Besides "Cost," what other criteria are important for ranking these apps? Examples could include:
-    *   **Features:** (e.g., screen sharing, guest hosting, monetization options, recording quality, audience engagement tools)
-    *   **Platform Compatibility:** (e.g., iOS, Android, web)
-    *   **User Ratings/Reviews:** (e.g., average rating, number of reviews, sentiment analysis of reviews)
-    *   **Audience Size/Popularity:** (e.g., estimated active users, download numbers)
-    *   **Ease of Use:** (e.g., intuitive interface, setup process)
-    *   **Reliability:** (e.g., stability, uptime)
-
-Once I have this information, I can create a relevant ranking system and provide you with a list of 20 "Go Live" apps that meet your needs.
+{
+  "a": [
+    "Twitch",
+    "Facebook Live",
+    "Instagram Live",
+    "YouTube Live",
+    "TikTok",
+    "Tubi",
+    "Pluto TV",
+    "Plex",
+    "Peacock",
+    "Hulu",
+    "Philo",
+    "Sling TV",
+    "DirecTV",
+    "XUMO",
+    "VK Live",
+    "StreamYard",
+    "Prism Live Studio",
+    "Yupp TV",
+    "Fubo",
+    "Periscope"
+  ]
+}

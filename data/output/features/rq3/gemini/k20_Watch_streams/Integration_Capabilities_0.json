@@ -1,27 +1,24 @@
-Based on the ranking criteria of integration capabilities, here are 20 apps for watching streams, ordered from the highest to lowest integration capabilities:
-
-```json
 {
   "a": [
+    "Twitch",
+    "YouTube Live",
+    "Streamlabs",
+    "OBS Studio",
+    "Restream",
+    "StreamYard",
+    "IFTTT",
     "Zapier",
-    "BytePlus Live",
-    "Castr",
+    "Discord",
+    "Spotify",
+    "Facebook Pages",
+    "Google Sheets",
+    "Google Calendar",
+    "Prism Live Studio",
+    "Lightstream",
+    "Cinamaker Director Studio",
+    "Wowza",
     "Dacast",
-    "Wowza Streaming Engine",
-    "Muvi One",
-    "Brightcove",
-    "Uscreen",
-    "Vimeo OTT",
-    "JW Player",
-    "IBM Cloud Video",
-    "Plex",
-    "YouTube",
-    "Hulu",
-    "Netflix",
-    "Tubi",
-    "Peacock TV",
-    "HBO Max",
-    "Vudu",
-    "FuboTV"
+    "Mux",
+    "Video SDK"
   ]
 }

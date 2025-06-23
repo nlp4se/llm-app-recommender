@@ -1,0 +1,49 @@
+feature,model,jaccard
+Access to movies,openai,1.0
+Access to podcasts,openai,0.9353535353535354
+Broadcast messages to multiple contacts,openai,0.843771043771044
+Build photo collage,openai,0.7821807821807824
+Collaborate with others,openai,0.8008806008806011
+Go Live,openai,0.6516002516002514
+Keeping up with friends,openai,0.6491582491582493
+List items for sale,openai,0.7005809005809005
+Photo effects,openai,0.865993265993266
+Play games,openai,0.1550844538254239
+Play playlist on shuffle mode,openai,1.0
+Rate movies,openai,0.6076054664289957
+Search for offer on item,openai,0.6196945030278365
+Send files,openai,0.6972064972064972
+Watch streams,openai,0.544731376103925
+Write notes,openai,0.865993265993266
+Access to movies,mistral,1.0
+Access to podcasts,mistral,0.9353535353535354
+Broadcast messages to multiple contacts,mistral,0.5504717504717505
+Build photo collage,mistral,0.6778554778554781
+Collaborate with others,mistral,0.8133126133126134
+Go Live,mistral,0.652110852110852
+Keeping up with friends,mistral,0.6962148962148961
+List items for sale,mistral,0.7455063455063454
+Photo effects,mistral,0.7423317423317424
+Play games,mistral,0.7747733747733748
+Play playlist on shuffle mode,mistral,1.0
+Rate movies,mistral,0.38316683316683314
+Search for offer on item,mistral,0.6363340363340362
+Send files,mistral,0.6352462352462352
+Watch streams,mistral,0.9353535353535354
+Write notes,mistral,0.7993265993265991
+Access to movies,gemini,0.6110630110630111
+Access to podcasts,gemini,0.6592666592666593
+Broadcast messages to multiple contacts,gemini,0.44239649239649226
+Build photo collage,gemini,0.28170558371796756
+Collaborate with others,gemini,0.6004736004736004
+Go Live,gemini,0.4608159697445412
+Keeping up with friends,gemini,0.32698857920736146
+List items for sale,gemini,0.5918155918155917
+Photo effects,gemini,0.39812882145183487
+Play games,gemini,0.1530633815979533
+Play playlist on shuffle mode,gemini,0.2302650599219226
+Rate movies,gemini,0.5028878528878529
+Search for offer on item,gemini,0.3796113358032862
+Send files,gemini,0.4611092611092609
+Watch streams,gemini,0.22482028348901414
+Write notes,gemini,0.842942242942243

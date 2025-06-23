@@ -1,27 +1,24 @@
-Okay, I will provide a ranking of 20 movie rating apps based on the availability of an ad-free option.
-
-```json
 {
   "a": [
     "Letterboxd",
     "IMDb",
     "Moviebase",
     "Criticker",
-    "Rotten Tomatoes",
-    "Tubi",
-    "Filmrise",
+    "Trakt",
+    "MUBI",
     "Plex",
+    "Tubi",
+    "Crackle",
+    "Sholi",
+    "Google TV",
     "JustWatch",
+    "Reelgood",
     "Movie Pal",
-    "Roger Ebert",
-    "Guardian Film",
-    "Peacock",
-    "Hulu",
-    "Flico",
-    "MovieFone",
-    "YourNextFilm",
-    "FilmStory",
-    "Recall",
-    "My Movies & TV Shows Watchlist"
+    "Kanopy",
+    "Pluto TV",
+    "The Roku Channel",
+    "Amazon Prime Video",
+    "Disney+",
+    "Kernel"
   ]
 }

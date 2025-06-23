@@ -1,27 +1,24 @@
-Okay, I'm ready to identify and rank 20 photo collage apps based on geographical availability. Here's the JSON output containing the ranked list of apps.
-
-```json
 {
   "a": [
+    "Pic Collage",
     "PicsArt",
-    "YouCam Perfect",
-    "PhotoDirector",
-    "PicCollage",
-    "Canva",
     "PhotoGrid",
-    "Collageable",
+    "InCollage - Collage Maker",
+    "Moldiv",
+    "PicPlayPost",
+    "PiZap",
+    "Canva",
+    "PhotoDirector",
     "Collage Maker - LiveCollage",
-    "piZap Photo Editor",
-    "MOLDIV",
+    "Photo Collage Maker & Creator",
+    "Collageable",
+    "Mixgram",
     "Ribbet",
-    "Fotor Collage Maker",
-    "Pic Stitch",
-    "Photo Editor - Collage Maker",
-    "InCollage",
-    "Layout from Instagram",
-    "Adobe Spark",
-    "Adobe Photoshop Express",
-    "Google Photos",
-    "Mixgram"
+    "Photo Collage Maker - Mixgram",
+    "Photo Collage Maker PicJointer",
+    "Picture Collage Maker - Frames",
+    "Photo Collage Maker & Printer",
+    "Photo Blend & Shape Collage",
+    "Easy Photo Collage Maker"
   ]
 }

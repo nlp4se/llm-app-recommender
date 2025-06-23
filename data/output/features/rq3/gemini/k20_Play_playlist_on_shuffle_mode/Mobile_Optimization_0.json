@@ -1,27 +1,24 @@
-Based on the ranking criteria "Mobile Optimization" (performance and features specific to mobile devices), here's a ranked list of 20 apps that offer playlist shuffle mode, with an emphasis on mobile-friendliness and user experience:
-
-```json
 {
   "a": [
-    "True Shuffle Player",
-    "REAL Shuffle Player",
-    "Retro Music Player",
+    "Poweramp",
     "BlackPlayer",
-    "Pulsar Music Player",
-    "Stellio Music Player",
-    "jetAudio HD Music Player",
-    "Poweramp Music Player",
-    "Musicolet Music Player",
-    "Folder Player",
-    "Music Folder Player",
+    "Pulsar",
     "AIMP",
-    "Shuttle Music Player",
+    "VLC Media Player",
+    "Gonemad Music Player",
+    "Retro Music Player",
+    "Musicolet",
+    "Media Monkey",
     "Rocket Player",
-    "gonemad Music Player",
-    "KM Player",
-    "Spotify",
-    "Virtual Shuffle – Truly Random (for Spotify)",
-    "Music Player - Play, Shuffle & Repeat",
-    "Shuffle Music"
+    "Shuttle Music Player",
+    "Nyx Music Player",
+    "Oto Music",
+    "Frolomuse",
+    "Symphony",
+    "Fossify Music Player",
+    "REAL Shuffle Player",
+    "n7player",
+    "Soul Searching",
+    "Nothing Music"
   ]
 }

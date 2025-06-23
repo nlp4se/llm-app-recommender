@@ -1,27 +1,24 @@
-Based on user ratings and popularity as a key indicator, here are 20 apps for watching streams, ranked accordingly:
-
-```json
 {
   "a": [
     "Netflix",
+    "YouTube TV",
     "Disney+",
     "Hulu",
     "Amazon Prime Video",
-    "Max",
-    "Peacock",
-    "Paramount+",
-    "YouTube TV",
-    "Apple TV+",
-    "Sling TV",
     "Tubi",
-    "Fubo TV",
-    "ESPN+",
     "Crunchyroll",
-    "Pluto TV",
-    "DirecTV Stream",
-    "Discovery+",
-    "Now TV",
-    "Curiosity Stream",
-    "ViX"
+    "Fubo",
+    "Peacock",
+    "Apple TV+",
+    "Max",
+    "Paramount+",
+    "ESPN+",
+    "STARZ",
+    "Philo",
+    "Vudu",
+    "Plex",
+    "The Roku Channel",
+    "Kanopy",
+    "Midnight Pulp"
   ]
 }

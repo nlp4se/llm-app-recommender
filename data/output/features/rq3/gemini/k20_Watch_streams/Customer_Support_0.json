@@ -1,27 +1,24 @@
-Okay, I will provide a ranking of 20 apps for watching streams, focusing on the quality of their customer support as the primary ranking criterion.
-
-```json
 {
   "a": [
-    "Netflix",
-    "Amazon Prime Video",
-    "Disney+",
-    "Max",
-    "Hulu",
-    "YouTube TV",
-    "Peacock",
-    "Paramount+",
-    "Apple TV+",
-    "Sling TV",
-    "Fubo",
-    "Philo",
+    "OneStream Live",
+    "Twitch",
+    "Uscreen",
+    "Vimeo",
+    "Restream",
+    "Dacast",
+    "YouTube Live",
+    "Hulu + Live TV",
     "DirecTV Stream",
-    "ESPN+",
-    "Starz",
+    "Netflix",
+    "Max",
     "Crunchyroll",
+    "Discovery+",
     "Tubi",
-    "Pluto TV",
-    "Freevee",
-    "Plex"
+    "Amazon Prime Video",
+    "Peacock",
+    "MGM+",
+    "STARZ",
+    "ESPN+",
+    "Apple TV+"
   ]
 }

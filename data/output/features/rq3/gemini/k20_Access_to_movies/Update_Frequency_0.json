@@ -1,27 +1,24 @@
-Okay, I'm ready to recommend and rank 20 movie streaming apps based on update frequency. Here's the JSON output.
-
-```json
 {
   "a": [
     "Netflix",
-    "Hulu",
     "Amazon Prime Video",
+    "Hulu",
     "Disney+",
     "Max",
-    "Peacock",
     "Paramount+",
+    "Peacock",
     "Tubi",
-    "Crackle",
     "Pluto TV",
+    "Crackle",
     "Vudu",
-    "YouTube TV",
-    "Fubo",
+    "Popcornflix",
+    "The Roku Channel",
     "Apple TV+",
-    "MGM+",
-    "Showtime",
-    "Starz",
-    "AMC+",
-    "Sling TV",
-    "DirecTV Stream"
+    "Mubi",
+    "Criterion Channel",
+    "IMDb TV (Amazon Freevee)",
+    "SnagFilms",
+    "Viewster",
+    "Kodi"
   ]
 }

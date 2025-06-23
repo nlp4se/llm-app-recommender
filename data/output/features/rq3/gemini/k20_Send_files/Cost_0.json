@@ -1,27 +1,24 @@
-Okay, I will provide a JSON output containing 20 apps for sending files, ranked based on their cost. This will be based on freemium models, trial periods and subscription costs.
-
-```json
 {
   "a": [
-    "Google Drive",
-    "WeTransfer",
-    "Send Anywhere",
-    "Filemail",
-    "Dropbox",
-    "OneDrive",
-    "Smash",
-    "TransferNow",
-    "FEX.NET",
-    "InShare",
-    "Box",
-    "Filestage",
-    "Hightail",
-    "Internxt",
-    "LocalSend",
-    "Pushbullet",
-    "KDE Connect",
-    "Android Quick Share",
-    "Syncthing",
-    "Snapdrop.net"
+    "Google Drive (Free with paid options)",
+    "Dropbox (Free with paid options)",
+    "WeTransfer (Free with paid options)",
+    "Send Anywhere (Free with paid options)",
+    "SHAREit (Free with in-app purchases)",
+    "Xender (Free)",
+    "Filemail (Free with paid options)",
+    "AirDroid Personal (Free with paid options)",
+    "TransferNow (Free with paid options)",
+    "MobileTrans (Free with in-app purchases)",
+    "EasyShare (Free)",
+    "Zapya (Free)",
+    "Filestage (Free with paid subscription)",
+    "MASV (Free tier and paid options)",
+    "OneDrive (Free with paid options)",
+    "iCloud Drive (Free with paid options)",
+    "Box (Free with paid options)",
+    "Files.com (Paid)",
+    "Smash (Free with paid options)",
+    "Smart Transfer: File Sharing (Free)"
   ]
 }

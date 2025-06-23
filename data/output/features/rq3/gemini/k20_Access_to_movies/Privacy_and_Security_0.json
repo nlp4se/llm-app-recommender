@@ -1,27 +1,24 @@
-Okay, I understand. I will rank 20 apps for accessing movies based primarily on their privacy and security features. This will be based on the criteria you provided, and the ranking will reflect the strength of those features as assessed from the available sources.
-
-```json
 {
   "a": [
-    "VPlayed",
-    "VIDIZMO",
-    "Wowza",
-    "Dacast",
-    "Kaltura",
-    "Evercast",
-    "GUDSHO",
     "Stremio",
-    "Plex",
-    "Netflix",
-    "Amazon Prime Video",
-    "Disney+",
-    "Hulu",
+    "YouTube (Free With Ads)",
     "Tubi",
+    "Vudu (Movies on Us)",
+    "Peacock (Free Tier)",
     "Crackle",
-    "Freevee",
-    "Peacock",
-    "Vudu",
-    "The Roku Channel",
-    "Sling Freestream"
+    "Plex",
+    "Apple TV",
+    "Netflix",
+    "Disney+",
+    "Amazon Prime Video",
+    "Wowza",
+    "Evercast",
+    "VPlayed",
+    "Brightcove",
+    "DuckDuckGo",
+    "Signal",
+    "ProtonMail",
+    "Brave",
+    "ExpressVPN"
   ]
 }

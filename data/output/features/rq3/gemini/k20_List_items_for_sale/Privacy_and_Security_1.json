@@ -1,27 +1,24 @@
-Based on the ranking criteria of Privacy and Security, here are 20 apps to list items for sale:
-
-```json
 {
   "a": [
-    "eBay",
-    "Shop",
-    "Etsy",
-    "Poshmark",
-    "Decluttr",
+    "Signal",
+    "DuckDuckGo",
+    "ProtonMail",
+    "Brave Browser",
     "OfferUp",
+    "eBay",
     "Facebook Marketplace",
+    "Poshmark",
+    "Etsy",
     "Mercari",
-    "Vestiaire Collective",
-    "ThredUp",
-    "Chairish",
-    "Depop",
-    "TheRealReal",
-    "Vendoo",
-    "Nextdoor",
     "5miles",
+    "Decluttr",
+    "ThredUp",
+    "Vinted",
+    "Tradesy",
+    "Nextdoor",
     "Letgo (Now Part of OfferUp)",
-    "Amazon Seller App",
-    "SaleHoo Dropship",
-    "BigCommerce"
+    "Chairish",
+    "Reverb",
+    "Depop"
   ]
 }

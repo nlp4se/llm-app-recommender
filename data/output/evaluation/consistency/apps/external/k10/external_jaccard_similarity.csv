@@ -1,0 +1,49 @@
+feature,model1,model2,jaccard
+Access to movies,openai,mistral,0.6666666666666669
+Access to movies,openai,gemini,0.5531135531135531
+Access to movies,mistral,gemini,0.372893772893773
+Access to podcasts,openai,mistral,0.8472727272727272
+Access to podcasts,openai,gemini,0.358994708994709
+Access to podcasts,mistral,gemini,0.3645502645502646
+Broadcast messages to multiple contacts,openai,mistral,0.31357142857142856
+Broadcast messages to multiple contacts,openai,gemini,0.07309941520467836
+Broadcast messages to multiple contacts,mistral,gemini,0.04431114551083591
+Build photo collage,openai,mistral,0.23024509803921564
+Build photo collage,openai,gemini,0.15896309400953365
+Build photo collage,mistral,gemini,0.20959948891837435
+Collaborate with others,openai,mistral,0.49227272727272725
+Collaborate with others,openai,gemini,0.5523476523476524
+Collaborate with others,mistral,gemini,0.5743872793872794
+Go Live,openai,mistral,0.18369453044375642
+Go Live,openai,gemini,0.4587454212454213
+Go Live,mistral,gemini,0.1991969814241486
+Keeping up with friends,openai,mistral,0.3309615384615385
+Keeping up with friends,openai,gemini,0.26898191935343635
+Keeping up with friends,mistral,gemini,0.3357794656324068
+List items for sale,openai,mistral,0.548040293040293
+List items for sale,openai,gemini,0.4640293040293041
+List items for sale,mistral,gemini,0.5417948717948717
+Photo effects,openai,mistral,0.18382352941176464
+Photo effects,openai,gemini,0.21850017199862395
+Photo effects,mistral,gemini,0.3265977160094807
+Play games,openai,mistral,0.0
+Play games,openai,gemini,0.0
+Play games,mistral,gemini,0.14026659786721707
+Play playlist on shuffle mode,openai,mistral,1.0
+Play playlist on shuffle mode,openai,gemini,0.25255572314395847
+Play playlist on shuffle mode,mistral,gemini,0.25255572314395847
+Rate movies,openai,mistral,0.2030701754385965
+Rate movies,openai,gemini,0.20269607843137258
+Rate movies,mistral,gemini,0.2744747899159663
+Search for offer on item,openai,mistral,0.22779915474961915
+Search for offer on item,openai,gemini,0.37940759704691596
+Search for offer on item,mistral,gemini,0.22031520165421092
+Send files,openai,mistral,0.1763235294117647
+Send files,openai,gemini,0.3087728937728937
+Send files,mistral,gemini,0.1293300653594771
+Watch streams,openai,mistral,0.09796414112203582
+Watch streams,openai,gemini,0.11479274165806673
+Watch streams,mistral,gemini,0.20588053845019785
+Write notes,openai,mistral,0.5987512487512487
+Write notes,openai,gemini,0.7208624708624708
+Write notes,mistral,gemini,0.4659107559107559

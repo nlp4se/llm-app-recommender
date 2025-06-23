@@ -1,8 +1,3 @@
-Okay, I will provide a ranking of 20 apps for "Keeping up with friends", prioritizing those with lower ad frequency.
-
-Based on the ranking criteria of ad frequency (lower is better), here are 20 apps to keep up with friends. Note that precise "Ad Frequency" data is generally not published directly by the app companies and requires personal testing/observation or reliance on user reviews. Therefore, the following ranking is an estimation based on available information and general app category tendencies:
-
-```json
 {
   "a": [
     "Howbout",
@@ -27,22 +22,3 @@ Based on the ranking criteria of ad frequency (lower is better), here are 20 app
     "TikTok"
   ]
 }
-```
-
-**Reasoning and Justification:**
-
-*   **Top Tier (Likely lowest Ad Frequency):**
-    *   **Howbout:** This app is designed to facilitate real-life meetups with friends and explicitly mentions focusing on friends' activities, not ads.
-    *   **Soonly:** Focuses on authentic connections with curated conversation starters, suggesting less reliance on ads.
-    *   **Cappucino, BeReal:** These apps are designed for more intimate, unfiltered sharing with close friends, which often translates to lower ad frequency compared to mainstream social media.
-    *   **Marco Polo:** Focuses on video messaging between friends, which tends to have less ad integration than feed-based platforms.
-    *   **Telegram, WhatsApp, Signal:** Messaging apps focused on direct communication usually have lower ad frequency, especially those emphasizing privacy (Signal).
-
-*   **Mid Tier (Moderate Ad Frequency):**
-    *   **Couple, GroupMe:** These apps facilitate group communication, balancing features with potential for ads.
-    *   **AirChat, Supernova, Cara:** Newer or niche platforms often start with lower ad frequencies to attract users. Supernova’s ethical focus could limit ads.
-    *   **Locket, Mubr**: Unique approaches to staying in touch with sharing moments and music respectively may contain moderate ads.
-    *   **Viber, WeChat:** These apps offer a wide range of services, which may include varying levels of ad integration depending on usage.
-
-*   **Bottom Tier (Likely Highest Ad Frequency):**
-    *   **Snapchat, Instagram, TikTok:** These platforms rely heavily on ad revenue, and their feeds are often saturated with sponsored content. Studies indicate that these platforms tend to have a higher percentage of ads compared to other social networks.

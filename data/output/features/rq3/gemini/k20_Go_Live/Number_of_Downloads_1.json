@@ -1,27 +1,24 @@
-Based on the ranking criteria of "Number of Downloads," here are 20 apps for going live, presented in no particular order:
-
-```json
 {
   "a": [
-    "TikTok",
-    "Instagram",
-    "Facebook",
-    "WhatsApp",
+    "TikTok Live",
     "YouTube Live",
+    "Facebook Live",
+    "Instagram Live",
     "Twitch",
-    "Snapchat",
-    "Telegram",
     "BIGO LIVE",
-    "Likee",
-    "LivU - Live Video Chat",
-    "Bilibili",
-    "StreamYard",
-    "Prism Live Studio",
+    "LiveMe",
+    "YouNow",
+    "Tango",
+    "Streamlabs",
+    "Disney+",
+    "Netflix",
+    "Hulu",
+    "Peacock TV",
+    "Paramount+",
+    "Amazon Prime Video",
     "Vimeo",
-    "LinkedIn Live",
-    "Zoom Cloud Meetings",
-    "Kick.com",
-    "Ustream",
-    "Dacast"
+    "Dailymotion",
+    "Kick",
+    "StreamYard"
   ]
 }

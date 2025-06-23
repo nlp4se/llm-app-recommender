@@ -1,27 +1,24 @@
-Okay, I will provide a ranked list of 20 apps for "Keeping up with friends," prioritizing those with an ad-free option based on information available from the App Store, Google Play Store, app descriptions, review articles, and user reviews.
-
-```json
 {
   "a": [
+    "Facebook",
+    "Instagram",
+    "X (formerly Twitter)",
+    "Telegram",
     "Vero",
     "Mastodon",
-    "Kin",
     "MeWe",
-    "CARA",
-    "Cohost",
-    "Friendly Social Browser",
-    "UNBLND",
-    "Telegram",
+    "Kin",
+    "Retro",
+    "Discord",
     "Threads",
     "Bluesky",
-    "Moment App",
-    "Meetup",
-    "Nextdoor",
-    "Bumble BFF",
-    "WhatsApp",
-    "Hive Social",
-    "Locket Widget",
-    "Cappuccino",
-    "Retro"
+    "Howbout",
+    "Airbuds",
+    "Locket",
+    "BeReal",
+    "Shelf",
+    "Honista",
+    "TikTok MOD",
+    "All Social Media Apps MOD"
   ]
 }

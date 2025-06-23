@@ -1,27 +1,24 @@
-Based on geographical availability, here are 20 apps for sending files, ranked based on their estimated global reach:
-
-```json
 {
   "a": [
+    "Western Union",
+    "Wise (formerly TransferWise)",
+    "PayPal",
     "Google Drive",
     "Dropbox",
-    "WeTransfer",
-    "Send Anywhere",
-    "AirDroid",
-    "SHAREit",
-    "OneDrive",
+    "Microsoft OneDrive",
+    "FileCloud",
+    "XE Money Transfer",
+    "Remitly",
+    "WorldRemit",
+    "Global66",
+    "Revolut",
+    "OFX",
+    "Skrill",
+    "Ria Money Transfer",
+    "SendSafely",
     "Box",
-    "Filemail",
-    "Smash",
-    "Raysync",
-    "MASV",
-    "TitanFile",
-    "Internxt Send",
-    "Filestack",
-    "Aspera",
-    "FileCatalyst",
-    "SpiderOak One",
-    "Quick Share",
-    "Localsend"
+    "iCloud Drive",
+    "Files.com",
+    "WeTransfer"
   ]
 }

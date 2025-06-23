@@ -1,27 +1,24 @@
-Okay, I will provide a ranked list of 20 apps for listing items for sale, based on user base size.
-
-```json
 {
   "a": [
-    "Facebook Marketplace",
     "eBay",
-    "Amazon",
-    "Vinted",
-    "Poshmark",
-    "Mercari",
+    "Facebook Marketplace",
     "OfferUp",
-    "Etsy",
+    "Poshmark",
     "Depop",
-    "thredUP",
-    "AliExpress",
-    "Rakuten",
+    "Mercari",
+    "Etsy",
     "Tradesy",
+    "ThredUp",
+    "Letgo (OLX)",
+    "Grailed",
+    "GOAT",
     "The RealReal",
-    "Shopify",
-    "Nextdoor",
-    "Craigslist",
+    "StockX",
     "Chairish",
+    "Vinted",
+    "Vestiaire Collective",
+    "Reverb",
     "Ruby Lane",
-    "Vestiaire Collective"
+    "Swappa"
   ]
 }

@@ -1,27 +1,24 @@
-Based on the ranking criterion of "Customer Support" (availability and quality of customer support services), here's a ranked list of 20 apps for rating movies. Note that the ranking is based on the assumption that apps with strong community features, detailed information, and personalized recommendations indirectly offer better customer support through FAQs, community forums, and comprehensive guides. Direct customer support availability was difficult to ascertain for all apps.
-
-```json
 {
   "a": [
     "IMDb",
     "Letterboxd",
-    "MovieLens",
-    "Criticker",
-    "Moviebase",
-    "MovieFone",
     "Rotten Tomatoes",
-    "Trakt",
-    "YourNextFilm",
-    "FilmStory",
-    "Movie Pal",
-    "TCM",
-    "Fandango",
     "Metacritic",
-    "Reelgood",
-    "JustWatch",
+    "Flixster",
+    "MovieFone",
+    "Criticker",
+    "Trakt",
+    "Serializd",
     "MUBI",
-    "Kanopy",
-    "Shudder",
-    "The Criterion Channel"
+    "Roger Ebert",
+    "A.V. Club",
+    "IndieWire",
+    "Raters",
+    "Moviebase",
+    "Plugged In – Movie Reviews",
+    "Movie Reviews (Voice)",
+    "FilmStory",
+    "ReelSpeak",
+    "My Movie Review"
   ]
 }

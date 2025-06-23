@@ -1,27 +1,24 @@
-Based on the ranking criterion of "Update Frequency", here are 20 apps to watch streams, ranked based on the assumption that popular apps with large user bases tend to have more frequent updates:
-
-```json
 {
   "a": [
-    "Twitch",
-    "YouTube Live",
-    "Facebook Live",
-    "Instagram Live",
-    "Hulu + Live TV",
-    "Restream",
-    "Sling TV",
-    "Peacock",
-    "Paramount+",
     "Netflix",
     "Disney+",
+    "Hulu",
     "Amazon Prime Video",
     "Max",
-    "DirecTV Stream",
+    "Peacock",
+    "Paramount+",
+    "YouTube TV",
+    "FuboTV",
+    "Sling TV",
+    "Apple TV+",
+    "Tubi",
+    "Pluto TV",
     "Philo",
-    "Fubo",
-    "Vimeo Livestream",
-    "LinkedIn Live",
-    "Kick",
-    "Tubi"
+    "ESPN+",
+    "Vudu",
+    "Plex",
+    "Crunchyroll",
+    "DAZN",
+    "Shudder"
   ]
 }

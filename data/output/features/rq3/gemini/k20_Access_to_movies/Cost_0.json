@@ -1,1 +1,24 @@
-I need additional ranking criteria to provide a relevant and useful ranking of movie access apps. Cost is just one factor; other important factors could include the size of the movie library, video quality, user interface, compatibility with different devices, offline viewing options, and user reviews. I need at least 2 more criteria.
+{
+  "a": [
+    "Tubi",
+    "Pluto TV",
+    "Vudu",
+    "Plex",
+    "Filmzie",
+    "MX Player",
+    "Crackle",
+    "Freevee",
+    "The Roku Channel",
+    "Sling Freestream",
+    "Xumo",
+    "Peacock",
+    "Netflix",
+    "Hulu",
+    "Amazon Prime Video",
+    "Disney+",
+    "Max",
+    "Apple TV+",
+    "Flixeon",
+    "VivaTV"
+  ]
+}

@@ -1,27 +1,24 @@
-Based on the ranking criteria of "Ad Frequency" (number of ads displayed per hour), here's a ranked list of 20 apps designed to find deals and offers, keeping in mind that precise ad frequency data is difficult to obtain and is based on general user reviews and app descriptions. Apps known for fewer ads are ranked higher.
-
-```json
 {
   "a": [
+    "Flipp",
+    "ShopSavvy",
+    "Honey",
     "Rakuten",
     "Ibotta",
-    "Honey",
-    "Shopkick",
-    "Dosh",
-    "Fetch Rewards",
-    "Checkout 51",
-    "Swagbucks",
     "RetailMeNot",
-    "Vouchercloud",
-    "HotUKDeals",
-    "MySupermarket",
-    "Flipp",
-    "The Coupons App",
-    "Groupon",
-    "LivingSocial",
-    "Brad's Deals",
+    "ShopFully",
+    "Shopular",
+    "RedLaser",
+    "PriceGrabber",
+    "CamelCamelCamel",
     "Slickdeals",
-    "Woot!",
-    "Amazon"
+    "Amazon Shopping",
+    "Walmart",
+    "eBay",
+    "Target",
+    "Shein",
+    "Temu",
+    "AliExpress",
+    "Etsy"
   ]
 }

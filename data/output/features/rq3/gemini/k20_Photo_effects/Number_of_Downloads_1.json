@@ -1,27 +1,24 @@
-Here are 20 photo effects apps ranked based on the number of downloads, as inferred from available sources:
-
-```json
 {
   "a": [
-    "PicsArt AI Photo Editor, Video",
-    "Remini - AI Photo Enhancer",
-    "InShot - Video Editor & Maker",
-    "Meitu",
-    "YouCam Perfect",
-    "Adobe Lightroom",
+    "PicsArt",
     "Snapseed",
-    "VSCO",
+    "Adobe Lightroom Mobile",
     "Adobe Photoshop Express",
-    "Canva",
-    "Fotor",
+    "VSCO",
+    "Google Photos",
+    "Lensa AI Photo Editor",
+    "Pixelmator",
+    "Polarr",
+    "Afterlight",
+    "Facetune",
+    "Remini - AI Photo Enhancer",
+    "YouCam Perfect",
     "Pixlr",
     "Photo Editor Pro - Polish",
+    "Canva",
+    "Fotor",
     "AirBrush",
-    "Facetune",
     "Foodie",
-    "Lensa AI Photo Editor",
-    "Bazaart",
-    "Photopea",
-    "GIMP"
+    "Prisma Photo Editor"
   ]
 }

@@ -1,27 +1,24 @@
-Okay, I understand. I need to identify and rank 20 "Go Live" apps based on the size of their user base. I'll use the provided sources (App Store, Google Play Store, company reports, platform statistics, industry analyses/reports, and the specified search queries) to gather information on active user counts for various live streaming apps. Then, I will rank the apps from largest user base to smallest and present the top 20 in the JSON format requested.
-
-```json
 {
   "a": [
+    "Netflix",
     "YouTube Live",
-    "Facebook Live",
-    "Instagram Live",
-    "Twitch",
-    "Bigo Live",
-    "Kick",
-    "Rumble",
-    "HUYA",
-    "DouYu (Likely larger than HUYA, but specific numbers not readily available)",
-    "LiveMe (No recent user base numbers, ranking is estimated)",
-    "Uplive (No recent user base numbers, ranking is estimated)",
-    "Nonolive (No recent user base numbers, ranking is estimated)",
-    "DLive (No recent user base numbers, ranking is estimated)",
-    "Vimeo Livestream (No recent user base numbers, ranking is estimated)",
-    "Streamlabs (No recent user base numbers, ranking is estimated)",
-    "Periscope (Likely smaller user base compared to others due to age and competition)",
-    "Trovo (Smaller user base compared to larger platforms)",
-    "NimoTV (Smaller user base compared to larger platforms)",
+    "Amazon Prime Video",
+    "Disney+",
+    "Tencent Video",
+    "HBO Max",
+    "iQIYI",
+    "Paramount+",
+    "Hulu",
     "Peacock",
-    "Fubo"
+    "Hotstar",
+    "SonyLiv",
+    "Apple TV+",
+    "CuriosityStream",
+    "ESPN",
+    "DAZN",
+    "Twitch",
+    "Facebook Live",
+    "Google Meet",
+    "Vimeo Livestream"
   ]
 }

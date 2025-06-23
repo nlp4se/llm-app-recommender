@@ -1,27 +1,24 @@
-Okay, I will provide a ranking of 20 apps for keeping up with friends, based on the customizability options they offer.
-
-```json
 {
   "a": [
-    "Noplace",
-    "Facebook",
-    "Instagram",
-    "Snapchat",
-    "TikTok",
-    "X (formerly Twitter)",
-    "Tumblr",
-    "Pinterest",
+    "Telegram",
+    "Discord",
     "WhatsApp",
-    "YouTube",
-    "LinkedIn",
-    "Threads",
-    "Lemon8",
-    "Xiaohongshu (RedNote)",
-    "Bluesky",
-    "Buffer",
-    "Loomly",
+    "Facebook Messenger",
+    "iMessage",
+    "Noplace",
+    "Tumblr",
+    "Meetup",
+    "Bumble BFF",
     "Canva",
+    "GoDaddy Studio",
+    "Unfold",
+    "Videoleap",
     "Adobe Express",
-    "GoDaddy Studio"
+    "VSCO",
+    "Snapseed",
+    "Preview App",
+    "Themes Go",
+    "Locket",
+    "Howbout"
   ]
 }

@@ -1,8 +1,24 @@
-I need more information to provide a relevant ranking of collaboration apps based on privacy and security. Please specify:
-
-1.  **Platforms**: Are you interested in apps for Android, iOS, web, desktop, or a combination?
-2.  **Collaboration Type**: What type of collaboration are you focusing on (e.g., video conferencing, document editing, project management, team messaging, brainstorming)?
-3.  **Target Audience:** Is this for personal use, small teams, large enterprises, or specific industries?
-4.  **Specific Privacy/Security Features**: Are there specific features that are especially important (e.g., end-to-end encryption, data residency options, two-factor authentication, HIPAA compliance)?
-
-Once I have a better understanding of your needs, I can formulate specific queries and provide a relevant ranking of apps.
+{
+  "a": [
+    "RealTyme",
+    "Wire",
+    "Rocket.Chat",
+    "Microsoft Teams",
+    "Slack + Enterprise Grid",
+    "Zoho Cliq",
+    "Chanty",
+    "Nextcloud",
+    "Google Drive",
+    "Asana",
+    "Trello",
+    "ClickUp",
+    "Wrike",
+    "Box",
+    "ProofHub",
+    "Hive",
+    "PrivMX",
+    "CryptPad",
+    "Lark",
+    "Figma"
+  ]
+}

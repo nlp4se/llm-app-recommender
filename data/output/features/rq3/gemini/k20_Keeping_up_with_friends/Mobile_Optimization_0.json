@@ -1,27 +1,24 @@
-Okay, I will rank 20 "Keeping up with friends" apps based on Mobile Optimization. Here's the JSON output containing the ranked list of apps.
-
-```json
 {
   "a": [
+    "WhatsApp",
     "Facebook",
     "Instagram",
-    "WhatsApp",
-    "Snapchat",
     "TikTok",
-    "X",
-    "Discord",
+    "Snapchat",
     "Telegram",
-    "Messenger",
-    "Signal",
-    "LinkedIn",
-    "Pinterest",
-    "Reddit",
-    "YouTube",
-    "Viber",
-    "Line",
-    "WeChat",
     "Skype",
-    "Tumblr",
-    "Houseparty"
+    "Zoom",
+    "Houseparty",
+    "Marco Polo",
+    "GroupMe",
+    "Discord",
+    "Viber",
+    "Bumble BFF",
+    "Meetup",
+    "Nextdoor",
+    "Locket Widget",
+    "BeReal",
+    "Cappuccino",
+    "HeyTell"
   ]
 }

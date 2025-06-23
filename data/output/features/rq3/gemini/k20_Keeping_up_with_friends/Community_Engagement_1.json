@@ -1,27 +1,24 @@
-Okay, I will recommend 20 apps for keeping up with friends, ranked by Community Engagement.
-
-```json
 {
   "a": [
-    "Meetup",
-    "Discord",
-    "Facebook Groups",
-    "Bumble BFF",
-    "Nextdoor",
-    "UNBLND",
-    "Yubo",
+    "Facebook",
+    "Instagram",
+    "WhatsApp",
+    "TikTok",
+    "YouTube",
+    "Snapchat",
     "Telegram",
-    "Wizz",
-    "Skout",
+    "WeChat",
+    "Messenger",
+    "LinkedIn",
+    "Pinterest",
+    "Twitter/X",
+    "Viber",
+    "Skype",
+    "Discord",
     "Reddit",
-    "Peanut",
-    "Club Cosmo",
-    "MeetMe",
-    "Amino",
-    "InterPals",
-    "HelloTalk",
-    "Twitch",
-    "Vero",
+    "BeReal",
+    "Locket",
+    "Houseparty",
     "Howbout"
   ]
 }

@@ -1,0 +1,49 @@
+feature,model,jaccard
+Access to movies,openai,0.9513227513227513
+Access to podcasts,openai,0.9028839115795637
+Broadcast messages to multiple contacts,openai,0.80378526465483
+Build photo collage,openai,0.8510069640504423
+Collaborate with others,openai,0.8381429198820505
+Go Live,openai,0.8354183658531485
+Keeping up with friends,openai,0.636704158250052
+List items for sale,openai,0.7443641061032367
+Photo effects,openai,0.9000397348223437
+Play games,openai,0.21737436168086327
+Play playlist on shuffle mode,openai,0.9041345128301651
+Rate movies,openai,0.5828623171540422
+Search for offer on item,openai,0.6337146755399458
+Send files,openai,0.6365951431812051
+Watch streams,openai,0.46847745176999916
+Write notes,openai,0.665939821495377
+Access to movies,mistral,0.882828282828283
+Access to podcasts,mistral,0.6473775285369489
+Broadcast messages to multiple contacts,mistral,0.6483910078112978
+Build photo collage,mistral,0.565081173970063
+Collaborate with others,mistral,0.6262556463655914
+Go Live,mistral,0.4415110643150601
+Keeping up with friends,mistral,0.6302881698850381
+List items for sale,mistral,0.6682354825349995
+Photo effects,mistral,0.5307413521669835
+Play games,mistral,0.6850828398654486
+Play playlist on shuffle mode,mistral,0.7838810464897422
+Rate movies,mistral,0.3137568872911701
+Search for offer on item,mistral,0.5998630748389203
+Send files,mistral,0.5757545225293074
+Watch streams,mistral,0.7759909655561829
+Write notes,mistral,0.721029445594663
+Access to movies,gemini,0.40819717029332636
+Access to podcasts,gemini,0.48061542836574656
+Broadcast messages to multiple contacts,gemini,0.4260067391101874
+Build photo collage,gemini,0.30928157874263884
+Collaborate with others,gemini,0.5356231111020383
+Go Live,gemini,0.38940322089771523
+Keeping up with friends,gemini,0.3556726584036522
+List items for sale,gemini,0.5289215302808506
+Photo effects,gemini,0.3244540422374181
+Play games,gemini,0.22253268039789625
+Play playlist on shuffle mode,gemini,0.21396671893172037
+Rate movies,gemini,0.39692728144290146
+Search for offer on item,gemini,0.3258850977122091
+Send files,gemini,0.38541520510004007
+Watch streams,gemini,0.27752473694013985
+Write notes,gemini,0.5231879160135031

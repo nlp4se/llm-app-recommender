@@ -1,31 +1,24 @@
-I need more information to provide an accurate ranking. The provided ranking criteria focuses solely on "Subscription Cost." To effectively rank 20 movie access apps, I require a broader set of criteria. I need criteria that address the app's content library, user experience, video quality, platform availability, and user reviews.
-
-I'll create search queries to find apps for accessing movies and gather details about their content, pricing, and features.
-
-Okay, based on the search results, here are 20 apps that offer access to movies, ranked primarily by subscription cost (free options prioritized) but also considering content variety and user reviews where possible. Please note that pricing and availability may vary by region.
-
-```json
 {
   "a": [
     "Tubi",
-    "Pluto TV",
     "Plex",
     "Sling Freestream",
     "Xumo",
-    "VIX",
-    "Flixeon",
-    "YouTube (Free Movies Section)",
-    "Amazon Freevee",
-    "The Roku Channel",
+    "ViX",
     "Peacock",
-    "Crackle",
-    "Fandango at Home",
+    "Paramount Plus",
+    "MGM+",
+    "Apple TV+",
+    "AMC+",
     "Netflix",
     "Hulu",
-    "Amazon Prime Video",
     "Disney+",
-    "Apple TV+",
+    "Amazon Prime Video",
     "Max",
-    "Criterion Channel"
+    "Starz",
+    "YouTube TV",
+    "Sling TV",
+    "Fubo TV",
+    "Crunchyroll"
   ]
 }

@@ -1,27 +1,24 @@
-Okay, I will identify and rank 20 note-taking apps based on their geographical availability, using information from the App Store, Google Play, official app descriptions, official websites, and tech blogs.
-
-```json
 {
   "a": [
     "Evernote",
     "Microsoft OneNote",
     "Google Keep",
-    "Apple Notes",
     "Notion",
+    "Apple Notes",
     "Simplenote",
-    "Standard Notes",
     "Zoho Notebook",
-    "Bear",
-    "Ulysses",
-    "Notability",
-    "GoodNotes",
-    "Bear",
-    "Dropbox Paper",
-    "Obsidian",
-    "Roam Research",
     "Joplin",
+    "Obsidian",
     "Bear",
+    "Standard Notes",
+    "Nebo",
+    "Dropbox Paper",
+    "Noteshelf",
+    "Squid",
+    "Otter.ai",
+    "Agenda",
+    "Notes Writer",
     "Milanote",
-    "Slite"
+    "UpNote"
   ]
 }

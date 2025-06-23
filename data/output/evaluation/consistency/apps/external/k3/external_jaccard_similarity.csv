@@ -1,0 +1,49 @@
+feature,model1,model2,jaccard
+Access to movies,openai,mistral,0.8
+Access to movies,openai,gemini,0.47
+Access to movies,mistral,gemini,0.44300000000000006
+Access to podcasts,openai,mistral,1.0
+Access to podcasts,openai,gemini,0.2777777777777778
+Access to podcasts,mistral,gemini,0.2777777777777778
+Broadcast messages to multiple contacts,openai,mistral,0.65
+Broadcast messages to multiple contacts,openai,gemini,0.14166666666666666
+Broadcast messages to multiple contacts,mistral,gemini,0.2
+Build photo collage,openai,mistral,0.06
+Build photo collage,openai,gemini,0.05500000000000001
+Build photo collage,mistral,gemini,0.10199999999999998
+Collaborate with others,openai,mistral,0.5
+Collaborate with others,openai,gemini,0.65
+Collaborate with others,mistral,gemini,0.58
+Go Live,openai,mistral,0.04
+Go Live,openai,gemini,0.595
+Go Live,mistral,gemini,0.175
+Keeping up with friends,openai,mistral,0.34400000000000014
+Keeping up with friends,openai,gemini,0.286
+Keeping up with friends,mistral,gemini,0.689
+List items for sale,openai,mistral,0.45
+List items for sale,openai,gemini,0.582
+List items for sale,mistral,gemini,0.5
+Photo effects,openai,mistral,0.4160000000000001
+Photo effects,openai,gemini,0.36900000000000005
+Photo effects,mistral,gemini,0.3630000000000001
+Play games,openai,mistral,0.0
+Play games,openai,gemini,0.0
+Play games,mistral,gemini,0.074
+Play playlist on shuffle mode,openai,mistral,0.5
+Play playlist on shuffle mode,openai,gemini,0.3333333333333333
+Play playlist on shuffle mode,mistral,gemini,0.6666666666666666
+Rate movies,openai,mistral,0.19999999999999996
+Rate movies,openai,gemini,0.19999999999999996
+Rate movies,mistral,gemini,0.9
+Search for offer on item,openai,mistral,0.21
+Search for offer on item,openai,gemini,0.14299999999999996
+Search for offer on item,mistral,gemini,0.08999999999999998
+Send files,openai,mistral,0.03900000000000001
+Send files,openai,gemini,0.36900000000000005
+Send files,mistral,gemini,0.029000000000000005
+Watch streams,openai,mistral,0.15999999999999998
+Watch streams,openai,gemini,0.153
+Watch streams,mistral,gemini,0.26
+Write notes,openai,mistral,0.67
+Write notes,openai,gemini,0.544
+Write notes,mistral,gemini,0.54

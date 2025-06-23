@@ -1,27 +1,24 @@
-Okay, I will rank 20 podcast apps based on customization options, using app documentation, official websites, search results, and user reviews as my sources.
-
-```json
 {
   "a": [
     "Pocket Casts",
-    "Overcast",
     "Podcast Addict",
-    "Player FM",
-    "Castbox",
-    "AntennaPod",
-    "DoggCatcher",
-    "Downcast",
-    "Podcast Republic",
+    "Overcast",
     "Spotify",
     "Apple Podcasts",
     "Google Podcasts",
-    "Audible",
+    "Castbox",
+    "Player FM",
+    "DoggCatcher",
+    "Downcast",
     "Luminary",
-    "Stitcher",
+    "AntennaPod",
+    "Podcast Republic",
+    "Podbean",
+    "Buzzsprout",
+    "Spreaker Create",
+    "Spreaker Studio",
+    "iMovie",
     "Castro",
-    "Podurama",
-    "YouTube Music",
-    "Amazon Music",
-    "BeyondPod"
+    "BLAB"
   ]
 }

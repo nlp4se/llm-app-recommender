@@ -1,27 +1,24 @@
-Okay, I will rank 20 file-sending apps based on platform availability. Here's the JSON output:
-
-```json
 {
   "a": [
     "Send Anywhere",
+    "Xender",
+    "AirDroid Personal",
+    "LocalSend",
     "Google Drive",
-    "WeTransfer",
     "Dropbox",
-    "Smash",
-    "Box",
-    "OneDrive",
-    "MEGA",
-    "MediaFire",
-    "pCloud",
-    "Resilio Sync",
-    "Filemail",
-    "Terashare",
+    "SHAREit",
+    "Zapya",
+    "WeTransfer",
+    "Filestage",
     "Hightail",
-    "TransferXL",
-    "JumboMail",
-    "DropSend",
-    "MailBigFile",
-    "MyAirBridge",
-    "SendGB"
+    "InShare",
+    "Samsung Smart Switch",
+    "EasyShare",
+    "OneDrive",
+    "Airclap",
+    "Filemail",
+    "Slack",
+    "Box",
+    "Internxt"
   ]
 }

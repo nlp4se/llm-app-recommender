@@ -1,27 +1,24 @@
-Okay, I will rank the apps based on the user base to recommend 20 apps for sending files.
-
-```json
 {
   "a": [
     "Google Drive",
     "Dropbox",
-    "Microsoft OneDrive",
     "WeTransfer",
-    "Box",
-    "MediaFire",
-    "iCloud Drive",
-    "ShareFile",
-    "Egnyte",
+    "Microsoft OneDrive",
+    "SHAREit",
     "Send Anywhere",
     "Hightail",
-    "FileWhopper",
-    "Tresorit",
-    "TitanFile",
-    "NordLocker",
+    "Box",
+    "Zapya",
+    "Xender",
     "Filestage",
-    "FileCloud",
-    "Sharetru",
-    "UPDF Cloud",
-    "EasyShare"
+    "Internxt",
+    "Evernote Business",
+    "Contentful",
+    "RingCentral",
+    "Planview",
+    "Zoho Docs",
+    "Quip",
+    "Filecamp",
+    "Slack"
   ]
 }

@@ -1,26 +1,24 @@
-Okay, I will provide a JSON output containing a ranked list of 20 movie rating apps, considering the "Cost" ranking criteria.
-```json
 {
   "a": [
-    "IMDb",
-    "Rotten Tomatoes",
-    "Letterboxd",
-    "Plex",
-    "Trakt",
-    "MUBI",
-    "Moviebase",
-    "TV Forecast",
-    "Raters: Movie Reviews, Ratings",
-    "Flixster",
-    "Movie Reviews (Voice)",
-    "Plugged In – Movie Reviews",
-    "GoMovies",
-    "CineTrak",
-    "FilmAffinity",
+    "IMDb (Free)",
+    "Letterboxd (Free, Offers In-App Purchases)",
+    "Taste: Movie & TV Suggestions (Free, Offers In-App Purchases)",
+    "Flixster (Free)",
+    "Moviebase (Free)",
+    "Reelgood (Free)",
+    "JustWatch (Free)",
+    "Plex (Free, Offers Premium Subscription)",
+    "Redbox (Rent/Buy)",
+    "Movieguide (Free)",
+    "Movie Reviews (Voice) (Free)",
+    "Plugged In – Movie Reviews (Free)",
+    "Movie Review (Free)",
     "Criticker",
-    "Flickchart",
-    "MovieLens",
-    "Taste",
-    "CLZ Movies"
+    "Trakt",
+    "Roger Ebert",
+    "The Guardian",
+    "Metacritic",
+    "MovieMash (Free)",
+    "Sholi (Free)"
   ]
 }

@@ -1,27 +1,24 @@
-Based on the ranking criteria "Ad Frequency," here's a list of 20 movie rating apps. Please note that determining the exact ad frequency for each app would require extensive personal testing, which is beyond the scope of this response. Therefore, the ranking below is based on the general availability of free versions and user reviews mentioning ad experiences, assuming a higher frequency in free versions. Apps offering premium ad-free options are ranked higher.
-
-```json
 {
   "a": [
-    "IMDb",
     "Letterboxd",
+    "IMDb (Internet Movie Database)",
     "Rotten Tomatoes",
     "Metacritic",
-    "Moviebase",
     "Criticker",
-    "Trakt",
+    "MovieFone",
+    "Moviebase",
+    "Reelgood",
+    "JustWatch",
     "Raters: Movie Reviews, Ratings",
-    "Flico",
+    "Flixster",
+    "Movie Review",
+    "Movie Reviews (Voice)",
+    "Plugged In – Movie Reviews",
+    "YourNextFilm",
+    "FilmStory",
     "Roger Ebert",
     "A.V. Club",
     "IndieWire",
-    "ReelSpeak",
-    "Flixster",
-    "Plugged In – Movie Reviews",
-    "Movie Reviews (Voice)",
-    "My Movie Review",
-    "MovieMashApp",
-    "SAHINAHI",
-    "DVDPedia"
+    "MovieMash"
   ]
 }

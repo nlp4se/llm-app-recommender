@@ -1,6 +1,3 @@
-Based on geographical availability (number of countries where the service is available), here is a ranking of 20 apps that allow you to play playlists on shuffle mode. Note that precise country availability data can be difficult to ascertain and constantly changes; the ranking below is based on the best available information.
-
-```json
 {
   "a": [
     "Spotify",
@@ -12,16 +9,16 @@ Based on geographical availability (number of countries where the service is ava
     "Tidal",
     "Qobuz",
     "iHeartRadio",
-    "SoundCloud",
-    "JioSaavn",
-    "Gaana",
-    "Wynk Music",
-    "Anghami",
-    "Resso",
+    "Joox",
     "NetEase Cloud Music",
     "Yandex Music",
-    "AWA",
-    "Line Music",
-    "Shuffle Music"
+    "Shazam",
+    "Slacker Radio",
+    "LiveXLive",
+    "LiveOne",
+    "QQ Music",
+    "Ximalaya",
+    "Kugou Music",
+    "Kuwo Music"
   ]
 }

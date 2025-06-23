@@ -1,27 +1,24 @@
-Okay, I will rank 20 note-taking apps based on the frequency of ads displayed per hour of use in their free tiers. Since I cannot directly access real-time ad frequency data, I will rely on a combination of available app store descriptions, user reviews, independent reviews, and my general knowledge of popular note-taking apps to estimate and rank them. Please note that this ranking is an estimate based on the available information.
-
-```json
 {
   "a": [
-    "Notein",
     "Simplenote",
-    "Zoho Notebook",
     "Joplin",
-    "Standard Notes",
-    "Microsoft OneNote",
-    "Google Keep",
-    "Apple Notes",
     "Obsidian",
+    "Microsoft OneNote",
+    "Apple Notes",
+    "Google Keep",
     "Notion",
-    "Evernote",
-    "Bear",
     "ClickUp",
-    "Quip",
-    "Box Notes",
-    "ProofHub",
-    "Notebook LM",
-    "Anytype",
-    "Turtl",
-    "FuseBase"
+    "Bear",
+    "UpNote",
+    "Standard Notes",
+    "Zoho Notebook",
+    "Evernote",
+    "Nimbus Note",
+    "Coda",
+    "Slite",
+    "Craft",
+    "Mem",
+    "Milanote",
+    "Keep My Notes"
   ]
 }

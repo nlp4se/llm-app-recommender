@@ -1,3 +1,24 @@
-I need more information to accurately rank and recommend apps based on privacy and security. To provide a meaningful ranking, I need to know the platform (e.g., iOS, Android) and the region or country you're interested in. This is crucial because app availability and privacy regulations vary. Additionally, I need to know the streaming content you want to watch (Twitch, Kick, Youtube, etc) as well as how important privacy is to you.
-
-Could you please provide these details so that I can create a useful ranked list for you?
+{
+  "a": [
+    "Jellyfin",
+    "Dacast",
+    "Evercast",
+    "VdoCipher",
+    "VPlayed",
+    "Wowza",
+    "Vimeo Livestream",
+    "YouTube Private Live Streaming",
+    "Zoom",
+    "Jitsi Meet",
+    "Brightcove",
+    "Kaltura",
+    "JW Player",
+    "Vidyard",
+    "Muvi",
+    "StreamShark",
+    "Wistia",
+    "Plex",
+    "VPlayed",
+    "StreamingVideoProvider"
+  ]
+}

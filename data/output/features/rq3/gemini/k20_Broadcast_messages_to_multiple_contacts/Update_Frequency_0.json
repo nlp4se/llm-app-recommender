@@ -1,27 +1,24 @@
-Okay, I understand. I will rank 20 apps for broadcasting messages to multiple contacts based on their update frequency, using information from the app stores, official blogs, and other available sources.
-
-```json
 {
   "a": [
-    "Hit Em Up: Mass Text Bulk SMS",
-    "Multi SMS Sender (MSS)",
-    "Mobile Text Alerts",
-    "EZ Texting",
-    "SimpleTexting",
-    "Textedly",
-    "Sakari",
-    "Trumpia",
-    "DialMyCalls",
-    "GroupMe",
-    "WhatsApp",
-    "Viber",
-    "Group Text",
-    "SlickText",
-    "TextMagic",
-    "ClickSend",
-    "Reach: Mass Text for Business",
-    "Text-Em-All",
+    "SleekFlow",
+    "Gallabox",
+    "Wati",
+    "DoubleTick",
+    "Brevo",
+    "MessageBird",
+    "QuickReply.ai",
+    "WhatsApp Business",
     "Twilio",
-    "Tatango"
+    "Zoho Campaigns",
+    "SendPulse",
+    "Infobip",
+    "HubSpot",
+    "Salesforce Marketing Cloud",
+    "MoEngage",
+    "CleverTap",
+    "Klaviyo",
+    "Braze",
+    "Iterable",
+    "OneSignal"
   ]
 }

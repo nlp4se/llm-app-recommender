@@ -1,27 +1,24 @@
-Based on customer support availability and shuffle mode functionality, here's a ranked list of 20 music player apps:
-
-```json
 {
   "a": [
-    "Poweramp Music Player",
-    "AIMP",
-    "BlackPlayer Music Player",
-    "Musicolet",
-    "Pulsar Music Player",
-    "Oto Music",
-    "Lark Player",
-    "Pi Music Player",
-    "jetAudio Music Player",
+    "Poweramp",
+    "Rocket Player",
     "Shuttle Music Player",
-    "VLC for Android",
-    "Omnia Music Player",
-    "NRG Music Player",
-    "NYX Music Player",
-    "Symfonium",
-    "Real Shuffle Player",
-    "Music Player & MP3 Player",
+    "Neutron Music Player",
+    "jetAudio Music Player",
+    "BlackPlayer",
+    "Pi Music Player",
+    "Music Player (by InShot)",
+    "AIMP",
+    "Pulsar Music Player",
+    "Retro Music Player",
+    "Musicolet Music Player",
     "Frolomuse",
+    "Nyx Music Player",
+    "Oto Music",
+    "Symphony",
+    "Soul Searching",
     "Fossify Music Player",
-    "Vanilla Music"
+    "REAL Shuffle Player",
+    "True Shuffle Player"
   ]
 }

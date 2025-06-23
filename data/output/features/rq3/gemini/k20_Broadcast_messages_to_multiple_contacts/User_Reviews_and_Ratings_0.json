@@ -1,27 +1,24 @@
-Based on the ranking criteria of user reviews and ratings, here are 20 apps suitable for broadcasting messages to multiple contacts:
-
-```json
 {
   "a": [
-    "WhatsApp Business",
-    "Telegram",
-    "Reach: Mass Text for Business",
-    "GroupMe",
+    "Hit Em Up: Mass Text Bulk SMS",
     "SimpleTexting",
-    "TextMagic",
-    "EZ Texting",
-    "SlickText",
-    "Project Broadcast",
-    "Multi SMS & Group SMS",
-    "Group Text | Fast Messaging",
-    "AiSensy",
+    "Trumpia",
+    "DialMyCalls",
     "SleekFlow",
-    "ClickSend SMS",
-    "Textedly",
-    "Salesmsg",
-    "Twilio",
-    "CallFire",
-    "MessageMedia",
-    "Pumble"
+    "Telegram",
+    "WhatsApp Business API",
+    "WhatsApp",
+    "Viber for Business",
+    "AiSensy",
+    "Emitrr",
+    "ChatDaddy",
+    "Message Sender",
+    "TextFree",
+    "TextMe",
+    "TextNow",
+    "Send Message To Many Contacts",
+    "SMS Text Messaging by SimpleTexting",
+    "EZ Texting",
+    "Heymarket"
   ]
 }

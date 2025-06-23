@@ -1,27 +1,24 @@
-Here's my recommendation of 20 apps for collaboration, ranked primarily based on ad frequency, with additional considerations for user reviews and features. Note that precise ad frequency data is difficult to obtain and can be subjective and vary based on usage. I've combined available data with general app reputations and feature sets to create this ranking.
-
-```json
 {
   "a": [
     "Signal",
-    "Teamplate",
-    "Google Workspace (Docs, Sheets, Slides, Meet)",
-    "Microsoft 365 (Teams, Word, Excel, PowerPoint)",
-    "Slack",
+    "Pumble",
+    "Google Workspace (with careful ad management)",
+    "Microsoft Teams (with paid plan if necessary)",
+    "Slack (with paid plan if necessary)",
+    "Discord (community-driven use)",
     "Trello",
     "Asana",
-    "Zoom",
-    "Discord",
-    "Miro",
     "ClickUp",
-    "Dropbox",
-    "Bitrix24",
-    "Monday.com",
-    "Loom",
-    "Join.me",
-    "Figma",
+    "Miro",
     "Airtable",
-    "Webex",
-    "Basecamp"
+    "Zoho Projects",
+    "Basecamp",
+    "Teamwork",
+    "Ryver",
+    "Podio",
+    "Google Docs",
+    "Google Meet",
+    "Zoom",
+    "Loom"
   ]
 }

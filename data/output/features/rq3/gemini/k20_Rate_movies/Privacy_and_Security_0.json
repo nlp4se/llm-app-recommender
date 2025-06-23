@@ -1,27 +1,24 @@
-Okay, I will rank 20 movie rating apps based on "Privacy and Security". Here's the JSON output:
-
-```json
 {
   "a": [
+    "DuckDuckGo",
+    "Signal",
+    "ProtonMail",
     "Letterboxd",
     "IMDb",
-    "Criticker",
-    "Rotten Tomatoes",
-    "Metacritic",
-    "Taste",
-    "MovieLens",
-    "Flickchart",
-    "Trakt",
-    "Simkl",
-    "Plex",
+    "Reelgood",
     "JustWatch",
-    "Tubi",
-    "Mubi",
-    "Kanopy",
-    "Vudu",
     "Google TV",
     "Apple TV",
-    "The Movie Database (TMDb)",
-    "Binged"
+    "Showly",
+    "123Play",
+    "Movies Now! Watch At Home Apps",
+    "My Movies & TV Shows Watchlist",
+    "123Movies",
+    "Access Dots",
+    "Brightness Manager",
+    "ZoneLauncher",
+    "Stargon Browser",
+    "Netflix",
+    "Hulu"
   ]
 }

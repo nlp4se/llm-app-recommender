@@ -1,27 +1,24 @@
-Okay, I will provide a ranked list of 20 movie streaming apps based on the availability and quality of their customer support, using the defined sources.
-
-```json
 {
   "a": [
     "Netflix",
-    "Disney+",
-    "Amazon Prime Video",
     "Hulu",
+    "Amazon Prime Video",
+    "Disney+",
     "Max",
     "Peacock",
     "Paramount+",
-    "Apple TV+",
-    "Tubi TV",
+    "Tubi",
+    "Crackle",
     "Plex",
-    "YouTube",
-    "Crunchyroll",
     "Pluto TV",
-    "STARZ",
-    "MGM+",
-    "BritBox",
-    "ESPN+",
-    "FuboTV",
-    "Philo",
-    "Kanopy"
+    "The Roku Channel",
+    "Sling Freestream",
+    "Xumo",
+    "Vudu (Fandango at Home)",
+    "Criterion Channel",
+    "Apple TV+",
+    "FilmRise",
+    "Freevee",
+    "ViX"
   ]
 }

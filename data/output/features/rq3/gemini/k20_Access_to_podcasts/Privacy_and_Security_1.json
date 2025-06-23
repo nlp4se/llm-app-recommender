@@ -1,26 +1,24 @@
-Okay, I will provide a JSON file containing an ordered list of 20 podcast apps, ranked according to their Privacy and Security features.
-```json
 {
   "a": [
     "AntennaPod",
     "Overcast",
-    "Podcast Addict",
     "Pocket Casts",
-    "Spotify",
-    "Google Podcasts",
-    "Apple Podcasts",
+    "Podcast Addict",
     "Castro",
+    "Apple Podcasts",
+    "Spotify",
     "Player FM",
-    "SiriusXM",
-    "Audible",
-    "Podbean Pro",
-    "Darknet Diaries",
-    "Security Now (Audio)",
-    "Defensive Security Podcast",
-    "Cyber Security Headlines",
-    "FIT4PRIVACY Podcast",
-    "The Privacy Corner",
-    "Data Privacy Detective",
-    "IEEE Digital Privacy"
+    "Google Podcasts",
+    "Podcast Guru",
+    "Vogel",
+    "iCatcher",
+    "Captivate",
+    "Libsyn",
+    "Castos",
+    "uStudio",
+    "Storyboard",
+    "Transistor",
+    "Spreaker",
+    "Supercast"
   ]
 }

@@ -1,27 +1,24 @@
-Okay, I will provide a JSON output containing a ranked list of 20 apps for listing items for sale, based on platform availability.
-
-```json
 {
   "a": [
-    "Facebook Marketplace",
     "eBay",
+    "Facebook Marketplace",
     "Poshmark",
-    "Mercari",
     "Etsy",
-    "Depop",
-    "Vinted",
+    "Mercari",
     "OfferUp",
-    "ThredUp",
+    "Depop",
     "Vestiaire Collective",
-    "Grailed",
-    "TheRealReal",
-    "Kidizen",
-    "Tradesy",
-    "Carousell",
+    "ThredUp",
     "Decluttr",
-    "5miles",
+    "Amazon",
+    "Craigslist",
     "Nextdoor",
-    "Ruby Lane",
-    "Whatnot"
+    "Chairish",
+    "Vendoo",
+    "Reverb",
+    "5miles",
+    "VarageSale",
+    "Letgo",
+    "Shopify"
   ]
 }

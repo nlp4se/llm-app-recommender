@@ -1,29 +1,24 @@
-I need to gather information about file-sharing apps and their ad frequency to rank them appropriately.
-
-Based on the provided information and focusing on Ad Frequency as the primary ranking criterion (lowest ad frequency preferred), here's a ranked list of 20 file-sharing apps. Note that precise ad frequency numbers are difficult to obtain, so this ranking uses qualitative assessments from user reviews and app descriptions. Apps explicitly mentioning "ad-free" or offering paid ad-free options are prioritized. This list assumes the user is looking for apps available on Android and/or iOS.
-
-```json
 {
   "a": [
     "LocalSend",
-    "Dropbox (Paid Plan)",
-    "Google Drive (Paid Storage)",
-    "AirDroid Personal (Paid Plan)",
-    "WeTransfer (Paid Plan)",
-    "Hightail",
-    "Files.com",
-    "MediaFire (Paid Version)",
-    "Razuna",
-    "OneDrive",
-    "Tresorit",
-    "Filestage",
-    "Egnyte",
-    "OneHub",
+    "Filemail",
+    "SwissTransfer",
+    "pCloud",
+    "TransferNow",
+    "Smash",
+    "WeTransfer",
+    "Send Anywhere",
+    "Google Drive",
+    "Dropbox",
+    "Box",
+    "Microsoft OneDrive",
+    "iCloud Drive",
+    "SpiderOak One",
     "InShare",
-    "App4Share",
+    "ShareMe",
     "Xender",
+    "SHAREit",
     "Zapya",
-    "Send Anywhere (Paid Ad-Free Option)",
-    "SHAREit"
+    "Send Anywhere (File Transfer)"
   ]
 }

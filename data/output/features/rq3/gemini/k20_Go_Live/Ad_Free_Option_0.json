@@ -1,27 +1,24 @@
-Based on the availability of an ad-free option, here are 20 "Go Live" apps. It is important to note that the ad-free status might be tied to a subscription or a premium version of the app.
-
-```json
 {
   "a": [
-    "Twitch",
-    "YouTube Live",
-    "Facebook Live",
-    "Instagram Live",
-    "BIGO LIVE",
-    "Streamlabs",
-    "Restream",
-    "GoLiveIndia",
-    "VK Live",
-    "Wirecast Go",
-    "Larix Broadcaster",
-    "Dacast",
-    "Switcher Studio",
-    "BoxCast",
+    "Hulu + Live TV",
+    "Apple TV+",
+    "Criterion Channel",
+    "Netflix",
+    "Disney+",
+    "Plex",
+    "Tubi",
     "365Scores",
-    "Stream",
-    "Zoom Cloud Meetings",
-    "WatchESPN",
+    "Instagram Live",
+    "Facebook Live",
+    "Twitch",
     "Periscope",
-    "Livepush"
+    "VK Live",
+    "Stream",
+    "Dacast",
+    "Restream",
+    "Streamlabs Mobile",
+    "YouTube Live",
+    "Uscreen",
+    "Vimeo"
   ]
 }

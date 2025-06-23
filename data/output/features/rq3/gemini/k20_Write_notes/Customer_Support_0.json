@@ -1,5 +1,24 @@
-I need more information to provide an adequate ranking. The provided criteria, "Customer Support," is a valuable factor, but it's not sufficient to differentiate and rank 20 note-taking apps effectively. To provide a useful and comprehensive ranking, I need more ranking criteria.
-
-To effectively rank 20 note-taking apps, I need to know about your desired features. Do you value cross-platform support, offline access, robust organization tools, or specific integrations (like calendar or task management)? Providing these details will allow me to identify apps that excel in the areas most important to you and justify my rankings.
-
-Can you provide at least two more criteria for ranking these apps?
+{
+  "a": [
+    "ClickUp",
+    "Microsoft OneNote",
+    "Evernote",
+    "Notion",
+    "Google Keep",
+    "Apple Notes",
+    "Obsidian",
+    "Joplin",
+    "Simplenote",
+    "Zoho Notebook",
+    "Bear",
+    "Notewise",
+    "Noteshelf",
+    "LiquidText",
+    "Nebo",
+    "Paper by WeTransfer",
+    "Lindy",
+    "Granola",
+    "Krisp",
+    "NotebookLM"
+  ]
+}

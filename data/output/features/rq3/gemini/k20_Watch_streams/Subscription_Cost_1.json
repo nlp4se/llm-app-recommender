@@ -1,28 +1,24 @@
-Based on the "Subscription Cost" ranking criteria, here are 20 apps for watching streams, ordered from generally lower to higher monthly subscription costs (where applicable; some offer free tiers):
-
-```json
 {
   "a": [
     "Tubi",
     "Pluto TV",
     "Plex",
-    "YouTube (free version)",
-    "Sling Free",
-    "Freevee",
+    "The Roku Channel",
+    "Xumo Play",
+    "Sling Freestream",
+    "Kanopy",
     "Crackle",
+    "FilmRise",
     "Vudu",
-    "Roku Channel",
-    "Peacock (free tier)",
-    "Crunchyroll (free tier)",
+    "Freevee",
     "YouTube",
-    "Sling TV",
     "Peacock",
-    "Paramount+",
-    "Hulu",
-    "Netflix",
-    "Apple TV+",
-    "Disney+",
-    "Amazon Prime Video",
-    "Max"
+    "Philo",
+    "Hulu + Live TV",
+    "DirecTV",
+    "YouTube TV",
+    "ESPN+",
+    "Max",
+    "Streamlabs"
   ]
 }

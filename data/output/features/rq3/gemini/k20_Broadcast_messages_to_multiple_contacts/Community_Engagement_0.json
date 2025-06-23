@@ -1,27 +1,24 @@
-Based on the ranking criteria of Community Engagement, here are 20 apps that facilitate broadcasting messages to multiple contacts, ranked based on the assumption that apps with higher community engagement will have features fostering interaction, a larger user base, and positive reviews.
-
-```json
 {
   "a": [
-    "WhatsApp",
-    "Telegram",
-    "Facebook Messenger",
-    "GroupMe",
-    "Discord",
-    "Skype",
-    "Viber",
-    "Signal",
-    "Slack",
-    "Microsoft Teams",
-    "Google Chat",
-    "Hit Em Up: Mass Text Bulk SMS",
+    "SleekFlow",
     "SimpleTexting",
-    "Multi SMS & Group SMS",
+    "Project Broadcast",
+    "app.chitchatbot.ai",
+    "Telegram",
+    "Trumpia",
+    "Viber for Business",
     "DialMyCalls",
-    "TextMagic",
+    "Hit Em Up: Mass Text Bulk SMS",
+    "Emitrr",
+    "WhatsApp Business",
+    "Facebook Messenger",
+    "WeChat",
+    "SMS Broadcast",
+    "Textline",
     "EZ Texting",
-    "Podium",
-    "MessageMedia",
-    "Omnisend"
+    "CallHub",
+    "Twilio",
+    "Messente",
+    "Mozeo"
   ]
 }

@@ -1,27 +1,24 @@
-Okay, I will recommend 20 podcast apps based on their update frequency. Because I lack direct access to real-time app store data and update histories, I will make my selections based on general knowledge and common trends observed in the podcast app market. This ranking should be viewed as a general guideline, and actual update frequencies may vary.
-
-```json
 {
   "a": [
-    "Pocket Casts",
-    "Overcast",
     "Spotify",
     "Apple Podcasts",
-    "Podcast Republic",
-    "Castbox",
-    "Google Podcasts",
-    "Stitcher",
-    "AntennaPod",
-    "iCatcher! Podcast Player",
-    "Downcast",
+    "Pocket Casts",
+    "Overcast",
     "Podcast Addict",
-    "DoggCatcher",
-    "Player FM",
-    "Podbean",
-    "Amazon Music",
-    "YouTube Music",
-    "Castro",
+    "AntennaPod",
+    "Castbox",
+    "Downcast",
     "Audible",
-    "Luminary"
+    "Amazon Music",
+    "iHeartRadio",
+    "Podbean",
+    "Castro",
+    "Podcast Guru",
+    "Fountain",
+    "CurioCaster",
+    "PodLP",
+    "TrueFans",
+    "Podverse",
+    "Steno.fm"
   ]
 }

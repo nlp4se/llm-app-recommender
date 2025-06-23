@@ -1,27 +1,24 @@
-Okay, I will provide a JSON output of 20 file-sharing apps, ranked according to user reviews and ratings from app stores, independent review sites, review aggregators, and user review platforms.
-
-```json
 {
   "a": [
     "Google Drive",
     "Dropbox",
-    "Microsoft OneDrive",
+    "OneDrive",
     "WeTransfer",
     "Send Anywhere",
-    "Box",
-    "iCloud Drive",
-    "Filestage",
-    "Egnyte",
-    "Tresorit",
-    "Sync",
-    "MediaFire",
-    "AirDroid Personal",
-    "Send Anywhere",
-    "Hightail",
     "MEGA",
-    "ShareFile",
-    "Nextcloud",
-    "EasyShare",
-    "Zapya"
+    "Box",
+    "Sync",
+    "Filestage",
+    "Hightail",
+    "Coolmuster Android Assistant",
+    "Coolmuster Mobile Transfer",
+    "MediaFire",
+    "Tresorit",
+    "Egnyte",
+    "OneHub",
+    "Filecamp",
+    "Pics.io",
+    "Stockpress",
+    "KDE Connect"
   ]
 }

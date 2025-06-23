@@ -1,27 +1,24 @@
-Okay, I will identify and rank 20 photo effects apps based primarily on ad frequency, with additional consideration for user reviews, free tier descriptions, independent reviews, and personal testing to refine the ranking where ad frequency data is similar.
-
-```json
 {
   "a": [
     "Snapseed",
-    "Lumii",
     "Google Photos",
-    "PhotoDirector",
-    "Afterlight",
+    "Apple Photos",
+    "Adobe Photoshop Express",
     "VSCO",
-    "Picsart",
-    "Adobe Lightroom Mobile",
-    "Polarr",
-    "Hypic",
-    "Pixlr E",
-    "Photopea",
-    "Fotor",
-    "PhotoScape X",
-    "GIMP",
-    "Photo Editor Pro",
+    "Lensa",
+    "Afterlight",
     "YouCam Perfect",
-    "Polish",
+    "PhotoDirector",
+    "AirBrush",
+    "Fotor",
+    "PhotoRoom",
     "Canva",
-    "1998 Cam"
+    "Pixlr",
+    "Photo Editor Pro - Polish",
+    "PicsArt",
+    "Polish",
+    "Photoleap",
+    "Prisma",
+    "Adobe Lightroom Mobile"
   ]
 }

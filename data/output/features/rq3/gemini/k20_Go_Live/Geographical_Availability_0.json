@@ -1,27 +1,24 @@
-Based on the provided ranking criteria of "Geographical Availability," here are 20 apps recommended for going live, ranked according to their availability in the most countries:
-
-```json
 {
   "a": [
-    "BIGO LIVE",
-    "Facebook Live",
-    "YouTube Live",
-    "Instagram Live",
-    "Amazon Prime Video",
-    "Netflix",
-    "World Live App",
-    "LiveMe",
-    "StreamYard",
+    "YouTube",
     "Twitch",
     "TikTok",
-    "Zoom",
-    "Apple TV+",
-    "Tango",
-    "YouNow",
-    "Livestream",
-    "Stream",
-    "Periscope",
+    "Instagram",
+    "Facebook Live",
+    "Kick",
+    "Rumble",
+    "Dacast",
+    "Agora",
+    "Mux",
+    "Netflix",
+    "Amazon Prime Video",
+    "Disney+",
     "Max",
-    "StreamShark"
+    "Paramount+",
+    "Hulu",
+    "Peacock",
+    "Apple TV+",
+    "ESPN+",
+    "Starz"
   ]
 }

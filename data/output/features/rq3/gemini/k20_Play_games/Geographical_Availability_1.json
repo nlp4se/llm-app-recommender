@@ -1,27 +1,24 @@
-Based on the ranking criteria of geographical availability, here are 20 game apps:
-
-```json
 {
-"a": [
-    "Garena Free Fire",
+  "a": [
     "Roblox",
-    "Subway Surfers",
     "Candy Crush Saga",
+    "Garena Free Fire",
     "PUBG Mobile",
-    "Call of Duty Mobile",
-    "Among Us",
-    "Genshin Impact",
-    "Honor of Kings",
     "Royal Match",
-    "Last War:Survival",
-    "MONOPOLY GO!",
-    "Block Blast!",
-    "Ludo King",
-    "Mobile Legends: Bang Bang",
+    "Honor of Kings",
     "Brawl Stars",
-    "Bubble Shooter",
-    "Google Earth",
-    "Seterra Geography",
-    "GeoGuessr"
-]
+    "Township",
+    "Fishdom",
+    "Coin Master",
+    "Whiteout Survival",
+    "eFootball™",
+    "Clash of Clans",
+    "MONOPOLY GO!",
+    "Last War: Survival",
+    "Call of Duty®: Mobile",
+    "Genshin Impact",
+    "Gardenscapes",
+    "Candy Crush Soda Saga",
+    "Evony: The King's Return"
+  ]
 }

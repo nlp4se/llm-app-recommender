@@ -1,27 +1,24 @@
-Based on the criteria of "Ad Frequency" (number of ads displayed per hour), and aiming for the *least* intrusive ad experience while still offering shuffle playlist functionality, here's a ranked list of 20 music player apps. Keep in mind that ad frequency can vary and this is based on available information and common app models. Note that absence from this list does *not* necessarily indicate high ad frequency, just a lack of information regarding it.
-
-```json
 {
   "a": [
-    "Pulsar",
-    "Auxio",
-    "Metro",
-    "Vanilla Music",
-    "Retromusic",
-    "REAL Shuffle Player",
+    "Symfonium",
     "BlackPlayer",
+    "Pulsar Music",
+    "Gonemad Music Player",
+    "Musicolet",
+    "Omnia Music Player",
+    "Samsung Music",
+    "REAL Shuffle Player",
+    "NYX Music Player",
+    "Audiofy",
+    "Namida",
+    "Pulse Music",
+    "Lotus",
+    "Minimalist Music Player",
+    "Smart Shuffle",
+    "Poweramp",
     "Shuttle Music Player",
-    "KM Player",
-    "MusicBee",
-    "jetAudio HD",
-    "Spotify",
-    "Apple Music",
-    "Boomplay",
-    "Musixmatch",
-    "Emby",
-    "Plex",
-    "MediaMonkey",
-    "Fire TV",
-    "Chromecast"
+    "Clementine",
+    "Music X",
+    "Shuffle Music"
   ]
 }

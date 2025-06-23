@@ -1,1 +1,24 @@
-I need more information to accurately rank apps for broadcasting messages to multiple contacts. Specifically, I need to know the platform (iOS, Android, or both) for which you need app recommendations. Please specify the operating system so I can provide a relevant and helpful ranking.
+{
+  "a": [
+    "EZ Texting",
+    "SimpleTexting",
+    "TextMagic",
+    "SlickText",
+    "Textedly",
+    "Twilio",
+    "Mobile Text Alerts",
+    "EngageLab",
+    "Project Broadcast",
+    "ControlHippo",
+    "Textellent",
+    "Salesmsg",
+    "Podium",
+    "Sakari",
+    "Mailchimp",
+    "Mozeo",
+    "Tatango",
+    "WP SMS",
+    "CallFire",
+    "Textla"
+  ]
+}

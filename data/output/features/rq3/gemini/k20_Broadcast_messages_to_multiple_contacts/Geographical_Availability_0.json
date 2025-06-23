@@ -1,27 +1,24 @@
-Okay, I will identify and rank 20 apps that allow broadcasting messages to multiple contacts, prioritizing those with greater geographical availability.
-
-```json
 {
   "a": [
+    "SMSCountry",
     "WhatsApp",
-    "Telegram",
-    "Skype",
-    "Viber",
-    "Facebook Messenger",
-    "KakaoTalk",
-    "WeChat",
-    "Slack",
-    "Threema",
-    "Signal",
-    "Line",
-    "Discord",
-    "GroupMe",
-    "Wire",
-    "Element",
-    "Bridgefy",
-    "Microsoft Teams",
-    "OpenPhone",
-    "TextNow",
-    "Google Voice"
+    "WebEngage",
+    "Zixflow",
+    "NovoChat",
+    "Interakt",
+    "WA Web Sender",
+    "WP SMS",
+    "TextMagic",
+    "Sakari",
+    "SimpleTexting",
+    "EZ Texting",
+    "Genesys",
+    "EngageLab",
+    "ClickSend",
+    "SlickText",
+    "Webex",
+    "MessageBird",
+    "Hit Em Up",
+    "Textedly"
   ]
 }

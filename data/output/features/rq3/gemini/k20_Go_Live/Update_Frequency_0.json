@@ -1,27 +1,24 @@
-Okay, I will identify and rank 20 "Go Live" apps based on their update frequency. I will use the available sources to determine how often each app is updated with new features, bug fixes, and improvements.
-
-```json
 {
   "a": [
+    "Streamlabs",
+    "Twitch",
     "YouTube Live",
     "Facebook Live",
-    "Instagram Live",
-    "Twitch",
-    "TikTok Live",
-    "LinkedIn Live",
-    "Streamlabs",
-    "Prism Live Studio",
-    "Streamyard",
-    "OBS Studio",
     "Restream",
+    "OBS Studio",
+    "TikTok Live",
     "Vimeo Livestream",
-    "Zoom",
-    "Microsoft Teams",
-    "Bigo Live",
-    "Switcher Studio",
-    "Kick",
-    "Dacast",
-    "Brightcove Live",
-    "IBM Video Streaming"
+    "Wirecast Go",
+    "Prism Live Studio",
+    "StreamYard",
+    "Camo Studio",
+    "EventLive",
+    "Instagram Live",
+    "Larix Broadcaster",
+    "nanoStream",
+    "AIRMIX",
+    "BroadcastMe",
+    "YouNow",
+    "Tango"
   ]
 }

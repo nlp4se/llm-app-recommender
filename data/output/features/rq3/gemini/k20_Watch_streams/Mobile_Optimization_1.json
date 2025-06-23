@@ -1,26 +1,24 @@
-Okay, I will rank 20 streaming apps based on mobile optimization.
-```json
 {
   "a": [
-    "YouTube",
-    "Amazon Prime Video",
-    "Google TV",
-    "ZEE5",
-    "BBC iPlayer",
-    "Netflix",
-    "Hulu",
-    "Disney+",
-    "HBO Max",
     "Twitch",
-    "Spotify",
-    "Pandora",
-    "Tidal",
+    "YouTube Live",
+    "TikTok Live",
+    "Prism Live Studio",
+    "StreamYard",
+    "Streamlabs",
+    "fuboTV",
+    "Hulu",
+    "XUMO",
+    "BitStream",
+    "Restream",
+    "Switcher Studio",
+    "DAZN",
+    "On Air",
+    "Kidoodle.TV",
+    "Vix",
+    "Pluto TV",
     "Apple Music",
-    "Vimeo",
-    "Dailymotion",
-    "Plex",
-    "Crackle",
-    "Peacock",
-    "Paramount+"
+    "A24 App",
+    "Netflix"
   ]
 }

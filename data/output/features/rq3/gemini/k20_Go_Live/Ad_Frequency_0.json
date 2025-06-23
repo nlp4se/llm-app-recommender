@@ -1,27 +1,24 @@
-I need to gather information about the ad frequency of different live streaming apps to rank them effectively. I will use the search queries to find data from user reviews, third-party reviews, and other available sources.
-
-```json
 {
   "a": [
-    "Apple TV+",
-    "Criterion Channel",
-    "Hulu (No Ads)",
     "Twitch",
     "YouTube Live",
-    "StreamYard",
-    "Go Live",
     "Instagram Live",
-    "TikTok",
     "Facebook Live",
-    "Periscope",
+    "TikTok Live",
+    "Bigo Live",
+    "Stream",
     "VK Live",
-    "Restream",
-    "Wowza Streaming Engine",
-    "Castr",
+    "Prism Live Studio",
+    "Streamyard",
+    "OBS Studio",
     "Dacast",
-    "Vimeo",
-    "JW Player",
-    "Brightcove",
-    "Uscreen"
+    "Restream",
+    "LinkedIn Live",
+    "Camo Studio",
+    "Zoom",
+    "Mixcloud",
+    "Vimeo Livestream",
+    "WatchESPN",
+    "Switcher Studio"
   ]
 }

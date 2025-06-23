@@ -1,1 +1,24 @@
-I need more information to provide an accurate and useful ranking of movie access apps. Specifically, I need the app names to rank. Please provide a list of at least 20 apps that provide access to movies. Once you provide the app list, I will use the "Update Frequency" criterion to rank them and present the results in the specified JSON format.
+{
+  "a": [
+    "Netflix",
+    "Amazon Prime Video",
+    "Disney+",
+    "Hulu",
+    "HBO Max",
+    "Apple TV+",
+    "Paramount+",
+    "Peacock",
+    "Tubi",
+    "Plex",
+    "Crackle",
+    "PopcornFlix",
+    "SnagFilms",
+    "Viewster",
+    "Pluto TV",
+    "Freevee",
+    "The Roku Channel",
+    "Fandango at Home",
+    "YouTube Movies",
+    "Kodi"
+  ]
+}

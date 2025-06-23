@@ -1,27 +1,24 @@
-Okay, I understand. I will recommend 20 apps for searching for offers on items, ranked by community engagement.
-
-```json
 {
   "a": [
-    "Rakuten",
-    "Groupon",
-    "Mighty Networks",
-    "Circle",
-    "Discord",
     "Nextdoor",
     "Meetup",
-    "Slack",
-    "Ibotta",
-    "Fetch",
-    "Checkout 51",
-    "D4D Shopping Offers & Coupons",
-    "EzyCourse",
-    "Kajabi",
-    "Uscreen",
-    "Thinkific",
-    "Facebook Groups",
+    "Bumble BFF",
     "Eventbrite",
-    "OLIO",
-    "GroupApp"
+    "Facebook Groups",
+    "Telegram",
+    "Strava",
+    "Letterboxd",
+    "Mighty Networks",
+    "Circle.so",
+    "Discord",
+    "Slack",
+    "Raklet",
+    "Disciple",
+    "Bettermode",
+    "Common Room",
+    "Geneva Chat",
+    "Hivebrite",
+    "Wild Apricot",
+    "BuddyBoss"
   ]
 }

@@ -1,27 +1,24 @@
-Based on customer support availability and quality, and shuffle mode functionality, here are 20 apps:
-
-```json
 {
   "a": [
-    "Spotify",
-    "YouTube Music",
-    "Apple Music",
-    "Amazon Music",
-    "Tidal",
-    "Deezer",
-    "Pandora",
-    "SoundCloud",
-    "Jango Radio",
-    "iHeartRadio",
-    "TuneIn",
-    "LiveXLive",
-    "Music Player (by Websyms - Shopify App Store)",
+    "Poweramp",
+    "Retromusic",
+    "BlackPlayer",
+    "Pulsar",
+    "Stellio",
+    "KM Player",
+    "Music Player (InShot Inc.)",
+    "Smart Shuffle",
     "REAL Shuffle Player",
-    "Shuffle Music",
-    "Lark Player",
-    "Nyx Music Player",
-    "Oto Music",
-    "Frolomuse",
-    "BlackPlayer"
+    "True Shuffle Player",
+    "VLC",
+    "AIMP",
+    "foobar2000",
+    "Musicolet",
+    "MediaMonkey",
+    "jetAudio",
+    "doubleTwist",
+    "Neutron Music Player",
+    "PlayerPro Music Player",
+    "GoneMAD Music Player"
   ]
 }

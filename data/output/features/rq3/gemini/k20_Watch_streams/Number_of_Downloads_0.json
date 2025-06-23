@@ -1,27 +1,24 @@
-Based on the ranking criteria of "Number of Downloads," here are 20 apps for watching streams. Please note that precise download numbers fluctuate and are often proprietary, so this ranking is based on general popularity and the information available in the provided search results as of June 20, 2025.
-
-```json
 {
   "a": [
-    "Netflix",
     "YouTube",
+    "TikTok",
+    "Instagram",
+    "Twitch",
+    "Netflix",
     "Amazon Prime Video",
     "Disney+",
     "Hulu",
-    "TikTok",
-    "Instagram",
-    "Max (formerly HBO Max)",
     "Peacock",
     "Paramount+",
-    "ESPN+",
+    "Kick",
+    "Rumble",
+    "Max",
+    "Crunchyroll",
     "Pluto TV",
     "Tubi",
-    "The Roku Channel",
-    "Crackle",
     "Vudu",
-    "Plex",
-    "Crunchyroll",
-    "Sling Free",
-    "Apple TV+"
+    "Dailymotion",
+    "ESPN+",
+    "Starz"
   ]
 }

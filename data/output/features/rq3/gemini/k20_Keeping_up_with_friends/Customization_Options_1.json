@@ -1,27 +1,24 @@
-Okay, I understand. I need to identify and rank 20 apps that help with "Keeping up with friends" based primarily on the "Customization Options" ranking criterion. I will consider app documentation, official app websites, search results, and user reviews to assess the level of customization each app offers.
-
-```json
 {
   "a": [
-    "Discord",
+    "Noplace",
     "Telegram",
-    "Slack",
+    "Discord",
+    "Locket Widget",
     "WhatsApp",
-    "Facebook",
     "Facebook Messenger",
     "Instagram",
     "Snapchat",
+    "BeReal",
+    "Marco Polo",
     "Viber",
-    "Signal",
-    "Loomly",
-    "Zangi",
     "Houseparty",
     "Zoom",
-    "Microsoft Teams",
-    "Google Chat",
-    "Locket Widget",
+    "Signal",
     "Mininote",
-    "Bunch",
-    "Raklet"
+    "Cappuccino",
+    "Airbuds",
+    "Noteit",
+    "Pingo",
+    "Threads"
   ]
 }

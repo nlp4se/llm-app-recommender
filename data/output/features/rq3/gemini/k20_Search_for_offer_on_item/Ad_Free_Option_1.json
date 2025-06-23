@@ -1,27 +1,24 @@
-Okay, I will identify and rank 20 apps for searching offers on items, prioritizing the availability of an ad-free option.
-
-```json
 {
   "a": [
-    "Unit Price Comparison",
-    "Quick Unit Price Comparison",
-    "ShopSavvy",
-    "Flipp",
-    "BuyVia",
     "Rakuten",
     "Honey",
     "Ibotta",
+    "ShopSavvy",
+    "RetailMeNot",
+    "Groupon",
+    "Slickdeals",
     "DealNews",
-    "OurGroceries",
-    "Amazon Shopping",
-    "Walmart",
-    "Target",
-    "eBay",
-    "Best Buy",
-    "Choose: Daily Discovery",
-    "ShopFully: Offers & Catalogs",
-    "PriceSpy",
-    "ShopPuppet",
-    "Slickdeals"
+    "Flipp",
+    "BuyVia",
+    "Price.com",
+    "CouponCabin",
+    "Dosh",
+    "Checkout 51",
+    "Fetch Rewards",
+    "Target (with Target Circle)",
+    "Amazon Price Check",
+    "Goodzer",
+    "LivingSocial",
+    "Upside"
   ]
 }

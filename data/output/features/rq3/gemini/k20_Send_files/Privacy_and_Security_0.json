@@ -1,27 +1,24 @@
-I need to conduct some research to provide an informed recommendation based on the provided ranking criteria. I will focus on identifying file-sharing apps that emphasize privacy and security through features like encryption, secure transfer protocols, and clear privacy policies.
-
-```json
 {
   "a": [
-    "Tresorit",
     "Proton Drive",
+    "Tresorit Send",
+    "SendSafely",
+    "Mega",
     "Sync.com",
-    "pCloud",
-    "Kiteworks Secure File Sharing",
-    "ShareFile by Citrix",
-    "Filestage",
-    "Egnyte",
+    "SpiderOak Share",
+    "Filen",
+    "Nextcloud",
+    "ownCloud",
+    "VeePN Send",
     "NordLocker",
-    "MEGA",
-    "SpiderOak One",
-    "OneHub",
-    "Binfer",
-    "Wormhole",
-    "FileCloud",
-    "AnyViewer",
-    "Idgard",
-    "GoAnywhere MFT",
-    "Files.com",
-    "ToffeeShare"
+    "pCloud Transfer",
+    "WeTransfer",
+    "MailBigFile",
+    "Jumpshare",
+    "Filemail",
+    "Smash",
+    "SendAnywhere",
+    "Terashare",
+    "Dropbox Transfer"
   ]
 }

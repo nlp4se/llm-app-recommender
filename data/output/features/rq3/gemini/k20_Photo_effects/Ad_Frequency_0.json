@@ -1,27 +1,24 @@
-Based on the provided sources and the ranking criteria (Ad Frequency), here's a ranked list of 20 photo effects apps. Note that precise ad frequency data is difficult to obtain and varies, so this ranking is based on the available information and general trends. Apps explicitly mentioned as having fewer ads or offering ad-free versions through subscription are ranked higher.
-
-```json
 {
   "a": [
     "Snapseed",
-    "Apple Photos",
-    "Google Photos",
-    "Adobe Lightroom Mobile",
+    "Lumii",
+    "EPIK",
     "YouCam Perfect",
     "PhotoDirector",
     "VSCO",
     "Afterlight",
-    "Polarr",
+    "Darkroom",
     "Photo Editor Pro",
-    "Prisma",
-    "Instasize",
-    "BeFunky",
-    "piZap",
-    "Fotor",
-    "AirBrush",
-    "Facetune",
+    "Pixlr",
+    "Adobe Photoshop Lightroom",
+    "Photoleap by Lightricks",
+    "Adobe Photoshop Express",
+    "Google Photos",
+    "Apple Photos",
     "PicsArt",
-    "A Color Story",
-    "Pixlr"
+    "Polarr",
+    "BeautyPlus-Selfie Photo Editor",
+    "Lensa AI",
+    "1998 Cam"
   ]
 }

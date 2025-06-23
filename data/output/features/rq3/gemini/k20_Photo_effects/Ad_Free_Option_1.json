@@ -1,27 +1,24 @@
-Based on the availability of an ad-free option, here are 20 photo effects apps:
-
-```json
 {
   "a": [
-    "Google Photos",
-    "Apple Photos",
-    "Adobe Lightroom Mobile",
-    "YouCam Enhance",
-    "YouCam Perfect",
-    "VSCO",
     "Snapseed",
+    "Lumii",
+    "EPIK",
+    "Google Photos",
+    "PhotoScape X",
+    "Photopea",
+    "Krita",
+    "Canva",
+    "Adobe Lightroom Mobile",
     "Photoshop Express",
-    "PicsArt",
     "Pixelmator",
-    "Fotor",
+    "Afterlight",
+    "VSCO",
     "Polarr",
-    "Remini",
-    "Pixelup",
-    "PicWish",
-    "PicMa",
-    "PixelCut",
-    "FixMyPics",
-    "PhotoApp",
-    "UpFoto"
+    "Photofox",
+    "1998 Cam",
+    "INSTAX UP!",
+    "Facetune",
+    "Photoleap",
+    "Pixlr E and X"
   ]
 }
