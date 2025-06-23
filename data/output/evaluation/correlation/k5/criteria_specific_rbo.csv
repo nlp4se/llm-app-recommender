@@ -1,0 +1,823 @@
+criteria,feature,model,rbo,num_comparisons
+Ad_Free_Option,Access to movies,openai,0.0,10
+Ad_Free_Option,Access to movies,mistral,0.8171349857692327,10
+Ad_Free_Option,Access to movies,gemini,0.6477140842923734,10
+Ad_Free_Option,Access to podcasts,openai,0.08868649166115258,10
+Ad_Free_Option,Access to podcasts,mistral,0.9249575839790249,10
+Ad_Free_Option,Access to podcasts,gemini,0.34146973340481845,9
+Ad_Free_Option,Broadcast messages to multiple contacts,openai,0.0,10
+Ad_Free_Option,Broadcast messages to multiple contacts,mistral,0.42974498814985296,10
+Ad_Free_Option,Build photo collage,openai,0.0149872058932552,10
+Ad_Free_Option,Build photo collage,mistral,0.8886963917257564,10
+Ad_Free_Option,Build photo collage,gemini,0.5544007260661334,10
+Ad_Free_Option,Collaborate with others,openai,0.41214466250679777,10
+Ad_Free_Option,Collaborate with others,mistral,0.7271750234723625,10
+Ad_Free_Option,Go Live,openai,0.0869809822061304,10
+Ad_Free_Option,Go Live,mistral,0.4537810188593929,10
+Ad_Free_Option,Go Live,gemini,0.7679456053613225,8
+Ad_Free_Option,Keeping up with friends,openai,0.19230097301518673,10
+Ad_Free_Option,Keeping up with friends,mistral,0.16067361881435904,10
+Ad_Free_Option,Keeping up with friends,gemini,0.230980083372358,10
+Ad_Free_Option,List items for sale,openai,0.5395917950106437,10
+Ad_Free_Option,List items for sale,mistral,0.21716820393948896,10
+Ad_Free_Option,Photo effects,openai,0.6107683417115508,10
+Ad_Free_Option,Photo effects,mistral,0.34943783749435353,10
+Ad_Free_Option,Play games,openai,0.0,10
+Ad_Free_Option,Play games,mistral,0.149872058932552,10
+Ad_Free_Option,Play games,gemini,0.01858772585385755,10
+Ad_Free_Option,Play playlist on shuffle mode,openai,0.8141227414614246,10
+Ad_Free_Option,Play playlist on shuffle mode,mistral,0.7667474788219202,10
+Ad_Free_Option,Play playlist on shuffle mode,gemini,0.0040005777340026095,9
+Ad_Free_Option,Rate movies,openai,0.7088569201221347,10
+Ad_Free_Option,Rate movies,mistral,0.7307422792158966,10
+Ad_Free_Option,Search for offer on item,openai,0.03886433826356551,10
+Ad_Free_Option,Search for offer on item,mistral,0.524116511327746,10
+Ad_Free_Option,Send files,openai,0.0036005199606023485,10
+Ad_Free_Option,Send files,mistral,0.13296622051910414,10
+Ad_Free_Option,Send files,gemini,0.6808008645749443,10
+Ad_Free_Option,Watch streams,openai,0.0,10
+Ad_Free_Option,Watch streams,mistral,0.797634575261903,10
+Ad_Free_Option,Watch streams,gemini,0.008338046224552805,10
+Ad_Free_Option,Write notes,openai,0.16944718499721184,10
+Ad_Free_Option,Write notes,mistral,0.742970102265365,10
+Ad_Free_Option,Write notes,gemini,0.47138106822157544,10
+Ad_Frequency,Access to movies,openai,0.0,10
+Ad_Frequency,Access to movies,mistral,0.8437316244440425,10
+Ad_Frequency,Access to movies,gemini,0.011938566185155153,10
+Ad_Frequency,Access to podcasts,openai,0.05268129205512909,10
+Ad_Frequency,Access to podcasts,mistral,0.14572630787911608,10
+Ad_Frequency,Broadcast messages to multiple contacts,openai,0.5345889378059523,10
+Ad_Frequency,Broadcast messages to multiple contacts,mistral,0.5712790008578521,10
+Ad_Frequency,Build photo collage,openai,0.19421530476312826,10
+Ad_Frequency,Build photo collage,mistral,0.8778948318439493,10
+Ad_Frequency,Collaborate with others,openai,0.0,10
+Ad_Frequency,Collaborate with others,mistral,0.9626018014433834,10
+Ad_Frequency,Go Live,openai,0.0,10
+Ad_Frequency,Go Live,mistral,0.4825851785442117,10
+Ad_Frequency,Keeping up with friends,openai,0.08338046224552806,10
+Ad_Frequency,Keeping up with friends,mistral,0.16067361881435904,10
+Ad_Frequency,Keeping up with friends,gemini,0.1718375578981104,10
+Ad_Frequency,List items for sale,openai,0.4645493789896685,10
+Ad_Frequency,List items for sale,mistral,0.35264133263157993,10
+Ad_Frequency,Photo effects,openai,0.6677502402492423,10
+Ad_Frequency,Photo effects,mistral,0.6428715160406373,10
+Ad_Frequency,Play games,openai,0.0,10
+Ad_Frequency,Play games,mistral,0.577060795145561,10
+Ad_Frequency,Play games,gemini,0.0,10
+Ad_Frequency,Play playlist on shuffle mode,openai,0.149872058932552,10
+Ad_Frequency,Play playlist on shuffle mode,mistral,0.9166195377544721,10
+Ad_Frequency,Rate movies,openai,0.565188352182596,10
+Ad_Frequency,Rate movies,mistral,0.7465706222259674,10
+Ad_Frequency,Rate movies,gemini,0.8636643040047375,10
+Ad_Frequency,Search for offer on item,openai,0.0,10
+Ad_Frequency,Search for offer on item,mistral,0.9819974001969882,10
+Ad_Frequency,Send files,openai,0.0,10
+Ad_Frequency,Send files,mistral,0.07647828455364292,10
+Ad_Frequency,Watch streams,openai,0.0,10
+Ad_Frequency,Watch streams,mistral,0.23837062434412074,10
+Ad_Frequency,Watch streams,gemini,0.0,10
+Ad_Frequency,Write notes,openai,0.09656539591279287,10
+Ad_Frequency,Write notes,mistral,0.5930980433328131,10
+Ad_Frequency,Write notes,gemini,0.10659932780863682,10
+Community_Engagement,Access to movies,openai,0.0,10
+Community_Engagement,Access to movies,mistral,0.0,10
+Community_Engagement,Access to movies,gemini,0.007201039921204697,10
+Community_Engagement,Access to podcasts,openai,0.0,10
+Community_Engagement,Access to podcasts,mistral,0.7798230513104234,10
+Community_Engagement,Access to podcasts,gemini,0.161991999417559,9
+Community_Engagement,Broadcast messages to multiple contacts,openai,0.0,10
+Community_Engagement,Broadcast messages to multiple contacts,mistral,0.9439076890348268,10
+Community_Engagement,Broadcast messages to multiple contacts,gemini,0.05558697483035203,6
+Community_Engagement,Build photo collage,openai,0.642867666527145,10
+Community_Engagement,Build photo collage,mistral,0.5035107655144373,10
+Community_Engagement,Build photo collage,gemini,0.3291542259692048,10
+Community_Engagement,Collaborate with others,openai,0.7307422792158966,10
+Community_Engagement,Collaborate with others,mistral,0.741577103314772,10
+Community_Engagement,Collaborate with others,gemini,0.848747577362098,10
+Community_Engagement,Go Live,openai,0.0,10
+Community_Engagement,Go Live,mistral,0.5443625210261257,10
+Community_Engagement,Keeping up with friends,openai,0.280062430267859,10
+Community_Engagement,Keeping up with friends,mistral,0.5867293732153983,10
+Community_Engagement,List items for sale,openai,0.14479840014956005,10
+Community_Engagement,List items for sale,mistral,0.37064078283264335,10
+Community_Engagement,Photo effects,openai,0.45993357286884995,10
+Community_Engagement,Photo effects,mistral,0.6964700053368256,10
+Community_Engagement,Play games,openai,0.0,10
+Community_Engagement,Play games,mistral,0.810405686228734,10
+Community_Engagement,Play games,gemini,0.0673988570260298,10
+Community_Engagement,Play playlist on shuffle mode,openai,0.5118886882782776,10
+Community_Engagement,Play playlist on shuffle mode,mistral,0.9166195377544721,10
+Community_Engagement,Play playlist on shuffle mode,gemini,0.24391730053940774,9
+Community_Engagement,Rate movies,openai,0.6143688616721532,10
+Community_Engagement,Rate movies,mistral,0.9747963602757836,10
+Community_Engagement,Rate movies,gemini,0.5988508925944294,10
+Community_Engagement,Search for offer on item,openai,0.052963531385276895,10
+Community_Engagement,Search for offer on item,mistral,0.0,10
+Community_Engagement,Send files,openai,0.9119385661851551,10
+Community_Engagement,Send files,mistral,0.04434324583057629,10
+Community_Engagement,Watch streams,openai,0.18200167334115208,10
+Community_Engagement,Watch streams,mistral,0.45722421528173973,10
+Community_Engagement,Watch streams,gemini,0.7081361862096246,10
+Community_Engagement,Write notes,openai,0.46153532043746315,10
+Community_Engagement,Write notes,mistral,0.5930980433328131,10
+Community_Engagement,Write notes,gemini,0.20924534340100834,10
+Cost,Access to movies,openai,0.0,10
+Cost,Access to movies,mistral,0.0,10
+Cost,Access to podcasts,openai,0.41912977971665555,10
+Cost,Access to podcasts,mistral,0.9022174579120629,10
+Cost,Access to podcasts,gemini,0.6847007062097248,9
+Cost,Broadcast messages to multiple contacts,openai,0.6185783230948247,10
+Cost,Broadcast messages to multiple contacts,mistral,0.46802420036257253,10
+Cost,Broadcast messages to multiple contacts,gemini,0.09806343992095912,6
+Cost,Build photo collage,openai,0.2249144749535273,10
+Cost,Build photo collage,mistral,0.479633633144127,10
+Cost,Build photo collage,gemini,0.0,10
+Cost,Collaborate with others,openai,0.8429269011462435,10
+Cost,Collaborate with others,mistral,0.9493034821059785,10
+Cost,Collaborate with others,gemini,0.8093313588460301,10
+Cost,Go Live,openai,0.12127664786575329,10
+Cost,Go Live,mistral,0.5911074580640171,10
+Cost,Go Live,gemini,0.48205601778880447,8
+Cost,Keeping up with friends,openai,0.7024926981267697,10
+Cost,Keeping up with friends,mistral,0.32051171822297986,10
+Cost,Keeping up with friends,gemini,0.335097902429568,10
+Cost,List items for sale,openai,0.24110780341510787,10
+Cost,List items for sale,mistral,0.5277170312883482,10
+Cost,List items for sale,gemini,0.0,10
+Cost,Photo effects,openai,0.6107683417115508,10
+Cost,Photo effects,mistral,0.6428715160406373,10
+Cost,Photo effects,gemini,0.43136874609465475,10
+Cost,Play games,openai,0.0,10
+Cost,Play games,mistral,0.4997606210425644,10
+Cost,Play games,gemini,0.0,10
+Cost,Play playlist on shuffle mode,openai,0.7714850050858706,10
+Cost,Play playlist on shuffle mode,mistral,0.9166195377544721,10
+Cost,Play playlist on shuffle mode,gemini,0.0,9
+Cost,Rate movies,openai,0.5291831525765724,10
+Cost,Rate movies,mistral,0.5097175810872849,10
+Cost,Rate movies,gemini,0.6030032928075342,10
+Cost,Search for offer on item,openai,0.5491000472900762,10
+Cost,Search for offer on item,mistral,0.18476352429406784,10
+Cost,Search for offer on item,gemini,0.2438715054498705,10
+Cost,Send files,openai,0.6900727309397281,10
+Cost,Send files,mistral,0.12345792219285974,10
+Cost,Send files,gemini,0.7841288058265796,10
+Cost,Watch streams,openai,0.16958979197431695,10
+Cost,Watch streams,mistral,0.0,10
+Cost,Watch streams,gemini,0.0,10
+Cost,Write notes,openai,0.4445453452889277,10
+Cost,Write notes,mistral,0.5025102419621836,10
+Cost,Write notes,gemini,0.0,10
+Customer_Support,Access to movies,openai,0.0,10
+Customer_Support,Access to movies,mistral,0.880127024735887,10
+Customer_Support,Access to podcasts,openai,0.08868649166115258,10
+Customer_Support,Access to podcasts,mistral,0.9022174579120629,10
+Customer_Support,Broadcast messages to multiple contacts,openai,0.6803556655767388,10
+Customer_Support,Broadcast messages to multiple contacts,mistral,0.9439076890348268,10
+Customer_Support,Broadcast messages to multiple contacts,gemini,0.0,6
+Customer_Support,Build photo collage,openai,0.0149872058932552,10
+Customer_Support,Build photo collage,mistral,0.906698991528768,10
+Customer_Support,Collaborate with others,openai,0.7667474788219202,10
+Customer_Support,Collaborate with others,mistral,0.9481997216009741,10
+Customer_Support,Collaborate with others,gemini,0.0,10
+Customer_Support,Go Live,openai,0.6201895194692828,10
+Customer_Support,Go Live,mistral,0.0,10
+Customer_Support,Go Live,gemini,0.0,8
+Customer_Support,Keeping up with friends,openai,0.7312968578115886,10
+Customer_Support,Keeping up with friends,mistral,0.7963952068952339,10
+Customer_Support,List items for sale,openai,0.6467931112127212,10
+Customer_Support,List items for sale,mistral,0.9819974001969884,10
+Customer_Support,List items for sale,gemini,0.8983609453042154,10
+Customer_Support,Photo effects,openai,0.5821935780353023,10
+Customer_Support,Photo effects,mistral,0.6289687862474749,10
+Customer_Support,Play games,openai,0.0,10
+Customer_Support,Play games,mistral,0.13966227426125952,10
+Customer_Support,Play games,gemini,0.0149872058932552,10
+Customer_Support,Play playlist on shuffle mode,openai,0.7667474788219202,10
+Customer_Support,Play playlist on shuffle mode,mistral,0.9166195377544721,10
+Customer_Support,Rate movies,openai,0.14839594548610008,10
+Customer_Support,Rate movies,mistral,0.9711958403151814,10
+Customer_Support,Search for offer on item,openai,0.5308152081569166,10
+Customer_Support,Search for offer on item,mistral,0.0,10
+Customer_Support,Send files,openai,0.8759333665791319,10
+Customer_Support,Send files,mistral,0.8202779753953464,10
+Customer_Support,Watch streams,openai,0.1868247637913656,10
+Customer_Support,Watch streams,mistral,0.6419877395758076,10
+Customer_Support,Write notes,openai,0.7254901521985282,10
+Customer_Support,Write notes,mistral,0.5930980433328131,10
+Customer_Support,Write notes,gemini,0.5664140906928803,10
+Customization_Options,Access to movies,openai,0.0,10
+Customization_Options,Access to movies,mistral,0.0,10
+Customization_Options,Access to movies,gemini,0.0,10
+Customization_Options,Access to podcasts,openai,0.05268129205512909,10
+Customization_Options,Access to podcasts,mistral,0.062345845633588026,10
+Customization_Options,Access to podcasts,gemini,0.3984785007690073,9
+Customization_Options,Broadcast messages to multiple contacts,openai,0.23983518925009545,10
+Customization_Options,Broadcast messages to multiple contacts,mistral,0.8806143381484486,10
+Customization_Options,Build photo collage,openai,0.19421530476312826,10
+Customization_Options,Build photo collage,mistral,0.3975697045130021,10
+Customization_Options,Build photo collage,gemini,0.2394537374585751,10
+Customization_Options,Collaborate with others,openai,0.043206239527228185,10
+Customization_Options,Collaborate with others,mistral,0.581727980299332,10
+Customization_Options,Go Live,openai,0.021603119763614093,10
+Customization_Options,Go Live,mistral,0.0,10
+Customization_Options,Go Live,gemini,0.0,8
+Customization_Options,Keeping up with friends,openai,0.0,10
+Customization_Options,Keeping up with friends,mistral,0.09418202212733509,10
+Customization_Options,List items for sale,openai,0.12650656190095977,10
+Customization_Options,List items for sale,mistral,0.9783968802363858,10
+Customization_Options,List items for sale,gemini,0.893433917989707,10
+Customization_Options,Photo effects,openai,0.539951466660036,10
+Customization_Options,Photo effects,mistral,0.38137480125044726,10
+Customization_Options,Photo effects,gemini,0.40627152976258724,10
+Customization_Options,Play games,openai,0.0,10
+Customization_Options,Play games,mistral,0.4819545398242761,10
+Customization_Options,Play games,gemini,0.0036005199606023485,10
+Customization_Options,Play playlist on shuffle mode,openai,0.0,10
+Customization_Options,Play playlist on shuffle mode,mistral,0.9166195377544721,10
+Customization_Options,Play playlist on shuffle mode,gemini,0.0040005777340026095,9
+Customization_Options,Rate movies,openai,0.149872058932552,10
+Customization_Options,Rate movies,mistral,0.967595320354579,10
+Customization_Options,Rate movies,gemini,0.7001608138866136,10
+Customization_Options,Search for offer on item,openai,0.6090957649365498,10
+Customization_Options,Search for offer on item,mistral,0.5061139115247343,10
+Customization_Options,Search for offer on item,gemini,0.47485158882222844,10
+Customization_Options,Send files,openai,0.0036005199606023485,10
+Customization_Options,Send files,mistral,0.8202779753953464,10
+Customization_Options,Send files,gemini,0.6847803866366626,10
+Customization_Options,Watch streams,openai,0.12110779420574544,10
+Customization_Options,Watch streams,mistral,0.594612476936303,10
+Customization_Options,Watch streams,gemini,0.03600519960602348,10
+Customization_Options,Write notes,openai,0.29061181017846366,10
+Customization_Options,Write notes,mistral,0.5097175810872849,10
+Customization_Options,Write notes,gemini,0.2949124534984756,10
+Geographical_Availability,Access to movies,openai,0.40473084947619453,10
+Geographical_Availability,Access to movies,mistral,0.8527657326991769,10
+Geographical_Availability,Access to movies,gemini,0.6820137744433746,10
+Geographical_Availability,Access to podcasts,openai,0.05268129205512909,10
+Geographical_Availability,Access to podcasts,mistral,0.9022174579120629,10
+Geographical_Availability,Access to podcasts,gemini,0.35131223949335827,9
+Geographical_Availability,Broadcast messages to multiple contacts,openai,0.776677473853469,10
+Geographical_Availability,Broadcast messages to multiple contacts,mistral,0.9439076890348268,10
+Geographical_Availability,Broadcast messages to multiple contacts,gemini,0.24358075973863222,6
+Geographical_Availability,Build photo collage,openai,0.7434528294154404,10
+Geographical_Availability,Build photo collage,mistral,0.906698991528768,10
+Geographical_Availability,Collaborate with others,openai,0.5097175810872849,10
+Geographical_Availability,Collaborate with others,mistral,0.5714917739672505,10
+Geographical_Availability,Collaborate with others,gemini,0.8066118525415309,10
+Geographical_Availability,Go Live,openai,0.0,10
+Geographical_Availability,Go Live,mistral,0.4119318893973992,10
+Geographical_Availability,Go Live,gemini,0.18587725853857548,8
+Geographical_Availability,Keeping up with friends,openai,0.7024926981267697,10
+Geographical_Availability,Keeping up with friends,mistral,0.7963952068952339,10
+Geographical_Availability,Keeping up with friends,gemini,0.5465966110467224,10
+Geographical_Availability,List items for sale,openai,0.6633804898736153,10
+Geographical_Availability,List items for sale,mistral,0.641583890614877,10
+Geographical_Availability,List items for sale,gemini,0.393829552199357,10
+Geographical_Availability,Photo effects,openai,0.25618214829560026,10
+Geographical_Availability,Photo effects,mistral,0.44887602033979784,10
+Geographical_Availability,Photo effects,gemini,0.03581569855546546,10
+Geographical_Availability,Play games,openai,0.0,10
+Geographical_Availability,Play games,mistral,0.9030722248852632,10
+Geographical_Availability,Play playlist on shuffle mode,openai,0.4758834886722541,10
+Geographical_Availability,Play playlist on shuffle mode,mistral,0.7667474788219202,10
+Geographical_Availability,Rate movies,openai,0.01913960610635985,10
+Geographical_Availability,Rate movies,mistral,0.9711958403151814,10
+Geographical_Availability,Rate movies,gemini,0.8303121191065262,10
+Geographical_Availability,Search for offer on item,openai,0.42829513980502865,10
+Geographical_Availability,Search for offer on item,mistral,0.03600519960602348,10
+Geographical_Availability,Search for offer on item,gemini,0.4338528703050096,10
+Geographical_Availability,Send files,openai,0.18556173657263447,10
+Geographical_Availability,Send files,mistral,0.0,10
+Geographical_Availability,Watch streams,openai,0.04881113117217226,10
+Geographical_Availability,Watch streams,mistral,0.7502593126223984,10
+Geographical_Availability,Watch streams,gemini,0.026925772078410348,10
+Geographical_Availability,Write notes,openai,0.6305884828634486,10
+Geographical_Availability,Write notes,mistral,0.8285216717018857,10
+Integration_Capabilities,Access to movies,openai,0.0,10
+Integration_Capabilities,Access to movies,mistral,0.9266711424168038,10
+Integration_Capabilities,Access to movies,gemini,0.7437911169252887,10
+Integration_Capabilities,Access to podcasts,openai,0.05268129205512909,10
+Integration_Capabilities,Access to podcasts,mistral,0.9033544642154109,10
+Integration_Capabilities,Access to podcasts,gemini,0.6086819933992407,9
+Integration_Capabilities,Broadcast messages to multiple contacts,openai,0.0,10
+Integration_Capabilities,Broadcast messages to multiple contacts,mistral,0.40473084947619453,10
+Integration_Capabilities,Build photo collage,openai,0.39808168980749215,10
+Integration_Capabilities,Build photo collage,mistral,0.8814953518045516,10
+Integration_Capabilities,Collaborate with others,openai,0.8711361360185993,10
+Integration_Capabilities,Collaborate with others,mistral,0.9481997216009741,10
+Integration_Capabilities,Collaborate with others,gemini,0.8093313588460301,10
+Integration_Capabilities,Go Live,openai,0.021603119763614093,10
+Integration_Capabilities,Go Live,mistral,0.0,10
+Integration_Capabilities,Go Live,gemini,0.0,8
+Integration_Capabilities,Keeping up with friends,openai,0.0,10
+Integration_Capabilities,Keeping up with friends,mistral,0.7963952068952339,10
+Integration_Capabilities,Keeping up with friends,gemini,0.6123661108355978,10
+Integration_Capabilities,List items for sale,openai,0.0,10
+Integration_Capabilities,List items for sale,mistral,0.9783968802363858,10
+Integration_Capabilities,List items for sale,gemini,0.4263339692398086,10
+Integration_Capabilities,Photo effects,openai,0.18248951168737162,10
+Integration_Capabilities,Photo effects,mistral,0.6289687862474749,10
+Integration_Capabilities,Photo effects,gemini,0.38475148765738226,10
+Integration_Capabilities,Play games,openai,0.21063000787860958,10
+Integration_Capabilities,Play games,mistral,0.0,10
+Integration_Capabilities,Play playlist on shuffle mode,openai,0.8074902046918941,10
+Integration_Capabilities,Play playlist on shuffle mode,mistral,0.9166195377544721,10
+Integration_Capabilities,Play playlist on shuffle mode,gemini,0.5366837607782159,9
+Integration_Capabilities,Rate movies,openai,0.07695404942572719,10
+Integration_Capabilities,Rate movies,mistral,0.967595320354579,10
+Integration_Capabilities,Rate movies,gemini,0.7051250654440319,10
+Integration_Capabilities,Search for offer on item,openai,0.46183682575379786,10
+Integration_Capabilities,Search for offer on item,mistral,0.58589385380966,10
+Integration_Capabilities,Search for offer on item,gemini,0.4740450789081196,10
+Integration_Capabilities,Send files,openai,0.6576680512943069,10
+Integration_Capabilities,Send files,mistral,0.08359354847324887,10
+Integration_Capabilities,Send files,gemini,0.5752844749028758,10
+Integration_Capabilities,Watch streams,openai,0.18200167334115208,10
+Integration_Capabilities,Watch streams,mistral,0.9295040343914431,10
+Integration_Capabilities,Watch streams,gemini,0.0,10
+Integration_Capabilities,Write notes,openai,0.509991071523132,10
+Integration_Capabilities,Write notes,mistral,0.742970102265365,10
+Integration_Capabilities,Write notes,gemini,0.5594079392992504,10
+Mobile_Optimization,Access to movies,openai,0.0,10
+Mobile_Optimization,Access to movies,mistral,0.8857263170884785,10
+Mobile_Optimization,Access to movies,gemini,0.8000330339830078,10
+Mobile_Optimization,Access to podcasts,openai,0.32193901283923265,10
+Mobile_Optimization,Access to podcasts,mistral,0.9022174579120629,10
+Mobile_Optimization,Access to podcasts,gemini,0.5954169198601794,9
+Mobile_Optimization,Broadcast messages to multiple contacts,openai,0.0,10
+Mobile_Optimization,Broadcast messages to multiple contacts,mistral,0.9331061291530197,10
+Mobile_Optimization,Build photo collage,openai,0.6479963236225211,10
+Mobile_Optimization,Build photo collage,mistral,0.906698991528768,10
+Mobile_Optimization,Collaborate with others,openai,0.24538058841379323,10
+Mobile_Optimization,Collaborate with others,mistral,0.9626018014433834,10
+Mobile_Optimization,Collaborate with others,gemini,0.7982738063169782,10
+Mobile_Optimization,Go Live,openai,0.5063226601427544,10
+Mobile_Optimization,Go Live,mistral,0.42022405457836554,10
+Mobile_Optimization,Go Live,gemini,0.0,8
+Mobile_Optimization,Keeping up with friends,openai,0.7024926981267697,10
+Mobile_Optimization,Keeping up with friends,mistral,0.5615257334911818,10
+Mobile_Optimization,Keeping up with friends,gemini,0.6470448030877151,10
+Mobile_Optimization,List items for sale,openai,0.0,10
+Mobile_Optimization,List items for sale,mistral,0.13378774169396093,10
+Mobile_Optimization,List items for sale,gemini,0.8803583455012036,10
+Mobile_Optimization,Photo effects,openai,0.7415406894957552,10
+Mobile_Optimization,Photo effects,mistral,0.6680448477531228,10
+Mobile_Optimization,Photo effects,gemini,0.6552970733106691,10
+Mobile_Optimization,Play games,openai,0.0,10
+Mobile_Optimization,Play games,mistral,0.5633362112590904,10
+Mobile_Optimization,Play games,gemini,0.09260249675024623,10
+Mobile_Optimization,Play playlist on shuffle mode,openai,0.8501279410674482,10
+Mobile_Optimization,Play playlist on shuffle mode,mistral,0.9166195377544721,10
+Mobile_Optimization,Play playlist on shuffle mode,gemini,0.132598630864554,9
+Mobile_Optimization,Rate movies,openai,0.49502309477861395,10
+Mobile_Optimization,Rate movies,mistral,0.967595320354579,10
+Mobile_Optimization,Rate movies,gemini,0.8422506852916813,10
+Mobile_Optimization,Search for offer on item,openai,0.07504241602097525,10
+Mobile_Optimization,Search for offer on item,mistral,0.0,10
+Mobile_Optimization,Search for offer on item,gemini,0.2533465579777714,10
+Mobile_Optimization,Send files,openai,0.14271091396935956,10
+Mobile_Optimization,Send files,mistral,0.8202779753953464,10
+Mobile_Optimization,Send files,gemini,0.10270956940244594,10
+Mobile_Optimization,Watch streams,openai,0.10851096121338874,10
+Mobile_Optimization,Watch streams,mistral,0.6419877395758076,10
+Mobile_Optimization,Write notes,openai,0.7594274631475852,10
+Mobile_Optimization,Write notes,mistral,0.7789753018713885,10
+Mobile_Optimization,Write notes,gemini,0.6034000413500372,10
+Number_of_Downloads,Access to movies,openai,1.0,10
+Number_of_Downloads,Access to movies,mistral,0.9266711424168038,10
+Number_of_Downloads,Access to movies,gemini,0.7401905969646863,10
+Number_of_Downloads,Access to podcasts,openai,0.8806143381484486,10
+Number_of_Downloads,Access to podcasts,mistral,0.9689218277084851,10
+Number_of_Downloads,Access to podcasts,gemini,0.5009212790351373,9
+Number_of_Downloads,Broadcast messages to multiple contacts,openai,0.2332525211780801,10
+Number_of_Downloads,Broadcast messages to multiple contacts,mistral,0.7235380896927435,10
+Number_of_Downloads,Broadcast messages to multiple contacts,gemini,0.24385728619429092,6
+Number_of_Downloads,Build photo collage,openai,0.0036005199606023485,10
+Number_of_Downloads,Build photo collage,mistral,0.841048513539835,10
+Number_of_Downloads,Collaborate with others,openai,0.4119318893973992,10
+Number_of_Downloads,Collaborate with others,mistral,0.9493034821059785,10
+Number_of_Downloads,Collaborate with others,gemini,0.8093313588460301,10
+Number_of_Downloads,Go Live,openai,0.9296991347343537,10
+Number_of_Downloads,Go Live,mistral,0.4119318893973992,10
+Number_of_Downloads,Keeping up with friends,openai,0.14575955367745957,10
+Number_of_Downloads,Keeping up with friends,mistral,0.7963952068952339,10
+Number_of_Downloads,Keeping up with friends,gemini,0.36212180947394745,10
+Number_of_Downloads,List items for sale,openai,0.1702510334055808,10
+Number_of_Downloads,List items for sale,mistral,0.652385450496684,10
+Number_of_Downloads,List items for sale,gemini,0.8945376784947114,10
+Number_of_Downloads,Photo effects,openai,0.1391103940087572,10
+Number_of_Downloads,Photo effects,mistral,0.660464805730802,10
+Number_of_Downloads,Play games,openai,0.0,10
+Number_of_Downloads,Play games,mistral,0.8754050715037923,10
+Number_of_Downloads,Play games,gemini,0.27811464090623816,10
+Number_of_Downloads,Play playlist on shuffle mode,openai,0.5118886882782776,10
+Number_of_Downloads,Play playlist on shuffle mode,mistral,0.9639948003939767,10
+Number_of_Downloads,Play playlist on shuffle mode,gemini,0.5717469960978396,9
+Number_of_Downloads,Rate movies,openai,0.49502309477861395,10
+Number_of_Downloads,Rate movies,mistral,0.967595320354579,10
+Number_of_Downloads,Search for offer on item,openai,0.0,10
+Number_of_Downloads,Search for offer on item,mistral,0.0,10
+Number_of_Downloads,Send files,openai,0.12046611346026599,10
+Number_of_Downloads,Send files,mistral,0.31616579246793874,10
+Number_of_Downloads,Send files,gemini,0.7262811167088687,10
+Number_of_Downloads,Watch streams,openai,0.0374244452395194,10
+Number_of_Downloads,Watch streams,mistral,0.9295040343914431,10
+Number_of_Downloads,Watch streams,gemini,0.023325252117808008,10
+Number_of_Downloads,Write notes,openai,0.11464813558760109,10
+Number_of_Downloads,Write notes,mistral,0.7789753018713885,10
+Platform_Availability,Access to movies,openai,0.8950132683889096,10
+Platform_Availability,Access to movies,mistral,0.9266711424168038,10
+Platform_Availability,Access to movies,gemini,0.7653942366889027,10
+Platform_Availability,Access to podcasts,openai,0.5407926037768516,10
+Platform_Availability,Access to podcasts,mistral,0.9069549841760132,10
+Platform_Availability,Access to podcasts,gemini,0.644905485592541,9
+Platform_Availability,Broadcast messages to multiple contacts,openai,0.6185783230948247,10
+Platform_Availability,Broadcast messages to multiple contacts,mistral,0.9439076890348268,10
+Platform_Availability,Broadcast messages to multiple contacts,gemini,0.23892145165951942,6
+Platform_Availability,Build photo collage,openai,0.49522657564132855,10
+Platform_Availability,Build photo collage,mistral,0.906698991528768,10
+Platform_Availability,Build photo collage,gemini,0.038312458011063213,10
+Platform_Availability,Collaborate with others,openai,0.7050698921537615,10
+Platform_Availability,Collaborate with others,mistral,0.9626018014433834,10
+Platform_Availability,Collaborate with others,gemini,0.858222629889999,10
+Platform_Availability,Go Live,openai,0.6201895194692828,10
+Platform_Availability,Go Live,mistral,0.0,10
+Platform_Availability,Go Live,gemini,0.652252851794191,8
+Platform_Availability,Keeping up with friends,openai,0.7322443630643786,10
+Platform_Availability,Keeping up with friends,mistral,0.7963952068952339,10
+Platform_Availability,Keeping up with friends,gemini,0.0,10
+Platform_Availability,List items for sale,openai,0.5994342320289653,10
+Platform_Availability,List items for sale,mistral,0.6559859704572863,10
+Platform_Availability,List items for sale,gemini,0.8983609453042154,10
+Platform_Availability,Photo effects,openai,0.7192945260010233,10
+Platform_Availability,Photo effects,mistral,0.6743675355239643,10
+Platform_Availability,Photo effects,gemini,0.0,10
+Platform_Availability,Play games,openai,0.0,10
+Platform_Availability,Play games,mistral,0.577060795145561,10
+Platform_Availability,Play games,gemini,0.06883875005007592,10
+Platform_Availability,Play playlist on shuffle mode,openai,0.7714850050858706,10
+Platform_Availability,Play playlist on shuffle mode,mistral,0.9166195377544721,10
+Platform_Availability,Play playlist on shuffle mode,gemini,0.5576811071004338,9
+Platform_Availability,Rate movies,openai,0.4758834886722541,10
+Platform_Availability,Rate movies,mistral,0.967595320354579,10
+Platform_Availability,Rate movies,gemini,0.7164785055783413,10
+Platform_Availability,Search for offer on item,openai,0.4677113583210965,10
+Platform_Availability,Search for offer on item,mistral,0.9819974001969882,10
+Platform_Availability,Search for offer on item,gemini,0.4101486529235351,10
+Platform_Availability,Send files,openai,0.7925529043336037,10
+Platform_Availability,Send files,mistral,0.33776891223155286,10
+Platform_Availability,Send files,gemini,0.7692826321094551,10
+Platform_Availability,Watch streams,openai,0.05241165113277461,10
+Platform_Availability,Watch streams,mistral,0.9295040343914431,10
+Platform_Availability,Watch streams,gemini,0.03526381830296315,10
+Platform_Availability,Write notes,openai,0.49791951293524034,10
+Platform_Availability,Write notes,mistral,0.8285216717018857,10
+Platform_Availability,Write notes,gemini,0.7473157701582582,10
+Platform_Compatibility,Access to movies,openai,0.933508403312976,10
+Platform_Compatibility,Access to movies,mistral,0.880127024735887,10
+Platform_Compatibility,Access to movies,gemini,0.9197247321572057,10
+Platform_Compatibility,Access to podcasts,openai,0.9833239075508944,10
+Platform_Compatibility,Access to podcasts,mistral,0.9249575839790249,10
+Platform_Compatibility,Access to podcasts,gemini,0.4955296271072876,9
+Platform_Compatibility,Broadcast messages to multiple contacts,openai,0.6659535857343293,10
+Platform_Compatibility,Broadcast messages to multiple contacts,mistral,0.9439076890348268,10
+Platform_Compatibility,Broadcast messages to multiple contacts,gemini,0.26855943622739087,6
+Platform_Compatibility,Build photo collage,openai,0.47312410582846737,10
+Platform_Compatibility,Build photo collage,mistral,0.906698991528768,10
+Platform_Compatibility,Build photo collage,gemini,0.13590147455706422,10
+Platform_Compatibility,Collaborate with others,openai,0.926094590282373,10
+Platform_Compatibility,Collaborate with others,mistral,0.9349014022635693,10
+Platform_Compatibility,Collaborate with others,gemini,0.7743966739466679,10
+Platform_Compatibility,Go Live,openai,0.6201895194692828,10
+Platform_Compatibility,Go Live,mistral,0.0,10
+Platform_Compatibility,Go Live,gemini,0.2609462711982255,8
+Platform_Compatibility,Keeping up with friends,openai,0.3051098147398609,10
+Platform_Compatibility,Keeping up with friends,mistral,0.7963952068952339,10
+Platform_Compatibility,Keeping up with friends,gemini,0.6359084736725049,10
+Platform_Compatibility,List items for sale,openai,0.5185944486884255,10
+Platform_Compatibility,List items for sale,mistral,0.967595320354579,10
+Platform_Compatibility,List items for sale,gemini,0.8945376784947114,10
+Platform_Compatibility,Photo effects,openai,0.7306812119336762,10
+Platform_Compatibility,Photo effects,mistral,0.6649739858534984,10
+Platform_Compatibility,Photo effects,gemini,0.4556940336685081,10
+Platform_Compatibility,Play games,openai,0.0,10
+Platform_Compatibility,Play games,mistral,0.5662592352637539,10
+Platform_Compatibility,Play games,gemini,0.09919776323005494,10
+Platform_Compatibility,Play playlist on shuffle mode,openai,0.8141227414614246,10
+Platform_Compatibility,Play playlist on shuffle mode,mistral,1.0,10
+Platform_Compatibility,Play playlist on shuffle mode,gemini,0.2531817963444664,9
+Platform_Compatibility,Rate movies,openai,0.515299707188322,10
+Platform_Compatibility,Rate movies,mistral,0.967595320354579,10
+Platform_Compatibility,Rate movies,gemini,0.6984759057753295,10
+Platform_Compatibility,Search for offer on item,openai,0.5429432753926298,10
+Platform_Compatibility,Search for offer on item,mistral,0.978396880236386,10
+Platform_Compatibility,Send files,openai,0.7925529043336037,10
+Platform_Compatibility,Send files,mistral,0.7810512579298367,10
+Platform_Compatibility,Send files,gemini,0.7841288058265796,10
+Platform_Compatibility,Watch streams,openai,0.05241165113277461,10
+Platform_Compatibility,Watch streams,mistral,0.9295040343914431,10
+Platform_Compatibility,Watch streams,gemini,0.6878595737999167,10
+Platform_Compatibility,Write notes,openai,0.7033876823856671,10
+Platform_Compatibility,Write notes,mistral,0.8285216717018857,10
+Platform_Compatibility,Write notes,gemini,0.7196153709784443,10
+Privacy_and_Security,Access to movies,openai,0.18587725853857548,10
+Privacy_and_Security,Access to movies,mistral,0.7929232956808553,10
+Privacy_and_Security,Access to movies,gemini,0.0,10
+Privacy_and_Security,Access to podcasts,openai,0.043206239527228185,10
+Privacy_and_Security,Access to podcasts,mistral,0.0,10
+Privacy_and_Security,Broadcast messages to multiple contacts,openai,0.10825496856614372,10
+Privacy_and_Security,Broadcast messages to multiple contacts,mistral,0.5796170470824049,10
+Privacy_and_Security,Build photo collage,openai,0.0149872058932552,10
+Privacy_and_Security,Build photo collage,mistral,0.906698991528768,10
+Privacy_and_Security,Build photo collage,gemini,0.14906418603280466,10
+Privacy_and_Security,Collaborate with others,openai,0.03600519960602348,10
+Privacy_and_Security,Collaborate with others,mistral,0.03600519960602348,10
+Privacy_and_Security,Collaborate with others,gemini,0.43808303437440577,10
+Privacy_and_Security,Go Live,openai,0.03600519960602348,10
+Privacy_and_Security,Go Live,mistral,0.0,10
+Privacy_and_Security,Keeping up with friends,openai,0.19230097301518673,10
+Privacy_and_Security,Keeping up with friends,mistral,0.16067361881435904,10
+Privacy_and_Security,Keeping up with friends,gemini,0.0,10
+Privacy_and_Security,List items for sale,openai,0.10432531520194059,10
+Privacy_and_Security,List items for sale,mistral,0.37064078283264335,10
+Privacy_and_Security,Photo effects,openai,0.0036005199606023485,10
+Privacy_and_Security,Photo effects,mistral,0.2962445601447344,10
+Privacy_and_Security,Photo effects,gemini,0.3294833593728056,10
+Privacy_and_Security,Play games,openai,0.0,10
+Privacy_and_Security,Play games,mistral,0.0,10
+Privacy_and_Security,Play playlist on shuffle mode,openai,0.0,10
+Privacy_and_Security,Play playlist on shuffle mode,mistral,0.0,10
+Privacy_and_Security,Rate movies,openai,0.5008976273459125,10
+Privacy_and_Security,Rate movies,mistral,0.5097175810872849,10
+Privacy_and_Security,Search for offer on item,openai,0.4845769518207601,10
+Privacy_and_Security,Search for offer on item,mistral,0.0,10
+Privacy_and_Security,Send files,openai,0.0,10
+Privacy_and_Security,Send files,mistral,0.0,10
+Privacy_and_Security,Send files,gemini,0.0,10
+Privacy_and_Security,Watch streams,openai,0.05241165113277461,10
+Privacy_and_Security,Watch streams,mistral,0.0,10
+Privacy_and_Security,Write notes,openai,0.03600519960602348,10
+Privacy_and_Security,Write notes,mistral,0.11938566185155156,10
+Privacy_and_Security,Write notes,gemini,0.014402079842409394,10
+Subscription_Cost,Access to movies,openai,0.0,10
+Subscription_Cost,Access to movies,mistral,0.0,10
+Subscription_Cost,Access to podcasts,openai,0.5618039483299512,10
+Subscription_Cost,Access to podcasts,mistral,0.0,10
+Subscription_Cost,Broadcast messages to multiple contacts,openai,0.6280533756227257,10
+Subscription_Cost,Broadcast messages to multiple contacts,mistral,0.9439076890348268,10
+Subscription_Cost,Broadcast messages to multiple contacts,gemini,0.15862782955741803,6
+Subscription_Cost,Build photo collage,openai,0.0,10
+Subscription_Cost,Build photo collage,mistral,0.5332624304520461,10
+Subscription_Cost,Collaborate with others,openai,0.440736049082218,10
+Subscription_Cost,Collaborate with others,mistral,0.524116511327746,10
+Subscription_Cost,Go Live,openai,0.021603119763614093,10
+Subscription_Cost,Go Live,mistral,0.0,10
+Subscription_Cost,Keeping up with friends,openai,0.7329619473749405,10
+Subscription_Cost,Keeping up with friends,mistral,0.0,10
+Subscription_Cost,List items for sale,openai,0.2685455607880083,10
+Subscription_Cost,List items for sale,mistral,0.35623870299023397,10
+Subscription_Cost,Photo effects,openai,0.1157851418909492,10
+Subscription_Cost,Photo effects,mistral,0.6068663164346139,10
+Subscription_Cost,Play games,openai,0.0036005199606023485,10
+Subscription_Cost,Play games,mistral,0.25712965354839035,10
+Subscription_Cost,Play playlist on shuffle mode,openai,0.0,10
+Subscription_Cost,Play playlist on shuffle mode,mistral,0.7667474788219202,10
+Subscription_Cost,Play playlist on shuffle mode,gemini,0.5576811071004338,9
+Subscription_Cost,Rate movies,openai,0.4758834886722541,10
+Subscription_Cost,Rate movies,mistral,0.5097175810872849,10
+Subscription_Cost,Search for offer on item,openai,0.0,10
+Subscription_Cost,Search for offer on item,mistral,0.0,10
+Subscription_Cost,Send files,openai,0.6576680512943069,10
+Subscription_Cost,Send files,mistral,0.051826525081928795,10
+Subscription_Cost,Watch streams,openai,0.0155390861457575,10
+Subscription_Cost,Watch streams,mistral,0.0,10
+Subscription_Cost,Write notes,openai,0.1117753486549496,10
+Subscription_Cost,Write notes,mistral,0.3886433826356551,10
+Update_Frequency,Access to movies,openai,0.607496973573274,10
+Update_Frequency,Access to movies,mistral,0.8171349857692327,10
+Update_Frequency,Access to podcasts,openai,0.05268129205512909,10
+Update_Frequency,Access to podcasts,mistral,0.9022174579120629,10
+Update_Frequency,Broadcast messages to multiple contacts,openai,0.8396030212234363,10
+Update_Frequency,Broadcast messages to multiple contacts,mistral,0.8950164179908582,10
+Update_Frequency,Broadcast messages to multiple contacts,gemini,0.26855943622739087,6
+Update_Frequency,Build photo collage,openai,0.05099240549927868,10
+Update_Frequency,Build photo collage,mistral,0.3084875878515617,10
+Update_Frequency,Build photo collage,gemini,0.15262876185187385,10
+Update_Frequency,Collaborate with others,openai,0.8429269011462435,10
+Update_Frequency,Collaborate with others,mistral,0.9493034821059785,10
+Update_Frequency,Collaborate with others,gemini,0.8093313588460301,10
+Update_Frequency,Go Live,openai,0.0,10
+Update_Frequency,Go Live,mistral,0.4340343592102604,10
+Update_Frequency,Keeping up with friends,openai,0.11085811457644071,10
+Update_Frequency,Keeping up with friends,mistral,0.5615257334911818,10
+Update_Frequency,Keeping up with friends,gemini,0.5831441039589669,10
+Update_Frequency,List items for sale,openai,0.3895192758862515,10
+Update_Frequency,List items for sale,mistral,0.37064078283264335,10
+Update_Frequency,List items for sale,gemini,0.6482396810245232,10
+Update_Frequency,Photo effects,openai,0.33097714558574537,10
+Update_Frequency,Photo effects,mistral,0.149872058932552,10
+Update_Frequency,Photo effects,gemini,0.6456325197322101,10
+Update_Frequency,Play games,openai,0.0,10
+Update_Frequency,Play games,mistral,0.4997606210425644,10
+Update_Frequency,Play games,gemini,0.1659589640019837,10
+Update_Frequency,Play playlist on shuffle mode,openai,0.8141227414614246,10
+Update_Frequency,Play playlist on shuffle mode,mistral,1.0,10
+Update_Frequency,Play playlist on shuffle mode,gemini,0.03705798322023469,9
+Update_Frequency,Rate movies,openai,0.04434324583057629,10
+Update_Frequency,Rate movies,mistral,0.967595320354579,10
+Update_Frequency,Rate movies,gemini,0.8363761527243827,10
+Update_Frequency,Search for offer on item,openai,0.1719937763128752,10
+Update_Frequency,Search for offer on item,mistral,0.9819974001969882,10
+Update_Frequency,Search for offer on item,gemini,0.4740450789081196,10
+Update_Frequency,Send files,openai,0.023325252117808008,10
+Update_Frequency,Send files,mistral,0.7810512579298367,10
+Update_Frequency,Send files,gemini,0.4664955935503151,10
+Update_Frequency,Watch streams,openai,0.045762491464072214,10
+Update_Frequency,Watch streams,mistral,0.6419877395758076,10
+Update_Frequency,Watch streams,gemini,0.6728723679066614,10
+Update_Frequency,Write notes,openai,0.7491777835182805,10
+Update_Frequency,Write notes,mistral,0.7789753018713885,10
+Update_Frequency,Write notes,gemini,0.5702094991810573,10
+User_Base,Access to movies,openai,0.8806143381484486,10
+User_Base,Access to movies,mistral,0.9056737960945856,10
+User_Base,Access to movies,gemini,0.6964158542857841,10
+User_Base,Access to podcasts,openai,0.947318707944871,10
+User_Base,Access to podcasts,mistral,0.9689218277084851,10
+User_Base,Access to podcasts,gemini,0.4588099344666887,9
+User_Base,Broadcast messages to multiple contacts,openai,0.3837335031539764,10
+User_Base,Broadcast messages to multiple contacts,mistral,0.7250540980972077,10
+User_Base,Broadcast messages to multiple contacts,gemini,0.09131564798071683,6
+User_Base,Build photo collage,openai,0.3520036763774789,10
+User_Base,Build photo collage,mistral,0.5071112854750396,10
+User_Base,Collaborate with others,openai,0.0,10
+User_Base,Collaborate with others,mistral,0.9493034821059785,10
+User_Base,Collaborate with others,gemini,0.6325116003431409,10
+User_Base,Go Live,openai,0.0,10
+User_Base,Go Live,mistral,0.4340343592102604,10
+User_Base,Keeping up with friends,openai,0.17014867134225997,10
+User_Base,Keeping up with friends,mistral,0.5141504708516773,10
+User_Base,Keeping up with friends,gemini,0.5537976509679271,10
+User_Base,List items for sale,openai,0.6120326398222962,10
+User_Base,List items for sale,mistral,0.6379833706542746,10
+User_Base,List items for sale,gemini,0.6462580748840887,10
+User_Base,Photo effects,openai,0.10631008936304827,10
+User_Base,Photo effects,mistral,0.4173800008564707,10
+User_Base,Photo effects,gemini,0.1157851418909492,10
+User_Base,Play games,openai,0.0,10
+User_Base,Play games,mistral,0.6282260787962259,10
+User_Base,Play games,gemini,0.27434526728562797,10
+User_Base,Play playlist on shuffle mode,openai,0.516626214542228,10
+User_Base,Play playlist on shuffle mode,mistral,0.9166195377544721,10
+User_Base,Play playlist on shuffle mode,gemini,0.29315095111992756,9
+User_Base,Rate movies,openai,0.7088569201221347,10
+User_Base,Rate movies,mistral,0.9711958403151814,10
+User_Base,Rate movies,gemini,0.7367551179880493,10
+User_Base,Search for offer on item,openai,0.0,10
+User_Base,Search for offer on item,mistral,0.0,10
+User_Base,Send files,openai,0.09173513136925263,10
+User_Base,Send files,mistral,0.0,10
+User_Base,Watch streams,openai,0.18200167334115208,10
+User_Base,Watch streams,mistral,0.9295040343914431,10
+User_Base,Watch streams,gemini,0.3788216989155515,10
+User_Base,Write notes,openai,0.7558269431869828,10
+User_Base,Write notes,mistral,0.8285216717018857,10
+User_Base,Write notes,gemini,0.578196401625821,10
+User_Interface_and_Ease_of_Use,Access to movies,openai,0.7925164720958622,10
+User_Interface_and_Ease_of_Use,Access to movies,mistral,0.8437316244440425,10
+User_Interface_and_Ease_of_Use,Access to movies,gemini,0.8598822951388841,10
+User_Interface_and_Ease_of_Use,Access to podcasts,openai,0.05268129205512909,10
+User_Interface_and_Ease_of_Use,Access to podcasts,mistral,0.9069549841760132,10
+User_Interface_and_Ease_of_Use,Access to podcasts,gemini,0.662699764501254,9
+User_Interface_and_Ease_of_Use,Broadcast messages to multiple contacts,openai,0.4887202347650669,10
+User_Interface_and_Ease_of_Use,Broadcast messages to multiple contacts,mistral,0.9331061291530197,10
+User_Interface_and_Ease_of_Use,Broadcast messages to multiple contacts,gemini,0.16560840348181435,6
+User_Interface_and_Ease_of_Use,Build photo collage,openai,0.15821010515710482,10
+User_Interface_and_Ease_of_Use,Build photo collage,mistral,0.5023737592110892,10
+User_Interface_and_Ease_of_Use,Build photo collage,gemini,0.2737740750001266,10
+User_Interface_and_Ease_of_Use,Collaborate with others,openai,0.7474152220630538,10
+User_Interface_and_Ease_of_Use,Collaborate with others,mistral,0.7271750234723625,10
+User_Interface_and_Ease_of_Use,Collaborate with others,gemini,0.5434150157733356,10
+User_Interface_and_Ease_of_Use,Go Live,openai,0.021603119763614093,10
+User_Interface_and_Ease_of_Use,Go Live,mistral,0.33684359233283745,10
+User_Interface_and_Ease_of_Use,Go Live,gemini,0.11938566185155153,8
+User_Interface_and_Ease_of_Use,Keeping up with friends,openai,0.0,10
+User_Interface_and_Ease_of_Use,Keeping up with friends,mistral,0.7963952068952339,10
+User_Interface_and_Ease_of_Use,Keeping up with friends,gemini,0.41016096584109335,10
+User_Interface_and_Ease_of_Use,List items for sale,openai,0.15224843360256907,10
+User_Interface_and_Ease_of_Use,List items for sale,mistral,0.13738826165456325,10
+User_Interface_and_Ease_of_Use,List items for sale,gemini,0.9030984715681658,10
+User_Interface_and_Ease_of_Use,Photo effects,openai,0.8236324396107572,10
+User_Interface_and_Ease_of_Use,Photo effects,mistral,0.6459423779402615,10
+User_Interface_and_Ease_of_Use,Photo effects,gemini,0.1157851418909492,10
+User_Interface_and_Ease_of_Use,Play games,openai,0.0,10
+User_Interface_and_Ease_of_Use,Play games,mistral,0.577060795145561,10
+User_Interface_and_Ease_of_Use,Play games,gemini,0.07490278366793249,10
+User_Interface_and_Ease_of_Use,Play playlist on shuffle mode,openai,0.8141227414614246,10
+User_Interface_and_Ease_of_Use,Play playlist on shuffle mode,mistral,1.0,10
+User_Interface_and_Ease_of_Use,Play playlist on shuffle mode,gemini,0.0,9
+User_Interface_and_Ease_of_Use,Rate movies,openai,0.49502309477861395,10
+User_Interface_and_Ease_of_Use,Rate movies,mistral,0.967595320354579,10
+User_Interface_and_Ease_of_Use,Rate movies,gemini,0.8303121191065262,10
+User_Interface_and_Ease_of_Use,Search for offer on item,openai,0.29704140943766255,10
+User_Interface_and_Ease_of_Use,Search for offer on item,mistral,0.9819974001969882,10
+User_Interface_and_Ease_of_Use,Search for offer on item,gemini,0.3570122065494223,10
+User_Interface_and_Ease_of_Use,Send files,openai,0.8285581039396271,10
+User_Interface_and_Ease_of_Use,Send files,mistral,0.31616579246793874,10
+User_Interface_and_Ease_of_Use,Send files,gemini,0.7620815921882504,10
+User_Interface_and_Ease_of_Use,Watch streams,openai,0.05241165113277461,10
+User_Interface_and_Ease_of_Use,Watch streams,mistral,0.9295040343914431,10
+User_Interface_and_Ease_of_Use,Watch streams,gemini,0.026925772078410348,10
+User_Interface_and_Ease_of_Use,Write notes,openai,0.45884503543992894,10
+User_Interface_and_Ease_of_Use,Write notes,mistral,0.7789753018713885,10
+User_Interface_and_Ease_of_Use,Write notes,gemini,0.5702094991810573,10
+User_Ratings,Access to movies,openai,0.59060810801477,10
+User_Ratings,Access to movies,mistral,0.880127024735887,10
+User_Ratings,Access to movies,gemini,0.9197247321572057,10
+User_Ratings,Access to podcasts,openai,0.0,10
+User_Ratings,Access to podcasts,mistral,0.9022174579120629,10
+User_Ratings,Access to podcasts,gemini,0.5263447881941294,9
+User_Ratings,Broadcast messages to multiple contacts,openai,0.5345889378059523,10
+User_Ratings,Broadcast messages to multiple contacts,mistral,0.9439076890348268,10
+User_Ratings,Build photo collage,openai,0.6008338340924152,10
+User_Ratings,Build photo collage,mistral,0.4806210333549294,10
+User_Ratings,Build photo collage,gemini,0.4301239534135193,10
+User_Ratings,Collaborate with others,openai,0.7379401695351528,10
+User_Ratings,Collaborate with others,mistral,0.9349014022635693,10
+User_Ratings,Collaborate with others,gemini,0.858222629889999,10
+User_Ratings,Go Live,openai,0.10027930154353519,10
+User_Ratings,Go Live,mistral,0.0,10
+User_Ratings,Go Live,gemini,0.10211446961209705,8
+User_Ratings,Keeping up with friends,openai,0.0,10
+User_Ratings,Keeping up with friends,mistral,0.7963952068952339,10
+User_Ratings,List items for sale,openai,0.01667609244910561,10
+User_Ratings,List items for sale,mistral,0.35623870299023397,10
+User_Ratings,List items for sale,gemini,0.8945376784947114,10
+User_Ratings,Photo effects,openai,0.1918667515769882,10
+User_Ratings,Photo effects,mistral,0.6365488282697956,10
+User_Ratings,Play games,openai,0.0,10
+User_Ratings,Play games,mistral,0.6784368396599352,10
+User_Ratings,Play games,gemini,0.1575876719790874,10
+User_Ratings,Play playlist on shuffle mode,openai,0.7146548123753572,10
+User_Ratings,Play playlist on shuffle mode,mistral,1.0,10
+User_Ratings,Play playlist on shuffle mode,gemini,0.5496799516324287,9
+User_Ratings,Rate movies,openai,0.6179693816327555,10
+User_Ratings,Rate movies,mistral,0.967595320354579,10
+User_Ratings,Rate movies,gemini,0.7312389861781285,10
+User_Ratings,Search for offer on item,openai,0.4845769518207601,10
+User_Ratings,Search for offer on item,mistral,0.9819974001969882,10
+User_Ratings,Search for offer on item,gemini,0.0036005199606023485,10
+User_Ratings,Send files,openai,0.8285581039396271,10
+User_Ratings,Send files,mistral,0.8310795352771535,10
+User_Ratings,Send files,gemini,0.6847803866366626,10
+User_Ratings,Watch streams,openai,0.0,10
+User_Ratings,Watch streams,mistral,0.7084793362628315,10
+User_Ratings,Write notes,openai,0.44048386911101567,10
+User_Ratings,Write notes,mistral,0.7789753018713885,10
+User_Ratings,Write notes,gemini,0.5817969215864232,10
+User_Reviews_and_Ratings,Access to movies,openai,1.0,10
+User_Reviews_and_Ratings,Access to movies,mistral,0.9266711424168038,10
+User_Reviews_and_Ratings,Access to podcasts,openai,0.05268129205512909,10
+User_Reviews_and_Ratings,Access to podcasts,mistral,0.9033544642154109,10
+User_Reviews_and_Ratings,Broadcast messages to multiple contacts,openai,0.6875567054979435,10
+User_Reviews_and_Ratings,Broadcast messages to multiple contacts,mistral,0.9439076890348268,10
+User_Reviews_and_Ratings,Broadcast messages to multiple contacts,gemini,0.16560840348181433,6
+User_Reviews_and_Ratings,Build photo collage,openai,0.13437286774480675,10
+User_Reviews_and_Ratings,Build photo collage,mistral,0.8886963917257564,10
+User_Reviews_and_Ratings,Build photo collage,gemini,0.29978288928090074,10
+User_Reviews_and_Ratings,Collaborate with others,openai,0.7758403796467566,10
+User_Reviews_and_Ratings,Collaborate with others,mistral,0.9493034821059785,10
+User_Reviews_and_Ratings,Collaborate with others,gemini,0.848747577362098,10
+User_Reviews_and_Ratings,Go Live,openai,0.0036005199606023485,10
+User_Reviews_and_Ratings,Go Live,mistral,0.7055692422030084,10
+User_Reviews_and_Ratings,Go Live,gemini,0.8493188525318609,8
+User_Reviews_and_Ratings,Keeping up with friends,openai,0.0,10
+User_Reviews_and_Ratings,Keeping up with friends,mistral,0.7963952068952339,10
+User_Reviews_and_Ratings,Keeping up with friends,gemini,0.5489508003626646,10
+User_Reviews_and_Ratings,List items for sale,openai,0.14506804107191454,10
+User_Reviews_and_Ratings,List items for sale,mistral,0.13738826165456325,10
+User_Reviews_and_Ratings,List items for sale,gemini,0.9030984715681658,10
+User_Reviews_and_Ratings,Photo effects,openai,0.6737603806782052,10
+User_Reviews_and_Ratings,Photo effects,mistral,0.4593484468180041,10
+User_Reviews_and_Ratings,Photo effects,gemini,0.41696666625224543,10
+User_Reviews_and_Ratings,Play games,openai,0.0,10
+User_Reviews_and_Ratings,Play games,mistral,0.4910434161577343,10
+User_Reviews_and_Ratings,Play games,gemini,0.11545600848734841,10
+User_Reviews_and_Ratings,Play playlist on shuffle mode,openai,0.0,10
+User_Reviews_and_Ratings,Play playlist on shuffle mode,mistral,1.0,10
+User_Reviews_and_Ratings,Play playlist on shuffle mode,gemini,0.24391730053940774,9
+User_Reviews_and_Ratings,Rate movies,openai,0.47948400863285645,10
+User_Reviews_and_Ratings,Rate movies,mistral,0.967595320354579,10
+User_Reviews_and_Ratings,Rate movies,gemini,0.8636643040047375,10
+User_Reviews_and_Ratings,Search for offer on item,openai,0.12800594740625215,10
+User_Reviews_and_Ratings,Search for offer on item,mistral,0.9819974001969882,10
+User_Reviews_and_Ratings,Search for offer on item,gemini,0.14717477481957708,10
+User_Reviews_and_Ratings,Send files,openai,0.8759333665791319,10
+User_Reviews_and_Ratings,Send files,mistral,0.8310795352771535,10
+User_Reviews_and_Ratings,Send files,gemini,0.8306729235074963,10
+User_Reviews_and_Ratings,Watch streams,openai,0.22031955566668185,10
+User_Reviews_and_Ratings,Watch streams,mistral,0.9295040343914431,10
+User_Reviews_and_Ratings,Watch streams,gemini,0.736198964591383,10
+User_Reviews_and_Ratings,Write notes,openai,0.7558269431869828,10
+User_Reviews_and_Ratings,Write notes,mistral,0.742970102265365,10
+User_Reviews_and_Ratings,Write notes,gemini,0.7473157701582582,10

@@ -1,0 +1,823 @@
+criteria,feature,model,rbo,num_comparisons
+Ad_Free_Option,Access to movies,openai,0.0,10
+Ad_Free_Option,Access to movies,mistral,1.0,10
+Ad_Free_Option,Access to movies,gemini,0.9,10
+Ad_Free_Option,Access to podcasts,openai,0.0,10
+Ad_Free_Option,Access to podcasts,mistral,1.0,10
+Ad_Free_Option,Access to podcasts,gemini,0.0,9
+Ad_Free_Option,Broadcast messages to multiple contacts,openai,0.0,10
+Ad_Free_Option,Broadcast messages to multiple contacts,mistral,0.0,10
+Ad_Free_Option,Build photo collage,openai,0.0,10
+Ad_Free_Option,Build photo collage,mistral,1.0,10
+Ad_Free_Option,Build photo collage,gemini,0.7,10
+Ad_Free_Option,Collaborate with others,openai,0.0,10
+Ad_Free_Option,Collaborate with others,mistral,0.0,10
+Ad_Free_Option,Go Live,openai,0.0,10
+Ad_Free_Option,Go Live,mistral,0.9,10
+Ad_Free_Option,Go Live,gemini,0.5,8
+Ad_Free_Option,Keeping up with friends,openai,0.2,10
+Ad_Free_Option,Keeping up with friends,mistral,0.0,10
+Ad_Free_Option,Keeping up with friends,gemini,0.0,10
+Ad_Free_Option,List items for sale,openai,0.3,10
+Ad_Free_Option,List items for sale,mistral,0.0,10
+Ad_Free_Option,Photo effects,openai,1.0,10
+Ad_Free_Option,Photo effects,mistral,0.0,10
+Ad_Free_Option,Play games,openai,0.0,10
+Ad_Free_Option,Play games,mistral,0.0,10
+Ad_Free_Option,Play games,gemini,0.0,10
+Ad_Free_Option,Play playlist on shuffle mode,openai,1.0,10
+Ad_Free_Option,Play playlist on shuffle mode,mistral,1.0,10
+Ad_Free_Option,Play playlist on shuffle mode,gemini,0.0,9
+Ad_Free_Option,Rate movies,openai,1.0,10
+Ad_Free_Option,Rate movies,mistral,1.0,10
+Ad_Free_Option,Search for offer on item,openai,0.0,10
+Ad_Free_Option,Search for offer on item,mistral,0.0,10
+Ad_Free_Option,Send files,openai,0.0,10
+Ad_Free_Option,Send files,mistral,0.0,10
+Ad_Free_Option,Send files,gemini,0.8,10
+Ad_Free_Option,Watch streams,openai,0.0,10
+Ad_Free_Option,Watch streams,mistral,1.0,10
+Ad_Free_Option,Watch streams,gemini,0.0,10
+Ad_Free_Option,Write notes,openai,0.0,10
+Ad_Free_Option,Write notes,mistral,0.0,10
+Ad_Free_Option,Write notes,gemini,0.7,10
+Ad_Frequency,Access to movies,openai,0.0,10
+Ad_Frequency,Access to movies,mistral,1.0,10
+Ad_Frequency,Access to movies,gemini,0.0,10
+Ad_Frequency,Access to podcasts,openai,0.0,10
+Ad_Frequency,Access to podcasts,mistral,0.0,10
+Ad_Frequency,Broadcast messages to multiple contacts,openai,0.0,10
+Ad_Frequency,Broadcast messages to multiple contacts,mistral,0.0,10
+Ad_Frequency,Build photo collage,openai,0.0,10
+Ad_Frequency,Build photo collage,mistral,1.0,10
+Ad_Frequency,Collaborate with others,openai,0.0,10
+Ad_Frequency,Collaborate with others,mistral,1.0,10
+Ad_Frequency,Go Live,openai,0.0,10
+Ad_Frequency,Go Live,mistral,0.9,10
+Ad_Frequency,Keeping up with friends,openai,0.0,10
+Ad_Frequency,Keeping up with friends,mistral,0.0,10
+Ad_Frequency,Keeping up with friends,gemini,0.0,10
+Ad_Frequency,List items for sale,openai,0.3,10
+Ad_Frequency,List items for sale,mistral,0.0,10
+Ad_Frequency,Photo effects,openai,1.0,10
+Ad_Frequency,Photo effects,mistral,0.1,10
+Ad_Frequency,Play games,openai,0.0,10
+Ad_Frequency,Play games,mistral,0.0,10
+Ad_Frequency,Play games,gemini,0.0,10
+Ad_Frequency,Play playlist on shuffle mode,openai,0.0,10
+Ad_Frequency,Play playlist on shuffle mode,mistral,1.0,10
+Ad_Frequency,Rate movies,openai,1.0,10
+Ad_Frequency,Rate movies,mistral,0.0,10
+Ad_Frequency,Rate movies,gemini,0.8,10
+Ad_Frequency,Search for offer on item,openai,0.0,10
+Ad_Frequency,Search for offer on item,mistral,1.0,10
+Ad_Frequency,Send files,openai,0.0,10
+Ad_Frequency,Send files,mistral,0.0,10
+Ad_Frequency,Watch streams,openai,0.0,10
+Ad_Frequency,Watch streams,mistral,0.0,10
+Ad_Frequency,Watch streams,gemini,0.0,10
+Ad_Frequency,Write notes,openai,0.0,10
+Ad_Frequency,Write notes,mistral,0.0,10
+Ad_Frequency,Write notes,gemini,0.0,10
+Community_Engagement,Access to movies,openai,0.0,10
+Community_Engagement,Access to movies,mistral,0.0,10
+Community_Engagement,Access to movies,gemini,0.0,10
+Community_Engagement,Access to podcasts,openai,0.0,10
+Community_Engagement,Access to podcasts,mistral,1.0,10
+Community_Engagement,Access to podcasts,gemini,0.0,9
+Community_Engagement,Broadcast messages to multiple contacts,openai,0.0,10
+Community_Engagement,Broadcast messages to multiple contacts,mistral,1.0,10
+Community_Engagement,Broadcast messages to multiple contacts,gemini,0.0,6
+Community_Engagement,Build photo collage,openai,0.1,10
+Community_Engagement,Build photo collage,mistral,0.0,10
+Community_Engagement,Build photo collage,gemini,0.0,10
+Community_Engagement,Collaborate with others,openai,1.0,10
+Community_Engagement,Collaborate with others,mistral,0.0,10
+Community_Engagement,Collaborate with others,gemini,0.9,10
+Community_Engagement,Go Live,openai,0.0,10
+Community_Engagement,Go Live,mistral,0.9,10
+Community_Engagement,Keeping up with friends,openai,0.0,10
+Community_Engagement,Keeping up with friends,mistral,0.0,10
+Community_Engagement,List items for sale,openai,0.0,10
+Community_Engagement,List items for sale,mistral,0.0,10
+Community_Engagement,Photo effects,openai,0.0,10
+Community_Engagement,Photo effects,mistral,0.2,10
+Community_Engagement,Play games,openai,0.0,10
+Community_Engagement,Play games,mistral,1.0,10
+Community_Engagement,Play games,gemini,0.0,10
+Community_Engagement,Play playlist on shuffle mode,openai,1.0,10
+Community_Engagement,Play playlist on shuffle mode,mistral,1.0,10
+Community_Engagement,Play playlist on shuffle mode,gemini,0.3333333333333333,9
+Community_Engagement,Rate movies,openai,1.0,10
+Community_Engagement,Rate movies,mistral,1.0,10
+Community_Engagement,Rate movies,gemini,0.2,10
+Community_Engagement,Search for offer on item,openai,0.0,10
+Community_Engagement,Search for offer on item,mistral,0.0,10
+Community_Engagement,Send files,openai,0.9,10
+Community_Engagement,Send files,mistral,0.0,10
+Community_Engagement,Watch streams,openai,0.0,10
+Community_Engagement,Watch streams,mistral,0.0,10
+Community_Engagement,Watch streams,gemini,1.0,10
+Community_Engagement,Write notes,openai,0.0,10
+Community_Engagement,Write notes,mistral,0.0,10
+Community_Engagement,Write notes,gemini,0.1,10
+Cost,Access to movies,openai,0.0,10
+Cost,Access to movies,mistral,0.0,10
+Cost,Access to podcasts,openai,0.0,10
+Cost,Access to podcasts,mistral,1.0,10
+Cost,Access to podcasts,gemini,0.5555555555555556,9
+Cost,Broadcast messages to multiple contacts,openai,0.0,10
+Cost,Broadcast messages to multiple contacts,mistral,0.0,10
+Cost,Broadcast messages to multiple contacts,gemini,0.0,6
+Cost,Build photo collage,openai,0.0,10
+Cost,Build photo collage,mistral,0.0,10
+Cost,Build photo collage,gemini,0.0,10
+Cost,Collaborate with others,openai,1.0,10
+Cost,Collaborate with others,mistral,1.0,10
+Cost,Collaborate with others,gemini,0.9,10
+Cost,Go Live,openai,0.0,10
+Cost,Go Live,mistral,0.1,10
+Cost,Go Live,gemini,0.5,8
+Cost,Keeping up with friends,openai,0.8,10
+Cost,Keeping up with friends,mistral,0.0,10
+Cost,Keeping up with friends,gemini,0.4,10
+Cost,List items for sale,openai,0.0,10
+Cost,List items for sale,mistral,0.0,10
+Cost,List items for sale,gemini,0.0,10
+Cost,Photo effects,openai,1.0,10
+Cost,Photo effects,mistral,0.1,10
+Cost,Photo effects,gemini,0.1,10
+Cost,Play games,openai,0.0,10
+Cost,Play games,mistral,1.0,10
+Cost,Play games,gemini,0.0,10
+Cost,Play playlist on shuffle mode,openai,1.0,10
+Cost,Play playlist on shuffle mode,mistral,1.0,10
+Cost,Play playlist on shuffle mode,gemini,0.0,9
+Cost,Rate movies,openai,1.0,10
+Cost,Rate movies,mistral,0.0,10
+Cost,Rate movies,gemini,0.2,10
+Cost,Search for offer on item,openai,0.9,10
+Cost,Search for offer on item,mistral,0.0,10
+Cost,Search for offer on item,gemini,0.2,10
+Cost,Send files,openai,0.9,10
+Cost,Send files,mistral,0.0,10
+Cost,Send files,gemini,0.8,10
+Cost,Watch streams,openai,0.0,10
+Cost,Watch streams,mistral,0.0,10
+Cost,Watch streams,gemini,0.0,10
+Cost,Write notes,openai,0.4,10
+Cost,Write notes,mistral,0.0,10
+Cost,Write notes,gemini,0.0,10
+Customer_Support,Access to movies,openai,0.0,10
+Customer_Support,Access to movies,mistral,1.0,10
+Customer_Support,Access to podcasts,openai,0.0,10
+Customer_Support,Access to podcasts,mistral,1.0,10
+Customer_Support,Broadcast messages to multiple contacts,openai,0.0,10
+Customer_Support,Broadcast messages to multiple contacts,mistral,1.0,10
+Customer_Support,Broadcast messages to multiple contacts,gemini,0.0,6
+Customer_Support,Build photo collage,openai,0.0,10
+Customer_Support,Build photo collage,mistral,1.0,10
+Customer_Support,Collaborate with others,openai,1.0,10
+Customer_Support,Collaborate with others,mistral,1.0,10
+Customer_Support,Collaborate with others,gemini,0.0,10
+Customer_Support,Go Live,openai,0.0,10
+Customer_Support,Go Live,mistral,0.0,10
+Customer_Support,Go Live,gemini,0.0,8
+Customer_Support,Keeping up with friends,openai,0.8,10
+Customer_Support,Keeping up with friends,mistral,1.0,10
+Customer_Support,List items for sale,openai,0.6,10
+Customer_Support,List items for sale,mistral,1.0,10
+Customer_Support,List items for sale,gemini,1.0,10
+Customer_Support,Photo effects,openai,1.0,10
+Customer_Support,Photo effects,mistral,0.2,10
+Customer_Support,Play games,openai,0.0,10
+Customer_Support,Play games,mistral,0.0,10
+Customer_Support,Play games,gemini,0.0,10
+Customer_Support,Play playlist on shuffle mode,openai,1.0,10
+Customer_Support,Play playlist on shuffle mode,mistral,1.0,10
+Customer_Support,Rate movies,openai,0.0,10
+Customer_Support,Rate movies,mistral,1.0,10
+Customer_Support,Search for offer on item,openai,0.9,10
+Customer_Support,Search for offer on item,mistral,0.0,10
+Customer_Support,Send files,openai,0.9,10
+Customer_Support,Send files,mistral,0.9,10
+Customer_Support,Watch streams,openai,0.0,10
+Customer_Support,Watch streams,mistral,0.0,10
+Customer_Support,Write notes,openai,0.5,10
+Customer_Support,Write notes,mistral,0.0,10
+Customer_Support,Write notes,gemini,0.0,10
+Customization_Options,Access to movies,openai,0.0,10
+Customization_Options,Access to movies,mistral,0.0,10
+Customization_Options,Access to movies,gemini,0.0,10
+Customization_Options,Access to podcasts,openai,0.0,10
+Customization_Options,Access to podcasts,mistral,0.0,10
+Customization_Options,Access to podcasts,gemini,0.0,9
+Customization_Options,Broadcast messages to multiple contacts,openai,0.0,10
+Customization_Options,Broadcast messages to multiple contacts,mistral,1.0,10
+Customization_Options,Build photo collage,openai,0.0,10
+Customization_Options,Build photo collage,mistral,0.0,10
+Customization_Options,Build photo collage,gemini,0.0,10
+Customization_Options,Collaborate with others,openai,0.0,10
+Customization_Options,Collaborate with others,mistral,0.0,10
+Customization_Options,Go Live,openai,0.0,10
+Customization_Options,Go Live,mistral,0.0,10
+Customization_Options,Go Live,gemini,0.0,8
+Customization_Options,Keeping up with friends,openai,0.0,10
+Customization_Options,Keeping up with friends,mistral,0.0,10
+Customization_Options,List items for sale,openai,0.0,10
+Customization_Options,List items for sale,mistral,1.0,10
+Customization_Options,List items for sale,gemini,1.0,10
+Customization_Options,Photo effects,openai,1.0,10
+Customization_Options,Photo effects,mistral,0.0,10
+Customization_Options,Photo effects,gemini,0.0,10
+Customization_Options,Play games,openai,0.0,10
+Customization_Options,Play games,mistral,0.0,10
+Customization_Options,Play games,gemini,0.0,10
+Customization_Options,Play playlist on shuffle mode,openai,0.0,10
+Customization_Options,Play playlist on shuffle mode,mistral,1.0,10
+Customization_Options,Play playlist on shuffle mode,gemini,0.0,9
+Customization_Options,Rate movies,openai,0.0,10
+Customization_Options,Rate movies,mistral,1.0,10
+Customization_Options,Rate movies,gemini,0.2,10
+Customization_Options,Search for offer on item,openai,0.9,10
+Customization_Options,Search for offer on item,mistral,0.0,10
+Customization_Options,Search for offer on item,gemini,0.2,10
+Customization_Options,Send files,openai,0.0,10
+Customization_Options,Send files,mistral,0.9,10
+Customization_Options,Send files,gemini,0.8,10
+Customization_Options,Watch streams,openai,0.0,10
+Customization_Options,Watch streams,mistral,0.0,10
+Customization_Options,Watch streams,gemini,0.0,10
+Customization_Options,Write notes,openai,0.1,10
+Customization_Options,Write notes,mistral,0.0,10
+Customization_Options,Write notes,gemini,0.0,10
+Geographical_Availability,Access to movies,openai,0.0,10
+Geographical_Availability,Access to movies,mistral,1.0,10
+Geographical_Availability,Access to movies,gemini,0.9,10
+Geographical_Availability,Access to podcasts,openai,0.0,10
+Geographical_Availability,Access to podcasts,mistral,1.0,10
+Geographical_Availability,Access to podcasts,gemini,0.0,9
+Geographical_Availability,Broadcast messages to multiple contacts,openai,1.0,10
+Geographical_Availability,Broadcast messages to multiple contacts,mistral,1.0,10
+Geographical_Availability,Broadcast messages to multiple contacts,gemini,0.3333333333333333,6
+Geographical_Availability,Build photo collage,openai,0.1,10
+Geographical_Availability,Build photo collage,mistral,1.0,10
+Geographical_Availability,Collaborate with others,openai,0.0,10
+Geographical_Availability,Collaborate with others,mistral,0.0,10
+Geographical_Availability,Collaborate with others,gemini,0.9,10
+Geographical_Availability,Go Live,openai,0.0,10
+Geographical_Availability,Go Live,mistral,0.0,10
+Geographical_Availability,Go Live,gemini,0.0,8
+Geographical_Availability,Keeping up with friends,openai,0.8,10
+Geographical_Availability,Keeping up with friends,mistral,1.0,10
+Geographical_Availability,Keeping up with friends,gemini,0.5,10
+Geographical_Availability,List items for sale,openai,0.6,10
+Geographical_Availability,List items for sale,mistral,0.0,10
+Geographical_Availability,List items for sale,gemini,0.0,10
+Geographical_Availability,Photo effects,openai,0.0,10
+Geographical_Availability,Photo effects,mistral,0.0,10
+Geographical_Availability,Photo effects,gemini,0.0,10
+Geographical_Availability,Play games,openai,0.0,10
+Geographical_Availability,Play games,mistral,1.0,10
+Geographical_Availability,Play playlist on shuffle mode,openai,1.0,10
+Geographical_Availability,Play playlist on shuffle mode,mistral,1.0,10
+Geographical_Availability,Rate movies,openai,0.0,10
+Geographical_Availability,Rate movies,mistral,1.0,10
+Geographical_Availability,Rate movies,gemini,0.8,10
+Geographical_Availability,Search for offer on item,openai,0.9,10
+Geographical_Availability,Search for offer on item,mistral,0.0,10
+Geographical_Availability,Search for offer on item,gemini,0.2,10
+Geographical_Availability,Send files,openai,0.1,10
+Geographical_Availability,Send files,mistral,0.0,10
+Geographical_Availability,Watch streams,openai,0.0,10
+Geographical_Availability,Watch streams,mistral,1.0,10
+Geographical_Availability,Watch streams,gemini,0.0,10
+Geographical_Availability,Write notes,openai,0.4,10
+Geographical_Availability,Write notes,mistral,1.0,10
+Integration_Capabilities,Access to movies,openai,0.0,10
+Integration_Capabilities,Access to movies,mistral,1.0,10
+Integration_Capabilities,Access to movies,gemini,0.9,10
+Integration_Capabilities,Access to podcasts,openai,0.0,10
+Integration_Capabilities,Access to podcasts,mistral,1.0,10
+Integration_Capabilities,Access to podcasts,gemini,0.4444444444444444,9
+Integration_Capabilities,Broadcast messages to multiple contacts,openai,0.0,10
+Integration_Capabilities,Broadcast messages to multiple contacts,mistral,0.0,10
+Integration_Capabilities,Build photo collage,openai,0.0,10
+Integration_Capabilities,Build photo collage,mistral,1.0,10
+Integration_Capabilities,Collaborate with others,openai,1.0,10
+Integration_Capabilities,Collaborate with others,mistral,1.0,10
+Integration_Capabilities,Collaborate with others,gemini,0.9,10
+Integration_Capabilities,Go Live,openai,0.0,10
+Integration_Capabilities,Go Live,mistral,0.0,10
+Integration_Capabilities,Go Live,gemini,0.0,8
+Integration_Capabilities,Keeping up with friends,openai,0.0,10
+Integration_Capabilities,Keeping up with friends,mistral,1.0,10
+Integration_Capabilities,Keeping up with friends,gemini,0.4,10
+Integration_Capabilities,List items for sale,openai,0.0,10
+Integration_Capabilities,List items for sale,mistral,1.0,10
+Integration_Capabilities,List items for sale,gemini,0.0,10
+Integration_Capabilities,Photo effects,openai,0.0,10
+Integration_Capabilities,Photo effects,mistral,0.2,10
+Integration_Capabilities,Photo effects,gemini,0.1,10
+Integration_Capabilities,Play games,openai,0.4,10
+Integration_Capabilities,Play games,mistral,0.0,10
+Integration_Capabilities,Play playlist on shuffle mode,openai,1.0,10
+Integration_Capabilities,Play playlist on shuffle mode,mistral,1.0,10
+Integration_Capabilities,Play playlist on shuffle mode,gemini,0.6666666666666666,9
+Integration_Capabilities,Rate movies,openai,0.0,10
+Integration_Capabilities,Rate movies,mistral,1.0,10
+Integration_Capabilities,Rate movies,gemini,0.8,10
+Integration_Capabilities,Search for offer on item,openai,0.9,10
+Integration_Capabilities,Search for offer on item,mistral,0.0,10
+Integration_Capabilities,Search for offer on item,gemini,0.3,10
+Integration_Capabilities,Send files,openai,0.9,10
+Integration_Capabilities,Send files,mistral,0.1,10
+Integration_Capabilities,Send files,gemini,0.8,10
+Integration_Capabilities,Watch streams,openai,0.0,10
+Integration_Capabilities,Watch streams,mistral,1.0,10
+Integration_Capabilities,Watch streams,gemini,0.0,10
+Integration_Capabilities,Write notes,openai,0.0,10
+Integration_Capabilities,Write notes,mistral,0.0,10
+Integration_Capabilities,Write notes,gemini,0.1,10
+Mobile_Optimization,Access to movies,openai,0.0,10
+Mobile_Optimization,Access to movies,mistral,1.0,10
+Mobile_Optimization,Access to movies,gemini,0.9,10
+Mobile_Optimization,Access to podcasts,openai,0.0,10
+Mobile_Optimization,Access to podcasts,mistral,1.0,10
+Mobile_Optimization,Access to podcasts,gemini,0.4444444444444444,9
+Mobile_Optimization,Broadcast messages to multiple contacts,openai,0.0,10
+Mobile_Optimization,Broadcast messages to multiple contacts,mistral,1.0,10
+Mobile_Optimization,Build photo collage,openai,0.9,10
+Mobile_Optimization,Build photo collage,mistral,1.0,10
+Mobile_Optimization,Collaborate with others,openai,0.0,10
+Mobile_Optimization,Collaborate with others,mistral,1.0,10
+Mobile_Optimization,Collaborate with others,gemini,0.9,10
+Mobile_Optimization,Go Live,openai,0.0,10
+Mobile_Optimization,Go Live,mistral,0.1,10
+Mobile_Optimization,Go Live,gemini,0.0,8
+Mobile_Optimization,Keeping up with friends,openai,0.8,10
+Mobile_Optimization,Keeping up with friends,mistral,0.0,10
+Mobile_Optimization,Keeping up with friends,gemini,0.4,10
+Mobile_Optimization,List items for sale,openai,0.0,10
+Mobile_Optimization,List items for sale,mistral,0.0,10
+Mobile_Optimization,List items for sale,gemini,1.0,10
+Mobile_Optimization,Photo effects,openai,1.0,10
+Mobile_Optimization,Photo effects,mistral,0.2,10
+Mobile_Optimization,Photo effects,gemini,0.5,10
+Mobile_Optimization,Play games,openai,0.0,10
+Mobile_Optimization,Play games,mistral,1.0,10
+Mobile_Optimization,Play games,gemini,0.0,10
+Mobile_Optimization,Play playlist on shuffle mode,openai,1.0,10
+Mobile_Optimization,Play playlist on shuffle mode,mistral,1.0,10
+Mobile_Optimization,Play playlist on shuffle mode,gemini,0.0,9
+Mobile_Optimization,Rate movies,openai,1.0,10
+Mobile_Optimization,Rate movies,mistral,1.0,10
+Mobile_Optimization,Rate movies,gemini,0.8,10
+Mobile_Optimization,Search for offer on item,openai,0.0,10
+Mobile_Optimization,Search for offer on item,mistral,0.0,10
+Mobile_Optimization,Search for offer on item,gemini,0.2,10
+Mobile_Optimization,Send files,openai,0.0,10
+Mobile_Optimization,Send files,mistral,0.9,10
+Mobile_Optimization,Send files,gemini,0.0,10
+Mobile_Optimization,Watch streams,openai,0.0,10
+Mobile_Optimization,Watch streams,mistral,0.0,10
+Mobile_Optimization,Write notes,openai,0.5,10
+Mobile_Optimization,Write notes,mistral,0.0,10
+Mobile_Optimization,Write notes,gemini,0.0,10
+Number_of_Downloads,Access to movies,openai,1.0,10
+Number_of_Downloads,Access to movies,mistral,1.0,10
+Number_of_Downloads,Access to movies,gemini,0.9,10
+Number_of_Downloads,Access to podcasts,openai,1.0,10
+Number_of_Downloads,Access to podcasts,mistral,1.0,10
+Number_of_Downloads,Access to podcasts,gemini,0.4444444444444444,9
+Number_of_Downloads,Broadcast messages to multiple contacts,openai,0.0,10
+Number_of_Downloads,Broadcast messages to multiple contacts,mistral,1.0,10
+Number_of_Downloads,Broadcast messages to multiple contacts,gemini,0.16666666666666666,6
+Number_of_Downloads,Build photo collage,openai,0.0,10
+Number_of_Downloads,Build photo collage,mistral,1.0,10
+Number_of_Downloads,Collaborate with others,openai,0.0,10
+Number_of_Downloads,Collaborate with others,mistral,1.0,10
+Number_of_Downloads,Collaborate with others,gemini,0.9,10
+Number_of_Downloads,Go Live,openai,1.0,10
+Number_of_Downloads,Go Live,mistral,0.0,10
+Number_of_Downloads,Keeping up with friends,openai,0.0,10
+Number_of_Downloads,Keeping up with friends,mistral,1.0,10
+Number_of_Downloads,Keeping up with friends,gemini,0.0,10
+Number_of_Downloads,List items for sale,openai,0.0,10
+Number_of_Downloads,List items for sale,mistral,0.0,10
+Number_of_Downloads,List items for sale,gemini,1.0,10
+Number_of_Downloads,Photo effects,openai,0.0,10
+Number_of_Downloads,Photo effects,mistral,0.2,10
+Number_of_Downloads,Play games,openai,0.0,10
+Number_of_Downloads,Play games,mistral,1.0,10
+Number_of_Downloads,Play games,gemini,0.3,10
+Number_of_Downloads,Play playlist on shuffle mode,openai,1.0,10
+Number_of_Downloads,Play playlist on shuffle mode,mistral,1.0,10
+Number_of_Downloads,Play playlist on shuffle mode,gemini,0.6666666666666666,9
+Number_of_Downloads,Rate movies,openai,1.0,10
+Number_of_Downloads,Rate movies,mistral,1.0,10
+Number_of_Downloads,Search for offer on item,openai,0.0,10
+Number_of_Downloads,Search for offer on item,mistral,0.0,10
+Number_of_Downloads,Send files,openai,0.1,10
+Number_of_Downloads,Send files,mistral,0.0,10
+Number_of_Downloads,Send files,gemini,0.8,10
+Number_of_Downloads,Watch streams,openai,0.0,10
+Number_of_Downloads,Watch streams,mistral,1.0,10
+Number_of_Downloads,Watch streams,gemini,0.0,10
+Number_of_Downloads,Write notes,openai,0.0,10
+Number_of_Downloads,Write notes,mistral,0.0,10
+Platform_Availability,Access to movies,openai,1.0,10
+Platform_Availability,Access to movies,mistral,1.0,10
+Platform_Availability,Access to movies,gemini,0.9,10
+Platform_Availability,Access to podcasts,openai,0.0,10
+Platform_Availability,Access to podcasts,mistral,1.0,10
+Platform_Availability,Access to podcasts,gemini,0.5555555555555556,9
+Platform_Availability,Broadcast messages to multiple contacts,openai,0.0,10
+Platform_Availability,Broadcast messages to multiple contacts,mistral,1.0,10
+Platform_Availability,Broadcast messages to multiple contacts,gemini,0.16666666666666666,6
+Platform_Availability,Build photo collage,openai,0.1,10
+Platform_Availability,Build photo collage,mistral,1.0,10
+Platform_Availability,Build photo collage,gemini,0.0,10
+Platform_Availability,Collaborate with others,openai,0.0,10
+Platform_Availability,Collaborate with others,mistral,1.0,10
+Platform_Availability,Collaborate with others,gemini,0.9,10
+Platform_Availability,Go Live,openai,0.0,10
+Platform_Availability,Go Live,mistral,0.0,10
+Platform_Availability,Go Live,gemini,0.5,8
+Platform_Availability,Keeping up with friends,openai,0.8,10
+Platform_Availability,Keeping up with friends,mistral,1.0,10
+Platform_Availability,Keeping up with friends,gemini,0.0,10
+Platform_Availability,List items for sale,openai,0.3,10
+Platform_Availability,List items for sale,mistral,0.0,10
+Platform_Availability,List items for sale,gemini,1.0,10
+Platform_Availability,Photo effects,openai,1.0,10
+Platform_Availability,Photo effects,mistral,0.1,10
+Platform_Availability,Photo effects,gemini,0.0,10
+Platform_Availability,Play games,openai,0.0,10
+Platform_Availability,Play games,mistral,0.0,10
+Platform_Availability,Play games,gemini,0.0,10
+Platform_Availability,Play playlist on shuffle mode,openai,1.0,10
+Platform_Availability,Play playlist on shuffle mode,mistral,1.0,10
+Platform_Availability,Play playlist on shuffle mode,gemini,0.6666666666666666,9
+Platform_Availability,Rate movies,openai,1.0,10
+Platform_Availability,Rate movies,mistral,1.0,10
+Platform_Availability,Rate movies,gemini,0.8,10
+Platform_Availability,Search for offer on item,openai,0.9,10
+Platform_Availability,Search for offer on item,mistral,1.0,10
+Platform_Availability,Search for offer on item,gemini,0.1,10
+Platform_Availability,Send files,openai,0.9,10
+Platform_Availability,Send files,mistral,0.0,10
+Platform_Availability,Send files,gemini,0.8,10
+Platform_Availability,Watch streams,openai,0.0,10
+Platform_Availability,Watch streams,mistral,1.0,10
+Platform_Availability,Watch streams,gemini,0.0,10
+Platform_Availability,Write notes,openai,0.5,10
+Platform_Availability,Write notes,mistral,1.0,10
+Platform_Availability,Write notes,gemini,0.7,10
+Platform_Compatibility,Access to movies,openai,1.0,10
+Platform_Compatibility,Access to movies,mistral,1.0,10
+Platform_Compatibility,Access to movies,gemini,0.9,10
+Platform_Compatibility,Access to podcasts,openai,1.0,10
+Platform_Compatibility,Access to podcasts,mistral,1.0,10
+Platform_Compatibility,Access to podcasts,gemini,0.4444444444444444,9
+Platform_Compatibility,Broadcast messages to multiple contacts,openai,0.0,10
+Platform_Compatibility,Broadcast messages to multiple contacts,mistral,1.0,10
+Platform_Compatibility,Broadcast messages to multiple contacts,gemini,0.3333333333333333,6
+Platform_Compatibility,Build photo collage,openai,0.0,10
+Platform_Compatibility,Build photo collage,mistral,1.0,10
+Platform_Compatibility,Build photo collage,gemini,0.0,10
+Platform_Compatibility,Collaborate with others,openai,1.0,10
+Platform_Compatibility,Collaborate with others,mistral,1.0,10
+Platform_Compatibility,Collaborate with others,gemini,0.9,10
+Platform_Compatibility,Go Live,openai,0.0,10
+Platform_Compatibility,Go Live,mistral,0.0,10
+Platform_Compatibility,Go Live,gemini,0.0,8
+Platform_Compatibility,Keeping up with friends,openai,0.0,10
+Platform_Compatibility,Keeping up with friends,mistral,1.0,10
+Platform_Compatibility,Keeping up with friends,gemini,0.5,10
+Platform_Compatibility,List items for sale,openai,0.3,10
+Platform_Compatibility,List items for sale,mistral,1.0,10
+Platform_Compatibility,List items for sale,gemini,1.0,10
+Platform_Compatibility,Photo effects,openai,1.0,10
+Platform_Compatibility,Photo effects,mistral,0.2,10
+Platform_Compatibility,Photo effects,gemini,0.0,10
+Platform_Compatibility,Play games,openai,0.0,10
+Platform_Compatibility,Play games,mistral,0.0,10
+Platform_Compatibility,Play games,gemini,0.0,10
+Platform_Compatibility,Play playlist on shuffle mode,openai,1.0,10
+Platform_Compatibility,Play playlist on shuffle mode,mistral,1.0,10
+Platform_Compatibility,Play playlist on shuffle mode,gemini,0.3333333333333333,9
+Platform_Compatibility,Rate movies,openai,1.0,10
+Platform_Compatibility,Rate movies,mistral,1.0,10
+Platform_Compatibility,Rate movies,gemini,0.8,10
+Platform_Compatibility,Search for offer on item,openai,0.9,10
+Platform_Compatibility,Search for offer on item,mistral,1.0,10
+Platform_Compatibility,Send files,openai,0.9,10
+Platform_Compatibility,Send files,mistral,0.9,10
+Platform_Compatibility,Send files,gemini,0.8,10
+Platform_Compatibility,Watch streams,openai,0.0,10
+Platform_Compatibility,Watch streams,mistral,1.0,10
+Platform_Compatibility,Watch streams,gemini,1.0,10
+Platform_Compatibility,Write notes,openai,0.4,10
+Platform_Compatibility,Write notes,mistral,1.0,10
+Platform_Compatibility,Write notes,gemini,0.7,10
+Privacy_and_Security,Access to movies,openai,0.0,10
+Privacy_and_Security,Access to movies,mistral,1.0,10
+Privacy_and_Security,Access to movies,gemini,0.0,10
+Privacy_and_Security,Access to podcasts,openai,0.0,10
+Privacy_and_Security,Access to podcasts,mistral,0.0,10
+Privacy_and_Security,Broadcast messages to multiple contacts,openai,0.0,10
+Privacy_and_Security,Broadcast messages to multiple contacts,mistral,0.0,10
+Privacy_and_Security,Build photo collage,openai,0.0,10
+Privacy_and_Security,Build photo collage,mistral,1.0,10
+Privacy_and_Security,Build photo collage,gemini,0.0,10
+Privacy_and_Security,Collaborate with others,openai,0.0,10
+Privacy_and_Security,Collaborate with others,mistral,0.0,10
+Privacy_and_Security,Collaborate with others,gemini,0.0,10
+Privacy_and_Security,Go Live,openai,0.0,10
+Privacy_and_Security,Go Live,mistral,0.0,10
+Privacy_and_Security,Keeping up with friends,openai,0.2,10
+Privacy_and_Security,Keeping up with friends,mistral,0.0,10
+Privacy_and_Security,Keeping up with friends,gemini,0.0,10
+Privacy_and_Security,List items for sale,openai,0.0,10
+Privacy_and_Security,List items for sale,mistral,0.0,10
+Privacy_and_Security,Photo effects,openai,0.0,10
+Privacy_and_Security,Photo effects,mistral,0.0,10
+Privacy_and_Security,Photo effects,gemini,0.0,10
+Privacy_and_Security,Play games,openai,0.0,10
+Privacy_and_Security,Play games,mistral,0.0,10
+Privacy_and_Security,Play playlist on shuffle mode,openai,0.0,10
+Privacy_and_Security,Play playlist on shuffle mode,mistral,0.0,10
+Privacy_and_Security,Rate movies,openai,1.0,10
+Privacy_and_Security,Rate movies,mistral,0.0,10
+Privacy_and_Security,Search for offer on item,openai,0.9,10
+Privacy_and_Security,Search for offer on item,mistral,0.0,10
+Privacy_and_Security,Send files,openai,0.0,10
+Privacy_and_Security,Send files,mistral,0.0,10
+Privacy_and_Security,Send files,gemini,0.0,10
+Privacy_and_Security,Watch streams,openai,0.0,10
+Privacy_and_Security,Watch streams,mistral,0.0,10
+Privacy_and_Security,Write notes,openai,0.0,10
+Privacy_and_Security,Write notes,mistral,0.0,10
+Privacy_and_Security,Write notes,gemini,0.0,10
+Subscription_Cost,Access to movies,openai,0.0,10
+Subscription_Cost,Access to movies,mistral,0.0,10
+Subscription_Cost,Access to podcasts,openai,0.0,10
+Subscription_Cost,Access to podcasts,mistral,0.0,10
+Subscription_Cost,Broadcast messages to multiple contacts,openai,0.0,10
+Subscription_Cost,Broadcast messages to multiple contacts,mistral,1.0,10
+Subscription_Cost,Broadcast messages to multiple contacts,gemini,0.3333333333333333,6
+Subscription_Cost,Build photo collage,openai,0.0,10
+Subscription_Cost,Build photo collage,mistral,0.0,10
+Subscription_Cost,Collaborate with others,openai,0.0,10
+Subscription_Cost,Collaborate with others,mistral,0.0,10
+Subscription_Cost,Go Live,openai,0.0,10
+Subscription_Cost,Go Live,mistral,0.0,10
+Subscription_Cost,Keeping up with friends,openai,0.8,10
+Subscription_Cost,Keeping up with friends,mistral,0.0,10
+Subscription_Cost,List items for sale,openai,0.0,10
+Subscription_Cost,List items for sale,mistral,0.0,10
+Subscription_Cost,Photo effects,openai,0.0,10
+Subscription_Cost,Photo effects,mistral,0.1,10
+Subscription_Cost,Play games,openai,0.0,10
+Subscription_Cost,Play games,mistral,0.0,10
+Subscription_Cost,Play playlist on shuffle mode,openai,0.0,10
+Subscription_Cost,Play playlist on shuffle mode,mistral,1.0,10
+Subscription_Cost,Play playlist on shuffle mode,gemini,0.6666666666666666,9
+Subscription_Cost,Rate movies,openai,1.0,10
+Subscription_Cost,Rate movies,mistral,0.0,10
+Subscription_Cost,Search for offer on item,openai,0.0,10
+Subscription_Cost,Search for offer on item,mistral,0.0,10
+Subscription_Cost,Send files,openai,0.9,10
+Subscription_Cost,Send files,mistral,0.0,10
+Subscription_Cost,Watch streams,openai,0.0,10
+Subscription_Cost,Watch streams,mistral,0.0,10
+Subscription_Cost,Write notes,openai,0.0,10
+Subscription_Cost,Write notes,mistral,0.0,10
+Update_Frequency,Access to movies,openai,0.0,10
+Update_Frequency,Access to movies,mistral,1.0,10
+Update_Frequency,Access to podcasts,openai,0.0,10
+Update_Frequency,Access to podcasts,mistral,1.0,10
+Update_Frequency,Broadcast messages to multiple contacts,openai,1.0,10
+Update_Frequency,Broadcast messages to multiple contacts,mistral,1.0,10
+Update_Frequency,Broadcast messages to multiple contacts,gemini,0.3333333333333333,6
+Update_Frequency,Build photo collage,openai,0.0,10
+Update_Frequency,Build photo collage,mistral,0.0,10
+Update_Frequency,Build photo collage,gemini,0.2,10
+Update_Frequency,Collaborate with others,openai,1.0,10
+Update_Frequency,Collaborate with others,mistral,1.0,10
+Update_Frequency,Collaborate with others,gemini,0.9,10
+Update_Frequency,Go Live,openai,0.0,10
+Update_Frequency,Go Live,mistral,0.1,10
+Update_Frequency,Keeping up with friends,openai,0.0,10
+Update_Frequency,Keeping up with friends,mistral,0.0,10
+Update_Frequency,Keeping up with friends,gemini,0.4,10
+Update_Frequency,List items for sale,openai,0.6,10
+Update_Frequency,List items for sale,mistral,0.0,10
+Update_Frequency,List items for sale,gemini,1.0,10
+Update_Frequency,Photo effects,openai,0.0,10
+Update_Frequency,Photo effects,mistral,0.0,10
+Update_Frequency,Photo effects,gemini,0.5,10
+Update_Frequency,Play games,openai,0.0,10
+Update_Frequency,Play games,mistral,1.0,10
+Update_Frequency,Play games,gemini,0.1,10
+Update_Frequency,Play playlist on shuffle mode,openai,1.0,10
+Update_Frequency,Play playlist on shuffle mode,mistral,1.0,10
+Update_Frequency,Play playlist on shuffle mode,gemini,0.0,9
+Update_Frequency,Rate movies,openai,0.0,10
+Update_Frequency,Rate movies,mistral,1.0,10
+Update_Frequency,Rate movies,gemini,0.8,10
+Update_Frequency,Search for offer on item,openai,0.1,10
+Update_Frequency,Search for offer on item,mistral,1.0,10
+Update_Frequency,Search for offer on item,gemini,0.3,10
+Update_Frequency,Send files,openai,0.0,10
+Update_Frequency,Send files,mistral,0.9,10
+Update_Frequency,Send files,gemini,0.0,10
+Update_Frequency,Watch streams,openai,0.0,10
+Update_Frequency,Watch streams,mistral,0.0,10
+Update_Frequency,Watch streams,gemini,1.0,10
+Update_Frequency,Write notes,openai,0.5,10
+Update_Frequency,Write notes,mistral,0.0,10
+Update_Frequency,Write notes,gemini,0.1,10
+User_Base,Access to movies,openai,1.0,10
+User_Base,Access to movies,mistral,1.0,10
+User_Base,Access to movies,gemini,0.9,10
+User_Base,Access to podcasts,openai,1.0,10
+User_Base,Access to podcasts,mistral,1.0,10
+User_Base,Access to podcasts,gemini,0.4444444444444444,9
+User_Base,Broadcast messages to multiple contacts,openai,0.0,10
+User_Base,Broadcast messages to multiple contacts,mistral,1.0,10
+User_Base,Broadcast messages to multiple contacts,gemini,0.16666666666666666,6
+User_Base,Build photo collage,openai,0.1,10
+User_Base,Build photo collage,mistral,0.0,10
+User_Base,Collaborate with others,openai,0.0,10
+User_Base,Collaborate with others,mistral,1.0,10
+User_Base,Collaborate with others,gemini,0.1,10
+User_Base,Go Live,openai,0.0,10
+User_Base,Go Live,mistral,0.1,10
+User_Base,Keeping up with friends,openai,0.0,10
+User_Base,Keeping up with friends,mistral,0.0,10
+User_Base,Keeping up with friends,gemini,0.5,10
+User_Base,List items for sale,openai,0.3,10
+User_Base,List items for sale,mistral,0.0,10
+User_Base,List items for sale,gemini,0.0,10
+User_Base,Photo effects,openai,0.0,10
+User_Base,Photo effects,mistral,0.0,10
+User_Base,Photo effects,gemini,0.0,10
+User_Base,Play games,openai,0.0,10
+User_Base,Play games,mistral,0.0,10
+User_Base,Play games,gemini,0.3,10
+User_Base,Play playlist on shuffle mode,openai,1.0,10
+User_Base,Play playlist on shuffle mode,mistral,1.0,10
+User_Base,Play playlist on shuffle mode,gemini,0.0,9
+User_Base,Rate movies,openai,1.0,10
+User_Base,Rate movies,mistral,1.0,10
+User_Base,Rate movies,gemini,0.8,10
+User_Base,Search for offer on item,openai,0.0,10
+User_Base,Search for offer on item,mistral,0.0,10
+User_Base,Send files,openai,0.0,10
+User_Base,Send files,mistral,0.0,10
+User_Base,Watch streams,openai,0.0,10
+User_Base,Watch streams,mistral,1.0,10
+User_Base,Watch streams,gemini,0.0,10
+User_Base,Write notes,openai,0.5,10
+User_Base,Write notes,mistral,1.0,10
+User_Base,Write notes,gemini,0.0,10
+User_Interface_and_Ease_of_Use,Access to movies,openai,1.0,10
+User_Interface_and_Ease_of_Use,Access to movies,mistral,1.0,10
+User_Interface_and_Ease_of_Use,Access to movies,gemini,0.9,10
+User_Interface_and_Ease_of_Use,Access to podcasts,openai,0.0,10
+User_Interface_and_Ease_of_Use,Access to podcasts,mistral,1.0,10
+User_Interface_and_Ease_of_Use,Access to podcasts,gemini,0.5555555555555556,9
+User_Interface_and_Ease_of_Use,Broadcast messages to multiple contacts,openai,0.0,10
+User_Interface_and_Ease_of_Use,Broadcast messages to multiple contacts,mistral,1.0,10
+User_Interface_and_Ease_of_Use,Broadcast messages to multiple contacts,gemini,0.0,6
+User_Interface_and_Ease_of_Use,Build photo collage,openai,0.0,10
+User_Interface_and_Ease_of_Use,Build photo collage,mistral,0.0,10
+User_Interface_and_Ease_of_Use,Build photo collage,gemini,0.0,10
+User_Interface_and_Ease_of_Use,Collaborate with others,openai,1.0,10
+User_Interface_and_Ease_of_Use,Collaborate with others,mistral,0.0,10
+User_Interface_and_Ease_of_Use,Collaborate with others,gemini,0.9,10
+User_Interface_and_Ease_of_Use,Go Live,openai,0.0,10
+User_Interface_and_Ease_of_Use,Go Live,mistral,0.1,10
+User_Interface_and_Ease_of_Use,Go Live,gemini,0.0,8
+User_Interface_and_Ease_of_Use,Keeping up with friends,openai,0.0,10
+User_Interface_and_Ease_of_Use,Keeping up with friends,mistral,1.0,10
+User_Interface_and_Ease_of_Use,Keeping up with friends,gemini,0.4,10
+User_Interface_and_Ease_of_Use,List items for sale,openai,0.0,10
+User_Interface_and_Ease_of_Use,List items for sale,mistral,0.0,10
+User_Interface_and_Ease_of_Use,List items for sale,gemini,1.0,10
+User_Interface_and_Ease_of_Use,Photo effects,openai,1.0,10
+User_Interface_and_Ease_of_Use,Photo effects,mistral,0.1,10
+User_Interface_and_Ease_of_Use,Photo effects,gemini,0.0,10
+User_Interface_and_Ease_of_Use,Play games,openai,0.0,10
+User_Interface_and_Ease_of_Use,Play games,mistral,0.0,10
+User_Interface_and_Ease_of_Use,Play games,gemini,0.0,10
+User_Interface_and_Ease_of_Use,Play playlist on shuffle mode,openai,1.0,10
+User_Interface_and_Ease_of_Use,Play playlist on shuffle mode,mistral,1.0,10
+User_Interface_and_Ease_of_Use,Play playlist on shuffle mode,gemini,0.0,9
+User_Interface_and_Ease_of_Use,Rate movies,openai,1.0,10
+User_Interface_and_Ease_of_Use,Rate movies,mistral,1.0,10
+User_Interface_and_Ease_of_Use,Rate movies,gemini,0.8,10
+User_Interface_and_Ease_of_Use,Search for offer on item,openai,0.0,10
+User_Interface_and_Ease_of_Use,Search for offer on item,mistral,1.0,10
+User_Interface_and_Ease_of_Use,Search for offer on item,gemini,0.2,10
+User_Interface_and_Ease_of_Use,Send files,openai,0.9,10
+User_Interface_and_Ease_of_Use,Send files,mistral,0.0,10
+User_Interface_and_Ease_of_Use,Send files,gemini,0.8,10
+User_Interface_and_Ease_of_Use,Watch streams,openai,0.0,10
+User_Interface_and_Ease_of_Use,Watch streams,mistral,1.0,10
+User_Interface_and_Ease_of_Use,Watch streams,gemini,0.0,10
+User_Interface_and_Ease_of_Use,Write notes,openai,0.0,10
+User_Interface_and_Ease_of_Use,Write notes,mistral,0.0,10
+User_Interface_and_Ease_of_Use,Write notes,gemini,0.1,10
+User_Ratings,Access to movies,openai,0.0,10
+User_Ratings,Access to movies,mistral,1.0,10
+User_Ratings,Access to movies,gemini,0.9,10
+User_Ratings,Access to podcasts,openai,0.0,10
+User_Ratings,Access to podcasts,mistral,1.0,10
+User_Ratings,Access to podcasts,gemini,0.4444444444444444,9
+User_Ratings,Broadcast messages to multiple contacts,openai,0.0,10
+User_Ratings,Broadcast messages to multiple contacts,mistral,1.0,10
+User_Ratings,Build photo collage,openai,0.9,10
+User_Ratings,Build photo collage,mistral,0.0,10
+User_Ratings,Build photo collage,gemini,0.1,10
+User_Ratings,Collaborate with others,openai,1.0,10
+User_Ratings,Collaborate with others,mistral,1.0,10
+User_Ratings,Collaborate with others,gemini,0.9,10
+User_Ratings,Go Live,openai,0.0,10
+User_Ratings,Go Live,mistral,0.0,10
+User_Ratings,Go Live,gemini,0.0,8
+User_Ratings,Keeping up with friends,openai,0.0,10
+User_Ratings,Keeping up with friends,mistral,1.0,10
+User_Ratings,List items for sale,openai,0.0,10
+User_Ratings,List items for sale,mistral,0.0,10
+User_Ratings,List items for sale,gemini,1.0,10
+User_Ratings,Photo effects,openai,0.0,10
+User_Ratings,Photo effects,mistral,0.2,10
+User_Ratings,Play games,openai,0.0,10
+User_Ratings,Play games,mistral,1.0,10
+User_Ratings,Play games,gemini,0.1,10
+User_Ratings,Play playlist on shuffle mode,openai,1.0,10
+User_Ratings,Play playlist on shuffle mode,mistral,1.0,10
+User_Ratings,Play playlist on shuffle mode,gemini,0.6666666666666666,9
+User_Ratings,Rate movies,openai,1.0,10
+User_Ratings,Rate movies,mistral,1.0,10
+User_Ratings,Rate movies,gemini,0.2,10
+User_Ratings,Search for offer on item,openai,0.9,10
+User_Ratings,Search for offer on item,mistral,1.0,10
+User_Ratings,Search for offer on item,gemini,0.0,10
+User_Ratings,Send files,openai,0.9,10
+User_Ratings,Send files,mistral,0.9,10
+User_Ratings,Send files,gemini,0.8,10
+User_Ratings,Watch streams,openai,0.0,10
+User_Ratings,Watch streams,mistral,0.0,10
+User_Ratings,Write notes,openai,0.1,10
+User_Ratings,Write notes,mistral,0.0,10
+User_Ratings,Write notes,gemini,0.0,10
+User_Reviews_and_Ratings,Access to movies,openai,1.0,10
+User_Reviews_and_Ratings,Access to movies,mistral,1.0,10
+User_Reviews_and_Ratings,Access to podcasts,openai,0.0,10
+User_Reviews_and_Ratings,Access to podcasts,mistral,1.0,10
+User_Reviews_and_Ratings,Broadcast messages to multiple contacts,openai,0.0,10
+User_Reviews_and_Ratings,Broadcast messages to multiple contacts,mistral,1.0,10
+User_Reviews_and_Ratings,Broadcast messages to multiple contacts,gemini,0.0,6
+User_Reviews_and_Ratings,Build photo collage,openai,0.0,10
+User_Reviews_and_Ratings,Build photo collage,mistral,1.0,10
+User_Reviews_and_Ratings,Build photo collage,gemini,0.2,10
+User_Reviews_and_Ratings,Collaborate with others,openai,1.0,10
+User_Reviews_and_Ratings,Collaborate with others,mistral,1.0,10
+User_Reviews_and_Ratings,Collaborate with others,gemini,0.9,10
+User_Reviews_and_Ratings,Go Live,openai,0.0,10
+User_Reviews_and_Ratings,Go Live,mistral,0.1,10
+User_Reviews_and_Ratings,Go Live,gemini,0.5,8
+User_Reviews_and_Ratings,Keeping up with friends,openai,0.0,10
+User_Reviews_and_Ratings,Keeping up with friends,mistral,1.0,10
+User_Reviews_and_Ratings,Keeping up with friends,gemini,0.4,10
+User_Reviews_and_Ratings,List items for sale,openai,0.0,10
+User_Reviews_and_Ratings,List items for sale,mistral,0.0,10
+User_Reviews_and_Ratings,List items for sale,gemini,1.0,10
+User_Reviews_and_Ratings,Photo effects,openai,1.0,10
+User_Reviews_and_Ratings,Photo effects,mistral,0.0,10
+User_Reviews_and_Ratings,Photo effects,gemini,0.1,10
+User_Reviews_and_Ratings,Play games,openai,0.0,10
+User_Reviews_and_Ratings,Play games,mistral,0.0,10
+User_Reviews_and_Ratings,Play games,gemini,0.0,10
+User_Reviews_and_Ratings,Play playlist on shuffle mode,openai,0.0,10
+User_Reviews_and_Ratings,Play playlist on shuffle mode,mistral,1.0,10
+User_Reviews_and_Ratings,Play playlist on shuffle mode,gemini,0.3333333333333333,9
+User_Reviews_and_Ratings,Rate movies,openai,1.0,10
+User_Reviews_and_Ratings,Rate movies,mistral,1.0,10
+User_Reviews_and_Ratings,Rate movies,gemini,0.8,10
+User_Reviews_and_Ratings,Search for offer on item,openai,0.0,10
+User_Reviews_and_Ratings,Search for offer on item,mistral,1.0,10
+User_Reviews_and_Ratings,Search for offer on item,gemini,0.0,10
+User_Reviews_and_Ratings,Send files,openai,0.9,10
+User_Reviews_and_Ratings,Send files,mistral,0.9,10
+User_Reviews_and_Ratings,Send files,gemini,0.8,10
+User_Reviews_and_Ratings,Watch streams,openai,0.0,10
+User_Reviews_and_Ratings,Watch streams,mistral,1.0,10
+User_Reviews_and_Ratings,Watch streams,gemini,1.0,10
+User_Reviews_and_Ratings,Write notes,openai,0.5,10
+User_Reviews_and_Ratings,Write notes,mistral,0.0,10
+User_Reviews_and_Ratings,Write notes,gemini,0.7,10

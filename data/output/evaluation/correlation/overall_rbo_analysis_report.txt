@@ -1,0 +1,23 @@
+================================================================================
+OVERALL RBO ANALYSIS SUMMARY REPORT
+================================================================================
+
+1. COMPARISON ACROSS K VALUES
+----------------------------------------
+Overall average RBO by k value:
+  k=1: 0.388
+  k=3: 0.441
+  k=5: 0.465
+  k=10: 0.493
+  k=20: 0.500
+
+Best performing k value: k=20 (RBO=0.500)
+Worst performing k value: k=1 (RBO=0.388)
+
+2. KEY FINDINGS
+----------------------------------------
+• Analysis completed for all specified k values
+• Individual results saved in k-specific subfolders
+• Each subfolder contains model-specific, criteria-specific, and inter-criteria analyses
+
+================================================================================

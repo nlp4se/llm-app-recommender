@@ -1,0 +1,823 @@
+model,feature,criteria,rbo,num_comparisons
+openai,Access to movies,Ad_Free_Option,0.10987814911470642,10
+openai,Access to movies,Ad_Frequency,0.024891808234241593,10
+openai,Access to movies,Community_Engagement,0.1757709419457009,10
+openai,Access to movies,Cost,0.024891808234241593,10
+openai,Access to movies,Customer_Support,0.08293128149317827,10
+openai,Access to movies,Customization_Options,0.05280747081894312,10
+openai,Access to movies,Geographical_Availability,0.45219359469302167,10
+openai,Access to movies,Integration_Capabilities,0.007853319572057772,10
+openai,Access to movies,Mobile_Optimization,0.024891808234241593,10
+openai,Access to movies,Number_of_Downloads,0.9350760021321788,10
+openai,Access to movies,Platform_Availability,0.9237734067689056,10
+openai,Access to movies,Platform_Compatibility,0.8765590645960515,10
+openai,Access to movies,Privacy_and_Security,0.42688272126959614,10
+openai,Access to movies,Subscription_Cost,0.18003414942252105,10
+openai,Access to movies,Update_Frequency,0.7538277517019887,10
+openai,Access to movies,User_Base,0.75748956268854,10
+openai,Access to movies,User_Interface_and_Ease_of_Use,0.8830275354088712,10
+openai,Access to movies,User_Ratings,0.6872356803179065,10
+openai,Access to movies,User_Reviews_and_Ratings,1.0,10
+openai,Access to podcasts,Ad_Free_Option,0.2654255176773866,10
+openai,Access to podcasts,Ad_Frequency,0.2293569881737187,10
+openai,Access to podcasts,Community_Engagement,0.11511015155469999,10
+openai,Access to podcasts,Cost,0.5166426936200808,10
+openai,Access to podcasts,Customer_Support,0.38740037455207543,10
+openai,Access to podcasts,Customization_Options,0.20188082884209702,10
+openai,Access to podcasts,Geographical_Availability,0.18805627891971527,10
+openai,Access to podcasts,Integration_Capabilities,0.3166606687993432,10
+openai,Access to podcasts,Mobile_Optimization,0.5415997861135928,10
+openai,Access to podcasts,Number_of_Downloads,0.8017052923793682,10
+openai,Access to podcasts,Platform_Availability,0.6954572631807165,10
+openai,Access to podcasts,Platform_Compatibility,0.9791844258111215,10
+openai,Access to podcasts,Privacy_and_Security,0.19130709996475923,10
+openai,Access to podcasts,Subscription_Cost,0.6814672159228483,10
+openai,Access to podcasts,Update_Frequency,0.2185890059068271,10
+openai,Access to podcasts,User_Base,0.8439666045381291,10
+openai,Access to podcasts,User_Interface_and_Ease_of_Use,0.25484141801569826,10
+openai,Access to podcasts,User_Ratings,0.1259873254772177,10
+openai,Access to podcasts,User_Reviews_and_Ratings,0.23216201060064426,10
+openai,Broadcast messages to multiple contacts,Ad_Free_Option,0.2155341842115809,10
+openai,Broadcast messages to multiple contacts,Ad_Frequency,0.5880138251960932,10
+openai,Broadcast messages to multiple contacts,Community_Engagement,0.0,10
+openai,Broadcast messages to multiple contacts,Cost,0.6186582581513187,10
+openai,Broadcast messages to multiple contacts,Customer_Support,0.7422782481256799,10
+openai,Broadcast messages to multiple contacts,Customization_Options,0.4044949767938446,10
+openai,Broadcast messages to multiple contacts,Geographical_Availability,0.6575587892407494,10
+openai,Broadcast messages to multiple contacts,Integration_Capabilities,0.0,10
+openai,Broadcast messages to multiple contacts,Mobile_Optimization,0.0,10
+openai,Broadcast messages to multiple contacts,Number_of_Downloads,0.3036810147080312,10
+openai,Broadcast messages to multiple contacts,Platform_Availability,0.6587528437272493,10
+openai,Broadcast messages to multiple contacts,Platform_Compatibility,0.6453668903380396,10
+openai,Broadcast messages to multiple contacts,Privacy_and_Security,0.27394626687884427,10
+openai,Broadcast messages to multiple contacts,Subscription_Cost,0.646684081293383,10
+openai,Broadcast messages to multiple contacts,Update_Frequency,0.7839996008501077,10
+openai,Broadcast messages to multiple contacts,User_Base,0.3793321288333438,10
+openai,Broadcast messages to multiple contacts,User_Interface_and_Ease_of_Use,0.4585825764148982,10
+openai,Broadcast messages to multiple contacts,User_Ratings,0.5983170380600693,10
+openai,Broadcast messages to multiple contacts,User_Reviews_and_Ratings,0.7597023812441948,10
+openai,Build photo collage,Ad_Free_Option,0.13857439855466422,10
+openai,Build photo collage,Ad_Frequency,0.2892043108524341,10
+openai,Build photo collage,Community_Engagement,0.6287960772035281,10
+openai,Build photo collage,Cost,0.27805888018809277,10
+openai,Build photo collage,Customer_Support,0.10147356687983664,10
+openai,Build photo collage,Customization_Options,0.269126385306508,10
+openai,Build photo collage,Geographical_Availability,0.7083782700890435,10
+openai,Build photo collage,Integration_Capabilities,0.42493607423741775,10
+openai,Build photo collage,Mobile_Optimization,0.5741725441898039,10
+openai,Build photo collage,Number_of_Downloads,0.0077369238757671235,10
+openai,Build photo collage,Platform_Availability,0.5307004203688177,10
+openai,Build photo collage,Platform_Compatibility,0.4915275704387917,10
+openai,Build photo collage,Privacy_and_Security,0.07401998154609153,10
+openai,Build photo collage,Subscription_Cost,0.0017038488662183822,10
+openai,Build photo collage,Update_Frequency,0.09152560580814147,10
+openai,Build photo collage,User_Base,0.3068825125170208,10
+openai,Build photo collage,User_Interface_and_Ease_of_Use,0.267627047175638,10
+openai,Build photo collage,User_Ratings,0.5954192116358025,10
+openai,Build photo collage,User_Reviews_and_Ratings,0.2522531525083529,10
+openai,Collaborate with others,Ad_Free_Option,0.4867538207666605,10
+openai,Collaborate with others,Ad_Frequency,0.06570932982502686,10
+openai,Collaborate with others,Community_Engagement,0.6549837300880769,10
+openai,Collaborate with others,Cost,0.7788067506793163,10
+openai,Collaborate with others,Customer_Support,0.6969710358792055,10
+openai,Collaborate with others,Customization_Options,0.30458494008701686,10
+openai,Collaborate with others,Geographical_Availability,0.475132189071915,10
+openai,Collaborate with others,Integration_Capabilities,0.8655571821002853,10
+openai,Collaborate with others,Mobile_Optimization,0.4019787469547761,10
+openai,Collaborate with others,Number_of_Downloads,0.40061653012799087,10
+openai,Collaborate with others,Platform_Availability,0.7632436850953164,10
+openai,Collaborate with others,Platform_Compatibility,0.8426321330031676,10
+openai,Collaborate with others,Privacy_and_Security,0.19379825073528378,10
+openai,Collaborate with others,Subscription_Cost,0.5479221833083077,10
+openai,Collaborate with others,Update_Frequency,0.741815915388288,10
+openai,Collaborate with others,User_Base,0.0,10
+openai,Collaborate with others,User_Interface_and_Ease_of_Use,0.6910504999507345,10
+openai,Collaborate with others,User_Ratings,0.7544387687155545,10
+openai,Collaborate with others,User_Reviews_and_Ratings,0.7280926357338948,10
+openai,Go Live,Ad_Free_Option,0.22779291214057115,10
+openai,Go Live,Ad_Frequency,0.031842322370730404,10
+openai,Go Live,Community_Engagement,0.0,10
+openai,Go Live,Cost,0.2741981263932774,10
+openai,Go Live,Customer_Support,0.6918402633801575,10
+openai,Go Live,Customization_Options,0.0919060981769939,10
+openai,Go Live,Geographical_Availability,0.0,10
+openai,Go Live,Integration_Capabilities,0.09792480108078702,10
+openai,Go Live,Mobile_Optimization,0.6056745364187546,10
+openai,Go Live,Number_of_Downloads,0.7626399399023356,10
+openai,Go Live,Platform_Availability,0.61660726564557,10
+openai,Go Live,Platform_Compatibility,0.6717547312255883,10
+openai,Go Live,Privacy_and_Security,0.1378547540342559,10
+openai,Go Live,Subscription_Cost,0.13757583871912543,10
+openai,Go Live,Update_Frequency,0.0,10
+openai,Go Live,User_Base,0.0,10
+openai,Go Live,User_Interface_and_Ease_of_Use,0.1621635383306306,10
+openai,Go Live,User_Ratings,0.16152729824680329,10
+openai,Go Live,User_Reviews_and_Ratings,0.04995226739034905,10
+openai,Keeping up with friends,Ad_Free_Option,0.1662690442131938,10
+openai,Keeping up with friends,Ad_Frequency,0.18076414070698474,10
+openai,Keeping up with friends,Community_Engagement,0.271306687776334,10
+openai,Keeping up with friends,Cost,0.6942177143833909,10
+openai,Keeping up with friends,Customer_Support,0.760721385147035,10
+openai,Keeping up with friends,Customization_Options,0.03193949179110489,10
+openai,Keeping up with friends,Geographical_Availability,0.6093502959320045,10
+openai,Keeping up with friends,Integration_Capabilities,0.011603946385437255,10
+openai,Keeping up with friends,Mobile_Optimization,0.5893804493110687,10
+openai,Keeping up with friends,Number_of_Downloads,0.23055825907511843,10
+openai,Keeping up with friends,Platform_Availability,0.6931892490688744,10
+openai,Keeping up with friends,Platform_Compatibility,0.3161315458877185,10
+openai,Keeping up with friends,Privacy_and_Security,0.19037552049022957,10
+openai,Keeping up with friends,Subscription_Cost,0.7400901891671932,10
+openai,Keeping up with friends,Update_Frequency,0.29683709872954983,10
+openai,Keeping up with friends,User_Base,0.2003878270256667,10
+openai,Keeping up with friends,User_Interface_and_Ease_of_Use,0.0356852851658397,10
+openai,Keeping up with friends,User_Ratings,0.04188454915674662,10
+openai,Keeping up with friends,User_Reviews_and_Ratings,0.04188454915674662,10
+openai,List items for sale,Ad_Free_Option,0.6394049813053791,10
+openai,List items for sale,Ad_Frequency,0.4743650039639409,10
+openai,List items for sale,Community_Engagement,0.30293095732369923,10
+openai,List items for sale,Cost,0.39013833102471396,10
+openai,List items for sale,Customer_Support,0.6561498735443474,10
+openai,List items for sale,Customization_Options,0.287572376892519,10
+openai,List items for sale,Geographical_Availability,0.6897159329109837,10
+openai,List items for sale,Integration_Capabilities,0.0,10
+openai,List items for sale,Mobile_Optimization,0.0,10
+openai,List items for sale,Number_of_Downloads,0.3359778954808843,10
+openai,List items for sale,Platform_Availability,0.6747128648240698,10
+openai,List items for sale,Platform_Compatibility,0.6415085297072525,10
+openai,List items for sale,Privacy_and_Security,0.17947143940716773,10
+openai,List items for sale,Subscription_Cost,0.32444316320905525,10
+openai,List items for sale,Update_Frequency,0.5222448360896822,10
+openai,List items for sale,User_Base,0.6460848870358964,10
+openai,List items for sale,User_Interface_and_Ease_of_Use,0.39524022956269605,10
+openai,List items for sale,User_Ratings,0.13742244104066353,10
+openai,List items for sale,User_Reviews_and_Ratings,0.26724592111765555,10
+openai,Photo effects,Ad_Free_Option,0.518708200578456,10
+openai,Photo effects,Ad_Frequency,0.49059722334042843,10
+openai,Photo effects,Community_Engagement,0.5498939230918,10
+openai,Photo effects,Cost,0.4572610295870825,10
+openai,Photo effects,Customer_Support,0.5972918087237206,10
+openai,Photo effects,Customization_Options,0.5228363256545607,10
+openai,Photo effects,Geographical_Availability,0.35515850136918925,10
+openai,Photo effects,Integration_Capabilities,0.3263918955743197,10
+openai,Photo effects,Mobile_Optimization,0.7574739968347539,10
+openai,Photo effects,Number_of_Downloads,0.24409623267766176,10
+openai,Photo effects,Platform_Availability,0.7142522899043507,10
+openai,Photo effects,Platform_Compatibility,0.7317923297651947,10
+openai,Photo effects,Privacy_and_Security,0.09521214025547584,10
+openai,Photo effects,Subscription_Cost,0.22070658690587835,10
+openai,Photo effects,Update_Frequency,0.45015289234164885,10
+openai,Photo effects,User_Base,0.2826552326474728,10
+openai,Photo effects,User_Interface_and_Ease_of_Use,0.6406202184907775,10
+openai,Photo effects,User_Ratings,0.23756325724615773,10
+openai,Photo effects,User_Reviews_and_Ratings,0.6250438734632928,10
+openai,Play games,Ad_Free_Option,0.0,10
+openai,Play games,Ad_Frequency,0.0,10
+openai,Play games,Community_Engagement,0.0,10
+openai,Play games,Cost,0.0,10
+openai,Play games,Customer_Support,0.0,10
+openai,Play games,Customization_Options,0.0,10
+openai,Play games,Geographical_Availability,0.0,10
+openai,Play games,Integration_Capabilities,0.21711780082855875,10
+openai,Play games,Mobile_Optimization,0.0,10
+openai,Play games,Number_of_Downloads,0.0,10
+openai,Play games,Platform_Availability,0.0,10
+openai,Play games,Platform_Compatibility,0.0,10
+openai,Play games,Privacy_and_Security,0.0,10
+openai,Play games,Subscription_Cost,0.014978350164265516,10
+openai,Play games,Update_Frequency,0.0,10
+openai,Play games,User_Base,0.0,10
+openai,Play games,User_Interface_and_Ease_of_Use,0.0,10
+openai,Play games,User_Ratings,0.0,10
+openai,Play games,User_Reviews_and_Ratings,0.0,10
+openai,Play playlist on shuffle mode,Ad_Free_Option,0.8391065639965631,10
+openai,Play playlist on shuffle mode,Ad_Frequency,0.2763731105171511,10
+openai,Play playlist on shuffle mode,Community_Engagement,0.5575598501274248,10
+openai,Play playlist on shuffle mode,Cost,0.7610219710832109,10
+openai,Play playlist on shuffle mode,Customer_Support,0.7713969472130893,10
+openai,Play playlist on shuffle mode,Customization_Options,0.0,10
+openai,Play playlist on shuffle mode,Geographical_Availability,0.41916676642385786,10
+openai,Play playlist on shuffle mode,Integration_Capabilities,0.711435089400491,10
+openai,Play playlist on shuffle mode,Mobile_Optimization,0.8594051244584711,10
+openai,Play playlist on shuffle mode,Number_of_Downloads,0.5867543485019875,10
+openai,Play playlist on shuffle mode,Platform_Availability,0.8150687950285143,10
+openai,Play playlist on shuffle mode,Platform_Compatibility,0.8499837379190808,10
+openai,Play playlist on shuffle mode,Privacy_and_Security,0.0,10
+openai,Play playlist on shuffle mode,Subscription_Cost,0.05707067829576331,10
+openai,Play playlist on shuffle mode,Update_Frequency,0.8391065639965631,10
+openai,Play playlist on shuffle mode,User_Base,0.4703224108523263,10
+openai,Play playlist on shuffle mode,User_Interface_and_Ease_of_Use,0.8089827533223278,10
+openai,Play playlist on shuffle mode,User_Ratings,0.7990994744901684,10
+openai,Play playlist on shuffle mode,User_Reviews_and_Ratings,0.0,10
+openai,Rate movies,Ad_Free_Option,0.5707597959193988,10
+openai,Rate movies,Ad_Frequency,0.4579604338833003,10
+openai,Rate movies,Community_Engagement,0.5342642489615776,10
+openai,Rate movies,Cost,0.41583409281532885,10
+openai,Rate movies,Customer_Support,0.2354252129438028,10
+openai,Rate movies,Customization_Options,0.16197759612834567,10
+openai,Rate movies,Geographical_Availability,0.1549641030518592,10
+openai,Rate movies,Integration_Capabilities,0.1329196714166963,10
+openai,Rate movies,Mobile_Optimization,0.42544940698741734,10
+openai,Rate movies,Number_of_Downloads,0.38991097261308144,10
+openai,Rate movies,Platform_Availability,0.3448992748174529,10
+openai,Rate movies,Platform_Compatibility,0.4243347275417789,10
+openai,Rate movies,Privacy_and_Security,0.37219278590662486,10
+openai,Rate movies,Subscription_Cost,0.3771183181566927,10
+openai,Rate movies,Update_Frequency,0.10641083335626353,10
+openai,Rate movies,User_Base,0.5796317833229426,10
+openai,Rate movies,User_Interface_and_Ease_of_Use,0.44143812750859024,10
+openai,Rate movies,User_Ratings,0.4871211403433534,10
+openai,Rate movies,User_Reviews_and_Ratings,0.43638284946202166,10
+openai,Search for offer on item,Ad_Free_Option,0.11931783100701107,10
+openai,Search for offer on item,Ad_Frequency,0.08380654796943528,10
+openai,Search for offer on item,Community_Engagement,0.19711793723503593,10
+openai,Search for offer on item,Cost,0.5340999442731719,10
+openai,Search for offer on item,Customer_Support,0.5660800654656677,10
+openai,Search for offer on item,Customization_Options,0.582240485195118,10
+openai,Search for offer on item,Geographical_Availability,0.29852954773692203,10
+openai,Search for offer on item,Integration_Capabilities,0.470356581349847,10
+openai,Search for offer on item,Mobile_Optimization,0.17318193549080602,10
+openai,Search for offer on item,Number_of_Downloads,0.0,10
+openai,Search for offer on item,Platform_Availability,0.5323775066664701,10
+openai,Search for offer on item,Platform_Compatibility,0.6295436234992652,10
+openai,Search for offer on item,Privacy_and_Security,0.5499481665859424,10
+openai,Search for offer on item,Subscription_Cost,0.0,10
+openai,Search for offer on item,Update_Frequency,0.26278794841115605,10
+openai,Search for offer on item,User_Base,0.0,10
+openai,Search for offer on item,User_Interface_and_Ease_of_Use,0.38721903550214043,10
+openai,Search for offer on item,User_Ratings,0.5614278723345633,10
+openai,Search for offer on item,User_Reviews_and_Ratings,0.28262443494530815,10
+openai,Send files,Ad_Free_Option,0.07443182331982448,10
+openai,Send files,Ad_Frequency,0.06261251074336777,10
+openai,Send files,Community_Engagement,0.8262307862583256,10
+openai,Send files,Cost,0.6229359766150933,10
+openai,Send files,Customer_Support,0.7143650974137913,10
+openai,Send files,Customization_Options,0.1601382653490003,10
+openai,Send files,Geographical_Availability,0.3400645402041571,10
+openai,Send files,Integration_Capabilities,0.4759882582970215,10
+openai,Send files,Mobile_Optimization,0.3119034211882314,10
+openai,Send files,Number_of_Downloads,0.28740669099608,10
+openai,Send files,Platform_Availability,0.6604662400470169,10
+openai,Send files,Platform_Compatibility,0.7302383165287334,10
+openai,Send files,Privacy_and_Security,0.0015706639144115544,10
+openai,Send files,Subscription_Cost,0.4878540464716082,10
+openai,Send files,Update_Frequency,0.15810423566066203,10
+openai,Send files,User_Base,0.31762720481239687,10
+openai,Send files,User_Interface_and_Ease_of_Use,0.7247339795850349,10
+openai,Send files,User_Ratings,0.7856688261671902,10
+openai,Send files,User_Reviews_and_Ratings,0.7074734326956459,10
+openai,Watch streams,Ad_Free_Option,0.0041000984596752865,10
+openai,Watch streams,Ad_Frequency,0.015611113615145288,10
+openai,Watch streams,Community_Engagement,0.20926081126806279,10
+openai,Watch streams,Cost,0.23481099509663655,10
+openai,Watch streams,Customer_Support,0.1962124898401206,10
+openai,Watch streams,Customization_Options,0.20730980014491704,10
+openai,Watch streams,Geographical_Availability,0.052316328327621966,10
+openai,Watch streams,Integration_Capabilities,0.14826316642729623,10
+openai,Watch streams,Mobile_Optimization,0.12052506558249969,10
+openai,Watch streams,Number_of_Downloads,0.06840573811738664,10
+openai,Watch streams,Platform_Availability,0.06882508868445947,10
+openai,Watch streams,Platform_Compatibility,0.10421282185389787,10
+openai,Watch streams,Privacy_and_Security,0.09098099053133384,10
+openai,Watch streams,Subscription_Cost,0.03805404664601321,10
+openai,Watch streams,Update_Frequency,0.06507650872842845,10
+openai,Watch streams,User_Base,0.19720068425272733,10
+openai,Watch streams,User_Interface_and_Ease_of_Use,0.1810290847253863,10
+openai,Watch streams,User_Ratings,0.007853319572057772,10
+openai,Watch streams,User_Reviews_and_Ratings,0.21099961388161975,10
+openai,Write notes,Ad_Free_Option,0.4375697322411263,10
+openai,Write notes,Ad_Frequency,0.26549526378831273,10
+openai,Write notes,Community_Engagement,0.5396553099065172,10
+openai,Write notes,Cost,0.5517070531979832,10
+openai,Write notes,Customer_Support,0.7566683850075059,10
+openai,Write notes,Customization_Options,0.37967979165798454,10
+openai,Write notes,Geographical_Availability,0.6734137115237951,10
+openai,Write notes,Integration_Capabilities,0.5969399408684642,10
+openai,Write notes,Mobile_Optimization,0.7583542295233089,10
+openai,Write notes,Number_of_Downloads,0.3047635719606091,10
+openai,Write notes,Platform_Availability,0.5803939521671435,10
+openai,Write notes,Platform_Compatibility,0.7372312078087399,10
+openai,Write notes,Privacy_and_Security,0.12806057674450705,10
+openai,Write notes,Subscription_Cost,0.28344926135681875,10
+openai,Write notes,Update_Frequency,0.7548477531208114,10
+openai,Write notes,User_Base,0.7419967656196065,10
+openai,Write notes,User_Interface_and_Ease_of_Use,0.6554925900477137,10
+openai,Write notes,User_Ratings,0.6385995638482885,10
+openai,Write notes,User_Reviews_and_Ratings,0.7994149840418747,10
+mistral,Access to movies,Ad_Free_Option,0.8628551190533985,10
+mistral,Access to movies,Ad_Frequency,0.8830835676823432,10
+mistral,Access to movies,Community_Engagement,0.0,10
+mistral,Access to movies,Cost,0.031841259188316914,10
+mistral,Access to movies,Customer_Support,0.9036021105995655,10
+mistral,Access to movies,Customization_Options,0.0,10
+mistral,Access to movies,Geographical_Availability,0.9130685123147394,10
+mistral,Access to movies,Integration_Capabilities,0.8248189300803641,10
+mistral,Access to movies,Mobile_Optimization,0.8388109572916264,10
+mistral,Access to movies,Number_of_Downloads,0.8326722496524217,10
+mistral,Access to movies,Platform_Availability,0.8405255692244795,10
+mistral,Access to movies,Platform_Compatibility,0.8142855095322625,10
+mistral,Access to movies,Privacy_and_Security,0.8662438443335821,10
+mistral,Access to movies,Subscription_Cost,0.031841259188316914,10
+mistral,Access to movies,Update_Frequency,0.8001413956399379,10
+mistral,Access to movies,User_Base,0.9298089092353636,10
+mistral,Access to movies,User_Interface_and_Ease_of_Use,0.8430513780487635,10
+mistral,Access to movies,User_Ratings,0.8343478525449062,10
+mistral,Access to movies,User_Reviews_and_Ratings,0.9547339785260242,10
+mistral,Access to podcasts,Ad_Free_Option,0.8678220606430683,10
+mistral,Access to podcasts,Ad_Frequency,0.45291594276209335,10
+mistral,Access to podcasts,Community_Engagement,0.7948946570990115,10
+mistral,Access to podcasts,Cost,0.8582158559332445,10
+mistral,Access to podcasts,Customer_Support,0.895470741831082,10
+mistral,Access to podcasts,Customization_Options,0.3789291691869062,10
+mistral,Access to podcasts,Geographical_Availability,0.8560404211487409,10
+mistral,Access to podcasts,Integration_Capabilities,0.880042055304553,10
+mistral,Access to podcasts,Mobile_Optimization,0.8992168405299971,10
+mistral,Access to podcasts,Number_of_Downloads,0.9655539001722829,10
+mistral,Access to podcasts,Platform_Availability,0.9018877037486692,10
+mistral,Access to podcasts,Platform_Compatibility,0.8678220606430683,10
+mistral,Access to podcasts,Privacy_and_Security,0.03576898215675929,10
+mistral,Access to podcasts,Subscription_Cost,0.0,10
+mistral,Access to podcasts,Update_Frequency,0.8582158559332445,10
+mistral,Access to podcasts,User_Base,0.9158313571486201,10
+mistral,Access to podcasts,User_Interface_and_Ease_of_Use,0.9018877037486692,10
+mistral,Access to podcasts,User_Ratings,0.8992168405299971,10
+mistral,Access to podcasts,User_Reviews_and_Ratings,0.880042055304553,10
+mistral,Broadcast messages to multiple contacts,Ad_Free_Option,0.38952559366299744,10
+mistral,Broadcast messages to multiple contacts,Ad_Frequency,0.6027881398429507,10
+mistral,Broadcast messages to multiple contacts,Community_Engagement,0.874113521315615,10
+mistral,Broadcast messages to multiple contacts,Cost,0.5329129690617702,10
+mistral,Broadcast messages to multiple contacts,Customer_Support,0.8657388225402045,10
+mistral,Broadcast messages to multiple contacts,Customization_Options,0.8064075343142155,10
+mistral,Broadcast messages to multiple contacts,Geographical_Availability,0.8621868691761435,10
+mistral,Broadcast messages to multiple contacts,Integration_Capabilities,0.4276792975205631,10
+mistral,Broadcast messages to multiple contacts,Mobile_Optimization,0.7943468909086742,10
+mistral,Broadcast messages to multiple contacts,Number_of_Downloads,0.6962240119700521,10
+mistral,Broadcast messages to multiple contacts,Platform_Availability,0.8620176686929044,10
+mistral,Broadcast messages to multiple contacts,Platform_Compatibility,0.8637575330905551,10
+mistral,Broadcast messages to multiple contacts,Privacy_and_Security,0.5511545724214426,10
+mistral,Broadcast messages to multiple contacts,Subscription_Cost,0.8617149933338013,10
+mistral,Broadcast messages to multiple contacts,Update_Frequency,0.8031933302835051,10
+mistral,Broadcast messages to multiple contacts,User_Base,0.7414266986354329,10
+mistral,Broadcast messages to multiple contacts,User_Interface_and_Ease_of_Use,0.7943468909086742,10
+mistral,Broadcast messages to multiple contacts,User_Ratings,0.8619813632374148,10
+mistral,Broadcast messages to multiple contacts,User_Reviews_and_Ratings,0.8643373591090322,10
+mistral,Build photo collage,Ad_Free_Option,0.8293410068327007,10
+mistral,Build photo collage,Ad_Frequency,0.8741578067827979,10
+mistral,Build photo collage,Community_Engagement,0.6241106136912057,10
+mistral,Build photo collage,Cost,0.5945758211037379,10
+mistral,Build photo collage,Customer_Support,0.8772102000534249,10
+mistral,Build photo collage,Customization_Options,0.4916970892090601,10
+mistral,Build photo collage,Geographical_Availability,0.8846919882115086,10
+mistral,Build photo collage,Integration_Capabilities,0.8529700362237677,10
+mistral,Build photo collage,Mobile_Optimization,0.9032524101115325,10
+mistral,Build photo collage,Number_of_Downloads,0.7710719308839049,10
+mistral,Build photo collage,Platform_Availability,0.8712227101383186,10
+mistral,Build photo collage,Platform_Compatibility,0.8734532086848112,10
+mistral,Build photo collage,Privacy_and_Security,0.8920036245222251,10
+mistral,Build photo collage,Subscription_Cost,0.5974096324309096,10
+mistral,Build photo collage,Update_Frequency,0.41082575815162975,10
+mistral,Build photo collage,User_Base,0.6231987343913269,10
+mistral,Build photo collage,User_Interface_and_Ease_of_Use,0.6201418041468123,10
+mistral,Build photo collage,User_Ratings,0.6358386719626237,10
+mistral,Build photo collage,User_Reviews_and_Ratings,0.8629594836564483,10
+mistral,Collaborate with others,Ad_Free_Option,0.7896193552102233,10
+mistral,Collaborate with others,Ad_Frequency,0.9538333326153253,10
+mistral,Collaborate with others,Community_Engagement,0.8213734771087186,10
+mistral,Collaborate with others,Cost,0.89484890001358,10
+mistral,Collaborate with others,Customer_Support,0.9055734618618733,10
+mistral,Collaborate with others,Customization_Options,0.7359677324189897,10
+mistral,Collaborate with others,Geographical_Availability,0.6032786582860428,10
+mistral,Collaborate with others,Integration_Capabilities,0.9402165847301216,10
+mistral,Collaborate with others,Mobile_Optimization,0.9516578978308218,10
+mistral,Collaborate with others,Number_of_Downloads,0.9384828531312053,10
+mistral,Collaborate with others,Platform_Availability,0.9538333326153252,10
+mistral,Collaborate with others,Platform_Compatibility,0.9202735207009388,10
+mistral,Collaborate with others,Privacy_and_Security,0.20335656423488896,10
+mistral,Collaborate with others,Subscription_Cost,0.6656508587424612,10
+mistral,Collaborate with others,Update_Frequency,0.9431948448744402,10
+mistral,Collaborate with others,User_Base,0.9441607379187597,10
+mistral,Collaborate with others,User_Interface_and_Ease_of_Use,0.7933654539091383,10
+mistral,Collaborate with others,User_Ratings,0.9360413137339962,10
+mistral,Collaborate with others,User_Reviews_and_Ratings,0.9307963168926262,10
+mistral,Go Live,Ad_Free_Option,0.3156892236731771,10
+mistral,Go Live,Ad_Frequency,0.43402251635933264,10
+mistral,Go Live,Community_Engagement,0.5474768924220331,10
+mistral,Go Live,Cost,0.5729440078161516,10
+mistral,Go Live,Customer_Support,0.009380845541569597,10
+mistral,Go Live,Customization_Options,0.0,10
+mistral,Go Live,Geographical_Availability,0.4148599716256129,10
+mistral,Go Live,Integration_Capabilities,0.002791566258470151,10
+mistral,Go Live,Mobile_Optimization,0.47660550294615467,10
+mistral,Go Live,Number_of_Downloads,0.4062374022249304,10
+mistral,Go Live,Platform_Availability,0.005280747081894311,10
+mistral,Go Live,Platform_Compatibility,0.04628173167864717,10
+mistral,Go Live,Privacy_and_Security,0.0,10
+mistral,Go Live,Subscription_Cost,0.0,10
+mistral,Go Live,Update_Frequency,0.41747715347432673,10
+mistral,Go Live,User_Base,0.42732062521906783,10
+mistral,Go Live,User_Interface_and_Ease_of_Use,0.4295983102975258,10
+mistral,Go Live,User_Ratings,0.031323360317138275,10
+mistral,Go Live,User_Reviews_and_Ratings,0.6382591707796124,10
+mistral,Keeping up with friends,Ad_Free_Option,0.26750390411707803,10
+mistral,Keeping up with friends,Ad_Frequency,0.28436268596854347,10
+mistral,Keeping up with friends,Community_Engagement,0.6104252607835774,10
+mistral,Keeping up with friends,Cost,0.40631140531941473,10
+mistral,Keeping up with friends,Customer_Support,0.7440799912554844,10
+mistral,Keeping up with friends,Customization_Options,0.21693247722053632,10
+mistral,Keeping up with friends,Geographical_Availability,0.7147058685230364,10
+mistral,Keeping up with friends,Integration_Capabilities,0.7316697163275767,10
+mistral,Keeping up with friends,Mobile_Optimization,0.6627295442086896,10
+mistral,Keeping up with friends,Number_of_Downloads,0.7288450181868167,10
+mistral,Keeping up with friends,Platform_Availability,0.7392590831457814,10
+mistral,Keeping up with friends,Platform_Compatibility,0.7440799912554844,10
+mistral,Keeping up with friends,Privacy_and_Security,0.2206581394853541,10
+mistral,Keeping up with friends,Subscription_Cost,0.0,10
+mistral,Keeping up with friends,Update_Frequency,0.6617619102808859,10
+mistral,Keeping up with friends,User_Base,0.614875202486642,10
+mistral,Keeping up with friends,User_Interface_and_Ease_of_Use,0.7440799912554844,10
+mistral,Keeping up with friends,User_Ratings,0.7392590831457814,10
+mistral,Keeping up with friends,User_Reviews_and_Ratings,0.7440799912554844,10
+mistral,List items for sale,Ad_Free_Option,0.49460469045960415,10
+mistral,List items for sale,Ad_Frequency,0.48106831443191195,10
+mistral,List items for sale,Community_Engagement,0.6010545695498675,10
+mistral,List items for sale,Cost,0.6384052934540443,10
+mistral,List items for sale,Customer_Support,0.9451252966987314,10
+mistral,List items for sale,Customization_Options,0.9428660524706929,10
+mistral,List items for sale,Geographical_Availability,0.6374802274571355,10
+mistral,List items for sale,Integration_Capabilities,0.9419475355616804,10
+mistral,List items for sale,Mobile_Optimization,0.39606439693749207,10
+mistral,List items for sale,Number_of_Downloads,0.7245667754236126,10
+mistral,List items for sale,Platform_Availability,0.7746351794468539,10
+mistral,List items for sale,Platform_Compatibility,0.8954920815128393,10
+mistral,List items for sale,Privacy_and_Security,0.5904942364214486,10
+mistral,List items for sale,Subscription_Cost,0.5664187542288323,10
+mistral,List items for sale,Update_Frequency,0.6018399015070732,10
+mistral,List items for sale,User_Base,0.6990458066826296,10
+mistral,List items for sale,User_Interface_and_Ease_of_Use,0.42146923527309266,10
+mistral,List items for sale,User_Ratings,0.4946883043502518,10
+mistral,List items for sale,User_Reviews_and_Ratings,0.4357521732082386,10
+mistral,Photo effects,Ad_Free_Option,0.4860646157151819,10
+mistral,Photo effects,Ad_Frequency,0.7413837801863162,10
+mistral,Photo effects,Community_Engagement,0.7840054523633121,10
+mistral,Photo effects,Cost,0.7426467572928612,10
+mistral,Photo effects,Customer_Support,0.664121158952533,10
+mistral,Photo effects,Customization_Options,0.4996494280712144,10
+mistral,Photo effects,Geographical_Availability,0.6029530396453187,10
+mistral,Photo effects,Integration_Capabilities,0.7174761796188529,10
+mistral,Photo effects,Mobile_Optimization,0.7412207168404013,10
+mistral,Photo effects,Number_of_Downloads,0.6896528196013454,10
+mistral,Photo effects,Platform_Availability,0.7591402115569894,10
+mistral,Photo effects,Platform_Compatibility,0.7534088633929183,10
+mistral,Photo effects,Privacy_and_Security,0.3688960227088036,10
+mistral,Photo effects,Subscription_Cost,0.741242315007666,10
+mistral,Photo effects,Update_Frequency,0.1415636705047023,10
+mistral,Photo effects,User_Base,0.516831023507782,10
+mistral,Photo effects,User_Interface_and_Ease_of_Use,0.734252085574566,10
+mistral,Photo effects,User_Ratings,0.7427923147417662,10
+mistral,Photo effects,User_Reviews_and_Ratings,0.5707289000396971,10
+mistral,Play games,Ad_Free_Option,0.1415636705047023,10
+mistral,Play games,Ad_Frequency,0.6430918191947954,10
+mistral,Play games,Community_Engagement,0.8243932925591441,10
+mistral,Play games,Cost,0.5630482463053973,10
+mistral,Play games,Customer_Support,0.40419894855687294,10
+mistral,Play games,Customization_Options,0.5451106710879525,10
+mistral,Play games,Geographical_Availability,0.8225663042878596,10
+mistral,Play games,Integration_Capabilities,0.0,10
+mistral,Play games,Mobile_Optimization,0.6570747745072835,10
+mistral,Play games,Number_of_Downloads,0.8323502617296205,10
+mistral,Play games,Platform_Availability,0.660934993368922,10
+mistral,Play games,Platform_Compatibility,0.6926969765595612,10
+mistral,Play games,Privacy_and_Security,0.0,10
+mistral,Play games,Subscription_Cost,0.4739786369504131,10
+mistral,Play games,Update_Frequency,0.5823829309176034,10
+mistral,Play games,User_Base,0.7123037857249559,10
+mistral,Play games,User_Interface_and_Ease_of_Use,0.6709203044564033,10
+mistral,Play games,User_Ratings,0.6986797311335048,10
+mistral,Play games,User_Reviews_and_Ratings,0.6629810395158687,10
+mistral,Play playlist on shuffle mode,Ad_Free_Option,0.8353916327812378,10
+mistral,Play playlist on shuffle mode,Ad_Frequency,0.9369231136523608,10
+mistral,Play playlist on shuffle mode,Community_Engagement,0.9529928073513713,10
+mistral,Play playlist on shuffle mode,Cost,0.9529928073513713,10
+mistral,Play playlist on shuffle mode,Customer_Support,0.9369231136523608,10
+mistral,Play playlist on shuffle mode,Customization_Options,0.9529928073513713,10
+mistral,Play playlist on shuffle mode,Geographical_Availability,0.8323677784307779,10
+mistral,Play playlist on shuffle mode,Integration_Capabilities,0.9369231136523608,10
+mistral,Play playlist on shuffle mode,Mobile_Optimization,0.9529928073513713,10
+mistral,Play playlist on shuffle mode,Number_of_Downloads,0.9636317458390818,10
+mistral,Play playlist on shuffle mode,Platform_Availability,0.9369231136523608,10
+mistral,Play playlist on shuffle mode,Platform_Compatibility,1.0,10
+mistral,Play playlist on shuffle mode,Privacy_and_Security,0.0,10
+mistral,Play playlist on shuffle mode,Subscription_Cost,0.8353916327812378,10
+mistral,Play playlist on shuffle mode,Update_Frequency,1.0,10
+mistral,Play playlist on shuffle mode,User_Base,0.9369231136523608,10
+mistral,Play playlist on shuffle mode,User_Interface_and_Ease_of_Use,1.0,10
+mistral,Play playlist on shuffle mode,User_Ratings,1.0,10
+mistral,Play playlist on shuffle mode,User_Reviews_and_Ratings,1.0,10
+mistral,Rate movies,Ad_Free_Option,0.5876413404062873,10
+mistral,Rate movies,Ad_Frequency,0.6869176936583162,10
+mistral,Rate movies,Community_Engagement,0.8390960571928134,10
+mistral,Rate movies,Cost,0.4726895132724853,10
+mistral,Rate movies,Customer_Support,0.8239389669820808,10
+mistral,Rate movies,Customization_Options,0.7990302730741609,10
+mistral,Rate movies,Geographical_Availability,0.8279514355846096,10
+mistral,Rate movies,Integration_Capabilities,0.8262445752165102,10
+mistral,Rate movies,Mobile_Optimization,0.8270299071737159,10
+mistral,Rate movies,Number_of_Downloads,0.8177366914892928,10
+mistral,Rate movies,Platform_Availability,0.8261113902647035,10
+mistral,Rate movies,Platform_Compatibility,0.8049481482152865,10
+mistral,Rate movies,Privacy_and_Security,0.4785863918283463,10
+mistral,Rate movies,Subscription_Cost,0.42511571929822745,10
+mistral,Rate movies,Update_Frequency,0.8251515564514378,10
+mistral,Rate movies,User_Base,0.8271661036274038,10
+mistral,Rate movies,User_Interface_and_Ease_of_Use,0.8270299071737159,10
+mistral,Rate movies,User_Ratings,0.8270299071737159,10
+mistral,Rate movies,User_Reviews_and_Ratings,0.8262445752165102,10
+mistral,Search for offer on item,Ad_Free_Option,0.601046278367601,10
+mistral,Search for offer on item,Ad_Frequency,0.8891595761852354,10
+mistral,Search for offer on item,Community_Engagement,0.0,10
+mistral,Search for offer on item,Cost,0.39243874789718497,10
+mistral,Search for offer on item,Customer_Support,0.0,10
+mistral,Search for offer on item,Customization_Options,0.5386835334060762,10
+mistral,Search for offer on item,Geographical_Availability,0.07736923875767124,10
+mistral,Search for offer on item,Integration_Capabilities,0.6932427901982675,10
+mistral,Search for offer on item,Mobile_Optimization,0.0,10
+mistral,Search for offer on item,Number_of_Downloads,0.0,10
+mistral,Search for offer on item,Platform_Availability,0.9197307195925406,10
+mistral,Search for offer on item,Platform_Compatibility,0.9145232302620372,10
+mistral,Search for offer on item,Privacy_and_Security,0.0,10
+mistral,Search for offer on item,Subscription_Cost,0.0,10
+mistral,Search for offer on item,Update_Frequency,0.8853523235973781,10
+mistral,Search for offer on item,User_Base,0.0,10
+mistral,Search for offer on item,User_Interface_and_Ease_of_Use,0.9142333958921001,10
+mistral,Search for offer on item,User_Ratings,0.8883795456008506,10
+mistral,Search for offer on item,User_Reviews_and_Ratings,0.8915208734296736,10
+mistral,Send files,Ad_Free_Option,0.3238471604733932,10
+mistral,Send files,Ad_Frequency,0.2952150381967339,10
+mistral,Send files,Community_Engagement,0.2358535226252821,10
+mistral,Send files,Cost,0.2994421448437984,10
+mistral,Send files,Customer_Support,0.7881685112017871,10
+mistral,Send files,Customization_Options,0.8066461072222039,10
+mistral,Send files,Geographical_Availability,0.05280747081894312,10
+mistral,Send files,Integration_Capabilities,0.26161085243140547,10
+mistral,Send files,Mobile_Optimization,0.8105843196832083,10
+mistral,Send files,Number_of_Downloads,0.4098387807483638,10
+mistral,Send files,Platform_Availability,0.48069384064260606,10
+mistral,Send files,Platform_Compatibility,0.791389425247196,10
+mistral,Send files,Privacy_and_Security,0.00930457628829769,10
+mistral,Send files,Subscription_Cost,0.2605842049743642,10
+mistral,Send files,Update_Frequency,0.7845313597715988,10
+mistral,Send files,User_Base,0.11761262670180724,10
+mistral,Send files,User_Interface_and_Ease_of_Use,0.4264189778159455,10
+mistral,Send files,User_Ratings,0.8321899592422548,10
+mistral,Send files,User_Reviews_and_Ratings,0.8321899592422548,10
+mistral,Watch streams,Ad_Free_Option,0.8232591446939018,10
+mistral,Watch streams,Ad_Frequency,0.3544519440114029,10
+mistral,Watch streams,Community_Engagement,0.3719094978627706,10
+mistral,Watch streams,Cost,0.005583132516940302,10
+mistral,Watch streams,Customer_Support,0.7925811994727914,10
+mistral,Watch streams,Customization_Options,0.6889082616918092,10
+mistral,Watch streams,Geographical_Availability,0.7918978227163427,10
+mistral,Watch streams,Integration_Capabilities,0.9546735349676503,10
+mistral,Watch streams,Mobile_Optimization,0.7059265404884472,10
+mistral,Watch streams,Number_of_Downloads,0.9300708178447717,10
+mistral,Watch streams,Platform_Availability,0.9546735349676505,10
+mistral,Watch streams,Platform_Compatibility,0.9468202153955925,10
+mistral,Watch streams,Privacy_and_Security,0.0,10
+mistral,Watch streams,Subscription_Cost,0.0,10
+mistral,Watch streams,Update_Frequency,0.7679784823499126,10
+mistral,Watch streams,User_Base,0.9546735349676503,10
+mistral,Watch streams,User_Interface_and_Ease_of_Use,0.9300708178447717,10
+mistral,Watch streams,User_Ratings,0.8054642819102227,10
+mistral,Watch streams,User_Reviews_and_Ratings,0.9546735349676505,10
+mistral,Write notes,Ad_Free_Option,0.7726375447342891,10
+mistral,Write notes,Ad_Frequency,0.6408462507798155,10
+mistral,Write notes,Community_Engagement,0.6295852334753208,10
+mistral,Write notes,Cost,0.659560680788837,10
+mistral,Write notes,Customer_Support,0.6408462507798155,10
+mistral,Write notes,Customization_Options,0.5656409920103302,10
+mistral,Write notes,Geographical_Availability,0.848866422746372,10
+mistral,Write notes,Integration_Capabilities,0.7703635720228174,10
+mistral,Write notes,Mobile_Optimization,0.8445777051980302,10
+mistral,Write notes,Number_of_Downloads,0.8588990758143693,10
+mistral,Write notes,Platform_Availability,0.848866422746372,10
+mistral,Write notes,Platform_Compatibility,0.8433553212922964,10
+mistral,Write notes,Privacy_and_Security,0.2919774058221688,10
+mistral,Write notes,Subscription_Cost,0.6008773504958815,10
+mistral,Write notes,Update_Frequency,0.8588990758143693,10
+mistral,Write notes,User_Base,0.8600326877802527,10
+mistral,Write notes,User_Interface_and_Ease_of_Use,0.8500888066521058,10
+mistral,Write notes,User_Ratings,0.8500888066521058,10
+mistral,Write notes,User_Reviews_and_Ratings,0.7800539254129004,10
+gemini,Access to movies,Ad_Free_Option,0.5794629712233513,10
+gemini,Access to movies,Ad_Frequency,0.07228506359373202,10
+gemini,Access to movies,Community_Engagement,0.11194809681141808,10
+gemini,Access to movies,Customization_Options,0.06398382436826677,10
+gemini,Access to movies,Geographical_Availability,0.7028975091363141,10
+gemini,Access to movies,Integration_Capabilities,0.6561065870459739,10
+gemini,Access to movies,Mobile_Optimization,0.7441339762024987,10
+gemini,Access to movies,Number_of_Downloads,0.694223542123706,10
+gemini,Access to movies,Platform_Availability,0.7644540096237027,10
+gemini,Access to movies,Platform_Compatibility,0.8991882089272737,10
+gemini,Access to movies,Privacy_and_Security,0.024891808234241593,10
+gemini,Access to movies,User_Base,0.6492280097799069,10
+gemini,Access to movies,User_Interface_and_Ease_of_Use,0.8505916084225067,10
+gemini,Access to movies,User_Ratings,0.8785121515904238,10
+gemini,Access to podcasts,Ad_Free_Option,0.510825808689916,9
+gemini,Access to podcasts,Community_Engagement,0.30650641985491234,9
+gemini,Access to podcasts,Cost,0.7316351834154644,9
+gemini,Access to podcasts,Customization_Options,0.5017425113690076,9
+gemini,Access to podcasts,Geographical_Availability,0.49196321743756194,9
+gemini,Access to podcasts,Integration_Capabilities,0.6637251398418172,9
+gemini,Access to podcasts,Mobile_Optimization,0.6725586693929604,9
+gemini,Access to podcasts,Number_of_Downloads,0.5963838429705715,9
+gemini,Access to podcasts,Platform_Availability,0.7084603381175333,9
+gemini,Access to podcasts,Platform_Compatibility,0.6071159415120954,9
+gemini,Access to podcasts,User_Base,0.553468948354331,9
+gemini,Access to podcasts,User_Interface_and_Ease_of_Use,0.7212064714378812,9
+gemini,Access to podcasts,User_Ratings,0.6128624674726552,9
+gemini,Broadcast messages to multiple contacts,Community_Engagement,0.20083009407452904,6
+gemini,Broadcast messages to multiple contacts,Cost,0.136554252911968,6
+gemini,Broadcast messages to multiple contacts,Customer_Support,0.016345277148752696,6
+gemini,Broadcast messages to multiple contacts,Geographical_Availability,0.22517225842716837,6
+gemini,Broadcast messages to multiple contacts,Number_of_Downloads,0.2829413216529141,6
+gemini,Broadcast messages to multiple contacts,Platform_Availability,0.3086060669521044,6
+gemini,Broadcast messages to multiple contacts,Platform_Compatibility,0.20847575349400257,6
+gemini,Broadcast messages to multiple contacts,Subscription_Cost,0.11927343664735746,6
+gemini,Broadcast messages to multiple contacts,Update_Frequency,0.20579747121083417,6
+gemini,Broadcast messages to multiple contacts,User_Base,0.08132501801592702,6
+gemini,Broadcast messages to multiple contacts,User_Interface_and_Ease_of_Use,0.2983803190442747,6
+gemini,Broadcast messages to multiple contacts,User_Reviews_and_Ratings,0.30830521646902204,6
+gemini,Build photo collage,Ad_Free_Option,0.5048932298835687,10
+gemini,Build photo collage,Community_Engagement,0.3861341219739214,10
+gemini,Build photo collage,Cost,0.0,10
+gemini,Build photo collage,Customization_Options,0.3387390400544744,10
+gemini,Build photo collage,Platform_Availability,0.07789112645339868,10
+gemini,Build photo collage,Platform_Compatibility,0.23766915093065907,10
+gemini,Build photo collage,Privacy_and_Security,0.22042070399126193,10
+gemini,Build photo collage,Update_Frequency,0.20596537975366727,10
+gemini,Build photo collage,User_Interface_and_Ease_of_Use,0.3276038287577202,10
+gemini,Build photo collage,User_Ratings,0.4012595067473759,10
+gemini,Build photo collage,User_Reviews_and_Ratings,0.3169949531134744,10
+gemini,Collaborate with others,Community_Engagement,0.7452183765568048,10
+gemini,Collaborate with others,Cost,0.78918331845256,10
+gemini,Collaborate with others,Customer_Support,0.05045147494732578,10
+gemini,Collaborate with others,Geographical_Availability,0.758038839656504,10
+gemini,Collaborate with others,Integration_Capabilities,0.7960696817978847,10
+gemini,Collaborate with others,Mobile_Optimization,0.7215410631915138,10
+gemini,Collaborate with others,Number_of_Downloads,0.7958962431242383,10
+gemini,Collaborate with others,Platform_Availability,0.7788810897412677,10
+gemini,Collaborate with others,Platform_Compatibility,0.7425339979697263,10
+gemini,Collaborate with others,Privacy_and_Security,0.5315932896493878,10
+gemini,Collaborate with others,Update_Frequency,0.7899686504097658,10
+gemini,Collaborate with others,User_Base,0.6895814813716602,10
+gemini,Collaborate with others,User_Interface_and_Ease_of_Use,0.5235602441333254,10
+gemini,Collaborate with others,User_Ratings,0.8196258229848727,10
+gemini,Collaborate with others,User_Reviews_and_Ratings,0.807993254433125,10
+gemini,Go Live,Ad_Free_Option,0.6683593026958013,8
+gemini,Go Live,Cost,0.472604649918172,8
+gemini,Go Live,Customer_Support,0.0,8
+gemini,Go Live,Customization_Options,0.05650889292370003,8
+gemini,Go Live,Geographical_Availability,0.3424124418630108,8
+gemini,Go Live,Integration_Capabilities,0.04100098459675287,8
+gemini,Go Live,Mobile_Optimization,0.06458648360408435,8
+gemini,Go Live,Platform_Availability,0.6223346095678799,8
+gemini,Go Live,Platform_Compatibility,0.38273794731485566,8
+gemini,Go Live,User_Interface_and_Ease_of_Use,0.3017825339146897,8
+gemini,Go Live,User_Ratings,0.16752278461303632,8
+gemini,Go Live,User_Reviews_and_Ratings,0.7896195695457673,8
+gemini,Keeping up with friends,Ad_Free_Option,0.2322215213501698,10
+gemini,Keeping up with friends,Ad_Frequency,0.20782946563722096,10
+gemini,Keeping up with friends,Cost,0.40516350984944915,10
+gemini,Keeping up with friends,Geographical_Availability,0.5171979459702255,10
+gemini,Keeping up with friends,Integration_Capabilities,0.6356789379411032,10
+gemini,Keeping up with friends,Mobile_Optimization,0.6416853514287298,10
+gemini,Keeping up with friends,Number_of_Downloads,0.4672665018477137,10
+gemini,Keeping up with friends,Platform_Availability,0.0,10
+gemini,Keeping up with friends,Platform_Compatibility,0.6260533592433731,10
+gemini,Keeping up with friends,Privacy_and_Security,0.04281473199381413,10
+gemini,Keeping up with friends,Update_Frequency,0.5813154088771773,10
+gemini,Keeping up with friends,User_Base,0.5537185938141043,10
+gemini,Keeping up with friends,User_Interface_and_Ease_of_Use,0.44199092124338124,10
+gemini,Keeping up with friends,User_Reviews_and_Ratings,0.5457630221276752,10
+gemini,List items for sale,Cost,0.0,10
+gemini,List items for sale,Customer_Support,0.8598074063363326,10
+gemini,List items for sale,Customization_Options,0.827282716736144,10
+gemini,List items for sale,Geographical_Availability,0.5250211081466976,10
+gemini,List items for sale,Integration_Capabilities,0.4980988520719508,10
+gemini,List items for sale,Mobile_Optimization,0.8518400232980726,10
+gemini,List items for sale,Number_of_Downloads,0.871210249298545,10
+gemini,List items for sale,Platform_Availability,0.8505968244604155,10
+gemini,List items for sale,Platform_Compatibility,0.8654579162983655,10
+gemini,List items for sale,Update_Frequency,0.685472138508257,10
+gemini,List items for sale,User_Base,0.700283877756975,10
+gemini,List items for sale,User_Interface_and_Ease_of_Use,0.8513626689175041,10
+gemini,List items for sale,User_Ratings,0.8389356448020349,10
+gemini,List items for sale,User_Reviews_and_Ratings,0.8679755932554452,10
+gemini,Photo effects,Cost,0.47327096990575857,10
+gemini,Photo effects,Customization_Options,0.4611982256818393,10
+gemini,Photo effects,Geographical_Availability,0.17223657033871084,10
+gemini,Photo effects,Integration_Capabilities,0.43438662407785705,10
+gemini,Photo effects,Mobile_Optimization,0.6386786203285252,10
+gemini,Photo effects,Platform_Availability,0.0,10
+gemini,Photo effects,Platform_Compatibility,0.5212591690797914,10
+gemini,Photo effects,Privacy_and_Security,0.364869663391687,10
+gemini,Photo effects,Update_Frequency,0.6064284289629871,10
+gemini,Photo effects,User_Base,0.218730663586089,10
+gemini,Photo effects,User_Interface_and_Ease_of_Use,0.22784966733850937,10
+gemini,Photo effects,User_Reviews_and_Ratings,0.4076792972580464,10
+gemini,Play games,Ad_Free_Option,0.03537423492748224,10
+gemini,Play games,Ad_Frequency,0.0007853319572057772,10
+gemini,Play games,Community_Engagement,0.1001147939467661,10
+gemini,Play games,Cost,0.0,10
+gemini,Play games,Customer_Support,0.024379460247780527,10
+gemini,Play games,Customization_Options,0.02043253591980623,10
+gemini,Play games,Mobile_Optimization,0.1596408801579436,10
+gemini,Play games,Number_of_Downloads,0.2770033727082999,10
+gemini,Play games,Platform_Availability,0.09794653492264457,10
+gemini,Play games,Platform_Compatibility,0.1142766271636307,10
+gemini,Play games,Update_Frequency,0.19057357269819963,10
+gemini,Play games,User_Base,0.32518378549268834,10
+gemini,Play games,User_Interface_and_Ease_of_Use,0.16044215243957255,10
+gemini,Play games,User_Ratings,0.20997270469878263,10
+gemini,Play games,User_Reviews_and_Ratings,0.2262032361940553,10
+gemini,Play playlist on shuffle mode,Ad_Free_Option,0.028023429822633283,9
+gemini,Play playlist on shuffle mode,Community_Engagement,0.273782090389077,9
+gemini,Play playlist on shuffle mode,Cost,0.0,9
+gemini,Play playlist on shuffle mode,Customization_Options,0.06803979250841592,9
+gemini,Play playlist on shuffle mode,Integration_Capabilities,0.4766875262995558,9
+gemini,Play playlist on shuffle mode,Mobile_Optimization,0.18704461590464166,9
+gemini,Play playlist on shuffle mode,Number_of_Downloads,0.4922353567958824,9
+gemini,Play playlist on shuffle mode,Platform_Availability,0.47974391070542094,9
+gemini,Play playlist on shuffle mode,Platform_Compatibility,0.26644782184960103,9
+gemini,Play playlist on shuffle mode,Subscription_Cost,0.48739692898519354,9
+gemini,Play playlist on shuffle mode,Update_Frequency,0.06990925082201081,9
+gemini,Play playlist on shuffle mode,User_Base,0.2775658637978938,9
+gemini,Play playlist on shuffle mode,User_Interface_and_Ease_of_Use,0.0,9
+gemini,Play playlist on shuffle mode,User_Ratings,0.4737850852379032,9
+gemini,Play playlist on shuffle mode,User_Reviews_and_Ratings,0.2288666850655025,9
+gemini,Rate movies,Ad_Frequency,0.7967665238168534,10
+gemini,Rate movies,Community_Engagement,0.5570737557573433,10
+gemini,Rate movies,Cost,0.6020253872845627,10
+gemini,Rate movies,Customization_Options,0.7083502715635791,10
+gemini,Rate movies,Geographical_Availability,0.7499062426829166,10
+gemini,Rate movies,Integration_Capabilities,0.6102452801844983,10
+gemini,Rate movies,Mobile_Optimization,0.756423899717717,10
+gemini,Rate movies,Platform_Availability,0.6221835578817012,10
+gemini,Rate movies,Platform_Compatibility,0.6276938314444894,10
+gemini,Rate movies,Update_Frequency,0.7483102805004791,10
+gemini,Rate movies,User_Base,0.6492952085655063,10
+gemini,Rate movies,User_Interface_and_Ease_of_Use,0.7499839628956154,10
+gemini,Rate movies,User_Ratings,0.6914659723906442,10
+gemini,Rate movies,User_Reviews_and_Ratings,0.7791003656406273,10
+gemini,Search for offer on item,Cost,0.4211645991047231,10
+gemini,Search for offer on item,Customization_Options,0.5361396436370764,10
+gemini,Search for offer on item,Geographical_Availability,0.4492249415828586,10
+gemini,Search for offer on item,Integration_Capabilities,0.523676446889769,10
+gemini,Search for offer on item,Mobile_Optimization,0.3482491997939624,10
+gemini,Search for offer on item,Platform_Availability,0.4997417741060402,10
+gemini,Search for offer on item,Update_Frequency,0.5625432157533151,10
+gemini,Search for offer on item,User_Interface_and_Ease_of_Use,0.3962403298325311,10
+gemini,Search for offer on item,User_Ratings,0.035316006534636984,10
+gemini,Search for offer on item,User_Reviews_and_Ratings,0.35103411564409714,10
+gemini,Send files,Ad_Free_Option,0.6128181659911005,10
+gemini,Send files,Cost,0.6970448379924017,10
+gemini,Send files,Customization_Options,0.6443832311111675,10
+gemini,Send files,Integration_Capabilities,0.5628504993767794,10
+gemini,Send files,Mobile_Optimization,0.23606868608003057,10
+gemini,Send files,Number_of_Downloads,0.6655159615008336,10
+gemini,Send files,Platform_Availability,0.6912728553911475,10
+gemini,Send files,Platform_Compatibility,0.7028848008497278,10
+gemini,Send files,Privacy_and_Security,0.0017038488662183822,10
+gemini,Send files,Update_Frequency,0.5154441294464475,10
+gemini,Send files,User_Interface_and_Ease_of_Use,0.6848774677461368,10
+gemini,Send files,User_Ratings,0.6919687720315192,10
+gemini,Send files,User_Reviews_and_Ratings,0.7662667839540077,10
+gemini,Watch streams,Ad_Free_Option,0.019398617343816284,10
+gemini,Watch streams,Ad_Frequency,0.010951509455981154,10
+gemini,Watch streams,Community_Engagement,0.5477047925860905,10
+gemini,Watch streams,Cost,0.002791566258470151,10
+gemini,Watch streams,Customization_Options,0.13364390133254828,10
+gemini,Watch streams,Geographical_Availability,0.0808393309147443,10
+gemini,Watch streams,Integration_Capabilities,0.0,10
+gemini,Watch streams,Number_of_Downloads,0.0775978221636657,10
+gemini,Watch streams,Platform_Availability,0.08833161643807733,10
+gemini,Watch streams,Platform_Compatibility,0.5068196419532797,10
+gemini,Watch streams,Update_Frequency,0.5398929955956722,10
+gemini,Watch streams,User_Base,0.3788963836778941,10
+gemini,Watch streams,User_Interface_and_Ease_of_Use,0.08041301016706226,10
+gemini,Watch streams,User_Reviews_and_Ratings,0.5970215689081015,10
+gemini,Write notes,Ad_Free_Option,0.5433574835101953,10
+gemini,Write notes,Ad_Frequency,0.2280700473047827,10
+gemini,Write notes,Community_Engagement,0.421675591952292,10
+gemini,Write notes,Cost,0.0,10
+gemini,Write notes,Customer_Support,0.7264945260321453,10
+gemini,Write notes,Customization_Options,0.4772438684621793,10
+gemini,Write notes,Integration_Capabilities,0.7162620300951777,10
+gemini,Write notes,Mobile_Optimization,0.7398784595672954,10
+gemini,Write notes,Platform_Availability,0.7907130445227022,10
+gemini,Write notes,Platform_Compatibility,0.7875434277254113,10
+gemini,Write notes,Privacy_and_Security,0.09947392421519378,10
+gemini,Write notes,Update_Frequency,0.7075025147547235,10
+gemini,Write notes,User_Base,0.6171637264063827,10
+gemini,Write notes,User_Interface_and_Ease_of_Use,0.7075025147547235,10
+gemini,Write notes,User_Ratings,0.6308560883322969,10
+gemini,Write notes,User_Reviews_and_Ratings,0.8246875342189576,10
