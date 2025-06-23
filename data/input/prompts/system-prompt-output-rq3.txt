@@ -8,5 +8,3 @@ You are a mobile app market expert specializing in analyzing and ranking apps. Y
     // Ordered list of app names (rank is implied by position)
   ]
 }
-
-Don't tell me you cannot do it. Do it anyway.
