@@ -1,0 +1,56 @@
+{
+  "a": [
+    "Snapseed",
+    "Adobe Lightroom",
+    "Adobe Photoshop Express",
+    "PicsArt",
+    "VSCO",
+    "Fotor",
+    "Canva",
+    "Afterlight",
+    "TouchRetouch",
+    "Prisma",
+    "Bazaart",
+    "Pixelmator Pro",
+    "Pixlr",
+    "Superimpose X",
+    "Facetune 2",
+    "Camera+",
+    "ACDSee Ultimate",
+    "Polarr",
+    "PhotoDirector",
+    "Lightroom Photo & Video Editor"
+  ],
+  "c": [
+    {
+      "n": "User Interface Ease of Use",
+      "d": "How intuitive and easy it is for users to navigate and utilize the app’s photo effects and editing features",
+      "t": "Text [1]",
+      "s": "dinamicostudio.com, teachthought.com"
+    },
+    {
+      "n": "Range of Photo Effects and Filters",
+      "d": "Number and quality of built-in photo effects, filters, and artistic styles available within the app",
+      "t": "Integer [1][2]",
+      "s": "dinamicostudio.com, cnet.com"
+    },
+    {
+      "n": "Advanced Editing Tools",
+      "d": "Availability of advanced photo editing features such as selective adjustments, healing tools, object removal, and AI-powered edits",
+      "t": "Boolean [1][3][4]",
+      "s": "dinamicostudio.com, teachthought.com, apps.apple.com"
+    },
+    {
+      "n": "Platform Availability",
+      "d": "Whether the app is available on major platforms iOS and Android, or exclusive to one",
+      "t": "Text [1][2][3]",
+      "s": "dinamicostudio.com, cnet.com, teachthought.com"
+    },
+    {
+      "n": "Pricing Model",
+      "d": "App cost structure including free, freemium with subscriptions, or paid one-time purchase",
+      "t": "Text [1][2][3]",
+      "s": "dinamicostudio.com, cnet.com, teachthought.com"
+    }
+  ]
+}

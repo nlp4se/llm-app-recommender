@@ -1,0 +1,62 @@
+{
+  "a": [
+    "PhotoGrid",
+    "Pic Collage",
+    "InCollage",
+    "Collage Maker - LiveCollage",
+    "Ribbet",
+    "Adobe Spark",
+    "Canva Collage Templates",
+    "BeFunky Collage Maker",
+    "piZap",
+    "Fotor Collage Maker",
+    "Photovisi",
+    "Google Photos",
+    "PicMonkey",
+    "PicCollage App",
+    "Moldiv",
+    "Layout from Instagram",
+    "PicsArt",
+    "Photolab",
+    "Diptic",
+    "PhotoDirector"
+  ],
+  "c": [
+    {
+      "n": "User Interface Simplicity",
+      "d": "How easy and intuitive the app interface is for users to create collages",
+      "t": "Text",
+      "s": "Shutterfly, Tom's Guide, PhotoGrid"
+    },
+    {
+      "n": "Template Variety",
+      "d": "Number and diversity of collage templates and layouts available",
+      "t": "Integer",
+      "s": "AppyPie Design, Shutterfly, PhotoGrid"
+    },
+    {
+      "n": "Editing Tools",
+      "d": "Range and quality of photo editing features (filters, text, stickers, cropping, AI tools)",
+      "t": "Text",
+      "s": "Tom's Guide, AppyPie Design, Shutterfly"
+    },
+    {
+      "n": "Platform Availability",
+      "d": "Supported devices and operating systems (iOS, Android, Web, Windows)",
+      "t": "Text",
+      "s": "Shutterfly, Tom's Guide"
+    },
+    {
+      "n": "Cost Structure",
+      "d": "Pricing model including free access, subscriptions, and in-app purchases",
+      "t": "Text",
+      "s": "Shutterfly, Tom's Guide, AppyPie Design"
+    },
+    {
+      "n": "AI Features",
+      "d": "Inclusion of AI-powered capabilities such as background removal and automatic template generation",
+      "t": "Boolean",
+      "s": "AppyPie Design, PhotoGrid, Tom's Guide"
+    }
+  ]
+}

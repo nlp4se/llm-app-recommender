@@ -1,0 +1,62 @@
+{
+  "a": [
+    "ShopSavvy",
+    "BuyVia",
+    "The Coupons App",
+    "Amazon",
+    "PriceGrabber",
+    "ScanLife",
+    "Purchx",
+    "Now Discount",
+    "Quick Scan",
+    "TTPM",
+    "Shopular",
+    "Sherpa Perks",
+    "Craigslist",
+    "eBay",
+    "Shopping by TheFind",
+    "CardCash",
+    "Chairish",
+    "Decluttr",
+    "eCampus",
+    "Newegg Mobile"
+  ],
+  "c": [
+    {
+      "n": "Number of Retailers Supported",
+      "d": "Number of different retail stores or online marketplaces an app can search for offers",
+      "t": "Integer[*]",
+      "s": "nextstepliving.com, geo-viz.com, top10.com"
+    },
+    {
+      "n": "Price Comparison Features",
+      "d": "Ability to compare prices across multiple retailers and present the best offers",
+      "t": "Boolean[1]",
+      "s": "nextstepliving.com, top10.com, geo-viz.com"
+    },
+    {
+      "n": "Coupon and Deal Aggregation",
+      "d": "Extent of coupon, deal, or discount aggregation integrated directly into the app",
+      "t": "Boolean[1]",
+      "s": "nextstepliving.com, top10.com, geo-viz.com"
+    },
+    {
+      "n": "Barcode/QR Scanning",
+      "d": "App supports instant price lookup and offer retrieval by scanning item barcodes or QR codes",
+      "t": "Boolean[1]",
+      "s": "nextstepliving.com, geo-viz.com, top10.com"
+    },
+    {
+      "n": "User Reviews and Ratings",
+      "d": "Availability and quality of user reviews and app ratings influencing trust and reliability",
+      "t": "Integer[*]",
+      "s": "top10.com, nextstepliving.com"
+    },
+    {
+      "n": "Alert System for Deals",
+      "d": "Capability to set up alerts for price drops or new deals on specific items",
+      "t": "Boolean[1]",
+      "s": "geo-viz.com, nextstepliving.com, top10.com"
+    }
+  ]
+}

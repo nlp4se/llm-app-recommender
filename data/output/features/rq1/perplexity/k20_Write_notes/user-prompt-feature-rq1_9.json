@@ -1,0 +1,74 @@
+{
+  "a": [
+    "Microsoft OneNote",
+    "Notion",
+    "Evernote",
+    "Apple Notes",
+    "Simplenote",
+    "Nebo",
+    "Google Keep",
+    "Obsidian",
+    "GoodNotes",
+    "ClickUp Docs",
+    "Zoho Notebook",
+    "Bear",
+    "Dropbox Paper",
+    "Quip",
+    "Standard Notes",
+    "Turtl",
+    "Joplin",
+    "Inkpad Notepad",
+    "Simplifi",
+    "NoteLedge"
+  ],
+  "c": [
+    {
+      "n": "Cross-Platform Availability",
+      "d": "Availability of the app on multiple operating systems and devices (e.g., iOS, Android, Windows, Mac, Web).",
+      "t": "Text [*]",
+      "s": "1,2,3"
+    },
+    {
+      "n": "Note Organization Features",
+      "d": "Ability to organize notes using tags, folders, sections, or notebooks to retrieve notes efficiently.",
+      "t": "Boolean",
+      "s": "1,2,3"
+    },
+    {
+      "n": "Collaboration Support",
+      "d": "Capability to share notes with others and collaborate in real-time or asynchronously.",
+      "t": "Boolean",
+      "s": "1,2,3"
+    },
+    {
+      "n": "Handwriting and Stylus Support",
+      "d": "Support for handwriting input, handwriting recognition, and stylus integration.",
+      "t": "Boolean",
+      "s": "3,4"
+    },
+    {
+      "n": "Offline Access",
+      "d": "Ability to access and edit notes without an internet connection.",
+      "t": "Boolean",
+      "s": "1,2"
+    },
+    {
+      "n": "Rich Media Support",
+      "d": "Support for embedding images, sketches, diagrams, and other media within notes.",
+      "t": "Boolean",
+      "s": "1,2,3"
+    },
+    {
+      "n": "Version History and Backup",
+      "d": "Availability of version history to recover previous note versions and automatic backups.",
+      "t": "Boolean",
+      "s": "1"
+    },
+    {
+      "n": "Pricing Model",
+      "d": "Cost structure whether free, freemium, or paid with subscription or one-time fees.",
+      "t": "Text [1]",
+      "s": "1,3"
+    }
+  ]
+}

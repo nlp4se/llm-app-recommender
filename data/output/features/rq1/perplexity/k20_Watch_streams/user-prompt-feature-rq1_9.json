@@ -1,0 +1,68 @@
+{
+  "a": [
+    "Twitch",
+    "YouTube Live",
+    "Facebook Live",
+    "Instagram Live",
+    "TikTok",
+    "LinkedIn Live",
+    "Kick",
+    "Vimeo",
+    "StreamYard",
+    "Restream",
+    "Uscreen",
+    "Netflix",
+    "Amazon Prime Video",
+    "Hulu",
+    "HBO GO/HBO NOW",
+    "Disney Plus",
+    "FuboTV",
+    "Philo",
+    "DirecTV Stream",
+    "Plex"
+  ],
+  "c": [
+    {
+      "n": "User Base Size",
+      "d": "The number of active users or downloads signifying the popularity and community size of the app",
+      "t": "Integer [1]",
+      "s": "Switcher Studio, Google Play"
+    },
+    {
+      "n": "Live Streaming Features",
+      "d": "Availability of features such as multistreaming, remote guest participation, custom branding, and real-time audience interaction",
+      "t": "Text [*]",
+      "s": "Switcher Studio"
+    },
+    {
+      "n": "Platform Type",
+      "d": "Whether the app is browser-based, mobile app, or hybrid, affecting accessibility and device compatibility",
+      "t": "Text [1]",
+      "s": "Switcher Studio"
+    },
+    {
+      "n": "Cost / Pricing Model",
+      "d": "The pricing structure including availability of free tier, subscription costs, and any pay-per-use features",
+      "t": "Float [1]",
+      "s": "Switcher Studio"
+    },
+    {
+      "n": "Content Variety",
+      "d": "Range of content types available such as games, sports, movies, TV shows, music, or niche streams",
+      "t": "Text [*]",
+      "s": "Switcher Studio, CNET, TCL"
+    },
+    {
+      "n": "Device Compatibility",
+      "d": "Support across multiple devices including mobile phones, tablets, smart TVs, and desktops",
+      "t": "Text [*]",
+      "s": "CNET, TCL"
+    },
+    {
+      "n": "User Ratings and Reviews",
+      "d": "Average user rating on app stores reflecting user satisfaction and app quality",
+      "t": "Float [1]",
+      "s": "Google Play"
+    }
+  ]
+}

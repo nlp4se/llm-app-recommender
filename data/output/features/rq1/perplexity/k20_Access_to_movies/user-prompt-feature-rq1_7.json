@@ -1,0 +1,62 @@
+{
+  "a": [
+    "Netflix",
+    "Amazon Prime Video",
+    "Disney+",
+    "HBO Max",
+    "Hulu",
+    "Apple TV+",
+    "Paramount+",
+    "Peacock",
+    "YouTube Premium",
+    "Starz",
+    "Plex",
+    "Hoopla",
+    "JustWatch",
+    "Reelgood",
+    "Qewd",
+    "TV Time",
+    "Watchworthy",
+    "Tubi",
+    "Crackle",
+    "Vudu"
+  ],
+  "c": [
+    {
+      "n": "Content Library Size",
+      "d": "The number of movies and TV shows available for streaming on the app, indicating variety and breadth of content.",
+      "t": "Integer [1]",
+      "s": "Vocal Media, Plex, Consumer Reports"
+    },
+    {
+      "n": "Subscription Model",
+      "d": "Type of payment required: free, ad-supported free, subscription-based, or pay-per-view.",
+      "t": "Text [1]",
+      "s": "Vocal Media, Plex"
+    },
+    {
+      "n": "Platform Availability",
+      "d": "Availability of the app across devices (Android, iOS, web, smart TVs).",
+      "t": "Text [*]",
+      "s": "Consumer Reports, Google Play, Vocal Media"
+    },
+    {
+      "n": "User Experience Features",
+      "d": "Features like universal watchlist, social sharing, personalized recommendations, content discovery tools.",
+      "t": "Text [*]",
+      "s": "Plex, Consumer Reports"
+    },
+    {
+      "n": "Free Content Availability",
+      "d": "Quantity and quality of free movies and shows available without subscription.",
+      "t": "Integer [1]",
+      "s": "Plex, Vocal Media"
+    },
+    {
+      "n": "Content Genre Variety",
+      "d": "Range of movie genres and specialized content catering to diverse audiences.",
+      "t": "Text [*]",
+      "s": "Vocal Media"
+    }
+  ]
+}

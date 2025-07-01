@@ -1,0 +1,56 @@
+{
+  "a": [
+    "WeTransfer",
+    "SendAnywhere",
+    "Dropbox Transfer",
+    "Zapya",
+    "Bluetooth File Transfer",
+    "pCloud Transfer",
+    "Google Drive",
+    "Collect by WeTransfer",
+    "Creative Tools Add-On for Dropbox",
+    "AirDroid",
+    "ShareIt",
+    "Xender",
+    "Files by Google",
+    "Resilio Sync",
+    "SuperBeam",
+    "SHAREall",
+    "Mi Drop",
+    "SendGB",
+    "Hightail",
+    "SugarSync"
+  ],
+  "c": [
+    {
+      "n": "File Size Limit",
+      "d": "Maximum size of a single file or batch of files that can be sent using the app in its free or standard version",
+      "t": "Integer [1]",
+      "s": "AnyViewer, Tom's Guide, Dropbox"
+    },
+    {
+      "n": "Security Features",
+      "d": "Security mechanisms in place, such as end-to-end encryption, password protection, or encryption protocols used during file transfer",
+      "t": "Text [*]",
+      "s": "AnyViewer, Tom's Guide"
+    },
+    {
+      "n": "Cross-Platform Compatibility",
+      "d": "Availability and interoperability of the app on multiple operating systems like iOS, Android, Windows, macOS",
+      "t": "Text [*]",
+      "s": "AnyViewer, MobileTrans"
+    },
+    {
+      "n": "Ease of Use",
+      "d": "User-friendliness measured by UI simplicity, required setup time, and ease of operation without registration",
+      "t": "Text [1]",
+      "s": "AnyViewer, Tom's Guide"
+    },
+    {
+      "n": "Additional Features",
+      "d": "Extra functionalities like link expiration, branding customization, integrated chat, or file preview capabilities",
+      "t": "Text [*]",
+      "s": "Tom's Guide, Dropbox, MobileTrans"
+    }
+  ]
+}

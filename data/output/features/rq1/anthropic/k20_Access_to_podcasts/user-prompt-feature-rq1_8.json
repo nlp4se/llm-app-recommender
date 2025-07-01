@@ -1,0 +1,62 @@
+{
+  "a": [
+    "Spotify",
+    "Apple Podcasts",
+    "Google Podcasts",
+    "Pocket Casts",
+    "Overcast",
+    "Castro",
+    "Stitcher",
+    "Castbox",
+    "PlayerFM",
+    "Podcast Addict",
+    "AntennaPod",
+    "TuneIn Radio",
+    "Audible",
+    "iHeartRadio",
+    "Podcast Republic",
+    "Podbean",
+    "BeyondPod",
+    "DoggCatcher",
+    "PodcastOne",
+    "RadioPublic"
+  ],
+  "c": [
+    {
+      "n": "Podcast Library Size",
+      "d": "Total number of available podcasts and episodes accessible through the platform",
+      "t": "Integer [1]",
+      "s": "App store descriptions, official websites, third-party reviews"
+    },
+    {
+      "n": "User Base and Downloads",
+      "d": "Total number of active users and app downloads indicating popularity and reliability",
+      "t": "Integer [1]",
+      "s": "App store statistics, company reports, market research data"
+    },
+    {
+      "n": "Cross-Platform Sync",
+      "d": "Ability to synchronize listening progress, subscriptions, and playlists across multiple devices",
+      "t": "Boolean [1]",
+      "s": "App features documentation, user reviews, testing reports"
+    },
+    {
+      "n": "Advanced Playback Features",
+      "d": "Availability of features like variable speed control, sleep timer, chapter navigation, and smart playlists",
+      "t": "Integer [1]",
+      "s": "App store feature lists, user manuals, feature comparison reviews"
+    },
+    {
+      "n": "Discovery and Recommendation Quality",
+      "d": "Effectiveness of content discovery algorithms and personalized podcast recommendations",
+      "t": "Float [1]",
+      "s": "User reviews, expert evaluations, algorithm effectiveness studies"
+    },
+    {
+      "n": "Audio Quality and Streaming Reliability",
+      "d": "Maximum supported audio quality and consistency of streaming performance",
+      "t": "Text [1]",
+      "s": "Technical specifications, user feedback, performance testing reviews"
+    }
+  ]
+}

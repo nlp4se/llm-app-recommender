@@ -1,0 +1,56 @@
+{
+  "a": [
+    "Meetup",
+    "Yubo",
+    "Bumble BFF",
+    "Hey VINA",
+    "Wink",
+    "Nextdoor",
+    "Atleto",
+    "Slowly",
+    "LMK",
+    "Tandem",
+    "Peanut",
+    "Friender",
+    "Skout",
+    "Twitch",
+    "PawDates",
+    "Couchsurfing",
+    "UNBLND",
+    "We3",
+    "RealU",
+    "Coffee Meets Bagel"
+  ],
+  "c": [
+    {
+      "n": "User Base Size",
+      "d": "Number of active users on the app, impacting the potential for making and keeping friends",
+      "t": "Integer [1]",
+      "s": "Science of People, Agile Tech"
+    },
+    {
+      "n": "Specialization",
+      "d": "Focus area or unique community of the app (e.g., athletes, language learners, moms) which helps users find relevant friends",
+      "t": "Text [1]",
+      "s": "Science of People, Agile Tech"
+    },
+    {
+      "n": "Interaction Features",
+      "d": "Types of social interactions supported such as online chat, events, real-time updates, or shared interests",
+      "t": "Text [*]",
+      "s": "Science of People, Howbout"
+    },
+    {
+      "n": "Real-life Meetup Facilitation",
+      "d": "Ability to facilitate real-world meetings and group activities to strengthen friendships",
+      "t": "Boolean [1]",
+      "s": "Science of People, Agile Tech"
+    },
+    {
+      "n": "Platform Accessibility",
+      "d": "Availability on mobile and/or web and ease of use",
+      "t": "Text [1]",
+      "s": "Science of People"
+    }
+  ]
+}

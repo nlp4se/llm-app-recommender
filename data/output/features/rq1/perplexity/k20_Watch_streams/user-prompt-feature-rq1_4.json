@@ -1,0 +1,62 @@
+{
+  "a": [
+    "Twitch",
+    "YouTube Live",
+    "Facebook Live",
+    "Instagram Live",
+    "TikTok",
+    "Kick",
+    "Vimeo",
+    "StreamYard",
+    "Restream",
+    "Uscreen",
+    "Netflix",
+    "Amazon Prime Video",
+    "Hulu",
+    "Disney Plus",
+    "HBO Max",
+    "Philo",
+    "FuboTV",
+    "Sling TV",
+    "DirecTV Stream",
+    "Plex"
+  ],
+  "c": [
+    {
+      "n": "User Base Size",
+      "d": "Number of active users or downloads indicating app popularity and community size",
+      "t": "Integer [1]",
+      "s": "Google Play Store, App Store, Industry Reports"
+    },
+    {
+      "n": "Streaming Content Variety",
+      "d": "Range of content types available such as gaming, TV shows, movies, sports, IRL streams",
+      "t": "Text [*]",
+      "s": "Official App Descriptions, Reviews"
+    },
+    {
+      "n": "Multistreaming Capability",
+      "d": "Ability to stream simultaneously to multiple platforms",
+      "t": "Boolean [1]",
+      "s": "Switcher Studio Blog, Official App Features"
+    },
+    {
+      "n": "Platform Support",
+      "d": "Availability across devices (mobile, desktop, browser-based)",
+      "t": "Text [*]",
+      "s": "App Websites, User Guides"
+    },
+    {
+      "n": "Pricing Structure",
+      "d": "Free usage availability and subscription cost tiers",
+      "t": "Text [1]",
+      "s": "Official Pricing Pages, Reviews"
+    },
+    {
+      "n": "Interactive Features",
+      "d": "Functions like live chat, audience engagement, guest collaboration",
+      "t": "Boolean [1]",
+      "s": "Switcher Studio Blog, App Reviews"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "a": [
+    "PUBG Mobile",
+    "Genshin Impact",
+    "Call of Duty: Mobile",
+    "Clash Royale",
+    "Clash of Clans",
+    "Candy Crush Saga",
+    "Among Us",
+    "Minecraft",
+    "Roblox",
+    "Fortnite",
+    "Pokemon GO",
+    "Subway Surfers",
+    "Mobile Legends: Bang Bang",
+    "Free Fire",
+    "Brawl Stars",
+    "Fall Guys",
+    "8 Ball Pool",
+    "Temple Run 2",
+    "Angry Birds 2",
+    "Plants vs. Zombies 2"
+  ],
+  "c": [
+    {
+      "n": "Global Download Count",
+      "d": "Total number of downloads across all platforms indicating game popularity and reach",
+      "t": "Integer [1]",
+      "s": "Google Play Store, Apple App Store, Sensor Tower, App Annie"
+    },
+    {
+      "n": "Monthly Active Users",
+      "d": "Number of unique users playing the game monthly, showing sustained engagement",
+      "t": "Integer [1]",
+      "s": "Publisher reports, App analytics platforms, Market research firms"
+    },
+    {
+      "n": "User Rating Average",
+      "d": "Average star rating from user reviews indicating overall satisfaction and quality",
+      "t": "Float [1]",
+      "s": "Google Play Store, Apple App Store"
+    },
+    {
+      "n": "Revenue Generation",
+      "d": "Monthly revenue from in-app purchases and ads showing commercial success",
+      "t": "Float [1]",
+      "s": "Sensor Tower, App Annie, Publisher financial reports"
+    },
+    {
+      "n": "Content Update Frequency",
+      "d": "Frequency of new content, features, and updates maintaining player interest",
+      "t": "Integer [1]",
+      "s": "App store update logs, Developer announcements, Gaming news sites"
+    },
+    {
+      "n": "Cross-Platform Availability",
+      "d": "Number of platforms the game is available on for broader accessibility",
+      "t": "Integer [1]",
+      "s": "Official game websites, Platform stores, Gaming databases"
+    }
+  ]
+}

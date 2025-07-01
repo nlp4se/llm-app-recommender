@@ -1,0 +1,68 @@
+{
+  "a": [
+    "ShopSavvy",
+    "The Coupons App",
+    "Sherpa Perks",
+    "CamelCamelCamel",
+    "BizRate",
+    "PriceGrabber",
+    "eBay",
+    "Facebook Marketplace",
+    "Poshmark",
+    "OfferUp",
+    "Mercari",
+    "Craigslist",
+    "Depop",
+    "BuyVia",
+    "Amazon",
+    "Purchx",
+    "ScanLife",
+    "Now Discount",
+    "Quick Scan",
+    "Shopular"
+  ],
+  "c": [
+    {
+      "n": "Price Comparison Accuracy",
+      "d": "How precisely the app compares prices across multiple stores or platforms",
+      "t": "Float [1]",
+      "s": "NextStepLiving, Top10"
+    },
+    {
+      "n": "Number of Retailers Supported",
+      "d": "Total number of stores and websites the app compares prices from",
+      "t": "Integer [1]",
+      "s": "NextStepLiving, EmizenTech"
+    },
+    {
+      "n": "Coupon and Discount Availability",
+      "d": "Availability of coupons, daily deals, or discount codes through the app",
+      "t": "Boolean [1]",
+      "s": "NextStepLiving, FinancialPost"
+    },
+    {
+      "n": "Price Alert Feature",
+      "d": "Ability to set alerts for price drops or deals on specific items",
+      "t": "Boolean [1]",
+      "s": "EmizenTech, FinancialPost"
+    },
+    {
+      "n": "User Ratings",
+      "d": "Average user rating on app stores indicating user satisfaction",
+      "t": "Float [1]",
+      "s": "Jotform, App Stores"
+    },
+    {
+      "n": "Platform Availability",
+      "d": "Support for major platforms such as iOS, Android, and web",
+      "t": "Text [*]",
+      "s": "NextStepLiving, Jotform"
+    },
+    {
+      "n": "Special Features",
+      "d": "Unique functionalities like barcode scanning, local store alerts, or cashback",
+      "t": "Text [*]",
+      "s": "NextStepLiving, Top10"
+    }
+  ]
+}

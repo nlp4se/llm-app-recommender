@@ -1,0 +1,56 @@
+{
+  "a": [
+    "WhatsApp",
+    "Instagram",
+    "Snapchat",
+    "Facebook Messenger",
+    "Discord",
+    "Telegram",
+    "Signal",
+    "GroupMe",
+    "Marco Polo",
+    "Houseparty",
+    "Skype",
+    "Viber",
+    "WeChat",
+    "Line",
+    "Kik",
+    "Google Hangouts",
+    "Zoom",
+    "FaceTime",
+    "Facebook",
+    "Twitter"
+  ],
+  "c": [
+    {
+      "n": "Active User Base",
+      "d": "Monthly active users indicating network reach and friend availability on platform",
+      "t": "Integer [1]",
+      "s": "App store analytics, company reports, market research firms"
+    },
+    {
+      "n": "Communication Features Variety",
+      "d": "Number of different communication methods available (text, voice, video, stories, groups)",
+      "t": "Integer [1]",
+      "s": "App feature documentation, user reviews, direct app analysis"
+    },
+    {
+      "n": "Cross-Platform Compatibility",
+      "d": "Availability across different operating systems and devices",
+      "t": "Integer [1]",
+      "s": "App store listings, official website compatibility charts"
+    },
+    {
+      "n": "Social Engagement Tools",
+      "d": "Features that encourage ongoing interaction like status updates, stories, reactions, games",
+      "t": "Integer [1]",
+      "s": "App feature analysis, user interface review, platform documentation"
+    },
+    {
+      "n": "Privacy and Security Level",
+      "d": "Strength of encryption, privacy controls, and data protection measures",
+      "t": "Integer [1]",
+      "s": "Security audits, privacy policy analysis, expert reviews, company transparency reports"
+    }
+  ]
+}

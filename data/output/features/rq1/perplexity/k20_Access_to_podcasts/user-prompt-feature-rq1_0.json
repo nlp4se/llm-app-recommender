@@ -1,0 +1,62 @@
+{
+  "a": [
+    "Apple Podcasts",
+    "Player FM",
+    "Pocket Casts",
+    "Spotify",
+    "Google Podcasts",
+    "Podcast Republic",
+    "SoundCloud",
+    "iCatcher",
+    "Podcast Go",
+    "YouTube Music",
+    "Fountain",
+    "Queue",
+    "Aurelian",
+    "Castro",
+    "Riverside",
+    "Descript",
+    "Overcast",
+    "Stitcher",
+    "Breaker",
+    "TuneIn Radio"
+  ],
+  "c": [
+    {
+      "n": "Platform Compatibility",
+      "d": "Whether the app supports iOS, Android, desktop, or other devices",
+      "t": "Text [*]",
+      "s": "whatpods.com, descript.com"
+    },
+    {
+      "n": "Library Size",
+      "d": "Number of podcasts available to listen to or subscribe",
+      "t": "Integer [1]",
+      "s": "descript.com, whatpods.com"
+    },
+    {
+      "n": "Feature Set",
+      "d": "Availability of advanced features such as voice boost, trim silence, sleep timer, curated playlists, cloud sync, transcript support",
+      "t": "Text [*]",
+      "s": "whatpods.com, descript.com, youtube.com"
+    },
+    {
+      "n": "User Experience",
+      "d": "Ease of use, interface design, and user control like advanced playback speed, skip silences, and queue management",
+      "t": "Text [1]",
+      "s": "whatpods.com, lifehacker.com, youtube.com"
+    },
+    {
+      "n": "Cost",
+      "d": "Availability as a free app or requires subscription/payment for premium features",
+      "t": "Text [1]",
+      "s": "whatpods.com, descript.com, lifehacker.com"
+    },
+    {
+      "n": "Ratings and Popularity",
+      "d": "User ratings on app stores and overall popularity among podcast listeners",
+      "t": "Float [1]",
+      "s": "descript.com, app store reviews"
+    }
+  ]
+}

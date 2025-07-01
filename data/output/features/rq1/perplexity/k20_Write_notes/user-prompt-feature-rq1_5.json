@@ -1,0 +1,68 @@
+{
+  "a": [
+    "Microsoft OneNote",
+    "Simplenote",
+    "Nebo",
+    "Apple Notes",
+    "Google Keep",
+    "Evernote",
+    "Notion",
+    "Obsidian",
+    "GoodNotes",
+    "ClickUp Docs",
+    "Bear",
+    "Zoho Notebook",
+    "Standard Notes",
+    "Joplin",
+    "Dropbox Paper",
+    "Quip",
+    "Coda",
+    "Roam Research",
+    "Inkdrop",
+    "Trello"
+  ],
+  "c": [
+    {
+      "n": "Cross-Platform Availability",
+      "d": "Ability of the app to sync and operate seamlessly across multiple devices and operating systems.",
+      "t": "Boolean or Text [1]",
+      "s": "clickup.com, zapier.com"
+    },
+    {
+      "n": "Note Organization Features",
+      "d": "Includes tagging, folder hierarchy, and search capabilities to organize and retrieve notes easily.",
+      "t": "Boolean or Text [1][3]",
+      "s": "clickup.com, scribecount.com"
+    },
+    {
+      "n": "Handwriting Recognition",
+      "d": "Capability to convert handwritten notes into editable digital text using stylus input.",
+      "t": "Boolean [3][4]",
+      "s": "scribecount.com, youtube.com"
+    },
+    {
+      "n": "Collaboration Support",
+      "d": "Features enabling sharing, real-time editing, and teamwork on notes or documents.",
+      "t": "Boolean [1][2]",
+      "s": "clickup.com, zapier.com"
+    },
+    {
+      "n": "Price Model",
+      "d": "Cost structure including free usage, freemium, or one-time/payment subscription.",
+      "t": "Text [1][3]",
+      "s": "clickup.com, scribecount.com"
+    },
+    {
+      "n": "User Interface Simplicity",
+      "d": "How clean, distraction-free, and easy to use the app interface is for note-taking.",
+      "t": "Qualitative Text or Rating [1]",
+      "s": "clickup.com"
+    },
+    {
+      "n": "Additional Features",
+      "d": "Support for multimedia notes such as images, sketches, tables, markdown, and PDF annotation.",
+      "t": "Boolean or Text [1][3]",
+      "s": "clickup.com, scribecount.com"
+    }
+  ]
+}

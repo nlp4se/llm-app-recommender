@@ -1,0 +1,68 @@
+{
+  "a": [
+    "REAL Shuffle Player",
+    "Shuffle Music",
+    "Spotify",
+    "Apple Music",
+    "YouTube Music",
+    "Amazon Music",
+    "Deezer",
+    "Pandora",
+    "Tidal",
+    "SoundCloud",
+    "Google Play Music",
+    "Musicolet",
+    "Poweramp",
+    "JetAudio",
+    "AIMP",
+    "BlackPlayer",
+    "Phonograph",
+    "Pi Music Player",
+    "Pulsar",
+    "Shuttle Music Player"
+  ],
+  "c": [
+    {
+      "n": "True Random Shuffle",
+      "d": "Ability to shuffle songs in a playlist in a truly random manner without repeating tracks too soon",
+      "t": "Boolean [1]",
+      "s": "REAL Shuffle Player, Spotify, User feedback"
+    },
+    {
+      "n": "Playlist Size Support",
+      "d": "Ability to handle large playlists without repeating same songs frequently",
+      "t": "Integer [1]",
+      "s": "Spotify community, REAL Shuffle Player"
+    },
+    {
+      "n": "Playlist Management Features",
+      "d": "Support for creating, editing, and managing playlists and favorites",
+      "t": "Boolean [1]",
+      "s": "REAL Shuffle Player, Spotify, Apple Music"
+    },
+    {
+      "n": "Advanced Shuffle Modes",
+      "d": "Additional shuffle features like Smart Shuffle, intelligent shuffle that adapts to user preferences",
+      "t": "Boolean [1]",
+      "s": "REAL Shuffle Player, Spotify"
+    },
+    {
+      "n": "Cross-Platform Streaming Support",
+      "d": "Support for streaming from cloud services or multiple devices",
+      "t": "Boolean [1]",
+      "s": "REAL Shuffle Player, Spotify, Apple Music, YouTube Music"
+    },
+    {
+      "n": "User Ratings",
+      "d": "Average user review rating as a quality indicator",
+      "t": "Float [1]",
+      "s": "Google Play Store, App Store"
+    },
+    {
+      "n": "Download Popularity",
+      "d": "Number of downloads or active users indicating popularity",
+      "t": "Integer [1]",
+      "s": "Google Play Store, App Store"
+    }
+  ]
+}

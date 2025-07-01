@@ -1,0 +1,56 @@
+{
+  "a": [
+    "Spotify",
+    "Apple Podcasts",
+    "Google Podcasts",
+    "Pocket Casts",
+    "Overcast",
+    "Castro",
+    "Stitcher",
+    "Castbox",
+    "PlayerFM",
+    "Podcast Addict",
+    "AntennaPod",
+    "Breaker",
+    "RadioPublic",
+    "TuneIn Radio",
+    "Podcast Republic",
+    "Podbean",
+    "BeyondPod",
+    "DoggCatcher",
+    "PodcastOne",
+    "Laughable"
+  ],
+  "c": [
+    {
+      "n": "Content Library Size",
+      "d": "Total number of available podcast shows and episodes accessible through the platform",
+      "t": "Integer [1]",
+      "s": "App store descriptions, official websites, third-party reviews"
+    },
+    {
+      "n": "User Interface Quality",
+      "d": "Ease of navigation, search functionality, and overall user experience design",
+      "t": "Float [1]",
+      "s": "User reviews, UX analysis, app store ratings"
+    },
+    {
+      "n": "Cross-Platform Sync",
+      "d": "Ability to synchronize listening progress, subscriptions, and playlists across multiple devices",
+      "t": "Boolean [1]",
+      "s": "Feature documentation, user manuals, testing reports"
+    },
+    {
+      "n": "Offline Download Capability",
+      "d": "Quality and reliability of downloading episodes for offline listening",
+      "t": "Boolean [1]",
+      "s": "App features, user reviews, technical specifications"
+    },
+    {
+      "n": "Discovery Features",
+      "d": "Effectiveness of recommendation algorithms, trending sections, and content curation",
+      "t": "Float [1]",
+      "s": "User feedback, feature analysis, recommendation accuracy studies"
+    }
+  ]
+}

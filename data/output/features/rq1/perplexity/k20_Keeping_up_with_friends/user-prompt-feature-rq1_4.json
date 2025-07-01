@@ -1,0 +1,62 @@
+{
+  "a": [
+    "Meetup",
+    "Yubo",
+    "Bumble BFF",
+    "Hey VINA",
+    "Wink",
+    "Nextdoor",
+    "Atleto",
+    "Slowly",
+    "LMK",
+    "Tandem",
+    "Peanut",
+    "Friender",
+    "Skout",
+    "Twitch",
+    "PawDates",
+    "Couchsurfing",
+    "UNBLND",
+    "We3",
+    "RealU",
+    "Coffee Meets Bagel"
+  ],
+  "c": [
+    {
+      "n": "User Base Size",
+      "d": "The number of active users on the app, reflecting popularity and social reach.",
+      "t": "Integer [1]",
+      "s": "Science of People, AgileTech"
+    },
+    {
+      "n": "Target Audience",
+      "d": "The specific demographic group or interest group the app is tailored for (e.g., women, young people, language learners).",
+      "t": "Text [1]",
+      "s": "Science of People, AgileTech"
+    },
+    {
+      "n": "Core Functionality",
+      "d": "Primary method of connecting users such as events, chatting, shared interests, or gaming.",
+      "t": "Text [1][2]",
+      "s": "Science of People, AgileTech"
+    },
+    {
+      "n": "Real-Life Interaction Support",
+      "d": "Whether the app encourages or facilitates real-life meetups and offline connections.",
+      "t": "Boolean [1]",
+      "s": "Science of People"
+    },
+    {
+      "n": "Unique Features",
+      "d": "Special features such as live photo sharing, horoscope-based conversations, or group creation.",
+      "t": "Text [1][3][4]",
+      "s": "Science of People, Medicinal Media, Howbout"
+    },
+    {
+      "n": "Privacy & Security",
+      "d": "Measures and design that protect user privacy and control over shared content.",
+      "t": "Text [3]",
+      "s": "Medicinal Media"
+    }
+  ]
+}

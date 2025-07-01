@@ -1,0 +1,56 @@
+
+{
+  "a": [
+    "Facebook Marketplace",
+    "Mercari",
+    "eBay",
+    "Poshmark",
+    "Amazon Seller Central",
+    "OfferUp",
+    "5miles",
+    "Decluttr",
+    "Craigslist",
+    "Chairish",
+    "eCampus",
+    "CardCash",
+    "Letgo",
+    "Gazelle",
+    "Swappa",
+    "Depop",
+    "Tradesy",
+    "ThredUp",
+    "Decluttr Garage"
+  ],
+  "c": [
+    {
+      "n": "Ease of Use",
+      "d": "How user-friendly the app is for creating and managing listings",
+      "t": "Integer [1-5]",
+      "s": "1,3,4"
+    },
+    {
+      "n": "Audience Reach",
+      "d": "The size and geographical scope of the potential buyer audience",
+      "t": "Text (Local, National, Global)",
+      "s": "2,3,4"
+    },
+    {
+      "n": "Fees and Charges",
+      "d": "The types and amounts of fees charged to sellers",
+      "t": "Float [0-100%]",
+      "s": "1,2,3"
+    },
+    {
+      "n": "Shipping and Logistics",
+      "d": "The ease and cost of shipping options available to sellers",
+      "t": "Text (Prepaid, Custom, Partnered)",
+      "s": "1,3,4"
+    },
+    {
+      "n": "Safety and Verification Features",
+      "d": "The presence of buyer/seller verification and safety measures",
+      "t": "Boolean",
+      "s": "2,3,4"
+    }
+  ]
+}

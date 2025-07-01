@@ -1,0 +1,56 @@
+{
+  "a": [
+    "Facebook Marketplace",
+    "eBay",
+    "Mercari",
+    "Poshmark",
+    "Depop",
+    "Vinted",
+    "OfferUp",
+    "Craigslist",
+    "Letgo",
+    "The RealReal",
+    "Vestiaire Collective",
+    "Rebag",
+    "ThredUp",
+    "Grailed",
+    "GOAT",
+    "StockX",
+    "Reverb",
+    "Etsy",
+    "Amazon Seller",
+    "Shopify"
+  ],
+  "c": [
+    {
+      "n": "User Base Size",
+      "d": "Total number of active users on the platform, indicating market reach and potential buyer pool",
+      "t": "Integer [1]",
+      "s": "App store analytics, company reports, market research data"
+    },
+    {
+      "n": "Transaction Volume",
+      "d": "Monthly gross merchandise value or number of completed transactions processed through the platform",
+      "t": "Float [1]",
+      "s": "Financial reports, platform statistics, third-party analytics"
+    },
+    {
+      "n": "Seller Tools Quality",
+      "d": "Comprehensiveness and usability of listing creation, inventory management, and sales analytics features",
+      "t": "Integer [1]",
+      "s": "Feature comparison, user reviews, platform documentation"
+    },
+    {
+      "n": "Commission Structure",
+      "d": "Percentage of sale price or fixed fees charged to sellers per transaction",
+      "t": "Float [1]",
+      "s": "Platform fee schedules, terms of service, seller documentation"
+    },
+    {
+      "n": "Category Specialization",
+      "d": "Breadth and depth of supported product categories and niche market focus",
+      "t": "Text [*]",
+      "s": "Platform category listings, market positioning, user demographics"
+    }
+  ]
+}

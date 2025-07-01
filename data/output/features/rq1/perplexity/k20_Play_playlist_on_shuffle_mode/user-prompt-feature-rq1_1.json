@@ -1,0 +1,56 @@
+{
+  "a": [
+    "REAL Shuffle Player",
+    "Shuffle Music",
+    "Spotify (with Smart Shuffle)",
+    "Apple Music",
+    "Sonos App",
+    "VLC Media Player",
+    "Poweramp Music Player",
+    "Musicolet Music Player",
+    "BlackPlayer Music Player",
+    "jetAudio HD Music Player",
+    "Pulsar Music Player",
+    "Pi Music Player",
+    "AIMP",
+    "PlayerPro Music Player",
+    "Shuttle Music Player",
+    "n7player Music Player",
+    "Foobar2000",
+    "DoubleTwist",
+    "Phonograph Music Player",
+    "Amazon Music"
+  ],
+  "c": [
+    {
+      "n": "Shuffle Quality",
+      "d": "Effectiveness of the shuffle algorithm to ensure all songs are played in a true random or intelligent non-repetitive order",
+      "t": "Text [1], Boolean [4], Integer [2]",
+      "s": "Google Play Store, Spotify, User Forums"
+    },
+    {
+      "n": "Playlist Management Features",
+      "d": "Ability to create, edit, and manage multiple playlists with support for folders, filters, and linked playlists",
+      "t": "Boolean, Text [1]",
+      "s": "Google Play Store"
+    },
+    {
+      "n": "Streaming and Library Support",
+      "d": "Support for multiple music sources and streaming services, including cloud storage and YouTube integration",
+      "t": "Boolean [1]",
+      "s": "Google Play Store"
+    },
+    {
+      "n": "User Interface Adaptability",
+      "d": "Responsive design that adapts well to different devices such as phones and tablets",
+      "t": "Boolean [1]",
+      "s": "Google Play Store"
+    },
+    {
+      "n": "User Base and Reviews",
+      "d": "Number of downloads and user ratings as indicators of popularity and user satisfaction",
+      "t": "Integer, Float [1][3]",
+      "s": "Google Play Store"
+    }
+  ]
+}

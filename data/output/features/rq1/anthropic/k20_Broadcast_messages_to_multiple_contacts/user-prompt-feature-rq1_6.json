@@ -1,0 +1,56 @@
+{
+  "a": [
+    "WhatsApp Business",
+    "Telegram",
+    "Signal",
+    "GroupMe",
+    "Facebook Messenger",
+    "Viber",
+    "LINE",
+    "WeChat",
+    "Slack",
+    "Discord",
+    "Microsoft Teams",
+    "Skype",
+    "Google Messages",
+    "TextNow",
+    "Kik",
+    "Threema",
+    "Wire",
+    "Element",
+    "Wickr Me",
+    "Session"
+  ],
+  "c": [
+    {
+      "n": "Broadcast List Capacity",
+      "d": "Maximum number of contacts that can be included in a single broadcast message",
+      "t": "Integer [1]",
+      "s": "App documentation, user manuals, platform specifications"
+    },
+    {
+      "n": "Contact Management Features",
+      "d": "Quality and comprehensiveness of tools for organizing, grouping, and managing contact lists for broadcasting",
+      "t": "Integer [1-10]",
+      "s": "App store reviews, feature comparison sites, user testing"
+    },
+    {
+      "n": "Message Delivery Rate",
+      "d": "Percentage of broadcast messages successfully delivered to intended recipients",
+      "t": "Float [1]",
+      "s": "Performance analytics, user reports, reliability studies"
+    },
+    {
+      "n": "Cross-Platform Compatibility",
+      "d": "Number of different operating systems and devices the app supports for seamless broadcasting",
+      "t": "Integer [1]",
+      "s": "Official app stores, platform documentation, compatibility matrices"
+    },
+    {
+      "n": "Privacy Protection Level",
+      "d": "Strength of encryption and privacy features protecting broadcast messages and contact information",
+      "t": "Integer [1-10]",
+      "s": "Security audits, privacy policy analysis, encryption standards documentation"
+    }
+  ]
+}

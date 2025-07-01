@@ -1,0 +1,56 @@
+{
+  "a": [
+    "Meetup",
+    "Yubo",
+    "Bumble BFF",
+    "Hey VINA",
+    "Wink",
+    "Nextdoor",
+    "Atleto",
+    "Slowly",
+    "LMK",
+    "Tandem",
+    "Peanut",
+    "Friender",
+    "Skout",
+    "Twitch",
+    "PawDates",
+    "Couchsurfing",
+    "UNBLND",
+    "We3",
+    "RealU",
+    "Coffee Meets Bagel"
+  ],
+  "c": [
+    {
+      "n": "User Base Size",
+      "d": "The total number of active users on the app, indicating its popularity and potential for making friends",
+      "t": "Integer [1]",
+      "s": "Science of People, AgileTech"
+    },
+    {
+      "n": "Target Audience Fit",
+      "d": "How well the app serves specific groups such as young people, women, athletes, or language learners",
+      "t": "Text [*]",
+      "s": "Science of People, AgileTech"
+    },
+    {
+      "n": "Functionality for Real-life Interaction",
+      "d": "The app's effectiveness in facilitating offline meetups and real-world social gatherings",
+      "t": "Boolean [1]",
+      "s": "Science of People"
+    },
+    {
+      "n": "Special Features",
+      "d": "Unique features that enhance friend-making experience like live photo sharing, language exchange, or social calendar integration",
+      "t": "Text [*]",
+      "s": "Science of People, Medicinal Media, Howbout"
+    },
+    {
+      "n": "User Engagement",
+      "d": "Level of user interaction and frequency of use driven by app design and community",
+      "t": "Float [1]",
+      "s": "Science of People, AgileTech"
+    }
+  ]
+}

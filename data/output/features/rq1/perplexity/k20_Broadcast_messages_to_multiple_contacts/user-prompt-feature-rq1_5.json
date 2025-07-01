@@ -1,0 +1,74 @@
+{
+  "a": [
+    "Mobile Text Alerts",
+    "Textedly",
+    "SimpleTexting",
+    "Sakari",
+    "EZ Texting",
+    "Text-Em-All",
+    "GroupMe",
+    "Lark",
+    "Slack",
+    "Microsoft Teams",
+    "Google Chat",
+    "Discord",
+    "Rocket.Chat",
+    "Flock",
+    "Ryver",
+    "Emitrr",
+    "Line",
+    "WhatsApp",
+    "Element",
+    "Gallabox"
+  ],
+  "c": [
+    {
+      "n": "Message Broadcasting Capacity",
+      "d": "The maximum number of contacts or recipients that can be messaged simultaneously or within a campaign",
+      "t": "Integer [1]",
+      "s": "Mobile Text Alerts, Textedly, SimpleTexting"
+    },
+    {
+      "n": "Message Types Supported",
+      "d": "Types of messages supported, such as SMS, MMS, group chat, multimedia sharing, and direct messages",
+      "t": "Text [*]",
+      "s": "GroupMe, Line, WhatsApp, Emitrr"
+    },
+    {
+      "n": "Ease of Use",
+      "d": "User interface simplicity and ease of setting up group or broadcast messages, including scheduling and automation capabilities",
+      "t": "Text [1]",
+      "s": "Emitrr, Mobile Text Alerts, GroupMe"
+    },
+    {
+      "n": "Integration and Collaboration Features",
+      "d": "Support for integration with productivity tools, business workflows, and app ecosystems (e.g., Google Workspace, Microsoft 365)",
+      "t": "Boolean [1]",
+      "s": "Lark, Slack, Microsoft Teams, Google Chat"
+    },
+    {
+      "n": "Analytics and Reporting",
+      "d": "Availability of real-time analytics, delivery reports, and engagement metrics to monitor message campaign performance",
+      "t": "Boolean [1]",
+      "s": "Mobile Text Alerts, Sakari, SimpleTexting"
+    },
+    {
+      "n": "Security and Privacy",
+      "d": "Measures like end-to-end encryption, decentralized communication, and data protection for message content",
+      "t": "Boolean [1]",
+      "s": "WhatsApp, Element"
+    },
+    {
+      "n": "Platform Support",
+      "d": "Availability on multiple platforms such as iOS, Android, Windows, and Mac to reach diverse users",
+      "t": "Text [*]",
+      "s": "Line, WhatsApp, GroupMe"
+    },
+    {
+      "n": "Cost Efficiency",
+      "d": "Overall cost including free tiers, subscription plans, and per-message fees for broadcasting to multiple contacts",
+      "t": "Float [1]",
+      "s": "Mobile Text Alerts, Textedly, SimpleTexting"
+    }
+  ]
+}

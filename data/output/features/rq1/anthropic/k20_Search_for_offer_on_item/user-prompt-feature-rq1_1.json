@@ -1,0 +1,56 @@
+{
+  "a": [
+    "Honey",
+    "Rakuten",
+    "RetailMeNot",
+    "Ibotta",
+    "Capital One Shopping",
+    "Groupon",
+    "Slickdeals",
+    "Checkout 51",
+    "Fetch Rewards",
+    "Dosh",
+    "GetUpside",
+    "Shopkick",
+    "Flipp",
+    "Swagbucks",
+    "InboxDollars",
+    "Wag",
+    "Rebaid",
+    "CouponCabin",
+    "TopCashback",
+    "Shopular"
+  ],
+  "c": [
+    {
+      "n": "Deal Coverage Breadth",
+      "d": "Number of supported retailers and brands offering deals and cashback opportunities",
+      "t": "Integer [1]",
+      "s": "App store descriptions, official websites, user reviews"
+    },
+    {
+      "n": "Cashback Percentage Rate",
+      "d": "Average percentage of cashback or savings offered across participating merchants",
+      "t": "Float [1]",
+      "s": "App interfaces, promotional materials, comparison websites"
+    },
+    {
+      "n": "User Experience Quality",
+      "d": "Ease of finding deals, app navigation, search functionality, and overall user interface design",
+      "t": "Float [1]",
+      "s": "App store ratings, user reviews, usability testing reports"
+    },
+    {
+      "n": "Deal Discovery Features",
+      "d": "Advanced features like price tracking, deal alerts, barcode scanning, location-based offers",
+      "t": "Integer [1]",
+      "s": "App feature lists, promotional content, user manuals"
+    },
+    {
+      "n": "Payout Reliability",
+      "d": "Consistency and speed of cashback payments, minimum payout thresholds, payment methods available",
+      "t": "Float [1]",
+      "s": "User reviews, terms of service, payment processing information"
+    }
+  ]
+}

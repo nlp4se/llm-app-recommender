@@ -1,0 +1,62 @@
+{
+  "a": [
+    "VSCO",
+    "Snapseed",
+    "Lightroom",
+    "PicsArt",
+    "Canva",
+    "Photoshop Express",
+    "Prisma",
+    "Facetune2",
+    "GIMP",
+    "Pixlr",
+    "Fotor",
+    "PhotoDirector",
+    "Luminar AI",
+    "RNI Films",
+    "Darkroom",
+    "Afterlight",
+    "Huji Cam",
+    "Meitu",
+    "B612",
+    "YouCam Perfect"
+  ],
+  "c": [
+    {
+      "n": "Filter Quality and Variety",
+      "d": "Number and visual quality of built-in filters, effects, and artistic transformations available",
+      "t": "Integer [1-1000+]",
+      "s": "App store descriptions, user reviews, feature comparisons"
+    },
+    {
+      "n": "User Rating and Reviews",
+      "d": "Average user rating score and total number of reviews across app stores",
+      "t": "Float [1.0-5.0] and Integer [1-10000000+]",
+      "s": "Google Play Store, Apple App Store"
+    },
+    {
+      "n": "Advanced Editing Tools",
+      "d": "Availability of professional editing features like curves, HSL adjustments, masking, and layer support",
+      "t": "Boolean and Integer [0-50+]",
+      "s": "Official app documentation, feature lists, professional reviews"
+    },
+    {
+      "n": "Ease of Use",
+      "d": "Intuitive interface design and learning curve for beginners based on user feedback",
+      "t": "Integer [1-10] scale",
+      "s": "User reviews, UX design analysis, tutorial availability"
+    },
+    {
+      "n": "Processing Speed and Performance",
+      "d": "App responsiveness, rendering speed, and stability across different device specifications",
+      "t": "Float [0.1-10.0] seconds for typical operations",
+      "s": "Performance benchmarks, user complaints, technical reviews"
+    },
+    {
+      "n": "Export Quality Options",
+      "d": "Available output resolutions, formats, and compression settings for saving edited photos",
+      "t": "Text and Integer [720p-8K+]",
+      "s": "App specifications, export settings documentation"
+    }
+  ]
+}

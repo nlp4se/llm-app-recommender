@@ -1,0 +1,56 @@
+{
+  "a": [
+    "Temple Run",
+    "Subway Surfers",
+    "Candy Crush Saga",
+    "Among Us",
+    "Roblox",
+    "Clash Royale",
+    "Call of Duty®: Mobile",
+    "Genshin Impact",
+    "Hearthstone",
+    "Mini Metro",
+    "Big Buck Hunter",
+    "Money Well",
+    "Angry Birds",
+    "Sky: Children of the Light",
+    "Dots & Co",
+    "Ludo King",
+    "Dream11",
+    "Royal Match",
+    "Gardenscapes",
+    "8 Ball Pool™"
+  ],
+  "c": [
+    {
+      "n": "Popularity",
+      "d": "Measured by number of downloads and active users indicating how widely played an app is",
+      "t": "Integer [1]",
+      "s": "Singular.net, 300mind.studio"
+    },
+    {
+      "n": "User Ratings",
+      "d": "Average rating scores from app stores reflecting user satisfaction and quality",
+      "t": "Float [1]",
+      "s": "300mind.studio, App Store, Google Play"
+    },
+    {
+      "n": "Engagement",
+      "d": "Level of user interaction and time spent on app indicating addictive gameplay",
+      "t": "Float [1]",
+      "s": "300mind.studio, TheBudgetDiet"
+    },
+    {
+      "n": "Monetization and Rewards",
+      "d": "Ability to earn real money or rewards through gameplay and app usage",
+      "t": "Boolean [1]",
+      "s": "TheBudgetDiet"
+    },
+    {
+      "n": "Game Variety",
+      "d": "Number of different games or game modes within a single app offering diverse experiences",
+      "t": "Integer [1]",
+      "s": "TheBudgetDiet"
+    }
+  ]
+}

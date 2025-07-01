@@ -1,0 +1,68 @@
+{
+  "a": [
+    "Apple Podcasts",
+    "Spotify",
+    "Player FM",
+    "Pocket Casts",
+    "AntennaPod",
+    "Podcast Republic",
+    "SoundCloud",
+    "Google Podcasts",
+    "iCatcher",
+    "Podcast Go",
+    "Queue",
+    "Aurelian",
+    "Castro",
+    "Overcast",
+    "Breaker",
+    "Stitcher",
+    "TuneIn Radio",
+    "Podbean",
+    "Deezer",
+    "Luminary"
+  ],
+  "c": [
+    {
+      "n": "Availability and Platform Support",
+      "d": "Whether the app is available on major platforms like iOS, Android, desktop, and others to ensure accessibility for users.",
+      "t": "Text [*]",
+      "s": "1,2,4"
+    },
+    {
+      "n": "Podcast Library Size",
+      "d": "The quantity and comprehensiveness of the podcast catalog available within the app.",
+      "t": "Integer [1]",
+      "s": "1,2"
+    },
+    {
+      "n": "User Interface and Usability",
+      "d": "How simple, intuitive, and user-friendly the app interface is for browsing, playing, and managing podcasts.",
+      "t": "Text [1]",
+      "s": "1,3,4"
+    },
+    {
+      "n": "Unique Features",
+      "d": "Special functionalities such as voice boost, silence trimming, playback speed adjustment, sleep timer, and curated playlists.",
+      "t": "Text [*]",
+      "s": "1,2,3,4"
+    },
+    {
+      "n": "Cost and Monetization",
+      "d": "Pricing model: free, freemium, subscription cost, and availability of premium features or ad-free listening.",
+      "t": "Text [1]",
+      "s": "1,2,3"
+    },
+    {
+      "n": "Privacy and Data Usage",
+      "d": "Level of data collection, permissions required, and privacy protections offered by the app.",
+      "t": "Text [1]",
+      "s": "4"
+    },
+    {
+      "n": "Content Discovery and Recommendations",
+      "d": "Effectiveness of algorithmic or curated recommendations that help users find new podcasts tailored to their interests.",
+      "t": "Text [1]",
+      "s": "1,2,4"
+    }
+  ]
+}

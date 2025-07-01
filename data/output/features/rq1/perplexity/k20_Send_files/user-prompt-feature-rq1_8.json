@@ -1,0 +1,56 @@
+{
+  "a": [
+    "WeTransfer",
+    "SendAnywhere",
+    "Dropbox Transfer",
+    "Zapya",
+    "Bluetooth File Transfer",
+    "pCloud Transfer",
+    "Google Drive",
+    "AirDroid",
+    "SHAREit",
+    "Xender",
+    "Files by Google",
+    "Resilio Sync",
+    "Smash",
+    "Filemail",
+    "JumboMail",
+    "Hightail",
+    "Box",
+    "Microsoft OneDrive",
+    "Terashare",
+    "Superbeam"
+  ],
+  "c": [
+    {
+      "n": "File Size Limit",
+      "d": "Maximum size of files that can be sent or shared using the app's free or paid version",
+      "t": "Integer [1]",
+      "s": "anyviewer.com, tomsguide.com, dropbox.com"
+    },
+    {
+      "n": "Security",
+      "d": "Type and level of file transfer encryption and any additional security features like password protection",
+      "t": "Text [1]",
+      "s": "anyviewer.com, tomsguide.com"
+    },
+    {
+      "n": "Ease of Use",
+      "d": "User interface simplicity, ease of setup, and convenience for one-off or frequent file transfers",
+      "t": "Text [1][3]",
+      "s": "anyviewer.com, tomsguide.com"
+    },
+    {
+      "n": "Cross-Platform Compatibility",
+      "d": "Availability on multiple device OS platforms such as Android, iOS, Windows, and macOS",
+      "t": "Text [1][2]",
+      "s": "anyviewer.com, mobiletrans.wondershare.com"
+    },
+    {
+      "n": "Additional Features",
+      "d": "Value-added functions such as file preview, collaboration tools, link tracking, or chat",
+      "t": "Text [2][3][4]",
+      "s": "mobiletrans.wondershare.com, tomsguide.com, dropbox.com"
+    }
+  ]
+}

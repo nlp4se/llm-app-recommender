@@ -1,0 +1,74 @@
+{
+  "a": [
+    "Microsoft OneNote",
+    "Simplenote",
+    "Nebo",
+    "Evernote",
+    "Notion",
+    "Obsidian",
+    "Apple Notes",
+    "Google Keep",
+    "GoodNotes",
+    "ClickUp",
+    "Bear",
+    "Zoho Notebook",
+    "Dropbox Paper",
+    "Inkpad Notepad",
+    "Quip",
+    "Standard Notes",
+    "Joplin",
+    "Agenda",
+    "Coda",
+    "Roam Research"
+  ],
+  "c": [
+    {
+      "n": "Cross-platform availability",
+      "d": "Whether the app supports multiple operating systems and devices to ensure seamless syncing",
+      "t": "Text [*]",
+      "s": "ClickUp, Zapier, ScribeCount"
+    },
+    {
+      "n": "Note organization features",
+      "d": "Options for organizing notes such as tags, notebooks, folders, or sections",
+      "t": "Text [*]",
+      "s": "ClickUp, Zapier"
+    },
+    {
+      "n": "Collaboration capabilities",
+      "d": "Ability to share notes and collaborate with others in real time",
+      "t": "Boolean [1]",
+      "s": "ClickUp, Zapier"
+    },
+    {
+      "n": "Handwriting and stylus support",
+      "d": "Support for handwriting recognition, stylus input, and converting handwriting to text",
+      "t": "Boolean [1]",
+      "s": "ScribeCount, ClickUp"
+    },
+    {
+      "n": "Multimedia support",
+      "d": "Capability to add images, sketches, diagrams, audio, and videos to notes",
+      "t": "Boolean [1]",
+      "s": "Zapier, ClickUp"
+    },
+    {
+      "n": "Pricing model",
+      "d": "Availability of free tiers, paid plans, or one-time purchases",
+      "t": "Text [1]",
+      "s": "ClickUp, ScribeCount, Zapier"
+    },
+    {
+      "n": "Sync speed and reliability",
+      "d": "How quickly and reliably the app syncs notes across devices",
+      "t": "Text [1]",
+      "s": "ClickUp"
+    },
+    {
+      "n": "User interface simplicity",
+      "d": "How simple and distraction-free the interface is for focused note-taking",
+      "t": "Text [1]",
+      "s": "ClickUp"
+    }
+  ]
+}

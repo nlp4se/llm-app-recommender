@@ -1,0 +1,56 @@
+{
+  "a": [
+    "PUBG Mobile",
+    "Call of Duty: Mobile",
+    "Genshin Impact",
+    "Clash Royale",
+    "Clash of Clans",
+    "Pokémon GO",
+    "Among Us",
+    "Minecraft",
+    "Roblox",
+    "Fortnite",
+    "Free Fire",
+    "Mobile Legends: Bang Bang",
+    "Candy Crush Saga",
+    "Subway Surfers",
+    "Temple Run 2",
+    "Plants vs. Zombies 2",
+    "Angry Birds 2",
+    "8 Ball Pool",
+    "Words with Friends 2",
+    "Monument Valley"
+  ],
+  "c": [
+    {
+      "n": "Active Player Base",
+      "d": "Monthly active users and concurrent player count indicating game popularity and matchmaking viability",
+      "t": "Integer [1]",
+      "s": "App store analytics, developer reports, gaming industry reports"
+    },
+    {
+      "n": "User Rating and Reviews",
+      "d": "Average rating score and volume of user reviews reflecting overall player satisfaction",
+      "t": "Float [1], Integer [1]",
+      "s": "Google Play Store, Apple App Store"
+    },
+    {
+      "n": "Game Quality and Polish",
+      "d": "Graphics quality, gameplay mechanics, bug frequency, and overall production value",
+      "t": "Text [1]",
+      "s": "Gaming review sites, user feedback, expert reviews"
+    },
+    {
+      "n": "Content Updates and Support",
+      "d": "Frequency of new content releases, bug fixes, and ongoing developer engagement",
+      "t": "Integer [1]",
+      "s": "Developer announcements, app update history, community forums"
+    },
+    {
+      "n": "Monetization Fairness",
+      "d": "Balance between free-to-play accessibility and paid content, avoiding pay-to-win mechanics",
+      "t": "Text [1]",
+      "s": "User reviews, gaming analysis sites, in-app purchase structure"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "a": [
+    "Microsoft OneNote",
+    "Notion",
+    "Evernote",
+    "Nebo",
+    "Simplenote",
+    "Apple Notes",
+    "Google Keep",
+    "Obsidian",
+    "GoodNotes",
+    "ClickUp Docs",
+    "Bear",
+    "Zoho Notebook",
+    "Joplin",
+    "Standard Notes",
+    "Roam Research",
+    "Dynalist",
+    "Quip",
+    "Dropbox Paper",
+    "Amplenote",
+    "Coda"
+  ],
+  "c": [
+    {
+      "n": "Cross-platform availability",
+      "d": "Ability of the app to work seamlessly across multiple devices and operating systems",
+      "t": "Text[1]",
+      "s": "ClickUp, Zapier, ScribeCount"
+    },
+    {
+      "n": "Feature richness",
+      "d": "Includes support for handwriting, text formatting, multimedia embedding, collaboration, export options, and templates",
+      "t": "Text[1][2][3]",
+      "s": "ClickUp, Zapier, ScribeCount"
+    },
+    {
+      "n": "Usability and interface",
+      "d": "User-friendliness, distraction-free design, and suitability for different note-taking styles such as freeform or structured notes",
+      "t": "Text[1][2][3]",
+      "s": "ClickUp, Zapier, ScribeCount"
+    },
+    {
+      "n": "Pricing model",
+      "d": "Cost of use, including free tier availability, subscription fees, or one-time purchase",
+      "t": "Text[1][3]",
+      "s": "ClickUp, ScribeCount"
+    },
+    {
+      "n": "Handwriting support",
+      "d": "Ability to convert handwritten notes to editable text and support stylus input",
+      "t": "Boolean[3]",
+      "s": "ScribeCount, YouTube"
+    },
+    {
+      "n": "Collaboration features",
+      "d": "Support for sharing notes, real-time editing, and team collaboration",
+      "t": "Boolean[1][2]",
+      "s": "ClickUp, Zapier"
+    },
+    {
+      "n": "Search and organization",
+      "d": "Capabilities for tagging, search, version history, and organizing notes in notebooks or sections",
+      "t": "Text[1][2]",
+      "s": "ClickUp, Zapier"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "a": [
+    "Apple Podcasts",
+    "Spotify",
+    "Player FM",
+    "Pocket Casts",
+    "AntennaPod",
+    "Podcast Republic",
+    "Google Podcasts",
+    "SoundCloud",
+    "iCatcher",
+    "Podcast Go",
+    "Queue",
+    "Aurelian",
+    "Castro",
+    "Overcast",
+    "Stitcher",
+    "Breaker",
+    "Luminary",
+    "Anchor",
+    "TuneIn Radio",
+    "Deezer"
+  ],
+  "c": [
+    {
+      "n": "Podcast Library Size",
+      "d": "Number of available podcast titles in the app's database",
+      "t": "Integer [1]",
+      "s": "WhatPods, Descript"
+    },
+    {
+      "n": "Platform Compatibility",
+      "d": "Supported operating systems (iOS, Android, desktop) and device integrations",
+      "t": "Text [*]",
+      "s": "WhatPods, Descript, Transistor"
+    },
+    {
+      "n": "User Interface and Usability",
+      "d": "Ease of navigation, playback controls, and discovery features",
+      "t": "Text [1]",
+      "s": "WhatPods, Lifehacker, Transistor"
+    },
+    {
+      "n": "Advanced Playback Features",
+      "d": "Features like voice boost, silence trimming, variable speed playback, and skip silence",
+      "t": "Boolean [*]",
+      "s": "WhatPods, Transistor, Descript"
+    },
+    {
+      "n": "Pricing Model",
+      "d": "Whether the app is free, freemium, or subscription-based",
+      "t": "Text [1]",
+      "s": "WhatPods, Descript"
+    },
+    {
+      "n": "Privacy and Data Collection",
+      "d": "Whether the app collects user data and the level of permissions required",
+      "t": "Boolean [1]",
+      "s": "Transistor"
+    },
+    {
+      "n": "Content Discovery and Recommendations",
+      "d": "Algorithms or curated playlists that help users find new podcasts",
+      "t": "Text [1]",
+      "s": "Descript, Transistor"
+    },
+    {
+      "n": "Exclusive Content Availability",
+      "d": "Access to exclusive or original podcast content only available on the app",
+      "t": "Boolean [1]",
+      "s": "Lifehacker, Transistor"
+    }
+  ]
+}

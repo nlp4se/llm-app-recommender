@@ -1,0 +1,68 @@
+{
+  "a": [
+    "Bigo Live",
+    "Facebook Live",
+    "YouTube Live",
+    "EventLive",
+    "Instagram Live",
+    "TikTok Live",
+    "Twitch",
+    "Kick",
+    "Vimeo",
+    "StreamYard",
+    "Restream",
+    "Uscreen",
+    "LinkedIn Live",
+    "Periscope",
+    "Caffeine",
+    "DLive",
+    "Mixer",
+    "Discord Streaming",
+    "Trovo",
+    "Streamlabs"
+  ],
+  "c": [
+    {
+      "n": "User Base Size",
+      "d": "The total number of active users or downloads indicating the app's popularity and reach for live streaming.",
+      "t": "Integer [1]",
+      "s": "Google Play Store, Official App Websites"
+    },
+    {
+      "n": "Video Quality",
+      "d": "Maximum resolution and stability of live stream video output to viewers.",
+      "t": "Text [1]",
+      "s": "Official App Descriptions"
+    },
+    {
+      "n": "Monetization Options",
+      "d": "Availability of features such as ads, donations, subscriptions, sponsorships, and virtual gifts for streamers to generate income.",
+      "t": "Text [1]",
+      "s": "Official App Descriptions, Reviews"
+    },
+    {
+      "n": "Multistreaming Capability",
+      "d": "Ability to broadcast live simultaneously on multiple platforms or social networks.",
+      "t": "Boolean [1]",
+      "s": "App Feature Lists"
+    },
+    {
+      "n": "Audience Interaction",
+      "d": "Availability of interactive features like live chat, polls, virtual gifts, and guest streaming that enhance viewer engagement.",
+      "t": "Text [1]",
+      "s": "Official App Descriptions"
+    },
+    {
+      "n": "Ease of Use",
+      "d": "How simple and intuitive the app interface is for starting and managing live streams.",
+      "t": "Text [1]",
+      "s": "User Reviews, App Store Descriptions"
+    },
+    {
+      "n": "Platform Compatibility",
+      "d": "Support for different devices and operating systems including mobile (Android/iOS) and desktop browsers.",
+      "t": "Text [*]",
+      "s": "Official App Specifications"
+    }
+  ]
+}

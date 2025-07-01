@@ -1,0 +1,86 @@
+{
+  "a": [
+    "Mobile Text Alerts",
+    "Textedly",
+    "SimpleTexting",
+    "EZ Texting",
+    "Text-Em-All",
+    "Sakari",
+    "GroupMe",
+    "Slack",
+    "Microsoft Teams",
+    "Google Chat",
+    "Discord",
+    "Rocket.Chat",
+    "Flock",
+    "Ryver",
+    "Element",
+    "Line",
+    "WhatsApp",
+    "Twist",
+    "Signal",
+    "Telegram"
+  ],
+  "c": [
+    {
+      "n": "Message Broadcasting Capacity",
+      "d": "Maximum number of contacts or messages that can be broadcast at once",
+      "t": "Integer[1]",
+      "s": "Mobile Text Alerts, Textedly, SimpleTexting[3][4]"
+    },
+    {
+      "n": "Platform Integration",
+      "d": "Compatibility with other software and services for streamlined communication",
+      "t": "Text[1][5]",
+      "s": "Slack, Microsoft Teams, Google Chat, Rocket.Chat"
+    },
+    {
+      "n": "Ease of Use",
+      "d": "Level of user-friendliness and simplicity in sending broadcast messages",
+      "t": "Text[1][2][3]",
+      "s": "GroupMe, Mobile Text Alerts, SimpleTexting"
+    },
+    {
+      "n": "Message Types Supported",
+      "d": "Types of messages supported such as SMS, MMS, multimedia, links, or interactive content",
+      "t": "Text[1][2]",
+      "s": "Textedly, GroupMe, Line, WhatsApp"
+    },
+    {
+      "n": "Analytics & Reporting",
+      "d": "Availability of real-time analytics to monitor message delivery and engagement",
+      "t": "Boolean[1]",
+      "s": "Mobile Text Alerts, SimpleTexting, Sakari"
+    },
+    {
+      "n": "Security & Privacy",
+      "d": "Level of encryption and privacy measures implemented",
+      "t": "Text[1][2]",
+      "s": "Element, WhatsApp, Signal"
+    },
+    {
+      "n": "Group Management Features",
+      "d": "Tools for managing contact groups, segmentation, and message targeting",
+      "t": "Text[1][2]",
+      "s": "GroupMe, Text-Em-All, Slack"
+    },
+    {
+      "n": "Automation & Scheduling",
+      "d": "Capability to schedule messages and automate follow-ups",
+      "t": "Boolean[1]",
+      "s": "Mobile Text Alerts, EZ Texting, Text-Em-All"
+    },
+    {
+      "n": "Multimedia Support",
+      "d": "Support for sending photos, videos, voice, and other media types",
+      "t": "Boolean[1]",
+      "s": "GroupMe, Line, Discord"
+    },
+    {
+      "n": "Cross-Platform Availability",
+      "d": "Availability on multiple devices such as iOS, Android, Windows, Mac",
+      "t": "Text[1][2]",
+      "s": "GroupMe, WhatsApp, Line"
+    }
+  ]
+}

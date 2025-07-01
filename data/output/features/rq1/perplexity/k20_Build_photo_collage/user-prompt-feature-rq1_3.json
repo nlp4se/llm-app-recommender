@@ -1,0 +1,74 @@
+{
+  "a": [
+    "PhotoGrid",
+    "Ribbet",
+    "Collage Maker - LiveCollage",
+    "PicCollage",
+    "InCollage",
+    "MOLDIV",
+    "Adobe Spark",
+    "Canva Collage Templates",
+    "BeFunky Collage Maker",
+    "piZap",
+    "Fotor Collage Maker",
+    "Photovisi",
+    "Google Photos",
+    "PicMonkey",
+    "PhotoDirector",
+    "Moldiv",
+    "Photo Lab",
+    "Layout from Instagram",
+    "Moldiv",
+    "PicsArt"
+  ],
+  "c": [
+    {
+      "n": "Number of Collage Templates/Layouts",
+      "d": "The total count of unique collage templates or customizable layouts available to users",
+      "t": "Integer[1]",
+      "s": "Shutterfly[1], CyberLink[2], AppypieDesign[3], PhotoGrid[4]"
+    },
+    {
+      "n": "Cross-Platform Availability",
+      "d": "Availability across major platforms such as iOS, Android, and Web",
+      "t": "Text[1]",
+      "s": "Shutterfly[1], CyberLink[2], AppypieDesign[3]"
+    },
+    {
+      "n": "AI-Powered Features",
+      "d": "Inclusion of AI tools such as background removal, template generation, and image enhancement",
+      "t": "Boolean[1]",
+      "s": "AppypieDesign[3], PhotoGrid[4]"
+    },
+    {
+      "n": "Editing Tools and Customization",
+      "d": "Range and quality of editing options including filters, text addition, stickers, cropping, and adjustments",
+      "t": "Text[1]",
+      "s": "Shutterfly[1], CyberLink[2], AppypieDesign[3]"
+    },
+    {
+      "n": "User Interface Simplicity",
+      "d": "Ease of use and intuitiveness of the app interface for beginner and casual users",
+      "t": "Text[1]",
+      "s": "Shutterfly[1], CyberLink[2]"
+    },
+    {
+      "n": "Pricing Model",
+      "d": "Cost structure including free availability, subscriptions, or one-time purchases",
+      "t": "Text[1]",
+      "s": "Shutterfly[1], CyberLink[2], AppypieDesign[3]"
+    },
+    {
+      "n": "Social Media Integration and Sharing",
+      "d": "Ability to link with social media accounts and share collages directly",
+      "t": "Boolean[1]",
+      "s": "CyberLink[2], Shutterfly[1]"
+    },
+    {
+      "n": "Additional Media Support",
+      "d": "Support for adding not only photos but also GIFs, videos, and animations within collages",
+      "t": "Boolean[1]",
+      "s": "Shutterfly[1], AppypieDesign[3]"
+    }
+  ]
+}

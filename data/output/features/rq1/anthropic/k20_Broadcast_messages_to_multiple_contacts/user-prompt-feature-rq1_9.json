@@ -1,0 +1,56 @@
+{
+  "a": [
+    "WhatsApp Business",
+    "Telegram",
+    "Signal",
+    "GroupMe",
+    "Viber",
+    "LINE",
+    "WeChat",
+    "Facebook Messenger",
+    "Discord",
+    "Slack",
+    "Microsoft Teams",
+    "Skype",
+    "Kik",
+    "Threema",
+    "Wire",
+    "Element",
+    "Wickr Me",
+    "Session",
+    "Briar",
+    "Riot.im"
+  ],
+  "c": [
+    {
+      "n": "Broadcast List Capacity",
+      "d": "Maximum number of contacts that can be added to a single broadcast list or group message",
+      "t": "Integer [1]",
+      "s": "App documentation, official websites, user testing"
+    },
+    {
+      "n": "User Base Size",
+      "d": "Total number of active users globally, indicating reach potential and contact availability",
+      "t": "Integer [1]",
+      "s": "Company reports, market research, app store statistics"
+    },
+    {
+      "n": "Message Delivery Reliability",
+      "d": "Percentage of messages successfully delivered to recipients without delays or failures",
+      "t": "Float [1]",
+      "s": "User reviews, technical testing, service status reports"
+    },
+    {
+      "n": "Cross-Platform Availability",
+      "d": "Number of platforms and devices the app supports for seamless broadcasting",
+      "t": "Integer [1]",
+      "s": "App stores, official websites, platform documentation"
+    },
+    {
+      "n": "Privacy Protection Level",
+      "d": "Strength of encryption and privacy features protecting broadcast messages from unauthorized access",
+      "t": "Text [1]",
+      "s": "Security audits, privacy policies, technical documentation"
+    }
+  ]
+}

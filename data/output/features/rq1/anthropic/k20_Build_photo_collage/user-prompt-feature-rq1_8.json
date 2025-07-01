@@ -1,0 +1,62 @@
+{
+  "a": [
+    "Canva",
+    "Adobe Express",
+    "PicsArt",
+    "Moldiv",
+    "Photo Grid",
+    "Layout from Instagram",
+    "Pic Collage",
+    "VSCO",
+    "Fotor",
+    "Photo Editor Pro",
+    "InShot",
+    "Unfold",
+    "StoryChic",
+    "PhotoDirector",
+    "Photo Collage Maker",
+    "PicMonkey",
+    "Snapseed",
+    "Diptic",
+    "TurboCollage",
+    "Shape Collage"
+  ],
+  "c": [
+    {
+      "n": "Template Variety",
+      "d": "Number and diversity of pre-designed collage templates available",
+      "t": "Integer [1]",
+      "s": "App store descriptions, user reviews, app feature lists"
+    },
+    {
+      "n": "Customization Options",
+      "d": "Range of editing tools including layouts, borders, backgrounds, text, and effects",
+      "t": "Integer [1]",
+      "s": "App feature documentation, user interface analysis, review content"
+    },
+    {
+      "n": "User Interface Quality",
+      "d": "Ease of use, intuitive design, and user experience rating",
+      "t": "Float [1]",
+      "s": "User reviews, app store ratings, usability studies"
+    },
+    {
+      "n": "Photo Import Flexibility",
+      "d": "Number of supported photo sources and maximum photos per collage",
+      "t": "Integer [1]",
+      "s": "App specifications, feature lists, user manuals"
+    },
+    {
+      "n": "Export Quality Options",
+      "d": "Available resolution settings and file format options for saving collages",
+      "t": "Integer [1]",
+      "s": "App settings, technical specifications, user guides"
+    },
+    {
+      "n": "Performance Stability",
+      "d": "App crash frequency and processing speed for collage creation",
+      "t": "Float [1]",
+      "s": "User reviews, app store feedback, performance testing reports"
+    }
+  ]
+}

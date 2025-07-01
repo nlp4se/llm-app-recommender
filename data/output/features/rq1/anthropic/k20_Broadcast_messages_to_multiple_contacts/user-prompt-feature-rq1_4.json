@@ -1,0 +1,56 @@
+{
+  "a": [
+    "WhatsApp Business",
+    "Telegram",
+    "GroupMe",
+    "Slack",
+    "Discord",
+    "Microsoft Teams",
+    "Signal",
+    "Viber",
+    "Line",
+    "WeChat",
+    "Facebook Messenger",
+    "Skype",
+    "Google Chat",
+    "Threema",
+    "Wire",
+    "Element",
+    "Rocket.Chat",
+    "Zalo",
+    "KakaoTalk",
+    "TextNow"
+  ],
+  "c": [
+    {
+      "n": "Broadcast List Capacity",
+      "d": "Maximum number of contacts that can be added to a single broadcast list or group message",
+      "t": "Integer [1]",
+      "s": "App documentation, user guides, platform specifications"
+    },
+    {
+      "n": "Contact Management Features",
+      "d": "Quality and comprehensiveness of contact organization, labeling, and segmentation tools",
+      "t": "Integer [1-10]",
+      "s": "App interface analysis, feature documentation, user reviews"
+    },
+    {
+      "n": "Message Delivery Reliability",
+      "d": "Consistency and success rate of message delivery to all intended recipients",
+      "t": "Float [0.0-1.0]",
+      "s": "User feedback, technical reviews, platform reliability reports"
+    },
+    {
+      "n": "Multi-Platform Availability",
+      "d": "Number of platforms supported including mobile, desktop, and web versions",
+      "t": "Integer [1-5]",
+      "s": "Official app stores, platform websites, compatibility documentation"
+    },
+    {
+      "n": "Message Format Support",
+      "d": "Variety of supported message types including text, images, videos, documents, and rich media",
+      "t": "Integer [1-10]",
+      "s": "Feature specifications, user interface analysis, official documentation"
+    }
+  ]
+}

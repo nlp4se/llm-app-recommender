@@ -1,0 +1,62 @@
+{
+  "a": [
+    "Canva",
+    "PicCollage",
+    "PhotoGrid",
+    "Layout from Instagram",
+    "Pic Stitch",
+    "Moldiv",
+    "Photo Collage Maker",
+    "Fotor",
+    "Adobe Photoshop Express",
+    "VSCO",
+    "Collage Maker",
+    "InstaSize",
+    "FotoRus",
+    "Photo Editor Pro",
+    "Diptic",
+    "TurboCollage",
+    "Shape Collage",
+    "CollageIt",
+    "Photo Collage Editor",
+    "Ribbet"
+  ],
+  "c": [
+    {
+      "n": "Template Variety",
+      "d": "Number and diversity of pre-built collage templates and layouts available",
+      "t": "Integer [1]",
+      "s": "App store descriptions, user reviews, app feature lists"
+    },
+    {
+      "n": "User Rating",
+      "d": "Average user rating score across app stores reflecting overall satisfaction",
+      "t": "Float [1]",
+      "s": "Google Play Store, Apple App Store"
+    },
+    {
+      "n": "Ease of Use",
+      "d": "Intuitive interface design and user-friendly workflow for creating collages",
+      "t": "Integer [1]",
+      "s": "User reviews, app store feedback, usability assessments"
+    },
+    {
+      "n": "Customization Options",
+      "d": "Range of editing tools including borders, backgrounds, text, stickers, and filters",
+      "t": "Integer [1]",
+      "s": "App feature descriptions, user reviews, app documentation"
+    },
+    {
+      "n": "Export Quality",
+      "d": "Maximum resolution and quality options for saving finished collages",
+      "t": "Text [1]",
+      "s": "App specifications, user reviews, technical documentation"
+    },
+    {
+      "n": "Free Features",
+      "d": "Extent of functionality available without premium subscription or one-time purchase",
+      "t": "Integer [1]",
+      "s": "App store listings, pricing information, user feedback"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "a": [
+    "IMDb",
+    "Letterboxd",
+    "The Movie Database (TMDb)",
+    "Rotten Tomatoes",
+    "Criticker",
+    "Moviebase",
+    "JustWatch",
+    "Flixster",
+    "MovieLens",
+    "Trakt",
+    "FilmAffinity",
+    "iCheckMovies",
+    "Showly",
+    "CineTrak",
+    "Movie Maker FilmmakerPro",
+    "Watcht",
+    "MyMovies",
+    "Flickmetrix",
+    "MoviePass Films",
+    "Cinelog"
+  ],
+  "c": [
+    {
+      "n": "User Base Size",
+      "d": "Total number of active users providing ratings and reviews on the platform",
+      "t": "Integer [1]",
+      "s": "App store data, company reports, third-party analytics"
+    },
+    {
+      "n": "Rating Scale Granularity",
+      "d": "Level of detail in rating system (e.g., 5-star, 10-point, percentage scale)",
+      "t": "Float [1]",
+      "s": "App interface, user documentation"
+    },
+    {
+      "n": "Movie Database Completeness",
+      "d": "Percentage of movies available for rating including mainstream, indie, and international films",
+      "t": "Float [1]",
+      "s": "Database queries, catalog analysis, user reports"
+    },
+    {
+      "n": "Social Features Quality",
+      "d": "Availability and functionality of features like following users, sharing reviews, discussion forums",
+      "t": "Integer [1]",
+      "s": "App feature analysis, user interface review"
+    },
+    {
+      "n": "Professional Integration",
+      "d": "Integration with professional movie databases, critic scores, and industry data",
+      "t": "Boolean [1]",
+      "s": "API documentation, partnership announcements, feature listings"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "a": [
+    "Netflix",
+    "Amazon Prime Video",
+    "Disney+",
+    "HBO Max",
+    "Hulu",
+    "Apple TV+",
+    "Paramount+",
+    "Peacock",
+    "YouTube Premium",
+    "Starz",
+    "Plex",
+    "Hoopla",
+    "Qewd",
+    "JustWatch",
+    "Reelgood",
+    "TV Time",
+    "Watchworthy",
+    "Tubi",
+    "Crackle",
+    "Vudu"
+  ],
+  "c": [
+    {
+      "n": "Content Library Size",
+      "d": "The number and variety of movies and TV shows available on the app",
+      "t": "Integer[1]",
+      "s": "Vocal Media, Plex app"
+    },
+    {
+      "n": "Subscription Model",
+      "d": "Whether the app requires a paid subscription, is free, or offers both free and premium content",
+      "t": "Text[1]",
+      "s": "Vocal Media, Plex app"
+    },
+    {
+      "n": "Streaming Quality and Experience",
+      "d": "Includes video resolution, ad presence, and user interface for streaming",
+      "t": "Text[1]",
+      "s": "Plex app, Consumer Reports"
+    },
+    {
+      "n": "Cross-Platform Integration",
+      "d": "Ability to connect and unify watchlists and streaming services into one app",
+      "t": "Boolean[1]",
+      "s": "Plex app, Qewd"
+    },
+    {
+      "n": "Unique Features",
+      "d": "Specific features like social recommendations, personal media streaming, or specialized content",
+      "t": "Text[*]",
+      "s": "Consumer Reports, Plex, Vocal Media"
+    }
+  ]
+}

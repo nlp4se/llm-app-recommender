@@ -1,0 +1,56 @@
+{
+  "a": [
+    "IMDb",
+    "Letterboxd",
+    "TMDb",
+    "Rotten Tomatoes",
+    "JustWatch",
+    "Flixster",
+    "Criticker",
+    "Trakt",
+    "Filmaffinity",
+    "MovieLens",
+    "Goodfilms",
+    "iCheckMovies",
+    "Cinemagoer",
+    "Flickmetrix",
+    "Rate Your Music",
+    "AllMovie",
+    "Movieo",
+    "CineTrak",
+    "Movie Collection",
+    "My Movies"
+  ],
+  "c": [
+    {
+      "n": "User Base Size",
+      "d": "Total number of active users contributing ratings and reviews to the platform",
+      "t": "Integer [1]",
+      "s": "App store analytics, company reports, third-party market research"
+    },
+    {
+      "n": "Movie Database Coverage",
+      "d": "Comprehensive coverage of movies across different genres, years, and regions including mainstream and indie films",
+      "t": "Integer [1]",
+      "s": "Platform databases, content catalogs, feature comparisons"
+    },
+    {
+      "n": "Rating System Quality",
+      "d": "Sophistication and granularity of rating mechanisms including scale options, review features, and recommendation algorithms",
+      "t": "Text [1]",
+      "s": "App interface analysis, user experience reviews, feature documentation"
+    },
+    {
+      "n": "Social Features",
+      "d": "Availability of social interaction features like following users, sharing reviews, creating lists, and community discussions",
+      "t": "Boolean [*]",
+      "s": "App store descriptions, user reviews, platform feature lists"
+    },
+    {
+      "n": "Cross-Platform Availability",
+      "d": "Accessibility across multiple devices and platforms including mobile apps, web browsers, and desktop applications",
+      "t": "Boolean [*]",
+      "s": "Official websites, app stores, platform compatibility information"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "a": [
+    "ShopSavvy",
+    "The Coupons App",
+    "Sherpa Perks",
+    "CamelCamelCamel",
+    "BizRate",
+    "PriceGrabber",
+    "eBay",
+    "Facebook Marketplace",
+    "Poshmark",
+    "OfferUp",
+    "Mercari",
+    "Craigslist",
+    "Depop",
+    "BuyVia",
+    "Amazon",
+    "Purchx",
+    "ScanLife",
+    "Now Discount",
+    "Quick Scan",
+    "Shopular"
+  ],
+  "c": [
+    {
+      "n": "Price Comparison Ability",
+      "d": "Capability of the app to compare prices from multiple stores or websites for the same product to find the best deal",
+      "t": "Boolean[1]",
+      "s": "NextStepLiving, Top10.com"
+    },
+    {
+      "n": "Coupon and Discount Availability",
+      "d": "Availability of coupons, discount codes, or daily deals provided within the app for various products",
+      "t": "Boolean[1]",
+      "s": "NextStepLiving"
+    },
+    {
+      "n": "Price Alert Feature",
+      "d": "Ability to set alerts for price drops or deals on specific items",
+      "t": "Boolean[1]",
+      "s": "Emizentech, FinancialPost"
+    },
+    {
+      "n": "User Ratings and Reviews",
+      "d": "Presence of user ratings and reviews to assess trustworthiness and deal quality",
+      "t": "Float[1]",
+      "s": "JotformBlog, NextStepLiving"
+    },
+    {
+      "n": "Product Coverage",
+      "d": "Range of product categories covered by the app for deal searching and price comparison",
+      "t": "Text[1]",
+      "s": "NextStepLiving, Top10.com"
+    },
+    {
+      "n": "Platform Availability",
+      "d": "Platforms supported by the app such as iOS, Android, or web",
+      "t": "Text[*]",
+      "s": "JotformBlog, NextStepLiving"
+    },
+    {
+      "n": "Local Deal Support",
+      "d": "Support for finding deals or discounts from local stores or marketplaces",
+      "t": "Boolean[1]",
+      "s": "NextStepLiving, JotformBlog, Top10.com"
+    }
+  ]
+}

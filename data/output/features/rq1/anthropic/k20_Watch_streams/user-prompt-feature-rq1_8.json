@@ -1,0 +1,62 @@
+{
+  "a": [
+    "Twitch",
+    "YouTube",
+    "Netflix",
+    "Disney+",
+    "Amazon Prime Video",
+    "Hulu",
+    "HBO Max",
+    "Apple TV+",
+    "Paramount+",
+    "Peacock TV",
+    "Discovery+",
+    "Crunchyroll",
+    "Funimation",
+    "ESPN+",
+    "Sling TV",
+    "YouTube TV",
+    "Hulu + Live TV",
+    "FuboTV",
+    "Pluto TV",
+    "Tubi"
+  ],
+  "c": [
+    {
+      "n": "Content Library Size",
+      "d": "Total number of movies, TV shows, live streams, and other video content available on the platform",
+      "t": "Integer [1]",
+      "s": "App store descriptions, official platform statistics, third-party content databases"
+    },
+    {
+      "n": "Video Quality Support",
+      "d": "Maximum supported video resolution and streaming quality (480p, 720p, 1080p, 4K, HDR)",
+      "t": "Text [1]",
+      "s": "Technical specifications, app store features, platform documentation"
+    },
+    {
+      "n": "User Rating",
+      "d": "Average user rating score from app stores and review platforms",
+      "t": "Float [1]",
+      "s": "App Store ratings, Google Play ratings, user review aggregators"
+    },
+    {
+      "n": "Monthly Active Users",
+      "d": "Number of monthly active users globally accessing the streaming platform",
+      "t": "Integer [1]",
+      "s": "Company reports, market research, analytics platforms"
+    },
+    {
+      "n": "Platform Availability",
+      "d": "Number of different platforms and devices the app supports (iOS, Android, Smart TV, Web, etc.)",
+      "t": "Integer [1]",
+      "s": "Official platform support pages, app store availability"
+    },
+    {
+      "n": "Subscription Cost",
+      "d": "Monthly subscription price in USD for basic tier access",
+      "t": "Float [1]",
+      "s": "Official pricing pages, subscription plan details"
+    }
+  ]
+}

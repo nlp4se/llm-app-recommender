@@ -1,0 +1,56 @@
+{
+  "a": [
+    "Notion",
+    "Obsidian",
+    "Evernote",
+    "OneNote",
+    "Apple Notes",
+    "Google Keep",
+    "Roam Research",
+    "Logseq",
+    "RemNote",
+    "Craft",
+    "Bear",
+    "Joplin",
+    "Standard Notes",
+    "Simplenote",
+    "Typora",
+    "Markdown Editor",
+    "Day One",
+    "Journey",
+    "Diarium",
+    "GoodNotes"
+  ],
+  "c": [
+    {
+      "n": "Cross-platform synchronization",
+      "d": "Ability to sync notes seamlessly across multiple devices and operating systems",
+      "t": "Boolean [1]",
+      "s": "App store descriptions, official websites, user reviews"
+    },
+    {
+      "n": "Feature richness",
+      "d": "Comprehensive set of note-taking features including formatting, media embedding, linking, templates, and organization tools",
+      "t": "Integer [1-10]",
+      "s": "Feature lists, app documentation, hands-on testing"
+    },
+    {
+      "n": "User rating",
+      "d": "Average user rating across major app stores indicating overall user satisfaction",
+      "t": "Float [1.0-5.0]",
+      "s": "App Store, Google Play Store, user review platforms"
+    },
+    {
+      "n": "Performance and reliability",
+      "d": "App stability, loading speed, search functionality, and consistent performance across devices",
+      "t": "Integer [1-10]",
+      "s": "User reviews, technical benchmarks, stability reports"
+    },
+    {
+      "n": "Collaboration capabilities",
+      "d": "Support for real-time collaboration, sharing, and team-based note management",
+      "t": "Integer [1-10]",
+      "s": "Feature documentation, collaborative testing, user feedback"
+    }
+  ]
+}

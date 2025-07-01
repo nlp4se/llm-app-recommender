@@ -1,0 +1,62 @@
+{
+  "a": [
+    "Twitch",
+    "YouTube",
+    "Netflix",
+    "Disney+",
+    "Amazon Prime Video",
+    "Hulu",
+    "HBO Max",
+    "Apple TV+",
+    "Paramount+",
+    "Peacock",
+    "Facebook Gaming",
+    "YouTube TV",
+    "Sling TV",
+    "FuboTV",
+    "Pluto TV",
+    "Tubi",
+    "Crunchyroll",
+    "ESPN+",
+    "Discovery+",
+    "Spotify"
+  ],
+  "c": [
+    {
+      "n": "Content Library Size",
+      "d": "Total number of available streams, shows, movies, and live channels",
+      "t": "Integer [1]",
+      "s": "App store descriptions, official websites, content databases"
+    },
+    {
+      "n": "Monthly Active Users",
+      "d": "Number of users actively using the platform monthly for streaming",
+      "t": "Integer [1]",
+      "s": "Public reports, analytics platforms, company earnings reports"
+    },
+    {
+      "n": "Streaming Quality",
+      "d": "Maximum supported video resolution and audio quality",
+      "t": "Text [1]",
+      "s": "Technical specifications, user reviews, platform documentation"
+    },
+    {
+      "n": "Platform Availability",
+      "d": "Number of devices and platforms the app supports",
+      "t": "Integer [1]",
+      "s": "Official platform support pages, app store availability"
+    },
+    {
+      "n": "User Rating",
+      "d": "Average user rating across major app stores",
+      "t": "Float [1]",
+      "s": "Google Play Store, Apple App Store, review aggregators"
+    },
+    {
+      "n": "Subscription Cost",
+      "d": "Monthly subscription price for standard tier",
+      "t": "Float [1]",
+      "s": "Official pricing pages, subscription comparison sites"
+    }
+  ]
+}

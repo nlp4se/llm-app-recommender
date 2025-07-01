@@ -1,0 +1,68 @@
+{
+  "a": [
+    "Mobile Text Alerts",
+    "Textedly",
+    "SimpleTexting",
+    "EZ Texting",
+    "Text-Em-All",
+    "Sakari",
+    "Emitrr",
+    "GroupMe",
+    "Slack",
+    "Microsoft Teams",
+    "Google Chat",
+    "Discord",
+    "Line",
+    "Rocket.Chat",
+    "Flock",
+    "Ryver",
+    "Element",
+    "WhatsApp",
+    "WhatsApp Business",
+    "Telegram"
+  ],
+  "c": [
+    {
+      "n": "Scalability",
+      "d": "The ability to send messages to a very large number of contacts (e.g., millions daily) without performance issues",
+      "t": "Integer[1]",
+      "s": "Mobile Text Alerts, Textedly, SimpleTexting"
+    },
+    {
+      "n": "Message Personalization",
+      "d": "Capability to send individualized messages rather than bulk group messages, allowing personal customization",
+      "t": "Boolean[1]",
+      "s": "Emitrr, GroupMe"
+    },
+    {
+      "n": "Multi-Platform Support",
+      "d": "Availability on major platforms such as iOS, Android, Windows, and Mac",
+      "t": "Text[4]",
+      "s": "Line, WhatsApp, GroupMe, Microsoft Teams"
+    },
+    {
+      "n": "Integration With Productivity Tools",
+      "d": "Ability to integrate with collaboration or business productivity software ecosystems",
+      "t": "Boolean[1]",
+      "s": "Slack, Microsoft Teams, Google Chat, Lark"
+    },
+    {
+      "n": "Message Types Supported",
+      "d": "Range of supported message content such as SMS, MMS, images, videos, GIFs, emojis, location sharing",
+      "t": "Text[*]",
+      "s": "GroupMe, Line, Discord, WhatsApp"
+    },
+    {
+      "n": "Analytics and Reporting",
+      "d": "Availability of tools for tracking delivery, engagement, and campaign performance metrics",
+      "t": "Boolean[1]",
+      "s": "Mobile Text Alerts, Sakari, Textedly"
+    },
+    {
+      "n": "User Interface and Usability",
+      "d": "Ease of use including intuitive design and accessibility features",
+      "t": "Text[1]",
+      "s": "GroupMe, Emitrr"
+    }
+  ]
+}

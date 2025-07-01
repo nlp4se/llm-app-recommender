@@ -1,0 +1,68 @@
+{
+  "a": [
+    "Bigo Live",
+    "YouTube Live",
+    "Facebook Live",
+    "Instagram Live",
+    "TikTok Live",
+    "Twitch",
+    "Kick",
+    "Vimeo",
+    "StreamYard",
+    "Restream",
+    "Uscreen",
+    "EventLive",
+    "LinkedIn Live",
+    "Periscope",
+    "Discord Go Live",
+    "Trovo",
+    "DLive",
+    "Caffeine",
+    "Streamlabs",
+    "Mobcrush"
+  ],
+  "c": [
+    {
+      "n": "User Base Size",
+      "d": "The total number of active downloads or users indicating the platform's popularity and reach.",
+      "t": "Integer [1]",
+      "s": "Google Play Store, Official App Websites"
+    },
+    {
+      "n": "Monetization Options",
+      "d": "Availability of ads, sponsorships, virtual gifts, subscriptions, and other revenue mechanisms for streamers.",
+      "t": "Text [*]",
+      "s": "App Descriptions, Platform Documentation"
+    },
+    {
+      "n": "Streaming Features",
+      "d": "Types of live streaming supported including video, audio-only, multi-guest livestreaming, game live, and screen sharing.",
+      "t": "Text [*]",
+      "s": "App Features Description, Reviews"
+    },
+    {
+      "n": "Cross-Platform Capabilities",
+      "d": "Ability to stream simultaneously on multiple platforms or share streams across social media channels.",
+      "t": "Boolean [1]",
+      "s": "Platform Features Overview"
+    },
+    {
+      "n": "Pricing Model",
+      "d": "Whether the app is free, freemium, or subscription-based and availability of in-app purchases.",
+      "t": "Text [1]",
+      "s": "App Store Listings, Pricing Pages"
+    },
+    {
+      "n": "Video Quality",
+      "d": "Maximum and typical resolution quality available during live streaming sessions.",
+      "t": "Text [1]",
+      "s": "Official Platform Specifications"
+    },
+    {
+      "n": "Community Engagement Features",
+      "d": "Options for live interaction such as chat, polls, live games, and multi-guest streams.",
+      "t": "Text [*]",
+      "s": "App Feature Lists, User Reviews"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "a": [
+    "REAL Shuffle Player",
+    "Shuffle Music",
+    "Spotify",
+    "VLC for Android",
+    "Poweramp Music Player",
+    "Musicolet Music Player",
+    "PlayerPro Music Player",
+    "Pi Music Player",
+    "BlackPlayer Music Player",
+    "Neutron Music Player",
+    "JetAudio HD Music Player",
+    "AIMP",
+    "Shuttle Music Player",
+    "n7player Music Player",
+    "Rocket Player",
+    "GoneMAD Music Player",
+    "Phonograph Music Player",
+    "DoubleTwist Music Player",
+    "Music Player - Audio Player",
+    "Google Play Music"
+  ],
+  "c": [
+    {
+      "n": "Shuffle Mode Quality",
+      "d": "Effectiveness of the app's shuffle feature including true randomization, avoidance of repeats, and intelligent song selection",
+      "t": "Text[String]",
+      "s": "Google Play Store, YouTube tutorial, Spotify Community"
+    },
+    {
+      "n": "Playlist Management Features",
+      "d": "Ability to create, edit, and manage playlists including linked playlists and import/export options",
+      "t": "Boolean",
+      "s": "Google Play Store app descriptions"
+    },
+    {
+      "n": "Streaming and Casting Support",
+      "d": "Support for streaming music from cloud services and casting to devices like Chromecast or Fire TV",
+      "t": "Boolean",
+      "s": "Google Play Store app descriptions"
+    },
+    {
+      "n": "User Interface and Usability",
+      "d": "Design adaptability, responsiveness on phones and tablets, and user-friendly controls for shuffle and playback",
+      "t": "Text/String",
+      "s": "Google Play Store user reviews"
+    },
+    {
+      "n": "User Ratings and Popularity",
+      "d": "User rating scores and total number of downloads indicative of popularity and user satisfaction",
+      "t": "Float and Integer",
+      "s": "Google Play Store"
+    }
+  ]
+}

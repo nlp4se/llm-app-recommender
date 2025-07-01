@@ -1,0 +1,74 @@
+{
+  "a": [
+    "Pic Collage",
+    "Photo Editor - Collage Maker (InCollage)",
+    "LiveCollage - Collage Maker",
+    "MOLDIV",
+    "Ribbet",
+    "Adobe Spark",
+    "Canva Collage Templates",
+    "BeFunky Collage Maker",
+    "piZap",
+    "Fotor Collage Maker",
+    "Photovisi",
+    "Google Photos",
+    "PicMonkey",
+    "PicPlayPost",
+    "PicsArt",
+    "Diptic",
+    "PhotoDirector",
+    "Moldiv",
+    "PicCollage App",
+    "Collage Maker by Cyberlink"
+  ],
+  "c": [
+    {
+      "n": "Number of collage layouts/templates",
+      "d": "Total available collage layouts or templates to create collages",
+      "t": "Integer [1]",
+      "s": "Shutterfly, Google Play Store, Cyberlink"
+    },
+    {
+      "n": "Platform availability",
+      "d": "Supported mobile platforms (iOS, Android, Windows, Web)",
+      "t": "Text [*]",
+      "s": "Shutterfly, Tom's Guide, Cyberlink"
+    },
+    {
+      "n": "User interface and ease of use",
+      "d": "Quality of UI design—intuitive and user friendly or complex",
+      "t": "Text [1]",
+      "s": "Shutterfly, Tom's Guide, Cyberlink"
+    },
+    {
+      "n": "Editing features richness",
+      "d": "Range and professional level of photo editing and collage design tools offered",
+      "t": "Text [1]",
+      "s": "Shutterfly, Tom's Guide, Cyberlink"
+    },
+    {
+      "n": "Free vs Paid model",
+      "d": "Availability of free version, trial periods, and paid subscription or one-time purchase options",
+      "t": "Text [1]",
+      "s": "Shutterfly, Tom's Guide, Cyberlink"
+    },
+    {
+      "n": "Additional creative features",
+      "d": "Features like adding GIFs, videos, stickers, AI-powered editing, background removal, filters",
+      "t": "Text [*]",
+      "s": "Shutterfly, Tom's Guide, Google Play Store"
+    },
+    {
+      "n": "Sharing and export options",
+      "d": "Options for sharing collages on social media, SMS, email, or saving locally",
+      "t": "Text [1]",
+      "s": "Shutterfly, Tom's Guide"
+    },
+    {
+      "n": "User ratings and popularity",
+      "d": "Average user rating and download counts as an indicator of app popularity and reliability",
+      "t": "Float and Integer [1]",
+      "s": "Google Play Store"
+    }
+  ]
+}

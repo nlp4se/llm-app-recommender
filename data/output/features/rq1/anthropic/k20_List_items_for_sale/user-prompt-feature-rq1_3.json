@@ -1,0 +1,56 @@
+{
+  "a": [
+    "Facebook Marketplace",
+    "eBay",
+    "OfferUp",
+    "Mercari",
+    "Poshmark",
+    "Depop",
+    "Vinted",
+    "The RealReal",
+    "Craigslist",
+    "Letgo",
+    "5miles",
+    "VarageSale",
+    "Bonanza",
+    "Grailed",
+    "Rebag",
+    "ThredUp",
+    "Vestiaire Collective",
+    "Chairish",
+    "1stDibs",
+    "Reverb"
+  ],
+  "c": [
+    {
+      "n": "User Base Size",
+      "d": "Total number of active monthly users on the platform, indicating market reach and potential buyer pool",
+      "t": "Integer [1]",
+      "s": "App analytics platforms, company reports, market research data"
+    },
+    {
+      "n": "Commission/Fee Structure",
+      "d": "Percentage of sale price or fixed fees charged by the platform, affecting seller profitability",
+      "t": "Float [1]",
+      "s": "Platform terms of service, fee schedules, seller documentation"
+    },
+    {
+      "n": "Category Specialization",
+      "d": "Platform's focus on specific item categories versus general marketplace approach",
+      "t": "Text [*]",
+      "s": "Platform marketing materials, category listings, feature analysis"
+    },
+    {
+      "n": "Listing Tools Quality",
+      "d": "Sophistication of photo editing, description templates, pricing suggestions, and listing management features",
+      "t": "Integer [1]",
+      "s": "App feature analysis, user interface review, seller tool assessment"
+    },
+    {
+      "n": "Payment Security",
+      "d": "Built-in payment protection, escrow services, and dispute resolution mechanisms available to sellers",
+      "t": "Boolean [1]",
+      "s": "Platform security features, payment processing documentation, user protection policies"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "a": [
+    "Snapseed",
+    "Adobe Lightroom",
+    "Adobe Photoshop Express",
+    "VSCO",
+    "PicsArt",
+    "Fotor",
+    "Canva",
+    "Afterlight",
+    "TouchRetouch",
+    "Prisma",
+    "Bazaart",
+    "Pixlr",
+    "Facetune 2",
+    "ACDSee Ultimate",
+    "Camera+",
+    "Pixelmator Pro",
+    "Superimpose X"
+  ],
+  "c": [
+    {
+      "n": "User Interface Ease of Use",
+      "d": "How easy and intuitive the app interface is for users to perform photo effects and editing",
+      "t": "Text [1]",
+      "s": "dinamicostudio.com, teachthought.com"
+    },
+    {
+      "n": "Range of Filters and Effects",
+      "d": "Variety and uniqueness of filters and effects available for photo enhancement and artistic transformation",
+      "t": "Integer [1][2]",
+      "s": "dinamicostudio.com, cnet.com"
+    },
+    {
+      "n": "Advanced Editing Tools",
+      "d": "Availability of advanced photo editing features like selective adjustments, object removal, layering, and AI enhancements",
+      "t": "Boolean [1][3][4]",
+      "s": "dinamicostudio.com, teachthought.com, apps.apple.com"
+    },
+    {
+      "n": "Platform Availability",
+      "d": "Whether the app is available on iOS, Android, or both",
+      "t": "Text [1][2]",
+      "s": "dinamicostudio.com, cnet.com"
+    },
+    {
+      "n": "Pricing Model",
+      "d": "Cost of the app including free, subscription, or one-time purchase",
+      "t": "Text [1][2][3]",
+      "s": "dinamicostudio.com, cnet.com, teachthought.com"
+    },
+    {
+      "n": "Creative Tools and Templates",
+      "d": "Presence of creative aids such as design templates, collage makers, stickers, text overlays for enhanced photo art creation",
+      "t": "Boolean [1][2]",
+      "s": "dinamicostudio.com, cnet.com"
+    },
+    {
+      "n": "AI-powered Enhancements",
+      "d": "Use of AI to suggest edits, improve photo quality, and automate corrections",
+      "t": "Boolean [4]",
+      "s": "apps.apple.com"
+    }
+  ]
+}

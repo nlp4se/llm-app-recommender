@@ -1,0 +1,56 @@
+{
+  "a": [
+    "Raters",
+    "Taste",
+    "Letterboxd",
+    "SerialIzd",
+    "Goodreads (for movies)",
+    "IMDb",
+    "Rotten Tomatoes",
+    "Metacritic",
+    "Flixster",
+    "Moviebase",
+    "CineTrak",
+    "MovieLens",
+    "TV Time",
+    "Trakt",
+    "MUBI",
+    "Simkl",
+    "JustWatch",
+    "CinemaScore",
+    "Flickmetrix",
+    "Criticker"
+  ],
+  "c": [
+    {
+      "n": "User Ratings and Reviews",
+      "d": "Ability for users to rate movies and write reviews, providing qualitative feedback and numeric ratings",
+      "t": "Float [1], Text [*]",
+      "s": "App Store, Google Play, Letterboxd"
+    },
+    {
+      "n": "Personalized Recommendations",
+      "d": "Algorithm-based tailored movie suggestions based on user ratings and tastes",
+      "t": "Boolean [1]",
+      "s": "Raters, Taste, Letterboxd"
+    },
+    {
+      "n": "Community and Social Features",
+      "d": "Following users, sharing reviews, group recommendations, and social interaction within the app",
+      "t": "Boolean [1]",
+      "s": "Raters, Letterboxd, Taste"
+    },
+    {
+      "n": "Content Coverage",
+      "d": "Range of movies and TV shows covered by the app's database and rating system",
+      "t": "Integer [1]",
+      "s": "IMDb, Rotten Tomatoes, Metacritic, Letterboxd"
+    },
+    {
+      "n": "Platform Availability",
+      "d": "Availability on iOS, Android, web platforms, etc.",
+      "t": "Text [*]",
+      "s": "App Store, Google Play, Letterboxd"
+    }
+  ]
+}

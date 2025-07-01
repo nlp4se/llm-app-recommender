@@ -1,0 +1,62 @@
+{
+  "a": [
+    "REAL Shuffle Player",
+    "Shuffle Music",
+    "Spotify",
+    "Sonos App",
+    "Apple Music",
+    "Google Play Music",
+    "Poweramp Music Player",
+    "Musicolet Music Player",
+    "JetAudio HD Music Player",
+    "PlayerPro Music Player",
+    "Pi Music Player",
+    "Pulsar Music Player",
+    "BlackPlayer Music Player",
+    "Phonograph Music Player",
+    "AIMP",
+    "VLC for Android",
+    "n7player Music Player",
+    "Shuttle Music Player",
+    "Deezer",
+    "Tidal"
+  ],
+  "c": [
+    {
+      "n": "Shuffle quality",
+      "d": "How well the app randomizes the playlist, including features like preventing repeated songs before all songs are played",
+      "t": "Boolean, Float [1]",
+      "s": "REAL Shuffle Player, Spotify, Sonos App"
+    },
+    {
+      "n": "Playlist management",
+      "d": "Ease of creating, editing, and managing playlists with shuffle support",
+      "t": "Boolean, Text [*]",
+      "s": "REAL Shuffle Player, Spotify, Shuffle Music"
+    },
+    {
+      "n": "Smart Shuffle features",
+      "d": "Intelligent shuffle modes that introduce new songs or prevent repeats, adapting to user preferences",
+      "t": "Boolean",
+      "s": "REAL Shuffle Player, Spotify"
+    },
+    {
+      "n": "User interface design",
+      "d": "Responsiveness and adaptability of the UI for various devices",
+      "t": "Text, Boolean",
+      "s": "REAL Shuffle Player, Shuffle Music"
+    },
+    {
+      "n": "Integration with streaming services",
+      "d": "Ability to stream or cast music from services like YouTube, OneDrive, Google Drive, and popular music platforms",
+      "t": "Boolean",
+      "s": "REAL Shuffle Player, Spotify, Deezer, Tidal"
+    },
+    {
+      "n": "User ratings and popularity",
+      "d": "Number of downloads and user ratings reflecting app reliability and user satisfaction",
+      "t": "Integer, Float",
+      "s": "REAL Shuffle Player, Shuffle Music"
+    }
+  ]
+}

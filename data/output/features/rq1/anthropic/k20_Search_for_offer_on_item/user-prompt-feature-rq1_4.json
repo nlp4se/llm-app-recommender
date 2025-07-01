@@ -1,0 +1,56 @@
+{
+  "a": [
+    "Honey",
+    "Rakuten",
+    "Capital One Shopping",
+    "InvisibleHand",
+    "Coupon Sherpa",
+    "RetailMeNot",
+    "Groupon",
+    "Ibotta",
+    "Checkout 51",
+    "Flipp",
+    "Shopkick",
+    "Fetch Rewards",
+    "Dosh",
+    "Drop",
+    "Poshmark",
+    "Mercari",
+    "OfferUp",
+    "Letgo",
+    "Wish",
+    "AliExpress"
+  ],
+  "c": [
+    {
+      "n": "Coupon Coverage",
+      "d": "Number of supported retailers and brands offering coupons and deals",
+      "t": "Integer [1]",
+      "s": "App store descriptions, user reviews, company websites"
+    },
+    {
+      "n": "Automatic Deal Detection",
+      "d": "Ability to automatically find and apply coupon codes during checkout",
+      "t": "Boolean [1]",
+      "s": "App features, user reviews, app store descriptions"
+    },
+    {
+      "n": "Cashback Percentage",
+      "d": "Average percentage of cashback offered across supported merchants",
+      "t": "Float [1]",
+      "s": "App terms, merchant partnerships, user reviews"
+    },
+    {
+      "n": "User Rating",
+      "d": "Average user rating score in app stores",
+      "t": "Float [1]",
+      "s": "Google Play Store, Apple App Store"
+    },
+    {
+      "n": "Real-time Price Comparison",
+      "d": "Capability to compare prices across multiple retailers in real-time",
+      "t": "Boolean [1]",
+      "s": "App features, user reviews, app store descriptions"
+    }
+  ]
+}

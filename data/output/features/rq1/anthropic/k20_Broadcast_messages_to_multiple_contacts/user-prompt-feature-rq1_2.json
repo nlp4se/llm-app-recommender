@@ -1,0 +1,56 @@
+{
+  "a": [
+    "WhatsApp Business",
+    "Telegram",
+    "Signal",
+    "GroupMe",
+    "Discord",
+    "Slack",
+    "Microsoft Teams",
+    "Viber",
+    "LINE",
+    "WeChat",
+    "Skype",
+    "Google Messages",
+    "Facebook Messenger",
+    "Kik",
+    "Threema",
+    "Wire",
+    "Element",
+    "Wickr Me",
+    "Dust",
+    "Session"
+  ],
+  "c": [
+    {
+      "n": "Maximum broadcast list size",
+      "d": "The maximum number of contacts that can be included in a single broadcast message",
+      "t": "Integer [1]",
+      "s": "App documentation, user manuals, feature specifications"
+    },
+    {
+      "n": "Delivery confirmation features",
+      "d": "Availability of read receipts, delivery status, and message tracking capabilities",
+      "t": "Boolean [3]",
+      "s": "App interface, feature lists, user reviews"
+    },
+    {
+      "n": "Cross-platform compatibility",
+      "d": "Number of platforms supported including iOS, Android, Windows, macOS, Web",
+      "t": "Integer [1]",
+      "s": "App store listings, official websites, compatibility documentation"
+    },
+    {
+      "n": "Message formatting options",
+      "d": "Support for rich text, media attachments, links, and multimedia broadcasting",
+      "t": "Integer [1]",
+      "s": "App features, user interface, official documentation"
+    },
+    {
+      "n": "Privacy and encryption level",
+      "d": "End-to-end encryption availability and privacy protection for broadcast messages",
+      "t": "Integer [1]",
+      "s": "Security documentation, privacy policies, technical specifications"
+    }
+  ]
+}

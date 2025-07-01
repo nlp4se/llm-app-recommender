@@ -1,0 +1,62 @@
+{
+  "a": [
+    "WhatsApp",
+    "Instagram",
+    "Snapchat",
+    "Facebook Messenger",
+    "Discord",
+    "Telegram",
+    "Signal",
+    "GroupMe",
+    "Marco Polo",
+    "Houseparty",
+    "Facebook",
+    "Twitter",
+    "TikTok",
+    "BeReal",
+    "VSCO",
+    "Viber",
+    "WeChat",
+    "LINE",
+    "Kik",
+    "Skype"
+  ],
+  "c": [
+    {
+      "n": "Daily Active Users",
+      "d": "Number of users who actively engage with the app daily, indicating how likely friends are to be reachable",
+      "t": "Integer [1]",
+      "s": "App analytics platforms, company reports, market research firms"
+    },
+    {
+      "n": "Real-time Communication Features",
+      "d": "Availability and quality of instant messaging, voice calls, video calls, and live sharing capabilities",
+      "t": "Integer [1-10 scale]",
+      "s": "App store descriptions, feature documentation, user reviews"
+    },
+    {
+      "n": "Cross-platform Compatibility",
+      "d": "Ability to work seamlessly across different operating systems and devices",
+      "t": "Boolean [1]",
+      "s": "Official app specifications, platform availability listings"
+    },
+    {
+      "n": "Group Interaction Capabilities",
+      "d": "Features supporting group chats, shared content, group activities, and multi-person communication",
+      "t": "Integer [1-10 scale]",
+      "s": "Feature lists, user guides, app functionality reviews"
+    },
+    {
+      "n": "Content Sharing Versatility",
+      "d": "Range of media types that can be shared including photos, videos, documents, location, and status updates",
+      "t": "Integer [1-10 scale]",
+      "s": "App specifications, user manuals, feature comparisons"
+    },
+    {
+      "n": "User Base Size",
+      "d": "Total number of registered users globally, affecting the likelihood that friends use the same platform",
+      "t": "Integer [1]",
+      "s": "Company announcements, market research reports, industry statistics"
+    }
+  ]
+}

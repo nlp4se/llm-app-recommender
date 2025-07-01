@@ -1,0 +1,56 @@
+{
+  "a": [
+    "YouTube Live",
+    "Facebook Live",
+    "Instagram Live",
+    "Bigo Live",
+    "TikTok Live",
+    "LiveMe",
+    "Periscope",
+    "SwitcherStudio",
+    "Twitch",
+    "Kick",
+    "LinkedIn Live",
+    "Vimeo",
+    "Wirecast Go",
+    "Streamlabs",
+    "Omlet Arcade",
+    "Facebook Gaming",
+    "Caffeine",
+    "DLive",
+    "Trovo",
+    "StreamYard"
+  ],
+  "c": [
+    {
+      "n": "User Base Size",
+      "d": "Number of active users or downloads, indicating the app's popularity and reach",
+      "t": "Integer [1]",
+      "s": "https://www.revidd.com, https://play.google.com"
+    },
+    {
+      "n": "Monetization Features",
+      "d": "Availability of options to earn revenue such as virtual gifts, subscriptions, or ads",
+      "t": "Boolean [1]",
+      "s": "https://www.revidd.com, https://www.dacast.com"
+    },
+    {
+      "n": "Platform Compatibility",
+      "d": "Supported operating systems (e.g., Android, iOS, Desktop)",
+      "t": "Text [*]",
+      "s": "https://www.dacast.com"
+    },
+    {
+      "n": "Stream Quality & Features",
+      "d": "Options for high-quality video, multi-camera feeds, real-time editing, filters, and effects during streaming",
+      "t": "Text [*]",
+      "s": "https://www.revidd.com, https://www.dacast.com, https://play.google.com"
+    },
+    {
+      "n": "Social Interaction",
+      "d": "Capabilities for live chat, reactions, virtual gifts, and multi-guest streams to engage viewers",
+      "t": "Boolean [1]",
+      "s": "https://www.revidd.com, https://play.google.com"
+    }
+  ]
+}

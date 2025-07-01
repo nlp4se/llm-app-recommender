@@ -1,0 +1,56 @@
+{
+  "a": [
+    "Raters: Movie Reviews, Ratings",
+    "Taste: Movie & TV Suggestions",
+    "Letterboxd",
+    "SerialIzd",
+    "IMDb",
+    "Flixster",
+    "MovieLens",
+    "Criticker",
+    "Trakt",
+    "Flickmetrix",
+    "The Movie Database (TMDb)",
+    "CineTrak",
+    "FilmAffinity",
+    "Movie Buff",
+    "Moviebase",
+    "TV Time",
+    "AllMovie",
+    "Popcorn",
+    "Watchworthy",
+    "Mubi"
+  ],
+  "c": [
+    {
+      "n": "User Reviews and Ratings",
+      "d": "Ability for users to rate movies and write reviews that influence recommendation and ranking",
+      "t": "Integer ratings and Text reviews [*]",
+      "s": "App stores, official app descriptions"
+    },
+    {
+      "n": "Recommendation Algorithm Quality",
+      "d": "Effectiveness of personalized movie recommendations based on user preferences and similar user tastes",
+      "t": "Boolean/Ranking score",
+      "s": "App descriptions, user feedback"
+    },
+    {
+      "n": "Community and Social Features",
+      "d": "Social engagement such as following users, group recommendations, and sharing reviews",
+      "t": "Boolean",
+      "s": "App descriptions"
+    },
+    {
+      "n": "Platform Availability",
+      "d": "Availability on major platforms like iOS and Android",
+      "t": "Text",
+      "s": "App stores"
+    },
+    {
+      "n": "Content Coverage",
+      "d": "Number and variety of movies and TV shows covered for rating and recommendations",
+      "t": "Integer range",
+      "s": "App descriptions"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "a": [
+    "Slack",
+    "Microsoft Teams",
+    "Asana",
+    "ClickUp",
+    "Monday.com",
+    "SmartTask",
+    "Wrike",
+    "Zoom",
+    "Trello",
+    "Podio",
+    "Smartsheet",
+    "Bit.ai",
+    "Evernote Business",
+    "Teamwork",
+    "Ryver",
+    "Flock",
+    "GoToMeeting",
+    "Microsoft 365",
+    "Dropbox Business",
+    "Basecamp"
+  ],
+  "c": [
+    {
+      "n": "Integration capabilities",
+      "d": "Ability to connect and work seamlessly with other third-party apps and services to streamline workflows",
+      "t": "Integer [1]",
+      "s": "2,3"
+    },
+    {
+      "n": "Communication features",
+      "d": "Includes real-time messaging, video conferencing, voice calling, and file sharing among team members",
+      "t": "Boolean [1]",
+      "s": "1,2,3"
+    },
+    {
+      "n": "Project management tools",
+      "d": "Availability of task tracking, checklist templates, status customization, and multi-departmental project support",
+      "t": "Boolean [1]",
+      "s": "1,3"
+    },
+    {
+      "n": "Scalability",
+      "d": "The capability to support small teams up to large organizations with feature upgrades",
+      "t": "Boolean [1]",
+      "s": "1"
+    },
+    {
+      "n": "Security features",
+      "d": "Advanced security and privacy controls protecting organizational data",
+      "t": "Boolean [1]",
+      "s": "1"
+    },
+    {
+      "n": "User support and flexibility",
+      "d": "Quality of customer support and flexibility to adapt to various workflows",
+      "t": "Boolean [1]",
+      "s": "1"
+    }
+  ]
+}

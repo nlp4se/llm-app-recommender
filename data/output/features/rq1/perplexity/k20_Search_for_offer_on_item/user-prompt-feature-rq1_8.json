@@ -1,0 +1,74 @@
+{
+  "a": [
+    "ShopSavvy",
+    "The Coupons App",
+    "Sherpa Perks",
+    "BuyVia",
+    "Amazon",
+    "PriceGrabber",
+    "Purchx",
+    "ScanLife",
+    "Now Discount",
+    "Quick Scan",
+    "TTPM",
+    "Shopular",
+    "eBay",
+    "Shopping by TheFind",
+    "Newegg Mobile",
+    "OfferUp",
+    "Craigslist Mobile",
+    "Google Shopper",
+    "Yellow Pages",
+    "5miles"
+  ],
+  "c": [
+    {
+      "n": "Price Comparison Accuracy",
+      "d": "How precisely the app compares prices across multiple retailers and updates with the latest deals",
+      "t": "Float[1]",
+      "s": "nextstepliving.com, top10.com"
+    },
+    {
+      "n": "Coupon and Discount Availability",
+      "d": "Number and quality of coupons, discount codes, or cashback offers available via the app",
+      "t": "Integer[1]",
+      "s": "nextstepliving.com"
+    },
+    {
+      "n": "User Interface Ease of Use",
+      "d": "How intuitive and user-friendly the app interface is for searching and finding offers",
+      "t": "Text[1]",
+      "s": "nextstepliving.com, theonlinemom.com"
+    },
+    {
+      "n": "Barcode/QR Code Scanning Capability",
+      "d": "Ability to scan product barcodes or QR codes to instantly compare prices and find deals",
+      "t": "Boolean[1]",
+      "s": "nextstepliving.com, top10.com"
+    },
+    {
+      "n": "Local Deal Availability",
+      "d": "Effectiveness of the app in finding offers and discounts at nearby physical stores or local sellers",
+      "t": "Boolean[1]",
+      "s": "nextstepliving.com, wtop.com"
+    },
+    {
+      "n": "Offer Negotiation Feature",
+      "d": "Whether the app supports user negotiation with sellers on item prices",
+      "t": "Boolean[1]",
+      "s": "wtop.com, play.google.com"
+    },
+    {
+      "n": "Cross-Platform Support",
+      "d": "Availability of the app on major platforms (iOS, Android, others) to maximize user access",
+      "t": "Text[1]",
+      "s": "theonlinemom.com, nextstepliving.com"
+    },
+    {
+      "n": "Product Category Coverage",
+      "d": "Range of product categories covered by the app for searching offers (electronics, clothes, food, etc.)",
+      "t": "Text[1]",
+      "s": "nextstepliving.com, theonlinemom.com"
+    }
+  ]
+}

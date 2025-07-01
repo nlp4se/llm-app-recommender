@@ -1,0 +1,62 @@
+{
+  "a": [
+    "YouTube Live",
+    "Facebook Live",
+    "Instagram Live",
+    "Twitch",
+    "Kick",
+    "TikTok",
+    "Vimeo",
+    "StreamYard",
+    "Restream",
+    "Uscreen",
+    "Sling TV",
+    "YouTube TV",
+    "FuboTV",
+    "Philo",
+    "DirecTV Stream",
+    "Hulu + Live TV",
+    "Netflix",
+    "Amazon Prime Video",
+    "HBO GO/HBO NOW",
+    "Disney Plus"
+  ],
+  "c": [
+    {
+      "n": "User Base Size",
+      "d": "The number of active users or downloads indicating the app's popularity for watching streams",
+      "t": "Integer [1]",
+      "s": "Switcher Studio, Google Play"
+    },
+    {
+      "n": "Stream Variety",
+      "d": "The range of stream types offered, such as games, sports, movies, podcasts, and IRL content",
+      "t": "Text [*]",
+      "s": "Switcher Studio, Twitch description"
+    },
+    {
+      "n": "Multistreaming Capability",
+      "d": "Ability to stream or watch on multiple platforms or channels simultaneously",
+      "t": "Boolean [1]",
+      "s": "Switcher Studio"
+    },
+    {
+      "n": "Platform Availability",
+      "d": "If the app is available on mobile, web browser, or desktop",
+      "t": "Text [*]",
+      "s": "Switcher Studio, Engadget"
+    },
+    {
+      "n": "Free Version Availability",
+      "d": "Whether the app offers a free tier for watching streams",
+      "t": "Boolean [1]",
+      "s": "Switcher Studio"
+    },
+    {
+      "n": "Live Interaction Features",
+      "d": "Features allowing real-time audience engagement such as chat, polls, or reactions",
+      "t": "Boolean [1]",
+      "s": "Switcher Studio, Twitch"
+    }
+  ]
+}

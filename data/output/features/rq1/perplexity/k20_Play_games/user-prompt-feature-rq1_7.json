@@ -1,0 +1,56 @@
+{
+  "a": [
+    "Honor of Kings",
+    "Roblox",
+    "Royal Match",
+    "Candy Crush Saga",
+    "Subway Surfers",
+    "Pokémon GO",
+    "Township",
+    "Gardenscapes",
+    "Last War: Survival",
+    "Among Us",
+    "8 Ball Pool™",
+    "Dream11",
+    "Ludo King",
+    "Free Fire – Battlegrounds",
+    "Block Blast",
+    "Genshin Impact",
+    "Brawl Stars",
+    "Clash Royale",
+    "Call of Duty: Mobile",
+    "Whiteout Survival"
+  ],
+  "c": [
+    {
+      "n": "Monthly Active Users",
+      "d": "Estimated number of monthly active users as a proxy for popularity and engagement",
+      "t": "Integer [1]",
+      "s": "Singular.net, 300mind.studio, Beginrescueend.com"
+    },
+    {
+      "n": "Platform Coverage",
+      "d": "Availability across multiple platforms (iOS/Android)",
+      "t": "Text [*]",
+      "s": "Singular.net, 300mind.studio, Beginrescueend.com"
+    },
+    {
+      "n": "Revenue Generation",
+      "d": "Estimated revenue generation as an indicator of monetization and user spending",
+      "t": "Float [1]",
+      "s": "Singular.net"
+    },
+    {
+      "n": "User Reviews and Ratings",
+      "d": "Aggregate user ratings and review sentiment",
+      "t": "Float [1]",
+      "s": "300mind.studio, Beginrescueend.com"
+    },
+    {
+      "n": "Gameplay Variety",
+      "d": "Presence of diverse gameplay mechanics and genres",
+      "t": "Text [*]",
+      "s": "300mind.studio, Singular.net, Beginrescueend.com"
+    }
+  ]
+}

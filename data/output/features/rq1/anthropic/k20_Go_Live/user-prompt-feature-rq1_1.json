@@ -1,0 +1,56 @@
+{
+  "a": [
+    "TikTok",
+    "Instagram",
+    "YouTube",
+    "Twitch",
+    "Facebook",
+    "Discord",
+    "Snapchat",
+    "Twitter",
+    "LinkedIn",
+    "Reddit",
+    "Periscope",
+    "Clubhouse",
+    "BeReal",
+    "BIGO LIVE",
+    "Live.me",
+    "YouNow",
+    "Streamlabs",
+    "OBS Studio",
+    "Restream",
+    "StreamYard"
+  ],
+  "c": [
+    {
+      "n": "Live Streaming Audience Size",
+      "d": "Total number of active users who regularly watch live streams on the platform",
+      "t": "Integer [1]",
+      "s": "App analytics, platform statistics, third-party research reports"
+    },
+    {
+      "n": "Live Feature Accessibility",
+      "d": "How easily users can access and start live streaming features within the app",
+      "t": "Integer [1-5 scale]",
+      "s": "User interface analysis, app store reviews, user experience testing"
+    },
+    {
+      "n": "Monetization Options for Streamers",
+      "d": "Number and quality of revenue generation methods available for live streamers",
+      "t": "Integer [1]",
+      "s": "Platform documentation, creator program details, payment system analysis"
+    },
+    {
+      "n": "Cross-Platform Integration",
+      "d": "Ability to stream simultaneously across multiple platforms or integrate with other services",
+      "t": "Boolean [1]",
+      "s": "Platform features, API documentation, third-party integration capabilities"
+    },
+    {
+      "n": "Content Discovery Algorithm",
+      "d": "Effectiveness of the platform's algorithm in promoting live content to relevant audiences",
+      "t": "Float [1-10 scale]",
+      "s": "Platform performance metrics, creator feedback, engagement analytics"
+    }
+  ]
+}

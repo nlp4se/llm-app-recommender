@@ -1,0 +1,66 @@
+{
+  "a": [
+    "Apple Podcasts",
+    "Player FM",
+    "Pocket Casts",
+    "Spotify",
+    "Queue",
+    "Aurelian",
+    "Podcast Go",
+    "Google Podcasts",
+    "Podcast Republic",
+    "iCatcher!",
+    "SoundCloud",
+    "Castro",
+    "Overcast",
+    "Stitcher",
+    "Breaker",
+    "TuneIn Radio",
+    "Downcast",
+    "Podbean",
+    "Luminary",
+    "Anchor"
+  ],
+  "c": [
+    {
+      "n": "User Interface and Usability",
+      "d": "How intuitive and user-friendly the app interface is for discovering, playing, and managing podcasts",
+      "t": "Text [1],[3],[4]"
+    },
+    {
+      "n": "Platform Compatibility",
+      "d": "Availability across different devices and operating systems including iOS, Android, Desktop, and smart devices",
+      "t": "Text [1],[3],[4]"
+    },
+    {
+      "n": "Audio Features",
+      "d": "Inclusion of playback enhancements such as trim silence, volume boost, sleep timer, and cross-device syncing",
+      "t": "Boolean/Text [1],[4]"
+    },
+    {
+      "n": "Content Library Size",
+      "d": "Number of podcasts and episodes accessible through the app, including exclusive or original content",
+      "t": "Integer [3],[4]"
+    },
+    {
+      "n": "Pricing Model",
+      "d": "Free availability versus subscription or one-time purchase fees and the features gated behind payment",
+      "t": "Text [1],[3],[4]"
+    },
+    {
+      "n": "Personalization and Discovery",
+      "d": "Capabilities of the app to provide curated recommendations, personalized playlists, and discovery features",
+      "t": "Boolean/Text [1],[3]"
+    },
+    {
+      "n": "Support for Podcast Formats",
+      "d": "Ability to handle various podcast formats including audio and video podcasts or RSS feed imports",
+      "t": "Boolean [1]"
+    },
+    {
+      "n": "Additional Device Integration",
+      "d": "Compatibility with devices like smart speakers, watches, car interfaces, and multi-device syncing",
+      "t": "Boolean [3],[4]"
+    }
+  ]
+}

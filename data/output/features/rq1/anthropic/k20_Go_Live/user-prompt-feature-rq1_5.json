@@ -1,0 +1,56 @@
+{
+  "a": [
+    "Instagram",
+    "TikTok",
+    "YouTube",
+    "Facebook",
+    "Twitch",
+    "Discord",
+    "LinkedIn",
+    "Twitter",
+    "Snapchat",
+    "Reddit",
+    "Clubhouse",
+    "Periscope",
+    "YouNow",
+    "Live.me",
+    "BIGO LIVE",
+    "Streamlabs",
+    "OBS Studio",
+    "Restream",
+    "StreamYard",
+    "Wirecast"
+  ],
+  "c": [
+    {
+      "n": "Active User Base",
+      "d": "Monthly active users engaging with live streaming features",
+      "t": "Integer [1]",
+      "s": "App analytics platforms, company reports, market research data"
+    },
+    {
+      "n": "Live Streaming Quality",
+      "d": "Maximum supported video resolution and audio quality for live broadcasts",
+      "t": "Text [1]",
+      "s": "App specifications, user reviews, technical documentation"
+    },
+    {
+      "n": "Monetization Options",
+      "d": "Available revenue streams for live streamers including donations, subscriptions, ad revenue",
+      "t": "Integer [*]",
+      "s": "Platform policies, creator program documentation, user testimonials"
+    },
+    {
+      "n": "Multi-platform Support",
+      "d": "Number of platforms the app can simultaneously broadcast to",
+      "t": "Integer [1]",
+      "s": "Feature lists, integration capabilities, technical specifications"
+    },
+    {
+      "n": "Ease of Setup",
+      "d": "Time required to configure and start first live stream measured in minutes",
+      "t": "Integer [1]",
+      "s": "User onboarding flows, tutorial duration, user experience reviews"
+    }
+  ]
+}

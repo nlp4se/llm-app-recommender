@@ -1,0 +1,81 @@
+
+{
+  "a": [
+    "ShopSavvy",
+    "The Coupons App",
+    "Sherpa Perks",
+    "ScanLife",
+    "PriceGrabber",
+    "BuyVia",
+    "Amazon",
+    "Purchx",
+    "Quick Scan",
+    "Shopular",
+    "Now Discount",
+    "TTPM",
+    "TheFind",
+    "Newegg Mobile",
+    "Google Shopper",
+    "eBay",
+    "Craigslist Mobile",
+    "RetailMeNot",
+    "Slickdeals",
+    "Flipp"
+  ],
+  "c": [
+    {
+      "n": "Price Comparison Features",
+      "d": "The ability of the app to compare prices across different retailers and websites.",
+      "t": "Boolean",
+      "s": "ShopSavvy, PriceGrabber, ScanLife, BuyVia"
+    },
+    {
+      "n": "Discount and Coupon Availability",
+      "d": "The availability of discounts, coupons, and promotional offers within the app.",
+      "t": "Boolean",
+      "s": "The Coupons App, Sherpa Perks, RetailMeNot"
+    },
+    {
+      "n": "User Interface and Ease of Use",
+      "d": "How user-friendly and intuitive the app is.",
+      "t": "Integer [1-5]",
+      "s": "General App Reviews"
+    },
+    {
+      "n": "Cross-Platform Compatibility",
+      "d": "Whether the app is available on multiple platforms such as iOS and Android.",
+      "t": "Boolean",
+      "s": "Device Support Information"
+    },
+    {
+      "n": "Community and User Reviews",
+      "d": "The presence and quality of user reviews and community features within the app.",
+      "t": "Integer [1-5]",
+      "s": "App Store Reviews"
+    },
+    {
+      "n": "Alerts and Notifications",
+      "d": "The ability of the app to send alerts and notifications for sales and promotions.",
+      "t": "Boolean",
+      "s": "ShopSavvy, BuyVia"
+    },
+    {
+      "n": "Barcode Scanning Capability",
+      "d": "The ability of the app to scan barcodes for price comparison and product information.",
+      "t": "Boolean",
+      "s": "ScanLife, TheFind"
+    },
+    {
+      "n": "In-Store and Online Shopping Support",
+      "d": "Whether the app supports both in-store and online shopping experiences.",
+      "t": "Boolean",
+      "s": "ShopSavvy, BuyVia"
+    },
+    {
+      "n": "Specialization in Specific Categories",
+      "d": "Whether the app specializes in specific product categories like electronics or toys.",
+      "t": "Text",
+      "s": "App Descriptions"
+    }
+  ]
+}

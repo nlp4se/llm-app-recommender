@@ -1,0 +1,62 @@
+{
+  "a": [
+    "Spotify",
+    "Apple Podcasts",
+    "Google Podcasts",
+    "Pocket Casts",
+    "Overcast",
+    "Stitcher",
+    "Castbox",
+    "PlayerFM",
+    "Podcast Addict",
+    "Castro",
+    "Downcast",
+    "PodBean",
+    "TuneIn Radio",
+    "Podcast Republic",
+    "AntennaPod",
+    "Podchaser",
+    "RadioPublic",
+    "Breaker",
+    "Laughable",
+    "Himalaya"
+  ],
+  "c": [
+    {
+      "n": "Podcast Library Size",
+      "d": "Total number of available podcasts and episodes accessible through the platform",
+      "t": "Integer [1]",
+      "s": "App store descriptions, platform websites, third-party podcast analytics"
+    },
+    {
+      "n": "Discovery Features Quality",
+      "d": "Effectiveness of recommendation algorithms, search functionality, and content curation features",
+      "t": "Integer [1-10]",
+      "s": "User reviews, app store ratings, feature documentation"
+    },
+    {
+      "n": "Playback Features Completeness",
+      "d": "Availability of advanced playback controls like variable speed, sleep timer, chapter navigation, and cross-device sync",
+      "t": "Integer [1-10]",
+      "s": "App feature lists, user manuals, hands-on testing"
+    },
+    {
+      "n": "User Experience Rating",
+      "d": "Overall app usability, interface design quality, and ease of navigation",
+      "t": "Float [1.0-5.0]",
+      "s": "App store user ratings, UX design reviews"
+    },
+    {
+      "n": "Cross-Platform Availability",
+      "d": "Number of platforms supported including iOS, Android, web, desktop, and smart devices",
+      "t": "Integer [1-8]",
+      "s": "Official platform documentation, app store availability"
+    },
+    {
+      "n": "Offline Download Capability",
+      "d": "Quality and flexibility of offline listening features including download limits and storage management",
+      "t": "Boolean [1]",
+      "s": "App feature specifications, user testing"
+    }
+  ]
+}

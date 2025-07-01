@@ -1,0 +1,66 @@
+{
+  "a": [
+    "Player FM",
+    "Pocket Casts",
+    "Apple Podcasts",
+    "Castbox",
+    "Podcast Republic",
+    "SoundCloud",
+    "Google Podcasts",
+    "Podcast Go",
+    "iCatcher",
+    "Google Play Music",
+    "Stitcher",
+    "Overcast",
+    "Spotify",
+    "Breaker",
+    "Podbean",
+    "Podchaser",
+    "TuneIn Radio",
+    "Luminary",
+    "Deezer",
+    "Anchor"
+  ],
+  "c": [
+    {
+      "n": "User Interface and Usability",
+      "d": "How easy and intuitive the app is for users to navigate, subscribe, and listen to podcasts",
+      "t": "Text [1],[3],[4]"
+    },
+    {
+      "n": "Podcast Library Size",
+      "d": "Number of podcasts and episodes available within the app's catalog",
+      "t": "Integer [1],[3]"
+    },
+    {
+      "n": "Cross-Device Syncing",
+      "d": "Ability to synchronize listening progress and subscriptions across multiple devices",
+      "t": "Boolean [1],[4]"
+    },
+    {
+      "n": "Audio Enhancement Features",
+      "d": "Inclusion of features like Trim Silence, Volume Boost, and playback speed controls",
+      "t": "Boolean [1],[4]"
+    },
+    {
+      "n": "Price Model",
+      "d": "Whether the app is free, freemium, or subscription-based, including cost of premium features",
+      "t": "Text [1],[3],[4]"
+    },
+    {
+      "n": "Platform Availability",
+      "d": "Availability on iOS, Android, desktop, and other devices or ecosystems",
+      "t": "Text [1],[3],[4]"
+    },
+    {
+      "n": "Discovery and Recommendations",
+      "d": "How well the app helps users find new podcasts via curated lists, personalized suggestions, or trending charts",
+      "t": "Boolean/Text [1],[3]"
+    },
+    {
+      "n": "Additional Features",
+      "d": "Support for video podcasts, paid subscriptions to individual podcasters, sleep timer, playlist creation, and smart play",
+      "t": "Boolean/Text [1],[3]"
+    }
+  ]
+}
