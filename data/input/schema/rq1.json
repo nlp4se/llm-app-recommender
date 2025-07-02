@@ -24,7 +24,7 @@
                 },
                 "d": {
                   "type": "string",
-                  "description": "Description of the ranking criterion"
+                  "description": "Description of the ranking criterion (must be agnostic to the app feature or domain)"
                 },
                 "t": {
                   "type": "string",

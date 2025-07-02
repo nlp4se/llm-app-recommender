@@ -1,76 +1,76 @@
-name,description,type,sources
-App Ratings,"The average rating of the app in app stores, reflecting user satisfaction and app quality.",Float[2],"App Store, Google Play Store"
-Category Focus,"The primary types of items the app is best suited for selling (e.g., clothing, electronics, handmade items).",Text[*],"App descriptions, user reviews"
-Category Specialization,"Whether the app focuses on a specific product category (e.g., clothing, electronics, handmade items), which can attract a more targeted audience.",Text[1],"App description, user demographics"
-Community Focus,The extent to which the app fosters a sense of community among buyers and sellers through features like verified profiles and ratings systems.,Boolean[1],Multiple sources
-Cross-listing Capabilities,Ability to list items on multiple platforms simultaneously to increase visibility.,Boolean[1],App descriptions
-Customer Support,"The quality and availability of customer support for sellers, including response times and issue resolution.",Text[*],"SimiCart, Greenlight, Shopify Australia, SaleHoo"
-Ease of Use,"The simplicity and intuitiveness of the app interface for listing items, managing sales, and communicating with buyers.",Boolean[*],"SimiCart, Greenlight, Shopify Australia, SaleHoo, Crosslist"
-Ease of Use,"The simplicity and intuitiveness of the app's interface for listing items, managing inventory, and communicating with buyers.",Text[1],Multiple sources
-Ease of Use,"How simple and intuitive the app is to use for listing items, managing inventory, and communicating with buyers.",Text[1],Multiple sources
-Ease of Use,"How easy it is to list items, manage inventory, and communicate with buyers.",Text[1],"User reviews, app descriptions"
-Ease of Use,"How simple it is to list items, manage inventory, and communicate with buyers. A user-friendly interface saves time and effort.",Text[1],"User reviews, app store comments"
-Ease of Use,"How simple the app is to use, including listing creation, navigation, and communication with buyers. An intuitive interface saves time and effort.",Boolean[1],"AMZScout, Greenlight, Honeygain"
-Ease of Use,"How simple the app is to navigate, list items, and complete transactions.",Text,Various sources
-Fees,"Listing fees, commission fees, or transaction fees charged by the app.",Float[*],"App descriptions, Terms of Service"
-Fees,"Listing fees, commission fees, and payment processing fees associated with selling on the platform.",Float[*],"SimiCart, Greenlight, Shopify Australia, SaleHoo, Supdropshipping"
-Fees,"Listing fees, commission fees, or transaction fees associated with selling on the platform.",Float[*],Multiple
-Fees,"Listing fees, commission fees, and payment processing fees charged by the app.",Float[*],Multiple sources
-Fees,"The cost associated with listing and selling items on the app, including listing fees, commission fees, and transaction fees.",Float[*],Multiple sources
-Fees,"Listing fees, commission fees, or transaction fees charged by the app. Lower fees increase seller profit.",Float[*],Various sources
-Fees,The commission or listing fees charged by the app. Lower fees result in higher profits for the seller.,Float[*],"App documentation, user reviews"
-Fees,The commission or listing fees associated with selling on the app.,Float[*],Multiple sources
-Fees,"The costs associated with listing and selling items, including listing fees, commission fees, and transaction fees. Lower fees increase profitability.",Float[*],"AMZScout, Shopify New Zealand, Greenlight"
-Fees,"The amount charged per listing or when an item sells, affecting profitability.",Float[*],Various sources
-Global Reach,"The geographical reach of the platform, whether it's local, national, or international.",Text[1],App descriptions
-Item categories,Types of the items that you can list on the app.,Text[*],Multiple sources
-Item Categories,The range of product types that are commonly sold on the app.,Text[*],Multiple sources
-Listing Simplicity,Ease of creating and managing product listings.,Text[1],Multiple sources
-Local vs. Global Reach,Whether the app primarily focuses on local sales or offers the ability to sell internationally.,Text[1],Multiple sources
-Local vs. National Reach,Whether the app primarily focuses on local sales or provides options for nationwide/global shipping.,Text[1],"App descriptions, user reviews"
-Mobile Optimization,"How well the app functions on mobile devices, including listing creation, photo uploads, and order management.",Boolean[*],"SimiCart, Greenlight, Shopify Australia, SaleHoo"
-Payment Method,"How sellers receive payment for their sales (e.g., direct deposit, PayPal).",Text[*],Multiple sources
-Payment Options,The variety of payment methods accepted and the speed of payouts to sellers.,Text[*],"SimiCart, Greenlight, Shopify Australia, SaleHoo, Mercari"
-Payment Options,Variety of payment methods accepted and ease of transferring funds to the seller.,Text[*],"App descriptions, user reviews"
-Payment Processing,The methods available for processing payments and how secure and efficient the payment process is.,Text[1],Multiple sources
-Payment Security,The security measures in place to protect sellers from fraud and ensure timely payments.,Boolean[1],Multiple sources
-Payment Security,"The level of protection offered for transactions, including secure payment gateways and buyer/seller verification.",Boolean[1],"App security policies, user reviews"
-Product Categories,"The variety of items that can be sold on the app (e.g., clothing, electronics, furniture, handmade items).",Text[*],Multiple sources
-Product Categories,"The range of items that can be sold on the app, from clothing to electronics to furniture.",Text[*],Various sources
-Product Category Focus,"The primary types of items that are commonly sold on the app (e.g., clothing, electronics, handmade items).",Text[*],Multiple
-Product Category Focus,"The app's specialization in specific product categories, such as fashion, electronics, or handmade goods. A focused category can attract a more targeted audience.",Text[1],"AMZScout, Shopify New Zealand, Greenlight"
-Safety and Security,"Measures taken to ensure safe transactions, verified user profiles, and protection against scams.",Boolean[*],"SimiCart, Greenlight, Shopify Australia, SaleHoo"
-Safety Features,"Measures taken to ensure secure transactions and user verification (e.g., user ratings, verified profiles, safe meeting spots).",Text[*],"App descriptions, user reviews"
-Seller Protection,Policies and procedures in place to protect sellers from fraudulent buyers or transactions.,Text[1],Multiple sources
-Seller Tools,"Features and resources provided to sellers, such as analytics, marketing tools, and customer support.",Text[*],"SimiCart, Greenlight, Shopify Australia, SaleHoo, Crosslist, Billo"
-Seller tools,"Tools available to sellers to help them manage their listings and sales (e.g., inventory management, analytics, marketing tools).",Text[*],Multiple sources
-Seller Tools,"The features and resources available to sellers, such as listing templates, analytics, and advertising options.",Text[*],Multiple sources
-Seller Tools,"Availability of tools like analytics, listing templates, and automated listing renewals.",Boolean[1],App descriptions
-Shipping Options,"The shipping methods available for sellers (e.g., prepaid labels, seller-arranged shipping, local pickup).",Text[*],"App descriptions, user reviews"
-Shipping Options,"The availability of integrated shipping tools, prepaid labels, and options for local pickup or nationwide shipping.",Boolean[*],"SimiCart, Greenlight, Shopify Australia, SaleHoo, Crosslist, Honeygain"
-Shipping Options,"The availability of prepaid shipping labels, integrated shipping services, or options for local pickup.",Boolean[*],Multiple
-Shipping Options,"The availability of prepaid shipping labels, integrated shipping services, and options for local pickup.",Boolean[1],Multiple sources
-Shipping Options,"The available methods for shipping items to buyers, including seller-arranged shipping, prepaid labels, and integration with shipping services.",Text[*],Multiple sources
-Shipping Options,"Availability of prepaid shipping labels, integrated shipping options, and buyer-paid shipping.",Boolean[1],"App descriptions, seller information"
-Shipping Options,"The availability of integrated shipping solutions, prepaid labels, and options for local pickup.",Boolean[1],"App features list, official website"
-Shipping Options,Whether the app provides prepaid shipping labels or requires sellers to handle shipping independently.,Boolean,Multiple sources
-Shipping Options,"The availability of integrated shipping labels, discounted shipping rates, and options for local pickup or delivery. Convenient shipping options attract more buyers.",Text[*],"AMZScout, Greenlight, Honeygain"
-Shipping Options,"The available choices for shipping items to buyers, including prepaid labels and independent shipping.",Text[*],Various sources
-Specialization,"Whether the platform specializes in certain categories like luxury items, vintage goods, or electronics.",Boolean[1],App descriptions
-Target Audience,"The specific demographic or interest group the platform caters to (e.g., handmade items, fashion, electronics).",Text[*],"SimiCart, Greenlight, Shopify Australia, SaleHoo, AMZScout"
-Target Audience,Demographics and interests of the app's primary user base.,Text[*],Multiple
-Target Audience,"The specific demographic or type of buyer that the app caters to (e.g., fashion enthusiasts, collectors, local buyers).",Text[*],Multiple sources
-Target Audience,"Specific types of items or categories that the app is best suited for (e.g., fashion, electronics, handmade items).",Text[*],"App descriptions, user reviews"
-Target Audience,The primary demographic or interest group the app caters to.,Text[*],Multiple sources
-Target Audience,"The specific group of buyers and sellers the app caters to (e.g., local, global, luxury, fashion, electronics).",Text[*],Various sources
-User Base,"The number of active users on the platform, indicating potential reach.",Integer[*],Various sources mentioning user statistics
-User Base,"Number of active users on the platform, impacting potential reach.",Integer[*],"SimiCart, Greenlight, Shopify Australia, SaleHoo"
-User Base,"The number of active users on the platform, indicating potential reach.",Integer[*],Multiple
-User Base,Number of active users on the platform. A larger user base increases the likelihood of a sale.,Integer[*],Multiple sources
-User Base,Number of active users on the platform. A larger user base increases the potential for sales.,Integer[*],Multiple sources
-User Base,Number of active users on the platform. A larger user base increases the likelihood of sales.,Integer[*],Various sources
-User Base,The number of active users on the platform. A larger user base increases the likelihood of a sale.,Integer[*],"Multiple sources, app stores"
-User Base,The approximate number of active users on the platform.,Integer[1],Multiple sources
-User Base,"The number of active users on the platform, influencing potential reach and sales volume.",Integer,Various sources
-User Base / Reach,The number of active users on the platform. A larger user base increases the chances of selling items quickly.,Integer[*],"AMZScout, SimiCart, SellerApp"
-User Interface,Ease of use and navigation within the app.,Text[1],"User reviews, app store ratings"
+model,feature,name,description,type,sources
+gemini,List items for sale,User Base,"The number of active users on the platform, indicating potential reach.",Integer[*],Various sources mentioning user statistics
+gemini,List items for sale,Fees,"Listing fees, commission fees, or transaction fees charged by the app.",Float[*],"App descriptions, Terms of Service"
+gemini,List items for sale,Category Focus,"The primary types of items the app is best suited for selling (e.g., clothing, electronics, handmade items).",Text[*],"App descriptions, user reviews"
+gemini,List items for sale,Shipping Options,"The shipping methods available for sellers (e.g., prepaid labels, seller-arranged shipping, local pickup).",Text[*],"App descriptions, user reviews"
+gemini,List items for sale,Local vs. National Reach,Whether the app primarily focuses on local sales or provides options for nationwide/global shipping.,Text[1],"App descriptions, user reviews"
+gemini,List items for sale,User Interface,Ease of use and navigation within the app.,Text[1],"User reviews, app store ratings"
+gemini,List items for sale,Safety Features,"Measures taken to ensure secure transactions and user verification (e.g., user ratings, verified profiles, safe meeting spots).",Text[*],"App descriptions, user reviews"
+gemini,List items for sale,User Base,"Number of active users on the platform, impacting potential reach.",Integer[*],"SimiCart, Greenlight, Shopify Australia, SaleHoo"
+gemini,List items for sale,Fees,"Listing fees, commission fees, and payment processing fees associated with selling on the platform.",Float[*],"SimiCart, Greenlight, Shopify Australia, SaleHoo, Supdropshipping"
+gemini,List items for sale,Target Audience,"The specific demographic or interest group the platform caters to (e.g., handmade items, fashion, electronics).",Text[*],"SimiCart, Greenlight, Shopify Australia, SaleHoo, AMZScout"
+gemini,List items for sale,Ease of Use,"The simplicity and intuitiveness of the app interface for listing items, managing sales, and communicating with buyers.",Boolean[*],"SimiCart, Greenlight, Shopify Australia, SaleHoo, Crosslist"
+gemini,List items for sale,Shipping Options,"The availability of integrated shipping tools, prepaid labels, and options for local pickup or nationwide shipping.",Boolean[*],"SimiCart, Greenlight, Shopify Australia, SaleHoo, Crosslist, Honeygain"
+gemini,List items for sale,Seller Tools,"Features and resources provided to sellers, such as analytics, marketing tools, and customer support.",Text[*],"SimiCart, Greenlight, Shopify Australia, SaleHoo, Crosslist, Billo"
+gemini,List items for sale,Payment Options,The variety of payment methods accepted and the speed of payouts to sellers.,Text[*],"SimiCart, Greenlight, Shopify Australia, SaleHoo, Mercari"
+gemini,List items for sale,Mobile Optimization,"How well the app functions on mobile devices, including listing creation, photo uploads, and order management.",Boolean[*],"SimiCart, Greenlight, Shopify Australia, SaleHoo"
+gemini,List items for sale,Customer Support,"The quality and availability of customer support for sellers, including response times and issue resolution.",Text[*],"SimiCart, Greenlight, Shopify Australia, SaleHoo"
+gemini,List items for sale,Safety and Security,"Measures taken to ensure safe transactions, verified user profiles, and protection against scams.",Boolean[*],"SimiCart, Greenlight, Shopify Australia, SaleHoo"
+gemini,List items for sale,User Base,"The number of active users on the platform, indicating potential reach.",Integer[*],Multiple
+gemini,List items for sale,Fees,"Listing fees, commission fees, or transaction fees associated with selling on the platform.",Float[*],Multiple
+gemini,List items for sale,Product Category Focus,"The primary types of items that are commonly sold on the app (e.g., clothing, electronics, handmade items).",Text[*],Multiple
+gemini,List items for sale,Shipping Options,"The availability of prepaid shipping labels, integrated shipping services, or options for local pickup.",Boolean[*],Multiple
+gemini,List items for sale,Target Audience,Demographics and interests of the app's primary user base.,Text[*],Multiple
+gemini,List items for sale,User Base,Number of active users on the platform. A larger user base increases the likelihood of a sale.,Integer[*],Multiple sources
+gemini,List items for sale,Fees,"Listing fees, commission fees, and payment processing fees charged by the app.",Float[*],Multiple sources
+gemini,List items for sale,Target Audience,"The specific demographic or type of buyer that the app caters to (e.g., fashion enthusiasts, collectors, local buyers).",Text[*],Multiple sources
+gemini,List items for sale,Ease of Use,"The simplicity and intuitiveness of the app's interface for listing items, managing inventory, and communicating with buyers.",Text[1],Multiple sources
+gemini,List items for sale,Shipping Options,"The availability of prepaid shipping labels, integrated shipping services, and options for local pickup.",Boolean[1],Multiple sources
+gemini,List items for sale,Payment Security,The security measures in place to protect sellers from fraud and ensure timely payments.,Boolean[1],Multiple sources
+gemini,List items for sale,Item categories,Types of the items that you can list on the app.,Text[*],Multiple sources
+gemini,List items for sale,Seller tools,"Tools available to sellers to help them manage their listings and sales (e.g., inventory management, analytics, marketing tools).",Text[*],Multiple sources
+gemini,List items for sale,User Base,Number of active users on the platform. A larger user base increases the potential for sales.,Integer[*],Multiple sources
+gemini,List items for sale,Fees,"The cost associated with listing and selling items on the app, including listing fees, commission fees, and transaction fees.",Float[*],Multiple sources
+gemini,List items for sale,Product Categories,"The variety of items that can be sold on the app (e.g., clothing, electronics, furniture, handmade items).",Text[*],Multiple sources
+gemini,List items for sale,Shipping Options,"The available methods for shipping items to buyers, including seller-arranged shipping, prepaid labels, and integration with shipping services.",Text[*],Multiple sources
+gemini,List items for sale,Ease of Use,"How simple and intuitive the app is to use for listing items, managing inventory, and communicating with buyers.",Text[1],Multiple sources
+gemini,List items for sale,Local vs. Global Reach,Whether the app primarily focuses on local sales or offers the ability to sell internationally.,Text[1],Multiple sources
+gemini,List items for sale,Seller Tools,"The features and resources available to sellers, such as listing templates, analytics, and advertising options.",Text[*],Multiple sources
+gemini,List items for sale,Community Focus,The extent to which the app fosters a sense of community among buyers and sellers through features like verified profiles and ratings systems.,Boolean[1],Multiple sources
+gemini,List items for sale,Payment Processing,The methods available for processing payments and how secure and efficient the payment process is.,Text[1],Multiple sources
+gemini,List items for sale,App Ratings,"The average rating of the app in app stores, reflecting user satisfaction and app quality.",Float[2],"App Store, Google Play Store"
+gemini,List items for sale,User Base,Number of active users on the platform. A larger user base increases the likelihood of sales.,Integer[*],Various sources
+gemini,List items for sale,Fees,"Listing fees, commission fees, or transaction fees charged by the app. Lower fees increase seller profit.",Float[*],Various sources
+gemini,List items for sale,Ease of Use,"How easy it is to list items, manage inventory, and communicate with buyers.",Text[1],"User reviews, app descriptions"
+gemini,List items for sale,Shipping Options,"Availability of prepaid shipping labels, integrated shipping options, and buyer-paid shipping.",Boolean[1],"App descriptions, seller information"
+gemini,List items for sale,Payment Options,Variety of payment methods accepted and ease of transferring funds to the seller.,Text[*],"App descriptions, user reviews"
+gemini,List items for sale,Target Audience,"Specific types of items or categories that the app is best suited for (e.g., fashion, electronics, handmade items).",Text[*],"App descriptions, user reviews"
+gemini,List items for sale,Global Reach,"The geographical reach of the platform, whether it's local, national, or international.",Text[1],App descriptions
+gemini,List items for sale,Seller Tools,"Availability of tools like analytics, listing templates, and automated listing renewals.",Boolean[1],App descriptions
+gemini,List items for sale,Cross-listing Capabilities,Ability to list items on multiple platforms simultaneously to increase visibility.,Boolean[1],App descriptions
+gemini,List items for sale,Specialization,"Whether the platform specializes in certain categories like luxury items, vintage goods, or electronics.",Boolean[1],App descriptions
+gemini,List items for sale,User Base,The number of active users on the platform. A larger user base increases the likelihood of a sale.,Integer[*],"Multiple sources, app stores"
+gemini,List items for sale,Fees,The commission or listing fees charged by the app. Lower fees result in higher profits for the seller.,Float[*],"App documentation, user reviews"
+gemini,List items for sale,Ease of Use,"How simple it is to list items, manage inventory, and communicate with buyers. A user-friendly interface saves time and effort.",Text[1],"User reviews, app store comments"
+gemini,List items for sale,Shipping Options,"The availability of integrated shipping solutions, prepaid labels, and options for local pickup.",Boolean[1],"App features list, official website"
+gemini,List items for sale,Payment Security,"The level of protection offered for transactions, including secure payment gateways and buyer/seller verification.",Boolean[1],"App security policies, user reviews"
+gemini,List items for sale,Category Specialization,"Whether the app focuses on a specific product category (e.g., clothing, electronics, handmade items), which can attract a more targeted audience.",Text[1],"App description, user demographics"
+gemini,List items for sale,Fees,The commission or listing fees associated with selling on the app.,Float[*],Multiple sources
+gemini,List items for sale,Target Audience,The primary demographic or interest group the app caters to.,Text[*],Multiple sources
+gemini,List items for sale,Item Categories,The range of product types that are commonly sold on the app.,Text[*],Multiple sources
+gemini,List items for sale,Shipping Options,Whether the app provides prepaid shipping labels or requires sellers to handle shipping independently.,Boolean,Multiple sources
+gemini,List items for sale,Payment Method,"How sellers receive payment for their sales (e.g., direct deposit, PayPal).",Text[*],Multiple sources
+gemini,List items for sale,User Base,The approximate number of active users on the platform.,Integer[1],Multiple sources
+gemini,List items for sale,Listing Simplicity,Ease of creating and managing product listings.,Text[1],Multiple sources
+gemini,List items for sale,Seller Protection,Policies and procedures in place to protect sellers from fraudulent buyers or transactions.,Text[1],Multiple sources
+gemini,List items for sale,User Base / Reach,The number of active users on the platform. A larger user base increases the chances of selling items quickly.,Integer[*],"AMZScout, SimiCart, SellerApp"
+gemini,List items for sale,Fees,"The costs associated with listing and selling items, including listing fees, commission fees, and transaction fees. Lower fees increase profitability.",Float[*],"AMZScout, Shopify New Zealand, Greenlight"
+gemini,List items for sale,Ease of Use,"How simple the app is to use, including listing creation, navigation, and communication with buyers. An intuitive interface saves time and effort.",Boolean[1],"AMZScout, Greenlight, Honeygain"
+gemini,List items for sale,Shipping Options,"The availability of integrated shipping labels, discounted shipping rates, and options for local pickup or delivery. Convenient shipping options attract more buyers.",Text[*],"AMZScout, Greenlight, Honeygain"
+gemini,List items for sale,Product Category Focus,"The app's specialization in specific product categories, such as fashion, electronics, or handmade goods. A focused category can attract a more targeted audience.",Text[1],"AMZScout, Shopify New Zealand, Greenlight"
+gemini,List items for sale,Fees,"The amount charged per listing or when an item sells, affecting profitability.",Float[*],Various sources
+gemini,List items for sale,Target Audience,"The specific group of buyers and sellers the app caters to (e.g., local, global, luxury, fashion, electronics).",Text[*],Various sources
+gemini,List items for sale,Ease of Use,"How simple the app is to navigate, list items, and complete transactions.",Text,Various sources
+gemini,List items for sale,Shipping Options,"The available choices for shipping items to buyers, including prepaid labels and independent shipping.",Text[*],Various sources
+gemini,List items for sale,Product Categories,"The range of items that can be sold on the app, from clothing to electronics to furniture.",Text[*],Various sources
+gemini,List items for sale,User Base,"The number of active users on the platform, influencing potential reach and sales volume.",Integer,Various sources

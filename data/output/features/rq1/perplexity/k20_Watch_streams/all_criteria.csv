@@ -1,0 +1,66 @@
+model,feature,name,description,type,sources
+perplexity,Watch streams,User Base Size,Number of active users or downloads indicating app popularity and community size,Integer[1],"Switcherstudio, Google Play"
+perplexity,Watch streams,Content Variety,"Range of stream genres supported, such as gaming, sports, music, podcasts, and social streams",Text[1],"SwitcherStudio, Twitch app description"
+perplexity,Watch streams,Multistreaming Capability,Ability to stream simultaneously to multiple platforms,Boolean[1],SwitcherStudio
+perplexity,Watch streams,Free Version Availability,Whether the app offers a free access tier for live streaming or watching streams,Boolean[1],SwitcherStudio
+perplexity,Watch streams,Platform Support,"Availability on mobile, browser, and smart TV devices",Text[1],"SwitcherStudio, Engadget"
+perplexity,Watch streams,Interactive Features,"Support for live chat, audience interaction, remote guest collaboration",Boolean[1],SwitcherStudio
+perplexity,Watch streams,Subscription and Pricing Options,"Cost structure including free tiers, subscription levels, and pay-per-use features",Text[1],"SwitcherStudio, CNET"
+perplexity,Watch streams,Content Quality and Streaming Stability,Stream video quality and reliability metrics,Text[1],"User Reviews, CNET"
+perplexity,Watch streams,User Base Size,"The number of active users or downloads, indicating popularity and community size",Integer [1],"Switcher Studio, Google Play Store, General market data"
+perplexity,Watch streams,Streaming Quality and Features,"Video quality options, multicamera support, multistreaming, and custom branding capabilities",Text [*],Switcher Studio
+perplexity,Watch streams,Platform Availability,"Supported devices and platforms for watching streams such as iOS, Android, browser-based, and smart TVs",Text [*],"Switcher Studio, Engadget, TCL USA"
+perplexity,Watch streams,Pricing Model,"Whether the app is free, freemium, subscription-based, or paid with additional add-ons",Text [1],"Switcher Studio, CNET"
+perplexity,Watch streams,Content Variety,"Range of content types available for streaming including games, TV shows, sports, music, and IRL streams",Text [*],"Switcher Studio, CNET, TCL USA"
+perplexity,Watch streams,User Base Size,Number of active users or downloads indicating app popularity,Integer [1],"Switcher Studio, Google Play"
+perplexity,Watch streams,Streaming Content Variety,"Range of stream types supported (games, music, sports, podcasts, etc.)",Text [1],"Switcher Studio, Twitch description"
+perplexity,Watch streams,Multistreaming Capability,Ability to broadcast streams simultaneously to multiple destinations,Boolean [1],Switcher Studio
+perplexity,Watch streams,Platform Availability,"Supported platforms (mobile, browser, desktop)",Text [*],"Switcher Studio, Engadget"
+perplexity,Watch streams,Pricing Model,"Free, freemium, subscription tiers, or paid-only options",Text [*],Switcher Studio
+perplexity,Watch streams,User Interaction Features,"Availability of live chat, audience engagement tools, guest collaboration",Boolean [1],"Switcher Studio, Twitch"
+perplexity,Watch streams,Content Quality and Reliability,"Streaming stability, video quality options, and broadcasting tools",Text [1],"Switcher Studio, Twitch"
+perplexity,Watch streams,User Base Size,"The number of active users or subscribers on the platform, indicating popularity and content diversity",Integer [1],"Switcher Studio, Google Play, TCL USA"
+perplexity,Watch streams,Content Variety,"Range of streaming content types available such as games, music, sports, TV shows, movies, and live events",Text [1],"Switcher Studio, Engadget, Google Play"
+perplexity,Watch streams,Multistreaming Capability,Ability to broadcast simultaneously to multiple platforms,Boolean [1],Switcher Studio
+perplexity,Watch streams,Platform Accessibility,"Whether the app is browser-based, mobile, or supports multiple device types",Text [1],Switcher Studio
+perplexity,Watch streams,Pricing Model,Free availability versus paid subscription tiers or additional fees for features,Text [*],"Switcher Studio, CNET"
+perplexity,Watch streams,Interactive Features,"Availability of live chat, guest collaboration, custom branding, and audience engagement tools",Text [*],"Switcher Studio, Google Play"
+perplexity,Watch streams,Streaming Quality and Storage,"Limits on live streaming duration, video quality, and storage for recorded streams",Text [1],Switcher Studio
+perplexity,Watch streams,User Base Size,Number of active users or downloads indicating app popularity and community size,Integer [1],"Google Play Store, App Store, Industry Reports"
+perplexity,Watch streams,Streaming Content Variety,"Range of content types available such as gaming, TV shows, movies, sports, IRL streams",Text [*],"Official App Descriptions, Reviews"
+perplexity,Watch streams,Multistreaming Capability,Ability to stream simultaneously to multiple platforms,Boolean [1],"Switcher Studio Blog, Official App Features"
+perplexity,Watch streams,Platform Support,"Availability across devices (mobile, desktop, browser-based)",Text [*],"App Websites, User Guides"
+perplexity,Watch streams,Pricing Structure,Free usage availability and subscription cost tiers,Text [1],"Official Pricing Pages, Reviews"
+perplexity,Watch streams,Interactive Features,"Functions like live chat, audience engagement, guest collaboration",Boolean [1],"Switcher Studio Blog, App Reviews"
+perplexity,Watch streams,User Base Size,The number of active users or downloads indicating the size of the community and content availability,Integer [1],"Google Play Store, Switcher Studio"
+perplexity,Watch streams,Content Variety,"Range of content types available for streaming, such as gaming, sports, TV shows, movies, social streams, or professional events",Text [*],"Switcher Studio, TCL, CNET"
+perplexity,Watch streams,Multistreaming Capability,Ability to broadcast live streams simultaneously on multiple platforms,Boolean [1],Switcher Studio
+perplexity,Watch streams,Platform Availability,"Whether the app supports mobile, desktop, browser-based, or multiple device access",Text [*],"Switcher Studio, Engadget"
+perplexity,Watch streams,Free vs Paid Features,Availability of free-tier streaming and what premium features or limitations exist,Text [*],"Switcher Studio, CNET"
+perplexity,Watch streams,Interactive Features,"Live chat, audience engagement tools, guest collaboration, and customization during live streams",Text [*],Switcher Studio
+perplexity,Watch streams,User Base Size,Number of active users or downloads indicating app popularity and community size.,Integer[1],"Google Play Store, App analytics"
+perplexity,Watch streams,Multistream Capability,Ability to stream live content simultaneously to multiple platforms.,Boolean[1],Switcher Studio
+perplexity,Watch streams,Content Variety,"Range of streaming content types like games, sports, music, IRL streams, TV shows, movies, etc.",Text[1],"Switcher Studio, CNET, Google Play Store"
+perplexity,Watch streams,Platform Accessibility,"Availability across devices such as mobile apps, browser-based, smart TVs, etc.",Text[1],"Switcher Studio, Engadget"
+perplexity,Watch streams,Free vs Paid Features,"Availability and limitations of free versus premium features including watermark removal, storage, and streaming hours.",Text[1],Switcher Studio
+perplexity,Watch streams,Interactive Features,"Tools offered for audience engagement such as live chat, polls, guest collaboration.",Text[1],"Switcher Studio, Restream"
+perplexity,Watch streams,Streaming Quality and Stability,Reliability of streaming performance and video quality under different network conditions.,Text[1],"User reviews, Industry reports"
+perplexity,Watch streams,User Base Size,The number of active users or downloads indicating the app's popularity for watching streams,Integer [1],"Switcher Studio, Google Play"
+perplexity,Watch streams,Stream Variety,"The range of stream types offered, such as games, sports, movies, podcasts, and IRL content",Text [*],"Switcher Studio, Twitch description"
+perplexity,Watch streams,Multistreaming Capability,Ability to stream or watch on multiple platforms or channels simultaneously,Boolean [1],Switcher Studio
+perplexity,Watch streams,Platform Availability,"If the app is available on mobile, web browser, or desktop",Text [*],"Switcher Studio, Engadget"
+perplexity,Watch streams,Free Version Availability,Whether the app offers a free tier for watching streams,Boolean [1],Switcher Studio
+perplexity,Watch streams,Live Interaction Features,"Features allowing real-time audience engagement such as chat, polls, or reactions",Boolean [1],"Switcher Studio, Twitch"
+perplexity,Watch streams,User Base Size,Number of active users or downloads indicating popularity and availability of streams,Integer [1],"Google Play Store, App download statistics"
+perplexity,Watch streams,Platform Compatibility,"Availability on multiple devices and operating systems (iOS, Android, Web)",Text [*],"App descriptions, official websites"
+perplexity,Watch streams,Multistreaming and Collaboration Features,Ability to stream on multiple platforms simultaneously and invite remote guests,Boolean,Switcher Studio article
+perplexity,Watch streams,Content Variety,"Range of streamed content types such as games, sports, music, social media, TV shows",Text [*],App feature descriptions
+perplexity,Watch streams,Pricing Model,"Free, freemium, or subscription-based pricing with free tiers and paid upgrades",Text [1],"Switcher Studio, Engadget"
+perplexity,Watch streams,User Engagement Tools,"Features like live chat, audience interaction, live polls, and custom branding",Boolean,"Switcher Studio, Restream"
+perplexity,Watch streams,User Base Size,The number of active users or downloads signifying the popularity and community size of the app,Integer [1],"Switcher Studio, Google Play"
+perplexity,Watch streams,Live Streaming Features,"Availability of features such as multistreaming, remote guest participation, custom branding, and real-time audience interaction",Text [*],Switcher Studio
+perplexity,Watch streams,Platform Type,"Whether the app is browser-based, mobile app, or hybrid, affecting accessibility and device compatibility",Text [1],Switcher Studio
+perplexity,Watch streams,Cost / Pricing Model,"The pricing structure including availability of free tier, subscription costs, and any pay-per-use features",Float [1],Switcher Studio
+perplexity,Watch streams,Content Variety,"Range of content types available such as games, sports, movies, TV shows, music, or niche streams",Text [*],"Switcher Studio, CNET, TCL"
+perplexity,Watch streams,Device Compatibility,"Support across multiple devices including mobile phones, tablets, smart TVs, and desktops",Text [*],"CNET, TCL"
+perplexity,Watch streams,User Ratings and Reviews,Average user rating on app stores reflecting user satisfaction and app quality,Float [1],Google Play
