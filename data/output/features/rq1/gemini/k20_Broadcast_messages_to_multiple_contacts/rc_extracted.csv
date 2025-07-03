@@ -1,0 +1,54 @@
+model,feature,name,description,type,sources
+gemini,Broadcast messages to multiple contacts,Reach,Number of contacts that can be reached through the app.,Integer[*],"vendor website, app store description"
+gemini,Broadcast messages to multiple contacts,Personalization Options,Availability of features to personalize messages for individual recipients.,Boolean[1],"app store description, reviews"
+gemini,Broadcast messages to multiple contacts,Automation Capabilities,Extent to which message sending and follow-up can be automated.,Text[1],"vendor website, reviews"
+gemini,Broadcast messages to multiple contacts,Pricing Model,The cost structure associated with using the app.,Text[1],"vendor website, app store"
+gemini,Broadcast messages to multiple contacts,Ease of Use,How user-friendly the app is for sending broadcast messages.,Text[1],"user reviews, app store rating"
+gemini,Broadcast messages to multiple contacts,Mass Texting Capability,"Ability to send a single message to multiple contacts simultaneously, either as individual texts or through a group chat.",Boolean [1],Multiple sources
+gemini,Broadcast messages to multiple contacts,Personalization,Allows for personalization of messages with recipient's name or other custom fields.,Boolean [1],Multiple sources
+gemini,Broadcast messages to multiple contacts,Scheduling,Ability to schedule messages to be sent at a future date and time.,Boolean [1],Multiple sources
+gemini,Broadcast messages to multiple contacts,Two-Way Messaging,"Supports two-way communication, allowing recipients to reply to messages.",Boolean [1],Multiple sources
+gemini,Broadcast messages to multiple contacts,Contact Management,Tools for managing and segmenting contacts into lists or groups.,Boolean [1],Multiple sources
+gemini,Broadcast messages to multiple contacts,Pricing,"Cost of the service, including monthly fees, per-message charges, and any additional costs for features or usage.",Float [*],Multiple sources
+gemini,Broadcast messages to multiple contacts,SMS/MMS Support,Whether the app supports sending both SMS (text) and MMS (multimedia) messages.,Boolean [1],Multiple sources
+gemini,Broadcast messages to multiple contacts,Reporting and Analytics,"Provides data and reports on message delivery, open rates, and other metrics.",Boolean [1],Multiple sources
+gemini,Broadcast messages to multiple contacts,Platform Availability,"Availability on iOS, Android, Web, or other platforms.",Text [*],Multiple sources
+gemini,Broadcast messages to multiple contacts,Integrations,"Integrates with other business tools such as CRM, email marketing, or e-commerce platforms.",Text [*],Multiple sources
+gemini,Broadcast messages to multiple contacts,User Adoption Rate,Percentage of target audience already using the app. Higher adoption reduces the barrier to entry for new group members.,"Float [0.0, 1.0]","App user statistics, market analysis reports"
+gemini,Broadcast messages to multiple contacts,Message Capacity per Broadcast,Maximum number of recipients allowed in a single broadcast message.,"Integer [1,*]","App specifications, developer documentation"
+gemini,Broadcast messages to multiple contacts,Personalization Features,"Availability and sophistication of personalization options (e.g., inserting recipient names, custom fields).","Boolean, Text[*]","App feature list, user reviews"
+gemini,Broadcast messages to multiple contacts,Scheduling Capability,Ability to schedule broadcast messages for delivery at a future time.,Boolean,"App feature list, user reviews"
+gemini,Broadcast messages to multiple contacts,Cost per Message,The cost associated with sending a single broadcast message. This is particularly relevant for apps that charge per message.,"Float [0.0,*]","App pricing plans, developer documentation"
+gemini,Broadcast messages to multiple contacts,Opt-in Requirement,Whether the app requires explicit consent from recipients before sending broadcast messages to comply with regulations.,Boolean,"App compliance documentation, user agreements"
+gemini,Broadcast messages to multiple contacts,Multimedia Support,"Types of media supported in broadcast messages (e.g., images, videos, documents).",Text[*],"App specifications, user reviews"
+gemini,Broadcast messages to multiple contacts,Automation Features,"Availability of automated responses, drip campaigns, and other automated messaging features.","Boolean, Text[*]","App feature list, developer documentation"
+gemini,Broadcast messages to multiple contacts,Integration with Other Tools,"Seamless integration with other business or productivity tools (e.g., CRM, marketing platforms).",Text[*],"App integration list, developer documentation"
+gemini,Broadcast messages to multiple contacts,Security and Privacy,Level of encryption and privacy features offered by the app.,Text,"App security policies, user reviews"
+gemini,Broadcast messages to multiple contacts,Ease of Use,How intuitive and user-friendly the app is for sending broadcast messages.,Integer [1],"User reviews, Expert reviews"
+gemini,Broadcast messages to multiple contacts,Personalization Options,"The ability to personalize messages with contact details (e.g., name) for individual sending.",Boolean [1],"App description, Feature list"
+gemini,Broadcast messages to multiple contacts,Contact Management,Features for managing and segmenting contacts for targeted broadcasting.,Boolean [1],"App description, Feature list"
+gemini,Broadcast messages to multiple contacts,Scheduling,The ability to schedule messages for sending at a later date and time.,Boolean [1],"App description, Feature list"
+gemini,Broadcast messages to multiple contacts,Pricing,"The cost-effectiveness of the app, considering free trials, subscription fees, and pay-per-message options.",Float [1],"App Store, Google Play Store, Developer Website"
+gemini,Broadcast messages to multiple contacts,Recipient Limit,Maximum number of recipients allowed per broadcast message.,Integer [1],"Terms of service, Pricing plan details"
+gemini,Broadcast messages to multiple contacts,Delivery Rate,Percentage of messages successfully delivered to recipients.,Float [1],"Service provider documentation, User feedback"
+gemini,Broadcast messages to multiple contacts,Opt-in Compliance,"Tools and features for ensuring compliance with SMS marketing regulations (e.g., opt-in/opt-out management).",Boolean [1],"App features, Legal compliance documentation"
+gemini,Broadcast messages to multiple contacts,Reporting & Analytics,"The availability of reporting and analytics on message delivery, open rates, and other key metrics.",Boolean [1],"App description, Feature list"
+gemini,Broadcast messages to multiple contacts,Integrations,"Compatibility with other CRM, marketing automation, and business tools.",Text [*],"App description, Integration list"
+gemini,Broadcast messages to multiple contacts,Ease of Use,How intuitive and user-friendly the app interface is for creating and sending broadcast messages.,Text,"User reviews, app store descriptions"
+gemini,Broadcast messages to multiple contacts,Number of Contacts,The maximum number of contacts to which a message can be broadcasted simultaneously.,Integer,"App specifications, help documentation"
+gemini,Broadcast messages to multiple contacts,Personalization Features,Availability of features like custom fields and dynamic content to personalize messages for each recipient.,Boolean,"App features list, marketing materials"
+gemini,Broadcast messages to multiple contacts,Delivery Rate,Percentage of messages successfully delivered to recipients.,Float,"Service level agreements, user reports"
+gemini,Broadcast messages to multiple contacts,Scheduling,Ability to schedule messages to be sent at a future date and time.,Boolean,"App features, tutorials"
+gemini,Broadcast messages to multiple contacts,Cost,"The pricing structure of the app, including monthly fees, per-message costs, and any additional charges.",Float,"Pricing pages, subscription details"
+gemini,Broadcast messages to multiple contacts,Contact Management,"Features for organizing and managing contacts, such as tagging, segmentation, and importing/exporting.",Text,"App descriptions, help documentation"
+gemini,Broadcast messages to multiple contacts,Reporting and Analytics,"Availability of tools to track message delivery, open rates, click-through rates, and other relevant metrics.",Boolean,"App features list, marketing materials"
+gemini,Broadcast messages to multiple contacts,Integration,"Ability to integrate with other platforms and services such as CRM, marketing automation, and e-commerce platforms.",Text,"API documentation, integration lists"
+gemini,Broadcast messages to multiple contacts,Two-Way Messaging,Capability for recipients to reply to broadcast messages and engage in a conversation.,Boolean,"App features, tutorials"
+gemini,Broadcast messages to multiple contacts,Reach,Number of contacts to whom messages can be broadcasted simultaneously.,"Integer, [1]","Vendor Documentation, App Details"
+gemini,Broadcast messages to multiple contacts,Personalization,"Ability to personalize messages with customer-specific data (e.g., name, location).","Boolean, [1]","Vendor Documentation, App Reviews"
+gemini,Broadcast messages to multiple contacts,Automation,"Availability of automated workflows, scheduling, and triggered messages.","Boolean, [1]","Vendor Documentation, App Details"
+gemini,Broadcast messages to multiple contacts,Integration,"Integration capabilities with other platforms (e.g., CRM, e-commerce).","Text, [*]","Vendor Documentation, App Details"
+gemini,Broadcast messages to multiple contacts,Analytics,"Availability of analytics and reporting on message performance (e.g., open rates, reply rates).","Boolean, [1]","Vendor Documentation, App Reviews"
+gemini,Broadcast messages to multiple contacts,Compliance,Features ensuring compliance with SMS marketing regulations.,"Boolean, [1]",Vendor Documentation
+gemini,Broadcast messages to multiple contacts,Cost,Pricing model and cost per message or subscription.,"Float, [1]",Vendor Pricing Pages
+gemini,Broadcast messages to multiple contacts,Multi-channel Support,"Supports other channels besides SMS such as Email, push notifications and other messengers.","Boolean, [1]",Vendor Documentation
