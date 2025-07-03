@@ -7,7 +7,7 @@ import os
 import argparse
 
 # Global array of k values
-K_VALUES = [1, 3, 5, 10, 20]
+K_VALUES = [3, 10, 20]
 
 def rbo(list1, list2, p=0.9):
     """
@@ -54,6 +54,14 @@ def get_ranked_lists(df, model, feature, k):
     lists = model_df[rank_cols_exist].values.tolist()
     return [[app for app in l if pd.notna(app)] for l in lists]
 
+def rename_feature_for_display(feature_name):
+    """
+    Rename features for better display in plots.
+    """
+    if feature_name == 'Broadcast messages to multiple contacts':
+        return 'Broadcast messages'
+    return feature_name
+
 def plot_heatmap(df, value_col, title, output_path, consistency_type='external', model_order=None):
     """
     Plots a heatmap of consistency scores with values constrained to [0,1].
@@ -76,6 +84,9 @@ def plot_heatmap(df, value_col, title, output_path, consistency_type='external',
             if existing_models:
                 pivot_df = pivot_df[existing_models]
     
+    # Rename features for display
+    pivot_df.index = pivot_df.index.map(rename_feature_for_display)
+    
     # Sort features alphabetically
     pivot_df_sorted = pivot_df.sort_index()
     
@@ -91,17 +102,33 @@ def plot_heatmap(df, value_col, title, output_path, consistency_type='external',
     # Concatenate: features + empty row + average
     pivot_df_with_avg = pd.concat([pivot_df_sorted, empty_row, avg_row])
     
+    # Set larger figure size and font sizes
     plt.figure(figsize=(max(12, len(pivot_df_with_avg.columns) * 1.5), 8))
     
-    # Ensure the heatmap is scaled from 0 to 1
-    sns.heatmap(pivot_df_with_avg, annot=True, cmap='YlGnBu', fmt=".2f", 
-                vmin=0, vmax=1, cbar_kws={'label': f'{value_col.title()} Score'})
+    # Set font sizes for better readability
+    plt.rcParams.update({
+        'font.size': 12,
+        'axes.titlesize': 16,
+        'axes.labelsize': 14,
+        'xtick.labelsize': 12,
+        'ytick.labelsize': 12,
+        'legend.fontsize': 12,
+        'figure.titlesize': 18
+    })
     
-    plt.title(title)
+    # Ensure the heatmap is scaled from 0 to 1 with larger annotation font
+    sns.heatmap(pivot_df_with_avg, annot=True, cmap='YlGnBu', fmt=".2f", 
+                vmin=0, vmax=1, cbar_kws={'label': f'{value_col.title()} Score'},
+                annot_kws={'size': 10})  # Larger annotation font
+    
+    #plt.title(title, fontsize=16, pad=20)
     plt.tight_layout()
-    plt.savefig(output_path)
+    plt.savefig(output_path, dpi=300, bbox_inches='tight')
     plt.close()
     print(f"Saved plot to {output_path}")
+    plt.gca().set_xticklabels(plt.gca().get_xticklabels(), rotation=0, ha='center', fontsize=12)
+    plt.gca().set_yticklabels(plt.gca().get_yticklabels(), fontsize=12)
+    plt.gca().xaxis.label.set_size(14)
 
 def analyze_external_consistency(df, features, models, k):
     """
@@ -198,15 +225,127 @@ def analyze_internal_consistency(df, features, models, k):
 
     return pd.DataFrame(jaccard_results), pd.DataFrame(rbo_results)
 
+def create_combined_heatmap_figure(all_data, metric_type, consistency_type, output_dir, model_order=None):
+    """
+    Create a combined figure with all k-value heatmaps arranged horizontally.
+    
+    Args:
+        all_data: Dictionary with k values as keys and DataFrames as values
+        metric_type: 'jaccard' or 'rbo'
+        consistency_type: 'external' or 'internal'
+        output_dir: Directory to save the figure
+        model_order: List of models in desired order (for internal consistency)
+    """
+    if not all_data:
+        print(f"No data available for {metric_type} combined heatmap")
+        return
+    
+    k_values = sorted(all_data.keys())
+    num_k = len(k_values)
+    
+    # Set up the figure with subplots
+    widths = [1] * (num_k - 1) + [1.3]  # Make last subplot wider
+    fig, axes = plt.subplots(
+        1, num_k, 
+        figsize=(4.5 * num_k + 2, 6),  # Slightly wider overall
+        gridspec_kw={'width_ratios': widths}
+    )
+    if num_k == 1:
+        axes = [axes]
+    
+    # Set font sizes for better readability (consolidated based on plot_heatmap)
+    plt.rcParams.update({
+        'font.size': 12,
+        'axes.titlesize': 16,
+        'axes.labelsize': 14,
+        'xtick.labelsize': 12,
+        'ytick.labelsize': 12,
+        'legend.fontsize': 12,
+        'figure.titlesize': 18
+    })
+    
+    # Process each k value
+    for i, k in enumerate(k_values):
+        df = all_data[k]
+        if df.empty:
+            continue
+            
+        ax = axes[i]
+        
+        # Create pivot table
+        if consistency_type == 'external':
+            pivot_df = df.pivot_table(index='feature', columns=['model1', 'model2'], values=metric_type)
+        else:  # internal
+            pivot_df = df.pivot_table(index='feature', columns='model', values=metric_type)
+            
+            # Reorder columns to match the original model order if provided
+            if model_order is not None:
+                existing_models = [model for model in model_order if model in pivot_df.columns]
+                if existing_models:
+                    pivot_df = pivot_df[existing_models]
+        
+        # Rename features for display
+        pivot_df.index = pivot_df.index.map(rename_feature_for_display)
+        
+        # Sort features alphabetically
+        pivot_df_sorted = pivot_df.sort_index()
+        
+        # Add empty row for visual separation
+        empty_row = pd.DataFrame([[np.nan] * len(pivot_df_sorted.columns)], 
+                               index=[''], 
+                               columns=pivot_df_sorted.columns)
+        
+        # Add average row at the bottom
+        overall_avg = pivot_df_sorted.mean(axis=0)
+        avg_row = pd.DataFrame([overall_avg], index=['AVERAGE'])
+        
+        # Concatenate: features + empty row + average
+        pivot_df_with_avg = pd.concat([pivot_df_sorted, empty_row, avg_row])
+        
+        # Create heatmap
+        if i == 0:  # First subplot - show y-axis labels
+            sns.heatmap(pivot_df_with_avg, annot=True, cmap='YlGnBu', fmt=".2f", 
+                       vmin=0, vmax=1, cbar=False, ax=ax,
+                       annot_kws={'size': 10})
+        elif i == num_k - 1:  # Last subplot - show colorbar
+            heatmap = sns.heatmap(pivot_df_with_avg, annot=True, cmap='YlGnBu', fmt=".2f", 
+                       vmin=0, vmax=1, cbar=True, ax=ax,
+                       cbar_kws={'label': ''},
+                       annot_kws={'size': 10})
+        else:  # Middle subplots - no y-axis labels, no colorbar
+            sns.heatmap(pivot_df_with_avg, annot=True, cmap='YlGnBu', fmt=".2f", 
+                       vmin=0, vmax=1, cbar=False, ax=ax,
+                       annot_kws={'size': 10})
+        
+        # Set title with k value
+        ax.set_title(f'k = {k}', fontsize=12, pad=15)
+        
+        # Hide y-axis labels for all except first subplot
+        if i > 0:
+            ax.set_ylabel('')
+            ax.set_yticklabels([])
+        
+        # Set x-axis tick labels to be horizontal
+        ax.set_xticklabels(ax.get_xticklabels(), rotation=0, ha='center', fontsize=12)
+        ax.set_yticklabels(ax.get_yticklabels(), fontsize=12)
+        ax.xaxis.label.set_size(12)  # For the axis label "model"
+    
+    # Adjust layout
+    plt.tight_layout()
+    
+    # Save the figure
+    output_path = os.path.join(output_dir, f'combined_{consistency_type}_{metric_type}_heatmap.png')
+    plt.savefig(output_path, dpi=300, bbox_inches='tight')
+    plt.close()
+    print(f"Saved combined {metric_type} heatmap to {output_path}")
+    plt.gca().set_xticklabels(plt.gca().get_xticklabels(), rotation=0, ha='center', fontsize=12)
+    plt.gca().set_yticklabels(plt.gca().get_yticklabels(), fontsize=12)
+    plt.gca().xaxis.label.set_size(14)
+
 def analyze_consistency_for_k(df, features, models, k, output_dir, consistency_type):
     """
-    Analyze consistency for a specific k value and save results to a subfolder.
+    Analyze consistency for a specific k value and save results with k prefix in the output folder root.
     """
-    # Create subfolder for this k value
-    k_output_dir = os.path.join(output_dir, f'k{k}')
-    if not os.path.exists(k_output_dir):
-        os.makedirs(k_output_dir)
-    
     print(f"\n=== Analyzing consistency for k={k} ===")
     
     # Calculate consistency metrics based on type
@@ -218,15 +357,12 @@ def analyze_consistency_for_k(df, features, models, k, output_dir, consistency_t
         print(f"\n--- External Consistency (k={k}): Rank-Biased Overlap (RBO) Results (Rank Consistency) ---")
         print(rbo_df)
         
-        # Save results to CSV
-        jaccard_df.to_csv(os.path.join(k_output_dir, 'external_jaccard_similarity.csv'), index=False)
-        rbo_df.to_csv(os.path.join(k_output_dir, 'external_rbo_consistency.csv'), index=False)
+        # Save results to CSV with k prefix
+        jaccard_df.to_csv(os.path.join(output_dir, f'k{k}_external_jaccard_similarity.csv'), index=False)
+        rbo_df.to_csv(os.path.join(output_dir, f'k{k}_external_rbo_consistency.csv'), index=False)
         
-        # Visualization
-        plot_heatmap(jaccard_df, 'jaccard', f'External Consistency (k={k}): Jaccard Similarity between Models across Features', 
-                    os.path.join(k_output_dir, 'external_jaccard_similarity_heatmap.png'), 'external')
-        plot_heatmap(rbo_df, 'rbo', f'External Consistency (k={k}): Rank-Biased Overlap (RBO) between Models across Features', 
-                    os.path.join(k_output_dir, 'external_rbo_consistency_heatmap.png'), 'external')
+        # Return DataFrames for combined plotting
+        return jaccard_df, rbo_df
     
     elif consistency_type == 'internal':
         jaccard_df, rbo_df = analyze_internal_consistency(df, features, models, k)
@@ -236,15 +372,12 @@ def analyze_consistency_for_k(df, features, models, k, output_dir, consistency_t
         print(f"\n--- Internal Consistency (k={k}): Rank-Biased Overlap (RBO) Results (Rank Consistency) ---")
         print(rbo_df)
         
-        # Save results to CSV
-        jaccard_df.to_csv(os.path.join(k_output_dir, 'internal_jaccard_similarity.csv'), index=False)
-        rbo_df.to_csv(os.path.join(k_output_dir, 'internal_rbo_consistency.csv'), index=False)
+        # Save results to CSV with k prefix
+        jaccard_df.to_csv(os.path.join(output_dir, f'k{k}_internal_jaccard_similarity.csv'), index=False)
+        rbo_df.to_csv(os.path.join(output_dir, f'k{k}_internal_rbo_consistency.csv'), index=False)
         
-        # Visualization
-        plot_heatmap(jaccard_df, 'jaccard', f'Internal Consistency (k={k}): Jaccard Similarity within Models across Features', 
-                    os.path.join(k_output_dir, 'internal_jaccard_similarity_heatmap.png'), 'internal', models)
-        plot_heatmap(rbo_df, 'rbo', f'Internal Consistency (k={k}): Rank-Biased Overlap (RBO) within Models across Features', 
-                    os.path.join(k_output_dir, 'internal_rbo_consistency_heatmap.png'), 'internal', models)
+        # Return DataFrames for combined plotting
+        return jaccard_df, rbo_df
 
 def main(input_csv_path='data/output/evaluation/app_rankings.csv', 
          output_dir='data/output/evaluation',
@@ -277,9 +410,18 @@ def main(input_csv_path='data/output/evaluation/app_rankings.csv',
     # Preserve the order of models as they appear in the CSV file
     models = df['model'].unique().tolist()
 
-    # 3. Analyze consistency for each k value
+    # 3. Analyze consistency for each k value and collect results
+    all_jaccard_data = {}
+    all_rbo_data = {}
+    
     for k in k_values:
-        analyze_consistency_for_k(df, features, models, k, output_dir, consistency_type)
+        jaccard_df, rbo_df = analyze_consistency_for_k(df, features, models, k, output_dir, consistency_type)
+        all_jaccard_data[k] = jaccard_df
+        all_rbo_data[k] = rbo_df
+    
+    # 4. Create combined heatmap figures
+    create_combined_heatmap_figure(all_jaccard_data, 'jaccard', consistency_type, output_dir, models)
+    create_combined_heatmap_figure(all_rbo_data, 'rbo', consistency_type, output_dir, models)
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Analyze consistency of app rankings for different k values')
