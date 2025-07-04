@@ -244,10 +244,14 @@ def create_combined_heatmap_figure(all_data, metric_type, consistency_type, outp
     num_k = len(k_values)
     
     # Set up the figure with subplots
+    if consistency_type == 'external':
+        fig_height = 8  # Make plot higher for external consistency
+    else:
+        fig_height = 6
     widths = [1] * (num_k - 1) + [1.3]  # Make last subplot wider
     fig, axes = plt.subplots(
         1, num_k, 
-        figsize=(4.5 * num_k + 2, 6),  # Slightly wider overall
+        figsize=(4.5 * num_k + 2, fig_height),  # Use dynamic height
         gridspec_kw={'width_ratios': widths}
     )
     if num_k == 1:
@@ -326,7 +330,7 @@ def create_combined_heatmap_figure(all_data, metric_type, consistency_type, outp
             ax.set_yticklabels([])
         
         # Set x-axis tick labels to be horizontal
-        ax.set_xticklabels(ax.get_xticklabels(), rotation=0, ha='center', fontsize=12)
+        #ax.set_xticklabels(ax.get_xticklabels(), rotation=0, ha='center', fontsize=12)
         ax.set_yticklabels(ax.get_yticklabels(), fontsize=12)
         ax.xaxis.label.set_size(12)  # For the axis label "model"
     
