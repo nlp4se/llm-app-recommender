@@ -176,7 +176,7 @@ def plot_side_by_side_heatmaps(internal_df, external_df, value_col, title, outpu
     })
     
     # Create figure with two subplots side by side
-    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(20, 10), gridspec_kw={'width_ratios': [1, 1.5]})
+    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(18, 10), gridspec_kw={'width_ratios': [0.8, 1.5]})
     
     # Process internal consistency data (left plot)
     if not internal_df.empty:
@@ -202,8 +202,8 @@ def plot_side_by_side_heatmaps(internal_df, external_df, value_col, title, outpu
         sns.heatmap(pivot_internal_with_avg, annot=True, cmap='YlGnBu', fmt=".2f", 
                     vmin=0, vmax=1, cbar=False, ax=ax1, annot_kws={'size': 14})
         ax1.set_title('Internal Consistency', fontsize=16, pad=20)
-        ax1.set_xlabel('Models', fontsize=16)
-        ax1.set_ylabel('Features', fontsize=16)
+        ax1.set_xlabel('models', fontsize=16)
+        #ax1.set_ylabel('Features', fontsize=16)
         
         # Rotate x-axis labels for better readability
         ax1.set_xticklabels(ax1.get_xticklabels(), rotation=45, ha='right', fontsize=14)
@@ -230,7 +230,7 @@ def plot_side_by_side_heatmaps(internal_df, external_df, value_col, title, outpu
                     vmin=0, vmax=1, cbar=True, ax=ax2, annot_kws={'size': 14},
                     cbar_kws={'label': f'{value_col.title()} Score'})
         ax2.set_title('External Consistency', fontsize=16, pad=20)
-        ax2.set_xlabel('Model Pairs', fontsize=14)
+        ax2.set_xlabel('model-model', fontsize=14)
         ax2.set_ylabel('')  # No y-axis label for right plot
         
         # Rotate x-axis labels vertically for better fit
@@ -284,7 +284,7 @@ def plot_heatmap(df, value_col, title, output_path, consistency_type='external',
     pivot_df_with_avg = pd.concat([pivot_df_sorted, empty_row, avg_row])
     
     # Set larger figure size and font sizes
-    plt.figure(figsize=(max(9, len(pivot_df_with_avg.columns) * 1), 8))
+    plt.figure(figsize=(max(7, len(pivot_df_with_avg.columns) * 0.8), 8))
     
     # Set font sizes for better readability
     plt.rcParams.update({
