@@ -1,25 +1,24 @@
-
 {
   "a": [
-    "LocalSend (Windows, macOS, Linux, Android, and iOS) [3]",
-    "Send Anywhere (Android, iOS, PC) [8, 9]",
-    "Google Drive (Web, Android, iOS, Windows, macOS) [1, 2, 5, 6, 7, 10]",
-    "Dropbox (Windows, macOS, Linux, Android, iOS, Web) [1, 2, 6, 7, 10]",
-    "WeTransfer (Web, iOS, Android) [1, 2, 5, 7]",
-    "Microsoft OneDrive (Windows, macOS, Android, iOS, Web) [1, 7, 10]",
-    "Filemail (Windows, macOS, iOS, Android, Web) [4]",
-    "Hightail (Web, Desktop App) [5]",
+    "LocalSend",
+    "Send Anywhere",
+    "Google Drive",
+    "Dropbox",
+    "WeTransfer",
+    "Microsoft OneDrive",
+    "Filemail",
+    "Hightail",
     "Files.com",
-    "pCloud Transfer (Web)",
-    "Slack (Windows, macOS, Linux, Android, iOS, Web) [10]",
-    "Notion (Web, Desktop App, iOS, Android) [10]",
-    "Google Docs (Web) [6]",
+    "pCloud Transfer",
+    "Slack",
+    "Notion",
+    "Google Docs",
     "ShareVault",
     "Dropbox Business",
     "Microsoft SharePoint",
     "Filestage",
-    "AnyViewer (Windows)",
-    "Evernote Business (Web, mobile, and desktop)",
-    "Box (integrates with Slack) [10]"
+    "AnyViewer",
+    "Evernote Business",
+    "Box"
   ]
 }

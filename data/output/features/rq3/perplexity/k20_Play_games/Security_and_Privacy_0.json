@@ -1,10 +1,9 @@
-
 {
   "a": [
     "Brave Browser",
     "DuckDuckGo",
     "Element",
-    "WhatsApp (with end-to-end encryption)",
+    "WhatsApp",
     "Signal",
     "ProtonMail",
     "Tutanota",
@@ -14,7 +13,7 @@
     "HTTPS Everywhere",
     "uBlock Origin",
     "Privacy Badger",
-    "VPN (ExpressVPN or NordVPN)",
+    "VPN",
     "Tor Browser",
     "Bitwarden",
     "LastPass",

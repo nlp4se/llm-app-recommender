@@ -1,1 +1,24 @@
-{"a":["WhatsApp","Telegram","WeChat","Facebook Messenger","Viber","LINE","KakaoTalk","Signal","Threema","GroupMe","Omnisend","GetResponse","Brevo (formerly Sendinblue)","Constant Contact","Zoho Campaigns","Neo Email","ConvertKit","ActiveCampaign","iContact","Multi SMS Sender (MSS)"]} 
+{
+  "a": [
+    "WhatsApp",
+    "Telegram",
+    "WeChat",
+    "Facebook Messenger",
+    "Viber",
+    "LINE",
+    "KakaoTalk",
+    "Signal",
+    "Threema",
+    "GroupMe",
+    "Omnisend",
+    "GetResponse",
+    "Brevo",
+    "Constant Contact",
+    "Zoho Campaigns",
+    "Neo Email",
+    "ConvertKit",
+    "ActiveCampaign",
+    "iContact",
+    "Multi SMS Sender"
+  ]
+}

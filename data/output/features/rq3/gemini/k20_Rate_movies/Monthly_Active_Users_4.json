@@ -1,27 +1,24 @@
-Based on the ranking criterion of Monthly Active Users, here are 20 movie rating apps:
-
-```json
 {
   "a": [
-    "IMDb [5, 12, 15]",
-    "Letterboxd [3, 4, 6, 12, 15]",
-    "Rotten Tomatoes [1, 14]",
-    "JustWatch [3, 6, 12]",
-    "Trakt.tv [3, 5, 8, 14]",
-    "Reelgood [6, 14]",
-    "Moviebase [5, 8]",
-    "Flixster [1]",
-    "Criticker [3, 7]",
-    "Tubi [15]",
-    "Google TV [6]",
-    "Apple TV [6]",
-    "MovieFone [7]",
-    "Plugged In [1]",
-    "Raters [2]",
-    "Kernel [6]",
-    "Showly [6]",
-    "Flico [15]",
-    "FilmStory [7]",
-    "YourNextFilm [7]"
+    "IMDb",
+    "Letterboxd",
+    "Rotten Tomatoes",
+    "JustWatch",
+    "Trakt.tv",
+    "Reelgood",
+    "Moviebase",
+    "Flixster",
+    "Criticker",
+    "Tubi",
+    "Google TV",
+    "Apple TV",
+    "MovieFone",
+    "Plugged In",
+    "Raters",
+    "Kernel",
+    "Showly",
+    "Flico",
+    "FilmStory",
+    "YourNextFilm"
   ]
 }

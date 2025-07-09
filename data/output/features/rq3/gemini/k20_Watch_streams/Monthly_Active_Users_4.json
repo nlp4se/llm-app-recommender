@@ -1,6 +1,3 @@
-Based on monthly active users, here are 20 apps for watching streams, ranked from highest to lowest MAUs:
-
-```json
 {
   "a": [
     "YouTube",
@@ -25,5 +22,3 @@ Based on monthly active users, here are 20 apps for watching streams, ranked fro
     "Rumble"
   ]
 }
-```
-It is important to note that the data regarding MAUs can vary across different sources and may not always be up-to-date.

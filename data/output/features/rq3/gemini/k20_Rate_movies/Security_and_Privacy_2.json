@@ -1,22 +1,24 @@
-Based on the search results, here are 20 apps for rating movies. Please note that the ranking is based on the limited information about security and privacy available in the search results. Some apps may offer privacy policies or data handling practices that are not detailed in the snippets but can be found on their respective websites or app store pages.
-
-1.  **Letterboxd**
-2.  **IMDb (Internet Movie Database)**
-3.  **Moviebase**
-4.  **Raters: Movie Reviews, Ratings**
-5.  **Rotten Tomatoes**
-6.  **Criticker**
-7.  **MUBI**
-8.  **Must**
-9.  **MovieDiary**
-10. **Metacritic**
-11. **MovieFone**
-12. **YourNextFilm**
-13. **FilmStory**
-14. **Movies by Flixster**
-15. **Movie Reviews (Voice)**
-16. **Plugged In – Movie Reviews**
-17. **Movary**
-18. **Kinorium**
-19. **FilmNoir TV Tracker for Trakt**
-20. **MyShows - Track Shows & Films**
+{
+    "a": [
+      "Letterboxd",
+      "IMDb",
+      "Moviebase",
+      "Raters: Movie Reviews, Ratings",
+      "Rotten Tomatoes",
+      "Criticker",
+      "MUBI",
+      "Must",
+      "MovieDiary",
+      "Metacritic",
+      "MovieFone",
+      "YourNextFilm",
+      "FilmStory",
+      "Movies by Flixster",
+      "Movie Reviews",
+      "Plugged In – Movie Reviews",
+      "Movary",
+      "Kinorium",
+      "FilmNoir TV Tracker for Trakt",
+      "MyShows - Track Shows & Films"
+    ]
+  }

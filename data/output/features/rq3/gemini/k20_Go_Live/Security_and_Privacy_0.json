@@ -1,22 +1,24 @@
-Based on the ranking criteria of Security and Privacy, here are 20 apps suitable for Go Live, ranked based on security features:
-
-1.  Dacast
-2.  Brightcove
-3.  Wowza
-4.  Vimeo Livestream
-5.  Kaltura
-6.  IBM Cloud Video
-7.  VPlayed
-8.  Vidyard
-9.  Muvi
-10. Streamshark
-11. Wistia
-12. Evercast
-13. Zoom
-14. Google Meet
-15. Twitch
-16. StreamYard
-17. Facebook Live
-18. Panopto
-19. Sling TV Freestream
-20. Pluto TV
+{
+    "a": [
+      "Dacast",
+      "Brightcove",
+      "Wowza",
+      "Vimeo Livestream",
+      "Kaltura",
+      "IBM Cloud Video",
+      "VPlayed",
+      "Vidyard",
+      "Muvi",
+      "Streamshark",
+      "Wistia",
+      "Evercast",
+      "Zoom",
+      "Google Meet",
+      "Twitch",
+      "StreamYard",
+      "Facebook Live",
+      "Panopto",
+      "Sling TV Freestream",
+      "Pluto TV"
+    ]
+  }

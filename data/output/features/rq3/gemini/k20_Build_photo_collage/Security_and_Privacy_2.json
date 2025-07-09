@@ -1,22 +1,24 @@
-Based on the ranking criteria of Security and Privacy, here are 20 photo collage apps. Note that assessing the security and privacy of apps is complex and constantly evolving, so this ranking is based on currently available information.
-
-1.  SCRL
-2.  Collage App
-3.  PhotoDirector
-4.  PhotoGrid
-5.  PicsArt
-6.  Pic Collage
-7.  Canva
-8.  Adobe Spark
-9.  LiveCollage
-10. Moldiv
-11. PiZap
-12. Fotor
-13. InShot
-14. Photo Studio
-15. Pixlr
-16. Mixoo
-17. Pitu
-18. Photo Collage Maker
-19. Collage Maker
-20. FotoJet
+{
+    "a": [
+      "SCRL",
+      "Collage App",
+      "PhotoDirector",
+      "PhotoGrid",
+      "PicsArt",
+      "Pic Collage",
+      "Canva",
+      "Adobe Spark",
+      "LiveCollage",
+      "Moldiv",
+      "PiZap",
+      "Fotor",
+      "InShot",
+      "Photo Studio",
+      "Pixlr",
+      "Mixoo",
+      "Pitu",
+      "Photo Collage Maker",
+      "Collage Maker",
+      "FotoJet"
+    ]
+  }

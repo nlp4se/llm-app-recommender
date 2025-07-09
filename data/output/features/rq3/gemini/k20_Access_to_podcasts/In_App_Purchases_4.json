@@ -1,8 +1,5 @@
-Here are 20 podcast apps, ranked based on the availability and variety of in-app purchases:
-
-```json
 {
-"a": [
+  "a": [
     "Pocket Casts",
     "Castbox",
     "Himalaya",
@@ -23,5 +20,5 @@ Here are 20 podcast apps, ranked based on the availability and variety of in-app
     "AntennaPod",
     "Podcast Guru",
     "iCatcher"
-    ]
+  ]
 }

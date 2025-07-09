@@ -1,1 +1,24 @@
-{"a":["Facebook","YouTube","WhatsApp","Instagram","TikTok","WeChat","Telegram","Snapchat","Douyin","Kuaishou","Weibo","QQ","X (formerly Twitter)","Pinterest","Reddit","LinkedIn","Quora","Skype","Viber","Discord"]} 
+{
+  "a": [
+    "Facebook",
+    "YouTube",
+    "WhatsApp",
+    "Instagram",
+    "TikTok",
+    "WeChat",
+    "Telegram",
+    "Snapchat",
+    "Douyin",
+    "Kuaishou",
+    "Weibo",
+    "QQ",
+    "X",
+    "Pinterest",
+    "Reddit",
+    "LinkedIn",
+    "Quora",
+    "Skype",
+    "Viber",
+    "Discord"
+  ]
+}

@@ -1,24 +1,24 @@
-Based on the ranking criteria of security and privacy, here are 20 apps (including streaming services and applications) that offer access to movies:
-
-1.  Plex: Offers secure streaming of personal media and ad-supported movies with options for personal media server capabilities and integration with other streaming services.
-2.  Tubi: A free, ad-supported service with a large library, parental controls, and compatibility across devices.
-3.  Sling Freestream: A free, ad-supported platform with a vast library and the option to record content and skip ads with an account.
-4.  Freevee (Amazon Freevee): A free, ad-supported streaming service by Amazon with a decent selection of movies and reliable streaming.
-5.  Crackle: A free, ad-supported video streaming service with a decent collection of movies, available on multiple platforms.
-6.  Pluto TV: A free streaming service offering live channels and on-demand content, accessible on various devices.
-7.  Kanopy: A free streaming service offering films and educational content with a library card or university email, providing an ad-free experience.
-8.  YouTube (Free with Ads): Offers full-length films uploaded by official movie studios, with convenient accessibility across devices.
-9.  Vudu (Movies on Us): Has a free tier with ad-supported movies, requiring an account but no credit card.
-10. Peacock (Free Tier): Offers access to movies, sitcoms, and some live channels with a required account.
-11. Mubi: A curated movie-streaming service with a focus on independent and classic films.
-12. Shudder: A streaming service dedicated to horror movies, accessible via various devices.
-13. Apple TV+: An ad-free on-demand service from Apple, accessible via Apple devices and other platforms.
-14. FlixHQ: Lets you stream movies and TV shows for free without needing an account.
-15. Ocean Streamz: Streams movies, anime, and TV series, searching various streaming services for links.
-16. DistroTV: Offers live channels and on-demand content without subscription or sign-up.
-17. FilmRise: Boasts a vast library of movies and TV shows across various genres.
-18. Popcornflix: Provides a wide selection of movies and TV shows across multiple genres.
-19. Movie Downloader Browser: Provides free movies and TV shows for online watching and offline download.
-20. Netflix: Offers original films and supports Dolby Atmos and Dolby Vision. Netflix also uses a DRM system that encrypts the movie files to disable copying them.
-
-It's important to note that while some apps provide encryption during streaming, offer ad-free experiences, or allow downloading for offline viewing, users should always prioritize legal and safe streaming practices and be aware of the potential risks associated with unofficial platforms. Using a VPN can also help protect your data while streaming.
+{
+  "a": [
+    "Plex",
+    "Tubi",
+    "Sling Freestream",
+    "Freevee",
+    "Crackle",
+    "Pluto TV",
+    "Kanopy",
+    "YouTube",
+    "Vudu",
+    "Peacock",
+    "Mubi",
+    "Shudder",
+    "Apple TV+",
+    "FlixHQ",
+    "Ocean Streamz",
+    "DistroTV",
+    "FilmRise",
+    "Popcornflix",
+    "Movie Downloader Browser",
+    "Netflix"
+  ]
+}

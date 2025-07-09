@@ -1,4 +1,3 @@
-
 {
   "a": [
     "Letterboxd",
@@ -10,15 +9,15 @@
     "Criticker",
     "Moviemeter",
     "FilmAffinity",
-    "The Movie Database (TMDb)",
+    "The Movie Database",
     "Metacritic",
     "MUBI",
     "Filmweb",
     "CineTrailer",
-    "MyAnimeList (for anime)",
+    "MyAnimeList",
     "AllMovie",
-    "Kinopoisk (for Russian and international films)",
-    "Filmaffinity (Spanish version of FilmAffinity)",
+    "Kinopoisk",
+    "Filmaffinity",
     "Movie Buddy",
     "CinemaMeter"
   ]

@@ -1,4 +1,3 @@
-
 {
   "a": [
     "Standard Notes",
@@ -11,11 +10,11 @@
     "Tutanota",
     "NoteCrypt",
     "Laverna",
-    "Nextcloud Notes (with encryption)",
-    "Google Keep (with caution, due to privacy concerns)",
-    "Microsoft OneNote (with caution, due to privacy concerns)",
-    "Evernote (with caution, due to privacy concerns)",
-    "Notion (with caution, due to privacy concerns)",
+    "Nextcloud Notes",
+    "Google Keep",
+    "Microsoft OneNote",
+    "Evernote",
+    "Notion",
     "Zoho Notebook",
     "ClickUp",
     "Apple Notes",

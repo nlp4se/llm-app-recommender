@@ -1,27 +1,24 @@
-Based on user ratings and reviews, here are 20 photo collage apps. Note that app store ratings can fluctuate, and availability may vary by region and operating system.
-
-```json
 {
   "a": [
-    "PhotoGrid [3, 6]",
-    "SCRL [9, 13]",
-    "Collage Maker (iOS) [13]",
-    "Unfold (iOS/Android) [5, 13]",
-    "Photo Collage Maker & Creator [7]",
-    "YouCam Perfect [10]",
-    "PicsArt [2, 4, 12]",
-    "PicCollage [2, 3, 4, 6, 10]",
-    "Collageable [10]",
-    "MOLDIV [2, 10]",
-    "Diptic [2, 10]",
-    "PiZap [2, 12]",
-    "Adobe Express [5, 12]",
-    "Phototastic Collage Maker [10]",
-    "PicPlayPost [2, 10]",
-    "Pixlr [10]",
-    "Layout from Instagram [10]",
-    "Collage Maker [10]",
-    "Ribbet [3, 6]",
-    "InCollage [4, 12]"
+    "PhotoGrid",
+    "SCRL",
+    "Collage Maker",
+    "Unfold",
+    "Photo Collage Maker & Creator",
+    "YouCam Perfect",
+    "PicsArt",
+    "PicCollage",
+    "Collageable",
+    "MOLDIV",
+    "Diptic",
+    "PiZap",
+    "Adobe Express",
+    "Phototastic Collage Maker",
+    "PicPlayPost",
+    "Pixlr",
+    "Layout from Instagram",
+    "Collage Maker",
+    "Ribbet",
+    "InCollage"
   ]
 }

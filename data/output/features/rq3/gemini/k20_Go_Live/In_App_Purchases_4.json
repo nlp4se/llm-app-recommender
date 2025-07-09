@@ -1,27 +1,24 @@
-Okay, I will identify and rank 20 "Go Live" apps based on the availability and variety of in-app purchases, according to user reviews and the Google Play Store and Apple App Store information.
-
-```json
 {
   "a": [
-    "TikTok [6]",
-    "Twitch [11, 13]",
-    "YouTube Live [11, 12]",
-    "Streamlabs [3, 4]",
-    "Tango [5, 11]",
-    "LiveMe [4, 12]",
-    "YouNow [4, 12]",
-    "C2 Live [9]",
-    "Stream [11]",
-    "Wirecast Go [3, 12]",
-    "Facebook Live [5, 11]",
-    "Instagram Live [5, 11]",
-    "Vimeo Live [13]",
+    "TikTok",
+    "Twitch",
+    "YouTube Live",
+    "Streamlabs",
+    "Tango",
+    "LiveMe",
+    "YouNow",
+    "C2 Live",
+    "Stream",
+    "Wirecast Go",
+    "Facebook Live",
+    "Instagram Live",
+    "Vimeo Live",
     "Bigo Live",
-    "Periscope [11]",
-    "VK Live [11]",
-    "Mixer [11]",
-    "Larix Broadcaster [3, 12]",
-    "BroadcastMe [5, 12]",
-    "Go Live [11]"
+    "Periscope",
+    "VK Live",
+    "Mixer",
+    "Larix Broadcaster",
+    "BroadcastMe",
+    "Go Live"
   ]
 }

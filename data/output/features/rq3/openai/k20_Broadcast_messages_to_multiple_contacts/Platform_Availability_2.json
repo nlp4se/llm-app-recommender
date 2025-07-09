@@ -1,1 +1,24 @@
-{"a":["Telegram","WhatsApp","Signal","GroupMe","Mysms","Multi SMS Sender (MSS)","Hit Em Up","Group Messaging","Wire","Viber","Briar","Session","Tidio","LiveChat","HubSpot","LiveAgent","Zendesk","Olark","ClickDesk","Social Intents"]} 
+{
+  "a": [
+    "Telegram",
+    "WhatsApp",
+    "Signal",
+    "GroupMe",
+    "Mysms",
+    "Multi SMS Sender",
+    "Hit Em Up",
+    "Group Messaging",
+    "Wire",
+    "Viber",
+    "Briar",
+    "Session",
+    "Tidio",
+    "LiveChat",
+    "HubSpot",
+    "LiveAgent",
+    "Zendesk",
+    "Olark",
+    "ClickDesk",
+    "Social Intents"
+  ]
+}

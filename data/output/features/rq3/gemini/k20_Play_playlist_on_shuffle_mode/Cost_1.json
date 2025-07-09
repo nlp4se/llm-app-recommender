@@ -1,25 +1,24 @@
-
 {
   "a": [
-    "Spotify [6, 11]",
-    "YouTube Music [1, 6]",
-    "Apple Music [6, 13]",
-    "Amazon Music [6, 11]",
-    "Pandora [6]",
-    "Deezer [6, 13]",
-    "Tidal [6, 13]",
-    "iHeartRadio [6]",
-    "SoundCloud [6]",
-    "Napster [6]",
+    "Spotify",
+    "YouTube Music",
+    "Apple Music",
+    "Amazon Music",
+    "Pandora",
+    "Deezer",
+    "Tidal",
+    "iHeartRadio",
+    "SoundCloud",
+    "Napster",
     "Qobuz",
     "Audiomack",
     "Gaana",
     "JioSaavn",
     "Wynk Music",
     "Hungama Music",
-    "Boomplay [2]",
+    "Boomplay",
     "Anghami",
     "Trebel",
-    "REAL Shuffle Player [3]"
+    "REAL Shuffle Player"
   ]
 }

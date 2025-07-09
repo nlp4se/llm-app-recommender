@@ -1,4 +1,3 @@
-
 {
   "a": [
     "Signal",
@@ -11,7 +10,7 @@
     "Element",
     "Rocket.Chat",
     "Briar",
-    " Wire",
+    "Wire",
     "Bridgefy",
     "Jami",
     "Silence",

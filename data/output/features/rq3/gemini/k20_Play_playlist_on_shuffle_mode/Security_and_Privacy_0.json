@@ -1,22 +1,24 @@
-Based on the ranking criteria of security and privacy, here are 20 apps that allow you to play playlists on shuffle mode:
-
-1.  MusicSync
-2.  Pulsar Music Player
-3.  BlackPlayer Music Player
-4.  Neutron Music Player
-5.  Shuttle Music Player
-6.  Poweramp Music Player
-7.  VLC for Android
-8.  jetAudio HD Music Player
-9.  Rocket Player
-10. n7player Music Player
-11. Musicolet Music Player
-12. AIMP
-13. Omnia Music Player
-14. Oto Music
-15. PlayerPro
-16. Plexamp
-17. foobar2000
-18. Onkyo HF Player
-19. Retro Music Player
-20. Symfonium
+{
+    "a": [
+      "MusicSync",
+      "Pulsar Music Player",
+      "BlackPlayer Music Player",
+      "Neutron Music Player",
+      "Shuttle Music Player",
+      "Poweramp Music Player",
+      "VLC for Android",
+      "jetAudio HD Music Player",
+      "Rocket Player",
+      "n7player Music Player",
+      "Musicolet Music Player",
+      "AIMP",
+      "Omnia Music Player",
+      "Oto Music",
+      "PlayerPro",
+      "Plexamp",
+      "foobar2000",
+      "Onkyo HF Player",
+      "Retro Music Player",
+      "Symfonium"
+    ]
+  }

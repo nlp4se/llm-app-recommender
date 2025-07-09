@@ -1,1 +1,24 @@
-{"a":["Telegram","Signal","GroupMe","Multi SMS Sender (MSS)","mysms","Reach","Textra SMS","Google Messages","Hit Em Up","Multi SMS & Group SMS","Group Messaging","WhatsApp","Facebook Messenger","Viber","WeChat","Line","Kik","Slack","Microsoft Teams","Discord"]} 
+{
+  "a": [
+    "Telegram",
+    "Signal",
+    "GroupMe",
+    "Multi SMS Sender",
+    "mysms",
+    "Reach",
+    "Textra SMS",
+    "Google Messages",
+    "Hit Em Up",
+    "Multi SMS & Group SMS",
+    "Group Messaging",
+    "WhatsApp",
+    "Facebook Messenger",
+    "Viber",
+    "WeChat",
+    "Line",
+    "Kik",
+    "Slack",
+    "Microsoft Teams",
+    "Discord"
+  ]
+}

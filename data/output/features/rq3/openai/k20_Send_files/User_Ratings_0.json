@@ -1,1 +1,24 @@
-{"a":["Google Drive","Dropbox","OneDrive","WeTransfer","Send Anywhere","AirDroid","Zapya","Xender","JioSwitch","ShareMe (MiDrop)","EasyShare","inShare","Files by Google","AirMore","SHAREit","XShare","WiFi File Transfer","Smash","Sync.com","Resilio"]} 
+{
+  "a": [
+    "Google Drive",
+    "Dropbox",
+    "OneDrive",
+    "WeTransfer",
+    "Send Anywhere",
+    "AirDroid",
+    "Zapya",
+    "Xender",
+    "JioSwitch",
+    "ShareMe",
+    "EasyShare",
+    "inShare",
+    "Files by Google",
+    "AirMore",
+    "SHAREit",
+    "XShare",
+    "WiFi File Transfer",
+    "Smash",
+    "Sync.com",
+    "Resilio"
+  ]
+}

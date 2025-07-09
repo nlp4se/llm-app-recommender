@@ -1,24 +1,24 @@
-Based on the provided search results, here are 20 apps that can be used to broadcast messages to multiple contacts. Please note that the ranking is based on the update frequency, features, pricing, and ease of use, as described in the search results.
-
-1.  **EZ Texting** Robust, easy-to-use platform with features like MMS and text forwarding.
-2.  **SimpleTexting** User-friendly interface and comprehensive feature set.
-3.  **DialMyCalls** Easy-to-use mass texting services for iOS and Android.
-4.  **Hit Em Up** Allows personalized mass texts via SMS, iMessage, WhatsApp, or email.
-5.  **Multi SMS Sender (MSS)** Send one message to multiple users at the same time.
-6.  **TextMagic** Good for international texting.
-7.  **Textedly** Budget-friendly mass texting platform.
-8.  **SleekFlow** AI-powered WhatsApp broadcast software with automation and personalization.
-9.  **BulkSMS Text Messenger** Send SMS messages from your desktop.
-10. **Project Broadcast** Manage contacts, create templates and campaigns.
-11. **Quick Send** Mass text message app that integrates with Google Voice.
-12. **Multi SMS & Group SMS** Send SMS and MMS to multiple recipients.
-13. **Emitrr** Offers personalized messages, bulk/mass texting, reminders, and confirmations.
-14. **ClickSend** Versatile communication platform specializing in SMS broadcasting.
-15. **WhatsApp** Create broadcast lists, but recipients must have your number saved.
-16. **Viber** Offers Viber for Business for bulk messages, chatbots, and business tools.
-17. **Telegram** Has a Telegram bot that enables auto replies, bulk messaging, and group messaging.
-18. **App.chitchatbot.ai** Send broadcast messages on WhatsApp.
-19. **Bulk Messaging App** Cloud-based app for sending mass messages on WhatsApp.
-20. **Infobip** WhatsApp broadcast software that integrates multiple messaging platforms.
-
-Please note that update frequency can vary, and it's advisable to check the app stores or official app websites for the most current information.
+{
+  "a": [
+    "EZ Texting",
+    "SimpleTexting",
+    "DialMyCalls",
+    "Hit Em Up",
+    "Multi SMS Sender",
+    "TextMagic",
+    "Textedly",
+    "SleekFlow",
+    "BulkSMS Text Messenger",
+    "Project Broadcast",
+    "Quick Send",
+    "Multi SMS & Group SMS",
+    "Emitrr",
+    "ClickSend",
+    "WhatsApp",
+    "Viber",
+    "Telegram",
+    "App.chitchatbot.ai",
+    "Bulk Messaging App",
+    "Infobip"
+  ]
+}

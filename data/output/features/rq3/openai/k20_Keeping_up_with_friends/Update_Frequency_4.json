@@ -1,1 +1,24 @@
-{"a":["Instagram","LinkedIn","Netflix","UberEats","Facebook","Twitter (X)","Snapchat","TikTok","WhatsApp","YouTube","Pinterest","Reddit","MeWe","Mastodon","Bluesky","Friendica","Hubzilla","Diaspora*","Pleroma","Misskey"]} 
+{
+  "a": [
+    "Instagram",
+    "LinkedIn",
+    "Netflix",
+    "UberEats",
+    "Facebook",
+    "Twitter",
+    "Snapchat",
+    "TikTok",
+    "WhatsApp",
+    "YouTube",
+    "Pinterest",
+    "Reddit",
+    "MeWe",
+    "Mastodon",
+    "Bluesky",
+    "Friendica",
+    "Hubzilla",
+    "Diaspora*",
+    "Pleroma",
+    "Misskey"
+  ]
+}

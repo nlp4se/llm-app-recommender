@@ -1,6 +1,3 @@
-Based on available data and industry benchmarks regarding monthly active users and overall reach in podcast consumption, here are the top 20 recommended apps for accessing podcasts, ranked by their likely monthly active user base, platform dominance, and widespread availability:
-
-```json
 {
   "a": [
     "Spotify",
@@ -25,16 +22,3 @@ Based on available data and industry benchmarks regarding monthly active users a
     "Player FM"
   ]
 }
-```
-
-**Rationale:**  
-- **Spotify** leads due to its global ubiquity and integration of podcasts into its core music platform[1][2][3].
-- **Apple Podcasts** remains a dominant player, especially on iOS devices[1][2][3].
-- **YouTube Music** and **YouTube** are included separately, as many users consume podcasts as video content on YouTube proper, but the dedicated YouTube Music app is also a major hub for audio podcasts[1][3].
-- **Amazon Music, Audible, Pandora, iHeartRadio, TuneIn, and Castbox** are all large, well-established streaming services with significant podcast integration and user bases[1].
-- **Podcast Addict, Pocket Casts, Overcast, Player FM** are popular, highly rated, and widely used dedicated podcast apps, especially on Android and iOS[3].
-- **Google Podcasts** (despite recent changes and migration to YouTube Music) and **SoundCloud** also reach large audiences[1].
-- **Podbean** and **Stitcher** have strong user communities and podcast features[1].
-- **Luminary** and **Listen Notes** round out the list as notable platforms for exclusive content and podcast discovery, respectively[1].
-
-*Note: Some platforms (like YouTube) do not use standard podcast analytics, but their reach and monthly active users are so substantial that they must be included among the top destinations for podcast consumption.*

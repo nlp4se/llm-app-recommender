@@ -1,27 +1,24 @@
-Here are 20 apps for watching streams, ranked based on the availability and variety of in-app purchases:
-
-```json
 {
   "a": [
-    "Netflix [1, 2, 3, 4]",
-    "Hulu [2, 3, 4, 9]",
-    "Disney Plus [1, 2, 3, 4]",
-    "Amazon Prime Video [1, 2, 3, 4]",
-    "Max [3, 4]",
-    "YouTube [1, 2, 3]",
-    "Peacock TV [2, 4]",
-    "Paramount Plus [2, 4, 8]",
-    "Apple TV+ [3, 4]",
-    "fuboTV [2, 3]",
-    "Twitch [7]",
-    "Discovery Plus [2, 4]",
-    "ESPN Plus [2]",
-    "Philo [2, 9]",
-    "Showtime [2, 8]",
-    "DAZN [2]",
-    "Crunchyroll [9]",
-    "Tubi [2, 9]",
-    "Vudu [2]",
-    "Pluto TV [2]"
+    "Netflix",
+    "Hulu",
+    "Disney Plus",
+    "Amazon Prime Video",
+    "Max",
+    "YouTube",
+    "Peacock TV",
+    "Paramount Plus",
+    "Apple TV+",
+    "fuboTV",
+    "Twitch",
+    "Discovery Plus",
+    "ESPN Plus",
+    "Philo",
+    "Showtime",
+    "DAZN",
+    "Crunchyroll",
+    "Tubi",
+    "Vudu",
+    "Pluto TV"
   ]
 }

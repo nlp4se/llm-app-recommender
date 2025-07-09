@@ -1,27 +1,24 @@
-Based on the ranking criteria of "Update Frequency," here are 20 apps suitable for watching streams, ordered from most frequently updated to least (though exact update frequencies can vary):
-
-```json
 {
   "a": [
-    "Twitch [1, 2, 4, 5]",
-    "YouTube Live [1, 2, 4, 5]",
-    "Facebook Live [1, 2]",
-    "TikTok Live [1, 4]",
-    "Instagram Live [1]",
-    "Kick.com [4, 5]",
-    "Bigo Live [1]",
-    "LiveMe [1]",
-    "YouNow [1]",
-    "Streamlabs [1, 3]",
-    "Prism Live Studio [8]",
-    "StreamYard [8]",
-    "Camo Studio [8]",
-    "Hulu [6, 10]",
-    "Netflix [6, 10]",
-    "Disney Plus [6, 10]",
-    "Peacock [6, 10]",
-    "Pluto TV [7]",
-    "BoxCast [3]",
-    "Emby [9]"
+    "Twitch",
+    "YouTube Live",
+    "Facebook Live",
+    "TikTok Live",
+    "Instagram Live",
+    "Kick.com",
+    "Bigo Live",
+    "LiveMe",
+    "YouNow",
+    "Streamlabs",
+    "Prism Live Studio",
+    "StreamYard",
+    "Camo Studio",
+    "Hulu",
+    "Netflix",
+    "Disney Plus",
+    "Peacock",
+    "Pluto TV",
+    "BoxCast",
+    "Emby"
   ]
 }

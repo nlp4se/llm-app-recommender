@@ -1,20 +1,19 @@
-
 {
   "a": [
-    "IMDb [1, 4]",
-    "Letterboxd [2, 3, 4, 5]",
-    "Rotten Tomatoes [4]",
-    "Metacritic [4]",
-    "MovieLens [6]",
-    "Taste [7]",
-    "Moviebase [1]",
-    "Criticker [3]",
-    "Trakt [3]",
-    "Queue [8]",
-    "Watchworthy [7]",
-    "Movie Tracker [7]",
-    "Likewise [7]",
-    "Reelgood [7]",
-    "Hobi [7]"
+    "IMDb",
+    "Letterboxd",
+    "Rotten Tomatoes",
+    "Metacritic",
+    "MovieLens",
+    "Taste",
+    "Moviebase",
+    "Criticker",
+    "Trakt",
+    "Queue",
+    "Watchworthy",
+    "Movie Tracker",
+    "Likewise",
+    "Reelgood",
+    "Hobi"
   ]
 }

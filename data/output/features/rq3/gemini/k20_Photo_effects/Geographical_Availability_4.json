@@ -1,27 +1,24 @@
-Based on geographical availability, here are 20 photo effects apps, ranked with those generally available in more regions appearing higher:
-
-```json
 {
   "a": [
-    "Adobe Photoshop Express [2, 5, 8, 13, 15]",
-    "PicsArt [2, 4, 9, 11]",
-    "Pixlr [2, 5, 8, 10, 11]",
-    "Snapseed [2, 4, 5, 7, 8, 10, 12, 13]",
-    "YouCam Perfect [4]",
-    "PhotoDirector [4]",
-    "VSCO [2, 7, 8, 13]",
-    "BeautyPlus [3]",
-    "Photo Lab [9]",
-    "Photoleap [6]",
-    "GIMP [5]",
-    "Adobe Lightroom [2, 7, 8, 12]",
-    "Luminar Neo [5]",
-    "Camera+ [8]",
-    "Afterlight 2 [8]",
-    "Carbon [8]",
-    "RollWorld [9]",
-    "Little Planet [9]",
-    "Facetune [13]",
-    "Prisma [13]"
+    "Adobe Photoshop Express",
+    "PicsArt",
+    "Pixlr",
+    "Snapseed",
+    "YouCam Perfect",
+    "PhotoDirector",
+    "VSCO",
+    "BeautyPlus",
+    "Photo Lab",
+    "Photoleap",
+    "GIMP",
+    "Adobe Lightroom",
+    "Luminar Neo",
+    "Camera+",
+    "Afterlight 2",
+    "Carbon",
+    "RollWorld",
+    "Little Planet",
+    "Facetune",
+    "Prisma"
   ]
 }

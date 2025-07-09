@@ -1,6 +1,3 @@
-Based on the requirement of user ratings, here's a ranked list of apps for broadcasting messages to multiple contacts. Note that specific user ratings can fluctuate, so this is a general ranking based on available information:
-
-```json
 {
   "a": [
     "Mobile Text Alerts",
@@ -22,6 +19,6 @@ Based on the requirement of user ratings, here's a ranked list of apps for broad
     "TextMagic",
     "Textellent",
     "DialMyCalls",
-    "Multi SMS Sender (MSS)"
+    "Multi SMS Sender"
   ]
 }

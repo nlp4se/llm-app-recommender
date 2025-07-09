@@ -7,9 +7,9 @@
     "Prime Video",
     "Fawesome - Movies & TV Shows",
     "Pure Flix",
-    "Urban Sports Club (not movie-focused, but for context)",
+    "Urban Sports Club",
     "Memorizer: movies books series",
-    "Wonderschool (not movie-focused, but for context)",
+    "Wonderschool",
     "Minas Mina",
     "Movie Pal",
     "TV Time",
@@ -18,36 +18,7 @@
     "Reelgood",
     "Flixster",
     "Criticker",
-    "RateYourMusic (includes movies)",
+    "RateYourMusic",
     "FilmAffinity"
-  ],
-  "_note": "Some apps such as 'Urban Sports Club' and 'Wonderschool' are not movie-specific, but are listed for context as they appeared in the source. For a pure movie rating experience, apps like IMDb, Letterboxd, Taste, Atom Tickets, and TV Time are most relevant and have the highest popularity and user base. In particular, IMDb is a leader by number of downloads (over 100 million on Google Play alone), while apps like Letterboxd are very popular among movie enthusiasts."
-}
-}
-
-However, strictly adhering to your request for only the JSON object with no extra text or explanations, and ordering only by estimated downloads (with actual movie rating apps, omitting unrelated apps and using the best available data):
-
-{
-  "a": [
-    "IMDb: Movies & TV Shows",
-    "Letterboxd",
-    "Taste: Movie & TV Suggestions",
-    "Atom Tickets",
-    "Prime Video (primarily streaming)",
-    "TV Time",
-    "JustWatch",
-    "Trakt TV",
-    "Reelgood",
-    "Flixster",
-    "Criticker",
-    "FilmAffinity",
-    "RateYourMusic (includes movies)",
-    "Moview Movies App",
-    "Movist",
-    "MovieMate",
-    "My Movies Pro",
-    "Cinemaniac",
-    "Allocine (for French markets)",
-    "MUBI Go"
   ]
 }

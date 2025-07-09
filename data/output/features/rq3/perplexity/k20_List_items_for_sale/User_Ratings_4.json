@@ -1,6 +1,3 @@
-Below is a ranked list of 20 apps for listing items for sale, prioritized primarily by user ratings sourced from major app stores and review platforms. Where official app ratings are unavailable, highly reputable platforms and industry sources are referenced for the best available estimation.
-
-```json
 {
   "a": [
     "Facebook Marketplace",
@@ -9,7 +6,7 @@ Below is a ranked list of 20 apps for listing items for sale, prioritized primar
     "eBay",
     "OfferUp",
     "Poshmark",
-    "Letgo (now part of OfferUp)",
+    "Letgo",
     "Depop",
     "Etsy",
     "Vinted",
@@ -25,18 +22,3 @@ Below is a ranked list of 20 apps for listing items for sale, prioritized primar
     "Bonanza"
   ]
 }
-```
-
-**Rationale for Ranking and Criteria:**
-
-- **User Ratings:** Apps are ranked by their average user ratings across major app stores (Google Play, Apple App Store), where available. For example:
-  - **Facebook Marketplace:** Very high user satisfaction, widely recognized for ease of use and free listings[2][4].
-  - **Amazon:** Consistently high ratings, strong seller tools, and a massive user base[2][3].
-  - **Mercari:** Highly rated mobile experience and seller tools[2].
-  - **eBay:** Well-rated, long-standing marketplace with extensive reach[2][4].
-  - **OfferUp and Letgo:** Widely used, strong local selling features and positive user feedback.
-  - **Poshmark, Depop, Etsy, Vinted, and Carousell:** Highly rated for specific niches (fashion, crafts, local sales).
-  - **Shopee, Lazada, TikTok Shop, Walmart:** Regional or large-scale marketplaces with strong user ratings and growing adoption.
-  - **Gumtree, Craigslist, Nextdoor, 5miles, Bonanza:** Established platforms with solid user feedback and broad categories.
-
-This list combines global and regional marketplaces, with a strong emphasis on those with the highest and most consistent user ratings available in 2025. For apps where exact ratings are not specified in the results (e.g., Shopee, Lazada), they are included for their widespread adoption and generally positive reviews as seen in industry rankings[3][4].

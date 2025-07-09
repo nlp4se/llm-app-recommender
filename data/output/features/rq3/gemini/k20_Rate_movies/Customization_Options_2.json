@@ -1,22 +1,21 @@
-
 {
   "a": [
-    "IMDb [1, 2]",
-    "Letterboxd [2, 5, 7]",
-    "Moviebase [1]",
-    "Taste [3, 8]",
-    "MovieLens [4]",
-    "RunPee [7]",
-    "Should I Wait? [7]",
-    "Movie Pal [1]",
-    "Metacritic [2]",
-    "Rotten Tomatoes [2]",
-    "Watchworthy [3]",
-    "Movie Tracker [3]",
-    "Likewise [3]",
-    "Trakt.TV [3, 7]",
-    "Reelgood [3]",
-    "Hobi [3]",
-    "Top 20 Movies [6, 9]"
+    "IMDb",
+    "Letterboxd",
+    "Moviebase",
+    "Taste",
+    "MovieLens",
+    "RunPee",
+    "Should I Wait?",
+    "Movie Pal",
+    "Metacritic",
+    "Rotten Tomatoes",
+    "Watchworthy",
+    "Movie Tracker",
+    "Likewise",
+    "Trakt.TV",
+    "Reelgood",
+    "Hobi",
+    "Top 20 Movies"
   ]
 }

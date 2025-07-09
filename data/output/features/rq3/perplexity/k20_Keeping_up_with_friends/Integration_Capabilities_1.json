@@ -1,11 +1,10 @@
-```
 {
   "a": [
     "WhatsApp",
     "Facebook Messenger",
     "Instagram",
     "Snapchat",
-    "TikTok for messaging",
+    "TikTok",
     "Discord",
     "Telegram",
     "Viber",
@@ -13,13 +12,13 @@
     "Line",
     "Skype",
     "Signal",
-    "Hootsuite (for broader social management)",
-    "Buffer (for scheduling posts)",
-    "Sprout Social (for team collaboration)",
+    "Hootsuite",
+    "Buffer",
+    "Sprout Social",
     "Facetime",
     "Google Meet",
     "Zoom",
-    "Twitter (for real-time updates)",
-    "LinkedIn (for professional connections)"
+    "Twitter",
+    "LinkedIn"
   ]
 }

@@ -1,1 +1,24 @@
-{"a":["StreamYard","Restream","YouTube Live","Twitch","Facebook Live","Lightstream","Streamlabs","OBS Studio","Bigo Live","YouNow","Tango","DLive","LinkedIn Live","X (formerly Twitter)","Zoom Cloud Meetings","Stream","17LIVE","Wowza","Prism Live Studio","Nvidia Shadowplay"]} 
+{
+  "a": [
+    "StreamYard",
+    "Restream",
+    "YouTube Live",
+    "Twitch",
+    "Facebook Live",
+    "Lightstream",
+    "Streamlabs",
+    "OBS Studio",
+    "Bigo Live",
+    "YouNow",
+    "Tango",
+    "DLive",
+    "LinkedIn Live",
+    "X",
+    "Zoom Cloud Meetings",
+    "Stream",
+    "17LIVE",
+    "Wowza",
+    "Prism Live Studio",
+    "Nvidia Shadowplay"
+  ]
+}

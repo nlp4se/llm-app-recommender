@@ -1,1 +1,24 @@
-{"a":["WhatsApp","Telegram","Signal","Wire","Mysms","Multi SMS Sender (MSS)","Group Messaging","Hit Em Up","Conversations","Briar","Viber","Line","WeChat","Kik","Threema","Element","Session","Tox","Jitsi Meet","Mattermost"]} 
+{
+  "a": [
+    "WhatsApp",
+    "Telegram",
+    "Signal",
+    "Wire",
+    "Mysms",
+    "Multi SMS Sender",
+    "Group Messaging",
+    "Hit Em Up",
+    "Conversations",
+    "Briar",
+    "Viber",
+    "Line",
+    "WeChat",
+    "Kik",
+    "Threema",
+    "Element",
+    "Session",
+    "Tox",
+    "Jitsi Meet",
+    "Mattermost"
+  ]
+}

@@ -1,22 +1,24 @@
-Based on the user engagement ranking criteria, here are 20 apps suitable for broadcasting messages to multiple contacts. Please note that user engagement can vary based on specific needs and preferences.
-
-1.  **Mobile Text Alerts**
-2.  **EZ Texting**
-3.  **SimpleTexting**
-4.  **SlickText**
-5.  **Textedly**
-6.  **ClickSend**
-7.  **Text-Em-All**
-8.  **Podium**
-9.  **TextMagic**
-10. **Trumpia**
-11. **Clickatell**
-12. **SendPulse**
-13. **TextMarks**
-14. **BulkSMS**
-15. **TextUs**
-16. **Sakari**
-17. **Mailchimp**
-18. **DialMyCalls**
-19. **Project Broadcast**
-20. **app.chitchatbot.ai**
+{
+  "a": [
+    "Mobile Text Alerts",
+    "EZ Texting",
+    "SimpleTexting",
+    "SlickText",
+    "Textedly",
+    "ClickSend",
+    "Text-Em-All",
+    "Podium",
+    "TextMagic",
+    "Trumpia",
+    "Clickatell",
+    "SendPulse",
+    "TextMarks",
+    "BulkSMS",
+    "TextUs",
+    "Sakari",
+    "Mailchimp",
+    "DialMyCalls",
+    "Project Broadcast",
+    "app.chitchatbot.ai"
+  ]
+}

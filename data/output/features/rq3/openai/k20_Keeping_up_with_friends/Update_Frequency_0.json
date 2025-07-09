@@ -1,1 +1,24 @@
-{"a":["Facebook","Instagram","TikTok","Snapchat","WhatsApp","Twitter (X)","LinkedIn","Reddit","Pinterest","YouTube","Mastodon","Bluesky","Friendica","Hubzilla","Misskey","Pleroma","Diaspora*","Lemmy","Movim","PeerTube"]} 
+{
+  "a": [
+    "Facebook",
+    "Instagram",
+    "TikTok",
+    "Snapchat",
+    "WhatsApp",
+    "Twitter",
+    "LinkedIn",
+    "Reddit",
+    "Pinterest",
+    "YouTube",
+    "Mastodon",
+    "Bluesky",
+    "Friendica",
+    "Hubzilla",
+    "Misskey",
+    "Pleroma",
+    "Diaspora*",
+    "Lemmy",
+    "Movim",
+    "PeerTube"
+  ]
+}

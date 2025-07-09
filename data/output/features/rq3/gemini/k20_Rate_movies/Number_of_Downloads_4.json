@@ -1,6 +1,3 @@
-Based on the availability of download data and mentions across multiple sources, here's a ranking of 20 movie rating apps, focusing on the "Number of Downloads" criterion:
-
-```json
 {
   "a": [
     "IMDb: Movies & TV Shows",
@@ -14,7 +11,7 @@ Based on the availability of download data and mentions across multiple sources,
     "Raters: Movie Reviews, Ratings",
     "My Movie Review",
     "ReviewDeDe",
-    "Movie Reviews (Voice)",
+    "Movie Reviews",
     "MovieFone app",
     "YourNextFilm app",
     "FilmStory",

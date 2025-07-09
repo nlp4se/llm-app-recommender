@@ -1,1 +1,24 @@
-{"a":["Telegram","Signal","WhatsApp","Threema","Wire","GroupMe","Voxer","Multi SMS Sender (MSS)","Hit Em Up","Group Messaging","EZ Texting","Text-Em-All","Tidio","LiveChat","HubSpot","Omnisend","GetResponse","Constant Contact","Zoho Campaigns","Neo Email"]} 
+{
+  "a": [
+    "Telegram",
+    "Signal",
+    "WhatsApp",
+    "Threema",
+    "Wire",
+    "GroupMe",
+    "Voxer",
+    "Multi SMS Sender",
+    "Hit Em Up",
+    "Group Messaging",
+    "EZ Texting",
+    "Text-Em-All",
+    "Tidio",
+    "LiveChat",
+    "HubSpot",
+    "Omnisend",
+    "GetResponse",
+    "Constant Contact",
+    "Zoho Campaigns",
+    "Neo Email"
+  ]
+}

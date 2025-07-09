@@ -1,1 +1,24 @@
-{"a":["WhatsApp","Snapchat","Telegram","WhatsApp Business","Messenger","WeChat","Signal Private Messenger","LINE","QQ","Zangi Private Messenger","Multi SMS Sender (MSS)","BiP","Kik Messenger","Viber","Discord","Skype","Omnisend","GetResponse","Constant Contact","Zoho Campaigns"]} 
+{
+  "a": [
+    "WhatsApp",
+    "Snapchat",
+    "Telegram",
+    "WhatsApp Business",
+    "Messenger",
+    "WeChat",
+    "Signal Private Messenger",
+    "LINE",
+    "QQ",
+    "Zangi Private Messenger",
+    "Multi SMS Sender",
+    "BiP",
+    "Kik Messenger",
+    "Viber",
+    "Discord",
+    "Skype",
+    "Omnisend",
+    "GetResponse",
+    "Constant Contact",
+    "Zoho Campaigns"
+  ]
+}

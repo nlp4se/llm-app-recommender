@@ -1,25 +1,24 @@
-
 {
   "a": [
-    "Snapseed [1, 2, 3, 4, 6, 7, 8]",
-    "Adobe Lightroom Mobile [1, 2, 3, 4, 6, 7, 8, 12]",
-    "PicsArt [2, 4, 8]",
-    "VSCO [1, 2, 3, 4, 7, 8]",
-    "Polarr [3, 4]",
-    "Adobe Photoshop Express [2, 6, 7]",
-    "Pixlr [2, 6, 7, 8, 10]",
-    "Fotor [1, 10]",
-    "PhotoDirector [11]",
+    "Snapseed",
+    "Adobe Lightroom Mobile",
+    "PicsArt",
+    "VSCO",
+    "Polarr",
+    "Adobe Photoshop Express",
+    "Pixlr",
+    "Fotor",
+    "PhotoDirector",
     "YouCam Perfect",
-    "BeautyPlus [15, 17]",
-    "Camera360 [15]",
+    "BeautyPlus",
+    "Camera360",
     "Foodie",
-    "Remini [13]",
-    "MeituPic [14, 17]",
-    "Photo Wonder [14, 17]",
-    "PIP Camera [14]",
-    "Afterlight [2, 3, 4]",
-    "Google Photos [1, 4, 7]",
-    "Photoleap [5]"
+    "Remini",
+    "MeituPic",
+    "Photo Wonder",
+    "PIP Camera",
+    "Afterlight",
+    "Google Photos",
+    "Photoleap"
   ]
 }

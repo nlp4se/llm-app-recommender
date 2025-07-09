@@ -1,1 +1,24 @@
-{"a":["Signal","Threema","Textra SMS","Google Messages","Multi SMS Sender (MSS)","EZ Texting","SlickText","MessageMedia","MessageDesk","Avochato","Textedly","Reach","Tidio","LiveChat","HubSpot","LiveAgent","Zendesk","Olark","ClickDesk","Social Intents"]} 
+{
+  "a": [
+    "Signal",
+    "Threema",
+    "Textra SMS",
+    "Google Messages",
+    "Multi SMS Sender",
+    "EZ Texting",
+    "SlickText",
+    "MessageMedia",
+    "MessageDesk",
+    "Avochato",
+    "Textedly",
+    "Reach",
+    "Tidio",
+    "LiveChat",
+    "HubSpot",
+    "LiveAgent",
+    "Zendesk",
+    "Olark",
+    "ClickDesk",
+    "Social Intents"
+  ]
+}

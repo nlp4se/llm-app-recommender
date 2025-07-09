@@ -1,1 +1,24 @@
-{"a":["Netflix","Amazon Prime Video","Disney+","Tencent Video (WeTV)","iQIYI","HBO Max","YouTube Premium","Viu","Tubi","Pluto TV","Hulu","Paramount+","Peacock","SonyLIV","bilibili","Starz","iflix","Apple TV+","Mubi","Rakuten TV"]} 
+{
+  "a": [
+    "Netflix",
+    "Amazon Prime Video",
+    "Disney+",
+    "Tencent Video",
+    "iQIYI",
+    "HBO Max",
+    "YouTube Premium",
+    "Viu",
+    "Tubi",
+    "Pluto TV",
+    "Hulu",
+    "Paramount+",
+    "Peacock",
+    "SonyLIV",
+    "bilibili",
+    "Starz",
+    "iflix",
+    "Apple TV+",
+    "Mubi",
+    "Rakuten TV"
+  ]
+}

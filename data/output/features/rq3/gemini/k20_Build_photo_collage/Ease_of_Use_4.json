@@ -1,27 +1,24 @@
-Here are 20 photo collage apps, ranked based on ease of use:
-
-```json
 {
   "a": [
-    "PhotoGrid [1, 2, 9, 10, 13]",
-    "PicCollage [1, 2, 3, 6, 10, 18, 21]",
-    "YouCam Perfect [21]",
-    "Canva [5, 6, 10, 17, 21]",
-    "Adobe Express (formerly Adobe Spark) [1, 5, 6, 8, 15, 16]",
-    "Layout from Instagram [4, 6, 10, 14, 21]",
-    "InCollage [2, 5]",
-    "FotoJet [5, 17]",
-    "Pic Stitch [6, 10, 14]",
-    "Moldiv [3, 6, 10, 11, 16, 21]",
-    "Diptic [1, 3, 6, 10, 14, 21]",
-    "PicsArt Photo & Collage Maker [2, 3, 6, 10, 16, 21]",
-    "BeFunky Collage Maker [1, 6]",
-    "Fotor [5, 6, 10]",
-    "Pixlr [5, 16, 21]",
-    "PiZap [3, 5, 6, 21]",
-    "SCRL [20]",
-    "Collage Maker | Photo Editor [2]",
-    "Ribbet [6, 9, 13]",
-    "Lift [8]"
+    "PhotoGrid",
+    "PicCollage",
+    "YouCam Perfect",
+    "Canva",
+    "Adobe Express",
+    "Layout from Instagram",
+    "InCollage",
+    "FotoJet",
+    "Pic Stitch",
+    "Moldiv",
+    "Diptic",
+    "PicsArt Photo & Collage Maker",
+    "BeFunky Collage Maker",
+    "Fotor",
+    "Pixlr",
+    "PiZap",
+    "SCRL",
+    "Collage Maker | Photo Editor",
+    "Ribbet",
+    "Lift"
   ]
 }

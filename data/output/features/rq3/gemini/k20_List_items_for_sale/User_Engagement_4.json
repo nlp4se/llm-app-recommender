@@ -1,27 +1,24 @@
-Based on user engagement, here are 20 apps for listing items for sale, ranked according to the provided criteria.
-
-```json
 {
   "a": [
-    "eBay [1, 2, 3, 5, 6, 9, 10, 15]",
-    "Facebook Marketplace [1, 2, 3, 5, 6, 9, 10]",
-    "Poshmark [1, 2, 3, 4, 5, 6, 10]",
-    "Etsy Seller [1, 2, 3, 5, 6, 9, 10, 11, 15]",
-    "OfferUp [2, 5, 6, 7, 9, 10, 14]",
-    "Decluttr [1, 2, 6, 10]",
-    "Mercari [4, 5, 10]",
-    "Depop [3, 4, 5, 10]",
-    "thredUP [2, 3, 6, 10]",
-    "Vendoo [4]",
-    "Vestiaire Collective [4, 6, 10]",
-    "Shopify [1, 2]",
-    "Letgo [2, 7]",
-    "Chairish [2]",
-    "TheRealReal [4]",
-    "Nextdoor [5]",
-    "5miles [6]",
-    "OLX [7]",
-    "Quikr [7]",
-    "AliExpress [14]"
+    "eBay",
+    "Facebook Marketplace",
+    "Poshmark",
+    "Etsy Seller",
+    "OfferUp",
+    "Decluttr",
+    "Mercari",
+    "Depop",
+    "thredUP",
+    "Vendoo",
+    "Vestiaire Collective",
+    "Shopify",
+    "Letgo",
+    "Chairish",
+    "TheRealReal",
+    "Nextdoor",
+    "5miles",
+    "OLX",
+    "Quikr",
+    "AliExpress"
   ]
 }

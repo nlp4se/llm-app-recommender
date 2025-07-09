@@ -1,27 +1,24 @@
-Based on the number of downloads, here are 20 apps for watching streams, ranked in order of popularity and download numbers:
-
-```json
 {
   "a": [
-    "Facebook Live [1, 3]",
-    "YouTube Live [1, 3, 5]",
-    "TikTok Live [1]",
-    "Instagram Live [1]",
-    "Netflix [5]",
-    "Amazon Prime Video [5]",
-    "Twitch [3]",
-    "Tencent Video [5]",
-    "Streamlabs [4]",
-    "Prism Live Studio [2]",
-    "StreamYard [2]",
-    "Camo Studio [2]",
-    "EventLive [1]",
-    "Switcher Studio [4]",
-    "BoxCast [4]",
-    "Wirecast Go [4]",
-     "Larix Broadcaster [4]",
-    "Dacast [4]",
-    "Limelight [4]",
-    "YouTube Kids [5]"
+    "Facebook Live",
+    "YouTube Live",
+    "TikTok Live",
+    "Instagram Live",
+    "Netflix",
+    "Amazon Prime Video",
+    "Twitch",
+    "Tencent Video",
+    "Streamlabs",
+    "Prism Live Studio",
+    "StreamYard",
+    "Camo Studio",
+    "EventLive",
+    "Switcher Studio",
+    "BoxCast",
+    "Wirecast Go",
+    "Larix Broadcaster",
+    "Dacast",
+    "Limelight",
+    "YouTube Kids"
   ]
 }

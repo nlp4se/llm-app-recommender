@@ -1,24 +1,24 @@
-Based on the search results and the ranking criteria of "Security and Privacy," here are 20 podcast apps, ranked by their reported privacy and security features:
-
-Please note: Since a direct comparison of the security and privacy features of all podcast apps is not available, the ranking is based on the available information and general security practices of the mentioned apps.
-
-1.  Overcast
-2.  AntennaPod
-3.  Pocket Casts
-4.  Apple Podcasts
-5.  Castro
-6.  Podcast Addict
-7.  Spotify
-8.  Downcast
-9.  The CyberWire Daily Podcast
-10. Security Now
-11. Darknet Diaries
-12. The Privacy Advisor Podcast
-13. Data Diva Talks Privacy Podcast
-14. Business Security Weekly
-15. Smashing Security
-16. Risky Business
-17. Security In Five
-18. Privacy Please
-19. Breach Sense Podcast
-20. Security Cryptography Whatever
+{
+    "a": [
+      "Overcast",
+      "AntennaPod",
+      "Pocket Casts",
+      "Apple Podcasts",
+      "Castro",
+      "Podcast Addict",
+      "Spotify",
+      "Downcast",
+      "The CyberWire Daily Podcast",
+      "Security Now",
+      "Darknet Diaries",
+      "The Privacy Advisor Podcast",
+      "Data Diva Talks Privacy Podcast",
+      "Business Security Weekly",
+      "Smashing Security",
+      "Risky Business",
+      "Security In Five",
+      "Privacy Please",
+      "Breach Sense Podcast",
+      "Security Cryptography Whatever"
+    ]
+  }

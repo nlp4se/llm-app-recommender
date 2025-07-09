@@ -1,27 +1,24 @@
-Based on the ranking criteria of "Security and Privacy," here are 20 app recommendations for playing games, ordered from highest to lowest emphasis on security and privacy features:
-
-```json
 {
   "a": [
-    "NetGuard [1]",
-    "ZArchiver + APK Editor Pro [1]",
-    "Guardey [5]",
-    "Google Wallet [4]",
-    "Apple Pay [4]",
-    "Cash App [4]",
-    "Riskio [5]",
-    "X8 Sandbox [1]",
-    "Game Guardian [1]",
-    "Lucky Patcher [1]",
-    "LuluBox [1]",
-    "Game Killer [1]",
-    "PUBG [4]",
-    "DraftKings [4]",
-    "Call of Duty [4]",
-    "Angry Birds [3]",
-    "Words With Friends Free [3]",
-    "Bubble Blast 2 [3]",
-    "Paradise Island [3]",
-    "Temple Run [3]"
+    "NetGuard",
+    "ZArchiver + APK Editor Pro",
+    "Guardey",
+    "Google Wallet",
+    "Apple Pay",
+    "Cash App",
+    "Riskio",
+    "X8 Sandbox",
+    "Game Guardian",
+    "Lucky Patcher",
+    "LuluBox",
+    "Game Killer",
+    "PUBG",
+    "DraftKings",
+    "Call of Duty",
+    "Angry Birds",
+    "Words With Friends Free",
+    "Bubble Blast 2",
+    "Paradise Island",
+    "Temple Run"
   ]
 }

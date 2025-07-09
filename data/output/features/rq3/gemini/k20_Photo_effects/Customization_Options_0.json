@@ -1,25 +1,24 @@
-
 {
   "a": [
-    "VSCO [2, 4]",
-    "Snapseed [2, 3, 4, 8]",
-    "Adobe Photoshop Express [2]",
-    "PicsArt [3, 4, 6, 7]",
-    "Polarr [4]",
-    "Pixelmator [2, 6]",
-    "Afterlight [2, 3, 6]",
-    "Fotor [9, 10]",
-    "Adobe Lightroom Mobile [4, 6, 8]",
-    "Canva [6, 9]",
-    "PhotoDirector [3]",
+    "VSCO",
+    "Snapseed",
+    "Adobe Photoshop Express",
+    "PicsArt",
+    "Polarr",
+    "Pixelmator",
+    "Afterlight",
+    "Fotor",
+    "Adobe Lightroom Mobile",
+    "Canva",
+    "PhotoDirector",
     "YouCam Perfect",
     "PhotoLab",
-    "FaceTune [6]",
-    "Lensa [8]",
-    "Photopea [9]",
-    "PhotoScape X [9]",
-    "MyEdit [9]",
-    "Bazaart [6]",
-    "Polish [4]"
+    "FaceTune",
+    "Lensa",
+    "Photopea",
+    "PhotoScape X",
+    "MyEdit",
+    "Bazaart",
+    "Polish"
   ]
 }

@@ -1,1 +1,24 @@
-{"a":["Multi SMS Sender (MSS)","GroupMe","Telegram","Signal Private Messenger","Reach","Textra SMS","Google Messages","WhatsApp","Viber","Briar","Hit Em Up","Multi SMS & Group SMS","mysms","Group Messaging","Session","Olark","LiveChat","HubSpot","Tidio","LiveAgent"]} 
+{
+  "a": [
+    "Multi SMS Sender",
+    "GroupMe",
+    "Telegram",
+    "Signal Private Messenger",
+    "Reach",
+    "Textra SMS",
+    "Google Messages",
+    "WhatsApp",
+    "Viber",
+    "Briar",
+    "Hit Em Up",
+    "Multi SMS & Group SMS",
+    "mysms",
+    "Group Messaging",
+    "Session",
+    "Olark",
+    "LiveChat",
+    "HubSpot",
+    "Tidio",
+    "LiveAgent"
+  ]
+}

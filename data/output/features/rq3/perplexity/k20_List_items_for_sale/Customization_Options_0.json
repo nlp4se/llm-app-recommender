@@ -1,16 +1,16 @@
 {
   "a": [
     "Bubble",
-    "Shopify (with advanced customization apps like Zepto Product Personalizer)",
+    "Shopify",
     "Vendoo",
     "List Perfectly",
     "Crosslist",
     "Koongo",
-    "Webflow (with integrations for listing marketplaces)",
-    "AirBnb (for rental/experience listings; highly customizable for hosts)",
+    "Webflow",
+    "AirBnb",
     "Facebook Marketplace",
     "OfferUp",
-    "LetGo (now part of OfferUp)",
+    "LetGo",
     "Etsy Seller App",
     "Carvana",
     "Vinted",
@@ -22,6 +22,3 @@
     "Wallapop"
   ]
 } 
-
-*Note: Some apps (like AirBnb, Carvana, LetGo) are included as they offer extensive customization for specific listing types, but may be outside traditional "marketplace selling" for general goods. Most apps above offer customization for listings, user experience, or integration/plugin-based options. Apps like Bubble, Shopify (with Zepto), and Webflow provide the most customization for interface themes and features based on available data[2][3][4].*  
-*(Since you specified to include only the JSON object above, this note is not part of the required response. The JSON object above is valid and answer your request strictly as defined.)*

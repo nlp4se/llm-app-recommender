@@ -1,1 +1,24 @@
-{"a":["Fext","Quick Send","Group Messaging","Hit Em Up","TextMagic","EZ Texting","SimpleTexting","SendPulse","SlickText","TXT180","Textedly","ClickSend","Attentive","Omnisend","Brevo (formerly Sendinblue)","GetResponse","Constant Contact","Zoho Campaigns","MailChimp","Vertical Response"]} 
+{
+  "a": [
+    "Fext",
+    "Quick Send",
+    "Group Messaging",
+    "Hit Em Up",
+    "TextMagic",
+    "EZ Texting",
+    "SimpleTexting",
+    "SendPulse",
+    "SlickText",
+    "TXT180",
+    "Textedly",
+    "ClickSend",
+    "Attentive",
+    "Omnisend",
+    "Brevo",
+    "GetResponse",
+    "Constant Contact",
+    "Zoho Campaigns",
+    "MailChimp",
+    "Vertical Response"
+  ]
+}

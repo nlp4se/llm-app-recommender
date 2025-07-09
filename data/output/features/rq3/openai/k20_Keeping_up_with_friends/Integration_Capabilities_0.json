@@ -1,1 +1,24 @@
-{"a":["Facebook","Instagram","WhatsApp","Twitter (X)","LinkedIn","Snapchat","TikTok","Pinterest","Reddit","YouTube","Discord","Telegram","WeChat","Line","KakaoTalk","Mastodon","Pixelfed","ShareChat","Threads","SecureTribe"]} 
+{
+  "a": [
+    "Facebook",
+    "Instagram",
+    "WhatsApp",
+    "Twitter",
+    "LinkedIn",
+    "Snapchat",
+    "TikTok",
+    "Pinterest",
+    "Reddit",
+    "YouTube",
+    "Discord",
+    "Telegram",
+    "WeChat",
+    "Line",
+    "KakaoTalk",
+    "Mastodon",
+    "Pixelfed",
+    "ShareChat",
+    "Threads",
+    "SecureTribe"
+  ]
+}

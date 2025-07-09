@@ -1,1 +1,24 @@
-{"a":["Signal","Threema","Session","Element","Wickr Me","Viber","Olvid","Tox","ChatSecure","Zangi","Confide","WhatsApp","Telegram (Secret Chats)","Keybase","Briar","Wire","Silence","Dust","Pryvate","CoverMe"]} 
+{
+  "a": [
+    "Signal",
+    "Threema",
+    "Session",
+    "Element",
+    "Wickr Me",
+    "Viber",
+    "Olvid",
+    "Tox",
+    "ChatSecure",
+    "Zangi",
+    "Confide",
+    "WhatsApp",
+    "Telegram",
+    "Keybase",
+    "Briar",
+    "Wire",
+    "Silence",
+    "Dust",
+    "Pryvate",
+    "CoverMe"
+  ]
+}

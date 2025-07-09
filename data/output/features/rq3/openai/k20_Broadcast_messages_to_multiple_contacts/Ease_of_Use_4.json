@@ -1,1 +1,24 @@
-{"a":["Telegram","GroupMe","Signal Private Messenger","Google Messages","Textra SMS","Reach","SendHype","Multi SMS & Group SMS","Hit Em Up","Multi SMS Sender (MSS)","EZ Texting","Text-Em-All","DialMyCalls","mysms","WhatsApp","Viber","Facebook Messenger","Slack","Microsoft Teams","Discord"]} 
+{
+  "a": [
+    "Telegram",
+    "GroupMe",
+    "Signal Private Messenger",
+    "Google Messages",
+    "Textra SMS",
+    "Reach",
+    "SendHype",
+    "Multi SMS & Group SMS",
+    "Hit Em Up",
+    "Multi SMS Sender",
+    "EZ Texting",
+    "Text-Em-All",
+    "DialMyCalls",
+    "mysms",
+    "WhatsApp",
+    "Viber",
+    "Facebook Messenger",
+    "Slack",
+    "Microsoft Teams",
+    "Discord"
+  ]
+}
