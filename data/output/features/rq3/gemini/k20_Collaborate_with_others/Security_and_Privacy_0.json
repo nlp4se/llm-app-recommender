@@ -1,0 +1,25 @@
+
+{
+  "a": [
+    "Microsoft Teams [1, 2, 3, 4, 5, 8, 12]",
+    "Slack [3, 5, 9, 12, 13]",
+    "Zoom [1, 2, 13]",
+    "Rocket.Chat [2, 4]",
+    "Nextcloud [2, 3]",
+    "Wire [2]",
+    "Google Drive [1, 2]",
+    "Asana [1, 2, 3, 9, 14]",
+    "Trello [2, 9, 12, 13, 14]",
+    "Lark [4]",
+    "Box [4, 10]",
+    "ClickUp [1, 4]",
+    "Conceptboard [1, 4, 6]",
+    "RealTyme [8]",
+    "Pexip [1, 2]",
+    "Wrike [13, 14]",
+    "TeamViewer [10]",
+    "Stashcat [10]",
+    "Digital Guardian Secure Collaboration [12]",
+    "PrivMX [7]"
+  ]
+}

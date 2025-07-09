@@ -1,0 +1,25 @@
+
+{
+  "a": [
+    "IMDb [1, 2, 10]",
+    "Letterboxd [3, 7, 8, 9, 10]",
+    "Rotten Tomatoes [1, 10]",
+    "Flick [5]",
+    "Moviebase [2]",
+    "MUBI [2]",
+    "Criticker [3, 6, 9]",
+    "Raters [4, 5]",
+    "Movie Pal [2]",
+    "MovieLens [3]",
+    "Trakt [3, 9]",
+    "JustWatch [3, 8]",
+    "Plugged In [1]",
+    "Movies by Flixster [1]",
+    "Movie Reviews (Voice) [1]",
+    "MovieFone [6]",
+    "FilmStory [6]",
+    "YourNextFilm [6]",
+    "MovieMash [7]",
+    "RateYourMusic [9]"
+  ]
+}

@@ -1,24 +1,27 @@
+Based on the requirement of user ratings, here's a ranked list of apps for broadcasting messages to multiple contacts. Note that specific user ratings can fluctuate, so this is a general ranking based on available information:
+
+```json
 {
   "a": [
-    "SMS Broadcast",
-    "WhatsApp Business",
-    "Project Broadcast",
-    "DoubleTick",
-    "AiSensy",
-    "Emitrr",
-    "SimpleTexting",
-    "TextMagic",
-    "ClickSend",
-    "SlickText",
-    "EZ Texting",
-    "Podium",
     "Mobile Text Alerts",
-    "SleekFlow",
-    "Telegram",
-    "Facebook Messenger",
-    "Viber",
+    "ClickSend",
     "Trumpia",
-    "Wati",
-    "Twilio"
+    "Textedly",
+    "Clickatell",
+    "SendPulse",
+    "TextMarks",
+    "BulkSMS",
+    "EZ Texting",
+    "TextUs",
+    "SlickText",
+    "SimpleTexting",
+    "Sakari",
+    "Podium",
+    "Twilio",
+    "Salesmsg",
+    "TextMagic",
+    "Textellent",
+    "DialMyCalls",
+    "Multi SMS Sender (MSS)"
   ]
 }

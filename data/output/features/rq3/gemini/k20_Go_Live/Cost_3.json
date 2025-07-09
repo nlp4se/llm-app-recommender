@@ -1,0 +1,25 @@
+
+{
+  "a": [
+    "Twitch [1, 13]",
+    "YouTube Live [1, 12, 13]",
+    "TikTok Live [1, 6]",
+    "Facebook Live [1, 9, 13]",
+    "Instagram Live [1, 9]",
+    "Hulu Plus Live TV [2, 3, 5]",
+    "Sling TV [2, 3, 5]",
+    "YouTube TV [1, 2, 3, 5, 8, 16]",
+    "Fubo [2, 5]",
+    "Philo [2, 5, 8, 11, 17]",
+    "Tango [9]",
+    "VPlayed [1, 4, 10]",
+    "Vimeo Livestream [4, 10]",
+    "Dacast [1, 4]",
+    "Brightcove [4, 10]",
+    "Muvi [4, 10]",
+    "Kaltura [4]",
+    "Wowza [4]",
+    "StreamYard [12, 13]",
+    "Kick.com [1]"
+  ]
+}

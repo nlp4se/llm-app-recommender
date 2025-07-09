@@ -1,0 +1,25 @@
+
+{
+  "a": [
+    "Netflix [3, 6, 8, 9, 11]",
+    "Hulu [3, 6, 8, 11, 24]",
+    "Amazon Prime Video [3, 6, 8, 11]",
+    "Disney+ [3, 6, 9, 11, 19]",
+    "YouTube TV [11, 12]",
+    "HBO Max [3, 6, 8, 9, 19, 24]",
+    "Twitch [4]",
+    "Streamlabs [4]",
+    "StreamYard [4]",
+    "Dacast [4, 25, 26]",
+    "Vimeo Livestream [23]",
+    "Muvi [2, 23]",
+    "Brightcove [2, 13, 23]",
+    "Uscreen [2, 13, 18, 26]",
+    "Kodi [6]",
+    "Plex [8, 24]",
+    "Tubi TV [24]",
+    "Wowza Streaming Engine [26]",
+    "JW Player [26]",
+    "VPlayed [2, 13]"
+  ]
+}

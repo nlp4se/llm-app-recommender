@@ -2,24 +2,24 @@
 {
   "a": [
     "Steam",
-    "GOG Galaxy",
     "Discord",
-    "Xbox Game Pass",
-    "PlayStation App",
-    "Nintendo Switch Online",
     "Twitch",
-    "GeForce NOW",
+    "Xbox Game Pass",
+    "Nvidia GeForce Now",
     "Google Play Games",
     "Apple Arcade",
+    "EA Play",
+    "Ubisoft Connect",
+    "GOG Galaxy",
     "Battle.net",
     "Origin",
-    "Uplay",
+    "PlayStation App",
+    "Nintendo Switch Online",
     "Epic Games",
     "Microsoft Solitaire Collection",
+    "Pokémon GO",
     "Minecraft",
     "Among Us",
-    "Pokémon GO",
-    "Clash of Clans",
-    "Candy Crush Saga"
+    "Roblox"
   ]
 }

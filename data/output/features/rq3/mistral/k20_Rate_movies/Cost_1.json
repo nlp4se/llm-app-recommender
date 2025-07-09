@@ -1,25 +1,25 @@
 
 {
   "a": [
-    "Letterboxd",
     "IMDb",
+    "Letterboxd",
+    "Rotten Tomatoes",
+    "Metacritic",
+    "Fandom",
     "Flixster",
-    "MovieDiary",
     "Cinemark",
-    "Fandango",
     "Atom Tickets",
-    "CinemaTime",
+    "Fandango",
     "MoviePass",
     "AMC Theatres",
-    "Regal Cinemas",
-    "CinemaClock",
-    "MovieTickets",
-    "Showtimes",
-    "Moviefone",
-    "FilmJournal",
-    "Cineworld",
-    "Vue Cinemas",
-    "ODEON",
-    "Everything"
+    "Regal",
+    "CinemaBlend",
+    "MovieGuide",
+    "JustWatch",
+    "Reelgood",
+    "Taste",
+    "MUBI",
+    "Shuffle",
+    "Cinema Time"
   ]
 }

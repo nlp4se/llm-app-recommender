@@ -1,24 +1,25 @@
+
 {
   "a": [
-    "Muvi",
-    "VPlayed",
-    "Enjoy Movies Your Way",
-    "Plex",
-    "Tubi",
-    "Hulu",
     "Netflix",
+    "Hulu",
     "Amazon Prime Video",
     "Disney+",
+    "HBO Max",
+    "Tubi TV",
+    "Plex",
+    "YouTube",
+    "Peacock TV",
+    "Vudu",
     "Crackle",
-    "The Roku Channel",
-    "Fandango at Home",
-    "VLC Media Player",
+    "Apple TV",
+    "Pluto TV",
+    "Popcorn Time",
+    "Cinema APK",
     "IMDb TV",
-    "Peacock",
-    "Brightcove",
-    "Dacast",
-    "Streamit",
-    "PlayLab",
-    "Funflix"
+    "Fawesome TV",
+    "Shudder TV",
+    "Crunchyroll",
+    "Themes Go"
   ]
 }

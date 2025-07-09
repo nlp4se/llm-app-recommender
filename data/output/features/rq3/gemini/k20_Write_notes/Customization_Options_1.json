@@ -1,25 +1,25 @@
 
 {
   "a": [
-    "Obsidian",
     "Notion",
-    "Microsoft OneNote",
-    "Joplin",
+    "Obsidian",
     "ClickUp",
+    "Microsoft OneNote",
     "Evernote",
-    "Bear",
-    "Zoho Notebook",
+    "Joplin",
+    "Apple Notes",
     "Google Keep",
-    "UpNote",
-    "Penbook",
+    "Zoho Notebook",
     "Noteshelf",
     "Simplenote",
-    "Milanote",
-    "AmpleNote",
+    "Bear",
+    "Penbook",
     "ZoomNotes",
-    "ProofHub Notes",
-    "Standard Notes",
-    "RemNote",
-    "Readlax Smart Notes"
+    "CollaNote",
+    "GoodNotes",
+    "Nebo",
+    "LiquidText",
+    "Anytype",
+    "Inkdrop"
   ]
 }

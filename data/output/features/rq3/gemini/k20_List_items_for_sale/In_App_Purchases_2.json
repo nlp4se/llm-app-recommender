@@ -1,0 +1,27 @@
+Based on the ranking criterion of the availability and variety of in-app purchases, here are 20 apps to list items for sale:
+
+```json
+{
+  "a": [
+    "eBay",
+    "Etsy",
+    "Poshmark",
+    "Mercari",
+    "Depop",
+    "Facebook Marketplace",
+    "OfferUp",
+    "Amazon Handmade",
+    "Shopify",
+    "ThredUp",
+    "Vestiaire Collective",
+    "Chairish",
+    "5miles",
+    "Decluttr",
+    "Letgo (integrated into OfferUp)",
+    "Vendoo",
+    "PrimeLister",
+    "Shop",
+    "BigCommerce",
+    "WooCommerce"
+  ]
+}

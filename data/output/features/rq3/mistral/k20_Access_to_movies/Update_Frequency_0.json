@@ -3,23 +3,23 @@
   "a": [
     "Netflix",
     "Amazon Prime Video",
-    "Hulu",
     "Disney+",
+    "Hulu",
     "HBO Max",
-    "Apple TV",
+    "Apple TV+",
+    "Peacock",
     "Paramount+",
-    "Peacock TV",
     "YouTube",
+    "Google Play Movies & TV",
+    "Vudu",
     "Tubi",
     "Pluto TV",
     "Crackle",
-    "Vudu",
+    "Plex",
     "IMDb TV",
-    "Sling TV",
-    "Philo",
-    "Mubi",
-    "Crunchyroll",
-    "Funimation",
-    "Shudder"
+    "FilmRise",
+    "Popcornflix",
+    "Yidio",
+    "FandangoNOW"
   ]
 }

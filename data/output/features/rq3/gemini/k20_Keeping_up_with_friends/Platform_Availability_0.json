@@ -1,25 +1,25 @@
 
 {
   "a": [
-    "Facebook",
-    "Instagram",
     "WhatsApp",
-    "TikTok",
-    "Meetup",
-    "Bumble BFF",
-    "Nextdoor",
-    "Snapchat",
+    "Facebook Messenger",
     "Telegram",
+    "Instagram",
+    "WeChat",
+    "Viber",
+    "Signal",
+    "Line",
+    "Skype",
     "Discord",
-    "Threads",
-    "UNBLND",
-    "Yubo",
-    "Ablo",
-    "Wizz",
-    "BeReal",
-    "Twitter",
-    "LinkedIn",
+    "Slack",
+    "Microsoft Teams",
     "Reddit",
-    "Life360"
+    "Snapchat",
+    "Pinterest",
+    "LinkedIn",
+    "Threads",
+    "YouTube",
+    "Marco Polo",
+    "GroupMe"
   ]
 }

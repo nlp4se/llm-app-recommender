@@ -1,0 +1,25 @@
+
+{
+  "a": [
+    "SimpleTexting [1, 4, 14]",
+    "EZ Texting [1, 4, 7, 16]",
+    "SlickText [1, 4, 7, 13, 14]",
+    "TextMagic [4, 7, 13, 14, 28]",
+    "DialMyCalls [2, 4]",
+    "Podium [1, 4, 14]",
+    "Emitrr [1]",
+    "Textedly [1, 4, 7, 16, 18]",
+    "MessageMedia [4]",
+    "Trumpia [7, 16]",
+    "ClickSend [7, 12, 28]",
+    "Clickatell [7]",
+    "SendPulse [7, 12]",
+    "TextMarks [7]",
+    "BulkSMS [7, 28]",
+    "Sakari [4, 14, 18]",
+    "Hit Em Up: Mass Text Bulk SMS [5]",
+    "GroupMe [15, 18, 19, 22]",
+    "WhatsApp [6, 8, 17, 19]",
+    "Multi SMS & Group SMS [21]"
+  ]
+}

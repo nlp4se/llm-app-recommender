@@ -1,0 +1,51 @@
+Here's a ranking of 20 movie rating apps based on user engagement, which measures how frequently and actively users interact with the app.
+
+```json
+{
+  "a": [
+    "IMDb",
+    "Letterboxd",
+    "Rotten Tomatoes",
+    "Metacritic",
+    "Moviebase",
+    "MUBI",
+    "Trakt.tv",
+    "Reelgood",
+    "JustWatch",
+    "Flixster",
+    "Raters",
+    "Criticker",
+    "MovieFone",
+    "YourNextFilm",
+    "FilmStory",
+    "Movie Pal",
+    "Plugged In",
+    "Kernel",
+    "Showly",
+    "Google TV"
+  ]
+}
+```
+
+**Explanation:**
+
+*   **IMDb:** Widely recognized as a comprehensive resource for movie lovers, offering personalized recommendations, interactive watchlists, and the ability to rate and review movies. Boasts a massive database and a large, active community.
+*   **Letterboxd:** A social networking app for film lovers, known for its community-driven experience where users share mini-reviews, follow friends, and create watchlists. It focuses on fostering discussions and sharing movie recommendations.
+*   **Rotten Tomatoes:** Known for its Tomatometer, which aggregates critic and audience scores to provide a percentage-based rating. Offers in-depth reviews, trailers, and personalized recommendations.
+*   **Metacritic:** Combines critical acclaim with user ratings to provide a comprehensive assessment of movies, using a Metascore to summarize a movie's overall quality.
+*   **Moviebase:** A comprehensive tool for tracking and exploring movies and series, with powerful search features and the ability to organize content from TMDB, IMDb, and Trakt.
+*   **MUBI:** Offers a curated selection of films from iconic and emerging directors worldwide, allowing users to stream or download films.
+*   **Trakt.tv:** More than just ratings, it allows users to track TV shows and movies, see what friends are watching, and get recommendations.
+*   **Reelgood:** Supports almost every streaming service and offers curated lists, trending picks, and powerful filters. Its rating system combines IMDb scores, critic reviews, and popularity trends.
+*   **JustWatch:** Shows a timeline of what's coming to your subscriptions and lets you filter by rating, genre, or release year.
+*   **Flixster:** Allows users to browse current and upcoming movies, see ratings and feedback, and offers movie scores by Rotten Tomatoes. It also allows for purchasing tickets in advance.
+*   **Raters:** Suggests movies based on reviews from people whose movie taste you trust, and provides personalized recommendations.
+*   **Criticker:** A review-based site with a strong online community that connects users with like-minded movie buffs based on their ratings.
+*   **MovieFone:** Gives access to a database of reviews and ratings and incorporates features like finding movie times at local cinemas.
+*   **YourNextFilm:** Gives recommendations based on user reviews and ratings and integrates with social networking sites.
+*   **FilmStory:** Presents a database of historical events through the use of film, discussing the relationship between them.
+*   **Movie Pal:** Helps users discover and manage their favorite titles, offering personalized recommendations and tools for planning movie nights with friends.
+*   **Plugged In:** Provides movie reviews for families and younger audiences, offering articles and ratings to see if a film is age-appropriate.
+*   **Kernel:** An iOS-only app that makes it easy to discover trending movies and shows, with AI-powered search.
+*   **Showly:** Packed with details like trailers, cast info, and links to reviews and helps users find similar titles or explore the full filmography of their favorite actors.
+*   **Google TV:** Allows users to build a universal watchlist and suggests content based on viewing history and trending titles.

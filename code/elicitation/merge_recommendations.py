@@ -10,6 +10,8 @@ def extract_json_from_file_content(file_content: str) -> Dict[str, Any]:
     """
     Extract JSON content from file content. First tries to parse the entire content as JSON.
     If that fails, looks for markdown code blocks with ```json and parses the content between ```json and ```.
+    If no closing ``` is found, extracts everything from ```json to the end of the file.
+    If no markdown tags are found, tries to extract JSON from the beginning until the first non-JSON content.
     
     Args:
         file_content: The full content of the file as string
@@ -18,7 +20,7 @@ def extract_json_from_file_content(file_content: str) -> Dict[str, Any]:
         Parsed JSON data as dictionary
         
     Raises:
-        ValueError: If JSON parsing fails in both attempts
+        ValueError: If JSON parsing fails in all attempts
     """
     # First, try to parse the entire content as JSON
     try:
@@ -30,25 +32,41 @@ def extract_json_from_file_content(file_content: str) -> Dict[str, Any]:
         
         # Find the start pattern in the content
         start_index = file_content.find(start_pattern)
-        if start_index == -1:
-            raise ValueError(f"Neither direct JSON parsing nor pattern '{start_pattern}' found in file content")
         
-        # Find the end pattern after the start pattern
-        end_index = file_content.find(end_pattern, start_index + len(start_pattern))
-        if end_index == -1:
-            raise ValueError(f"End pattern '{end_pattern}' not found after start pattern")
-        
-        # Extract content between the patterns
-        json_content = file_content[start_index + len(start_pattern):end_index].strip()
+        if start_index != -1:
+            # Found markdown tags, extract content
+            end_index = file_content.find(end_pattern, start_index + len(start_pattern))
+            
+            if end_index == -1:
+                # No closing ``` found, extract everything from ```json to the end
+                json_content = file_content[start_index + len(start_pattern):].strip()
+            else:
+                # Extract content between the patterns
+                json_content = file_content[start_index + len(start_pattern):end_index].strip()
+        else:
+            # No markdown tags found, try to extract JSON from the beginning
+            # Look for common non-JSON patterns that might indicate the end of JSON
+            lines = file_content.split('\n')
+            json_lines = []
+            
+            for line in lines:
+                line = line.strip()
+                if not line:  # Skip empty lines
+                    continue
+                if line.startswith('Explanation:') or line.startswith('Note:') or line.startswith('Based on') or line.startswith('**Explanation:**'):
+                    break
+                json_lines.append(line)
+            
+            json_content = '\n'.join(json_lines).strip()
         
         if not json_content:
-            raise ValueError("No content found between the patterns")
+            raise ValueError("No content found to parse as JSON")
         
         # Try to parse as JSON
         try:
             return json.loads(json_content)
         except json.JSONDecodeError as e:
-            raise ValueError(f"Failed to parse JSON content from markdown block: {e}")
+            raise ValueError(f"Failed to parse JSON content: {e}")
 
 
 def extract_json_files_from_folders(input_folders: List[str]) -> tuple[List[Dict[str, Any]], int]:
@@ -249,7 +267,7 @@ def main():
     
     # Generate CSV files
     generate_app_rankings_csv(files_data, args.output_folder)
-    generate_app_ranking_criteria_csv(files_data, args.output_folder)
+    #generate_app_ranking_criteria_csv(files_data, args.output_folder)
     
     print("Processing completed successfully!")
 

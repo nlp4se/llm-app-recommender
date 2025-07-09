@@ -1,0 +1,25 @@
+
+{
+  "a": [
+    "Facebook [5, 9]",
+    "Instagram [3, 5, 9]",
+    "WhatsApp [5, 9, 14]",
+    "Snapchat [3, 9]",
+    "Marco Polo [2]",
+    "BeReal [3, 4]",
+    "Locket [3, 4, 15]",
+    "Teleparty [3]",
+    "HeyTell [2]",
+    "Cloze [2]",
+    "Airbuds [4]",
+    "House Party [6]",
+    "Psych [6]",
+    "Skype [6, 9]",
+    "TikTok [6]",
+    "Zoom [6]",
+    "GroupMe [7]",
+    "Viber [7, 9, 14]",
+    "ooVoo [7]",
+    "MUBR [15]"
+  ]
+}

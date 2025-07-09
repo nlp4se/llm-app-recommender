@@ -1,0 +1,25 @@
+
+{
+  "a": [
+    "LiveChat [1, 2, 3, 4, 5, 6, 8]",
+    "Zendesk [1, 2, 3, 4, 5, 7, 8]",
+    "Tidio [2, 3, 4]",
+    "Re:amaze [1, 5, 6, 8]",
+    "tawk.to [1, 5, 6]",
+    "Intercom [3, 6, 8]",
+    "Olark [2, 3, 6]",
+    "Freshchat [3, 4, 8]",
+    "HubSpot Live Chat [1, 3, 4, 8]",
+    "LiveAgent [1, 5, 6, 8]",
+    "Chaport [2]",
+    "Chatra [2]",
+    "SalesGroup Live Chat [3]",
+    "Drift [3]",
+    "Chatbot.com [3]",
+    "Gorgias [7, 8]",
+    "Zoho Desk [1, 8]",
+    "MobileMonkey Chat [4]",
+    "Birdeye [4]",
+    "Pure Chat [2]"
+  ]
+}

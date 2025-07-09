@@ -1,3 +1,4 @@
+
 {
   "a": [
     "Netflix",
@@ -5,20 +6,20 @@
     "Hulu",
     "Disney+",
     "Max",
-    "Paramount+",
     "Peacock",
+    "Paramount+",
+    "Apple TV+",
     "Tubi",
     "Pluto TV",
     "Crackle",
+    "Filmrise",
     "Vudu",
-    "Popcornflix",
+    "Freevee",
     "The Roku Channel",
-    "Apple TV+",
-    "Mubi",
-    "Criterion Channel",
-    "IMDb TV (Amazon Freevee)",
-    "SnagFilms",
-    "Viewster",
-    "Kodi"
+    "Plex",
+    "Popcornflix",
+    "Yidio",
+    "Filmzie",
+    "GoodShort"
   ]
 }

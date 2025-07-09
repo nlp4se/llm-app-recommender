@@ -1,25 +1,25 @@
 
 {
   "a": [
+    "Instagram",
+    "Facebook",
+    "Twitter",
+    "TikTok",
+    "YouTube",
+    "WhatsApp",
+    "Messenger",
+    "Snapchat",
+    "Pinterest",
+    "LinkedIn",
+    "Telegram",
+    "Reddit",
+    "Discord",
+    "Spotify",
+    "Netflix",
+    "Amazon Prime Video",
     "Zoom",
     "Microsoft Teams",
     "Google Meet",
-    "Skype",
-    "Cisco Webex",
-    "GoToMeeting",
-    "BlueJeans",
-    "Jitsi Meet",
-    "Lifesize",
-    "Google Duo",
-    "WhatsApp",
-    "Facebook Messenger",
-    "Signal",
-    "Telegram",
-    "Discord",
-    "Slack",
-    "Houseparty",
-    "Marco Polo",
-    "Viber",
-    "Line"
+    "Slack"
   ]
 }

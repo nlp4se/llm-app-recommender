@@ -1,10 +1,10 @@
 
 {
   "a": [
-    "Netflix",
-    "YouTube",
     "Twitch",
+    "YouTube",
     "Hulu",
+    "Netflix",
     "Disney+",
     "Amazon Prime Video",
     "HBO Max",
@@ -13,13 +13,13 @@
     "Apple TV",
     "Sling TV",
     "fuboTV",
-    "Philos",
-    "YouTube TV",
-    "Crunchyroll",
-    "Funimation",
-    "Discovery+",
-    "ESPN",
-    "NBC Sports",
-    "DAZN"
+    "Philo",
+    "Pluto TV",
+    "Tubi",
+    "Crackle",
+    "Vudu",
+    "Plex",
+    "Kodi",
+    "Facebook Watch"
   ]
 }

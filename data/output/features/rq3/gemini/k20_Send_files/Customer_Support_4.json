@@ -1,0 +1,25 @@
+
+{
+  "a": [
+    "Google Drive [2, 3, 4, 5, 7]",
+    "Dropbox [1, 2, 3, 5, 7, 8, 11]",
+    "WeTransfer [1, 2, 3, 4, 7, 11]",
+    "Microsoft OneDrive [2, 3, 5, 7, 8, 11]",
+    "Box [1, 3, 7, 10]",
+    "Hightail [4, 6]",
+    "Send Anywhere [4]",
+    "Filestage [4, 10]",
+    "iCloud Drive [3, 7, 11]",
+    "Jumpshare [3, 12]",
+    "Egnyte [3]",
+    "ShareFile [3, 10, 13]",
+    "MediaFire [1, 3]",
+    "Files.com [10, 11]",
+    "Sync.com [5]",
+    "SpiderOak One [5, 7]",
+    "Proton Drive [5]",
+    "ShareVault [11]",
+    "CloudFiles [9]",
+    "Connecteam [6]"
+  ]
+}

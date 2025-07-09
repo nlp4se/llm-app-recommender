@@ -2,24 +2,24 @@
 {
   "a": [
     "WhatsApp",
-    "Facebook",
-    "Instagram",
-    "TikTok",
-    "Telegram",
-    "Snapchat",
-    "WeChat",
     "Facebook Messenger",
+    "Instagram",
+    "Snapchat",
+    "Telegram",
     "Discord",
     "Signal",
     "Viber",
-    "Line",
-    "Skype",
-    "Google Meet",
-    "Zoom",
-    "Houseparty",
+    "GroupMe",
     "Marco Polo",
+    "Houseparty",
+    "Bunch",
     "Locket",
-    "BeReal",
-    "Threads"
+    "MUBR",
+    "Meetup",
+    "Yubo",
+    "Bumble BFF",
+    "UNBLND",
+    "Wizz",
+    "FullContact"
   ]
 }

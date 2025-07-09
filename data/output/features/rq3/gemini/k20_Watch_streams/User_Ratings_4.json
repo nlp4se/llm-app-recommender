@@ -1,0 +1,27 @@
+Based on the user rating ranking criterion, here are 20 apps to watch streams:
+
+```json
+{
+  "a": [
+    "Netflix",
+    "Hulu",
+    "Disney+",
+    "Max",
+    "Amazon Prime Video",
+    "Peacock",
+    "Paramount+",
+    "Apple TV+",
+    "YouTube",
+    "Crunchyroll",
+    "ESPN+",
+    "STARZ",
+    "MGM+",
+    "BritBox",
+    "PBS Video",
+    "Tubi",
+    "Vimeo Livestream",
+    "Twitch",
+    "Instagram Live",
+    "Google Meet"
+  ]
+}

@@ -1,0 +1,27 @@
+Based on user ratings, here are 20 apps to access movies [i, 5, 6]:
+
+```json
+{
+  "a": [
+    "Netflix [1, 2, 4, 10]",
+    "Disney+ [1, 2, 4, 11]",
+    "Hulu [1, 2, 10]",
+    "Amazon Prime Video [1, 2, 4, 10]",
+    "Max [1, 2, 11]",
+    "Peacock [1, 10]",
+    "Paramount+ [4, 9, 11]",
+    "Tubi TV [1, 4, 12]",
+    "IMDb [3, 5, 13]",
+    "Google TV [3, 8]",
+    "Pluto TV [4, 12]",
+    "Apple TV [3, 8, 10]",
+    "Plex [4, 12]",
+    "Vudu [4]",
+    "Crackle [12]",
+    "Reelgood [3, 8]",
+    "JustWatch [3, 8]",
+    "Letterboxd [3, 8]",
+    "Moviebase [5]",
+    "MovieFone [7]"
+  ]
+}

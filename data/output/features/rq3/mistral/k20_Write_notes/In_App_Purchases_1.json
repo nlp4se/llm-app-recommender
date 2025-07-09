@@ -1,0 +1,26 @@
+
+{
+  "a": [
+    "Evernote",
+    "Notion",
+    "OneNote",
+    "GoodNotes",
+    "Notability",
+    "Bear",
+    "Ulysses",
+    "Zoho Notebook",
+    "Simplenote",
+    "Google Keep",
+    "Apple Notes",
+    "Standard Notes",
+    "Joplin",
+    "Roam Research",
+    "Craft",
+    "Agenda",
+    "Obsidian",
+    "Turtl",
+    "Laverna",
+    "NotePlan"
+    // Ordered list of app names (rank is implied by position)
+  ]
+}

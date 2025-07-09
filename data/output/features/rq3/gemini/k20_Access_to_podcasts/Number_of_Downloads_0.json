@@ -1,25 +1,25 @@
 
 {
   "a": [
-    "Spotify",
     "Apple Podcasts",
+    "Spotify",
     "YouTube Music",
-    "Google Podcasts",
     "Pocket Casts",
-    "Castbox",
-    "Overcast",
     "Podcast Addict",
-    "Stitcher",
+    "Overcast",
+    "Castbox",
     "Amazon Music",
+    "Google Podcasts",
+    "iHeartRadio",
+    "Audible",
+    "Pandora",
+    "Stitcher",
     "TuneIn",
-    "PodBean",
+    "Deezer",
     "Player FM",
-    "Podcast Republic",
+    "Acast",
     "AntennaPod",
-    "BeyondPod",
-    "DoggCatcher",
-    "Sonogram",
-    "Audecibel",
-    "iHeartRadio"
+    "Downcast",
+    "Podbean"
   ]
 }

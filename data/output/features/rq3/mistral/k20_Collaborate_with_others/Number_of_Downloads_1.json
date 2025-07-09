@@ -2,24 +2,24 @@
 {
   "a": [
     "Microsoft Teams",
-    "Slack",
     "Zoom",
+    "Slack",
     "Google Workspace",
     "Trello",
     "Asana",
     "Miro",
     "Figma",
     "Notion",
-    "Microsoft OneNote",
-    "Evernote",
-    "Skype",
-    "Dropbox",
-    "Google Drive",
     "Monday.com",
     "Basecamp",
+    "Google Meet",
+    "Skype",
     "Discord",
-    "WhatsApp",
-    "Signal",
-    "Telegram"
+    "Cisco Webex Meetings",
+    "GoToMeeting",
+    "Jira",
+    "Confluence",
+    "ClickUp",
+    "Evernote"
   ]
 }

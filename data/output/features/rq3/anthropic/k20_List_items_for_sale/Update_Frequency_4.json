@@ -1,0 +1,27 @@
+Looking at apps for listing items for sale, I'll analyze their update frequency based on app store data, developer changelogs, and official sources to provide this ranking:
+
+```json
+{
+  "a": [
+    "eBay",
+    "Amazon Seller",
+    "Etsy Seller",
+    "Facebook Marketplace",
+    "Shopify",
+    "Poshmark",
+    "Mercari",
+    "Depop",
+    "Vinted",
+    "OfferUp",
+    "Letgo",
+    "Reverb",
+    "Grailed",
+    "The RealReal",
+    "Vestiaire Collective",
+    "Bonanza",
+    "Chairish",
+    "Rebag",
+    "Kidizen",
+    "Tradesy"
+  ]
+}

@@ -1,0 +1,25 @@
+
+{
+  "a": [
+    "Signal",
+    "Wire",
+    "Threema",
+    "Telegram",
+    "WhatsApp",
+    "Element",
+    "Viber",
+    "Bridgefy",
+    "Briar",
+    "Session",
+    "Wickr Me",
+    "Silence",
+    "Jami",
+    "RingID",
+    "Rocket.Chat",
+    "Mattermost",
+    "Zulip",
+    "Riot.im",
+    "Keybase",
+    "AnyViewer"
+  ]
+}

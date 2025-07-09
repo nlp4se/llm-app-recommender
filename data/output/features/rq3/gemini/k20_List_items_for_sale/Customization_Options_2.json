@@ -1,0 +1,25 @@
+
+{
+  "a": [
+    "eBay [1, 2, 3, 5]",
+    "Facebook Marketplace [1, 2, 3, 5]",
+    "Poshmark [1, 2, 5]",
+    "OfferUp [1, 2]",
+    "Mercari [1, 2, 5]",
+    "Depop [1, 2]",
+    "Etsy [2, 4]",
+    "Chairish [1, 3]",
+    "Vinted [1]",
+    "Amazon [2, 5]",
+    "thredUP [2]",
+    "Vestiaire Collective [2]",
+    "Nextdoor [2]",
+    "VarageSale [2]",
+    "Craigslist [1, 2, 5]",
+    "5miles [3]",
+    "Letgo (integrated into OfferUp) [3]",
+    "BigCommerce [4]",
+    "Shopify [4]",
+    "Reverb [1]"
+  ]
+}

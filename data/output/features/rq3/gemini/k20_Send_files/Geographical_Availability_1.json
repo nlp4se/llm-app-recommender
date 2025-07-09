@@ -1,24 +1,25 @@
+
 {
   "a": [
-    "Western Union",
-    "Wise (formerly TransferWise)",
-    "PayPal",
     "Google Drive",
     "Dropbox",
-    "Microsoft OneDrive",
-    "FileCloud",
-    "XE Money Transfer",
-    "Remitly",
-    "WorldRemit",
-    "Global66",
-    "Revolut",
-    "OFX",
-    "Skrill",
-    "Ria Money Transfer",
-    "SendSafely",
+    "WeTransfer",
+    "Send Anywhere",
+    "OneDrive",
     "Box",
+    "MEGA",
+    "Hightail",
+    "TitanFile",
+    "pCloud",
+    "Filemail",
+    "SendBig",
+    "ShareFile",
+    "Razuna",
+    "Sync",
+    "Zoho Docs",
+    "Quip",
     "iCloud Drive",
-    "Files.com",
-    "WeTransfer"
+    "SpiderOak One",
+    "Coolmuster Android Assistant"
   ]
 }

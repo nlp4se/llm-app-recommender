@@ -1,0 +1,25 @@
+
+{
+  "a": [
+    "Spotify" [8, 9, 13, 15],
+    "Apple Music" [13],
+    "Amazon Music Unlimited" [8, 9, 13],
+    "Deezer" [8, 9, 15],
+    "YouTube Music" [13],
+    "Poweramp" [5, 17, 21, 22],
+    "Samsung Music" [9, 22],
+    "Real Shuffle Player" [4, 11, 18],
+    "GoneMad Music Player" [19, 22],
+    "Musicolet" [19, 22],
+    "BlackPlayer" [1],
+    "Retro Music" [1, 2],
+    "Pulsar Music Player" [1],
+    "Stellio Music Player" [1, 22],
+    "Rocket Player" [1],
+    "Vanilla Music" [16],
+    "Auxio" [16],
+    "SoundCloud" [8],
+    "Jango Radio" [15],
+    "Smart Shuffle" [10]
+  ]
+}

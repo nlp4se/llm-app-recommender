@@ -2,9 +2,9 @@
 {
   "a": [
     "WhatsApp",
+    "Facebook Messenger",
     "Telegram",
     "Signal",
-    "Facebook Messenger",
     "WeChat",
     "Line",
     "Viber",
@@ -13,13 +13,13 @@
     "Microsoft Teams",
     "Slack",
     "Discord",
-    "GroupMe",
     "KakaoTalk",
-    "imessage",
+    "Imo",
+    "Hike",
     "Bridgefy",
     "Zalo",
-    "Hike",
-    "Threema",
-    "Band"
+    "Contus Fly",
+    "HeyTell",
+    "Threema"
   ]
 }

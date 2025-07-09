@@ -1,0 +1,25 @@
+
+{
+  "a": [
+    "Facebook Live" ,
+    "YouTube Live" [1, 2, 10],
+    "TikTok" [2, 6],
+    "Instagram Live" [1, 2, 16],
+    "Twitch" [1, 2, 13],
+    "Bigo Live" [9, 11],
+    "YY (China)" [4],
+    "Kuaishou (China)" [4],
+    "Tencent Music Entertainment (TME) (China)" [4],
+    "Momo (U.S.)" [4],
+    "Douyu (China)" [4],
+    "ByteDance (China)" [4],
+    "Inke (China)" [4],
+    "Huajiao (China)" [4],
+    "Twitter (Periscope) (U.S.)" [4],
+    "Uplive (Dubai)" [4],
+    "Kick.com" [1, 7],
+    "YouNow" [5],
+    "LiveMe" [5],
+    "Tango" [5, 10]
+  ]
+}

@@ -1,24 +1,25 @@
+
 {
   "a": [
-    "Spotify",
-    "Apple Podcasts",
     "Pocket Casts",
     "Overcast",
     "Podcast Addict",
+    "Spotify",
+    "Apple Podcasts",
+    "Player FM",
     "AntennaPod",
-    "Castbox",
-    "Downcast",
-    "Audible",
-    "Amazon Music",
-    "iHeartRadio",
-    "Podbean",
     "Castro",
-    "Podcast Guru",
+    "Downcast",
     "Fountain",
-    "CurioCaster",
-    "PodLP",
-    "TrueFans",
-    "Podverse",
-    "Steno.fm"
+    "Google Podcasts",
+    "YouTube Music",
+    "Podbean",
+    "DoggCatcher",
+    "Podkicker",
+    "Podcast Republic",
+    "Amazon Music",
+    "Audible",
+    "JioSaavn",
+    "Hubhopper"
   ]
 }

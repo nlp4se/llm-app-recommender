@@ -1,0 +1,25 @@
+
+{
+  "a": [
+    "eBay [1, 2, 4, 5, 6, 7, 9]",
+    "Facebook Marketplace [1, 2, 4, 5, 6, 7, 9, 14, 18, 26, 27, 29]",
+    "Poshmark [2, 3, 5, 6, 9, 18]",
+    "Etsy [1, 2, 4, 5, 6, 9, 16, 18]",
+    "Mercari [2, 5, 7]",
+    "OfferUp [1, 2, 4, 9]",
+    "Depop [2, 3, 4, 6, 29]",
+    "Amazon [1, 4, 5, 7, 16, 28, 31]",
+    "thredUP [6, 9]",
+    "Vestiaire Collective [3, 9, 29]",
+    "Letgo [1, 4]",
+    "Shpock [4, 29]",
+    "Gumtree [4, 11, 26, 29]",
+    "Nextdoor [2, 29]",
+    "Reverb [2, 6]",
+    "Vendoo [3]",
+    "Shopify [1, 11, 15, 16, 18, 21, 28, 30]",
+    "ASOS Marketplace [4, 25, 31]",
+    "Carousell [4, 17]",
+    "Vinted [4, 21, 29]"
+  ]
+}

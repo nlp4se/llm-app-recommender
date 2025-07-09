@@ -1,0 +1,25 @@
+
+{
+  "a": [
+    "Spotify" [1, 2, 3, 4, 5],
+    "YouTube Music" [1, 5],
+    "Apple Music" [1, 5],
+    "Amazon Music" [1],
+    "Pandora" [1],
+    "Tidal" [1, 3, 5],
+    "iHeartRadio" [1, 3],
+    "Deezer" [1, 5],
+    "TuneIn Radio" [1, 3],
+    "SoundCloud" [1],
+    "Jango Radio" [1],
+    "LiveXLive" [1],
+    "Google Play Music" [3],
+    "BlackPlayer" [2],
+    "Poweramp" [4],
+    "Audiomack" [4],
+    "Lark Player" [4],
+    "Pocket Casts" [2],
+    "Bandcamp" [4],
+    "Shazam" [3]
+  ]
+}

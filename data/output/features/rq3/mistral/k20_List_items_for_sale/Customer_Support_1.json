@@ -1,25 +1,25 @@
 
 {
   "a": [
+    "Poshmark",
+    "Mercari",
+    "OfferUp",
+    "letgo",
     "eBay",
     "Craigslist",
     "Facebook Marketplace",
-    "OfferUp",
-    "Letgo",
-    "Mercari",
-    "Poshmark",
-    "Etsy",
-    "ThredUp",
     "Decluttr",
+    "ThredUp",
+    "Depop",
+    "Vinted",
+    "Wallapop",
+    "Carousell",
     "5miles",
     "VarageSale",
-    "Wallapop",
-    "Vinted",
-    "Depop",
-    "Tradesy",
-    "Chairish",
-    "Grailed",
-    "Heroine",
-    "Swappa"
+    "Shpock",
+    "Oodle",
+    "Close5",
+    "Trove",
+    "Kijiji"
   ]
 }

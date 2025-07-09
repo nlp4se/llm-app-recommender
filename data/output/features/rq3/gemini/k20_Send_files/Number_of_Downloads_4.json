@@ -1,0 +1,27 @@
+Based on the ranking criteria of the number of downloads, here are 20 apps for sending files:
+
+```json
+{
+  "a": [
+    "WhatsApp",
+    "Facebook",
+    "SHAREit",
+    "Xender",
+    "Files by Google",
+    "Google Drive",
+    "Dropbox",
+    "Send Anywhere",
+    "WeTransfer",
+    "AirDroid",
+    "Zapya",
+    "OneDrive",
+    "Box",
+    "Mega",
+    "Coolmuster Android Assistant",
+    "Coolmuster Mobile Transfer",
+    "XShare",
+    "Nearby Share",
+    "ShareMe",
+    "Hightail"
+  ]
+}

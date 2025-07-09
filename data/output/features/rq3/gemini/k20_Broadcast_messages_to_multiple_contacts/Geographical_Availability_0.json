@@ -1,24 +1,25 @@
+
 {
   "a": [
-    "SMSCountry",
     "WhatsApp",
-    "WebEngage",
-    "Zixflow",
-    "NovoChat",
-    "Interakt",
-    "WA Web Sender",
-    "WP SMS",
-    "TextMagic",
-    "Sakari",
+    "Telegram",
+    "Viber",
+    "Facebook Messenger",
+    "Skype",
+    "DialMyCalls",
     "SimpleTexting",
-    "EZ Texting",
-    "Genesys",
-    "EngageLab",
+    "Trumpia",
+    "Hit Em Up: Mass Text Bulk SMS",
+    "Quick Send: Mass Text Message",
+    "Multi SMS Sender (MSS)",
+    "SleekFlow",
+    "Sakari",
+    "Text-Em-All",
+    "Omnichat",
+    "Textmagic",
     "ClickSend",
-    "SlickText",
-    "Webex",
-    "MessageBird",
-    "Hit Em Up",
-    "Textedly"
+    "EZ Texting",
+    "Textedly",
+    "MessageMedia"
   ]
 }

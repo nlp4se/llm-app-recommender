@@ -1,25 +1,25 @@
 
 {
   "a": [
-    "Zoom",
     "Microsoft Teams",
-    "Google Workspace",
     "Slack",
-    "Cisco Webex Meetings",
-    "GoToMeeting",
-    "Skype",
-    "Trello",
+    "Zoom",
+    "Google Workspace",
     "Asana",
-    "Monday.com",
-    "Google Meet",
-    "BlueJeans",
-    "RingCentral Video",
-    "ClickUp",
-    "Flock",
+    "Trello",
+    "Miro",
+    "Skype",
+    "Discord",
     "Basecamp",
-    "Jitsi",
-    "Lifesize",
-    "StarLeaf",
-    "Whereby"
+    "Monday.com",
+    "Cisco Webex",
+    "GoToMeeting",
+    "Flock",
+    "Rocket.Chat",
+    "Jira",
+    "Confluence",
+    "Notion",
+    "ClickUp",
+    "WhatsApp"
   ]
 }

@@ -1,0 +1,25 @@
+
+{
+  "a": [
+    "Spotify" [1, 3, 6],
+    "Apple Podcasts" [1, 2, 3, 5],
+    "Google Podcasts" [1, 2, 3],
+    "Pocket Casts" [1, 3, 4, 5],
+    "Overcast" [1, 2, 3, 4],
+    "Stitcher" [1, 4],
+    "Castbox" [1, 2, 3, 5],
+    "SoundCloud" [2, 6],
+    "Anchor" [2],
+    "Himalaya" [2],
+    "RadioPublic" [2],
+    "Spreaker Podcasts App" [5],
+    "Pandora - Music & Podcasts" [6],
+    "Amazon Music: Songs & Podcasts" [6],
+    "Shazam: Find Music & Concerts" [6],
+    "Podbean" [3],
+    "Resound.fm" [4],
+    "App Annie" [7, 8, 9],
+    "Sensor Tower" [7, 8, 9],
+    "AppFollow" [9, 10]
+  ]
+}

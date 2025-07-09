@@ -1,0 +1,25 @@
+
+{
+  "a": [
+    "Facebook Live" ,
+    "YouTube Live" ,
+    "Instagram Live" ,
+    "TikTok Live" ,
+    "Twitch" ,
+    "Kick.com" [1, 2],
+    "StreamYard" ,
+    "LinkedIn Live" ,
+    "Vimeo Livestream" [6, 11],
+    "Dacast" [1, 11],
+    "Brightcove" [2, 6, 11],
+    "Google Meet" [2],
+    "Zoom" [2],
+    "Tango Live" [5],
+    "Bigo Live" ,
+    "Trovo" [1],
+    "Rumble" [4, 14],
+    "Fanbase" ,
+    "BeReal" ,
+    "RedNote" 
+  ]
+}

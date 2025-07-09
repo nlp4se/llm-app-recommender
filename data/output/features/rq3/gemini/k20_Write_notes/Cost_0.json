@@ -1,3 +1,4 @@
+
 {
   "a": [
     "Microsoft OneNote",
@@ -7,18 +8,18 @@
     "Notion",
     "Obsidian",
     "Joplin",
-    "UpNote",
     "Simplenote",
-    "Zoho Notebook",
+    "ClickUp",
     "Bear",
-    "ProofHub",
-    "Ulysses",
-    "nTask",
-    "Slite",
-    "Trello",
-    "Asana",
-    "ClickUp Notepad",
-    "Dropbox Paper",
-    "Notepad"
+    "UpNote",
+    "Genio Notes",
+    "GoodNotes",
+    "Noteful",
+    "Milanote",
+    "Nebo",
+    "Coda",
+    "Xtiles",
+    "Scrintal",
+    "AnyType"
   ]
 }

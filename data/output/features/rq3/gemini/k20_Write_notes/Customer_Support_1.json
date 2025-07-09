@@ -1,25 +1,25 @@
 
 {
   "a": [
-    "Evernote",
     "Microsoft OneNote",
+    "Evernote",
     "Notion",
-    "Apple Notes",
     "Google Keep",
+    "Apple Notes",
     "Obsidian",
     "Joplin",
-    "Simplenote",
     "ClickUp",
-    "Bear",
-    "Roam Research",
-    "UpNote",
-    "Craft",
-    "Notability",
-    "Samsung Notes",
     "Zoho Notebook",
-    "CollaNote",
-    "Nebo",
-    "Superlist",
-    "LiquidText"
+    "Simplenote",
+    "Bear",
+    "UpNote",
+    "Miro",
+    "Guru",
+    "Quip",
+    "Roam Research",
+    "Standard Notes",
+    "Bit.ai",
+    "Hive Notes",
+    "Coda"
   ]
 }

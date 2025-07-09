@@ -1,24 +1,25 @@
+
 {
   "a": [
-    "Send Anywhere",
-    "Xender",
-    "AirDroid Personal",
     "LocalSend",
+    "Quick Share",
+    "Snapdrop",
+    "AirDroid Personal",
+    "Warpinator",
+    "AnyShare",
+    "LiberDrop",
+    "Ubidrop",
+    "PairDrop",
+    "LANDrop",
+    "LanXchange",
+    "Flying Carpet",
+    "Microsoft OneDrive",
     "Google Drive",
     "Dropbox",
-    "SHAREit",
-    "Zapya",
+    "Send Anywhere",
     "WeTransfer",
-    "Filestage",
-    "Hightail",
-    "InShare",
-    "Samsung Smart Switch",
-    "EasyShare",
-    "OneDrive",
-    "Airclap",
-    "Filemail",
-    "Slack",
-    "Box",
-    "Internxt"
+    "Files.com",
+    "Box Business",
+    "Filestage"
   ]
 }

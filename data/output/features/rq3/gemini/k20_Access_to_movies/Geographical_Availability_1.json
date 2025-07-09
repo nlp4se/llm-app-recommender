@@ -1,24 +1,25 @@
+
 {
   "a": [
     "Netflix",
     "Amazon Prime Video",
     "Disney+",
+    "Hulu",
     "Max",
     "Paramount+",
-    "Hulu",
     "Peacock",
     "Apple TV+",
-    "YouTube",
-    "Tubi",
-    "Plex",
+    "Mubi",
+    "Shahid",
+    "iQIYI",
+    "Tencent Video",
+    "Canal+",
+    "Showmax",
+    "Vix",
+    "Hotstar",
+    "YouTube TV",
     "Pluto TV",
-    "Vudu",
-    "Crackle",
-    "The Roku Channel",
-    "Fandango at Home",
-    "Criterion Channel",
-    "MUBI",
-    "Shudder",
-    "BritBox"
+    "Crunchyroll",
+    "DAZN"
   ]
 }

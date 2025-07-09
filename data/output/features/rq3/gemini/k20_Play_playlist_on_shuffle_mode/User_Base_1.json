@@ -1,25 +1,25 @@
 
 {
   "a": [
-    "YouTube Music",
     "Spotify",
-    "Tencent Music",
-    "iHeartRadio",
-    "Gaana",
-    "SoundCloud",
-    "JioSaavn",
+    "YouTube Music",
     "Apple Music",
     "Amazon Music",
+    "Tencent Music",
+    "SoundCloud",
     "Pandora",
-    "Anghami",
+    "iHeartRadio",
     "Deezer",
+    "JioSaavn",
+    "Gaana",
+    "Anghami",
     "Tidal",
     "Qobuz",
-    "LiveOne",
-    "TuneIn",
-    "Jango Radio",
+    "Napster",
     "SiriusXM",
-    "Idagio",
-    "NetEase"
+    "Poweramp",
+    "Lark Player",
+    "MediaMonkey",
+    "AIMP"
   ]
 }

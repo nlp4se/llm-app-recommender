@@ -1,25 +1,25 @@
 
 {
   "a": [
-    "IMDb",
+    "IMDb: Movies & TV Shows",
     "Letterboxd",
     "Rotten Tomatoes",
-    "Flixster",
-    "Metacritic",
-    "Criticker",
-    "MovieFone",
-    "Moviebase",
-    "Movie Pal",
+    "Flick: Movie Ratings",
     "Raters: Movie Reviews, Ratings",
+    "Moviebase",
+    "JustWatch",
+    "Reelgood",
+    "Google TV",
+    "Movies by Flixster",
+    "Criticker",
+    "YourNextFilm",
+    "MovieFone",
     "Plugged In – Movie Reviews",
     "Movie Reviews (Voice)",
-    "YourNextFilm",
-    "FilmStory",
-    "Roger Ebert",
-    "A.V. Club",
-    "IndieWire",
-    "ReelSpeak",
-    "Flico",
-    "Douban"
+    "Showly",
+    "Kernel",
+    "Trakt",
+    "TMDB",
+    "FilmStory"
   ]
 }

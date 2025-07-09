@@ -1,25 +1,25 @@
 
 {
   "a": [
-    "YouTube Music",
     "Spotify",
+    "Apple Music",
+    "YouTube Music",
+    "Deezer",
+    "Tidal",
+    "Amazon Music Unlimited",
+    "Qobuz",
+    "Pandora",
+    "SoundCloud",
+    "VOX – MP3 & FLAC Music Player",
     "Poweramp Music Player",
-    "BlackPlayer Music Player",
+    "BlackPlayer Free Music Player",
+    "jetAudio Music Player",
     "Musicolet Music Player",
-    "AIMP",
-    "jetAudio Music Player Plus",
     "Pulsar Music Player",
-    "Pi Music Player",
     "VLC for Android",
+    "Pi Music Player",
     "Omnia Music Player",
-    "Retro Music Player",
-    "Music Player & MP3 Player",
     "HiBy Music",
-    "Frolomuse Music Player",
-    "n7Player Music Player",
-    "NYX Music Player",
-    "oto Music",
-    "PlayerPro Music Player",
-    "foobar2000"
+    "NYX Music Player"
   ]
 }

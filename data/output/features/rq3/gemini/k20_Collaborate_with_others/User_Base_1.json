@@ -1,25 +1,25 @@
 
 {
   "a": [
-    "Microsoft Teams",
     "Slack",
+    "Microsoft Teams",
     "Zoom",
-    "Google Workspace",
     "Asana",
     "Trello",
-    "Notion",
-    "Monday.com",
+    "Google Workspace (Google Docs, Sheets, Slides, Meet)",
     "ClickUp",
-    "Miro",
-    "Confluence",
-    "Jira",
-    "Airtable",
-    "Dropbox",
+    "Monday.com",
     "Basecamp",
+    "Notion",
+    "Miro",
+    "Wrike",
+    "Dropbox",
     "Discord",
-    "Flock",
-    "Telegram",
-    "WhatsApp Business",
-    "Teamwork"
+    "RingEX by RingCentral",
+    "Google Chat",
+    "Zoho Cliq",
+    "Statusbrew",
+    "Hootsuite",
+    "Canva"
   ]
 }

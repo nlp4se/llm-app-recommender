@@ -1,0 +1,27 @@
+Based on the availability and variety of in-app purchases for playing playlists on shuffle mode, here are 20 app recommendations:
+
+```json
+{
+  "a": [
+    "Spotify",
+    "Apple Music",
+    "YouTube Music",
+    "Pandora",
+    "Deezer",
+    "Tidal",
+    "Amazon Music",
+    "Qobuz",
+    "iHeartRadio",
+    "LiveXLive (Slacker Radio)",
+    "Napster",
+    "SoundCloud",
+    "JioSaavn",
+    "Gaana",
+    "Wynk Music",
+    "Musixmatch [3]",
+    "Retro Music [3]",
+    "Rocket Player [3]",
+    "doubleTwist [3]",
+    "BlackPlayer [3]"
+  ]
+}

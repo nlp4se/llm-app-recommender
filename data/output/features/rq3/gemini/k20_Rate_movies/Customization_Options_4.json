@@ -1,0 +1,25 @@
+
+{
+  "a": [
+    "IMDb [1, 17]",
+    "Letterboxd [5, 6, 7]",
+    "Moviebase [3, 4]",
+    "Rotten Tomatoes [2]",
+    "JustWatch [5]",
+    "Google TV [5]",
+    "Reelgood [5]",
+    "Showly [5]",
+    "Kernel [5]",
+    "MUBI [1]",
+    "Raters [10]",
+    "MovieLens [8]",
+    "Tubi [14, 16]",
+    "Netflix [13, 16]",
+    "Hulu [13, 16]",
+    "Amazon Prime Video [13]",
+    "HBO Max [13]",
+    "Peacock [13]",
+    "Flico [14]",
+    "Top 20 Movies [9, 18]"
+  ]
+}

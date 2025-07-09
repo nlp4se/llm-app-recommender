@@ -1,8 +1,8 @@
 
 {
   "a": [
-    "Slack",
     "Microsoft Teams",
+    "Slack",
     "Google Workspace",
     "Asana",
     "Trello",
@@ -10,16 +10,16 @@
     "Miro",
     "Notion",
     "Monday.com",
-    "ClickUp",
     "Basecamp",
-    "Figma",
-    "Confluence",
+    "Flock",
+    "Rocket.Chat",
+    "Microsoft 365",
+    "Google Meet",
+    "Cisco Webex",
+    "ClickUp",
     "Jira",
-    "Skype",
-    "Discord",
-    "Evernote",
-    "Dropbox",
-    "Box",
-    "OneDrive"
+    "Confluence",
+    "Wrike",
+    "Smartsheet"
   ]
 }

@@ -1,0 +1,25 @@
+
+{
+  "a": [
+    "Rakuten [1, 5, 7, 11]",
+    "Honey [1, 6, 7]",
+    "Ibotta [1, 6, 7, 11]",
+    "RetailMeNot [1, 4, 7, 11, 13, 14]",
+    "Groupon [6, 7, 13, 14]",
+    "Flipp [1, 2, 7]",
+    "ShopSavvy [1, 2, 8]",
+    "BuyVia [2, 8, 10]",
+    "Price.com [2, 10]",
+    "The Coupons App [1, 7, 13]",
+    "KCL (Krazy Coupon Lady) [4, 6, 13, 14]",
+    "Shopkick [7, 11]",
+    "Fetch Rewards [7]",
+    "Capital One Shopping [5, 7]",
+    "Amazon [2, 8]",
+    "Walmart+ [3]",
+    "Temu [3]",
+    "Etsy [3]",
+    "OfferUp [5]",
+    "idealo [12]"
+  ]
+}

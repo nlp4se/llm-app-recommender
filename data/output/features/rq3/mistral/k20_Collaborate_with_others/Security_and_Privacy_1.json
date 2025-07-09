@@ -1,0 +1,25 @@
+
+{
+  "a": [
+    "Signal",
+    "Wire",
+    "WhatsApp",
+    "Element",
+    "Telegram",
+    "Threema",
+    "Viber",
+    "Microsoft Teams",
+    "Slack",
+    "Discord",
+    "Google Meet",
+    "Zoom",
+    "Cisco Webex",
+    "Skype",
+    "Rocket.Chat",
+    "Mattermost",
+    "Nextcloud Talk",
+    "Jitsi Meet",
+    "BigBlueButton",
+    "GroupMe"
+  ]
+}

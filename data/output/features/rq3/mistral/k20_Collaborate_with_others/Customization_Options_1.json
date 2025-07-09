@@ -1,25 +1,25 @@
 
 {
   "a": [
-    "Slack",
     "Microsoft Teams",
+    "Slack",
+    "Google Workspace",
     "Asana",
     "Trello",
-    "Google Workspace",
     "Zoom",
     "Miro",
     "Notion",
     "Monday.com",
-    "Basecamp",
+    "ClickUp",
     "Figma",
     "Confluence",
+    "Basecamp",
+    "Wrike",
     "Jira",
-    "ClickUp",
-    "Evernote",
     "Skype",
     "Discord",
-    "WhatsApp",
-    "Telegram",
-    "Signal"
+    " Evernote",
+    "Smartsheet",
+    "Yammer"
   ]
 }

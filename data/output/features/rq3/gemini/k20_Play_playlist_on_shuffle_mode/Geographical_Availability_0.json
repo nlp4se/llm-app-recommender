@@ -1,17 +1,25 @@
 
 {
   "a": [
-    "Apple Music",
-    "Deezer",
-    "Spotify",
-    "YouTube Music",
-    "TIDAL",
-    "SoundCloud",
-    "Napster",
-    "Amazon Music Unlimited",
-    "Qobuz",
-    "Pandora",
-    "Amazon Music Prime",
-    "YouTube Premium"
+    "Spotify [3, 7, 12, 13]",
+    "YouTube Music [3, 7, 12, 13]",
+    "Deezer [6, 7, 12]",
+    "Apple Music [7, 12, 13]",
+    "Amazon Music [7]",
+    "Pandora [3, 7, 13]",
+    "Tidal [7, 13]",
+    "iHeartRadio [3, 7]",
+    "TuneIn [7, 12]",
+    "SoundCloud [7, 12]",
+    "LiveXLive [7]",
+    "Jango Radio [7]",
+    "Poweramp [1, 3, 4]",
+    "AIMP Music Player [1, 3, 4]",
+    "VLC Media Player [3]",
+    "Pulsar [3]",
+    "Trebel [3, 13]",
+    "Audiomack [3]",
+    "Musify [3]",
+    "Shuffle Music [5, 8, 10]"
   ]
 }

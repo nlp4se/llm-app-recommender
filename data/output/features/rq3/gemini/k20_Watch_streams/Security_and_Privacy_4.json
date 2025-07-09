@@ -1,0 +1,27 @@
+Here are 20 apps for watching streams, ranked according to the security and privacy they offer:
+
+```json
+{
+  "a": [
+    "Evercast [4]",
+    "VPlayed [3, 4, 6]",
+    "Dacast [2, 5, 6, 8]",
+    "IBM Cloud Video [2, 5, 6]",
+    "Brightcove [2, 4, 5, 6]",
+    "Wowza [2, 4, 5, 6]",
+    "Kaltura [2, 3, 5, 6, 8]",
+    "GUDSHO [3, 6]",
+    "StreamShark [2, 5]",
+    "Muvi [2, 5, 6]",
+    "MirrorFly [6]",
+    "Panopto [2, 3]",
+    "JW Player [2, 5, 6]",
+    "Vimeo Livestream [1, 6]",
+    "Castr [9]",
+    "StreamYard [1, 6]",
+    "Zoom [1]",
+    "Microsoft Teams [1]",
+    "YouTube private live streaming [1]",
+    "Google Meet [1]"
+  ]
+}

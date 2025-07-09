@@ -6,8 +6,13 @@
     "Signal",
     "Facebook Messenger",
     "WeChat",
-    "Viber",
     "Line",
+    "Viber",
+    "Skype",
+    "Google Chat",
+    "Microsoft Teams",
+    "Slack",
+    "Discord",
     "KakaoTalk",
     "Imo",
     "Zalo",
@@ -15,11 +20,6 @@
     "Bridgefy",
     "Session",
     "Wickr Me",
-    "Threema",
-    "Band",
-    "Discord",
-    "Skype",
-    "Slack",
-    "Microsoft Teams"
+    "Threema"
   ]
 }

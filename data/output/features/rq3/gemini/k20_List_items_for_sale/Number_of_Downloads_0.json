@@ -1,24 +1,25 @@
+
 {
   "a": [
     "eBay",
     "Facebook Marketplace",
     "Poshmark",
-    "Etsy",
+    "Etsy Seller",
     "OfferUp",
-    "ThredUp",
-    "Amazon Seller App",
-    "Decluttr",
-    "Shopify",
-    "Instagram Shopping",
     "Depop",
-    "BigCommerce",
+    "thredUP",
     "Mercari",
-    "Chairish",
-    "Vestiaire Collective",
+    "Decluttr",
     "5miles",
+    "Nextdoor",
+    "Vestiaire Collective",
+    "Chairish",
     "Craigslist",
-    "Bonanza",
-    "Letgo",
-    "SaleHoo"
+    "VarageSale",
+    "Sellfy",
+    "Amazon Seller Central",
+    "Letgo (Now Part of OfferUp)",
+    "CPlus for Craigslist",
+    "SellRaze"
   ]
 }

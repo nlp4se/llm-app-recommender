@@ -2,24 +2,24 @@
 {
   "a": [
     "Netflix",
+    "Disney+",
     "Hulu",
     "Amazon Prime Video",
-    "Disney+",
     "Max",
     "Peacock",
     "Tubi",
-    "Apple TV+",
-    "Paramount+",
-    "IMDb",
-    "Plex",
-    "Moviebase",
-    "MUBI",
-    "The Criterion Channel",
-    "Amazon Freevee",
-    "Google TV",
-    "Letterboxd",
     "Pluto TV",
-    "Vudu",
-    "JustWatch"
+    "Plex",
+    "YouTube",
+    "The Roku Channel",
+    "IMDb",
+    "JustWatch",
+    "Reelgood",
+    "Google TV",
+    "Apple TV",
+    "Moviebase",
+    "Letterboxd",
+    "MUBI",
+    "Criterion Channel"
   ]
 }

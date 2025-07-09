@@ -1,0 +1,25 @@
+
+{
+  "a": [
+    "eBay [2, 3, 4, 5, 6, 7, 8]",
+    "Facebook Marketplace [2, 3, 4, 5, 6, 7, 8]",
+    "Poshmark [1, 2, 3, 5, 6, 7, 8]",
+    "Mercari [1, 2, 3, 6, 8]",
+    "Etsy [2, 3, 4, 5, 6, 7, 8]",
+    "Depop [1, 2, 3, 5, 6, 8]",
+    "OfferUp [2, 3, 4, 8]",
+    "Amazon [2, 6, 8]",
+    "thredUP [2, 5]",
+    "Vestiaire Collective [1, 2]",
+    "Nextdoor [2, 3, 8]",
+    "VarageSale [2, 8]",
+    "Craigslist [2, 3, 8]",
+    "Letgo [4]",
+    "Reverb [3, 5]",
+    "Vendoo [1]",
+    "Crosslist [1, 9]",
+    "Everbee [9]",
+    "ShipStation [9]",
+    "Zoho [9]"
+  ]
+}

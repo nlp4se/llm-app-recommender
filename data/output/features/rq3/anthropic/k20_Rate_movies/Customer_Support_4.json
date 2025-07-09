@@ -1,0 +1,40 @@
+Based on my analysis of customer support quality and availability for movie rating apps, here is my ranking of 20 apps:
+
+```json
+{
+  "a": [
+    "IMDb",
+    "Letterboxd",
+    "Rotten Tomatoes",
+    "The Movie Database (TMDb)",
+    "Trakt",
+    "JustWatch",
+    "Flixster",
+    "MovieLens",
+    "Criticker",
+    "Goodfilms",
+    "iCheckMovies",
+    "Filmow",
+    "Movielens",
+    "Rate Your Music",
+    "Simkl",
+    "Serializd",
+    "MovieBase",
+    "CineTrak",
+    "MyMovies",
+    "Flickchart"
+  ]
+}
+```
+
+This ranking prioritizes apps with:
+- Comprehensive help centers and FAQ sections
+- Multiple support channels (email, social media, forums)
+- Active community moderation and response
+- Regular updates addressing user concerns
+- Strong presence on official support platforms
+- Responsive customer service teams
+- Well-documented troubleshooting resources
+- Active engagement with user feedback
+
+IMDb leads due to its extensive support infrastructure and Amazon backing, while Letterboxd and Rotten Tomatoes follow with strong community support and responsive teams.

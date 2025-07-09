@@ -1,0 +1,25 @@
+
+{
+  "a": [
+    "ShopSavvy [1, 3, 4, 10, 12]",
+    "BuyVia [1, 3, 4, 10]",
+    "Honey [2, 5, 9, 10]",
+    "Rakuten [2, 5, 6, 7, 9, 13]",
+    "Ibotta [5, 6, 7, 9, 13, 14]",
+    "Flipp [2, 10]",
+    "Price.com [1, 4, 10]",
+    "RetailMeNot [2, 5, 10]",
+    "Fetch Rewards [13, 14]",
+    "Upside [5, 13, 14]",
+    "Shop [1]",
+    "PriceGrabber [3]",
+    "Purchx [3]",
+    "ScanLife [3]",
+    "Now Discount [3]",
+    "Quick Scan [3]",
+    "TTPM [3]",
+    "The Coupons App [2]",
+    "Vouchercloud [8]",
+    "Phia [15]"
+  ]
+}

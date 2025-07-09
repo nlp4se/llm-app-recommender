@@ -1,0 +1,25 @@
+
+{
+  "a": [
+    "Twitch [1, 3, 4, 5]",
+    "YouTube Live [2, 3, 5]",
+    "Instagram Live [1, 2, 3, 5]",
+    "Facebook Live [1, 2, 3, 5]",
+    "TikTok [2, 3, 5]",
+    "StreamYard [4]",
+    "Larix Broadcaster [5]",
+    "nanoStream [5]",
+    "Wowza [2, 3]",
+    "Vimeo [2, 3, 5]",
+    "Dacast [2, 4]",
+    "Streamlabs Mobile App [5]",
+    "YouNow [5]",
+    "LiveMe [5]",
+    "Brightcove [2, 3]",
+    "Twitter Live [2]",
+    "LinkedIn Live [2, 3]",
+    "IBM Video Streaming [3]",
+    "Uscreen [3]",
+    "Kick [3]"
+  ]
+}

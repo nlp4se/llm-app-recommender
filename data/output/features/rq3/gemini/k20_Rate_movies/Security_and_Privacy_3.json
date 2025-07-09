@@ -1,0 +1,27 @@
+Based on the ranking criteria of "Security and Privacy", here are 20 apps that allow you to rate movies, ranked based on the availability of information about their security and privacy features:
+
+```json
+{
+  "a": [
+    "Signal [18, 19, 20, 21]",
+    "ProtonMail [18]",
+    "WhatsApp [19, 21]",
+    "iMessage [19]",
+    "Google Messages [19]",
+    "Letterboxd [2, 4, 5, 9, 12, 13, 15]",
+    "IMDb [1, 10]",
+    "Telegram [21]",
+    "Moviebase [1, 16]",
+    "Flick: Movie Ratings [2]",
+    "Raters: Movie Reviews, Ratings [3]",
+    "Movie & TV Show Rating Scanner [6, 7]",
+    "Must for Movies & TV [15]",
+    "MovieDiary [17]",
+    "Movies by Flixster [8]",
+    "Movie Pal [1]",
+    "Movie Reviews (Voice) [8]",
+    "JustWatch [13]",
+    "Reelgood [13]",
+    "MUBI [1]"
+  ]
+}

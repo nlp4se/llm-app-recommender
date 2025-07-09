@@ -1,0 +1,25 @@
+
+{
+  "a": [
+    "Plex [2, 14, 27]",
+    "Tubi [2, 10]",
+    "Netflix [1, 4, 6, 9, 10, 11, 15, 17, 21, 22]",
+    "Hulu [1, 4, 6, 9, 10, 11, 15, 21, 22]",
+    "Amazon Prime Video [1, 4, 6, 9, 10, 11]",
+    "Disney+ [1, 4, 6, 9, 10, 11, 15]",
+    "YouTube [1, 3, 4, 6, 11, 17, 19, 35]",
+    "Freevee [2, 20]",
+    "Cinema HD [5, 8, 12]",
+    "BeeTV [5, 12]",
+    "FilmPlus [5, 8]",
+    "Kodi [5, 8, 28]",
+    "Ocean Streamz [5, 12]",
+    "Viva TV [12]",
+    "FlixHQ [12]",
+    "VLC for Android [5, 25, 28, 29]",
+    "Stremio [8]",
+    "KM Player [29, 32]",
+    "Teleparty (formerly Netflix Party) [9, 21, 22]",
+    "Enjoy Movies Your Way [6]"
+  ]
+}

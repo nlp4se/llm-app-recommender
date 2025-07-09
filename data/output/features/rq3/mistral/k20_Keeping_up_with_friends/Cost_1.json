@@ -1,7 +1,7 @@
 
 {
   "a": [
-    "WhatsApp Messenger",
+    "WhatsApp",
     "Facebook Messenger",
     "Instagram",
     "Snapchat",
@@ -13,13 +13,13 @@
     "WeChat",
     "Line",
     "Kik",
-    "GroupMe",
     "Tango",
-    "KakaoTalk",
-    "Hangouts",
+    "Google Hangouts",
+    "FaceTime",
     "Marco Polo",
+    "Houseparty",
+    "Bunch",
     "HeyTell",
-    "TextNow",
-    "Text Free"
+    "Talkatone"
   ]
 }

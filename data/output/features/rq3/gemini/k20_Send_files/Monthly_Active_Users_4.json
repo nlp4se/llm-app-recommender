@@ -1,0 +1,25 @@
+
+{
+  "a": [
+    "Google Drive [1, 2, 3, 4, 5, 6, 8, 9, 15, 16]",
+    "Dropbox [1, 2, 3, 4, 5, 6, 8, 9, 14, 15, 16]",
+    "WeTransfer [1, 7, 16]",
+    "Microsoft OneDrive [1, 2, 3, 4, 14]",
+    "Box [1, 2, 3, 15]",
+    "Slack [2, 3, 9]",
+    "Send Anywhere [9, 13, 14, 16]",
+    "ShareFile [12, 15]",
+    "AirDroid Personal [9]",
+    "Sync.com [4]",
+    "SpiderOak One [1]",
+    "iCloud Drive [1]",
+    "FileCloud [3]",
+    "Egnyte [3]",
+    "ProofHub [3]",
+    "Evernote Business [5]",
+    "Contentful [5]",
+    "Internxt [5]",
+    "Hightail [13, 14]",
+    "MEGA [14]"
+  ]
+}

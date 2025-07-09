@@ -1,0 +1,27 @@
+Based on the requirement of user ratings as the primary ranking criteria and the ability to broadcast messages to multiple contacts, here are 20 apps, ranked based on general popularity and features:
+
+```json
+{
+  "a": [
+    "SimpleTexting",
+    "TextMagic",
+    "EZ Texting",
+    "Hit Em Up: Mass Text Bulk SMS",
+    "Reach: Mass Text for Business",
+    "Textedly",
+    "ClickSend",
+    "Trumpia",
+    "SendPulse",
+    "Clickatell",
+    "BulkSMS",
+    "MessageMedia",
+    "SlickText",
+    "Podium",
+    "Attentive",
+    "Mailchimp",
+    "Omnisend",
+    "Klaviyo",
+    "WASender",
+    "DialMyCalls"
+  ]
+}

@@ -1,24 +1,25 @@
+
 {
   "a": [
-    "Tubi",
-    "Pluto TV",
-    "Plex",
-    "Crackle",
-    "Filmrise",
-    "Vudu",
-    "YouTube",
-    "Kanopy",
-    "Popcornflix",
-    "Flix Vision",
-    "Ocean Streamz",
-    "Filmzie",
-    "Amazon Freevee",
     "Netflix",
-    "Hulu",
     "Amazon Prime Video",
     "Disney+",
-    "Max",
+    "Hulu",
+    "HBO Max",
     "Peacock",
-    "MGM+"
+    "Paramount+",
+    "Mubi",
+    "The Criterion Channel",
+    "Tubi",
+    "Crackle",
+    "Vudu",
+    "Plex",
+    "Kanopy",
+    "Shudder",
+    "Fandor",
+    "Apple TV+",
+    "YouTube Movies",
+    "Google Play Movies & TV",
+    "CuriosityStream"
   ]
 }

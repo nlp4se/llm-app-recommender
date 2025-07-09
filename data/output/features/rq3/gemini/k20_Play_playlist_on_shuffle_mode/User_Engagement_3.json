@@ -1,0 +1,25 @@
+
+{
+  "a": [
+    "Spotify [1, 3, 8]",
+    "YouTube Music [1, 9]",
+    "Apple Music [1, 8, 10]",
+    "Amazon Music [1, 3, 8]",
+    "Pandora [1, 3]",
+    "Deezer [1, 3, 9]",
+    "Tidal [1, 10]",
+    "iHeartRadio [1]",
+    "TuneIn [1, 9]",
+    "SoundCloud [1, 9]",
+    "LiveXLive [1]",
+    "Jango Radio [1]",
+    "Poweramp [2]",
+    "Pulse Music [2]",
+    "Clementine [2]",
+    "PotPlayer [2]",
+    "KM Player [7]",
+    "RetroMusic [7]",
+    "True Shuffle Player [4, 6]",
+    "REAL Shuffle Player [5]"
+  ]
+}

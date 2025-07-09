@@ -1,24 +1,25 @@
+
 {
   "a": [
     "Google Drive",
     "Dropbox",
     "WeTransfer",
     "Send Anywhere",
-    "Microsoft OneDrive",
+    "OneDrive",
     "Box",
+    "Coolmuster Android Assistant",
+    "Coolmuster Mobile Transfer",
     "Hightail",
-    "iCloud Drive",
-    "Filestage",
-    "TeamViewer",
-    "AnyViewer",
-    "Sync",
-    "ShareVault",
     "MEGA",
-    "NordLocker",
-    "JSCAPE",
+    "Sync",
     "TitanFile",
-    "pCloud",
-    "MediaFire",
-    "EasyShare"
+    "Filestage",
+    "Slack",
+    "Zoho Docs",
+    "Proton Drive",
+    "Filecamp",
+    "Pics.io",
+    "Stockpress",
+    "iCloud Drive"
   ]
 }

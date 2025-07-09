@@ -1,0 +1,27 @@
+Based on the search results and the specified ranking criterion (Number of Downloads), here's a ranked list of 20 apps for broadcasting messages to multiple contacts. Note that precise download numbers are difficult to obtain, so the ranking is based on a combination of general popularity, features, and mentions across multiple sources:
+
+```json
+{
+  "a": [
+    "Hit Em Up: Mass Text Bulk SMS [1, 4]",
+    "SimpleTexting [2, 6, 8]",
+    "EZ Texting [2, 6]",
+    "TextMagic [2]",
+    "Mobile Text Alerts [8]",
+    "SMSBump [2]",
+    "ClickSend [3, 8]",
+    "Trumpia [3]",
+    "Textedly [3, 6, 8]",
+    "Clickatell [3]",
+    "SendPulse [3]",
+    "BulkSMS [3, 5]",
+    "Sakari [2]",
+    "MessageMedia [2]",
+    "Podium [2]",
+    "Twilio [8]",
+    "Multi SMS & Group SMS [7]",
+    "DialMyCalls [2]",
+    "Emitrr [6]",
+    "Mailchimp [2]"
+  ]
+}

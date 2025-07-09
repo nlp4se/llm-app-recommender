@@ -5,21 +5,21 @@
     "Slack",
     "Zoom",
     "Google Workspace",
-    "Asana",
     "Trello",
+    "Asana",
     "Miro",
     "Monday.com",
-    "Notion",
-    "Figma",
-    "Confluence",
     "Basecamp",
+    "Figma",
+    "Notion",
     "ClickUp",
     "Jira",
+    "Confluence",
     "Skype",
     "Discord",
     "GoToMeeting",
     "Webex",
-    "Smartsheet",
-    "Wrike"
+    "Google Meet",
+    "Microsoft OneNote"
   ]
 }

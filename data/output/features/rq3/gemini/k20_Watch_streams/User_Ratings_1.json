@@ -1,24 +1,25 @@
+
 {
   "a": [
     "Netflix",
-    "YouTube TV",
     "Disney+",
     "Hulu",
     "Amazon Prime Video",
+    "Max",
+    "Paramount+",
+    "Apple TV+",
+    "YouTube TV",
+    "Peacock",
     "Tubi",
     "Crunchyroll",
     "Fubo",
-    "Peacock",
-    "Apple TV+",
-    "Max",
-    "Paramount+",
-    "ESPN+",
-    "STARZ",
+    "Sling TV",
+    "DirecTV Stream",
     "Philo",
-    "Vudu",
-    "Plex",
-    "The Roku Channel",
-    "Kanopy",
-    "Midnight Pulp"
+    "ESPN+",
+    "Pluto TV",
+    "Showtime",
+    "Starz",
+    "Discovery+"
   ]
 }

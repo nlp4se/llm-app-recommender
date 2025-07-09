@@ -1,0 +1,25 @@
+
+{
+  "a": [
+    "Honey [9, 16]",
+    "Rakuten [9, 13, 19]",
+    "RetailMeNot [9, 13, 19]",
+    "ShopSavvy [9, 15, 16]",
+    "Slickdeals [9, 13, 19]",
+    "Ibotta [9, 13]",
+    "Flipp [9, 13]",
+    "Groupon [12, 13]",
+    "DealNews [19]",
+    "Amazon Shopping [15]",
+    "Google Shopping [15]",
+    "BuyVia [15, 16]",
+    "idealo [22]",
+    "Zapier [5, 6, 20]",
+    "IFTTT [8, 11, 21, 23, 25]",
+    "Pipedrive [5, 14, 17, 20]",
+    "HubSpot CRM [7, 14, 17, 20]",
+    "Salesforce [6, 14, 20]",
+    "Asana [20]",
+    "AppFollow [24, 28, 29]"
+  ]
+}

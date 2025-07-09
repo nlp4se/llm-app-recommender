@@ -2,24 +2,24 @@
 {
   "a": [
     "Netflix",
+    "Hulu",
     "Amazon Prime Video",
     "Disney+",
-    "Hulu",
     "Max",
-    "Paramount+",
     "Peacock",
-    "Apple TV+",
     "Tubi",
-    "Pluto TV",
-    "Crackle",
+    "Apple TV+",
+    "YouTube TV",
     "Plex",
-    "Vudu",
-    "Popcornflix",
-    "FilmRise",
-    "Yidio",
-    "Movies Anywhere",
-    "JustWatch",
-    "Kanopy",
-    "Viki"
+    "Crunchyroll",
+    "Fubo",
+    "Amazon Freevee",
+    "The Criterion Channel",
+    "MGM+",
+    "Showtime",
+    "Starz",
+    "Paramount+",
+    "Sling TV",
+    "DirecTV Stream"
   ]
 }

@@ -1,0 +1,25 @@
+
+{
+  "a": [
+    "Spotify" [1, 10],
+    "Poweramp" [1],
+    "VLC Media Player" [1],
+    "AIMP Music Player" [1],
+    "Lark Player" [1],
+    "n7player" [1],
+    "Pandora" [1, 10],
+    "Audiomack" [1],
+    "Musify" [1],
+    "Shuffle Music" [2, 12],
+    "Fossify Music Player" [4],
+    "Oto Music" [5],
+    "Retro Music Player" [5, 8, 9],
+    "Stellio Music and MP3 player" [5],
+    "Nyx Music Player" [5],
+    "Eon Music Player" [6, 7],
+    "REAL Shuffle Player" [11],
+    "Vinyl Music Player" [13],
+    "Rocket Player" [9, 13],
+    "Deezer" [10]
+  ]
+}

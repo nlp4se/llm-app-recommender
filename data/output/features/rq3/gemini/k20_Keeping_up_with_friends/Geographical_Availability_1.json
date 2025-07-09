@@ -1,24 +1,25 @@
+
 {
   "a": [
     "Facebook",
-    "WhatsApp",
     "YouTube",
     "Instagram",
-    "Messenger",
-    "WeChat",
+    "WhatsApp",
     "TikTok",
+    "Facebook Messenger",
     "Telegram",
     "Snapchat",
-    "Douyin",
-    "QQ",
-    "Viber",
-    "Line",
-    "Pinterest",
+    "WeChat",
     "Skype",
+    "Google Duo",
+    "iMessage",
+    "FaceTime",
     "Zoom",
-    "Discord",
-    "Signal",
-    "Kuaishou",
-    "Reddit"
+    "GroupMe",
+    "Viber",
+    "Pinterest",
+    "BeReal",
+    "Cappucino",
+    "Teleparty"
   ]
 }

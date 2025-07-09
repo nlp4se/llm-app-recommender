@@ -1,25 +1,13 @@
 
 {
   "a": [
-    "DialMyCalls",
-    "Brevo",
-    "SimpleTexting",
-    "TextMagic",
-    "EZ Texting",
-    "ClickSend",
-    "SlickText",
-    "Twilio",
-    "Mobile Text Alerts",
-    "Omnisend",
-    "Textedly",
     "Hit Em Up",
-    "Multi SMS & Group SMS",
-    "Group Text | Fast Messaging",
-    "SheetWA",
-    "WA Bulk Message Sender",
-    "WASender",
-    "Salesmsg",
-    "Podium",
-    "Sakari"
+    "SleekFlow",
+    "SimpleTexting",
+    "DialMyCalls",
+    "Multi SMS Sender (MSS)",
+    "WhatsApp",
+    "Viber",
+    "Skype"
   ]
 }

@@ -1,25 +1,25 @@
 
 {
   "a": [
-    "WhatsApp Business",
+    "WhatsApp",
     "Telegram",
     "Signal",
     "Slack",
     "Microsoft Teams",
     "Discord",
-    "GroupMe",
+    "Google Chat",
     "WeChat",
     "Line",
     "Viber",
     "Skype",
-    "Google Chat",
-    "Twilio",
-    "Band",
-    "KakaoTalk",
-    "Zalo",
-    "IMO",
-    "Bridgefy",
-    "Mattermost",
-    "Rocket.Chat"
+    "Zoom",
+    "Facebook Messenger",
+    "Instagram",
+    "Twitter",
+    "LinkedIn",
+    "Pinterest",
+    "Tumblr",
+    "Reddit",
+    "TikTok"
   ]
 }

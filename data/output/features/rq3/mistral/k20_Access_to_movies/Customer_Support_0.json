@@ -2,8 +2,8 @@
 {
   "a": [
     "Netflix",
-    "Hulu",
     "Disney+",
+    "Hulu",
     "Amazon Prime Video",
     "HBO Max",
     "Apple TV+",
@@ -12,14 +12,14 @@
     "YouTube TV",
     "Sling TV",
     "FuboTV",
-    "Philo",
-    "Starz",
-    "Showtime",
-    "Cinemax",
-    "Epix",
-    "Mubi",
     "Crackle",
     "Tubi",
-    "Pluto TV"
+    "Pluto TV",
+    "Vudu",
+    "IMDb TV",
+    "Plex",
+    "Popcornflix",
+    "Crunchyroll",
+    "Mubi"
   ]
 }

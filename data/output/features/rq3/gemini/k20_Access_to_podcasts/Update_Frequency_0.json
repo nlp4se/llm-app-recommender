@@ -1,25 +1,25 @@
 
 {
   "a": [
-    "Spotify",
-    "Apple Podcasts",
     "Pocket Casts",
     "Overcast",
-    "Podcast Addict",
-    "Castbox",
     "AntennaPod",
     "Downcast",
-    "YouTube Music",
-    "Stitcher",
-    "SoundCloud",
+    "Podcast Addict",
+    "Spotify",
+    "Apple Podcasts",
+    "Castbox",
     "Google Podcasts",
-    "Breaker",
-    "Podkicker",
+    "Player FM",
+    "Luminary",
+    "Spreaker Podcasts App",
+    "SiriusXM",
+    "Audible",
+    "TuneIn",
     "Amazon Music",
-    "Castro",
-    "Web Browser",
-    "Buzzsprout Embed Player",
-    "Apple iTunes",
-    "Storybutton"
+    "ListenApp",
+    "Podbean",
+    "Podkicker",
+    "Procast"
   ]
 }

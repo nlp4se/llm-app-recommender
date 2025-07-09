@@ -1,24 +1,25 @@
+
 {
   "a": [
     "Twitch",
-    "YouTube Live",
-    "Streamlabs",
-    "Prism Live Studio",
-    "Mobizen Live",
-    "Facebook Live",
-    "Instagram Live",
-    "TikTok",
-    "StreamElements",
-    "Restream",
-    "XSplit Broadcaster",
-    "Wirecast Go",
-    "OBS Studio",
-    "vMix",
+    "YouTube",
+    "Netflix",
+    "Disney+",
+    "Hulu",
+    "Amazon Prime Video",
+    "Max",
+    "Peacock TV",
+    "Paramount+",
+    "Pluto TV",
+    "Tubi",
+    "Vudu",
+    "Plex",
+    "fuboTV",
+    "Philo",
+    "ESPN+",
+    "XUMO",
     "Larix Broadcaster",
-    "nanoStream",
-    "AIRMIX",
-    "BroadcastMe",
-    "YouNow",
-    "Tango"
+    "Instagram Live",
+    "Crunchyroll"
   ]
 }

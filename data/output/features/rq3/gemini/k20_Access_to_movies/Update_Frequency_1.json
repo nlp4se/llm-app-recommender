@@ -1,24 +1,25 @@
+
 {
   "a": [
     "Netflix",
+    "Hulu",
     "Amazon Prime Video",
     "Disney+",
-    "Hulu",
-    "HBO Max",
-    "Apple TV+",
-    "Paramount+",
-    "Peacock",
     "Tubi",
     "Plex",
-    "Crackle",
-    "PopcornFlix",
-    "SnagFilms",
-    "Viewster",
     "Pluto TV",
-    "Freevee",
+    "Crackle",
     "The Roku Channel",
-    "Fandango at Home",
-    "YouTube Movies",
-    "Kodi"
+    "Filmrise",
+    "YouTube (Free Movies)",
+    "IMDb",
+    "JustWatch",
+    "Reelgood",
+    "Google TV",
+    "TV Time",
+    "SeriesGuide",
+    "Flixeon",
+    "Max",
+    "Apple TV+"
   ]
 }

@@ -1,25 +1,25 @@
 
 {
   "a": [
+    "monday.com",
+    "Wrike",
+    "ClickUp",
+    "Quickbase",
+    "Screendragon",
+    "Asana",
+    "Slack",
+    "Trello",
     "Zendesk",
     "Help Scout",
     "Intercom",
     "Zoho Desk",
     "Freshdesk",
     "HubSpot Service Hub",
-    "Hiver",
-    "Slack",
+    "Missive",
     "Microsoft Teams",
-    "Zoom",
-    "Asana",
-    "Wrike",
-    "monday.com",
-    "Trello",
-    "Basecamp",
     "Google Workspace",
-    "Avaza",
-    "ClickUp",
+    "Notion",
     "Miro",
-    "Notion"
+    "Confluence"
   ]
 }

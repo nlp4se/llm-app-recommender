@@ -1,0 +1,27 @@
+Based on the availability of download data and mentions across multiple sources, here's a ranking of 20 movie rating apps, focusing on the "Number of Downloads" criterion:
+
+```json
+{
+  "a": [
+    "IMDb: Movies & TV Shows",
+    "Letterboxd",
+    "Movies by Flixster",
+    "MUBI",
+    "Flick: Movie Ratings",
+    "Moviebase",
+    "Criticker App",
+    "Plugged In – Movie Reviews",
+    "Raters: Movie Reviews, Ratings",
+    "My Movie Review",
+    "ReviewDeDe",
+    "Movie Reviews (Voice)",
+    "MovieFone app",
+    "YourNextFilm app",
+    "FilmStory",
+    "Serializd",
+    "Raters: Movie Reviews, Ratings",
+    "MovieLens",
+    "JustWatch",
+    "Sholi"
+  ]
+}

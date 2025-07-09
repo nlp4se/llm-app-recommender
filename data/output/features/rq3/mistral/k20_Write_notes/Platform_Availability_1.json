@@ -1,4 +1,3 @@
-
 {
   "a": [
     "Evernote",
@@ -9,17 +8,17 @@
     "Simplenote",
     "Bear",
     "Zoho Notebook",
-    "Ulysses",
     "Standard Notes",
-    "Joplin",
+    "Ulysses",
     "Turtl",
-    "Coda",
-    "Roam Research",
-    "Obsidian",
+    "Joplin",
     "Craft",
-    "Agenda",
-    "Boost Note",
-    "Laverna",
-    "Notejoy"
+    "GoodNotes",
+    "Notability",
+    "Squid",
+    "Nebo",
+    "LectureNotes",
+    "Metomoji",
+    "NoteLedge"
   ]
 }

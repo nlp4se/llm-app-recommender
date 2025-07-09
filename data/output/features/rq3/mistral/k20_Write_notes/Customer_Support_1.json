@@ -1,25 +1,25 @@
 
 {
   "a": [
-    "Notion",
     "Evernote",
-    "OneNote",
+    "Notion",
+    "Microsoft OneNote",
     "Google Keep",
+    "Apple Notes",
     "Bear",
     "Zoho Notebook",
-    "Simplenote",
+    "SimpleNote",
     "Ulysses",
     "Standard Notes",
-    "Apple Notes",
     "Roam Research",
     "Craft",
     "GoodNotes",
     "Notability",
     "Joplin",
     "Turtl",
-    "Laverna",
+    "Obsidian",
+    " Milanote",
     "Typora",
-    "Boost Note",
-    "Obsidian"
+    "Boost Note"
   ]
 }

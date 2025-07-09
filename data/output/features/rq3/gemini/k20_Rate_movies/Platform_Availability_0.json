@@ -1,25 +1,20 @@
 
 {
   "a": [
-    "IMDb",
-    "Letterboxd",
-    "Moviebase",
-    "Cinematics",
-    "Plex",
-    "JustWatch",
-    "Reelgood",
-    "Criticker",
-    "Trakt",
-    "Rotten Tomatoes",
-    "Metacritic",
-    "Roger Ebert",
-    "A.V. Club",
-    "IndieWire",
-    "Flixster",
-    "Flico",
-    "Kodi",
-    "Viewster",
-    "Crackle",
-    "Tubi TV"
+    "IMDb [1, 4]",
+    "Letterboxd [2, 3, 4, 5]",
+    "Rotten Tomatoes [4]",
+    "Metacritic [4]",
+    "MovieLens [6]",
+    "Taste [7]",
+    "Moviebase [1]",
+    "Criticker [3]",
+    "Trakt [3]",
+    "Queue [8]",
+    "Watchworthy [7]",
+    "Movie Tracker [7]",
+    "Likewise [7]",
+    "Reelgood [7]",
+    "Hobi [7]"
   ]
 }

@@ -1,25 +1,25 @@
 
 {
   "a": [
-    "Instagram",
-    "TikTok",
     "Facebook",
+    "YouTube",
     "WhatsApp",
+    "Instagram",
+    "WeChat",
+    "TikTok",
+    "Facebook Messenger",
     "Telegram",
     "Snapchat",
-    "Messenger",
-    "Yubo",
-    "Meetup",
-    "Bumble BFF",
-    "Wink",
-    "MeetMe",
-    "Ablo",
-    "Nextdoor",
-    "LMK",
-    "Friender",
+    "Douyin",
+    "QQ",
+    "Kuaishou",
+    "Sina Weibo",
+    "X (formerly Twitter)",
+    "Pinterest",
+    "Discord",
+    "Bumble For Friends",
     "Howbout",
-    "BeReal",
-    "Airbuds",
-    "Locket"
+    "Yubo",
+    "BeReal"
   ]
 }

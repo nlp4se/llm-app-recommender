@@ -1,0 +1,25 @@
+
+{
+  "a": [
+    "Streamlabs Mobile [4, 10]",
+    "Restream [1]",
+    "Wirecast [1, 4]",
+    "Larix Broadcaster [4, 7]",
+    "Dacast [2, 7]",
+    "100ms [2]",
+    "api.video [2]",
+    "Mux [2]",
+    "Agora [2]",
+    "Twitch [6]",
+    "YouTube Live [7]",
+    "Stream [3]",
+    "Amazon Kinesis [5]",
+    "Striim Cloud [5]",
+    "Azure Stream Analytics [5]",
+    "Google Cloud Dataflow [5]",
+    "Apache Flink [5]",
+    "VK Live [6]",
+    "Switcher Studio [7]",
+    "Livepush [9]"
+  ]
+}

@@ -1,0 +1,27 @@
+Based on the ranking criteria of "Security and Privacy" with emphasis on encryption and privacy features, here are 20 collaboration apps ranked from highest to lowest security:
+
+```json
+{
+  "a": [
+    "Element",
+    "Signal",
+    "Wire",
+    "Wickr Me",
+    "Briar",
+    "Session",
+    "Threema",
+    "Rocket.Chat",
+    "Keybase",
+    "Riot.im",
+    "Telegram",
+    "WhatsApp",
+    "Mattermost",
+    "Nextcloud Talk",
+    "Jami",
+    "Discord",
+    "Slack",
+    "Microsoft Teams",
+    "Zoom",
+    "GroupMe"
+  ]
+}

@@ -1,0 +1,25 @@
+
+{
+  "a": [
+    "ClickUp [1, 2, 4]",
+    "Monday.com [2, 3, 4, 5, 7, 9]",
+    "Slack [1, 3, 4, 5, 9]",
+    "Notion [2, 5, 8]",
+    "Miro [1, 2, 3, 7, 9]",
+    "Confluence [2, 3, 6]",
+    "Trello [1, 3, 4, 6, 7, 9]",
+    "Google Workspace (Google Docs, Google Sheets, Google Slides, Google Meet, Google Chat, Gmail, Google Calendar, Google Drive) [3, 4, 5]",
+    "Asana [3, 4, 8]",
+    "Jira [1, 3]",
+    "Figma [2, 5, 6]",
+    "Quickbase [2]",
+    "Screendragon [2]",
+    "Podio [7]",
+    "Zoom [3, 4]",
+    "Basecamp [6]",
+    "Zapier [6, 8]",
+    "Pitch [8]",
+    "Knack [9]",
+    "Wrike [2, 7]"
+  ]
+}

@@ -1,25 +1,25 @@
 
 {
   "a": [
-    "Letterboxd",
     "IMDb",
+    "Letterboxd",
     "Rotten Tomatoes",
-    "Criticker",
     "Metacritic",
-    "Tubi",
     "Moviebase",
-    "Taste",
-    "Plex",
-    "Serializd",
-    "The Movie Database (TMDb)",
-    "Film Affinity",
-    "Trakt",
-    "Simkl",
-    "RateIt",
-    "iCheckMovies",
-    "Filmaholic",
+    "Reelgood",
+    "JustWatch",
+    "Raters",
+    "Flick",
     "MUBI",
-    "Breezometer",
-    "Popcorn Garage"
+    "Movie Pal",
+    "Movies by Flixster",
+    "MovieFone",
+    "Criticker",
+    "YourNextFilm",
+    "FilmStory",
+    "Plugged In – Movie Reviews",
+    "Movie Reviews (Voice)",
+    "Google TV",
+    "Apple TV"
   ]
 }

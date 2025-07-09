@@ -1,24 +1,25 @@
+
 {
   "a": [
-    "IMDb",
+    "IMDb: Movies & TV Shows",
     "Letterboxd",
     "Rotten Tomatoes",
-    "Moviebase: Movies & TV Tracker",
-    "Flixster",
-    "Tubi",
-    "Google TV",
-    "JustWatch",
-    "RealGood",
-    "Apple TV",
-    "Criticker",
+    "Moviebase",
+    "Flick: Movie Ratings",
     "MUBI",
     "MovieFone",
-    "FilmStory",
+    "Raters: Movie Reviews, Ratings",
+    "Movies by Flixster",
+    "Movie Pal",
+    "Criticker",
     "YourNextFilm",
-    "Showly",
-    "Kodi",
-    "Cinema TV",
-    "Flick Vision",
-    "BTV"
+    "FilmStory",
+    "Movie Review",
+    "Movie Reviews (Voice)",
+    "Plugged In – Movie Reviews",
+    "Prime Media Watch",
+    "MovieLens",
+    "My Movie Review",
+    "MovieMash"
   ]
 }

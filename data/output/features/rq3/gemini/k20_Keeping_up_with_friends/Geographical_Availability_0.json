@@ -1,25 +1,25 @@
 
 {
   "a": [
-    "Facebook",
     "WhatsApp",
+    "Facebook",
     "Instagram",
-    "YouTube",
-    "Messenger",
-    "TikTok",
-    "WeChat",
-    "Telegram",
     "Snapchat",
-    "QQ",
-    "X (Formerly Twitter)",
-    "Reddit",
-    "Pinterest",
-    "LinkedIn",
+    "Telegram",
     "Discord",
-    "Skype",
+    "Signal",
     "Viber",
-    "Meetup",
-    "Slowly",
-    "Teleparty"
+    "Line",
+    "WeChat",
+    "Skype",
+    "Google Meet",
+    "Zoom",
+    "Microsoft Teams",
+    "Marco Polo",
+    "Houseparty",
+    "BeReal",
+    "Locket",
+    "Cappuccino",
+    "Howbout"
   ]
 }

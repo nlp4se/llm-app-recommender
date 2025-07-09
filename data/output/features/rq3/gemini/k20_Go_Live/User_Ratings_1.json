@@ -1,25 +1,25 @@
 
 {
   "a": [
-    "TikTok",
-    "Instagram",
-    "YouTube",
     "Twitch",
-    "Facebook",
-    "BIGO LIVE",
+    "YouTube Live",
+    "Facebook Live",
+    "Instagram Live",
+    "TikTok Live",
     "Streamlabs",
-    "YouNow",
-    "Periscope",
+    "Bigo Live",
     "LiveMe",
-    "Vimeo Livestream",
-    "DLive",
-    "Nonolive",
-    "Omlet Arcade",
-    "Mobcrush",
-    "Caffeine",
-    " prism live studio",
-    "Restream",
-    "AfreecaTV",
-    "Vaughn Live"
+    "YouNow",
+    "StreamYard",
+    "Prism Live Studio",
+    "Wirecast Go",
+    "Switcher Studio",
+    "BoxCast",
+    "Larix Broadcaster",
+    "Dacast",
+    "MICO",
+    "vMix",
+    "OBS Studio",
+    "Restream Studio"
   ]
 }

@@ -1,25 +1,25 @@
 
 {
   "a": [
-    "WeTransfer",
-    "Dropbox",
     "Google Drive",
-    "OneDrive",
-    "ShareIt",
+    "Dropbox",
+    "WeTransfer",
+    "Microsoft OneDrive",
     "AirDroid",
-    "SHAREall",
-    "SuperBeam",
+    "ShareIt",
     "Zapya",
+    "SuperBeam",
     "Send Anywhere",
-    "Portal",
-    "Mover",
-    "JumboMail",
-    "Firefox Send",
-    "Snapdrop",
+    "Pushbullet",
+    "Portal by Pushbullet",
     "Xender",
-    "TeraShare",
+    "Firefox Send",
     "Infinit",
-    "Dukto",
-    "ShareMe"
+    "SHAREall",
+    "SHAREMe",
+    "Feem",
+    "Instashare",
+    "Snapdrop",
+    "EasyJoin"
   ]
 }

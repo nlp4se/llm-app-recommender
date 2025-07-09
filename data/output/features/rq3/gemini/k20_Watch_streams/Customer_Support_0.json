@@ -1,24 +1,25 @@
+
 {
   "a": [
-    "OneStream Live",
-    "Twitch",
-    "Uscreen",
-    "Vimeo",
-    "Restream",
-    "Dacast",
-    "YouTube Live",
-    "Hulu + Live TV",
-    "DirecTV Stream",
     "Netflix",
-    "Max",
-    "Crunchyroll",
-    "Discovery+",
-    "Tubi",
+    "Hulu",
+    "YouTube TV",
     "Amazon Prime Video",
+    "Disney+",
+    "Max",
     "Peacock",
-    "MGM+",
-    "STARZ",
-    "ESPN+",
-    "Apple TV+"
+    "Paramount+",
+    "Apple TV+",
+    "Sling TV",
+    "Philo",
+    "DirecTV Stream",
+    "Fubo",
+    "Frndly TV",
+    "Plex",
+    "Twitch",
+    "Vimeo",
+    "Dacast",
+    "Restream",
+    "Larix Broadcaster"
   ]
 }

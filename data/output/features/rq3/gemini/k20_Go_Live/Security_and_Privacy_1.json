@@ -1,0 +1,25 @@
+
+{
+  "a": [
+    "Signal [17]",
+    "Rocket.Chat [17]",
+    "Brosix [17]",
+    "Mattermost [17]",
+    "Dacast [2, 8, 9]",
+    "Brightcove [2, 8]",
+    "Wowza [2, 5, 8, 15]",
+    "VPlayed [2]",
+    "VdoCipher [2]",
+    "Evercast [2]",
+    "JW Player [8, 15]",
+    "Vidyard [8]",
+    "Muvi [8]",
+    "StreamShark [8]",
+    "Wistia [8]",
+    "StreamYard [4, 13, 15]",
+    "OBS Studio [9, 13, 14]",
+    "Microsoft Teams [13]",
+    "Vimeo Livestream [7, 13, 14, 15]",
+    "YouTube Live [4, 5, 7, 9, 14]"
+  ]
+}

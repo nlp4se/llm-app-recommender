@@ -1,0 +1,25 @@
+
+{
+  "a": [
+    "Spotify" [2, 4, 14],
+    "YouTube Music" [2, 3, 4],
+    "Apple Music" [2, 3, 16],
+    "Amazon Music" [2, 4],
+    "Pandora" [2, 15],
+    "Tidal" [2, 4],
+    "Deezer" [2],
+    "SoundCloud" [2, 14, 15],
+    "iHeartRadio" [2],
+    "TuneIn" [2],
+    "LiveXLive" [2],
+    "Jango Radio" [2],
+    "AT Player" [3],
+    "Neutron Music Player" [4],
+    "REAL Shuffle Player" [1, 10],
+    "True Shuffle Player" [8, 11],
+    "MX Music" [9, 12],
+    "CloudBeats" [6, 17],
+    "Music X" [20],
+    "Shuffle Music" [13, 21, 24]
+  ]
+}

@@ -1,0 +1,27 @@
+Based on the ranking criteria of user base, here are 20 apps that allow users to rate movies:
+
+```json
+{
+  "a": [
+    "IMDb",
+    "Letterboxd",
+    "Moviebase",
+    "Reelgood",
+    "JustWatch",
+    "Google TV",
+    "Apple TV",
+    "Criticker",
+    "YourNextFilm",
+    "MovieFone",
+    "FilmStory",
+    "Movie Pal",
+    "Tubi",
+    "Showly",
+    "Kernel",
+    "TV Forecast",
+    "Trakt",
+    "SIMKL",
+    "MovieMash",
+    "Flico"
+  ]
+}

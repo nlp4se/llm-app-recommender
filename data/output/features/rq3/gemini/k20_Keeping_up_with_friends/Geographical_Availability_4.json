@@ -1,0 +1,27 @@
+Okay, I will recommend 20 apps for keeping up with friends based on geographical availability.
+
+```json
+{
+  "a": [
+    "Facebook",
+    "YouTube",
+    "Instagram",
+    "WhatsApp",
+    "TikTok",
+    "WeChat",
+    "Telegram",
+    "Facebook Messenger",
+    "Snapchat",
+    "Douyin",
+    "Viber",
+    "QQ",
+    "LinkedIn",
+    "Line",
+    "Kuaishou",
+    "Sina Weibo",
+    "Pinterest",
+    "Reddit",
+    "Meetup",
+    "Nextdoor"
+  ]
+}

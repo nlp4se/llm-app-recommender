@@ -1,0 +1,25 @@
+
+{
+  "a": [
+    "IMDb [1, 2, 9, 10]",
+    "Letterboxd [2, 6, 8, 12, 13, 19]",
+    "Rotten Tomatoes [2, 3, 9, 10, 12, 15, 18]",
+    "Moviebase [1, 21]",
+    "Flick [5]",
+    "Raters [14, 16]",
+    "Metacritic [2, 10, 12]",
+    "Criticker [4, 12]",
+    "MUBI [1]",
+    "Movie Pal [1]",
+    "MovieFone [4]",
+    "FilmAffinity [9, 12]",
+    "Yahoo! Movies [9, 18]",
+    "RecoBee [17]",
+    "Taste [22]",
+    "CLZ Movies [23]",
+    "JustWatch [13, 19]",
+    "YourNextFilm [4]",
+    "Movie Reviews (Voice) [3]",
+    "Movie & TV Show Rating Scanner [7]"
+  ]
+}

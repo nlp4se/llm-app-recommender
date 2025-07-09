@@ -1,0 +1,25 @@
+
+{
+  "a": [
+    "Spotify [1, 2, 3, 5, 6, 7, 11]",
+    "Apple Podcasts [2, 3, 4, 5, 6, 7, 8, 9, 11]",
+    "Pocket Casts [1, 2, 4, 6, 7, 10]",
+    "Castbox [2, 4, 6, 7]",
+    "Google Podcasts (Transitioning to YouTube Music) [2, 5]",
+    "YouTube Music [3, 5]",
+    "Amazon Music [1, 4]",
+    "Overcast [4, 5, 6, 10]",
+    "Player FM [5, 6]",
+    "Podcast Addict [7, 10]",
+    "Stitcher [1, 2, 6]",
+    "Podbean [4, 6, 8]",
+    "Audible [4, 5]",
+    "RadioPublic [6]",
+    "Castro [5, 6]",
+    "iCatcher [6]",
+    "Laughable [6]",
+    "Listen App [6]",
+    "PodCruncher [6]",
+    "SiriusXM [5]"
+  ]
+}

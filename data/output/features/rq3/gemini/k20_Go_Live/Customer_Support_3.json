@@ -1,0 +1,25 @@
+
+{
+  "a": [
+    "YouTube Live [2, 3, 5]",
+    "Facebook Live [1, 2, 3, 5]",
+    "Twitch [1, 2, 5, 8]",
+    "Instagram Live [1, 2, 5]",
+    "Streamlabs [5, 14]",
+    "LiveChat [4, 7, 9, 10, 12, 16, 17, 19]",
+    "Zendesk [4, 7, 9, 10, 12, 17, 18, 19]",
+    "Tidio [7, 10, 19]",
+    "Go Live India [1, 6]",
+    "Periscope [1]",
+    "VK Live [1]",
+    "Dacast [2, 3]",
+    "Ustream [2]",
+    "LinkedIn Live [2]",
+    "Brightcove [2]",
+    "Wowza [2]",
+    "Vimeo [2, 5]",
+    "Twitter Live [2]",
+    "TikTok [2, 3, 5]",
+    "Castr [8]"
+  ]
+}

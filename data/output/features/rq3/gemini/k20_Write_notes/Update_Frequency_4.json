@@ -1,0 +1,27 @@
+Based on the ranking criteria of update frequency, here are 20 note-taking apps, ranked based on the assumption that more widely used apps with larger teams are more likely to have frequent updates:
+
+```json
+{
+  "a": [
+    "Microsoft OneNote",
+    "Notion",
+    "Evernote",
+    "Google Keep",
+    "Apple Notes",
+    "Obsidian",
+    "Joplin",
+    "Simplenote",
+    "Zoho Notebook",
+    "Bear",
+    "UpNote",
+    "Standard Notes",
+    "Freeform",
+    "Mem",
+    "Agenda Notes",
+    "Noteful",
+    "Goodnotes",
+    "Dropbox Paper",
+    "Typora",
+    "Milanote"
+  ]
+}

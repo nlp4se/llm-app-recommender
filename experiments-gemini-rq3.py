@@ -12,7 +12,7 @@ def read_csv_values(file_path):
         # Get all values from the first column
         return [row[0] for row in reader]
 
-def run_command(k, search, output_dir, n=1, model="gemini-2.0-flash", sleep=10):
+def run_command(k, search, output_dir, n=4, model="gemini-2.0-flash", sleep=10):
     """Run the search command with given parameters."""
     cmd = [
         "python", "-m", "code.llm.google.search_gemini_rq3",
@@ -22,7 +22,7 @@ def run_command(k, search, output_dir, n=1, model="gemini-2.0-flash", sleep=10):
         "--n", str(n),
         "--model", model,
         "--sleep", str(sleep),
-        "--input-csv", "data/output/evaluation/ranking_criteria.csv"
+        "--input-csv", "data/output/features/rq1/rc_wo_id.csv"
     ]
     
     print(f"Running command with k={k}, search={search}")

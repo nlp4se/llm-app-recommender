@@ -1,24 +1,25 @@
+
 {
   "a": [
-    "ClickSend",
-    "Textedly",
     "SimpleTexting",
-    "Twilio",
-    "DialMyCalls",
-    "EZ Texting",
+    "TextMagic",
+    "Textedly",
     "SlickText",
-    "Vonage",
+    "EZ Texting",
+    "Podium",
+    "Attentive",
     "Mailchimp",
-    "MessageBird",
-    "Infobip",
-    "Bandwidth",
-    "Sakari SMS",
-    "Salesmsg SMS Texting & Calling",
-    "Sinch SMS & MMS",
-    "Heymarket SMS Integration",
-    "Multi SMS & Group SMS",
-    "Hit Em Up: Mass Text Bulk SMS",
-    "OpenPhone",
-    "SleekFlow"
+    "MessageMedia",
+    "DialMyCalls",
+    "Twilio",
+    "Salesmsg",
+    "ClickSend",
+    "Trumpia",
+    "Clickatell",
+    "SendPulse",
+    "TextMarks",
+    "BulkSMS",
+    "Sakari",
+    "Mobile Text Alerts"
   ]
 }

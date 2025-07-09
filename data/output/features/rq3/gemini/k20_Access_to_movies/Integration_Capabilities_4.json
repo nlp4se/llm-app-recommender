@@ -1,0 +1,27 @@
+Based on the ranking criteria of Integration Capabilities, here are 20 apps to access movies:
+
+```json
+{
+  "a": [
+    "Netflix [1, 3, 4]",
+    "Hulu [1, 3, 4]",
+    "Amazon Prime Video [1, 3, 4]",
+    "Disney+ [1, 4]",
+    "HBO Max [1, 3]",
+    "YouTube TV [3, 4]",
+    "Apple TV+ [1, 4]",
+    "Cinema HD [2, 5]",
+    "BeeTV [2, 5]",
+    "FilmPlus [2, 5]",
+    "Nova TV [2, 5]",
+    "CyberFlix TV [2]",
+    "TeaTV [2]",
+    "Stremio [2]",
+    "Kodi [2]",
+    "Tubi [4]",
+    "Crunchyroll [4]",
+    "Fubo [4]",
+    "Peacock [4]",
+    "Flix Vision [5]"
+  ]
+}

@@ -5,10 +5,8 @@
     "Instagram",
     "Facebook",
     "WhatsApp",
-    "Messenger",
-    "Snapchat",
     "Telegram",
-    "Zoom",
+    "Snapchat",
     "Spotify",
     "Netflix",
     "YouTube",
@@ -16,10 +14,12 @@
     "Pinterest",
     "LinkedIn",
     "Discord",
+    "Zoom",
     "Microsoft Teams",
     "Google Meet",
-    "Skype",
     "Slack",
-    "Reddit"
+    "Reddit",
+    "Twitch",
+    "Messenger"
   ]
 }

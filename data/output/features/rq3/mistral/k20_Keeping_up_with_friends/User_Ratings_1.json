@@ -1,25 +1,24 @@
-
 {
   "a": [
     "WhatsApp",
-    "Facebook Messenger",
+    "Messenger",
     "Instagram",
     "Snapchat",
     "Telegram",
-    "Signal",
     "Discord",
-    "Viber",
-    "WeChat",
-    "Line",
-    "KakaoTalk",
-    "GroupMe",
+    "Signal",
+    "Facebook",
+    "Twitter",
     "Skype",
+    "Viber",
+    "Line",
+    "WeChat",
     "Kik",
+    "GroupMe",
+    "KakaoTalk",
+    "Hangouts",
     "Marco Polo",
-    "Houseparty",
-    "BAND",
-    "imoo",
     "HeyTell",
-    "Tango"
+    "TextNow"
   ]
 }

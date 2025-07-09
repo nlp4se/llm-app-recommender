@@ -1,25 +1,25 @@
 
 {
   "a": [
-    "Notion",
     "Evernote",
     "Microsoft OneNote",
     "Google Keep",
     "Apple Notes",
+    "Notion",
     "Bear",
     "Zoho Notebook",
     "SimpleNote",
     "Ulysses",
+    "Standard Notes",
+    "Joplin",
+    "Craft",
     "GoodNotes",
     "Notability",
-    "Joplin",
-    "Standard Notes",
-    "Craft",
-    "Agenda",
-    "Roam Research",
-    "Obsidian",
-    "Elephant",
-    "UpNote",
-    "Nimbus Note"
+    "Squid",
+    "Nebo",
+    "Metamoji Note",
+    "FiiNote",
+    "LectureNotes",
+    "MyScript Nebo"
   ]
 }

@@ -1,24 +1,25 @@
+
 {
   "a": [
-    "Netflix",
+    "Facebook Live",
     "YouTube Live",
-    "Amazon Prime Video",
     "TikTok Live",
-    "Disney+",
-    "Max",
-    "Paramount+",
-    "Hulu",
-    "Peacock",
-    "Tencent Video",
-    "iQIYI",
-    "ESPN+",
-    "Apple TV+",
-    "Hotstar",
     "Twitch",
-    "SonyLiv",
-    "DAZN",
-    "Pluto TV",
-    "Roku Channel",
-    "Tubi"
+    "Instagram Live",
+    "Kick.com",
+    "Zoom",
+    "Google Meet",
+    "Vimeo Livestream",
+    "Dacast",
+    "Brightcove Live",
+    "Trovo",
+    "DLive",
+    "Steam.TV",
+    "Sling TV",
+    "Hulu Plus Live TV",
+    "DirecTV",
+    "Philo",
+    "SOOP Korea",
+    "Bigo Live"
   ]
 }

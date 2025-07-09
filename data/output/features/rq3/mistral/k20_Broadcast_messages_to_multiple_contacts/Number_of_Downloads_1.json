@@ -2,7 +2,7 @@
 {
   "a": [
     "WhatsApp",
-    "Messenger",
+    "Facebook Messenger",
     "Telegram",
     "Signal",
     "WeChat",
@@ -10,16 +10,16 @@
     "Viber",
     "Kik",
     "KakaoTalk",
-    "Imo",
-    "Hike",
-    "Bridgefy",
-    "TextNow",
-    "Text Free",
     "GroupMe",
-    "BAND",
-    "Tango",
+    "Bridgefy",
     "Zalo",
-    "Contus Fly",
-    "Threema"
+    "Imo",
+    "Slack",
+    "Microsoft Teams",
+    "Skype",
+    "Discord",
+    "Band",
+    "HeyTell",
+    "Marco Polo"
   ]
 }

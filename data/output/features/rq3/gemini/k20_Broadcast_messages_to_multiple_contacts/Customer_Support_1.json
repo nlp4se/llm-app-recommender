@@ -1,25 +1,25 @@
 
 {
   "a": [
-    "SleekFlow",
-    "WhatsApp Business API (via providers like AiSensy, Route Mobile)",
-    "Brevo (formerly Sendinblue)",
-    "WATI",
-    "Gallabox",
-    "NovoChat",
-    "Twilio",
-    "Respond.io",
-    "Bird (formerly MessageBird)",
-    "Ameyo",
-    "Project Broadcast",
+    "Hit Em Up",
     "SimpleTexting",
-    "TextMagic",
     "EZ Texting",
     "SlickText",
-    "Salesmsg",
     "DialMyCalls",
-    "ClickSend",
     "Textedly",
-    "SMS Broadcast"
+    "Messente",
+    "MessageMedia",
+    "Podium",
+    "Callbell",
+    "SleekFlow",
+    "Mobile Text Alerts",
+    "Twilio",
+    "ClickSend",
+    "Sakari",
+    "Klaviyo",
+    "BulkSMS",
+    "SendPulse",
+    "Bulk Sender for Marketing",
+    "GroupIN"
   ]
 }

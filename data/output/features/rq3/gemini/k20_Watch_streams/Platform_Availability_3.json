@@ -1,0 +1,25 @@
+
+{
+  "a": [
+    "Netflix [1, 3, 5]",
+    "YouTube TV [1]",
+    "Disney+ [1, 3, 5]",
+    "Hulu [1, 3, 5]",
+    "Amazon Prime Video [1, 3, 5]",
+    "Tubi [1, 2]",
+    "Crunchyroll [1]",
+    "Fubo [1]",
+    "Peacock [1]",
+    "Apple TV+ [1, 2, 3]",
+    "Sling TV [2]",
+    "DirecTV Stream [2]",
+    "Starz [2, 5]",
+    "Plex [4]",
+    "Max [3, 5]",
+    "ESPN+ [3]",
+    "HBO Max [3]",
+    "Xumo [2]",
+    "Pluto TV [2]",
+    "Sling TV Freestream [2]"
+  ]
+}

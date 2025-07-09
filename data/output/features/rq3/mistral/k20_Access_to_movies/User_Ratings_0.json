@@ -3,12 +3,12 @@
   "a": [
     "Netflix",
     "Amazon Prime Video",
-    "Hulu",
     "Disney+",
+    "Hulu",
     "HBO Max",
+    "Apple TV",
+    "Peacock TV",
     "Paramount+",
-    "Peacock",
-    "Apple TV+",
     "YouTube",
     "Tubi",
     "Pluto TV",
@@ -16,10 +16,10 @@
     "Vudu",
     "IMDb TV",
     "Plex",
-    "Crunchyroll",
-    "Funimation",
-    "Mubi",
-    "Shudder",
-    "Kanopy"
+    "Popcornflix",
+    "FilmRise",
+    "Kanopy",
+    "Hoopla",
+    "Roku Channel"
   ]
 }

@@ -1,0 +1,25 @@
+
+{
+  "a": [
+    "Facebook [2]",
+    "Instagram [2, 12]",
+    "WhatsApp [1, 4]",
+    "Telegram [3, 12, 16]",
+    "Meetup [6, 9, 15]",
+    "Bumble BFF [6, 15]",
+    "GroupMe [1, 4]",
+    "Slack [1, 3]",
+    "Microsoft Teams [1, 3]",
+    "Discord [4]",
+    "BeReal [7, 10]",
+    "Locket Widget [7, 11, 18]",
+    "Howbout [7]",
+    "Airbuds [7]",
+    "Cappuccino [11, 18]",
+    "Timeleft [6]",
+    "Nextdoor [12, 15]",
+    "Vero [12, 16]",
+    "Minds [12, 16]",
+    "Yubo [6]"
+  ]
+}

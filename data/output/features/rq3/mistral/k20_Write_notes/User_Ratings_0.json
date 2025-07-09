@@ -3,23 +3,23 @@
   "a": [
     "Notion",
     "Evernote",
-    "Microsoft OneNote",
+    "OneNote",
     "Google Keep",
     "Apple Notes",
     "Bear",
+    "Simplenote",
     "Zoho Notebook",
-    "SimpleNote",
     "Ulysses",
-    "GoodNotes",
-    "Notability",
     "Standard Notes",
     "Craft",
+    "GoodNotes",
+    "Notability",
     "Joplin",
-    "Day One Journal",
+    "Turtl",
+    "Typora",
     "Roam Research",
     "Obsidian",
-    "Agenda",
-    "Boost Note",
-    "Laverna"
+    "RemNote",
+    "UpNote"
   ]
 }

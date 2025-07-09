@@ -1,0 +1,25 @@
+
+{
+  "a": [
+    "Signal [1, 10]",
+    "Proton Drive [3, 11]",
+    "Tresorit [1, 4, 5]",
+    "Internxt Send [10]",
+    "NordLocker [5, 9]",
+    "SyncThing [10]",
+    "GnuPG [10]",
+    "pCloud [1]",
+    "Enigmail [1]",
+    "Resilio [1]",
+    "Box [1, 2, 13]",
+    "Citrix ShareFile [1, 2, 5]",
+    "Hightail [1]",
+    "SugarSync [1]",
+    "Filemail [6, 19]",
+    "WeSend [7]",
+    "LockTransfer [7]",
+    "TransferNow [7]",
+    "SpiderOak One [13]",
+    "Wormhole [8]"
+  ]
+}

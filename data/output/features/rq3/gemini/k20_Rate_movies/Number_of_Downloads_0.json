@@ -1,25 +1,25 @@
 
 {
   "a": [
-    "IMDb",
-    "Letterboxd",
+    "IMDb: Movies & TV Shows",
     "Rotten Tomatoes",
-    "JustWatch",
-    "Moviebase",
-    "MUBI",
-    "Flixster",
-    "Metacritic",
-    "MovieFone",
+    "Flick: Movie Ratings",
+    "Letterboxd",
     "Criticker",
-    "YourNextFilm",
-    "FilmStory",
-    "BetaSeries",
-    "Cineast",
-    "Universe of Movies And TV (UMAT)",
-    "Action!",
-    "Raters: Movie Reviews, Ratings on the App Store",
-    "Movie Pal",
-    "MovieMashApp",
-    "ReelSpeak Movie & TV Reviews"
+    "Trakt",
+    "Metacritic",
+    "TCM",
+    "MovieChat",
+    "Taste",
+    "Film Affinity",
+    "AllMovie by Rovi",
+    "Screen Rant",
+    "Roger Ebert",
+    "Common Sense Media",
+    "Decider",
+    "IndieWire",
+    "Collider",
+    "Empire Magazine",
+    "The A.V. Club"
   ]
 }

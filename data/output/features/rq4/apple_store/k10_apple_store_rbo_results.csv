@@ -1,0 +1,81 @@
+model,feature,jaccard,rbo
+anthropic,Access to movies,0.07017543859649122,0.038114893043807385
+anthropic,Access to podcasts,0.18382352941176472,0.5025883356546675
+anthropic,Broadcast messages to multiple contacts,0.0,0.0
+anthropic,Build photo collage,0.21751805985552117,0.2009249203914505
+anthropic,Collaborate with others,0.11111111111111112,0.2420375872029053
+anthropic,Go Live,0.17647058823529413,0.29437717109591854
+anthropic,Keeping up with friends,0.07017543859649122,0.2031301832618133
+anthropic,List items for sale,0.17647058823529413,0.21692418457456758
+anthropic,Photo effects,0.05263157894736842,0.03412738161028637
+anthropic,Play games,0.0,0.0
+anthropic,Play playlist on shuffle mode,0.3,0.4805482135636404
+anthropic,Rate movies,0.0,0.0
+anthropic,Search for offer on item,0.0,0.0
+anthropic,Send files,0.1985294117647059,0.10884133632201778
+anthropic,Watch streams,0.0,0.0
+anthropic,Write notes,0.1772875816993464,0.16384272974050088
+gemini,Access to movies,0.2380718954248366,0.13792538606222354
+gemini,Access to podcasts,0.18382352941176472,0.40243089574124635
+gemini,Broadcast messages to multiple contacts,0.0,0.0
+gemini,Build photo collage,0.10275197798417612,0.0892828262896963
+gemini,Collaborate with others,0.11111111111111112,0.25739098653078163
+gemini,Go Live,0.08187134502923976,0.21697236626250005
+gemini,Keeping up with friends,0.09484004127966976,0.17293236698783243
+gemini,List items for sale,0.11833505331957343,0.14895567704623483
+gemini,Photo effects,0.047368421052631574,0.030714643449257728
+gemini,Play games,0.0,0.0
+gemini,Play playlist on shuffle mode,0.11944444444444444,0.295180469715544
+gemini,Rate movies,0.0,0.0
+gemini,Search for offer on item,0.0,0.0
+gemini,Send files,0.18562091503267975,0.08272173184556933
+gemini,Watch streams,0.010526315789473684,0.0011896442950836213
+gemini,Write notes,0.2678571428571429,0.22264060374897027
+mistral,Access to movies,0.05263157894736842,0.03412738161028637
+mistral,Access to podcasts,0.23529411764705882,0.5334366911960629
+mistral,Broadcast messages to multiple contacts,0.0,0.0
+mistral,Build photo collage,0.1985294117647059,0.26142702953975583
+mistral,Collaborate with others,0.11111111111111112,0.3955715804816683
+mistral,Go Live,0.16993464052287582,0.28435800664729605
+mistral,Keeping up with friends,0.0935672514619883,0.1627090757443761
+mistral,List items for sale,0.11764705882352941,0.1381319533691496
+mistral,Photo effects,0.05263157894736842,0.03412738161028637
+mistral,Play games,0.0,0.0
+mistral,Play playlist on shuffle mode,0.25,0.5154083698207128
+mistral,Rate movies,0.0,0.0
+mistral,Search for offer on item,0.0,0.0
+mistral,Send files,0.1568627450980392,0.2059170293845424
+mistral,Watch streams,0.0,0.0
+mistral,Write notes,0.25,0.27045686758545845
+openai,Access to movies,0.17647058823529413,0.053367307864107885
+openai,Access to podcasts,0.25,0.5192924349804167
+openai,Broadcast messages to multiple contacts,0.0,0.0
+openai,Build photo collage,0.21405228758169934,0.14638374130820347
+openai,Collaborate with others,0.11111111111111112,0.2420375872029053
+openai,Go Live,0.05263157894736842,0.11947462546405148
+openai,Keeping up with friends,0.031578947368421054,0.03960784458551483
+openai,List items for sale,0.11111111111111112,0.14574655356696678
+openai,Photo effects,0.11111111111111112,0.11208764137036382
+openai,Play games,0.0,0.0
+openai,Play playlist on shuffle mode,0.25,0.5034308586644759
+openai,Rate movies,0.03684210526315789,0.10408296572956728
+openai,Search for offer on item,0.0,0.0
+openai,Send files,0.18382352941176472,0.12238273375150581
+openai,Watch streams,0.11111111111111112,0.07933315457126304
+openai,Write notes,0.25,0.2496952333443377
+perplexity,Access to movies,0.05263157894736842,0.03412738161028637
+perplexity,Access to podcasts,0.22794117647058823,0.5182961918914978
+perplexity,Broadcast messages to multiple contacts,0.0,0.0
+perplexity,Build photo collage,0.06618507051943583,0.0754361023529289
+perplexity,Collaborate with others,0.12418300653594772,0.24322723149798892
+perplexity,Go Live,0.08771929824561402,0.1289354545128336
+perplexity,Keeping up with friends,0.05263157894736842,0.04923742955881581
+perplexity,List items for sale,0.11111111111111112,0.3377718663039586
+perplexity,Photo effects,0.042105263157894736,0.02448398927474226
+perplexity,Play games,0.0,0.0
+perplexity,Play playlist on shuffle mode,0.0763157894736842,0.1087653330177177
+perplexity,Rate movies,0.0,0.0
+perplexity,Search for offer on item,0.02631578947368421,0.007444310494367575
+perplexity,Send files,0.11248710010319918,0.13636090272049617
+perplexity,Watch streams,0.0,0.0
+perplexity,Write notes,0.25,0.18353704961219283

@@ -1,0 +1,25 @@
+
+{
+  "a": [
+    "Dacast [1, 2, 9]",
+    "Brightcove [1, 2, 10, 11, 12]",
+    "Wowza [1, 2, 12]",
+    "VPlayed [1, 11]",
+    "Evercast [1]",
+    "Kaltura [1, 2, 11, 12, 17]",
+    "JW Player [2, 12]",
+    "Vidyard [2]",
+    "Muvi [2, 12, 17]",
+    "StreamShark [2, 5, 12]",
+    "Wistia [2]",
+    "Castr [4]",
+    "iShieldProtect [6]",
+    "Vimeo Livestream [7, 8, 9, 17]",
+    "Zoom [6, 8, 14, 19]",
+    "Microsoft Teams [8, 12]",
+    "Jitsi Meet [8]",
+    "StreamYard [7, 8, 9]",
+    "IBM Cloud Video [12, 17]",
+    "Panopto [1, 11, 12]"
+  ]
+}

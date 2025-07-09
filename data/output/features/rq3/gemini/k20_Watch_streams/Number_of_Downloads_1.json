@@ -2,24 +2,24 @@
 {
   "a": [
     "Netflix",
+    "YouTube",
     "Amazon Prime Video",
     "Disney+",
+    "Hulu",
+    "Peacock TV",
     "Max",
     "Paramount+",
-    "Hulu",
-    "Peacock",
-    "Apple TV+",
-    "ESPN+",
-    "Starz",
-    "YouTube",
-    "YouTube TV",
     "Pluto TV",
     "Tubi",
-    "Crunchyroll",
-    "VIX",
-    "BET+",
-    "MGM+",
-    "BritBox",
-    "PBS"
+    "Twitch",
+    "Apple TV",
+    "Crackle",
+    "Plex",
+    "BIGO LIVE",
+    "iQIYI",
+    "ESPN",
+    "Philo",
+    "DirecTV Now",
+    "Vudu"
   ]
 }

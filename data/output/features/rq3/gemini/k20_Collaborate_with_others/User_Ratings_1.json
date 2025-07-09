@@ -3,23 +3,23 @@
   "a": [
     "Slack",
     "Microsoft Teams",
-    "Zoom",
     "Asana",
     "Trello",
     "Google Workspace",
+    "Zoom",
     "Miro",
     "Notion",
-    "ClickUp",
-    "Basecamp",
-    "Guru",
     "Wrike",
+    "ClickUp",
     "Monday.com",
+    "Jira",
+    "Basecamp",
+    "Webex App",
+    "Google Meet",
     "Airtable",
-    "Boardmix",
-    "Zoho Cliq",
-    "Dropbox",
-    "Box",
-    "Teamwork",
-    "Confluence"
+    "Smartsheet",
+    "Confluence",
+    "Quickbase",
+    "Podio"
   ]
 }

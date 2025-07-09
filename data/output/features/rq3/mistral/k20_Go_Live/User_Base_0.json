@@ -2,24 +2,24 @@
 {
   "a": [
     "Instagram",
-    "TikTok",
     "Facebook",
+    "TikTok",
     "WhatsApp",
-    "YouTube",
-    "Twitter",
+    "Telegram",
     "Snapchat",
     "Pinterest",
+    "Twitter",
     "LinkedIn",
-    "Telegram",
     "Discord",
     "Reddit",
-    "Spotify",
-    "Netflix",
-    "Amazon",
-    "eBay",
+    "YouTube",
     "Twitch",
     "Zoom",
+    "Skype",
+    "Microsoft Teams",
     "Slack",
-    "Microsoft Teams"
+    "Google Meet",
+    "Messenger",
+    "Signal"
   ]
 }

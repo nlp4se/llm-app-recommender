@@ -1,0 +1,25 @@
+
+{
+  "a": [
+    "Apple Podcasts" ,
+    "Spotify" [1, 3, 4, 5, 7, 8, 9, 10],
+    "YouTube" [1, 3, 8],
+    "Pocket Casts" [1, 4, 9],
+    "Overcast" [1, 5],
+    "Castbox" [1, 2, 7, 9, 10],
+    "Podcast Addict" [1, 2, 9],
+    "Google Podcasts" [4, 5, 9, 10],
+    "Stitcher" [4],
+    "Sonogram" [4],
+    "Amazon Music" [7],
+    "iHeartRadio" [7],
+    "RadioPublic" [5],
+    "Podchaser" [5],
+    "Himalaya" [5],
+    "SoundCloud" [5],
+    "Anchor" [5],
+    "AntennaPod" [1],
+    "Megaphone" [2],
+    "Podbean" [9]
+  ]
+}

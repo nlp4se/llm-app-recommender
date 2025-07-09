@@ -1,25 +1,25 @@
 
 {
   "a": [
-    "WhatsApp",
-    "Instagram",
     "Facebook",
+    "Instagram",
+    "WhatsApp",
     "TikTok",
-    "Messenger",
+    "Meetup",
+    "Bumble BFF",
+    "Nextdoor",
+    "Yubo",
+    "Discord",
     "Telegram",
     "Snapchat",
-    "Threads",
     "WeChat",
-    "YouTube",
-    "X (Twitter)",
-    "Discord",
-    "QQ",
     "Reddit",
-    "LinkedIn",
-    "Viber",
-    "Signal",
-    "Microsoft Teams",
-    "Google Chat",
-    "Douyin"
+    "Skout",
+    "Friended",
+    "Wink",
+    "Boo",
+    "Howbout",
+    "Airbuds",
+    "Soonly"
   ]
 }

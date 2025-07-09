@@ -1,0 +1,25 @@
+
+{
+  "a": [
+    "EZ Texting [1, 2, 3, 4, 11]",
+    "SimpleTexting [1, 4, 6, 11]",
+    "SlickText [2, 3, 4]",
+    "Podium [1, 4]",
+    "TextMagic [1, 4, 13]",
+    "Trumpia [2, 3, 6]",
+    "ClickSend [2, 13]",
+    "SendPulse [2, 3]",
+    "DialMyCalls [1, 16]",
+    "Hit Em Up [14]",
+    "Sakari [1, 4]",
+    "TextUs [2]",
+    "Clickatell [2]",
+    "TextMarks [2]",
+    "BulkSMS [2, 13]",
+    "Twilio [4]",
+    "Salesmsg [4, 5]",
+    "CallLoop [5]",
+    "WhatsApp [6, 12]",
+    "Project Broadcast [10]"
+  ]
+}

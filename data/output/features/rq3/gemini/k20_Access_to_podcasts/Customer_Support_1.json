@@ -1,24 +1,25 @@
+
 {
   "a": [
-    "Conversations with Zendesk",
-    "Spotify",
-    "Apple Podcasts",
     "Pocket Casts",
-    "Stitcher",
-    "Castbox",
     "Overcast",
-    "Podcast Addict",
-    "Google Podcasts",
     "AntennaPod",
-    "Castro",
-    "Downcast",
     "Podcast Addict",
-    "Luminary",
-    "Audible",
-    "Simplecast",
-    "Blubrry",
+    "Spotify",
+    "Google Podcasts",
+    "Apple Podcasts",
+    "Downcast",
+    "Castbox",
+    "Podcast App",
+    "Player FM",
+    "Stitcher",
+    "Radio Public",
+    "Podbean",
+    "Buzzsprout",
+    "Transistor.fm",
     "Captivate",
-    "Spreaker",
-    "SiriusXM"
+    "Blubrry",
+    "Luminary",
+    "Audible"
   ]
 }

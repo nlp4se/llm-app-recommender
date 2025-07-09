@@ -2,24 +2,24 @@
 {
   "a": [
     "Facebook",
-    "Instagram",
     "WhatsApp",
+    "Instagram",
     "TikTok",
+    "Messenger",
     "Telegram",
     "Snapchat",
-    "Meetup",
-    "Bumble BFF",
-    "Yubo",
-    "Nextdoor",
-    "Viber",
+    "YouTube",
+    "X/Twitter",
     "Discord",
     "WeChat",
-    "Line",
-    "Twitter",
+    "Douyin",
     "Pinterest",
-    "Skout",
-    "Houseparty",
-    "BeReal",
-    "Howbout"
+    "QQ",
+    "Sina Weibo",
+    "Kuaishou",
+    "LINE",
+    "Skype",
+    "Viber",
+    "Reddit"
   ]
 }

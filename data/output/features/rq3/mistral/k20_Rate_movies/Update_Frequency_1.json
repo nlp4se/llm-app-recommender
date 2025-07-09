@@ -7,19 +7,19 @@
     "Metacritic",
     "Fandango",
     "Flixster",
-    "MovieDiary",
-    "Cinemark Theatres",
+    "MoviePass",
     "Atom Tickets",
+    "Cinemark Theatres",
     "AMC Theatres",
     "Regal Cinemas",
-    "CinemaBlend",
-    "MovieTickets",
-    "FilmAffinity",
-    "MUBI",
-    "JustWatch",
     "Showtimes",
+    "MovieTickets",
+    "CinemaBox",
+    "JustWatch",
+    "Reelgood",
+    "Ticketmaster",
     "Moviefone",
-    "CinemaTime",
-    "The Movie Database (TMDb)"
+    "FilmAffinity",
+    "CinemaBlend"
   ]
 }

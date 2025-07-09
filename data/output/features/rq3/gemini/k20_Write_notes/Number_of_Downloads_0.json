@@ -1,25 +1,25 @@
 
 {
   "a": [
-    "Microsoft OneNote",
     "Evernote",
-    "Notion",
+    "Microsoft OneNote",
     "Google Keep",
+    "Notion",
     "Apple Notes",
-    "ClickUp",
-    "Obsidian",
     "Simplenote",
-    "Joplin",
+    "Obsidian",
+    "Goodnotes",
+    "ClickUp",
     "Bear",
-    "UpNote",
     "Notability",
-    "GoodNotes",
-    "Logseq",
-    "Craft",
-    "Mem",
+    "Zoho Notebook",
+    "Joplin",
+    "Noteshelf",
     "CollaNote",
-    "Bear Notes",
-    "Notes+",
-    "Anytype"
+    "Nebo",
+    "LiquidText",
+    "MarginNote 4",
+    "Penbook",
+    "ZoomNotes"
   ]
 }

@@ -1,24 +1,25 @@
+
 {
   "a": [
-    "ClickUp",
     "Microsoft OneNote",
     "Evernote",
-    "Notion",
     "Google Keep",
-    "Apple Notes",
+    "Notion",
     "Obsidian",
     "Joplin",
+    "Apple Notes",
+    "Bear",
     "Simplenote",
     "Zoho Notebook",
+    "UpNote",
+    "Roam Research",
     "Bear",
-    "Notewise",
-    "Noteshelf",
-    "LiquidText",
+    "GoodNotes",
+    "Notability",
+    "CollaNote",
     "Nebo",
-    "Paper by WeTransfer",
-    "Lindy",
-    "Granola",
-    "Krisp",
-    "NotebookLM"
+    "Coda",
+    "Capacities",
+    "Miro"
   ]
 }

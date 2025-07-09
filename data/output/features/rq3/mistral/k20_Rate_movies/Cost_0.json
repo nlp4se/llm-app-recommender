@@ -1,25 +1,25 @@
 
 {
   "a": [
-    "Letterboxd",
     "IMDb",
+    "Letterboxd",
     "Flixster",
-    "MovieDiary",
-    "MovieJoy",
-    "MovieMate",
-    "MovieMeter",
-    "MoviePilot",
-    "MovieZen",
-    "MovieZy",
-    "Moviefone",
-    "Movies Anywhere",
-    "Movies by Flixster",
-    "Movies.com",
-    "Movist",
-    "Moviewatch",
-    "Moviewatcher",
-    "Movielala",
+    "MovieTrack",
     "Movielens",
-    "Movielist"
+    "Cinemark",
+    "AMC Theatres",
+    "Fandango",
+    "Atom Tickets",
+    "MoviePass",
+    "CinemaTime",
+    "MovieDiary",
+    "iMDBclone",
+    "MovieMate",
+    "CineTrak",
+    "Showtimes",
+    "MovieGrid",
+    "FilmAffinity",
+    "MUBI",
+    "Criticker"
   ]
 }

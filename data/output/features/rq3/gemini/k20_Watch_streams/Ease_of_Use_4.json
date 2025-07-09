@@ -1,0 +1,25 @@
+
+{
+  "a": [
+    "Netflix [1, 2, 3, 4, 5, 15]",
+    "YouTube TV [2, 3, 4, 7, 9, 12]",
+    "Disney+ [1, 2, 3, 4, 9]",
+    "Hulu [1, 2, 4, 9]",
+    "Amazon Prime Video [1, 2, 3, 4, 5, 15]",
+    "Max [1, 3, 4, 9]",
+    "Peacock [1, 2, 3, 5, 9, 12]",
+    "Tubi [2, 3, 11]",
+    "Crunchyroll [2, 3, 9]",
+    "Fubo [2, 3, 4, 11]",
+    "Apple TV+ [1, 2, 4, 5]",
+    "Pluto TV [3, 12]",
+    "Sling TV [3, 7, 12]",
+    "Twitch [6, 16]",
+    "ESPN+ [1, 3]",
+    "YouTube [2]",
+    "Hoopla [4]",
+    "Plex [5, 11]",
+    "Streamlabs OBS [8]",
+    "Muvi Live [16]"
+  ]
+}

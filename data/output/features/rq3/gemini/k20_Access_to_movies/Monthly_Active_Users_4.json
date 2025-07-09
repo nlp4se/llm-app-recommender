@@ -1,0 +1,27 @@
+Okay, I will identify and rank 20 apps for accessing movies based on the monthly active users, listing them from highest to lowest.
+
+```json
+{
+  "a": [
+    "Netflix",
+    "YouTube",
+    "Amazon Prime Video",
+    "Disney+",
+    "Tencent Video",
+    "iQIYI",
+    "Max",
+    "Hulu",
+    "TikTok",
+    "Instagram Reels",
+    "Paramount+",
+    "Peacock",
+    "Crunchyroll",
+    "Tubi",
+    "Pluto TV",
+    "Apple TV+",
+    "Vudu",
+    "Plex",
+    "YouTube TV",
+    "Fubo"
+  ]
+}

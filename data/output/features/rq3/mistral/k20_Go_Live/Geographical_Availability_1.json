@@ -3,23 +3,22 @@
   "a": [
     "Facebook",
     "Instagram",
-    "Twitter",
-    "TikTok",
     "WhatsApp",
-    "YouTube",
+    "Messenger",
+    "TikTok",
+    "Twitter",
+    "Telegram",
     "Snapchat",
     "Pinterest",
     "LinkedIn",
-    "Messenger",
-    "Telegram",
-    "Skype",
     "Viber",
-    "Zoom",
+    "Line",
+    "WeChat",
+    "KakaoTalk",
+    "Signal",
+    "Skype",
     "Microsoft Teams",
     "Slack",
-    "Discord",
-    "Signal",
-    "Google Meet",
-    "WeChat"
+    "Discord"
   ]
 }

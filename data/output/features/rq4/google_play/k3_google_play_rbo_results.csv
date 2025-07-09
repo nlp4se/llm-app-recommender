@@ -1,0 +1,81 @@
+model,feature,jaccard,rbo
+anthropic,Access to movies,0.0,0.0
+anthropic,Access to podcasts,0.2,0.2656826568265683
+anthropic,Broadcast messages to multiple contacts,0.0,0.0
+anthropic,Build photo collage,0.1,0.049815498154981555
+anthropic,Collaborate with others,0.0,0.0
+anthropic,Go Live,0.0,0.0
+anthropic,Keeping up with friends,0.0,0.0
+anthropic,List items for sale,0.18,0.0896678966789668
+anthropic,Photo effects,0.0,0.0
+anthropic,Play games,0.0,0.0
+anthropic,Play playlist on shuffle mode,0.5,0.3653136531365314
+anthropic,Rate movies,0.5,0.5313653136531366
+anthropic,Search for offer on item,0.2,0.24907749077490776
+anthropic,Send files,0.0,0.0
+anthropic,Watch streams,0.2,0.11623616236162364
+anthropic,Write notes,0.0,0.0
+gemini,Access to movies,0.0,0.0
+gemini,Access to podcasts,0.38,0.2590405904059041
+gemini,Broadcast messages to multiple contacts,0.0,0.0
+gemini,Build photo collage,0.04,0.01992619926199262
+gemini,Collaborate with others,0.0,0.0
+gemini,Go Live,0.0,0.0
+gemini,Keeping up with friends,0.0,0.0
+gemini,List items for sale,0.0,0.0
+gemini,Photo effects,0.0,0.0
+gemini,Play games,0.0,0.0
+gemini,Play playlist on shuffle mode,0.35,0.255719557195572
+gemini,Rate movies,0.55,0.6151291512915129
+gemini,Search for offer on item,0.02,0.026568265682656828
+gemini,Send files,0.0,0.0
+gemini,Watch streams,0.02,0.00996309963099631
+gemini,Write notes,0.12,0.05977859778597786
+mistral,Access to movies,0.0,0.0
+mistral,Access to podcasts,0.2,0.2656826568265683
+mistral,Broadcast messages to multiple contacts,0.0,0.0
+mistral,Build photo collage,0.2,0.09963099630996311
+mistral,Collaborate with others,0.0,0.0
+mistral,Go Live,0.0,0.0
+mistral,Keeping up with friends,0.0,0.0
+mistral,List items for sale,0.0,0.0
+mistral,Photo effects,0.0,0.0
+mistral,Play games,0.2,0.6346863468634687
+mistral,Play playlist on shuffle mode,0.5,0.3653136531365314
+mistral,Rate movies,0.5,0.5313653136531366
+mistral,Search for offer on item,0.2,0.09963099630996311
+mistral,Send files,0.0,0.0
+mistral,Watch streams,0.2,0.1826568265682657
+mistral,Write notes,0.0,0.0
+openai,Access to movies,0.0,0.0
+openai,Access to podcasts,0.2,0.2656826568265683
+openai,Broadcast messages to multiple contacts,0.0,0.0
+openai,Build photo collage,0.0,0.0
+openai,Collaborate with others,0.0,0.0
+openai,Go Live,0.0,0.0
+openai,Keeping up with friends,0.0,0.0
+openai,List items for sale,0.05,0.036531365313653134
+openai,Photo effects,0.0,0.0
+openai,Play games,0.0,0.0
+openai,Play playlist on shuffle mode,0.2,0.2656826568265683
+openai,Rate movies,0.2,0.6346863468634687
+openai,Search for offer on item,0.02,0.00996309963099631
+openai,Send files,0.0,0.0
+openai,Watch streams,0.02,0.026568265682656828
+openai,Write notes,0.1,0.06642066420664208
+perplexity,Access to movies,0.0,0.0
+perplexity,Access to podcasts,0.23000000000000004,0.17601476014760148
+perplexity,Broadcast messages to multiple contacts,0.0,0.0
+perplexity,Build photo collage,0.02,0.00996309963099631
+perplexity,Collaborate with others,0.0,0.0
+perplexity,Go Live,0.0,0.0
+perplexity,Keeping up with friends,0.0,0.0
+perplexity,List items for sale,0.2,0.24907749077490776
+perplexity,Photo effects,0.0,0.0
+perplexity,Play games,0.0,0.0
+perplexity,Play playlist on shuffle mode,0.13999999999999999,0.06974169741697418
+perplexity,Rate movies,0.2,0.09963099630996311
+perplexity,Search for offer on item,0.0,0.0
+perplexity,Send files,0.0,0.0
+perplexity,Watch streams,0.0,0.0
+perplexity,Write notes,0.0,0.0

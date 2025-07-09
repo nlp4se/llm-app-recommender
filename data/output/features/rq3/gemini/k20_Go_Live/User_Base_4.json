@@ -1,0 +1,27 @@
+Based on the user base ranking criterion, here are 20 apps suitable for going live:
+
+```json
+{
+  "a": [
+    "Facebook Live" ,
+    "YouTube Live",
+    "Instagram Live",
+    "TikTok",
+    "Twitch",
+    "Netflix",
+    "Amazon Prime Video",
+    "Snapchat",
+    "Likee",
+    "Bigo Live",
+    "Vimeo Live",
+    "Clapper",
+    "Triller",
+    "Rumble",
+    "Kick",
+    "Tango",
+    "YouNow",
+    "LiveMe",
+    "Stream",
+    "Favorited"
+  ]
+}

@@ -1,3 +1,4 @@
+
 {
   "a": [
     "Spotify",
@@ -10,15 +11,15 @@
     "SoundCloud",
     "iHeartRadio",
     "Napster",
-    "Qobuz",
-    "Yandex.Music",
+    "Microsoft Groove",
     "JioSaavn",
     "Gaana",
     "Anghami",
-    "KKBox",
+    "Yandex.Music",
+    "Qobuz",
+    "Audiomack",
+    "Boomplay",
     "Melon",
-    "Genie",
-    "Bugs!",
-    "Flo"
+    "Genie"
   ]
 }

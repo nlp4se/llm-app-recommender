@@ -1,25 +1,25 @@
 
 {
   "a": [
-    "Slack",
-    "Microsoft Teams",
     "Google Workspace",
+    "Microsoft Teams",
+    "Slack",
+    "Zoom",
     "Asana",
     "Trello",
-    "Miro",
-    "Zoom",
     "Monday.com",
-    "Filestage",
-    "Confluence",
-    "Notion",
-    "Dropbox",
-    "Figma",
-    "Jira",
     "Basecamp",
-    "Ryver",
-    "Twist",
-    "RocketChat",
-    "Chanty",
-    "Troop Messenger"
+    "ClickUp",
+    "Airtable",
+    "Notion",
+    "Miro",
+    "Filestage",
+    "Wrike",
+    "Confluence",
+    "Xmind AI",
+    "Todoist",
+    "Quickbase",
+    "Screendragon",
+    "Lark"
   ]
 }

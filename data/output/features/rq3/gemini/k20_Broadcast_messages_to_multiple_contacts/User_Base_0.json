@@ -1,5 +1,6 @@
+
 {
-"a": [
+  "a": [
     "WhatsApp",
     "WeChat",
     "Facebook Messenger",
@@ -7,18 +8,18 @@
     "Snapchat",
     "QQ",
     "Viber",
-    "LINE",
+    "Line",
     "Signal",
     "KakaoTalk",
-    "Microsoft Teams",
-    "SlickText",
+    "Instagram",
+    "WhatsApp Business",
+    "Discord",
+    "iMessage",
+    "Textmagic",
+    "BulkSMS.com",
     "SimpleTexting",
-    "EZ Texting",
-    "GroupMe",
-    "TextMagic",
-    "ClickSend",
     "Project Broadcast",
-    "Textedly",
-    "Trumpia"
+    "SleekFlow",
+    "Infobip"
   ]
 }

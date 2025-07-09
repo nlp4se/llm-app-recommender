@@ -1,0 +1,25 @@
+
+{
+  "a": [
+    "Netflix [1, 9, 10]",
+    "Hulu [1, 4, 9]",
+    "Amazon Prime Video [1, 4, 10]",
+    "Disney+ [1, 4, 9]",
+    "Tubi [1, 4, 7]",
+    "Peacock [1, 4, 9]",
+    "Max [1, 4, 9]",
+    "Pluto TV [7, 20]",
+    "Plex [4, 6, 15]",
+    "YouTube [4, 6, 7]",
+    "Apple TV+ [9, 10, 14]",
+    "Paramount+ [1, 9, 10]",
+    "Freevee [1, 7]",
+    "IMDb [3, 5]",
+    "Flixeon [2]",
+    "Moviebase [3]",
+    "fuboTV [4]",
+    "Filmrise [6]",
+    "Yidio [6]",
+    "Roku Channel [7, 20]"
+  ]
+}

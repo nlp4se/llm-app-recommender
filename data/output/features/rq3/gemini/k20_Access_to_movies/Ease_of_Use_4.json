@@ -1,0 +1,25 @@
+
+{
+  "a": [
+    "Netflix [9, 10]",
+    "Tubi [1, 2, 5, 16, 17]",
+    "Crackle [1, 2, 4, 5, 6, 17]",
+    "Pluto TV [2, 5, 7, 13, 17]",
+    "YouTube [1, 7]",
+    "Amazon Freevee [1, 2, 7]",
+    "Popcornflix [1, 2, 4, 5, 6]",
+    "Plex [5, 7, 13, 16]",
+    "Kanopy [5, 6, 7]",
+    "Vudu [2, 16]",
+    "FilmRise [2, 5]",
+    "Stremio [2]",
+    "Yidio [2, 6]",
+    "FlixHQ [3]",
+    "Cuco TV [3]",
+    "Viva TV [3]",
+    "Peacock [4, 8, 16]",
+    "Fandango at Home [5, 7]",
+    "GoodShorts [11]",
+    "MerlMovie [12, 14, 15]"
+  ]
+}

@@ -3,23 +3,23 @@
   "a": [
     "Slack",
     "Microsoft Teams",
-    "Google Workspace",
+    "Google Workspace (Google Chat, Google Docs, Google Drive, Google Meet)",
     "Asana",
     "Trello",
+    "ClickUp",
     "Miro",
+    "Notion",
+    "monday.com",
     "Airtable",
-    "Monday.com",
     "Zoom",
+    "Dropbox",
     "Basecamp",
     "Wrike",
-    "Notion",
-    "Podio",
+    "Figma",
     "Filestage",
-    "Smartsheet",
-    "Zoho Projects",
-    "Ryver",
-    "Teamwork",
-    "ClickUp",
-    "Loom"
+    "Quip",
+    "Webex App",
+    "RingEX by RingCentral",
+    "Troop Messenger"
   ]
 }

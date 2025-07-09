@@ -1,0 +1,25 @@
+
+{
+  "a": [
+    "Pocket Casts [1, 2, 3, 4, 5, 6, 7, 8, 9, 12]",
+    "Overcast [2, 3, 4, 6, 7, 8, 9, 11]",
+    "Podcast Addict [3, 4, 5, 6, 8, 9, 10, 11]",
+    "Spotify [1, 2, 4, 5, 6, 7, 8, 9, 11]",
+    "Apple Podcasts [1, 2, 4, 5, 6, 7, 8, 9, 10]",
+    "Castbox [1, 2, 4, 5, 6, 7, 8, 9, 11]",
+    "Google Podcasts [2, 4, 5, 7, 8, 11, 13]",
+    "AntennaPod [3, 5, 9, 10, 12]",
+    "Downcast [3, 9]",
+    "Castro [3, 4, 7, 9, 11]",
+    "Player FM [4, 5, 9, 13]",
+    "Podcast Republic [6, 9, 10, 12]",
+    "TuneIn [4]",
+    "Audible [4, 5, 6, 8]",
+    "Luminary [4, 8]",
+    "Stitcher [1, 2]",
+    "Amazon Music [4, 6]",
+    "Podbean [7, 9, 11]",
+    "Podcast Guru [9]",
+    "DoggCatcher [9]"
+  ]
+}

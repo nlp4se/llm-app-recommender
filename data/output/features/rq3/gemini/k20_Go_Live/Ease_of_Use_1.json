@@ -1,0 +1,25 @@
+
+{
+  "a": [
+    "YouTube Live [1, 6, 11]",
+    "Facebook Live [1, 2, 6, 7, 15]",
+    "Instagram Live [1, 2, 6, 7, 15]",
+    "TikTok Live [1, 11]",
+    "Twitch [1, 2, 6, 7, 8, 15]",
+    "StreamYard [1, 4, 5]",
+    "Prism Live Studio [5, 14]",
+    "OBS Studio [1, 9]",
+    "Streamlabs [1, 10, 15]",
+    "Vimeo Livestream [1, 2, 6, 8]",
+    "LinkedIn Live [1]",
+    "Zoom [1, 6, 7, 8]",
+    "Castr [2, 12]",
+    "Dacast [1, 2, 11]",
+    "Evmux [14]",
+    "Brightcove [2, 8, 13]",
+    "Wowza [11, 12, 13]",
+    "Uscreen [2, 12]",
+    "Restream [1, 2, 6]",
+    "Tango [15]"
+  ]
+}

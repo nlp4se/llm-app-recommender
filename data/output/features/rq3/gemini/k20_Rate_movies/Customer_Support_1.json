@@ -1,24 +1,25 @@
+
 {
   "a": [
     "IMDb",
     "Letterboxd",
-    "Rotten Tomatoes",
-    "Metacritic",
-    "Flixster",
-    "MovieFone",
-    "Criticker",
-    "Trakt",
-    "Serializd",
-    "MUBI",
-    "Roger Ebert",
-    "A.V. Club",
-    "IndieWire",
-    "Raters",
+    "Raters: Movie Reviews, Ratings",
     "Moviebase",
-    "Plugged In – Movie Reviews",
+    "Serializd",
+    "Taste: Movie & TV Reviews",
+    "Movies by Flixster",
+    "Criticker",
+    "YourNextFilm",
+    "ReelSpeak Movie & TV Reviews",
     "Movie Reviews (Voice)",
+    "Plugged In – Movie Reviews",
+    "MUBI",
+    "MovieFone",
     "FilmStory",
-    "ReelSpeak",
-    "My Movie Review"
+    "Tubi - Free Movies & TV Shows",
+    "Movie ratings for Netflix – Flutter",
+    "Flico",
+    "Musicboard",
+    "Goodreads"
   ]
 }

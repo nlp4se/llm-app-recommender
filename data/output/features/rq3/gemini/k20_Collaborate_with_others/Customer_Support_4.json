@@ -1,0 +1,25 @@
+
+{
+  "a": [
+    "Slack [2, 4, 6]",
+    "Microsoft Teams [2, 4, 5]",
+    "Asana [2, 3, 4]",
+    "Trello [3, 4, 8]",
+    "Zoom [2, 4, 8]",
+    "ClickUp [3, 5, 6]",
+    "Miro [1, 4, 6]",
+    "Notion [4, 6, 9]",
+    "Google Workspace [8, 19, 22]",
+    "Wrike [3, 5, 18]",
+    "monday.com [3, 18, 19]",
+    "Help Scout [11, 13, 17]",
+    "Zendesk [11, 12, 13]",
+    "Freshdesk [11, 14, 15]",
+    "HubSpot Service Hub [11, 12, 17]",
+    "Guru [1, 13]",
+    "Zoho Desk [5, 12, 17]",
+    "Basecamp [5, 10, 18]",
+    "Jira [15, 19]",
+    "Podio [6, 21]"
+  ]
+}

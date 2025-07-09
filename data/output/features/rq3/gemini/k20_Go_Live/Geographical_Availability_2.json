@@ -1,0 +1,25 @@
+
+{
+  "a": [
+    "YouTube Live [1, 2, 3, 7]",
+    "Facebook Live [1, 3]",
+    "Instagram Live [1, 3]",
+    "Twitch [1, 3]",
+    "TikTok Live [3, 7]",
+    "Netflix [1, 2, 8]",
+    "Amazon Prime Video [1, 2, 8]",
+    "Disney+ [1, 2, 8]",
+    "Hulu [1, 2, 8]",
+    "Vimeo Livestream [1, 4, 5]",
+    "Tango [1]",
+    "Clubhouse [1]",
+    "Peacock [1]",
+    "HBO Max [1]",
+    "Streamlabs [4]",
+    "OnTheFly [4]",
+    "Uscreen [4]",
+    "Muvi [4, 5]",
+    "Wowza [5]",
+    "Brightcove [4]"
+  ]
+}

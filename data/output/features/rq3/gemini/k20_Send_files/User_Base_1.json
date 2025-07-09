@@ -1,24 +1,25 @@
+
 {
   "a": [
     "Google Drive",
     "Dropbox",
-    "WeTransfer",
     "Microsoft OneDrive",
-    "SHAREit",
-    "Send Anywhere",
-    "Hightail",
+    "WeTransfer",
     "Box",
-    "Zapya",
+    "iCloud Drive",
+    "Send Anywhere",
+    "AirDroid Personal",
+    "SHAREit",
     "Xender",
-    "Filestage",
-    "Internxt",
-    "Evernote Business",
-    "Contentful",
-    "RingCentral",
-    "Planview",
-    "Zoho Docs",
-    "Quip",
-    "Filecamp",
-    "Slack"
+    "Zapya",
+    "Samsung Smart Switch",
+    "EasyShare",
+    "Dr. Fone",
+    "Transfer.zip",
+    "NordLocker",
+    "Files.com",
+    "MOVEit Transfer",
+    "Egnyte",
+    "FileCloud"
   ]
 }

@@ -1,0 +1,27 @@
+Based on the ranking criterion of the number of downloads, here are 20 apps that are popular choices for playing playlists on shuffle mode:
+
+```json
+{
+  "a": [
+    "Spotify: Music and Podcasts",
+    "YouTube Music",
+    "Shazam: Find Music & Concerts",
+    "Amazon Music: Songs & Podcasts",
+    "SoundCloud: The Music You Love",
+    "Apple Music",
+    "Pandora Music",
+    "Musixmatch",
+    "Poweramp Music Player",
+    "BlackPlayer Free Music Player",
+    "VLC for Android",
+    "jetAudio – MP3 Music Player",
+    "Omnia Music Player",
+    "Pi Music Player",
+    "AIMP",
+    "foobar2000",
+    "Flacbox – FLAC Player Equalizer",
+    "Cs iPhone Mp3 player app",
+    "VOX – MP3 & FLAC Music Player",
+    "Lark Player"
+  ]
+}

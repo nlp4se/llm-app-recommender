@@ -1,0 +1,25 @@
+
+{
+  "a": [
+    "Signal [10, 14, 21, 26]",
+    "Wire [1, 2, 21]",
+    "Threema [21, 29]",
+    "Rocket.Chat [1, 5]",
+    "Nextcloud [1, 2]",
+    "Microsoft Teams [1, 2, 3, 5, 7, 11, 22, 24, 32, 36]",
+    "Slack [2, 7, 9, 11, 27, 32, 36]",
+    "Google Drive [1, 3, 11, 24]",
+    "Asana [1, 2, 3, 4, 22, 36]",
+    "Zoom [1, 3, 9, 17, 24, 36]",
+    "Lark [5]",
+    "Box [5, 33]",
+    "ClickUp [4, 5]",
+    "Troop Messenger [10, 13]",
+    "Pexip [1, 3]",
+    "Trello [1, 4, 11, 22, 24, 36]",
+    "Mural [17, 36]",
+    "Figma [7]",
+    "SimpleX Chat [26]",
+    "Briar [14, 26]"
+  ]
+}

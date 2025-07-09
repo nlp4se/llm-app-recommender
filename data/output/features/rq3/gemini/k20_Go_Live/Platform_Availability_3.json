@@ -1,0 +1,25 @@
+
+{
+  "a": [
+    "Twitch [1, 3, 12, 13]",
+    "YouTube Live [2, 4, 12, 13]",
+    "Facebook Live [1, 4, 12, 13]",
+    "Instagram Live [1, 4, 12, 13]",
+    "Streamlabs [3, 8]",
+    "Wirecast Go [3, 9]",
+    "Zoom [1, 4, 13]",
+    "StreamYard [5]",
+    "Netflix [2]",
+    "Disney+ [2, 10]",
+    "Hulu [2, 10]",
+    "Amazon Prime Video [2, 10]",
+    "Tubi [2, 11]",
+    "Crunchyroll [2]",
+    "Fubo [2]",
+    "Peacock [2, 10]",
+    "Apple TV+ [2, 7, 10]",
+    "Vimeo Live Streaming [12, 13]",
+    "Dacast [4, 9, 12]",
+    "Plex [6]"
+  ]
+}

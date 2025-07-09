@@ -1,0 +1,36 @@
+Here is your requested JSON output, based strictly on the ranking criterion of **Platform Availability** (with priority given to apps available on both iOS and Android, followed by those available on either, based on recent market analysis):
+
+```json
+{
+  "a": [
+    "Pic Collage",
+    "PhotoDirector",
+    "Collage Maker - LiveCollage",
+    "MOLDIV",
+    "Canva",
+    "PhotoGrid",
+    "PicPlayPost",
+    "PicsArt",
+    "PiZap",
+    "Diptic",
+    "Layout from Instagram",
+    "Fotor",
+    "Collageable",
+    "Photo Collage Maker & Photo Editor",
+    "GridArt",
+    "Adobe Spark Post",
+    "PhotoMix",
+    "InstaCollage",
+    "Collage Photo Editor",
+    "Luminar Collage (iOS only)"
+  ]
+}
+```
+
+**Summary of Platform Availability Priority:**
+
+- **Pic Collage, PhotoDirector, Collage Maker - LiveCollage, MOLDIV, Canva, PhotoGrid, PicPlayPost, PicsArt, PiZap, Diptic, Layout from Instagram, Fotor, Collageable, Photo Collage Maker & Photo Editor, GridArt, Adobe Spark Post, PhotoMix, InstaCollage, Collage Photo Editor:** All available on both iOS and Android, making them top-ranked for platform availability[2][3][4].
+- **Luminar Collage:** Only for iOS, so ranked last in this list[1].
+- **Apps with broadest cross-platform support and popularity have the highest ranks.**
+
+This list strictly ranks by platform availability, prioritizing cross-platform apps, then those available for iOS or Android only.

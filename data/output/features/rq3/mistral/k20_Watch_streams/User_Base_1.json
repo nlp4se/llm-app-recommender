@@ -3,8 +3,9 @@
   "a": [
     "YouTube",
     "Twitch",
-    "Netflix",
+    "Facebook Gaming",
     "Hulu",
+    "Netflix",
     "Disney+",
     "Amazon Prime Video",
     "HBO Max",
@@ -14,12 +15,11 @@
     "Sling TV",
     "fuboTV",
     "Philo",
+    "YouTube TV",
+    "Espn",
     "Pluto TV",
     "Tubi",
     "Crunchyroll",
-    "Funimation",
-    "Vudu",
-    "Crackle",
-    "Locast"
+    "Funimation"
   ]
 }

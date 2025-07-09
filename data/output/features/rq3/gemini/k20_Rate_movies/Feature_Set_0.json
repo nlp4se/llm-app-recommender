@@ -1,0 +1,25 @@
+
+{
+  "a": [
+    "IMDb [1, 4]",
+    "Letterboxd [3, 4, 5, 6, 7]",
+    "Moviebase [1]",
+    "Criticker [2, 5]",
+    "Serializd [6]",
+    "MovieFone [2]",
+    "YourNextFilm [2]",
+    "FilmStory [2]",
+    "Taste: Movie & TV Reviews [4]",
+    "Tubi - Free Movies & TV Shows [4]",
+    "Movie ratings for Netflix – Flutter [4]",
+    "ReelSpeak Movie & TV Reviews [4]",
+    "Flico [4]",
+    "Trakt [1, 5, 7]",
+    "MyBoxOffice [7]",
+    "Mushmovie [7]",
+    "Filmbox Smart Movie Manager [7]",
+    "ShowPal Movies [7]",
+    "TodoMovies [7, 8]",
+    "JustWatch [3, 8]"
+  ]
+}

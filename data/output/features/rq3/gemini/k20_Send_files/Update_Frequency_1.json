@@ -1,25 +1,25 @@
 
 {
   "a": [
-    "AirDroid Personal",
     "Google Drive",
     "Dropbox",
-    "Send Anywhere",
     "WeTransfer",
-    "SHAREit",
-    "Xender",
-    "InShare",
-    "EasyShare",
+    "MediaFire",
     "OneDrive",
     "Box",
-    "FileCloud",
+    "iCloud Drive",
+    "Jumpshare",
     "Egnyte",
-    "Zapya",
+    "ShareFile",
     "Filestage",
-    "TransferNow",
-    "MyAirBridge",
+    "Send Anywhere",
     "Hightail",
-    "Pushbullet",
-    "Avica Remote Desktop"
+    "Internxt",
+    "InShare",
+    "Smash",
+    "BlueFiles",
+    "LockTransfer",
+    "TransferNow",
+    "NextSend"
   ]
 }

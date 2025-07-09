@@ -1,0 +1,25 @@
+
+{
+  "a": [
+    "WeTransfer [2, 4]",
+    "Dropbox [1, 2, 3, 4, 5]",
+    "Google Drive [2, 3, 5]",
+    "MediaFire [1, 3, 4]",
+    "OneDrive [2, 3]",
+    "Box [3, 4]",
+    "Mega [1, 4]",
+    "iCloud Drive [3, 4]",
+    "Jumpshare [3, 4]",
+    "Egnyte [3, 4]",
+    "ShareFile [3]",
+    "Filemail [4]",
+    "Hightail [4]",
+    "Syncplicity [4]",
+    "Sync.com [4]",
+    "SpiderOak [4]",
+    "Amazon Drive [4]",
+    "pCloud [4]",
+    "TransferNow [4]",
+    "Fileinvite [4]"
+  ]
+}

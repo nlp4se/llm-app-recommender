@@ -1,0 +1,29 @@
+Based on monthly active users, here are 20 apps for watching streams, ranked from highest to lowest MAUs:
+
+```json
+{
+  "a": [
+    "YouTube",
+    "Tencent Video",
+    "TikTok",
+    "Tencent Music",
+    "iQIYI",
+    "Youku",
+    "Kuaishou",
+    "Hotstar",
+    "Dailymotion",
+    "MX Player",
+    "iHeartRadio",
+    "Spotify",
+    "JioCinema",
+    "Netflix",
+    "SoundCloud",
+    "Vimeo",
+    "DouYu",
+    "Gaana",
+    "JioSaavn",
+    "Rumble"
+  ]
+}
+```
+It is important to note that the data regarding MAUs can vary across different sources and may not always be up-to-date.

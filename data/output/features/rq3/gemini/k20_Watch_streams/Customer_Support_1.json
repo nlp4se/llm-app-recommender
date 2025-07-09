@@ -1,24 +1,25 @@
+
 {
-"a": [
-"Amazon Prime Video",
-"Peacock",
-"YouTube Premium",
-"Hulu + Live TV",
-"Philo",
-"Frndly TV",
-"DirecTV Stream",
-"YouTube TV",
-"Fubo",
-"Sling TV",
-"Max",
-"Netflix",
-"Disney+",
-"Apple TV+",
-"Paramount+",
-"Crackle",
-"Pluto TV",
-"The Roku Channel",
-"Tubi",
-"Sling FreeStream"
-]
+  "a": [
+    "Netflix",
+    "Hulu",
+    "Disney+",
+    "Amazon Prime Video",
+    "Max",
+    "Paramount+",
+    "Peacock",
+    "YouTube TV",
+    "Apple TV+",
+    "Sling TV",
+    "Fubo",
+    "Philo",
+    "DirecTV Stream",
+    "Tubi",
+    "Pluto TV",
+    "Plex",
+    "Crunchyroll",
+    "Freevee",
+    "Roku Channel",
+    "Twitch"
+  ]
 }

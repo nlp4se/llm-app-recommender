@@ -1,25 +1,25 @@
 
 {
   "a": [
-    "Letterboxd",
     "IMDb",
+    "Letterboxd",
     "Moviebase",
-    "Criticker",
-    "MovieFone",
-    "YourNextFilm",
-    "FilmStory",
-    "Movie Pal",
-    "ReelSpeak",
-    "Roger Ebert",
-    "Rotten Tomatoes",
-    "Metacritic",
-    "Flico",
-    "Douban",
-    "DVDPedia",
-    "Filmgrail",
+    "Flick",
+    "Taste",
     "MovieLens",
-    "Surprise",
-    "LensKit",
-    "Turicreate"
+    "Coollector Movie Database",
+    "Criticker",
+    "Raters",
+    "Movie Pal",
+    "Movies by Flixster",
+    "Plugged In – Movie Reviews",
+    "Movie Reviews (Voice)",
+    "JustWatch",
+    "Trakt",
+    "MovieFone",
+    "FilmStory",
+    "Sofa",
+    "Watchworthy",
+    "Likewise"
   ]
 }

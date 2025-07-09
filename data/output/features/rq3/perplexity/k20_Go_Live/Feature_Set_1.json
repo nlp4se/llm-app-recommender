@@ -1,0 +1,24 @@
+{
+  "a": [
+    "Netflix",
+    "Amazon Prime Video",
+    "Disney+",
+    "Hulu",
+    "HBO Max",
+    "Peacock",
+    "Paramount+",
+    "Apple TV+",
+    "Sling TV",
+    "YouTube TV",
+    "Plex",
+    "Tubi",
+    "Max",
+    "ESPN+",
+    "Bravo (via Peacock)",
+    "Starz (via Plex)",
+    "Tidal (integration via Plex)",
+    "NBC (via Peacock)",
+    "Fox (early releases via some services)",
+    "Warner Brothers (early releases via some services)"
+  ]
+}

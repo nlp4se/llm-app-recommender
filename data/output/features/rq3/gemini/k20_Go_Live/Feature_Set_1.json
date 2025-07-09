@@ -1,0 +1,25 @@
+
+{
+  "a": [
+    "Twitch [1, 3, 6, 8]",
+    "YouTube Live [1, 3, 6, 8]",
+    "Facebook Live [1, 3, 6, 8]",
+    "Instagram Live [1, 6, 8]",
+    "TikTok [1, 6, 12]",
+    "StreamYard [3, 9, 11, 21]",
+    "Streamlabs [1, 4, 6, 10]",
+    "Vimeo Livestream [5, 6, 8, 11, 19]",
+    "Bigo Live [1]",
+    "YouNow [1, 6]",
+    "LiveMe [1, 6]",
+    "Dacast [3, 5, 21]",
+    "Muvi [5, 6, 10, 21]",
+    "Switcher Studio [4, 6, 25, 28]",
+    "Wirecast Go [4, 6]",
+    "BoxCast [4, 21]",
+    "Larix Broadcaster [4, 6]",
+    "OBS Studio [15, 26, 27, 28]",
+    "Kick.com [8, 21]",
+    "OnTheFly [5, 10]"
+  ]
+}

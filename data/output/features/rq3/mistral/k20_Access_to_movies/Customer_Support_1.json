@@ -2,24 +2,24 @@
 {
   "a": [
     "Netflix",
-    "Amazon Prime Video",
-    "Hulu",
     "Disney+",
+    "Hulu",
+    "Amazon Prime Video",
     "HBO Max",
     "Apple TV+",
-    "Paramount+",
     "Peacock",
-    "YouTube TV",
-    "Sling TV",
-    "FuboTV",
-    "Philo",
-    "Starz",
-    "Showtime",
-    "Epix",
-    "Cinemax",
-    "Mubi",
-    "Crackle",
+    "Paramount+",
+    "YouTube",
+    "Google Play Movies & TV",
+    "Vudu",
+    "FandangoNOW",
+    "Microsoft Movies & TV",
+    "iTunes Movies",
+    "Redbox",
+    "Movies Anywhere",
     "Tubi",
-    "Pluto TV"
+    "Pluto TV",
+    "Crackle",
+    "Popcornflix"
   ]
 }

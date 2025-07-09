@@ -2,24 +2,24 @@
 {
   "a": [
     "OfferUp",
-    "Letgo",
+    "letgo",
     "Poshmark",
     "Mercari",
-    "eBay",
     "Craigslist",
+    "eBay",
     "Facebook Marketplace",
     "Decluttr",
     "ThredUp",
+    "VarageSale",
+    "5miles",
+    "Wallapop",
     "Vinted",
     "Depop",
-    "Grailed",
     "Tradesy",
-    "The RealReal",
+    "Grailed",
     "Chairish",
-    "1stdibs",
-    "Etsy",
     "Ruby Lane",
     "Bonanza",
-    "eBid"
+    "Etsy"
   ]
 }

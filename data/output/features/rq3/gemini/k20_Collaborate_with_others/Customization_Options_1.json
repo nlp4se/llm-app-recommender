@@ -1,24 +1,25 @@
+
 {
   "a": [
-    "ClickUp",
-    "Monday.com",
-    "Notion",
-    "Trello",
-    "Asana",
-    "Slack",
-    "Microsoft Teams",
-    "Google Workspace",
-    "Miro",
-    "Boardmix",
-    "Jira",
     "Wrike",
     "Coda",
+    "Jira",
+    "Miro",
     "Airtable",
-    "Zoom",
-    "Quixy",
-    "Basecamp",
-    "Pumble",
+    "Trello",
+    "Asana",
+    "Monday.com",
+    "Knack",
     "Podio",
-    "Figma"
+    "Microsoft Teams",
+    "Slack",
+    "Google Workspace",
+    "GitHub",
+    "Help Scout",
+    "Jostle",
+    "Slab",
+    "Bit",
+    "TitanFile",
+    "Connecteam"
   ]
 }

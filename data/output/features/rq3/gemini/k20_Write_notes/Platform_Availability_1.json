@@ -1,25 +1,25 @@
 
 {
   "a": [
-    "Microsoft OneNote",
     "Evernote",
-    "Google Keep",
+    "Microsoft OneNote",
     "Notion",
-    "Obsidian",
+    "Google Keep",
     "Simplenote",
-    "Apple Notes",
+    "Obsidian",
     "Joplin",
-    "UpNote",
-    "Nimbus Note",
     "Standard Notes",
     "Bear",
-    "CollaNote",
-    "Goodnotes",
-    "Nebo",
-    "Notability",
-    "Workflowy",
+    "Upnote",
+    "ClickUp",
+    "Apple Notes",
+    "Supernote",
+    "Superlist",
+    "Craft",
+    "Boostnote",
     "RemNote",
-    "Supernotes",
-    "Zoho Notebook"
+    "Workflowy",
+    "Amplenote",
+    "Notesnook"
   ]
 }

@@ -1,0 +1,25 @@
+
+{
+  "a": [
+    "Facebook [1, 3, 8, 13, 14]",
+    "Instagram [1, 2, 3, 8, 11, 13, 14]",
+    "WhatsApp [1, 2, 3, 8, 15]",
+    "Messenger [1, 3, 15]",
+    "TikTok [1, 2, 3, 11, 14, 15]",
+    "Snapchat [1, 3, 8, 13]",
+    "Telegram [1, 2, 3]",
+    "Discord [1, 3, 7, 12]",
+    "Threads [1, 3, 12, 14]",
+    "Locket [5, 9]",
+    "BeReal [5, 9, 12]",
+    "Marco Polo [4]",
+    "GroupMe [6]",
+    "Airbuds [5]",
+    "Howbout [5]",
+    "HeyTell [4]",
+    "Cappucino [9]",
+    "ooVoo [6]",
+    "Skype [8]",
+    "Viber [8]"
+  ]
+}

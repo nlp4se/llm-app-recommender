@@ -1,0 +1,25 @@
+
+{
+  "a": [
+    "SimpleTexting [4, 5, 9, 15]",
+    "EZ Texting [1, 4, 7, 8, 15]",
+    "Textedly [1, 4, 5, 14]",
+    "SlickText [7, 8, 14, 15]",
+    "TextMagic [4, 5, 14, 15]",
+    "Hit Em Up [6, 23]",
+    "DialMyCalls [4, 22, 24]",
+    "Mobile Text Alerts [5]",
+    "ClickSend [5, 7, 10]",
+    "Sakari [1, 4, 5, 15]",
+    "Trumpia [7, 10]",
+    "Podium [4, 7, 8, 15]",
+    "Mailchimp [4, 13, 17, 19]",
+    "WhatsApp Business [3, 18]",
+    "Telegram [9, 18]",
+    "GroupMe [1, 3]",
+    "Slack [1, 3]",
+    "Microsoft Teams [1, 3, 28]",
+    "Google Chat [3, 28, 37]",
+    "Project Broadcast [33, 34]"
+  ]
+}

@@ -1,24 +1,25 @@
+
 {
   "a": [
     "eBay",
     "Facebook Marketplace",
-    "OfferUp",
-    "Poshmark",
-    "Depop",
-    "Mercari",
+    "Amazon",
     "Etsy",
-    "Tradesy",
-    "ThredUp",
-    "Letgo (OLX)",
-    "Grailed",
-    "GOAT",
-    "The RealReal",
-    "StockX",
-    "Chairish",
-    "Vinted",
+    "Poshmark",
+    "OfferUp",
+    "Mercari",
+    "Depop",
     "Vestiaire Collective",
-    "Reverb",
-    "Ruby Lane",
-    "Swappa"
+    "thredUP",
+    "Nextdoor",
+    "Craigslist",
+    "Chairish",
+    "AliExpress",
+    "Vinted",
+    "5miles",
+    "Decluttr",
+    "Vendoo",
+    "Shop",
+    "BlueCart"
   ]
 }
