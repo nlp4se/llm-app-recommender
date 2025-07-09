@@ -1,0 +1,35 @@
+================================================================================
+RANKING CRITERIA CONSISTENCY ANALYSIS TABLES
+================================================================================
+
+INTERNAL CONSISTENCY (Within each LLM)
+--------------------------------------------------
+Model | Criteria Count | Mean Similarity | Std Dev | Consistency Level
+--------------------------------------------------
+anthropic  |           866 |          0.231 |   0.155 | Low             
+gemini     |          1070 |          0.259 |   0.141 | Low             
+mistral    |          1066 |          0.372 |   0.174 | Medium          
+openai     |          1108 |          0.319 |   0.160 | Medium          
+perplexity |          1025 |          0.255 |   0.152 | Low             
+
+EXTERNAL CONSISTENCY (Between LLMs)
+--------------------------------------------------
+Model Pair | Mean Cross-Similarity | Std Dev | Consistency Level
+--------------------------------------------------
+anthropic-gemini     |                0.220 |   0.136 | Low             
+anthropic-mistral    |                0.257 |   0.146 | Low             
+anthropic-openai     |                0.243 |   0.142 | Low             
+anthropic-perplexity |                0.230 |   0.144 | Low             
+gemini-mistral    |                0.292 |   0.146 | Low             
+gemini-openai     |                0.280 |   0.145 | Low             
+gemini-perplexity |                0.251 |   0.140 | Low             
+mistral-openai     |                0.335 |   0.158 | Medium          
+mistral-perplexity |                0.286 |   0.147 | Low             
+openai-perplexity |                0.275 |   0.147 | Low             
+
+SUMMARY STATISTICS
+------------------------------
+Average Internal Consistency: 0.287
+Average External Consistency: 0.267
+Most Internally Consistent: mistral
+Most Externally Consistent Pair: mistral-openai

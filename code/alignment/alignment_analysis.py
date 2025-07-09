@@ -9,7 +9,7 @@ import os
 warnings.filterwarnings('ignore')
 
 # Global array of k values
-K_VALUES = [3, 10, 20]
+K_VALUES = [ 20]
 
 def rbo(list1, list2, p=0.9):
     """
@@ -74,14 +74,24 @@ class RBOAnalyzer:
         self.blind_df = self.blind_df.fillna('')
         self.guided_df = self.guided_df.fillna('')
         
+        # Replace underscores with spaces in ranking criteria names
+        self.guided_df['ranking_criteria'] = self.guided_df['ranking_criteria'].str.replace('_', ' ')
+        
         # Get unique models, features, and criteria - preserve order from input files
         self.models = self.blind_df['model'].unique()
         self.features = self.blind_df['feature'].unique()
+        # FIXED: Use the correct column name 'ranking_criteria' instead of 'prefix'
         self.criteria = self.guided_df['ranking_criteria'].unique()
         
         print(f"Found {len(self.models)} models: {self.models}")
         print(f"Found {len(self.features)} features: {self.features}")
         print(f"Found {len(self.criteria)} ranking criteria: {self.criteria}")
+        
+        # DEBUG: Print some sample data to understand the structure
+        print(f"\nBlind recommendations sample:")
+        print(self.blind_df.head(2))
+        print(f"\nGuided recommendations sample:")
+        print(self.guided_df.head(2))
         
     def get_ranked_lists(self, df, model, feature, k):
         """
@@ -111,11 +121,14 @@ class RBOAnalyzer:
                 blind_lists = self.get_ranked_lists(self.blind_df, model, feature, k)
                 
                 if not blind_lists:
+                    print(f"  No blind lists found for {model}, {feature}")
                     continue
+                
+                print(f"  Found {len(blind_lists)} blind lists for {model}, {feature}")
                 
                 # Calculate RBO for each ranking criteria
                 for criteria in self.criteria:
-                    # Filter guided lists by criteria
+                    # FIXED: Use the correct column name 'ranking_criteria' instead of 'prefix'
                     guided_criteria_df = self.guided_df[
                         (self.guided_df['model'] == model) & 
                         (self.guided_df['feature'] == feature) & 
@@ -123,12 +136,16 @@ class RBOAnalyzer:
                     ]
                     
                     if guided_criteria_df.empty:
+                        print(f"    No guided data found for {model}, {feature}, {criteria}")
                         continue
                     
                     guided_criteria_lists = self.get_ranked_lists(guided_criteria_df, model, feature, k)
                     
                     if not guided_criteria_lists:
+                        print(f"    No guided lists found for {model}, {feature}, {criteria}")
                         continue
+                    
+                    print(f"    Found {len(guided_criteria_lists)} guided lists for {model}, {feature}, {criteria}")
                     
                     # Calculate RBO between blind and guided lists
                     rbo_scores = []
@@ -147,6 +164,9 @@ class RBOAnalyzer:
                             'rbo': avg_rbo,
                             'num_comparisons': len(rbo_scores)
                         })
+                        print(f"      RBO: {avg_rbo:.3f} (n={len(rbo_scores)})")
+                    else:
+                        print(f"      No valid RBO calculations")
         
         # Create results DataFrame
         results_df = pd.DataFrame(results)
@@ -166,6 +186,7 @@ class RBOAnalyzer:
             
             for feature in self.features:
                 # Get guided recommendations for this criteria and feature, truncated to k
+                # FIXED: Use the correct column name 'ranking_criteria' instead of 'prefix'
                 guided_criteria_df = self.guided_df[
                     (self.guided_df['ranking_criteria'] == criteria) & 
                     (self.guided_df['feature'] == feature)
@@ -246,6 +267,7 @@ class RBOAnalyzer:
                         
                         for feature in self.features:
                             # Get recommendations for both criteria, truncated to k
+                            # FIXED: Use the correct column name 'ranking_criteria' instead of 'prefix'
                             guided1_df = self.guided_df[
                                 (self.guided_df['model'] == model) & 
                                 (self.guided_df['feature'] == feature) & 
@@ -302,40 +324,6 @@ class RBOAnalyzer:
         overall_df = pd.DataFrame(overall_matrix)
         
         return overall_df, model_results
-    
-    def analyze_for_k(self, k):
-        """
-        Run complete analysis for a specific k value and save results to a subfolder.
-        """
-        # Create subfolder for this k value
-        k_output_dir = self.output_dir / f'k{k}'
-        k_output_dir.mkdir(exist_ok=True)
-        
-        print(f"\n=== Analyzing correlation for k={k} ===")
-        
-        # Run all analyses for this k value
-        model_results = self.model_specific_analysis_for_k(k)
-        criteria_results = self.criteria_specific_analysis_for_k(k)
-        inter_criteria_results, model_inter_results = self.inter_criteria_analysis_for_k(k)
-        
-        # Save results
-        if not model_results.empty:
-            model_results.to_csv(k_output_dir / 'model_specific_rbo.csv', index=False)
-            self.plot_model_specific_rbo_for_k(model_results, k, k_output_dir)
-        
-        if not criteria_results.empty:
-            criteria_results.to_csv(k_output_dir / 'criteria_specific_rbo.csv', index=False)
-            self.plot_criteria_specific_rbo_for_k(criteria_results, k, k_output_dir)
-        
-        if not inter_criteria_results.empty:
-            inter_criteria_results.to_csv(k_output_dir / 'inter_criteria_rbo_overall.csv', index=False)
-            self.plot_inter_criteria_rbo_by_model_for_k(model_inter_results, k, k_output_dir)
-            self.plot_inter_criteria_rbo_overall_for_k(inter_criteria_results, k, k_output_dir)
-        
-        # Generate summary report for this k value
-        self.generate_summary_report_for_k(model_results, criteria_results, inter_criteria_results, k, k_output_dir)
-        
-        return model_results, criteria_results, inter_criteria_results
     
     def plot_model_specific_rbo_for_k(self, results_df, k, output_dir):
         """Create heatmap for model-specific RBO for a specific k value"""
@@ -411,16 +399,32 @@ class RBOAnalyzer:
             print(f"No data for criteria-specific RBO plot (k={k})")
             return
             
-        # Create figure with subplots - changed to 6 columns
+        # Create figure with subplots - optimized space usage
         n_criteria = len(results_df['criteria'].unique())
-        n_cols = 6
+        n_cols = 4
         n_rows = (n_criteria + n_cols - 1) // n_cols
         
-        fig, axes = plt.subplots(n_rows, n_cols, figsize=(24, 5*n_rows))
+        # Optimized figure size - reduced height multiplier
+        fig, axes = plt.subplots(n_rows, n_cols, figsize=(16, 4*n_rows))
         if n_rows == 1:
             axes = [axes] if n_cols == 1 else axes
         else:
             axes = axes.flatten()
+        
+        # Set font sizes for better readability (copied from app_consistency.py)
+        plt.rcParams.update({
+            'font.size': 12,
+            'axes.titlesize': 16,
+            'axes.labelsize': 14,
+            'xtick.labelsize': 12,
+            'ytick.labelsize': 12,
+            'legend.fontsize': 12,
+            'figure.titlesize': 18
+        })
+        
+        # Modern color palette
+        modern_colors = ['#2E86AB', '#A23B72', '#F18F01', '#C73E1D', '#7209B7', 
+                        '#3A0CA3', '#4361EE', '#4CC9F0', '#F72585', '#7209B7']
         
         for i, criteria in enumerate(sorted(results_df['criteria'].unique())):
             if i >= len(axes):
@@ -429,35 +433,41 @@ class RBOAnalyzer:
             ax = axes[i]
             criteria_data = results_df[results_df['criteria'] == criteria]
             
-            # Create box plot
-            sns.boxplot(data=criteria_data, x='model', y='rbo', ax=ax)
-            ax.set_title(f'{criteria}', fontsize=12)
-            ax.set_xlabel('Model')
-            ax.set_ylabel('RBO')
-            ax.tick_params(axis='x', rotation=45)
+            # Create box plot with modern colors
+            box_plot = sns.boxplot(data=criteria_data, x='model', y='rbo', ax=ax, 
+                                  palette=modern_colors[:len(criteria_data['model'].unique())])
+            
+            # Optimized title and labels - removed unnecessary elements
+            ax.set_title(f'{criteria}', fontsize=14, fontweight='bold', pad=10)
+            ax.set_ylabel('RBO', fontsize=12, fontweight='semibold')
+            
+            # Optimized tick parameters
+            ax.tick_params(axis='x', rotation=45, labelsize=10)
+            ax.tick_params(axis='y', labelsize=10)
             
             # Set y-axis limits to 0 and 1 for consistent scale
             ax.set_ylim(0, 1)
             
-            # Add mean points with 2 decimal places
+            # Add mean points with optimized size
             means = criteria_data.groupby('model')['rbo'].mean()
             for j, model in enumerate(means.index):
-                ax.scatter(j, means[model], color='red', s=50, zorder=5, marker='o')
-                # Add mean value annotation with 2 decimal places
+                ax.scatter(j, means[model], color='#FF6B6B', s=60, zorder=5, marker='o', 
+                          edgecolors='white', linewidth=1.0)
+                # Optimized annotation
                 ax.annotate(f'{means[model]:.2f}', 
                            (j, means[model]), 
                            xytext=(0, 10), 
                            textcoords='offset points', 
                            ha='center', 
-                           fontsize=8)
+                           fontsize=9, fontweight='bold',
+                           bbox=dict(boxstyle="round,pad=0.2", facecolor='white', alpha=0.8))
         
         # Hide empty subplots
         for i in range(len(results_df['criteria'].unique()), len(axes)):
             axes[i].set_visible(False)
         
-        plt.suptitle(f'Criteria-Specific RBO: Model Performance by Ranking Criteria (k={k})', 
-                    fontsize=16, y=0.98)
-        plt.tight_layout()
+        # Optimized layout
+        plt.tight_layout(pad=1.5)
         plt.savefig(output_dir / 'criteria_specific_rbo_boxplot.png', 
                    dpi=300, bbox_inches='tight')
         plt.close()
@@ -541,6 +551,111 @@ class RBOAnalyzer:
         plt.close()
         
         print(f"Overall inter-criteria RBO heatmap for k={k} saved to: {output_dir / 'inter_criteria_rbo_overall.png'}")
+    
+    def create_global_heatmap_grid(self, all_results, k, output_dir):
+        """
+        Create a global 3x2 grid figure with 5 model-specific heatmaps and 1 overall heatmap.
+        The overall heatmap is subtly highlighted.
+        """
+        if not all_results:
+            print(f"No data for global heatmap grid (k={k})")
+            return
+        
+        # Set font sizes for better readability (copied from app_consistency.py)
+        plt.rcParams.update({
+            'font.size': 12,
+            'axes.titlesize': 16,
+            'axes.labelsize': 14,
+            'xtick.labelsize': 12,
+            'ytick.labelsize': 12,
+            'legend.fontsize': 12,
+            'figure.titlesize': 18
+        })
+        
+        # Create 3x2 grid
+        fig, axes = plt.subplots(2, 3, figsize=(20, 12))
+        axes = axes.flatten()
+        
+        # Get model-specific results and overall results
+        model_results = all_results.get('model_results', {})
+        inter_criteria_results = all_results.get('inter_criteria_results', pd.DataFrame())
+        
+        # Plot first 5 model-specific heatmaps
+        model_count = 0
+        for i, (model, criteria_df) in enumerate(model_results.items()):
+            if model_count >= 5:  # Only plot first 5 models
+                break
+                
+            ax = axes[i]
+            
+            if not criteria_df.empty:
+                # Create heatmap for this model
+                sns.heatmap(
+                    criteria_df, 
+                    annot=True, 
+                    cmap='YlGnBu', 
+                    vmin=0, vmax=1,
+                    fmt='.2f',
+                    cbar=False,  # No colorbar for individual plots
+                    ax=ax,
+                    square=True,
+                    annot_kws={'size': 8}  # Smaller annotations for grid
+                )
+                
+                ax.set_title(f'{model}', fontsize=12, pad=10)
+                ax.set_xlabel('Ranking Criteria', fontsize=10)
+                ax.set_ylabel('Ranking Criteria', fontsize=10)
+                
+                # Rotate labels for better readability
+                ax.set_xticklabels(ax.get_xticklabels(), rotation=45, ha='right', fontsize=8)
+                ax.set_yticklabels(ax.get_yticklabels(), rotation=0, fontsize=8)
+            
+            model_count += 1
+        
+        # Plot overall heatmap in the last position (subtly highlighted)
+        ax = axes[5]
+        if not inter_criteria_results.empty:
+            # Create heatmap with subtle highlighting (slightly different color or border)
+            heatmap = sns.heatmap(
+                inter_criteria_results, 
+                annot=True, 
+                cmap='YlGnBu', 
+                vmin=0, vmax=1,
+                fmt='.2f',
+                cbar=True,  # Show colorbar for overall plot
+                ax=ax,
+                square=True,
+                annot_kws={'size': 8},
+                cbar_kws={'label': 'RBO Score', 'shrink': 0.8}
+            )
+            
+            # Subtle highlighting for overall heatmap
+            ax.set_title('OVERALL AVERAGE', fontsize=12, pad=10, fontweight='bold', 
+                        bbox=dict(boxstyle="round,pad=0.3", facecolor='lightblue', alpha=0.3))
+            ax.set_xlabel('Ranking Criteria', fontsize=10)
+            ax.set_ylabel('Ranking Criteria', fontsize=10)
+            
+            # Rotate labels for better readability
+            ax.set_xticklabels(ax.get_xticklabels(), rotation=45, ha='right', fontsize=8)
+            ax.set_yticklabels(ax.get_yticklabels(), rotation=0, fontsize=8)
+        
+        # Hide empty subplots if we have fewer than 5 models
+        for i in range(model_count, 5):
+            axes[i].set_visible(False)
+        
+        # Add overall title
+        fig.suptitle(f'Inter-Criteria RBO Analysis Grid (k={k})', fontsize=16, y=0.95)
+        
+        # Optimized layout
+        plt.tight_layout()
+        plt.subplots_adjust(top=0.9)  # Make room for suptitle
+        
+        # Save the figure
+        plt.savefig(output_dir / 'global_inter_criteria_rbo_grid.png', 
+                   dpi=300, bbox_inches='tight')
+        plt.close()
+        
+        print(f"Global inter-criteria RBO grid for k={k} saved to: {output_dir / 'global_inter_criteria_rbo_grid.png'}")
     
     def generate_summary_report_for_k(self, model_results, criteria_results, inter_criteria_results, k, output_dir):
         """Generate a comprehensive summary report for a specific k value"""
@@ -629,6 +744,45 @@ class RBOAnalyzer:
             f.write(report_text)
         
         print(f"Detailed report for k={k} saved to: {output_dir / 'rbo_analysis_report.txt'}")
+    
+    def analyze_for_k(self, k):
+        """
+        Run all three types of analysis for a specific k value and return results
+        """
+        print(f"\nRunning complete analysis for k={k}...")
+        
+        # Run model-specific analysis
+        model_results = self.model_specific_analysis_for_k(k)
+        
+        # Run criteria-specific analysis  
+        criteria_results = self.criteria_specific_analysis_for_k(k)
+        
+        # Run inter-criteria analysis
+        inter_criteria_results, model_inter_results = self.inter_criteria_analysis_for_k(k)
+        
+        # Create output directory for this k value
+        k_output_dir = self.output_dir / f'k{k}'
+        k_output_dir.mkdir(parents=True, exist_ok=True)
+        
+        # Generate plots and reports for this k value
+        if not model_results.empty:
+            self.plot_model_specific_rbo_for_k(model_results, k, k_output_dir)
+        
+        if not criteria_results.empty:
+            self.plot_criteria_specific_rbo_for_k(criteria_results, k, k_output_dir)
+        
+        if not inter_criteria_results.empty:
+            self.plot_inter_criteria_rbo_overall_for_k(inter_criteria_results, k, k_output_dir)
+            self.plot_inter_criteria_rbo_by_model_for_k(model_inter_results, k, k_output_dir)
+            self.create_global_heatmap_grid({
+                'model_results': model_inter_results,
+                'inter_criteria_results': inter_criteria_results
+            }, k, k_output_dir)
+        
+        # Generate summary report for this k value
+        self.generate_summary_report_for_k(model_results, criteria_results, inter_criteria_results, k, k_output_dir)
+        
+        return model_results, criteria_results, inter_criteria_results
     
     def run_analysis(self):
         """Run the complete RBO analysis for all k values"""

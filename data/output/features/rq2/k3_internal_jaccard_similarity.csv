@@ -1,0 +1,81 @@
+feature,model,jaccard
+Access to movies,anthropic,1.0
+Access to podcasts,anthropic,1.0
+Broadcast messages to multiple contacts,anthropic,0.7666666666666667
+Build photo collage,anthropic,0.45999999999999996
+Collaborate with others,anthropic,1.0
+Go Live,anthropic,0.9
+Keeping up with friends,anthropic,0.7466666666666668
+List items for sale,anthropic,0.9
+Photo effects,anthropic,0.9
+Play games,anthropic,1.0
+Play playlist on shuffle mode,anthropic,1.0
+Rate movies,anthropic,0.6444444444444445
+Search for offer on item,anthropic,0.8222222222222222
+Send files,anthropic,0.7044444444444444
+Watch streams,anthropic,0.9
+Write notes,anthropic,0.8222222222222222
+Access to movies,gemini,0.8400000000000003
+Access to podcasts,gemini,0.5733333333333334
+Broadcast messages to multiple contacts,gemini,0.17777777777777778
+Build photo collage,gemini,0.2422222222222222
+Collaborate with others,gemini,0.6
+Go Live,gemini,0.8044444444444445
+Keeping up with friends,gemini,0.5866666666666667
+List items for sale,gemini,0.7333333333333333
+Photo effects,gemini,0.49999999999999994
+Play games,gemini,0.08444444444444445
+Play playlist on shuffle mode,gemini,0.5
+Rate movies,gemini,0.8111111111111111
+Search for offer on item,gemini,0.22444444444444445
+Send files,gemini,0.7666666666666667
+Watch streams,gemini,0.3888888888888889
+Write notes,gemini,0.4755555555555555
+Access to movies,mistral,0.7
+Access to podcasts,mistral,1.0
+Broadcast messages to multiple contacts,mistral,1.0
+Build photo collage,mistral,0.7
+Collaborate with others,mistral,0.7333333333333333
+Go Live,mistral,1.0
+Keeping up with friends,mistral,0.7666666666666667
+List items for sale,mistral,1.0
+Photo effects,mistral,0.6555555555555556
+Play games,mistral,0.9
+Play playlist on shuffle mode,mistral,1.0
+Rate movies,mistral,1.0
+Search for offer on item,mistral,1.0
+Send files,mistral,0.6844444444444444
+Watch streams,mistral,1.0
+Write notes,mistral,1.0
+Access to movies,openai,1.0
+Access to podcasts,openai,1.0
+Broadcast messages to multiple contacts,openai,0.7666666666666667
+Build photo collage,openai,0.9
+Collaborate with others,openai,1.0
+Go Live,openai,0.8222222222222222
+Keeping up with friends,openai,0.6622222222222223
+List items for sale,openai,0.6
+Photo effects,openai,0.9
+Play games,openai,0.13555555555555557
+Play playlist on shuffle mode,openai,1.0
+Rate movies,openai,0.6799999999999999
+Search for offer on item,openai,0.5244444444444444
+Send files,openai,0.8
+Watch streams,openai,0.48666666666666664
+Write notes,openai,0.6066666666666667
+Access to movies,perplexity,1.0
+Access to podcasts,perplexity,0.7
+Broadcast messages to multiple contacts,perplexity,1.0
+Build photo collage,perplexity,0.3044444444444444
+Collaborate with others,perplexity,0.6777777777777778
+Go Live,perplexity,0.48444444444444446
+Keeping up with friends,perplexity,0.9
+List items for sale,perplexity,0.9
+Photo effects,perplexity,0.8
+Play games,perplexity,0.6533333333333333
+Play playlist on shuffle mode,perplexity,0.7666666666666667
+Rate movies,perplexity,0.54
+Search for offer on item,perplexity,0.9
+Send files,perplexity,0.6377777777777779
+Watch streams,perplexity,0.8111111111111111
+Write notes,perplexity,0.5599999999999999

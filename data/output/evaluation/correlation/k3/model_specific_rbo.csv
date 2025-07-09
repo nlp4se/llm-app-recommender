@@ -1,823 +1,1281 @@
 model,feature,criteria,rbo,num_comparisons
-openai,Access to movies,Ad_Free_Option,0.0,10
-openai,Access to movies,Ad_Frequency,0.0,10
-openai,Access to movies,Community_Engagement,0.0,10
-openai,Access to movies,Cost,0.0,10
-openai,Access to movies,Customer_Support,0.0,10
-openai,Access to movies,Customization_Options,0.0,10
-openai,Access to movies,Geographical_Availability,0.3774466841951504,10
-openai,Access to movies,Integration_Capabilities,0.0,10
-openai,Access to movies,Mobile_Optimization,0.0,10
-openai,Access to movies,Number_of_Downloads,1.0,10
-openai,Access to movies,Platform_Availability,0.8334794040315513,10
-openai,Access to movies,Platform_Compatibility,0.894536955886649,10
-openai,Access to movies,Privacy_and_Security,0.10546304411335086,10
-openai,Access to movies,Subscription_Cost,0.0,10
-openai,Access to movies,Update_Frequency,0.3774466841951504,10
-openai,Access to movies,User_Base,1.0,10
-openai,Access to movies,User_Interface_and_Ease_of_Use,0.7280163599182004,10
-openai,Access to movies,User_Ratings,0.4829097283085012,10
-openai,Access to movies,User_Reviews_and_Ratings,1.0,10
-openai,Access to podcasts,Ad_Free_Option,0.0,10
-openai,Access to podcasts,Ad_Frequency,0.0,10
-openai,Access to podcasts,Community_Engagement,0.0,10
-openai,Access to podcasts,Cost,0.21092608822670172,10
-openai,Access to podcasts,Customer_Support,0.0,10
-openai,Access to podcasts,Customization_Options,0.0,10
-openai,Access to podcasts,Geographical_Availability,0.0,10
-openai,Access to podcasts,Integration_Capabilities,0.0,10
-openai,Access to podcasts,Mobile_Optimization,0.10546304411335086,10
-openai,Access to podcasts,Number_of_Downloads,1.0,10
-openai,Access to podcasts,Platform_Availability,0.3774466841951504,10
-openai,Access to podcasts,Platform_Compatibility,1.0,10
-openai,Access to podcasts,Privacy_and_Security,0.0,10
-openai,Access to podcasts,Subscription_Cost,0.4829097283085012,10
-openai,Access to podcasts,Update_Frequency,0.0,10
-openai,Access to podcasts,User_Base,1.0,10
-openai,Access to podcasts,User_Interface_and_Ease_of_Use,0.0,10
-openai,Access to podcasts,User_Ratings,0.0,10
-openai,Access to podcasts,User_Reviews_and_Ratings,0.0,10
-openai,Broadcast messages to multiple contacts,Ad_Free_Option,0.0,10
-openai,Broadcast messages to multiple contacts,Ad_Frequency,0.4090855974291556,10
-openai,Broadcast messages to multiple contacts,Community_Engagement,0.0,10
-openai,Broadcast messages to multiple contacts,Cost,0.5423020742039146,10
-openai,Broadcast messages to multiple contacts,Customer_Support,0.5423020742039146,10
-openai,Broadcast messages to multiple contacts,Customization_Options,0.0738241308793456,10
-openai,Broadcast messages to multiple contacts,Geographical_Availability,0.8351446099912356,10
-openai,Broadcast messages to multiple contacts,Integration_Capabilities,0.0,10
-openai,Broadcast messages to multiple contacts,Mobile_Optimization,0.0,10
-openai,Broadcast messages to multiple contacts,Number_of_Downloads,0.10546304411335086,10
-openai,Broadcast messages to multiple contacts,Platform_Availability,0.5423020742039146,10
-openai,Broadcast messages to multiple contacts,Platform_Compatibility,0.5423020742039146,10
-openai,Broadcast messages to multiple contacts,Privacy_and_Security,0.03163891323400526,10
-openai,Broadcast messages to multiple contacts,Subscription_Cost,0.5423020742039146,10
-openai,Broadcast messages to multiple contacts,Update_Frequency,0.8928717499269645,10
-openai,Broadcast messages to multiple contacts,User_Base,0.3441425650014606,10
-openai,Broadcast messages to multiple contacts,User_Interface_and_Ease_of_Use,0.5106631609699094,10
-openai,Broadcast messages to multiple contacts,User_Ratings,0.4090855974291556,10
-openai,Broadcast messages to multiple contacts,User_Reviews_and_Ratings,0.5423020742039146,10
-openai,Build photo collage,Ad_Free_Option,0.010546304411335085,10
-openai,Build photo collage,Ad_Frequency,0.10546304411335086,10
-openai,Build photo collage,Community_Engagement,0.5790242477359041,10
-openai,Build photo collage,Cost,0.10546304411335086,10
-openai,Build photo collage,Customer_Support,0.010546304411335085,10
-openai,Build photo collage,Customization_Options,0.10546304411335086,10
-openai,Build photo collage,Geographical_Availability,0.67394098743792,10
-openai,Build photo collage,Integration_Capabilities,0.36690037978381534,10
-openai,Build photo collage,Mobile_Optimization,0.6929593923458953,10
-openai,Build photo collage,Number_of_Downloads,0.0,10
-openai,Build photo collage,Platform_Availability,0.4019573473561203,10
-openai,Build photo collage,Platform_Compatibility,0.36690037978381534,10
-openai,Build photo collage,Privacy_and_Security,0.010546304411335085,10
-openai,Build photo collage,Subscription_Cost,0.0,10
-openai,Build photo collage,Update_Frequency,0.010546304411335085,10
-openai,Build photo collage,User_Base,0.30704060765410457,10
-openai,Build photo collage,User_Interface_and_Ease_of_Use,0.10546304411335086,10
-openai,Build photo collage,User_Ratings,0.5874963482325446,10
-openai,Build photo collage,User_Reviews_and_Ratings,0.010546304411335085,10
-openai,Collaborate with others,Ad_Free_Option,0.27198364008179954,10
-openai,Collaborate with others,Ad_Frequency,0.0,10
-openai,Collaborate with others,Community_Engagement,0.894536955886649,10
-openai,Collaborate with others,Cost,0.894536955886649,10
-openai,Collaborate with others,Customer_Support,0.894536955886649,10
-openai,Collaborate with others,Customization_Options,0.0,10
-openai,Collaborate with others,Geographical_Availability,0.5439672801635991,10
-openai,Collaborate with others,Integration_Capabilities,0.8334794040315513,10
-openai,Collaborate with others,Mobile_Optimization,0.10546304411335086,10
-openai,Collaborate with others,Number_of_Downloads,0.3774466841951504,10
-openai,Collaborate with others,Platform_Availability,0.64943032427695,10
-openai,Collaborate with others,Platform_Compatibility,1.0,10
-openai,Collaborate with others,Privacy_and_Security,0.0,10
-openai,Collaborate with others,Subscription_Cost,0.3774466841951504,10
-openai,Collaborate with others,Update_Frequency,0.894536955886649,10
-openai,Collaborate with others,User_Base,0.0,10
-openai,Collaborate with others,User_Interface_and_Ease_of_Use,0.7280163599182004,10
-openai,Collaborate with others,User_Ratings,0.7280163599182004,10
-openai,Collaborate with others,User_Reviews_and_Ratings,0.7280163599182004,10
-openai,Go Live,Ad_Free_Option,0.0,10
-openai,Go Live,Ad_Frequency,0.0,10
-openai,Go Live,Community_Engagement,0.0,10
-openai,Go Live,Cost,0.054396728016359905,10
-openai,Go Live,Customer_Support,0.4318434122115103,10
-openai,Go Live,Customization_Options,0.0,10
-openai,Go Live,Geographical_Availability,0.0,10
-openai,Go Live,Integration_Capabilities,0.0,10
-openai,Go Live,Mobile_Optimization,0.3263803680981595,10
-openai,Go Live,Number_of_Downloads,0.94560327198364,10
-openai,Go Live,Platform_Availability,0.4318434122115103,10
-openai,Go Live,Platform_Compatibility,0.4318434122115103,10
-openai,Go Live,Privacy_and_Security,0.0,10
-openai,Go Live,Subscription_Cost,0.0,10
-openai,Go Live,Update_Frequency,0.0,10
-openai,Go Live,User_Base,0.0,10
-openai,Go Live,User_Interface_and_Ease_of_Use,0.0,10
-openai,Go Live,User_Ratings,0.02109260882267017,10
-openai,Go Live,User_Reviews_and_Ratings,0.0,10
-openai,Keeping up with friends,Ad_Free_Option,0.1877884896289804,10
-openai,Keeping up with friends,Ad_Frequency,0.0,10
-openai,Keeping up with friends,Community_Engagement,0.27198364008179954,10
-openai,Keeping up with friends,Cost,0.7911189015483494,10
-openai,Keeping up with friends,Customer_Support,0.7911189015483494,10
-openai,Keeping up with friends,Customization_Options,0.0,10
-openai,Keeping up with friends,Geographical_Availability,0.7911189015483494,10
-openai,Keeping up with friends,Integration_Capabilities,0.0,10
-openai,Keeping up with friends,Mobile_Optimization,0.7911189015483494,10
-openai,Keeping up with friends,Number_of_Downloads,0.02109260882267017,10
-openai,Keeping up with friends,Platform_Availability,0.7911189015483494,10
-openai,Keeping up with friends,Platform_Compatibility,0.2930762489044697,10
-openai,Keeping up with friends,Privacy_and_Security,0.1877884896289804,10
-openai,Keeping up with friends,Subscription_Cost,0.6579024247735904,10
-openai,Keeping up with friends,Update_Frequency,0.0,10
-openai,Keeping up with friends,User_Base,0.10546304411335086,10
-openai,Keeping up with friends,User_Interface_and_Ease_of_Use,0.0,10
-openai,Keeping up with friends,User_Ratings,0.0,10
-openai,Keeping up with friends,User_Reviews_and_Ratings,0.0,10
-openai,List items for sale,Ad_Free_Option,0.39658194566170024,10
-openai,List items for sale,Ad_Frequency,0.39658194566170024,10
-openai,List items for sale,Community_Engagement,0.10102249488752554,10
-openai,List items for sale,Cost,0.09658194566170024,10
-openai,List items for sale,Customer_Support,0.6799298860648554,10
-openai,List items for sale,Customization_Options,0.03774466841951504,10
-openai,List items for sale,Geographical_Availability,0.5983347940403154,10
-openai,List items for sale,Integration_Capabilities,0.0,10
-openai,List items for sale,Mobile_Optimization,0.0,10
-openai,List items for sale,Number_of_Downloads,0.10712825007303532,10
-openai,List items for sale,Platform_Availability,0.4914986853637161,10
-openai,List items for sale,Platform_Compatibility,0.3632778264680105,10
-openai,List items for sale,Privacy_and_Security,0.06327782646801051,10
-openai,List items for sale,Subscription_Cost,0.191498685363716,10
-openai,List items for sale,Update_Frequency,0.4323692667250949,10
-openai,List items for sale,User_Base,0.5114811568799298,10
-openai,List items for sale,User_Interface_and_Ease_of_Use,0.10712825007303532,10
-openai,List items for sale,User_Ratings,0.0,10
-openai,List items for sale,User_Reviews_and_Ratings,0.06327782646801051,10
-openai,Photo effects,Ad_Free_Option,0.7174700555068653,10
-openai,Photo effects,Ad_Frequency,0.7946245983055799,10
-openai,Photo effects,Community_Engagement,0.3002921413964358,10
-openai,Photo effects,Cost,0.7174700555068653,10
-openai,Photo effects,Customer_Support,0.6225533158048495,10
-openai,Photo effects,Customization_Options,0.6330996202161846,10
-openai,Photo effects,Geographical_Availability,0.10546304411335086,10
-openai,Photo effects,Integration_Capabilities,0.0,10
-openai,Photo effects,Mobile_Optimization,0.7280163599182004,10
-openai,Photo effects,Number_of_Downloads,0.010546304411335085,10
-openai,Photo effects,Platform_Availability,0.7946245983055799,10
-openai,Photo effects,Platform_Compatibility,0.8051709027169149,10
-openai,Photo effects,Privacy_and_Security,0.0,10
-openai,Photo effects,Subscription_Cost,0.0,10
-openai,Photo effects,Update_Frequency,0.18261758691206537,10
-openai,Photo effects,User_Base,0.0,10
-openai,Photo effects,User_Interface_and_Ease_of_Use,0.9228454572012856,10
-openai,Photo effects,User_Ratings,0.1720712825007303,10
-openai,Photo effects,User_Reviews_and_Ratings,0.8173824130879346,10
-openai,Play games,Ad_Free_Option,0.0,10
-openai,Play games,Ad_Frequency,0.0,10
-openai,Play games,Community_Engagement,0.0,10
-openai,Play games,Cost,0.0,10
-openai,Play games,Customer_Support,0.0,10
-openai,Play games,Customization_Options,0.0,10
-openai,Play games,Geographical_Availability,0.0,10
-openai,Play games,Integration_Capabilities,0.2490213263219398,10
-openai,Play games,Mobile_Optimization,0.0,10
-openai,Play games,Number_of_Downloads,0.0,10
-openai,Play games,Platform_Availability,0.0,10
-openai,Play games,Platform_Compatibility,0.0,10
-openai,Play games,Privacy_and_Security,0.0,10
-openai,Play games,Subscription_Cost,0.0,10
-openai,Play games,Update_Frequency,0.0,10
-openai,Play games,User_Base,0.0,10
-openai,Play games,User_Interface_and_Ease_of_Use,0.0,10
-openai,Play games,User_Ratings,0.0,10
-openai,Play games,User_Reviews_and_Ratings,0.0,10
-openai,Play playlist on shuffle mode,Ad_Free_Option,0.894536955886649,10
-openai,Play playlist on shuffle mode,Ad_Frequency,0.10546304411335086,10
-openai,Play playlist on shuffle mode,Community_Engagement,0.6225533158048495,10
-openai,Play playlist on shuffle mode,Cost,0.894536955886649,10
-openai,Play playlist on shuffle mode,Customer_Support,0.894536955886649,10
-openai,Play playlist on shuffle mode,Customization_Options,0.0,10
-openai,Play playlist on shuffle mode,Geographical_Availability,0.6225533158048495,10
-openai,Play playlist on shuffle mode,Integration_Capabilities,0.894536955886649,10
-openai,Play playlist on shuffle mode,Mobile_Optimization,0.894536955886649,10
-openai,Play playlist on shuffle mode,Number_of_Downloads,0.6225533158048495,10
-openai,Play playlist on shuffle mode,Platform_Availability,0.894536955886649,10
-openai,Play playlist on shuffle mode,Platform_Compatibility,0.894536955886649,10
-openai,Play playlist on shuffle mode,Privacy_and_Security,0.0,10
-openai,Play playlist on shuffle mode,Subscription_Cost,0.0,10
-openai,Play playlist on shuffle mode,Update_Frequency,0.894536955886649,10
-openai,Play playlist on shuffle mode,User_Base,0.6225533158048495,10
-openai,Play playlist on shuffle mode,User_Interface_and_Ease_of_Use,0.894536955886649,10
-openai,Play playlist on shuffle mode,User_Ratings,0.6225533158048495,10
-openai,Play playlist on shuffle mode,User_Reviews_and_Ratings,0.0,10
-openai,Rate movies,Ad_Free_Option,0.8673385918784691,10
-openai,Rate movies,Ad_Frequency,0.6541922290388549,10
-openai,Rate movies,Community_Engagement,0.7174700555068653,10
-openai,Rate movies,Cost,0.6541922290388549,10
-openai,Rate movies,Customer_Support,0.010546304411335085,10
-openai,Rate movies,Customization_Options,0.10546304411335086,10
-openai,Rate movies,Geographical_Availability,0.0,10
-openai,Rate movies,Integration_Capabilities,0.010546304411335085,10
-openai,Rate movies,Mobile_Optimization,0.6225533158048495,10
-openai,Rate movies,Number_of_Downloads,0.6225533158048495,10
-openai,Rate movies,Platform_Availability,0.6225533158048495,10
-openai,Rate movies,Platform_Compatibility,0.6225533158048495,10
-openai,Rate movies,Privacy_and_Security,0.6225533158048495,10
-openai,Rate movies,Subscription_Cost,0.6225533158048495,10
-openai,Rate movies,Update_Frequency,0.0,10
-openai,Rate movies,User_Base,0.8673385918784691,10
-openai,Rate movies,User_Interface_and_Ease_of_Use,0.6225533158048495,10
-openai,Rate movies,User_Ratings,0.7174700555068653,10
-openai,Rate movies,User_Reviews_and_Ratings,0.6225533158048495,10
-openai,Search for offer on item,Ad_Free_Option,0.010546304411335085,10
-openai,Search for offer on item,Ad_Frequency,0.0,10
-openai,Search for offer on item,Community_Engagement,0.027198364008179952,10
-openai,Search for offer on item,Cost,0.5874963482325446,10
-openai,Search for offer on item,Customer_Support,0.5602979842243646,10
-openai,Search for offer on item,Customization_Options,0.5708442886356997,10
-openai,Search for offer on item,Geographical_Availability,0.5602979842243646,10
-openai,Search for offer on item,Integration_Capabilities,0.5602979842243646,10
-openai,Search for offer on item,Mobile_Optimization,0.0,10
-openai,Search for offer on item,Number_of_Downloads,0.0,10
-openai,Search for offer on item,Platform_Availability,0.5602979842243646,10
-openai,Search for offer on item,Platform_Compatibility,0.5602979842243646,10
-openai,Search for offer on item,Privacy_and_Security,0.5602979842243646,10
-openai,Search for offer on item,Subscription_Cost,0.0,10
-openai,Search for offer on item,Update_Frequency,0.08945369558866492,10
-openai,Search for offer on item,User_Base,0.0,10
-openai,Search for offer on item,User_Interface_and_Ease_of_Use,0.2553315804849547,10
-openai,Search for offer on item,User_Ratings,0.5602979842243646,10
-openai,Search for offer on item,User_Reviews_and_Ratings,0.027198364008179952,10
-openai,Send files,Ad_Free_Option,0.0,10
-openai,Send files,Ad_Frequency,0.0,10
-openai,Send files,Community_Engagement,0.9,10
-openai,Send files,Cost,0.8050832602979842,10
-openai,Send files,Customer_Support,0.9,10
-openai,Send files,Customization_Options,0.0,10
-openai,Send files,Geographical_Availability,0.07280163599182003,10
-openai,Send files,Integration_Capabilities,0.8050832602979842,10
-openai,Send files,Mobile_Optimization,0.010546304411335085,10
-openai,Send files,Number_of_Downloads,0.1,10
-openai,Send files,Platform_Availability,0.9,10
-openai,Send files,Platform_Compatibility,0.9,10
-openai,Send files,Privacy_and_Security,0.0,10
-openai,Send files,Subscription_Cost,0.8050832602979842,10
-openai,Send files,Update_Frequency,0.010546304411335085,10
-openai,Send files,User_Base,0.010546304411335085,10
-openai,Send files,User_Interface_and_Ease_of_Use,0.9,10
-openai,Send files,User_Ratings,0.9,10
-openai,Send files,User_Reviews_and_Ratings,0.9,10
-openai,Watch streams,Ad_Free_Option,0.0,10
-openai,Watch streams,Ad_Frequency,0.0,10
-openai,Watch streams,Community_Engagement,0.19038854805725966,10
-openai,Watch streams,Cost,0.07992988606485538,10
-openai,Watch streams,Customer_Support,0.10546304411335086,10
-openai,Watch streams,Customization_Options,0.010546304411335085,10
-openai,Watch streams,Geographical_Availability,0.03774466841951504,10
-openai,Watch streams,Integration_Capabilities,0.19038854805725966,10
-openai,Watch streams,Mobile_Optimization,0.0738241308793456,10
-openai,Watch streams,Number_of_Downloads,0.027198364008179952,10
-openai,Watch streams,Platform_Availability,0.03774466841951504,10
-openai,Watch streams,Platform_Compatibility,0.03774466841951504,10
-openai,Watch streams,Privacy_and_Security,0.03774466841951504,10
-openai,Watch streams,Subscription_Cost,0.0,10
-openai,Watch streams,Update_Frequency,0.027198364008179952,10
-openai,Watch streams,User_Base,0.19038854805725966,10
-openai,Watch streams,User_Interface_and_Ease_of_Use,0.03774466841951504,10
-openai,Watch streams,User_Ratings,0.0,10
-openai,Watch streams,User_Reviews_and_Ratings,0.16430032135553607,10
-openai,Write notes,Ad_Free_Option,0.02109260882267017,10
-openai,Write notes,Ad_Frequency,0.037744668419515036,10
-openai,Write notes,Community_Engagement,0.29141104294478526,10
-openai,Write notes,Cost,0.46494303242769497,10
-openai,Write notes,Customer_Support,0.7175869120654397,10
-openai,Write notes,Customization_Options,0.11498685363716037,10
-openai,Write notes,Geographical_Availability,0.5237803096698802,10
-openai,Write notes,Integration_Capabilities,0.3757814782354659,10
-openai,Write notes,Mobile_Optimization,0.7281332164767748,10
-openai,Write notes,Number_of_Downloads,0.0,10
-openai,Write notes,Platform_Availability,0.4456032719836401,10
-openai,Write notes,Platform_Compatibility,0.6825299444931346,10
-openai,Write notes,Privacy_and_Security,0.0,10
-openai,Write notes,Subscription_Cost,0.0693835816535203,10
-openai,Write notes,Update_Frequency,0.7175869120654397,10
-openai,Write notes,User_Base,0.7281332164767748,10
-openai,Write notes,User_Interface_and_Ease_of_Use,0.32471516213847496,10
-openai,Write notes,User_Ratings,0.22044989775051124,10
-openai,Write notes,User_Reviews_and_Ratings,0.7281332164767748,10
-mistral,Access to movies,Ad_Free_Option,0.7174700555068653,10
-mistral,Access to movies,Ad_Frequency,0.7596552731522056,10
-mistral,Access to movies,Community_Engagement,0.0,10
-mistral,Access to movies,Cost,0.0,10
-mistral,Access to movies,Customer_Support,0.8173824130879345,10
-mistral,Access to movies,Customization_Options,0.0,10
-mistral,Access to movies,Geographical_Availability,0.8912065439672802,10
-mistral,Access to movies,Integration_Capabilities,0.8912065439672802,10
-mistral,Access to movies,Mobile_Optimization,0.8262635115395852,10
-mistral,Access to movies,Number_of_Downloads,0.8912065439672802,10
-mistral,Access to movies,Platform_Availability,0.8912065439672802,10
-mistral,Access to movies,Platform_Compatibility,0.8173824130879345,10
-mistral,Access to movies,Privacy_and_Security,0.7962898042652644,10
-mistral,Access to movies,Subscription_Cost,0.0,10
-mistral,Access to movies,Update_Frequency,0.7174700555068653,10
-mistral,Access to movies,User_Base,0.8579024247735905,10
-mistral,Access to movies,User_Interface_and_Ease_of_Use,0.7596552731522056,10
-mistral,Access to movies,User_Ratings,0.8173824130879345,10
-mistral,Access to movies,User_Reviews_and_Ratings,0.8912065439672802,10
-mistral,Access to podcasts,Ad_Free_Option,1.0,10
-mistral,Access to podcasts,Ad_Frequency,0.0,10
-mistral,Access to podcasts,Community_Engagement,0.894536955886649,10
-mistral,Access to podcasts,Cost,1.0,10
-mistral,Access to podcasts,Customer_Support,1.0,10
-mistral,Access to podcasts,Customization_Options,0.0,10
-mistral,Access to podcasts,Geographical_Availability,1.0,10
-mistral,Access to podcasts,Integration_Capabilities,1.0,10
-mistral,Access to podcasts,Mobile_Optimization,1.0,10
-mistral,Access to podcasts,Number_of_Downloads,1.0,10
-mistral,Access to podcasts,Platform_Availability,1.0,10
-mistral,Access to podcasts,Platform_Compatibility,1.0,10
-mistral,Access to podcasts,Privacy_and_Security,0.0,10
-mistral,Access to podcasts,Subscription_Cost,0.0,10
-mistral,Access to podcasts,Update_Frequency,1.0,10
-mistral,Access to podcasts,User_Base,1.0,10
-mistral,Access to podcasts,User_Interface_and_Ease_of_Use,1.0,10
-mistral,Access to podcasts,User_Ratings,1.0,10
-mistral,Access to podcasts,User_Reviews_and_Ratings,1.0,10
-mistral,Broadcast messages to multiple contacts,Ad_Free_Option,0.3774466841951504,10
-mistral,Broadcast messages to multiple contacts,Ad_Frequency,0.4829097283085012,10
-mistral,Broadcast messages to multiple contacts,Community_Engagement,1.0,10
-mistral,Broadcast messages to multiple contacts,Cost,0.3774466841951504,10
-mistral,Broadcast messages to multiple contacts,Customer_Support,1.0,10
-mistral,Broadcast messages to multiple contacts,Customization_Options,1.0,10
-mistral,Broadcast messages to multiple contacts,Geographical_Availability,1.0,10
-mistral,Broadcast messages to multiple contacts,Integration_Capabilities,0.3774466841951504,10
-mistral,Broadcast messages to multiple contacts,Mobile_Optimization,1.0,10
-mistral,Broadcast messages to multiple contacts,Number_of_Downloads,0.7280163599182004,10
-mistral,Broadcast messages to multiple contacts,Platform_Availability,1.0,10
-mistral,Broadcast messages to multiple contacts,Platform_Compatibility,1.0,10
-mistral,Broadcast messages to multiple contacts,Privacy_and_Security,0.4829097283085012,10
-mistral,Broadcast messages to multiple contacts,Subscription_Cost,1.0,10
-mistral,Broadcast messages to multiple contacts,Update_Frequency,1.0,10
-mistral,Broadcast messages to multiple contacts,User_Base,0.7280163599182004,10
-mistral,Broadcast messages to multiple contacts,User_Interface_and_Ease_of_Use,1.0,10
-mistral,Broadcast messages to multiple contacts,User_Ratings,1.0,10
-mistral,Broadcast messages to multiple contacts,User_Reviews_and_Ratings,1.0,10
-mistral,Build photo collage,Ad_Free_Option,0.9578147823546596,10
-mistral,Build photo collage,Ad_Frequency,0.9578147823546596,10
-mistral,Build photo collage,Community_Engagement,0.40908559742915573,10
-mistral,Build photo collage,Cost,0.40908559742915573,10
-mistral,Build photo collage,Customer_Support,0.9578147823546596,10
-mistral,Build photo collage,Customization_Options,0.2825299444931346,10
-mistral,Build photo collage,Geographical_Availability,0.9578147823546596,10
-mistral,Build photo collage,Integration_Capabilities,0.9578147823546596,10
-mistral,Build photo collage,Mobile_Optimization,0.9578147823546596,10
-mistral,Build photo collage,Number_of_Downloads,0.9050832602979841,10
-mistral,Build photo collage,Platform_Availability,0.9578147823546596,10
-mistral,Build photo collage,Platform_Compatibility,0.9578147823546596,10
-mistral,Build photo collage,Privacy_and_Security,0.9578147823546596,10
-mistral,Build photo collage,Subscription_Cost,0.40908559742915573,10
-mistral,Build photo collage,Update_Frequency,0.27198364008179954,10
-mistral,Build photo collage,User_Base,0.40908559742915573,10
-mistral,Build photo collage,User_Interface_and_Ease_of_Use,0.40908559742915573,10
-mistral,Build photo collage,User_Ratings,0.31416885772713987,10
-mistral,Build photo collage,User_Reviews_and_Ratings,0.9578147823546596,10
-mistral,Collaborate with others,Ad_Free_Option,0.6072451066316097,10
-mistral,Collaborate with others,Ad_Frequency,0.9578147823546596,10
-mistral,Collaborate with others,Community_Engagement,0.6072451066316097,10
-mistral,Collaborate with others,Cost,0.9367221735319895,10
-mistral,Collaborate with others,Customer_Support,0.9578147823546596,10
-mistral,Collaborate with others,Customization_Options,0.5439672801635991,10
-mistral,Collaborate with others,Geographical_Availability,0.3774466841951504,10
-mistral,Collaborate with others,Integration_Capabilities,0.9578147823546596,10
-mistral,Collaborate with others,Mobile_Optimization,0.9578147823546596,10
-mistral,Collaborate with others,Number_of_Downloads,0.9367221735319895,10
-mistral,Collaborate with others,Platform_Availability,0.9578147823546596,10
-mistral,Collaborate with others,Platform_Compatibility,0.9367221735319895,10
-mistral,Collaborate with others,Privacy_and_Security,0.0,10
-mistral,Collaborate with others,Subscription_Cost,0.3774466841951504,10
-mistral,Collaborate with others,Update_Frequency,0.9367221735319895,10
-mistral,Collaborate with others,User_Base,0.9367221735319895,10
-mistral,Collaborate with others,User_Interface_and_Ease_of_Use,0.6072451066316097,10
-mistral,Collaborate with others,User_Ratings,0.9367221735319895,10
-mistral,Collaborate with others,User_Reviews_and_Ratings,0.9367221735319895,10
-mistral,Go Live,Ad_Free_Option,0.5874963482325446,10
-mistral,Go Live,Ad_Frequency,0.5874963482325446,10
-mistral,Go Live,Community_Engagement,0.5874963482325446,10
-mistral,Go Live,Cost,0.5179666958808061,10
-mistral,Go Live,Customer_Support,0.0,10
-mistral,Go Live,Customization_Options,0.0,10
-mistral,Go Live,Geographical_Availability,0.3774466841951504,10
-mistral,Go Live,Integration_Capabilities,0.0,10
-mistral,Go Live,Mobile_Optimization,0.30704060765410457,10
-mistral,Go Live,Number_of_Downloads,0.3774466841951504,10
-mistral,Go Live,Platform_Availability,0.0,10
-mistral,Go Live,Platform_Compatibility,0.0,10
-mistral,Go Live,Privacy_and_Security,0.0,10
-mistral,Go Live,Subscription_Cost,0.0,10
-mistral,Go Live,Update_Frequency,0.41250365176745535,10
-mistral,Go Live,User_Base,0.41250365176745535,10
-mistral,Go Live,User_Interface_and_Ease_of_Use,0.30704060765410457,10
-mistral,Go Live,User_Ratings,0.0,10
-mistral,Go Live,User_Reviews_and_Ratings,0.684487291849255,10
-mistral,Keeping up with friends,Ad_Free_Option,0.10546304411335086,10
-mistral,Keeping up with friends,Ad_Frequency,0.10546304411335086,10
-mistral,Keeping up with friends,Community_Engagement,0.4013146362839614,10
-mistral,Keeping up with friends,Cost,0.18705813613789074,10
-mistral,Keeping up with friends,Customer_Support,0.8096114519427402,10
-mistral,Keeping up with friends,Customization_Options,0.0,10
-mistral,Keeping up with friends,Geographical_Availability,0.8096114519427402,10
-mistral,Keeping up with friends,Integration_Capabilities,0.8096114519427402,10
-mistral,Keeping up with friends,Mobile_Optimization,0.4013146362839614,10
-mistral,Keeping up with friends,Number_of_Downloads,0.8096114519427402,10
-mistral,Keeping up with friends,Platform_Availability,0.8096114519427402,10
-mistral,Keeping up with friends,Platform_Compatibility,0.8096114519427402,10
-mistral,Keeping up with friends,Privacy_and_Security,0.10546304411335086,10
-mistral,Keeping up with friends,Subscription_Cost,0.0,10
-mistral,Keeping up with friends,Update_Frequency,0.4013146362839614,10
-mistral,Keeping up with friends,User_Base,0.4013146362839614,10
-mistral,Keeping up with friends,User_Interface_and_Ease_of_Use,0.8096114519427402,10
-mistral,Keeping up with friends,User_Ratings,0.8096114519427402,10
-mistral,Keeping up with friends,User_Reviews_and_Ratings,0.8096114519427402,10
-mistral,List items for sale,Ad_Free_Option,0.0,10
-mistral,List items for sale,Ad_Frequency,0.27198364008179954,10
-mistral,List items for sale,Community_Engagement,0.10546304411335086,10
-mistral,List items for sale,Cost,0.3774466841951504,10
-mistral,List items for sale,Customer_Support,1.0,10
-mistral,List items for sale,Customization_Options,1.0,10
-mistral,List items for sale,Geographical_Availability,0.4829097283085012,10
-mistral,List items for sale,Integration_Capabilities,1.0,10
-mistral,List items for sale,Mobile_Optimization,0.0,10
-mistral,List items for sale,Number_of_Downloads,0.4829097283085012,10
-mistral,List items for sale,Platform_Availability,0.4829097283085012,10
-mistral,List items for sale,Platform_Compatibility,1.0,10
-mistral,List items for sale,Privacy_and_Security,0.10546304411335086,10
-mistral,List items for sale,Subscription_Cost,0.10546304411335086,10
-mistral,List items for sale,Update_Frequency,0.10546304411335086,10
-mistral,List items for sale,User_Base,0.4829097283085012,10
-mistral,List items for sale,User_Interface_and_Ease_of_Use,0.0,10
-mistral,List items for sale,User_Ratings,0.10546304411335086,10
-mistral,List items for sale,User_Reviews_and_Ratings,0.0,10
-mistral,Photo effects,Ad_Free_Option,0.28974583698510076,10
-mistral,Photo effects,Ad_Frequency,0.4485831142272859,10
-mistral,Photo effects,Community_Engagement,0.5335962605901255,10
-mistral,Photo effects,Cost,0.4485831142272859,10
-mistral,Photo effects,Customer_Support,0.48364008179959084,10
-mistral,Photo effects,Customization_Options,0.2081507449605609,10
-mistral,Photo effects,Geographical_Availability,0.25810692375109545,10
-mistral,Photo effects,Integration_Capabilities,0.48364008179959084,10
-mistral,Photo effects,Mobile_Optimization,0.5335962605901255,10
-mistral,Photo effects,Number_of_Downloads,0.5335962605901255,10
-mistral,Photo effects,Platform_Availability,0.4985392930178206,10
-mistral,Photo effects,Platform_Compatibility,0.48364008179959084,10
-mistral,Photo effects,Privacy_and_Security,0.2053754016944201,10
-mistral,Photo effects,Subscription_Cost,0.4485831142272859,10
-mistral,Photo effects,Update_Frequency,0.10546304411335086,10
-mistral,Photo effects,User_Base,0.2081507449605609,10
-mistral,Photo effects,User_Interface_and_Ease_of_Use,0.4985392930178206,10
-mistral,Photo effects,User_Ratings,0.48364008179959084,10
-mistral,Photo effects,User_Reviews_and_Ratings,0.28974583698510076,10
-mistral,Play games,Ad_Free_Option,0.10546304411335086,10
-mistral,Play games,Ad_Frequency,0.4557113643003213,10
-mistral,Play games,Community_Engagement,0.7446684195150453,10
-mistral,Play games,Cost,0.6225533158048495,10
-mistral,Play games,Customer_Support,0.0,10
-mistral,Play games,Customization_Options,0.35024832018697044,10
-mistral,Play games,Geographical_Availability,0.97280163599182,10
-mistral,Play games,Integration_Capabilities,0.0,10
-mistral,Play games,Mobile_Optimization,0.6497516798130295,10
-mistral,Play games,Number_of_Downloads,0.97280163599182,10
-mistral,Play games,Platform_Availability,0.4557113643003213,10
-mistral,Play games,Platform_Compatibility,0.4557113643003213,10
-mistral,Play games,Privacy_and_Security,0.0,10
-mistral,Play games,Subscription_Cost,0.10546304411335086,10
-mistral,Play games,Update_Frequency,0.6225533158048495,10
-mistral,Play games,User_Base,0.4557113643003213,10
-mistral,Play games,User_Interface_and_Ease_of_Use,0.4557113643003213,10
-mistral,Play games,User_Ratings,0.7280163599182004,10
-mistral,Play games,User_Reviews_and_Ratings,0.23812445223488163,10
-mistral,Play playlist on shuffle mode,Ad_Free_Option,0.894536955886649,10
-mistral,Play playlist on shuffle mode,Ad_Frequency,1.0,10
-mistral,Play playlist on shuffle mode,Community_Engagement,1.0,10
-mistral,Play playlist on shuffle mode,Cost,1.0,10
-mistral,Play playlist on shuffle mode,Customer_Support,1.0,10
-mistral,Play playlist on shuffle mode,Customization_Options,1.0,10
-mistral,Play playlist on shuffle mode,Geographical_Availability,0.894536955886649,10
-mistral,Play playlist on shuffle mode,Integration_Capabilities,1.0,10
-mistral,Play playlist on shuffle mode,Mobile_Optimization,1.0,10
-mistral,Play playlist on shuffle mode,Number_of_Downloads,1.0,10
-mistral,Play playlist on shuffle mode,Platform_Availability,1.0,10
-mistral,Play playlist on shuffle mode,Platform_Compatibility,1.0,10
-mistral,Play playlist on shuffle mode,Privacy_and_Security,0.0,10
-mistral,Play playlist on shuffle mode,Subscription_Cost,0.894536955886649,10
-mistral,Play playlist on shuffle mode,Update_Frequency,1.0,10
-mistral,Play playlist on shuffle mode,User_Base,1.0,10
-mistral,Play playlist on shuffle mode,User_Interface_and_Ease_of_Use,1.0,10
-mistral,Play playlist on shuffle mode,User_Ratings,1.0,10
-mistral,Play playlist on shuffle mode,User_Reviews_and_Ratings,1.0,10
-mistral,Rate movies,Ad_Free_Option,0.894536955886649,10
-mistral,Rate movies,Ad_Frequency,0.64943032427695,10
-mistral,Rate movies,Community_Engagement,1.0,10
-mistral,Rate movies,Cost,0.5439672801635991,10
-mistral,Rate movies,Customer_Support,1.0,10
-mistral,Rate movies,Customization_Options,1.0,10
-mistral,Rate movies,Geographical_Availability,1.0,10
-mistral,Rate movies,Integration_Capabilities,1.0,10
-mistral,Rate movies,Mobile_Optimization,1.0,10
-mistral,Rate movies,Number_of_Downloads,1.0,10
-mistral,Rate movies,Platform_Availability,1.0,10
-mistral,Rate movies,Platform_Compatibility,1.0,10
-mistral,Rate movies,Privacy_and_Security,0.5439672801635991,10
-mistral,Rate movies,Subscription_Cost,0.5439672801635991,10
-mistral,Rate movies,Update_Frequency,1.0,10
-mistral,Rate movies,User_Base,1.0,10
-mistral,Rate movies,User_Interface_and_Ease_of_Use,1.0,10
-mistral,Rate movies,User_Ratings,1.0,10
-mistral,Rate movies,User_Reviews_and_Ratings,1.0,10
-mistral,Search for offer on item,Ad_Free_Option,0.3774466841951504,10
-mistral,Search for offer on item,Ad_Frequency,1.0,10
-mistral,Search for offer on item,Community_Engagement,0.0,10
-mistral,Search for offer on item,Cost,0.0,10
-mistral,Search for offer on item,Customer_Support,0.0,10
-mistral,Search for offer on item,Customization_Options,0.3774466841951504,10
-mistral,Search for offer on item,Geographical_Availability,0.0,10
-mistral,Search for offer on item,Integration_Capabilities,0.3774466841951504,10
-mistral,Search for offer on item,Mobile_Optimization,0.0,10
-mistral,Search for offer on item,Number_of_Downloads,0.0,10
-mistral,Search for offer on item,Platform_Availability,1.0,10
-mistral,Search for offer on item,Platform_Compatibility,1.0,10
-mistral,Search for offer on item,Privacy_and_Security,0.0,10
-mistral,Search for offer on item,Subscription_Cost,0.0,10
-mistral,Search for offer on item,Update_Frequency,1.0,10
-mistral,Search for offer on item,User_Base,0.0,10
-mistral,Search for offer on item,User_Interface_and_Ease_of_Use,1.0,10
-mistral,Search for offer on item,User_Ratings,1.0,10
-mistral,Search for offer on item,User_Reviews_and_Ratings,1.0,10
-mistral,Send files,Ad_Free_Option,0.04829097283085012,10
-mistral,Send files,Ad_Frequency,0.03774466841951504,10
-mistral,Send files,Community_Engagement,0.0,10
-mistral,Send files,Cost,0.027198364008179952,10
-mistral,Send files,Customer_Support,0.8228454572012854,10
-mistral,Send files,Customization_Options,0.8228454572012854,10
-mistral,Send files,Geographical_Availability,0.0,10
-mistral,Send files,Integration_Capabilities,0.06225533158048495,10
-mistral,Send files,Mobile_Optimization,0.8228454572012854,10
-mistral,Send files,Number_of_Downloads,0.25200116856558574,10
-mistral,Send files,Platform_Availability,0.25200116856558574,10
-mistral,Send files,Platform_Compatibility,0.8228454572012854,10
-mistral,Send files,Privacy_and_Security,0.0,10
-mistral,Send files,Subscription_Cost,0.027198364008179952,10
-mistral,Send files,Update_Frequency,0.8228454572012854,10
-mistral,Send files,User_Base,0.0,10
-mistral,Send files,User_Interface_and_Ease_of_Use,0.25200116856558574,10
-mistral,Send files,User_Ratings,0.8228454572012854,10
-mistral,Send files,User_Reviews_and_Ratings,0.8228454572012854,10
-mistral,Watch streams,Ad_Free_Option,0.8112766579024248,10
-mistral,Watch streams,Ad_Frequency,0.1887233420975752,10
-mistral,Watch streams,Community_Engagement,0.4607069821793748,10
-mistral,Watch streams,Cost,0.0,10
-mistral,Watch streams,Customer_Support,0.4607069821793748,10
-mistral,Watch streams,Customization_Options,0.4607069821793748,10
-mistral,Watch streams,Geographical_Availability,0.8112766579024248,10
-mistral,Watch streams,Integration_Capabilities,0.9167397020157757,10
-mistral,Watch streams,Mobile_Optimization,0.4607069821793748,10
-mistral,Watch streams,Number_of_Downloads,0.9167397020157757,10
-mistral,Watch streams,Platform_Availability,0.9167397020157757,10
-mistral,Watch streams,Platform_Compatibility,0.9167397020157757,10
-mistral,Watch streams,Privacy_and_Security,0.0,10
-mistral,Watch streams,Subscription_Cost,0.0,10
-mistral,Watch streams,Update_Frequency,0.4607069821793748,10
-mistral,Watch streams,User_Base,0.9167397020157757,10
-mistral,Watch streams,User_Interface_and_Ease_of_Use,0.9167397020157757,10
-mistral,Watch streams,User_Ratings,0.5661700262927256,10
-mistral,Watch streams,User_Reviews_and_Ratings,0.9167397020157757,10
-mistral,Write notes,Ad_Free_Option,0.64943032427695,10
-mistral,Write notes,Ad_Frequency,0.5439672801635991,10
-mistral,Write notes,Community_Engagement,0.5439672801635991,10
-mistral,Write notes,Cost,0.21092608822670172,10
-mistral,Write notes,Customer_Support,0.5439672801635991,10
-mistral,Write notes,Customization_Options,0.5439672801635991,10
-mistral,Write notes,Geographical_Availability,0.7280163599182004,10
-mistral,Write notes,Integration_Capabilities,0.64943032427695,10
-mistral,Write notes,Mobile_Optimization,0.64943032427695,10
-mistral,Write notes,Number_of_Downloads,0.64943032427695,10
-mistral,Write notes,Platform_Availability,0.7280163599182004,10
-mistral,Write notes,Platform_Compatibility,0.7280163599182004,10
-mistral,Write notes,Privacy_and_Security,0.0,10
-mistral,Write notes,Subscription_Cost,0.10546304411335086,10
-mistral,Write notes,Update_Frequency,0.64943032427695,10
-mistral,Write notes,User_Base,0.7280163599182004,10
-mistral,Write notes,User_Interface_and_Ease_of_Use,0.64943032427695,10
-mistral,Write notes,User_Ratings,0.64943032427695,10
-mistral,Write notes,User_Reviews_and_Ratings,0.64943032427695,10
-gemini,Access to movies,Ad_Free_Option,0.6657610283377153,10
-gemini,Access to movies,Ad_Frequency,0.0,10
-gemini,Access to movies,Community_Engagement,0.0,10
-gemini,Access to movies,Customization_Options,0.0,10
-gemini,Access to movies,Geographical_Availability,0.6657610283377153,10
-gemini,Access to movies,Integration_Capabilities,0.6657610283377153,10
-gemini,Access to movies,Mobile_Optimization,0.7606777680397312,10
-gemini,Access to movies,Number_of_Downloads,0.6657610283377153,10
-gemini,Access to movies,Platform_Availability,0.6657610283377153,10
-gemini,Access to movies,Platform_Compatibility,0.9105463044113351,10
-gemini,Access to movies,Privacy_and_Security,0.0,10
-gemini,Access to movies,User_Base,0.6657610283377153,10
-gemini,Access to movies,User_Interface_and_Ease_of_Use,0.8156295647093194,10
-gemini,Access to movies,User_Ratings,0.9105463044113351,10
-gemini,Access to podcasts,Ad_Free_Option,0.22634466192748398,9
-gemini,Access to podcasts,Community_Engagement,0.046872464050378156,9
-gemini,Access to podcasts,Cost,0.6024280196059336,9
-gemini,Access to podcasts,Customization_Options,0.2917194144188009,9
-gemini,Access to podcasts,Geographical_Availability,0.2837017560943941,9
-gemini,Access to podcasts,Integration_Capabilities,0.544973544973545,9
-gemini,Access to podcasts,Mobile_Optimization,0.544973544973545,9
-gemini,Access to podcasts,Number_of_Downloads,0.4395105008601941,9
-gemini,Access to podcasts,Platform_Availability,0.6024280196059336,9
-gemini,Access to podcasts,Platform_Compatibility,0.36550134709643906,9
-gemini,Access to podcasts,User_Base,0.4395105008601941,9
-gemini,Access to podcasts,User_Interface_and_Ease_of_Use,0.5722076151524005,9
-gemini,Access to podcasts,User_Ratings,0.4123738111468172,9
-gemini,Broadcast messages to multiple contacts,Community_Engagement,0.0,6
-gemini,Broadcast messages to multiple contacts,Cost,0.04533060668029992,6
-gemini,Broadcast messages to multiple contacts,Customer_Support,0.0,6
-gemini,Broadcast messages to multiple contacts,Geographical_Availability,0.2981789852955497,6
-gemini,Broadcast messages to multiple contacts,Number_of_Downloads,0.19442009932807477,6
-gemini,Broadcast messages to multiple contacts,Platform_Availability,0.17406758204304215,6
-gemini,Broadcast messages to multiple contacts,Platform_Compatibility,0.3157561593144415,6
-gemini,Broadcast messages to multiple contacts,Subscription_Cost,0.20751777193494983,6
-gemini,Broadcast messages to multiple contacts,Update_Frequency,0.3157561593144415,6
-gemini,Broadcast messages to multiple contacts,User_Base,0.10375888596747491,6
-gemini,Broadcast messages to multiple contacts,User_Interface_and_Ease_of_Use,0.07030869607556724,6
-gemini,Broadcast messages to multiple contacts,User_Reviews_and_Ratings,0.07030869607556724,6
-gemini,Build photo collage,Ad_Free_Option,0.6034180543382998,10
-gemini,Build photo collage,Community_Engagement,0.2536663745252702,10
-gemini,Build photo collage,Cost,0.0,10
-gemini,Build photo collage,Customization_Options,0.21148115687992988,10
-gemini,Build photo collage,Platform_Availability,0.02109260882267017,10
-gemini,Build photo collage,Platform_Compatibility,0.07548933683903007,10
-gemini,Build photo collage,Privacy_and_Security,0.0738241308793456,10
-gemini,Build photo collage,Update_Frequency,0.14560327198364006,10
-gemini,Build photo collage,User_Interface_and_Ease_of_Use,0.16763073327490502,10
-gemini,Build photo collage,User_Ratings,0.3930762489044697,10
-gemini,Build photo collage,User_Reviews_and_Ratings,0.29214139643587494,10
-gemini,Collaborate with others,Community_Engagement,0.9016652059596844,10
-gemini,Collaborate with others,Cost,0.9016652059596844,10
-gemini,Collaborate with others,Customer_Support,0.0,10
-gemini,Collaborate with others,Geographical_Availability,0.8594799883143441,10
-gemini,Collaborate with others,Integration_Capabilities,0.9016652059596844,10
-gemini,Collaborate with others,Mobile_Optimization,0.8594799883143441,10
-gemini,Collaborate with others,Number_of_Downloads,0.9016652059596844,10
-gemini,Collaborate with others,Platform_Availability,0.9016652059596844,10
-gemini,Collaborate with others,Platform_Compatibility,0.8594799883143441,10
-gemini,Collaborate with others,Privacy_and_Security,0.3774466841951504,10
-gemini,Collaborate with others,Update_Frequency,0.9016652059596844,10
-gemini,Collaborate with others,User_Base,0.6212094653812444,10
-gemini,Collaborate with others,User_Interface_and_Ease_of_Use,0.5874963482325446,10
-gemini,Collaborate with others,User_Ratings,0.9016652059596844,10
-gemini,Collaborate with others,User_Reviews_and_Ratings,0.9016652059596844,10
-gemini,Go Live,Ad_Free_Option,0.6984370435290681,8
-gemini,Go Live,Cost,0.42645340344726845,8
-gemini,Go Live,Customer_Support,0.0,8
-gemini,Go Live,Customization_Options,0.0,8
-gemini,Go Live,Geographical_Availability,0.10546304411335085,8
-gemini,Go Live,Integration_Capabilities,0.0,8
-gemini,Go Live,Mobile_Optimization,0.0,8
-gemini,Go Live,Platform_Availability,0.5735465965527315,8
-gemini,Go Live,Platform_Compatibility,0.092280163599182,8
-gemini,Go Live,User_Interface_and_Ease_of_Use,0.0,8
-gemini,Go Live,User_Ratings,0.013182880514168856,8
-gemini,Go Live,User_Reviews_and_Ratings,0.7775343266140812,8
-gemini,Keeping up with friends,Ad_Free_Option,0.1887233420975752,10
-gemini,Keeping up with friends,Ad_Frequency,0.09491673970201576,10
-gemini,Keeping up with friends,Cost,0.37280163599182004,10
-gemini,Keeping up with friends,Geographical_Availability,0.5438504236050248,10
-gemini,Keeping up with friends,Integration_Capabilities,0.5931638913234005,10
-gemini,Keeping up with friends,Mobile_Optimization,0.5931638913234005,10
-gemini,Keeping up with friends,Number_of_Downloads,0.22480280455740576,10
-gemini,Keeping up with friends,Platform_Availability,0.0,10
-gemini,Keeping up with friends,Platform_Compatibility,0.6115687992988607,10
-gemini,Keeping up with friends,Privacy_and_Security,0.0,10
-gemini,Keeping up with friends,Update_Frequency,0.5432077125328658,10
-gemini,Keeping up with friends,User_Base,0.5438504236050248,10
-gemini,Keeping up with friends,User_Interface_and_Ease_of_Use,0.3289512123867952,10
-gemini,Keeping up with friends,User_Reviews_and_Ratings,0.4904761904761904,10
-gemini,List items for sale,Cost,0.0,10
-gemini,List items for sale,Customer_Support,0.9578147823546598,10
-gemini,List items for sale,Customization_Options,0.9578147823546598,10
-gemini,List items for sale,Geographical_Availability,0.31416885772713987,10
-gemini,List items for sale,Integration_Capabilities,0.3774466841951504,10
-gemini,List items for sale,Mobile_Optimization,0.9578147823546598,10
-gemini,List items for sale,Number_of_Downloads,0.9367221735319895,10
-gemini,List items for sale,Platform_Availability,0.9578147823546598,10
-gemini,List items for sale,Platform_Compatibility,0.9367221735319895,10
-gemini,List items for sale,Update_Frequency,0.68583114227286,10
-gemini,List items for sale,User_Base,0.6072451066316097,10
-gemini,List items for sale,User_Interface_and_Ease_of_Use,0.9578147823546598,10
-gemini,List items for sale,User_Ratings,0.9367221735319895,10
-gemini,List items for sale,User_Reviews_and_Ratings,0.9578147823546598,10
-gemini,Photo effects,Cost,0.3475606193397604,10
-gemini,Photo effects,Customization_Options,0.2791995325737657,10
-gemini,Photo effects,Geographical_Availability,0.0,10
-gemini,Photo effects,Integration_Capabilities,0.3475606193397604,10
-gemini,Photo effects,Mobile_Optimization,0.6176745544843704,10
-gemini,Photo effects,Platform_Availability,0.0,10
-gemini,Photo effects,Platform_Compatibility,0.3125036517674554,10
-gemini,Photo effects,Privacy_and_Security,0.22202746129126494,10
-gemini,Photo effects,Update_Frequency,0.6176745544843704,10
-gemini,Photo effects,User_Base,0.0,10
-gemini,Photo effects,User_Interface_and_Ease_of_Use,0.0,10
-gemini,Photo effects,User_Reviews_and_Ratings,0.3475606193397604,10
-gemini,Play games,Ad_Free_Option,0.010546304411335085,10
-gemini,Play games,Ad_Frequency,0.0,10
-gemini,Play games,Community_Engagement,0.04829097283085012,10
-gemini,Play games,Cost,0.0,10
-gemini,Play games,Customer_Support,0.010546304411335085,10
-gemini,Play games,Customization_Options,0.0,10
-gemini,Play games,Mobile_Optimization,0.04829097283085012,10
-gemini,Play games,Number_of_Downloads,0.27280163599182006,10
-gemini,Play games,Platform_Availability,0.03163891323400526,10
-gemini,Play games,Platform_Compatibility,0.08159509202453986,10
-gemini,Play games,Update_Frequency,0.16494303242769498,10
-gemini,Play games,User_Base,0.22895121238679522,10
-gemini,Play games,User_Interface_and_Ease_of_Use,0.03163891323400526,10
-gemini,Play games,User_Ratings,0.1438504236050248,10
-gemini,Play games,User_Reviews_and_Ratings,0.03163891323400526,10
-gemini,Play playlist on shuffle mode,Ad_Free_Option,0.0,9
-gemini,Play playlist on shuffle mode,Community_Engagement,0.27967669685461094,9
-gemini,Play playlist on shuffle mode,Cost,0.0,9
-gemini,Play playlist on shuffle mode,Customization_Options,0.0,9
-gemini,Play playlist on shuffle mode,Integration_Capabilities,0.5593533937092219,9
-gemini,Play playlist on shuffle mode,Mobile_Optimization,0.06537475249131691,9
-gemini,Play playlist on shuffle mode,Number_of_Downloads,0.6296620897847892,9
-gemini,Play playlist on shuffle mode,Platform_Availability,0.5926575129029117,9
-gemini,Play playlist on shuffle mode,Platform_Compatibility,0.27967669685461094,9
-gemini,Play playlist on shuffle mode,Subscription_Cost,0.5926575129029117,9
-gemini,Play playlist on shuffle mode,Update_Frequency,0.0,9
-gemini,Play playlist on shuffle mode,User_Base,0.2886356996786444,9
-gemini,Play playlist on shuffle mode,User_Interface_and_Ease_of_Use,0.0,9
-gemini,Play playlist on shuffle mode,User_Ratings,0.5926575129029117,9
-gemini,Play playlist on shuffle mode,User_Reviews_and_Ratings,0.27967669685461094,9
-gemini,Rate movies,Ad_Frequency,0.9087934560327197,10
-gemini,Rate movies,Community_Engagement,0.6246275197195442,10
-gemini,Rate movies,Cost,0.6140812153082091,10
-gemini,Rate movies,Customization_Options,0.6984516505988898,10
-gemini,Rate movies,Geographical_Availability,0.9087934560327197,10
-gemini,Rate movies,Integration_Capabilities,0.8349693251533742,10
-gemini,Rate movies,Mobile_Optimization,0.9087934560327197,10
-gemini,Rate movies,Platform_Availability,0.8244230207420392,10
-gemini,Rate movies,Platform_Compatibility,0.8244230207420392,10
-gemini,Rate movies,Update_Frequency,0.9087934560327197,10
-gemini,Rate movies,User_Base,0.8244230207420392,10
-gemini,Rate movies,User_Interface_and_Ease_of_Use,0.9087934560327197,10
-gemini,Rate movies,User_Ratings,0.6984516505988898,10
-gemini,Rate movies,User_Reviews_and_Ratings,0.9087934560327197,10
-gemini,Search for offer on item,Cost,0.17280163599182002,10
-gemini,Search for offer on item,Customization_Options,0.3615249780893953,10
-gemini,Search for offer on item,Geographical_Availability,0.31933976044405493,10
-gemini,Search for offer on item,Integration_Capabilities,0.35273152205667546,10
-gemini,Search for offer on item,Mobile_Optimization,0.17280163599182002,10
-gemini,Search for offer on item,Platform_Availability,0.29316389132340054,10
-gemini,Search for offer on item,Update_Frequency,0.35273152205667546,10
-gemini,Search for offer on item,User_Interface_and_Ease_of_Use,0.2921413964358749,10
-gemini,Search for offer on item,User_Ratings,0.0,10
-gemini,Search for offer on item,User_Reviews_and_Ratings,0.10268770084721004,10
-gemini,Send files,Ad_Free_Option,0.7095238095238094,10
-gemini,Send files,Cost,0.7411627227578148,10
-gemini,Send files,Customization_Options,0.7095238095238094,10
-gemini,Send files,Integration_Capabilities,0.5929593923458953,10
-gemini,Send files,Mobile_Optimization,0.0,10
-gemini,Send files,Number_of_Downloads,0.7095238095238094,10
-gemini,Send files,Platform_Availability,0.7061933976044404,10
-gemini,Send files,Platform_Compatibility,0.7411627227578148,10
-gemini,Send files,Privacy_and_Security,0.0,10
-gemini,Send files,Update_Frequency,0.3125036517674554,10
-gemini,Send files,User_Interface_and_Ease_of_Use,0.7061933976044404,10
-gemini,Send files,User_Ratings,0.7095238095238094,10
-gemini,Send files,User_Reviews_and_Ratings,0.8149868536371603,10
-gemini,Watch streams,Ad_Free_Option,0.0,10
-gemini,Watch streams,Ad_Frequency,0.0,10
-gemini,Watch streams,Community_Engagement,0.8340344726847795,10
-gemini,Watch streams,Cost,0.0,10
-gemini,Watch streams,Customization_Options,0.0,10
-gemini,Watch streams,Geographical_Availability,0.010546304411335085,10
-gemini,Watch streams,Integration_Capabilities,0.0,10
-gemini,Watch streams,Number_of_Downloads,0.010546304411335085,10
-gemini,Watch streams,Platform_Availability,0.010546304411335085,10
-gemini,Watch streams,Platform_Compatibility,0.8340344726847795,10
-gemini,Watch streams,Update_Frequency,0.8234881682734443,10
-gemini,Watch streams,User_Base,0.3474729769208296,10
-gemini,Watch streams,User_Interface_and_Ease_of_Use,0.010546304411335085,10
-gemini,Watch streams,User_Reviews_and_Ratings,0.8445807770961145,10
-gemini,Write notes,Ad_Free_Option,0.5096114519427403,10
-gemini,Write notes,Ad_Frequency,0.06327782646801051,10
-gemini,Write notes,Community_Engagement,0.12719836400817994,10
-gemini,Write notes,Cost,0.0,10
-gemini,Write notes,Customer_Support,0.4274028629856851,10
-gemini,Write notes,Customization_Options,0.17651183172655563,10
-gemini,Write notes,Integration_Capabilities,0.3958515921706106,10
-gemini,Write notes,Mobile_Optimization,0.4484954718083552,10
-gemini,Write notes,Platform_Availability,0.6938942448144901,10
-gemini,Write notes,Platform_Compatibility,0.6728016359918201,10
-gemini,Write notes,Privacy_and_Security,0.0,10
-gemini,Write notes,Update_Frequency,0.3958515921706106,10
-gemini,Write notes,User_Base,0.4484954718083552,10
-gemini,Write notes,User_Interface_and_Ease_of_Use,0.3958515921706106,10
-gemini,Write notes,User_Ratings,0.4484954718083552,10
-gemini,Write notes,User_Reviews_and_Ratings,0.6938942448144901,10
+anthropic,Access to movies,Cost,0.0,50
+anthropic,Access to movies,Customer Support,0.9300613496932516,50
+anthropic,Access to movies,Customization Options,0.0,50
+anthropic,Access to movies,Ease of Use,0.9833479404031553,50
+anthropic,Access to movies,Feature Set,0.9300613496932516,50
+anthropic,Access to movies,Geographical Availability,0.8501314636283962,50
+anthropic,Access to movies,Integration Capabilities,0.17002629272567923,50
+anthropic,Access to movies,In App Purchases,0.9567046450482033,50
+anthropic,Access to movies,Monthly Active Users,0.8035056967572305,50
+anthropic,Access to movies,Number of Downloads,0.8812153082091733,50
+anthropic,Access to movies,Platform Availability,0.9300613496932516,50
+anthropic,Access to movies,Security and Privacy,0.7600350569675723,50
+anthropic,Access to movies,Update Frequency,0.9833479404031553,50
+anthropic,Access to movies,User Base,0.8523517382413087,50
+anthropic,Access to movies,User Engagement,0.9322816243061642,50
+anthropic,Access to movies,User Ratings,0.9833479404031553,50
+anthropic,Access to podcasts,Cost,0.8965819456617001,50
+anthropic,Access to podcasts,Customer Support,1.0,50
+anthropic,Access to podcasts,Customization Options,0.0,50
+anthropic,Access to podcasts,Ease of Use,1.0,50
+anthropic,Access to podcasts,Feature Set,1.0,40
+anthropic,Access to podcasts,Geographical Availability,1.0,10
+anthropic,Access to podcasts,Integration Capabilities,1.0,10
+anthropic,Access to podcasts,In App Purchases,0.894536955886649,10
+anthropic,Access to podcasts,Monthly Active Users,0.894536955886649,10
+anthropic,Access to podcasts,Number of Downloads,1.0,10
+anthropic,Access to podcasts,Platform Availability,1.0,10
+anthropic,Access to podcasts,Security and Privacy,1.0,10
+anthropic,Access to podcasts,Update Frequency,1.0,10
+anthropic,Access to podcasts,User Base,1.0,10
+anthropic,Access to podcasts,User Engagement,1.0,10
+anthropic,Access to podcasts,User Ratings,1.0,10
+anthropic,Broadcast messages to multiple contacts,Cost,0.470318434122115,50
+anthropic,Broadcast messages to multiple contacts,Customer Support,0.9683610867659947,50
+anthropic,Broadcast messages to multiple contacts,Customization Options,0.8834823254455156,50
+anthropic,Broadcast messages to multiple contacts,Ease of Use,0.9683610867659947,50
+anthropic,Broadcast messages to multiple contacts,Feature Set,0.9683610867659947,50
+anthropic,Broadcast messages to multiple contacts,Geographical Availability,0.3458077709611451,50
+anthropic,Broadcast messages to multiple contacts,Integration Capabilities,0.0,50
+anthropic,Broadcast messages to multiple contacts,In App Purchases,0.9683610867659947,50
+anthropic,Broadcast messages to multiple contacts,Monthly Active Users,0.2977388255915863,50
+anthropic,Broadcast messages to multiple contacts,Number of Downloads,0.331042944785276,50
+anthropic,Broadcast messages to multiple contacts,Platform Availability,0.9683610867659947,50
+anthropic,Broadcast messages to multiple contacts,Security and Privacy,0.2791995325737657,50
+anthropic,Broadcast messages to multiple contacts,Update Frequency,0.9683610867659947,50
+anthropic,Broadcast messages to multiple contacts,User Base,0.3458077709611451,50
+anthropic,Broadcast messages to multiple contacts,User Engagement,0.9535962605901257,50
+anthropic,Broadcast messages to multiple contacts,User Ratings,0.9683610867659947,50
+anthropic,Build photo collage,Cost,0.6752848378615249,10
+anthropic,Build photo collage,Customer Support,0.7280163599182005,10
+anthropic,Build photo collage,Customization Options,0.4607069821793748,10
+anthropic,Build photo collage,Ease of Use,0.8112766579024248,10
+anthropic,Build photo collage,Feature Set,0.7280163599182005,10
+anthropic,Build photo collage,Geographical Availability,0.7280163599182005,10
+anthropic,Build photo collage,Integration Capabilities,0.6752848378615249,10
+anthropic,Build photo collage,In App Purchases,0.324715162138475,10
+anthropic,Build photo collage,Monthly Active Users,0.324715162138475,10
+anthropic,Build photo collage,Number of Downloads,0.324715162138475,10
+anthropic,Build photo collage,Platform Availability,0.7280163599182005,10
+anthropic,Build photo collage,Security and Privacy,0.324715162138475,10
+anthropic,Build photo collage,Update Frequency,0.7280163599182005,10
+anthropic,Build photo collage,User Base,0.324715162138475,10
+anthropic,Build photo collage,User Engagement,0.05273152205667543,10
+anthropic,Build photo collage,User Ratings,0.7901840490797546,10
+anthropic,Collaborate with others,Cost,0.7087934560327198,50
+anthropic,Collaborate with others,Customer Support,0.92988606485539,50
+anthropic,Collaborate with others,Customization Options,0.48086473853345013,50
+anthropic,Collaborate with others,Ease of Use,1.0,50
+anthropic,Collaborate with others,Feature Set,0.64943032427695,50
+anthropic,Collaborate with others,Geographical Availability,0.64943032427695,50
+anthropic,Collaborate with others,Integration Capabilities,0.9578147823546598,50
+anthropic,Collaborate with others,In App Purchases,0.0,50
+anthropic,Collaborate with others,Monthly Active Users,0.64943032427695,50
+anthropic,Collaborate with others,Number of Downloads,0.34414256500146073,50
+anthropic,Collaborate with others,Platform Availability,0.64943032427695,50
+anthropic,Collaborate with others,Security and Privacy,0.0,50
+anthropic,Collaborate with others,Update Frequency,0.8244230207420392,50
+anthropic,Collaborate with others,User Base,0.6318434122115103,50
+anthropic,Collaborate with others,User Engagement,0.8945369558866493,50
+anthropic,Collaborate with others,User Ratings,1.0,50
+anthropic,Go Live,Cost,0.6456324861232836,50
+anthropic,Go Live,Customer Support,0.05650598889862692,50
+anthropic,Go Live,Customization Options,0.0,50
+anthropic,Go Live,Ease of Use,0.6765585743499856,50
+anthropic,Go Live,Feature Set,0.2807478819748759,50
+anthropic,Go Live,Geographical Availability,0.6650306748466258,50
+anthropic,Go Live,Integration Capabilities,0.0,50
+anthropic,Go Live,In App Purchases,0.7663978965819456,50
+anthropic,Go Live,Monthly Active Users,0.6688927841075079,50
+anthropic,Go Live,Number of Downloads,0.7214782354659656,50
+anthropic,Go Live,Platform Availability,0.6222202746129126,50
+anthropic,Go Live,Security and Privacy,0.0,50
+anthropic,Go Live,Update Frequency,0.7721004966403738,50
+anthropic,Go Live,User Base,0.768150744960561,50
+anthropic,Go Live,User Engagement,0.7832719836400819,50
+anthropic,Go Live,User Ratings,0.6765585743499856,50
+anthropic,Keeping up with friends,Cost,0.5874963482325447,50
+anthropic,Keeping up with friends,Customer Support,0.5829447852760736,50
+anthropic,Keeping up with friends,Customization Options,0.1326614081215308,50
+anthropic,Keeping up with friends,Ease of Use,0.7505755185509787,50
+anthropic,Keeping up with friends,Feature Set,0.6235758106923751,50
+anthropic,Keeping up with friends,Geographical Availability,0.6383406368682443,50
+anthropic,Keeping up with friends,Integration Capabilities,0.3500555068653229,50
+anthropic,Keeping up with friends,In App Purchases,0.25821793748174116,50
+anthropic,Keeping up with friends,Monthly Active Users,0.6362313759859772,50
+anthropic,Keeping up with friends,Number of Downloads,0.685188431200701,50
+anthropic,Keeping up with friends,Platform Availability,0.5877183756938358,50
+anthropic,Keeping up with friends,Security and Privacy,0.05306456324861233,50
+anthropic,Keeping up with friends,Update Frequency,0.836897458369851,50
+anthropic,Keeping up with friends,User Base,0.734145486415425,50
+anthropic,Keeping up with friends,User Engagement,0.783102541630149,50
+anthropic,Keeping up with friends,User Ratings,0.5614899211218229,50
+anthropic,List items for sale,Cost,0.5938241308793457,50
+anthropic,List items for sale,Customer Support,0.3260239555945077,50
+anthropic,List items for sale,Customization Options,0.28359918200408996,50
+anthropic,List items for sale,Ease of Use,0.5712416009348524,50
+anthropic,List items for sale,Feature Set,0.6739409874379197,50
+anthropic,List items for sale,Geographical Availability,0.8594799883143444,50
+anthropic,List items for sale,Integration Capabilities,0.12281624306164182,50
+anthropic,List items for sale,In App Purchases,0.51075080338884,50
+anthropic,List items for sale,Monthly Active Users,0.8594799883143444,50
+anthropic,List items for sale,Number of Downloads,0.8784633362547473,50
+anthropic,List items for sale,Platform Availability,0.4647911189015483,50
+anthropic,List items for sale,Security and Privacy,0.29236342389716624,50
+anthropic,List items for sale,Update Frequency,0.49346187554776505,50
+anthropic,List items for sale,User Base,0.8261758691206543,50
+anthropic,List items for sale,User Engagement,0.8793222319602688,50
+anthropic,List items for sale,User Ratings,0.603949751679813,50
+anthropic,Photo effects,Cost,0.7813029506281041,50
+anthropic,Photo effects,Customer Support,0.4657201285422144,50
+anthropic,Photo effects,Customization Options,0.6769325153374233,50
+anthropic,Photo effects,Ease of Use,0.820268770084721,50
+anthropic,Photo effects,Feature Set,0.3774466841951504,10
+anthropic,Photo effects,Geographical Availability,0.10546304411335086,10
+anthropic,Photo effects,Integration Capabilities,0.9228454572012856,10
+anthropic,Photo effects,In App Purchases,0.3774466841951504,10
+anthropic,Photo effects,Monthly Active Users,0.0,10
+anthropic,Photo effects,Number of Downloads,0.10546304411335086,10
+anthropic,Photo effects,Platform Availability,0.3774466841951504,10
+anthropic,Photo effects,Security and Privacy,0.8895413380075958,10
+anthropic,Photo effects,Update Frequency,0.9228454572012856,10
+anthropic,Photo effects,User Base,0.0,10
+anthropic,Photo effects,User Engagement,0.0,10
+anthropic,Photo effects,User Ratings,0.8895413380075958,10
+anthropic,Play games,Cost,0.11802512416009348,50
+anthropic,Play games,Customer Support,0.04218521764534034,50
+anthropic,Play games,Customization Options,0.0,50
+anthropic,Play games,Ease of Use,0.0,50
+anthropic,Play games,Feature Set,0.0,50
+anthropic,Play games,Geographical Availability,0.0,50
+anthropic,Play games,Integration Capabilities,0.0,50
+anthropic,Play games,In App Purchases,0.0,50
+anthropic,Play games,Monthly Active Users,0.15968448729184925,50
+anthropic,Play games,Number of Downloads,0.0,50
+anthropic,Play games,Platform Availability,0.0,50
+anthropic,Play games,Security and Privacy,0.0,50
+anthropic,Play games,Update Frequency,0.03441425650014606,50
+anthropic,Play games,User Base,0.5454864154250657,50
+anthropic,Play games,User Engagement,0.23441425650014605,50
+anthropic,Play games,User Ratings,0.1457785568215016,50
+anthropic,Play playlist on shuffle mode,Cost,0.6044405492258252,50
+anthropic,Play playlist on shuffle mode,Customer Support,0.9833479404031551,50
+anthropic,Play playlist on shuffle mode,Customization Options,0.0,50
+anthropic,Play playlist on shuffle mode,Ease of Use,0.9833479404031551,50
+anthropic,Play playlist on shuffle mode,Feature Set,0.9833479404031551,50
+anthropic,Play playlist on shuffle mode,Geographical Availability,0.9833479404031551,50
+anthropic,Play playlist on shuffle mode,Integration Capabilities,0.962255331580485,50
+anthropic,Play playlist on shuffle mode,In App Purchases,0.9833479404031551,50
+anthropic,Play playlist on shuffle mode,Monthly Active Users,0.9833479404031551,50
+anthropic,Play playlist on shuffle mode,Number of Downloads,0.9300613496932516,50
+anthropic,Play playlist on shuffle mode,Platform Availability,0.9833479404031551,50
+anthropic,Play playlist on shuffle mode,Security and Privacy,0.7866783523225241,50
+anthropic,Play playlist on shuffle mode,Update Frequency,0.9833479404031551,50
+anthropic,Play playlist on shuffle mode,User Base,0.9567046450482033,50
+anthropic,Play playlist on shuffle mode,User Engagement,0.9833479404031552,20
+anthropic,Play playlist on shuffle mode,User Ratings,0.9833479404031552,10
+anthropic,Rate movies,Cost,0.7031784983932223,50
+anthropic,Rate movies,Customer Support,0.9261758691206543,50
+anthropic,Rate movies,Customization Options,0.5502950628104002,50
+anthropic,Rate movies,Ease of Use,0.8560619339760445,50
+anthropic,Rate movies,Feature Set,0.9135203038270524,50
+anthropic,Rate movies,Geographical Availability,0.9261758691206543,50
+anthropic,Rate movies,Integration Capabilities,0.8966462167689164,50
+anthropic,Rate movies,In App Purchases,0.8595676307332749,50
+anthropic,Rate movies,Monthly Active Users,0.7596552731522056,50
+anthropic,Rate movies,Number of Downloads,0.6954250657318142,50
+anthropic,Rate movies,Platform Availability,0.9135203038270524,50
+anthropic,Rate movies,Security and Privacy,0.5169909436167104,50
+anthropic,Rate movies,Update Frequency,0.9219573473561203,50
+anthropic,Rate movies,User Base,0.8262635115395852,50
+anthropic,Rate movies,User Engagement,0.9219573473561203,50
+anthropic,Rate movies,User Ratings,0.9261758691206543,50
+anthropic,Search for offer on item,Cost,0.9495997662868828,50
+anthropic,Search for offer on item,Customer Support,0.7318375693835816,50
+anthropic,Search for offer on item,Customization Options,0.962255331580485,50
+anthropic,Search for offer on item,Ease of Use,0.5773531989482911,50
+anthropic,Search for offer on item,Feature Set,0.962255331580485,50
+anthropic,Search for offer on item,Geographical Availability,0.5309494595384165,50
+anthropic,Search for offer on item,Integration Capabilities,0.962255331580485,50
+anthropic,Search for offer on item,In App Purchases,0.9074145486415426,50
+anthropic,Search for offer on item,Monthly Active Users,0.0,50
+anthropic,Search for offer on item,Number of Downloads,0.17979550102249486,50
+anthropic,Search for offer on item,Platform Availability,0.9495997662868828,50
+anthropic,Search for offer on item,Security and Privacy,0.0,50
+anthropic,Search for offer on item,Update Frequency,0.5478235465965529,50
+anthropic,Search for offer on item,User Base,0.0,50
+anthropic,Search for offer on item,User Engagement,0.9074145486415426,50
+anthropic,Search for offer on item,User Ratings,0.962255331580485,50
+anthropic,Send files,Cost,0.02775343266140812,50
+anthropic,Send files,Customer Support,0.42979842243645927,50
+anthropic,Send files,Customization Options,0.008437043529068067,50
+anthropic,Send files,Ease of Use,0.2977738825591586,50
+anthropic,Send files,Feature Set,0.7218463336254747,50
+anthropic,Send files,Geographical Availability,0.6448144902132631,50
+anthropic,Send files,Integration Capabilities,0.23205375401694422,50
+anthropic,Send files,In App Purchases,0.33526146654981004,50
+anthropic,Send files,Monthly Active Users,0.0,50
+anthropic,Send files,Number of Downloads,0.19589833479404034,50
+anthropic,Send files,Platform Availability,0.6498802220274612,50
+anthropic,Send files,Security and Privacy,0.0,50
+anthropic,Send files,Update Frequency,0.40766579024247734,50
+anthropic,Send files,User Base,0.0,50
+anthropic,Send files,User Engagement,0.18131463628396144,50
+anthropic,Send files,User Ratings,0.37366053169734154,50
+anthropic,Watch streams,Cost,0.10335378323108384,50
+anthropic,Watch streams,Customer Support,0.2200058428279287,50
+anthropic,Watch streams,Customization Options,0.0,50
+anthropic,Watch streams,Ease of Use,0.4861057551855098,50
+anthropic,Watch streams,Feature Set,0.8622553315804851,50
+anthropic,Watch streams,Geographical Availability,0.549219982471516,50
+anthropic,Watch streams,Integration Capabilities,0.8322816243061644,50
+anthropic,Watch streams,In App Purchases,0.937744668419515,50
+anthropic,Watch streams,Monthly Active Users,0.4890154834940111,50
+anthropic,Watch streams,Number of Downloads,0.46507157464212673,50
+anthropic,Watch streams,Platform Availability,0.5050891031259129,50
+anthropic,Watch streams,Security and Privacy,0.03354367513876716,50
+anthropic,Watch streams,Update Frequency,0.8550102249488754,50
+anthropic,Watch streams,User Base,0.4890154834940111,50
+anthropic,Watch streams,User Engagement,0.937744668419515,50
+anthropic,Watch streams,User Ratings,0.4291557113643002,50
+anthropic,Write notes,Cost,0.02109260882267017,50
+anthropic,Write notes,Customer Support,0.7069237510955301,50
+anthropic,Write notes,Customization Options,0.8945369558866493,50
+anthropic,Write notes,Ease of Use,0.09236342389716622,50
+anthropic,Write notes,Feature Set,0.9282851300029215,50
+anthropic,Write notes,Geographical Availability,0.619935728892784,50
+anthropic,Write notes,Integration Capabilities,0.9789073911773297,50
+anthropic,Write notes,In App Purchases,0.7069237510955301,50
+anthropic,Write notes,Monthly Active Users,0.7069237510955301,50
+anthropic,Write notes,Number of Downloads,0.08437043529068067,50
+anthropic,Write notes,Platform Availability,0.5824130879345603,50
+anthropic,Write notes,Security and Privacy,0.06327782646801051,50
+anthropic,Write notes,Update Frequency,0.8945369558866493,50
+anthropic,Write notes,User Base,0.10546304411335086,50
+anthropic,Write notes,User Engagement,0.8701139351446099,50
+anthropic,Write notes,User Ratings,0.857458369851008,50
+gemini,Access to movies,Cost,0.5750335962605901,50
+gemini,Access to movies,Customer Support,0.910546304411335,50
+gemini,Access to movies,Customization Options,0.546327782646801,50
+gemini,Access to movies,Ease of Use,0.6648437043529069,50
+gemini,Access to movies,Feature Set,0.8805725971370143,50
+gemini,Access to movies,Geographical Availability,0.7037277242185218,50
+gemini,Access to movies,Integration Capabilities,0.5239030090563833,50
+gemini,Access to movies,In App Purchases,0.4973707274320771,50
+gemini,Access to movies,Monthly Active Users,0.6026584867075663,50
+gemini,Access to movies,Number of Downloads,0.6788606485539,50
+gemini,Access to movies,Platform Availability,0.7795033596260589,50
+gemini,Access to movies,Security and Privacy,0.39286006427110715,50
+gemini,Access to movies,Update Frequency,0.8505988898626936,50
+gemini,Access to movies,User Base,0.6657610283377153,50
+gemini,Access to movies,User Engagement,0.7147180835524393,50
+gemini,Access to movies,User Ratings,0.7746654981010809,50
+gemini,Access to podcasts,Cost,0.5400759567630733,50
+gemini,Access to podcasts,Customer Support,0.39536079462459833,50
+gemini,Access to podcasts,Customization Options,0.47502191060473264,50
+gemini,Access to podcasts,Ease of Use,0.5223137598597721,50
+gemini,Access to podcasts,Feature Set,0.5409640666082384,50
+gemini,Access to podcasts,Geographical Availability,0.5482909728308502,50
+gemini,Access to podcasts,Integration Capabilities,0.535635407537248,50
+gemini,Access to podcasts,In App Purchases,0.39777972538708734,50
+gemini,Access to podcasts,Monthly Active Users,0.3982471516213848,50
+gemini,Access to podcasts,Number of Downloads,0.4359918200408998,50
+gemini,Access to podcasts,Platform Availability,0.5904761904761905,50
+gemini,Access to podcasts,Security and Privacy,0.19316389132340056,50
+gemini,Access to podcasts,Update Frequency,0.4455156295647093,50
+gemini,Access to podcasts,User Base,0.5061057551855099,50
+gemini,Access to podcasts,User Engagement,0.4710487876132048,50
+gemini,Access to podcasts,User Ratings,0.5252234881682734,50
+gemini,Broadcast messages to multiple contacts,Cost,0.12075956763073327,50
+gemini,Broadcast messages to multiple contacts,Customer Support,0.28965819456617,50
+gemini,Broadcast messages to multiple contacts,Customization Options,0.16250073035349108,50
+gemini,Broadcast messages to multiple contacts,Ease of Use,0.20603564125036514,50
+gemini,Broadcast messages to multiple contacts,Feature Set,0.2565235173824131,50
+gemini,Broadcast messages to multiple contacts,Geographical Availability,0.19013730645632482,50
+gemini,Broadcast messages to multiple contacts,Integration Capabilities,0.3072158924919661,50
+gemini,Broadcast messages to multiple contacts,In App Purchases,0.16649722465673386,50
+gemini,Broadcast messages to multiple contacts,Monthly Active Users,0.18560327198364007,50
+gemini,Broadcast messages to multiple contacts,Number of Downloads,0.27093777388255913,50
+gemini,Broadcast messages to multiple contacts,Platform Availability,0.18388548057259707,50
+gemini,Broadcast messages to multiple contacts,Security and Privacy,0.06075956763073327,50
+gemini,Broadcast messages to multiple contacts,Update Frequency,0.161075080338884,50
+gemini,Broadcast messages to multiple contacts,User Base,0.14082968156587788,50
+gemini,Broadcast messages to multiple contacts,User Engagement,0.21898334794040317,50
+gemini,Broadcast messages to multiple contacts,User Ratings,0.257207128250073,50
+gemini,Build photo collage,Cost,0.4304878761320479,50
+gemini,Build photo collage,Customer Support,0.312264095822378,50
+gemini,Build photo collage,Customization Options,0.4392404323692667,50
+gemini,Build photo collage,Ease of Use,0.40542214431784984,50
+gemini,Build photo collage,Feature Set,0.4055857434998538,50
+gemini,Build photo collage,Geographical Availability,0.15627811860940694,50
+gemini,Build photo collage,Integration Capabilities,0.11668711656441717,50
+gemini,Build photo collage,In App Purchases,0.2771837569383582,50
+gemini,Build photo collage,Monthly Active Users,0.1222436459246275,50
+gemini,Build photo collage,Number of Downloads,0.22599474145486412,50
+gemini,Build photo collage,Platform Availability,0.42823254455156295,50
+gemini,Build photo collage,Security and Privacy,0.11313467718375694,50
+gemini,Build photo collage,Update Frequency,0.4641191936897458,50
+gemini,Build photo collage,User Base,0.08414840782938943,50
+gemini,Build photo collage,User Engagement,0.18146654981010804,50
+gemini,Build photo collage,User Ratings,0.2661875547765118,50
+gemini,Collaborate with others,Cost,0.8847911189015485,50
+gemini,Collaborate with others,Customer Support,0.7128951212386795,50
+gemini,Collaborate with others,Customization Options,0.39230499561787907,50
+gemini,Collaborate with others,Ease of Use,0.8826818580192815,50
+gemini,Collaborate with others,Feature Set,0.8911189015483495,50
+gemini,Collaborate with others,Geographical Availability,0.7726088226701724,50
+gemini,Collaborate with others,Integration Capabilities,0.8594799883143444,50
+gemini,Collaborate with others,In App Purchases,0.7217470055506865,50
+gemini,Collaborate with others,Monthly Active Users,0.4875489336839029,50
+gemini,Collaborate with others,Number of Downloads,0.8932281624306165,50
+gemini,Collaborate with others,Platform Availability,0.6751037101957348,50
+gemini,Collaborate with others,Security and Privacy,0.26957639497516794,50
+gemini,Collaborate with others,Update Frequency,0.7620625182588373,50
+gemini,Collaborate with others,User Base,0.7810458661992405,50
+gemini,Collaborate with others,User Engagement,0.8594799883143444,50
+gemini,Collaborate with others,User Ratings,0.8890096406660826,50
+gemini,Go Live,Cost,0.5130353491089688,50
+gemini,Go Live,Customer Support,0.2657201285422144,50
+gemini,Go Live,Customization Options,0.037966695880806305,50
+gemini,Go Live,Ease of Use,0.4104586619924044,50
+gemini,Go Live,Feature Set,0.7265790242477359,50
+gemini,Go Live,Geographical Availability,0.42866491381828803,50
+gemini,Go Live,Integration Capabilities,0.018983347940403156,50
+gemini,Go Live,In App Purchases,0.628355243938066,50
+gemini,Go Live,Monthly Active Users,0.34181127665790234,50
+gemini,Go Live,Number of Downloads,0.4678761320479111,50
+gemini,Go Live,Platform Availability,0.653999415717207,50
+gemini,Go Live,Security and Privacy,0.0,50
+gemini,Go Live,Update Frequency,0.7679871457785568,50
+gemini,Go Live,User Base,0.4236283961437335,50
+gemini,Go Live,User Engagement,0.4645457201285421,50
+gemini,Go Live,User Ratings,0.7434531113058719,50
+gemini,Keeping up with friends,Cost,0.4390651475314052,50
+gemini,Keeping up with friends,Customer Support,0.5770084721004966,50
+gemini,Keeping up with friends,Customization Options,0.2825766871165644,50
+gemini,Keeping up with friends,Ease of Use,0.5152497808939528,50
+gemini,Keeping up with friends,Feature Set,0.5054688869412796,50
+gemini,Keeping up with friends,Geographical Availability,0.4974291557113642,50
+gemini,Keeping up with friends,Integration Capabilities,0.42646216768916156,50
+gemini,Keeping up with friends,In App Purchases,0.4182120946538124,50
+gemini,Keeping up with friends,Monthly Active Users,0.45848086473853344,50
+gemini,Keeping up with friends,Number of Downloads,0.3269997078586036,50
+gemini,Keeping up with friends,Platform Availability,0.4655156295647094,50
+gemini,Keeping up with friends,Security and Privacy,0.17480572597137012,50
+gemini,Keeping up with friends,Update Frequency,0.44940111013730644,50
+gemini,Keeping up with friends,User Base,0.46059012562080043,50
+gemini,Keeping up with friends,User Engagement,0.5300847210049663,50
+gemini,Keeping up with friends,User Ratings,0.45891323400525846,50
+gemini,List items for sale,Cost,0.9409406952965236,50
+gemini,List items for sale,Customer Support,0.7535962605901257,50
+gemini,List items for sale,Customization Options,0.7620333041191938,50
+gemini,List items for sale,Ease of Use,0.9535962605901257,50
+gemini,List items for sale,Feature Set,0.9578147823546598,50
+gemini,List items for sale,Geographical Availability,0.7831259129418637,50
+gemini,List items for sale,Integration Capabilities,0.2881449021326322,50
+gemini,List items for sale,In App Purchases,0.8865439672801636,50
+gemini,List items for sale,Monthly Active Users,0.5022261174408413,50
+gemini,List items for sale,Number of Downloads,0.7535962605901255,50
+gemini,List items for sale,Platform Availability,0.9578147823546598,50
+gemini,List items for sale,Security and Privacy,0.9240666082383874,50
+gemini,List items for sale,Update Frequency,0.9245106631609699,50
+gemini,List items for sale,User Base,0.7095062810400233,50
+gemini,List items for sale,User Engagement,0.9535962605901256,50
+gemini,List items for sale,User Ratings,0.9535962605901256,50
+gemini,Photo effects,Cost,0.3615483494011101,50
+gemini,Photo effects,Customer Support,0.3807829389424481,50
+gemini,Photo effects,Customization Options,0.2624306164183464,50
+gemini,Photo effects,Ease of Use,0.2576803973122992,50
+gemini,Photo effects,Feature Set,0.3998013438504235,50
+gemini,Photo effects,Geographical Availability,0.18092900964066608,50
+gemini,Photo effects,Integration Capabilities,0.32172947706690036,50
+gemini,Photo effects,In App Purchases,0.2818930762489045,50
+gemini,Photo effects,Monthly Active Users,0.07060473269062224,50
+gemini,Photo effects,Number of Downloads,0.09924627519719544,50
+gemini,Photo effects,Platform Availability,0.29403447268477945,50
+gemini,Photo effects,Security and Privacy,0.3333625474729769,50
+gemini,Photo effects,Update Frequency,0.2839146947122408,50
+gemini,Photo effects,User Base,0.2675197195442594,50
+gemini,Photo effects,User Engagement,0.29982471516213843,50
+gemini,Photo effects,User Ratings,0.31049956178790533,50
+gemini,Play games,Cost,0.08216768916155419,50
+gemini,Play games,Customer Support,0.012655565293602102,50
+gemini,Play games,Customization Options,0.0,50
+gemini,Play games,Ease of Use,0.08808647385334503,50
+gemini,Play games,Feature Set,0.0672158924919661,50
+gemini,Play games,Geographical Availability,0.20808647385334503,50
+gemini,Play games,Integration Capabilities,0.048290972830850126,50
+gemini,Play games,In App Purchases,0.19975460122699384,50
+gemini,Play games,Monthly Active Users,0.262255331580485,50
+gemini,Play games,Number of Downloads,0.189845165059889,50
+gemini,Play games,Platform Availability,0.006327782646801051,50
+gemini,Play games,Security and Privacy,0.02,50
+gemini,Play games,Update Frequency,0.14264680105170904,50
+gemini,Play games,User Base,0.25470639789658195,50
+gemini,Play games,User Engagement,0.242605901256208,50
+gemini,Play games,User Ratings,0.12965819456617,50
+gemini,Play playlist on shuffle mode,Cost,0.6138533450189892,50
+gemini,Play playlist on shuffle mode,Customer Support,0.42826760151913523,50
+gemini,Play playlist on shuffle mode,Customization Options,0.23030090563832892,50
+gemini,Play playlist on shuffle mode,Ease of Use,0.2307099035933392,50
+gemini,Play playlist on shuffle mode,Feature Set,0.254519427402863,50
+gemini,Play playlist on shuffle mode,Geographical Availability,0.5706690037978381,50
+gemini,Play playlist on shuffle mode,Integration Capabilities,0.6400525854513585,50
+gemini,Play playlist on shuffle mode,In App Purchases,0.6038621092608822,50
+gemini,Play playlist on shuffle mode,Monthly Active Users,0.5295939234589542,50
+gemini,Play playlist on shuffle mode,Number of Downloads,0.5052702307917031,50
+gemini,Play playlist on shuffle mode,Platform Availability,0.5133158048495472,50
+gemini,Play playlist on shuffle mode,Security and Privacy,0.2566871165644172,50
+gemini,Play playlist on shuffle mode,Update Frequency,0.2684545720128542,50
+gemini,Play playlist on shuffle mode,User Base,0.5890972830850132,50
+gemini,Play playlist on shuffle mode,User Engagement,0.6333917616126206,50
+gemini,Play playlist on shuffle mode,User Ratings,0.6008647385334501,50
+gemini,Rate movies,Cost,0.8034472684779433,50
+gemini,Rate movies,Customer Support,0.7911189015483495,50
+gemini,Rate movies,Customization Options,0.8349693251533743,50
+gemini,Rate movies,Ease of Use,0.8623897166228456,50
+gemini,Rate movies,Feature Set,0.7761437335670465,50
+gemini,Rate movies,Geographical Availability,0.8455156295647095,50
+gemini,Rate movies,Integration Capabilities,0.7865731814198074,50
+gemini,Rate movies,In App Purchases,0.6076657902424774,50
+gemini,Rate movies,Monthly Active Users,0.8498510078878178,50
+gemini,Rate movies,Number of Downloads,0.2703184341221151,50
+gemini,Rate movies,Platform Availability,0.8919193689745839,50
+gemini,Rate movies,Security and Privacy,0.6554367513876717,50
+gemini,Rate movies,Update Frequency,0.6760853052877593,50
+gemini,Rate movies,User Base,0.8602804557405785,50
+gemini,Rate movies,User Engagement,0.8940286298568509,50
+gemini,Rate movies,User Ratings,0.7497925796085306,50
+gemini,Search for offer on item,Cost,0.16584867075664622,50
+gemini,Search for offer on item,Customer Support,0.23460122699386507,50
+gemini,Search for offer on item,Customization Options,0.08440549225825299,50
+gemini,Search for offer on item,Ease of Use,0.19671048787613202,50
+gemini,Search for offer on item,Feature Set,0.269348524685948,50
+gemini,Search for offer on item,Geographical Availability,0.1040724510663161,50
+gemini,Search for offer on item,Integration Capabilities,0.1770201577563541,50
+gemini,Search for offer on item,In App Purchases,0.197890739117733,50
+gemini,Search for offer on item,Monthly Active Users,0.15141688577271398,50
+gemini,Search for offer on item,Number of Downloads,0.09739409874379197,50
+gemini,Search for offer on item,Platform Availability,0.21476482617586912,50
+gemini,Search for offer on item,Security and Privacy,0.1425007303534911,50
+gemini,Search for offer on item,Update Frequency,0.17302950628104002,50
+gemini,Search for offer on item,User Base,0.0710838445807771,50
+gemini,Search for offer on item,User Engagement,0.20318434122115103,50
+gemini,Search for offer on item,User Ratings,0.15352614665498102,50
+gemini,Send files,Cost,0.6002979842243648,50
+gemini,Send files,Customer Support,0.8149868536371604,50
+gemini,Send files,Customization Options,0.14190476190476192,50
+gemini,Send files,Ease of Use,0.7869003797838154,50
+gemini,Send files,Feature Set,0.738387379491674,50
+gemini,Send files,Geographical Availability,0.6538767163307041,50
+gemini,Send files,Integration Capabilities,0.7095238095238094,50
+gemini,Send files,In App Purchases,0.47278410750803396,50
+gemini,Send files,Monthly Active Users,0.7517090271691498,50
+gemini,Send files,Number of Downloads,0.35341513292433535,50
+gemini,Send files,Platform Availability,0.37306456324861237,50
+gemini,Send files,Security and Privacy,0.0,50
+gemini,Send files,Update Frequency,0.6830733274905053,50
+gemini,Send files,User Base,0.695617879053462,50
+gemini,Send files,User Engagement,0.6605725971370142,50
+gemini,Send files,User Ratings,0.7728016359918201,50
+gemini,Watch streams,Cost,0.29886649138182875,50
+gemini,Watch streams,Customer Support,0.14260590125620798,50
+gemini,Watch streams,Customization Options,0.140496640373941,50
+gemini,Watch streams,Ease of Use,0.012655565293602102,50
+gemini,Watch streams,Feature Set,0.46989190768331873,50
+gemini,Watch streams,Geographical Availability,0.140496640373941,50
+gemini,Watch streams,Integration Capabilities,0.6303710195734736,50
+gemini,Watch streams,In App Purchases,0.3357230499561787,50
+gemini,Watch streams,Monthly Active Users,0.18734443470639792,50
+gemini,Watch streams,Number of Downloads,0.3876774758983348,50
+gemini,Watch streams,Platform Availability,0.30097575226409584,50
+gemini,Watch streams,Security and Privacy,0.0021092608822670168,50
+gemini,Watch streams,Update Frequency,0.6324802804557406,50
+gemini,Watch streams,User Base,0.2051066316096991,50
+gemini,Watch streams,User Engagement,0.30641542506573183,50
+gemini,Watch streams,User Ratings,0.010546304411335085,50
+gemini,Write notes,Cost,0.5304586619924043,50
+gemini,Write notes,Customer Support,0.6770201577563542,50
+gemini,Write notes,Customization Options,0.18729769208296815,50
+gemini,Write notes,Ease of Use,0.5879754601226993,50
+gemini,Write notes,Feature Set,0.47767455448437046,50
+gemini,Write notes,Geographical Availability,0.6739117732982762,50
+gemini,Write notes,Integration Capabilities,0.4021618463336254,50
+gemini,Write notes,In App Purchases,0.3312883435582822,50
+gemini,Write notes,Monthly Active Users,0.6104002337131171,50
+gemini,Write notes,Number of Downloads,0.5466549810108091,50
+gemini,Write notes,Platform Availability,0.6221676891615542,50
+gemini,Write notes,Security and Privacy,0.0,50
+gemini,Write notes,Update Frequency,0.5330645632486123,50
+gemini,Write notes,User Base,0.5788606485539001,50
+gemini,Write notes,User Engagement,0.4775109553023663,50
+gemini,Write notes,User Ratings,0.5059304703476483,50
+mistral,Access to movies,Cost,0.0,50
+mistral,Access to movies,Customer Support,0.8374758983347941,50
+mistral,Access to movies,Customization Options,0.0,50
+mistral,Access to movies,Ease of Use,0.7911831726555653,50
+mistral,Access to movies,Feature Set,0.8564592462751972,50
+mistral,Access to movies,Geographical Availability,0.8739994157172072,50
+mistral,Access to movies,Integration Capabilities,0.8321472392638037,50
+mistral,Access to movies,In App Purchases,0.8764417177914112,50
+mistral,Access to movies,Monthly Active Users,0.8645632486123285,50
+mistral,Access to movies,Number of Downloads,0.8778848962898042,50
+mistral,Access to movies,Platform Availability,0.855016067776804,50
+mistral,Access to movies,Security and Privacy,0.8321472392638037,50
+mistral,Access to movies,Update Frequency,0.8782179374817412,50
+mistral,Access to movies,User Base,0.8452468594799882,50
+mistral,Access to movies,User Engagement,0.8304820333041192,50
+mistral,Access to movies,User Ratings,0.8592345895413379,50
+mistral,Access to podcasts,Cost,1.0,50
+mistral,Access to podcasts,Customer Support,0.8210926088226702,50
+mistral,Access to podcasts,Customization Options,0.0,50
+mistral,Access to podcasts,Ease of Use,0.8,50
+mistral,Access to podcasts,Feature Set,1.0,50
+mistral,Access to podcasts,Geographical Availability,1.0,50
+mistral,Access to podcasts,Integration Capabilities,1.0,50
+mistral,Access to podcasts,In App Purchases,1.0,50
+mistral,Access to podcasts,Monthly Active Users,1.0,50
+mistral,Access to podcasts,Number of Downloads,1.0,50
+mistral,Access to podcasts,Platform Availability,1.0,50
+mistral,Access to podcasts,Security and Privacy,0.0,50
+mistral,Access to podcasts,Update Frequency,1.0,50
+mistral,Access to podcasts,User Base,1.0,50
+mistral,Access to podcasts,User Engagement,1.0,50
+mistral,Access to podcasts,User Ratings,1.0,50
+mistral,Broadcast messages to multiple contacts,Cost,1.0,50
+mistral,Broadcast messages to multiple contacts,Customer Support,1.0,50
+mistral,Broadcast messages to multiple contacts,Customization Options,1.0,50
+mistral,Broadcast messages to multiple contacts,Ease of Use,1.0,50
+mistral,Broadcast messages to multiple contacts,Feature Set,1.0,50
+mistral,Broadcast messages to multiple contacts,Geographical Availability,0.94560327198364,50
+mistral,Broadcast messages to multiple contacts,Integration Capabilities,1.0,50
+mistral,Broadcast messages to multiple contacts,In App Purchases,0.3141688577271399,50
+mistral,Broadcast messages to multiple contacts,Monthly Active Users,0.6225533158048496,50
+mistral,Broadcast messages to multiple contacts,Number of Downloads,0.7824130879345603,50
+mistral,Broadcast messages to multiple contacts,Platform Availability,1.0,50
+mistral,Broadcast messages to multiple contacts,Security and Privacy,0.4829097283085013,50
+mistral,Broadcast messages to multiple contacts,Update Frequency,1.0,50
+mistral,Broadcast messages to multiple contacts,User Base,0.6858311422728601,50
+mistral,Broadcast messages to multiple contacts,User Engagement,1.0,50
+mistral,Broadcast messages to multiple contacts,User Ratings,1.0,50
+mistral,Build photo collage,Cost,0.21847502191060475,50
+mistral,Build photo collage,Customer Support,0.9346129126497226,50
+mistral,Build photo collage,Customization Options,0.7662518258837278,50
+mistral,Build photo collage,Ease of Use,0.34625182588372766,50
+mistral,Build photo collage,Feature Set,0.6159217061057551,50
+mistral,Build photo collage,Geographical Availability,0.9451592170610575,50
+mistral,Build photo collage,Integration Capabilities,0.8016652059596845,50
+mistral,Build photo collage,In App Purchases,0.7662518258837278,50
+mistral,Build photo collage,Monthly Active Users,0.36690037978381534,50
+mistral,Build photo collage,Number of Downloads,0.9135203038270524,50
+mistral,Build photo collage,Platform Availability,0.9514869997078589,50
+mistral,Build photo collage,Security and Privacy,0.31556529360210345,50
+mistral,Build photo collage,Update Frequency,0.7578147823546595,50
+mistral,Build photo collage,User Base,0.38799298860648546,50
+mistral,Build photo collage,User Engagement,0.4100379783815366,50
+mistral,Build photo collage,User Ratings,0.27242769500438213,50
+mistral,Collaborate with others,Cost,0.8877008472100496,50
+mistral,Collaborate with others,Customer Support,0.9578147823546598,50
+mistral,Collaborate with others,Customization Options,0.8877008472100496,50
+mistral,Collaborate with others,Ease of Use,0.8708267601519136,50
+mistral,Collaborate with others,Feature Set,0.9578147823546598,50
+mistral,Collaborate with others,Geographical Availability,0.9367221735319896,50
+mistral,Collaborate with others,Integration Capabilities,0.9578147823546598,50
+mistral,Collaborate with others,In App Purchases,0.9451592170610575,50
+mistral,Collaborate with others,Monthly Active Users,0.9367221735319896,50
+mistral,Collaborate with others,Number of Downloads,0.8701139351446099,50
+mistral,Collaborate with others,Platform Availability,0.9451592170610575,50
+mistral,Collaborate with others,Security and Privacy,0.0,50
+mistral,Collaborate with others,Update Frequency,0.9578147823546598,50
+mistral,Collaborate with others,User Base,0.9367221735319896,50
+mistral,Collaborate with others,User Engagement,0.8792638036809817,50
+mistral,Collaborate with others,User Ratings,0.9367221735319896,50
+mistral,Go Live,Cost,0.0,50
+mistral,Go Live,Customer Support,0.0,50
+mistral,Go Live,Customization Options,0.21758691206543965,50
+mistral,Go Live,Ease of Use,0.32112182296231373,50
+mistral,Go Live,Feature Set,0.7384750219106047,50
+mistral,Go Live,Geographical Availability,0.3774466841951504,50
+mistral,Go Live,Integration Capabilities,0.0,50
+mistral,Go Live,In App Purchases,0.0,50
+mistral,Go Live,Monthly Active Users,0.3774466841951504,50
+mistral,Go Live,Number of Downloads,0.3774466841951504,50
+mistral,Go Live,Platform Availability,0.10359333917616124,50
+mistral,Go Live,Security and Privacy,0.0,50
+mistral,Go Live,Update Frequency,0.38439964943032423,50
+mistral,Go Live,User Base,0.4054922582529943,50
+mistral,Go Live,User Engagement,0.3774466841951504,50
+mistral,Go Live,User Ratings,0.0,50
+mistral,Keeping up with friends,Cost,0.6578381536663744,50
+mistral,Keeping up with friends,Customer Support,0.7932924335378323,50
+mistral,Keeping up with friends,Customization Options,0.0,50
+mistral,Keeping up with friends,Ease of Use,0.8096114519427402,50
+mistral,Keeping up with friends,Feature Set,0.4829739994157173,50
+mistral,Keeping up with friends,Geographical Availability,0.8096114519427402,50
+mistral,Keeping up with friends,Integration Capabilities,0.8096114519427402,50
+mistral,Keeping up with friends,In App Purchases,0.40131463628396147,50
+mistral,Keeping up with friends,Monthly Active Users,0.40131463628396147,50
+mistral,Keeping up with friends,Number of Downloads,0.4829739994157173,50
+mistral,Keeping up with friends,Platform Availability,0.8096114519427402,50
+mistral,Keeping up with friends,Security and Privacy,0.23867952088810981,50
+mistral,Keeping up with friends,Update Frequency,0.40131463628396147,50
+mistral,Keeping up with friends,User Base,0.40131463628396147,50
+mistral,Keeping up with friends,User Engagement,0.48297399941571717,50
+mistral,Keeping up with friends,User Ratings,0.7932924335378323,50
+mistral,List items for sale,Cost,0.4829097283085013,50
+mistral,List items for sale,Customer Support,0.2,50
+mistral,List items for sale,Customization Options,0.4632778264680105,50
+mistral,List items for sale,Ease of Use,0.10546304411335085,50
+mistral,List items for sale,Feature Set,0.4632778264680105,50
+mistral,List items for sale,Geographical Availability,0.4829097283085013,50
+mistral,List items for sale,Integration Capabilities,1.0,50
+mistral,List items for sale,In App Purchases,0.2843704352906807,50
+mistral,List items for sale,Monthly Active Users,0.4829097283085013,50
+mistral,List items for sale,Number of Downloads,0.4074203914694711,50
+mistral,List items for sale,Platform Availability,0.6897458369851007,50
+mistral,List items for sale,Security and Privacy,0.15985977212971075,50
+mistral,List items for sale,Update Frequency,0.08437043529068067,50
+mistral,List items for sale,User Base,0.4829097283085013,50
+mistral,List items for sale,User Engagement,0.5931638913234005,50
+mistral,List items for sale,User Ratings,0.2632778264680105,50
+mistral,Photo effects,Cost,0.46379199532573756,50
+mistral,Photo effects,Customer Support,0.483640081799591,50
+mistral,Photo effects,Customization Options,0.3709669880222027,50
+mistral,Photo effects,Ease of Use,0.4885480572597136,50
+mistral,Photo effects,Feature Set,0.444861232836693,50
+mistral,Photo effects,Geographical Availability,0.48029214139643583,50
+mistral,Photo effects,Integration Capabilities,0.3565702600058428,50
+mistral,Photo effects,In App Purchases,0.2371954425942156,50
+mistral,Photo effects,Monthly Active Users,0.16156003505696756,50
+mistral,Photo effects,Number of Downloads,0.5335962605901255,50
+mistral,Photo effects,Platform Availability,0.4105755185509786,50
+mistral,Photo effects,Security and Privacy,0.44486123283669293,50
+mistral,Photo effects,Update Frequency,0.3242068361086766,50
+mistral,Photo effects,User Base,0.2152906806894537,50
+mistral,Photo effects,User Engagement,0.4727256792287467,50
+mistral,Photo effects,User Ratings,0.45009640666082384,50
+mistral,Play games,Cost,0.5889921121822962,50
+mistral,Play games,Customer Support,0.0,50
+mistral,Play games,Customization Options,0.3502483201869704,50
+mistral,Play games,Ease of Use,0.97280163599182,50
+mistral,Play games,Feature Set,0.5591294186386212,50
+mistral,Play games,Geographical Availability,0.7993339176161263,50
+mistral,Play games,Integration Capabilities,0.5836809815950921,50
+mistral,Play games,In App Purchases,0.0,50
+mistral,Play games,Monthly Active Users,0.7570844288635701,50
+mistral,Play games,Number of Downloads,0.6333683903009056,50
+mistral,Play games,Platform Availability,0.4557113643003214,50
+mistral,Play games,Security and Privacy,0.0,50
+mistral,Play games,Update Frequency,0.4490213263219398,50
+mistral,Play games,User Base,0.38011101373064554,50
+mistral,Play games,User Engagement,0.5836809815950921,50
+mistral,Play games,User Ratings,0.6149868536371603,50
+mistral,Play playlist on shuffle mode,Cost,0.8945369558866493,50
+mistral,Play playlist on shuffle mode,Customer Support,1.0,50
+mistral,Play playlist on shuffle mode,Customization Options,1.0,50
+mistral,Play playlist on shuffle mode,Ease of Use,1.0,50
+mistral,Play playlist on shuffle mode,Feature Set,1.0,50
+mistral,Play playlist on shuffle mode,Geographical Availability,1.0,50
+mistral,Play playlist on shuffle mode,Integration Capabilities,1.0,50
+mistral,Play playlist on shuffle mode,In App Purchases,1.0,50
+mistral,Play playlist on shuffle mode,Monthly Active Users,1.0,50
+mistral,Play playlist on shuffle mode,Number of Downloads,1.0,50
+mistral,Play playlist on shuffle mode,Platform Availability,1.0,50
+mistral,Play playlist on shuffle mode,Security and Privacy,0.0,50
+mistral,Play playlist on shuffle mode,Update Frequency,1.0,50
+mistral,Play playlist on shuffle mode,User Base,1.0,50
+mistral,Play playlist on shuffle mode,User Engagement,1.0,50
+mistral,Play playlist on shuffle mode,User Ratings,1.0,50
+mistral,Rate movies,Cost,0.9789073911773297,50
+mistral,Rate movies,Customer Support,1.0,50
+mistral,Rate movies,Customization Options,0.9789073911773297,50
+mistral,Rate movies,Ease of Use,1.0,50
+mistral,Rate movies,Feature Set,1.0,50
+mistral,Rate movies,Geographical Availability,1.0,50
+mistral,Rate movies,Integration Capabilities,1.0,50
+mistral,Rate movies,In App Purchases,0.9156295647093193,50
+mistral,Rate movies,Monthly Active Users,1.0,50
+mistral,Rate movies,Number of Downloads,0.9367221735319896,50
+mistral,Rate movies,Platform Availability,1.0,50
+mistral,Rate movies,Security and Privacy,0.9578147823546598,50
+mistral,Rate movies,Update Frequency,1.0,50
+mistral,Rate movies,User Base,1.0,50
+mistral,Rate movies,User Engagement,1.0,50
+mistral,Rate movies,User Ratings,1.0,50
+mistral,Search for offer on item,Cost,0.8965819456617001,50
+mistral,Search for offer on item,Customer Support,0.5509786736780602,50
+mistral,Search for offer on item,Customization Options,0.3774466841951504,50
+mistral,Search for offer on item,Ease of Use,0.8754893368390302,50
+mistral,Search for offer on item,Feature Set,1.0,50
+mistral,Search for offer on item,Geographical Availability,1.0,50
+mistral,Search for offer on item,Integration Capabilities,0.3985392930178206,50
+mistral,Search for offer on item,In App Purchases,1.0,50
+mistral,Search for offer on item,Monthly Active Users,0.4,50
+mistral,Search for offer on item,Number of Downloads,1.0,50
+mistral,Search for offer on item,Platform Availability,0.6754893368390301,50
+mistral,Search for offer on item,Security and Privacy,0.0,50
+mistral,Search for offer on item,Update Frequency,1.0,50
+mistral,Search for offer on item,User Base,1.0,50
+mistral,Search for offer on item,User Engagement,1.0,50
+mistral,Search for offer on item,User Ratings,1.0,50
+mistral,Send files,Cost,0.4257201285422144,50
+mistral,Send files,Customer Support,0.3974291557113642,50
+mistral,Send files,Customization Options,0.8228454572012853,50
+mistral,Send files,Ease of Use,0.7086765994741455,50
+mistral,Send files,Feature Set,0.7086765994741454,50
+mistral,Send files,Geographical Availability,0.05040023371311715,50
+mistral,Send files,Integration Capabilities,0.1936897458369851,50
+mistral,Send files,In App Purchases,0.5945077417470056,50
+mistral,Send files,Monthly Active Users,0.0,50
+mistral,Send files,Number of Downloads,0.3661700262927257,50
+mistral,Send files,Platform Availability,0.25200116856558574,50
+mistral,Send files,Security and Privacy,0.0,50
+mistral,Send files,Update Frequency,0.6268594799883143,50
+mistral,Send files,User Base,0.0,50
+mistral,Send files,User Engagement,0.06327782646801051,50
+mistral,Send files,User Ratings,0.3661700262927257,50
+mistral,Watch streams,Cost,0.32451066316096994,50
+mistral,Watch streams,Customer Support,0.4607069821793748,50
+mistral,Watch streams,Customization Options,0.2764241893076249,50
+mistral,Watch streams,Ease of Use,0.9167397020157756,50
+mistral,Watch streams,Feature Set,0.7132340052585451,50
+mistral,Watch streams,Geographical Availability,0.8534618755477652,50
+mistral,Watch streams,Integration Capabilities,0.9167397020157756,50
+mistral,Watch streams,In App Purchases,0.4607069821793748,50
+mistral,Watch streams,Monthly Active Users,0.9167397020157756,50
+mistral,Watch streams,Number of Downloads,0.9167397020157756,50
+mistral,Watch streams,Platform Availability,0.9167397020157756,50
+mistral,Watch streams,Security and Privacy,0.0,50
+mistral,Watch streams,Update Frequency,0.4607069821793748,50
+mistral,Watch streams,User Base,0.8956470931931054,50
+mistral,Watch streams,User Engagement,0.5519135261466549,50
+mistral,Watch streams,User Ratings,0.4975167981302951,50
+mistral,Write notes,Cost,0.2109260882267017,50
+mistral,Write notes,Customer Support,0.9087934560327199,50
+mistral,Write notes,Customization Options,0.5861524978089395,50
+mistral,Write notes,Ease of Use,0.78965819456617,50
+mistral,Write notes,Feature Set,0.5650598889862692,50
+mistral,Write notes,Geographical Availability,0.7280163599182004,50
+mistral,Write notes,Integration Capabilities,0.6773590417762196,50
+mistral,Write notes,In App Purchases,0.9087934560327199,50
+mistral,Write notes,Monthly Active Users,0.6579024247735903,50
+mistral,Write notes,Number of Downloads,0.7280163599182004,50
+mistral,Write notes,Platform Availability,0.7280163599182004,50
+mistral,Write notes,Security and Privacy,0.0,50
+mistral,Write notes,Update Frequency,0.6283377154542797,50
+mistral,Write notes,User Base,0.7280163599182004,50
+mistral,Write notes,User Engagement,0.7666958808063103,50
+mistral,Write notes,User Ratings,0.6283377154542797,50
+openai,Access to movies,Cost,0.29120654396728013,50
+openai,Access to movies,Customer Support,0.25439672801635993,50
+openai,Access to movies,Customization Options,0.0,50
+openai,Access to movies,Ease of Use,0.94560327198364,50
+openai,Access to movies,Feature Set,1.0,50
+openai,Access to movies,Geographical Availability,1.0,50
+openai,Access to movies,Integration Capabilities,0.2,50
+openai,Access to movies,In App Purchases,0.92988606485539,50
+openai,Access to movies,Monthly Active Users,1.0,50
+openai,Access to movies,Number of Downloads,0.5877884896289803,50
+openai,Access to movies,Platform Availability,0.8877008472100496,50
+openai,Access to movies,Security and Privacy,0.8912065439672802,50
+openai,Access to movies,Update Frequency,0.94560327198364,50
+openai,Access to movies,User Base,0.5509786736780602,50
+openai,Access to movies,User Engagement,1.0,50
+openai,Access to movies,User Ratings,0.47753432661408113,50
+openai,Access to podcasts,Cost,0.33526146654981004,50
+openai,Access to podcasts,Customer Support,0.0,50
+openai,Access to podcasts,Customization Options,0.0,50
+openai,Access to podcasts,Ease of Use,0.0,50
+openai,Access to podcasts,Feature Set,0.0,50
+openai,Access to podcasts,Geographical Availability,0.6980426526438797,50
+openai,Access to podcasts,Integration Capabilities,0.09658194566170025,50
+openai,Access to podcasts,In App Purchases,0.07548933683903009,50
+openai,Access to podcasts,Monthly Active Users,0.8945369558866493,50
+openai,Access to podcasts,Number of Downloads,0.7195442594215601,50
+openai,Access to podcasts,Platform Availability,1.0,50
+openai,Access to podcasts,Security and Privacy,0.0,50
+openai,Access to podcasts,Update Frequency,0.0,50
+openai,Access to podcasts,User Base,0.9156295647093193,50
+openai,Access to podcasts,User Engagement,0.7087934560327198,50
+openai,Access to podcasts,User Ratings,0.38965819456616996,50
+openai,Broadcast messages to multiple contacts,Cost,0.1941162722757815,50
+openai,Broadcast messages to multiple contacts,Customer Support,0.43896581945661695,50
+openai,Broadcast messages to multiple contacts,Customization Options,0.21592170610575517,50
+openai,Broadcast messages to multiple contacts,Ease of Use,0.12451066316096991,50
+openai,Broadcast messages to multiple contacts,Feature Set,0.8395851592170612,50
+openai,Broadcast messages to multiple contacts,Geographical Availability,0.5955419222903885,50
+openai,Broadcast messages to multiple contacts,Integration Capabilities,0.0,50
+openai,Broadcast messages to multiple contacts,In App Purchases,0.32538124452234884,50
+openai,Broadcast messages to multiple contacts,Monthly Active Users,0.30195734735612034,50
+openai,Broadcast messages to multiple contacts,Number of Downloads,0.37111890154834937,50
+openai,Broadcast messages to multiple contacts,Platform Availability,0.7526438796377448,50
+openai,Broadcast messages to multiple contacts,Security and Privacy,0.03163891323400526,50
+openai,Broadcast messages to multiple contacts,Update Frequency,0.5250482033304119,50
+openai,Broadcast messages to multiple contacts,User Base,0.2808647385334502,50
+openai,Broadcast messages to multiple contacts,User Engagement,0.23867952088810981,50
+openai,Broadcast messages to multiple contacts,User Ratings,0.06882851300029214,50
+openai,Build photo collage,Cost,0.11933976044405491,50
+openai,Build photo collage,Customer Support,0.010546304411335085,50
+openai,Build photo collage,Customization Options,0.5459304703476482,50
+openai,Build photo collage,Ease of Use,0.11933976044405491,50
+openai,Build photo collage,Feature Set,0.23710780017528485,50
+openai,Build photo collage,Geographical Availability,0.2569208296815659,50
+openai,Build photo collage,Integration Capabilities,0.17207128250073034,50
+openai,Build photo collage,In App Purchases,0.010546304411335085,50
+openai,Build photo collage,Monthly Active Users,0.3923926380368098,50
+openai,Build photo collage,Number of Downloads,0.3492258252994449,50
+openai,Build photo collage,Platform Availability,0.30680105170902716,50
+openai,Build photo collage,Security and Privacy,0.0,50
+openai,Build photo collage,Update Frequency,0.006327782646801051,50
+openai,Build photo collage,User Base,0.5081974875839906,50
+openai,Build photo collage,User Engagement,0.30002921413964356,50
+openai,Build photo collage,User Ratings,0.5874963482325446,50
+openai,Collaborate with others,Cost,0.7280163599182004,50
+openai,Collaborate with others,Customer Support,0.29120654396728013,50
+openai,Collaborate with others,Customization Options,0.02109260882267017,50
+openai,Collaborate with others,Ease of Use,0.7280163599182004,50
+openai,Collaborate with others,Feature Set,0.7824130879345603,50
+openai,Collaborate with others,Geographical Availability,0.5964943032427695,50
+openai,Collaborate with others,Integration Capabilities,0.9000876424189306,50
+openai,Collaborate with others,In App Purchases,0.10546304411335085,50
+openai,Collaborate with others,Monthly Active Users,0.2719836400817996,50
+openai,Collaborate with others,Number of Downloads,0.5439672801635992,50
+openai,Collaborate with others,Platform Availability,0.6283377154542797,50
+openai,Collaborate with others,Security and Privacy,0.0,50
+openai,Collaborate with others,Update Frequency,0.6490213263219399,50
+openai,Collaborate with others,User Base,0.2719836400817996,50
+openai,Collaborate with others,User Engagement,0.8244230207420392,50
+openai,Collaborate with others,User Ratings,0.7280163599182004,50
+openai,Go Live,Cost,0.0,50
+openai,Go Live,Customer Support,0.35635407537248026,50
+openai,Go Live,Customization Options,0.0,50
+openai,Go Live,Ease of Use,0.23130587204206832,50
+openai,Go Live,Feature Set,0.4155886649138182,50
+openai,Go Live,Geographical Availability,0.28503651767455446,50
+openai,Go Live,Integration Capabilities,0.05728308501314636,50
+openai,Go Live,In App Purchases,0.01931638913234005,50
+openai,Go Live,Monthly Active Users,0.02109260882267017,50
+openai,Go Live,Number of Downloads,0.1139000876424189,50
+openai,Go Live,Platform Availability,0.43117732982763646,50
+openai,Go Live,Security and Privacy,0.0,50
+openai,Go Live,Update Frequency,0.0,50
+openai,Go Live,User Base,0.48086473853345013,50
+openai,Go Live,User Engagement,0.0,50
+openai,Go Live,User Ratings,0.012655565293602102,50
+openai,Keeping up with friends,Cost,0.8164300321355538,50
+openai,Keeping up with friends,Customer Support,0.8037744668419515,50
+openai,Keeping up with friends,Customization Options,0.13402278702892198,50
+openai,Keeping up with friends,Ease of Use,0.3604089979550102,50
+openai,Keeping up with friends,Feature Set,0.4704528191644756,50
+openai,Keeping up with friends,Geographical Availability,0.38846625766871157,50
+openai,Keeping up with friends,Integration Capabilities,0.025311130587204203,50
+openai,Keeping up with friends,In App Purchases,0.008437043529068067,50
+openai,Keeping up with friends,Monthly Active Users,0.17207128250073034,50
+openai,Keeping up with friends,Number of Downloads,0.1387671633070406,50
+openai,Keeping up with friends,Platform Availability,0.5332865907099036,50
+openai,Keeping up with friends,Security and Privacy,0.1877884896289804,50
+openai,Keeping up with friends,Update Frequency,0.30912065439672803,50
+openai,Keeping up with friends,User Base,0.17207128250073034,50
+openai,Keeping up with friends,User Engagement,0.12566754309085595,50
+openai,Keeping up with friends,User Ratings,0.1624423020742039,50
+openai,List items for sale,Cost,0.4155652936021034,50
+openai,List items for sale,Customer Support,0.38081799591002047,50
+openai,List items for sale,Customization Options,0.0386327782646801,50
+openai,List items for sale,Ease of Use,0.5624890446976337,50
+openai,List items for sale,Feature Set,0.5352322524101665,50
+openai,List items for sale,Geographical Availability,0.491603856266433,50
+openai,List items for sale,Integration Capabilities,0.0021092608822670168,50
+openai,List items for sale,In App Purchases,0.5477125328659072,50
+openai,List items for sale,Monthly Active Users,0.29446099912357576,50
+openai,List items for sale,Number of Downloads,0.12944200993280744,50
+openai,List items for sale,Platform Availability,0.5538299737072743,50
+openai,List items for sale,Security and Privacy,0.33014899211218224,50
+openai,List items for sale,Update Frequency,0.5415600350569676,50
+openai,List items for sale,User Base,0.3386736780601811,50
+openai,List items for sale,User Engagement,0.3842068361086767,50
+openai,List items for sale,User Ratings,0.20669588080631027,50
+openai,Photo effects,Cost,0.17207128250073034,50
+openai,Photo effects,Customer Support,0.24902132632193982,50
+openai,Photo effects,Customization Options,0.46556237218813906,50
+openai,Photo effects,Ease of Use,0.708786152497809,40
+openai,Photo effects,Feature Set,0.8201577563540754,20
+openai,Photo effects,Geographical Availability,0.537328366929594,40
+openai,Photo effects,Integration Capabilities,0.16096990943616704,30
+openai,Photo effects,In App Purchases,0.2028775927548933,20
+openai,Photo effects,Monthly Active Users,0.0,20
+openai,Photo effects,Number of Downloads,0.0,30
+openai,Photo effects,Platform Availability,0.6368098159509202,50
+openai,Photo effects,Security and Privacy,0.19999999999999996,50
+openai,Photo effects,Update Frequency,0.6520829681565878,50
+openai,Photo effects,User Base,0.0,50
+openai,Photo effects,User Engagement,0.23501606777680398,50
+openai,Photo effects,User Ratings,0.49347356120362257,50
+openai,Play games,Cost,0.0,50
+openai,Play games,Customer Support,0.005439672801635991,50
+openai,Play games,Customization Options,0.0,50
+openai,Play games,Ease of Use,0.0,50
+openai,Play games,Feature Set,0.0,50
+openai,Play games,Geographical Availability,0.0,50
+openai,Play games,Integration Capabilities,0.048624014022787015,50
+openai,Play games,In App Purchases,0.0,50
+openai,Play games,Monthly Active Users,0.0,50
+openai,Play games,Number of Downloads,0.0,50
+openai,Play games,Platform Availability,0.0,50
+openai,Play games,Security and Privacy,0.016319018404907973,50
+openai,Play games,Update Frequency,0.0,50
+openai,Play games,User Base,0.0,50
+openai,Play games,User Engagement,0.0,50
+openai,Play games,User Ratings,0.0,50
+openai,Play playlist on shuffle mode,Cost,0.8401402278702893,50
+openai,Play playlist on shuffle mode,Customer Support,0.9156295647093193,50
+openai,Play playlist on shuffle mode,Customization Options,0.0,40
+openai,Play playlist on shuffle mode,Ease of Use,0.9367221735319896,50
+openai,Play playlist on shuffle mode,Feature Set,0.9578147823546598,50
+openai,Play playlist on shuffle mode,Geographical Availability,0.9789073911773297,50
+openai,Play playlist on shuffle mode,Integration Capabilities,0.8945369558866493,50
+openai,Play playlist on shuffle mode,In App Purchases,0.8945369558866493,50
+openai,Play playlist on shuffle mode,Monthly Active Users,0.6436459246275197,50
+openai,Play playlist on shuffle mode,Number of Downloads,0.8612328366929595,50
+openai,Play playlist on shuffle mode,Platform Availability,0.9367221735319896,50
+openai,Play playlist on shuffle mode,Security and Privacy,0.0,50
+openai,Play playlist on shuffle mode,Update Frequency,0.6769500438212096,50
+openai,Play playlist on shuffle mode,User Base,0.81571720712825,50
+openai,Play playlist on shuffle mode,User Engagement,0.8823254455156296,50
+openai,Play playlist on shuffle mode,User Ratings,0.8068361086765995,50
+openai,Rate movies,Cost,0.6415366637452528,50
+openai,Rate movies,Customer Support,0.5043704352906807,50
+openai,Rate movies,Customization Options,0.6715103710195736,50
+openai,Rate movies,Ease of Use,0.6225533158048496,50
+openai,Rate movies,Feature Set,0.6352088810984517,50
+openai,Rate movies,Geographical Availability,0.4869880222027462,50
+openai,Rate movies,Integration Capabilities,0.8673385918784693,50
+openai,Rate movies,In App Purchases,0.16669588080631023,50
+openai,Rate movies,Monthly Active Users,0.3034180543382997,50
+openai,Rate movies,Number of Downloads,0.6904937189599767,50
+openai,Rate movies,Platform Availability,0.6541922290388549,50
+openai,Rate movies,Security and Privacy,0.16669588080631026,50
+openai,Rate movies,Update Frequency,0.137166228454572,50
+openai,Rate movies,User Base,0.8373648846041485,50
+openai,Rate movies,User Engagement,0.8821034180543385,50
+openai,Rate movies,User Ratings,0.6148758399065148,50
+openai,Search for offer on item,Cost,0.25543090855974293,50
+openai,Search for offer on item,Customer Support,0.1431492842535787,50
+openai,Search for offer on item,Customization Options,0.4776102833771546,50
+openai,Search for offer on item,Ease of Use,0.5309436167104878,50
+openai,Search for offer on item,Feature Set,0.5961554192229039,50
+openai,Search for offer on item,Geographical Availability,0.5826117440841367,50
+openai,Search for offer on item,Integration Capabilities,0.5666257668711657,50
+openai,Search for offer on item,In App Purchases,0.10213263219398186,50
+openai,Search for offer on item,Monthly Active Users,0.0,50
+openai,Search for offer on item,Number of Downloads,0.04653228162430616,50
+openai,Search for offer on item,Platform Availability,0.47477066900379783,50
+openai,Search for offer on item,Security and Privacy,0.08636868244230204,50
+openai,Search for offer on item,Update Frequency,0.1501606777680397,50
+openai,Search for offer on item,User Base,0.4400876424189308,50
+openai,Search for offer on item,User Engagement,0.17557697925796084,50
+openai,Search for offer on item,User Ratings,0.18543967280163598,50
+openai,Send files,Cost,0.8810166520595968,50
+openai,Send files,Customer Support,0.9,50
+openai,Send files,Customization Options,0.018095238095238095,50
+openai,Send files,Ease of Use,0.19365468886941278,50
+openai,Send files,Feature Set,0.7879404031551271,50
+openai,Send files,Geographical Availability,0.008437043529068067,50
+openai,Send files,Integration Capabilities,0.685188431200701,50
+openai,Send files,In App Purchases,0.06368098159509201,50
+openai,Send files,Monthly Active Users,0.13588080631025412,50
+openai,Send files,Number of Downloads,0.21013730645632486,50
+openai,Send files,Platform Availability,0.8430499561787905,50
+openai,Send files,Security and Privacy,0.16101665205959684,50
+openai,Send files,Update Frequency,0.0,50
+openai,Send files,User Base,0.22833771545427983,50
+openai,Send files,User Engagement,0.74,50
+openai,Send files,User Ratings,0.9,50
+openai,Watch streams,Cost,0.018095238095238095,50
+openai,Watch streams,Customer Support,0.1172304995617879,50
+openai,Watch streams,Customization Options,0.008437043529068067,50
+openai,Watch streams,Ease of Use,0.18916739702015772,50
+openai,Watch streams,Feature Set,0.24229623137598597,50
+openai,Watch streams,Geographical Availability,0.03774466841951504,50
+openai,Watch streams,Integration Capabilities,0.03807770961145193,50
+openai,Watch streams,In App Purchases,0.06827344434706398,50
+openai,Watch streams,Monthly Active Users,0.015097867367806017,50
+openai,Watch streams,Number of Downloads,0.053175576979257955,50
+openai,Watch streams,Platform Availability,0.03774466841951504,50
+openai,Watch streams,Security and Privacy,0.015097867367806017,50
+openai,Watch streams,Update Frequency,0.09458369851007888,50
+openai,Watch streams,User Base,0.0,50
+openai,Watch streams,User Engagement,0.15442009932807477,50
+openai,Watch streams,User Ratings,0.12600058428279284,50
+openai,Write notes,Cost,0.14516505988898626,50
+openai,Write notes,Customer Support,0.5843704352906807,50
+openai,Write notes,Customization Options,0.08967572304995616,50
+openai,Write notes,Ease of Use,0.6573064563248613,50
+openai,Write notes,Feature Set,0.6509786736780602,50
+openai,Write notes,Geographical Availability,0.41902424773590413,50
+openai,Write notes,Integration Capabilities,0.3824423020742039,50
+openai,Write notes,In App Purchases,0.3011101373064563,50
+openai,Write notes,Monthly Active Users,0.549225825299445,50
+openai,Write notes,Number of Downloads,0.524136722173532,50
+openai,Write notes,Platform Availability,0.4456032719836401,50
+openai,Write notes,Security and Privacy,0.0,50
+openai,Write notes,Update Frequency,0.6716272275781477,50
+openai,Write notes,User Base,0.7281332164767746,50
+openai,Write notes,User Engagement,0.20220274612912648,50
+openai,Write notes,User Ratings,0.3585801928133216,50
+perplexity,Access to movies,Cost,0.09658194566170025,50
+perplexity,Access to movies,Customer Support,0.31767455448437043,50
+perplexity,Access to movies,Customization Options,0.4965819456617002,50
+perplexity,Access to movies,Ease of Use,0.4965819456617002,50
+perplexity,Access to movies,Feature Set,0.8789950335962606,50
+perplexity,Access to movies,Geographical Availability,0.94560327198364,50
+perplexity,Access to movies,Integration Capabilities,0.09658194566170025,50
+perplexity,Access to movies,In App Purchases,0.02109260882267017,50
+perplexity,Access to movies,Monthly Active Users,1.0,50
+perplexity,Access to movies,Number of Downloads,0.7280163599182004,50
+perplexity,Access to movies,Platform Availability,0.4264680105170902,50
+perplexity,Access to movies,Security and Privacy,0.6579024247735904,50
+perplexity,Access to movies,Update Frequency,0.5720712825007302,50
+perplexity,Access to movies,User Base,0.7824130879345603,50
+perplexity,Access to movies,User Engagement,1.0,50
+perplexity,Access to movies,User Ratings,0.9245106631609699,50
+perplexity,Access to podcasts,Cost,0.35111305872042065,50
+perplexity,Access to podcasts,Customer Support,0.6029739994157172,50
+perplexity,Access to podcasts,Customization Options,0.22211510371019574,50
+perplexity,Access to podcasts,Ease of Use,0.5912065439672801,50
+perplexity,Access to podcasts,Feature Set,0.2643003213555361,50
+perplexity,Access to podcasts,Geographical Availability,0.549576394975168,50
+perplexity,Access to podcasts,Integration Capabilities,0.5271282500730352,50
+perplexity,Access to podcasts,In App Purchases,0.3043704352906807,50
+perplexity,Access to podcasts,Monthly Active Users,0.33082091732398466,50
+perplexity,Access to podcasts,Number of Downloads,0.34558574349985377,50
+perplexity,Access to podcasts,Platform Availability,0.3808647385334501,50
+perplexity,Access to podcasts,Security and Privacy,0.24470931931054626,50
+perplexity,Access to podcasts,Update Frequency,0.6057493426818581,50
+perplexity,Access to podcasts,User Base,0.33082091732398466,50
+perplexity,Access to podcasts,User Engagement,0.42898042652643875,50
+perplexity,Access to podcasts,User Ratings,0.6014198071866783,50
+perplexity,Broadcast messages to multiple contacts,Cost,0.07548933683903009,50
+perplexity,Broadcast messages to multiple contacts,Customer Support,0.8,50
+perplexity,Broadcast messages to multiple contacts,Customization Options,0.0,50
+perplexity,Broadcast messages to multiple contacts,Ease of Use,0.6,50
+perplexity,Broadcast messages to multiple contacts,Feature Set,0.8,50
+perplexity,Broadcast messages to multiple contacts,Geographical Availability,0.0,50
+perplexity,Broadcast messages to multiple contacts,Integration Capabilities,0.0,50
+perplexity,Broadcast messages to multiple contacts,In App Purchases,0.8,50
+perplexity,Broadcast messages to multiple contacts,Monthly Active Users,0.0,50
+perplexity,Broadcast messages to multiple contacts,Number of Downloads,0.0,50
+perplexity,Broadcast messages to multiple contacts,Platform Availability,0.0,50
+perplexity,Broadcast messages to multiple contacts,Security and Privacy,0.0,50
+perplexity,Broadcast messages to multiple contacts,Update Frequency,0.0,50
+perplexity,Broadcast messages to multiple contacts,User Base,0.0,50
+perplexity,Broadcast messages to multiple contacts,User Engagement,0.0,50
+perplexity,Broadcast messages to multiple contacts,User Ratings,0.0,50
+perplexity,Build photo collage,Cost,0.26279871457785564,50
+perplexity,Build photo collage,Customer Support,0.30912065439672803,50
+perplexity,Build photo collage,Customization Options,0.033526146654981,50
+perplexity,Build photo collage,Ease of Use,0.39045281916447566,50
+perplexity,Build photo collage,Feature Set,0.3469354367513877,50
+perplexity,Build photo collage,Geographical Availability,0.3877884896289804,50
+perplexity,Build photo collage,Integration Capabilities,0.3961554192229038,50
+perplexity,Build photo collage,In App Purchases,0.38449313467718377,50
+perplexity,Build photo collage,Monthly Active Users,0.42279871457785567,50
+perplexity,Build photo collage,Number of Downloads,0.34897458369851003,50
+perplexity,Build photo collage,Platform Availability,0.3154133800759567,50
+perplexity,Build photo collage,Security and Privacy,0.2779666958808063,50
+perplexity,Build photo collage,Update Frequency,0.3933041191936897,50
+perplexity,Build photo collage,User Base,0.3344317849839322,50
+perplexity,Build photo collage,User Engagement,0.08299737072743207,50
+perplexity,Build photo collage,User Ratings,0.5164475606193397,50
+perplexity,Collaborate with others,Cost,0.33339176161262046,50
+perplexity,Collaborate with others,Customer Support,0.6633420975752264,50
+perplexity,Collaborate with others,Customization Options,0.19999999999999996,50
+perplexity,Collaborate with others,Ease of Use,0.6790593047034768,50
+perplexity,Collaborate with others,Feature Set,0.6844347063978966,50
+perplexity,Collaborate with others,Geographical Availability,0.6436459246275197,50
+perplexity,Collaborate with others,Integration Capabilities,0.9050832602979844,50
+perplexity,Collaborate with others,In App Purchases,0.6563014899211218,50
+perplexity,Collaborate with others,Monthly Active Users,0.5460765410458661,50
+perplexity,Collaborate with others,Number of Downloads,0.6295296523517382,50
+perplexity,Collaborate with others,Platform Availability,0.8945369558866493,50
+perplexity,Collaborate with others,Security and Privacy,0.02952965235173824,50
+perplexity,Collaborate with others,Update Frequency,0.30175284837861527,50
+perplexity,Collaborate with others,User Base,0.7587671633070405,50
+perplexity,Collaborate with others,User Engagement,0.6476248904469765,50
+perplexity,Collaborate with others,User Ratings,0.6811685655857437,50
+perplexity,Go Live,Cost,0.13447268477943322,50
+perplexity,Go Live,Customer Support,0.0,50
+perplexity,Go Live,Customization Options,0.0,50
+perplexity,Go Live,Ease of Use,0.14059596844872915,50
+perplexity,Go Live,Feature Set,0.10971662284545719,50
+perplexity,Go Live,Geographical Availability,0.2099795501022495,50
+perplexity,Go Live,Integration Capabilities,0.04285130002921414,50
+perplexity,Go Live,In App Purchases,0.2740812153082091,50
+perplexity,Go Live,Monthly Active Users,0.14098743791995325,50
+perplexity,Go Live,Number of Downloads,0.21099620216184634,50
+perplexity,Go Live,Platform Availability,0.2808413672217353,50
+perplexity,Go Live,Security and Privacy,0.0,50
+perplexity,Go Live,Update Frequency,0.2850598889862694,50
+perplexity,Go Live,User Base,0.18330119777972537,50
+perplexity,Go Live,User Engagement,0.0716213847502191,50
+perplexity,Go Live,User Ratings,0.04618171194858311,50
+perplexity,Keeping up with friends,Cost,0.0,50
+perplexity,Keeping up with friends,Customer Support,0.0,50
+perplexity,Keeping up with friends,Customization Options,0.0,50
+perplexity,Keeping up with friends,Ease of Use,0.0,50
+perplexity,Keeping up with friends,Feature Set,0.0,50
+perplexity,Keeping up with friends,Geographical Availability,0.0,50
+perplexity,Keeping up with friends,Integration Capabilities,0.0,50
+perplexity,Keeping up with friends,In App Purchases,0.0,50
+perplexity,Keeping up with friends,Monthly Active Users,0.0,50
+perplexity,Keeping up with friends,Number of Downloads,0.0,50
+perplexity,Keeping up with friends,Platform Availability,0.0,50
+perplexity,Keeping up with friends,Security and Privacy,0.0,50
+perplexity,Keeping up with friends,Update Frequency,0.0,50
+perplexity,Keeping up with friends,User Base,0.0,50
+perplexity,Keeping up with friends,User Engagement,0.0,50
+perplexity,Keeping up with friends,User Ratings,0.0,50
+perplexity,List items for sale,Cost,0.7000233713117149,50
+perplexity,List items for sale,Customer Support,0.26965235173824126,50
+perplexity,List items for sale,Customization Options,0.0,50
+perplexity,List items for sale,Ease of Use,0.6063745252702307,50
+perplexity,List items for sale,Feature Set,0.2518901548349401,50
+perplexity,List items for sale,Geographical Availability,0.42191644756061925,50
+perplexity,List items for sale,Integration Capabilities,0.11645340344726846,50
+perplexity,List items for sale,In App Purchases,0.373070406076541,50
+perplexity,List items for sale,Monthly Active Users,0.5043704352906807,50
+perplexity,List items for sale,Number of Downloads,0.02109260882267017,50
+perplexity,List items for sale,Platform Availability,0.7276190476190477,50
+perplexity,List items for sale,Security and Privacy,0.1527548933683903,50
+perplexity,List items for sale,Update Frequency,0.373070406076541,50
+perplexity,List items for sale,User Base,0.14982179374817411,50
+perplexity,List items for sale,User Engagement,0.27937481741162723,50
+perplexity,List items for sale,User Ratings,0.7508209173239848,50
+perplexity,Photo effects,Cost,0.0,50
+perplexity,Photo effects,Customer Support,0.0,50
+perplexity,Photo effects,Customization Options,0.037966695880806305,50
+perplexity,Photo effects,Ease of Use,0.0,50
+perplexity,Photo effects,Feature Set,0.06794040315512706,50
+perplexity,Photo effects,Geographical Availability,0.037966695880806305,50
+perplexity,Photo effects,Integration Capabilities,0.0,50
+perplexity,Photo effects,In App Purchases,0.0,50
+perplexity,Photo effects,Monthly Active Users,0.0,50
+perplexity,Photo effects,Number of Downloads,0.037966695880806305,50
+perplexity,Photo effects,Platform Availability,0.0,50
+perplexity,Photo effects,Security and Privacy,0.18483786152497805,50
+perplexity,Photo effects,Update Frequency,0.15486415425065728,50
+perplexity,Photo effects,User Base,0.06794040315512707,50
+perplexity,Photo effects,User Engagement,0.1918492550394391,50
+perplexity,Photo effects,User Ratings,0.0,50
+perplexity,Play games,Cost,0.10460999123575808,50
+perplexity,Play games,Customer Support,0.11863277826468009,50
+perplexity,Play games,Customization Options,0.0,50
+perplexity,Play games,Ease of Use,0.033748174116272275,50
+perplexity,Play games,Feature Set,0.3855039439088518,50
+perplexity,Play games,Geographical Availability,0.0,50
+perplexity,Play games,Integration Capabilities,0.0,50
+perplexity,Play games,In App Purchases,0.10104002337131171,50
+perplexity,Play games,Monthly Active Users,0.14667835232252407,50
+perplexity,Play games,Number of Downloads,0.27815950920245397,50
+perplexity,Play games,Platform Availability,0.0,50
+perplexity,Play games,Security and Privacy,0.016319018404907973,50
+perplexity,Play games,Update Frequency,0.2356003505696757,50
+perplexity,Play games,User Base,0.29943908851884316,50
+perplexity,Play games,User Engagement,0.13768624014022784,50
+perplexity,Play games,User Ratings,0.273567046450482,50
+perplexity,Play playlist on shuffle mode,Cost,0.07382413087934561,50
+perplexity,Play playlist on shuffle mode,Customer Support,0.059059304703476485,50
+perplexity,Play playlist on shuffle mode,Customization Options,0.044294478527607366,50
+perplexity,Play playlist on shuffle mode,Ease of Use,0.07382413087934561,50
+perplexity,Play playlist on shuffle mode,Feature Set,0.059059304703476485,50
+perplexity,Play playlist on shuffle mode,Geographical Availability,0.08015191352614665,50
+perplexity,Play playlist on shuffle mode,Integration Capabilities,0.044294478527607366,50
+perplexity,Play playlist on shuffle mode,In App Purchases,0.07382413087934561,50
+perplexity,Play playlist on shuffle mode,Monthly Active Users,0.07382413087934561,50
+perplexity,Play playlist on shuffle mode,Number of Downloads,0.23796669588080632,50
+perplexity,Play playlist on shuffle mode,Platform Availability,0.30712825007303535,50
+perplexity,Play playlist on shuffle mode,Security and Privacy,0.07382413087934561,50
+perplexity,Play playlist on shuffle mode,Update Frequency,0.059059304703476485,50
+perplexity,Play playlist on shuffle mode,User Base,0.07382413087934561,50
+perplexity,Play playlist on shuffle mode,User Engagement,0.1805083260297984,50
+perplexity,Play playlist on shuffle mode,User Ratings,0.059059304703476485,50
+perplexity,Rate movies,Cost,0.12233713117148698,50
+perplexity,Rate movies,Customer Support,0.1117908267601519,50
+perplexity,Rate movies,Customization Options,0.10546304411335085,50
+perplexity,Rate movies,Ease of Use,0.20515337423312885,50
+perplexity,Rate movies,Feature Set,0.14342973999415715,50
+perplexity,Rate movies,Geographical Availability,0.14553900087642416,50
+perplexity,Rate movies,Integration Capabilities,0.08015191352614665,50
+perplexity,Rate movies,In App Purchases,0.11945077417470053,50
+perplexity,Rate movies,Monthly Active Users,0.1012445223488168,50
+perplexity,Rate movies,Number of Downloads,0.172182296231376,50
+perplexity,Rate movies,Platform Availability,0.20668419515045283,50
+perplexity,Rate movies,Security and Privacy,0.14240724510663158,50
+perplexity,Rate movies,Update Frequency,0.12655565293602103,50
+perplexity,Rate movies,User Base,0.1139000876424189,50
+perplexity,Rate movies,User Engagement,0.09491673970201576,50
+perplexity,Rate movies,User Ratings,0.10546304411335085,50
+perplexity,Search for offer on item,Cost,0.29180835524393806,50
+perplexity,Search for offer on item,Customer Support,0.4339702015775635,50
+perplexity,Search for offer on item,Customization Options,0.33599182004089984,50
+perplexity,Search for offer on item,Ease of Use,0.3973356704645048,50
+perplexity,Search for offer on item,Feature Set,0.26527607361963185,50
+perplexity,Search for offer on item,Geographical Availability,0.16951796669588076,50
+perplexity,Search for offer on item,Integration Capabilities,0.3550861817119486,50
+perplexity,Search for offer on item,In App Purchases,0.23390593047034763,50
+perplexity,Search for offer on item,Monthly Active Users,0.0,50
+perplexity,Search for offer on item,Number of Downloads,0.0,50
+perplexity,Search for offer on item,Platform Availability,0.2749342681858019,50
+perplexity,Search for offer on item,Security and Privacy,0.0,50
+perplexity,Search for offer on item,Update Frequency,0.0,50
+perplexity,Search for offer on item,User Base,0.0,50
+perplexity,Search for offer on item,User Engagement,0.04218521764534034,50
+perplexity,Search for offer on item,User Ratings,0.0,50
+perplexity,Send files,Cost,0.006327782646801051,50
+perplexity,Send files,Customer Support,0.05273152205667543,50
+perplexity,Send files,Customization Options,0.2747063978965819,50
+perplexity,Send files,Ease of Use,0.14820333041191933,50
+perplexity,Send files,Feature Set,0.07382413087934561,50
+perplexity,Send files,Geographical Availability,0.010546304411335085,50
+perplexity,Send files,Integration Capabilities,0.010546304411335085,50
+perplexity,Send files,In App Purchases,0.03163891323400526,50
+perplexity,Send files,Monthly Active Users,0.010546304411335085,50
+perplexity,Send files,Number of Downloads,0.010546304411335085,50
+perplexity,Send files,Platform Availability,0.010546304411335085,50
+perplexity,Send files,Security and Privacy,0.032638036809815946,50
+perplexity,Send files,Update Frequency,0.14423605024832015,50
+perplexity,Send files,User Base,0.010546304411335085,50
+perplexity,Send files,User Engagement,0.010546304411335085,50
+perplexity,Send files,User Ratings,0.0021092608822670168,50
+perplexity,Watch streams,Cost,0.0,50
+perplexity,Watch streams,Customer Support,0.0,50
+perplexity,Watch streams,Customization Options,0.0,50
+perplexity,Watch streams,Ease of Use,0.0,50
+perplexity,Watch streams,Feature Set,0.6148992112182295,50
+perplexity,Watch streams,Geographical Availability,0.0,50
+perplexity,Watch streams,Integration Capabilities,0.0,50
+perplexity,Watch streams,In App Purchases,0.0,50
+perplexity,Watch streams,Monthly Active Users,0.0,50
+perplexity,Watch streams,Number of Downloads,0.18872334209757521,50
+perplexity,Watch streams,Platform Availability,0.10057843996494302,50
+perplexity,Watch streams,Security and Privacy,0.0,50
+perplexity,Watch streams,Update Frequency,0.0,50
+perplexity,Watch streams,User Base,0.6570844288635699,50
+perplexity,Watch streams,User Engagement,0.6098159509202453,50
+perplexity,Watch streams,User Ratings,0.0,50
+perplexity,Write notes,Cost,0.23867952088810981,50
+perplexity,Write notes,Customer Support,0.31994157172071275,50
+perplexity,Write notes,Customization Options,0.2382354659655273,50
+perplexity,Write notes,Ease of Use,0.5593047034764826,50
+perplexity,Write notes,Feature Set,0.29141104294478526,50
+perplexity,Write notes,Geographical Availability,0.49913526146654985,50
+perplexity,Write notes,Integration Capabilities,0.10446392053754015,50
+perplexity,Write notes,In App Purchases,0.48252994449313474,50
+perplexity,Write notes,Monthly Active Users,0.35912941863862113,50
+perplexity,Write notes,Number of Downloads,0.3443645924627519,50
+perplexity,Write notes,Platform Availability,0.30995033596260585,50
+perplexity,Write notes,Security and Privacy,0.0,50
+perplexity,Write notes,Update Frequency,0.5693602103418054,50
+perplexity,Write notes,User Base,0.35912941863862113,50
+perplexity,Write notes,User Engagement,0.3891031259129419,50
+perplexity,Write notes,User Ratings,0.4043120070113935,50

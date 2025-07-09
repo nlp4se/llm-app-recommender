@@ -1,0 +1,6 @@
+model,num_criteria,mean_internal_similarity,std_internal_similarity,min_internal_similarity,max_internal_similarity,internal_consistency_score,consistency_level
+anthropic,866,0.23075008,0.15513001,-0.14041728,1.0000007,0.23075008,Low
+gemini,1070,0.25918204,0.14053217,-0.14960264,1.0000006,0.25918204,Low
+mistral,1066,0.37198377,0.17370465,-0.06701674,1.0000008,0.37198377,Medium
+openai,1108,0.31885716,0.16025257,-0.11845511,1.0000008,0.31885716,Medium
+perplexity,1025,0.25496653,0.15163302,-0.1424474,1.0000005,0.25496653,Low

@@ -383,6 +383,104 @@ def analyze_consistency_for_k(df, features, models, k, output_dir, consistency_t
         # Return DataFrames for combined plotting
         return jaccard_df, rbo_df
 
+def plot_distinct_apps_evolution(df, models, max_k=20, output_dir='data/output/evaluation'):
+    """
+    Create a line chart showing how the number of distinct apps evolves across k positions for each model.
+    
+    Args:
+        df: DataFrame containing app rankings
+        models: List of model names
+        max_k: Maximum k value to analyze (default 20)
+        output_dir: Directory to save the plot
+    """
+    # Dictionary to store results for each model
+    model_results = {}
+    
+    # Analyze each model
+    for model in models:
+        model_df = df[df['model'] == model]
+        distinct_counts = []
+        
+        # For each k position from 1 to max_k
+        for k in range(1, max_k + 1):
+            # Get all apps up to position k across all features and runs
+            all_apps_up_to_k = set()
+            
+            for feature in model_df['feature'].unique():
+                feature_df = model_df[model_df['feature'] == feature]
+                
+                # Get ranking columns from '1' to k
+                rank_cols = [str(i) for i in range(1, k + 1)]
+                rank_cols_exist = [col for col in rank_cols if col in feature_df.columns]
+                
+                if rank_cols_exist:
+                    # Get all apps up to position k for this feature
+                    apps_up_to_k = feature_df[rank_cols_exist].values.flatten()
+                    # Remove NaN values and add to set
+                    valid_apps = [app for app in apps_up_to_k if pd.notna(app)]
+                    all_apps_up_to_k.update(valid_apps)
+            
+            # Count distinct apps up to position k
+            distinct_counts.append(len(all_apps_up_to_k))
+        
+        model_results[model] = distinct_counts
+    
+    # Create the line chart with reduced height
+    plt.figure(figsize=(12, 5))  # Reduced height from 8 to 5
+    
+    # Set font sizes for better readability
+    plt.rcParams.update({
+        'font.size': 12,
+        'axes.titlesize': 16,
+        'axes.labelsize': 14,
+        'xtick.labelsize': 12,
+        'ytick.labelsize': 12,
+        'legend.fontsize': 12,
+        'figure.titlesize': 18
+    })
+    
+    # Use the same modern colors as in RQ3 boxplots
+    modern_colors = ['#2E86AB', '#A23B72', '#F18F01', '#C73E1D', '#7209B7', 
+                    '#3A0CA3', '#4361EE', '#4CC9F0', '#F72585', '#7209B7']
+    
+    # Plot each model as a separate line
+    for i, model in enumerate(models):
+        if model in model_results:
+            color = modern_colors[i % len(modern_colors)]  # Cycle through colors
+            plt.plot(range(1, max_k + 1), model_results[model], 
+                    marker='o', linewidth=2, markersize=6, 
+                    label=model, color=color)
+    
+    plt.xlabel('k Position', fontsize=14)
+    plt.ylabel('Number of Distinct Apps', fontsize=14)
+    plt.title('Evolution of Distinct Apps Across k Positions by Model (n=10 runs)', fontsize=16, pad=20)
+    plt.grid(True, alpha=0.3)
+    plt.legend(fontsize=12)
+    
+    # Show all numbers in x-axis (no skipping)
+    plt.xticks(range(1, max_k + 1))
+    
+    # Ensure y-axis starts from 0
+    plt.ylim(bottom=0)
+    
+    plt.tight_layout()
+    
+    # Save the plot
+    output_path = os.path.join(output_dir, 'distinct_apps_evolution.png')
+    plt.savefig(output_path, dpi=300, bbox_inches='tight')
+    plt.close()
+    print(f"Saved distinct apps evolution plot to {output_path}")
+    
+    # Also save the data as CSV for reference
+    evolution_df = pd.DataFrame(model_results)
+    evolution_df.index = range(1, max_k + 1)
+    evolution_df.index.name = 'k_position'
+    csv_path = os.path.join(output_dir, 'distinct_apps_evolution.csv')
+    evolution_df.to_csv(csv_path)
+    print(f"Saved distinct apps evolution data to {csv_path}")
+    
+    return evolution_df
+
 def main(input_csv_path='data/output/evaluation/app_rankings.csv', 
          output_dir='data/output/evaluation',
          consistency_type='external',
@@ -414,7 +512,12 @@ def main(input_csv_path='data/output/evaluation/app_rankings.csv',
     # Preserve the order of models as they appear in the CSV file
     models = df['model'].unique().tolist()
 
-    # 3. Analyze consistency for each k value and collect results
+    # 3. Create distinct apps evolution chart
+    print("\n=== Creating distinct apps evolution chart ===")
+    evolution_df = plot_distinct_apps_evolution(df, models, max_k=20, output_dir=output_dir)
+    print("Distinct apps evolution analysis completed.")
+
+    # 4. Analyze consistency for each k value and collect results
     all_jaccard_data = {}
     all_rbo_data = {}
     
@@ -423,7 +526,7 @@ def main(input_csv_path='data/output/evaluation/app_rankings.csv',
         all_jaccard_data[k] = jaccard_df
         all_rbo_data[k] = rbo_df
     
-    # 4. Create combined heatmap figures
+    # 5. Create combined heatmap figures
     create_combined_heatmap_figure(all_jaccard_data, 'jaccard', consistency_type, output_dir, models)
     create_combined_heatmap_figure(all_rbo_data, 'rbo', consistency_type, output_dir, models)
 
