@@ -174,6 +174,162 @@ def analyze_external_consistency(df, features, models, k):
 
     return pd.DataFrame(jaccard_results), pd.DataFrame(rbo_results)
 
+def create_aggregated_external_consistency_heatmaps(all_jaccard_data, all_rbo_data, models, output_dir, target_k=20):
+    """
+    Create aggregated heatmaps for external consistency showing average Jaccard and RBO between models.
+    
+    Args:
+        all_jaccard_data: Dictionary with k values as keys and DataFrames as values for Jaccard
+        all_rbo_data: Dictionary with k values as keys and DataFrames as values for RBO
+        models: List of model names
+        output_dir: Directory to save the heatmaps
+        target_k: Specific k value to use for aggregation (default: 20)
+    """
+    # Get data for the specific k value
+    jaccard_df = all_jaccard_data.get(target_k, pd.DataFrame())
+    rbo_df = all_rbo_data.get(target_k, pd.DataFrame())
+    
+    if jaccard_df.empty:
+        print(f"No Jaccard data available for k={target_k}")
+        return None, None
+    
+    if rbo_df.empty:
+        print(f"No RBO data available for k={target_k}")
+        return None, None
+    
+    # Aggregate Jaccard results across all features for the specific k value
+    all_jaccard_results = []
+    all_rbo_results = []
+    
+    # Calculate average Jaccard for each model pair across all features
+    for model1, model2 in combinations(models, 2):
+        pair_data = jaccard_df[(jaccard_df['model1'] == model1) & (jaccard_df['model2'] == model2)]
+        if not pair_data.empty:
+            avg_jaccard = pair_data['jaccard'].mean()
+            all_jaccard_results.append({
+                'model1': model1, 
+                'model2': model2, 
+                'jaccard': avg_jaccard
+            })
+    
+    # Calculate average RBO for each model pair across all features
+    for model1, model2 in combinations(models, 2):
+        pair_data = rbo_df[(rbo_df['model1'] == model1) & (rbo_df['model2'] == model2)]
+        if not pair_data.empty:
+            avg_rbo = pair_data['rbo'].mean()
+            all_rbo_results.append({
+                'model1': model1, 
+                'model2': model2, 
+                'rbo': avg_rbo
+            })
+    
+    # Create DataFrames
+    jaccard_agg_df = pd.DataFrame(all_jaccard_results)
+    rbo_agg_df = pd.DataFrame(all_rbo_results)
+    
+    if not jaccard_agg_df.empty:
+        # Create Jaccard heatmap
+        create_model_pair_heatmap(jaccard_agg_df, 'jaccard', 'Jaccard Similarity', 
+                                output_dir, models, target_k)
+    
+    if not rbo_agg_df.empty:
+        # Create RBO heatmap
+        create_model_pair_heatmap(rbo_agg_df, 'rbo', 'Rank-Biased Overlap (RBO)', 
+                                output_dir, models, target_k)
+    
+    return jaccard_agg_df, rbo_agg_df
+
+def create_model_pair_heatmap(df, metric_col, metric_name, output_dir, models, k_value):
+    """
+    Create a heatmap showing pairwise model comparisons with upper diagonal shaded.
+    
+    Args:
+        df: DataFrame with model1, model2, and metric values
+        metric_col: Column name containing the metric values
+        metric_name: Display name for the metric
+        output_dir: Directory to save the heatmap
+        models: List of models in desired order
+        k_value: The k value used for this analysis
+    """
+    # Create a matrix for the heatmap
+    heatmap_matrix = pd.DataFrame(index=models, columns=models)
+    
+    # Fill the matrix with values
+    for _, row in df.iterrows():
+        model1, model2 = row['model1'], row['model2']
+        value = row[metric_col]
+        heatmap_matrix.loc[model1, model2] = value
+        heatmap_matrix.loc[model2, model1] = value  # Make it symmetric
+    
+    # Fill diagonal with 1.0 (perfect similarity with self)
+    np.fill_diagonal(heatmap_matrix.values, 1.0)
+    
+    # Fill any remaining NaN values with 0
+    heatmap_matrix = heatmap_matrix.fillna(0)
+    
+    # Create a mask for the upper diagonal (to shade it)
+    mask = np.triu(np.ones_like(heatmap_matrix, dtype=bool), k=1)
+    
+    # Set up the plot
+    plt.figure(figsize=(6, 5))
+    
+    # Set font sizes for better readability
+    plt.rcParams.update({
+        'font.size': 12,
+        'axes.titlesize': 16,
+        'axes.labelsize': 14,
+        'xtick.labelsize': 12,
+        'ytick.labelsize': 12,
+        'legend.fontsize': 12,
+        'figure.titlesize': 18
+    })
+    
+    # Create the heatmap with custom annotation handling
+    # First, create the heatmap without annotations
+    heatmap = sns.heatmap(
+        heatmap_matrix, annot=False, cmap='YlGnBu',
+        vmin=0, vmax=1, cbar_kws={'label': f'{metric_name} Score'},
+        mask=mask
+    )
+
+    # Get the colormap and normalization for value-based color picking
+    cmap = plt.get_cmap('YlGnBu')
+    norm = plt.Normalize(vmin=0, vmax=1)
+
+    for i in range(len(models)):
+        for j in range(len(models)):
+            value = heatmap_matrix.iloc[i, j]
+            if mask[i, j]:  # Upper diagonal - grey background, white text
+                rect = plt.Rectangle((j, i), 1, 1, facecolor='lightgrey', alpha=0.7, zorder=2)
+                plt.gca().add_patch(rect)
+                plt.text(j + 0.5, i + 0.5, f'{value:.3f}',
+                         ha='center', va='center', fontsize=12, color='white', zorder=3)
+            else:  # Lower triangle and diagonal
+                # Get background color from colormap
+                rgb = cmap(norm(value))[:3]
+                # Calculate brightness (perceived luminance)
+                brightness = 0.299 * rgb[0] + 0.587 * rgb[1] + 0.114 * rgb[2]
+                text_color = 'white' if brightness < 0.5 else 'black'
+                plt.text(j + 0.5, i + 0.5, f'{value:.3f}',
+                         ha='center', va='center', fontsize=12, color=text_color, zorder=3)
+    
+    # Rotate x-axis labels for better readability
+    plt.xticks(rotation=45, ha='right')
+    plt.yticks(rotation=0)
+    
+    plt.tight_layout()
+    
+    # Save the plot
+    output_path = os.path.join(output_dir, f'aggregated_external_{metric_col}_heatmap_k{k_value}.png')
+    plt.savefig(output_path, dpi=300, bbox_inches='tight')
+    plt.close()
+    print(f"Saved aggregated {metric_name} heatmap (k={k_value}) to {output_path}")
+    
+    # Also save the data as CSV
+    csv_path = os.path.join(output_dir, f'aggregated_external_{metric_col}_data_k{k_value}.csv')
+    heatmap_matrix.to_csv(csv_path)
+    print(f"Saved aggregated {metric_name} data (k={k_value}) to {csv_path}")
+
 def analyze_internal_consistency(df, features, models, k):
     """
     Analyze consistency within each model across different runs (internal consistency) for a specific k value.
@@ -529,6 +685,12 @@ def main(input_csv_path='data/output/evaluation/app_rankings.csv',
     # 5. Create combined heatmap figures
     create_combined_heatmap_figure(all_jaccard_data, 'jaccard', consistency_type, output_dir, models)
     create_combined_heatmap_figure(all_rbo_data, 'rbo', consistency_type, output_dir, models)
+    
+    # 6. Create aggregated external consistency heatmaps (only for external consistency, k=20 only)
+    if consistency_type == 'external':
+        print("\n=== Creating aggregated external consistency heatmaps (k=20) ===")
+        create_aggregated_external_consistency_heatmaps(all_jaccard_data, all_rbo_data, models, output_dir, target_k=20)
+        print("Aggregated external consistency analysis completed (k=20).")
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Analyze consistency of app rankings for different k values')

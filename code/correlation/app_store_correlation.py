@@ -111,6 +111,28 @@ def calculate_rbo_metrics(llm_lists, app_store_list, k):
         'rbo': np.mean(rbo_scores) if rbo_scores else 0
     }
 
+def calculate_rbo_metrics_direct(list1, list2, k):
+    """
+    Calculate RBO metrics between two app store rankings directly.
+    """
+    if not list1 or not list2:
+        return {'jaccard': 0, 'rbo': 0}
+    
+    # RBO
+    rbo_score = rbo(list1, list2, p=0.9)
+    
+    # Jaccard similarity
+    set1 = set(list1)
+    set2 = set(list2)
+    intersection = len(set1.intersection(set2))
+    union = len(set1.union(set2))
+    jaccard_sim = intersection / union if union != 0 else 0
+    
+    return {
+        'jaccard': jaccard_sim,
+        'rbo': rbo_score
+    }
+
 def analyze_rbo(llm_df, app_store_df, features, models, k, source):
     """
     Analyze RBO between LLM recommendations and app store recommendations.
@@ -137,6 +159,31 @@ def analyze_rbo(llm_df, app_store_df, features, models, k, source):
                 'jaccard': metrics['jaccard'],
                 'rbo': metrics['rbo']
             })
+    
+    return pd.DataFrame(results)
+
+def analyze_rbo_app_stores(app_store_df, features, k, source1, source2):
+    """
+    Analyze RBO between two app store sources directly.
+    """
+    results = []
+    
+    for feature in features:
+        # Get rankings from both sources
+        list1 = get_app_store_ranking(app_store_df, feature, source1, k)
+        list2 = get_app_store_ranking(app_store_df, feature, source2, k)
+        
+        if not list1 or not list2:
+            continue
+        
+        # Calculate metrics
+        metrics = calculate_rbo_metrics_direct(list1, list2, k)
+        
+        results.append({
+            'feature': feature,
+            'jaccard': metrics['jaccard'],
+            'rbo': metrics['rbo']
+        })
     
     return pd.DataFrame(results)
 
@@ -195,6 +242,63 @@ def plot_heatmap(df, metric, title, output_path, model_order=None):
     
     # Create heatmap
     sns.heatmap(pivot_df_with_avg, annot=True, cmap=cmap, fmt=".3f", 
+                vmin=vmin, vmax=vmax, cbar_kws={'label': f'{metric.title()} Score'},
+                annot_kws={'size': 10})
+    
+    plt.title(title, fontsize=16, pad=20)
+    plt.tight_layout()
+    plt.savefig(output_path, dpi=300, bbox_inches='tight')
+    plt.close()
+    print(f"Saved plot to {output_path}")
+
+def plot_heatmap_app_stores(df, metric, title, output_path):
+    """
+    Plots a heatmap of RBO scores for app store comparison (single column).
+    """
+    if df.empty:
+        print(f"Skipping plot for '{title}' as there is no data.")
+        return
+    
+    # Create a single column dataframe for app store comparison
+    result_df = df[['feature', metric]].copy()
+    result_df = result_df.set_index('feature')
+    
+    # Rename features for display
+    result_df.index = result_df.index.map(rename_feature_for_display)
+    
+    # Sort features alphabetically
+    result_df_sorted = result_df.sort_index()
+    
+    # Add empty row for visual separation
+    empty_row = pd.DataFrame([[np.nan]], index=[''], columns=[metric])
+    
+    # Add average row at the bottom
+    overall_avg = result_df_sorted[metric].mean()
+    avg_row = pd.DataFrame([[overall_avg]], index=['AVERAGE'], columns=[metric])
+    
+    # Concatenate: features + empty row + average
+    result_df_with_avg = pd.concat([result_df_sorted, empty_row, avg_row])
+    
+    # Set figure size
+    plt.figure(figsize=(6, 8))
+    
+    # Set font sizes for better readability
+    plt.rcParams.update({
+        'font.size': 12,
+        'axes.titlesize': 16,
+        'axes.labelsize': 14,
+        'xtick.labelsize': 12,
+        'ytick.labelsize': 12,
+        'legend.fontsize': 12,
+        'figure.titlesize': 18
+    })
+    
+    # Use YlGnBu colormap for RBO and Jaccard (0 to 1 range)
+    cmap = 'YlGnBu'
+    vmin, vmax = 0, 1
+    
+    # Create heatmap
+    sns.heatmap(result_df_with_avg, annot=True, cmap=cmap, fmt=".3f", 
                 vmin=vmin, vmax=vmax, cbar_kws={'label': f'{metric.title()} Score'},
                 annot_kws={'size': 10})
     
@@ -311,6 +415,200 @@ def create_combined_heatmap_figure(all_data, metric, source, output_dir, model_o
     plt.close()
     print(f"Saved combined {metric} heatmap to {output_path}")
 
+def create_combined_heatmap_figure_app_stores(all_data, metric, source1, source2, output_dir):
+    """
+    Create a combined figure with all k-value heatmaps for app store comparison.
+    """
+    if not all_data:
+        print(f"No data available for {metric} combined heatmap")
+        return
+    
+    k_values = sorted(all_data.keys())
+    num_k = len(k_values)
+    
+    # Set up the figure with subplots
+    fig_height = 8
+    fig, axes = plt.subplots(1, num_k, figsize=(4.5 * num_k, fig_height))
+    if num_k == 1:
+        axes = [axes]
+    
+    # Set font sizes for better readability
+    plt.rcParams.update({
+        'font.size': 12,
+        'axes.titlesize': 16,
+        'axes.labelsize': 14,
+        'xtick.labelsize': 12,
+        'ytick.labelsize': 12,
+        'legend.fontsize': 12,
+        'figure.titlesize': 18
+    })
+    
+    # Use YlGnBu colormap for RBO and Jaccard (0 to 1 range)
+    cmap = 'YlGnBu'
+    vmin, vmax = 0, 1
+    
+    # Process each k value
+    for i, k in enumerate(k_values):
+        df = all_data[k]
+        if df.empty:
+            continue
+            
+        ax = axes[i]
+        
+        # Create single column dataframe
+        result_df = df[['feature', metric]].copy()
+        result_df = result_df.set_index('feature')
+        
+        # Rename features for display
+        result_df.index = result_df.index.map(rename_feature_for_display)
+        
+        # Sort features alphabetically
+        result_df_sorted = result_df.sort_index()
+        
+        # Add empty row for visual separation
+        empty_row = pd.DataFrame([[np.nan]], index=[''], columns=[metric])
+        
+        # Add average row at the bottom
+        overall_avg = result_df_sorted[metric].mean()
+        avg_row = pd.DataFrame([[overall_avg]], index=['AVERAGE'], columns=[metric])
+        
+        # Concatenate: features + empty row + average
+        result_df_with_avg = pd.concat([result_df_sorted, empty_row, avg_row])
+        
+        # Create heatmap
+        if i == 0:  # First subplot - show y-axis labels
+            sns.heatmap(result_df_with_avg, annot=True, cmap=cmap, fmt=".3f", 
+                       vmin=vmin, vmax=vmax, cbar=False, ax=ax,
+                       annot_kws={'size': 10})
+        elif i == num_k - 1:  # Last subplot - show colorbar
+            heatmap = sns.heatmap(result_df_with_avg, annot=True, cmap=cmap, fmt=".3f", 
+                       vmin=vmin, vmax=vmax, cbar=True, ax=ax,
+                       cbar_kws={'label': f'{metric.title()} Score'},
+                       annot_kws={'size': 10})
+        else:  # Middle subplots - no y-axis labels, no colorbar
+            sns.heatmap(result_df_with_avg, annot=True, cmap=cmap, fmt=".3f", 
+                       vmin=vmin, vmax=vmax, cbar=False, ax=ax,
+                       annot_kws={'size': 10})
+        
+        # Set title with k value
+        ax.set_title(f'k = {k}', fontsize=12, pad=15)
+        
+        # Hide y-axis labels for all except first subplot
+        if i > 0:
+            ax.set_ylabel('')
+            ax.set_yticklabels([])
+        
+        ax.set_yticklabels(ax.get_yticklabels(), fontsize=12)
+        ax.xaxis.label.set_size(12)
+    
+    # Adjust layout
+    plt.tight_layout()
+    
+    # Save the figure
+    output_path = os.path.join(output_dir, f'combined_{source1}_vs_{source2}_{metric}_heatmap.png')
+    plt.savefig(output_path, dpi=300, bbox_inches='tight')
+    plt.close()
+    print(f"Saved combined {metric} heatmap to {output_path}")
+
+def create_final_comparison_figure(llm_df, app_store_df, features, models, k, output_dir):
+    """
+    Create a final comparison figure with 3 subplots: google_play vs LLM, apple_store vs LLM, google_play vs apple_store.
+    """
+    print(f"\n=== Creating final comparison figure for k={k} ===")
+    
+    # Set up the figure with 3 subplots
+    fig, axes = plt.subplots(1, 3, figsize=(18, 8))
+    
+    # Set font sizes for better readability
+    plt.rcParams.update({
+        'font.size': 12,
+        'axes.titlesize': 16,
+        'axes.labelsize': 14,
+        'xtick.labelsize': 12,
+        'ytick.labelsize': 12,
+        'legend.fontsize': 12,
+        'figure.titlesize': 18
+    })
+    
+    # Use YlGnBu colormap for RBO and Jaccard (0 to 1 range)
+    cmap = 'YlGnBu'
+    vmin, vmax = 0, 1
+    
+    # Subplot 1: google_play vs LLM
+    print("Creating google_play vs LLM comparison...")
+    google_play_results = analyze_rbo(llm_df, app_store_df, features, models, k, 'google_play')
+    if not google_play_results.empty:
+        pivot_df = google_play_results.pivot_table(index='feature', columns='model', values='rbo')
+        pivot_df.index = pivot_df.index.map(rename_feature_for_display)
+        pivot_df_sorted = pivot_df.sort_index()
+        
+        # Add empty row and average
+        empty_row = pd.DataFrame([[np.nan] * len(pivot_df_sorted.columns)], 
+                               index=[''], columns=pivot_df_sorted.columns)
+        overall_avg = pivot_df_sorted.mean(axis=0)
+        avg_row = pd.DataFrame([overall_avg], index=['AVERAGE'])
+        pivot_df_with_avg = pd.concat([pivot_df_sorted, empty_row, avg_row])
+        
+        sns.heatmap(pivot_df_with_avg, annot=True, cmap=cmap, fmt=".3f", 
+                   vmin=vmin, vmax=vmax, cbar=False, ax=axes[0],
+                   annot_kws={'size': 10})
+        axes[0].set_title('google_play vs LLM', fontsize=14, pad=15)
+        axes[0].set_ylabel('Features')
+    
+    # Subplot 2: apple_store vs LLM
+    print("Creating apple_store vs LLM comparison...")
+    apple_store_results = analyze_rbo(llm_df, app_store_df, features, models, k, 'apple_store')
+    if not apple_store_results.empty:
+        pivot_df = apple_store_results.pivot_table(index='feature', columns='model', values='rbo')
+        pivot_df.index = pivot_df.index.map(rename_feature_for_display)
+        pivot_df_sorted = pivot_df.sort_index()
+        
+        # Add empty row and average
+        empty_row = pd.DataFrame([[np.nan] * len(pivot_df_sorted.columns)], 
+                               index=[''], columns=pivot_df_sorted.columns)
+        overall_avg = pivot_df_sorted.mean(axis=0)
+        avg_row = pd.DataFrame([overall_avg], index=['AVERAGE'])
+        pivot_df_with_avg = pd.concat([pivot_df_sorted, empty_row, avg_row])
+        
+        sns.heatmap(pivot_df_with_avg, annot=True, cmap=cmap, fmt=".3f", 
+                   vmin=vmin, vmax=vmax, cbar=False, ax=axes[1],
+                   annot_kws={'size': 10})
+        axes[1].set_title('apple_store vs LLM', fontsize=14, pad=15)
+        axes[1].set_ylabel('')
+        axes[1].set_yticklabels([])
+    
+    # Subplot 3: google_play vs apple_store
+    print("Creating google_play vs apple_store comparison...")
+    app_stores_results = analyze_rbo_app_stores(app_store_df, features, k, 'google_play', 'apple_store')
+    if not app_stores_results.empty:
+        result_df = app_stores_results[['feature', 'rbo']].copy()
+        result_df = result_df.set_index('feature')
+        result_df.index = result_df.index.map(rename_feature_for_display)
+        result_df_sorted = result_df.sort_index()
+        
+        # Add empty row and average
+        empty_row = pd.DataFrame([[np.nan]], index=[''], columns=['rbo'])
+        overall_avg = result_df_sorted['rbo'].mean()
+        avg_row = pd.DataFrame([[overall_avg]], index=['AVERAGE'], columns=['rbo'])
+        result_df_with_avg = pd.concat([result_df_sorted, empty_row, avg_row])
+        
+        heatmap = sns.heatmap(result_df_with_avg, annot=True, cmap=cmap, fmt=".3f", 
+                             vmin=vmin, vmax=vmax, cbar=True, ax=axes[2],
+                             cbar_kws={'label': 'RBO Score'},
+                             annot_kws={'size': 10})
+        axes[2].set_title('google_play vs apple_store', fontsize=14, pad=15)
+        axes[2].set_ylabel('')
+        axes[2].set_yticklabels([])
+    
+    # Adjust layout
+    plt.tight_layout()
+    
+    # Save the figure
+    output_path = os.path.join(output_dir, f'final_comparison_k{k}_rbo.png')
+    plt.savefig(output_path, dpi=300, bbox_inches='tight')
+    plt.close()
+    print(f"Saved final comparison figure to {output_path}")
+
 def analyze_rbo_for_k(llm_df, app_store_df, features, models, k, source, output_dir):
     """
     Analyze RBO for a specific k value and save results.
@@ -336,6 +634,34 @@ def analyze_rbo_for_k(llm_df, app_store_df, features, models, k, source, output_
         title = f'{metric.title()} Score with {source.title()} (k={k})'
         output_path = os.path.join(output_dir, f'k{k}_{source}_{metric}_heatmap.png')
         plot_heatmap(results_df, metric, title, output_path, models)
+    
+    return results_df
+
+def analyze_rbo_app_stores_for_k(app_store_df, features, k, source1, source2, output_dir):
+    """
+    Analyze RBO between two app stores for a specific k value and save results.
+    """
+    print(f"\n=== Analyzing RBO for k={k}, {source1} vs {source2} ===")
+    
+    # Calculate RBO metrics
+    results_df = analyze_rbo_app_stores(app_store_df, features, k, source1, source2)
+    
+    if results_df.empty:
+        print(f"No results for k={k}, {source1} vs {source2}")
+        return results_df
+    
+    print(f"--- RBO Results (k={k}, {source1} vs {source2}) ---")
+    print(results_df)
+    
+    # Save results to CSV
+    results_df.to_csv(os.path.join(output_dir, f'k{k}_{source1}_vs_{source2}_rbo_results.csv'), index=False)
+    
+    # Create individual heatmaps for each metric
+    metrics = ['jaccard', 'rbo']
+    for metric in metrics:
+        title = f'{metric.title()} Score: {source1} vs {source2} (k={k})'
+        output_path = os.path.join(output_dir, f'k{k}_{source1}_vs_{source2}_{metric}_heatmap.png')
+        plot_heatmap_app_stores(results_df, metric, title, output_path)
     
     return results_df
 
@@ -382,6 +708,40 @@ def create_summary_report(all_data, source, output_dir):
     
     # Save report
     report_path = os.path.join(output_dir, f'{source}_rbo_analysis_report.txt')
+    with open(report_path, 'w') as f:
+        f.write('\n'.join(report_lines))
+    
+    print(f"Saved summary report to {report_path}")
+
+def create_summary_report_app_stores(all_data, source1, source2, output_dir):
+    """
+    Create a summary report for app store comparison.
+    """
+    report_lines = []
+    report_lines.append(f"=== RBO ANALYSIS SUMMARY REPORT ===")
+    report_lines.append(f"Comparison: {source1} vs {source2}")
+    report_lines.append(f"Generated on: {pd.Timestamp.now().strftime('%Y-%m-%d %H:%M:%S')}")
+    report_lines.append("")
+    
+    metrics = ['jaccard', 'rbo']
+    
+    for metric in metrics:
+        report_lines.append(f"--- {metric.upper()} SCORES ---")
+        
+        for k in sorted(all_data.keys()):
+            df = all_data[k]
+            if not df.empty and metric in df.columns:
+                avg_score = df[metric].mean()
+                std_score = df[metric].std()
+                min_score = df[metric].min()
+                max_score = df[metric].max()
+                
+                report_lines.append(f"k={k}: Mean={avg_score:.3f}, Std={std_score:.3f}, Min={min_score:.3f}, Max={max_score:.3f}")
+        
+        report_lines.append("")
+    
+    # Save report
+    report_path = os.path.join(output_dir, f'{source1}_vs_{source2}_rbo_analysis_report.txt')
     with open(report_path, 'w') as f:
         f.write('\n'.join(report_lines))
     
@@ -447,6 +807,39 @@ def main(llm_recommendation_path, app_store_recommendation_path, output_folder, 
         
         # Create summary report
         create_summary_report(all_data, source, source_output_dir)
+    
+    # NEW: Analyze RBO between google_play and apple_store
+    if 'google_play' in sources and 'apple_store' in sources:
+        print(f"\n{'='*60}")
+        print(f"ANALYZING RBO BETWEEN google_play AND apple_store")
+        print(f"{'='*60}")
+        
+        # Create app store comparison output directory
+        app_store_comparison_dir = os.path.join(output_folder, 'app_store_comparison')
+        if not os.path.exists(app_store_comparison_dir):
+            os.makedirs(app_store_comparison_dir)
+        
+        # Analyze RBO for each k value and collect results
+        all_data_app_stores = {}
+        
+        for k in k_values:
+            results_df = analyze_rbo_app_stores_for_k(app_store_df, features, k, 'google_play', 'apple_store', app_store_comparison_dir)
+            all_data_app_stores[k] = results_df
+        
+        # Create combined heatmap figures for app store comparison
+        metrics = ['jaccard', 'rbo']
+        for metric in metrics:
+            create_combined_heatmap_figure_app_stores(all_data_app_stores, metric, 'google_play', 'apple_store', app_store_comparison_dir)
+        
+        # Create summary report for app store comparison
+        create_summary_report_app_stores(all_data_app_stores, 'google_play', 'apple_store', app_store_comparison_dir)
+    
+    # NEW: Create final comparison figure with k=20
+    print(f"\n{'='*60}")
+    print(f"CREATING FINAL COMPARISON FIGURE (k=20)")
+    print(f"{'='*60}")
+    
+    create_final_comparison_figure(llm_df, app_store_df, features, models, 20, output_folder)
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Analyze RBO between LLM recommendations and app store recommendations')

@@ -2,6 +2,7 @@ import pandas as pd
 import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
+from umap import UMAP
 from sklearn.manifold import TSNE
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
@@ -24,9 +25,9 @@ MODEL_COLORS = {
     'perplexity': '#FFEAA7'    # Yellow
 }
 
-def generate_cache_key(llm_criteria, standard_criteria, model_name='all-MiniLM-L6-v2'):
+def generate_cache_key(llm_criteria, standard_criteria, model_name='all-MiniLM-L6-v2', method='umap'):
     """
-    Generate a unique cache key based on the criteria content and model.
+    Generate a unique cache key based on the criteria content, model, and dimensionality reduction method.
     """
     # Create a hash of the criteria content
     criteria_hash = hashlib.md5()
@@ -41,6 +42,9 @@ def generate_cache_key(llm_criteria, standard_criteria, model_name='all-MiniLM-L
     
     # Add model name to hash
     criteria_hash.update(model_name.encode('utf-8'))
+    
+    # Add method to hash
+    criteria_hash.update(method.encode('utf-8'))
     
     return criteria_hash.hexdigest()
 
@@ -61,20 +65,20 @@ def load_cached_embeddings(cache_path):
             with open(cache_path, 'rb') as f:
                 cached_data = pickle.load(f)
             print(f"Loaded cached embeddings from {cache_path}")
-            return cached_data['embeddings'], cached_data['tsne_coords']
+            return cached_data['embeddings'], cached_data['coords_2d']
         except Exception as e:
             print(f"Error loading cached embeddings: {e}")
             return None, None
     return None, None
 
-def save_cached_embeddings(cache_path, embeddings, tsne_coords):
+def save_cached_embeddings(cache_path, embeddings, coords_2d):
     """
     Save embeddings to cache.
     """
     try:
         cached_data = {
             'embeddings': embeddings,
-            'tsne_coords': tsne_coords
+            'coords_2d': coords_2d
         }
         with open(cache_path, 'wb') as f:
             pickle.dump(cached_data, f)
@@ -130,21 +134,22 @@ def prepare_criteria_texts(df, rc_df):
     
     return llm_criteria, llm_metadata, standard_criteria, standard_metadata
 
-def create_embeddings_and_visualization(llm_criteria, llm_metadata, standard_criteria, standard_metadata, output_dir, use_cache=True):
+def create_embeddings_and_visualization(llm_criteria, llm_metadata, standard_criteria, standard_metadata, output_dir, use_cache=True, method='umap', distance_percentile=90):
     """
     Create embeddings and generate the 2D visualization with caching support.
+    Supports both UMAP and t-SNE dimensionality reduction.
     """
     # Generate cache key
-    cache_key = generate_cache_key(llm_criteria, standard_criteria)
+    cache_key = generate_cache_key(llm_criteria, standard_criteria, method=method)
     cache_path = get_cache_path(output_dir, cache_key)
     
     # Try to load from cache first
     if use_cache:
-        cached_embeddings, cached_tsne_coords = load_cached_embeddings(cache_path)
-        if cached_embeddings is not None and cached_tsne_coords is not None:
-            print("Using cached embeddings and t-SNE coordinates")
+        cached_embeddings, cached_coords_2d = load_cached_embeddings(cache_path)
+        if cached_embeddings is not None and cached_coords_2d is not None:
+            print(f"Using cached embeddings and {method.upper()} coordinates")
             embeddings = cached_embeddings
-            coords_2d = cached_tsne_coords
+            coords_2d = cached_coords_2d
         else:
             # Create new embeddings
             print("Loading sentence embedding model...")
@@ -156,10 +161,16 @@ def create_embeddings_and_visualization(llm_criteria, llm_metadata, standard_cri
             print("Creating embeddings...")
             embeddings = model.encode(all_criteria)
             
-            # Apply t-SNE for dimensionality reduction
-            print("Applying t-SNE dimensionality reduction...")
-            tsne = TSNE(n_components=2, random_state=42, perplexity=30, n_iter=1000)
-            coords_2d = tsne.fit_transform(embeddings)
+            # Apply dimensionality reduction
+            print(f"Applying {method.upper()} dimensionality reduction...")
+            if method.lower() == 'umap':
+                reducer = UMAP(n_components=2, random_state=42, n_neighbors=15, min_dist=0.1)
+            elif method.lower() == 'tsne':
+                reducer = TSNE(n_components=2, random_state=42, perplexity=30, n_iter=1000)
+            else:
+                raise ValueError(f"Unsupported method: {method}. Use 'umap' or 'tsne'")
+            
+            coords_2d = reducer.fit_transform(embeddings)
             
             # Save to cache
             save_cached_embeddings(cache_path, embeddings, coords_2d)
@@ -174,10 +185,16 @@ def create_embeddings_and_visualization(llm_criteria, llm_metadata, standard_cri
         print("Creating embeddings...")
         embeddings = model.encode(all_criteria)
         
-        # Apply t-SNE for dimensionality reduction
-        print("Applying t-SNE dimensionality reduction...")
-        tsne = TSNE(n_components=2, random_state=42, perplexity=30, n_iter=1000)
-        coords_2d = tsne.fit_transform(embeddings)
+        # Apply dimensionality reduction
+        print(f"Applying {method.upper()} dimensionality reduction...")
+        if method.lower() == 'umap':
+            reducer = UMAP(n_components=2, random_state=42, n_neighbors=15, min_dist=0.1)
+        elif method.lower() == 'tsne':
+            reducer = TSNE(n_components=2, random_state=42, perplexity=30, n_iter=1000)
+        else:
+            raise ValueError(f"Unsupported method: {method}. Use 'umap' or 'tsne'")
+        
+        coords_2d = reducer.fit_transform(embeddings)
     
     # Split coordinates for LLM and standard criteria
     llm_coords = coords_2d[:len(llm_criteria)]
@@ -199,8 +216,8 @@ def create_embeddings_and_visualization(llm_criteria, llm_metadata, standard_cri
         min_distance = min(distances_to_standards)
         llm_to_standard_distances.append(min_distance)
     
-    # Use 90th percentile as threshold for LLM criteria filtering
-    distance_threshold = np.percentile(llm_to_standard_distances, 90)
+    # Use specified percentile as threshold for LLM criteria filtering
+    distance_threshold = np.percentile(llm_to_standard_distances, distance_percentile)
     
     # Filter LLM criteria: only keep those close to at least one standard criteria
     llm_coords_filtered = []
@@ -264,15 +281,15 @@ def create_embeddings_and_visualization(llm_criteria, llm_metadata, standard_cri
                                     markerfacecolor='#FF6B35', markersize=15, 
                                     label='Standard Criteria'))
     
-    plt.legend(handles=legend_elements, loc='upper right', fontsize=16)  # Increased from 12 to 16
-    plt.title('Ranking Criteria Distribution: LLM vs Standard Criteria', fontsize=20, fontweight='bold')  # Increased from 16 to 20
-    plt.xlabel('t-SNE Dimension 1', fontsize=18)  # Increased from 14 to 18
-    plt.ylabel('t-SNE Dimension 2', fontsize=18)  # Increased from 14 to 18
+    plt.legend(handles=legend_elements, loc='upper right', fontsize=16)
+    plt.title(f'Ranking Criteria Distribution: LLM vs Standard Criteria ({method.upper()})', fontsize=20, fontweight='bold')
+    plt.xlabel(f'{method.upper()} Dimension 1', fontsize=18)
+    plt.ylabel(f'{method.upper()} Dimension 2', fontsize=18)
     plt.grid(True, alpha=0.3)
     
     # Increase tick label font sizes
-    plt.xticks(fontsize=14)  # Added tick font size
-    plt.yticks(fontsize=14)  # Added tick font size
+    plt.xticks(fontsize=14)
+    plt.yticks(fontsize=14)
     
     # Add extra margins to ensure all labels are visible
     x_min, x_max = plt.xlim()
@@ -283,7 +300,7 @@ def create_embeddings_and_visualization(llm_criteria, llm_metadata, standard_cri
     plt.ylim(y_min - y_margin, y_max + y_margin)
     
     # Save the plot
-    output_path = os.path.join(output_dir, 'ranking_criteria_distribution.png')
+    output_path = os.path.join(output_dir, f'ranking_criteria_distribution_{method.lower()}.png')
     plt.tight_layout()
     plt.savefig(output_path, dpi=300, bbox_inches='tight')
     plt.close()
@@ -762,7 +779,7 @@ def create_numerical_report(match_df, model_analysis, feature_analysis, coverage
     
     print(f"Saved report to {os.path.join(output_dir, 'consistency_analysis_report.txt')}")
 
-def main(input_file, output_dir, rc_file, use_cache=True):
+def main(input_file, output_dir, rc_file, use_cache=True, method='umap', distance_percentile=90):
     """
     Main function to run the complete analysis.
     """
@@ -777,7 +794,7 @@ def main(input_file, output_dir, rc_file, use_cache=True):
     
     print("Creating embeddings and visualization...")
     llm_coords, standard_coords, embeddings = create_embeddings_and_visualization(
-        llm_criteria, llm_metadata, standard_criteria, standard_metadata, output_dir, use_cache)
+        llm_criteria, llm_metadata, standard_criteria, standard_metadata, output_dir, use_cache, method, distance_percentile)
     
     print("Calculating similarity analysis...")
     match_df, model_analysis, feature_analysis, coverage_analysis = calculate_similarity_analysis(
@@ -811,9 +828,15 @@ if __name__ == '__main__':
                         help='Path to the standard ranking criteria CSV file.')
     parser.add_argument('--no-cache', action='store_true',
                         help='Disable caching of embeddings.')
+    parser.add_argument('--method', choices=['umap', 'tsne'], default='umap',
+                        help='Dimensionality reduction method to use (umap or tsne).')
+    parser.add_argument('--distance-percentile', type=int, default=90,
+                        help='Percentile threshold for filtering LLM criteria outliers (default: 90).')
     
     args = parser.parse_args()
     main(input_file=args.input_file, 
          output_dir=args.output_dir,
          rc_file=args.rc_file,
-         use_cache=not args.no_cache)
+         use_cache=not args.no_cache,
+         method=args.method,
+         distance_percentile=args.distance_percentile)
