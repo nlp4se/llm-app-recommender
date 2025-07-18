@@ -222,6 +222,11 @@ def plot_heatmap(df, metric, title, output_path, model_order=None):
     # Concatenate: features + empty row + average
     pivot_df_with_avg = pd.concat([pivot_df_sorted, empty_row, avg_row])
     
+    # Save heatmap data to CSV
+    csv_output_path = output_path.replace('.png', '_data.csv')
+    pivot_df_with_avg.to_csv(csv_output_path)
+    print(f"Saved heatmap data to {csv_output_path}")
+    
     # Set larger figure size and font sizes
     plt.figure(figsize=(max(12, len(pivot_df_with_avg.columns) * 1.5), 8))
     
@@ -278,6 +283,11 @@ def plot_heatmap_app_stores(df, metric, title, output_path):
     
     # Concatenate: features + empty row + average
     result_df_with_avg = pd.concat([result_df_sorted, empty_row, avg_row])
+    
+    # Save heatmap data to CSV
+    csv_output_path = output_path.replace('.png', '_data.csv')
+    result_df_with_avg.to_csv(csv_output_path)
+    print(f"Saved heatmap data to {csv_output_path}")
     
     # Set figure size
     plt.figure(figsize=(6, 8))
@@ -345,6 +355,9 @@ def create_combined_heatmap_figure(all_data, metric, source, output_dir, model_o
     cmap = 'YlGnBu'
     vmin, vmax = 0, 1
     
+    # Collect all heatmap data for CSV export
+    all_heatmap_data = {}
+    
     # Process each k value
     for i, k in enumerate(k_values):
         df = all_data[k]
@@ -380,6 +393,9 @@ def create_combined_heatmap_figure(all_data, metric, source, output_dir, model_o
         # Concatenate: features + empty row + average
         pivot_df_with_avg = pd.concat([pivot_df_sorted, empty_row, avg_row])
         
+        # Store data for CSV export
+        all_heatmap_data[f'k{k}'] = pivot_df_with_avg
+        
         # Create heatmap
         if i == 0:  # First subplot - show y-axis labels
             sns.heatmap(pivot_df_with_avg, annot=True, cmap=cmap, fmt=".3f", 
@@ -405,6 +421,14 @@ def create_combined_heatmap_figure(all_data, metric, source, output_dir, model_o
         
         ax.set_yticklabels(ax.get_yticklabels(), fontsize=12)
         ax.xaxis.label.set_size(12)
+    
+    # Save combined heatmap data to CSV
+    if all_heatmap_data:
+        csv_output_path = os.path.join(output_dir, f'combined_{source}_{metric}_heatmap_data.csv')
+        # Create a multi-sheet CSV by concatenating all k values with a separator
+        all_data_combined = pd.concat(all_heatmap_data.values(), keys=all_heatmap_data.keys(), axis=0)
+        all_data_combined.to_csv(csv_output_path)
+        print(f"Saved combined heatmap data to {csv_output_path}")
     
     # Adjust layout
     plt.tight_layout()
@@ -447,6 +471,9 @@ def create_combined_heatmap_figure_app_stores(all_data, metric, source1, source2
     cmap = 'YlGnBu'
     vmin, vmax = 0, 1
     
+    # Collect all heatmap data for CSV export
+    all_heatmap_data = {}
+    
     # Process each k value
     for i, k in enumerate(k_values):
         df = all_data[k]
@@ -475,6 +502,9 @@ def create_combined_heatmap_figure_app_stores(all_data, metric, source1, source2
         # Concatenate: features + empty row + average
         result_df_with_avg = pd.concat([result_df_sorted, empty_row, avg_row])
         
+        # Store data for CSV export
+        all_heatmap_data[f'k{k}'] = result_df_with_avg
+        
         # Create heatmap
         if i == 0:  # First subplot - show y-axis labels
             sns.heatmap(result_df_with_avg, annot=True, cmap=cmap, fmt=".3f", 
@@ -501,6 +531,14 @@ def create_combined_heatmap_figure_app_stores(all_data, metric, source1, source2
         ax.set_yticklabels(ax.get_yticklabels(), fontsize=12)
         ax.xaxis.label.set_size(12)
     
+    # Save combined heatmap data to CSV
+    if all_heatmap_data:
+        csv_output_path = os.path.join(output_dir, f'combined_{source1}_vs_{source2}_{metric}_heatmap_data.csv')
+        # Create a multi-sheet CSV by concatenating all k values with a separator
+        all_data_combined = pd.concat(all_heatmap_data.values(), keys=all_heatmap_data.keys(), axis=0)
+        all_data_combined.to_csv(csv_output_path)
+        print(f"Saved combined heatmap data to {csv_output_path}")
+    
     # Adjust layout
     plt.tight_layout()
     
@@ -516,8 +554,18 @@ def create_final_comparison_figure(llm_df, app_store_df, features, models, k, ou
     """
     print(f"\n=== Creating final comparison figure for k={k} ===")
     
-    # Set up the figure with 3 subplots
-    fig, axes = plt.subplots(1, 3, figsize=(18, 8))
+    # Set up the figure with 3 subplots using gridspec for different widths
+    from matplotlib import gridspec
+    
+    # Create figure with smaller overall width
+    fig = plt.figure(figsize=(14, 8))
+    gs = gridspec.GridSpec(1, 3, width_ratios=[1, 1, 0.6])  # Third subplot is 60% the width of others
+    
+    # Create axes with different widths
+    ax1 = plt.subplot(gs[0])
+    ax2 = plt.subplot(gs[1])
+    ax3 = plt.subplot(gs[2])
+    axes = [ax1, ax2, ax3]
     
     # Set font sizes for better readability
     plt.rcParams.update({
@@ -534,6 +582,9 @@ def create_final_comparison_figure(llm_df, app_store_df, features, models, k, ou
     cmap = 'YlGnBu'
     vmin, vmax = 0, 1
     
+    # Collect heatmap data for CSV export
+    final_comparison_data = {}
+    
     # Subplot 1: google_play vs LLM
     print("Creating google_play vs LLM comparison...")
     google_play_results = analyze_rbo(llm_df, app_store_df, features, models, k, 'google_play')
@@ -549,11 +600,16 @@ def create_final_comparison_figure(llm_df, app_store_df, features, models, k, ou
         avg_row = pd.DataFrame([overall_avg], index=['AVERAGE'])
         pivot_df_with_avg = pd.concat([pivot_df_sorted, empty_row, avg_row])
         
+        # Store data for CSV export
+        final_comparison_data['google_play_vs_llm'] = pivot_df_with_avg
+        
         sns.heatmap(pivot_df_with_avg, annot=True, cmap=cmap, fmt=".3f", 
                    vmin=vmin, vmax=vmax, cbar=False, ax=axes[0],
-                   annot_kws={'size': 10})
+                   annot_kws={'size': 12},  # Increased from 10 to 12
+                   yticklabels=True)  # Show y-axis labels
         axes[0].set_title('google_play vs LLM', fontsize=14, pad=15)
-        axes[0].set_ylabel('Features')
+        axes[0].set_ylabel('')  # Remove 'Features' label
+        axes[0].set_xlabel('')  # Remove 'model' label
     
     # Subplot 2: apple_store vs LLM
     print("Creating apple_store vs LLM comparison...")
@@ -570,11 +626,16 @@ def create_final_comparison_figure(llm_df, app_store_df, features, models, k, ou
         avg_row = pd.DataFrame([overall_avg], index=['AVERAGE'])
         pivot_df_with_avg = pd.concat([pivot_df_sorted, empty_row, avg_row])
         
+        # Store data for CSV export
+        final_comparison_data['apple_store_vs_llm'] = pivot_df_with_avg
+        
         sns.heatmap(pivot_df_with_avg, annot=True, cmap=cmap, fmt=".3f", 
                    vmin=vmin, vmax=vmax, cbar=False, ax=axes[1],
-                   annot_kws={'size': 10})
+                   annot_kws={'size': 12},  # Increased from 10 to 12
+                   yticklabels=False)  # Hide y-axis labels
         axes[1].set_title('apple_store vs LLM', fontsize=14, pad=15)
         axes[1].set_ylabel('')
+        axes[1].set_xlabel('')  # Remove 'model' label
         axes[1].set_yticklabels([])
     
     # Subplot 3: google_play vs apple_store
@@ -592,13 +653,26 @@ def create_final_comparison_figure(llm_df, app_store_df, features, models, k, ou
         avg_row = pd.DataFrame([[overall_avg]], index=['AVERAGE'], columns=['rbo'])
         result_df_with_avg = pd.concat([result_df_sorted, empty_row, avg_row])
         
+        # Store data for CSV export
+        final_comparison_data['google_play_vs_apple_store'] = result_df_with_avg
+        
         heatmap = sns.heatmap(result_df_with_avg, annot=True, cmap=cmap, fmt=".3f", 
                              vmin=vmin, vmax=vmax, cbar=True, ax=axes[2],
                              cbar_kws={'label': 'RBO Score'},
-                             annot_kws={'size': 10})
+                             annot_kws={'size': 12},  # Increased from 10 to 12
+                             yticklabels=False)  # Hide y-axis labels
         axes[2].set_title('google_play vs apple_store', fontsize=14, pad=15)
         axes[2].set_ylabel('')
+        axes[2].set_xlabel('')  # Remove 'rbo' label
         axes[2].set_yticklabels([])
+    
+    # Save final comparison data to CSV
+    if final_comparison_data:
+        csv_output_path = os.path.join(output_dir, f'final_comparison_k{k}_rbo_data.csv')
+        # Create a multi-sheet CSV by concatenating all comparisons with a separator
+        all_data_combined = pd.concat(final_comparison_data.values(), keys=final_comparison_data.keys(), axis=0)
+        all_data_combined.to_csv(csv_output_path)
+        print(f"Saved final comparison data to {csv_output_path}")
     
     # Adjust layout
     plt.tight_layout()

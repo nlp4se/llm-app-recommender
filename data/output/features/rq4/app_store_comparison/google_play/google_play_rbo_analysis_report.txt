@@ -1,0 +1,65 @@
+=== RBO ANALYSIS SUMMARY REPORT ===
+Source: google_play
+Generated on: 2025-07-15 14:42:58
+
+--- JACCARD SCORES ---
+k=3: Mean=0.087, Std=0.144, Min=0.000, Max=0.550
+k=10: Mean=0.104, Std=0.073, Min=0.000, Max=0.300
+k=20: Mean=0.116, Std=0.066, Min=0.000, Max=0.255
+
+--- RBO SCORES ---
+k=3: Mean=0.088, Std=0.162, Min=0.000, Max=0.635
+k=10: Mean=0.135, Std=0.127, Min=0.000, Max=0.483
+k=20: Mean=0.147, Std=0.111, Min=0.000, Max=0.416
+
+--- MODEL PERFORMANCE COMPARISON ---
+k=3:
+  anthropic:
+    jaccard: 0.117
+    rbo: 0.104
+  gemini:
+    jaccard: 0.092
+    rbo: 0.078
+  mistral:
+    jaccard: 0.125
+    rbo: 0.136
+  openai:
+    jaccard: 0.049
+    rbo: 0.082
+  perplexity:
+    jaccard: 0.049
+    rbo: 0.038
+
+k=10:
+  anthropic:
+    jaccard: 0.121
+    rbo: 0.165
+  gemini:
+    jaccard: 0.105
+    rbo: 0.129
+  mistral:
+    jaccard: 0.102
+    rbo: 0.163
+  openai:
+    jaccard: 0.112
+    rbo: 0.128
+  perplexity:
+    jaccard: 0.079
+    rbo: 0.092
+
+k=20:
+  anthropic:
+    jaccard: 0.128
+    rbo: 0.173
+  gemini:
+    jaccard: 0.103
+    rbo: 0.139
+  mistral:
+    jaccard: 0.126
+    rbo: 0.170
+  openai:
+    jaccard: 0.115
+    rbo: 0.145
+  perplexity:
+    jaccard: 0.107
+    rbo: 0.110

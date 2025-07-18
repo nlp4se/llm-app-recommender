@@ -1,0 +1,19 @@
+,anthropic,gemini,mistral,openai,perplexity
+Access to movies,0.0,0.0,0.0,0.0,0.0
+Access to podcasts,0.2,0.38,0.2,0.2,0.23000000000000004
+Broadcast messages,0.0,0.0,0.0,0.0,0.0
+Build photo collage,0.1,0.04,0.2,0.0,0.02
+Collaborate with others,0.0,0.0,0.0,0.0,0.0
+Go Live,0.0,0.0,0.0,0.0,0.0
+Keeping up with friends,0.0,0.0,0.0,0.0,0.0
+List items for sale,0.18,0.0,0.0,0.05,0.2
+Photo effects,0.0,0.0,0.0,0.0,0.0
+Play games,0.0,0.0,0.2,0.0,0.0
+Play playlist on shuffle mode,0.5,0.35,0.5,0.2,0.13999999999999999
+Rate movies,0.5,0.55,0.5,0.2,0.2
+Search for offer on item,0.2,0.02,0.2,0.02,0.0
+Send files,0.0,0.0,0.0,0.0,0.0
+Watch streams,0.2,0.02,0.2,0.02,0.0
+Write notes,0.0,0.12,0.0,0.1,0.0
+,,,,,
+AVERAGE,0.11750000000000001,0.0925,0.125,0.049375,0.049375

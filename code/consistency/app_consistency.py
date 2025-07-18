@@ -241,7 +241,7 @@ def create_aggregated_external_consistency_heatmaps(all_jaccard_data, all_rbo_da
 
 def create_model_pair_heatmap(df, metric_col, metric_name, output_dir, models, k_value):
     """
-    Create a heatmap showing pairwise model comparisons with upper diagonal shaded.
+    Create a heatmap showing pairwise model comparisons.
     
     Args:
         df: DataFrame with model1, model2, and metric values
@@ -267,9 +267,6 @@ def create_model_pair_heatmap(df, metric_col, metric_name, output_dir, models, k
     # Fill any remaining NaN values with 0
     heatmap_matrix = heatmap_matrix.fillna(0)
     
-    # Create a mask for the upper diagonal (to shade it)
-    mask = np.triu(np.ones_like(heatmap_matrix, dtype=bool), k=1)
-    
     # Set up the plot
     plt.figure(figsize=(6, 5))
     
@@ -284,34 +281,12 @@ def create_model_pair_heatmap(df, metric_col, metric_name, output_dir, models, k
         'figure.titlesize': 18
     })
     
-    # Create the heatmap with custom annotation handling
-    # First, create the heatmap without annotations
-    heatmap = sns.heatmap(
-        heatmap_matrix, annot=False, cmap='YlGnBu',
+    # Create the heatmap with standard formatting
+    sns.heatmap(
+        heatmap_matrix, annot=True, cmap='YlGnBu', fmt=".3f",
         vmin=0, vmax=1, cbar_kws={'label': f'{metric_name} Score'},
-        mask=mask
+        annot_kws={'size': 12}
     )
-
-    # Get the colormap and normalization for value-based color picking
-    cmap = plt.get_cmap('YlGnBu')
-    norm = plt.Normalize(vmin=0, vmax=1)
-
-    for i in range(len(models)):
-        for j in range(len(models)):
-            value = heatmap_matrix.iloc[i, j]
-            if mask[i, j]:  # Upper diagonal - grey background, white text
-                rect = plt.Rectangle((j, i), 1, 1, facecolor='lightgrey', alpha=0.7, zorder=2)
-                plt.gca().add_patch(rect)
-                plt.text(j + 0.5, i + 0.5, f'{value:.3f}',
-                         ha='center', va='center', fontsize=12, color='white', zorder=3)
-            else:  # Lower triangle and diagonal
-                # Get background color from colormap
-                rgb = cmap(norm(value))[:3]
-                # Calculate brightness (perceived luminance)
-                brightness = 0.299 * rgb[0] + 0.587 * rgb[1] + 0.114 * rgb[2]
-                text_color = 'white' if brightness < 0.5 else 'black'
-                plt.text(j + 0.5, i + 0.5, f'{value:.3f}',
-                         ha='center', va='center', fontsize=12, color=text_color, zorder=3)
     
     # Rotate x-axis labels for better readability
     plt.xticks(rotation=45, ha='right')

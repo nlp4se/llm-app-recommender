@@ -398,6 +398,10 @@ class RBOAnalyzer:
         if results_df.empty:
             print(f"No data for criteria-specific RBO plot (k={k})")
             return
+        
+        # Save the boxplot data as CSV
+        results_df.to_csv(output_dir / 'criteria_specific_rbo_boxplot_data.csv', index=False)
+        print(f"Criteria-specific RBO boxplot data for k={k} saved to: {output_dir / 'criteria_specific_rbo_boxplot_data.csv'}")
             
         # Create figure with subplots - optimized space usage
         n_criteria = len(results_df['criteria'].unique())
