@@ -6,7 +6,7 @@ An empirical research study that investigates how Large Language Models (LLMs) b
 
 This empirical investigation examines LLM behavior in mobile app recommendation scenarios across different AI-powered categories and features. The study focuses on:
 
-- **Multi-LLM Behavioral Analysis**: Comparing recommendation patterns across OpenAI GPT-4, Google Gemini, and Mistral models
+- **Multi-LLM Behavioral Analysis**: Comparing recommendation patterns across OpenAI, Google Gemini, Anthropic Claude, Mistral, and Perplexity models
 - **Feature-Based Recommendation Studies**: Analyzing how LLMs generate app recommendations for specific app features (e.g., "Photo effects", "Go Live", "Collaborate with others")
 - **Category-Based Behavioral Analysis**: Examining LLM behavior when evaluating apps within AI-powered categories (e.g., "AI-powered entertainment", "AI-powered productivity")
 - **Consistency Measurement**: Quantifying ranking consistency both within and across different LLM models
@@ -16,43 +16,48 @@ This empirical investigation examines LLM behavior in mobile app recommendation 
 
 ```
 llm-recommender-system/
-├── code/                          # Main source code
-│   ├── llm/                      # LLM integration modules
-│   │   ├── google/               # Google Gemini implementation
-│   │   ├── mistral/              # Mistral AI implementation
-│   │   ├── openai/               # OpenAI implementation
-│   │   ├── create_assistant.py   # Abstract assistant creation
-│   │   └── use_assistant.py      # Assistant usage utilities
+├── code/
+│   ├── experiments/              # Unified experiment framework
+│   │   ├── config.py             # RQ definitions, providers, default models
+│   │   ├── runner.py             # Orchestration (k × feature × provider × mode)
+│   │   ├── schema.py             # JSON Schema + k-sized array constraints
+│   │   └── providers/            # Provider adapters (structured + prompt modes)
 │   ├── consistency/              # Ranking consistency analysis
-│   │   ├── app_consistency.py    # App ranking consistency
-│   │   ├── app_internal_consistency.py
-│   │   └── ranking_criteria_consistency.py
-│   ├── correlation/              # Correlation analysis tools
-│   ├── data-processor/           # Data processing utilities
-│   └── visualization/            # Visualization modules
-│       ├── criteria_visualization.py
-│       └── source_visualization.py
-├── data/                         # Data directory
-│   ├── input/                    # Input data and configurations
-│   │   ├── prompts/              # System and user prompts
-│   │   ├── schema/               # JSON schemas for responses
-│   │   └── use-case/             # Categories and features data
-│   ├── output/                   # Generated outputs
-│   │   ├── category/             # Category-based results
-│   │   ├── features/             # Feature-based results
-│   │   ├── evaluation/           # Evaluation metrics
-│   │   └── search/               # Search results
-│   └── assistants/               # Stored assistant IDs
-├── experiments-*.py              # Experiment runner scripts
-└── hot-fix.py                    # Utility scripts
+│   ├── correlation/
+│   ├── elicitation/
+│   └── visualization/
+├── data/
+│   ├── input/
+│   │   ├── prompts/              # system-prompt-* and user-prompt-* variants
+│   │   ├── schema/               # rq1.base.json, rq3.base.json (+ OpenAI wrappers)
+│   │   └── use-case/             # k.csv, features.csv
+│   └── output/                   # Experiment results (generated)
+├── run_experiments.py            # Single entry point for all providers/RQs
+└── requirements.txt
 ```
 
 ## 🚀 Features
 
-### Supported LLM Providers
-- **OpenAI GPT-4**: Advanced reasoning and ranking capabilities
-- **Google Gemini**: Web search integration for real-time data
-- **Mistral AI**: Cost-effective alternative with strong performance
+### Supported model families (default models)
+- **Proprietary**
+  - `openai`: `gpt-5.3-chat-latest`
+  - `gemini`: `gemini-3-flash-preview`
+  - `anthropic`: `claude-opus-4-6-thinking`
+  - `mistral`: `mistral-large-latest`
+  - `perplexity`: `perplexity/sonar`
+- **Open (Hugging Face)**
+  - `llama4scout`: `meta-llama/Llama-4-Scout-17B-16E`
+  - `gemma4`: `google/gemma-4-31B`
+  - `qwen3`: `Qwen/Qwen3-30B-A3B`
+  - `gptoss20b`: `openai/gpt-oss-20b`
+  - `mistralsmall31`: `mistralai/Mistral-Small-3.1-24B-Instruct-2503`
+  - `deepseekv3`: `deepseek-ai/DeepSeek-V3`
+
+Each experiment runs in two **output modes**:
+- **`structured`**: API JSON Schema enforcement (`system-prompt-rq*.txt`)
+- **`prompt`**: JSON shape described in the system prompt (`system-prompt-output-rq*.txt`)
+
+Schemas enforce exactly **k** ranked apps via `minItems` / `maxItems` on the `a` array.
 
 ### Analysis Capabilities
 - **Multi-Model Comparison**: Evaluate consistency across different LLMs
@@ -119,61 +124,74 @@ pip install -r requirements.txt
 # Create .env file with your API keys
 OPENAI_API_KEY=your_openai_key
 GOOGLE_API_KEY=your_google_key
+ANTHROPIC_API_KEY=your_anthropic_key
 MISTRAL_API_KEY=your_mistral_key
+PERPLEXITY_API_KEY=your_perplexity_key
+HF_TOKEN=your_huggingface_token
 ```
 
 ## 🔬 Running Experiments
 
-### Feature-Based Behavioral Analysis (RQ1)
+All feature-based experiments use **`run_experiments.py`**. Outputs are written as flat JSON files under:
+
+`data/output/features/{rq}/{family}/`
+
+Filename pattern (underscore-separated):
+
+| RQ | Pattern | Example |
+|----|---------|---------|
+| RQ1 | `{family}_{provider}_{modelKey}_{mode}_k{k}_{FeatureCamelCase}_{run}.json` | `proprietary_openai_openai_structured_k20_PhotoEffects_0.json` |
+| RQ3 | `{family}_{provider}_{modelKey}_{mode}_k{k}_{FeatureCamelCase}_{CriterionCamelCase}_{run}.json` | `open_huggingface_gemma4_prompt_k20_PhotoEffects_CustomerSupport_0.json` |
+
+where `mode` is `structured` or `prompt`, and multi-word features use CamelCase (e.g. `Photo effects` → `PhotoEffects`).
+
+### Feature-based ranking with self-elicited criteria (RQ1)
+
+10 runs per (family, model, mode, k, feature) by default.
+
 ```bash
-# Run experiments for all LLM providers
-python experiments-gemini-rq1.py
-python experiments-mistral-rq1.py
-python experiments-openai-rq1.py
+# All model families, both output modes
+python run_experiments.py --rq rq1
+
+# Proprietary only
+python run_experiments.py --rq rq1 --families proprietary
+
+# Open models only
+python run_experiments.py --rq rq1 --families open
+
+# Single model key, structured output only
+python run_experiments.py --rq rq1 --model-keys openai --modes structured
+
+# Smoke test (no API calls)
+python run_experiments.py --rq rq1 --model-keys openai --modes structured \
+    --search "Photo effects" --k 20 --dry-run
 ```
 
-### Category-Based Behavioral Analysis (RQ3)
+### Ranking with fixed criteria from RQ1 pipeline (RQ3)
+
+4 runs per criteria row by default. Requires `data/output/features/rq1/rc_wo_id.csv` (from the RQ1 criteria consolidation pipeline) unless you pass `--criteria-csv`.
+
 ```bash
-# Run category-based experiments
-python experiments-gemini-rq3.py
-python experiments-mistral-rq3.py
-python experiments-openai-rq3.py
+python run_experiments.py --rq rq3
+
+python run_experiments.py --rq rq3 --criteria-csv path/to/criteria.csv
 ```
 
-### Individual LLM Searches
+### CLI reference
 
-#### Google Gemini
-```bash
-python -m code.llm.google.search_gemini_rq1 \
-    --output ./data/output/features/rq1/gemini/k20_Photo_effects \
-    --k 20 \
-    --search "Photo effects" \
-    --n 10 \
-    --model "gemini-2.0-flash" \
-    --system-prompt "data/input/prompts/system-prompt-output-rq1.txt"
-```
-
-#### OpenAI
-```bash
-python -m code.llm.openai.search_openai_rq1 \
-    --output ./data/output/features/rq1/openai/k20_Photo_effects \
-    --k 20 \
-    --search "Photo effects" \
-    --n 10 \
-    --model "gpt-4o" \
-    --system-prompt "data/input/prompts/system-prompt-output-rq1.txt"
-```
-
-#### Mistral
-```bash
-python -m code.llm.mistral.search_mistral_rq1 \
-    --output ./data/output/features/rq1/mistral/k20_Photo_effects \
-    --k 20 \
-    --search "Photo effects" \
-    --n 10 \
-    --model "mistral-large-latest" \
-    --system-prompt "data/input/prompts/system-prompt-output-rq1.txt"
-```
+| Flag | Description |
+|------|-------------|
+| `--rq` | `rq1` or `rq3` (required) |
+| `--families` | `both`, `proprietary`, `open`, or comma list |
+| `--model-keys` | `all` or comma list of keys (`openai,gemini,...,gemma4,qwen3,...`) |
+| `--modes` | `both`, `structured`, `prompt`, or comma list |
+| `--models` | Overrides by model key, e.g. `gemma4=google/gemma-4-31B` |
+| `--k` | Override k values (default from `data/input/use-case/k.csv`) |
+| `--search` | Override features (default from `features.csv`) |
+| `--n` | Runs per item (default: 10 for rq1, 4 for rq3) |
+| `--sleep` | Seconds between API calls (default: 10) |
+| `--max-attempts` | Retry attempts per run when JSON/schema validation fails |
+| `--dry-run` | Print planned output paths only |
 
 ### Consistency Analysis
 
@@ -196,16 +214,16 @@ python -m code.consistency.ranking_criteria_consistency \
 #### Criteria Visualization
 ```bash
 python -m code.visualization.criteria_visualization \
-    --input data/output/features/rq1/gemini/all_criteria.csv \
-    --output data/output/features/rq1/gemini/ \
+    --input data/output/features/rq1/rc_extracted.csv \
+    --output data/output/features/rq1/ \
     --similarity-threshold 0.72
 ```
 
 #### Source Visualization
 ```bash
 python -m code.visualization.source_visualization \
-    --input data/output/features/rq1/gemini/all_criteria.csv \
-    --output data/output/features/rq1/gemini/
+    --input data/output/features/rq1/rc_extracted.csv \
+    --output data/output/features/rq1/
 ```
 
 ## 📊 Experimental Output Structure
@@ -219,19 +237,19 @@ python -m code.visualization.source_visualization \
 
 ### Data Organization
 ```
-data/output/
-├── features/rq1/           # Feature-based analysis results
-│   ├── gemini/            # Google Gemini results
-│   ├── mistral/           # Mistral AI results
-│   └── openai/            # OpenAI results
-├── category/rq1/          # Category-based analysis results
-│   ├── gemini/            # Google Gemini results
-│   ├── mistral/           # Mistral AI results
-│   └── openai/            # OpenAI results
-├── evaluation/            # Consistency and correlation analysis
-│   ├── consistency/       # Ranking consistency metrics
-│   └── correlation/       # Cross-model correlation analysis
-└── search/               # Search functionality results
+data/output/features/
+├── rq1/
+│   ├── proprietary/
+│   │   ├── proprietary_openai_openai_structured_k20_PhotoEffects_0.json
+│   │   └── ...
+│   └── open/
+│       ├── open_huggingface_gemma4_structured_k20_PhotoEffects_0.json
+│       └── ...
+└── rq3/
+    ├── proprietary/
+    │   └── proprietary_openai_openai_structured_k20_PhotoEffects_CustomerSupport_0.json
+    └── open/
+        └── open_huggingface_qwen3_prompt_k20_PhotoEffects_CustomerSupport_0.json
 ```
 
 ## 📈 Results and Analysis
@@ -256,7 +274,9 @@ data/output/
 ### Technical Resources
 - [OpenAI API Documentation](https://platform.openai.com/docs)
 - [Google Gemini API Documentation](https://ai.google.dev/docs)
+- [Anthropic API Documentation](https://docs.anthropic.com/)
 - [Mistral AI API Documentation](https://docs.mistral.ai/)
+- [Perplexity API Documentation](https://docs.perplexity.ai/)
 
 ### Related Work
 - ....

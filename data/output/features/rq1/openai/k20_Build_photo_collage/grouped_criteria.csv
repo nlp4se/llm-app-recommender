@@ -1,7 +1,0 @@
-name,description,type,sources
-Ease of Use,User-friendliness and intuitiveness of the app interface.,Text [1],"App Store, Google Play Store, User Reviews, User reviews, app descriptions, app tutorials, expert reviews"
-Feature Set,"Range and quality of features offered for creating photo collages, such as templates, stickers, and editing tools.",Text [1],"App Store, App descriptions, Google Play Store, Official App Websites, Official app descriptions, Official app websites, user reviews"
-Number of Downloads,"Total number of times the app has been downloaded, reflecting its popularity.",Integer [1],"App Store, Google Play Store"
-Platform Availability,"Availability of the app across different platforms (iOS, Android, etc.)",Text [1],"App Store, Google Play Store, Official App Websites, Official app websites, app stores, official websites"
-Price,Cost of the app or availability of free version.,Text [1],"App Store, Google Play Store, Official App Websites"
-User Ratings,"Average user rating on app stores, indicating overall user satisfaction.",Float [1],"App Store, Google Play Store"

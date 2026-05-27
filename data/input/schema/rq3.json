@@ -1,21 +1,20 @@
 {
-    "type": "json_schema",
-    "json_schema": {
-      "name": "rank_apps",
-      "description": "Ranks apps based on specified criteria and provides detailed ranking information",
-      "schema": {
-        "type": "object",
-        "properties": {
-          "a": {
-            "type": "array",
-            "items": {
-              "type": "string"
-            },
-            "description": "Ordered list of app names (rank implied by position)"
-          }
-        },
-        "required": ["a"]
-      }
+  "type": "json_schema",
+  "json_schema": {
+    "name": "rank_apps",
+    "strict": true,
+    "description": "Ranks apps for a fixed criterion. Array length constraints are set at runtime from k.",
+    "schema": {
+      "type": "object",
+      "properties": {
+        "a": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Ordered list of app names (rank implied by position)"
+        }
+      },
+      "required": ["a"],
+      "additionalProperties": false
     }
   }
-  
+}

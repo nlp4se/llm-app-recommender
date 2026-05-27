@@ -1,0 +1,12 @@
+{
+  "type": "object",
+  "properties": {
+    "a": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Ordered list of app names (rank implied by position)"
+    }
+  },
+  "required": ["a"],
+  "additionalProperties": false
+}

@@ -1,0 +1,31 @@
+{
+  "type": "object",
+  "properties": {
+    "a": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Ordered list of app names (rank implied by position)"
+    },
+    "c": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "properties": {
+          "n": {
+            "type": "string",
+            "description": "Name of the ranking criterion"
+          },
+          "d": {
+            "type": "string",
+            "description": "Description of the ranking criterion (agnostic to app feature or domain)"
+          }
+        },
+        "required": ["n", "d"],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": ["a", "c"],
+  "additionalProperties": false
+}

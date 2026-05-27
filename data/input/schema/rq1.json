@@ -1,37 +1,33 @@
 {
-    "type": "json_schema",
-    "json_schema": {
-      "name": "rank_apps",
-      "description": "Ranks apps based on specified criteria and provides detailed ranking information",
-      "schema": {
-        "type": "object",
-        "properties": {
-          "a": {
-            "type": "array",
-            "items": {
-              "type": "string"
-            },
-            "description": "Ordered list of app names (rank implied by position)"
-          },
-          "c": {
-            "type": "array",
-            "items": {
-              "type": "object",
-              "properties": {
-                "n": {
-                  "type": "string",
-                  "description": "Name of the ranking criterion"
-                },
-                "d": {
-                  "type": "string",
-                  "description": "Description of the ranking criterion (must be agnostic to the app feature or domain)"
-                }
-              },
-              "required": ["n", "d"]
-            }
-          }
+  "type": "json_schema",
+  "json_schema": {
+    "name": "rank_apps",
+    "strict": true,
+    "description": "Ranks apps based on specified criteria. Array length constraints are set at runtime from k.",
+    "schema": {
+      "type": "object",
+      "properties": {
+        "a": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Ordered list of app names (rank implied by position)"
         },
-        "required": ["a", "c"]
-      }
+        "c": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "properties": {
+              "n": { "type": "string" },
+              "d": { "type": "string" }
+            },
+            "required": ["n", "d"],
+            "additionalProperties": false
+          }
+        }
+      },
+      "required": ["a", "c"],
+      "additionalProperties": false
     }
-  }  
+  }
+}

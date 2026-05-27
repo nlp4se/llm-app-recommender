@@ -1,8 +1,0 @@
-name,description,type,sources
-Ease of Use,User-friendliness and intuitiveness of the app's interface.,Text [1],"App Store descriptions, User reviews, app tutorials, expert reviews, tech blogs"
-Feature Set,Range and quality of photo effects and editing tools offered by the app.,Text [1],"App Store descriptions, Official app descriptions, Official app websites, user reviews"
-Number of Downloads,"Total number of times the app has been downloaded, indicating its popularity.",Integer [1],"App Store, Google Play Store"
-Platform Availability,"Availability of the app across different operating systems (iOS, Android, etc.).",Text [1],"App Store descriptions, Official app websites, app stores"
-Price,"Cost of the app, including any in-app purchases or subscription fees.",Float [1],"App Store, Google Play Store, official app websites"
-Update Frequency,"How often the app is updated, indicating ongoing support and feature improvements.",Text [1],"App Store, Google Play Store"
-User Ratings,"Average user rating on app stores, reflecting overall user satisfaction.",Float [1],"App Store, Google Play Store"

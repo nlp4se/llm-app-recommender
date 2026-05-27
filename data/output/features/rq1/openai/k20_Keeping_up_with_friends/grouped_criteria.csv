@@ -1,7 +1,0 @@
-name,description,type,sources
-Features,"The range of functionalities offered by the app, such as messaging, video calls, group chats, and unique features.",Text [*],"App Descriptions, App Store, Company Websites, Google Play Store, Official App Websites, User Reviews"
-Platform Availability,"The operating systems and devices on which the app is available, ensuring accessibility for users.",Text [1],"App Store, App Store Listings, Company Websites, Google Play Store, Official App Websites, Official Websites"
-Privacy and Security,"The measures implemented to protect user data and communications, including end-to-end encryption and data policies.",Text [1],"App Store, Company Websites, Google Play Store, Official App Websites, Privacy Policies, Security Audits"
-User Base,"The number of active users on the platform, indicating its popularity and the likelihood of friends being present.",Integer [1],"App Store, Company Reports, Google Play Store"
-User Experience,"Overall ease of use, interface design, and user satisfaction.",Text [1],"App Store Ratings, User Reviews"
-User Reviews and Ratings,"Feedback from users regarding their experiences with the app, reflecting satisfaction and usability.",Float [1],"App Store, Google Play Store, Independent Review Sites, Review Aggregators"
