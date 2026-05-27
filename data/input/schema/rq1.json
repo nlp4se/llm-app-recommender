@@ -25,17 +25,9 @@
                 "d": {
                   "type": "string",
                   "description": "Description of the ranking criterion (must be agnostic to the app feature or domain)"
-                },
-                "t": {
-                  "type": "string",
-                  "description": "Data type (e.g., Integer, Float, Boolean, Text, Media...) and cardinality (e.g., [1], [5], [*]...)"
-                },
-                "s": {
-                  "type": "string",
-                  "description": "Comma-separated list of data sources"
                 }
               },
-              "required": ["n", "d", "t", "s"]
+              "required": ["n", "d"]
             }
           }
         },

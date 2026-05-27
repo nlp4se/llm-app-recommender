@@ -12,9 +12,7 @@ IMPORTANT: You must respond with ONLY the JSON object below, with no additional 
   "c": [
     {
       "n": "Name of the ranking criterion 1",
-      "d": "Description of the ranking criterion 1",
-      "t": "Data type (e.g., Integer, Float, Boolean, Text, Media...) and cardinality (e.g., [1], [5], [*]...)",
-      "s": "Comma-separated sources of the criterion"
+      "d": "Description of the ranking criterion 1"
     }
     // Additional criteria as needed
   ]

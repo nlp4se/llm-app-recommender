@@ -1,3 +1,3 @@
-Recommend {k} apps to {search} based on the following ranking criteria:
+Recommend {k} mobile apps with the following feature: {search}. Base the search on the following ranking criteria:
 
 {ranking_criteria}

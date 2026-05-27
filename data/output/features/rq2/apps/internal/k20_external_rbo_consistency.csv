@@ -1,0 +1,161 @@
+feature,model1,model2,rbo
+Access to movies,anthropic,gemini,0.6460758533056093
+Access to movies,anthropic,mistral,0.8737525327390212
+Access to movies,anthropic,openai,0.8362216883953295
+Access to movies,anthropic,perplexity,0.8277251793277466
+Access to movies,gemini,mistral,0.6685076975118911
+Access to movies,gemini,openai,0.7059627527360673
+Access to movies,gemini,perplexity,0.6096884507083182
+Access to movies,mistral,openai,0.8784281521417977
+Access to movies,mistral,perplexity,0.8231552354704683
+Access to movies,openai,perplexity,0.8603558417854837
+Access to podcasts,anthropic,gemini,0.6174876157941201
+Access to podcasts,anthropic,mistral,0.8107428921679823
+Access to podcasts,anthropic,openai,0.824950904012928
+Access to podcasts,anthropic,perplexity,0.4836783571782524
+Access to podcasts,gemini,mistral,0.520118696656769
+Access to podcasts,gemini,openai,0.5420383553151659
+Access to podcasts,gemini,perplexity,0.4548757845355088
+Access to podcasts,mistral,openai,0.83780951956494
+Access to podcasts,mistral,perplexity,0.4402691502861094
+Access to podcasts,openai,perplexity,0.4523445253856797
+Broadcast messages to multiple contacts,anthropic,gemini,0.17879519305628214
+Broadcast messages to multiple contacts,anthropic,mistral,0.4525677819596579
+Broadcast messages to multiple contacts,anthropic,openai,0.3715899770063055
+Broadcast messages to multiple contacts,anthropic,perplexity,0.11051024914692828
+Broadcast messages to multiple contacts,gemini,mistral,0.14499072355600895
+Broadcast messages to multiple contacts,gemini,openai,0.1609265013491422
+Broadcast messages to multiple contacts,gemini,perplexity,0.23960903904798048
+Broadcast messages to multiple contacts,mistral,openai,0.5113638909632189
+Broadcast messages to multiple contacts,mistral,perplexity,0.0988739488433787
+Broadcast messages to multiple contacts,openai,perplexity,0.05634249067279813
+Build photo collage,anthropic,gemini,0.22054307971781748
+Build photo collage,anthropic,mistral,0.41109728137134577
+Build photo collage,anthropic,openai,0.44499154715153216
+Build photo collage,anthropic,perplexity,0.11876687901228143
+Build photo collage,gemini,mistral,0.2743562311664104
+Build photo collage,gemini,openai,0.1783202656798128
+Build photo collage,gemini,perplexity,0.2749404298790405
+Build photo collage,mistral,openai,0.3095487991026112
+Build photo collage,mistral,perplexity,0.1704758833172986
+Build photo collage,openai,perplexity,0.13348894090907512
+Collaborate with others,anthropic,gemini,0.7293257924040917
+Collaborate with others,anthropic,mistral,0.7046516148953675
+Collaborate with others,anthropic,openai,0.7006962994133761
+Collaborate with others,anthropic,perplexity,0.6118606592279856
+Collaborate with others,gemini,mistral,0.664354633526218
+Collaborate with others,gemini,openai,0.7386991288124625
+Collaborate with others,gemini,perplexity,0.6653221873323664
+Collaborate with others,mistral,openai,0.5920438648942749
+Collaborate with others,mistral,perplexity,0.5152644830826749
+Collaborate with others,openai,perplexity,0.6732212760775893
+Go Live,anthropic,gemini,0.10995838281599882
+Go Live,anthropic,mistral,0.4489987250974425
+Go Live,anthropic,openai,0.09587546475166665
+Go Live,anthropic,perplexity,0.06839204217292257
+Go Live,gemini,mistral,0.30566566792121547
+Go Live,gemini,openai,0.682909846912994
+Go Live,gemini,perplexity,0.49282130407877844
+Go Live,mistral,openai,0.1902117933278922
+Go Live,mistral,perplexity,0.1257195745867338
+Go Live,openai,perplexity,0.5159271612312225
+Keeping up with friends,anthropic,gemini,0.5096217120422899
+Keeping up with friends,anthropic,mistral,0.6652755060939151
+Keeping up with friends,anthropic,openai,0.5573230140628205
+Keeping up with friends,anthropic,perplexity,0.00043911689752998656
+Keeping up with friends,gemini,mistral,0.536632019902163
+Keeping up with friends,gemini,openai,0.388528595923751
+Keeping up with friends,gemini,perplexity,0.04395844616996621
+Keeping up with friends,mistral,openai,0.48120495134803853
+Keeping up with friends,mistral,perplexity,0.0005512748429383941
+Keeping up with friends,openai,perplexity,0.04385353462255366
+List items for sale,anthropic,gemini,0.6342121795821751
+List items for sale,anthropic,mistral,0.5700636034794573
+List items for sale,anthropic,openai,0.5864292550609714
+List items for sale,anthropic,perplexity,0.6724020495670096
+List items for sale,gemini,mistral,0.6707474055184811
+List items for sale,gemini,openai,0.6363008799737301
+List items for sale,gemini,perplexity,0.5581549483427607
+List items for sale,mistral,openai,0.642189007559268
+List items for sale,mistral,perplexity,0.5197831670263718
+List items for sale,openai,perplexity,0.5304878457573953
+Photo effects,anthropic,gemini,0.3567967808446667
+Photo effects,anthropic,mistral,0.5484364713940675
+Photo effects,anthropic,openai,0.3722360234323036
+Photo effects,anthropic,perplexity,0.4759899499826003
+Photo effects,gemini,mistral,0.41034903948491924
+Photo effects,gemini,openai,0.3756909993500158
+Photo effects,gemini,perplexity,0.32344691914817303
+Photo effects,mistral,openai,0.4031142230300081
+Photo effects,mistral,perplexity,0.4707681843682018
+Photo effects,openai,perplexity,0.41401268137438135
+Play games,anthropic,gemini,0.15369799628551653
+Play games,anthropic,mistral,0.4550057335049945
+Play games,anthropic,openai,0.00012660392848494868
+Play games,anthropic,perplexity,0.13233781306738457
+Play games,gemini,mistral,0.1641824325410176
+Play games,gemini,openai,0.0005818001704822363
+Play games,gemini,perplexity,0.19914957430182575
+Play games,mistral,openai,0.00023471897880411228
+Play games,mistral,perplexity,0.1938870769086197
+Play games,openai,perplexity,0.0019013028319271883
+Play playlist on shuffle mode,anthropic,gemini,0.4641813370855388
+Play playlist on shuffle mode,anthropic,mistral,0.833632877540382
+Play playlist on shuffle mode,anthropic,openai,0.7812552989204868
+Play playlist on shuffle mode,anthropic,perplexity,0.19833022117825358
+Play playlist on shuffle mode,gemini,mistral,0.4579657452059964
+Play playlist on shuffle mode,gemini,openai,0.40776651377167433
+Play playlist on shuffle mode,gemini,perplexity,0.19256770166747955
+Play playlist on shuffle mode,mistral,openai,0.8600521719681066
+Play playlist on shuffle mode,mistral,perplexity,0.18933077128189477
+Play playlist on shuffle mode,openai,perplexity,0.17735364948003746
+Rate movies,anthropic,gemini,0.6398437767254276
+Rate movies,anthropic,mistral,0.6141048482179592
+Rate movies,anthropic,openai,0.2905154427885083
+Rate movies,anthropic,perplexity,0.304644664695527
+Rate movies,gemini,mistral,0.632001038953105
+Rate movies,gemini,openai,0.29311167461961735
+Rate movies,gemini,perplexity,0.29827883425424234
+Rate movies,mistral,openai,0.2527325979271894
+Rate movies,mistral,perplexity,0.2565208042021185
+Rate movies,openai,perplexity,0.22790322371347393
+Search for offer on item,anthropic,gemini,0.24055409450515505
+Search for offer on item,anthropic,mistral,0.5103111631858529
+Search for offer on item,anthropic,openai,0.31495722682422655
+Search for offer on item,anthropic,perplexity,0.006145245224356637
+Search for offer on item,gemini,mistral,0.20694323309548157
+Search for offer on item,gemini,openai,0.37973934000707726
+Search for offer on item,gemini,perplexity,0.21338485227252885
+Search for offer on item,mistral,openai,0.3086635207644946
+Search for offer on item,mistral,perplexity,0.0035980888011880345
+Search for offer on item,openai,perplexity,0.38265637593683804
+Send files,anthropic,gemini,0.5265181484643618
+Send files,anthropic,mistral,0.18211060855159522
+Send files,anthropic,openai,0.5462282040312156
+Send files,anthropic,perplexity,0.37281857432325866
+Send files,gemini,mistral,0.11215403807079875
+Send files,gemini,openai,0.5494990686854478
+Send files,gemini,perplexity,0.26078801313189864
+Send files,mistral,openai,0.15126549392250238
+Send files,mistral,perplexity,0.23532302481802536
+Send files,openai,perplexity,0.25599727006963646
+Watch streams,anthropic,gemini,0.39205625135035255
+Watch streams,anthropic,mistral,0.7514349842115223
+Watch streams,anthropic,openai,0.194957189594716
+Watch streams,anthropic,perplexity,0.21257707559813774
+Watch streams,gemini,mistral,0.27714913712979533
+Watch streams,gemini,openai,0.20548361809583984
+Watch streams,gemini,perplexity,0.4238046749319505
+Watch streams,mistral,openai,0.18926300746414107
+Watch streams,mistral,perplexity,0.16291733202689446
+Watch streams,openai,perplexity,0.1456323826255569
+Write notes,anthropic,gemini,0.47219071384468186
+Write notes,anthropic,mistral,0.5152082288398888
+Write notes,anthropic,openai,0.47582062279229204
+Write notes,anthropic,perplexity,0.41283961212954046
+Write notes,gemini,mistral,0.601253456418473
+Write notes,gemini,openai,0.6651436609978245
+Write notes,gemini,perplexity,0.6367158468459688
+Write notes,mistral,openai,0.6763705230866541
+Write notes,mistral,perplexity,0.5524333490833057
+Write notes,openai,perplexity,0.6276966036844354

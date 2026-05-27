@@ -283,7 +283,7 @@ def create_model_pair_heatmap(df, metric_col, metric_name, output_dir, models, k
     
     # Create the heatmap with standard formatting
     sns.heatmap(
-        heatmap_matrix, annot=True, cmap='YlGnBu', fmt=".3f",
+        heatmap_matrix, annot=True, cmap='YlGnBu', fmt=".2f",
         vmin=0, vmax=1, cbar_kws={'label': f'{metric_name} Score'},
         annot_kws={'size': 12}
     )
@@ -378,7 +378,7 @@ def create_combined_heatmap_figure(all_data, metric_type, consistency_type, outp
     if consistency_type == 'external':
         fig_height = 8  # Make plot higher for external consistency
     else:
-        fig_height = 6
+        fig_height = 8
     widths = [1] * (num_k - 1) + [1.3]  # Make last subplot wider
     fig, axes = plt.subplots(
         1, num_k, 
@@ -390,12 +390,12 @@ def create_combined_heatmap_figure(all_data, metric_type, consistency_type, outp
     
     # Set font sizes for better readability (consolidated based on plot_heatmap)
     plt.rcParams.update({
-        'font.size': 12,
+        'font.size': 13,
         'axes.titlesize': 16,
         'axes.labelsize': 14,
-        'xtick.labelsize': 12,
-        'ytick.labelsize': 12,
-        'legend.fontsize': 12,
+        'xtick.labelsize': 13,
+        'ytick.labelsize': 13,
+        'legend.fontsize': 13,
         'figure.titlesize': 18
     })
     
@@ -441,19 +441,19 @@ def create_combined_heatmap_figure(all_data, metric_type, consistency_type, outp
         if i == 0:  # First subplot - show y-axis labels
             sns.heatmap(pivot_df_with_avg, annot=True, cmap='YlGnBu', fmt=".2f", 
                        vmin=0, vmax=1, cbar=False, ax=ax,
-                       annot_kws={'size': 10})
+                       annot_kws={'size': 13})
         elif i == num_k - 1:  # Last subplot - show colorbar
             heatmap = sns.heatmap(pivot_df_with_avg, annot=True, cmap='YlGnBu', fmt=".2f", 
                        vmin=0, vmax=1, cbar=True, ax=ax,
                        cbar_kws={'label': ''},
-                       annot_kws={'size': 10})
+                       annot_kws={'size': 13})
         else:  # Middle subplots - no y-axis labels, no colorbar
             sns.heatmap(pivot_df_with_avg, annot=True, cmap='YlGnBu', fmt=".2f", 
                        vmin=0, vmax=1, cbar=False, ax=ax,
-                       annot_kws={'size': 10})
+                       annot_kws={'size': 13})
         
         # Set title with k value
-        ax.set_title(f'k = {k}', fontsize=12, pad=15)
+        ax.set_title(f'k = {k}', fontsize=13, pad=15)
         
         # Hide y-axis labels for all except first subplot
         if i > 0:
@@ -461,9 +461,9 @@ def create_combined_heatmap_figure(all_data, metric_type, consistency_type, outp
             ax.set_yticklabels([])
         
         # Set x-axis tick labels to be horizontal
-        #ax.set_xticklabels(ax.get_xticklabels(), rotation=0, ha='center', fontsize=12)
-        ax.set_yticklabels(ax.get_yticklabels(), fontsize=12)
-        ax.xaxis.label.set_size(12)  # For the axis label "model"
+        ax.set_xticklabels(ax.get_xticklabels(), rotation=90, ha='center', fontsize=13)
+        ax.set_yticklabels(ax.get_yticklabels(), fontsize=13)
+        ax.xaxis.label.set_size(13)  # For the axis label "model"
     
     # Adjust layout
     plt.tight_layout()

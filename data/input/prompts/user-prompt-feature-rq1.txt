@@ -1,1 +1,1 @@
-Recommend {k} apps to {search}.
+Recommend {k} mobile apps with the following feature: {search}.
