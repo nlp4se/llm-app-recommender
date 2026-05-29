@@ -38,6 +38,88 @@ from code.experiments.schema import load_schema_for_run
 logger = logging.getLogger(__name__)
 
 
+def _format_eta(seconds: float) -> str:
+    if seconds < 0 or seconds != seconds:  # NaN
+        return "?"
+    total = int(seconds)
+    hours, rem = divmod(total, 3600)
+    minutes, secs = divmod(rem, 60)
+    if hours:
+        return f"{hours}h {minutes}m"
+    if minutes:
+        return f"{minutes}m {secs}s"
+    return f"{secs}s"
+
+
+class RunProgress:
+    """Tracks experiment-wide progress and logs ETA after each completed cell."""
+
+    def __init__(
+        self,
+        *,
+        total_bundles: int,
+        total_cells: int,
+        completed_cells_at_start: int,
+    ) -> None:
+        self.total_bundles = total_bundles
+        self.total_cells = total_cells
+        self.completed_at_start = completed_cells_at_start
+        self.session_completed = 0
+        self._session_start = time.time()
+
+    def log_plan(self) -> None:
+        remaining = self.total_cells - self.completed_at_start
+        logger.info(
+            "PROGRESS plan: %s bundles, %s cells total | %s already done | %s to run",
+            self.total_bundles,
+            self.total_cells,
+            self.completed_at_start,
+            remaining,
+        )
+
+    def on_bundle_start(self, bundle_index: int, model_key: str, cells_done: int, cells_total: int) -> None:
+        remaining_bundle = cells_total - cells_done
+        logger.info(
+            "PROGRESS bundle %s/%s | model=%s | %s/%s cells in bundle | %s missing in this bundle",
+            bundle_index,
+            self.total_bundles,
+            model_key,
+            cells_done,
+            cells_total,
+            remaining_bundle,
+        )
+
+    def on_bundle_skipped(self, bundle_index: int, model_key: str) -> None:
+        logger.info(
+            "PROGRESS bundle %s/%s | model=%s | already complete — skipped",
+            bundle_index,
+            self.total_bundles,
+            model_key,
+        )
+
+    def on_cell_done(self, model_key: str, bundle_cells_done: int, bundle_cells_total: int, label: str) -> None:
+        self.session_completed += 1
+        overall_done = self.completed_at_start + self.session_completed
+        overall_remaining = self.total_cells - overall_done
+        pct = (100.0 * overall_done / self.total_cells) if self.total_cells else 100.0
+        elapsed = time.time() - self._session_start
+        eta_str = "?"
+        if self.session_completed > 0 and overall_remaining > 0:
+            eta_str = _format_eta(elapsed / self.session_completed * overall_remaining)
+        logger.info(
+            "PROGRESS %s | bundle %s/%s for %s | overall %s/%s (%.1f%%) | %s remaining | ETA ~%s",
+            label,
+            bundle_cells_done,
+            bundle_cells_total,
+            model_key,
+            overall_done,
+            self.total_cells,
+            pct,
+            overall_remaining,
+            eta_str,
+        )
+
+
 def read_csv_column(path: str | Path, column: int = 0, skip_header: bool = True) -> list[str]:
     with open(path, encoding="utf-8", newline="") as f:
         reader = csv.reader(f)
@@ -148,6 +230,8 @@ def run_setting_bundle(
     max_attempts: int,
     criteria_csv: str | None = None,
     continue_on_error: bool = False,
+    progress: RunProgress | None = None,
+    bundle_index: int = 1,
 ) -> None:
     """
     Run one model/mode/k setting; write a bundled *_ALL.json file.
@@ -197,7 +281,17 @@ def run_setting_bundle(
             coverage["expected"],
             bundle_filename,
         )
+        if progress:
+            progress.on_bundle_skipped(bundle_index, model_spec.key)
         return
+
+    if progress:
+        progress.on_bundle_start(
+            bundle_index,
+            model_spec.key,
+            coverage["successful"],
+            coverage["expected"],
+        )
 
     records_by_key = index_successful_records([], rq.id)
     if coverage["exists"]:
@@ -292,6 +386,13 @@ def run_setting_bundle(
             logger.error("%s: storing error placeholder (%s)", label, exc)
             records_by_key[cell_key] = {**record_stub, "payload": None, "error": str(exc)}
         persist()
+        if progress:
+            progress.on_cell_done(
+                model_spec.key,
+                len(records_by_key),
+                len(key_order),
+                label,
+            )
         time.sleep(sleep)
 
     final = bundle_coverage(
@@ -425,7 +526,34 @@ def run_experiments(
         )
         return
 
+    total_cells = len(bundle_combos) * records_per_bundle
+    completed_at_start = 0
+    out_rq = Path(output_root) / rq_id
     for spec, mode, k in bundle_combos:
+        bundle_name = build_bundle_filename(
+            family=spec.family,
+            provider=spec.provider.value,
+            model_key=spec.key,
+            mode=mode,
+            k=k,
+        )
+        cov = bundle_coverage(
+            out_rq / spec.family / bundle_name,
+            rq_id=rq_id,
+            features=search_items,
+            runs_per_item=n,
+            criteria_names=criteria_names,
+        )
+        completed_at_start += cov["successful"]
+
+    progress = RunProgress(
+        total_bundles=len(bundle_combos),
+        total_cells=total_cells,
+        completed_cells_at_start=completed_at_start,
+    )
+    progress.log_plan()
+
+    for bundle_index, (spec, mode, k) in enumerate(bundle_combos, start=1):
         run_setting_bundle(
             rq=rq,
             model_spec=spec,
@@ -438,6 +566,8 @@ def run_experiments(
             max_attempts=max_attempts,
             criteria_csv=criteria_csv if rq_id == "rq3" else None,
             continue_on_error=continue_on_error,
+            progress=progress,
+            bundle_index=bundle_index,
         )
 
     logger.info("All experiments for %s completed.", rq_id)
