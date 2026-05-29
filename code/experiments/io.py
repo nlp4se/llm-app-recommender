@@ -116,6 +116,120 @@ def parse_and_validate_response(content: str, schema: dict) -> dict:
     return payload
 
 
+RecordKey = tuple[str, ...]
+
+
+def record_key(record: dict[str, Any], rq_id: str) -> RecordKey:
+    """Unique key for one experiment cell inside a bundle."""
+    feature = str(record.get("feature", ""))
+    run = int(record.get("run", -1))
+    if rq_id == "rq3":
+        return (feature, str(record.get("criterion", "")), run)
+    return (feature, run)
+
+
+def is_successful_record(record: dict[str, Any]) -> bool:
+    """True when the record has a validated ranking payload."""
+    payload = record.get("payload")
+    return isinstance(payload, dict) and isinstance(payload.get("a"), list)
+
+
+def expected_record_keys(
+    *,
+    rq_id: str,
+    features: list[str],
+    runs_per_item: int,
+    criteria_names: list[str] | None = None,
+) -> list[RecordKey]:
+    keys: list[RecordKey] = []
+    if rq_id == "rq3":
+        criteria = criteria_names or []
+        for feature in features:
+            for criterion in criteria:
+                for run_idx in range(runs_per_item):
+                    keys.append((feature, criterion, run_idx))
+    else:
+        for feature in features:
+            for run_idx in range(runs_per_item):
+                keys.append((feature, run_idx))
+    return keys
+
+
+def load_bundle(path: str | Path) -> dict[str, Any] | None:
+    bundle_path = Path(path)
+    if not bundle_path.is_file():
+        return None
+    data = json.loads(bundle_path.read_text(encoding="utf-8"))
+    if not isinstance(data.get("records"), list):
+        raise ValueError(f"Not a bundled experiment file: {bundle_path}")
+    return data
+
+
+def save_bundle(path: str | Path, bundle: dict[str, Any]) -> None:
+    save_json_response(json.dumps(bundle, indent=2, ensure_ascii=False), Path(path))
+
+
+def index_successful_records(records: list[dict[str, Any]], rq_id: str) -> dict[RecordKey, dict[str, Any]]:
+    indexed: dict[RecordKey, dict[str, Any]] = {}
+    for record in records:
+        if not isinstance(record, dict) or not is_successful_record(record):
+            continue
+        indexed[record_key(record, rq_id)] = record
+    return indexed
+
+
+def bundle_coverage(
+    bundle_path: str | Path,
+    *,
+    rq_id: str,
+    features: list[str],
+    runs_per_item: int,
+    criteria_names: list[str] | None = None,
+) -> dict[str, Any]:
+    """Report how complete a bundle file is."""
+    path = Path(bundle_path)
+    expected = expected_record_keys(
+        rq_id=rq_id,
+        features=features,
+        runs_per_item=runs_per_item,
+        criteria_names=criteria_names,
+    )
+    expected_set = set(expected)
+    if not path.is_file():
+        return {
+            "path": str(path),
+            "exists": False,
+            "expected": len(expected),
+            "successful": 0,
+            "failed": 0,
+            "missing": len(expected),
+            "missing_keys": expected,
+            "complete": False,
+        }
+
+    data = load_bundle(path)
+    assert data is not None
+    records = data.get("records", [])
+    successful = index_successful_records(records, rq_id)
+    failed = [
+        record_key(r, rq_id)
+        for r in records
+        if isinstance(r, dict) and not is_successful_record(r)
+    ]
+    missing_keys = [k for k in expected if k not in successful]
+    return {
+        "path": str(path),
+        "exists": True,
+        "expected": len(expected),
+        "successful": len(successful),
+        "failed": len(failed),
+        "missing": len(missing_keys),
+        "missing_keys": missing_keys,
+        "failed_keys": failed,
+        "complete": len(missing_keys) == 0 and len(failed) == 0,
+    }
+
+
 def list_experiment_json_files(directory: str | Path) -> list[Path]:
     """Return bundled experiment JSON files (*_ALL.json) in an RQ output folder."""
     folder = Path(directory)

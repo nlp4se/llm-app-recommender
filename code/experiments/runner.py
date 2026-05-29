@@ -22,7 +22,14 @@ from code.experiments.config import (
     OutputMode,
     RQConfig,
 )
-from code.experiments.io import parse_and_validate_response, save_json_response
+from code.experiments.io import (
+    bundle_coverage,
+    expected_record_keys,
+    index_successful_records,
+    load_bundle,
+    parse_and_validate_response,
+    save_bundle,
+)
 from code.experiments.naming import build_bundle_filename, family_output_dir
 from code.experiments.prompts import format_user_prompt, read_text, system_prompt_path
 from code.experiments.providers import get_client  # lazy-loads provider SDKs
@@ -98,7 +105,7 @@ def _complete_validated(
     raise RuntimeError(f"Unreachable: exhausted attempts for {label}")
 
 
-def run_setting_bundle(
+def _build_bundle_payload(
     *,
     rq: RQConfig,
     model_spec: ModelSpec,
@@ -106,108 +113,12 @@ def run_setting_bundle(
     k: int,
     search_items: list[str],
     n: int,
-    sleep: float,
-    output_root: str,
-    max_attempts: int,
-    criteria_csv: str | None = None,
-) -> None:
-    """Run one model/mode/k setting; write a single bundled *_ALL.json file."""
-    out_dir = family_output_dir(output_root, rq.id, model_spec.family)
-    out_dir.mkdir(parents=True, exist_ok=True)
-
-    schema = load_schema_for_run(rq.schema_base, k)
-    system = read_text(system_prompt_path(rq, mode))
-    client = get_client(model_spec)
-    structured = mode == "structured"
-
-    records: list[dict[str, object]] = []
-    criteria_rows: list[dict] | None = None
-
-    if rq.id == "rq3":
-        if not criteria_csv:
-            raise ValueError("RQ3 requires criteria_csv")
-        criteria_df = pd.read_csv(criteria_csv, encoding="utf-8", sep=";")
-        criteria_rows = [row.to_dict() for _, row in criteria_df.iterrows()]
-        logger.info(
-            "RQ3 BUNDLE %s | %s/%s | %s | k=%s | features=%s | criteria=%s",
-            rq.id,
-            model_spec.family,
-            model_spec.key,
-            mode,
-            k,
-            len(search_items),
-            len(criteria_rows),
-        )
-    else:
-        logger.info(
-            "RQ1 BUNDLE %s | %s/%s | %s | k=%s | features=%s",
-            rq.id,
-            model_spec.family,
-            model_spec.key,
-            mode,
-            k,
-            len(search_items),
-        )
-
-    for search in search_items:
-        if rq.id == "rq1":
-            user = format_user_prompt(rq.user_prompt, k=k, search=search)
-            for run_idx in range(n):
-                label = f"{search} run {run_idx + 1}/{n}"
-                payload = _complete_validated(
-                    client=client,
-                    system=system,
-                    user=user,
-                    structured=structured,
-                    schema=schema,
-                    max_attempts=max_attempts,
-                    sleep=sleep,
-                    label=label,
-                )
-                records.append({"feature": search, "run": run_idx, "payload": payload})
-                time.sleep(sleep)
-            continue
-
-        assert criteria_rows is not None
-        for criterion_row in criteria_rows:
-            criterion_name = str(list(criterion_row.values())[0])
-            ranking_criteria = json.dumps([criterion_row], indent=2)
-            user = format_user_prompt(
-                rq.user_prompt,
-                k=k,
-                search=search,
-                ranking_criteria=ranking_criteria,
-            )
-            for run_idx in range(n):
-                label = f"{search} / {criterion_name} run {run_idx + 1}/{n}"
-                payload = _complete_validated(
-                    client=client,
-                    system=system,
-                    user=user,
-                    structured=structured,
-                    schema=schema,
-                    max_attempts=max_attempts,
-                    sleep=sleep,
-                    label=label,
-                )
-                records.append(
-                    {
-                        "feature": search,
-                        "criterion": criterion_name,
-                        "run": run_idx,
-                        "payload": payload,
-                    }
-                )
-                time.sleep(sleep)
-
-    bundle_filename = build_bundle_filename(
-        family=model_spec.family,
-        provider=model_spec.provider.value,
-        model_key=model_spec.key,
-        mode=mode,
-        k=k,
-    )
-    bundle_payload: dict[str, object] = {
+    records_by_key: dict,
+    key_order: list,
+    criteria_csv: str | None,
+) -> dict[str, object]:
+    records = [records_by_key[key] for key in key_order if key in records_by_key]
+    payload: dict[str, object] = {
         "rq": rq.id,
         "family": model_spec.family,
         "provider": model_spec.provider.value,
@@ -220,13 +131,183 @@ def run_setting_bundle(
         "records": records,
     }
     if rq.id == "rq3" and criteria_csv:
-        bundle_payload["criteria_csv"] = criteria_csv
+        payload["criteria_csv"] = criteria_csv
+    return payload
 
-    save_json_response(
-        json.dumps(bundle_payload, indent=2, ensure_ascii=False),
-        out_dir / bundle_filename,
+
+def run_setting_bundle(
+    *,
+    rq: RQConfig,
+    model_spec: ModelSpec,
+    mode: OutputMode,
+    k: int,
+    search_items: list[str],
+    n: int,
+    sleep: float,
+    output_root: str,
+    max_attempts: int,
+    criteria_csv: str | None = None,
+    continue_on_error: bool = False,
+) -> None:
+    """
+    Run one model/mode/k setting; write a bundled *_ALL.json file.
+
+    Resumes automatically: loads an existing bundle, skips successful cells, and
+    checkpoints to disk after every completed record.
+    """
+    out_dir = family_output_dir(output_root, rq.id, model_spec.family)
+    out_dir.mkdir(parents=True, exist_ok=True)
+
+    bundle_filename = build_bundle_filename(
+        family=model_spec.family,
+        provider=model_spec.provider.value,
+        model_key=model_spec.key,
+        mode=mode,
+        k=k,
     )
-    logger.info("Saved bundled file -> %s (%s records)", bundle_filename, len(records))
+    bundle_path = out_dir / bundle_filename
+
+    criteria_names: list[str] | None = None
+    criteria_rows: list[dict] | None = None
+    if rq.id == "rq3":
+        if not criteria_csv:
+            raise ValueError("RQ3 requires criteria_csv")
+        criteria_df = pd.read_csv(criteria_csv, encoding="utf-8", sep=";")
+        criteria_rows = [row.to_dict() for _, row in criteria_df.iterrows()]
+        criteria_names = [str(list(row.values())[0]) for row in criteria_rows]
+
+    key_order = expected_record_keys(
+        rq_id=rq.id,
+        features=search_items,
+        runs_per_item=n,
+        criteria_names=criteria_names,
+    )
+
+    coverage = bundle_coverage(
+        bundle_path,
+        rq_id=rq.id,
+        features=search_items,
+        runs_per_item=n,
+        criteria_names=criteria_names,
+    )
+    if coverage["complete"]:
+        logger.info(
+            "Bundle already complete (%s/%s records) -> skipping %s",
+            coverage["successful"],
+            coverage["expected"],
+            bundle_filename,
+        )
+        return
+
+    records_by_key = index_successful_records([], rq.id)
+    if coverage["exists"]:
+        existing = load_bundle(bundle_path)
+        assert existing is not None
+        records_by_key = index_successful_records(existing.get("records", []), rq.id)
+        logger.info(
+            "Resuming %s: %s/%s successful, %s missing, %s failed placeholders",
+            bundle_filename,
+            coverage["successful"],
+            coverage["expected"],
+            coverage["missing"],
+            coverage["failed"],
+        )
+    else:
+        logger.info(
+            "Starting %s | %s/%s | k=%s | %s cells",
+            bundle_filename,
+            model_spec.family,
+            model_spec.key,
+            k,
+            len(key_order),
+        )
+
+    schema = load_schema_for_run(rq.schema_base, k)
+    system = read_text(system_prompt_path(rq, mode))
+    client = get_client(model_spec)
+    structured = mode == "structured"
+
+    def persist() -> None:
+        save_bundle(
+            bundle_path,
+            _build_bundle_payload(
+                rq=rq,
+                model_spec=model_spec,
+                mode=mode,
+                k=k,
+                search_items=search_items,
+                n=n,
+                records_by_key=records_by_key,
+                key_order=key_order,
+                criteria_csv=criteria_csv,
+            ),
+        )
+
+    for cell_key in key_order:
+        if cell_key in records_by_key:
+            continue
+
+        feature = cell_key[0]
+        if rq.id == "rq1":
+            run_idx = int(cell_key[1])
+            user = format_user_prompt(rq.user_prompt, k=k, search=feature)
+            label = f"{feature} run {run_idx + 1}/{n}"
+            record_stub: dict[str, object] = {"feature": feature, "run": run_idx}
+        else:
+            criterion_name = str(cell_key[1])
+            run_idx = int(cell_key[2])
+            criterion_row = next(
+                row for row in (criteria_rows or []) if str(list(row.values())[0]) == criterion_name
+            )
+            ranking_criteria = json.dumps([criterion_row], indent=2)
+            user = format_user_prompt(
+                rq.user_prompt,
+                k=k,
+                search=feature,
+                ranking_criteria=ranking_criteria,
+            )
+            label = f"{feature} / {criterion_name} run {run_idx + 1}/{n}"
+            record_stub = {
+                "feature": feature,
+                "criterion": criterion_name,
+                "run": run_idx,
+            }
+
+        try:
+            payload = _complete_validated(
+                client=client,
+                system=system,
+                user=user,
+                structured=structured,
+                schema=schema,
+                max_attempts=max_attempts,
+                sleep=sleep,
+                label=label,
+            )
+            records_by_key[cell_key] = {**record_stub, "payload": payload}
+        except Exception as exc:
+            if not continue_on_error:
+                persist()
+                raise
+            logger.error("%s: storing error placeholder (%s)", label, exc)
+            records_by_key[cell_key] = {**record_stub, "payload": None, "error": str(exc)}
+        persist()
+        time.sleep(sleep)
+
+    final = bundle_coverage(
+        bundle_path,
+        rq_id=rq.id,
+        features=search_items,
+        runs_per_item=n,
+        criteria_names=criteria_names,
+    )
+    logger.info(
+        "Finished %s -> %s/%s successful (%s missing)",
+        bundle_filename,
+        final["successful"],
+        final["expected"],
+        final["missing"],
+    )
 
 
 def run_experiments(
@@ -245,6 +326,7 @@ def run_experiments(
     max_attempts: int = MAX_ATTEMPTS_PER_RUN,
     dry_run: bool = False,
     sanity_check: bool = False,
+    continue_on_error: bool = False,
 ) -> None:
     rq = RQ_CONFIGS[rq_id]
     models = models or {}
@@ -296,15 +378,17 @@ def run_experiments(
                 "Generate it from RQ1 analysis or pass --criteria-csv."
             )
 
-    criteria_count = 1
+    criteria_names: list[str] | None = None
     if rq_id == "rq3" and criteria_csv:
-        criteria_count = len(pd.read_csv(criteria_csv, encoding="utf-8", sep=";"))
+        criteria_df = pd.read_csv(criteria_csv, encoding="utf-8", sep=";")
+        criteria_names = [str(row.iloc[0]) for _, row in criteria_df.iterrows()]
 
+    criteria_count = len(criteria_names) if criteria_names else 1
     bundle_combos = list(product(selected_specs, modes, k_values))
     records_per_bundle = len(search_items) * criteria_count * n
 
     logger.info(
-        "Starting %s at %s - %s bundled files (%s records each, n=%s)",
+        "Starting %s at %s - %s bundled files (%s records each, n=%s, resume=on)",
         rq_id,
         datetime.now().isoformat(timespec="seconds"),
         len(bundle_combos),
@@ -322,13 +406,22 @@ def run_experiments(
                 mode=mode,
                 k=k,
             )
+            bundle_path = out_family / spec.family / example
+            cov = bundle_coverage(
+                bundle_path,
+                rq_id=rq_id,
+                features=search_items,
+                runs_per_item=n,
+                criteria_names=criteria_names,
+            )
+            status = "complete" if cov["exists"] and cov["complete"] else f"{cov['successful']}/{cov['expected']} done"
             print(
-                f"  {spec.key}/{mode} k={k}: 1 file, {records_per_bundle} records "
-                f"-> {out_family / spec.family / example}"
+                f"  {spec.key}/{mode} k={k}: {status} "
+                f"-> {bundle_path}"
             )
         print(
             f"[dry-run] {rq_id}: {len(selected_specs)} models × {len(modes)} modes × "
-            f"{len(k_values)} k = {len(bundle_combos)} bundled files"
+            f"{len(k_values)} k = {len(bundle_combos)} bundled files (re-run fills gaps)"
         )
         return
 
@@ -344,6 +437,7 @@ def run_experiments(
             output_root=output_root,
             max_attempts=max_attempts,
             criteria_csv=criteria_csv if rq_id == "rq3" else None,
+            continue_on_error=continue_on_error,
         )
 
     logger.info("All experiments for %s completed.", rq_id)

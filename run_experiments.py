@@ -115,6 +115,14 @@ def build_parser() -> argparse.ArgumentParser:
         action="store_true",
         help="Preflight selected models with a lightweight API call before the full run.",
     )
+    parser.add_argument(
+        "--continue-on-error",
+        action="store_true",
+        help=(
+            "On persistent failure for one cell, save an error placeholder and continue "
+            "(re-run later to retry failed cells)."
+        ),
+    )
     return parser
 
 
@@ -142,6 +150,7 @@ def main(argv: list[str] | None = None) -> int:
         max_attempts=args.max_attempts,
         dry_run=args.dry_run,
         sanity_check=args.sanity_check,
+        continue_on_error=args.continue_on_error,
     )
     return 0
 
