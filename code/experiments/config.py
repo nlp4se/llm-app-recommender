@@ -15,6 +15,26 @@ class Provider(str, Enum):
     MISTRAL = "mistral"
     PERPLEXITY = "perplexity"
     HUGGINGFACE = "huggingface"
+    OLLAMA = "ollama"
+
+
+@dataclass(frozen=True)
+class HuggingFaceSettings:
+    """Per-model Hugging Face Inference Providers routing."""
+
+    inference_model_id: str | None = None
+    provider: str | None = None
+    use_json_schema: bool = True
+    max_tokens: int = 20000
+
+
+@dataclass(frozen=True)
+class OllamaSettings:
+    """Per-model local Ollama runtime settings."""
+
+    base_url: str = "http://localhost:11434"
+    use_json_schema: bool = True
+    max_tokens: int = 8192
 
 
 @dataclass(frozen=True)
@@ -23,6 +43,21 @@ class ModelSpec:
     family: Family
     provider: Provider
     model_id: str
+    hf: HuggingFaceSettings | None = None
+    ollama: OllamaSettings | None = None
+
+
+def hf_inference_model_id(spec: ModelSpec) -> str:
+    hf = spec.hf or HuggingFaceSettings()
+    return hf.inference_model_id or spec.model_id
+
+
+def hf_api_model_id(spec: ModelSpec) -> str:
+    model = hf_inference_model_id(spec)
+    hf = spec.hf or HuggingFaceSettings()
+    if hf.provider:
+        return f"{model}@{hf.provider}"
+    return model
 
 
 MODEL_SPECS: dict[str, ModelSpec] = {
@@ -31,17 +66,53 @@ MODEL_SPECS: dict[str, ModelSpec] = {
     "anthropic": ModelSpec("anthropic", "proprietary", Provider.ANTHROPIC, "claude-opus-4-6-thinking"),
     "mistral": ModelSpec("mistral", "proprietary", Provider.MISTRAL, "mistral-large-latest"),
     "perplexity": ModelSpec("perplexity", "proprietary", Provider.PERPLEXITY, "perplexity/sonar"),
-    "llama4scout": ModelSpec("llama4scout", "open", Provider.HUGGINGFACE, "meta-llama/Llama-4-Scout-17B-16E"),
-    "gemma4": ModelSpec("gemma4", "open", Provider.HUGGINGFACE, "google/gemma-4-31B"),
-    "qwen3": ModelSpec("qwen3", "open", Provider.HUGGINGFACE, "Qwen/Qwen3-30B-A3B"),
-    "gptoss20b": ModelSpec("gptoss20b", "open", Provider.HUGGINGFACE, "openai/gpt-oss-20b"),
-    "mistralsmall31": ModelSpec("mistralsmall31", "open", Provider.HUGGINGFACE, "mistralai/Mistral-Small-3.1-24B-Instruct-2503"),
-    "deepseekv3": ModelSpec("deepseekv3", "open", Provider.HUGGINGFACE, "deepseek-ai/DeepSeek-V3"),
+    "llama31_8b": ModelSpec(
+        "llama31_8b",
+        "open",
+        Provider.OLLAMA,
+        "llama3.1:8b",
+        ollama=OllamaSettings(use_json_schema=False, max_tokens=8192),
+    ),
+    "gemma3_4b": ModelSpec(
+        "gemma3_4b",
+        "open",
+        Provider.OLLAMA,
+        "gemma3:4b",
+        ollama=OllamaSettings(use_json_schema=False, max_tokens=8192),
+    ),
+    "qwen3_8b": ModelSpec(
+        "qwen3_8b",
+        "open",
+        Provider.OLLAMA,
+        "qwen3:8b",
+        ollama=OllamaSettings(use_json_schema=False, max_tokens=8192),
+    ),
+    "gptoss20b": ModelSpec(
+        "gptoss20b",
+        "open",
+        Provider.OLLAMA,
+        "gpt-oss:20b",
+        ollama=OllamaSettings(use_json_schema=False, max_tokens=8192),
+    ),
+    "mistral_open": ModelSpec(
+        "mistral_open",
+        "open",
+        Provider.OLLAMA,
+        "mistral",
+        ollama=OllamaSettings(use_json_schema=False, max_tokens=8192),
+    ),
+    "deepseekr1_8b": ModelSpec(
+        "deepseekr1_8b",
+        "open",
+        Provider.OLLAMA,
+        "deepseek-r1:8b",
+        ollama=OllamaSettings(use_json_schema=False, max_tokens=8192),
+    ),
 }
 
 DEFAULT_MODEL_KEYS_BY_FAMILY: dict[Family, list[str]] = {
     "proprietary": ["openai", "gemini", "anthropic", "mistral", "perplexity"],
-    "open": ["llama4scout", "gemma4", "qwen3", "gptoss20b", "mistralsmall31", "deepseekv3"],
+    "open": ["llama31_8b", "gemma3_4b", "qwen3_8b", "gptoss20b", "mistral_open", "deepseekr1_8b"],
 }
 
 ENV_KEYS: dict[Provider, str] = {
@@ -51,6 +122,7 @@ ENV_KEYS: dict[Provider, str] = {
     Provider.MISTRAL: "MISTRAL_API_KEY",
     Provider.PERPLEXITY: "PERPLEXITY_API_KEY",
     Provider.HUGGINGFACE: "HF_TOKEN",
+    Provider.OLLAMA: "OLLAMA_BASE_URL",
 }
 
 

@@ -51,48 +51,28 @@ def family_output_dir(root: str, rq_id: str, family: str) -> Path:
     return Path(root) / rq_id / family
 
 
-def build_rq1_filename(
+def build_bundle_filename(
     *,
     family: str,
     provider: str,
     model_key: str,
     mode: str,
     k: int,
-    feature: str,
-    run: int,
 ) -> str:
-    feature_token = to_camel_case(feature)
-    return f"{family}_{provider}_{model_key}_{mode}_k{k}_{feature_token}_{run}.json"
+    return f"{family}_{provider}_{model_key}_{mode}_k{k}_ALL.json"
 
 
-def build_rq3_filename(
-    *,
-    family: str,
-    provider: str,
-    model_key: str,
-    mode: str,
-    k: int,
-    feature: str,
-    criterion: str,
-    run: int,
-) -> str:
-    feature_token = to_camel_case(feature)
-    criterion_token = to_camel_case(criterion)
-    return f"{family}_{provider}_{model_key}_{mode}_k{k}_{feature_token}_{criterion_token}_{run}.json"
-
-
-def parse_experiment_filename(filename: str, rq_id: str) -> dict[str, str | int]:
+def parse_bundle_filename(filename: str) -> dict[str, str | int]:
     """
-    Parse experiment output filenames.
-
-    RQ1: {family}_{provider}_{modelKey}_{mode}_k{k}_{FeatureCamelCase}_{run}.json
-    RQ3: {family}_{provider}_{modelKey}_{mode}_k{k}_{FeatureCamelCase}_{CriterionCamelCase}_{run}.json
+    Parse bundled experiment output filenames:
+    {family}_{provider}_{modelKey}_{mode}_k{k}_ALL.json
     """
     stem = Path(filename).stem
-    parts = stem.split("_")
-    min_parts = 8 if rq_id == "rq3" else 7
-    if len(parts) < min_parts:
-        raise ValueError(f"Unexpected filename format: {filename}")
+    if not stem.endswith("_ALL"):
+        raise ValueError(f"Expected bundled filename ending with _ALL: {filename}")
+    parts = stem[:-4].split("_")  # drop trailing _ALL
+    if len(parts) < 5:
+        raise ValueError(f"Unexpected bundled filename format: {filename}")
 
     family = parts[0]
     provider = parts[1]
@@ -102,23 +82,16 @@ def parse_experiment_filename(filename: str, rq_id: str) -> dict[str, str | int]
     if not k_token.startswith("k") or not k_token[1:].isdigit():
         raise ValueError(f"Invalid k token in filename: {filename}")
     k = int(k_token[1:])
-    run = int(parts[-1])
-
-    if rq_id == "rq1":
-        feature_camel = parts[5]
-        criterion = None
-    else:
-        feature_camel = parts[5]
-        criterion = from_camel_case(parts[-2])
 
     return {
         "family": family,
         "provider": provider,
         "model": model_key,
+        "model_key": model_key,
         "mode": mode,
         "k": k,
-        "feature": resolve_feature_name(feature_camel),
-        "criterion": criterion,
-        "run": run,
-        "prefix": "_".join(parts[:-1]),
+        "feature": "",
+        "criterion": None,
+        "run": -1,
+        "prefix": "_".join(parts),
     }

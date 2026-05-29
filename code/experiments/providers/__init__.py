@@ -1,33 +1,37 @@
-from code.experiments.config import Provider
+from code.experiments.config import ModelSpec, Provider
 from code.experiments.providers.base import LLMClient
 
 
-def get_client(provider: Provider, model: str) -> LLMClient:
-    if provider == Provider.OPENAI:
+def get_client(spec: ModelSpec) -> LLMClient:
+    if spec.provider == Provider.OPENAI:
         from code.experiments.providers.openai import OpenAIClient
 
-        return OpenAIClient(model)
-    if provider == Provider.GEMINI:
+        return OpenAIClient(spec.model_id)
+    if spec.provider == Provider.GEMINI:
         from code.experiments.providers.gemini import GeminiClient
 
-        return GeminiClient(model)
-    if provider == Provider.ANTHROPIC:
+        return GeminiClient(spec.model_id)
+    if spec.provider == Provider.ANTHROPIC:
         from code.experiments.providers.anthropic import AnthropicClient
 
-        return AnthropicClient(model)
-    if provider == Provider.MISTRAL:
+        return AnthropicClient(spec.model_id)
+    if spec.provider == Provider.MISTRAL:
         from code.experiments.providers.mistral import MistralClient
 
-        return MistralClient(model)
-    if provider == Provider.PERPLEXITY:
+        return MistralClient(spec.model_id)
+    if spec.provider == Provider.PERPLEXITY:
         from code.experiments.providers.perplexity import PerplexityClient
 
-        return PerplexityClient(model)
-    if provider == Provider.HUGGINGFACE:
+        return PerplexityClient(spec.model_id)
+    if spec.provider == Provider.HUGGINGFACE:
         from code.experiments.providers.huggingface import HuggingFaceClient
 
-        return HuggingFaceClient(model)
-    raise ValueError(f"Unknown provider: {provider}")
+        return HuggingFaceClient(spec)
+    if spec.provider == Provider.OLLAMA:
+        from code.experiments.providers.ollama import OllamaClient
+
+        return OllamaClient(spec)
+    raise ValueError(f"Unknown provider: {spec.provider}")
 
 
 __all__ = ["get_client", "LLMClient"]
