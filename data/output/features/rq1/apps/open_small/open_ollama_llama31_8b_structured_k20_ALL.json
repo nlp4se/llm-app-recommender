@@ -1,0 +1,6436 @@
+{
+  "rq": "rq1",
+  "family": "open",
+  "provider": "ollama",
+  "model_key": "llama31_8b",
+  "model_id": "llama3.1:8b",
+  "mode": "structured",
+  "k": 20,
+  "features": [
+    "Broadcast messages to multiple contacts",
+    "Send files",
+    "Watch streams",
+    "Go Live",
+    "Play playlist on shuffle mode",
+    "Access to podcasts",
+    "Build photo collage",
+    "Photo effects",
+    "Access to movies",
+    "Rate movies",
+    "Keeping up with friends",
+    "Play games",
+    "Collaborate with others",
+    "Write notes",
+    "Search for offer on item",
+    "List items for sale"
+  ],
+  "runs_per_item": 10,
+  "web_search": false,
+  "records": [
+    {
+      "feature": "Broadcast messages to multiple contacts",
+      "run": 0,
+      "payload": {
+        "a": [
+          "GroupMe",
+          "WhatsApp Messenger",
+          "Facebook Messenger",
+          "Signal Private Messenger",
+          "Viber Messenger",
+          "Telegram",
+          "Threema - Encrypted Chat & Calls",
+          "Wire - Secure Collaboration",
+          "Tango",
+          "Snapchat",
+          "imo free video calls and chat",
+          "Skype",
+          "Kik",
+          "WeChat",
+          "Discord",
+          "Line Messenger",
+          "Hike Messenger",
+          "Wireless IM",
+          "Zulip",
+          "Slack"
+        ],
+        "c": [
+          {
+            "n": "User-friendly interface",
+            "d": "The app has a clean and intuitive design that makes it easy to use."
+          },
+          {
+            "n": "End-to-end encryption",
+            "d": "The app uses end-to-end encryption to ensure the privacy and security of messages."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Broadcast messages to multiple contacts",
+      "run": 1,
+      "payload": {
+        "a": [
+          "WhatsApp",
+          "WeChat",
+          "Facebook Messenger",
+          "Telegram",
+          "Viber",
+          "Signal",
+          "Skype",
+          "Hike Messenger",
+          "Kik Messenger",
+          "Snapchat",
+          "LINE",
+          "KakaoTalk",
+          "Google Messages",
+          "Samsung Messages",
+          "MessageMe",
+          "imo messenger",
+          "Pinger Textfree",
+          "Tango",
+          "Nimbuzz",
+          "Wire"
+        ],
+        "c": [
+          {
+            "n": "Feature: Broadcast messages to multiple contacts",
+            "d": "Apps that allow users to send broadcast messages to multiple contacts."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Broadcast messages to multiple contacts",
+      "run": 2,
+      "payload": {
+        "a": [
+          "GroupMe",
+          "WhatsApp",
+          "Telegram",
+          "Signal",
+          "Facebook Messenger",
+          "Viber",
+          "WeChat",
+          "LINE",
+          "Kik",
+          "Snapchat",
+          "Discord",
+          "Slack",
+          "Skype",
+          "Google Messages",
+          "imo messenger",
+          "Threema",
+          "Wire",
+          "Thrutext",
+          "Pinger",
+          "Voxer"
+        ],
+        "c": [
+          {
+            "n": "Number of users",
+            "d": "The number of users the app has globally"
+          },
+          {
+            "n": "Average rating",
+            "d": "The average rating the app has received from its users"
+          },
+          {
+            "n": "Reviews",
+            "d": "The total number of reviews the app has received"
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Broadcast messages to multiple contacts",
+      "run": 3,
+      "payload": {
+        "a": [
+          "WhatsApp",
+          "WeChat",
+          "Messenger",
+          "Telegram",
+          "Viber",
+          "Facebook Messenger",
+          "Signal",
+          "Google Messages",
+          "Hike",
+          "imo",
+          "Kik Messenger",
+          "Skype",
+          "Wire",
+          "Threema",
+          "Sinch",
+          "Line",
+          "Mood Messenger",
+          "Nimbuzz",
+          "BBM",
+          "Tango"
+        ],
+        "c": [
+          {
+            "n": "Number of Contacts Supported",
+            "d": "The number of contacts an app can send broadcast messages to."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Broadcast messages to multiple contacts",
+      "run": 4,
+      "payload": {
+        "a": [
+          "GroupMe",
+          "WhatsApp",
+          "Telegram",
+          "Signal",
+          "Viber",
+          "WeChat",
+          "Hike Messenger",
+          "Snapchat",
+          "Kik Messenger",
+          "Discord",
+          "Slack",
+          "Google Messages",
+          "Facebook Messenger",
+          "Threema",
+          "Wire",
+          "Skype",
+          "LINE",
+          "Tango",
+          "imo free video calls and chat",
+          "Skout"
+        ],
+        "c": [
+          {
+            "n": "Number of contacts that can be added to the broadcast group",
+            "d": "The number of people you can add to your group or conversation, which can help determine how widely a message can be sent."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Broadcast messages to multiple contacts",
+      "run": 5,
+      "payload": {
+        "a": [
+          "GroupMe",
+          "WhatsApp Messenger",
+          "Slack",
+          "Wire",
+          "Threema",
+          "Google Hangouts",
+          "Facebook Messenger",
+          "Telegram",
+          "Viber",
+          "WeChat",
+          "Discord",
+          "Signal",
+          "KakaoTalk",
+          "Skype",
+          "imo imo",
+          "BBM",
+          "Snapchat",
+          "Line",
+          "Voxer",
+          "Microsoft Teams"
+        ],
+        "c": [
+          {
+            "n": "User base",
+            "d": "Number of users each app has"
+          },
+          {
+            "n": "Features and tools",
+            "d": "Additional features and tools offered by each app"
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Broadcast messages to multiple contacts",
+      "run": 6,
+      "payload": {
+        "a": [
+          "GroupMe",
+          "WhatsApp Messenger",
+          "Telegram",
+          "Facebook Messenger",
+          "Signal",
+          "Viber",
+          "WeChat",
+          "Skype",
+          "Snapchat",
+          "Discord",
+          "Threema",
+          "Wire",
+          "imo messenger",
+          "Kik",
+          "Hike Messenger",
+          "Glide",
+          "TextNow",
+          "Mighty Text",
+          "Google Allo",
+          "WireX"
+        ],
+        "c": [
+          {
+            "n": "Number of downloads",
+            "d": "The number of users who have downloaded the app from the App Store or Google Play Store."
+          },
+          {
+            "n": "Average rating",
+            "d": "The average rating given by users on the App Store or Google Play Store, out of 5 stars."
+          },
+          {
+            "n": "User reviews",
+            "d": "The number of user reviews and ratings for each app in the App Store or Google Play Store."
+          },
+          {
+            "n": "In-app purchases",
+            "d": "Whether the app offers in-app purchases, including subscriptions, premium features, or virtual items."
+          },
+          {
+            "n": "Data usage",
+            "d": "The amount of data each app uses when sending and receiving messages, including audio, video, and text files."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Broadcast messages to multiple contacts",
+      "run": 7,
+      "payload": {
+        "a": [
+          "GroupMe",
+          "WhatsApp Messenger",
+          "Facebook Messenger",
+          "Signal Private Messenger",
+          "Telegram",
+          "Viber",
+          "WeChat",
+          "Wire",
+          "Discord",
+          "Slack",
+          "Kik",
+          "imo",
+          "Skype",
+          "Hike Messenger",
+          "BBM",
+          "Threema",
+          "Tango",
+          "Snapchat",
+          "Google Messages",
+          "Audiomessenger"
+        ],
+        "c": [
+          {
+            "n": "Message Delivery Speed",
+            "d": "Time taken for messages to be delivered to recipients"
+          },
+          {
+            "n": "User Interface",
+            "d": "Ease of use and navigation within the app"
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Broadcast messages to multiple contacts",
+      "run": 8,
+      "payload": {
+        "a": [
+          "GroupMe",
+          "WhatsApp",
+          "Signal",
+          "Facebook Messenger",
+          "Telegram",
+          "Slack",
+          "Google Messages",
+          "Viber",
+          "WeChat",
+          "Line",
+          "Kik",
+          "Pulse",
+          "Mxit",
+          "Zalo",
+          "Snapchat",
+          "Hike Messenger",
+          "imo messenger",
+          "Skype",
+          "BBM",
+          "Threema"
+        ],
+        "c": [
+          {
+            "n": "Message Broadcasting",
+            "d": "The ability to send a message to multiple contacts at once."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Broadcast messages to multiple contacts",
+      "run": 9,
+      "payload": {
+        "a": [
+          "GroupMe",
+          "WhatsApp",
+          "Facebook Messenger",
+          "Viber",
+          "Telegram",
+          "WeChat",
+          "Snapchat",
+          "Slack",
+          "Discord",
+          "Google Duo",
+          "Skype",
+          "imo",
+          "KakaoTalk",
+          "LINE",
+          "MMS Messaging",
+          "TextNow",
+          "Hangouts",
+          "Signal",
+          "Wire",
+          "Threema"
+        ],
+        "c": [
+          {
+            "n": "Number of users",
+            "d": "The number of registered users the app has."
+          },
+          {
+            "n": "Rating",
+            "d": "The average rating given by users in app stores."
+          },
+          {
+            "n": "Features",
+            "d": "The variety and quality of features offered by the app."
+          },
+          {
+            "n": "Reviews",
+            "d": "The total number of user reviews in app stores."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Send files",
+      "run": 0,
+      "payload": {
+        "a": [
+          "Google Drive",
+          "Microsoft OneDrive",
+          "Dropbox",
+          "WeTransfer",
+          "File.io",
+          "Send Anywhere",
+          "Shareit",
+          "Xender",
+          "AirDroid",
+          "Pushbullet",
+          "Files by Google",
+          "Cloud Storage",
+          "iCloud Drive",
+          "Amazon Drive",
+          "pCloud",
+          "MediaFire",
+          "Zippyshare",
+          "Transfer.sh",
+          "File.io Secure",
+          "Superbeam"
+        ],
+        "c": [
+          {
+            "n": "Average User Rating",
+            "d": "The average rating of the app based on user reviews."
+          },
+          {
+            "n": "Number of Downloads",
+            "d": "The total number of downloads for the app in the last month."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Send files",
+      "run": 1,
+      "payload": {
+        "a": [
+          "Google Drive",
+          "Dropbox",
+          "Microsoft OneDrive",
+          "WeTransfer",
+          "Shareit - File Transfer & Sharing",
+          "Xender - File Transfer & Sharing",
+          "Cloud",
+          "File Manager",
+          "Send Anywhere",
+          "AirDroid: File Transfer & Management",
+          "SHAREit",
+          "Files by Google",
+          "Google Photos",
+          "Amazon Drive",
+          "MediaFire: Cloud Storage",
+          "PicsArt Photo Studio: Collage Maker, Video Editor & Design",
+          "Zarchiver: File Manager & Compressor",
+          "Solid Explorer - file manager, explorer",
+          "FX File Explorer",
+          "ES File Explorer File Manager"
+        ],
+        "c": [
+          {
+            "n": "Send files with cloud storage",
+            "d": "Cloud-based apps enable users to send files via the internet."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Send files",
+      "run": 2,
+      "payload": {
+        "a": [
+          "Google Drive",
+          "Dropbox",
+          "Microsoft OneDrive",
+          "SHAREit",
+          "Xender",
+          "File Transfer - XShare",
+          "Send Anywhere",
+          "WeTransfer",
+          "Cloud Storage by Google",
+          "Amazon Drive",
+          "Pikto",
+          "Mediafire",
+          "IDrive",
+          "SugarSync",
+          "File Commander",
+          "FolderSync Pro",
+          "Astro File Manager",
+          "File Manager - File Transfer",
+          "QuickPic File Manager",
+          "FX File Explorer"
+        ],
+        "c": [
+          {
+            "n": "Average Rating",
+            "d": "The average rating of the app in the Google Play Store."
+          },
+          {
+            "n": "Number of Downloads",
+            "d": "The number of downloads of the app from the Google Play Store."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Send files",
+      "run": 3,
+      "payload": {
+        "a": [
+          "Google Drive",
+          "Microsoft OneDrive",
+          "Dropbox",
+          "WeTransfer",
+          "Shareit",
+          "Xender",
+          "File Transfer",
+          "AirDroid",
+          "ES File Explorer",
+          "Solid Explorer",
+          "Files by Google",
+          "Cloud Becker",
+          "Send Anywhere",
+          "Apps To SD",
+          "My Files",
+          "File Commander",
+          "Files GO",
+          "X-Power File Manager",
+          "Coverflow",
+          "File Manager HD"
+        ],
+        "c": [
+          {
+            "n": "Number of Features",
+            "d": "The number of features an app has."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Send files",
+      "run": 4,
+      "payload": {
+        "a": [
+          "Google Drive",
+          "Microsoft OneDrive",
+          "Dropbox",
+          "WeTransfer",
+          "File Sharing (SHAREit)",
+          "Xender - File Transfer & Share",
+          "AirDroid",
+          "SHAREit",
+          "Pikaso",
+          "Cloud Storage by Microsoft",
+          "Send Anywhere",
+          "Files by Google",
+          "File Manager by ASTRO",
+          "Documents To Go",
+          "ZArchiver",
+          "Shareit - File Transfer & Share",
+          "AirDroid Remote Suite",
+          "Xender",
+          "Dokmee Mobile",
+          "File Commander"
+        ],
+        "c": [
+          {
+            "n": "Number of Files That Can Be Shared",
+            "d": "The maximum number of files that can be shared at once."
+          },
+          {
+            "n": "Transfer Speed",
+            "d": "The speed at which files are transferred between devices."
+          },
+          {
+            "n": "File Size Limit",
+            "d": "The maximum size of a file that can be sent using the app."
+          },
+          {
+            "n": "Security Features",
+            "d": "Any security measures, such as encryption or password protection, used to protect data in transit."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Send files",
+      "run": 5,
+      "payload": {
+        "a": [
+          "SHAREit",
+          "Xender",
+          "File Transfer",
+          "WeTransfer",
+          "Send Anywhere",
+          "Google Drive",
+          "Microsoft OneDrive",
+          "Dropbox",
+          "AirDroid",
+          "PicsArt",
+          "Cloud",
+          "Amazon Drive",
+          "iCloud Drive",
+          "MediaFire",
+          "4Shared",
+          "Zippyshare",
+          "File.io",
+          "SendSpace",
+          "pCloud",
+          "Yandex.Disk"
+        ],
+        "c": [
+          {
+            "n": "Transfer Speed",
+            "d": "The time it takes to transfer a file"
+          },
+          {
+            "n": "File Size Limit",
+            "d": "The maximum size of a single file that can be transferred"
+          },
+          {
+            "n": "Compression Ratio",
+            "d": "The ratio of compressed file size to original file size"
+          },
+          {
+            "n": "Security Features",
+            "d": "The level of security and protection provided for the transferred files"
+          },
+          {
+            "n": "Platform Support",
+            "d": "The operating systems (iOS, Android, etc.) that the app supports"
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Send files",
+      "run": 6,
+      "payload": {
+        "a": [
+          "Google Drive",
+          "Microsoft OneDrive",
+          "Dropbox",
+          "WeTransfer",
+          "File.io",
+          "Send Anywhere",
+          "Shareit",
+          "Xender",
+          "CloudSend",
+          "File sharing Pro",
+          "Quick File Transfer",
+          "File Transfer",
+          "Cloud File Sharing",
+          "AirDroid",
+          "SHAREit - File Transfer & Sharing",
+          "X-Plore File Manager",
+          "File Manager",
+          "Send Files to Phone",
+          "FolderSync",
+          "CamiFile"
+        ],
+        "c": [
+          {
+            "n": "Number of Downloads",
+            "d": "The number of downloads of the app in Google Play Store."
+          },
+          {
+            "n": "Rating",
+            "d": "The average rating of the app based on user reviews."
+          },
+          {
+            "n": "Reviews",
+            "d": "The total number of user reviews for the app."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Send files",
+      "run": 7,
+      "payload": {
+        "a": [
+          "Shareit",
+          "Xender",
+          "WeTransfer",
+          "Google Drive",
+          "Microsoft OneDrive",
+          "Dropbox",
+          "File Transfer",
+          "AirDroid",
+          "Send Anywhere",
+          "Pushbullet",
+          "Firefox Send",
+          "Cloud Files",
+          "Transferring Files",
+          "Files by Google",
+          "File Manager",
+          "Superbeam",
+          "Files Go",
+          "SHAREit File Transfer",
+          "Xtreme Download Manager",
+          "Cloud Storage"
+        ],
+        "c": [
+          {
+            "n": "Average rating",
+            "d": "The average user rating of the app in the App Store/Google Play Store"
+          },
+          {
+            "n": "Number of downloads",
+            "d": "The total number of times the app has been downloaded from the App Store/Google Play Store"
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Send files",
+      "run": 8,
+      "payload": null,
+      "error": "Duplicate app name in ranking: 'SHAREit'"
+    },
+    {
+      "feature": "Send files",
+      "run": 9,
+      "payload": {
+        "a": [
+          "File Transfer",
+          "Shareit",
+          "Xender",
+          "WeTransfer",
+          "Google Drive",
+          "Microsoft OneDrive",
+          "Box",
+          "pCloud",
+          "Dropbox",
+          "AirDroid",
+          "Send Anywhere",
+          "Files by Google",
+          "Cloud Commander",
+          "File Commander",
+          "ES File Explorer",
+          "Solid Explorer",
+          "SuperBeam",
+          "Shareit for PC",
+          "Bluetooth File Transfer",
+          "Zapya"
+        ],
+        "c": [
+          {
+            "n": "Average Rating",
+            "d": "The average rating of an app based on user reviews"
+          },
+          {
+            "n": "Number of Downloads",
+            "d": "The number of times an app has been downloaded from the App Store or Google Play"
+          },
+          {
+            "n": "User Reviews",
+            "d": "The number and quality of user reviews for an app, including ratings and comments"
+          },
+          {
+            "n": "Features",
+            "d": "The number and variety of features provided by an app to send files"
+          },
+          {
+            "n": "Security",
+            "d": "The level of security provided by an app to protect user data while sending files"
+          },
+          {
+            "n": "Ease of Use",
+            "d": "How easy it is for users to use the app to send files, including navigation and functionality"
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Watch streams",
+      "run": 0,
+      "payload": {
+        "a": [
+          "Twitch",
+          "YouTube TV",
+          "Hulu",
+          "Netflix",
+          "Amazon Prime Video",
+          "Vudu",
+          "Sling TV",
+          "Disney+",
+          "Apple TV",
+          "Facebook Gaming",
+          "Periscope",
+          "Microsoft Stream",
+          "LiveStream",
+          "Dailymotion",
+          "Veoh",
+          "TikTok",
+          "Plex",
+          "Pluto TV",
+          "Xumo",
+          "Kaltura"
+        ],
+        "c": [
+          {
+            "n": "Average rating",
+            "d": "The average user rating of the app, based on reviews from various sources."
+          },
+          {
+            "n": "Number of streams",
+            "d": "The number of live and recorded streams available on the app."
+          },
+          {
+            "n": "User engagement",
+            "d": "A measure of how often users interact with the app, including watch time and session duration."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Watch streams",
+      "run": 1,
+      "payload": {
+        "a": [
+          "Twitch",
+          "YouTube Gaming",
+          "Facebook Gaming",
+          "Mixer",
+          "Periscope",
+          "Streamlabs",
+          "Vimeo Live",
+          "Dailymotion",
+          "LiveStream",
+          "GameShow",
+          "Caffeine",
+          "Clips",
+          "LIVE",
+          "Strive",
+          "Mobcrush",
+          "Picarto",
+          "Trovo",
+          "MissLive",
+          "Bigo Live",
+          "VivaVideo"
+        ],
+        "c": [
+          {
+            "n": "Download Size",
+            "d": "The size of the app on your device."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Watch streams",
+      "run": 2,
+      "payload": {
+        "a": [
+          "Twitch",
+          "YouTube Live",
+          "Facebook Gaming",
+          "Periscope",
+          "Streamlabs",
+          "Vimeo Live",
+          "Dailymotion",
+          "Kast",
+          "Trovo",
+          "Bigo Live",
+          "Misslive",
+          "Caffeine",
+          "LiveStream",
+          "Ustream",
+          "Pearpop",
+          "LiveMe",
+          "Mobdro",
+          "Pluto TV",
+          "Stremio",
+          "HLS Player"
+        ],
+        "c": [
+          {
+            "n": "Average rating",
+            "d": "The average user rating of the app on the App Store or Google Play."
+          },
+          {
+            "n": "Number of reviews",
+            "d": "The total number of user reviews for the app."
+          },
+          {
+            "n": "Rating variation",
+            "d": "The difference between the highest and lowest ratings for the app."
+          },
+          {
+            "n": "Number of streams per hour",
+            "d": "The average number of streams broadcast by users in one hour."
+          },
+          {
+            "n": "Popularity rank",
+            "d": "The app's popularity rank based on its usage frequency."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Watch streams",
+      "run": 3,
+      "payload": {
+        "a": [
+          "Twitch",
+          "YouTube Live",
+          "Facebook Gaming",
+          "Instagram Live",
+          "Periscope",
+          "Livestream",
+          "Streamlabs",
+          "Dailymotion",
+          "Microsoft Stream",
+          "Google Cloud Video AI",
+          "Vimeo Live",
+          "Kaltura",
+          "IBM Watson Media",
+          "Wowza Streaming Engine",
+          "XSplit",
+          "OBS Studio",
+          "Lightstream",
+          "Restream.io",
+          "GameShow",
+          "Mobcrush"
+        ],
+        "c": [
+          {
+            "n": "Popularity",
+            "d": "The number of users and views the app has."
+          },
+          {
+            "n": "Content variety",
+            "d": "The range of content types, such as gaming, music, or vlogging, that the app offers."
+          },
+          {
+            "n": "Stream quality",
+            "d": "The resolution and frame rate at which streams are delivered to viewers."
+          },
+          {
+            "n": "Real-time interaction",
+            "d": "Features like live chat, polls, or Q&A sessions that allow for real-time engagement between viewers and streamers."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Watch streams",
+      "run": 4,
+      "payload": {
+        "a": [
+          "Twitch",
+          "YouTube Live",
+          "Facebook Gaming",
+          "Periscope",
+          "Instagram Live",
+          "TikTok Live",
+          "Livestream",
+          "Streamlabs",
+          "Dailymotion",
+          "Vimeo Live",
+          "Tubi TV",
+          "Pluto TV",
+          "Sling TV",
+          "AT&T TV Now",
+          "Hulu Live TV",
+          "YouTube VOD",
+          "Ustream",
+          "Vimeo On Demand",
+          "DailyMotion Go",
+          "LiveStream Studio"
+        ],
+        "c": [
+          {
+            "n": "Stream quality",
+            "d": "The video quality of the streams, including resolution and frame rate."
+          },
+          {
+            "n": "Popularity",
+            "d": "The number of users watching and engaging with the stream in real-time."
+          },
+          {
+            "n": "Variety of content",
+            "d": "The range of topics, genres, and types of content available for streaming."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Watch streams",
+      "run": 5,
+      "payload": {
+        "a": [
+          "Twitch",
+          "YouTube Live",
+          "Facebook Gaming",
+          "Periscope",
+          "Streamlabs",
+          "Mixer",
+          "Caffeine",
+          "Dailymotion",
+          "LiveStream",
+          "Veeps",
+          "Pluto TV",
+          "Plex",
+          "Sling TV",
+          "Hulu",
+          "ESPN+",
+          "Apple TV+",
+          "TikTok Live",
+          "Instagram Live",
+          "Triller Live",
+          "Vimeo Live"
+        ],
+        "c": [
+          {
+            "n": "Downloads",
+            "d": "Number of downloads from the App Store and Google Play"
+          },
+          {
+            "n": "Ratings",
+            "d": "Average rating from users on the App Store and Google Play"
+          },
+          {
+            "n": "Reviews",
+            "d": "Number of reviews from users on the App Store and Google Play"
+          },
+          {
+            "n": "Engagement",
+            "d": "Level of user interaction with the app, including watch time and live streaming sessions"
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Watch streams",
+      "run": 6,
+      "payload": {
+        "a": [
+          "Twitch",
+          "YouTube TV",
+          "Periscope",
+          "Facebook Gaming",
+          "Mixer",
+          "DLive",
+          "Streamlabs",
+          "Vimeo Live",
+          "Livestream",
+          "Caffeine",
+          "Trovo",
+          "Clips",
+          "Hulu",
+          "Sling TV",
+          "ESPN",
+          "NFL Sunday Ticket",
+          "TikTok",
+          "Instagram Live",
+          "Amazon Prime Video",
+          "Apple TV"
+        ],
+        "c": [
+          {
+            "n": "Popularity Score",
+            "d": "Average rating and number of reviews on app stores."
+          },
+          {
+            "n": "User Engagement",
+            "d": "Average watch time and session length metrics from analytics tools."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Watch streams",
+      "run": 7,
+      "payload": {
+        "a": [
+          "Twitch",
+          "YouTube Live",
+          "Facebook Gaming",
+          "Periscope",
+          "LiveStream",
+          "Vimeo Live",
+          "Dailymotion",
+          "Streamlabs",
+          "Missive",
+          "TikTok Live",
+          "Instagram Live",
+          "Bigo Live",
+          "YouNow",
+          "Caffeine",
+          "Triller Live",
+          "LIVE",
+          "Himynameis Live",
+          "Garden Live",
+          "Lipsi",
+          "Kast"
+        ],
+        "c": [
+          {
+            "n": "Average Rating",
+            "d": "The average rating of the app in the App Store/Google Play Store."
+          },
+          {
+            "n": "Downloads",
+            "d": "The number of downloads of the app."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Watch streams",
+      "run": 8,
+      "payload": {
+        "a": [
+          "Twitch",
+          "YouTube Live",
+          "Facebook Gaming",
+          "Periscope",
+          "TikTok",
+          "Streamlabs",
+          "Mixer",
+          "Dailymotion",
+          "Vimeo Live",
+          "Instagram Live",
+          "Livestream",
+          "Ustream",
+          "Caffeine",
+          "Microsoft Stream",
+          "Amazon Chime",
+          "Skype Meet Now",
+          "Google Meet",
+          "Discord",
+          "Bigo Live",
+          "Yahoo Livestand"
+        ],
+        "c": [
+          {
+            "n": "Average Rating",
+            "d": "The average rating of the app on the App Store or Google Play"
+          },
+          {
+            "n": "Number of Downloads",
+            "d": "The number of times the app has been downloaded from the App Store or Google Play"
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Watch streams",
+      "run": 9,
+      "payload": {
+        "a": [
+          "Twitch",
+          "YouTube",
+          "Facebook Gaming",
+          "Mixer",
+          "Periscope",
+          "LiveStream",
+          "Vimeo Live",
+          "Instagram Live",
+          "Dailymotion",
+          "VKontakte",
+          "YouNow",
+          "Stremio",
+          "Kast",
+          "Streamlabs",
+          "Caffeine",
+          "TikTok Live",
+          "Triller Live",
+          "Google Trips",
+          "Microsoft Stream",
+          "PeerTube"
+        ],
+        "c": [
+          {
+            "n": "Monthly Active Users",
+            "d": "The number of unique users who have used the app in a given month"
+          },
+          {
+            "n": "Average Watch Time",
+            "d": "The average time spent watching streams by users on the platform"
+          },
+          {
+            "n": "Content Variety",
+            "d": "The range and diversity of streams available on the platform, including music, gaming, and live events"
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Go Live",
+      "run": 0,
+      "payload": {
+        "a": [
+          "LiveStream",
+          "Twitch",
+          "Facebook Gaming",
+          "YouTube Live",
+          "Periscope",
+          "Instagram Live",
+          "TikTok Live",
+          "Bigo Live",
+          "Hito Live",
+          "YouNow",
+          "Livescore",
+          "Streamlabs",
+          "Caffeine",
+          "Missional",
+          "Clash",
+          "Google Meet",
+          "Skype",
+          "Viber",
+          "ZOOM Cloud Meetings",
+          "Houseparty"
+        ],
+        "c": [
+          {
+            "n": "Popularity",
+            "d": "Number of downloads and user base"
+          },
+          {
+            "n": "Reviews",
+            "d": "Average rating from users"
+          },
+          {
+            "n": "Engagement",
+            "d": "User interaction with the app, such as likes, comments, etc."
+          },
+          {
+            "n": "Features",
+            "d": "Number and quality of features related to live streaming"
+          },
+          {
+            "n": "Monetization",
+            "d": "Options for content creators to earn money from their streams"
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Go Live",
+      "run": 1,
+      "payload": {
+        "a": [
+          "LiveStream",
+          "Twitch",
+          "YouTube Live",
+          "Facebook Gaming",
+          "Periscope",
+          "Instagram Live",
+          "Bigo Live",
+          "IMO Live",
+          "Hago Play",
+          "LiveMe",
+          "YouNow",
+          "VivoLive",
+          "Tango Live",
+          "Dailymotion Live",
+          "Flixel",
+          "Shahid Live",
+          "Amino",
+          "Streamlabs",
+          "Caffeine",
+          "Minds TV"
+        ],
+        "c": [
+          {
+            "n": "Average Rating",
+            "d": "The average rating of the app from users in the App Store or Google Play."
+          },
+          {
+            "n": "Number of Downloads",
+            "d": "The total number of downloads of the app on the App Store and Google Play combined."
+          },
+          {
+            "n": "User Engagement",
+            "d": "A measure of how often users interact with the app, such as viewing live streams or participating in live events."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Go Live",
+      "run": 2,
+      "payload": {
+        "a": [
+          "Twitch",
+          "Periscope",
+          "Facebook Gaming",
+          "YouTube Live",
+          "Instagram Live",
+          "Bigo Live",
+          "LiveStream",
+          "Microsoft Stream",
+          "Livestream Pro",
+          "Google Meet",
+          "Amazon Chime",
+          "Skype Live",
+          "Discord Go Live",
+          "Streamyard",
+          "Beijing Iqiyi Inc. - PPDSGO",
+          "Better Streaming",
+          "Live on Facebook Gaming",
+          "Kittyplay",
+          "Lipsync Live by Smule",
+          "VivaVideo"
+        ],
+        "c": [
+          {
+            "n": "Number of live viewers",
+            "d": "The maximum number of users who can watch a single live stream at the same time."
+          },
+          {
+            "n": "Stream quality",
+            "d": "The resolution and frame rate at which the app streams video content to its audience."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Go Live",
+      "run": 3,
+      "payload": {
+        "a": [
+          "Bigo Live",
+          "LiveStream",
+          "Facebook Gaming",
+          "Twitch",
+          "YouTube Live",
+          "Periscope",
+          "Instagram Live",
+          "Microsoft Stream",
+          "Google Meet",
+          "Skype Meetings",
+          "Vimeo Live",
+          "Livestream Studio",
+          "Restream.io",
+          "Streamyard",
+          "Beacon Live",
+          "Agora Gaming",
+          "Loola",
+          "Game Show Live",
+          "Playlive",
+          "AgileMD"
+        ],
+        "c": [
+          {
+            "n": "Number of Downloads",
+            "d": "The number of times the app has been downloaded from the app stores."
+          },
+          {
+            "n": "Rating",
+            "d": "The average rating of the app based on user reviews and ratings."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Go Live",
+      "run": 4,
+      "payload": {
+        "a": [
+          "Facebook",
+          "Instagram Live",
+          "Twitch",
+          "YouTube Live",
+          "Periscope",
+          "Bigo Live",
+          "Caffeine TV",
+          "Microsoft Stream",
+          "Streamyard",
+          "LiveStream",
+          "Resi",
+          "Beacon Live",
+          "Streamlabs OBS",
+          "XSplit",
+          "Obs Studio",
+          "LiveU",
+          "Hytale",
+          "Vimeo Live",
+          "Dacast",
+          "Livestorm"
+        ],
+        "c": [
+          {
+            "n": "Number of users",
+            "d": "Total number of registered users for the app"
+          },
+          {
+            "n": "Ratings",
+            "d": "Average rating based on user reviews and ratings"
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Go Live",
+      "run": 5,
+      "payload": {
+        "a": [
+          "Facebook",
+          "Instagram",
+          "TikTok",
+          "YouTube",
+          "Periscope",
+          "Bigo Live",
+          "YouNow",
+          "LiveStream",
+          "Vimeo Live",
+          "Dailymotion",
+          "Streamyard",
+          "Restream.io",
+          "BeaconLive",
+          "Stage10",
+          "Livescore",
+          "Mixcloud Live",
+          "Shoutem",
+          "Livestorm",
+          "Mixer",
+          "Caffeine"
+        ],
+        "c": [
+          {
+            "n": "Number of Downloads",
+            "d": "The number of downloads an app has on the app store."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Go Live",
+      "run": 6,
+      "payload": {
+        "a": [
+          "Streamyard",
+          "LiveStream Studio",
+          "Facebook Gaming",
+          "Twitch",
+          "YouTube Live",
+          "TikTok Live",
+          "Periscope",
+          "Instagram Live",
+          "Bigo Live",
+          "YouNow",
+          "Dailymotion Live",
+          "Vimeo Live",
+          "LIVESchedule",
+          "Restream.io",
+          "Switcher Studio",
+          "Lightstream",
+          "Beacon",
+          "AgileCRM - Live",
+          "Gyft",
+          "Streamlabs"
+        ],
+        "c": [
+          {
+            "n": "Average Rating",
+            "d": "Overall rating of the app based on user reviews."
+          },
+          {
+            "n": "User Reviews",
+            "d": "Number of user reviews for each app."
+          },
+          {
+            "n": "Download Count",
+            "d": "Number of times each app has been downloaded."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Go Live",
+      "run": 7,
+      "payload": {
+        "a": [
+          "Streamyard",
+          "Restream.io",
+          "Facebook Gaming",
+          "Twitch",
+          "Periscope",
+          "YouTube Live",
+          "Instagram Live",
+          "Bigo Live",
+          "Live.me",
+          "Huawei Cloud Live",
+          "Clash",
+          "Google Meet",
+          "Amazon Chime",
+          "ZOOM Cloud Meetings",
+          "Skype Meeting",
+          "Microsoft Teams",
+          "Cisco Webex Meetings",
+          "GoToMeeting",
+          "Join.me",
+          "Vimeo Live"
+        ],
+        "c": [
+          {
+            "n": "Average rating",
+            "d": "The average user rating of the app on the App Store or Google Play."
+          },
+          {
+            "n": "Number of reviews",
+            "d": "The total number of user reviews for the app."
+          },
+          {
+            "n": "Download count",
+            "d": "The total number of times the app has been downloaded from the App Store or Google Play."
+          },
+          {
+            "n": "Popularity rank",
+            "d": "The ranking of the app based on its popularity and usage."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Go Live",
+      "run": 8,
+      "payload": {
+        "a": [
+          "Periscope",
+          "Facebook Live",
+          "YouTube Live",
+          "TikTok Live",
+          "Instagram Live",
+          "Bigo Live",
+          "LiveMe",
+          "Imeet",
+          "YouNow",
+          "Dailymotion Live",
+          "Streamyard",
+          "Beijing Genki TV",
+          "LIVE: Now",
+          "Caffeine",
+          "Mixer (Beam)",
+          "Trovo Live",
+          "GameShow Live",
+          "LiveSplit",
+          "Uplive",
+          "NTWRK"
+        ],
+        "c": [
+          {
+            "n": "Average Rating",
+            "d": "The average user rating of the app in the App Store or Google Play."
+          },
+          {
+            "n": "Downloads",
+            "d": "The number of times the app has been downloaded from the App Store or Google Play."
+          },
+          {
+            "n": "Reviews",
+            "d": "The total number of user reviews for the app in the App Store or Google Play."
+          },
+          {
+            "n": "Ratings Count",
+            "d": "The number of users who have rated the app in the App Store or Google Play."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Go Live",
+      "run": 9,
+      "payload": {
+        "a": [
+          "YouTube",
+          "Twitch",
+          "Facebook Gaming",
+          "Periscope",
+          "Instagram Live",
+          "TikTok Live",
+          "Bigo Live",
+          "Houseparty",
+          "Zoom Meetings",
+          "Google Meet",
+          "Skype",
+          "Microsoft Teams",
+          "Discord",
+          "Streamyard",
+          "Restream",
+          "LiveStream",
+          "Kaltura Player",
+          "Vimeo Livestream",
+          "Livestorm",
+          "Beacon"
+        ],
+        "c": [
+          {
+            "n": "User Engagement",
+            "d": "Average user engagement time per session"
+          },
+          {
+            "n": "Monetization Options",
+            "d": "Available monetization options for content creators"
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Play playlist on shuffle mode",
+      "run": 0,
+      "payload": {
+        "a": [
+          "Shazam",
+          "Spotify Music",
+          "Apple Music",
+          "SoundCloud",
+          "Amazon Music",
+          "Google Play Music",
+          "Pandora Radio",
+          "iHeartRadio",
+          "TuneIn Radio",
+          "Pulsar Player",
+          "Player.me",
+          "Musicolet Music Player",
+          "Clay Music Player",
+          "Pi Music Player",
+          "Neutron Music Player",
+          "YMusic",
+          "PowerAMP Music Player",
+          "BlackPlayer Ex",
+          "Aurora Music Playe",
+          "DoubleTapper"
+        ],
+        "c": [
+          {
+            "n": "Number of users",
+            "d": "The number of users who have downloaded and used the app."
+          },
+          {
+            "n": "Average rating",
+            "d": "The average rating given by users based on their experiences with the app."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Play playlist on shuffle mode",
+      "run": 1,
+      "payload": {
+        "a": [
+          "Spotify",
+          "Apple Music",
+          "YouTube Music",
+          "Amazon Music",
+          "Google Play Music",
+          "Tidal",
+          "Deezer",
+          "Pandora Radio",
+          "iHeartRadio",
+          "SoundCloud",
+          "Amp",
+          "Jango Radio",
+          "Mixcloud",
+          "Shazam",
+          "Musical.ly",
+          "SoundHound",
+          "Pulsar",
+          "ClaroMusic",
+          "Napster",
+          "Pitanga Music"
+        ],
+        "c": [
+          {
+            "n": "Number of users",
+            "d": "The number of registered users for each app."
+          },
+          {
+            "n": "Monthly active users",
+            "d": "The estimated number of monthly active users for each app."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Play playlist on shuffle mode",
+      "run": 2,
+      "payload": {
+        "a": [
+          "Spotify",
+          "Apple Music",
+          "Amazon Music",
+          "Google Play Music",
+          "YouTube Music",
+          "Deezer",
+          "Tidal",
+          "Pandora Radio",
+          "iHeartRadio",
+          "SoundCloud",
+          "Mixcloud",
+          "Jango Radio",
+          "MusicStation",
+          "GROOVE",
+          "Rhapsody",
+          "Slacker Radio",
+          "AOL Radio",
+          "iPod nano (shuffle mode)",
+          "Pandora Internet Radio",
+          "Google Play Music - Shuffle"
+        ],
+        "c": [
+          {
+            "n": "Shuffle Mode Availability",
+            "d": "Indicates if the app supports playing playlists on shuffle mode."
+          },
+          {
+            "n": "User Interface",
+            "d": "Evaluates how user-friendly and intuitive the app's interface is for playing music on shuffle mode."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Play playlist on shuffle mode",
+      "run": 3,
+      "payload": {
+        "a": [
+          "Spotify",
+          "Apple Music",
+          "Google Play Music",
+          "Amazon Music",
+          "Pandora Radio",
+          "iHeartRadio",
+          "Deezer",
+          "Tidal",
+          "SoundCloud",
+          "YouTube Music",
+          "Audiomack",
+          "Jango Radio",
+          "Songza",
+          "Slacker Radio",
+          "Mixcloud",
+          "Groove Music",
+          "Amazon Music Unlimited",
+          "iCloud Music Library",
+          "Google Play Music All Access",
+          "TuneIn Radio"
+        ],
+        "c": [
+          {
+            "n": "Shuffle Mode Support",
+            "d": "Can play playlists in shuffle mode"
+          },
+          {
+            "n": "Playlist Customization",
+            "d": "Allow users to create and customize their own playlists"
+          },
+          {
+            "n": "Music Discovery",
+            "d": "Enable users to discover new music and artists"
+          },
+          {
+            "n": "User Interface",
+            "d": "Provide an intuitive and user-friendly interface for navigating and playing music"
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Play playlist on shuffle mode",
+      "run": 4,
+      "payload": {
+        "a": [
+          "Spotify",
+          "Apple Music",
+          "Google Play Music",
+          "Amazon Music",
+          "YouTube Music",
+          "Tidal",
+          "Deezer",
+          "Pandora Radio",
+          "iHeartRadio",
+          "SoundCloud",
+          "Audiomack",
+          "Mixcloud",
+          "Mixmax",
+          "Winamp",
+          "Poweramp",
+          "MusicBee",
+          "MediaMonkey",
+          "VLC for Mobile",
+          "PlayerPro",
+          "MX Player"
+        ],
+        "c": [
+          {
+            "n": "Number of Songs",
+            "d": "The number of songs available in the app."
+          },
+          {
+            "n": "Shuffle Algorithm",
+            "d": "A description of how the shuffle algorithm works, including any factors that may affect its randomness."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Play playlist on shuffle mode",
+      "run": 5,
+      "payload": {
+        "a": [
+          "Spotify",
+          "Apple Music",
+          "Google Play Music",
+          "Amazon Music",
+          "YouTube Music",
+          "Deezer",
+          "Pandora Radio",
+          "iHeartRadio",
+          "SoundCloud",
+          "Tidal",
+          "Joox",
+          "KKBOX",
+          "Napster",
+          "MOG",
+          "Slacker Radio",
+          "Rhapsody",
+          "Music Unlimited",
+          "Groove Music",
+          "AOL Radio Premium",
+          "Last.fm"
+        ],
+        "c": [
+          {
+            "n": "Number of playlists",
+            "d": "The number of pre-made playlists available for users to shuffle."
+          },
+          {
+            "n": "User-generated playlists",
+            "d": "The ability to create and share custom playlists that can be shuffled."
+          },
+          {
+            "n": "Discovery feature",
+            "d": "A feature that suggests new songs or artists based on the user's listening habits, which can lead to discovering new music to add to playlists."
+          },
+          {
+            "n": "Cross-platform compatibility",
+            "d": "The ability to access and play playlists across multiple devices and platforms."
+          },
+          {
+            "n": "Offline playback",
+            "d": "The option to download songs or playlists for offline listening, allowing users to shuffle through their music even without an internet connection."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Play playlist on shuffle mode",
+      "run": 6,
+      "payload": {
+        "a": [
+          "Spotify",
+          "Apple Music",
+          "Amazon Music Unlimited",
+          "Google Play Music",
+          "Tidal",
+          "SoundCloud",
+          "YouTube Music",
+          "Pandora Radio",
+          "iHeartRadio",
+          "Deezer",
+          "JioSaavn",
+          "Gaana",
+          "Hungama Music",
+          "Shazam",
+          "Groove Music",
+          "Music Maker JAM",
+          "SoundDrop",
+          "Musical.ly",
+          "Pulsar Radio",
+          "Audiomack"
+        ],
+        "c": [
+          {
+            "n": "Number of songs available",
+            "d": "Total number of songs users can access in the app."
+          },
+          {
+            "n": "User interface",
+            "d": "Ease and intuitiveness of navigating through the app."
+          },
+          {
+            "n": "Offline playback support",
+            "d": "Ability to play music offline without an internet connection."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Play playlist on shuffle mode",
+      "run": 7,
+      "payload": {
+        "a": [
+          "Spotify",
+          "Apple Music",
+          "Amazon Music",
+          "Google Play Music",
+          "YouTube Music",
+          "SoundCloud",
+          "Pandora Radio",
+          "iHeartRadio",
+          "TuneIn Radio",
+          "Mixcloud",
+          "Deezer",
+          "Audiomack",
+          "JioSaavn",
+          "Gaana Music",
+          "Wynk Music",
+          "Mziiki",
+          "Hungama Music",
+          "Saregama Carvaan",
+          "Radio Javan",
+          "Anghami"
+        ],
+        "c": [
+          {
+            "n": "Play playlist on shuffle mode",
+            "d": "The ability to play playlists in a random order, allowing users to discover new music."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Play playlist on shuffle mode",
+      "run": 8,
+      "payload": {
+        "a": [
+          "Spotify",
+          "Apple Music",
+          "Google Play Music",
+          "Amazon Music",
+          "Tidal",
+          "Deezer",
+          "Pandora Radio",
+          "iHeartRadio",
+          "SoundCloud",
+          "YouTube Music",
+          "Amp.me",
+          "Jango Radio",
+          "Mixcloud",
+          "Groove Music",
+          "Power FM",
+          "Winamp",
+          "Grove",
+          "Musicolet",
+          "Riffstation",
+          "Anghami"
+        ],
+        "c": [
+          {
+            "n": "Play playlist on shuffle mode",
+            "d": "Allow users to play their playlists in a random order."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Play playlist on shuffle mode",
+      "run": 9,
+      "payload": {
+        "a": [
+          "Spotify",
+          "Apple Music",
+          "Amazon Music",
+          "Google Play Music",
+          "Pandora Radio",
+          "iHeartRadio",
+          "YouTube Music",
+          "SoundCloud",
+          "Mixcloud",
+          "Deezer",
+          "Tidal",
+          "Audiomack",
+          "Hulu",
+          "Netflix Music",
+          "Apple Podcasts",
+          "Spotify Free",
+          "Pandora Music Premium",
+          "iHeartRadio Plus",
+          "Google Play Music YouTube Music Mix",
+          "Amazon Music Unlimited"
+        ],
+        "c": [
+          {
+            "n": "Shuffle Mode Availability",
+            "d": "Whether the app allows users to play playlists in shuffle mode"
+          },
+          {
+            "n": "Playlist Customization",
+            "d": "The extent to which users can customize their playlists"
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Access to podcasts",
+      "run": 0,
+      "payload": {
+        "a": [
+          "Spotify",
+          "Apple Podcasts",
+          "Castbox",
+          "Pocket Casts",
+          "Overcast",
+          "Google Podcasts",
+          "Anchor",
+          "RadioPublic",
+          "Stitcher",
+          "TuneIn Radio",
+          "iHeartRadio",
+          "Pandora",
+          "SoundCloud",
+          "Audioboom",
+          "Deezer",
+          "Castro",
+          "BeyondPod",
+          "DogGone Good Podcasts",
+          "Podbean",
+          "Simplecast"
+        ],
+        "c": [
+          {
+            "n": "Number of available podcasts",
+            "d": "The number of unique podcasts that an app has access to"
+          },
+          {
+            "n": "User interface and user experience",
+            "d": "The ease of use, navigation, and overall feel of the app"
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Access to podcasts",
+      "run": 1,
+      "payload": {
+        "a": [
+          "Pocket Casts",
+          "Castbox - Podcast Player",
+          "Apple Podcasts",
+          "Spotify",
+          "Google Podcasts",
+          "Anchor",
+          "Overcast",
+          "Podbean",
+          "Beyond Pod",
+          "Castro",
+          "Serial Box",
+          "TuneIn Radio",
+          "iHeartRadio",
+          "Stitcher",
+          "Pandora Music & Radio",
+          "Pleco",
+          "Audioboom",
+          "Deezer",
+          "SoundCloud",
+          "Radiotopia"
+        ],
+        "c": [
+          {
+            "n": "Number of podcasts available",
+            "d": "The number of podcasts a platform has access to."
+          },
+          {
+            "n": "User interface and usability",
+            "d": "How easy is it for users to find, listen to, and manage their podcasts."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Access to podcasts",
+      "run": 2,
+      "payload": {
+        "a": [
+          "Anchor",
+          "Spotify",
+          "Apple Podcasts",
+          "Google Podcasts",
+          "Pocket Casts",
+          "Castbox",
+          "TuneIn Radio",
+          "Pandora",
+          "iHeartRadio",
+          "Overcast",
+          "BeyondPod",
+          "Player FM",
+          "Stitcher",
+          "Castro",
+          "Castro Plus",
+          "Castos",
+          "Breaker",
+          "Audioboom",
+          "SoundCloud",
+          "BBC Sounds"
+        ],
+        "c": [
+          {
+            "n": "Number of Podcasts Available",
+            "d": "The number of podcasts available for users to access and listen to."
+          },
+          {
+            "n": "User Reviews and Ratings",
+            "d": "A measure of how well an app is liked by its users, based on the number of reviews and ratings received."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Access to podcasts",
+      "run": 3,
+      "payload": {
+        "a": [
+          "Apple Podcasts",
+          "Spotify",
+          "Google Podcasts",
+          "Pocket Casts",
+          "Overcast",
+          "Anchor",
+          "Castbox",
+          "Stitcher",
+          "TuneIn Radio",
+          "iHeartRadio",
+          "Audible",
+          "Pandora",
+          "SiriusXM",
+          "SoundCloud",
+          "YouTube Music",
+          "Audioboom",
+          "Radiotopia",
+          "BBC Sounds",
+          "Blubrry Podcasting",
+          "Castro"
+        ],
+        "c": [
+          {
+            "n": "User Interface",
+            "d": "Ease of use, navigation and overall user experience."
+          },
+          {
+            "n": "Content Library",
+            "d": "Number and variety of available podcasts, including popular and niche topics."
+          },
+          {
+            "n": "Discovery Features",
+            "d": "Ability to find new podcasts based on interests, genres or recommendations."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Access to podcasts",
+      "run": 4,
+      "payload": {
+        "a": [
+          "Pocket Casts",
+          "Overcast",
+          "Castbox",
+          "Apple Podcasts",
+          "Google Podcasts",
+          "Anchor",
+          "Spotify",
+          "Stitcher",
+          "TuneIn Radio",
+          "iHeartRadio",
+          "Podbean",
+          "SoundCloud",
+          "Castro",
+          "Beyond Pod",
+          "Downcast",
+          "Player FM",
+          "Castbox Free",
+          "Podkicker",
+          "Pocket FM",
+          "Podomatic"
+        ],
+        "c": [
+          {
+            "n": "User Interface",
+            "d": "The app's usability, navigation, and overall user experience."
+          },
+          {
+            "n": "Content Library Size",
+            "d": "The number of available podcasts across various categories."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Access to podcasts",
+      "run": 5,
+      "payload": {
+        "a": [
+          "Pocket Casts",
+          "Apple Podcasts",
+          "Castbox",
+          "Spotify",
+          "Google Podcasts",
+          "Overcast",
+          "Castro",
+          "Anchor",
+          "RadioPublic",
+          "TuneIn Radio",
+          "Stitcher",
+          "Audioboom",
+          "SoundCloud",
+          "Listen Notes",
+          "Podbean",
+          "Player FM",
+          "Beyond Pod",
+          "Downcast",
+          "Pandora",
+          "iHeartRadio"
+        ],
+        "c": [
+          {
+            "n": "Number of podcasts available",
+            "d": "The number of podcasts that the app has access to, including popular and niche podcasts."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Access to podcasts",
+      "run": 6,
+      "payload": {
+        "a": [
+          "Apple Podcasts",
+          "Spotify",
+          "Google Podcasts",
+          "Castbox",
+          "Pocket Casts",
+          "Anchor",
+          "Overcast",
+          "Podbean",
+          "RadioPublic",
+          "TuneIn",
+          "Audioboom",
+          "Stitcher",
+          "Beyond Pod",
+          "Player FM",
+          "Castro",
+          "Podkicker",
+          "Castamatic",
+          "Downcast",
+          "Podcatcher",
+          "iHeartRadio"
+        ],
+        "c": [
+          {
+            "n": "Average Rating",
+            "d": "The average rating of an app based on user reviews"
+          },
+          {
+            "n": "Number of Users",
+            "d": "The number of active users for each app"
+          },
+          {
+            "n": "Feature Set",
+            "d": "The variety and quality of podcast features provided by the app"
+          },
+          {
+            "n": "Content Offered",
+            "d": "The range and diversity of podcasts available through the app"
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Access to podcasts",
+      "run": 7,
+      "payload": {
+        "a": [
+          "Castbox",
+          "Pandora",
+          "Apple Podcasts",
+          "Google Podcasts",
+          "Spotify",
+          "Anchor",
+          "Overcast",
+          "Pocket Casts",
+          "Castro",
+          "TuneIn Radio",
+          "Stitcher",
+          "Player FM",
+          "BeyondPod",
+          "Dog and Ball",
+          "Podbean",
+          "IHeartRadio",
+          "RadioPublic",
+          "Castro Plus",
+          "Acast",
+          "SoundCloud"
+        ],
+        "c": [
+          {
+            "n": "Average Rating",
+            "d": "The average rating of the app in the app store."
+          },
+          {
+            "n": "User Reviews",
+            "d": "The number of user reviews the app has received."
+          },
+          {
+            "n": "Download Count",
+            "d": "The total number of times the app has been downloaded."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Access to podcasts",
+      "run": 8,
+      "payload": {
+        "a": [
+          "Anchor",
+          "Spotify",
+          "Apple Podcasts",
+          "Google Podcasts",
+          "Castbox",
+          "Pocket Casts",
+          "Overcast",
+          "Podbean",
+          "TuneIn Radio",
+          "Stitcher",
+          "iHeartRadio",
+          "Audioboom",
+          "Beyond Pod",
+          "Player FM",
+          "Radionomy",
+          "SoundCloud",
+          "Castbox Classic",
+          "Castos",
+          "HearPlanet",
+          "Podomatic"
+        ],
+        "c": [
+          {
+            "n": "Number of Podcasts",
+            "d": "The number of podcasts available in the app."
+          },
+          {
+            "n": "User Reviews",
+            "d": "The average rating from user reviews on the app store."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Access to podcasts",
+      "run": 9,
+      "payload": {
+        "a": [
+          "Apple Podcasts",
+          "Spotify",
+          "Castbox",
+          "Pocket Casts",
+          "Overcast",
+          "Google Podcasts",
+          "Anchor",
+          "Stitcher",
+          "TuneIn Radio",
+          "Pandora Radio",
+          "iHeartRadio",
+          "SoundCloud",
+          "Audioboom",
+          "BeyondPod",
+          "Player FM",
+          "Castro",
+          "Downcast",
+          "Castaway 2",
+          "Podbean",
+          "RadioPublic"
+        ],
+        "c": [
+          {
+            "n": "User Reviews",
+            "d": "The number of positive reviews from users."
+          },
+          {
+            "n": "Average Rating",
+            "d": "The average rating of the app in the App Store or Google Play."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Build photo collage",
+      "run": 0,
+      "payload": {
+        "a": [
+          "Collage Maker",
+          "Pic Collage - Make Photo Collages",
+          "Photo Collage Maker Pro",
+          "Collage Photo Editor",
+          "Grid Collage Maker",
+          "Pic Stitch - Photo Collage Maker",
+          "Easy Collage",
+          "Collage Creator",
+          "Layout - Personalized Social Media Graphics",
+          "Footej Photo Collage Maker",
+          "Mosaic Maker: Photo Collage",
+          "Photo Grid: Collage Maker",
+          "Collage It! Photo Editor",
+          "PicFrame - Photo Frames & Collages",
+          "Photoscape Photo Editor & Converter",
+          "Fotor: Photo Editing, Collage, Effects",
+          "Pho.to Lab Photo Editor & Art Effect",
+          "Collage Photo Studio",
+          "Insta Collage Maker",
+          "Photo Collage Designer"
+        ],
+        "c": [
+          {
+            "n": "Average Rating",
+            "d": "The average rating of the app in the App Store or Google Play Store."
+          },
+          {
+            "n": "Number of Downloads",
+            "d": "The number of times the app has been downloaded from the App Store or Google Play Store."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Build photo collage",
+      "run": 1,
+      "payload": {
+        "a": [
+          "Pic Collage",
+          "Photo Grid & Collage Maker",
+          "Collage Maker Pro",
+          "Photos & Videos Collage Maker",
+          "InstaGrid - Photo Grid Editor",
+          "Fotor - Photo Editor & Effect",
+          "PicLab - Photo Editor & Design",
+          "Pho.to Lab: photo editor & effects",
+          "InShot Video Editor & Photo",
+          "Collage Studio",
+          "PhotoDirector - Photo Editor App",
+          "TouchRetouch - Photo Editor",
+          "PicsArt Photo & Video Editor",
+          "Canva - Graphic Designer & Photo Editor",
+          "Adobe Spark Post: Design & Video",
+          "Pixlr: photo editor, effects, design",
+          "VistaCreate - Make your own video",
+          "Magisto Video Editor - Auto Movie Maker",
+          "StoryLab - Create Storyboards",
+          "PicsArt: Photo Studio & Art"
+        ],
+        "c": [
+          {
+            "n": "User Reviews (4.5/5)",
+            "d": "Average rating of the app based on user reviews."
+          },
+          {
+            "n": "Ratings Count",
+            "d": "Number of ratings received by the app in various stores."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Build photo collage",
+      "run": 2,
+      "payload": {
+        "a": [
+          "Pic Collage",
+          "Photo Grid",
+          "Collage Maker",
+          "Frame Studio",
+          "Photo Editor Pro",
+          "CollageIt",
+          "Layout",
+          "Adobe Spark Post",
+          "InstaCollage",
+          "Fotor",
+          "Canva - Graphic Design Maker",
+          "Poster My Wall",
+          "PicFrame",
+          "Photo Collage Maker",
+          "InShot Photo Video Editor",
+          "VivaVideo",
+          "Klipish Collage Maker",
+          "Photoshow",
+          "Flipagram",
+          "Collage Creator"
+        ],
+        "c": [
+          {
+            "n": "Reviews",
+            "d": "Average user rating"
+          },
+          {
+            "n": "Rating count",
+            "d": "Number of reviews received by the app"
+          },
+          {
+            "n": "Download size",
+            "d": "Size of the app on a mobile device"
+          },
+          {
+            "n": "Last updated",
+            "d": "Date when the app was last updated"
+          },
+          {
+            "n": "Developer company",
+            "d": "Company behind the development and maintenance of the app"
+          },
+          {
+            "n": "User interface quality",
+            "d": "Ease of use, navigation and overall user experience"
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Build photo collage",
+      "run": 3,
+      "payload": {
+        "a": [
+          "Pic Collage",
+          "Photo Grid",
+          "Collage Maker",
+          "Photo Editor Pro",
+          "Fotor - Photo Editing & Collage",
+          "GIMP",
+          "Canva",
+          "Adobe Spark Post",
+          "PicsArt Photo Studio",
+          "Frame Magic",
+          "Layout",
+          "Mosaic",
+          "PicPlayPost",
+          "Collage It!",
+          "Photo Collage Maker",
+          "Pic Stitch",
+          "InstaCollage",
+          "Cami",
+          "Quik - Make a Video in Minutes",
+          "StoryLab"
+        ],
+        "c": [
+          {
+            "n": "User Interface",
+            "d": "The app's UI should be easy to use and navigate."
+          },
+          {
+            "n": "Photo Editing Options",
+            "d": "The app should offer various photo editing tools, such as filters, effects, and text overlays."
+          },
+          {
+            "n": "Template Variety",
+            "d": "A good photo collage app should come with a range of pre-made templates to choose from."
+          },
+          {
+            "n": "Collage Size & Aspect Ratio",
+            "d": "The app should allow users to adjust the size and aspect ratio of their collages according to their preferences."
+          },
+          {
+            "n": "Export Options",
+            "d": "Users should be able to export their collages in various formats, including social media sharing options."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Build photo collage",
+      "run": 4,
+      "payload": {
+        "a": [
+          "Pic Collage",
+          "Photo Grid",
+          "Collage Maker",
+          "Frame Studio",
+          "Auto Pic Frame",
+          "Easy Photo Editor",
+          "PicFrame",
+          "InstaCollage",
+          "Pic Collage Pro",
+          "Fotor Photo Editor",
+          "Flipagram",
+          "Galeria - Picture Collages",
+          "Grids - Make photo grid",
+          "Mural",
+          "PicsArt Photo Studio",
+          "PhotoDirector",
+          "Layout",
+          "Mixbook: Photo Album & Card Maker",
+          "PicStory",
+          "Collage It"
+        ],
+        "c": [
+          {
+            "n": "Number of templates",
+            "d": "The number of built-in collage templates available."
+          },
+          {
+            "n": "User rating",
+            "d": "Average user rating on app stores (out of 5)."
+          },
+          {
+            "n": "Features",
+            "d": "Range of features offered, including effects, filters, and editing tools."
+          },
+          {
+            "n": "Collage size options",
+            "d": "The variety and flexibility of collage sizes available."
+          },
+          {
+            "n": "Import/export options",
+            "d": "Ease of importing photos from other sources (e.g., social media, camera roll) and exporting the final collage."
+          },
+          {
+            "n": "User interface",
+            "d": "Intuitiveness, navigation, and overall user experience."
+          },
+          {
+            "n": "Price",
+            "d": "Cost or pricing model (free, subscription-based, one-time payment)."
+          },
+          {
+            "n": "Platforms supported",
+            "d": "Operating systems (iOS, Android, etc.) supported by the app."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Build photo collage",
+      "run": 5,
+      "payload": {
+        "a": [
+          "Pic Collage - Photo Editor",
+          "Collage Maker & Pic Frame",
+          "Photo Grid & Collage Maker",
+          "Fotor - Photo Editing App",
+          "TouchRetouch",
+          "Pixlr: Photo Editor",
+          "Layout by Instagram",
+          "Canva: Graphic Design",
+          "Adobe Spark Post",
+          "Over - Text, Logo and Graphics Over Photos",
+          "PicMonkey Photo Editor & Collage Maker",
+          "Collage It!",
+          "Artcut: Pro",
+          "PhotoDirector - Mobile",
+          "Auto Collage Maker",
+          "Fotor Collage",
+          "Snapseed",
+          "Photoscape Photo Editor",
+          "Quik",
+          "Frame Studio"
+        ],
+        "c": [
+          {
+            "n": "Top App Store Ranking",
+            "d": "The app's ranking in the Apple App Store."
+          },
+          {
+            "n": "User Rating",
+            "d": "The average rating given by users based on reviews."
+          },
+          {
+            "n": "Number of Downloads",
+            "d": "The total number of downloads for the app from various stores."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Build photo collage",
+      "run": 6,
+      "payload": {
+        "a": [
+          "Adobe Spark",
+          "Pic Collage",
+          "Photo Grid",
+          "Collage Maker by Mobi",
+          "InstaPic Collage",
+          "Photo Collage - Pic Jointer",
+          "Grids - Photo & Video Editor",
+          "Fotor",
+          "Kika Image Editor",
+          "Footej Photos Editor",
+          "YouCam Perfect",
+          "PicPlay Post",
+          "Pixlr",
+          "FlipaClip",
+          "TouchRetouch",
+          "Google Snapseed",
+          "Prisma",
+          "Over",
+          "Canva",
+          "InShot Video Editor"
+        ],
+        "c": [
+          {
+            "n": "User Reviews",
+            "d": "Average rating of the app on the app store, based on user reviews and ratings."
+          },
+          {
+            "n": "Download Count",
+            "d": "Number of times the app has been downloaded from the app store."
+          },
+          {
+            "n": "Ratings and Awards",
+            "d": "Any notable awards or recognitions received by the app, including ratings from reputable sources."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Build photo collage",
+      "run": 7,
+      "payload": {
+        "a": [
+          "Pic Collage",
+          "Collage Maker",
+          "Photo Grid",
+          "Pic Stitch",
+          "Layout",
+          "Fotor",
+          "Phonto",
+          "Flipagram",
+          "Mematic",
+          "PhotoCollage Maker",
+          "InstaCollage",
+          "Collage Studio",
+          "Photo Editor Pro",
+          "Photo Collage & Pic Grid",
+          "Mixbook",
+          "PicCollage - Photo Frame",
+          "PicGrid Photo Collage",
+          "Photos & Collages",
+          "Collage Creator",
+          "PicCollage Free"
+        ],
+        "c": [
+          {
+            "n": "Number of templates",
+            "d": "The number of pre-designed templates available."
+          },
+          {
+            "n": "Image editing features",
+            "d": "The level of image editing capabilities within the app."
+          },
+          {
+            "n": "Sharing options",
+            "d": "The variety of ways to share the created collage, including social media and messaging platforms."
+          },
+          {
+            "n": "Collage size limit",
+            "d": "The maximum number of photos allowed in a single collage or the maximum dimensions of the output image."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Build photo collage",
+      "run": 8,
+      "payload": {
+        "a": [
+          "Pic Collage",
+          "Photo Collage Maker",
+          "Collage Maker by Canva",
+          "Adobe Spark Post",
+          "Layout from Instagram",
+          "Fotor Photo Editor & Effect",
+          "PicsArt Photo Studio",
+          "InShot Video Editor & Photo",
+          "Quik by GoPro",
+          "VivaVideo - Filmora",
+          "PhotoGrid: Collage Maker",
+          "Collage Maker Pro",
+          "PicFrame: Photo Frame",
+          "Mextures: Photo Editing",
+          "Pixlr: Photo Editor",
+          "Kolage - Photo Collage",
+          "Fotosoft Photo Studio",
+          "Image Cake: Photo Mosaic",
+          "GIMP for Photographers",
+          "Photodex ProShow Producer"
+        ],
+        "c": [
+          {
+            "n": "User Interface",
+            "d": "Ease of use and navigation"
+          },
+          {
+            "n": "Features",
+            "d": "Number and quality of collage templates, design tools, and effects"
+          },
+          {
+            "n": "Photo Editing Tools",
+            "d": "Presence and quality of photo editing features, such as filters, adjustments, and textures"
+          },
+          {
+            "n": "Collage Templates",
+            "d": "Availability and variety of pre-made collage templates"
+          },
+          {
+            "n": "Sharing Options",
+            "d": "Ease of sharing collages on social media platforms and other services"
+          },
+          {
+            "n": "Customer Support",
+            "d": "Quality and responsiveness of customer support, including tutorials and FAQs"
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Build photo collage",
+      "run": 9,
+      "payload": {
+        "a": [
+          "Pic Collage",
+          "Photo Grid",
+          "Collage Maker",
+          "PicsArt Photo Studio",
+          "Canva - Graphic Design Made Easy",
+          "Flipagram",
+          "Fotor",
+          "AutoCollage Maker",
+          "Adobe Spark Post",
+          "Grids - Simple Photo Grid Maker",
+          "PicFrame",
+          "Colla Pic Collage Maker",
+          "PhotoDirector",
+          "Mematic",
+          "TouchRetouch",
+          "Image Size",
+          "Pixlr - Photo Editor & Art Tools",
+          "Fotor Photo Editing App",
+          "Auto Pic Collage Maker",
+          "GIMP"
+        ],
+        "c": [
+          {
+            "n": "Number of templates",
+            "d": "The number of pre-made collage templates available."
+          },
+          {
+            "n": "Image editing tools",
+            "d": "The availability and variety of image editing tools within the app."
+          },
+          {
+            "n": "Collage customization options",
+            "d": "The level of control users have over their collages, including ability to change background, add text, etc."
+          },
+          {
+            "n": "Sharing options",
+            "d": "Ease and variety of ways to share completed collages, such as social media integration."
+          },
+          {
+            "n": "User interface",
+            "d": "The app's overall user experience, including navigation, speed, and visual appeal."
+          },
+          {
+            "n": "Cost or in-app purchases",
+            "d": "Whether the app offers a free version, subscription model, or requires upfront purchase."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Photo effects",
+      "run": 0,
+      "payload": {
+        "a": [
+          "Prisma",
+          "Adobe Lightroom",
+          "Facetune2",
+          "PicsArt",
+          "YouCam Perfect",
+          "Pixlr",
+          "RetouchMe",
+          "Beauty Camera - Selfie Editor",
+          "InShot Video Editor",
+          "PhotoDirector",
+          "TouchRetouch",
+          "PicPlayPost",
+          "Effects Master",
+          "Magic Aviary Photo Editor",
+          "Snapseed",
+          "imo Free Video Calls and Chat",
+          "Aviary Photo Editor",
+          "BeFunky Photo Collage",
+          "VivaVideo",
+          "AutoCloner"
+        ],
+        "c": [
+          {
+            "n": "Number of Filter Options",
+            "d": "The number of filter options an app offers."
+          },
+          {
+            "n": "User Interface",
+            "d": "How user-friendly and intuitive the app's interface is."
+          },
+          {
+            "n": "Editing Tools",
+            "d": "The availability and effectiveness of editing tools such as crop, resize, rotate, etc."
+          },
+          {
+            "n": "Speed and Performance",
+            "d": "How quickly an app can apply effects without compromising on quality or causing lag."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Photo effects",
+      "run": 1,
+      "payload": {
+        "a": [
+          "Prisma",
+          "Afterlight",
+          "Pixlr",
+          "Fotor",
+          "Adobe Lightroom",
+          "Snapseed",
+          "Facetune",
+          "TouchRetouch",
+          "VSCO",
+          "Filter Studio",
+          "PicsArt",
+          "InShot",
+          "BeautyPlus",
+          "YouCam Perfect",
+          "MakeupPlus",
+          "Meitu",
+          "Perfect365",
+          "PicPlay",
+          "Freckle",
+          "B612"
+        ],
+        "c": [
+          {
+            "n": "User Interface",
+            "d": "Ease of use, navigation and overall user experience."
+          },
+          {
+            "n": "Feature Variety",
+            "d": "Number and quality of photo effects and filters available."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Photo effects",
+      "run": 2,
+      "payload": {
+        "a": [
+          "Prisma",
+          "VSCO",
+          "Adobe Lightroom",
+          "Afterlight",
+          "Snapseed",
+          "Facetune",
+          "TouchRetouch",
+          "YouCam Perfect",
+          "PicsArt",
+          "BeautyPlus",
+          "Aviary Photo Editor",
+          "GIMP",
+          "PicMonkey",
+          "Pixlr",
+          "Mextures",
+          "Enlight Quickshot",
+          "Fotor",
+          "PhotoDirector",
+          "InShot",
+          "PowerDirector"
+        ],
+        "c": [
+          {
+            "n": "Photo Effects",
+            "d": "Apply various photo effects to enhance and modify your photos."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Photo effects",
+      "run": 3,
+      "payload": {
+        "a": [
+          "Prisma",
+          "Pixlr",
+          "Facetune",
+          "VSCO",
+          "Lightroom",
+          "Snapseed",
+          "BeautyPlus",
+          "YouCam Perfect",
+          "AirBrush",
+          "TouchRetouch",
+          "GIMP",
+          "Photoscape",
+          "Perfect365",
+          "Afterlight",
+          "Filtertango",
+          "PicsArt",
+          "PicFrame",
+          "PhotoDirector",
+          "Cymera",
+          "Fotor"
+        ],
+        "c": [
+          {
+            "n": "Number of Effects",
+            "d": "The number of photo effects available in the app."
+          },
+          {
+            "n": "User Reviews",
+            "d": "Average rating and number of reviews from users."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Photo effects",
+      "run": 4,
+      "payload": {
+        "a": [
+          "Adobe Lightroom",
+          "Prisma",
+          "Pixlr",
+          "VSCO",
+          "Facetune2",
+          "Snapseed",
+          "PhotoDirector",
+          "PicsArt",
+          "Fotor",
+          "YouCam Perfect",
+          "TouchRetouch",
+          "BeautyPlus",
+          "Meitu",
+          "Afterlight",
+          "Aviary",
+          "GIMP",
+          "PicCollage",
+          "Ink361",
+          "ColorSplash",
+          "TouchApp"
+        ],
+        "c": [
+          {
+            "n": "User Reviews",
+            "d": "Average user rating of the app"
+          },
+          {
+            "n": "Number of Downloads",
+            "d": "The number of times the app has been downloaded from app stores"
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Photo effects",
+      "run": 5,
+      "payload": {
+        "a": [
+          "Prisma",
+          "Afterlight",
+          "TouchRetouch",
+          "Facetune2",
+          "Snapseed",
+          "Pixlr",
+          "Photoshop Express",
+          "VSCO Cam",
+          "Instagram",
+          "Font Studio",
+          "LightX Photo Editor",
+          "YouCam Perfect",
+          "Beauty Camera",
+          "Beauty Plus",
+          "PicPlayPost",
+          "Beauty Camera 2.0",
+          "PhotoDirector",
+          "PicsArt Photo Studio",
+          "Pixlr Express",
+          "Fotor"
+        ],
+        "c": [
+          {
+            "n": "Number of Effects",
+            "d": "The number of built-in effects and filters available."
+          },
+          {
+            "n": "Ease of Use",
+            "d": "How easy it is to apply effects and filters with minimal learning curve."
+          },
+          {
+            "n": "Advanced Features",
+            "d": "Presence of features such as layers, masking, and color adjustments."
+          },
+          {
+            "n": "User Interface",
+            "d": "The user-friendliness and visual appeal of the app's interface."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Photo effects",
+      "run": 6,
+      "payload": {
+        "a": [
+          "Prisma",
+          "Adobe Lightroom",
+          "Facetune",
+          "VSCO",
+          "Snapseed",
+          "Pixlr",
+          "Afterlight",
+          "TouchRetouch",
+          "PhotoDirector",
+          "Perfect365",
+          "BeautyPlus",
+          "PicFrame",
+          "Artista Impressionist Pro",
+          "ToneCurve",
+          "ProCamera",
+          "Lensa",
+          "Filterloop",
+          "YouCam Perfect",
+          "Beauty Camera",
+          "Glamme"
+        ],
+        "c": [
+          {
+            "n": "Popular features",
+            "d": "Top-rated apps with various photo effects and editing tools"
+          },
+          {
+            "n": "User reviews",
+            "d": "Apps with high ratings based on user feedback and satisfaction"
+          },
+          {
+            "n": "Editing capabilities",
+            "d": "Apps offering advanced image editing and manipulation features"
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Photo effects",
+      "run": 7,
+      "payload": {
+        "a": [
+          "Prisma",
+          "Adobe Lightroom",
+          "Facetune2",
+          "Snapseed",
+          "VSCO Cam",
+          "Afterlight",
+          "TouchRetouch",
+          "Pixlr Express",
+          "PhotoDirector",
+          "Artisto",
+          "YouCam Perfect",
+          "BeautyPlus",
+          "PicsArt Photo Studio",
+          "InShot Video Editor",
+          "Fotor",
+          "GIMP",
+          "BeFunky",
+          "PicMonkey",
+          "Portrait Professional",
+          "iLoveImg"
+        ],
+        "c": [
+          {
+            "n": "Number of Effects",
+            "d": "The number of photo effects available in the app."
+          },
+          {
+            "n": "User Reviews",
+            "d": "The overall rating and reviews from users on the App Store or Google Play."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Photo effects",
+      "run": 8,
+      "payload": {
+        "a": [
+          "Prisma",
+          "Adobe Lightroom",
+          "VSCO",
+          "Snapseed",
+          "Afterlight",
+          "Pixlr",
+          "Fotor",
+          "Facetune2",
+          "Portrait Professional Studio",
+          "YouCam Perfect",
+          "RetouchMe",
+          "BeautyPlus",
+          "Perfect365",
+          "TouchRetouch",
+          "Artista",
+          "PhotoDirector",
+          "PicStudio",
+          "Effectify",
+          "PicsArt",
+          "InShot"
+        ],
+        "c": [
+          {
+            "n": "User ratings",
+            "d": "Average user rating out of 5 stars"
+          },
+          {
+            "n": "Number of reviews",
+            "d": "Total number of user reviews"
+          },
+          {
+            "n": "Download size",
+            "d": "Size of the app on mobile device"
+          },
+          {
+            "n": "Rating by critics",
+            "d": "Average critic rating out of 5 stars"
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Photo effects",
+      "run": 9,
+      "payload": {
+        "a": [
+          "Prisma",
+          "Adobe Lightroom",
+          "Pixlr",
+          "Facetune2",
+          "YouCam Perfect",
+          "Beauty Plus",
+          "Magic Effects",
+          "Effects Camera",
+          "VSCO",
+          "Snapseed",
+          "TouchRetouch",
+          "GIMP Photo Editor",
+          "PicCollage",
+          "Fotor",
+          "PhotoDirector",
+          "Pixlr Express",
+          "Aviary Photo Editor",
+          "Afterlight 2",
+          "Canva",
+          "Image Blender"
+        ],
+        "c": [
+          {
+            "n": "Number of filters",
+            "d": "The number of unique photo effects and filters available in the app."
+          },
+          {
+            "n": "User interface ease of use",
+            "d": "How user-friendly is the app's interface for applying photo effects."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Access to movies",
+      "run": 0,
+      "payload": {
+        "a": [
+          "Netflix",
+          "Amazon Prime Video",
+          "Disney+",
+          "HBO Max",
+          "Apple TV+",
+          "YouTube Premium",
+          "Tubi",
+          "Vudu",
+          "Pluto TV",
+          "Paramount+",
+          "Peacock",
+          "Showtime",
+          "CBS All Access",
+          "Starz",
+          "Lifetime Movie Club",
+          "Hallmark Movies Now",
+          "WarnerMedia",
+          "The Roku Channel",
+          "Hulu",
+          "Kanopy"
+        ],
+        "c": [
+          {
+            "n": "User reviews",
+            "d": "Number of user ratings and reviews"
+          },
+          {
+            "n": "Content library size",
+            "d": "Number of available movies and TV shows"
+          },
+          {
+            "n": "Subscription cost",
+            "d": "Monthly or annual fee for access"
+          },
+          {
+            "n": "Availability on multiple devices",
+            "d": "Ability to stream on various platforms"
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Access to movies",
+      "run": 1,
+      "payload": {
+        "a": [
+          "Netflix",
+          "Amazon Prime Video",
+          "Disney+",
+          "Hulu",
+          "Apple TV+",
+          "YouTube Premium",
+          "Peacock",
+          "Paramount+",
+          "Starz",
+          "Showtime Anytime",
+          "Epix Now",
+          "Tubi",
+          "Vudu",
+          "Crackle",
+          "Pluto TV",
+          "Kanopy",
+          "Cinema HD",
+          "Popcornflix",
+          "Sony Crackle",
+          "Yidio"
+        ],
+        "c": [
+          {
+            "n": "Number of available movies",
+            "d": "The number of movies available for streaming or download."
+          },
+          {
+            "n": "Content library",
+            "d": "The size and variety of the movie collection, including new releases and classic films."
+          },
+          {
+            "n": "Availability on multiple platforms",
+            "d": "Whether the app is available on both iOS and Android devices."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Access to movies",
+      "run": 2,
+      "payload": {
+        "a": [
+          "Netflix",
+          "Amazon Prime Video",
+          "Disney+",
+          "Hulu",
+          "Apple TV+",
+          "YouTube Premium",
+          "Paramount+",
+          "Peacock",
+          "Tubi",
+          "Pluto TV",
+          "Sony Crackle",
+          "Vudu",
+          "IMDb TV",
+          "BritBox",
+          "Acorn TV",
+          "CBS All Access",
+          "HBO Max",
+          "Starz",
+          "Showtime",
+          "Epix"
+        ],
+        "c": [
+          {
+            "n": "Popularity (Monthly Active Users)",
+            "d": "Number of monthly active users."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Access to movies",
+      "run": 3,
+      "payload": {
+        "a": [
+          "Netflix",
+          "Amazon Prime Video",
+          "Disney+",
+          "HBO Max",
+          "Apple TV+",
+          "Peacock",
+          "Paramount+",
+          "Starz",
+          "Showtime",
+          "Epix Now",
+          "Tubi",
+          "Pluto TV",
+          "Vudu",
+          "Google Play Movies & TV",
+          "Microsoft Movies & TV",
+          "YouTube Premium",
+          "Kanopy",
+          "Crunchyroll",
+          "Funimation",
+          "Sony Crackle"
+        ],
+        "c": [
+          {
+            "n": "Number of available movies",
+            "d": "The total number of movies available in the app's library."
+          },
+          {
+            "n": "Movie streaming quality",
+            "d": "The maximum resolution and bitrate at which users can stream movies."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Access to movies",
+      "run": 4,
+      "payload": {
+        "a": [
+          "Netflix",
+          "Amazon Prime Video",
+          "Disney+",
+          "Hulu",
+          "Apple TV+",
+          "YouTube Premium",
+          "HBO Max",
+          "Peacock TV",
+          "Paramount+",
+          "WarnerMedia",
+          "Tubi",
+          "Vudu",
+          "Crunchyroll",
+          "Funimation",
+          "Sony Crackle",
+          "Kocowa",
+          "IMDb TV",
+          "Pluto TV",
+          "Yidio",
+          "Triton Digital"
+        ],
+        "c": [
+          {
+            "n": "User Reviews",
+            "d": "Number of user reviews and ratings for the app"
+          },
+          {
+            "n": "Content Library",
+            "d": "Size and variety of available movie content"
+          },
+          {
+            "n": "Availability",
+            "d": "Cross-platform availability (mobile, tablet, smart TV)"
+          },
+          {
+            "n": "Ad Support",
+            "d": "Presence or absence of advertisements within the app"
+          },
+          {
+            "n": "Subscription Cost",
+            "d": "Price per month or year for premium features and content"
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Access to movies",
+      "run": 5,
+      "payload": {
+        "a": [
+          "Netflix",
+          "Amazon Prime Video",
+          "Disney+",
+          "HBO Max",
+          "Apple TV+",
+          "YouTube Premium",
+          "Peacock",
+          "Hulu",
+          "Paramount+",
+          "CBS All Access",
+          "Starz",
+          "Showtime",
+          "Epix",
+          "Crunchyroll",
+          "Funimation",
+          "Tubi",
+          "Yidio",
+          "Pluto TV",
+          "Vudu",
+          "Kanopy"
+        ],
+        "c": [
+          {
+            "n": "User Reviews",
+            "d": "The number of user reviews for each app"
+          },
+          {
+            "n": "Rating",
+            "d": "The average rating of each app in the App Store or Google Play Store"
+          },
+          {
+            "n": "Free Version",
+            "d": "Whether each app has a free version with limited features"
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Access to movies",
+      "run": 6,
+      "payload": {
+        "a": [
+          "Netflix",
+          "Amazon Prime Video",
+          "Hulu",
+          "Disney+",
+          "Apple TV+",
+          "YouTube Premium",
+          "Paramount+",
+          "Peacock",
+          "CBS All Access",
+          "Starz",
+          "Showtime",
+          "FX+",
+          "WarnerMedia+,",
+          "DC Universe",
+          "Crunchyroll",
+          "Funimation",
+          "Tubi",
+          "Pluto TV",
+          "Vudu",
+          "Kanopy"
+        ],
+        "c": [
+          {
+            "n": "Movie Library Size",
+            "d": "Number of movies available for streaming"
+          },
+          {
+            "n": "Content Variety",
+            "d": "Types and genres of movies offered"
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Access to movies",
+      "run": 7,
+      "payload": {
+        "a": [
+          "Netflix",
+          "Amazon Prime Video",
+          "Disney+",
+          "HBO Max",
+          "Apple TV+",
+          "YouTube Premium",
+          "Hulu",
+          "Paramount+",
+          "Peacock",
+          "Vudu",
+          "Crunchyroll",
+          "Funimation",
+          "Tubi",
+          "Pluto TV",
+          "Kanopy",
+          "Plex",
+          "Redbox",
+          "Epix Now",
+          "Starz",
+          "CBS All Access"
+        ],
+        "c": [
+          {
+            "n": "Number of available titles",
+            "d": "The total number of movies and TV shows available for streaming."
+          },
+          {
+            "n": "User interface quality",
+            "d": "How well-designed and user-friendly the app is, including features like navigation and search functionality."
+          },
+          {
+            "n": "Content variety",
+            "d": "The diversity of movie genres, languages, and production years available on the platform."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Access to movies",
+      "run": 8,
+      "payload": {
+        "a": [
+          "Netflix",
+          "Amazon Prime Video",
+          "Disney+",
+          "HBO Max",
+          "Apple TV+",
+          "Peacock",
+          "Hulu",
+          "Paramount+",
+          "Discovery+",
+          "WarnerMedia",
+          "CBS All Access",
+          "Starz",
+          "Showtime Anytime",
+          "Epix Now",
+          "Tubi",
+          "Yidio",
+          "Pluto TV",
+          "SonyLIV",
+          "Zee5",
+          "Voot"
+        ],
+        "c": [
+          {
+            "n": "User reviews",
+            "d": "Average rating based on user reviews from the app store"
+          },
+          {
+            "n": "Movie library size",
+            "d": "Number of movies available in the app"
+          },
+          {
+            "n": "Streaming quality",
+            "d": "Maximum resolution and frame rate supported by the app"
+          },
+          {
+            "n": "Availability of new releases",
+            "d": "Percentage of recent movie releases available on the platform"
+          },
+          {
+            "n": "Free content availability",
+            "d": "Percentage of free movies or TV shows available without subscription"
+          },
+          {
+            "n": "Cross-platform compatibility",
+            "d": "Number of platforms supported by the app"
+          },
+          {
+            "n": "Subscription plans and pricing",
+            "d": "Types of subscription plans offered and their respective prices"
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Access to movies",
+      "run": 9,
+      "payload": {
+        "a": [
+          "Netflix",
+          "Amazon Prime Video",
+          "Hulu",
+          "Disney+",
+          "Apple TV+",
+          "YouTube Premium",
+          "Paramount+",
+          "Peacock",
+          "Starz",
+          "Showtime Anytime",
+          "HBO Max",
+          "Vudu",
+          "Google Play Movies & TV",
+          "Microsoft Movies & TV",
+          "Cinema APK",
+          "Pluto TV",
+          "Tubi",
+          "Yidio",
+          "Plex",
+          "Sony Crackle"
+        ],
+        "c": [
+          {
+            "n": "User ratings",
+            "d": "Average user rating from the App Store and Google Play"
+          },
+          {
+            "n": "App size",
+            "d": "Size of the app on device storage (in MB)"
+          },
+          {
+            "n": "Reviews",
+            "d": "Number of reviews from users on the App Store and Google Play"
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Rate movies",
+      "run": 0,
+      "payload": {
+        "a": [
+          "IMDb",
+          "Rotten Tomatoes",
+          "Letterboxd",
+          "Flicks",
+          "Movies by Flixster",
+          "MovieLens",
+          "FilmStruck",
+          "TMDb Browser",
+          "Trakt",
+          "JustWatch",
+          "Yidio",
+          "Pluto TV",
+          "Hulu",
+          "Netflix",
+          "Amazon Prime Video",
+          "Apple TV",
+          "Google Play Movies & TV",
+          "Vudu",
+          "Kodi",
+          "Plex"
+        ],
+        "c": [
+          {
+            "n": "Number of user reviews",
+            "d": "The number of ratings and reviews from users"
+          },
+          {
+            "n": "Movie database size",
+            "d": "The number of movies in the app's database"
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Rate movies",
+      "run": 1,
+      "payload": {
+        "a": [
+          "IMDb",
+          "Rotten Tomatoes",
+          "Letterboxd",
+          "Flicks",
+          "MovieLens",
+          "Yidio",
+          "TV Guide",
+          "JustWatch",
+          "Trakt",
+          "Google Movies",
+          "Apple TV",
+          "Vudu",
+          "Amazon Prime Video",
+          "Hulu",
+          "Netflix",
+          "Disney+",
+          "Paramount+",
+          "Peacock",
+          "HBO Max",
+          "Pluto TV"
+        ],
+        "c": [
+          {
+            "n": "Number of movies rated",
+            "d": "The total number of movie titles users have rated."
+          },
+          {
+            "n": "Average rating accuracy",
+            "d": "A measure of how well a user's ratings match expert and professional critic reviews."
+          },
+          {
+            "n": "User community size",
+            "d": "The total number of registered users, providing a sense of the app's popularity and engagement."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Rate movies",
+      "run": 2,
+      "payload": {
+        "a": [
+          "IMDB",
+          "Rotten Tomatoes",
+          "Letterboxd",
+          "Flicks",
+          "MovieLens",
+          "Filmstruck",
+          "Moviefone",
+          "JustWatch",
+          "CinemaScore",
+          "Epomax",
+          "Showbox",
+          "Yidio",
+          "Pluto TV",
+          "Tubi",
+          "Kanopy",
+          "Hoopla Digital",
+          "Vudu",
+          "Google Play Movies & TV",
+          "Apple TV",
+          "Trakt"
+        ],
+        "c": [
+          {
+            "n": "Movie Database Size",
+            "d": "The size of the movie database within the app, including the number of movies and user reviews."
+          },
+          {
+            "n": "User Reviews & Ratings",
+            "d": "The ability for users to leave and view ratings and reviews for movies within the app."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Rate movies",
+      "run": 3,
+      "payload": {
+        "a": [
+          "IMDb",
+          "Rotten Tomatoes",
+          "Letterboxd",
+          "Flicks",
+          "Yidio",
+          "JustWatch",
+          "MovieLens",
+          "FilmStruck",
+          "Pluto TV",
+          "Kanopy",
+          "Hulu",
+          "Netflix",
+          "Amazon Prime Video",
+          "YouTube Movies",
+          "Google Play Movies & TV",
+          "Apple TV",
+          "Disney+",
+          "Paramount+",
+          "Peacock",
+          "Sony Crackle"
+        ],
+        "c": [
+          {
+            "n": "User Reviews Count",
+            "d": "Number of user reviews for each movie"
+          },
+          {
+            "n": "Rating System",
+            "d": "Type of rating system used (e.g. stars, thumbs up/down)"
+          },
+          {
+            "n": "Personalization",
+            "d": "Ability to personalize movie recommendations based on individual tastes"
+          },
+          {
+            "n": "Social Features",
+            "d": "Presence of social features like discussion forums or friend lists"
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Rate movies",
+      "run": 4,
+      "payload": {
+        "a": [
+          "IMDb",
+          "Rotten Tomatoes",
+          "Letterboxd",
+          "Flicks",
+          "JustWatch",
+          "MovieLens",
+          "MUBI",
+          "Trakt.tv",
+          "FilmStruck",
+          "Vudu",
+          "Google Movies",
+          "Apple TV",
+          "Yidio",
+          "Movies by Fandango",
+          "Pluto TV",
+          "Hulu",
+          "Netflix",
+          "Prime Video",
+          "Disney+",
+          "HBO Max"
+        ],
+        "c": [
+          {
+            "n": "Average Rating",
+            "d": "The average rating given to a movie by users."
+          },
+          {
+            "n": "Number of Reviews",
+            "d": "The total number of user reviews for a particular movie."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Rate movies",
+      "run": 5,
+      "payload": {
+        "a": [
+          "IMDb",
+          "Letterboxd",
+          "Rotten Tomatoes",
+          "Flicks",
+          "MovieLens",
+          "Kairos",
+          "Movie Collector",
+          "Muvie",
+          "Yidio",
+          "JustWatch",
+          "Peacock",
+          "Shazam",
+          "Moviefone",
+          "GoWatchIt",
+          "Fandango Movies",
+          "Cinema HD",
+          "Showbox",
+          "Pluto TV",
+          "HBO Max",
+          "Vudu"
+        ],
+        "c": [
+          {
+            "n": "Average rating",
+            "d": "The average user rating of the app."
+          },
+          {
+            "n": "Movie database size",
+            "d": "The number of movies available in the app's database."
+          },
+          {
+            "n": "Social features",
+            "d": "Features that allow users to interact with each other, such as friend lists and discussions."
+          },
+          {
+            "n": "Search functionality",
+            "d": "How easily users can find specific movies within the app."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Rate movies",
+      "run": 6,
+      "payload": {
+        "a": [
+          "IMDB",
+          "Letterboxd",
+          "Rotten Tomatoes",
+          "FilmStruck",
+          "Moviemeter",
+          "MovieLens",
+          "Flickchart",
+          "Celluloid Player",
+          "Trakt",
+          "My Movies",
+          "MUBI",
+          "Hulu",
+          "Vudu",
+          "YouTube Movies",
+          "Google Play Movies & TV",
+          "Amazon Prime Video",
+          "Netflix",
+          "Disney+",
+          "Apple TV+",
+          "Peacock"
+        ],
+        "c": [
+          {
+            "n": "Number of user ratings",
+            "d": "The number of user ratings for each movie"
+          },
+          {
+            "n": "Movie database size",
+            "d": "The total number of movies available in the app's database"
+          },
+          {
+            "n": "User interface quality",
+            "d": "How visually appealing and easy to use the app's UI is"
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Rate movies",
+      "run": 7,
+      "payload": {
+        "a": [
+          "IMDB",
+          "Rotten Tomatoes",
+          "Letterboxd",
+          "Flickster",
+          "Trakt",
+          "MUBI",
+          "Netflix",
+          "Hulu",
+          "Amazon Prime Video",
+          "Apple TV+",
+          "Disney+",
+          "Peacock",
+          "Plex",
+          "Kanopy",
+          "Yidio",
+          "FilmStruck",
+          "Shudder",
+          "Tubi",
+          "Pluto TV",
+          "Crunchyroll"
+        ],
+        "c": [
+          {
+            "n": "Movie Database",
+            "d": "Access to a large collection of movie ratings and reviews"
+          },
+          {
+            "n": "User Reviews",
+            "d": "Allow users to write their own reviews and ratings of movies"
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Rate movies",
+      "run": 8,
+      "payload": {
+        "a": [
+          "Letterboxd",
+          "IMDb",
+          "Flicks",
+          "Rotten Tomatoes",
+          "MovieLens",
+          "Criticker",
+          "My Movie Rating",
+          "Filmstruck",
+          "MUBI",
+          "Trakt",
+          "Kairos A1",
+          "JustWatch",
+          "Walla! Movies & TV",
+          "Flixster",
+          "Moviefone",
+          "Yidio",
+          "Ginema",
+          "Tubi",
+          "Pluto TV",
+          "Hoopla Digital"
+        ],
+        "c": [
+          {
+            "n": "Number of ratings",
+            "d": "The number of user ratings for a movie."
+          },
+          {
+            "n": "User profile customization",
+            "d": "The ability to customize profiles with various metrics."
+          },
+          {
+            "n": "Movie database size",
+            "d": "The total count of movies in the app's database."
+          },
+          {
+            "n": "Average rating accuracy",
+            "d": "A measure of how accurate the app's average ratings are compared to professional reviews."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Rate movies",
+      "run": 9,
+      "payload": {
+        "a": [
+          "Rotten Tomatoes",
+          "IMDB",
+          "Letterboxd",
+          "Flicks",
+          "MovieLens",
+          "MUBI",
+          "Hulu",
+          "Netflix",
+          "Amazon Prime Video",
+          "Yidio",
+          "Trakt",
+          "TMDb",
+          "TV Time",
+          "JustWatch",
+          "FilmRatings",
+          "Epomax",
+          "CinemaScore",
+          "Graze",
+          "Flixster",
+          "Moviefone"
+        ],
+        "c": [
+          {
+            "n": "Average Rating",
+            "d": "The average rating given by users to a movie"
+          },
+          {
+            "n": "User Reviews",
+            "d": "The number of reviews left by users for a movie"
+          },
+          {
+            "n": "Movie Database Size",
+            "d": "The size of the database containing information about movies"
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Keeping up with friends",
+      "run": 0,
+      "payload": {
+        "a": [
+          "Facebook",
+          "Instagram",
+          "Snapchat",
+          "WhatsApp Messenger",
+          "Twitter",
+          "Telegram",
+          "Viber",
+          "WeChat",
+          "Discord",
+          "TikTok",
+          "Messenger",
+          "Line",
+          "KakaoTalk",
+          "Google Duo",
+          "Skype",
+          "GroupMe",
+          "Signal Private Messenger",
+          "Threema",
+          "Wire",
+          "Slack"
+        ],
+        "c": [
+          {
+            "n": "Number of Users",
+            "d": "The number of users an app has, indicating its popularity."
+          },
+          {
+            "n": "Average Rating",
+            "d": "The average rating an app receives from users, reflecting its quality and user satisfaction."
+          },
+          {
+            "n": "Features Offered",
+            "d": "The variety of features offered by an app, including messaging, voice/video calling, file sharing, etc."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Keeping up with friends",
+      "run": 1,
+      "payload": {
+        "a": [
+          "Facebook",
+          "Instagram",
+          "Snapchat",
+          "WhatsApp",
+          "WeChat",
+          "Line",
+          "Kik Messenger",
+          "Viber",
+          "Telegram",
+          "Discord",
+          "Skype",
+          "Google Duo",
+          "Microsoft Teams",
+          "Slack",
+          "Meh",
+          "Paltalk",
+          "imo.im",
+          "Hike Messenger",
+          "Tango",
+          "Wire"
+        ],
+        "c": [
+          {
+            "n": "Social Media Apps",
+            "d": "Allows users to connect with friends and stay updated on their activities."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Keeping up with friends",
+      "run": 2,
+      "payload": {
+        "a": [
+          "Facebook",
+          "Instagram",
+          "WhatsApp Messenger",
+          "Snapchat",
+          "Twitter",
+          "TikTok",
+          "Myspace",
+          "WeChat",
+          "Viber",
+          "Kik",
+          "Discord",
+          "Slack",
+          "Telegram",
+          "Line",
+          "Skype",
+          "Hangouts",
+          "Paltalk",
+          "GroupMe",
+          "HypeFest",
+          "BeeTalk"
+        ],
+        "c": [
+          {
+            "n": "User Engagement",
+            "d": "The app's ability to keep users engaged and active."
+          },
+          {
+            "n": "Friend Suggestions",
+            "d": "The app's feature to suggest friends or connections to the user."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Keeping up with friends",
+      "run": 3,
+      "payload": {
+        "a": [
+          "Facebook",
+          "Instagram",
+          "WhatsApp",
+          "Snapchat",
+          "WeChat",
+          "Telegram",
+          "Line",
+          "Discord",
+          "TikTok",
+          "Musical.ly",
+          "Vine",
+          "Hootsuite",
+          "Buffer",
+          "TweetDeck",
+          "Twitter",
+          "Mastodon",
+          "KakaoTalk",
+          "Weibo",
+          "Path",
+          "Ask.fm"
+        ],
+        "c": [
+          {
+            "n": "Friendship Network Size",
+            "d": "The number of friends the app allows a user to connect with."
+          },
+          {
+            "n": "Frequency of Updates",
+            "d": "How often the app is updated with new features or content."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Keeping up with friends",
+      "run": 4,
+      "payload": {
+        "a": [
+          "Facebook",
+          "Instagram",
+          "WhatsApp",
+          "Snapchat",
+          "WeChat",
+          "Line",
+          "Viber",
+          "Discord",
+          "Pinterest",
+          "Twitter",
+          "TikTok",
+          "Messenger",
+          "KakaoTalk",
+          "Hike Messenger",
+          "Telegram",
+          "Google Duo",
+          "Allo",
+          "BBM (BlackBerry Messenger)",
+          "Skype",
+          "Signal"
+        ],
+        "c": [
+          {
+            "n": "Number of friends connected",
+            "d": "The number of friends you can connect with"
+          },
+          {
+            "n": "Real-time updates",
+            "d": "Receive real-time updates on your friends' activities"
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Keeping up with friends",
+      "run": 5,
+      "payload": {
+        "a": [
+          "Facebook",
+          "Instagram",
+          "Twitter",
+          "Snapchat",
+          "WhatsApp",
+          "Messenger",
+          "Telegram",
+          "Viber",
+          "WeChat",
+          "Kik Messenger",
+          "Line",
+          "Hike Messenger",
+          "imo",
+          "Skype",
+          "Signal",
+          "Google Duo",
+          "Discord",
+          "GroupMe",
+          "Threema",
+          "Slack"
+        ],
+        "c": [
+          {
+            "n": "Average user rating",
+            "d": "The average rating of the app as per Google Play Store or Apple App Store reviews."
+          },
+          {
+            "n": "Number of downloads",
+            "d": "The total number of downloads of the app from the Google Play Store and Apple App Store combined."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Keeping up with friends",
+      "run": 6,
+      "payload": {
+        "a": [
+          "Facebook",
+          "Instagram",
+          "Snapchat",
+          "Twitter",
+          "WeChat",
+          "WhatsApp",
+          "Line",
+          "TikTok",
+          "KakaoTalk",
+          "Viber",
+          "Discord",
+          "Skype",
+          "Messenger",
+          "Telegram",
+          "Reddit",
+          "Pinterest",
+          "Medium",
+          "YouTube",
+          "Weibo",
+          "Mastodon"
+        ],
+        "c": [
+          {
+            "n": "Friend Count",
+            "d": "Number of friends connected"
+          },
+          {
+            "n": "User Engagement",
+            "d": "Frequency of app usage by users"
+          },
+          {
+            "n": "Community Features",
+            "d": "Presence of community features like groups, chats, etc."
+          },
+          {
+            "n": "Content Sharing",
+            "d": "Ability to share photos, videos, updates, etc."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Keeping up with friends",
+      "run": 7,
+      "payload": {
+        "a": [
+          "Facebook",
+          "Instagram",
+          "Snapchat",
+          "Twitter",
+          "WhatsApp",
+          "Viber",
+          "Messenger",
+          "WeChat",
+          "Telegram",
+          "GroupMe",
+          "Discord",
+          "Skype",
+          "Hike Messenger",
+          "imo messenger",
+          "KakaoTalk",
+          "LINE",
+          "Signal",
+          "Wire",
+          "Google Duo",
+          "Tango"
+        ],
+        "c": [
+          {
+            "n": "Social Media Interactions",
+            "d": "Number of interactions (e.g., likes, comments, shares) within the app"
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Keeping up with friends",
+      "run": 8,
+      "payload": {
+        "a": [
+          "Facebook",
+          "Instagram",
+          "Snapchat",
+          "Twitter",
+          "WhatsApp",
+          "Discord",
+          "WeChat",
+          "Telegram",
+          "Mastodon",
+          "Reddit",
+          "Messenger",
+          "Viber",
+          "Skype",
+          "Line",
+          "Kik Messenger",
+          "Tango",
+          "Google Duo",
+          "Signal",
+          "Threema",
+          "Wire"
+        ],
+        "c": [
+          {
+            "n": "Friendship Management",
+            "d": "Allows users to keep up with friends and their activities."
+          },
+          {
+            "n": "Social Network Integration",
+            "d": "Integrates with existing social networks for seamless friend management."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Keeping up with friends",
+      "run": 9,
+      "payload": {
+        "a": [
+          "WhatsApp",
+          "Facebook Messenger",
+          "Snapchat",
+          "Instagram",
+          "WeChat",
+          "Viber",
+          "TikTok",
+          "Discord",
+          "Skype",
+          "Telegram",
+          "Hike",
+          "imo",
+          "Kik",
+          "Vine",
+          "Line",
+          "Puncho",
+          "Wire",
+          "Threema",
+          "Signal",
+          "KakaoTalk"
+        ],
+        "c": [
+          {
+            "n": "Social Media",
+            "d": "Built-in messaging and social features to keep in touch with friends"
+          },
+          {
+            "n": "Friend Network",
+            "d": "Ability to connect and manage friend lists, chat groups, or communities"
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Play games",
+      "run": 0,
+      "payload": {
+        "a": [
+          "Candy Crush Saga",
+          "Asphalt 9: Legends",
+          "PUBG Mobile",
+          "Fortnite Mobile",
+          "Clash of Clans",
+          "Mobile Legends: Bang Bang",
+          "Call of Duty: Mobile",
+          "Roblox",
+          "Pokémon Go",
+          "Fruit Ninja",
+          "8 Ball Pool",
+          "Subway Surfers",
+          "Need for Speed: No Limits",
+          "Garena Free Fire",
+          "Into the Dead 2",
+          "The Escapists",
+          "Trivia Crack",
+          "Ludo King",
+          "Bubble Witch 3 Saga",
+          "Robo Defender Z"
+        ],
+        "c": [
+          {
+            "n": "Game Genre Variety",
+            "d": "Offer a wide range of game genres to cater to diverse player preferences."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Play games",
+      "run": 1,
+      "payload": {
+        "a": [
+          "PUBG Mobile",
+          "Fortnite",
+          "Clash of Clans",
+          "Candy Crush Saga",
+          "Asphalt 9: Legends",
+          "Mobile Legends: Bang Bang",
+          "Call of Duty: Mobile",
+          "Roblox",
+          "Among Us!",
+          "Trivia Crack",
+          "8 Ball Pool",
+          "Solitaire",
+          "Heads Up!",
+          "Draw Something",
+          "Wordscapes",
+          "Bubble Witch 3 Saga",
+          "Puzzle & Dragons",
+          "Fruit Ninja",
+          "Angry Birds 2",
+          "Temple Run"
+        ],
+        "c": [
+          {
+            "n": "User Reviews",
+            "d": "Average rating based on user reviews"
+          },
+          {
+            "n": "Installation Size",
+            "d": "Size of the app on device storage"
+          },
+          {
+            "n": "In-App Purchases",
+            "d": "Presence and types of in-app purchases"
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Play games",
+      "run": 2,
+      "payload": {
+        "a": [
+          "Candy Crush Saga",
+          "Pokémon Go",
+          "Fortnite Mobile",
+          "PUBG Mobile",
+          "Clash of Clans",
+          "Asphalt 9: Legends",
+          "Call of Duty: Mobile",
+          "Roblox",
+          "Mobile Legends: Bang Bang",
+          "Garena Free Fire",
+          "Fruit Ninja",
+          "Plants vs. Zombies",
+          "The Escapists: Prison Escape",
+          "Real Racing 3",
+          "SimCity BuildIt",
+          "Hay Day",
+          "8 Ball Pool",
+          "Wordscapes",
+          "Solitaire Bliss",
+          "Trivia Crack"
+        ],
+        "c": [
+          {
+            "n": "User Reviews",
+            "d": "Number of user reviews"
+          },
+          {
+            "n": "Ratings",
+            "d": "Average rating out of 5 stars"
+          },
+          {
+            "n": "Downloads",
+            "d": "Number of downloads in millions"
+          },
+          {
+            "n": "Games Played",
+            "d": "Estimated number of games played per day"
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Play games",
+      "run": 3,
+      "payload": {
+        "a": [
+          "Candy Crush Saga",
+          "PUBG Mobile",
+          "Fortnite Mobile",
+          "Subway Surfers",
+          "Asphalt 9: Legends",
+          "Call of Duty: Mobile",
+          "Roblox",
+          "Clash of Clans",
+          "Mobile Legends: Bang Bang",
+          "Garena Free Fire",
+          "Pokémon Go",
+          "Fruit Ninja",
+          "Plants vs. Zombies",
+          "Real Racing 3",
+          "The Sims FreePlay",
+          "Clash Royale",
+          "8 Ball Pool",
+          "Toon Blast",
+          "Bubble Witch Saga",
+          "Angry Birds"
+        ],
+        "c": [
+          {
+            "n": "Game Genre",
+            "d": "Genre of the game, e.g. action, strategy, puzzle."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Play games",
+      "run": 4,
+      "payload": {
+        "a": [
+          "Puzzle & Dragons",
+          "Clash of Clans",
+          "Candy Crush Saga",
+          "Fortnite Mobile",
+          "Pubg Mobile",
+          "Asphalt 9: Legends",
+          "Call of Duty Mobile",
+          "Mobile Legends: Bang Bang",
+          "Roblox",
+          "Garena Free Fire",
+          "Harry Potter: Wizards Unite",
+          "Pokémon Go",
+          "Ludo King",
+          "8 Ball Pool",
+          "Trivia Crack",
+          "Solitaire Bliss",
+          "Tetris",
+          "Chess.com",
+          "Ludo Super Star Multiplayer",
+          "Tank Stars"
+        ],
+        "c": [
+          {
+            "n": "Game Genre",
+            "d": "The type of games available in the app, such as puzzle, strategy, or action."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Play games",
+      "run": 5,
+      "payload": {
+        "a": [
+          "PUBG Mobile",
+          "Fortnite",
+          "Call of Duty: Mobile",
+          "Roblox",
+          "Clash Royale",
+          "Asphalt 9: Legends",
+          "Mobile Legends: Bang Bang",
+          "Garena Free Fire",
+          "Candy Crush Saga",
+          "Fruit Ninja",
+          "Plants vs. Zombies",
+          "Trivia Crack",
+          "Hay Day",
+          "8 Ball Pool",
+          "Subway Surfers",
+          "Need for Speed: No Limits",
+          "The Escapists: Prison Escape",
+          "Into the Dead 2",
+          "Geometry Dash",
+          "Asphalt 10: The Road to Golden"
+        ],
+        "c": [
+          {
+            "n": "Average Rating",
+            "d": "Average rating of an app in the Google Play Store"
+          },
+          {
+            "n": "Reviews Count",
+            "d": "Number of reviews for an app in the Google Play Store"
+          },
+          {
+            "n": "Game Genre",
+            "d": "Genre(s) of games offered by the app"
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Play games",
+      "run": 6,
+      "payload": {
+        "a": [
+          "PUBG Mobile",
+          "Fortnite Mobile",
+          "Roblox",
+          "Clash of Clans",
+          "Candy Crush Saga",
+          "Pokémon Go",
+          "Asphalt 9: Legends",
+          "Call of Duty: Mobile",
+          "Garena Free Fire",
+          "Mobile Legends: Bang Bang",
+          "Into the Dead 2",
+          "Geometry Dash",
+          "Fruit Ninja Classic HD",
+          "Cytus II",
+          "Head Soccer",
+          "8 Ball Pool",
+          "Solitaire Bliss",
+          "The Escapists: Prison Escape",
+          "Bubble Witch 3 Saga",
+          "Plants vs. Zombies"
+        ],
+        "c": [
+          {
+            "n": "Average Rating",
+            "d": "Average rating from user reviews"
+          },
+          {
+            "n": "Number of Downloads",
+            "d": "Total number of downloads on the App Store and Google Play"
+          },
+          {
+            "n": "User Reviews",
+            "d": "Number of user reviews across all platforms"
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Play games",
+      "run": 7,
+      "payload": {
+        "a": [
+          "Fortnite",
+          "PUBG Mobile",
+          "Clash of Clans",
+          "Subway Surfers",
+          "Candy Crush Saga",
+          "Asphalt 9: Legends",
+          "Call of Duty: Mobile",
+          "Roblox",
+          "Garena Free Fire",
+          "Mobile Legends: Bang Bang",
+          "Clash Royale",
+          "Pokémon Go",
+          "Harry Potter: Wizards Unite",
+          "The Escapists",
+          "Real Racing 3",
+          "Need for Speed: No Limits",
+          "Fruit Ninja",
+          "Plants vs. Zombies",
+          "Angry Birds",
+          "Geometry Dash"
+        ],
+        "c": [
+          {
+            "n": "Number of Downloads",
+            "d": "The number of times the app has been downloaded."
+          },
+          {
+            "n": "User Ratings",
+            "d": "The average rating given by users in the app store."
+          },
+          {
+            "n": "Game Genre",
+            "d": "The type of games that the app offers, such as action, adventure, puzzle, etc."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Play games",
+      "run": 8,
+      "payload": {
+        "a": [
+          "Candy Crush Saga",
+          "Subway Surfers",
+          "PUBG Mobile",
+          "Clash of Clans",
+          "Fortnite Mobile",
+          "Pokémon Go",
+          "Roblox",
+          "Among Us",
+          "Call of Duty: Mobile",
+          "Asphalt 9: Legends",
+          "Mobile Legends: Bang Bang",
+          "Garena Free Fire",
+          "Puzzle & Dragons",
+          "Clash Royale",
+          "8 Ball Pool",
+          "Solitaire",
+          "Trivia Crack",
+          "Heads Up!",
+          "Wordscapes",
+          "Tetris"
+        ],
+        "c": [
+          {
+            "n": "Popularity",
+            "d": "The number of downloads and user engagement."
+          },
+          {
+            "n": "User Ratings",
+            "d": "The average rating given by users on app stores."
+          },
+          {
+            "n": "Gameplay Variety",
+            "d": "The types of games available within the app and their diversity."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Play games",
+      "run": 9,
+      "payload": {
+        "a": [
+          "Candy Crush Saga",
+          "PUBG Mobile",
+          "Fortnite Mobile",
+          "Among Us!",
+          "Roblox",
+          "Clash of Clans",
+          "Subway Surfers",
+          "Asphalt 9: Legends",
+          "Call of Duty: Mobile",
+          "Garena Free Fire",
+          "Mobile Legends: Bang Bang",
+          "8 Ball Pool",
+          "Fruit Ninja",
+          "Puzzle & Dragons",
+          "Plants vs. Zombies",
+          "Geometry Dash",
+          "Real Racing 3",
+          "The Escapists",
+          "Into the Dead",
+          "Solitaire Bliss"
+        ],
+        "c": [
+          {
+            "n": "Game Genre",
+            "d": "Ranks apps by genre, such as action, adventure, puzzle, etc."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Collaborate with others",
+      "run": 0,
+      "payload": {
+        "a": [
+          "Slack",
+          "Microsoft Teams",
+          "Asana",
+          "Trello",
+          "Google Workspace (formerly G Suite)",
+          "Notion",
+          "Figma",
+          "Canva",
+          "Zoom",
+          "Skype",
+          "Dropbox",
+          "WeTransfer",
+          "Google Drive",
+          "OneDrive",
+          "Airtable",
+          "ClickUp",
+          "Mural",
+          "Basecamp",
+          "Podio",
+          "Wrike"
+        ],
+        "c": [
+          {
+            "n": "Real-time Collaboration",
+            "d": "Allows multiple users to work together in real-time."
+          },
+          {
+            "n": "File Sharing",
+            "d": "Enables easy sharing of files with team members."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Collaborate with others",
+      "run": 1,
+      "payload": {
+        "a": [
+          "Slack",
+          "Microsoft Teams",
+          "Trello",
+          "Asana",
+          "Notion",
+          "Google Drive",
+          "Dropbox",
+          "Basecamp",
+          "Figma",
+          "Zoom Meetings",
+          "Skype",
+          "Google Meet",
+          "Microsoft PowerPoint",
+          "Canva",
+          "Adobe XD",
+          "GitHub",
+          "Jira",
+          "Confluence",
+          "Mural",
+          "Airtable"
+        ],
+        "c": [
+          {
+            "n": "Real-time collaboration",
+            "d": "Apps that allow multiple users to work on a project simultaneously, making it easier to communicate and collaborate in real-time."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Collaborate with others",
+      "run": 2,
+      "payload": {
+        "a": [
+          "Trello",
+          "Asana",
+          "Slack",
+          "Microsoft Teams",
+          "Google Drive",
+          "Dropbox",
+          "Evernote",
+          "OneNote",
+          "Box",
+          "Podio",
+          "Basecamp",
+          "Flock",
+          "Zoom",
+          "Google Meet",
+          "Skype",
+          "Discord",
+          "WeChat Work",
+          "Samepage",
+          "Mattermost",
+          "Kahoot!"
+        ],
+        "c": [
+          {
+            "n": "Real-time Collaboration",
+            "d": "Allows multiple users to work together in real-time."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Collaborate with others",
+      "run": 3,
+      "payload": {
+        "a": [
+          "Trello",
+          "Slack",
+          "Asana",
+          "Microsoft Teams",
+          "Google Workspace (formerly G Suite)",
+          "Notion",
+          "Airtable",
+          "Zoom Meetings",
+          "Discord",
+          "Figma",
+          "Skype",
+          "Google Drive",
+          "Canva",
+          "Evernote",
+          "Dropbox",
+          "OneDrive",
+          "WeChat Work",
+          "ClickUp",
+          "Smartsheet",
+          "Mattermost"
+        ],
+        "c": [
+          {
+            "n": "Real-time Collaboration",
+            "d": "Allows multiple users to work together simultaneously."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Collaborate with others",
+      "run": 4,
+      "payload": {
+        "a": [
+          "Slack",
+          "Trello",
+          "Asana",
+          "Microsoft Teams",
+          "Google Workspace (formerly G Suite)",
+          "Notion",
+          "Figma",
+          "Canva",
+          "Zoom",
+          "Skype",
+          "Discord",
+          "WeChat Work",
+          "Alfred",
+          "Samepage",
+          "Podio",
+          "Basecamp",
+          "Canny",
+          "Airtable",
+          "Mural",
+          "Plek"
+        ],
+        "c": [
+          {
+            "n": "Number of users",
+            "d": "The number of users an app can handle for collaboration"
+          },
+          {
+            "n": "Ease of use",
+            "d": "How user-friendly the app is for collaboration"
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Collaborate with others",
+      "run": 5,
+      "payload": {
+        "a": [
+          "Google Drive",
+          "Microsoft OneDrive",
+          "Dropbox",
+          "Slack",
+          "Asana",
+          "Trello",
+          "Evernote",
+          "Notion",
+          "Airtable",
+          "Basecamp",
+          "Confluence",
+          "Figma",
+          "Zeplin",
+          "Sketch",
+          "Collaborator",
+          "Mural",
+          "Lucidchart",
+          "MindMeister",
+          "Coggle",
+          "SimpleNote"
+        ],
+        "c": [
+          {
+            "n": "Number of users",
+            "d": "The number of users an app supports for collaboration"
+          },
+          {
+            "n": "File sharing capacity",
+            "d": "The maximum file size or number of files that can be shared with others"
+          },
+          {
+            "n": "Real-time editing",
+            "d": "Whether the app allows real-time collaborative editing among multiple users"
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Collaborate with others",
+      "run": 6,
+      "payload": {
+        "a": [
+          "Trello",
+          "Slack",
+          "Asana",
+          "Google Drive",
+          "Microsoft Teams",
+          "Zoom Meetings",
+          "Notion",
+          "Figma",
+          "Skype",
+          "Mural",
+          "Smartsheet",
+          "Wrike",
+          "Airtable",
+          "Confluence",
+          "Dropbox",
+          "OneDrive",
+          "ClickUp",
+          "JotForm",
+          "Evernote",
+          "Basecamp"
+        ],
+        "c": [
+          {
+            "n": "Collaboration Feature",
+            "d": "Allows multiple users to work together in real-time."
+          },
+          {
+            "n": "Real-Time Feedback",
+            "d": "Provides immediate feedback and updates on tasks and projects."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Collaborate with others",
+      "run": 7,
+      "payload": {
+        "a": [
+          "Slack",
+          "Microsoft Teams",
+          "Trello",
+          "Asana",
+          "Notion",
+          "Google Drive",
+          "Dropbox",
+          "Evernote",
+          "Skype",
+          "Zoom",
+          "Google Meet",
+          "Figma",
+          "Canva",
+          "Airtable",
+          "ClickUp",
+          "Basecamp",
+          "Mural",
+          "Lucidchart",
+          "Confluence",
+          "Smartsheet"
+        ],
+        "c": [
+          {
+            "n": "Real-time Collaboration",
+            "d": "Allow multiple users to work together in real-time, with features like live commenting and @mentioning."
+          },
+          {
+            "n": "File Sharing",
+            "d": "Enable team members to share files, documents, and other assets directly within the app."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Collaborate with others",
+      "run": 8,
+      "payload": {
+        "a": [
+          "Google Docs",
+          "Microsoft Teams",
+          "Trello",
+          "Slack",
+          "Asana",
+          "Notion",
+          "Figma",
+          "Canva",
+          "Zoom",
+          "Skype",
+          "Dropbox Paper",
+          "Evernote",
+          "Mural.co",
+          "G Suite",
+          "Basecamp",
+          "Airtable",
+          "Coda",
+          "Smartsheet",
+          "Collaborator",
+          "Wrike"
+        ],
+        "c": [
+          {
+            "n": "Real-time Collaboration",
+            "d": "Apps that allow multiple users to collaborate in real-time."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Collaborate with others",
+      "run": 9,
+      "payload": {
+        "a": [
+          "Microsoft Teams",
+          "Slack",
+          "Google Workspace",
+          "Asana",
+          "Trello",
+          "Basecamp",
+          "Notion",
+          "Figma",
+          "Canva",
+          "Adobe Creative Cloud",
+          "Zoom Meetings",
+          "Skype Meet Now",
+          "ClickMeeting",
+          "Kahoot!",
+          "MindMeister",
+          "Padlet",
+          "WeChat Work",
+          "Lark",
+          "Airtable",
+          "Mural"
+        ],
+        "c": [
+          {
+            "n": "Multiplayer Feature",
+            "d": "Allows users to collaborate with others in real-time."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Write notes",
+      "run": 0,
+      "payload": {
+        "a": [
+          "Evernote",
+          "OneNote",
+          "Simplenote",
+          "Bear",
+          "Ulysses",
+          "Notion",
+          "Google Keep",
+          "Microsoft OneDrive Notes",
+          "Apple Notes",
+          "Quip",
+          "Trello",
+          "Any.do",
+          "Tasker",
+          "Evernote Web Clipper",
+          "Simplenote Web",
+          "Bear for iPhone",
+          "Ulysses for iPad",
+          "Notion Web Clipper",
+          "Google Keep Chrome Extension",
+          "Microsoft OneNote for Android"
+        ],
+        "c": [
+          {
+            "n": "Average Rating",
+            "d": "The app's average rating on the App Store or Google Play Store"
+          },
+          {
+            "n": "Number of Downloads",
+            "d": "The number of times the app has been downloaded"
+          },
+          {
+            "n": "User Reviews",
+            "d": "The number of user reviews for the app"
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Write notes",
+      "run": 1,
+      "payload": {
+        "a": [
+          "Evernote",
+          "OneNote",
+          "Simplenote",
+          "Google Keep",
+          "Microsoft OneDrive",
+          "Dropbox",
+          "Bear",
+          "Quip",
+          "AnyList",
+          "Trello",
+          "Notion",
+          "Everpix",
+          "Moodfit",
+          "DejaOffice",
+          "Notes Plus",
+          "S Notes",
+          "Papier",
+          "Sticky Note",
+          "Goodnotes",
+          "Nebo"
+        ],
+        "c": [
+          {
+            "n": "Number of users",
+            "d": "The number of active monthly users."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Write notes",
+      "run": 2,
+      "payload": {
+        "a": [
+          "Evernote",
+          "OneNote",
+          "Simplenote",
+          "Bear",
+          "Day One Journal",
+          "Google Keep",
+          "Quip",
+          "Microsoft To Do",
+          "AnyList",
+          "Simplifi",
+          "Paperoke",
+          "Notes",
+          "Notezilla",
+          "Journey Note",
+          "Penultimate",
+          "ColorNote",
+          "Paper by FiftyThree",
+          "Nebo",
+          "Notebooks",
+          "Atonality"
+        ],
+        "c": [
+          {
+            "n": "Note-taking app functionality",
+            "d": "The ability to write and store notes on a mobile device."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Write notes",
+      "run": 3,
+      "payload": {
+        "a": [
+          "Evernote",
+          "OneNote",
+          "Simplenote",
+          "Google Keep",
+          "Apple Notes",
+          "Evernote Web Clipper",
+          "AnyList",
+          "OneTouch Note",
+          "Nebo: Handwriting to Text",
+          "Otter: Record and Share Audio Notes",
+          "DejaNote",
+          "Notes by Google Drive",
+          "Quip",
+          "Squid - Notes, Tasks & Lists",
+          "Microsoft OneDrive",
+          "Dropbox Paper",
+          "Bear: Write Beautiful Markup Text",
+          "Ulysses",
+          "Trello: Boards, Lists, Cards",
+          "Paperoo"
+        ],
+        "c": [
+          {
+            "n": "Note Taking Features",
+            "d": "Includes features such as text formatting options, image and audio recording capabilities, and tagging systems to help users organize their notes."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Write notes",
+      "run": 4,
+      "payload": {
+        "a": [
+          "Evernote",
+          "OneNote",
+          "Simplenote",
+          "Bear",
+          "Quip",
+          "Google Keep",
+          "AnyList",
+          "Penzu",
+          "Day One",
+          "Sticky Notes",
+          "Notability",
+          "Notes",
+          "Simple Note",
+          "Notebook",
+          "MyScript Nebo",
+          "CintaNotes",
+          "Paper by FiftyThree",
+          "Goodnotes",
+          "Evernote Web Clipper",
+          "Microsoft OneDrive"
+        ],
+        "c": [
+          {
+            "n": "Number of Features",
+            "d": "Total number of features offered in the app, including text formatting options and multimedia support."
+          },
+          {
+            "n": "User Interface",
+            "d": "Ease of use and overall user experience when writing notes."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Write notes",
+      "run": 5,
+      "payload": {
+        "a": [
+          "Evernote",
+          "OneNote",
+          "Simplenote",
+          "Google Keep",
+          "Apple Notes",
+          "Microsoft OneDrive",
+          "Notability",
+          "Notes by Google Drive",
+          "Bear",
+          "Quip",
+          "Ulysses",
+          "Trello",
+          "Evernote Web Clipper",
+          "AnyList",
+          "Notes Plus",
+          "Notebook Pro",
+          "My Notes",
+          "Snotes",
+          "Color Note",
+          "Penzu"
+        ],
+        "c": [
+          {
+            "n": "Popularity",
+            "d": "The number of downloads and user base size."
+          },
+          {
+            "n": "Rating",
+            "d": "Average rating of the app based on user reviews."
+          },
+          {
+            "n": "User Interface",
+            "d": "Ease of use, navigation, and overall design of the app."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Write notes",
+      "run": 6,
+      "payload": {
+        "a": [
+          "Evernote",
+          "OneNote",
+          "Simplenote",
+          "Google Keep",
+          "Everhelper",
+          "Bear",
+          "Microsoft OneDrive",
+          "Apple Notes",
+          "Quip",
+          "Sage",
+          "Notion",
+          "Notes Uncluttered",
+          "Notejoy",
+          "Ulysses",
+          "Day One Journal",
+          "Goodnotes",
+          "JotterPad",
+          "Qournal",
+          "Penzu",
+          "Moodfit"
+        ],
+        "c": [
+          {
+            "n": "Number of Features",
+            "d": "The number of features available in the app, including note-taking, organization, and sharing capabilities."
+          },
+          {
+            "n": "Cross-Platform Compatibility",
+            "d": "Whether the app is compatible with multiple platforms, including iOS, Android, web, and desktop operating systems."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Write notes",
+      "run": 7,
+      "payload": {
+        "a": [
+          "Evernote",
+          "OneNote",
+          "Simplenote",
+          "Google Keep",
+          "Apple Notes",
+          "Microsoft OneDrive",
+          "Notion",
+          "Quip",
+          "Dropbox Paper",
+          "Bear",
+          "Day One Journal",
+          "Ulysses",
+          "GoodNotes",
+          "Evernote Web Clipper",
+          "Zimbra Notebook",
+          "Notebloc",
+          "Penzu",
+          "Samsnotes",
+          "MyScript Nebo",
+          "Coggle"
+        ],
+        "c": [
+          {
+            "n": "Write notes",
+            "d": "Apps that allow users to write and store notes."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Write notes",
+      "run": 8,
+      "payload": {
+        "a": [
+          "Evernote",
+          "OneNote",
+          "Simplenote",
+          "Google Keep",
+          "Apple Notes",
+          "Microsoft OneDrive",
+          "Notability",
+          "Bear",
+          "Ulysses",
+          "GoodNotes",
+          "Quip",
+          "Snoozenote",
+          "Penzu",
+          "Day One Journal",
+          "Nebo",
+          "Notebooks",
+          "DejaNote",
+          "JotterPad",
+          "Notebook",
+          "Hoodnote"
+        ],
+        "c": [
+          {
+            "n": "Average Rating",
+            "d": "The average rating of an app based on the number of reviews from various sources."
+          },
+          {
+            "n": "Number of Downloads",
+            "d": "The total number of downloads of an app across different platforms and regions."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Write notes",
+      "run": 9,
+      "payload": {
+        "a": [
+          "Evernote",
+          "OneNote",
+          "Simplenote",
+          "Google Keep",
+          "Apple Notes",
+          "Notion",
+          "Quip",
+          "Bear",
+          "Ulysses",
+          "GoodNotes",
+          "Everdoc",
+          "Nebo",
+          "PDF Expert",
+          "Docs to Go",
+          "Dropbox Paper",
+          "Scribbler",
+          "Notebook",
+          "Notability",
+          "Simple Diary",
+          "JotterPad"
+        ],
+        "c": [
+          {
+            "n": "User Reviews",
+            "d": "Average rating of user reviews in app stores (1-5)"
+          },
+          {
+            "n": "Download Count",
+            "d": "Total number of downloads from app stores"
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Search for offer on item",
+      "run": 0,
+      "payload": null,
+      "error": "Duplicate app name in ranking: 'RetailMeNot'"
+    },
+    {
+      "feature": "Search for offer on item",
+      "run": 1,
+      "payload": {
+        "a": [
+          "Letgo",
+          "Mercari",
+          "Depop",
+          "Poshmark",
+          "ThredUp",
+          "The RealReal",
+          "eBay",
+          "Facebook Marketplace",
+          "OfferUp",
+          "Decluttr",
+          "Gazelle",
+          "Nextdoor",
+          "Tradesy",
+          "Pikashow",
+          "Shpock",
+          "Vinted",
+          "Beacon",
+          "Craigslist",
+          "Selly",
+          "Loot"
+        ],
+        "c": [
+          {
+            "n": "User Reviews",
+            "d": "Average rating and number of reviews from various sources"
+          },
+          {
+            "n": "Price Range",
+            "d": "Range of prices for the item in various marketplaces"
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Search for offer on item",
+      "run": 2,
+      "payload": {
+        "a": [
+          "RetailMeNot",
+          "Groupon",
+          "LivingSocial",
+          "Coupons.com",
+          "Honey",
+          "Slickdeals",
+          "CouponCabin",
+          "BeFrugal",
+          "Rakuten",
+          "ShopAtHome",
+          "TopCoupons",
+          "CouponFollow",
+          "Savvy Savings",
+          "CouponChief",
+          "RetailMeNot Browser Extension",
+          "Dosh",
+          "Drop",
+          "Fetch Rewards",
+          "Ibotta",
+          "Checkout 51"
+        ],
+        "c": [
+          {
+            "n": "Offer Variety",
+            "d": "The number of unique offers available for each item."
+          },
+          {
+            "n": "User Reviews",
+            "d": "The average rating and number of reviews from other users."
+          },
+          {
+            "n": "Filtering Capabilities",
+            "d": "Ease of filtering search results by category, price, or other criteria."
+          },
+          {
+            "n": "Notification System",
+            "d": "Whether the app notifies users when new offers are available for items they've searched for."
+          },
+          {
+            "n": "Reward Points System",
+            "d": "Whether the app rewards users with points or cash back on purchases made through the app."
+          },
+          {
+            "n": "Social Sharing",
+            "d": "Ability to share offers with friends or family members."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Search for offer on item",
+      "run": 3,
+      "payload": {
+        "a": [
+          "RetailMeNot",
+          "Honey",
+          "Coupons.com",
+          "ShopSavvy",
+          "Barcode Scanner & Coupon Codes",
+          "Pricebook",
+          "Find&Save",
+          "Checkout 51",
+          "Ibotta",
+          "Groupon",
+          "LivingSocial",
+          "Retailigence",
+          "SnipSnap",
+          "CouponCabin",
+          "Krazy Coupon Lady",
+          "Flipp",
+          "Fetch Rewards",
+          "Drop",
+          "Dosh",
+          "Spendee"
+        ],
+        "c": [
+          {
+            "n": "Number of reviews",
+            "d": "The number of user reviews for the app in the app store."
+          },
+          {
+            "n": "Average rating",
+            "d": "The average rating given by users to the app in the app store."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Search for offer on item",
+      "run": 4,
+      "payload": {
+        "a": [
+          "Letgo",
+          "Decluttr",
+          "Mercari",
+          "Poshmark",
+          "ThredUp",
+          "Depop",
+          "eBay",
+          "Facebook Marketplace",
+          "OfferUp",
+          "Shpock",
+          "Lego BrickLink",
+          "Bookscouter",
+          "Nextdoor",
+          "Toluna",
+          "Ibotta",
+          "RetailMeNot",
+          "CouponCabin",
+          "Groupon",
+          "LivingSocial",
+          "Flipp"
+        ],
+        "c": [
+          {
+            "n": "Number of User Reviews",
+            "d": "The number of user reviews the app has received."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Search for offer on item",
+      "run": 5,
+      "payload": {
+        "a": [
+          "RetailMeNot",
+          "CouponCabin",
+          "Honey",
+          "Ebates",
+          "Slickdeals",
+          "Groupon",
+          "LivingSocial",
+          "Amazon Coupons",
+          "Target Cartwheel",
+          "Kohl's Cash",
+          "Walmart Savings Catcher",
+          "Best Buy Deal of the Day",
+          "Overstock",
+          "eBay Discount Finder",
+          "Newegg Price Tracker",
+          "Google Express",
+          "Wish",
+          "DealNews",
+          "SavvyConnect",
+          "CouponSherpa"
+        ],
+        "c": [
+          {
+            "n": "Number of users",
+            "d": "The number of registered users."
+          },
+          {
+            "n": "Rating",
+            "d": "The average rating in the app store."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Search for offer on item",
+      "run": 6,
+      "payload": {
+        "a": [
+          "Slickdeals",
+          "RetailMeNot",
+          "Groupon",
+          "LivingSocial",
+          "Honey",
+          "CouponCabin",
+          "Ebates",
+          "TopCoupons",
+          "PromoCodeWatch",
+          "CouponFollow",
+          "Discounts.com",
+          "Buckscoop",
+          "Overstock",
+          "Dealspotr",
+          "Shopular",
+          "RetailMeNot Browser Extension",
+          "Honey Browser Extension",
+          "Coupons at Checkout",
+          "Groupon Goods",
+          "Savvy Scoopper"
+        ],
+        "c": [
+          {
+            "n": "Search for offer on item feature",
+            "d": "Allows users to search for available offers and discounts on a specific item."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Search for offer on item",
+      "run": 7,
+      "payload": {
+        "a": [
+          "Flipp",
+          "RetailMeNot",
+          "Checkout 51",
+          "Ibotta",
+          "Fetch Rewards",
+          "Dosh",
+          "Drop",
+          "Rakuten (formerly known as Ebates)",
+          "TopCashback",
+          "Honey",
+          "Slickdeals",
+          "Shopkick",
+          "Groupon",
+          "LivingSocial",
+          "Amazon Coupons",
+          "CouponCabin",
+          "Coupons.com",
+          "RetailMeNot Browser Extension",
+          "Capital One Shopping",
+          "Hunt"
+        ],
+        "c": [
+          {
+            "n": "Number of coupons available",
+            "d": "The number of coupons available for a specific item or store."
+          },
+          {
+            "n": "User rating",
+            "d": "The average rating given by users to the app based on its performance and user experience."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Search for offer on item",
+      "run": 8,
+      "payload": {
+        "a": [
+          "Letgo",
+          "Mercari",
+          "OfferUp",
+          "Decluttr",
+          "Gazelle",
+          "Poshmark",
+          "eBay",
+          "Facebook Marketplace",
+          "Craigslist",
+          "Depop",
+          "ThredUp",
+          "Tradesy",
+          "Wish",
+          "Mercari Shop",
+          "Letgo - Sell, Swap, Give Away",
+          "Offer Up: Buy and Sell Used Stuff",
+          "Decluttr: Sell CDs, DVDs, Games & More!",
+          "Poshmark: Buy & Sell Gently Used Clothing",
+          "eBay: Buy & Sell Electronics, Fashion & More",
+          "Shpock"
+        ],
+        "c": [
+          {
+            "n": "Number of Reviews",
+            "d": "Total number of user reviews"
+          },
+          {
+            "n": "Average Rating",
+            "d": "Average rating from user reviews"
+          },
+          {
+            "n": "User Base",
+            "d": "Active user base and community size"
+          },
+          {
+            "n": "Offer Variety",
+            "d": "Variety and range of offers available on the platform"
+          },
+          {
+            "n": "Ease of Use",
+            "d": "User-friendliness and simplicity of the app"
+          },
+          {
+            "n": "Price Competitiveness",
+            "d": "Comparison of prices offered by sellers"
+          },
+          {
+            "n": "Safety and Security",
+            "d": "Measures in place to ensure safe transactions"
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Search for offer on item",
+      "run": 9,
+      "payload": {
+        "a": [
+          "Haggle",
+          "PriceCheck",
+          "ShopSavvy",
+          "ScanLife",
+          "ShopAdvisor",
+          "RetailMeNot",
+          "CamelCamelCamel",
+          "Keepa",
+          "What The Price",
+          "PriceGrabber",
+          "Wish",
+          "eBay Mobile",
+          "Mercari",
+          "Poshmark",
+          "ThredUp",
+          "Depop",
+          "Letgo",
+          "OfferUp",
+          "Decluttr",
+          "Cash Cow"
+        ],
+        "c": [
+          {
+            "n": "Number of downloads",
+            "d": "The number of times the app has been downloaded from the App Store or Google Play."
+          },
+          {
+            "n": "User reviews",
+            "d": "The overall rating and number of user reviews for the app, including ratings and comments."
+          },
+          {
+            "n": "Offer variety",
+            "d": "The range of offers available through the app, including discounts, coupons, promo codes, and cashback deals."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "List items for sale",
+      "run": 0,
+      "payload": {
+        "a": [
+          "Poshmark",
+          "Depop",
+          "Mercari",
+          "Letgo",
+          "OfferUp",
+          "eBay Mobile",
+          "Facebook Marketplace",
+          "Decluttr",
+          "ThredUp",
+          "The RealReal",
+          "Tradesy",
+          "ASOS Marketplace",
+          "Poshmark Resale",
+          "Vinted",
+          "Grailed",
+          "Reverb",
+          "Musician's Friend",
+          "Mercari Shop",
+          "Letgo Deals",
+          "Depop Shop"
+        ],
+        "c": [
+          {
+            "n": "Average rating",
+            "d": "Overall user rating on app stores"
+          },
+          {
+            "n": "Number of items for sale",
+            "d": "Estimated number of unique listings within the app"
+          }
+        ]
+      }
+    },
+    {
+      "feature": "List items for sale",
+      "run": 1,
+      "payload": {
+        "a": [
+          "Poshmark",
+          "Depop",
+          "Mercari",
+          "Letgo",
+          "OfferUp",
+          "Facebook Marketplace",
+          "eBay",
+          "ThredUp",
+          "Tradesy",
+          "The RealReal",
+          "ASOS Marketplace",
+          "Grailed",
+          "StockX",
+          "Goody",
+          "Poshi",
+          "Selly",
+          "Decluttr",
+          "Gazelle",
+          "Bookscouter",
+          "Cash4Books"
+        ],
+        "c": [
+          {
+            "n": "Average Rating",
+            "d": "The average rating of the app from user reviews."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "List items for sale",
+      "run": 2,
+      "payload": {
+        "a": [
+          "Mercari",
+          "Poshmark",
+          "Depop",
+          "eBay Mobile",
+          "Facebook Marketplace",
+          "Letgo",
+          "OfferUp",
+          "Decluttr",
+          "Gazelle",
+          "Nextdoor",
+          "Cash Converters",
+          "Housing Anywhere",
+          "Poshi",
+          "Mercato",
+          "The RealReal",
+          "Vinted",
+          "ThredUp",
+          "ASOS Marketplace",
+          "Depop Next",
+          "StockX"
+        ],
+        "c": [
+          {
+            "n": "Number of items for sale",
+            "d": "Average number of items listed for sale by the app's users."
+          },
+          {
+            "n": "Revenue generated",
+            "d": "Total revenue generated from sales through the app."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "List items for sale",
+      "run": 3,
+      "payload": {
+        "a": [
+          "Poshmark",
+          "Depop",
+          "eBay Mobile",
+          "Facebook Marketplace",
+          "Letgo",
+          "OfferUp",
+          "Mercari",
+          "Poshlux",
+          "Grailed",
+          "ThredUp",
+          "Vinted",
+          "The RealReal",
+          "Tradesy",
+          "StockX",
+          "Binance",
+          "Shopify POS",
+          "BigCommerce",
+          "SaleHoo",
+          "Doba",
+          "Oberlo"
+        ],
+        "c": [
+          {
+            "n": "Popularity",
+            "d": "How popular the app is, based on number of downloads and user reviews"
+          },
+          {
+            "n": "User Interface",
+            "d": "The ease of use and visual appeal of the app's interface"
+          },
+          {
+            "n": "Features",
+            "d": "The variety and quality of features offered by the app for listing items for sale"
+          }
+        ]
+      }
+    },
+    {
+      "feature": "List items for sale",
+      "run": 4,
+      "payload": {
+        "a": [
+          "Mercari",
+          "Letgo",
+          "Decluttr",
+          "Poshmark",
+          "Depop",
+          "eBay Mobile",
+          "Facebook Marketplace",
+          "OfferUp",
+          "Tradesy",
+          "ASOS Marketplace",
+          "Thredup",
+          "The RealReal",
+          "PoshSwap",
+          "Grailed",
+          "StockX",
+          "Craigslist",
+          "TikTok Shop",
+          "Shopee",
+          "Wish",
+          "DHgate"
+        ],
+        "c": [
+          {
+            "n": "Number of items for sale",
+            "d": "The number of items an app allows users to list for sale."
+          },
+          {
+            "n": "Ease of listing",
+            "d": "How easy it is for users to list new items for sale."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "List items for sale",
+      "run": 5,
+      "payload": {
+        "a": [
+          "Poshmark",
+          "Depop",
+          "Letgo",
+          "Mercari",
+          "eBay",
+          "Facebook Marketplace",
+          "Craigslist",
+          "OfferUp",
+          "Decluttr",
+          "Gazelle",
+          "Trulia",
+          "Redfin",
+          "Amazon Seller",
+          "Etsy",
+          "Shopify",
+          "BigCommerce",
+          "Squarespace",
+          "WooCommerce",
+          "Weebly",
+          "PrestaShop"
+        ],
+        "c": [
+          {
+            "n": "Popularity",
+            "d": "The number of users and downloads the app has."
+          },
+          {
+            "n": "Ease of Use",
+            "d": "How user-friendly the app is, including its navigation and features."
+          },
+          {
+            "n": "Features",
+            "d": "The variety and quality of features the app offers for listing items for sale."
+          },
+          {
+            "n": "Security",
+            "d": "The measures in place to protect users' personal and financial information."
+          },
+          {
+            "n": "Customer Support",
+            "d": "The availability and effectiveness of support options, including help resources and contact information."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "List items for sale",
+      "run": 6,
+      "payload": {
+        "a": [
+          "Letgo",
+          "Poshmark",
+          "Mercari",
+          "Depop",
+          "eBay",
+          "Facebook Marketplace",
+          "OfferUp",
+          "Decluttr",
+          "Tradesy",
+          "ThredUp",
+          "Vinted",
+          "ASOS Marketplace",
+          "The RealReal",
+          "StockX",
+          "Poshmark Closet",
+          "eBay for Android",
+          "Mercari: Buy and Sell Used Items",
+          "Depop: Discover, Shop, & Create",
+          "Letgo - Sell and Buy Used Stuff",
+          "Poshmark: Sell Gently Used Clothing"
+        ],
+        "c": [
+          {
+            "n": "Average rating",
+            "d": "Average user rating of the app from various review platforms"
+          },
+          {
+            "n": "User reviews count",
+            "d": "Number of user reviews for the app across different platforms"
+          },
+          {
+            "n": "App size",
+            "d": "Size of the app installation package in megabytes"
+          },
+          {
+            "n": "Last update",
+            "d": "Date and time when the app was last updated"
+          },
+          {
+            "n": "Reviews on Google Play/Apple App Store",
+            "d": "Number of reviews for the app on its primary platform"
+          }
+        ]
+      }
+    },
+    {
+      "feature": "List items for sale",
+      "run": 7,
+      "payload": {
+        "a": [
+          "Facebook Marketplace",
+          "Letgo",
+          "Mercari",
+          "Poshmark",
+          "Decluttr",
+          "eBay",
+          "Depop",
+          "Poshtown",
+          "ThredUp",
+          "Tradesy",
+          "Loot",
+          "Grailed",
+          "StockX",
+          "ASOS Marketplace",
+          "ThredUp Outlet",
+          "The RealReal",
+          "Luxury Garage Sale",
+          "Poshmark Closet",
+          "eBay Outlet",
+          "Depop Shop"
+        ],
+        "c": [
+          {
+            "n": "Number of items for sale",
+            "d": "Total number of items listed by the app for sale."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "List items for sale",
+      "run": 8,
+      "payload": {
+        "a": [
+          "Poshmark",
+          "Depop",
+          "eBay",
+          "Mercari",
+          "Facebook Marketplace",
+          "Letgo",
+          "OfferUp",
+          "ThredUp",
+          "The RealReal",
+          "Tradesy",
+          "Pikcio",
+          "Wish",
+          "Shein",
+          "ASOS Marketplace",
+          "Etsy",
+          "Amazon Handmade",
+          "Handbid",
+          "Whatnot",
+          "StockX",
+          "Decluttr"
+        ],
+        "c": [
+          {
+            "n": "Average rating",
+            "d": "The average rating of an app from the Google Play Store and Apple App Store."
+          },
+          {
+            "n": "Number of reviews",
+            "d": "The number of reviews an app has received from users on both the Google Play Store and Apple App Store."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "List items for sale",
+      "run": 9,
+      "payload": {
+        "a": [
+          "Poshmark",
+          "ThredUp",
+          "Depop",
+          "eBay Mobile",
+          "Facebook Marketplace",
+          "Letgo",
+          "Mercari",
+          "Poshi",
+          "Grailed",
+          "The RealReal",
+          "ASOS Marketplace",
+          "Tradesy",
+          "OfferUp",
+          "Decluttr",
+          "Mercarito",
+          "Lootsy",
+          "Soldsie",
+          "Shopify Mobile",
+          "Handshake",
+          "Bloom Sale"
+        ],
+        "c": [
+          {
+            "n": "User Interface and Experience",
+            "d": "The overall user interface, navigation, and experience of the app."
+          }
+        ]
+      }
+    }
+  ],
+  "dataset_suite": "open_small"
+}

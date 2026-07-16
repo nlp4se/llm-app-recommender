@@ -1,0 +1,416 @@
+criterion,feature,app,n_models,models,best_median_rank
+Customization Options,Play games,The Sims Mobile,5,"anthropic, gptoss20b, mistral, openai, qwen3_8b",2.0
+Security and Privacy,Keeping up with friends,Threema,5,"anthropic, gemini, gptoss20b, mistral_open, qwen3_8b",2.0
+Security and Privacy,Broadcast messages to multiple contacts,Wire,4,"anthropic, gptoss20b, mistral_open, openai",2.0
+Security and Privacy,Collaborate with others,Wire,4,"anthropic, gemini, gptoss20b, openai",2.0
+Popularity and Market Reach,Build photo collage,Instagram,3,"anthropic, gemini, openai",1.0
+Popularity and Market Reach,List items for sale,Amazon,3,"anthropic, gptoss20b, openai",1.0
+Popularity and Market Reach,Photo effects,Snapchat,3,"anthropic, gemini, mistral",1.0
+Popularity and Market Reach,Photo effects,TikTok,3,"anthropic, gemini, openai",2.0
+Security and Privacy,Collaborate with others,ProtonMail,3,"anthropic, deepseekr1_8b, qwen3_8b",2.0
+Security and Privacy,Send files,ProtonMail,3,"anthropic, deepseekr1_8b, qwen3_8b",2.0
+Security and Privacy,Send files,Wire,3,"anthropic, gemma3_4b, gptoss20b",3.0
+Security and Privacy,Write notes,Cryptee,3,"gemini, mistral, openai",3.0
+Accessibility Features,Collaborate with others,Google Docs,2,"anthropic, mistral",1.0
+Accessibility Features,Photo effects,Apple Photos,2,"anthropic, gemini",1.0
+Accessibility Features,Photo effects,Google Photos,2,"anthropic, gemini",1.0
+Customer Support,Broadcast messages to multiple contacts,WhatsApp Business,2,"anthropic, llama31_8b",1.0
+Customization Options,Access to movies,Kodi,2,"anthropic, gemini",1.0
+Customization Options,Watch streams,Kodi,2,"gemini, gptoss20b",1.0
+Customization Options,Watch streams,VLC for Mobile,2,"gemini, gptoss20b",1.0
+Feature Breadth and Richness,Play games,Google Play Games,2,"anthropic, qwen3_8b",1.0
+Popularity and Market Reach,Build photo collage,PicsArt Photo & Video Editor,2,"anthropic, mistral",1.0
+Popularity and Market Reach,Photo effects,Instagram,2,"gemini, mistral",1.0
+Regional and Geographical Availability,Build photo collage,PicsArt Photo & Video Editor,2,"anthropic, mistral",1.0
+Regional and Geographical Availability,List items for sale,Amazon,2,"gptoss20b, openai",1.0
+Regular Updates and Maintenance,Build photo collage,PicsArt Photo & Video Editor,2,"anthropic, mistral",1.0
+Regular Updates and Maintenance,Keeping up with friends,WhatsApp Messenger,2,"anthropic, openai",1.0
+Security and Privacy,Collaborate with others,Signal,2,"anthropic, gptoss20b",1.0
+Security and Privacy,Go Live,Signal,2,"anthropic, openai",1.0
+User Engagement,Build photo collage,Instagram,2,"anthropic, gemini",1.0
+User Engagement,Build photo collage,PicsArt Photo & Video Editor,2,"anthropic, mistral",1.0
+User Interface and Experience,Collaborate with others,Google Docs,2,"anthropic, mistral",1.0
+User Ratings,Broadcast messages to multiple contacts,WhatsApp Messenger,2,"mistral, openai",1.0
+User Ratings,Collaborate with others,Google Docs,2,"anthropic, mistral",1.0
+Feature Breadth and Richness,Play games,Apple Arcade,2,"anthropic, qwen3_8b",2.0
+Security and Privacy,Send files,Proton Drive,2,"mistral, openai",2.0
+User Engagement,Photo effects,TikTok,2,"gemini, openai",2.0
+User Ratings,Broadcast messages to multiple contacts,Signal Private Messenger,2,"gemini, mistral",2.0
+Cross-Platform Synchronization,Watch streams,Netflix,2,"anthropic, gemini",3.0
+Feature Breadth and Richness,Go Live,TikTok LIVE,2,"gemma3_4b, mistral",3.0
+Popularity and Market Reach,Send files,WeChat,2,"anthropic, mistral",3.0
+Regional and Geographical Availability,Send files,WeChat,2,"anthropic, mistral",3.0
+Accessibility Features,Go Live,Zoom,2,"gemini, mistral",3.5
+Regional and Geographical Availability,List items for sale,OLX,2,"anthropic, gemini",4.0
+Regional and Geographical Availability,Send files,LINE,2,"anthropic, mistral",4.0
+Security and Privacy,Watch streams,Apple TV+,2,"anthropic, openai",4.0
+User Engagement,Send files,WeChat,2,"anthropic, mistral",4.0
+Cross-Platform Synchronization,Watch streams,Amazon Prime Video,2,"anthropic, gemini",5.0
+Accessibility Features,Go Live,BeLive,1,mistral,1.0
+Accessibility Features,List items for sale,Amazon,1,gptoss20b,1.0
+Accessibility Features,Play games,AbleGamers Accessible Games,1,mistral,1.0
+Accessibility Features,Play games,Dice World,1,gemini,1.0
+Accessibility Features,Play games,Xbox Game Pass,1,anthropic,1.0
+Cost and Pricing,Collaborate with others,Google Docs,1,anthropic,1.0
+Cost and Pricing,Collaborate with others,"Google Workspace (Docs, Sheets, Slides)",1,mistral,1.0
+Cost and Pricing,Play games,Google Play Games,1,anthropic,1.0
+Cost and Pricing,Play games,Vampire Survivors,1,gemini,1.0
+Cross-Platform Synchronization,Collaborate with others,"Google Workspace (Docs, Sheets, Slides)",1,mistral,1.0
+Cross-Platform Synchronization,Photo effects,Adobe Lightroom,1,mistral_open,1.0
+Cross-Platform Synchronization,Search for offer on item,Amazon,1,mistral_open,1.0
+Cross-Platform Synchronization,Search for offer on item,Amazon App,1,qwen3_8b,1.0
+Customer Support,Access to movies,Apple TV,1,anthropic,1.0
+Customer Support,Go Live,App1_GoLive,1,mistral_open,1.0
+Customer Support,Keeping up with friends,Slack,1,gemini,1.0
+Customer Support,Play games,Angry Birds 2,1,mistral_open,1.0
+Customer Support,Play games,Xbox Game Pass,1,anthropic,1.0
+Customer Support,Search for offer on item,Amazon,1,mistral_open,1.0
+Customization Options,Broadcast messages to multiple contacts,WhatsApp Business,1,anthropic,1.0
+Customization Options,List items for sale,Shopify,1,gemini,1.0
+Customization Options,Play games,RetroArch,1,gemini,1.0
+Customization Options,Play playlist on shuffle mode,Poweramp Music Player,1,openai,1.0
+Feature Breadth and Richness,Build photo collage,PicsArt Photo & Video Editor,1,anthropic,1.0
+Feature Breadth and Richness,Collaborate with others,"Google Workspace (Docs, Sheets, Slides)",1,mistral,1.0
+Integration with Other Services,Access to movies,Movies Anywhere,1,gemini,1.0
+Integration with Other Services,Broadcast messages to multiple contacts,WhatsApp Business,1,anthropic,1.0
+Integration with Other Services,Collaborate with others,"Google Workspace (Docs, Sheets, Slides)",1,mistral,1.0
+Integration with Other Services,Photo effects,Instagram,1,gemini,1.0
+Integration with Other Services,Play games,Google Play Games,1,anthropic,1.0
+Integration with Other Services,Search for offer on item,Amazon,1,mistral_open,1.0
+Integration with Other Services,Send files,Gmail,1,gptoss20b,1.0
+Performance and Stability,Collaborate with others,"Google Workspace (Docs, Sheets, Slides)",1,mistral,1.0
+Platform and Device Compatibility,Collaborate with others,"Google Workspace (Docs, Sheets, Slides)",1,mistral,1.0
+Popularity and Market Reach,Collaborate with others,"Google Workspace (Gmail, Docs, Drive, etc.)",1,mistral,1.0
+Popularity and Market Reach,Collaborate with others,WhatsApp,1,gemini,1.0
+Popularity and Market Reach,Go Live,TikTok,1,mistral,1.0
+Popularity and Market Reach,List items for sale,Facebook,1,deepseekr1_8b,1.0
+Regional and Geographical Availability,Collaborate with others,"Google Workspace (Docs, Sheets, Slides)",1,mistral,1.0
+Regional and Geographical Availability,Go Live,Facebook,1,mistral,1.0
+Regional and Geographical Availability,Go Live,Google Play Store,1,mistral_open,1.0
+Regional and Geographical Availability,Photo effects,Instagram,1,gemini,1.0
+Regular Updates and Maintenance,Build photo collage,"Canva: Design, Photo & Video",1,mistral,1.0
+Regular Updates and Maintenance,Collaborate with others,"Google Workspace (Docs, Sheets, Slides)",1,mistral,1.0
+Regular Updates and Maintenance,Go Live,Instagram,1,gemma3_4b,1.0
+Regular Updates and Maintenance,List items for sale,Facebook,1,deepseekr1_8b,1.0
+Regular Updates and Maintenance,Play games,Angry Birds 2,1,mistral_open,1.0
+Security and Privacy,Access to podcasts,Signal,1,anthropic,1.0
+Security and Privacy,Collaborate with others,Signal Messenger,1,gemini,1.0
+Security and Privacy,Keeping up with friends,Signal,1,mistral_open,1.0
+Security and Privacy,List items for sale,Apple Store,1,anthropic,1.0
+Security and Privacy,Photo effects,Signal,1,anthropic,1.0
+Security and Privacy,Play games,Apple Arcade,1,anthropic,1.0
+Security and Privacy,Play games,Monument Valley 2,1,openai,1.0
+Security and Privacy,Search for offer on item,Apple Store,1,anthropic,1.0
+Security and Privacy,Send files,Signal,1,gemini,1.0
+Security and Privacy,Watch streams,Signal,1,anthropic,1.0
+User Engagement,Build photo collage,"Canva: Design, Photo & Video",1,mistral,1.0
+User Engagement,Go Live,TikTok,1,gemma3_4b,1.0
+User Engagement,Photo effects,Instagram,1,gemini,1.0
+User Interface and Experience,Play games,Google Play Games,1,anthropic,1.0
+User Interface and Experience,Search for offer on item,Honey (PayPal Honey),1,anthropic,1.0
+User Interface and Experience,Send files,AirDrop,1,anthropic,1.0
+User Ratings,Build photo collage,"Canva: Design, Photo & Video",1,mistral,1.0
+User Ratings,Go Live,AppStoreLive,1,mistral_open,1.0
+User Ratings,Go Live,Twitch: Live Game Streaming,1,mistral,1.0
+User Ratings,Keeping up with friends,WhatsApp Messenger,1,anthropic,1.0
+User Ratings,List items for sale,Curtsy,1,gemini,1.0
+User Ratings,List items for sale,"eBay: Buy & Sell Electronics, Fashion & More",1,mistral,1.0
+User Ratings,Play games,Monument Valley 2,1,openai,1.0
+User Ratings,Play playlist on shuffle mode,Musicolet Music Player,1,gemini,1.0
+User Ratings,Search for offer on item,Honey: Coupons & Rewards,1,anthropic,1.0
+User Ratings,Watch streams,Twitch: Live Game Streaming,1,mistral,1.0
+Security and Privacy,Play games,Lichess,1,gemini,1.5
+Security and Privacy,Play playlist on shuffle mode,Musicolet Music Player,1,gemini,1.5
+Accessibility Features,Go Live,StreamYard,1,mistral,2.0
+Accessibility Features,Play games,A Blind Legend,1,gemini,2.0
+Accessibility Features,Play games,Apple Arcade,1,anthropic,2.0
+Accessibility Features,Play games,Game Accessibility Toolkit,1,mistral,2.0
+Accessibility Features,Watch streams,Netflix,1,gemini,2.0
+Cost and Pricing,Collaborate with others,"Microsoft 365 (Word, Excel, PowerPoint)",1,mistral,2.0
+Cost and Pricing,Play games,Apple Arcade,1,anthropic,2.0
+Cost and Pricing,Search for offer on item,eBay Local Deals,1,gemma3_4b,2.0
+Cross-Platform Synchronization,Collaborate with others,"Microsoft 365 (Word, Excel, PowerPoint)",1,mistral,2.0
+Cross-Platform Synchronization,List items for sale,Amazon Seller,1,mistral,2.0
+Customer Support,Go Live,App2_GoLive,1,mistral_open,2.0
+Customer Support,List items for sale,Amazon,1,openai,2.0
+Customer Support,Play games,PlayStation App,1,anthropic,2.0
+Customer Support,Search for offer on item,Amazon Marketplace,1,gemma3_4b,2.0
+Customer Support,Watch streams,Amazon Prime Video,1,gemini,2.0
+Customer Support,Watch streams,Netflix,1,gemini,2.0
+Customization Options,Go Live,PRISM Live Studio,1,gemini,2.0
+Customization Options,List items for sale,Amazon Seller,1,mistral,2.0
+Feature Breadth and Richness,Build photo collage,"Canva: Design, Art & AI Editor",1,anthropic,2.0
+Feature Breadth and Richness,Build photo collage,Pic Collage Maker,1,llama31_8b,2.0
+Feature Breadth and Richness,Collaborate with others,"Microsoft 365 (Word, Excel, PowerPoint)",1,mistral,2.0
+Feature Breadth and Richness,List items for sale,Amazon Seller,1,mistral,2.0
+Integration with Other Services,Access to movies,Apple TV,1,anthropic,2.0
+Integration with Other Services,Collaborate with others,"Microsoft 365 (Word, Excel, PowerPoint)",1,mistral,2.0
+Integration with Other Services,Go Live,YouTube Live,1,mistral_open,2.0
+Integration with Other Services,Keeping up with friends,Slack,1,gemini,2.0
+Integration with Other Services,List items for sale,Amazon Seller,1,mistral,2.0
+Integration with Other Services,Photo effects,Snapchat,1,anthropic,2.0
+Integration with Other Services,Play games,Apple Arcade,1,anthropic,2.0
+Performance and Stability,Collaborate with others,"Microsoft 365 (Word, Excel, PowerPoint)",1,mistral,2.0
+Performance and Stability,List items for sale,Amazon,1,gptoss20b,2.0
+Platform and Device Compatibility,Collaborate with others,"Microsoft 365 (Word, Excel, PowerPoint)",1,mistral,2.0
+Popularity and Market Reach,Access to movies,YouTube,1,anthropic,2.0
+Popularity and Market Reach,Broadcast messages to multiple contacts,Facebook Messenger,1,mistral_open,2.0
+Popularity and Market Reach,Build photo collage,"Canva: Design, Art & AI Editor",1,anthropic,2.0
+Popularity and Market Reach,Build photo collage,"Canva: Design, Photo & Video",1,mistral,2.0
+Popularity and Market Reach,Collaborate with others,"Microsoft 365 (Word, Excel, Teams, etc.)",1,mistral,2.0
+Popularity and Market Reach,Go Live,Instagram,1,mistral,2.0
+Regional and Geographical Availability,Build photo collage,"Canva: Design, Art & AI Editor",1,anthropic,2.0
+Regional and Geographical Availability,Build photo collage,"Canva: Design, Photo & Video",1,mistral,2.0
+Regional and Geographical Availability,Collaborate with others,Facebook,1,openai,2.0
+Regional and Geographical Availability,Collaborate with others,"Microsoft 365 (Word, Excel, PowerPoint)",1,mistral,2.0
+Regional and Geographical Availability,Go Live,App Store,1,mistral_open,2.0
+Regional and Geographical Availability,Go Live,Instagram,1,mistral,2.0
+Regional and Geographical Availability,List items for sale,Facebook,1,deepseekr1_8b,2.0
+Regional and Geographical Availability,Watch streams,Netflix,1,gemini,2.0
+Regular Updates and Maintenance,Build photo collage,"Canva: Design, Art & AI Editor",1,anthropic,2.0
+Regular Updates and Maintenance,Collaborate with others,"Microsoft 365 (Word, Excel, PowerPoint)",1,mistral,2.0
+Regular Updates and Maintenance,Go Live,TikTok,1,gemma3_4b,2.0
+Regular Updates and Maintenance,List items for sale,Amazon Seller,1,mistral,2.0
+Security and Privacy,Broadcast messages to multiple contacts,Threema,1,gptoss20b,2.0
+Security and Privacy,Collaborate with others,Threema Work,1,gemini,2.0
+Security and Privacy,Go Live,Microsoft Teams,1,gemini,2.0
+Security and Privacy,List items for sale,Swappa,1,gemini,2.0
+Security and Privacy,Photo effects,ProtonMail,1,anthropic,2.0
+Security and Privacy,Play games,Google Play Games,1,anthropic,2.0
+Security and Privacy,Send files,Threema,1,gptoss20b,2.0
+Security and Privacy,Write notes,Cryptomator,1,qwen3_8b,2.0
+User Engagement,Access to movies,YouTube,1,anthropic,2.0
+User Engagement,Build photo collage,"Canva: Design, Art & AI Editor",1,anthropic,2.0
+User Engagement,Search for offer on item,Temu,1,gemini,2.0
+User Interface and Experience,List items for sale,Amazon Seller,1,mistral,2.0
+User Interface and Experience,Play games,Alto's Odyssey,1,gemini,2.0
+User Interface and Experience,Play games,Apple Arcade,1,anthropic,2.0
+User Ratings,Build photo collage,PicsArt Photo & Video Editor,1,mistral,2.0
+User Ratings,Go Live,"YouTube: Watch, Listen, Stream",1,mistral,2.0
+User Ratings,Play playlist on shuffle mode,Oto Music,1,gemini,2.0
+User Ratings,Watch streams,"YouTube: Watch, Listen, Stream",1,mistral,2.0
+Cost and Pricing,List items for sale,Facebook,1,deepseekr1_8b,2.5
+Platform and Device Compatibility,Watch streams,Netflix,1,gemini,2.5
+Security and Privacy,Play games,Alto's Adventure,1,openai,2.5
+User Engagement,Collaborate with others,WhatsApp,1,gemini,2.5
+User Ratings,Play games,Stardew Valley,1,openai,2.5
+Accessibility Features,Access to podcasts,Podcast Addict,1,llama31_8b,3.0
+Accessibility Features,Build photo collage,PicFlow - Photo Collage Maker,1,gemma3_4b,3.0
+Accessibility Features,Collaborate with others,Google Meet,1,anthropic,3.0
+Accessibility Features,Go Live,Microsoft Teams,1,gemini,3.0
+Accessibility Features,Play games,Blind Drive,1,gemini,3.0
+Accessibility Features,Play games,Google Play Games,1,anthropic,3.0
+Accessibility Features,Play games,Microsoft Xbox,1,mistral,3.0
+Accessibility Features,Search for offer on item,Walmart Shopping & Grocery,1,gemini,3.0
+Accessibility Features,Watch streams,Facebook Watch,1,anthropic,3.0
+Cost and Pricing,Access to movies,Amazon Freevee,1,gemini,3.0
+Cost and Pricing,Access to movies,Freevee,1,openai,3.0
+Cost and Pricing,Watch streams,Facebook,1,anthropic,3.0
+Cross-Platform Synchronization,Collaborate with others,Google Drive,1,anthropic,3.0
+Cross-Platform Synchronization,List items for sale,Shopify,1,gemini,3.0
+Cross-Platform Synchronization,Send files,Microsoft OneDrive,1,gptoss20b,3.0
+Customer Support,Broadcast messages to multiple contacts,Zoho Cliq,1,gemini,3.0
+Customer Support,Go Live,App3_GoLive,1,mistral_open,3.0
+Customer Support,List items for sale,Shopify,1,gemini,3.0
+Customer Support,List items for sale,Swappa,1,gemini,3.0
+Customer Support,Play games,Steam Link,1,anthropic,3.0
+Customer Support,Search for offer on item,Walmart Marketplace,1,gemma3_4b,3.0
+Customer Support,Send files,Microsoft OneDrive,1,gptoss20b,3.0
+Customization Options,Access to movies,VLC Media Player,1,anthropic,3.0
+Customization Options,Keeping up with friends,Tumblr,1,gemini,3.0
+Customization Options,List items for sale,Squarespace,1,gemini,3.0
+Customization Options,Photo effects,VSCO: Photo & Video Editor,1,anthropic,3.0
+Customization Options,Play playlist on shuffle mode,GoneMAD Music Player,1,gemini,3.0
+Customization Options,Write notes,Logseq,1,openai,3.0
+Customization Options,Write notes,OneNote,1,mistral,3.0
+Feature Breadth and Richness,Search for offer on item,Walmart Marketplace,1,gemma3_4b,3.0
+Integration with Other Services,Broadcast messages to multiple contacts,HubSpot,1,gemini,3.0
+Integration with Other Services,Collaborate with others,Google Workspace (Google Docs/Sheets/Slides),1,anthropic,3.0
+Integration with Other Services,List items for sale,Shopify,1,gemini,3.0
+Integration with Other Services,Play games,Facebook Gaming,1,anthropic,3.0
+Performance and Stability,Collaborate with others,Google Docs,1,anthropic,3.0
+Performance and Stability,Rate movies,Fandango Movies,1,gemma3_4b,3.0
+Performance and Stability,Search for offer on item,Walmart,1,gemini,3.0
+Platform and Device Compatibility,Build photo collage,Picsart,1,gemini,3.0
+Platform and Device Compatibility,Keeping up with friends,Facebook Messenger,1,gemini,3.0
+Popularity and Market Reach,Collaborate with others,Google Docs,1,anthropic,3.0
+Popularity and Market Reach,Go Live,Facebook,1,mistral,3.0
+Popularity and Market Reach,Search for offer on item,Walmart,1,gemini,3.0
+Popularity and Market Reach,Watch streams,Facebook,1,anthropic,3.0
+Regional and Geographical Availability,Collaborate with others,Google Workspace,1,mistral_open,3.0
+Regional and Geographical Availability,Collaborate with others,WhatsApp,1,gemini,3.0
+Regional and Geographical Availability,Go Live,YouTube,1,mistral,3.0
+Regional and Geographical Availability,Photo effects,TikTok,1,openai,3.0
+Regional and Geographical Availability,Photo effects,VSCO: Photo & Video Editor,1,anthropic,3.0
+Regional and Geographical Availability,Play games,Xbox Game Pass,1,mistral,3.0
+Regional and Geographical Availability,Search for offer on item,AliExpress,1,gemini,3.0
+Regional and Geographical Availability,Watch streams,Facebook Watch,1,anthropic,3.0
+Regular Updates and Maintenance,Build photo collage,PhotoGrid: Video & Pic Collage Maker,1,mistral,3.0
+Regular Updates and Maintenance,Build photo collage,PicFlow - Photo Collage Maker,1,gemma3_4b,3.0
+Regular Updates and Maintenance,Collaborate with others,Google Docs,1,anthropic,3.0
+Security and Privacy,Access to podcasts,Podverse,1,gemini,3.0
+Security and Privacy,Broadcast messages to multiple contacts,Session,1,gemini,3.0
+Security and Privacy,Collaborate with others,Element,1,gemini,3.0
+Security and Privacy,Collaborate with others,Tresorit,1,anthropic,3.0
+Security and Privacy,Keeping up with friends,Session,1,gemini,3.0
+Security and Privacy,Play games,Baba Is You,1,qwen3_8b,3.0
+Security and Privacy,Play games,Shattered Pixel Dungeon,1,gemini,3.0
+Security and Privacy,Play games,Stardew Valley,1,openai,3.0
+Security and Privacy,Play games,Steam Link,1,anthropic,3.0
+Security and Privacy,Watch streams,PeerTube,1,gemini,3.0
+Security and Privacy,Watch streams,Vimeo,1,gemini,3.0
+User Engagement,Collaborate with others,Google Docs,1,anthropic,3.0
+User Engagement,Photo effects,Snapchat,1,gemini,3.0
+User Engagement,Search for offer on item,Walmart,1,gemini,3.0
+User Engagement,Watch streams,TikTok,1,anthropic,3.0
+User Interface and Experience,Play games,Sky: Children of the Light,1,gemini,3.0
+User Interface and Experience,Watch streams,Netflix,1,anthropic,3.0
+User Interface and Experience,Write notes,OneNote,1,mistral,3.0
+User Ratings,Build photo collage,PhotoGrid: Video & Pic Collage Maker,1,mistral,3.0
+User Ratings,Collaborate with others,Todoist,1,gemini,3.0
+User Ratings,Rate movies,"Flixster - Movies, TV and Showtimes",1,mistral,3.0
+User Ratings,Search for offer on item,RetailMeNot: Coupons & Deals,1,anthropic,3.0
+Accessibility Features,Play games,Monument Valley 2,1,gptoss20b,3.5
+Regular Updates and Maintenance,Build photo collage,Instagram,1,anthropic,3.5
+Security and Privacy,Play games,The Witness,1,qwen3_8b,3.5
+User Ratings,Play games,Alto's Adventure,1,openai,3.5
+Accessibility Features,Collaborate with others,Zoom Cloud Meetings,1,gemini,4.0
+Accessibility Features,Go Live,Netflix,1,mistral_open,4.0
+Accessibility Features,Play games,Nintendo Switch Online,1,anthropic,4.0
+Cross-Platform Synchronization,Build photo collage,PicsArt Photo & Video Editor,1,mistral,4.0
+Cross-Platform Synchronization,List items for sale,Etsy Seller,1,gemini,4.0
+Cross-Platform Synchronization,Photo effects,Google Photos,1,gemini,4.0
+Cross-Platform Synchronization,Photo effects,Prisma Photo Editor,1,mistral_open,4.0
+Cross-Platform Synchronization,Send files,Apple iCloud Drive,1,mistral,4.0
+Cross-Platform Synchronization,Watch streams,Disney+,1,anthropic,4.0
+Customer Support,Go Live,App4_GoLive,1,mistral_open,4.0
+Customer Support,Photo effects,Adobe Lightroom,1,mistral_open,4.0
+Customer Support,Photo effects,Prisma Photo Editor,1,mistral_open,4.0
+Customer Support,Photo effects,VSCO: Photo & Video Editor,1,anthropic,4.0
+Customer Support,Play games,Apple Arcade,1,anthropic,4.0
+Customer Support,Search for offer on item,Best Buy,1,gemini,4.0
+Customer Support,Send files,Box,1,gptoss20b,4.0
+Customization Options,Access to movies,Emby,1,openai,4.0
+Customization Options,Access to movies,Stremio,1,openai,4.0
+Customization Options,Collaborate with others,"Google Workspace (Docs, Sheets, Slides)",1,mistral,4.0
+Customization Options,Keeping up with friends,Amino,1,gemini,4.0
+Customization Options,Photo effects,Adobe Lightroom: Photo Editor,1,anthropic,4.0
+Customization Options,Photo effects,Prisma Photo Editor,1,mistral_open,4.0
+Customization Options,Play games,Gacha Life 2,1,anthropic,4.0
+Customization Options,Play games,Stardew Valley,1,mistral,4.0
+Customization Options,Play games,Terraria,1,gptoss20b,4.0
+Feature Breadth and Richness,Access to movies,HBO Max,1,anthropic,4.0
+Feature Breadth and Richness,Collaborate with others,monday.com,1,gemini,4.0
+Feature Breadth and Richness,Photo effects,VSCO: Photo & Video Editor,1,anthropic,4.0
+Feature Breadth and Richness,Play games,Steam Link,1,qwen3_8b,4.0
+Integration with Other Services,Play games,Discord,1,anthropic,4.0
+Performance and Stability,Access to movies,HBO Max,1,anthropic,4.0
+Performance and Stability,Photo effects,Prisma Photo Editor,1,mistral_open,4.0
+Platform and Device Compatibility,Access to movies,HBO Max,1,anthropic,4.0
+Platform and Device Compatibility,Build photo collage,Instagram,1,anthropic,4.0
+Platform and Device Compatibility,Photo effects,Prisma Photo Editor,1,mistral_open,4.0
+Platform and Device Compatibility,Watch streams,Amazon Prime Video,1,gemini,4.0
+Popularity and Market Reach,Access to podcasts,YouTube Music,1,mistral,4.0
+Popularity and Market Reach,Broadcast messages to multiple contacts,Instagram,1,gemini,4.0
+Popularity and Market Reach,Build photo collage,Pinterest,1,mistral_open,4.0
+Popularity and Market Reach,Go Live,YouTube,1,mistral,4.0
+Popularity and Market Reach,Search for offer on item,AliExpress,1,gemini,4.0
+Popularity and Market Reach,Search for offer on item,Temu,1,gemini,4.0
+Popularity and Market Reach,Send files,Messenger,1,gemini,4.0
+Popularity and Market Reach,Watch streams,TikTok,1,anthropic,4.0
+Regional and Geographical Availability,Access to movies,YouTube,1,anthropic,4.0
+Regional and Geographical Availability,Access to podcasts,Amazon Music,1,mistral,4.0
+Regional and Geographical Availability,Go Live,TikTok,1,mistral,4.0
+Regional and Geographical Availability,List items for sale,AliExpress,1,openai,4.0
+Regional and Geographical Availability,Photo effects,Adobe Lightroom: Photo Editor,1,anthropic,4.0
+Regional and Geographical Availability,Photo effects,Prisma Photo Editor,1,mistral_open,4.0
+Regional and Geographical Availability,Write notes,Samsung Notes,1,gemini,4.0
+Regular Updates and Maintenance,Access to movies,HBO Max,1,anthropic,4.0
+Regular Updates and Maintenance,Photo effects,PicsArt Photo Editor,1,gptoss20b,4.0
+Regular Updates and Maintenance,Photo effects,Prisma Photo Editor,1,mistral_open,4.0
+Regular Updates and Maintenance,Watch streams,Netflix,1,gemini,4.0
+Security and Privacy,Broadcast messages to multiple contacts,Olvid,1,gemini,4.0
+Security and Privacy,Collaborate with others,Element (Matrix),1,openai,4.0
+Security and Privacy,Go Live,Zoom,1,gemini,4.0
+Security and Privacy,Keeping up with friends,Briar,1,gemini,4.0
+Security and Privacy,Keeping up with friends,Wire,1,gptoss20b,4.0
+Security and Privacy,Keeping up with friends,iMessage,1,gptoss20b,4.0
+Security and Privacy,Keeping up with friends,iMessage (Apple),1,mistral,4.0
+Security and Privacy,Photo effects,Prisma Photo Editor,1,mistral_open,4.0
+Security and Privacy,Play games,Mini Metro,1,openai,4.0
+Security and Privacy,Play games,Osmo,1,qwen3_8b,4.0
+Security and Privacy,Play games,Xbox Game Pass,1,anthropic,4.0
+Security and Privacy,Send files,SpiderOak,1,mistral,4.0
+Security and Privacy,Send files,Tresorit,1,openai,4.0
+Security and Privacy,Write notes,Turtl,1,anthropic,4.0
+User Engagement,Access to movies,Prime Video,1,gemini,4.0
+User Engagement,Broadcast messages to multiple contacts,Facebook Messenger,1,mistral_open,4.0
+User Engagement,Go Live,Facebook,1,mistral_open,4.0
+User Interface and Experience,Access to movies,HBO Max,1,anthropic,4.0
+User Interface and Experience,Broadcast messages to multiple contacts,Facebook Messenger,1,mistral_open,4.0
+User Interface and Experience,Play games,Steam Link,1,anthropic,4.0
+User Interface and Experience,Watch streams,Disney+,1,anthropic,4.0
+User Ratings,Photo effects,Prisma Photo Editor,1,mistral_open,4.0
+User Ratings,Watch streams,"TikTok - Videos, Music, LIVE",1,mistral,4.0
+Cross-Platform Synchronization,Broadcast messages to multiple contacts,Telegram Messenger,1,llama31_8b,4.5
+Integration with Other Services,Write notes,Coda,1,gemini,4.5
+Security and Privacy,Collaborate with others,Threema,1,gptoss20b,4.5
+Security and Privacy,Keeping up with friends,Element,1,gemini,4.5
+Security and Privacy,Send files,Wickr Me,1,mistral,4.5
+Accessibility Features,Play games,PlayStation App,1,anthropic,5.0
+Accessibility Features,Play games,The Room,1,gptoss20b,5.0
+Cost and Pricing,Access to movies,Hoopla,1,anthropic,5.0
+Cost and Pricing,Go Live,TikTok LIVE,1,mistral,5.0
+Cost and Pricing,Play playlist on shuffle mode,BlackPlayer Music Player,1,gemini,5.0
+Cost and Pricing,Watch streams,TikTok,1,anthropic,5.0
+Cross-Platform Synchronization,Access to movies,HBO Max,1,anthropic,5.0
+Cross-Platform Synchronization,Go Live,TikTok LIVE,1,mistral,5.0
+Cross-Platform Synchronization,Keeping up with friends,Slack,1,gemini,5.0
+Cross-Platform Synchronization,Play games,Mobile Legends: Bang Bang,1,gemma3_4b,5.0
+Customer Support,Access to movies,HBO Max,1,anthropic,5.0
+Customer Support,Go Live,App5_GoLive,1,mistral_open,5.0
+Customer Support,Go Live,TikTok LIVE,1,mistral,5.0
+Customer Support,Play games,Google Play Games,1,anthropic,5.0
+Customization Options,Access to movies,Infuse,1,gemini,5.0
+Customization Options,Access to movies,VLC for Mobile,1,openai,5.0
+Customization Options,Access to podcasts,AntennaPod,1,anthropic,5.0
+Customization Options,Go Live,TikTok LIVE,1,mistral,5.0
+Customization Options,Play games,The Sims,1,deepseekr1_8b,5.0
+Customization Options,Rate movies,Movistapp,1,anthropic,5.0
+Feature Breadth and Richness,Play games,Xbox Game Pass,1,anthropic,5.0
+Integration with Other Services,Access to movies,Google TV,1,anthropic,5.0
+Integration with Other Services,Build photo collage,Instagram,1,anthropic,5.0
+Integration with Other Services,Go Live,TikTok LIVE,1,mistral,5.0
+Integration with Other Services,Play games,Steam Link,1,anthropic,5.0
+Integration with Other Services,Watch streams,TikTok,1,anthropic,5.0
+Integration with Other Services,Watch streams,TikTok LIVE,1,mistral,5.0
+Performance and Stability,Go Live,TikTok LIVE,1,mistral,5.0
+Performance and Stability,Play games,NVIDIA App,1,mistral,5.0
+Performance and Stability,Watch streams,TikTok LIVE,1,mistral,5.0
+Popularity and Market Reach,Access to movies,HBO Max,1,anthropic,5.0
+Popularity and Market Reach,Build photo collage,Adobe Photoshop Express:Photo Editor,1,mistral,5.0
+Popularity and Market Reach,Watch streams,Kuaishou,1,mistral,5.0
+Popularity and Market Reach,Write notes,Samsung Notes,1,gemini,5.0
+Regional and Geographical Availability,Keeping up with friends,QQ,1,mistral,5.0
+Regional and Geographical Availability,Send files,KakaoTalk,1,anthropic,5.0
+Regional and Geographical Availability,Watch streams,Kuaishou,1,mistral,5.0
+Regular Updates and Maintenance,Go Live,TikTok LIVE,1,mistral,5.0
+Security and Privacy,Access to movies,HBO Max,1,anthropic,5.0
+Security and Privacy,Broadcast messages to multiple contacts,ProtonMail,1,mistral_open,5.0
+Security and Privacy,Collaborate with others,Wickr Me,1,anthropic,5.0
+Security and Privacy,Go Live,Webex by Cisco,1,anthropic,5.0
+Security and Privacy,Play games,PlayStation App,1,anthropic,5.0
+Security and Privacy,Watch streams,Disney+,1,anthropic,5.0
+Security and Privacy,Write notes,Laverna,1,anthropic,5.0
+Security and Privacy,Write notes,Notable,1,mistral,5.0
+User Engagement,Go Live,TikTok LIVE,1,mistral,5.0
+User Engagement,Watch streams,Facebook,1,anthropic,5.0
+User Interface and Experience,Access to movies,Max,1,qwen3_8b,5.0
+User Interface and Experience,Watch streams,Hulu,1,anthropic,5.0
+User Ratings,Broadcast messages to multiple contacts,Viber Messenger,1,mistral,5.0
+User Ratings,Go Live,InstagramLive,1,mistral_open,5.0
+User Ratings,Go Live,TikTok - Live Stream & Watch,1,mistral,5.0
+User Ratings,List items for sale,OfferUp - Buy. Sell. Simple.,1,mistral,5.0
+User Ratings,Photo effects,Pixelmator Photo,1,gemma3_4b,5.0
+User Ratings,Play games,Alto's Odyssey,1,openai,5.0
+User Ratings,Watch streams,Vimeo,1,llama31_8b,5.0

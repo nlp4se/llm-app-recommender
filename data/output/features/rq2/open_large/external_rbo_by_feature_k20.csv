@@ -1,0 +1,1446 @@
+model1,model2,feature,rbo
+llama31_8b,gemma3_4b,Read ebooks,0.22217083760882153
+llama31_8b,gemma3_4b,Download books,0.2588612027588573
+llama31_8b,gemma3_4b,Sync reading progress,0.15725560331724275
+llama31_8b,gemma3_4b,Highlight text,0.018037512175880153
+llama31_8b,gemma3_4b,Search within books,0.3315335700826706
+llama31_8b,gemma3_4b,Send messages,0.66995816526894
+llama31_8b,gemma3_4b,Private chat with users,0.5817692430187449
+llama31_8b,gemma3_4b,Real-time messaging,0.6666770265553035
+llama31_8b,gemma3_4b,Access courses,0.6843178063058977
+llama31_8b,gemma3_4b,Watch lectures,0.44471283904702064
+llama31_8b,gemma3_4b,Take quizzes,0.172628684853216
+llama31_8b,gemma3_4b,Track learning progress,0.41313971094721486
+llama31_8b,gemma3_4b,Offline learning,0.43704433246211855
+llama31_8b,gemma3_4b,Watch live TV,0.3193455641181084
+llama31_8b,gemma3_4b,Watch videos,0.6897147609805658
+llama31_8b,gemma3_4b,Transfer money,0.6691024966613532
+llama31_8b,gemma3_4b,Send money to anyone,0.7041975434191184
+llama31_8b,gemma3_4b,Receive money,0.6408211164331493
+llama31_8b,gemma3_4b,Pay bills,0.06646541896171143
+llama31_8b,gemma3_4b,Pay credit card bills,0.017658533458295274
+llama31_8b,gemma3_4b,Schedule payments,0.020792030694470172
+llama31_8b,gemma3_4b,Share payments,0.5848020270733886
+llama31_8b,gemma3_4b,View account balances,0.015207956715553592
+llama31_8b,gemma3_4b,View transaction history,0.05955391890179536
+llama31_8b,gemma3_4b,Receive payment receipts,0.11161543804605188
+llama31_8b,gemma3_4b,Store bill details securely,0.051175062503703114
+llama31_8b,gemma3_4b,Activate cards for overseas usage,0.03990402738059745
+llama31_8b,gemma3_4b,Currency converter,0.06494774773839497
+llama31_8b,gemma3_4b,Financial calculators,0.34876177690597104
+llama31_8b,gemma3_4b,Remittances overseas,0.21656853231867995
+llama31_8b,gemma3_4b,Track workouts,0.330507472355536
+llama31_8b,gemma3_4b,Monitor heart rate,0.07159973655998043
+llama31_8b,gemma3_4b,Set fitness goals,0.3699701717770067
+llama31_8b,gemma3_4b,Track weight,0.4701374712689704
+llama31_8b,gemma3_4b,Follow training plans,0.2975309948578336
+llama31_8b,gemma3_4b,View progress charts,0.4753946835185744
+llama31_8b,gemma3_4b,Get audio coaching,0.026748609829890087
+llama31_8b,gemma3_4b,Track routes on map,0.6024058813762351
+llama31_8b,gemma3_4b,Diet planning,0.46596996986903105
+llama31_8b,gemma3_4b,Calorie tracking,0.48460748508571916
+llama31_8b,gemma3_4b,Turn-by-turn navigation,0.7338204174222979
+llama31_8b,gemma3_4b,Find nearby places,0.3225899785951295
+llama31_8b,gemma3_4b,View maps offline,0.3689053107142685
+llama31_8b,gemma3_4b,Check public transport routes,0.5238390319888873
+llama31_8b,gemma3_4b,Save favorite locations,0.3631888354070349
+llama31_8b,gemma3_4b,Real-time traffic updates,0.41354663891269
+llama31_8b,gemma3_4b,Stream music,0.6761595834711024
+llama31_8b,gemma3_4b,Create playlists,0.6774160074200367
+llama31_8b,gemma3_4b,Download content for offline use,0.0816510250589169
+llama31_8b,gemma3_4b,Audio playback controls,0.4609994548776346
+llama31_8b,gemma3_4b,Record audio,0.13427782031567484
+llama31_8b,gemma3_4b,Edit audio files,0.3122378402470361
+llama31_8b,gemma3_4b,Access breaking news,0.48845279922436424
+llama31_8b,gemma3_4b,Personalized news feed,0.48894290894533626
+llama31_8b,gemma3_4b,Read articles offline,0.44630333213132645
+llama31_8b,gemma3_4b,Bookmark articles,0.46503881171746797
+llama31_8b,gemma3_4b,Search news topics,0.6156969950240007
+llama31_8b,gemma3_4b,Listen to interviews,0.07557429971293296
+llama31_8b,gemma3_4b,Receive news notifications,0.48494313024845936
+llama31_8b,gemma3_4b,Browse by categories,0.3172386852525858
+llama31_8b,gemma3_4b,Set wallpapers,0.02341113892420525
+llama31_8b,gemma3_4b,Customize themes,0.00425390499019999
+llama31_8b,gemma3_4b,Change fonts,0.004720710691077047
+llama31_8b,gemma3_4b,Automatic wallpaper rotation,0.06187913813873878
+llama31_8b,gemma3_4b,Customize interface settings,0.0724032250996365
+llama31_8b,gemma3_4b,Photo editing tools,0.30996135651614154
+llama31_8b,gemma3_4b,Apply filters and effects,0.2694544536848669
+llama31_8b,gemma3_4b,Create collages,0.141773840918321
+llama31_8b,gemma3_4b,Adjust image settings,0.3043338645357585
+llama31_8b,gemma3_4b,Save images locally,0.31633243668145594
+llama31_8b,gemma3_4b,Share edited photos,0.3508509087969718
+llama31_8b,gemma3_4b,Backup and restore data,0.3863486833792994
+llama31_8b,gemma3_4b,Sync across devices,0.23254064778625338
+llama31_8b,gemma3_4b,Search for products,0.09579909027326963
+llama31_8b,gemma3_4b,Compare prices,0.2957875155214551
+llama31_8b,gemma3_4b,Add items to wishlist,0.20752162453128314
+llama31_8b,gemma3_4b,Secure checkout,0.09372981380306808
+llama31_8b,gemma3_4b,Track order delivery status,0.038329883533937396
+llama31_8b,gemma3_4b,Browse by category,0.3448565034220427
+llama31_8b,gemma3_4b,View product reviews,0.38425356090180235
+llama31_8b,gemma3_4b,Barcode scanning for items,0.0385103320220877
+llama31_8b,gemma3_4b,Manage shopping cart,0.09052544425300173
+llama31_8b,gemma3_4b,Receive daily promotions,0.02195522103114169
+llama31_8b,gemma3_4b,Share photos and videos,0.6762482274697915
+llama31_8b,gemma3_4b,Follow users,0.6218923451918594
+llama31_8b,gemma3_4b,Post content updates,0.6108736217065828
+llama31_8b,gemma3_4b,Share content on social networks,0.45059847177484613
+llama31_8b,gemma3_4b,Discover new people,0.22700226682871885
+llama31_8b,gemma3_4b,Comment on posts,0.6546808140922802
+llama31_8b,gemma3_4b,Receive push notifications,0.43174513266311343
+llama31_8b,gemma3_4b,File management,0.012322250290471161
+llama31_8b,gemma3_4b,Search with suggestions,0.055199503517665054
+llama31_8b,gemma3_4b,Book taxis,0.5445556272737196
+llama31_8b,gemma3_4b,Track taxi location,0.25394399152546226
+llama31_8b,gemma3_4b,Calculate fares,0.3825516678705599
+llama31_8b,gemma3_4b,Share media,0.03405751880073456
+llama31_8b,gemma3_4b,Access subtitles,0.5803978985144645
+llama31_8b,gemma3_4b,Video quality control,0.2248080837290512
+llama31_8b,gemma3_4b,Weather forecast,0.2946831843493529
+llama31_8b,qwen3_8b,Read ebooks,0.1544960834646963
+llama31_8b,qwen3_8b,Download books,0.23460919473934008
+llama31_8b,qwen3_8b,Sync reading progress,0.167371665164675
+llama31_8b,qwen3_8b,Highlight text,0.08754767706219507
+llama31_8b,qwen3_8b,Search within books,0.3307082095144196
+llama31_8b,qwen3_8b,Send messages,0.6737997608263896
+llama31_8b,qwen3_8b,Private chat with users,0.6231763682526414
+llama31_8b,qwen3_8b,Real-time messaging,0.6220306038847072
+llama31_8b,qwen3_8b,Access courses,0.6382526490628146
+llama31_8b,qwen3_8b,Watch lectures,0.4548154314336054
+llama31_8b,qwen3_8b,Take quizzes,0.42058815474855005
+llama31_8b,qwen3_8b,Track learning progress,0.5655820949572135
+llama31_8b,qwen3_8b,Offline learning,0.5372387208286156
+llama31_8b,qwen3_8b,Watch live TV,0.40439607408684514
+llama31_8b,qwen3_8b,Watch videos,0.6087394706581333
+llama31_8b,qwen3_8b,Transfer money,0.6656637763445592
+llama31_8b,qwen3_8b,Send money to anyone,0.6210733106398312
+llama31_8b,qwen3_8b,Receive money,0.6441589320077168
+llama31_8b,qwen3_8b,Pay bills,0.20590998896983492
+llama31_8b,qwen3_8b,Pay credit card bills,0.07857377028033573
+llama31_8b,qwen3_8b,Schedule payments,0.08892480467079142
+llama31_8b,qwen3_8b,Share payments,0.5483176269748187
+llama31_8b,qwen3_8b,View account balances,0.05109276451920148
+llama31_8b,qwen3_8b,View transaction history,0.18220710377976068
+llama31_8b,qwen3_8b,Receive payment receipts,0.42073752071645815
+llama31_8b,qwen3_8b,Store bill details securely,0.05962215409068291
+llama31_8b,qwen3_8b,Activate cards for overseas usage,0.14695971686335763
+llama31_8b,qwen3_8b,Currency converter,0.1068009198733078
+llama31_8b,qwen3_8b,Financial calculators,0.07345222071539863
+llama31_8b,qwen3_8b,Remittances overseas,0.3349823753603304
+llama31_8b,qwen3_8b,Track workouts,0.34702003586366736
+llama31_8b,qwen3_8b,Monitor heart rate,0.1070057768292872
+llama31_8b,qwen3_8b,Set fitness goals,0.47144190375904993
+llama31_8b,qwen3_8b,Track weight,0.36285770300397097
+llama31_8b,qwen3_8b,Follow training plans,0.27532403209910067
+llama31_8b,qwen3_8b,View progress charts,0.31820848498443705
+llama31_8b,qwen3_8b,Get audio coaching,0.2605898115297874
+llama31_8b,qwen3_8b,Track routes on map,0.5431817811966296
+llama31_8b,qwen3_8b,Diet planning,0.30451392086457796
+llama31_8b,qwen3_8b,Calorie tracking,0.40011073927814594
+llama31_8b,qwen3_8b,Turn-by-turn navigation,0.6107064783832876
+llama31_8b,qwen3_8b,Find nearby places,0.6192870950882291
+llama31_8b,qwen3_8b,View maps offline,0.39375868467351105
+llama31_8b,qwen3_8b,Check public transport routes,0.4615038421606462
+llama31_8b,qwen3_8b,Save favorite locations,0.5811444800006134
+llama31_8b,qwen3_8b,Real-time traffic updates,0.5026301356735078
+llama31_8b,qwen3_8b,Stream music,0.6642536981744065
+llama31_8b,qwen3_8b,Create playlists,0.6391015942128
+llama31_8b,qwen3_8b,Download content for offline use,0.10278841367045466
+llama31_8b,qwen3_8b,Audio playback controls,0.37749355477088686
+llama31_8b,qwen3_8b,Record audio,0.2151192322989598
+llama31_8b,qwen3_8b,Edit audio files,0.18680858422870159
+llama31_8b,qwen3_8b,Access breaking news,0.45181515858370974
+llama31_8b,qwen3_8b,Personalized news feed,0.4880337649464891
+llama31_8b,qwen3_8b,Read articles offline,0.5445716257547729
+llama31_8b,qwen3_8b,Bookmark articles,0.489246508572778
+llama31_8b,qwen3_8b,Search news topics,0.5474300174966055
+llama31_8b,qwen3_8b,Listen to interviews,0.08756759114312444
+llama31_8b,qwen3_8b,Receive news notifications,0.46729905456755216
+llama31_8b,qwen3_8b,Browse by categories,0.23070154473086574
+llama31_8b,qwen3_8b,Set wallpapers,0.18436114971950646
+llama31_8b,qwen3_8b,Customize themes,0.022559567994357956
+llama31_8b,qwen3_8b,Change fonts,0.035323930421651044
+llama31_8b,qwen3_8b,Automatic wallpaper rotation,0.11175566816765647
+llama31_8b,qwen3_8b,Customize interface settings,0.08735815637243516
+llama31_8b,qwen3_8b,Photo editing tools,0.3659954643687029
+llama31_8b,qwen3_8b,Apply filters and effects,0.1991591218747701
+llama31_8b,qwen3_8b,Create collages,0.12067246032770342
+llama31_8b,qwen3_8b,Adjust image settings,0.23906604618666652
+llama31_8b,qwen3_8b,Save images locally,0.2465031775307105
+llama31_8b,qwen3_8b,Share edited photos,0.24239067270061354
+llama31_8b,qwen3_8b,Backup and restore data,0.4877833910845857
+llama31_8b,qwen3_8b,Sync across devices,0.4862592971836526
+llama31_8b,qwen3_8b,Search for products,0.34740423017168376
+llama31_8b,qwen3_8b,Compare prices,0.24886194983550985
+llama31_8b,qwen3_8b,Add items to wishlist,0.302778976233545
+llama31_8b,qwen3_8b,Secure checkout,0.3358716227724001
+llama31_8b,qwen3_8b,Track order delivery status,0.030637315637989392
+llama31_8b,qwen3_8b,Browse by category,0.2008662504734314
+llama31_8b,qwen3_8b,View product reviews,0.4127754849250698
+llama31_8b,qwen3_8b,Barcode scanning for items,0.14365417285006155
+llama31_8b,qwen3_8b,Manage shopping cart,0.24938740748569466
+llama31_8b,qwen3_8b,Receive daily promotions,0.09578413227073737
+llama31_8b,qwen3_8b,Share photos and videos,0.694828796169615
+llama31_8b,qwen3_8b,Follow users,0.7123012425460834
+llama31_8b,qwen3_8b,Post content updates,0.6399828386698667
+llama31_8b,qwen3_8b,Share content on social networks,0.6127721996942723
+llama31_8b,qwen3_8b,Discover new people,0.6260305657584311
+llama31_8b,qwen3_8b,Comment on posts,0.6639074353200246
+llama31_8b,qwen3_8b,Receive push notifications,0.4081489034525953
+llama31_8b,qwen3_8b,File management,0.09230259073064055
+llama31_8b,qwen3_8b,Search with suggestions,0.05107378483366042
+llama31_8b,qwen3_8b,Book taxis,0.537082341867292
+llama31_8b,qwen3_8b,Track taxi location,0.1983285686056367
+llama31_8b,qwen3_8b,Calculate fares,0.39984427833310604
+llama31_8b,qwen3_8b,Share media,0.6085757806086218
+llama31_8b,qwen3_8b,Access subtitles,0.2681886873605492
+llama31_8b,qwen3_8b,Video quality control,0.18744346832413478
+llama31_8b,qwen3_8b,Weather forecast,0.2899364201726074
+llama31_8b,gptoss20b,Read ebooks,0.23061479350827888
+llama31_8b,gptoss20b,Download books,0.27765930156038326
+llama31_8b,gptoss20b,Sync reading progress,0.18458048602376007
+llama31_8b,gptoss20b,Highlight text,0.07230689405540998
+llama31_8b,gptoss20b,Search within books,0.25538903488819337
+llama31_8b,gptoss20b,Send messages,0.6782106461141223
+llama31_8b,gptoss20b,Private chat with users,0.6334673750510273
+llama31_8b,gptoss20b,Real-time messaging,0.6256376918173768
+llama31_8b,gptoss20b,Access courses,0.7039672336167022
+llama31_8b,gptoss20b,Watch lectures,0.5166632220182575
+llama31_8b,gptoss20b,Take quizzes,0.38615510765137223
+llama31_8b,gptoss20b,Track learning progress,0.6306957901315596
+llama31_8b,gptoss20b,Offline learning,0.5813534660685608
+llama31_8b,gptoss20b,Watch live TV,0.3495528679005078
+llama31_8b,gptoss20b,Watch videos,0.5303054688789233
+llama31_8b,gptoss20b,Transfer money,0.7364973181717531
+llama31_8b,gptoss20b,Send money to anyone,0.7778109738765141
+llama31_8b,gptoss20b,Receive money,0.7130680150943661
+llama31_8b,gptoss20b,Pay bills,0.22562151044516238
+llama31_8b,gptoss20b,Pay credit card bills,0.02728473853997187
+llama31_8b,gptoss20b,Schedule payments,0.016773930761923458
+llama31_8b,gptoss20b,Share payments,0.5912485232033002
+llama31_8b,gptoss20b,View account balances,0.022029955430327076
+llama31_8b,gptoss20b,View transaction history,0.06475215455098574
+llama31_8b,gptoss20b,Receive payment receipts,0.33785750787731667
+llama31_8b,gptoss20b,Store bill details securely,0.047251607485971875
+llama31_8b,gptoss20b,Activate cards for overseas usage,0.25857047206212547
+llama31_8b,gptoss20b,Currency converter,0.09523606769911402
+llama31_8b,gptoss20b,Financial calculators,0.07700565879662069
+llama31_8b,gptoss20b,Remittances overseas,0.3546739953440351
+llama31_8b,gptoss20b,Track workouts,0.29413993142807504
+llama31_8b,gptoss20b,Monitor heart rate,0.14510745189449428
+llama31_8b,gptoss20b,Set fitness goals,0.4895839692689393
+llama31_8b,gptoss20b,Track weight,0.49333836379244533
+llama31_8b,gptoss20b,Follow training plans,0.3967093575407831
+llama31_8b,gptoss20b,View progress charts,0.40044617778155406
+llama31_8b,gptoss20b,Get audio coaching,0.24681609152495812
+llama31_8b,gptoss20b,Track routes on map,0.1491097170452183
+llama31_8b,gptoss20b,Diet planning,0.4387841116818914
+llama31_8b,gptoss20b,Calorie tracking,0.5072258942838508
+llama31_8b,gptoss20b,Turn-by-turn navigation,0.7058328116898549
+llama31_8b,gptoss20b,Find nearby places,0.6780663685909861
+llama31_8b,gptoss20b,View maps offline,0.45680446011968745
+llama31_8b,gptoss20b,Check public transport routes,0.5349154709775713
+llama31_8b,gptoss20b,Save favorite locations,0.6620240986260177
+llama31_8b,gptoss20b,Real-time traffic updates,0.43776003907239924
+llama31_8b,gptoss20b,Stream music,0.7003889569332948
+llama31_8b,gptoss20b,Create playlists,0.7070424008706656
+llama31_8b,gptoss20b,Download content for offline use,0.11906435166665284
+llama31_8b,gptoss20b,Audio playback controls,0.4829825729387187
+llama31_8b,gptoss20b,Record audio,0.18445856234853542
+llama31_8b,gptoss20b,Edit audio files,0.1764742155885368
+llama31_8b,gptoss20b,Access breaking news,0.4646674464137152
+llama31_8b,gptoss20b,Personalized news feed,0.5729702173854895
+llama31_8b,gptoss20b,Read articles offline,0.6324738910648002
+llama31_8b,gptoss20b,Bookmark articles,0.5692258183850822
+llama31_8b,gptoss20b,Search news topics,0.676522848184189
+llama31_8b,gptoss20b,Listen to interviews,0.07340421209251079
+llama31_8b,gptoss20b,Receive news notifications,0.5329083384826184
+llama31_8b,gptoss20b,Browse by categories,0.13628742319008733
+llama31_8b,gptoss20b,Set wallpapers,0.04475975782212133
+llama31_8b,gptoss20b,Customize themes,0.029126550983642984
+llama31_8b,gptoss20b,Change fonts,0.03201666090860121
+llama31_8b,gptoss20b,Automatic wallpaper rotation,0.03623763307687724
+llama31_8b,gptoss20b,Customize interface settings,0.1637835239640215
+llama31_8b,gptoss20b,Photo editing tools,0.44306112236285755
+llama31_8b,gptoss20b,Apply filters and effects,0.21758854594011606
+llama31_8b,gptoss20b,Create collages,0.15377977055764672
+llama31_8b,gptoss20b,Adjust image settings,0.31622768208226953
+llama31_8b,gptoss20b,Save images locally,0.18810133340673896
+llama31_8b,gptoss20b,Share edited photos,0.360114671568668
+llama31_8b,gptoss20b,Backup and restore data,0.3696662090691371
+llama31_8b,gptoss20b,Sync across devices,0.3672525839602001
+llama31_8b,gptoss20b,Search for products,0.33878581195882845
+llama31_8b,gptoss20b,Compare prices,0.24786061641316404
+llama31_8b,gptoss20b,Add items to wishlist,0.23197377884950118
+llama31_8b,gptoss20b,Secure checkout,0.19541703129632498
+llama31_8b,gptoss20b,Track order delivery status,0.010196042192457878
+llama31_8b,gptoss20b,Browse by category,0.09337209975940552
+llama31_8b,gptoss20b,View product reviews,0.36105920471585906
+llama31_8b,gptoss20b,Barcode scanning for items,0.16001888389746172
+llama31_8b,gptoss20b,Manage shopping cart,0.36405064964216516
+llama31_8b,gptoss20b,Receive daily promotions,0.20034316621420165
+llama31_8b,gptoss20b,Share photos and videos,0.6769365552321324
+llama31_8b,gptoss20b,Follow users,0.6844830445384484
+llama31_8b,gptoss20b,Post content updates,0.5907857987637527
+llama31_8b,gptoss20b,Share content on social networks,0.4765004818097065
+llama31_8b,gptoss20b,Discover new people,0.5604229883860014
+llama31_8b,gptoss20b,Comment on posts,0.6733611651157756
+llama31_8b,gptoss20b,Receive push notifications,0.3593874123932743
+llama31_8b,gptoss20b,File management,0.11657856231020487
+llama31_8b,gptoss20b,Search with suggestions,0.10454794229598989
+llama31_8b,gptoss20b,Book taxis,0.5670360155558662
+llama31_8b,gptoss20b,Track taxi location,0.25582733310382866
+llama31_8b,gptoss20b,Calculate fares,0.3987322400120161
+llama31_8b,gptoss20b,Share media,0.4566001315050871
+llama31_8b,gptoss20b,Access subtitles,0.31449997225263837
+llama31_8b,gptoss20b,Video quality control,0.20052623115565765
+llama31_8b,gptoss20b,Weather forecast,0.436710879358975
+llama31_8b,mistral_open,Read ebooks,0.17583898115219726
+llama31_8b,mistral_open,Download books,0.2424865878536258
+llama31_8b,mistral_open,Sync reading progress,0.1290020863893095
+llama31_8b,mistral_open,Highlight text,0.08676645048972045
+llama31_8b,mistral_open,Search within books,0.3425465144027591
+llama31_8b,mistral_open,Send messages,0.567305284769643
+llama31_8b,mistral_open,Private chat with users,0.4217209524890107
+llama31_8b,mistral_open,Real-time messaging,0.4432947786546535
+llama31_8b,mistral_open,Watch lectures,0.4902814020898843
+llama31_8b,mistral_open,Take quizzes,0.3385909066124472
+llama31_8b,mistral_open,Track learning progress,0.6020187139316727
+llama31_8b,mistral_open,Offline learning,0.588809401590444
+llama31_8b,mistral_open,Watch live TV,0.2526879352582173
+llama31_8b,mistral_open,Watch videos,0.5954653375566892
+llama31_8b,mistral_open,Transfer money,0.5535411220789498
+llama31_8b,mistral_open,Send money to anyone,0.6199666881611419
+llama31_8b,mistral_open,Receive money,0.6427943559612518
+llama31_8b,mistral_open,Pay bills,0.17684907794082128
+llama31_8b,mistral_open,Schedule payments,0.01157129937675655
+llama31_8b,mistral_open,Share payments,0.6247214618077848
+llama31_8b,mistral_open,View account balances,0.2931212963111161
+llama31_8b,mistral_open,View transaction history,0.006038723812269039
+llama31_8b,mistral_open,Receive payment receipts,0.47747904059718776
+llama31_8b,mistral_open,Store bill details securely,0.1229914879616655
+llama31_8b,mistral_open,Activate cards for overseas usage,0.19375836401150687
+llama31_8b,mistral_open,Currency converter,0.09921973325840248
+llama31_8b,mistral_open,Financial calculators,0.008029732853745036
+llama31_8b,mistral_open,Track workouts,0.3613783429155741
+llama31_8b,mistral_open,Monitor heart rate,0.09807457659261708
+llama31_8b,mistral_open,Set fitness goals,0.519518341313126
+llama31_8b,mistral_open,Track weight,0.5634013783793068
+llama31_8b,mistral_open,Follow training plans,0.3329613410449778
+llama31_8b,mistral_open,View progress charts,0.3874080252271114
+llama31_8b,mistral_open,Get audio coaching,0.2135841022911154
+llama31_8b,mistral_open,Track routes on map,0.5790120449154
+llama31_8b,mistral_open,Diet planning,0.5383678759004963
+llama31_8b,mistral_open,Calorie tracking,0.555146551135356
+llama31_8b,mistral_open,Turn-by-turn navigation,0.5716702886870397
+llama31_8b,mistral_open,Find nearby places,0.5577496094472809
+llama31_8b,mistral_open,View maps offline,0.29861518410840915
+llama31_8b,mistral_open,Check public transport routes,0.3992172993359719
+llama31_8b,mistral_open,Save favorite locations,0.6039510213996325
+llama31_8b,mistral_open,Real-time traffic updates,0.558209287449156
+llama31_8b,mistral_open,Stream music,0.7035207833319307
+llama31_8b,mistral_open,Create playlists,0.7109699795902338
+llama31_8b,mistral_open,Download content for offline use,0.04597612795165751
+llama31_8b,mistral_open,Audio playback controls,0.5297536594211689
+llama31_8b,mistral_open,Record audio,0.05849473662094893
+llama31_8b,mistral_open,Edit audio files,0.4301973828466864
+llama31_8b,mistral_open,Access breaking news,0.2656602103641277
+llama31_8b,mistral_open,Personalized news feed,0.4798529139473591
+llama31_8b,mistral_open,Read articles offline,0.4980480352875876
+llama31_8b,mistral_open,Bookmark articles,0.4612224897604986
+llama31_8b,mistral_open,Search news topics,0.33804803622855223
+llama31_8b,mistral_open,Listen to interviews,0.07433626307960421
+llama31_8b,mistral_open,Receive news notifications,0.15346229141579287
+llama31_8b,mistral_open,Browse by categories,0.016482625494189263
+llama31_8b,mistral_open,Set wallpapers,0.013081638211322334
+llama31_8b,mistral_open,Customize themes,0.01449083791432415
+llama31_8b,mistral_open,Change fonts,0.007496558555895709
+llama31_8b,mistral_open,Automatic wallpaper rotation,0.03421156877742482
+llama31_8b,mistral_open,Customize interface settings,0.12230498996684414
+llama31_8b,mistral_open,Photo editing tools,0.597119217618104
+llama31_8b,mistral_open,Apply filters and effects,0.2521154148221335
+llama31_8b,mistral_open,Create collages,0.09571802422863446
+llama31_8b,mistral_open,Adjust image settings,0.42223000170133906
+llama31_8b,mistral_open,Save images locally,0.4195924591921413
+llama31_8b,mistral_open,Share edited photos,0.14538837320202133
+llama31_8b,mistral_open,Sync across devices,0.5092830760237629
+llama31_8b,mistral_open,Search for products,0.19477964364105038
+llama31_8b,mistral_open,Compare prices,0.2027546132664634
+llama31_8b,mistral_open,Add items to wishlist,0.2814652410315156
+llama31_8b,mistral_open,Track order delivery status,0.023666867238041303
+llama31_8b,mistral_open,Browse by category,0.0292546154645062
+llama31_8b,mistral_open,View product reviews,0.2351024366964897
+llama31_8b,mistral_open,Barcode scanning for items,0.15127361520605198
+llama31_8b,mistral_open,Manage shopping cart,0.4578742776128258
+llama31_8b,mistral_open,Receive daily promotions,0.03664717020123449
+llama31_8b,mistral_open,Share photos and videos,0.7901872468275399
+llama31_8b,mistral_open,Follow users,0.7375855737632783
+llama31_8b,mistral_open,Post content updates,0.6818400797195089
+llama31_8b,mistral_open,Share content on social networks,0.6902758848007244
+llama31_8b,mistral_open,Discover new people,0.6487481217579709
+llama31_8b,mistral_open,Comment on posts,0.7592659830725103
+llama31_8b,mistral_open,Receive push notifications,0.42253938467343877
+llama31_8b,mistral_open,Search with suggestions,0.10648063581716302
+llama31_8b,mistral_open,Book taxis,0.5918096631278015
+llama31_8b,mistral_open,Track taxi location,0.2715678165557061
+llama31_8b,mistral_open,Share media,0.6670869649687193
+llama31_8b,mistral_open,Video quality control,0.0067235536769286175
+llama31_8b,mistral_open,Weather forecast,0.35242565958244954
+llama31_8b,deepseekr1_8b,Read ebooks,0.1846603726447937
+llama31_8b,deepseekr1_8b,Download books,0.25731725896345004
+llama31_8b,deepseekr1_8b,Sync reading progress,0.09424647914252636
+llama31_8b,deepseekr1_8b,Highlight text,0.0673162030262261
+llama31_8b,deepseekr1_8b,Search within books,0.4057403612869861
+llama31_8b,deepseekr1_8b,Send messages,0.6123797189341358
+llama31_8b,deepseekr1_8b,Private chat with users,0.6521851607792787
+llama31_8b,deepseekr1_8b,Real-time messaging,0.556274213915314
+llama31_8b,deepseekr1_8b,Access courses,0.48274971537994255
+llama31_8b,deepseekr1_8b,Watch lectures,0.475347974711894
+llama31_8b,deepseekr1_8b,Take quizzes,0.344999080810477
+llama31_8b,deepseekr1_8b,Track learning progress,0.5037778070485042
+llama31_8b,deepseekr1_8b,Offline learning,0.5023221479281903
+llama31_8b,deepseekr1_8b,Watch live TV,0.3494628721700842
+llama31_8b,deepseekr1_8b,Watch videos,0.5690028856327233
+llama31_8b,deepseekr1_8b,Transfer money,0.6276390862406698
+llama31_8b,deepseekr1_8b,Send money to anyone,0.6850972689575786
+llama31_8b,deepseekr1_8b,Receive money,0.5958564593503936
+llama31_8b,deepseekr1_8b,Pay bills,0.22544193697750178
+llama31_8b,deepseekr1_8b,Pay credit card bills,0.10002814551847551
+llama31_8b,deepseekr1_8b,Schedule payments,0.19217753316279532
+llama31_8b,deepseekr1_8b,Share payments,0.5604747045689629
+llama31_8b,deepseekr1_8b,View account balances,0.2789875731752041
+llama31_8b,deepseekr1_8b,View transaction history,0.25235002147300767
+llama31_8b,deepseekr1_8b,Receive payment receipts,0.24098190373951667
+llama31_8b,deepseekr1_8b,Store bill details securely,0.06831269862644442
+llama31_8b,deepseekr1_8b,Activate cards for overseas usage,0.13512974030161684
+llama31_8b,deepseekr1_8b,Currency converter,0.10579470847429001
+llama31_8b,deepseekr1_8b,Financial calculators,0.019951960290445502
+llama31_8b,deepseekr1_8b,Remittances overseas,0.343896999241637
+llama31_8b,deepseekr1_8b,Track workouts,0.45533411443213295
+llama31_8b,deepseekr1_8b,Monitor heart rate,0.14143711704827652
+llama31_8b,deepseekr1_8b,Set fitness goals,0.5073244059218596
+llama31_8b,deepseekr1_8b,Track weight,0.33498752807823295
+llama31_8b,deepseekr1_8b,Follow training plans,0.40636931204409166
+llama31_8b,deepseekr1_8b,View progress charts,0.4033579241278815
+llama31_8b,deepseekr1_8b,Get audio coaching,0.2349475820525023
+llama31_8b,deepseekr1_8b,Track routes on map,0.4018448844337979
+llama31_8b,deepseekr1_8b,Diet planning,0.2824647279083817
+llama31_8b,deepseekr1_8b,Calorie tracking,0.35816481097536373
+llama31_8b,deepseekr1_8b,Turn-by-turn navigation,0.6039769983017499
+llama31_8b,deepseekr1_8b,Find nearby places,0.6422165403092382
+llama31_8b,deepseekr1_8b,View maps offline,0.4145361042272024
+llama31_8b,deepseekr1_8b,Check public transport routes,0.34060131775888464
+llama31_8b,deepseekr1_8b,Save favorite locations,0.5371456544366908
+llama31_8b,deepseekr1_8b,Real-time traffic updates,0.46310035612214034
+llama31_8b,deepseekr1_8b,Stream music,0.672521553205915
+llama31_8b,deepseekr1_8b,Create playlists,0.6749890325402371
+llama31_8b,deepseekr1_8b,Download content for offline use,0.20911652313170165
+llama31_8b,deepseekr1_8b,Audio playback controls,0.46624185084430203
+llama31_8b,deepseekr1_8b,Record audio,0.1821298276458187
+llama31_8b,deepseekr1_8b,Edit audio files,0.26594896089763004
+llama31_8b,deepseekr1_8b,Access breaking news,0.42763022662541156
+llama31_8b,deepseekr1_8b,Personalized news feed,0.42682461922606635
+llama31_8b,deepseekr1_8b,Read articles offline,0.5471046646385657
+llama31_8b,deepseekr1_8b,Bookmark articles,0.43142447728671274
+llama31_8b,deepseekr1_8b,Search news topics,0.5160650765839262
+llama31_8b,deepseekr1_8b,Listen to interviews,0.0650057312628471
+llama31_8b,deepseekr1_8b,Receive news notifications,0.4917423055576473
+llama31_8b,deepseekr1_8b,Browse by categories,0.16254994873374773
+llama31_8b,deepseekr1_8b,Set wallpapers,0.08432847209607632
+llama31_8b,deepseekr1_8b,Customize themes,0.022987102373505975
+llama31_8b,deepseekr1_8b,Change fonts,0.00803692352206409
+llama31_8b,deepseekr1_8b,Automatic wallpaper rotation,0.10648562036997472
+llama31_8b,deepseekr1_8b,Customize interface settings,0.07379472520045019
+llama31_8b,deepseekr1_8b,Photo editing tools,0.3930076041624872
+llama31_8b,deepseekr1_8b,Apply filters and effects,0.2110521738420985
+llama31_8b,deepseekr1_8b,Create collages,0.1300431936466793
+llama31_8b,deepseekr1_8b,Adjust image settings,0.31323598873520775
+llama31_8b,deepseekr1_8b,Save images locally,0.19159593429457775
+llama31_8b,deepseekr1_8b,Share edited photos,0.19964271331787198
+llama31_8b,deepseekr1_8b,Backup and restore data,0.4756473333825241
+llama31_8b,deepseekr1_8b,Sync across devices,0.40861392022616433
+llama31_8b,deepseekr1_8b,Search for products,0.3287645051770536
+llama31_8b,deepseekr1_8b,Compare prices,0.15381711966359013
+llama31_8b,deepseekr1_8b,Add items to wishlist,0.26269697607106685
+llama31_8b,deepseekr1_8b,Secure checkout,0.3949724459296762
+llama31_8b,deepseekr1_8b,Track order delivery status,0.02547921987097668
+llama31_8b,deepseekr1_8b,Browse by category,0.12962449308359428
+llama31_8b,deepseekr1_8b,View product reviews,0.36045308103574664
+llama31_8b,deepseekr1_8b,Barcode scanning for items,0.15459719920886855
+llama31_8b,deepseekr1_8b,Manage shopping cart,0.3619468084001602
+llama31_8b,deepseekr1_8b,Receive daily promotions,0.010496757707697719
+llama31_8b,deepseekr1_8b,Share photos and videos,0.7236541673440882
+llama31_8b,deepseekr1_8b,Follow users,0.6927143854357155
+llama31_8b,deepseekr1_8b,Post content updates,0.5697429475660158
+llama31_8b,deepseekr1_8b,Share content on social networks,0.6319729245177966
+llama31_8b,deepseekr1_8b,Discover new people,0.34903259102052686
+llama31_8b,deepseekr1_8b,Comment on posts,0.6484973783214474
+llama31_8b,deepseekr1_8b,Receive push notifications,0.4094663508502584
+llama31_8b,deepseekr1_8b,File management,0.0571097057243838
+llama31_8b,deepseekr1_8b,Search with suggestions,0.12760977586458527
+llama31_8b,deepseekr1_8b,Book taxis,0.5563939076544027
+llama31_8b,deepseekr1_8b,Track taxi location,0.2289520228274197
+llama31_8b,deepseekr1_8b,Calculate fares,0.43469233834414456
+llama31_8b,deepseekr1_8b,Share media,0.5348091005314121
+llama31_8b,deepseekr1_8b,Access subtitles,0.3774064100806686
+llama31_8b,deepseekr1_8b,Video quality control,0.14669082749067822
+llama31_8b,deepseekr1_8b,Weather forecast,0.3910044325096594
+gemma3_4b,qwen3_8b,Read ebooks,0.3263258506485297
+gemma3_4b,qwen3_8b,Download books,0.440434452683953
+gemma3_4b,qwen3_8b,Sync reading progress,0.2485752874531015
+gemma3_4b,qwen3_8b,Highlight text,0.04037501510514325
+gemma3_4b,qwen3_8b,Search within books,0.5110664604431161
+gemma3_4b,qwen3_8b,Send messages,0.8325270996163756
+gemma3_4b,qwen3_8b,Private chat with users,0.6266261271565403
+gemma3_4b,qwen3_8b,Real-time messaging,0.8040557383520074
+gemma3_4b,qwen3_8b,Access courses,0.7385337770069785
+gemma3_4b,qwen3_8b,Watch lectures,0.5882611238264929
+gemma3_4b,qwen3_8b,Take quizzes,0.22542424707572517
+gemma3_4b,qwen3_8b,Track learning progress,0.5026422093579512
+gemma3_4b,qwen3_8b,Offline learning,0.4317358684144693
+gemma3_4b,qwen3_8b,Watch live TV,0.3809368698557536
+gemma3_4b,qwen3_8b,Watch videos,0.6394911679716734
+gemma3_4b,qwen3_8b,Transfer money,0.6290344086679803
+gemma3_4b,qwen3_8b,Send money to anyone,0.6215157604459984
+gemma3_4b,qwen3_8b,Receive money,0.5837001967795886
+gemma3_4b,qwen3_8b,Pay bills,0.09935369418585685
+gemma3_4b,qwen3_8b,Pay credit card bills,0.02599197502366303
+gemma3_4b,qwen3_8b,Schedule payments,0.35846322691700244
+gemma3_4b,qwen3_8b,Share payments,0.5024165020171729
+gemma3_4b,qwen3_8b,View account balances,0.016124195894882953
+gemma3_4b,qwen3_8b,View transaction history,0.03134498322001811
+gemma3_4b,qwen3_8b,Receive payment receipts,0.13583615868904403
+gemma3_4b,qwen3_8b,Store bill details securely,0.07958678161379464
+gemma3_4b,qwen3_8b,Activate cards for overseas usage,0.011038181339885274
+gemma3_4b,qwen3_8b,Currency converter,0.11679306446228463
+gemma3_4b,qwen3_8b,Financial calculators,0.12712983007721806
+gemma3_4b,qwen3_8b,Remittances overseas,0.22634283885625578
+gemma3_4b,qwen3_8b,Track workouts,0.49414520610331986
+gemma3_4b,qwen3_8b,Monitor heart rate,0.5244121917699189
+gemma3_4b,qwen3_8b,Set fitness goals,0.4947885863608535
+gemma3_4b,qwen3_8b,Track weight,0.5197529415458826
+gemma3_4b,qwen3_8b,Follow training plans,0.35330407600457137
+gemma3_4b,qwen3_8b,View progress charts,0.34372123238377383
+gemma3_4b,qwen3_8b,Get audio coaching,0.04834116196428333
+gemma3_4b,qwen3_8b,Track routes on map,0.5433089952983255
+gemma3_4b,qwen3_8b,Diet planning,0.48144573033282
+gemma3_4b,qwen3_8b,Calorie tracking,0.45054226143963044
+gemma3_4b,qwen3_8b,Turn-by-turn navigation,0.5857323875617134
+gemma3_4b,qwen3_8b,Find nearby places,0.48891389480633
+gemma3_4b,qwen3_8b,View maps offline,0.41074113509211485
+gemma3_4b,qwen3_8b,Check public transport routes,0.5548066771297155
+gemma3_4b,qwen3_8b,Save favorite locations,0.32932964776464957
+gemma3_4b,qwen3_8b,Real-time traffic updates,0.5282258955119604
+gemma3_4b,qwen3_8b,Stream music,0.7560412187871377
+gemma3_4b,qwen3_8b,Create playlists,0.7306419817984701
+gemma3_4b,qwen3_8b,Download content for offline use,0.16634971556380823
+gemma3_4b,qwen3_8b,Audio playback controls,0.6250968074431748
+gemma3_4b,qwen3_8b,Record audio,0.14430681543649695
+gemma3_4b,qwen3_8b,Edit audio files,0.13272202064744856
+gemma3_4b,qwen3_8b,Access breaking news,0.448499886927394
+gemma3_4b,qwen3_8b,Personalized news feed,0.4542043193041468
+gemma3_4b,qwen3_8b,Read articles offline,0.42946529325121036
+gemma3_4b,qwen3_8b,Bookmark articles,0.4894335275147083
+gemma3_4b,qwen3_8b,Search news topics,0.6291821663151839
+gemma3_4b,qwen3_8b,Listen to interviews,0.1761320188198963
+gemma3_4b,qwen3_8b,Receive news notifications,0.5201178854380072
+gemma3_4b,qwen3_8b,Browse by categories,0.22149831965474306
+gemma3_4b,qwen3_8b,Set wallpapers,0.012065302221606768
+gemma3_4b,qwen3_8b,Customize themes,0.018646492126156145
+gemma3_4b,qwen3_8b,Change fonts,0.002416196501918734
+gemma3_4b,qwen3_8b,Automatic wallpaper rotation,0.07251799250506025
+gemma3_4b,qwen3_8b,Customize interface settings,0.2453008783593912
+gemma3_4b,qwen3_8b,Photo editing tools,0.5465369932968744
+gemma3_4b,qwen3_8b,Apply filters and effects,0.2539224399737024
+gemma3_4b,qwen3_8b,Create collages,0.30708382901665604
+gemma3_4b,qwen3_8b,Adjust image settings,0.40787237495996825
+gemma3_4b,qwen3_8b,Save images locally,0.1927294544047779
+gemma3_4b,qwen3_8b,Share edited photos,0.27799583789012255
+gemma3_4b,qwen3_8b,Backup and restore data,0.33399572890528206
+gemma3_4b,qwen3_8b,Sync across devices,0.32487019505583375
+gemma3_4b,qwen3_8b,Search for products,0.18999599116434754
+gemma3_4b,qwen3_8b,Compare prices,0.41801823232604746
+gemma3_4b,qwen3_8b,Add items to wishlist,0.29094764670606926
+gemma3_4b,qwen3_8b,Secure checkout,0.07485421518333547
+gemma3_4b,qwen3_8b,Track order delivery status,0.5598744976992134
+gemma3_4b,qwen3_8b,Browse by category,0.2744832412085944
+gemma3_4b,qwen3_8b,View product reviews,0.622756840169277
+gemma3_4b,qwen3_8b,Barcode scanning for items,0.02678231094170052
+gemma3_4b,qwen3_8b,Manage shopping cart,0.17297890335523394
+gemma3_4b,qwen3_8b,Receive daily promotions,0.02803974153750831
+gemma3_4b,qwen3_8b,Share photos and videos,0.6382147307806628
+gemma3_4b,qwen3_8b,Follow users,0.5878791445631134
+gemma3_4b,qwen3_8b,Post content updates,0.72478282104801
+gemma3_4b,qwen3_8b,Share content on social networks,0.46919638375859263
+gemma3_4b,qwen3_8b,Discover new people,0.28661132781032567
+gemma3_4b,qwen3_8b,Comment on posts,0.5959107216598913
+gemma3_4b,qwen3_8b,Receive push notifications,0.4711064457546604
+gemma3_4b,qwen3_8b,File management,0.04742291395232511
+gemma3_4b,qwen3_8b,Search with suggestions,0.34473889633641924
+gemma3_4b,qwen3_8b,Book taxis,0.5789931413003494
+gemma3_4b,qwen3_8b,Track taxi location,0.5735790674850274
+gemma3_4b,qwen3_8b,Calculate fares,0.5832688509811215
+gemma3_4b,qwen3_8b,Share media,0.05838859197944014
+gemma3_4b,qwen3_8b,Access subtitles,0.24702479098360647
+gemma3_4b,qwen3_8b,Video quality control,0.4826497549514611
+gemma3_4b,qwen3_8b,Weather forecast,0.42173247257806773
+gemma3_4b,gptoss20b,Read ebooks,0.47728373440097166
+gemma3_4b,gptoss20b,Download books,0.37714492321555143
+gemma3_4b,gptoss20b,Sync reading progress,0.23616200556515637
+gemma3_4b,gptoss20b,Highlight text,0.04183060855741382
+gemma3_4b,gptoss20b,Search within books,0.43378012904599167
+gemma3_4b,gptoss20b,Send messages,0.8247382126680453
+gemma3_4b,gptoss20b,Private chat with users,0.5259163129920101
+gemma3_4b,gptoss20b,Real-time messaging,0.8159907978147222
+gemma3_4b,gptoss20b,Access courses,0.787875939992104
+gemma3_4b,gptoss20b,Watch lectures,0.5389014582029001
+gemma3_4b,gptoss20b,Take quizzes,0.2334349980848094
+gemma3_4b,gptoss20b,Track learning progress,0.4699112107303581
+gemma3_4b,gptoss20b,Offline learning,0.3653574517822943
+gemma3_4b,gptoss20b,Watch live TV,0.5449159923058339
+gemma3_4b,gptoss20b,Watch videos,0.5683280635875912
+gemma3_4b,gptoss20b,Transfer money,0.6689033579677758
+gemma3_4b,gptoss20b,Send money to anyone,0.754201855184292
+gemma3_4b,gptoss20b,Receive money,0.6513318657495354
+gemma3_4b,gptoss20b,Pay bills,0.09212879637124603
+gemma3_4b,gptoss20b,Pay credit card bills,0.16914370504033766
+gemma3_4b,gptoss20b,Schedule payments,0.29320792440406096
+gemma3_4b,gptoss20b,Share payments,0.6234116491960314
+gemma3_4b,gptoss20b,View account balances,0.19246569345811512
+gemma3_4b,gptoss20b,View transaction history,0.08826328382616878
+gemma3_4b,gptoss20b,Receive payment receipts,0.10708779239858361
+gemma3_4b,gptoss20b,Store bill details securely,0.3020675976714578
+gemma3_4b,gptoss20b,Activate cards for overseas usage,0.008130546049345965
+gemma3_4b,gptoss20b,Currency converter,0.11087601387670304
+gemma3_4b,gptoss20b,Financial calculators,0.08188956196293172
+gemma3_4b,gptoss20b,Remittances overseas,0.3083566844663465
+gemma3_4b,gptoss20b,Track workouts,0.3163112446481794
+gemma3_4b,gptoss20b,Monitor heart rate,0.4501037831913961
+gemma3_4b,gptoss20b,Set fitness goals,0.4011821241369616
+gemma3_4b,gptoss20b,Track weight,0.6426792824246504
+gemma3_4b,gptoss20b,Follow training plans,0.3885777539431203
+gemma3_4b,gptoss20b,View progress charts,0.41024529724944214
+gemma3_4b,gptoss20b,Get audio coaching,0.032979695499093374
+gemma3_4b,gptoss20b,Track routes on map,0.22930948564627784
+gemma3_4b,gptoss20b,Diet planning,0.6545362373910085
+gemma3_4b,gptoss20b,Calorie tracking,0.6887510121724592
+gemma3_4b,gptoss20b,Turn-by-turn navigation,0.7646364895987791
+gemma3_4b,gptoss20b,Find nearby places,0.4160203936858294
+gemma3_4b,gptoss20b,View maps offline,0.35209585227127493
+gemma3_4b,gptoss20b,Check public transport routes,0.5527088686289162
+gemma3_4b,gptoss20b,Save favorite locations,0.334203031795511
+gemma3_4b,gptoss20b,Real-time traffic updates,0.7090256641753986
+gemma3_4b,gptoss20b,Stream music,0.8405934736657595
+gemma3_4b,gptoss20b,Create playlists,0.8280011073068136
+gemma3_4b,gptoss20b,Download content for offline use,0.4350774133472716
+gemma3_4b,gptoss20b,Audio playback controls,0.7646149628403162
+gemma3_4b,gptoss20b,Record audio,0.17471441503510157
+gemma3_4b,gptoss20b,Edit audio files,0.10713683305619272
+gemma3_4b,gptoss20b,Access breaking news,0.5120848839941595
+gemma3_4b,gptoss20b,Personalized news feed,0.5992068917760563
+gemma3_4b,gptoss20b,Read articles offline,0.48852681258667885
+gemma3_4b,gptoss20b,Bookmark articles,0.5506576836132104
+gemma3_4b,gptoss20b,Search news topics,0.6557585786754687
+gemma3_4b,gptoss20b,Listen to interviews,0.22798156643363734
+gemma3_4b,gptoss20b,Receive news notifications,0.5187299456051662
+gemma3_4b,gptoss20b,Browse by categories,0.2492788314850952
+gemma3_4b,gptoss20b,Set wallpapers,0.3501104488032793
+gemma3_4b,gptoss20b,Customize themes,0.017704639433492726
+gemma3_4b,gptoss20b,Change fonts,0.00017133824208117847
+gemma3_4b,gptoss20b,Automatic wallpaper rotation,0.1590141841793622
+gemma3_4b,gptoss20b,Customize interface settings,0.3246188217622647
+gemma3_4b,gptoss20b,Photo editing tools,0.3983692616813807
+gemma3_4b,gptoss20b,Apply filters and effects,0.350237805837571
+gemma3_4b,gptoss20b,Create collages,0.32011275274588497
+gemma3_4b,gptoss20b,Adjust image settings,0.45445247905955427
+gemma3_4b,gptoss20b,Save images locally,0.07825852224665879
+gemma3_4b,gptoss20b,Share edited photos,0.44023699503862695
+gemma3_4b,gptoss20b,Backup and restore data,0.3263675278598117
+gemma3_4b,gptoss20b,Sync across devices,0.3796943362984412
+gemma3_4b,gptoss20b,Search for products,0.25616457373496154
+gemma3_4b,gptoss20b,Compare prices,0.36243922121948685
+gemma3_4b,gptoss20b,Add items to wishlist,0.4634560693356697
+gemma3_4b,gptoss20b,Secure checkout,0.18780009093138603
+gemma3_4b,gptoss20b,Track order delivery status,0.0506808006225035
+gemma3_4b,gptoss20b,Browse by category,0.20768795637647902
+gemma3_4b,gptoss20b,View product reviews,0.5498578630532492
+gemma3_4b,gptoss20b,Barcode scanning for items,0.0166723088227928
+gemma3_4b,gptoss20b,Manage shopping cart,0.2606167180705384
+gemma3_4b,gptoss20b,Receive daily promotions,0.017227119341369536
+gemma3_4b,gptoss20b,Share photos and videos,0.6990253503297332
+gemma3_4b,gptoss20b,Follow users,0.639434739185961
+gemma3_4b,gptoss20b,Post content updates,0.6387421053268362
+gemma3_4b,gptoss20b,Share content on social networks,0.451802763674817
+gemma3_4b,gptoss20b,Discover new people,0.239254394175138
+gemma3_4b,gptoss20b,Comment on posts,0.5522652854316649
+gemma3_4b,gptoss20b,Receive push notifications,0.5144786010510385
+gemma3_4b,gptoss20b,File management,0.044904965424233195
+gemma3_4b,gptoss20b,Search with suggestions,0.2611914211577542
+gemma3_4b,gptoss20b,Book taxis,0.5578163103843945
+gemma3_4b,gptoss20b,Track taxi location,0.5730047091434481
+gemma3_4b,gptoss20b,Calculate fares,0.5579640039908209
+gemma3_4b,gptoss20b,Share media,0.0786428328140383
+gemma3_4b,gptoss20b,Access subtitles,0.35085506901914376
+gemma3_4b,gptoss20b,Video quality control,0.44930696123839015
+gemma3_4b,gptoss20b,Weather forecast,0.45383967145041654
+gemma3_4b,mistral_open,Read ebooks,0.43734570059610184
+gemma3_4b,mistral_open,Download books,0.37195129486653583
+gemma3_4b,mistral_open,Sync reading progress,0.19160678152535798
+gemma3_4b,mistral_open,Highlight text,0.0483784851132435
+gemma3_4b,mistral_open,Search within books,0.25055304681005214
+gemma3_4b,mistral_open,Send messages,0.6581678457474566
+gemma3_4b,mistral_open,Private chat with users,0.5090845391626873
+gemma3_4b,mistral_open,Real-time messaging,0.5662669822643162
+gemma3_4b,mistral_open,Watch lectures,0.40976584338961014
+gemma3_4b,mistral_open,Take quizzes,0.1705362583592789
+gemma3_4b,mistral_open,Track learning progress,0.45857981951520244
+gemma3_4b,mistral_open,Offline learning,0.3588887201587362
+gemma3_4b,mistral_open,Watch live TV,0.20614933355236148
+gemma3_4b,mistral_open,Watch videos,0.6614454955054303
+gemma3_4b,mistral_open,Transfer money,0.5100109793956432
+gemma3_4b,mistral_open,Send money to anyone,0.6931538793336335
+gemma3_4b,mistral_open,Receive money,0.6169170234830494
+gemma3_4b,mistral_open,Pay bills,0.09345067028321433
+gemma3_4b,mistral_open,Schedule payments,0.24129510123983344
+gemma3_4b,mistral_open,Share payments,0.5325912284631423
+gemma3_4b,mistral_open,View account balances,0.025753634304481122
+gemma3_4b,mistral_open,View transaction history,0.0036947651715372063
+gemma3_4b,mistral_open,Receive payment receipts,0.13283287836270471
+gemma3_4b,mistral_open,Store bill details securely,0.1008171710590078
+gemma3_4b,mistral_open,Activate cards for overseas usage,0.0075046231134536
+gemma3_4b,mistral_open,Currency converter,0.11230419487934122
+gemma3_4b,mistral_open,Financial calculators,0.009182027580427106
+gemma3_4b,mistral_open,Track workouts,0.25895134985733814
+gemma3_4b,mistral_open,Monitor heart rate,0.12420820052242354
+gemma3_4b,mistral_open,Set fitness goals,0.38030761894355425
+gemma3_4b,mistral_open,Track weight,0.4819093213283131
+gemma3_4b,mistral_open,Follow training plans,0.32179829060320325
+gemma3_4b,mistral_open,View progress charts,0.379230974673774
+gemma3_4b,mistral_open,Get audio coaching,0.02124581119239181
+gemma3_4b,mistral_open,Track routes on map,0.5437486674222244
+gemma3_4b,mistral_open,Diet planning,0.47615012855601374
+gemma3_4b,mistral_open,Calorie tracking,0.4821729683245376
+gemma3_4b,mistral_open,Turn-by-turn navigation,0.5843297015663376
+gemma3_4b,mistral_open,Find nearby places,0.3300462318161743
+gemma3_4b,mistral_open,View maps offline,0.401476396619259
+gemma3_4b,mistral_open,Check public transport routes,0.4948016105478052
+gemma3_4b,mistral_open,Save favorite locations,0.3362403709628681
+gemma3_4b,mistral_open,Real-time traffic updates,0.3792915965568939
+gemma3_4b,mistral_open,Stream music,0.7159901033667148
+gemma3_4b,mistral_open,Create playlists,0.7993322314688501
+gemma3_4b,mistral_open,Download content for offline use,0.13880091529905686
+gemma3_4b,mistral_open,Audio playback controls,0.7797549709541867
+gemma3_4b,mistral_open,Record audio,0.012646500018869543
+gemma3_4b,mistral_open,Edit audio files,0.30576413751562814
+gemma3_4b,mistral_open,Access breaking news,0.21354748181507982
+gemma3_4b,mistral_open,Personalized news feed,0.5456715441827338
+gemma3_4b,mistral_open,Read articles offline,0.4628849380507111
+gemma3_4b,mistral_open,Bookmark articles,0.5321183014579299
+gemma3_4b,mistral_open,Search news topics,0.37110918675412935
+gemma3_4b,mistral_open,Listen to interviews,0.25895377082613014
+gemma3_4b,mistral_open,Receive news notifications,0.23280430436912208
+gemma3_4b,mistral_open,Browse by categories,0.02252785825013817
+gemma3_4b,mistral_open,Set wallpapers,0.192144557906596
+gemma3_4b,mistral_open,Customize themes,0.0060053776204554805
+gemma3_4b,mistral_open,Change fonts,0.0
+gemma3_4b,mistral_open,Automatic wallpaper rotation,0.14889431856289562
+gemma3_4b,mistral_open,Customize interface settings,0.15138916394121188
+gemma3_4b,mistral_open,Photo editing tools,0.3094761273050637
+gemma3_4b,mistral_open,Apply filters and effects,0.3639726232046389
+gemma3_4b,mistral_open,Create collages,0.25193691406424273
+gemma3_4b,mistral_open,Adjust image settings,0.3427122160044513
+gemma3_4b,mistral_open,Save images locally,0.34140277062440827
+gemma3_4b,mistral_open,Share edited photos,0.10079377876482652
+gemma3_4b,mistral_open,Sync across devices,0.27426873756534625
+gemma3_4b,mistral_open,Search for products,0.2160981963499553
+gemma3_4b,mistral_open,Compare prices,0.19904873618001764
+gemma3_4b,mistral_open,Add items to wishlist,0.25008304246430224
+gemma3_4b,mistral_open,Track order delivery status,0.39630066351820614
+gemma3_4b,mistral_open,Browse by category,0.045182910690054943
+gemma3_4b,mistral_open,View product reviews,0.3453244393592519
+gemma3_4b,mistral_open,Barcode scanning for items,0.007671377464482937
+gemma3_4b,mistral_open,Manage shopping cart,0.08118040371563459
+gemma3_4b,mistral_open,Receive daily promotions,0.02165500587104194
+gemma3_4b,mistral_open,Share photos and videos,0.6683599942508227
+gemma3_4b,mistral_open,Follow users,0.5714117699910588
+gemma3_4b,mistral_open,Post content updates,0.7862415401824944
+gemma3_4b,mistral_open,Share content on social networks,0.5260485117109451
+gemma3_4b,mistral_open,Discover new people,0.2796777864757639
+gemma3_4b,mistral_open,Comment on posts,0.7165951155296046
+gemma3_4b,mistral_open,Receive push notifications,0.518053799177768
+gemma3_4b,mistral_open,Search with suggestions,0.0418582483249292
+gemma3_4b,mistral_open,Book taxis,0.5372053668037798
+gemma3_4b,mistral_open,Track taxi location,0.4983905562815335
+gemma3_4b,mistral_open,Share media,0.023011881715737047
+gemma3_4b,mistral_open,Video quality control,0.00024371204312610898
+gemma3_4b,mistral_open,Weather forecast,0.5380664387547219
+gemma3_4b,deepseekr1_8b,Read ebooks,0.1686694120634491
+gemma3_4b,deepseekr1_8b,Download books,0.3722842389655591
+gemma3_4b,deepseekr1_8b,Sync reading progress,0.1523381042433864
+gemma3_4b,deepseekr1_8b,Highlight text,0.039787580388282937
+gemma3_4b,deepseekr1_8b,Search within books,0.3354389194188061
+gemma3_4b,deepseekr1_8b,Send messages,0.7429211828865605
+gemma3_4b,deepseekr1_8b,Private chat with users,0.5285959885592252
+gemma3_4b,deepseekr1_8b,Real-time messaging,0.7460164161428652
+gemma3_4b,deepseekr1_8b,Access courses,0.5166654175438948
+gemma3_4b,deepseekr1_8b,Watch lectures,0.5418091833488041
+gemma3_4b,deepseekr1_8b,Take quizzes,0.1001476244294903
+gemma3_4b,deepseekr1_8b,Track learning progress,0.46586731402274884
+gemma3_4b,deepseekr1_8b,Offline learning,0.42113034120960385
+gemma3_4b,deepseekr1_8b,Watch live TV,0.4234858040024755
+gemma3_4b,deepseekr1_8b,Watch videos,0.6457272644207059
+gemma3_4b,deepseekr1_8b,Transfer money,0.5490798508497619
+gemma3_4b,deepseekr1_8b,Send money to anyone,0.616417507473156
+gemma3_4b,deepseekr1_8b,Receive money,0.5270215861685822
+gemma3_4b,deepseekr1_8b,Pay bills,0.0973889828578044
+gemma3_4b,deepseekr1_8b,Pay credit card bills,0.08299232307116705
+gemma3_4b,deepseekr1_8b,Schedule payments,0.32009158262373005
+gemma3_4b,deepseekr1_8b,Share payments,0.4891758888359297
+gemma3_4b,deepseekr1_8b,View account balances,0.015283301596101053
+gemma3_4b,deepseekr1_8b,View transaction history,0.034993054841072735
+gemma3_4b,deepseekr1_8b,Receive payment receipts,0.09517169148279019
+gemma3_4b,deepseekr1_8b,Store bill details securely,0.07463468685862006
+gemma3_4b,deepseekr1_8b,Activate cards for overseas usage,0.020075011917830857
+gemma3_4b,deepseekr1_8b,Currency converter,0.11502873829628063
+gemma3_4b,deepseekr1_8b,Financial calculators,0.02425088970237372
+gemma3_4b,deepseekr1_8b,Remittances overseas,0.20529826696025968
+gemma3_4b,deepseekr1_8b,Track workouts,0.3697938517667149
+gemma3_4b,deepseekr1_8b,Monitor heart rate,0.3908575417418799
+gemma3_4b,deepseekr1_8b,Set fitness goals,0.4490651731787911
+gemma3_4b,deepseekr1_8b,Track weight,0.49870627578705545
+gemma3_4b,deepseekr1_8b,Follow training plans,0.354273228675732
+gemma3_4b,deepseekr1_8b,View progress charts,0.423198559705768
+gemma3_4b,deepseekr1_8b,Get audio coaching,0.02786747321245164
+gemma3_4b,deepseekr1_8b,Track routes on map,0.47853518957606633
+gemma3_4b,deepseekr1_8b,Diet planning,0.4455522315085335
+gemma3_4b,deepseekr1_8b,Calorie tracking,0.5032764885083238
+gemma3_4b,deepseekr1_8b,Turn-by-turn navigation,0.6599522375374886
+gemma3_4b,deepseekr1_8b,Find nearby places,0.4409632758962866
+gemma3_4b,deepseekr1_8b,View maps offline,0.3862400592909009
+gemma3_4b,deepseekr1_8b,Check public transport routes,0.42311468145511005
+gemma3_4b,deepseekr1_8b,Save favorite locations,0.31937878113533147
+gemma3_4b,deepseekr1_8b,Real-time traffic updates,0.561430077537375
+gemma3_4b,deepseekr1_8b,Stream music,0.8025447282281506
+gemma3_4b,deepseekr1_8b,Create playlists,0.8297529219291045
+gemma3_4b,deepseekr1_8b,Download content for offline use,0.2247870160842436
+gemma3_4b,deepseekr1_8b,Audio playback controls,0.7606504242357205
+gemma3_4b,deepseekr1_8b,Record audio,0.16290644926283415
+gemma3_4b,deepseekr1_8b,Edit audio files,0.17696123178636777
+gemma3_4b,deepseekr1_8b,Access breaking news,0.3988960478026661
+gemma3_4b,deepseekr1_8b,Personalized news feed,0.5814082794998116
+gemma3_4b,deepseekr1_8b,Read articles offline,0.4730502655741778
+gemma3_4b,deepseekr1_8b,Bookmark articles,0.4411092231427552
+gemma3_4b,deepseekr1_8b,Search news topics,0.5289073158597097
+gemma3_4b,deepseekr1_8b,Listen to interviews,0.2204753120503077
+gemma3_4b,deepseekr1_8b,Receive news notifications,0.5656801912238124
+gemma3_4b,deepseekr1_8b,Browse by categories,0.17461725846575515
+gemma3_4b,deepseekr1_8b,Set wallpapers,0.07197081366224965
+gemma3_4b,deepseekr1_8b,Customize themes,0.008963293831140097
+gemma3_4b,deepseekr1_8b,Change fonts,0.0022150139757559422
+gemma3_4b,deepseekr1_8b,Automatic wallpaper rotation,0.09202121685972113
+gemma3_4b,deepseekr1_8b,Customize interface settings,0.12963135383095303
+gemma3_4b,deepseekr1_8b,Photo editing tools,0.5742670958772791
+gemma3_4b,deepseekr1_8b,Apply filters and effects,0.2294749935542864
+gemma3_4b,deepseekr1_8b,Create collages,0.3868645687985526
+gemma3_4b,deepseekr1_8b,Adjust image settings,0.4069767128424076
+gemma3_4b,deepseekr1_8b,Save images locally,0.1126444217597325
+gemma3_4b,deepseekr1_8b,Share edited photos,0.20994566961327998
+gemma3_4b,deepseekr1_8b,Backup and restore data,0.2832041790424002
+gemma3_4b,deepseekr1_8b,Sync across devices,0.1712101227985643
+gemma3_4b,deepseekr1_8b,Search for products,0.14877832799712482
+gemma3_4b,deepseekr1_8b,Compare prices,0.21870316889349842
+gemma3_4b,deepseekr1_8b,Add items to wishlist,0.24236470828070028
+gemma3_4b,deepseekr1_8b,Secure checkout,0.09468071473368546
+gemma3_4b,deepseekr1_8b,Track order delivery status,0.348083575430654
+gemma3_4b,deepseekr1_8b,Browse by category,0.22629870902786897
+gemma3_4b,deepseekr1_8b,View product reviews,0.5520433905899548
+gemma3_4b,deepseekr1_8b,Barcode scanning for items,0.009533186518946272
+gemma3_4b,deepseekr1_8b,Manage shopping cart,0.15029233809559933
+gemma3_4b,deepseekr1_8b,Receive daily promotions,0.002141550194793929
+gemma3_4b,deepseekr1_8b,Share photos and videos,0.6030106169618088
+gemma3_4b,deepseekr1_8b,Follow users,0.542682343136906
+gemma3_4b,deepseekr1_8b,Post content updates,0.5845904972963226
+gemma3_4b,deepseekr1_8b,Share content on social networks,0.4738825572004124
+gemma3_4b,deepseekr1_8b,Discover new people,0.15948393485050535
+gemma3_4b,deepseekr1_8b,Comment on posts,0.5087372604100683
+gemma3_4b,deepseekr1_8b,Receive push notifications,0.4472263878815204
+gemma3_4b,deepseekr1_8b,File management,0.03790221750665987
+gemma3_4b,deepseekr1_8b,Search with suggestions,0.35784037130999613
+gemma3_4b,deepseekr1_8b,Book taxis,0.5942238244236917
+gemma3_4b,deepseekr1_8b,Track taxi location,0.5863571305816726
+gemma3_4b,deepseekr1_8b,Calculate fares,0.5400190733800109
+gemma3_4b,deepseekr1_8b,Share media,0.059974300244206226
+gemma3_4b,deepseekr1_8b,Access subtitles,0.3834014227782023
+gemma3_4b,deepseekr1_8b,Video quality control,0.35651746227462205
+gemma3_4b,deepseekr1_8b,Weather forecast,0.5091994204870595
+qwen3_8b,gptoss20b,Read ebooks,0.44466219317757955
+qwen3_8b,gptoss20b,Download books,0.4078258867103644
+qwen3_8b,gptoss20b,Sync reading progress,0.35489011480390836
+qwen3_8b,gptoss20b,Highlight text,0.36953615144442276
+qwen3_8b,gptoss20b,Search within books,0.45326461966580994
+qwen3_8b,gptoss20b,Send messages,0.7862687098469686
+qwen3_8b,gptoss20b,Private chat with users,0.545584924128616
+qwen3_8b,gptoss20b,Real-time messaging,0.7765029500223994
+qwen3_8b,gptoss20b,Access courses,0.7445723271571011
+qwen3_8b,gptoss20b,Watch lectures,0.5975964056064765
+qwen3_8b,gptoss20b,Take quizzes,0.47069152329926867
+qwen3_8b,gptoss20b,Track learning progress,0.6017175078323137
+qwen3_8b,gptoss20b,Offline learning,0.5387640587174528
+qwen3_8b,gptoss20b,Watch live TV,0.3719153020819092
+qwen3_8b,gptoss20b,Watch videos,0.6872539445040614
+qwen3_8b,gptoss20b,Transfer money,0.6651792116115266
+qwen3_8b,gptoss20b,Send money to anyone,0.684153157104921
+qwen3_8b,gptoss20b,Receive money,0.7464782017527368
+qwen3_8b,gptoss20b,Pay bills,0.5397012273660174
+qwen3_8b,gptoss20b,Pay credit card bills,0.17739919242932398
+qwen3_8b,gptoss20b,Schedule payments,0.2586247500757921
+qwen3_8b,gptoss20b,Share payments,0.577520629895975
+qwen3_8b,gptoss20b,View account balances,0.16771857437717272
+qwen3_8b,gptoss20b,View transaction history,0.10938011692772004
+qwen3_8b,gptoss20b,Receive payment receipts,0.5030007819157682
+qwen3_8b,gptoss20b,Store bill details securely,0.1412434736288818
+qwen3_8b,gptoss20b,Activate cards for overseas usage,0.2908767252485481
+qwen3_8b,gptoss20b,Currency converter,0.24181973911613425
+qwen3_8b,gptoss20b,Financial calculators,0.05165112773521274
+qwen3_8b,gptoss20b,Remittances overseas,0.5238912952249491
+qwen3_8b,gptoss20b,Track workouts,0.41895277431871736
+qwen3_8b,gptoss20b,Monitor heart rate,0.4577896123090821
+qwen3_8b,gptoss20b,Set fitness goals,0.5692616242143732
+qwen3_8b,gptoss20b,Track weight,0.5399447828059021
+qwen3_8b,gptoss20b,Follow training plans,0.40380716901027747
+qwen3_8b,gptoss20b,View progress charts,0.388752108694522
+qwen3_8b,gptoss20b,Get audio coaching,0.4741919210089135
+qwen3_8b,gptoss20b,Track routes on map,0.33923558611974924
+qwen3_8b,gptoss20b,Diet planning,0.5338344864810388
+qwen3_8b,gptoss20b,Calorie tracking,0.5140069029476152
+qwen3_8b,gptoss20b,Turn-by-turn navigation,0.6203563379223757
+qwen3_8b,gptoss20b,Find nearby places,0.7494886647535026
+qwen3_8b,gptoss20b,View maps offline,0.4962406493133089
+qwen3_8b,gptoss20b,Check public transport routes,0.5687168583848368
+qwen3_8b,gptoss20b,Save favorite locations,0.6449198905987393
+qwen3_8b,gptoss20b,Real-time traffic updates,0.5568181480600936
+qwen3_8b,gptoss20b,Stream music,0.7713600700279862
+qwen3_8b,gptoss20b,Create playlists,0.7582292563847853
+qwen3_8b,gptoss20b,Download content for offline use,0.167933863519516
+qwen3_8b,gptoss20b,Audio playback controls,0.5654902368946059
+qwen3_8b,gptoss20b,Record audio,0.20058068745649468
+qwen3_8b,gptoss20b,Edit audio files,0.15345048010565632
+qwen3_8b,gptoss20b,Access breaking news,0.40851900505684535
+qwen3_8b,gptoss20b,Personalized news feed,0.45995345672054627
+qwen3_8b,gptoss20b,Read articles offline,0.5858929131162626
+qwen3_8b,gptoss20b,Bookmark articles,0.5469289492881838
+qwen3_8b,gptoss20b,Search news topics,0.5780309945350792
+qwen3_8b,gptoss20b,Listen to interviews,0.35740352695928024
+qwen3_8b,gptoss20b,Receive news notifications,0.5132403593507707
+qwen3_8b,gptoss20b,Browse by categories,0.26244352489118455
+qwen3_8b,gptoss20b,Set wallpapers,0.06572298085300031
+qwen3_8b,gptoss20b,Customize themes,0.19263485020055615
+qwen3_8b,gptoss20b,Change fonts,0.10846966164976742
+qwen3_8b,gptoss20b,Automatic wallpaper rotation,0.0843782392321834
+qwen3_8b,gptoss20b,Customize interface settings,0.3331398277183939
+qwen3_8b,gptoss20b,Photo editing tools,0.41554113676854426
+qwen3_8b,gptoss20b,Apply filters and effects,0.4820621146143315
+qwen3_8b,gptoss20b,Create collages,0.3573242095925757
+qwen3_8b,gptoss20b,Adjust image settings,0.3407008033034667
+qwen3_8b,gptoss20b,Save images locally,0.31989523037633005
+qwen3_8b,gptoss20b,Share edited photos,0.28033924916354025
+qwen3_8b,gptoss20b,Backup and restore data,0.3867419797358279
+qwen3_8b,gptoss20b,Sync across devices,0.4217619530541179
+qwen3_8b,gptoss20b,Search for products,0.7573938922586031
+qwen3_8b,gptoss20b,Compare prices,0.45421874199888224
+qwen3_8b,gptoss20b,Add items to wishlist,0.5917642104249056
+qwen3_8b,gptoss20b,Secure checkout,0.18659700532950313
+qwen3_8b,gptoss20b,Track order delivery status,0.08717297676518898
+qwen3_8b,gptoss20b,Browse by category,0.20117054913174187
+qwen3_8b,gptoss20b,View product reviews,0.6607098961380953
+qwen3_8b,gptoss20b,Barcode scanning for items,0.11819503067074749
+qwen3_8b,gptoss20b,Manage shopping cart,0.39804208764649646
+qwen3_8b,gptoss20b,Receive daily promotions,0.39785236613410874
+qwen3_8b,gptoss20b,Share photos and videos,0.7003269481639611
+qwen3_8b,gptoss20b,Follow users,0.6958178218855836
+qwen3_8b,gptoss20b,Post content updates,0.6715563835998698
+qwen3_8b,gptoss20b,Share content on social networks,0.4856237121752023
+qwen3_8b,gptoss20b,Discover new people,0.5469618218459901
+qwen3_8b,gptoss20b,Comment on posts,0.7100441536638685
+qwen3_8b,gptoss20b,Receive push notifications,0.5638069892522639
+qwen3_8b,gptoss20b,File management,0.2610112232988228
+qwen3_8b,gptoss20b,Search with suggestions,0.39405149493723785
+qwen3_8b,gptoss20b,Book taxis,0.6864386943398896
+qwen3_8b,gptoss20b,Track taxi location,0.6979114486034055
+qwen3_8b,gptoss20b,Calculate fares,0.7105392410644242
+qwen3_8b,gptoss20b,Share media,0.5293885791523324
+qwen3_8b,gptoss20b,Access subtitles,0.27806923102769665
+qwen3_8b,gptoss20b,Video quality control,0.327826122624115
+qwen3_8b,gptoss20b,Weather forecast,0.42423087129254966
+qwen3_8b,mistral_open,Read ebooks,0.488620966189152
+qwen3_8b,mistral_open,Download books,0.4152451351967662
+qwen3_8b,mistral_open,Sync reading progress,0.20427694939351487
+qwen3_8b,mistral_open,Highlight text,0.24591331487305182
+qwen3_8b,mistral_open,Search within books,0.27970628843091055
+qwen3_8b,mistral_open,Send messages,0.6809935641713187
+qwen3_8b,mistral_open,Private chat with users,0.5069632689126602
+qwen3_8b,mistral_open,Real-time messaging,0.5584319664113033
+qwen3_8b,mistral_open,Watch lectures,0.5174943360491252
+qwen3_8b,mistral_open,Take quizzes,0.44600606315693725
+qwen3_8b,mistral_open,Track learning progress,0.5629188155779938
+qwen3_8b,mistral_open,Offline learning,0.4949903167189603
+qwen3_8b,mistral_open,Watch live TV,0.2515832579540556
+qwen3_8b,mistral_open,Watch videos,0.7521378019508633
+qwen3_8b,mistral_open,Transfer money,0.43996490572961944
+qwen3_8b,mistral_open,Send money to anyone,0.7186559645448625
+qwen3_8b,mistral_open,Receive money,0.5407565222507384
+qwen3_8b,mistral_open,Pay bills,0.47958927445185145
+qwen3_8b,mistral_open,Schedule payments,0.38385625019892633
+qwen3_8b,mistral_open,Share payments,0.6590479240653606
+qwen3_8b,mistral_open,View account balances,0.2890642435087432
+qwen3_8b,mistral_open,View transaction history,0.28398332821208705
+qwen3_8b,mistral_open,Receive payment receipts,0.6464276709959919
+qwen3_8b,mistral_open,Store bill details securely,0.18329472781989536
+qwen3_8b,mistral_open,Activate cards for overseas usage,0.20254219311624058
+qwen3_8b,mistral_open,Currency converter,0.15495705273112773
+qwen3_8b,mistral_open,Financial calculators,0.06935832555143631
+qwen3_8b,mistral_open,Track workouts,0.25025370587228446
+qwen3_8b,mistral_open,Monitor heart rate,0.17592731024327804
+qwen3_8b,mistral_open,Set fitness goals,0.4492032172879852
+qwen3_8b,mistral_open,Track weight,0.37474570086263276
+qwen3_8b,mistral_open,Follow training plans,0.29127253238283823
+qwen3_8b,mistral_open,View progress charts,0.32082417117702305
+qwen3_8b,mistral_open,Get audio coaching,0.46928104684105704
+qwen3_8b,mistral_open,Track routes on map,0.4662083432144707
+qwen3_8b,mistral_open,Diet planning,0.29736471991609736
+qwen3_8b,mistral_open,Calorie tracking,0.40986561320768977
+qwen3_8b,mistral_open,Turn-by-turn navigation,0.4871187792253514
+qwen3_8b,mistral_open,Find nearby places,0.5065290313266905
+qwen3_8b,mistral_open,View maps offline,0.25444288662715797
+qwen3_8b,mistral_open,Check public transport routes,0.5555781568463546
+qwen3_8b,mistral_open,Save favorite locations,0.5494264462251277
+qwen3_8b,mistral_open,Real-time traffic updates,0.49201420123933615
+qwen3_8b,mistral_open,Stream music,0.7542494320644942
+qwen3_8b,mistral_open,Create playlists,0.7332653461438136
+qwen3_8b,mistral_open,Download content for offline use,0.18318072339718877
+qwen3_8b,mistral_open,Audio playback controls,0.6078571427941116
+qwen3_8b,mistral_open,Record audio,0.010083148288035105
+qwen3_8b,mistral_open,Edit audio files,0.17645860118092624
+qwen3_8b,mistral_open,Access breaking news,0.2723762011861366
+qwen3_8b,mistral_open,Personalized news feed,0.47118209010333595
+qwen3_8b,mistral_open,Read articles offline,0.4745732041060428
+qwen3_8b,mistral_open,Bookmark articles,0.48957157817867464
+qwen3_8b,mistral_open,Search news topics,0.3780553940679173
+qwen3_8b,mistral_open,Listen to interviews,0.43067855805622424
+qwen3_8b,mistral_open,Receive news notifications,0.2523601525458353
+qwen3_8b,mistral_open,Browse by categories,0.0553736249018123
+qwen3_8b,mistral_open,Set wallpapers,0.009789000896709725
+qwen3_8b,mistral_open,Customize themes,0.06685496624303129
+qwen3_8b,mistral_open,Change fonts,0.11931614922321171
+qwen3_8b,mistral_open,Automatic wallpaper rotation,0.10590683981845656
+qwen3_8b,mistral_open,Customize interface settings,0.13351386911746782
+qwen3_8b,mistral_open,Photo editing tools,0.3534434713748393
+qwen3_8b,mistral_open,Apply filters and effects,0.29484076198779524
+qwen3_8b,mistral_open,Create collages,0.17432431262450032
+qwen3_8b,mistral_open,Adjust image settings,0.25665875864532545
+qwen3_8b,mistral_open,Save images locally,0.3298813467629202
+qwen3_8b,mistral_open,Share edited photos,0.2158626836039557
+qwen3_8b,mistral_open,Sync across devices,0.6374142861763853
+qwen3_8b,mistral_open,Search for products,0.3954485776914187
+qwen3_8b,mistral_open,Compare prices,0.36605488964189564
+qwen3_8b,mistral_open,Add items to wishlist,0.682919279764491
+qwen3_8b,mistral_open,Track order delivery status,0.3422814621888758
+qwen3_8b,mistral_open,Browse by category,0.07707082848432502
+qwen3_8b,mistral_open,View product reviews,0.47419095523064464
+qwen3_8b,mistral_open,Barcode scanning for items,0.21546716068976468
+qwen3_8b,mistral_open,Manage shopping cart,0.3249975406591129
+qwen3_8b,mistral_open,Receive daily promotions,0.03896386018289143
+qwen3_8b,mistral_open,Share photos and videos,0.7444016569988409
+qwen3_8b,mistral_open,Follow users,0.792673695497091
+qwen3_8b,mistral_open,Post content updates,0.8306356273899521
+qwen3_8b,mistral_open,Share content on social networks,0.7588125723518007
+qwen3_8b,mistral_open,Discover new people,0.5469329375337534
+qwen3_8b,mistral_open,Comment on posts,0.7188898007348539
+qwen3_8b,mistral_open,Receive push notifications,0.5229343485838815
+qwen3_8b,mistral_open,Search with suggestions,0.13544386113360155
+qwen3_8b,mistral_open,Book taxis,0.544115137072886
+qwen3_8b,mistral_open,Track taxi location,0.568610776500256
+qwen3_8b,mistral_open,Share media,0.7803790936745586
+qwen3_8b,mistral_open,Video quality control,0.0001668213431730377
+qwen3_8b,mistral_open,Weather forecast,0.4935580935253635
+qwen3_8b,deepseekr1_8b,Read ebooks,0.19592998791223665
+qwen3_8b,deepseekr1_8b,Download books,0.44515033732454945
+qwen3_8b,deepseekr1_8b,Sync reading progress,0.2567461456631164
+qwen3_8b,deepseekr1_8b,Highlight text,0.410055931717989
+qwen3_8b,deepseekr1_8b,Search within books,0.45832075684582724
+qwen3_8b,deepseekr1_8b,Send messages,0.7102030510609727
+qwen3_8b,deepseekr1_8b,Private chat with users,0.5691046828162633
+qwen3_8b,deepseekr1_8b,Real-time messaging,0.7254954345236662
+qwen3_8b,deepseekr1_8b,Access courses,0.6221886562156802
+qwen3_8b,deepseekr1_8b,Watch lectures,0.5926313832798001
+qwen3_8b,deepseekr1_8b,Take quizzes,0.3779893518242599
+qwen3_8b,deepseekr1_8b,Track learning progress,0.6092412601348525
+qwen3_8b,deepseekr1_8b,Offline learning,0.565053798473966
+qwen3_8b,deepseekr1_8b,Watch live TV,0.39644638781065955
+qwen3_8b,deepseekr1_8b,Watch videos,0.7089120638402281
+qwen3_8b,deepseekr1_8b,Transfer money,0.60986464684499
+qwen3_8b,deepseekr1_8b,Send money to anyone,0.6678862500216066
+qwen3_8b,deepseekr1_8b,Receive money,0.7362202423544795
+qwen3_8b,deepseekr1_8b,Pay bills,0.5658199295490537
+qwen3_8b,deepseekr1_8b,Pay credit card bills,0.3122457866654082
+qwen3_8b,deepseekr1_8b,Schedule payments,0.4346872795447044
+qwen3_8b,deepseekr1_8b,Share payments,0.6210880071300519
+qwen3_8b,deepseekr1_8b,View account balances,0.27825381308695957
+qwen3_8b,deepseekr1_8b,View transaction history,0.3588727508636941
+qwen3_8b,deepseekr1_8b,Receive payment receipts,0.42655466670198366
+qwen3_8b,deepseekr1_8b,Store bill details securely,0.23361919906775566
+qwen3_8b,deepseekr1_8b,Activate cards for overseas usage,0.3374144452204802
+qwen3_8b,deepseekr1_8b,Currency converter,0.4157035414908391
+qwen3_8b,deepseekr1_8b,Financial calculators,0.11215769369943233
+qwen3_8b,deepseekr1_8b,Remittances overseas,0.3972652693829589
+qwen3_8b,deepseekr1_8b,Track workouts,0.43945165875889314
+qwen3_8b,deepseekr1_8b,Monitor heart rate,0.4810820243243256
+qwen3_8b,deepseekr1_8b,Set fitness goals,0.5826819950539469
+qwen3_8b,deepseekr1_8b,Track weight,0.5862889831989695
+qwen3_8b,deepseekr1_8b,Follow training plans,0.5051676303853314
+qwen3_8b,deepseekr1_8b,View progress charts,0.4119230100759001
+qwen3_8b,deepseekr1_8b,Get audio coaching,0.46075295956456896
+qwen3_8b,deepseekr1_8b,Track routes on map,0.567497171166702
+qwen3_8b,deepseekr1_8b,Diet planning,0.4024072545612074
+qwen3_8b,deepseekr1_8b,Calorie tracking,0.3997865686671206
+qwen3_8b,deepseekr1_8b,Turn-by-turn navigation,0.6145531230943092
+qwen3_8b,deepseekr1_8b,Find nearby places,0.7739575495643995
+qwen3_8b,deepseekr1_8b,View maps offline,0.6454521120895624
+qwen3_8b,deepseekr1_8b,Check public transport routes,0.6137282997761345
+qwen3_8b,deepseekr1_8b,Save favorite locations,0.6273486832679399
+qwen3_8b,deepseekr1_8b,Real-time traffic updates,0.6659934655476575
+qwen3_8b,deepseekr1_8b,Stream music,0.8489403385854486
+qwen3_8b,deepseekr1_8b,Create playlists,0.7302587088813643
+qwen3_8b,deepseekr1_8b,Download content for offline use,0.22445043351478514
+qwen3_8b,deepseekr1_8b,Audio playback controls,0.5632163951039293
+qwen3_8b,deepseekr1_8b,Record audio,0.25798165113146415
+qwen3_8b,deepseekr1_8b,Edit audio files,0.27602659425417325
+qwen3_8b,deepseekr1_8b,Access breaking news,0.4001162070147619
+qwen3_8b,deepseekr1_8b,Personalized news feed,0.46263006973731163
+qwen3_8b,deepseekr1_8b,Read articles offline,0.5363686638581975
+qwen3_8b,deepseekr1_8b,Bookmark articles,0.42440547797974476
+qwen3_8b,deepseekr1_8b,Search news topics,0.6021222779406297
+qwen3_8b,deepseekr1_8b,Listen to interviews,0.3921417656358622
+qwen3_8b,deepseekr1_8b,Receive news notifications,0.5690903036697744
+qwen3_8b,deepseekr1_8b,Browse by categories,0.4313996696690615
+qwen3_8b,deepseekr1_8b,Set wallpapers,0.09737971935775067
+qwen3_8b,deepseekr1_8b,Customize themes,0.13375272750095624
+qwen3_8b,deepseekr1_8b,Change fonts,0.07770218014243888
+qwen3_8b,deepseekr1_8b,Automatic wallpaper rotation,0.14430951338388445
+qwen3_8b,deepseekr1_8b,Customize interface settings,0.1979307987558848
+qwen3_8b,deepseekr1_8b,Photo editing tools,0.6517010351389448
+qwen3_8b,deepseekr1_8b,Apply filters and effects,0.6312243279464352
+qwen3_8b,deepseekr1_8b,Create collages,0.39941936228188907
+qwen3_8b,deepseekr1_8b,Adjust image settings,0.5579053404531681
+qwen3_8b,deepseekr1_8b,Save images locally,0.3382421871712622
+qwen3_8b,deepseekr1_8b,Share edited photos,0.42110953406986
+qwen3_8b,deepseekr1_8b,Backup and restore data,0.618588807165412
+qwen3_8b,deepseekr1_8b,Sync across devices,0.5299260034667005
+qwen3_8b,deepseekr1_8b,Search for products,0.6058818178916126
+qwen3_8b,deepseekr1_8b,Compare prices,0.37383977927982437
+qwen3_8b,deepseekr1_8b,Add items to wishlist,0.7517865424167007
+qwen3_8b,deepseekr1_8b,Secure checkout,0.44145430765655297
+qwen3_8b,deepseekr1_8b,Track order delivery status,0.3539208321796975
+qwen3_8b,deepseekr1_8b,Browse by category,0.37611360919296793
+qwen3_8b,deepseekr1_8b,View product reviews,0.5943975425515863
+qwen3_8b,deepseekr1_8b,Barcode scanning for items,0.23748095617882842
+qwen3_8b,deepseekr1_8b,Manage shopping cart,0.34544751729565204
+qwen3_8b,deepseekr1_8b,Receive daily promotions,0.4849126808993644
+qwen3_8b,deepseekr1_8b,Share photos and videos,0.7371784165251637
+qwen3_8b,deepseekr1_8b,Follow users,0.7052118869128157
+qwen3_8b,deepseekr1_8b,Post content updates,0.6546569965885333
+qwen3_8b,deepseekr1_8b,Share content on social networks,0.7064008455779185
+qwen3_8b,deepseekr1_8b,Discover new people,0.4397607868757901
+qwen3_8b,deepseekr1_8b,Comment on posts,0.7129447504823897
+qwen3_8b,deepseekr1_8b,Receive push notifications,0.5931879190599187
+qwen3_8b,deepseekr1_8b,File management,0.3331931348115846
+qwen3_8b,deepseekr1_8b,Search with suggestions,0.41173177975638525
+qwen3_8b,deepseekr1_8b,Book taxis,0.6789123876105517
+qwen3_8b,deepseekr1_8b,Track taxi location,0.6831787875987163
+qwen3_8b,deepseekr1_8b,Calculate fares,0.6656276631936712
+qwen3_8b,deepseekr1_8b,Share media,0.6600274828547235
+qwen3_8b,deepseekr1_8b,Access subtitles,0.32462870172048236
+qwen3_8b,deepseekr1_8b,Video quality control,0.3546847906402193
+qwen3_8b,deepseekr1_8b,Weather forecast,0.5188218948542496
+gptoss20b,mistral_open,Read ebooks,0.6060725995082813
+gptoss20b,mistral_open,Download books,0.5787355839627427
+gptoss20b,mistral_open,Sync reading progress,0.5629301301705801
+gptoss20b,mistral_open,Highlight text,0.26245206622079903
+gptoss20b,mistral_open,Search within books,0.3218613413272238
+gptoss20b,mistral_open,Send messages,0.647485269855717
+gptoss20b,mistral_open,Private chat with users,0.38485871022226875
+gptoss20b,mistral_open,Real-time messaging,0.5482327627507737
+gptoss20b,mistral_open,Watch lectures,0.5995809478361732
+gptoss20b,mistral_open,Take quizzes,0.45267904823594785
+gptoss20b,mistral_open,Track learning progress,0.6397166969212446
+gptoss20b,mistral_open,Offline learning,0.5422605893301778
+gptoss20b,mistral_open,Watch live TV,0.23981742366343733
+gptoss20b,mistral_open,Watch videos,0.7350291921217398
+gptoss20b,mistral_open,Transfer money,0.5140584829518511
+gptoss20b,mistral_open,Send money to anyone,0.714291046483847
+gptoss20b,mistral_open,Receive money,0.606043120025312
+gptoss20b,mistral_open,Pay bills,0.45104875423018037
+gptoss20b,mistral_open,Schedule payments,0.25580301604641525
+gptoss20b,mistral_open,Share payments,0.5969939173839236
+gptoss20b,mistral_open,View account balances,0.24195092186284445
+gptoss20b,mistral_open,View transaction history,0.17054962813130103
+gptoss20b,mistral_open,Receive payment receipts,0.5485982917611836
+gptoss20b,mistral_open,Store bill details securely,0.13021037966258484
+gptoss20b,mistral_open,Activate cards for overseas usage,0.3511073777790117
+gptoss20b,mistral_open,Currency converter,0.20077030623854542
+gptoss20b,mistral_open,Financial calculators,0.01605529777626726
+gptoss20b,mistral_open,Track workouts,0.28233959416354354
+gptoss20b,mistral_open,Monitor heart rate,0.18239631257897265
+gptoss20b,mistral_open,Set fitness goals,0.47159886303571097
+gptoss20b,mistral_open,Track weight,0.49233515446848447
+gptoss20b,mistral_open,Follow training plans,0.3864325063332597
+gptoss20b,mistral_open,View progress charts,0.3408452005935373
+gptoss20b,mistral_open,Get audio coaching,0.41621920909663085
+gptoss20b,mistral_open,Track routes on map,0.11261847411697117
+gptoss20b,mistral_open,Diet planning,0.43824885861352864
+gptoss20b,mistral_open,Calorie tracking,0.5067867716480128
+gptoss20b,mistral_open,Turn-by-turn navigation,0.549771458339165
+gptoss20b,mistral_open,Find nearby places,0.5578158075323867
+gptoss20b,mistral_open,View maps offline,0.2507739183843663
+gptoss20b,mistral_open,Check public transport routes,0.47484896693857354
+gptoss20b,mistral_open,Save favorite locations,0.5852430572756244
+gptoss20b,mistral_open,Real-time traffic updates,0.39010184409037174
+gptoss20b,mistral_open,Stream music,0.7396460422243062
+gptoss20b,mistral_open,Create playlists,0.7849426152065464
+gptoss20b,mistral_open,Download content for offline use,0.16879047685289902
+gptoss20b,mistral_open,Audio playback controls,0.7185305781207075
+gptoss20b,mistral_open,Record audio,0.06667226094732423
+gptoss20b,mistral_open,Edit audio files,0.12851400942090213
+gptoss20b,mistral_open,Access breaking news,0.338009293526131
+gptoss20b,mistral_open,Personalized news feed,0.5343425924277281
+gptoss20b,mistral_open,Read articles offline,0.555546315066523
+gptoss20b,mistral_open,Bookmark articles,0.593846321789355
+gptoss20b,mistral_open,Search news topics,0.34563410621658947
+gptoss20b,mistral_open,Listen to interviews,0.5736265806246548
+gptoss20b,mistral_open,Receive news notifications,0.26493980789926574
+gptoss20b,mistral_open,Browse by categories,0.12180460051724692
+gptoss20b,mistral_open,Set wallpapers,0.22291477608074237
+gptoss20b,mistral_open,Customize themes,0.11649986815945
+gptoss20b,mistral_open,Change fonts,0.08924513705372233
+gptoss20b,mistral_open,Automatic wallpaper rotation,0.11013904046793323
+gptoss20b,mistral_open,Customize interface settings,0.28450929134892516
+gptoss20b,mistral_open,Photo editing tools,0.5216662032720779
+gptoss20b,mistral_open,Apply filters and effects,0.3247560103827114
+gptoss20b,mistral_open,Create collages,0.21798546130665603
+gptoss20b,mistral_open,Adjust image settings,0.3826916766034839
+gptoss20b,mistral_open,Save images locally,0.3402745155086363
+gptoss20b,mistral_open,Share edited photos,0.17431843305462785
+gptoss20b,mistral_open,Sync across devices,0.39664036373508593
+gptoss20b,mistral_open,Search for products,0.4270116650019771
+gptoss20b,mistral_open,Compare prices,0.40648551454379944
+gptoss20b,mistral_open,Add items to wishlist,0.5697708974419252
+gptoss20b,mistral_open,Track order delivery status,0.2548217924386254
+gptoss20b,mistral_open,Browse by category,0.10403883111571315
+gptoss20b,mistral_open,View product reviews,0.46624210518857734
+gptoss20b,mistral_open,Barcode scanning for items,0.11028863658568083
+gptoss20b,mistral_open,Manage shopping cart,0.5429527935786834
+gptoss20b,mistral_open,Receive daily promotions,0.0484201126760043
+gptoss20b,mistral_open,Share photos and videos,0.698168652335378
+gptoss20b,mistral_open,Follow users,0.7097571701702962
+gptoss20b,mistral_open,Post content updates,0.7161836654771283
+gptoss20b,mistral_open,Share content on social networks,0.5449704534405913
+gptoss20b,mistral_open,Discover new people,0.5381999370996045
+gptoss20b,mistral_open,Comment on posts,0.722912086090519
+gptoss20b,mistral_open,Receive push notifications,0.5217972077510364
+gptoss20b,mistral_open,Search with suggestions,0.1953671364545483
+gptoss20b,mistral_open,Book taxis,0.5926584351272497
+gptoss20b,mistral_open,Track taxi location,0.6606279411674857
+gptoss20b,mistral_open,Share media,0.5358116554814019
+gptoss20b,mistral_open,Video quality control,0.03867327965829386
+gptoss20b,mistral_open,Weather forecast,0.48786527799664847
+gptoss20b,deepseekr1_8b,Read ebooks,0.2588601084307576
+gptoss20b,deepseekr1_8b,Download books,0.5268785812234205
+gptoss20b,deepseekr1_8b,Sync reading progress,0.4305923416706127
+gptoss20b,deepseekr1_8b,Highlight text,0.34185842630854424
+gptoss20b,deepseekr1_8b,Search within books,0.3447214236958117
+gptoss20b,deepseekr1_8b,Send messages,0.7003671795198145
+gptoss20b,deepseekr1_8b,Private chat with users,0.6540432777179255
+gptoss20b,deepseekr1_8b,Real-time messaging,0.7244567986901952
+gptoss20b,deepseekr1_8b,Access courses,0.5516187610382146
+gptoss20b,deepseekr1_8b,Watch lectures,0.4768431324340169
+gptoss20b,deepseekr1_8b,Take quizzes,0.31798783373769873
+gptoss20b,deepseekr1_8b,Track learning progress,0.5867404147677752
+gptoss20b,deepseekr1_8b,Offline learning,0.4873479605757393
+gptoss20b,deepseekr1_8b,Watch live TV,0.3915525816127683
+gptoss20b,deepseekr1_8b,Watch videos,0.6813346989519619
+gptoss20b,deepseekr1_8b,Transfer money,0.6114312526747822
+gptoss20b,deepseekr1_8b,Send money to anyone,0.7059778488147052
+gptoss20b,deepseekr1_8b,Receive money,0.7170822318910582
+gptoss20b,deepseekr1_8b,Pay bills,0.5170974644150079
+gptoss20b,deepseekr1_8b,Pay credit card bills,0.262044041468831
+gptoss20b,deepseekr1_8b,Schedule payments,0.2453811574973442
+gptoss20b,deepseekr1_8b,Share payments,0.5523772075951225
+gptoss20b,deepseekr1_8b,View account balances,0.12023915262025994
+gptoss20b,deepseekr1_8b,View transaction history,0.13608018635368593
+gptoss20b,deepseekr1_8b,Receive payment receipts,0.35982267911026933
+gptoss20b,deepseekr1_8b,Store bill details securely,0.10655135904047
+gptoss20b,deepseekr1_8b,Activate cards for overseas usage,0.30297686653363454
+gptoss20b,deepseekr1_8b,Currency converter,0.203590555147563
+gptoss20b,deepseekr1_8b,Financial calculators,0.04076026173317622
+gptoss20b,deepseekr1_8b,Remittances overseas,0.48342722360930585
+gptoss20b,deepseekr1_8b,Track workouts,0.5117596532963238
+gptoss20b,deepseekr1_8b,Monitor heart rate,0.5041003775172733
+gptoss20b,deepseekr1_8b,Set fitness goals,0.5278844314055201
+gptoss20b,deepseekr1_8b,Track weight,0.4902965780075165
+gptoss20b,deepseekr1_8b,Follow training plans,0.4877969210231996
+gptoss20b,deepseekr1_8b,View progress charts,0.5661096266204249
+gptoss20b,deepseekr1_8b,Get audio coaching,0.4673466399111501
+gptoss20b,deepseekr1_8b,Track routes on map,0.3993912254275422
+gptoss20b,deepseekr1_8b,Diet planning,0.5374166079237165
+gptoss20b,deepseekr1_8b,Calorie tracking,0.523722928110366
+gptoss20b,deepseekr1_8b,Turn-by-turn navigation,0.6234439600645684
+gptoss20b,deepseekr1_8b,Find nearby places,0.7995872936879933
+gptoss20b,deepseekr1_8b,View maps offline,0.5349160320437971
+gptoss20b,deepseekr1_8b,Check public transport routes,0.4911523034965624
+gptoss20b,deepseekr1_8b,Save favorite locations,0.6251756314790238
+gptoss20b,deepseekr1_8b,Real-time traffic updates,0.5782896845640565
+gptoss20b,deepseekr1_8b,Stream music,0.7812807687404433
+gptoss20b,deepseekr1_8b,Create playlists,0.8199622848031841
+gptoss20b,deepseekr1_8b,Download content for offline use,0.25987811634594954
+gptoss20b,deepseekr1_8b,Audio playback controls,0.7350020971134588
+gptoss20b,deepseekr1_8b,Record audio,0.15869276798326382
+gptoss20b,deepseekr1_8b,Edit audio files,0.25851464441812544
+gptoss20b,deepseekr1_8b,Access breaking news,0.43476864035118873
+gptoss20b,deepseekr1_8b,Personalized news feed,0.4899811346199364
+gptoss20b,deepseekr1_8b,Read articles offline,0.5941140211926996
+gptoss20b,deepseekr1_8b,Bookmark articles,0.47663059968788735
+gptoss20b,deepseekr1_8b,Search news topics,0.5224607965453509
+gptoss20b,deepseekr1_8b,Listen to interviews,0.5525853564056182
+gptoss20b,deepseekr1_8b,Receive news notifications,0.5763241629871283
+gptoss20b,deepseekr1_8b,Browse by categories,0.23938853405377294
+gptoss20b,deepseekr1_8b,Set wallpapers,0.0639012673768087
+gptoss20b,deepseekr1_8b,Customize themes,0.1370388741369812
+gptoss20b,deepseekr1_8b,Change fonts,0.09770022315005017
+gptoss20b,deepseekr1_8b,Automatic wallpaper rotation,0.05295207712370365
+gptoss20b,deepseekr1_8b,Customize interface settings,0.21610553182929093
+gptoss20b,deepseekr1_8b,Photo editing tools,0.42759746912147767
+gptoss20b,deepseekr1_8b,Apply filters and effects,0.4869579811160093
+gptoss20b,deepseekr1_8b,Create collages,0.30298706859859553
+gptoss20b,deepseekr1_8b,Adjust image settings,0.33764742670591247
+gptoss20b,deepseekr1_8b,Save images locally,0.3965839348211084
+gptoss20b,deepseekr1_8b,Share edited photos,0.27021407012692955
+gptoss20b,deepseekr1_8b,Backup and restore data,0.3831272542216169
+gptoss20b,deepseekr1_8b,Sync across devices,0.294336662973298
+gptoss20b,deepseekr1_8b,Search for products,0.581648427898804
+gptoss20b,deepseekr1_8b,Compare prices,0.3846758934567371
+gptoss20b,deepseekr1_8b,Add items to wishlist,0.5705283395774893
+gptoss20b,deepseekr1_8b,Secure checkout,0.3173133999293357
+gptoss20b,deepseekr1_8b,Track order delivery status,0.15292353804114225
+gptoss20b,deepseekr1_8b,Browse by category,0.22579331126191804
+gptoss20b,deepseekr1_8b,View product reviews,0.47826508795453165
+gptoss20b,deepseekr1_8b,Barcode scanning for items,0.11039618479966343
+gptoss20b,deepseekr1_8b,Manage shopping cart,0.5246462663602535
+gptoss20b,deepseekr1_8b,Receive daily promotions,0.372900891990068
+gptoss20b,deepseekr1_8b,Share photos and videos,0.6603202279676368
+gptoss20b,deepseekr1_8b,Follow users,0.6551875709023104
+gptoss20b,deepseekr1_8b,Post content updates,0.6500968862215273
+gptoss20b,deepseekr1_8b,Share content on social networks,0.4961367447843543
+gptoss20b,deepseekr1_8b,Discover new people,0.4316767721614477
+gptoss20b,deepseekr1_8b,Comment on posts,0.7138976414395237
+gptoss20b,deepseekr1_8b,Receive push notifications,0.5356251448262671
+gptoss20b,deepseekr1_8b,File management,0.3987128150986233
+gptoss20b,deepseekr1_8b,Search with suggestions,0.28416408418786776
+gptoss20b,deepseekr1_8b,Book taxis,0.6750981484956168
+gptoss20b,deepseekr1_8b,Track taxi location,0.6879468552194516
+gptoss20b,deepseekr1_8b,Calculate fares,0.6907884690221716
+gptoss20b,deepseekr1_8b,Share media,0.5599285616252518
+gptoss20b,deepseekr1_8b,Access subtitles,0.26945252412918275
+gptoss20b,deepseekr1_8b,Video quality control,0.20571327501308098
+gptoss20b,deepseekr1_8b,Weather forecast,0.527282558215974
+mistral_open,deepseekr1_8b,Read ebooks,0.1526811612245356
+mistral_open,deepseekr1_8b,Download books,0.4556637469040256
+mistral_open,deepseekr1_8b,Sync reading progress,0.4802427247018991
+mistral_open,deepseekr1_8b,Highlight text,0.22957813194149682
+mistral_open,deepseekr1_8b,Search within books,0.41649585745769446
+mistral_open,deepseekr1_8b,Send messages,0.5618170175745029
+mistral_open,deepseekr1_8b,Private chat with users,0.38817396338964016
+mistral_open,deepseekr1_8b,Real-time messaging,0.5499390966603677
+mistral_open,deepseekr1_8b,Watch lectures,0.4985599112216413
+mistral_open,deepseekr1_8b,Take quizzes,0.4499509080354199
+mistral_open,deepseekr1_8b,Track learning progress,0.5452636384350308
+mistral_open,deepseekr1_8b,Offline learning,0.4909688438512199
+mistral_open,deepseekr1_8b,Watch live TV,0.2973583425781726
+mistral_open,deepseekr1_8b,Watch videos,0.7070809852834966
+mistral_open,deepseekr1_8b,Transfer money,0.4438133304738209
+mistral_open,deepseekr1_8b,Send money to anyone,0.5760880753970129
+mistral_open,deepseekr1_8b,Receive money,0.4981444674782455
+mistral_open,deepseekr1_8b,Pay bills,0.4080777201411676
+mistral_open,deepseekr1_8b,Schedule payments,0.3973085875529989
+mistral_open,deepseekr1_8b,Share payments,0.6266229501863197
+mistral_open,deepseekr1_8b,View account balances,0.4136518334434223
+mistral_open,deepseekr1_8b,View transaction history,0.3907094139861188
+mistral_open,deepseekr1_8b,Receive payment receipts,0.3897804553869478
+mistral_open,deepseekr1_8b,Store bill details securely,0.1721780499072903
+mistral_open,deepseekr1_8b,Activate cards for overseas usage,0.18792501542244533
+mistral_open,deepseekr1_8b,Currency converter,0.1308042385418154
+mistral_open,deepseekr1_8b,Financial calculators,0.05132880077748882
+mistral_open,deepseekr1_8b,Track workouts,0.36509887442395766
+mistral_open,deepseekr1_8b,Monitor heart rate,0.17917126524099977
+mistral_open,deepseekr1_8b,Set fitness goals,0.4323251284814912
+mistral_open,deepseekr1_8b,Track weight,0.3081047180308044
+mistral_open,deepseekr1_8b,Follow training plans,0.40531379551488733
+mistral_open,deepseekr1_8b,View progress charts,0.41070557310394973
+mistral_open,deepseekr1_8b,Get audio coaching,0.5004795150770531
+mistral_open,deepseekr1_8b,Track routes on map,0.34847304787219535
+mistral_open,deepseekr1_8b,Diet planning,0.2804650091202722
+mistral_open,deepseekr1_8b,Calorie tracking,0.32487923056160123
+mistral_open,deepseekr1_8b,Turn-by-turn navigation,0.4925797813397729
+mistral_open,deepseekr1_8b,Find nearby places,0.5483969513780661
+mistral_open,deepseekr1_8b,View maps offline,0.2525840451088067
+mistral_open,deepseekr1_8b,Check public transport routes,0.535624124106607
+mistral_open,deepseekr1_8b,Save favorite locations,0.5297334976175536
+mistral_open,deepseekr1_8b,Real-time traffic updates,0.4425210019248584
+mistral_open,deepseekr1_8b,Stream music,0.7428407175031926
+mistral_open,deepseekr1_8b,Create playlists,0.7833726842565237
+mistral_open,deepseekr1_8b,Download content for offline use,0.23050240050446824
+mistral_open,deepseekr1_8b,Audio playback controls,0.7192534449776468
+mistral_open,deepseekr1_8b,Record audio,0.019481487932078007
+mistral_open,deepseekr1_8b,Edit audio files,0.24954992751829533
+mistral_open,deepseekr1_8b,Access breaking news,0.34441730897343925
+mistral_open,deepseekr1_8b,Personalized news feed,0.470964800973633
+mistral_open,deepseekr1_8b,Read articles offline,0.4940092867082962
+mistral_open,deepseekr1_8b,Bookmark articles,0.42933397407789614
+mistral_open,deepseekr1_8b,Search news topics,0.419653458619579
+mistral_open,deepseekr1_8b,Listen to interviews,0.5838094794256272
+mistral_open,deepseekr1_8b,Receive news notifications,0.2885298524194027
+mistral_open,deepseekr1_8b,Browse by categories,0.09531105127611712
+mistral_open,deepseekr1_8b,Set wallpapers,0.03325496740303435
+mistral_open,deepseekr1_8b,Customize themes,0.14777476937201803
+mistral_open,deepseekr1_8b,Change fonts,0.0669992686770012
+mistral_open,deepseekr1_8b,Automatic wallpaper rotation,0.058231522778887636
+mistral_open,deepseekr1_8b,Customize interface settings,0.10281053887044164
+mistral_open,deepseekr1_8b,Photo editing tools,0.3594735339571552
+mistral_open,deepseekr1_8b,Apply filters and effects,0.2741157806515992
+mistral_open,deepseekr1_8b,Create collages,0.20794803671887918
+mistral_open,deepseekr1_8b,Adjust image settings,0.34559003221069357
+mistral_open,deepseekr1_8b,Save images locally,0.29840280376710027
+mistral_open,deepseekr1_8b,Share edited photos,0.5112609138128245
+mistral_open,deepseekr1_8b,Sync across devices,0.5526257756934517
+mistral_open,deepseekr1_8b,Search for products,0.2885693432397721
+mistral_open,deepseekr1_8b,Compare prices,0.35647759174528193
+mistral_open,deepseekr1_8b,Add items to wishlist,0.6950671517733281
+mistral_open,deepseekr1_8b,Track order delivery status,0.4459140514314933
+mistral_open,deepseekr1_8b,Browse by category,0.1343049292965746
+mistral_open,deepseekr1_8b,View product reviews,0.2874512768565639
+mistral_open,deepseekr1_8b,Barcode scanning for items,0.2117427547056794
+mistral_open,deepseekr1_8b,Manage shopping cart,0.602149714672079
+mistral_open,deepseekr1_8b,Receive daily promotions,0.018222755629570618
+mistral_open,deepseekr1_8b,Share photos and videos,0.7724625187056791
+mistral_open,deepseekr1_8b,Follow users,0.7751119555521272
+mistral_open,deepseekr1_8b,Post content updates,0.6844264847088996
+mistral_open,deepseekr1_8b,Share content on social networks,0.8090083756795585
+mistral_open,deepseekr1_8b,Discover new people,0.31191849794310444
+mistral_open,deepseekr1_8b,Comment on posts,0.6924267830290536
+mistral_open,deepseekr1_8b,Receive push notifications,0.4441385241572191
+mistral_open,deepseekr1_8b,Search with suggestions,0.11761572343261212
+mistral_open,deepseekr1_8b,Book taxis,0.5637279087254652
+mistral_open,deepseekr1_8b,Track taxi location,0.556261749261319
+mistral_open,deepseekr1_8b,Share media,0.6442709569155307
+mistral_open,deepseekr1_8b,Video quality control,0.04457737155760315
+mistral_open,deepseekr1_8b,Weather forecast,0.577864448149553

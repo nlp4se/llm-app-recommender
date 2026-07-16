@@ -2,7 +2,7 @@ import argparse
 import pandas as pd
 import os
 import numpy as np
-from sentence_transformers import SentenceTransformer
+from code.hf_cache import load_sentence_transformer
 from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.preprocessing import normalize
 from sklearn.cluster import AgglomerativeClustering
@@ -11,6 +11,8 @@ import json
 import warnings
 import re
 from collections import Counter
+
+from tqdm import tqdm
 warnings.filterwarnings('ignore')
 
 def parse_args():
@@ -20,6 +22,27 @@ def parse_args():
     parser.add_argument('--k-range', type=str, default='2,50', help='Range for cluster validation (min,max)')
     parser.add_argument('--n-bootstrap', type=int, default=10, help='Number of bootstrap samples for gap statistic')
     return parser.parse_args()
+
+def prepare_criteria_texts(df: pd.DataFrame) -> tuple[pd.DataFrame, list[str]]:
+    """Coerce name/description to strings and drop rows that cannot be embedded."""
+    prepared = df.copy()
+    for col in ("name", "description"):
+        if col not in prepared.columns:
+            prepared[col] = ""
+        prepared[col] = prepared[col].fillna("").astype(str).str.strip()
+
+    before = len(prepared)
+    prepared = prepared[(prepared["name"] != "") | (prepared["description"] != "")].reset_index(drop=True)
+    dropped = before - len(prepared)
+    if dropped:
+        print(f"Dropped {dropped} rows with empty name and description before embedding")
+
+    texts = [
+        f"{row.name}. {row.description}".strip(". ")
+        for row in prepared.itertuples(index=False)
+    ]
+    return prepared, texts
+
 
 def systematic_clustering_approach(df, output_folder="", k_range=(2, 50), n_bootstrap=10):
     """
@@ -41,13 +64,14 @@ def systematic_clustering_approach(df, output_folder="", k_range=(2, 50), n_boot
         Filtered DataFrame with representative criteria
     """
     print(f"\n=== Systematic Clustering Approach ===")
-    
+
+    df, texts = prepare_criteria_texts(df)
+    if len(df) < 2:
+        raise ValueError("Need at least 2 criteria with non-empty name or description to cluster.")
+
     # Initialize the model
     print("Loading sentence embedding model...")
-    model = SentenceTransformer('all-MiniLM-L6-v2')
-    
-    # Combine name and description for each item
-    texts = (df['name'] + '. ' + df['description']).tolist()
+    model = load_sentence_transformer("all-MiniLM-L6-v2")
     
     # Generate embeddings
     print("Generating embeddings...")
@@ -103,21 +127,27 @@ def silhouette_analysis(embeddings, k_range=(2, 50)):
     Perform silhouette analysis to find optimal number of clusters.
     """
     silhouette_scores = []
-    k_values = range(k_range[0], min(k_range[1] + 1, len(embeddings) // 2))
-    
-    for k in k_values:
+    k_max = min(k_range[1] + 1, len(embeddings) // 2)
+    k_values = range(k_range[0], k_max)
+
+    for k in tqdm(
+        k_values,
+        desc="Silhouette analysis",
+        unit="k",
+        total=max(0, k_max - k_range[0]),
+    ):
         if k >= len(embeddings):
             break
-            
-        clustering = AgglomerativeClustering(n_clusters=k, linkage='ward')
+
+        clustering = AgglomerativeClustering(n_clusters=k, linkage="ward")
         cluster_labels = clustering.fit_predict(embeddings)
-        
+
         if len(np.unique(cluster_labels)) > 1:
             score = silhouette_score(embeddings, cluster_labels)
             silhouette_scores.append((k, score))
         else:
             silhouette_scores.append((k, 0))
-    
+
     return silhouette_scores
 
 def gap_statistic_analysis(embeddings, k_range=(2, 50), n_bootstrap=10):
@@ -503,31 +533,39 @@ def select_cluster_representatives(df, embeddings, cluster_labels, output_folder
     
     return representatives_df
 
-def main():
-    args = parse_args()
-    os.makedirs(args.output_folder, exist_ok=True)
-    
-    # Parse k_range
-    k_min, k_max = map(int, args.k_range.split(','))
-    k_range = (k_min, k_max)
-    
-    # Load data
-    df = pd.read_csv(args.input_file)
+def run_consolidation(
+    df: pd.DataFrame,
+    output_folder: str,
+    *,
+    k_range: tuple[int, int] = (2, 50),
+    n_bootstrap: int = 10,
+) -> pd.DataFrame:
+    """Paper Step 5: embedding, clustering, representative selection."""
+    os.makedirs(output_folder, exist_ok=True)
     print(f"Loaded {len(df)} criteria for consolidation")
-    
-    # Perform systematic clustering
     df_consolidated = systematic_clustering_approach(
-        df, 
-        output_folder=args.output_folder,
+        df,
+        output_folder=output_folder,
         k_range=k_range,
-        n_bootstrap=args.n_bootstrap
+        n_bootstrap=n_bootstrap,
     )
-    
-    # Save final consolidated criteria
-    output_path = os.path.join(args.output_folder, "rc_consolidated.csv")
+    output_path = os.path.join(output_folder, "rc_consolidated.csv")
     df_consolidated.to_csv(output_path, index=False)
     print(f"\nConsolidated criteria saved to: {output_path}")
     print(f"Final count: {len(df_consolidated)} representative criteria")
+    return df_consolidated
+
+
+def main():
+    args = parse_args()
+    k_min, k_max = map(int, args.k_range.split(","))
+    df = pd.read_csv(args.input_file)
+    run_consolidation(
+        df,
+        args.output_folder,
+        k_range=(k_min, k_max),
+        n_bootstrap=args.n_bootstrap,
+    )
 
 if __name__ == "__main__":
     main() 

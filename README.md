@@ -1,269 +1,161 @@
-# Empirical Study: LLM Behavior as System Recommenders in Mobile App Domain
+# LLMs as Mobile App Recommenders — Replication Package
 
-An empirical research study that investigates how Large Language Models (LLMs) behave when deployed as system recommenders in the mobile app domain. This study systematically evaluates multiple LLM providers (OpenAI, Google Gemini, and Mistral) to understand their recommendation patterns, consistency, and behavior when generating app rankings based on specific features and categories.
+This repository contains the code, input datasets, and output data of an empirical study on the behaviour of Large Language Models (LLMs) as mobile app recommenders. The study covers 10 LLMs (4 proprietary, 6 open-source) and is organized around three research questions:
 
-## 📋 Study Overview
+- **RQ1 — Ranking criteria elicitation.** Which ranking criteria do LLMs report when recommending mobile apps? We collect *blind* (unconditioned) app recommendations together with the self-reported ranking criteria, and consolidate the latter into a taxonomy of 16 criteria via filtering and embedding-based clustering.
+- **RQ2 — Recommendation consistency.** How consistent are blind LLM app recommendations? We measure *internal* consistency (run-to-run, within a model) and *external* consistency (cross-model agreement) using Rank-Biased Overlap (RBO, `k=20`, `p=0.9`).
+- **RQ3 — Ranking criteria impact.** How does conditioning recommendations on an explicit ranking criterion (*guided* recommendations) affect convergence? We compare the internal and external consistency of guided recommendations against the blind baselines from RQ2, and quantify how far guided lists are displaced from blind ones.
 
-This empirical investigation examines LLM behavior in mobile app recommendation scenarios across different AI-powered categories and features. The study focuses on:
+## Models
 
-- **Multi-LLM Behavioral Analysis**: Comparing recommendation patterns across OpenAI GPT-4, Google Gemini, and Mistral models
-- **Feature-Based Recommendation Studies**: Analyzing how LLMs generate app recommendations for specific app features (e.g., "Photo effects", "Go Live", "Collaborate with others")
-- **Category-Based Behavioral Analysis**: Examining LLM behavior when evaluating apps within AI-powered categories (e.g., "AI-powered entertainment", "AI-powered productivity")
-- **Consistency Measurement**: Quantifying ranking consistency both within and across different LLM models
-- **Behavioral Visualization**: Creating comprehensive visualizations of LLM recommendation patterns and criteria
+| Key | Cohort | Model |
+|-----|--------|-------|
+| `openai` | proprietary | `gpt-5.3-chat-latest` |
+| `gemini` | proprietary | `gemini-3-flash-preview` |
+| `anthropic` | proprietary | `claude-opus-4-6` |
+| `mistral` | proprietary | `mistral-large-latest` |
+| `llama31_8b` | open (Ollama) | `llama4:scout` |
+| `gemma3_4b` | open (Ollama) | `gemma3:27b` |
+| `qwen3_8b` | open (Ollama) | `qwen3:30b-a3b` |
+| `gptoss20b` | open (Ollama) | `gpt-oss:20b` |
+| `mistral_open` | open (Ollama) | `mistral-small3.1:24b` |
+| `deepseekr1_8b` | open (Ollama) | `deepseek-r1:8b` |
 
-## 📁 Project Structure
+Keys are internal identifiers used in output file names (some predate model upgrades and are kept for backwards compatibility with existing bundles). Additional provider adapters (`deepseek`, `perplexity`) are available via `--model-keys` but are not part of the default study set.
+
+## Repository structure
 
 ```
-llm-recommender-system/
-├── code/                          # Main source code
-│   ├── llm/                      # LLM integration modules
-│   │   ├── google/               # Google Gemini implementation
-│   │   ├── mistral/              # Mistral AI implementation
-│   │   ├── openai/               # OpenAI implementation
-│   │   ├── create_assistant.py   # Abstract assistant creation
-│   │   └── use_assistant.py      # Assistant usage utilities
-│   ├── consistency/              # Ranking consistency analysis
-│   │   ├── app_consistency.py    # App ranking consistency
-│   │   ├── app_internal_consistency.py
-│   │   └── ranking_criteria_consistency.py
-│   ├── correlation/              # Correlation analysis tools
-│   ├── data-processor/           # Data processing utilities
-│   └── visualization/            # Visualization modules
-│       ├── criteria_visualization.py
-│       └── source_visualization.py
-├── data/                         # Data directory
-│   ├── input/                    # Input data and configurations
-│   │   ├── prompts/              # System and user prompts
-│   │   ├── schema/               # JSON schemas for responses
-│   │   └── use-case/             # Categories and features data
-│   ├── output/                   # Generated outputs
-│   │   ├── category/             # Category-based results
-│   │   ├── features/             # Feature-based results
-│   │   ├── evaluation/           # Evaluation metrics
-│   │   └── search/               # Search results
-│   └── assistants/               # Stored assistant IDs
-├── experiments-*.py              # Experiment runner scripts
-└── hot-fix.py                    # Utility scripts
+├── run_experiments.py            # RQ1/RQ3 recommendation experiments; RQ2 shortcut
+├── run_criteria_elicitation.py   # RQ1 ranking criteria pipeline (extract → filter → consolidate)
+├── run_consistency_analysis.py   # RQ2 RBO consistency analysis
+├── check_experiment_coverage.py  # Report missing cells in bundled runs
+├── code/
+│   ├── experiments/              # Experiment framework (config, runner, schemas, providers)
+│   ├── elicitation/              # RQ1 criteria extraction, filtering, consolidation, RC merge
+│   └── consistency/              # RQ2 metrics/plots + RQ3 convergence analysis
+│       ├── metrics.py            # RBO and Jaccard implementations
+│       ├── runner.py             # RQ2 orchestration
+│       ├── publication_figures.py# RQ2 publication figures
+│       └── rq3_convergence.py    # RQ3 convergence analysis + publication figures
+└── data/
+    ├── input/
+    │   ├── prompts/              # System and user prompts (RQ1/RQ3)
+    │   ├── schema/               # JSON Schemas enforcing k ranked apps
+    │   └── use-case/             # features_small.csv (16), features_large.csv (100), k.csv
+    └── output/
+        ├── features/rq1/apps/    # Blind recommendation bundles (per suite)
+        ├── features/rq1/rc/      # Ranking criteria artifacts + merged taxonomy
+        ├── features/rq2/         # Consistency CSVs, heatmaps, publication figures
+        └── features/rq3/         # Guided bundles, convergence analysis, publication figures
 ```
 
-## 🚀 Features
+Dataset *suites* combine cohort and scale: `open_small`, `open_large`, `proprietary_small`, `proprietary_large`, plus `proprietary_small_wo_websearch` for the knowledge-only proprietary ablation.
 
-### Supported LLM Providers
-- **OpenAI GPT-4**: Advanced reasoning and ranking capabilities
-- **Google Gemini**: Web search integration for real-time data
-- **Mistral AI**: Cost-effective alternative with strong performance
+## Setup
 
-### Analysis Capabilities
-- **Multi-Model Comparison**: Evaluate consistency across different LLMs
-- **Feature-Specific Rankings**: Generate recommendations for specific app features
-- **Category-Based Analysis**: Analyze apps within AI-powered categories
-- **Consistency Metrics**: 
-  - Rank-Biased Overlap (RBO)
-  - Jaccard Similarity
-  - Internal consistency (within model)
-  - External consistency (across models)
+Requires Python 3.10+.
 
-### Advanced Analytics
-- **Semantic Clustering**: Group similar ranking criteria using embeddings
-- **Active Learning**: Interactive threshold optimization for criteria deduplication
-- **Visualization**: Heatmaps, dendrograms, and comprehensive charts
-- **Data Processing**: Automated merging and cleaning of recommendation data
-
-## 🎯 Study Features
-
-The empirical study examines LLM behavior when generating recommendations for 16 specific app features:
-- Broadcast messages to multiple contacts
-- Send files
-- Watch streams
-- Go Live
-- Play playlist on shuffle mode
-- Access to podcasts
-- Build photo collage
-- Photo effects
-- Access to movies
-- Rate movies
-- Keeping up with friends
-- Play games
-- Collaborate with others
-- Write notes
-- Search for offer on item
-- List items for sale
-
-## 🛠️ Experimental Setup
-
-### Prerequisites
-- Python 3.8+
-- Required API keys for LLM providers
-
-### Environment Setup
-1. Clone the repository:
-```bash
-git clone <repository-url>
-cd llm-recommender-system
-```
-
-2. Create a virtual environment:
-```bash
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-```
-
-3. Install dependencies:
 ```bash
 pip install -r requirements.txt
 ```
 
-4. Set up environment variables:
+API credentials are read from a `.env` file at the repository root (see `python-dotenv`):
+
+```
+OPENAI_API_KEY=...
+GOOGLE_API_KEY=...
+ANTHROPIC_API_KEY=...
+MISTRAL_API_KEY=...
+```
+
+Open-source models run through a local [Ollama](https://ollama.com/) server (`OLLAMA_BASE_URL`, default `http://localhost:11434`). Pull the models listed above before running the open cohort.
+
+## Replicating the study
+
+All experiments use structured JSON output (schemas in `data/input/schema/`) with exactly `k=20` ranked apps per response.
+
+### RQ1 — Blind recommendations and criteria elicitation
+
+Collect blind recommendations (10 runs per feature):
+
 ```bash
-# Create .env file with your API keys
-OPENAI_API_KEY=your_openai_key
-GOOGLE_API_KEY=your_google_key
-MISTRAL_API_KEY=your_mistral_key
+# Open cohort, small (16 features) and large (100 features) datasets
+python run_experiments.py --rq rq1 --families open --features-csv data/input/use-case/features_small.csv
+python run_experiments.py --rq rq1 --families open --features-csv data/input/use-case/features_large.csv
+
+# Proprietary cohort, knowledge-only (primary configuration)
+python run_experiments.py --rq rq1 --families proprietary \
+  --features-csv data/input/use-case/features_small.csv \
+  --dataset-suite proprietary_small_wo_websearch
+
+# Proprietary cohort, web-augmented ablation (Gemini Google Search, Mistral web_search)
+python run_experiments.py --rq rq1 --families proprietary \
+  --features-csv data/input/use-case/features_small.csv --web-search
 ```
 
-## 🔬 Running Experiments
+Bundles are written to `data/output/features/rq1/apps/<suite>/`. Use `--dry-run` to preview planned cells and `--continue-on-error` / re-runs to fill failed cells. Verify completeness with:
 
-### Feature-Based Behavioral Analysis (RQ1)
 ```bash
-# Run experiments for all LLM providers
-python experiments-gemini-rq1.py
-python experiments-mistral-rq1.py
-python experiments-openai-rq1.py
+python check_experiment_coverage.py --rq rq1 --families open --k 20
 ```
 
-### Category-Based Behavioral Analysis (RQ3)
+Elicit the ranking criteria taxonomy from the collected bundles (Steps: extraction, rule-based filtering, embedding-based consolidation with cluster-count validation):
+
 ```bash
-# Run category-based experiments
-python experiments-gemini-rq3.py
-python experiments-mistral-rq3.py
-python experiments-openai-rq3.py
+python run_criteria_elicitation.py \
+  --input-folders data/output/features/rq1/apps/open_large \
+  --output-folder data/output/features/rq1/rc/open_large \
+  --steps all
 ```
 
-### Individual LLM Searches
+The consolidation output is manually reviewed into `rc_wo_id_<suite>.csv`. The per-suite criteria lists are then aligned into the unified 16-criteria taxonomy used by RQ3:
 
-#### Google Gemini
 ```bash
-python -m code.llm.google.search_gemini_rq1 \
-    --output ./data/output/features/rq1/gemini/k20_Photo_effects \
-    --k 20 \
-    --search "Photo effects" \
-    --n 10 \
-    --model "gemini-2.0-flash" \
-    --system-prompt "data/input/prompts/system-prompt-output-rq1.txt"
+python -m code.elicitation.merge_rc_lists
+# -> data/output/features/rq1/rc/merge/rc_merge_unified.csv
 ```
 
-#### OpenAI
+### RQ2 — Consistency analysis
+
+Compute internal, intra-family external, and cross-family external RBO on the RQ1 bundles:
+
 ```bash
-python -m code.llm.openai.search_openai_rq1 \
-    --output ./data/output/features/rq1/openai/k20_Photo_effects \
-    --k 20 \
-    --search "Photo effects" \
-    --n 10 \
-    --model "gpt-4o" \
-    --system-prompt "data/input/prompts/system-prompt-output-rq1.txt"
+python run_consistency_analysis.py --dataset-scale large
+python run_consistency_analysis.py --dataset-scale small
+
+# RBO persistence-parameter sensitivity (reported in the paper)
+python run_consistency_analysis.py --dataset-scale large --rbo-p-values 0.8,0.9,1.0
 ```
 
-#### Mistral
+Outputs (CSVs and heatmaps) are written to `data/output/features/rq2/<suite>/` and `data/output/features/rq2/cross_<scale>/`. The publication figures are regenerated with:
+
 ```bash
-python -m code.llm.mistral.search_mistral_rq1 \
-    --output ./data/output/features/rq1/mistral/k20_Photo_effects \
-    --k 20 \
-    --search "Photo effects" \
-    --n 10 \
-    --model "mistral-large-latest" \
-    --system-prompt "data/input/prompts/system-prompt-output-rq1.txt"
+python -m code.consistency.publication_figures
+# -> data/output/features/rq2/publication/
 ```
 
-### Consistency Analysis
+### RQ3 — Guided recommendations and convergence analysis
 
-#### App Ranking Consistency
+Collect guided recommendations (5 runs per feature × criterion, 16 criteria from the unified taxonomy):
+
 ```bash
-python -m code.consistency.app_consistency \
-    --input data/output/evaluation/app_rankings.csv \
-    --output data/output/evaluation/consistency
+python run_experiments.py --rq rq3 --families open,proprietary \
+  --features-csv data/input/use-case/features_small.csv
 ```
 
-#### Ranking Criteria Consistency
+Bundles are written to `data/output/features/rq3/apps/<suite>/`. The convergence analysis compares guided recommendations against the blind baselines (internal convergence per model × criterion, external convergence per criterion with paired statistics, cohort breakdown, and guided-vs-blind displacement):
+
 ```bash
-python -m code.consistency.ranking_criteria_consistency \
-    --input data/output/evaluation/app_ranking_criteria.csv \
-    --output data/output/evaluation/consistency/ranking_criteria
+python -m code.consistency.rq3_convergence
+# CSV tables  -> data/output/features/rq3/analysis/
+# Figures     -> data/output/features/rq3/publication/
 ```
 
-### Visualization
+## Metrics
 
-#### Criteria Visualization
-```bash
-python -m code.visualization.criteria_visualization \
-    --input data/output/features/rq1/gemini/all_criteria.csv \
-    --output data/output/features/rq1/gemini/ \
-    --similarity-threshold 0.72
-```
+Ranking similarity uses Rank-Biased Overlap (`code/consistency/metrics.py`) at depth `k=20` with persistence `p=0.9`; app names are matched by normalized exact string comparison. Criteria similarity in the elicitation pipeline uses sentence-embedding cosine similarity.
 
-#### Source Visualization
-```bash
-python -m code.visualization.source_visualization \
-    --input data/output/features/rq1/gemini/all_criteria.csv \
-    --output data/output/features/rq1/gemini/
-```
+## License
 
-## 📊 Experimental Output Structure
-
-### Generated Data
-- **JSON Responses**: Individual LLM responses for each experimental trial
-- **CSV Rankings**: Consolidated app rankings across all trials and models
-- **Consistency Metrics**: RBO and Jaccard similarity calculations
-- **Visualization Files**: Heatmaps, dendrograms, and analysis charts
-- **Evaluation Reports**: Comprehensive analysis of LLM behavior patterns
-
-### Data Organization
-```
-data/output/
-├── features/rq1/           # Feature-based analysis results
-│   ├── gemini/            # Google Gemini results
-│   ├── mistral/           # Mistral AI results
-│   └── openai/            # OpenAI results
-├── category/rq1/          # Category-based analysis results
-│   ├── gemini/            # Google Gemini results
-│   ├── mistral/           # Mistral AI results
-│   └── openai/            # OpenAI results
-├── evaluation/            # Consistency and correlation analysis
-│   ├── consistency/       # Ranking consistency metrics
-│   └── correlation/       # Cross-model correlation analysis
-└── search/               # Search functionality results
-```
-
-## 📈 Results and Analysis
-
-### Key Findings
-- **Model Consistency**: Analysis of ranking consistency within and across LLM models
-- **Feature Sensitivity**: How different app features affect recommendation patterns
-- **Category Behavior**: LLM behavior variations across AI-powered app categories
-- **Ranking Criteria**: Semantic analysis of ranking criteria used by different models
-
-### Visualization Examples
-- **Heatmaps**: Model comparison matrices showing ranking similarities
-- **Dendrograms**: Hierarchical clustering of ranking criteria
-- **Consistency Charts**: RBO and Jaccard similarity visualizations
-- **Correlation Plots**: Cross-model correlation analysis
-
-## 📚 References
-
-### Research Papers
-- ...
-
-### Technical Resources
-- [OpenAI API Documentation](https://platform.openai.com/docs)
-- [Google Gemini API Documentation](https://ai.google.dev/docs)
-- [Mistral AI API Documentation](https://docs.mistral.ai/)
-
-### Related Work
-- ....
-## 📄 License
-
-This project is licensed under the GPL version 3 - see the [LICENSE](LICENSE) file for details.
-
-## 📄 Acknowledgments
-
-- ...
+This project is released under the GNU General Public License v3.0 (see `LICENSE`).

@@ -1,0 +1,679 @@
+from __future__ import annotations
+
+import csv
+import json
+import logging
+import time
+from datetime import datetime
+from itertools import product
+from pathlib import Path
+
+import pandas as pd
+
+from code.experiments.csv_utils import read_csv_column
+from code.experiments.criteria import load_rq3_criteria
+from code.experiments.features import load_features_list
+from code.experiments.config import (
+    K_VALUES_CSV,
+    MAX_ATTEMPTS_PER_RUN,
+    MODEL_SPECS,
+    OUTPUT_ROOT,
+    RQ_CONFIGS,
+    Family,
+    ModelSpec,
+    OllamaSettings,
+    OutputMode,
+    RQConfig,
+)
+from code.experiments.io import (
+    bundle_coverage,
+    expected_record_keys,
+    index_successful_records,
+    load_bundle,
+    parse_and_validate_response,
+    save_bundle,
+)
+from code.experiments.naming import (
+    apps_output_dir,
+    build_bundle_filename,
+    resolve_criteria_csv,
+    resolve_dataset_suite,
+)
+from code.experiments.prompts import format_user_prompt, read_text, system_prompt_path
+from code.experiments.providers import get_client  # lazy-loads provider SDKs
+from code.experiments.schema import load_schema_for_run
+
+logger = logging.getLogger(__name__)
+
+def _resolve_search_items(
+    family: Family,
+    *,
+    search_items: list[str] | None,
+    features_csv: str | None,
+    features_csv_proprietary: str | None,
+    default_csv: str,
+) -> list[str]:
+    if search_items:
+        return search_items
+    if features_csv:
+        return load_features_list(features_csv)
+    if family == "proprietary" and features_csv_proprietary:
+        items = load_features_list(features_csv_proprietary)
+        logger.info("Proprietary family: %s features from %s", len(items), features_csv_proprietary)
+        return items
+    return read_csv_column(default_csv)
+
+
+def _format_eta(seconds: float) -> str:
+    if seconds < 0 or seconds != seconds:  # NaN
+        return "?"
+    total = int(seconds)
+    hours, rem = divmod(total, 3600)
+    minutes, secs = divmod(rem, 60)
+    if hours:
+        return f"{hours}h {minutes}m"
+    if minutes:
+        return f"{minutes}m {secs}s"
+    return f"{secs}s"
+
+
+class RunProgress:
+    """Tracks experiment-wide progress and logs ETA after each completed cell."""
+
+    def __init__(
+        self,
+        *,
+        total_bundles: int,
+        total_cells: int,
+        completed_cells_at_start: int,
+    ) -> None:
+        self.total_bundles = total_bundles
+        self.total_cells = total_cells
+        self.completed_at_start = completed_cells_at_start
+        self.session_completed = 0
+        self._session_start = time.time()
+
+    def log_plan(self) -> None:
+        remaining = self.total_cells - self.completed_at_start
+        logger.info(
+            "PROGRESS plan: %s bundles, %s cells total | %s already done | %s to run",
+            self.total_bundles,
+            self.total_cells,
+            self.completed_at_start,
+            remaining,
+        )
+
+    def on_bundle_start(self, bundle_index: int, model_key: str, cells_done: int, cells_total: int) -> None:
+        remaining_bundle = cells_total - cells_done
+        logger.info(
+            "PROGRESS bundle %s/%s | model=%s | %s/%s cells in bundle | %s missing in this bundle",
+            bundle_index,
+            self.total_bundles,
+            model_key,
+            cells_done,
+            cells_total,
+            remaining_bundle,
+        )
+
+    def on_bundle_skipped(self, bundle_index: int, model_key: str) -> None:
+        logger.info(
+            "PROGRESS bundle %s/%s | model=%s | already complete — skipped",
+            bundle_index,
+            self.total_bundles,
+            model_key,
+        )
+
+    def on_cell_done(self, model_key: str, bundle_cells_done: int, bundle_cells_total: int, label: str) -> None:
+        self.session_completed += 1
+        overall_done = self.completed_at_start + self.session_completed
+        overall_remaining = self.total_cells - overall_done
+        pct = (100.0 * overall_done / self.total_cells) if self.total_cells else 100.0
+        elapsed = time.time() - self._session_start
+        eta_str = "?"
+        if self.session_completed > 0 and overall_remaining > 0:
+            eta_str = _format_eta(elapsed / self.session_completed * overall_remaining)
+        logger.info(
+            "PROGRESS %s | bundle %s/%s for %s | overall %s/%s (%.1f%%) | %s remaining | ETA ~%s",
+            label,
+            bundle_cells_done,
+            bundle_cells_total,
+            model_key,
+            overall_done,
+            self.total_cells,
+            pct,
+            overall_remaining,
+            eta_str,
+        )
+
+
+def _model_label(spec: ModelSpec) -> str:
+    return f"{spec.family}/{spec.key} ({spec.model_id})"
+
+
+SANITY_FEATURE = "Photo effects"
+
+
+def check_model_availability(
+    selected_specs: list[ModelSpec],
+    *,
+    rq: RQConfig,
+    k: int,
+    mode: OutputMode = "structured",
+    web_search: bool = False,
+    max_attempts: int = 2,
+    sleep: float = 2.0,
+) -> tuple[list[ModelSpec], dict[str, str]]:
+    """
+    Run one mock structured experiment cell per model (same code path as real runs).
+
+    Validates API key, model id, provider JSON-schema support, and post-response parsing.
+    """
+    schema = load_schema_for_run(rq.schema_base, k)
+    system = read_text(system_prompt_path(rq, mode))
+    user = format_user_prompt(rq.user_prompt, k=k, search=SANITY_FEATURE)
+    if rq.id == "rq3":
+        criterion = json.dumps(
+            [{"n": "Popularity", "d": "Number of installs and active users"}],
+            indent=2,
+        )
+        user = format_user_prompt(
+            rq.user_prompt,
+            k=k,
+            search=SANITY_FEATURE,
+            ranking_criteria=criterion,
+        )
+
+    available: list[ModelSpec] = []
+    unavailable: dict[str, str] = {}
+    for spec in selected_specs:
+        label = _model_label(spec)
+        try:
+            client = get_client(spec, web_search=web_search)
+            _complete_validated(
+                client=client,
+                system=system,
+                user=user,
+                structured=mode == "structured",
+                schema=schema,
+                max_attempts=max_attempts,
+                sleep=sleep,
+                label=f"sanity check {spec.key}",
+            )
+            logger.info("Sanity check OK: %s (structured mock, k=%s)", label, k)
+            available.append(spec)
+        except Exception as exc:  # pragma: no cover - provider-specific runtime errors
+            reason = str(exc) or repr(exc)
+            unavailable[spec.key] = reason
+            logger.warning("Sanity check FAILED: %s -> %s", label, reason)
+    return available, unavailable
+
+
+def _complete_validated(
+    *,
+    client,
+    system: str,
+    user: str,
+    structured: bool,
+    schema: dict,
+    max_attempts: int,
+    sleep: float,
+    label: str,
+) -> dict:
+    for attempt in range(1, max_attempts + 1):
+        start = time.time()
+        try:
+            content = client.complete(system, user, structured=structured, schema=schema)
+            payload = parse_and_validate_response(content, schema)
+            logger.info("%s attempt %s done (%.2fs)", label, attempt, time.time() - start)
+            return payload
+        except Exception as exc:
+            if attempt >= max_attempts:
+                logger.exception("%s failed after %s attempts", label, max_attempts)
+                raise
+            logger.warning(
+                "%s invalid (attempt %s/%s): %s. Retrying...",
+                label,
+                attempt,
+                max_attempts,
+                exc,
+            )
+            time.sleep(sleep)
+    raise RuntimeError(f"Unreachable: exhausted attempts for {label}")
+
+
+def _build_bundle_payload(
+    *,
+    rq: RQConfig,
+    model_spec: ModelSpec,
+    mode: OutputMode,
+    k: int,
+    search_items: list[str],
+    n: int,
+    records_by_key: dict,
+    key_order: list,
+    criteria_csv: str | None,
+    web_search: bool = False,
+    dataset_suite: str | None = None,
+) -> dict[str, object]:
+    records = [records_by_key[key] for key in key_order if key in records_by_key]
+    payload: dict[str, object] = {
+        "rq": rq.id,
+        "family": model_spec.family,
+        "provider": model_spec.provider.value,
+        "model_key": model_spec.key,
+        "model_id": model_spec.model_id,
+        "mode": mode,
+        "k": k,
+        "features": search_items,
+        "runs_per_item": n,
+        "web_search": web_search,
+        "records": records,
+    }
+    if dataset_suite:
+        payload["dataset_suite"] = dataset_suite
+    if rq.id == "rq3" and criteria_csv:
+        payload["criteria_csv"] = criteria_csv
+    return payload
+
+
+def run_setting_bundle(
+    *,
+    rq: RQConfig,
+    model_spec: ModelSpec,
+    mode: OutputMode,
+    k: int,
+    search_items: list[str],
+    n: int,
+    sleep: float,
+    output_root: str,
+    max_attempts: int,
+    criteria_csv: str | None = None,
+    continue_on_error: bool = False,
+    web_search: bool = False,
+    progress: RunProgress | None = None,
+    bundle_index: int = 1,
+    dataset_suite: str = "",
+) -> None:
+    """
+    Run one model/mode/k setting; write a bundled *_ALL.json file.
+
+    Resumes automatically: loads an existing bundle, skips successful cells, and
+    checkpoints to disk after every completed record.
+    """
+    out_dir = apps_output_dir(output_root, rq.id, dataset_suite)
+    out_dir.mkdir(parents=True, exist_ok=True)
+
+    bundle_filename = build_bundle_filename(
+        family=model_spec.family,
+        provider=model_spec.provider.value,
+        model_key=model_spec.key,
+        mode=mode,
+        k=k,
+    )
+    bundle_path = out_dir / bundle_filename
+
+    criteria_names: list[str] | None = None
+    criteria_rows: list[dict] | None = None
+    if rq.id == "rq3":
+        if not criteria_csv:
+            raise ValueError("RQ3 requires criteria_csv")
+        criteria_rows = load_rq3_criteria(criteria_csv)
+        criteria_names = [row["n"] for row in criteria_rows]
+
+    key_order = expected_record_keys(
+        rq_id=rq.id,
+        features=search_items,
+        runs_per_item=n,
+        criteria_names=criteria_names,
+    )
+
+    coverage = bundle_coverage(
+        bundle_path,
+        rq_id=rq.id,
+        features=search_items,
+        runs_per_item=n,
+        criteria_names=criteria_names,
+    )
+    if coverage["complete"]:
+        logger.info(
+            "Bundle already complete (%s/%s records) -> skipping %s",
+            coverage["successful"],
+            coverage["expected"],
+            bundle_filename,
+        )
+        if progress:
+            progress.on_bundle_skipped(bundle_index, model_spec.key)
+        return
+
+    if progress:
+        progress.on_bundle_start(
+            bundle_index,
+            model_spec.key,
+            coverage["successful"],
+            coverage["expected"],
+        )
+
+    records_by_key = index_successful_records([], rq.id)
+    if coverage["exists"]:
+        existing = load_bundle(bundle_path)
+        assert existing is not None
+        records_by_key = index_successful_records(existing.get("records", []), rq.id)
+        logger.info(
+            "Resuming %s: %s/%s successful, %s missing, %s failed placeholders",
+            bundle_filename,
+            coverage["successful"],
+            coverage["expected"],
+            coverage["missing"],
+            coverage["failed"],
+        )
+    else:
+        logger.info(
+            "Starting %s | %s/%s | k=%s | %s cells",
+            bundle_filename,
+            model_spec.family,
+            model_spec.key,
+            k,
+            len(key_order),
+        )
+
+    schema = load_schema_for_run(rq.schema_base, k)
+    system = read_text(system_prompt_path(rq, mode))
+    client = get_client(model_spec, web_search=web_search)
+    structured = mode == "structured"
+
+    def persist() -> None:
+        save_bundle(
+            bundle_path,
+            _build_bundle_payload(
+                rq=rq,
+                model_spec=model_spec,
+                mode=mode,
+                k=k,
+                search_items=search_items,
+                n=n,
+                records_by_key=records_by_key,
+                key_order=key_order,
+                criteria_csv=criteria_csv,
+                web_search=web_search,
+                dataset_suite=dataset_suite,
+            ),
+        )
+
+    for cell_key in key_order:
+        if cell_key in records_by_key:
+            continue
+
+        feature = cell_key[0]
+        if rq.id == "rq1":
+            run_idx = int(cell_key[1])
+            user = format_user_prompt(rq.user_prompt, k=k, search=feature)
+            label = f"{feature} run {run_idx + 1}/{n}"
+            record_stub: dict[str, object] = {"feature": feature, "run": run_idx}
+        else:
+            criterion_name = str(cell_key[1])
+            run_idx = int(cell_key[2])
+            criterion_obj = next(
+                row for row in (criteria_rows or []) if row["n"] == criterion_name
+            )
+            ranking_criteria = json.dumps([criterion_obj], indent=2)
+            user = format_user_prompt(
+                rq.user_prompt,
+                k=k,
+                search=feature,
+                ranking_criteria=ranking_criteria,
+            )
+            label = f"{feature} / {criterion_name} run {run_idx + 1}/{n}"
+            record_stub = {
+                "feature": feature,
+                "criterion": criterion_obj,
+                "run": run_idx,
+            }
+
+        try:
+            payload = _complete_validated(
+                client=client,
+                system=system,
+                user=user,
+                structured=structured,
+                schema=schema,
+                max_attempts=max_attempts,
+                sleep=sleep,
+                label=label,
+            )
+            records_by_key[cell_key] = {**record_stub, "payload": payload}
+        except Exception as exc:
+            if not continue_on_error:
+                persist()
+                raise
+            logger.error("%s: storing error placeholder (%s)", label, exc)
+            records_by_key[cell_key] = {**record_stub, "payload": None, "error": str(exc)}
+        persist()
+        if progress:
+            progress.on_cell_done(
+                model_spec.key,
+                len(records_by_key),
+                len(key_order),
+                label,
+            )
+        time.sleep(sleep)
+
+    final = bundle_coverage(
+        bundle_path,
+        rq_id=rq.id,
+        features=search_items,
+        runs_per_item=n,
+        criteria_names=criteria_names,
+    )
+    logger.info(
+        "Finished %s -> %s/%s successful (%s missing)",
+        bundle_filename,
+        final["successful"],
+        final["expected"],
+        final["missing"],
+    )
+
+
+def run_experiments(
+    *,
+    rq_id: str,
+    families: list[Family],
+    model_keys: list[str] | None = None,
+    modes: list[OutputMode],
+    models: dict[str, str] | None = None,
+    k_values: list[int] | None = None,
+    search_items: list[str] | None = None,
+    features_csv: str | None = None,
+    features_csv_proprietary: str | None = None,
+    n: int | None = None,
+    sleep: float = 10.0,
+    output_root: str = OUTPUT_ROOT,
+    criteria_csv: str | None = None,
+    max_attempts: int = MAX_ATTEMPTS_PER_RUN,
+    dry_run: bool = False,
+    sanity_check: bool = False,
+    continue_on_error: bool = False,
+    web_search: bool = False,
+    dataset_suite: str | None = None,
+) -> None:
+    rq = RQ_CONFIGS[rq_id]
+    models = models or {}
+    selected_specs = [
+        spec for spec in MODEL_SPECS.values()
+        if spec.family in families and (model_keys is None or spec.key in model_keys)
+    ]
+    if not selected_specs:
+        raise ValueError("No models selected after applying families/model_keys filters.")
+    selected_specs = [
+        ModelSpec(
+            key=spec.key,
+            family=spec.family,
+            provider=spec.provider,
+            model_id=models[spec.key] if spec.key in models else spec.model_id,
+            hf=spec.hf,
+            ollama=(
+                OllamaSettings(
+                    base_url=spec.ollama.base_url if spec.ollama else "http://localhost:11434",
+                    use_json_schema=spec.ollama.use_json_schema if spec.ollama else True,
+                    max_tokens=spec.ollama.max_tokens if spec.ollama else 8192,
+                )
+                if spec.key in models
+                else spec.ollama
+            ),
+        )
+        for spec in selected_specs
+    ]
+
+    if sanity_check:
+        k_values_for_check = k_values or [int(v) for v in read_csv_column(K_VALUES_CSV)]
+        check_k = k_values_for_check[0]
+        selected_specs, unavailable = check_model_availability(
+            selected_specs,
+            rq=rq,
+            k=check_k,
+            mode=modes[0] if modes else "structured",
+            web_search=web_search,
+        )
+        if unavailable:
+            unavailable_models = ",".join(sorted(unavailable))
+            raise ValueError(f"Sanity check failed for models: {unavailable_models}")
+        if not selected_specs:
+            raise ValueError("No available models after sanity check.")
+        logger.info("Sanity check complete: %s models available", len(selected_specs))
+
+    k_values = k_values or [int(v) for v in read_csv_column(K_VALUES_CSV)]
+    n = n if n is not None else rq.runs_per_item
+
+    def features_for(spec: ModelSpec) -> list[str]:
+        return _resolve_search_items(
+            spec.family,
+            search_items=search_items,
+            features_csv=features_csv,
+            features_csv_proprietary=features_csv_proprietary,
+            default_csv=rq.search_items_csv,
+        )
+
+    def suite_for(spec: ModelSpec) -> str:
+        return resolve_dataset_suite(
+            spec.family,
+            dataset_suite_override=dataset_suite,
+            features_csv=features_csv,
+            features_csv_proprietary=features_csv_proprietary,
+            default_csv=rq.search_items_csv,
+        )
+
+    if rq_id == "rq3":
+        if not criteria_csv:
+            for spec in selected_specs:
+                candidate = resolve_criteria_csv(
+                    output_root=output_root,
+                    suite=suite_for(spec),
+                    default_csv=rq.default_criteria_csv,
+                )
+                if candidate:
+                    criteria_csv = candidate
+                    break
+        if not criteria_csv or not Path(criteria_csv).exists():
+            raise FileNotFoundError(
+                "RQ3 requires ranking criteria CSV. Pass --criteria-csv or place "
+                "data/output/features/rq1/rc/merge/rc_merge_unified.csv "
+                "(or rq1/rc/<suite>/rc_wo_id_<suite>.csv)"
+            )
+        logger.info("RQ3 criteria: %s", criteria_csv)
+
+    criteria_names: list[str] | None = None
+    if rq_id == "rq3" and criteria_csv:
+        criteria_names = [c["n"] for c in load_rq3_criteria(criteria_csv)]
+
+    criteria_count = len(criteria_names) if criteria_names else 1
+    bundle_combos = list(product(selected_specs, modes, k_values))
+
+    logger.info(
+        "Starting %s at %s - %s bundled files (n=%s, web_search=%s, resume=on)",
+        rq_id,
+        datetime.now().isoformat(timespec="seconds"),
+        len(bundle_combos),
+        n,
+        web_search,
+    )
+
+    if dry_run:
+        for spec, mode, k in bundle_combos:
+            fam_features = features_for(spec)
+            suite = suite_for(spec)
+            records_per_bundle = len(fam_features) * criteria_count * n
+            example = build_bundle_filename(
+                family=spec.family,
+                provider=spec.provider.value,
+                model_key=spec.key,
+                mode=mode,
+                k=k,
+            )
+            bundle_path = apps_output_dir(output_root, rq.id, suite) / example
+            cov = bundle_coverage(
+                bundle_path,
+                rq_id=rq_id,
+                features=fam_features,
+                runs_per_item=n,
+                criteria_names=criteria_names,
+            )
+            status = "complete" if cov["exists"] and cov["complete"] else f"{cov['successful']}/{cov['expected']} done"
+            print(
+                f"  {spec.key}/{mode} k={k} ({len(fam_features)} features, {records_per_bundle} cells): {status} "
+                f"-> {bundle_path}"
+            )
+        print(
+            f"[dry-run] {rq_id}: {len(selected_specs)} models × {len(modes)} modes × "
+            f"{len(k_values)} k = {len(bundle_combos)} bundled files (re-run fills gaps)"
+        )
+        return
+
+    total_cells = 0
+    completed_at_start = 0
+    for spec, mode, k in bundle_combos:
+        fam_features = features_for(spec)
+        suite = suite_for(spec)
+        records_per_bundle = len(fam_features) * criteria_count * n
+        total_cells += records_per_bundle
+        bundle_name = build_bundle_filename(
+            family=spec.family,
+            provider=spec.provider.value,
+            model_key=spec.key,
+            mode=mode,
+            k=k,
+        )
+        cov = bundle_coverage(
+            apps_output_dir(output_root, rq_id, suite) / bundle_name,
+            rq_id=rq_id,
+            features=fam_features,
+            runs_per_item=n,
+            criteria_names=criteria_names,
+        )
+        completed_at_start += cov["successful"]
+
+    progress = RunProgress(
+        total_bundles=len(bundle_combos),
+        total_cells=total_cells,
+        completed_cells_at_start=completed_at_start,
+    )
+    progress.log_plan()
+
+    for bundle_index, (spec, mode, k) in enumerate(bundle_combos, start=1):
+        run_setting_bundle(
+            rq=rq,
+            model_spec=spec,
+            mode=mode,
+            k=k,
+            search_items=features_for(spec),
+            n=n,
+            sleep=sleep,
+            output_root=output_root,
+            max_attempts=max_attempts,
+            criteria_csv=criteria_csv if rq_id == "rq3" else None,
+            continue_on_error=continue_on_error,
+            web_search=web_search,
+            progress=progress,
+            bundle_index=bundle_index,
+            dataset_suite=suite_for(spec),
+        )
+
+    logger.info("All experiments for %s completed.", rq_id)

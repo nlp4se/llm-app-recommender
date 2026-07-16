@@ -1,3 +1,0 @@
-Recommend {k} {search} apps based on the following ranking criteria:
-
-{ranking_criteria}
