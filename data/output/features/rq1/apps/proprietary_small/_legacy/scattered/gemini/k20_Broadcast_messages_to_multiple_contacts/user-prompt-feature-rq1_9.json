@@ -1,0 +1,75 @@
+
+{
+  "a": [
+    "WhatsApp Business",
+    "WhatsApp Business API (via providers like Route Mobile, AiSensy, SendPulse)",
+    "MessageDesk",
+    "EZ Texting",
+    "Text-Em-All",
+    "SleekFlow",
+    "SimpleTexting",
+    "TextMagic",
+    "Textedly",
+    "SlickText",
+    "Podium",
+    "Attentive",
+    "Mailchimp",
+    "MessageMedia",
+    "CallFire",
+    "SMSBump",
+    "Klaviyo",
+    "Omnisend",
+    "Sakari",
+    "Textla"
+  ],
+  "c": [
+    {
+      "n": "Reach",
+      "d": "Number of contacts to whom messages can be broadcasted simultaneously.",
+      "t": "Integer, [1]",
+      "s": "Vendor Documentation, App Details"
+    },
+    {
+      "n": "Personalization",
+      "d": "Ability to personalize messages with customer-specific data (e.g., name, location).",
+      "t": "Boolean, [1]",
+      "s": "Vendor Documentation, App Reviews"
+    },
+    {
+      "n": "Automation",
+      "d": "Availability of automated workflows, scheduling, and triggered messages.",
+      "t": "Boolean, [1]",
+      "s": "Vendor Documentation, App Details"
+    },
+    {
+      "n": "Integration",
+      "d": "Integration capabilities with other platforms (e.g., CRM, e-commerce).",
+      "t": "Text, [*]",
+      "s": "Vendor Documentation, App Details"
+    },
+    {
+      "n": "Analytics",
+      "d": "Availability of analytics and reporting on message performance (e.g., open rates, reply rates).",
+      "t": "Boolean, [1]",
+      "s": "Vendor Documentation, App Reviews"
+    },
+    {
+      "n": "Compliance",
+      "d": "Features ensuring compliance with SMS marketing regulations.",
+      "t": "Boolean, [1]",
+      "s": "Vendor Documentation"
+    },
+    {
+      "n": "Cost",
+      "d": "Pricing model and cost per message or subscription.",
+      "t": "Float, [1]",
+      "s": "Vendor Pricing Pages"
+    },
+    {
+      "n": "Multi-channel Support",
+      "d": "Supports other channels besides SMS such as Email, push notifications and other messengers.",
+      "t": "Boolean, [1]",
+      "s": "Vendor Documentation"
+    }
+  ]
+}

@@ -18,15 +18,9 @@ def write_criteria_to_csv(criteria: List[Dict], output_file: str):
     print(f"Successfully wrote {len(criteria)} criteria to {output_file}")
 
 
-def process_files(input_folders: List[str], output_folder: str = ".", rq_id: str = "rq1"):
-    """Expand bundled RQ outputs and extract ranking criteria from payload field 'c'."""
-    os.makedirs(output_folder, exist_ok=True)
+def extract_criteria_from_rows(rows: list[dict]) -> list[dict]:
+    """Flatten bundled experiment rows into criterion records."""
     all_criteria: list[dict] = []
-
-    rows, failed = expand_bundled_folders(input_folders, rq_id)
-    if failed:
-        print(f"Warning: failed to read {failed} bundled file(s)")
-
     for row in rows:
         payload = row.get("json_data") or {}
         for criterion in payload.get("c", []):
@@ -53,13 +47,33 @@ def process_files(input_folders: List[str], output_folder: str = ".", rq_id: str
                     "sources": sources,
                 }
             )
+    return all_criteria
 
+
+def extract_criteria_from_folders(
+    input_folders: List[str],
+    output_folder: str,
+    rq_id: str = "rq1",
+) -> str | None:
+    """Expand bundled RQ outputs and write rc_extracted.csv. Returns output path or None."""
+    os.makedirs(output_folder, exist_ok=True)
+    rows, failed = expand_bundled_folders(input_folders, rq_id)
+    if failed:
+        print(f"Warning: failed to read {failed} bundled file(s)")
+
+    all_criteria = extract_criteria_from_rows(rows)
     if not all_criteria:
         print("No criteria found in any bundled files")
-        return
+        return None
 
     root_csv_path = os.path.join(output_folder, "rc_extracted.csv")
     write_criteria_to_csv(all_criteria, root_csv_path)
+    return root_csv_path
+
+
+def process_files(input_folders: List[str], output_folder: str = ".", rq_id: str = "rq1"):
+    """Expand bundled RQ outputs and extract ranking criteria from payload field 'c'."""
+    extract_criteria_from_folders(input_folders, output_folder, rq_id)
 
 
 def main():

@@ -1,0 +1,56 @@
+{
+  "a": [
+    "Spotify",
+    "Apple Music",
+    "YouTube Music",
+    "Amazon Music",
+    "Pandora",
+    "SoundCloud",
+    "Deezer",
+    "Tidal",
+    "iHeartRadio",
+    "Shazam",
+    "PowerAmp",
+    "VLC Media Player",
+    "BlackPlayer",
+    "Musicolet",
+    "Neutron Music Player",
+    "Pulsar Music Player",
+    "AIMP",
+    "MediaMonkey",
+    "JetAudio",
+    "Winamp"
+  ],
+  "c": [
+    {
+      "n": "Shuffle Algorithm Quality",
+      "d": "Advanced randomization algorithms that prevent repetition and ensure truly random playback experience",
+      "t": "Integer [1-10]",
+      "s": "User reviews, app store descriptions, technical documentation"
+    },
+    {
+      "n": "Playlist Management Features",
+      "d": "Comprehensive playlist creation, editing, organization, and management capabilities",
+      "t": "Integer [1-10]",
+      "s": "App features list, user interface analysis, app store descriptions"
+    },
+    {
+      "n": "Music Library Size",
+      "d": "Total number of songs available in the app's music catalog or support for large local libraries",
+      "t": "Integer [millions]",
+      "s": "Official statistics, app store descriptions, company reports"
+    },
+    {
+      "n": "Cross-Platform Synchronization",
+      "d": "Ability to sync playlists and shuffle preferences across multiple devices and platforms",
+      "t": "Boolean [1]",
+      "s": "App features, official documentation, user reviews"
+    },
+    {
+      "n": "Audio Quality Support",
+      "d": "Support for high-quality audio formats and bitrates for enhanced listening experience",
+      "t": "Text [1]",
+      "s": "Technical specifications, app store descriptions, audio format support documentation"
+    }
+  ]
+}

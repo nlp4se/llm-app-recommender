@@ -1,0 +1,62 @@
+{
+  "a": [
+    "WeTransfer",
+    "Google Drive",
+    "Dropbox",
+    "Send Anywhere",
+    "AirDrop",
+    "ShareIt",
+    "Xender",
+    "Files by Google",
+    "OneDrive",
+    "Telegram",
+    "WhatsApp",
+    "Zapya",
+    "FileZilla",
+    "pCloud",
+    "MEGA",
+    "Box",
+    "iCloud",
+    "Bluetooth File Transfer",
+    "SuperBeam",
+    "Portal"
+  ],
+  "c": [
+    {
+      "n": "File Size Limit",
+      "d": "Maximum file size that can be transferred in a single operation",
+      "t": "Integer [1] (in GB)",
+      "s": "App specifications, official documentation, user manuals"
+    },
+    {
+      "n": "Transfer Speed",
+      "d": "Average speed of file transfer under optimal network conditions",
+      "t": "Float [1] (in Mbps)",
+      "s": "Performance benchmarks, user reviews, technical specifications"
+    },
+    {
+      "n": "Cross-Platform Compatibility",
+      "d": "Number of different operating systems and devices supported",
+      "t": "Integer [1] (count of platforms)",
+      "s": "App store listings, official website, compatibility charts"
+    },
+    {
+      "n": "User Interface Quality",
+      "d": "Ease of use and intuitiveness of the app interface rated by users",
+      "t": "Float [1] (scale 1-5)",
+      "s": "User reviews, UX analysis, app store ratings"
+    },
+    {
+      "n": "Security Features",
+      "d": "Level of encryption and security measures implemented for file transfers",
+      "t": "Integer [1] (security score 1-10)",
+      "s": "Security documentation, privacy policies, third-party security audits"
+    },
+    {
+      "n": "Offline Transfer Capability",
+      "d": "Ability to transfer files without internet connection using local networks",
+      "t": "Boolean [1]",
+      "s": "Feature specifications, user manuals, app descriptions"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+
+{
+  "a": [
+    "eBay",
+    "Facebook Marketplace",
+    "OfferUp",
+    "Poshmark",
+    "Etsy",
+    "Mercari",
+    "Decluttr",
+    "ThredUp",
+    "Vestiaire Collective",
+    "5miles",
+    "Nextdoor",
+    "Amazon Seller Central",
+    "Shopify",
+    "Craigslist",
+    "Letgo (Now Part of OfferUp)",
+    "Chairish",
+    "Amazon",
+    "Depop",
+    "Shop",
+    "5Miles"
+  ],
+  "c": [
+    {
+      "n": "User Base",
+      "d": "Number of active users on the platform. A larger user base increases the potential for sales.",
+      "t": "Integer[*]",
+      "s": "Multiple sources"
+    },
+    {
+      "n": "Fees",
+      "d": "The cost associated with listing and selling items on the app, including listing fees, commission fees, and transaction fees.",
+      "t": "Float[*]",
+      "s": "Multiple sources"
+    },
+    {
+      "n": "Product Categories",
+      "d": "The variety of items that can be sold on the app (e.g., clothing, electronics, furniture, handmade items).",
+      "t": "Text[*]",
+      "s": "Multiple sources"
+    },
+    {
+      "n": "Shipping Options",
+      "d": "The available methods for shipping items to buyers, including seller-arranged shipping, prepaid labels, and integration with shipping services.",
+      "t": "Text[*]",
+      "s": "Multiple sources"
+    },
+    {
+      "n": "Ease of Use",
+      "d": "How simple and intuitive the app is to use for listing items, managing inventory, and communicating with buyers.",
+      "t": "Text[1]",
+      "s": "Multiple sources"
+    },
+    {
+      "n": "Local vs. Global Reach",
+      "d": "Whether the app primarily focuses on local sales or offers the ability to sell internationally.",
+      "t": "Text[1]",
+      "s": "Multiple sources"
+    },
+    {
+      "n": "Seller Tools",
+      "d": "The features and resources available to sellers, such as listing templates, analytics, and advertising options.",
+      "t": "Text[*]",
+      "s": "Multiple sources"
+    },
+    {
+      "n": "Community Focus",
+      "d": "The extent to which the app fosters a sense of community among buyers and sellers through features like verified profiles and ratings systems.",
+      "t": "Boolean[1]",
+      "s": "Multiple sources"
+    },
+    {
+      "n": "Payment Processing",
+      "d": "The methods available for processing payments and how secure and efficient the payment process is.",
+      "t": "Text[1]",
+      "s": "Multiple sources"
+    },
+    {
+      "n": "App Ratings",
+      "d": "The average rating of the app in app stores, reflecting user satisfaction and app quality.",
+      "t": "Float[2]",
+      "s": "App Store, Google Play Store"
+    }
+  ]
+}

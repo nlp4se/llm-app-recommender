@@ -1,0 +1,87 @@
+
+{
+  "a": [
+    "Spotify",
+    "Apple Music",
+    "YouTube Music",
+    "Pandora",
+    "Deezer",
+    "Tidal",
+    "Amazon Music",
+    "SoundCloud",
+    "iHeartRadio",
+    "Napster",
+    "Google Play Music",
+    "Audiomack",
+    "JioSaavn",
+    "Gaana",
+    "Anghami",
+    "Yandex Music",
+    "Qobuz",
+    "MusicBee",
+    "Poweramp",
+    "FOOBAR2000"
+  ],
+  "c": [
+    {
+      "n": "Shuffle Mode Availability",
+      "d": "The app must have a shuffle mode feature to play playlists randomly.",
+      "t": "Boolean, [1]",
+      "s": "App Store descriptions, official app websites, tech reviews"
+    },
+    {
+      "n": "Library Size",
+      "d": "The total number of songs available in the app's library.",
+      "t": "Integer, [1]",
+      "s": "Official app websites, tech blogs, news articles"
+    },
+    {
+      "n": "User Interface",
+      "d": "The ease of use and navigation within the app, including the accessibility of the shuffle feature.",
+      "t": "Text, [1]",
+      "s": "User reviews, tech reviews, app store ratings"
+    },
+    {
+      "n": "Audio Quality",
+      "d": "The quality of the audio playback offered by the app.",
+      "t": "Text, [1]",
+      "s": "Official app websites, tech reviews, user forums"
+    },
+    {
+      "n": "Platform Compatibility",
+      "d": "The availability of the app across different platforms such as iOS, Android, Web, etc.",
+      "t": "Text, [1]",
+      "s": "App Store descriptions, official app websites"
+    },
+    {
+      "n": "User Ratings",
+      "d": "The average rating given by users on app stores.",
+      "t": "Float, [1]",
+      "s": "App Store ratings, Google Play ratings"
+    },
+    {
+      "n": "Subscription Cost",
+      "d": "The cost of premium subscriptions if applicable.",
+      "t": "Float, [1]",
+      "s": "Official app websites, app store listings"
+    },
+    {
+      "n": "Offline Playback",
+      "d": "The ability to download songs and playlists for offline listening.",
+      "t": "Boolean, [1]",
+      "s": "App Store descriptions, official app websites"
+    },
+    {
+      "n": "Social Features",
+      "d": "The availability of social features such as sharing playlists, following friends, etc.",
+      "t": "Text, [1]",
+      "s": "Official app websites, tech reviews"
+    },
+    {
+      "n": "Integration with Other Services",
+      "d": "The app's ability to integrate with other services and devices, such as smart speakers, wearables, etc.",
+      "t": "Text, [1]",
+      "s": "Official app websites, tech reviews"
+    }
+  ]
+}

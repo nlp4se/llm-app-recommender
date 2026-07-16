@@ -6,15 +6,18 @@ from typing import Any
 from dotenv import load_dotenv
 from openai import OpenAI
 
+from code.experiments.config import Provider
 from code.experiments.providers.base import LLMClient
-from code.experiments.schema import openai_response_format
+from code.experiments.structured_output import apply_openai_compatible_structured, require_schema
 
 load_dotenv()
 
 
 class OpenAIClient(LLMClient):
-    def __init__(self, model: str):
-        super().__init__(model)
+    provider = Provider.OPENAI
+
+    def __init__(self, model: str, *, web_search: bool = False):
+        super().__init__(model, web_search=web_search)
         self.client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
     def complete(
@@ -32,10 +35,8 @@ class OpenAIClient(LLMClient):
                 {"role": "user", "content": user_prompt},
             ],
         }
-        if structured:
-            if schema is None:
-                raise ValueError("schema is required for structured output")
-            kwargs["response_format"] = openai_response_format(schema)
+        if require_schema(structured, schema) is not None:
+            apply_openai_compatible_structured(kwargs, provider=self.provider, schema=schema)
 
         response = self.client.chat.completions.create(**kwargs)
         return response.choices[0].message.content or ""

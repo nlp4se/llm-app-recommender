@@ -1,0 +1,87 @@
+
+{
+  "a": [
+    "IMDb",
+    "Letterboxd",
+    "MovieLens",
+    "Rotten Tomatoes",
+    "Metacritic",
+    "Criticker",
+    "Raters",
+    "MUBI",
+    "Serializd",
+    "Moviebase",
+    "Roger Ebert",
+    "The Guardian",
+    "Yahoo! Movies",
+    "Trakt",
+    "JustWatch",
+    "ShowPal (iShows)",
+    "TV Forecast",
+    "MovieFone",
+    "YourNextFilm",
+    "FilmStory"
+  ],
+  "c": [
+    {
+      "n": "User Ratings",
+      "d": "Average rating provided by users of the app/platform.",
+      "t": "Float [1]",
+      "s": "App Store, Google Play Store, Various Sources"
+    },
+    {
+      "n": "Number of Ratings/Reviews",
+      "d": "Total number of ratings and reviews an app has received. Higher numbers indicate broader user engagement.",
+      "t": "Integer [1]",
+      "s": "App Store, Google Play Store"
+    },
+    {
+      "n": "Community",
+      "d": "Strength and activity of the user community (e.g., active forums, user lists, social features).",
+      "t": "Boolean",
+      "s": "User reviews, app descriptions"
+    },
+    {
+      "n": "Personalized Recommendations",
+      "d": "Ability of the app to provide movie recommendations based on user ratings and preferences.",
+      "t": "Boolean",
+      "s": "App description, user reviews"
+    },
+    {
+      "n": "Comprehensive Information",
+      "d": "Availability of cast, crew, plot summaries, trailers, and other movie details.",
+      "t": "Boolean",
+      "s": "App description"
+    },
+    {
+      "n": "Watchlist Features",
+      "d": "Ability to create and manage a watchlist of movies to watch.",
+      "t": "Boolean",
+      "s": "App description, user reviews"
+    },
+    {
+      "n": "Social Sharing",
+      "d": "Functionality to share ratings and reviews on social media platforms.",
+      "t": "Boolean",
+      "s": "App description"
+    },
+    {
+      "n": "Critic Reviews",
+      "d": "Integration of critic reviews and scores from various publications.",
+      "t": "Boolean",
+      "s": "App description"
+    },
+    {
+      "n": "Availability",
+      "d": "Platforms the app is available on (iOS, Android, Web).",
+      "t": "Text [*]",
+      "s": "App Store, Google Play Store"
+    },
+    {
+      "n": "Ease of Use",
+      "d": "How user-friendly and intuitive the app interface is.",
+      "t": "Boolean",
+      "s": "User reviews"
+    }
+  ]
+}

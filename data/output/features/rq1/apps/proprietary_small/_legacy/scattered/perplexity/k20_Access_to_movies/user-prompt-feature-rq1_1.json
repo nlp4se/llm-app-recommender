@@ -1,0 +1,59 @@
+{
+  "a": [
+    "Netflix",
+    "Amazon Prime Video",
+    "Disney+",
+    "HBO Max",
+    "Hulu",
+    "Apple TV+",
+    "Paramount+",
+    "Peacock",
+    "YouTube Premium",
+    "Starz",
+    "Plex",
+    "Hoopla",
+    "JustWatch",
+    "Reelgood",
+    "Qewd",
+    "TV Time",
+    "Watchworthy"
+  ],
+  "c": [
+    {
+      "n": "Content Library Size",
+      "d": "The number of movies and TV shows available on the app, including exclusives and originals",
+      "t": "Integer [1]",
+      "s": "Vocal Media, Plex, Consumer Reports"
+    },
+    {
+      "n": "Subscription Model",
+      "d": "Whether the app requires a subscription, offers free content, or uses a freemium/ad-supported model",
+      "t": "Text [1]",
+      "s": "Vocal Media, Plex"
+    },
+    {
+      "n": "Platform Integration",
+      "d": "Ability to integrate or link with other streaming services and personal media libraries for unified access",
+      "t": "Boolean [1]",
+      "s": "Plex, Qewd"
+    },
+    {
+      "n": "User Interface and Experience",
+      "d": "Ease of finding, bookmarking, and streaming movies including watchlist features",
+      "t": "Boolean [1]",
+      "s": "Plex, Qewd, Consumer Reports"
+    },
+    {
+      "n": "Social Features",
+      "d": "Options to share watchlists and get recommendations from friends and social networks",
+      "t": "Boolean [1]",
+      "s": "Qewd, Plex"
+    },
+    {
+      "n": "Free Content Availability",
+      "d": "Access to free movies and TV shows without a subscription",
+      "t": "Boolean [1]",
+      "s": "Hoopla, Plex, Peacock"
+    }
+  ]
+}

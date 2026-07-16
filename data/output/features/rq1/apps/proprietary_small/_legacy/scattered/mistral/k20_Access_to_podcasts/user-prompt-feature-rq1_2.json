@@ -1,0 +1,69 @@
+
+{
+  "a": [
+    "Spotify",
+    "Apple Podcasts",
+    "Google Podcasts",
+    "Audible",
+    "Stitcher",
+    "Pocket Casts",
+    "Overcast",
+    "Castbox",
+    "TuneIn Radio",
+    "Podbean",
+    "Deezer",
+    "iHeartRadio",
+    "Podcast Addict",
+    "Acast",
+    "Bullhorn",
+    "RadioPublic",
+    "SoundCloud",
+    "Amazon Music",
+    "Firstory",
+    "Castro"
+  ],
+  "c": [
+    {
+      "n": "User Ratings",
+      "d": "Average user ratings on app stores (e.g., Google Play, Apple App Store).",
+      "t": "Float [1]",
+      "s": "Google Play Store, Apple App Store, Amazon Appstore"
+    },
+    {
+      "n": "Number of Downloads",
+      "d": "Total number of downloads or installs from app stores.",
+      "t": "Integer [1]",
+      "s": "Google Play Store, Apple App Store, Amazon Appstore"
+    },
+    {
+      "n": "Content Library Size",
+      "d": "The number of podcasts and episodes available in the app's library.",
+      "t": "Integer [1]",
+      "s": "Official app websites, app descriptions on app stores"
+    },
+    {
+      "n": "User Interface and Experience",
+      "d": "Quality and ease of use of the app's user interface and overall user experience.",
+      "t": "Text [1]",
+      "s": "User reviews on app stores, tech blogs, expert reviews"
+    },
+    {
+      "n": "Unique Features",
+      "d": "Special features that enhance the podcast listening experience, such as custom playlists, offline downloads, and social sharing.",
+      "t": "Text [*]",
+      "s": "Official app websites, app descriptions on app stores, tech blogs"
+    },
+    {
+      "n": "Platform Availability",
+      "d": "Availability of the app on different platforms (iOS, Android, Web, etc.).",
+      "t": "Text [*]",
+      "s": "Official app websites, app descriptions on app stores"
+    },
+    {
+      "n": "Update Frequency",
+      "d": "How often the app is updated with new features, bug fixes, and improvements.",
+      "t": "Text [1]",
+      "s": "App store update history, official app blogs"
+    }
+  ]
+}

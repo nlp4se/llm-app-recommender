@@ -1,0 +1,9 @@
+name,description,type,sources
+Content Library Size,Number of movies and TV shows available on the app,Integer [1],"Consumer Reports, Google Play Store, Plex, Vocal Media"
+Cross-Platform Compatibility,Whether the app is available on multiple platforms such as iOS and Android.,Boolean,"4, 5, Device Support Information"
+Multistreaming Capability,Ability to broadcast simultaneously to multiple platforms,Boolean [1],"Product Documentation, Switcher Studio, User Reviews"
+Multistreaming Capability,Ability to stream simultaneously to multiple platforms,Boolean[1],"Official App Features, Switcher Studio Blog, SwitcherStudio"
+Platform availability,"Whether the app is available on iOS, Android, or both",Text [*],"1, 2, 3, 4, cnet.com, dinamicostudio.com"
+Podcast Library Size,Number of available podcast titles in the app's database,Integer[1],"2, Descript, WhatPods"
+Price Alert Feature,Ability to set alerts for price drops or deals on specific items,Boolean[1],"EmizenTech, Emizentech, FinancialPost"
+User Base Size,Number of active users or downloads indicating app popularity and community size,Integer[1],"App Store, Google Play, Google Play Store, Industry Reports, Switcherstudio"

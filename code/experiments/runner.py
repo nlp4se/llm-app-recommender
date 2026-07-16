@@ -10,6 +10,9 @@ from pathlib import Path
 
 import pandas as pd
 
+from code.experiments.csv_utils import read_csv_column
+from code.experiments.criteria import load_rq3_criteria
+from code.experiments.features import load_features_list
 from code.experiments.config import (
     K_VALUES_CSV,
     MAX_ATTEMPTS_PER_RUN,
@@ -30,12 +33,35 @@ from code.experiments.io import (
     parse_and_validate_response,
     save_bundle,
 )
-from code.experiments.naming import build_bundle_filename, family_output_dir
+from code.experiments.naming import (
+    apps_output_dir,
+    build_bundle_filename,
+    resolve_criteria_csv,
+    resolve_dataset_suite,
+)
 from code.experiments.prompts import format_user_prompt, read_text, system_prompt_path
 from code.experiments.providers import get_client  # lazy-loads provider SDKs
 from code.experiments.schema import load_schema_for_run
 
 logger = logging.getLogger(__name__)
+
+def _resolve_search_items(
+    family: Family,
+    *,
+    search_items: list[str] | None,
+    features_csv: str | None,
+    features_csv_proprietary: str | None,
+    default_csv: str,
+) -> list[str]:
+    if search_items:
+        return search_items
+    if features_csv:
+        return load_features_list(features_csv)
+    if family == "proprietary" and features_csv_proprietary:
+        items = load_features_list(features_csv_proprietary)
+        logger.info("Proprietary family: %s features from %s", len(items), features_csv_proprietary)
+        return items
+    return read_csv_column(default_csv)
 
 
 def _format_eta(seconds: float) -> str:
@@ -120,32 +146,60 @@ class RunProgress:
         )
 
 
-def read_csv_column(path: str | Path, column: int = 0, skip_header: bool = True) -> list[str]:
-    with open(path, encoding="utf-8", newline="") as f:
-        reader = csv.reader(f)
-        if skip_header:
-            next(reader, None)
-        return [row[column] for row in reader if row]
-
-
 def _model_label(spec: ModelSpec) -> str:
     return f"{spec.family}/{spec.key} ({spec.model_id})"
 
 
-def check_model_availability(selected_specs: list[ModelSpec]) -> tuple[list[ModelSpec], dict[str, str]]:
-    """Run a lightweight ping against each selected model."""
+SANITY_FEATURE = "Photo effects"
+
+
+def check_model_availability(
+    selected_specs: list[ModelSpec],
+    *,
+    rq: RQConfig,
+    k: int,
+    mode: OutputMode = "structured",
+    web_search: bool = False,
+    max_attempts: int = 2,
+    sleep: float = 2.0,
+) -> tuple[list[ModelSpec], dict[str, str]]:
+    """
+    Run one mock structured experiment cell per model (same code path as real runs).
+
+    Validates API key, model id, provider JSON-schema support, and post-response parsing.
+    """
+    schema = load_schema_for_run(rq.schema_base, k)
+    system = read_text(system_prompt_path(rq, mode))
+    user = format_user_prompt(rq.user_prompt, k=k, search=SANITY_FEATURE)
+    if rq.id == "rq3":
+        criterion = json.dumps(
+            [{"n": "Popularity", "d": "Number of installs and active users"}],
+            indent=2,
+        )
+        user = format_user_prompt(
+            rq.user_prompt,
+            k=k,
+            search=SANITY_FEATURE,
+            ranking_criteria=criterion,
+        )
+
     available: list[ModelSpec] = []
     unavailable: dict[str, str] = {}
     for spec in selected_specs:
         label = _model_label(spec)
         try:
-            client = get_client(spec)
-            client.complete(
-                "You are a helpful assistant.",
-                "Return exactly: ok",
-                structured=False,
+            client = get_client(spec, web_search=web_search)
+            _complete_validated(
+                client=client,
+                system=system,
+                user=user,
+                structured=mode == "structured",
+                schema=schema,
+                max_attempts=max_attempts,
+                sleep=sleep,
+                label=f"sanity check {spec.key}",
             )
-            logger.info("Sanity check OK: %s", label)
+            logger.info("Sanity check OK: %s (structured mock, k=%s)", label, k)
             available.append(spec)
         except Exception as exc:  # pragma: no cover - provider-specific runtime errors
             reason = str(exc) or repr(exc)
@@ -198,6 +252,8 @@ def _build_bundle_payload(
     records_by_key: dict,
     key_order: list,
     criteria_csv: str | None,
+    web_search: bool = False,
+    dataset_suite: str | None = None,
 ) -> dict[str, object]:
     records = [records_by_key[key] for key in key_order if key in records_by_key]
     payload: dict[str, object] = {
@@ -210,8 +266,11 @@ def _build_bundle_payload(
         "k": k,
         "features": search_items,
         "runs_per_item": n,
+        "web_search": web_search,
         "records": records,
     }
+    if dataset_suite:
+        payload["dataset_suite"] = dataset_suite
     if rq.id == "rq3" and criteria_csv:
         payload["criteria_csv"] = criteria_csv
     return payload
@@ -230,8 +289,10 @@ def run_setting_bundle(
     max_attempts: int,
     criteria_csv: str | None = None,
     continue_on_error: bool = False,
+    web_search: bool = False,
     progress: RunProgress | None = None,
     bundle_index: int = 1,
+    dataset_suite: str = "",
 ) -> None:
     """
     Run one model/mode/k setting; write a bundled *_ALL.json file.
@@ -239,7 +300,7 @@ def run_setting_bundle(
     Resumes automatically: loads an existing bundle, skips successful cells, and
     checkpoints to disk after every completed record.
     """
-    out_dir = family_output_dir(output_root, rq.id, model_spec.family)
+    out_dir = apps_output_dir(output_root, rq.id, dataset_suite)
     out_dir.mkdir(parents=True, exist_ok=True)
 
     bundle_filename = build_bundle_filename(
@@ -256,9 +317,8 @@ def run_setting_bundle(
     if rq.id == "rq3":
         if not criteria_csv:
             raise ValueError("RQ3 requires criteria_csv")
-        criteria_df = pd.read_csv(criteria_csv, encoding="utf-8", sep=";")
-        criteria_rows = [row.to_dict() for _, row in criteria_df.iterrows()]
-        criteria_names = [str(list(row.values())[0]) for row in criteria_rows]
+        criteria_rows = load_rq3_criteria(criteria_csv)
+        criteria_names = [row["n"] for row in criteria_rows]
 
     key_order = expected_record_keys(
         rq_id=rq.id,
@@ -318,7 +378,7 @@ def run_setting_bundle(
 
     schema = load_schema_for_run(rq.schema_base, k)
     system = read_text(system_prompt_path(rq, mode))
-    client = get_client(model_spec)
+    client = get_client(model_spec, web_search=web_search)
     structured = mode == "structured"
 
     def persist() -> None:
@@ -334,6 +394,8 @@ def run_setting_bundle(
                 records_by_key=records_by_key,
                 key_order=key_order,
                 criteria_csv=criteria_csv,
+                web_search=web_search,
+                dataset_suite=dataset_suite,
             ),
         )
 
@@ -350,10 +412,10 @@ def run_setting_bundle(
         else:
             criterion_name = str(cell_key[1])
             run_idx = int(cell_key[2])
-            criterion_row = next(
-                row for row in (criteria_rows or []) if str(list(row.values())[0]) == criterion_name
+            criterion_obj = next(
+                row for row in (criteria_rows or []) if row["n"] == criterion_name
             )
-            ranking_criteria = json.dumps([criterion_row], indent=2)
+            ranking_criteria = json.dumps([criterion_obj], indent=2)
             user = format_user_prompt(
                 rq.user_prompt,
                 k=k,
@@ -363,7 +425,7 @@ def run_setting_bundle(
             label = f"{feature} / {criterion_name} run {run_idx + 1}/{n}"
             record_stub = {
                 "feature": feature,
-                "criterion": criterion_name,
+                "criterion": criterion_obj,
                 "run": run_idx,
             }
 
@@ -420,6 +482,8 @@ def run_experiments(
     models: dict[str, str] | None = None,
     k_values: list[int] | None = None,
     search_items: list[str] | None = None,
+    features_csv: str | None = None,
+    features_csv_proprietary: str | None = None,
     n: int | None = None,
     sleep: float = 10.0,
     output_root: str = OUTPUT_ROOT,
@@ -428,6 +492,8 @@ def run_experiments(
     dry_run: bool = False,
     sanity_check: bool = False,
     continue_on_error: bool = False,
+    web_search: bool = False,
+    dataset_suite: str | None = None,
 ) -> None:
     rq = RQ_CONFIGS[rq_id]
     models = models or {}
@@ -458,7 +524,15 @@ def run_experiments(
     ]
 
     if sanity_check:
-        selected_specs, unavailable = check_model_availability(selected_specs)
+        k_values_for_check = k_values or [int(v) for v in read_csv_column(K_VALUES_CSV)]
+        check_k = k_values_for_check[0]
+        selected_specs, unavailable = check_model_availability(
+            selected_specs,
+            rq=rq,
+            k=check_k,
+            mode=modes[0] if modes else "structured",
+            web_search=web_search,
+        )
         if unavailable:
             unavailable_models = ",".join(sorted(unavailable))
             raise ValueError(f"Sanity check failed for models: {unavailable_models}")
@@ -467,39 +541,66 @@ def run_experiments(
         logger.info("Sanity check complete: %s models available", len(selected_specs))
 
     k_values = k_values or [int(v) for v in read_csv_column(K_VALUES_CSV)]
-    search_items = search_items or read_csv_column(rq.search_items_csv)
     n = n if n is not None else rq.runs_per_item
+
+    def features_for(spec: ModelSpec) -> list[str]:
+        return _resolve_search_items(
+            spec.family,
+            search_items=search_items,
+            features_csv=features_csv,
+            features_csv_proprietary=features_csv_proprietary,
+            default_csv=rq.search_items_csv,
+        )
+
+    def suite_for(spec: ModelSpec) -> str:
+        return resolve_dataset_suite(
+            spec.family,
+            dataset_suite_override=dataset_suite,
+            features_csv=features_csv,
+            features_csv_proprietary=features_csv_proprietary,
+            default_csv=rq.search_items_csv,
+        )
 
     if rq_id == "rq3":
         if not criteria_csv:
-            criteria_csv = rq.default_criteria_csv
+            for spec in selected_specs:
+                candidate = resolve_criteria_csv(
+                    output_root=output_root,
+                    suite=suite_for(spec),
+                    default_csv=rq.default_criteria_csv,
+                )
+                if candidate:
+                    criteria_csv = candidate
+                    break
         if not criteria_csv or not Path(criteria_csv).exists():
             raise FileNotFoundError(
-                f"RQ3 requires ranking criteria CSV at {criteria_csv}. "
-                "Generate it from RQ1 analysis or pass --criteria-csv."
+                "RQ3 requires ranking criteria CSV. Pass --criteria-csv or place "
+                "data/output/features/rq1/rc/merge/rc_merge_unified.csv "
+                "(or rq1/rc/<suite>/rc_wo_id_<suite>.csv)"
             )
+        logger.info("RQ3 criteria: %s", criteria_csv)
 
     criteria_names: list[str] | None = None
     if rq_id == "rq3" and criteria_csv:
-        criteria_df = pd.read_csv(criteria_csv, encoding="utf-8", sep=";")
-        criteria_names = [str(row.iloc[0]) for _, row in criteria_df.iterrows()]
+        criteria_names = [c["n"] for c in load_rq3_criteria(criteria_csv)]
 
     criteria_count = len(criteria_names) if criteria_names else 1
     bundle_combos = list(product(selected_specs, modes, k_values))
-    records_per_bundle = len(search_items) * criteria_count * n
 
     logger.info(
-        "Starting %s at %s - %s bundled files (%s records each, n=%s, resume=on)",
+        "Starting %s at %s - %s bundled files (n=%s, web_search=%s, resume=on)",
         rq_id,
         datetime.now().isoformat(timespec="seconds"),
         len(bundle_combos),
-        records_per_bundle,
         n,
+        web_search,
     )
 
     if dry_run:
-        out_family = Path(output_root) / rq.id
         for spec, mode, k in bundle_combos:
+            fam_features = features_for(spec)
+            suite = suite_for(spec)
+            records_per_bundle = len(fam_features) * criteria_count * n
             example = build_bundle_filename(
                 family=spec.family,
                 provider=spec.provider.value,
@@ -507,17 +608,17 @@ def run_experiments(
                 mode=mode,
                 k=k,
             )
-            bundle_path = out_family / spec.family / example
+            bundle_path = apps_output_dir(output_root, rq.id, suite) / example
             cov = bundle_coverage(
                 bundle_path,
                 rq_id=rq_id,
-                features=search_items,
+                features=fam_features,
                 runs_per_item=n,
                 criteria_names=criteria_names,
             )
             status = "complete" if cov["exists"] and cov["complete"] else f"{cov['successful']}/{cov['expected']} done"
             print(
-                f"  {spec.key}/{mode} k={k}: {status} "
+                f"  {spec.key}/{mode} k={k} ({len(fam_features)} features, {records_per_bundle} cells): {status} "
                 f"-> {bundle_path}"
             )
         print(
@@ -526,10 +627,13 @@ def run_experiments(
         )
         return
 
-    total_cells = len(bundle_combos) * records_per_bundle
+    total_cells = 0
     completed_at_start = 0
-    out_rq = Path(output_root) / rq_id
     for spec, mode, k in bundle_combos:
+        fam_features = features_for(spec)
+        suite = suite_for(spec)
+        records_per_bundle = len(fam_features) * criteria_count * n
+        total_cells += records_per_bundle
         bundle_name = build_bundle_filename(
             family=spec.family,
             provider=spec.provider.value,
@@ -538,9 +642,9 @@ def run_experiments(
             k=k,
         )
         cov = bundle_coverage(
-            out_rq / spec.family / bundle_name,
+            apps_output_dir(output_root, rq_id, suite) / bundle_name,
             rq_id=rq_id,
-            features=search_items,
+            features=fam_features,
             runs_per_item=n,
             criteria_names=criteria_names,
         )
@@ -559,15 +663,17 @@ def run_experiments(
             model_spec=spec,
             mode=mode,
             k=k,
-            search_items=search_items,
+            search_items=features_for(spec),
             n=n,
             sleep=sleep,
             output_root=output_root,
             max_attempts=max_attempts,
             criteria_csv=criteria_csv if rq_id == "rq3" else None,
             continue_on_error=continue_on_error,
+            web_search=web_search,
             progress=progress,
             bundle_index=bundle_index,
+            dataset_suite=suite_for(spec),
         )
 
     logger.info("All experiments for %s completed.", rq_id)

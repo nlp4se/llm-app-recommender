@@ -1,0 +1,57 @@
+
+{
+  "a": [
+    "Twitch",
+    "YouTube Live",
+    "Facebook Live",
+    "Instagram Live",
+    "TikTok Live",
+    "Bigo Live",
+    "YouNow",
+    "LiveMe",
+    "Streamlabs",
+    "Wirecast Go",
+    "Netflix",
+    "Hulu",
+    "Disney+",
+    "Amazon Prime Video",
+    "Peacock",
+    "Paramount+",
+    "Apple TV+",
+    "Max",
+    "Sling TV",
+    "Fubo"
+  ],
+  "c": [
+    {
+      "n": "Content Variety",
+      "d": "Diversity of available content, including gaming, vlogging, music, and more.",
+      "t": "Text[*]",
+      "s": "App Store, Google Play Store, Reviews"
+    },
+    {
+      "n": "User Engagement Features",
+      "d": "Availability of features like live chat, emotes, virtual gifts, and fan groups.",
+      "t": "Text[*]",
+      "s": "App Store, Google Play Store, Reviews"
+    },
+    {
+      "n": "Streaming Quality",
+      "d": "Supported resolution and frame rate for live streams.",
+      "t": "Text",
+      "s": "Reviews, Technical Specifications"
+    },
+    {
+      "n": "Platform Availability",
+      "d": "Compatibility with various devices, including smartphones, tablets, smart TVs, and streaming media players.",
+      "t": "Text[*]",
+      "s": "App Store, Google Play Store, Reviews"
+    },
+    {
+      "n": "Monetization Options",
+      "d": "Opportunities for content creators to earn revenue through virtual gifts, subscriptions, or advertising.",
+      "t": "Text[*]",
+      "s": "App Store, Google Play Store, Reviews"
+    }
+  ]
+}

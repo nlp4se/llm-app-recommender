@@ -1,0 +1,75 @@
+
+{
+  "a": [
+    "Spotify",
+    "Apple Podcasts",
+    "Google Podcasts",
+    "Pocket Casts",
+    "Castbox",
+    "Stitcher",
+    "Overcast",
+    "Podbean",
+    "TuneIn Radio",
+    "iHeartRadio",
+    "Deezer",
+    "Audible",
+    "Podcast Addict",
+    "Anchor",
+    "Breaker",
+    "Luminary",
+    "Bullhorn",
+    "Firstory",
+    "RadioPublic",
+    "Acast"
+  ],
+  "c": [
+    {
+      "n": "User Ratings",
+      "d": "Average rating of the app on major app stores (Google Play, Apple App Store).",
+      "t": "Float [1]",
+      "s": "Google Play Store, Apple App Store"
+    },
+    {
+      "n": "Number of Downloads",
+      "d": "Total number of downloads or installs of the app.",
+      "t": "Integer [1]",
+      "s": "Google Play Store, Apple App Store, Sensor Tower"
+    },
+    {
+      "n": "Content Library Size",
+      "d": "The number of podcasts and episodes available in the app's library.",
+      "t": "Integer [1]",
+      "s": "Official app websites, App Annie"
+    },
+    {
+      "n": "User Interface and Experience",
+      "d": "Evaluation of the app's design, ease of use, and overall user experience.",
+      "t": "Text [1]",
+      "s": "Tech reviews, user feedback on app stores"
+    },
+    {
+      "n": "Unique Features",
+      "d": "Special features that differentiate the app from others, such as exclusive content, social features, or customization options.",
+      "t": "Text [*]",
+      "s": "Official app descriptions, tech blogs, user reviews"
+    },
+    {
+      "n": "Platform Compatibility",
+      "d": "Availability of the app across different platforms (iOS, Android, Web, etc.).",
+      "t": "Text [*]",
+      "s": "Official app websites, Google Play Store, Apple App Store"
+    },
+    {
+      "n": "Subscription Options",
+      "d": "Availability of free and premium subscription plans and their features.",
+      "t": "Text [*]",
+      "s": "Official app websites, in-app information"
+    },
+    {
+      "n": "Update Frequency",
+      "d": "How often the app is updated with new features, bug fixes, and improvements.",
+      "t": "Text [1]",
+      "s": "Google Play Store, Apple App Store, Sensor Tower"
+    }
+  ]
+}

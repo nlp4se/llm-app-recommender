@@ -1,0 +1,57 @@
+
+{
+  "a": [
+    "Poweramp",
+    "BlackPlayer",
+    "Retro Music",
+    "REAL Shuffle Player",
+    "Musicolet",
+    "AIMP",
+    "KM Player",
+    "Shuttle Music Player",
+    "Rocket Player",
+    "Vanilla Music",
+    "Clementine",
+    "PotPlayer",
+    "Strawberry",
+    "foobar2000",
+    "Pulsar Music Player",
+    "Stellio",
+    "Musixmatch",
+    "Lark Player",
+    "MediaMonkey",
+    "AlbumMixer"
+  ],
+  "c": [
+    {
+      "n": "Shuffle Algorithm Quality",
+      "d": "How well the app shuffles songs without repeating or playing similar artists consecutively.",
+      "t": "Text, [1]",
+      "s": "User reviews, app descriptions"
+    },
+    {
+      "n": "Playlist Management",
+      "d": "The ability to create, manage, and shuffle playlists effectively.",
+      "t": "Boolean, [1]",
+      "s": "App features, user reviews"
+    },
+    {
+      "n": "User Interface",
+      "d": "Ease of use and overall design of the app.",
+      "t": "Text, [1]",
+      "s": "User reviews, app descriptions"
+    },
+    {
+      "n": "Offline Playback",
+      "d": "Ability to play music files stored locally on the device.",
+      "t": "Boolean, [1]",
+      "s": "App features"
+    },
+    {
+      "n": "Customization Options",
+      "d": "The extent to which the app can be customized with themes, equalizers, and other settings.",
+      "t": "Integer, [1]",
+      "s": "App features, user reviews"
+    }
+  ]
+}

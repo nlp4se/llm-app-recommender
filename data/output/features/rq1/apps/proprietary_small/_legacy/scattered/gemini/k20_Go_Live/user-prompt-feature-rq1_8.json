@@ -1,0 +1,57 @@
+
+{
+  "a": [
+    "YouTube Live",
+    "Facebook Live",
+    "Instagram Live",
+    "Twitch",
+    "TikTok Live",
+    "Streamlabs",
+    "Switcher Studio",
+    "Wirecast Go",
+    "Larix Broadcaster",
+    "BoxCast",
+    "YouNow",
+    "LiveMe",
+    "Bigo Live",
+    "Prism Live Studio",
+    "StreamYard",
+    "Camo Studio",
+    "Vimeo Livestream",
+    "Restream",
+    "OBS Studio",
+    "LinkedIn Live"
+  ],
+  "c": [
+    {
+      "n": "Audience Size",
+      "d": "Potential reach based on the platform's user base.",
+      "t": "Integer[*]",
+      "s": "various"
+    },
+    {
+      "n": "Ease of Use",
+      "d": "How user-friendly the app is for beginners and experienced streamers.",
+      "t": "Text[1]",
+      "s": "user reviews, app descriptions"
+    },
+    {
+      "n": "Features",
+      "d": "The range of tools and options available for customizing and enhancing live streams (e.g., overlays, chat moderation, analytics).",
+      "t": "Text[*]",
+      "s": "app descriptions, tech reviews"
+    },
+    {
+      "n": "Platform Compatibility",
+      "d": "Whether the app is available on iOS, Android, and/or desktop.",
+      "t": "Text[*]",
+      "s": "app stores, developer websites"
+    },
+    {
+      "n": "Monetization Options",
+      "d": "Opportunities for streamers to earn money through ads, subscriptions, donations, etc.",
+      "t": "Boolean[1]",
+      "s": "platform terms, user reports"
+    }
+  ]
+}

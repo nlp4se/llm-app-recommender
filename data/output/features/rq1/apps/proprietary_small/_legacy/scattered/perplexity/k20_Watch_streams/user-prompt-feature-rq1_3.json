@@ -1,0 +1,68 @@
+{
+  "a": [
+    "YouTube Live",
+    "Facebook Live",
+    "Twitch",
+    "Instagram Live",
+    "TikTok",
+    "LinkedIn Live",
+    "Kick",
+    "Vimeo",
+    "StreamYard",
+    "Restream",
+    "Uscreen",
+    "Sling TV",
+    "YouTube TV",
+    "FuboTV",
+    "Philo",
+    "DirecTV Stream",
+    "Hulu + Live TV",
+    "Netflix",
+    "Amazon Prime Video",
+    "HBO GO/HBO NOW"
+  ],
+  "c": [
+    {
+      "n": "User Base Size",
+      "d": "The number of active users or subscribers on the platform, indicating popularity and content diversity",
+      "t": "Integer [1]",
+      "s": "Switcher Studio, Google Play, TCL USA"
+    },
+    {
+      "n": "Content Variety",
+      "d": "Range of streaming content types available such as games, music, sports, TV shows, movies, and live events",
+      "t": "Text [1]",
+      "s": "Switcher Studio, Engadget, Google Play"
+    },
+    {
+      "n": "Multistreaming Capability",
+      "d": "Ability to broadcast simultaneously to multiple platforms",
+      "t": "Boolean [1]",
+      "s": "Switcher Studio"
+    },
+    {
+      "n": "Platform Accessibility",
+      "d": "Whether the app is browser-based, mobile, or supports multiple device types",
+      "t": "Text [1]",
+      "s": "Switcher Studio"
+    },
+    {
+      "n": "Pricing Model",
+      "d": "Free availability versus paid subscription tiers or additional fees for features",
+      "t": "Text [*]",
+      "s": "Switcher Studio, CNET"
+    },
+    {
+      "n": "Interactive Features",
+      "d": "Availability of live chat, guest collaboration, custom branding, and audience engagement tools",
+      "t": "Text [*]",
+      "s": "Switcher Studio, Google Play"
+    },
+    {
+      "n": "Streaming Quality and Storage",
+      "d": "Limits on live streaming duration, video quality, and storage for recorded streams",
+      "t": "Text [1]",
+      "s": "Switcher Studio"
+    }
+  ]
+}

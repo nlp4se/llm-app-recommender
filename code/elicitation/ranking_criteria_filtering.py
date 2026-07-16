@@ -37,14 +37,14 @@ def filter_single_occurrence_names(df):
     return df_filtered
 
 def filter_single_feature_names(df):
-    """Step 3: Remove all items with a 'name' value that appear only with one 'feature' value"""
+    """Step 3: Remove criteria whose name appears exclusively within a single feature."""
     before = len(df)
     
     # Group by name and count unique features for each name
     name_feature_counts = df.groupby('name')['feature'].nunique()
     
-    # Find names that appear with only one feature
-    single_feature_names = name_feature_counts[name_feature_counts <= 2].index.tolist()
+    # Names tied to exactly one feature (do not generalize across contexts)
+    single_feature_names = name_feature_counts[name_feature_counts == 1].index.tolist()
     
     # Remove items with single-feature names
     df_filtered = df[~df['name'].isin(single_feature_names)].reset_index(drop=True)
@@ -53,34 +53,33 @@ def filter_single_feature_names(df):
     print(f"Step 3 - Single feature name filtering: {before} -> {after} (removed {before - after} items)")
     return df_filtered
 
-def main():
-    args = parse_args()
-    os.makedirs(args.output_folder, exist_ok=True)
-    df = pd.read_csv(args.input_file)
-    counts = {}
-
-    # Step 1: Exact match deduplication
-    counts['original'] = len(df)
+def apply_filtering(df: pd.DataFrame) -> tuple[pd.DataFrame, dict[str, int]]:
+    """Paper Step 4: exact dedup, drop singleton names, drop single-feature names."""
+    counts: dict[str, int] = {"original": len(df)}
     df = exact_match_deduplication(df)
-    counts['after_step1'] = len(df)
-    
-    # Step 2: Remove single occurrence names
+    counts["after_step1"] = len(df)
     df = filter_single_occurrence_names(df)
-    counts['after_step2'] = len(df)
-    
-    # Step 3: Remove single feature names
+    counts["after_step2"] = len(df)
     df = filter_single_feature_names(df)
-    counts['after_step3'] = len(df)
+    counts["after_step3"] = len(df)
+    return df, counts
 
-    # Reporting
-    print("\n=== Filtering Report ===")
+
+def print_filtering_report(counts: dict[str, int]) -> None:
+    print("\n=== Filtering Report (Paper Step 4) ===")
     print(f"Original count: {counts['original']}")
     print(f"After Step 1 (exact match deduplication): {counts['after_step1']}")
     print(f"After Step 2 (single occurrence name filtering): {counts['after_step2']}")
     print(f"After Step 3 (single feature name filtering): {counts['after_step3']}")
-    print("========================")
-    
-    # Save output
+    print("========================================")
+
+
+def main():
+    args = parse_args()
+    os.makedirs(args.output_folder, exist_ok=True)
+    df = pd.read_csv(args.input_file)
+    df, counts = apply_filtering(df)
+    print_filtering_report(counts)
     output_path = os.path.join(args.output_folder, "criteria_after_basic_filtering.csv")
     df.to_csv(output_path, index=False)
     print(f"Filtered criteria saved to {output_path}")

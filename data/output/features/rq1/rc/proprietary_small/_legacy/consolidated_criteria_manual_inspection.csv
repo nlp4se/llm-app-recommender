@@ -1,0 +1,40 @@
+id;name;description;type;sources;duplicate;domain-specific
+RC_01;Additional Features;Extra functionalities such as cloud storage, media playback, or collaboration tools.;Text [1];App Store, Google Play Store, Official App Websites;;X
+RC_02;Collaboration Features;The ability to share notes with others, collaborate in real-time, assign tasks, and manage team projects within the app.;Float[1];Google Play Store, Apple App Store;;X
+RC_03;Content Library Size;Total number of movies and TV shows available on the platform.;Boolean;User reviews;;X
+RC_04;Content Variety;The range and diversity of live streaming content available on the platform, including genres like sports, gaming, entertainment, and news.;Text [1];App Documentation, Security Audits;;X
+RC_05;Cost;The app's pricing model, including whether it's free, subscription-based, or has in-app purchases.;Text[1];App store, editor reviews;;
+RC_06;Cross-Platform Availability;Availability of the app on different platforms like iOS, Android, Windows, macOS, and web.;Boolean;Multiple sources;;
+RC_07;Cross-platform Compatibility;Number of supported platforms and operating systems including mobile, desktop, web, and integration capabilities;Text [*];Official app websites, user reviews;RC_22;
+RC_08;Cross-Platform Sync;Ability to synchronize listening progress, subscriptions, and playlists across multiple devices;Boolean [1];Feature documentation, user manuals, testing reports;;X
+RC_09;Customer Support;The availability and quality of customer support services.;Text [1];App Store Descriptions, Expert Reviews, User Feedback;;
+RC_10;Customization Options;The ability to customize the app's interface, themes, and functionality.;Text [1];Official app websites;;
+RC_11;Device Compatibility;The range of devices and platforms on which the app is available.;Boolean [*];Official app websites, app store descriptions;RC_22;
+RC_12;Ease of Use;How user-friendly and intuitive the app interface is.;Text [*];Official app descriptions, user reviews, tech blogs;;
+RC_13;Ease of Use;The user-friendliness of the app interface and the simplicity of starting and managing live streams.;Text [1];Official app descriptions, app websites, third-party reviews;RC_12;
+RC_14;Ease of Use;User interface simplicity, ease of setup, and convenience for one-off or frequent file transfers;Float [1];Usability Testing Reports, User Reviews, App Tutorials;RC_12;
+RC_15;Feature Set;Range and quality of features offered by the app.;Text [1];App Store, Google Play Store, official app blogs;;
+RC_16;In-App Purchases;The availability and variety of in-app purchases.;Float [1], Text [*];App Store, Google Play, Letterboxd;;
+RC_17;Integration Capabilities;Ability to integrate with other popular apps and services.;Text [1];Official app websites;;
+RC_18;Monetization Options;The availability of features that allow creators to earn revenue from their live streams, such as subscriptions, donations, or ad revenue sharing.;Text [1][3];anyviewer.com, tomsguide.com;;X
+RC_19;Monthly Active Users;Total number of active users per month, indicating platform reach and audience size;Text[1];User reviews, tech reviews, app store ratings;;
+RC_20;Number of Downloads;Total number of times the app has been downloaded from major app stores.;Text [1];Official app websites, user reviews;;
+RC_21;Personalized Recommendations;Ability of the app to provide movie recommendations based on user ratings and preferences.;Integer;Official app websites;;X
+RC_22;Platform Availability;The operating systems and devices the app supports, affecting accessibility.;Boolean;App descriptions, User reviews;;
+RC_23;Platform Availability;Support for major platforms such as iOS, Android, and web;Integer [1];App analytics platforms, company reports, market research;RC_22;
+RC_24;Pricing Model;Cost structure including free plans, subscription pricing, and paid account features.;Text [1];Official app websites, integration marketplaces, user reviews;RC_05;
+RC_25;Security and Privacy;The level of encryption and privacy features offered to protect user data and communications.;Float [1];Official platform websites, app store listings;RC_26;
+RC_26;Security and Privacy;The level of security and privacy features offered by the app, such as end-to-end encryption and data protection measures.;Integer [1];Google Play Store, Apple App Store, App Annie;;
+RC_27;Social Features;The availability of social features such as following friends, sharing reviews, and participating in community discussions.;Text [1];User reviews, tech reviews, official app websites;;X
+RC_28;Social Integration;The ease of integrating with other social media platforms and sharing content.;Boolean;Official app websites;;X
+RC_29;Streaming Quality;The quality of the streaming service, including resolution (HD, 4K) and buffering times.;Text [1];Official App Websites, App Store Listings;;X
+RC_30;Subscription Cost;The monthly or yearly cost of the subscription if applicable.;Boolean[1];Official app descriptions, user reviews;RC_05;
+RC_31;Unique Features;Special features that set the app apart from competitors.;Boolean;App description, user reviews;;
+RC_32;Update Frequency;How often the app is updated with new features, bug fixes, and content.;Text [*];Official app websites;;
+RC_33;User Base;The number of active users on the platform, indicating its popularity and reach.;Text [*];NextStepLiving, Jotform;;
+RC_34;User Base Size;Number of active users or downloads indicating app popularity and community size.;Integer [1-8];App store availability, official website, platform specifications;RC_33;
+RC_35;User Engagement;Measures how frequently and actively users interact with the app.;Integer[1];Google Play Store, App analytics;;
+RC_36;User Interface;Ease of use and design quality of the app's interface.;Text [1];App Store descriptions, Google Play descriptions, TechCrunch, The Verge;;
+RC_37;User Interface and Experience;The ease of use and navigation within the app, including the shuffle feature.;Integer [1];App Store, Google Play Store, Company Reports;RC_36;
+RC_38;User Ratings;Average rating given by users on app stores, reflecting user satisfaction.;Integer[*];App Store, Google Play Store, Streaming Service Website;;
+RC_39;User Ratings and Reviews;Ability for users to rate movies and write reviews, providing qualitative feedback and numeric ratings;Boolean [1];Google Play Store, Apple App Store;;X

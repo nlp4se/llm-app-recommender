@@ -1,0 +1,58 @@
+{
+  "a": [
+    "PhotoGrid",
+    "Pic Collage",
+    "Collage Maker - LiveCollage",
+    "MOLDIV",
+    "Photo Editor - Collage Maker",
+    "Diptic",
+    "PicPlayPost",
+    "PicsArt",
+    "PiZap",
+    "Ribbet"
+  ],
+  "c": [
+    {
+      "n": "Number of collage layouts/templates",
+      "d": "The quantity of ready-to-use collage layouts or templates available within the app",
+      "t": "Integer [1]",
+      "s": "1,2,3,4"
+    },
+    {
+      "n": "Platform availability",
+      "d": "Whether the app is available on iOS, Android, or both",
+      "t": "Text [*]",
+      "s": "1,2,4"
+    },
+    {
+      "n": "User interface usability",
+      "d": "How intuitive and easy the app interface is for creating collages",
+      "t": "Text [1]",
+      "s": "1,2"
+    },
+    {
+      "n": "Editing features",
+      "d": "Availability of photo editing tools such as filters, text, stickers, background removal, and customization options",
+      "t": "Text [*]",
+      "s": "1,2,3,4"
+    },
+    {
+      "n": "AI-powered tools",
+      "d": "Presence of AI-driven features, e.g., template suggestions, background removal, or collage generation",
+      "t": "Boolean [1]",
+      "s": "2,3,4"
+    },
+    {
+      "n": "Free vs. Premium options",
+      "d": "Whether the app offers free usage and what premium features or subscriptions are available",
+      "t": "Text [*]",
+      "s": "1,2,4"
+    },
+    {
+      "n": "User ratings and downloads",
+      "d": "App store ratings and number of downloads indicating popularity and user satisfaction",
+      "t": "Float and Integer [1]",
+      "s": "3"
+    }
+  ]
+}

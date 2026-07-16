@@ -1,0 +1,57 @@
+
+{
+  "a": [
+    "PicCollage",
+    "Layout from Instagram",
+    "Moldiv",
+    "PhotoGrid",
+    "Canva",
+    "FotoJet",
+    "PicsArt",
+    "Ribbet",
+    "BeFunky",
+    "Pizap",
+    "PiZap",
+    "Fotor",
+    "Photo Collage Maker",
+    "Kizu",
+    "PicPlayPost",
+    "Collage Maker",
+    "Photo Blend & Shape Collage Maker",
+    "Pic Stitch",
+    "Diptic",
+    "Framatic"
+  ],
+  "c": [
+    {
+      "n": "User Ratings",
+      "d": "Average rating of the app on major app stores (Google Play, Apple App Store).",
+      "t": "Float [1]",
+      "s": "Google Play Store, Apple App Store"
+    },
+    {
+      "n": "Number of Downloads",
+      "d": "Total number of times the app has been downloaded from major app stores.",
+      "t": "Integer [1]",
+      "s": "Google Play Store, Apple App Store, App Annie"
+    },
+    {
+      "n": "Feature Set",
+      "d": "Range and quality of features offered, such as templates, editing tools, and sharing options.",
+      "t": "Text [1]",
+      "s": "Official app websites, App Store descriptions, Expert Reviews"
+    },
+    {
+      "n": "User Interface",
+      "d": "Ease of use and intuitiveness of the app's interface.",
+      "t": "Text [1]",
+      "s": "User reviews, Expert reviews, App Store descriptions"
+    },
+    {
+      "n": "Update Frequency",
+      "d": "How often the app is updated with new features, bug fixes, and improvements.",
+      "t": "Text [1]",
+      "s": "Google Play Store, Apple App Store, App Annie"
+    }
+  ]
+}

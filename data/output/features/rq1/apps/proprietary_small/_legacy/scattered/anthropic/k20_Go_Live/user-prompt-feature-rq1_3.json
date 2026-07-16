@@ -1,0 +1,56 @@
+{
+  "a": [
+    "TikTok",
+    "Instagram",
+    "YouTube",
+    "Twitch",
+    "Facebook",
+    "Discord",
+    "Snapchat",
+    "LinkedIn",
+    "Twitter",
+    "Reddit",
+    "Clubhouse",
+    "Periscope",
+    "BIGO LIVE",
+    "Live.me",
+    "YouNow",
+    "StreamLabs",
+    "Restream",
+    "OBS Studio",
+    "XSplit",
+    "Streamyard"
+  ],
+  "c": [
+    {
+      "n": "Active User Base Size",
+      "d": "Total number of monthly active users on the platform",
+      "t": "Integer [1]",
+      "s": "App store analytics, company reports, third-party research"
+    },
+    {
+      "n": "Live Streaming Feature Quality",
+      "d": "Quality and reliability of live streaming capabilities including video quality, latency, and stability",
+      "t": "Float [1]",
+      "s": "User reviews, technical specifications, performance tests"
+    },
+    {
+      "n": "Audience Engagement Tools",
+      "d": "Number and effectiveness of interactive features like comments, reactions, polls, and chat",
+      "t": "Integer [1]",
+      "s": "Feature documentation, user feedback, platform analysis"
+    },
+    {
+      "n": "Monetization Options",
+      "d": "Availability and variety of revenue generation methods for live streamers",
+      "t": "Integer [1]",
+      "s": "Platform policies, creator program documentation, revenue reports"
+    },
+    {
+      "n": "Content Discovery Algorithm",
+      "d": "Effectiveness of the platform's algorithm in promoting live content to relevant audiences",
+      "t": "Float [1]",
+      "s": "Creator testimonials, engagement metrics, algorithm transparency reports"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "a": [
+    "Facebook Marketplace",
+    "eBay",
+    "Mercari",
+    "Poshmark",
+    "Depop",
+    "Vinted",
+    "OfferUp",
+    "Craigslist",
+    "Letgo",
+    "The RealReal",
+    "Vestiaire Collective",
+    "Rebag",
+    "ThredUp",
+    "Grailed",
+    "StockX",
+    "GOAT",
+    "Tradesy",
+    "Chairish",
+    "1stDibs",
+    "Reverb"
+  ],
+  "c": [
+    {
+      "n": "User Base Size",
+      "d": "Total number of active users on the platform, indicating market reach and potential buyer pool",
+      "t": "Integer [1]",
+      "s": "App store analytics, company reports, market research data"
+    },
+    {
+      "n": "Category Specialization",
+      "d": "Whether the app focuses on specific product categories vs general marketplace, affecting target audience fit",
+      "t": "Text [1]",
+      "s": "App descriptions, feature analysis, user reviews"
+    },
+    {
+      "n": "Seller Fee Structure",
+      "d": "Commission rates, listing fees, and payment processing costs that impact seller profitability",
+      "t": "Float [*]",
+      "s": "Official fee schedules, terms of service, seller documentation"
+    },
+    {
+      "n": "Ease of Listing",
+      "d": "Simplicity and speed of creating listings, including photo upload, description templates, and bulk tools",
+      "t": "Integer [1]",
+      "s": "User experience testing, app reviews, feature documentation"
+    },
+    {
+      "n": "Trust and Safety Features",
+      "d": "Built-in protection mechanisms like buyer/seller verification, secure payments, and dispute resolution",
+      "t": "Boolean [*]",
+      "s": "Platform policies, security features, user feedback"
+    }
+  ]
+}

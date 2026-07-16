@@ -1,0 +1,56 @@
+{
+  "a": [
+    "Canva",
+    "PicsArt",
+    "Adobe Photoshop Express",
+    "Collage Maker",
+    "Layout from Instagram",
+    "PhotoGrid",
+    "Pic Collage",
+    "Fotor",
+    "MOLDIV",
+    "Photo Collage Editor",
+    "InstaSize",
+    "PhotoDirector",
+    "Unfold",
+    "Story Maker",
+    "Diptic",
+    "TurboCollage",
+    "Shape Collage",
+    "FotoJet",
+    "Ribbet",
+    "BeFunky"
+  ],
+  "c": [
+    {
+      "n": "Template Variety",
+      "d": "Number and diversity of pre-built collage templates and layouts available",
+      "t": "Integer [1]",
+      "s": "App store descriptions, user reviews, feature lists"
+    },
+    {
+      "n": "Customization Features",
+      "d": "Range of editing tools including filters, effects, text options, stickers, and manual layout adjustments",
+      "t": "Integer [1]",
+      "s": "App specifications, feature documentation, user testimonials"
+    },
+    {
+      "n": "User Rating",
+      "d": "Average user rating across app stores indicating overall satisfaction and quality",
+      "t": "Float [1]",
+      "s": "Google Play Store, Apple App Store ratings"
+    },
+    {
+      "n": "Export Quality",
+      "d": "Maximum resolution and format options for saving finished collages",
+      "t": "Text [1]",
+      "s": "Technical specifications, user reviews, app documentation"
+    },
+    {
+      "n": "Ease of Use",
+      "d": "Intuitive interface design and learning curve based on user feedback and design complexity",
+      "t": "Text [1]",
+      "s": "User reviews, UI/UX analysis, tutorial availability"
+    }
+  ]
+}

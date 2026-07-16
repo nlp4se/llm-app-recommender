@@ -1,0 +1,69 @@
+
+{
+  "a": [
+    "Microsoft Teams",
+    "Slack",
+    "Zoom",
+    "Google Workspace",
+    "Asana",
+    "Trello",
+    "Miro",
+    "Figma",
+    "Notion",
+    "Monday.com",
+    "Basecamp",
+    "ClickUp",
+    "Jira",
+    "Confluence",
+    "Skype",
+    "Discord",
+    "Webex",
+    "GoToMeeting",
+    "Microsoft OneNote",
+    "Evernote"
+  ],
+  "c": [
+    {
+      "n": "User Ratings",
+      "d": "Average rating of the app on various app stores and review platforms.",
+      "t": "Float [1]",
+      "s": "Google Play Store, Apple App Store, G2, Capterra"
+    },
+    {
+      "n": "Number of Active Users",
+      "d": "Total number of active users of the app.",
+      "t": "Integer [1]",
+      "s": "Company reports, market analysis reports, Statista"
+    },
+    {
+      "n": "Feature Set",
+      "d": "Range and quality of features offered by the app for collaboration.",
+      "t": "Text [1]",
+      "s": "Official app websites, user reviews, tech blogs"
+    },
+    {
+      "n": "Integration Capabilities",
+      "d": "Ability of the app to integrate with other tools and services.",
+      "t": "Text [1]",
+      "s": "Official app websites, developer documentation, user reviews"
+    },
+    {
+      "n": "User Interface and Experience",
+      "d": "Ease of use and overall user experience of the app.",
+      "t": "Text [1]",
+      "s": "User reviews, tech blogs, UX design critiques"
+    },
+    {
+      "n": "Security and Privacy",
+      "d": "Level of security and privacy features offered by the app.",
+      "t": "Text [1]",
+      "s": "Official app websites, security audits, user reviews"
+    },
+    {
+      "n": "Pricing and Plans",
+      "d": "Cost-effectiveness and variety of pricing plans offered by the app.",
+      "t": "Text [1]",
+      "s": "Official app websites, market analysis reports, user reviews"
+    }
+  ]
+}

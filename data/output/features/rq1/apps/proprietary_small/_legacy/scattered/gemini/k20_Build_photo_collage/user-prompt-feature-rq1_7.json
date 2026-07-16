@@ -1,0 +1,69 @@
+
+{
+  "a": [
+    "PicCollage",
+    "PhotoGrid",
+    "Collage Maker - LiveCollage",
+    "PicsArt Photo & Collage Maker",
+    "Moldiv",
+    "InCollage",
+    "Diptic",
+    "SCRL",
+    "Canva",
+    "Fotor Collage Maker",
+    "Ribbet",
+    "PhotoDirector",
+    "PiZap",
+    "Adobe Spark",
+    "Layout from Instagram",
+    "Shape Collage",
+    "PhotoPad",
+    "Pixlr",
+    "Google Photos",
+    "Icecream Photo Editor"
+  ],
+  "c": [
+    {
+      "n": "Ease of Use",
+      "d": "The app's interface and features are intuitive and easy to navigate for users of all skill levels.",
+      "t": "Boolean",
+      "s": "User reviews, app store descriptions, expert reviews"
+    },
+    {
+      "n": "Template Variety",
+      "d": "The app offers a wide selection of pre-designed templates and layouts for different occasions and styles.",
+      "t": "Integer[*]",
+      "s": "App features, app store descriptions, expert reviews"
+    },
+    {
+      "n": "Customization Options",
+      "d": "The app provides a range of tools and features to customize collages, including adjusting borders, adding text, stickers, backgrounds, and filters.",
+      "t": "Text[*]",
+      "s": "App features, user reviews, expert reviews"
+    },
+    {
+      "n": "Photo Editing Tools",
+      "d": "The app includes built-in photo editing tools to enhance images, such as cropping, resizing, adjusting brightness and contrast, and applying filters.",
+      "t": "Boolean",
+      "s": "App features, expert reviews"
+    },
+    {
+      "n": "Social Sharing",
+      "d": "The app allows users to easily share their collages on social media platforms like Instagram, Facebook, and Twitter.",
+      "t": "Boolean",
+      "s": "App features, app store descriptions"
+    },
+    {
+      "n": "Free Features",
+      "d": "The app offers a sufficient set of features and templates for free, without requiring a subscription or in-app purchases.",
+      "t": "Boolean",
+      "s": "User reviews, app store descriptions, expert reviews"
+    },
+    {
+      "n": "Maximum Photos Supported",
+      "d": "The maximum number of photos that can be added to a single collage.",
+      "t": "Integer[1]",
+      "s": "App features, app descriptions"
+    }
+  ]
+}

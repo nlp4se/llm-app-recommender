@@ -1,0 +1,74 @@
+{
+  "a": [
+    "Slack",
+    "Microsoft Teams",
+    "Zoom",
+    "Trello",
+    "Asana",
+    "ClickUp",
+    "Monday.com",
+    "SmartTask",
+    "Wrike",
+    "Podio",
+    "Smartsheet",
+    "Bit.ai",
+    "Evernote Business",
+    "Teamwork",
+    "Ryver",
+    "Flock",
+    "GoToMeeting",
+    "Microsoft 365",
+    "Webex",
+    "Basecamp"
+  ],
+  "c": [
+    {
+      "n": "Integration Capability",
+      "d": "Ability to connect and work seamlessly with other third-party apps and services, enhancing workflow efficiency.",
+      "t": "Boolean or Integer (number of integrations) [1],[2],[3]",
+      "s": "Rocket.Chat, Huuray, Wrike"
+    },
+    {
+      "n": "Communication Features",
+      "d": "Availability of multiple communication modes such as messaging, voice calls, video conferencing, and channels.",
+      "t": "Text and Boolean [1],[2],[3]",
+      "s": "Rocket.Chat, Huuray, Wrike"
+    },
+    {
+      "n": "Project and Task Management",
+      "d": "Tools for organizing, tracking, and managing shared work including task boards, checklists, and status tracking.",
+      "t": "Boolean or Text [1],[2],[3]",
+      "s": "Rocket.Chat, Huuray, Wrike"
+    },
+    {
+      "n": "User Scalability",
+      "d": "Capacity to support teams of various sizes from small groups to large organizations.",
+      "t": "Integer [1]",
+      "s": "Rocket.Chat"
+    },
+    {
+      "n": "Security Features",
+      "d": "Advanced security and privacy options suitable for privacy-conscious organizations.",
+      "t": "Boolean [1]",
+      "s": "Rocket.Chat"
+    },
+    {
+      "n": "File Sharing",
+      "d": "Capability to share documents, images, and files within the app facilitating collaboration.",
+      "t": "Boolean [2],[3]",
+      "s": "Huuray, Wrike"
+    },
+    {
+      "n": "Visual Collaboration",
+      "d": "Tools for visual thinking and collaboration such as digital whiteboards, diagrams, and mind maps.",
+      "t": "Boolean [1],[4]",
+      "s": "Rocket.Chat, Syskit"
+    },
+    {
+      "n": "Ease of Use",
+      "d": "User-friendly interface and customizable dashboards that adapt to team needs.",
+      "t": "Text or Boolean [1],[4]",
+      "s": "Rocket.Chat, Syskit"
+    }
+  ]
+}

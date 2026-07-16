@@ -1,0 +1,595 @@
+model1,model2,feature,rbo
+openai,gemini,Read ebooks,0.5191814788007663
+openai,gemini,Download books,0.4569681646823819
+openai,gemini,Sync reading progress,0.6772370833752922
+openai,gemini,Highlight text,0.396172385708213
+openai,gemini,Search within books,0.5116964099409059
+openai,gemini,Send messages,0.7255210468573746
+openai,gemini,Private chat with users,0.4460165445174218
+openai,gemini,Real-time messaging,0.7390662371782478
+openai,gemini,Access courses,0.8892190599361401
+openai,gemini,Watch lectures,0.7278171853543897
+openai,gemini,Take quizzes,0.6738792346050738
+openai,gemini,Track learning progress,0.8136594526448032
+openai,gemini,Offline learning,0.7149147658459217
+openai,gemini,Watch live TV,0.8083236078137953
+openai,gemini,Watch videos,0.7481674280180818
+openai,gemini,Transfer money,0.8088012745218711
+openai,gemini,Send money to anyone,0.8346591235054451
+openai,gemini,Receive money,0.8578452163354393
+openai,gemini,Pay bills,0.2916781056752782
+openai,gemini,Pay credit card bills,0.3371676223504665
+openai,gemini,Schedule payments,0.24609650328605884
+openai,gemini,Share payments,0.5639757841758855
+openai,gemini,View account balances,0.226501498226832
+openai,gemini,View transaction history,0.6040092065417423
+openai,gemini,Receive payment receipts,0.36547257175490555
+openai,gemini,Store bill details securely,0.13491903248112855
+openai,gemini,Activate cards for overseas usage,0.6838656337695121
+openai,gemini,Currency converter,0.3044823557422151
+openai,gemini,Financial calculators,0.20603479615997447
+openai,gemini,Remittances overseas,0.7597120783119093
+openai,gemini,Track workouts,0.4853288251664874
+openai,gemini,Monitor heart rate,0.3327811200914883
+openai,gemini,Set fitness goals,0.5826693660711483
+openai,gemini,Track weight,0.6523679423790862
+openai,gemini,Follow training plans,0.548201763082956
+openai,gemini,View progress charts,0.5501978499676364
+openai,gemini,Get audio coaching,0.24360907673049406
+openai,gemini,Track routes on map,0.7405248229775772
+openai,gemini,Diet planning,0.7658749388841872
+openai,gemini,Calorie tracking,0.8031760977044907
+openai,gemini,Turn-by-turn navigation,0.8283684678792805
+openai,gemini,Find nearby places,0.5898867637765062
+openai,gemini,View maps offline,0.6771885931768967
+openai,gemini,Check public transport routes,0.7486879050666109
+openai,gemini,Save favorite locations,0.6780756570774658
+openai,gemini,Real-time traffic updates,0.7771894974101806
+openai,gemini,Stream music,0.854902794105151
+openai,gemini,Create playlists,0.7718264662161941
+openai,gemini,Download content for offline use,0.5394221430795049
+openai,gemini,Audio playback controls,0.6846732631731594
+openai,gemini,Record audio,0.33434973570195753
+openai,gemini,Edit audio files,0.4586004781615849
+openai,gemini,Access breaking news,0.6413581332135307
+openai,gemini,Personalized news feed,0.7628040780370691
+openai,gemini,Read articles offline,0.7275431519142533
+openai,gemini,Bookmark articles,0.7671933254564621
+openai,gemini,Search news topics,0.7921043528542475
+openai,gemini,Listen to interviews,0.7257246299694305
+openai,gemini,Receive news notifications,0.6343481501551438
+openai,gemini,Browse by categories,0.4390953111048203
+openai,gemini,Set wallpapers,0.6450658694428851
+openai,gemini,Customize themes,0.5282356262112788
+openai,gemini,Change fonts,0.39642840929937234
+openai,gemini,Automatic wallpaper rotation,0.32230725829907547
+openai,gemini,Customize interface settings,0.6945152819454752
+openai,gemini,Photo editing tools,0.6670390058118097
+openai,gemini,Apply filters and effects,0.4546174435036046
+openai,gemini,Create collages,0.4628603544300167
+openai,gemini,Adjust image settings,0.5377332307881669
+openai,gemini,Save images locally,0.21980224611762936
+openai,gemini,Share edited photos,0.42584189831981467
+openai,gemini,Backup and restore data,0.5526777844919958
+openai,gemini,Sync across devices,0.3501917659177679
+openai,gemini,Search for products,0.5132890779864264
+openai,gemini,Compare prices,0.49908133801070564
+openai,gemini,Add items to wishlist,0.5060112976544628
+openai,gemini,Secure checkout,0.34438094825630267
+openai,gemini,Track order delivery status,0.12450105475706241
+openai,gemini,Browse by category,0.4578851217449166
+openai,gemini,View product reviews,0.29684967837898685
+openai,gemini,Barcode scanning for items,0.1757018006677071
+openai,gemini,Manage shopping cart,0.5122502764081928
+openai,gemini,Receive daily promotions,0.5816833230393761
+openai,gemini,Share photos and videos,0.7381919372649574
+openai,gemini,Follow users,0.6493019819667504
+openai,gemini,Post content updates,0.7058497102394691
+openai,gemini,Share content on social networks,0.6569875110136573
+openai,gemini,Discover new people,0.8219812770033117
+openai,gemini,Comment on posts,0.6827841996903898
+openai,gemini,Receive push notifications,0.6352524497889113
+openai,gemini,File management,0.5464708652394841
+openai,gemini,Search with suggestions,0.6294701763511189
+openai,gemini,Book taxis,0.8060584846902806
+openai,gemini,Track taxi location,0.843898291258684
+openai,gemini,Calculate fares,0.6042766920064412
+openai,gemini,Share media,0.7612377063407787
+openai,gemini,Access subtitles,0.4924520290765473
+openai,gemini,Video quality control,0.09924342779153862
+openai,gemini,Weather forecast,0.6660379969777728
+openai,anthropic,Read ebooks,0.5567457173381866
+openai,anthropic,Download books,0.7857056028114587
+openai,anthropic,Sync reading progress,0.6650461560068203
+openai,anthropic,Highlight text,0.45857457922076056
+openai,anthropic,Search within books,0.6977989584996236
+openai,anthropic,Send messages,0.8168551512719544
+openai,anthropic,Private chat with users,0.8327618263962201
+openai,anthropic,Real-time messaging,0.8255573759381788
+openai,anthropic,Access courses,0.8834869674254636
+openai,anthropic,Watch lectures,0.7267702951974594
+openai,anthropic,Take quizzes,0.5430700801900232
+openai,anthropic,Track learning progress,0.8766548549853248
+openai,anthropic,Offline learning,0.7535486897026488
+openai,anthropic,Watch live TV,0.6970624426693393
+openai,anthropic,Watch videos,0.824525756862797
+openai,anthropic,Transfer money,0.7877125070328613
+openai,anthropic,Send money to anyone,0.6590358838110739
+openai,anthropic,Receive money,0.7756043894532819
+openai,anthropic,Pay bills,0.559731766244797
+openai,anthropic,Pay credit card bills,0.5081022055267784
+openai,anthropic,Schedule payments,0.4848711622534807
+openai,anthropic,Share payments,0.6871025435279107
+openai,anthropic,View account balances,0.24223354157860288
+openai,anthropic,View transaction history,0.625019377414649
+openai,anthropic,Receive payment receipts,0.2930844784317129
+openai,anthropic,Store bill details securely,0.16018226671930588
+openai,anthropic,Activate cards for overseas usage,0.6712488445984417
+openai,anthropic,Currency converter,0.2960220441263079
+openai,anthropic,Financial calculators,0.1260785547071305
+openai,anthropic,Remittances overseas,0.4711387200998899
+openai,anthropic,Track workouts,0.5365885369071328
+openai,anthropic,Monitor heart rate,0.4137018228710206
+openai,anthropic,Set fitness goals,0.7765566899334979
+openai,anthropic,Track weight,0.6434009601643855
+openai,anthropic,Follow training plans,0.489480985571897
+openai,anthropic,View progress charts,0.5724387358023643
+openai,anthropic,Get audio coaching,0.3386515842468871
+openai,anthropic,Track routes on map,0.7103523229559808
+openai,anthropic,Diet planning,0.8102099815485343
+openai,anthropic,Calorie tracking,0.8015040646298379
+openai,anthropic,Turn-by-turn navigation,0.8741323460598694
+openai,anthropic,Find nearby places,0.579464998030278
+openai,anthropic,View maps offline,0.670853092705818
+openai,anthropic,Check public transport routes,0.7998995846090183
+openai,anthropic,Save favorite locations,0.7688892460622836
+openai,anthropic,Real-time traffic updates,0.872520985213366
+openai,anthropic,Stream music,0.8902588824550641
+openai,anthropic,Create playlists,0.8441315214490621
+openai,anthropic,Download content for offline use,0.8815219120813258
+openai,anthropic,Audio playback controls,0.6919973923827404
+openai,anthropic,Record audio,0.39016595891316014
+openai,anthropic,Edit audio files,0.5906418503741987
+openai,anthropic,Access breaking news,0.6917693541870169
+openai,anthropic,Personalized news feed,0.802626804794155
+openai,anthropic,Read articles offline,0.7051681210301451
+openai,anthropic,Bookmark articles,0.5777433430761199
+openai,anthropic,Search news topics,0.8151648101749727
+openai,anthropic,Listen to interviews,0.7878113625166457
+openai,anthropic,Receive news notifications,0.7578249866825962
+openai,anthropic,Browse by categories,0.26281676350289834
+openai,anthropic,Set wallpapers,0.4069843413877787
+openai,anthropic,Customize themes,0.35308641668849766
+openai,anthropic,Change fonts,0.018254527829045065
+openai,anthropic,Automatic wallpaper rotation,0.12741958383799845
+openai,anthropic,Customize interface settings,0.4834551586590435
+openai,anthropic,Photo editing tools,0.5661243654808118
+openai,anthropic,Apply filters and effects,0.3252056973934363
+openai,anthropic,Create collages,0.5377202839454417
+openai,anthropic,Adjust image settings,0.5335179895384975
+openai,anthropic,Save images locally,0.40485318258134945
+openai,anthropic,Share edited photos,0.622152109635395
+openai,anthropic,Backup and restore data,0.47093298815797674
+openai,anthropic,Sync across devices,0.30895806982300994
+openai,anthropic,Search for products,0.5794931805679062
+openai,anthropic,Compare prices,0.6561431233889273
+openai,anthropic,Add items to wishlist,0.6961252557440712
+openai,anthropic,Secure checkout,0.3908733558407335
+openai,anthropic,Track order delivery status,0.3668264093723676
+openai,anthropic,Browse by category,0.263674706325116
+openai,anthropic,View product reviews,0.36626531753888864
+openai,anthropic,Barcode scanning for items,0.42738048011450536
+openai,anthropic,Manage shopping cart,0.6177326852242895
+openai,anthropic,Receive daily promotions,0.42665172466332785
+openai,anthropic,Share photos and videos,0.8420846305084005
+openai,anthropic,Follow users,0.8326674441394674
+openai,anthropic,Post content updates,0.8311402804455489
+openai,anthropic,Share content on social networks,0.6497367332849181
+openai,anthropic,Discover new people,0.7698619930336373
+openai,anthropic,Comment on posts,0.7653624870374367
+openai,anthropic,Receive push notifications,0.6664265181625193
+openai,anthropic,File management,0.6925380189877266
+openai,anthropic,Search with suggestions,0.5500543890725403
+openai,anthropic,Book taxis,0.8042884483138141
+openai,anthropic,Track taxi location,0.825160228541985
+openai,anthropic,Calculate fares,0.7205333037916217
+openai,anthropic,Share media,0.7291513944804714
+openai,anthropic,Access subtitles,0.48325876040556265
+openai,anthropic,Video quality control,0.05999075228387389
+openai,anthropic,Weather forecast,0.807762121145999
+openai,mistral,Read ebooks,0.6411909432170455
+openai,mistral,Download books,0.7697827473335898
+openai,mistral,Sync reading progress,0.75049970252949
+openai,mistral,Highlight text,0.24407980867207033
+openai,mistral,Search within books,0.6611520603368808
+openai,mistral,Send messages,0.7825851873716135
+openai,mistral,Private chat with users,0.7705949365382001
+openai,mistral,Real-time messaging,0.7924070621823434
+openai,mistral,Access courses,0.9030114469386032
+openai,mistral,Watch lectures,0.6645619910961652
+openai,mistral,Take quizzes,0.48155777461141136
+openai,mistral,Track learning progress,0.834693784524622
+openai,mistral,Offline learning,0.7197396224986461
+openai,mistral,Watch live TV,0.7453683115193246
+openai,mistral,Watch videos,0.7052585726115739
+openai,mistral,Transfer money,0.7726420206525049
+openai,mistral,Send money to anyone,0.7551420875189868
+openai,mistral,Receive money,0.7799040643516956
+openai,mistral,Pay bills,0.3719857368660255
+openai,mistral,Pay credit card bills,0.0666215896027002
+openai,mistral,Schedule payments,0.33429803660321
+openai,mistral,Share payments,0.771599931509492
+openai,mistral,View account balances,0.21770469912124754
+openai,mistral,View transaction history,0.060110691329808945
+openai,mistral,Receive payment receipts,0.4186077031910902
+openai,mistral,Store bill details securely,0.033296554222735884
+openai,mistral,Activate cards for overseas usage,0.5691832804847856
+openai,mistral,Currency converter,0.32367089298444357
+openai,mistral,Financial calculators,9.476577045705326e-05
+openai,mistral,Remittances overseas,0.4354228748552513
+openai,mistral,Track workouts,0.5284534555473867
+openai,mistral,Monitor heart rate,0.38635173726252553
+openai,mistral,Set fitness goals,0.7019516639696259
+openai,mistral,Track weight,0.6283501371526911
+openai,mistral,Follow training plans,0.5824274897381372
+openai,mistral,View progress charts,0.5580017713789903
+openai,mistral,Get audio coaching,0.2883904799129183
+openai,mistral,Track routes on map,0.6061845189529753
+openai,mistral,Diet planning,0.6283484167514198
+openai,mistral,Calorie tracking,0.7455972660723439
+openai,mistral,Turn-by-turn navigation,0.8259825876349736
+openai,mistral,Find nearby places,0.5850255709298479
+openai,mistral,View maps offline,0.5400719477321914
+openai,mistral,Check public transport routes,0.6028941049614379
+openai,mistral,Save favorite locations,0.6370677956973771
+openai,mistral,Real-time traffic updates,0.7374428491949873
+openai,mistral,Stream music,0.863365192239532
+openai,mistral,Create playlists,0.8031484778977785
+openai,mistral,Download content for offline use,0.8595110190388575
+openai,mistral,Audio playback controls,0.6841892541952589
+openai,mistral,Record audio,0.2547517084036143
+openai,mistral,Edit audio files,0.5795300697941993
+openai,mistral,Access breaking news,0.43254972990097157
+openai,mistral,Personalized news feed,0.6176874927525191
+openai,mistral,Read articles offline,0.6960471773975094
+openai,mistral,Bookmark articles,0.7495875902335574
+openai,mistral,Search news topics,0.7910701280724968
+openai,mistral,Listen to interviews,0.7127416168698896
+openai,mistral,Receive news notifications,0.31682720729642794
+openai,mistral,Browse by categories,0.22718161087215805
+openai,mistral,Set wallpapers,0.4081793605678481
+openai,mistral,Customize themes,0.46710662108532164
+openai,mistral,Change fonts,0.318248030305108
+openai,mistral,Automatic wallpaper rotation,0.2406465765691658
+openai,mistral,Customize interface settings,0.5209958197485411
+openai,mistral,Photo editing tools,0.5187629600081157
+openai,mistral,Apply filters and effects,0.18396173328684207
+openai,mistral,Create collages,0.6384872430946391
+openai,mistral,Adjust image settings,0.5190278388590888
+openai,mistral,Save images locally,0.587645656964888
+openai,mistral,Share edited photos,0.24436619269288304
+openai,mistral,Backup and restore data,0.4983064847451314
+openai,mistral,Sync across devices,0.7049501062286005
+openai,mistral,Search for products,0.5149365105532839
+openai,mistral,Compare prices,0.5499290109729271
+openai,mistral,Add items to wishlist,0.6750365922531469
+openai,mistral,Secure checkout,0.3072555364771446
+openai,mistral,Track order delivery status,0.36229361291993345
+openai,mistral,Browse by category,0.15066852888536067
+openai,mistral,View product reviews,0.42743359514675533
+openai,mistral,Barcode scanning for items,0.21051184476403267
+openai,mistral,Manage shopping cart,0.6513134795103731
+openai,mistral,Receive daily promotions,0.4133851849456386
+openai,mistral,Share photos and videos,0.7309674870396279
+openai,mistral,Follow users,0.7301932960150778
+openai,mistral,Post content updates,0.7323604439214715
+openai,mistral,Share content on social networks,0.6207909107406525
+openai,mistral,Discover new people,0.6475637846689583
+openai,mistral,Comment on posts,0.7467126408956105
+openai,mistral,Receive push notifications,0.6353866692637409
+openai,mistral,File management,0.5216640610026723
+openai,mistral,Search with suggestions,0.5104173778406259
+openai,mistral,Book taxis,0.7352580813973888
+openai,mistral,Track taxi location,0.8231632602779814
+openai,mistral,Calculate fares,0.7298944671496364
+openai,mistral,Share media,0.6751438035443954
+openai,mistral,Access subtitles,0.8013561500098644
+openai,mistral,Video quality control,0.2828055988377283
+openai,mistral,Weather forecast,0.6466782223435438
+gemini,anthropic,Read ebooks,0.6718478063397632
+gemini,anthropic,Download books,0.4084667488905025
+gemini,anthropic,Sync reading progress,0.6130095407519419
+gemini,anthropic,Highlight text,0.3360440488733822
+gemini,anthropic,Search within books,0.48542576714734553
+gemini,anthropic,Send messages,0.7627486111506766
+gemini,anthropic,Private chat with users,0.47345706374941643
+gemini,anthropic,Real-time messaging,0.7827412036144067
+gemini,anthropic,Access courses,0.8501030199638246
+gemini,anthropic,Watch lectures,0.843931130507545
+gemini,anthropic,Take quizzes,0.5737981621919773
+gemini,anthropic,Track learning progress,0.8316607817267994
+gemini,anthropic,Offline learning,0.7469188743837895
+gemini,anthropic,Watch live TV,0.6800809143246646
+gemini,anthropic,Watch videos,0.7236118241782379
+gemini,anthropic,Transfer money,0.7115493619218267
+gemini,anthropic,Send money to anyone,0.7126790663534187
+gemini,anthropic,Receive money,0.8089563672108164
+gemini,anthropic,Pay bills,0.2640761347365461
+gemini,anthropic,Pay credit card bills,0.41764534483092164
+gemini,anthropic,Schedule payments,0.2890413090982778
+gemini,anthropic,Share payments,0.5779591726038844
+gemini,anthropic,View account balances,0.6156971794368544
+gemini,anthropic,View transaction history,0.5885205775115021
+gemini,anthropic,Receive payment receipts,0.1813513392980218
+gemini,anthropic,Store bill details securely,0.10968605331537623
+gemini,anthropic,Activate cards for overseas usage,0.5565947400870979
+gemini,anthropic,Currency converter,0.5604522901797445
+gemini,anthropic,Financial calculators,0.14260721727388243
+gemini,anthropic,Remittances overseas,0.47226836683174495
+gemini,anthropic,Track workouts,0.4766409465965906
+gemini,anthropic,Monitor heart rate,0.42705400967332324
+gemini,anthropic,Set fitness goals,0.5752331270919862
+gemini,anthropic,Track weight,0.673286976495156
+gemini,anthropic,Follow training plans,0.48790176790770834
+gemini,anthropic,View progress charts,0.472439838362697
+gemini,anthropic,Get audio coaching,0.6015158896503308
+gemini,anthropic,Track routes on map,0.7278750240703009
+gemini,anthropic,Diet planning,0.770190247497991
+gemini,anthropic,Calorie tracking,0.785221528963191
+gemini,anthropic,Turn-by-turn navigation,0.8086559586447579
+gemini,anthropic,Find nearby places,0.763288419702056
+gemini,anthropic,View maps offline,0.7152002924985399
+gemini,anthropic,Check public transport routes,0.7920558559906341
+gemini,anthropic,Save favorite locations,0.7292070144950941
+gemini,anthropic,Real-time traffic updates,0.7577445285206187
+gemini,anthropic,Stream music,0.9171956128462356
+gemini,anthropic,Create playlists,0.8382254826941979
+gemini,anthropic,Download content for offline use,0.520265955086178
+gemini,anthropic,Audio playback controls,0.7286950211199484
+gemini,anthropic,Record audio,0.4212351197017024
+gemini,anthropic,Edit audio files,0.3418846783408537
+gemini,anthropic,Access breaking news,0.6799244101272447
+gemini,anthropic,Personalized news feed,0.7484020898824769
+gemini,anthropic,Read articles offline,0.6655136148697695
+gemini,anthropic,Bookmark articles,0.6521306591443197
+gemini,anthropic,Search news topics,0.8247371835664085
+gemini,anthropic,Listen to interviews,0.6694018952419172
+gemini,anthropic,Receive news notifications,0.6091250517989261
+gemini,anthropic,Browse by categories,0.37025484044868945
+gemini,anthropic,Set wallpapers,0.43753437925648975
+gemini,anthropic,Customize themes,0.4089757330911848
+gemini,anthropic,Change fonts,0.04811757096412145
+gemini,anthropic,Automatic wallpaper rotation,0.28387103726403173
+gemini,anthropic,Customize interface settings,0.4339507200799102
+gemini,anthropic,Photo editing tools,0.5736441642337502
+gemini,anthropic,Apply filters and effects,0.5270521629230541
+gemini,anthropic,Create collages,0.32598312644819916
+gemini,anthropic,Adjust image settings,0.8391937591448543
+gemini,anthropic,Save images locally,0.47679388554207686
+gemini,anthropic,Share edited photos,0.3665301624631737
+gemini,anthropic,Backup and restore data,0.4104429804064989
+gemini,anthropic,Sync across devices,0.48816647048099326
+gemini,anthropic,Search for products,0.5970732719190108
+gemini,anthropic,Compare prices,0.5185367321852197
+gemini,anthropic,Add items to wishlist,0.6218335051613137
+gemini,anthropic,Secure checkout,0.3844346123340861
+gemini,anthropic,Track order delivery status,0.053789160496617375
+gemini,anthropic,Browse by category,0.4117347036537059
+gemini,anthropic,View product reviews,0.592331986864941
+gemini,anthropic,Barcode scanning for items,0.20001688450994998
+gemini,anthropic,Manage shopping cart,0.6750922883092675
+gemini,anthropic,Receive daily promotions,0.3714508325044194
+gemini,anthropic,Share photos and videos,0.7215713026404613
+gemini,anthropic,Follow users,0.6149860570123391
+gemini,anthropic,Post content updates,0.7135361125042352
+gemini,anthropic,Share content on social networks,0.5003143584168877
+gemini,anthropic,Discover new people,0.7688144823016101
+gemini,anthropic,Comment on posts,0.7341300663363417
+gemini,anthropic,Receive push notifications,0.6354806078208991
+gemini,anthropic,File management,0.5355210244315014
+gemini,anthropic,Search with suggestions,0.6557484698356244
+gemini,anthropic,Book taxis,0.7745994171648418
+gemini,anthropic,Track taxi location,0.8286903417611297
+gemini,anthropic,Calculate fares,0.6069948050705748
+gemini,anthropic,Share media,0.7216458974899207
+gemini,anthropic,Access subtitles,0.38842187949479473
+gemini,anthropic,Video quality control,0.5891730922231072
+gemini,anthropic,Weather forecast,0.64797567391141
+gemini,mistral,Read ebooks,0.4448911419633802
+gemini,mistral,Download books,0.4615772417890655
+gemini,mistral,Sync reading progress,0.7089224661575492
+gemini,mistral,Highlight text,0.24256708198654628
+gemini,mistral,Search within books,0.4899152495013591
+gemini,mistral,Send messages,0.6659700378986803
+gemini,mistral,Private chat with users,0.4976468076088998
+gemini,mistral,Real-time messaging,0.6663053892514677
+gemini,mistral,Access courses,0.9033724250598217
+gemini,mistral,Watch lectures,0.7380832036730189
+gemini,mistral,Take quizzes,0.4444157816624878
+gemini,mistral,Track learning progress,0.7853745954025635
+gemini,mistral,Offline learning,0.7201471725833113
+gemini,mistral,Watch live TV,0.7573470383746972
+gemini,mistral,Watch videos,0.665522910769997
+gemini,mistral,Transfer money,0.6916718217732633
+gemini,mistral,Send money to anyone,0.7397947368276319
+gemini,mistral,Receive money,0.7847091848955675
+gemini,mistral,Pay bills,0.21000916812214876
+gemini,mistral,Pay credit card bills,0.14216479317360445
+gemini,mistral,Schedule payments,0.2332908907671653
+gemini,mistral,Share payments,0.5109941286860885
+gemini,mistral,View account balances,0.17772300167846716
+gemini,mistral,View transaction history,0.04563675633626199
+gemini,mistral,Receive payment receipts,0.39782335776971567
+gemini,mistral,Store bill details securely,0.09755502081549365
+gemini,mistral,Activate cards for overseas usage,0.5484718364910269
+gemini,mistral,Currency converter,0.38380739976711764
+gemini,mistral,Financial calculators,1.668213431730377e-05
+gemini,mistral,Remittances overseas,0.4352823388088327
+gemini,mistral,Track workouts,0.4048453888425476
+gemini,mistral,Monitor heart rate,0.40907513177040733
+gemini,mistral,Set fitness goals,0.5905966120461614
+gemini,mistral,Track weight,0.5971607087071106
+gemini,mistral,Follow training plans,0.46774828021515547
+gemini,mistral,View progress charts,0.5043748614413931
+gemini,mistral,Get audio coaching,0.4928357415193013
+gemini,mistral,Track routes on map,0.557225197218197
+gemini,mistral,Diet planning,0.6838131590906437
+gemini,mistral,Calorie tracking,0.7052296831073286
+gemini,mistral,Turn-by-turn navigation,0.8083402533495117
+gemini,mistral,Find nearby places,0.6646278233853035
+gemini,mistral,View maps offline,0.599890093273367
+gemini,mistral,Check public transport routes,0.6792814042409652
+gemini,mistral,Save favorite locations,0.690149496356451
+gemini,mistral,Real-time traffic updates,0.7258608952669239
+gemini,mistral,Stream music,0.9126097014799254
+gemini,mistral,Create playlists,0.8481744594195446
+gemini,mistral,Download content for offline use,0.4964430206903252
+gemini,mistral,Audio playback controls,0.7152314545641204
+gemini,mistral,Record audio,0.3995888812422481
+gemini,mistral,Edit audio files,0.3355358622782494
+gemini,mistral,Access breaking news,0.4056377558002115
+gemini,mistral,Personalized news feed,0.6255187527139474
+gemini,mistral,Read articles offline,0.645197940924577
+gemini,mistral,Bookmark articles,0.6955475435291923
+gemini,mistral,Search news topics,0.7809129415061983
+gemini,mistral,Listen to interviews,0.6654290393261821
+gemini,mistral,Receive news notifications,0.4683761002569025
+gemini,mistral,Browse by categories,0.00016682134317303767
+gemini,mistral,Set wallpapers,0.46185037288601377
+gemini,mistral,Customize themes,0.5212342074001401
+gemini,mistral,Change fonts,0.32968655901949867
+gemini,mistral,Automatic wallpaper rotation,0.23740803467427798
+gemini,mistral,Customize interface settings,0.4437918061841868
+gemini,mistral,Photo editing tools,0.50700577858742
+gemini,mistral,Apply filters and effects,0.3188858476656997
+gemini,mistral,Create collages,0.4006866157550192
+gemini,mistral,Adjust image settings,0.7228156024770633
+gemini,mistral,Save images locally,0.2809285759281383
+gemini,mistral,Share edited photos,0.3410264407298434
+gemini,mistral,Backup and restore data,0.40019222952191086
+gemini,mistral,Sync across devices,0.27379724024255714
+gemini,mistral,Search for products,0.5167266541200545
+gemini,mistral,Compare prices,0.41463646686327604
+gemini,mistral,Add items to wishlist,0.6161843471489995
+gemini,mistral,Secure checkout,0.23158545177465592
+gemini,mistral,Track order delivery status,0.05813127439010872
+gemini,mistral,Browse by category,0.009175151860637143
+gemini,mistral,View product reviews,0.6086713457172744
+gemini,mistral,Barcode scanning for items,0.06235435058081274
+gemini,mistral,Manage shopping cart,0.6693947898064119
+gemini,mistral,Receive daily promotions,0.30785911090922136
+gemini,mistral,Share photos and videos,0.7528244738917345
+gemini,mistral,Follow users,0.5998229411766275
+gemini,mistral,Post content updates,0.6623666212042181
+gemini,mistral,Share content on social networks,0.4405377749918708
+gemini,mistral,Discover new people,0.6688883675903231
+gemini,mistral,Comment on posts,0.6047375476985704
+gemini,mistral,Receive push notifications,0.5699163259085007
+gemini,mistral,File management,0.5715940269740049
+gemini,mistral,Search with suggestions,0.601471314300343
+gemini,mistral,Book taxis,0.7458702417920342
+gemini,mistral,Track taxi location,0.7967515079388267
+gemini,mistral,Calculate fares,0.613483430428965
+gemini,mistral,Share media,0.6308855014927672
+gemini,mistral,Access subtitles,0.48994951732679726
+gemini,mistral,Video quality control,0.13763677395798235
+gemini,mistral,Weather forecast,0.5822760818808298
+anthropic,mistral,Read ebooks,0.5751709652179252
+anthropic,mistral,Download books,0.8032093013895109
+anthropic,mistral,Sync reading progress,0.7057977486782931
+anthropic,mistral,Highlight text,0.10624014929877887
+anthropic,mistral,Search within books,0.7473618536913854
+anthropic,mistral,Send messages,0.7242698510513564
+anthropic,mistral,Private chat with users,0.8439073674616627
+anthropic,mistral,Real-time messaging,0.7354114520046263
+anthropic,mistral,Access courses,0.8718522917481386
+anthropic,mistral,Watch lectures,0.7226783827548391
+anthropic,mistral,Take quizzes,0.5700072676442521
+anthropic,mistral,Track learning progress,0.8416977726845782
+anthropic,mistral,Offline learning,0.743700959439212
+anthropic,mistral,Watch live TV,0.6818623271052827
+anthropic,mistral,Watch videos,0.7798959141559664
+anthropic,mistral,Transfer money,0.7788670284081892
+anthropic,mistral,Send money to anyone,0.7150198742214848
+anthropic,mistral,Receive money,0.8330196368753476
+anthropic,mistral,Pay bills,0.34949438384411663
+anthropic,mistral,Pay credit card bills,0.018655084823979165
+anthropic,mistral,Schedule payments,0.41933910608982006
+anthropic,mistral,Share payments,0.6798276193094784
+anthropic,mistral,View account balances,0.20024734299091673
+anthropic,mistral,View transaction history,0.08089596224676407
+anthropic,mistral,Receive payment receipts,0.23346789531439818
+anthropic,mistral,Store bill details securely,0.5350190834688773
+anthropic,mistral,Activate cards for overseas usage,0.6030690302679858
+anthropic,mistral,Currency converter,0.373175240707742
+anthropic,mistral,Financial calculators,0.143144706395149
+anthropic,mistral,Remittances overseas,0.3794030085121493
+anthropic,mistral,Track workouts,0.5643628665397098
+anthropic,mistral,Monitor heart rate,0.774753429895495
+anthropic,mistral,Set fitness goals,0.7436659013345488
+anthropic,mistral,Track weight,0.5368344003903478
+anthropic,mistral,Follow training plans,0.4613296848731857
+anthropic,mistral,View progress charts,0.5241999198341957
+anthropic,mistral,Get audio coaching,0.619541471272896
+anthropic,mistral,Track routes on map,0.5840967375873415
+anthropic,mistral,Diet planning,0.655174272852424
+anthropic,mistral,Calorie tracking,0.7630147568653318
+anthropic,mistral,Turn-by-turn navigation,0.80297948139284
+anthropic,mistral,Find nearby places,0.6312147449399359
+anthropic,mistral,View maps offline,0.611713786943828
+anthropic,mistral,Check public transport routes,0.6198721131880478
+anthropic,mistral,Save favorite locations,0.6800970180498855
+anthropic,mistral,Real-time traffic updates,0.703460137125469
+anthropic,mistral,Stream music,0.9348315864522287
+anthropic,mistral,Create playlists,0.8696695813188525
+anthropic,mistral,Download content for offline use,0.8922766638297733
+anthropic,mistral,Audio playback controls,0.9357901541241551
+anthropic,mistral,Record audio,0.36353788690314426
+anthropic,mistral,Edit audio files,0.6895841668872946
+anthropic,mistral,Access breaking news,0.4146646455301221
+anthropic,mistral,Personalized news feed,0.6445010446863064
+anthropic,mistral,Read articles offline,0.783147883385497
+anthropic,mistral,Bookmark articles,0.5502836031665091
+anthropic,mistral,Search news topics,0.8242924310580908
+anthropic,mistral,Listen to interviews,0.8470659407216931
+anthropic,mistral,Receive news notifications,0.3757629120517567
+anthropic,mistral,Browse by categories,0.023528348516601908
+anthropic,mistral,Set wallpapers,0.3534809988253809
+anthropic,mistral,Customize themes,0.35706451252391214
+anthropic,mistral,Change fonts,0.0032947335845453203
+anthropic,mistral,Automatic wallpaper rotation,0.14013533897655306
+anthropic,mistral,Customize interface settings,0.40617121834169906
+anthropic,mistral,Photo editing tools,0.7805452620610701
+anthropic,mistral,Apply filters and effects,0.43708965979955344
+anthropic,mistral,Create collages,0.5865290532965828
+anthropic,mistral,Adjust image settings,0.7321254707199628
+anthropic,mistral,Save images locally,0.5566088107592795
+anthropic,mistral,Share edited photos,0.12135813619766483
+anthropic,mistral,Backup and restore data,0.4217954362106538
+anthropic,mistral,Sync across devices,0.3291268052096553
+anthropic,mistral,Search for products,0.6763252658550404
+anthropic,mistral,Compare prices,0.5850517219189465
+anthropic,mistral,Add items to wishlist,0.8367058876551261
+anthropic,mistral,Secure checkout,0.1750138312197571
+anthropic,mistral,Track order delivery status,0.17838474792280296
+anthropic,mistral,Browse by category,0.0408678957998441
+anthropic,mistral,View product reviews,0.7254296882341629
+anthropic,mistral,Barcode scanning for items,0.25311092934868096
+anthropic,mistral,Manage shopping cart,0.816755726716473
+anthropic,mistral,Receive daily promotions,0.3439641669003819
+anthropic,mistral,Share photos and videos,0.7262870566749059
+anthropic,mistral,Follow users,0.6977227931431972
+anthropic,mistral,Post content updates,0.7085770721811173
+anthropic,mistral,Share content on social networks,0.8739712997587858
+anthropic,mistral,Discover new people,0.6312522215370033
+anthropic,mistral,Comment on posts,0.6697607614968482
+anthropic,mistral,Receive push notifications,0.8212580320506023
+anthropic,mistral,File management,0.5507987849782549
+anthropic,mistral,Search with suggestions,0.6002931078042494
+anthropic,mistral,Book taxis,0.7100424578508937
+anthropic,mistral,Track taxi location,0.7475674236434797
+anthropic,mistral,Calculate fares,0.7369859969992589
+anthropic,mistral,Share media,0.6481287187232944
+anthropic,mistral,Access subtitles,0.48405022523590857
+anthropic,mistral,Video quality control,0.03699127160644165
+anthropic,mistral,Weather forecast,0.7205610921641126

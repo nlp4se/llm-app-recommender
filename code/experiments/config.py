@@ -14,6 +14,7 @@ class Provider(str, Enum):
     ANTHROPIC = "anthropic"
     MISTRAL = "mistral"
     PERPLEXITY = "perplexity"
+    DEEPSEEK = "deepseek"
     HUGGINGFACE = "huggingface"
     OLLAMA = "ollama"
 
@@ -63,28 +64,29 @@ def hf_api_model_id(spec: ModelSpec) -> str:
 MODEL_SPECS: dict[str, ModelSpec] = {
     "openai": ModelSpec("openai", "proprietary", Provider.OPENAI, "gpt-5.3-chat-latest"),
     "gemini": ModelSpec("gemini", "proprietary", Provider.GEMINI, "gemini-3-flash-preview"),
-    "anthropic": ModelSpec("anthropic", "proprietary", Provider.ANTHROPIC, "claude-opus-4-6-thinking"),
+    "anthropic": ModelSpec("anthropic", "proprietary", Provider.ANTHROPIC, "claude-opus-4-6"),
     "mistral": ModelSpec("mistral", "proprietary", Provider.MISTRAL, "mistral-large-latest"),
-    "perplexity": ModelSpec("perplexity", "proprietary", Provider.PERPLEXITY, "perplexity/sonar"),
+    "perplexity": ModelSpec("perplexity", "proprietary", Provider.PERPLEXITY, "sonar"),
+    "deepseek": ModelSpec("deepseek", "proprietary", Provider.DEEPSEEK, "deepseek-v4-pro"),
     "llama31_8b": ModelSpec(
         "llama31_8b",
         "open",
         Provider.OLLAMA,
-        "llama3.1:8b",
+        "llama4:scout",
         ollama=OllamaSettings(use_json_schema=False, max_tokens=8192),
     ),
     "gemma3_4b": ModelSpec(
         "gemma3_4b",
         "open",
         Provider.OLLAMA,
-        "gemma3:4b",
+        "gemma3:27b",
         ollama=OllamaSettings(use_json_schema=False, max_tokens=8192),
     ),
     "qwen3_8b": ModelSpec(
         "qwen3_8b",
         "open",
         Provider.OLLAMA,
-        "qwen3:8b",
+        "qwen3:30b-a3b",
         ollama=OllamaSettings(use_json_schema=False, max_tokens=8192),
     ),
     "gptoss20b": ModelSpec(
@@ -98,7 +100,7 @@ MODEL_SPECS: dict[str, ModelSpec] = {
         "mistral_open",
         "open",
         Provider.OLLAMA,
-        "mistral",
+        "mistral-small3.1:24b",
         ollama=OllamaSettings(use_json_schema=False, max_tokens=8192),
     ),
     "deepseekr1_8b": ModelSpec(
@@ -111,7 +113,9 @@ MODEL_SPECS: dict[str, ModelSpec] = {
 }
 
 DEFAULT_MODEL_KEYS_BY_FAMILY: dict[Family, list[str]] = {
-    "proprietary": ["openai", "gemini", "anthropic", "mistral", "perplexity"],
+    # deepseek and perplexity adapters remain available via --model-keys but are
+    # excluded from the default study set.
+    "proprietary": ["openai", "gemini", "anthropic", "mistral"],
     "open": ["llama31_8b", "gemma3_4b", "qwen3_8b", "gptoss20b", "mistral_open", "deepseekr1_8b"],
 }
 
@@ -121,6 +125,7 @@ ENV_KEYS: dict[Provider, str] = {
     Provider.ANTHROPIC: "ANTHROPIC_API_KEY",
     Provider.MISTRAL: "MISTRAL_API_KEY",
     Provider.PERPLEXITY: "PERPLEXITY_API_KEY",
+    Provider.DEEPSEEK: "DEEPSEEK_API_KEY",
     Provider.HUGGINGFACE: "HF_TOKEN",
     Provider.OLLAMA: "OLLAMA_BASE_URL",
 }
@@ -144,7 +149,7 @@ RQ1 = RQConfig(
     system_prompt_structured="data/input/prompts/system-prompt-rq1.txt",
     system_prompt_output="data/input/prompts/system-prompt-output-rq1.txt",
     schema_base="data/input/schema/rq1.base.json",
-    search_items_csv="data/input/use-case/features.csv",
+    search_items_csv="data/input/use-case/features_large.csv",
     runs_per_item=10,
 )
 
@@ -154,9 +159,9 @@ RQ3 = RQConfig(
     system_prompt_structured="data/input/prompts/system-prompt-rq3.txt",
     system_prompt_output="data/input/prompts/system-prompt-output-rq3.txt",
     schema_base="data/input/schema/rq3.base.json",
-    search_items_csv="data/input/use-case/features.csv",
-    runs_per_item=4,
-    default_criteria_csv="data/output/features/rq1/rc_wo_id.csv",
+    search_items_csv="data/input/use-case/features_large.csv",
+    runs_per_item=5,
+    default_criteria_csv="data/output/features/rq1/rc/merge/rc_merge_unified.csv",
 )
 
 RQ_CONFIGS: dict[str, RQConfig] = {

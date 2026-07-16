@@ -1,0 +1,56 @@
+{
+  "a": [
+    "Temple Run",
+    "Subway Surfers",
+    "Candy Crush Saga",
+    "Angry Birds",
+    "Sky: Children of the Light",
+    "Dots & Co",
+    "Roblox",
+    "Ludo King",
+    "Free Fire",
+    "Dream11",
+    "Hearthstone",
+    "Mini Metro",
+    "Genshin Impact",
+    "Among Us",
+    "Big Buck Hunter",
+    "Money Well",
+    "Block Blast",
+    "Royal Match",
+    "Gardenscapes",
+    "Clash Royale"
+  ],
+  "c": [
+    {
+      "n": "Popularity",
+      "d": "Measured by number of downloads and active user base",
+      "t": "Integer [1]",
+      "s": "Singular.net, 300mind.studio"
+    },
+    {
+      "n": "User Ratings",
+      "d": "Average rating score from app stores",
+      "t": "Float [1]",
+      "s": "300mind.studio, beginrescueend.com"
+    },
+    {
+      "n": "Gameplay Variety",
+      "d": "Number and diversity of game modes or mini games within an app",
+      "t": "Integer [1]",
+      "s": "thebudgetdiet.com"
+    },
+    {
+      "n": "Earnings Potential",
+      "d": "Ability for users to earn real money or rewards playing the game",
+      "t": "Boolean [1]",
+      "s": "thebudgetdiet.com"
+    },
+    {
+      "n": "Cross-Platform Availability",
+      "d": "Availability on multiple mobile operating systems such as iOS and Android",
+      "t": "Boolean [1]",
+      "s": "300mind.studio, thebudgetdiet.com"
+    }
+  ]
+}

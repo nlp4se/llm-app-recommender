@@ -1,0 +1,62 @@
+{
+  "a": [
+    "VSCO",
+    "Adobe Lightroom",
+    "Snapseed",
+    "PicsArt",
+    "Canva",
+    "Adobe Photoshop Express",
+    "Facetune2",
+    "GIMP",
+    "Prisma",
+    "Afterlight",
+    "Enlight Photofox",
+    "RNI Films",
+    "Polarr",
+    "TouchRetouch",
+    "Photoshop Camera",
+    "Bazaart",
+    "Fotor",
+    "InShot",
+    "Photo Lab",
+    "Retouch"
+  ],
+  "c": [
+    {
+      "n": "Filter Quality and Variety",
+      "d": "Number and aesthetic quality of built-in filters, presets, and effects available",
+      "t": "Integer [1] and Text [*]",
+      "s": "App store descriptions, user reviews, feature documentation"
+    },
+    {
+      "n": "Advanced Editing Tools",
+      "d": "Availability of professional editing features like curves, selective adjustments, masking, and layer support",
+      "t": "Boolean [*] and Integer [1]",
+      "s": "App specifications, feature lists, professional reviews"
+    },
+    {
+      "n": "User Rating and Reviews",
+      "d": "Average user rating and total number of reviews across app stores",
+      "t": "Float [1] and Integer [1]",
+      "s": "Google Play Store, Apple App Store"
+    },
+    {
+      "n": "Export Quality Options",
+      "d": "Maximum resolution and format options for saving edited photos",
+      "t": "Text [*] and Integer [*]",
+      "s": "App documentation, technical specifications"
+    },
+    {
+      "n": "Processing Speed and Performance",
+      "d": "App responsiveness, rendering speed, and stability during intensive editing tasks",
+      "t": "Float [1] and Boolean [1]",
+      "s": "Performance benchmarks, user feedback, technical reviews"
+    },
+    {
+      "n": "Free vs Premium Features",
+      "d": "Accessibility of core features in free version versus premium subscription requirements",
+      "t": "Boolean [*] and Text [1]",
+      "s": "Pricing pages, feature comparison charts, app store listings"
+    }
+  ]
+}

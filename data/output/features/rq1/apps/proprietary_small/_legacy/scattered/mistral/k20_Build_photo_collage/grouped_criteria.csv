@@ -1,0 +1,10 @@
+name,description,type,sources
+Cross-Platform Availability,"Availability of the app on different platforms (iOS, Android, Web, etc.).",Text [*],"App Store listings, App store listings, Apple App Store, Google Play Store, Official Websites, Official app websites"
+Ease of Use,User-friendliness and intuitiveness of the app interface.,Text [1],"App store descriptions, Expert Analysis, Expert reviews, User Reviews, User reviews, app tutorials, expert reviews"
+Feature Set,"Range and quality of features offered, such as templates, editing tools, and sharing options.",Text [*],"App Store Descriptions, App Store descriptions, App descriptions, App store descriptions, CNET, Expert Reviews, Expert reviews, Official app descriptions, Official app websites, TechRadar, User Feedback, expert reviews, official app websites, tech reviews, user reviews"
+In-App Purchases,Availability and necessity of in-app purchases for full functionality.,Boolean [1],"Apple App Store, Google Play Store, User reviews, official app descriptions"
+Number of Downloads,Total number of times the app has been downloaded.,Integer [1],"Amazon Appstore, App Annie, App Store, Apple App Store, Google Play Store, Sensor Tower"
+Update Frequency,"How often the app is updated with new features, bug fixes, and improvements.",Text [1],"Amazon Appstore, App Annie, App Store, App Store update history, Apple App Store, Google Play Store, Official app blogs, Official app websites, official app blogs"
+User Interface,Ease of use and intuitiveness of the app's interface.,Text [1],"App Store descriptions, App store descriptions, Expert reviews, Expert reviews from tech blogs, User reviews, YouTube tutorials"
+User Interface Design,Quality and usability of the app's user interface based on reviews and expert opinions.,Text [1],"CNET, Expert reviews, TechRadar, User Reviews, design awards, user reviews"
+User Ratings,"Average rating of the app on major app stores (Google Play, Apple App Store).",Float [1],"Amazon Appstore, App Store, AppAnnie, Apple App Store, Google Play Store"

@@ -1,0 +1,10 @@
+name,description,type,sources
+Customer Support,The quality and responsiveness of the app's customer support.,Text [1],"Official websites, Social media interactions, User reviews, official app websites, tech blogs"
+Ease of Use,The user-friendliness and navigability of the app.,Text [1],"App Store reviews, Expert Reviews, Expert reviews, Expert reviews from tech blogs, Google Play Store reviews, Tech blogs, Usability testing reports, User Reviews, User reviews, app descriptions, app store descriptions, tech blogs, tech reviews"
+Frequency of Updates,How often the app is updated with new features and bug fixes.,Text [1],"Amazon Appstore, App Store, App store listings, Apple App Store, Developer blogs, Google Play Store, Release notes"
+Number of Downloads,Total number of times the app has been downloaded.,Integer [1],"Amazon Appstore, App Store, Apple App Store, Google Play Store, Sensor Tower"
+Offer Variety,The range and diversity of offers and deals available in the app.,Text [1],"App Store descriptions, App descriptions, Official app websites, app descriptions, official app websites, user reviews"
+Range of Offers,The variety and number of offers available in the app.,Text [1],"App reviews, Official app websites, app descriptions, user reviews"
+Unique Features,"Special features that set the app apart from competitors, such as exclusive deals, cashback options, or social sharing.",Text [*],"App Descriptions, App descriptions, Official App Websites, Official websites, User reviews"
+Update Frequency,How often the app is updated with new features and bug fixes.,Text [1],"App Store, App Store update history, App store update history, Google Play Store, Official app blogs, official app blogs"
+User Ratings,The average rating given by users on app stores.,Float [1],"Amazon Appstore, App Store, Apple App Store, Google Play Store"

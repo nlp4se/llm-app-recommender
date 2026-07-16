@@ -1,0 +1,68 @@
+{
+  "a": [
+    "Bigo Live",
+    "LiveMe",
+    "SwitcherStudio",
+    "YouTube Live",
+    "Facebook Live",
+    "LinkedIn Live",
+    "Instagram Live",
+    "Twitch",
+    "TikTok Live",
+    "Vimeo Livestream",
+    "StreamYard",
+    "Restream",
+    "Uscreen",
+    "Periscope",
+    "Dacast",
+    "Streamlabs",
+    "Mobcrush",
+    "Live365",
+    "Castr",
+    "StreamElements"
+  ],
+  "c": [
+    {
+      "n": "User Base Size",
+      "d": "The total number of active users on the app, indicating its popularity and potential audience reach.",
+      "t": "Integer [1]",
+      "s": "Bigo Live, LiveMe, App store stats"
+    },
+    {
+      "n": "Platform Compatibility",
+      "d": "Which operating systems (iOS, Android) and devices the app supports for live streaming.",
+      "t": "Text [*]",
+      "s": "Official app descriptions, developer websites"
+    },
+    {
+      "n": "Monetization Features",
+      "d": "Availability of features like virtual gifting, donations, subscriptions, sponsorships that enable creators to earn money.",
+      "t": "Boolean [1]",
+      "s": "App feature lists, user reviews"
+    },
+    {
+      "n": "Stream Quality",
+      "d": "Maximum resolution and video quality supported for live broadcasts.",
+      "t": "Text [1]",
+      "s": "Platform technical specifications"
+    },
+    {
+      "n": "Ease of Use",
+      "d": "How user-friendly the app interface is for both streamers and viewers, including simplicity of going live and interaction features.",
+      "t": "Text [1]",
+      "s": "User reviews, expert analysis"
+    },
+    {
+      "n": "Special Features",
+      "d": "Unique functionalities such as multi-guest streaming, real-time editing, branded overlays, audio-only streams, or multistreaming to multiple platforms.",
+      "t": "Text [*]",
+      "s": "App feature listings, expert reviews"
+    },
+    {
+      "n": "Cost and Pricing Model",
+      "d": "Whether the app is free, freemium, or paid and details about in-app purchases or subscription tiers.",
+      "t": "Text [1]",
+      "s": "Official pricing pages, app stores"
+    }
+  ]
+}

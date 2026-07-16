@@ -6,15 +6,18 @@ from typing import Any
 from dotenv import load_dotenv
 from mistralai import Mistral
 
+from code.experiments.config import Provider
 from code.experiments.providers.base import LLMClient
-from code.experiments.schema import mistral_response_format
+from code.experiments.structured_output import apply_openai_compatible_structured, require_schema
 
 load_dotenv()
 
 
 class MistralClient(LLMClient):
-    def __init__(self, model: str):
-        super().__init__(model)
+    provider = Provider.MISTRAL
+
+    def __init__(self, model: str, *, web_search: bool = False):
+        super().__init__(model, web_search=web_search)
         self.client = Mistral(api_key=os.getenv("MISTRAL_API_KEY"))
 
     def complete(
@@ -31,12 +34,11 @@ class MistralClient(LLMClient):
                 {"role": "system", "content": system_prompt},
                 {"role": "user", "content": user_prompt},
             ],
-            "tools": [{"type": "web_search"}],
         }
-        if structured:
-            if schema is None:
-                raise ValueError("schema is required for structured output")
-            kwargs["response_format"] = mistral_response_format(schema)
+        if self.web_search:
+            kwargs["tools"] = [{"type": "web_search"}]
+        if require_schema(structured, schema) is not None:
+            apply_openai_compatible_structured(kwargs, provider=self.provider, schema=schema)
 
         response = self.client.chat.complete(**kwargs)
         return response.choices[0].message.content or ""

@@ -1,0 +1,57 @@
+
+{
+  "a": [
+    "IMDb",
+    "Letterboxd",
+    "Rotten Tomatoes",
+    "Metacritic",
+    "Moviebase",
+    "MUBI",
+    "Flixster",
+    "Criticker",
+    "YourNextFilm",
+    "FilmStory",
+    "MovieFone",
+    "Plugged In",
+    "Movie Reviews (Voice)",
+    "Raters",
+    "Pick-A-Mov",
+    "Roger Ebert",
+    "A.V. Club",
+    "IndieWire",
+    "The Guardian film section",
+    "SAHINAHI"
+  ],
+  "c": [
+    {
+      "n": "User Ratings",
+      "d": "Average rating given by users of the app.",
+      "t": "Float [1]",
+      "s": "App Store, Google Play Store"
+    },
+    {
+      "n": "Critic Score",
+      "d": "Aggregate score from professional movie critics.",
+      "t": "Float [1]",
+      "s": "App's internal data, Metacritic, Rotten Tomatoes"
+    },
+    {
+      "n": "Community",
+      "d": "Size and engagement of the app's user community.",
+      "t": "Integer [*]",
+      "s": "App Store, Google Play Store, Reddit, Number of registered users"
+    },
+    {
+      "n": "Content richness",
+      "d": "Availability of trailers, cast information, reviews, and related content.",
+      "t": "Boolean [1]",
+      "s": "App's internal data"
+    },
+    {
+      "n": "Personalized recommendations",
+      "d": "How well the app recommends movies based on user taste.",
+      "t": "Boolean [1]",
+      "s": "App's internal data, User reviews"
+    }
+  ]
+}

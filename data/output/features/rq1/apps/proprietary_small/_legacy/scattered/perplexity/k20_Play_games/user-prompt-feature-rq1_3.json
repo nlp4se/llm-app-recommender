@@ -1,0 +1,56 @@
+{
+  "a": [
+    "Temple Run",
+    "Subway Surfers",
+    "Candy Crush Saga",
+    "Angry Birds",
+    "Sky: Children of the Light",
+    "Dots & Co",
+    "Roblox",
+    "Ludo King",
+    "Dream11",
+    "Block Blast",
+    "Honor of Kings",
+    "Game for Peace",
+    "Township",
+    "Pokémon TCG Pocket",
+    "Royal Match",
+    "Frozen City",
+    "MONOPOLY GO",
+    "Dungeon & Fighter: Origin",
+    "Teamfight Tactics",
+    "Call of Duty®: Mobile"
+  ],
+  "c": [
+    {
+      "n": "Popularity",
+      "d": "Measured by number of downloads and active players, indicating the widespread acceptance and user base of the app",
+      "t": "Integer[1]",
+      "s": "3,2"
+    },
+    {
+      "n": "Revenue",
+      "d": "Total in-app purchases and ad revenues generated, reflecting the commercial success of the app",
+      "t": "Float[1]",
+      "s": "3"
+    },
+    {
+      "n": "User Ratings",
+      "d": "Average user rating on app stores, indicating player satisfaction and game quality",
+      "t": "Float[1]",
+      "s": "2,3"
+    },
+    {
+      "n": "Gameplay Variety",
+      "d": "Number and diversity of game modes or mini-games available within an app",
+      "t": "Integer[1]",
+      "s": "1"
+    },
+    {
+      "n": "Skill-based Competition",
+      "d": "Presence of competitive elements requiring player skill, which can enhance engagement and replay value",
+      "t": "Boolean[1]",
+      "s": "1"
+    }
+  ]
+}

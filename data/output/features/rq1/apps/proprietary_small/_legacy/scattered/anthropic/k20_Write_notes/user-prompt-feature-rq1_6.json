@@ -1,0 +1,56 @@
+{
+  "a": [
+    "Notion",
+    "Obsidian",
+    "Evernote",
+    "OneNote",
+    "Apple Notes",
+    "Google Keep",
+    "Roam Research",
+    "Logseq",
+    "Craft",
+    "Bear",
+    "Joplin",
+    "Standard Notes",
+    "Typora",
+    "RemNote",
+    "Dendron",
+    "Ulysses",
+    "Day One",
+    "Simplenote",
+    "Zoho Notebook",
+    "Milanote"
+  ],
+  "c": [
+    {
+      "n": "Cross-platform availability",
+      "d": "Number of platforms supported including mobile, desktop, and web versions",
+      "t": "Integer [1]",
+      "s": "Official app stores, developer websites, platform documentation"
+    },
+    {
+      "n": "Advanced formatting capabilities",
+      "d": "Support for rich text, markdown, tables, multimedia embedding, and document structure",
+      "t": "Integer [1]",
+      "s": "App feature lists, user reviews, hands-on testing"
+    },
+    {
+      "n": "Organizational features",
+      "d": "Availability of folders, tags, notebooks, linking, search functionality, and hierarchical structure",
+      "t": "Integer [1]",
+      "s": "Feature documentation, user interface analysis, official specifications"
+    },
+    {
+      "n": "Collaboration and sharing",
+      "d": "Real-time collaboration, sharing options, team features, and multi-user support",
+      "t": "Integer [1]",
+      "s": "Product features, collaboration tools documentation, user testimonials"
+    },
+    {
+      "n": "User adoption and community",
+      "d": "Download numbers, active user base, community size, and market presence",
+      "t": "Integer [1]",
+      "s": "App store statistics, user forums, social media presence, market research"
+    }
+  ]
+}

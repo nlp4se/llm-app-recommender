@@ -1,0 +1,69 @@
+
+{
+  "a": [
+    "YouTube",
+    "Netflix",
+    "Twitch",
+    "Hulu",
+    "Amazon Prime Video",
+    "Disney+",
+    "HBO Max",
+    "Peacock TV",
+    "Paramount+",
+    "Apple TV+",
+    "Sling TV",
+    "fuboTV",
+    "YouTube TV",
+    "Pluto TV",
+    "Tubi",
+    "Crunchyroll",
+    "Funimation",
+    "Vudu",
+    "Crackle",
+    "Plex"
+  ],
+  "c": [
+    {
+      "n": "Streaming Quality",
+      "d": "The overall quality of the video and audio streaming, including resolution and buffering times.",
+      "t": "Text[1]",
+      "s": "User reviews, tech reviews, official app descriptions"
+    },
+    {
+      "n": "Content Library",
+      "d": "The variety and quantity of content available for streaming, including movies, TV shows, live streams, and original content.",
+      "t": "Text[1]",
+      "s": "Official app descriptions, content catalogs, user reviews"
+    },
+    {
+      "n": "User Interface",
+      "d": "The ease of use and navigation within the app, including search functionality and content discovery features.",
+      "t": "Text[1]",
+      "s": "User reviews, tech reviews, official app descriptions"
+    },
+    {
+      "n": "Subscription Cost",
+      "d": "The cost of subscription plans, including any free trials or bundled offers.",
+      "t": "Float[1]",
+      "s": "Official app descriptions, subscription plans, user reviews"
+    },
+    {
+      "n": "Device Compatibility",
+      "d": "The range of devices and platforms that the app is compatible with, including mobile, tablet, TV, and web.",
+      "t": "Text[1]",
+      "s": "Official app descriptions, tech reviews, user reviews"
+    },
+    {
+      "n": "User Ratings",
+      "d": "The average rating given by users on app stores and review platforms.",
+      "t": "Float[1]",
+      "s": "App store ratings, user reviews, tech reviews"
+    },
+    {
+      "n": "Special Features",
+      "d": "Unique features such as offline downloads, multiple profiles, parental controls, and interactive elements.",
+      "t": "Text[1]",
+      "s": "Official app descriptions, tech reviews, user reviews"
+    }
+  ]
+}

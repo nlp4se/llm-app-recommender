@@ -1,0 +1,62 @@
+{
+  "a": [
+    "Meetup",
+    "Yubo",
+    "Bumble BFF",
+    "Hey VINA",
+    "Wink",
+    "Nextdoor",
+    "Atleto",
+    "Slowly",
+    "LMK",
+    "Tandem",
+    "Peanut",
+    "Friender",
+    "Skout",
+    "Twitch",
+    "PawDates",
+    "Couchsurfing",
+    "UNBLND",
+    "We3",
+    "RealU",
+    "Coffee Meets Bagel"
+  ],
+  "c": [
+    {
+      "n": "User Base Size",
+      "d": "Number of active users on the app, indicating potential for meeting and keeping up with a wide circle of friends",
+      "t": "Integer [1]",
+      "s": "Science of People, AgileTech"
+    },
+    {
+      "n": "Focus on Friendship Type",
+      "d": "Specialization in types of social connections such as casual friends, local community, interest-based friends, or serious relationships",
+      "t": "Text [1]",
+      "s": "Science of People, AgileTech"
+    },
+    {
+      "n": "Real-Time Interaction Features",
+      "d": "Availability of features for live updates, direct messaging, photos, or group interactions to facilitate keeping up with friends",
+      "t": "Boolean [1]",
+      "s": "Science of People, MedicinalMedia, Howbout"
+    },
+    {
+      "n": "User Demographic Targeting",
+      "d": "Target age group or specific communities like women, young people, new moms, or athletes",
+      "t": "Text [1]",
+      "s": "Science of People, AgileTech"
+    },
+    {
+      "n": "Offline Event Integration",
+      "d": "Capability to organize or join real-life events and meetups to strengthen friendships beyond digital interaction",
+      "t": "Boolean [1]",
+      "s": "Science of People, AgileTech"
+    },
+    {
+      "n": "Privacy and Intimacy Controls",
+      "d": "Options to limit friend circles, keep interactions private, or control who sees your content, supporting intimate connections",
+      "t": "Boolean [1]",
+      "s": "MedicinalMedia, Science of People"
+    }
+  ]
+}

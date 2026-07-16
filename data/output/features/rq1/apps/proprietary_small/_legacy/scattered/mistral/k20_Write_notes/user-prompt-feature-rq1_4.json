@@ -1,0 +1,69 @@
+
+{
+  "a": [
+    "Evernote",
+    "Notion",
+    "Microsoft OneNote",
+    "Google Keep",
+    "Apple Notes",
+    "Bear",
+    "Zoho Notebook",
+    "SimpleNote",
+    "Standard Notes",
+    "Ulysses",
+    "Roam Research",
+    "Obsidian",
+    "Craft",
+    "GoodNotes",
+    "Notability",
+    "Joplin",
+    "Turtl",
+    "Typora",
+    "Laverna",
+    "Boost Note"
+  ],
+  "c": [
+    {
+      "n": "User Ratings",
+      "d": "Average user ratings on major app stores (Google Play, Apple App Store).",
+      "t": "Float [1]",
+      "s": "Google Play Store, Apple App Store, App Annie"
+    },
+    {
+      "n": "Number of Downloads",
+      "d": "Total number of downloads across major app stores.",
+      "t": "Integer [1]",
+      "s": "Google Play Store, Apple App Store, Sensor Tower"
+    },
+    {
+      "n": "Cross-Platform Availability",
+      "d": "Availability of the app across different platforms (iOS, Android, Web, Desktop).",
+      "t": "Text [*]",
+      "s": "Official app websites, App Store descriptions"
+    },
+    {
+      "n": "Feature Set",
+      "d": "Range and depth of features offered, such as text formatting, multimedia support, collaboration tools, etc.",
+      "t": "Text [*]",
+      "s": "Official app websites, User reviews, Tech blogs"
+    },
+    {
+      "n": "User Interface and Experience",
+      "d": "Quality and intuitiveness of the app's user interface and overall user experience.",
+      "t": "Text [*]",
+      "s": "User reviews, Tech blogs, App Store descriptions"
+    },
+    {
+      "n": "Sync and Backup Options",
+      "d": "Availability and reliability of sync and backup features.",
+      "t": "Text [*]",
+      "s": "Official app websites, User reviews, Tech blogs"
+    },
+    {
+      "n": "Security and Privacy",
+      "d": "Level of security and privacy features, such as encryption, password protection, etc.",
+      "t": "Text [*]",
+      "s": "Official app websites, Privacy policies, Security audits"
+    }
+  ]
+}

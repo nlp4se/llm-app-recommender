@@ -1,0 +1,62 @@
+{
+  "a": [
+    "Twitch",
+    "YouTube",
+    "Netflix",
+    "Disney+",
+    "Amazon Prime Video",
+    "Hulu",
+    "HBO Max",
+    "Apple TV+",
+    "Paramount+",
+    "Peacock",
+    "Discovery+",
+    "Crunchyroll",
+    "Funimation",
+    "Pluto TV",
+    "Tubi",
+    "Roku Channel",
+    "Vudu",
+    "Plex",
+    "Kodi",
+    "VLC Media Player"
+  ],
+  "c": [
+    {
+      "n": "Content Library Size",
+      "d": "Total number of available movies, TV shows, live streams, and other video content",
+      "t": "Integer [1]",
+      "s": "App stores, official websites, third-party analytics platforms"
+    },
+    {
+      "n": "Streaming Quality Support",
+      "d": "Maximum supported video resolution and quality (4K, HDR, Dolby Vision support)",
+      "t": "Text [1]",
+      "s": "Technical specifications, app documentation, user reviews"
+    },
+    {
+      "n": "Platform Availability",
+      "d": "Number of supported platforms and devices (iOS, Android, Smart TV, Web, Gaming consoles)",
+      "t": "Integer [1]",
+      "s": "Official app stores, platform compatibility lists"
+    },
+    {
+      "n": "User Base Size",
+      "d": "Total number of active monthly users across all platforms",
+      "t": "Integer [1]",
+      "s": "Company reports, market research, analytics platforms"
+    },
+    {
+      "n": "Free Content Availability",
+      "d": "Percentage of content available without subscription or payment",
+      "t": "Float [1]",
+      "s": "App analysis, content catalogs, subscription models"
+    },
+    {
+      "n": "User Interface Quality",
+      "d": "Overall user experience rating based on navigation, design, and ease of use",
+      "t": "Float [1]",
+      "s": "User reviews, UX analysis, app store ratings"
+    }
+  ]
+}

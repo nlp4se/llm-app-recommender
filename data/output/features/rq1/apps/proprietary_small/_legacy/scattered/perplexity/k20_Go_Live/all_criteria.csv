@@ -1,0 +1,67 @@
+model,feature,name,description,type,sources
+perplexity,Go Live,User Base Size,The number of active users or downloads indicating app popularity and potential audience reach,Integer [1],"Play Store, App Descriptions, Market Analysis"
+perplexity,Go Live,Platform Compatibility,Supported operating systems and device types to ensure broad or targeted device usability,Text [*],"Official App Info, Developer Websites"
+perplexity,Go Live,Streaming Quality,Video resolution and stream stability reflecting professional output capability,Text [1],"User Reviews, Official Descriptions"
+perplexity,Go Live,Monetization Options,"Capabilities such as virtual gifting, subscriptions, or ads allowing creators to earn revenue",Boolean/Text [1],"App Features, Platform Guidelines"
+perplexity,Go Live,Audience Engagement Features,"Interactive tools such as live chat, multi-guest streams, and games enhancing viewer interaction",Text [*],"App Descriptions, Reviews"
+perplexity,Go Live,Ease of Use,User interface simplicity and streaming setup speed affecting creator experience,Text [1],"User Feedback, Expert Reviews"
+perplexity,Go Live,User Base Size,"The total number of active users or downloads of the app, indicating its popularity and reach.",Integer[1],"Bigo Live app store data, YouTube, Twitch"
+perplexity,Go Live,Platform Compatibility,"Supported operating systems and device types (Android, iOS, Desktop, browser-based) that determine accessibility.",Text[1],"Dacast blog, SwitcherStudio, StreamYard"
+perplexity,Go Live,Monetization Features,"Availability of features such as virtual gifting, subscriptions, ads, or in-app purchases to generate income for streamers.",Boolean[1],"Dacast blog, Bigo Live description"
+perplexity,Go Live,Live Streaming Quality & Tools,"Includes video quality, multi-camera support, real-time editing, multi-streaming, and audience engagement tools.",Text[1],"SwitcherStudio, Restream, StreamYard"
+perplexity,Go Live,Target Audience & Use Case,"Intended users (gamers, creators, businesses, casual), content type focus (music, gaming, lifestyle), and ideal use environments.",Text[1],"Dacast blog, Bigo Live, Uscreen"
+perplexity,Go Live,User Base Size,"The total number of active users on the app, indicating its popularity and potential audience reach.",Integer [1],"Bigo Live, LiveMe, App store stats"
+perplexity,Go Live,Platform Compatibility,"Which operating systems (iOS, Android) and devices the app supports for live streaming.",Text [*],"Official app descriptions, developer websites"
+perplexity,Go Live,Monetization Features,"Availability of features like virtual gifting, donations, subscriptions, sponsorships that enable creators to earn money.",Boolean [1],"App feature lists, user reviews"
+perplexity,Go Live,Stream Quality,Maximum resolution and video quality supported for live broadcasts.,Text [1],Platform technical specifications
+perplexity,Go Live,Ease of Use,"How user-friendly the app interface is for both streamers and viewers, including simplicity of going live and interaction features.",Text [1],"User reviews, expert analysis"
+perplexity,Go Live,Special Features,"Unique functionalities such as multi-guest streaming, real-time editing, branded overlays, audio-only streams, or multistreaming to multiple platforms.",Text [*],"App feature listings, expert reviews"
+perplexity,Go Live,Cost and Pricing Model,"Whether the app is free, freemium, or paid and details about in-app purchases or subscription tiers.",Text [1],"Official pricing pages, app stores"
+perplexity,Go Live,User Base Size,"The total number of active users or downloads, indicating the app's popularity and network reach.",Integer [1],"Google Play, Dacast, App Stores"
+perplexity,Go Live,Platform Compatibility,"The supported operating systems or devices (e.g., Android, iOS, Browser) on which the app can run.",Text [*],"Dacast, Official App Descriptions"
+perplexity,Go Live,Monetization Features,"Options available for creators to earn money, such as virtual gifting, ads, subscriptions, sponsorships.",Text [*],"Dacast, Riverside.fm, App Descriptions"
+perplexity,Go Live,Video Quality,The maximum resolution or streaming quality supported by the app.,Text [1],"Riverside.fm, Dacast"
+perplexity,Go Live,Live Interaction Features,"Types of audience interaction during streaming, including chat, multi-guest live, live PK, gifts, polls.",Text [*],"Apps Official Descriptions, Dacast"
+perplexity,Go Live,Ease of Use,How simple it is to start broadcasting live with minimal setup and user-friendly UI.,Text [1],"Dacast, SwitcherStudio, User Reviews"
+perplexity,Go Live,Professional Features,"Advanced live streaming tools such as multi-camera support, real-time editing, branding customization.",Boolean [1],"SwitcherStudio, StreamYard, Restream"
+perplexity,Go Live,User Base Size,"The total number of active users or downloads, indicating the app's popularity and reach.",Integer [1],"Google Play Store, App analytics [2][1]"
+perplexity,Go Live,Platform Compatibility,"Supported operating systems and device types (e.g., Android, iOS, browser-based) to assess accessibility.",Text [*],Official app data and reviews [1][3]
+perplexity,Go Live,Monetization Features,"Availability of features such as virtual gifts, ads, subscriptions, sponsorships, and e-commerce integration for creators.",Text [*],App descriptions and monetization sections [1][4]
+perplexity,Go Live,Video Quality,Maximum supported streaming video resolution and quality for live broadcasts.,Text [1],Platform specifications [4]
+perplexity,Go Live,Interactivity Options,"Features enabling audience engagement such as live chat, multi-guest streams, audio-only rooms, and live games.",Text [*],App feature lists and reviews [1][2]
+perplexity,Go Live,Professional Features,"Advanced capabilities like multi-camera feeds, real-time editing, branding customization for polished streams.",Boolean [1],Professional app features descriptions [1][3]
+perplexity,Go Live,Pricing Model,"Cost structure including free use, in-app purchases, subscription tiers, or pay-per-use plans.",Text [1],Pricing information from app sources [1][3]
+perplexity,Go Live,User Base Size,Number of active users or downloads indicating the app's popularity and reach,Integer [1],"Google Play Store, App Store, Official App Websites"
+perplexity,Go Live,Streaming Quality,Maximum video resolution and stability of live streaming,Text [1],"Official App Descriptions, Reviews"
+perplexity,Go Live,Monetization Options,"Availability of features such as virtual gifts, ads, sponsorships, and subscriptions for creators to earn",Text [1],"Official App Features, Platform Guidelines"
+perplexity,Go Live,Multistreaming Capability,Ability to broadcast simultaneously to multiple platforms,Boolean [1],"Product Documentation, User Reviews"
+perplexity,Go Live,Guest Collaboration,Supports inviting remote guests or co-hosts during a live stream,Boolean [1],"App Features, User Experiences"
+perplexity,Go Live,Platform Integration,Compatibility with social media or other streaming platforms for easy sharing or streaming,Text [*],Official Resources
+perplexity,Go Live,Ease of Use,"Simplicity and accessibility of starting and managing a live stream, including interface design",Text [1],"User Reviews, Expert Analysis"
+perplexity,Go Live,User Base Size,The total number of active users or downloads indicating the app's popularity and reach for live streaming.,Integer [1],"Google Play Store, Official App Websites"
+perplexity,Go Live,Video Quality,Maximum resolution and stability of live stream video output to viewers.,Text [1],Official App Descriptions
+perplexity,Go Live,Monetization Options,"Availability of features such as ads, donations, subscriptions, sponsorships, and virtual gifts for streamers to generate income.",Text [1],"Official App Descriptions, Reviews"
+perplexity,Go Live,Multistreaming Capability,Ability to broadcast live simultaneously on multiple platforms or social networks.,Boolean [1],App Feature Lists
+perplexity,Go Live,Audience Interaction,"Availability of interactive features like live chat, polls, virtual gifts, and guest streaming that enhance viewer engagement.",Text [1],Official App Descriptions
+perplexity,Go Live,Ease of Use,How simple and intuitive the app interface is for starting and managing live streams.,Text [1],"User Reviews, App Store Descriptions"
+perplexity,Go Live,Platform Compatibility,Support for different devices and operating systems including mobile (Android/iOS) and desktop browsers.,Text [*],Official App Specifications
+perplexity,Go Live,User Base Size,"Number of active users or downloads, indicating the app's popularity and reach",Integer [1],"https://www.revidd.com, https://play.google.com"
+perplexity,Go Live,Monetization Features,"Availability of options to earn revenue such as virtual gifts, subscriptions, or ads",Boolean [1],"https://www.revidd.com, https://www.dacast.com"
+perplexity,Go Live,Platform Compatibility,"Supported operating systems (e.g., Android, iOS, Desktop)",Text [*],https://www.dacast.com
+perplexity,Go Live,Stream Quality & Features,"Options for high-quality video, multi-camera feeds, real-time editing, filters, and effects during streaming",Text [*],"https://www.revidd.com, https://www.dacast.com, https://play.google.com"
+perplexity,Go Live,Social Interaction,"Capabilities for live chat, reactions, virtual gifts, and multi-guest streams to engage viewers",Boolean [1],"https://www.revidd.com, https://play.google.com"
+perplexity,Go Live,User Base Size,"The total number of active users or downloads, indicating the app's popularity and potential audience reach.",Integer [1],"Bigo Live, Twitch, YouTube Live, Facebook Live, Play Store Data"
+perplexity,Go Live,Platform Compatibility,"Supported operating systems and devices, such as Android, iOS, desktop, or browser-based access.",Text [*],"App Descriptions, Official Websites"
+perplexity,Go Live,Monetization Features,"Availability of in-app purchases, virtual gifting, subscriptions, or other revenue options for creators.",Boolean/Text [1],"LiveMe, Bigo Live, SwitcherStudio, Uscreen"
+perplexity,Go Live,Streaming Quality and Features,"Support for multi-camera feeds, real-time editing, HD video quality, and customized branding.",Boolean/Text [*],"SwitcherStudio, Wirecast Go, Restream, StreamYard"
+perplexity,Go Live,Audience Interaction Tools,"Tools like live chat, multi-guest streaming, live polls, or audio rooms to enhance engagement.",Boolean/Text [*],"Bigo Live, StreamYard, Restream"
+perplexity,Go Live,Cost and Pricing Model,"Whether the app is free, freemium, or paid, including any subscription costs or additional purchases.",Text [1],"LiveMe, Uscreen, StreamYard"
+perplexity,Go Live,Ease of Use,How intuitive and user-friendly the app interface and setup are for live streaming.,Text [1],"User Reviews, App Analysis"
+perplexity,Go Live,Multi-Platform Streaming Support,Ability to stream simultaneously to multiple platforms or destinations.,Boolean [1],"Restream, StreamYard"
+perplexity,Go Live,User Base Size,The total number of active downloads or users indicating the platform's popularity and reach.,Integer [1],"Google Play Store, Official App Websites"
+perplexity,Go Live,Monetization Options,"Availability of ads, sponsorships, virtual gifts, subscriptions, and other revenue mechanisms for streamers.",Text [*],"App Descriptions, Platform Documentation"
+perplexity,Go Live,Streaming Features,"Types of live streaming supported including video, audio-only, multi-guest livestreaming, game live, and screen sharing.",Text [*],"App Features Description, Reviews"
+perplexity,Go Live,Cross-Platform Capabilities,Ability to stream simultaneously on multiple platforms or share streams across social media channels.,Boolean [1],Platform Features Overview
+perplexity,Go Live,Pricing Model,"Whether the app is free, freemium, or subscription-based and availability of in-app purchases.",Text [1],"App Store Listings, Pricing Pages"
+perplexity,Go Live,Video Quality,Maximum and typical resolution quality available during live streaming sessions.,Text [1],Official Platform Specifications
+perplexity,Go Live,Community Engagement Features,"Options for live interaction such as chat, polls, live games, and multi-guest streams.",Text [*],"App Feature Lists, User Reviews"

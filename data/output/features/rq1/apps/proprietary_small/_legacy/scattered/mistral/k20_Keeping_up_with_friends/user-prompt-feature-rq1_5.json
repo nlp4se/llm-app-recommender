@@ -1,0 +1,69 @@
+
+{
+  "a": [
+    "WhatsApp",
+    "Facebook",
+    "Instagram",
+    "Snapchat",
+    "Twitter",
+    "Messenger",
+    "Telegram",
+    "Signal",
+    "Discord",
+    "Viber",
+    "WeChat",
+    "Line",
+    "Kik",
+    "TikTok",
+    "Pinterest",
+    "LinkedIn",
+    "Skype",
+    "GroupMe",
+    "Meetup",
+    "Bumble BFF"
+  ],
+  "c": [
+    {
+      "n": "User Base Size",
+      "d": "The total number of active users on the platform.",
+      "t": "Integer[1]",
+      "s": "App Annie, Sensor Tower, SimilarWeb, Google Play Store, Apple App Store"
+    },
+    {
+      "n": "User Engagement",
+      "d": "The average time users spend on the app daily or monthly.",
+      "t": "Float[1]",
+      "s": "App Annie, Sensor Tower, SimilarWeb"
+    },
+    {
+      "n": "Ease of Use",
+      "d": "The simplicity and intuitiveness of the app's user interface.",
+      "t": "Text[1]",
+      "s": "User reviews on Google Play Store, Apple App Store, Trustpilot"
+    },
+    {
+      "n": "Messaging Features",
+      "d": "The variety and quality of messaging features such as text, voice, video, and group chats.",
+      "t": "Text[1]",
+      "s": "Official app descriptions, user reviews, tech blogs"
+    },
+    {
+      "n": "Privacy and Security",
+      "d": "The strength of the app's privacy policies and security measures.",
+      "t": "Text[1]",
+      "s": "Official app descriptions, privacy policies, security reviews"
+    },
+    {
+      "n": "Integration with Other Platforms",
+      "d": "The app's ability to integrate with other social media platforms and services.",
+      "t": "Text[1]",
+      "s": "Official app descriptions, user reviews, tech blogs"
+    },
+    {
+      "n": "Content Variety",
+      "d": "The diversity of content available on the platform, such as photos, videos, stories, and live streams.",
+      "t": "Text[1]",
+      "s": "Official app descriptions, user reviews, tech blogs"
+    }
+  ]
+}

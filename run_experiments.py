@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Unified entry point for feature-based ranking experiments (RQ1, RQ3)."""
+"""Unified entry point: RQ1/RQ3 experiments, RQ2 consistency analysis."""
 
 from __future__ import annotations
 
@@ -9,8 +9,11 @@ import sys
 
 from dotenv import load_dotenv
 
+from code.consistency.runner import run_consistency_analysis
 from code.experiments.config import Family, OUTPUT_ROOT, RQ_CONFIGS
 from code.experiments.runner import run_experiments
+
+ALL_RQ_CHOICES = sorted(list(RQ_CONFIGS.keys()) + ["rq2"])
 
 load_dotenv()
 
@@ -41,15 +44,15 @@ def parse_models(value: str | None) -> dict[str, str]:
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
         description=(
-            "Run LLM app-ranking experiments. Outputs one bundled JSON per "
-            "(model, structured mode, k) under data/output/features/{rq}/{family}/."
+            "RQ1/RQ3: LLM ranking experiments (bundled JSON). "
+            "RQ2: mobile app RBO consistency (internal, intra-family external, cross-family external)."
         ),
     )
     parser.add_argument(
         "--rq",
         required=True,
-        choices=sorted(RQ_CONFIGS.keys()),
-        help="Research question: rq1 (rank + criteria) or rq3 (rank with given criteria).",
+        choices=ALL_RQ_CHOICES,
+        help="rq1/rq3 experiments; rq2 consistency analysis on rq1 bundles.",
     )
     parser.add_argument(
         "--families",
@@ -75,13 +78,31 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument(
         "--search",
         nargs="*",
-        help="Feature names to run (default: all rows in features.csv).",
+        help="Override features (default: features_large.csv for all families).",
+    )
+    parser.add_argument(
+        "--features-csv",
+        default=None,
+        help="Feature list CSV for all families (overrides defaults).",
+    )
+    parser.add_argument(
+        "--features-csv-proprietary",
+        default=None,
+        help="Optional smaller feature list for proprietary only (e.g. features_proprietary.csv).",
+    )
+    parser.add_argument(
+        "--dataset-suite",
+        default=None,
+        help=(
+            "Output suite folder name under rq*/apps/ and rq*/rc/, e.g. open_small. "
+            "Default: inferred from --features-csv (features_small.csv → *_small)."
+        ),
     )
     parser.add_argument(
         "--n",
         type=int,
         default=None,
-        help="Runs per (feature) or per (feature, criterion) for RQ3 (default: 10 rq1, 4 rq3).",
+        help="Runs per (feature) or per (feature, criterion) for RQ3 (default: 10 rq1, 5 rq3).",
     )
     parser.add_argument(
         "--sleep",
@@ -97,7 +118,18 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument(
         "--criteria-csv",
         default=None,
-        help="RQ3 only: ranking criteria CSV (default: rc_wo_id.csv from RQ1 pipeline).",
+        help=(
+            "RQ3 only: ranking criteria CSV (default: rq1/rc/merge/rc_merge_unified.csv, "
+            "else rq1/rc/<suite>/rc_wo_id_<suite>.csv)."
+        ),
+    )
+    parser.add_argument(
+        "--web-search",
+        action="store_true",
+        help=(
+            "Enable provider web-search tools where supported (Gemini Google Search, "
+            "Mistral web_search). Off by default to reduce cost."
+        ),
     )
     parser.add_argument(
         "--dry-run",
@@ -113,7 +145,7 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument(
         "--sanity-check",
         action="store_true",
-        help="Preflight selected models with a lightweight API call before the full run.",
+        help="Preflight each model with one structured mock cell (same path as real runs).",
     )
     parser.add_argument(
         "--continue-on-error",
@@ -122,6 +154,33 @@ def build_parser() -> argparse.ArgumentParser:
             "On persistent failure for one cell, save an error placeholder and continue "
             "(re-run later to retry failed cells)."
         ),
+    )
+    parser.add_argument(
+        "--skip-extract",
+        action="store_true",
+        help="RQ2 only: reuse existing app_rankings.csv.",
+    )
+    parser.add_argument(
+        "--rbo-p",
+        type=float,
+        default=0.9,
+        help="RQ2 only: primary RBO persistence parameter (default: 0.9).",
+    )
+    parser.add_argument(
+        "--rbo-p-values",
+        default=None,
+        help="RQ2 only: comma-separated p values for sensitivity plots (e.g. 0.8,0.9,0.95).",
+    )
+    parser.add_argument(
+        "--analysis",
+        default="all",
+        help="RQ2 only: internal, external-intra, external-cross, or all (comma-separated).",
+    )
+    parser.add_argument(
+        "--dataset-scale",
+        choices=["large", "small"],
+        default="large",
+        help="RQ2 only: use rq1/apps/*_{scale} suites (default: large).",
     )
     return parser
 
@@ -135,6 +194,29 @@ def main(argv: list[str] | None = None) -> int:
     else:
         model_keys = [k.strip().lower() for k in args.model_keys.split(",") if k.strip()]
 
+    if args.rq == "rq2":
+        from code.consistency.runner import run_consistency_analysis
+
+        rbo_p_values = None
+        if args.rbo_p_values:
+            rbo_p_values = [float(v.strip()) for v in args.rbo_p_values.split(",") if v.strip()]
+
+        run_consistency_analysis(
+            families=families,
+            model_keys=model_keys,
+            k_values=args.k,
+            experiment_root=args.output_root,
+            output_root="data/output/features/rq2",
+            rbo_p=args.rbo_p,
+            rbo_p_values=rbo_p_values,
+            scopes=[s.strip() for s in args.analysis.split(",")],  # type: ignore[arg-type]
+            skip_extract=args.skip_extract,
+            dry_run=args.dry_run,
+            dataset_suite=args.dataset_suite,
+            dataset_scale=args.dataset_scale,
+        )
+        return 0
+
     run_experiments(
         rq_id=args.rq,
         families=families,
@@ -143,6 +225,9 @@ def main(argv: list[str] | None = None) -> int:
         models=models,
         k_values=args.k,
         search_items=args.search,
+        features_csv=args.features_csv,
+        features_csv_proprietary=args.features_csv_proprietary,
+        dataset_suite=args.dataset_suite,
         n=args.n,
         sleep=args.sleep,
         output_root=args.output_root,
@@ -151,6 +236,7 @@ def main(argv: list[str] | None = None) -> int:
         dry_run=args.dry_run,
         sanity_check=args.sanity_check,
         continue_on_error=args.continue_on_error,
+        web_search=args.web_search,
     )
     return 0
 

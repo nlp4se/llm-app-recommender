@@ -1,0 +1,57 @@
+model,feature,name,description,type,sources
+gemini,Watch streams,Content Variety,"The breadth of content available, including live sports, gaming, movies, TV shows, and original content.",Text[*],Various sources
+gemini,Watch streams,Streaming Quality,"Resolution and frame rate of the streams, including support for 1080p/60fps and 4K.",Text,"PCMag, Engadget"
+gemini,Watch streams,Device Compatibility,"Availability of the app across various platforms, including phones, tablets, web browsers, gaming consoles, and media streaming devices.",Text[*],PCMag
+gemini,Watch streams,Community Engagement,"Features that facilitate interaction between streamers and viewers, such as live chats, polls, and channel points.",Text[*],"Esports Charts, Twitch Help"
+gemini,Watch streams,Monetization Options,"Availability of monetization programs for streamers, including subscriptions, ads, and donations.",Text[*],Esports Charts
+gemini,Watch streams,Sports Coverage,"Specific sports content offered, including live games, replays, and exclusive coverage.",Text[*],"PCMag, FloSports"
+gemini,Watch streams,User Interface,The ease of navigation and overall user-friendliness of the app.,Text,CNET
+gemini,Watch streams,Price,Monthly subscription cost and available free trials.,Float,"PCMag, CNET, TROYPOINT"
+gemini,Watch streams,DVR Features,Availability and robustness of DVR features for recording live streams.,Boolean,"PCMag, CNET"
+gemini,Watch streams,Esports Focus,"The platform's emphasis on esports content, including tournaments and dedicated channels.",Boolean,"Esports Charts, Movavi Video Editor"
+gemini,Watch streams,Content Variety,"The diversity of streaming content available, including live streams, movies, TV shows, and user-generated content.",Text[*],"App Store, Google Play Store, Expert Reviews"
+gemini,Watch streams,User Interface and Experience,"The ease of navigation, search functionality, and overall user-friendliness of the app.",Float[1],"User Reviews, Expert Reviews"
+gemini,Watch streams,Streaming Quality,"The resolution, stability, and buffering frequency of the streamed video.",Text[1],"User Reviews, App Specifications"
+gemini,Watch streams,Community and Interaction,"The level of community engagement, interactive features like chat, and opportunities for content creators and viewers to connect.",Boolean[1],"App Features, User Reviews"
+gemini,Watch streams,Device Compatibility,"The range of devices (smartphones, tablets, smart TVs, etc.) that the app supports.",Text[*],"App Specifications, Google Play Store, App Store"
+gemini,Watch streams,Content Variety,"Diversity of available content, including gaming, vlogging, music, and more.",Text[*],"App Store, Google Play Store, Reviews"
+gemini,Watch streams,User Engagement Features,"Availability of features like live chat, emotes, virtual gifts, and fan groups.",Text[*],"App Store, Google Play Store, Reviews"
+gemini,Watch streams,Streaming Quality,Supported resolution and frame rate for live streams.,Text,"Reviews, Technical Specifications"
+gemini,Watch streams,Platform Availability,"Compatibility with various devices, including smartphones, tablets, smart TVs, and streaming media players.",Text[*],"App Store, Google Play Store, Reviews"
+gemini,Watch streams,Monetization Options,"Opportunities for content creators to earn revenue through virtual gifts, subscriptions, or advertising.",Text[*],"App Store, Google Play Store, Reviews"
+gemini,Watch streams,Content Variety,"Range of content available, including gaming, creative, and IRL streams.",Text[*],Multiple sources
+gemini,Watch streams,Community Size,Active user base and engagement levels.,Integer[1],Multiple sources
+gemini,Watch streams,Monetization Options,"Availability of subscriptions, donations, ads, and other revenue streams for streamers.",Text[*],Multiple sources
+gemini,Watch streams,Platform Features,"Tools for moderation, viewer interaction, stream customization, and analytics.",Text[*],Multiple sources
+gemini,Watch streams,Mobile Streaming Capabilities,Functionality and ease of use for streaming from mobile devices.,Boolean[1],Multiple sources
+gemini,Watch streams,Content Variety,"Breadth of streaming categories available (e.g., gaming, music, creative, IRL).",Text[*],Multiple Sources
+gemini,Watch streams,Community Size and Engagement,"Active user base, chat engagement, and community features.",Integer,Multiple Sources
+gemini,Watch streams,Monetization Options,"Availability of subscriptions, donations, ads, and other revenue streams for streamers.",Text[*],Multiple Sources
+gemini,Watch streams,Platform Features,"Unique tools and functionalities offered to streamers and viewers (e.g., interactive elements, overlays, analytics).",Text[*],Multiple Sources
+gemini,Watch streams,Mobile Streaming Capabilities,Functionality and ease of use for streaming directly from mobile devices.,Boolean,Multiple Sources
+gemini,Watch streams,Audience Size,Estimated number of active users on the platform.,Integer,"Various sources, including platform statistics and third-party analytics."
+gemini,Watch streams,Content Focus,Primary type of content streamed on the platform.,Text,"Platform descriptions, user reviews."
+gemini,Watch streams,Monetization Options,Ways streamers can earn revenue on the platform.,Text,"Platform documentation, user reports."
+gemini,Watch streams,Ease of Use,Intuitiveness and simplicity of the app's interface and streaming setup.,Text,"User reviews, app store ratings."
+gemini,Watch streams,Mobile Streaming Capabilities,Features and performance of the app when streaming directly from a mobile device.,Boolean,"App descriptions, user reviews."
+gemini,Watch streams,Content Variety & Focus,"The range of content available (gaming, music, general entertainment, etc.) and the app's primary focus.",Text[*],"Expert reviews, user feedback, app descriptions"
+gemini,Watch streams,Audience Size & Engagement,"The typical viewership and the level of interaction features offered (chat, polls, reactions).","Integer, Text","App analytics, user reviews, community forums"
+gemini,Watch streams,Streaming Quality & Reliability,"The resolution and stability of streams, and the app's ability to handle high traffic.","Float, Boolean","User reviews, tech blogs, app specifications"
+gemini,Watch streams,Monetization Options for Streamers,"The availability of tools for streamers to earn revenue (subscriptions, donations, ads).","Boolean, Text","App features, streamer forums, app documentation"
+gemini,Watch streams,Platform Accessibility,"Availability on different devices and operating systems (iOS, Android, Web).",Text[*],"App Store listings, website information"
+gemini,Watch streams,Community Features,"The strength of community features such as channels, groups, and events.",Text[*],"App descriptions, user reviews"
+gemini,Watch streams,Content Variety,"Range of content available, including live streams, movies, TV shows, and user-generated content.",Text[*],"App Store descriptions, user reviews, expert reviews"
+gemini,Watch streams,Streaming Quality,"Resolution and stability of streams, including support for HD and 4K.",Text[1],"User reviews, expert reviews, app specifications"
+gemini,Watch streams,User Interface,"Ease of navigation, search functionality, and overall user experience.",Text[1],"User reviews, expert reviews"
+gemini,Watch streams,Features,"Unique features such as live chat, interactive elements, offline viewing, and social sharing.",Text[*],"App Store descriptions, expert reviews"
+gemini,Watch streams,Cost,"Subscription fees, in-app purchases, and availability of free content.",Float[1],"App Store pricing, official website"
+gemini,Watch streams,User Ratings,"Aggregated star ratings and review sentiments from app stores (e.g., Apple App Store, Google Play Store) and user reviews on platforms like Reddit.",Float [1],"App Store, Google Play Store, Reddit"
+gemini,Watch streams,Content Variety,"The breadth and depth of streaming content available, including live streams, pre-recorded videos, movies, TV shows, and specific categories like gaming, sports, or music.",Text [*],"App descriptions, user reviews, expert reviews"
+gemini,Watch streams,Platform Features,"Available features within the app that enhance the viewing experience, such as live chat, monetization options for streamers, community engagement tools, and cross-platform compatibility.",Text [*],"App descriptions, expert reviews, user reviews"
+gemini,Watch streams,Age Rating & Parental Controls,The app's age rating and availability of parental control features to ensure safe viewing for children and families.,Integer [1],"App Store, Google Play Store, Internet Matters"
+gemini,Watch streams,Ad Frequency,The number of advertisements displayed during streams,Integer [1],User reviews
+gemini,Watch streams,Content Variety,"Range of available streams, including live and on-demand content.",Text[*],"Various app reviews, expert opinions"
+gemini,Watch streams,User Engagement Features,"Tools for interacting with streamers and other viewers (chat, emotes, virtual gifts).",Boolean,"App descriptions, user reviews"
+gemini,Watch streams,Platform Support,Compatibility with different devices and operating systems.,Text[*],"App specifications, user feedback"
+gemini,Watch streams,Subscription Cost,Monthly or annual fee for accessing premium content or ad-free viewing.,Float[1],"App pricing details, subscription plans"
+gemini,Watch streams,Ad Frequency,How often ads are displayed during streams.,Integer,"User reviews, free tier descriptions"

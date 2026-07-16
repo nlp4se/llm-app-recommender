@@ -1,0 +1,62 @@
+{
+  "a": [
+    "Notion",
+    "Obsidian",
+    "Evernote",
+    "OneNote",
+    "Apple Notes",
+    "Google Keep",
+    "Roam Research",
+    "Logseq",
+    "Craft",
+    "Bear",
+    "Joplin",
+    "Standard Notes",
+    "Simplenote",
+    "Typora",
+    "RemNote",
+    "Ulysses",
+    "Day One",
+    "Markdown Editor",
+    "Zoho Notebook",
+    "Turtl"
+  ],
+  "c": [
+    {
+      "n": "Cross-platform Synchronization",
+      "d": "Ability to seamlessly sync notes across multiple devices and operating systems",
+      "t": "Boolean [1]",
+      "s": "App store descriptions, official websites, user reviews"
+    },
+    {
+      "n": "Rich Text Formatting Features",
+      "d": "Support for advanced formatting options including tables, lists, code blocks, mathematical formulas, and media embedding",
+      "t": "Integer [1]",
+      "s": "Feature lists, app documentation, hands-on testing"
+    },
+    {
+      "n": "Organizational Capabilities",
+      "d": "Quality of features for organizing notes including folders, tags, search functionality, and linking between notes",
+      "t": "Integer [1]",
+      "s": "App interfaces, user manuals, feature comparisons"
+    },
+    {
+      "n": "Offline Functionality",
+      "d": "Ability to create, edit, and access notes without internet connection",
+      "t": "Boolean [1]",
+      "s": "Technical specifications, user testing, official documentation"
+    },
+    {
+      "n": "User Interface Quality",
+      "d": "Intuitiveness, aesthetic appeal, and ease of navigation of the app interface",
+      "t": "Float [1]",
+      "s": "User reviews, design awards, usability studies, app store ratings"
+    },
+    {
+      "n": "Performance and Reliability",
+      "d": "App speed, stability, and consistency in handling large amounts of data",
+      "t": "Float [1]",
+      "s": "Performance benchmarks, user complaints, technical reviews, crash reports"
+    }
+  ]
+}

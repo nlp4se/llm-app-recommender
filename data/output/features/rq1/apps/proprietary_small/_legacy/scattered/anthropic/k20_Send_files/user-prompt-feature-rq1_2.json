@@ -1,0 +1,62 @@
+{
+  "a": [
+    "Google Drive",
+    "Dropbox",
+    "WeTransfer",
+    "OneDrive",
+    "Telegram",
+    "WhatsApp",
+    "SHAREit",
+    "Xender",
+    "Send Anywhere",
+    "Files by Google",
+    "Snapdrop",
+    "AirDrop",
+    "Box",
+    "MEGA",
+    "pCloud",
+    "Tresorit",
+    "Signal",
+    "Slack",
+    "Discord",
+    "Filemail"
+  ],
+  "c": [
+    {
+      "n": "File Size Limit",
+      "d": "Maximum file size that can be sent through the app in a single transfer",
+      "t": "Float [1]",
+      "s": "App documentation, official websites, app store descriptions"
+    },
+    {
+      "n": "Transfer Speed",
+      "d": "Average speed of file transfer measured in Mbps for typical file sizes",
+      "t": "Float [1]",
+      "s": "Performance benchmarks, user reviews, technical reviews"
+    },
+    {
+      "n": "User Base Size",
+      "d": "Total number of active users globally",
+      "t": "Integer [1]",
+      "s": "Company reports, app store statistics, market research"
+    },
+    {
+      "n": "Security Level",
+      "d": "Encryption strength and security features (scale 1-10)",
+      "t": "Integer [1]",
+      "s": "Security audits, encryption standards documentation, privacy policies"
+    },
+    {
+      "n": "Cross-Platform Compatibility",
+      "d": "Number of different platforms and devices supported",
+      "t": "Integer [1]",
+      "s": "Official platform support lists, app availability across stores"
+    },
+    {
+      "n": "Ease of Use Rating",
+      "d": "User interface simplicity and user experience rating (scale 1-10)",
+      "t": "Float [1]",
+      "s": "App store ratings, UX reviews, user feedback"
+    }
+  ]
+}

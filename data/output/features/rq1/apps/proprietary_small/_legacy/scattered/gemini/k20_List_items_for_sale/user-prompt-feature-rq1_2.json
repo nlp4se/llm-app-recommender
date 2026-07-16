@@ -1,0 +1,57 @@
+
+{
+  "a": [
+    "eBay",
+    "Facebook Marketplace",
+    "OfferUp",
+    "Poshmark",
+    "Etsy",
+    "Amazon Seller App",
+    "Depop",
+    "Mercari",
+    "Vinted",
+    "ThredUp",
+    "5miles",
+    "Vestiaire Collective",
+    "Shopify",
+    "BigCommerce",
+    "Instagram Shopping",
+    "Nextdoor",
+    "Craigslist",
+    "Letgo",
+    "Shpock",
+    "Gumtree"
+  ],
+  "c": [
+    {
+      "n": "User Base",
+      "d": "The number of active users on the platform, indicating potential reach.",
+      "t": "Integer[*]",
+      "s": "Multiple"
+    },
+    {
+      "n": "Fees",
+      "d": "Listing fees, commission fees, or transaction fees associated with selling on the platform.",
+      "t": "Float[*]",
+      "s": "Multiple"
+    },
+    {
+      "n": "Product Category Focus",
+      "d": "The primary types of items that are commonly sold on the app (e.g., clothing, electronics, handmade items).",
+      "t": "Text[*]",
+      "s": "Multiple"
+    },
+    {
+      "n": "Shipping Options",
+      "d": "The availability of prepaid shipping labels, integrated shipping services, or options for local pickup.",
+      "t": "Boolean[*]",
+      "s": "Multiple"
+    },
+    {
+      "n": "Target Audience",
+      "d": "Demographics and interests of the app's primary user base.",
+      "t": "Text[*]",
+      "s": "Multiple"
+    }
+  ]
+}

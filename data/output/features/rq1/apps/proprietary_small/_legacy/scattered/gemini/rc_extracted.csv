@@ -1,0 +1,1001 @@
+model,feature,name,description,type,sources
+gemini,Access to movies,Content Library Size,"The breadth and depth of available movies, including new releases, classics, and exclusive content.",Integer[*],"App Store, Google Play Store, third-party reviews"
+gemini,Access to movies,Streaming Quality,"The resolution and overall visual fidelity of the movie streams (e.g., HD, 4K, Dolby Vision).",Text[1],"User reviews, technical specifications"
+gemini,Access to movies,Ad Frequency,"The number and length of advertisements during movie playback for free, ad-supported services.",Integer[*],"User reviews, personal observation"
+gemini,Access to movies,User Interface,"The ease of navigation, search functionality, and overall user experience within the app.",Text[1],"User reviews, expert reviews"
+gemini,Access to movies,Offline Downloads,The ability to download movies for offline viewing without an internet connection.,Boolean[1],"App description, user reviews"
+gemini,Access to movies,Device Compatibility,"The range of devices (smartphones, tablets, smart TVs, streaming devices) on which the app is available.",Text[*],"App Store, Google Play Store"
+gemini,Access to movies,Subscription Cost,The monthly or annual fee required to access the movie content.,Float[1],"App Store, Google Play Store"
+gemini,Access to movies,Original Content,Availability of exclusive movies and TV shows produced by the streaming service.,Boolean[1],"App description, expert reviews"
+gemini,Access to movies,User Ratings,The average rating given by users on app stores.,Float[1],"App Store, Google Play Store"
+gemini,Access to movies,Multi-Language Subtitles,The availability of subtitles in multiple languages.,Boolean[1],App description
+gemini,Access to movies,Content Variety,"Breadth and depth of movie titles available, including genres and release years.",Integer[*],"App Store, Google Play Store, User Reviews"
+gemini,Access to movies,Video Quality,"Maximum supported resolution (4K, 1080p, etc.) and availability of HDR.",Text[1],"App Details, Technical Specifications"
+gemini,Access to movies,Ad Frequency,Number of ads displayed per hour of viewing (for free services).,Integer[1],"User Reviews, Personal Testing"
+gemini,Access to movies,Offline Downloads,Ability to download movies for offline viewing.,Boolean[1],"App Features, Subscription Details"
+gemini,Access to movies,Platform Availability,"Number of different platforms (iOS, Android, Roku, etc.) the app is available on.",Integer[*],"App Store, Google Play Store, Website"
+gemini,Access to movies,User Interface,"Ease of navigation, search functionality, and overall user experience.",Text[1],"User Reviews, Expert Reviews"
+gemini,Access to movies,Content Library Size,Total number of movies and TV shows available on the platform.,Integer[*],"App Store, Google Play Store, Streaming Service Website"
+gemini,Access to movies,Streaming Quality,"Maximum video resolution supported (e.g., 4K, 1080p, 720p) and audio formats.",Text[1],"Streaming Service Website, App Description"
+gemini,Access to movies,Original Content,Quality and quantity of exclusive movies and TV shows produced by the streaming service.,Integer[*],"Streaming Service Website, User Reviews"
+gemini,Access to movies,User Interface,"Ease of navigation, search functionality, and overall user experience of the app.",Text[1],"User Reviews, Expert Reviews"
+gemini,Access to movies,Offline Downloads,Availability of downloading movies for offline viewing.,Boolean[1],"App Description, User Reviews"
+gemini,Access to movies,Subscription Cost,Monthly or annual fee for accessing the streaming service.,Float[1],"Streaming Service Website, App Store"
+gemini,Access to movies,Device Compatibility,"Range of devices supported (e.g., smartphones, tablets, smart TVs, web browsers).",Text[*],"App Description, Streaming Service Website"
+gemini,Access to movies,Ad Frequency,Number of ads displayed per hour of viewing for ad-supported plans.,Integer[1],"User Reviews, Personal Testing"
+gemini,Access to movies,Personalization,How well the app suggests movies based on viewing history and preferences.,Text[1],"User Reviews, Expert Reviews"
+gemini,Access to movies,User Ratings,Average rating given by users in app stores.,Float[1],"App Store, Google Play Store"
+gemini,Access to movies,Content Library Size,Total number of movies available on the app.,Integer[*],"App Store, Google Play Store, Company Website"
+gemini,Access to movies,Subscription Cost,Monthly or annual fee required to access premium content.,Float[1],"App Store, Google Play Store, Company Website"
+gemini,Access to movies,Ad Frequency,How often ads appear during movie playback.,Integer[1],"User Reviews, Personal Testing"
+gemini,Access to movies,Video Quality,"Maximum resolution supported by the app (e.g., 4K, 1080p, 720p).",Text[1],"App Description, User Reviews"
+gemini,Access to movies,User Interface,Ease of navigation and overall app design.,Text[1],"User Reviews, Personal Testing"
+gemini,Access to movies,Content Library Size & Variety,"The breadth and depth of the movie catalog available, including genres, new releases, and classic films.",Integer[*],"App Store, Google Play Store, Expert Reviews"
+gemini,Access to movies,User Interface (UI) & User Experience (UX),"How intuitive and easy the app is to navigate, search for movies, and manage watchlists. Includes personalization options.",Text[1],"User Reviews, Expert Reviews"
+gemini,Access to movies,Streaming Quality,"The resolution and audio quality offered (e.g., 4K, Dolby Atmos) for movie playback.",Text[1],"App Details, Expert Reviews"
+gemini,Access to movies,Device Compatibility,"The range of devices (smartphones, tablets, smart TVs, streaming devices) the app supports.",Text[*],"App Store, Google Play Store"
+gemini,Access to movies,Pricing & Subscription Options,"The cost of the app, including subscription fees, rental fees, or ad-supported options.",Float[1],"App Details, Website"
+gemini,Access to movies,Ad Frequency (if applicable),"The number and intrusiveness of ads for free, ad-supported services.",Integer[1],"User Reviews, Expert Reviews"
+gemini,Access to movies,Offline Viewing,Ability to download movies for offline playback.,Boolean[1],"App Details, User Reviews"
+gemini,Access to movies,User Ratings & Reviews,Overall user satisfaction based on ratings and reviews in app stores.,Float[1],"App Store, Google Play Store"
+gemini,Access to movies,Content Library Size,The number of movies and TV shows available on the app.,Integer[*],"App Store, Google Play Store, third-party reviews"
+gemini,Access to movies,Subscription Cost,The monthly or annual fee required to access the app's content (if applicable).,Float[1],"App Store, Google Play Store, app's website"
+gemini,Access to movies,Ad Frequency,How often ads interrupt the viewing experience.,Text[1],"User reviews, third-party reviews"
+gemini,Access to movies,Streaming Quality,"The maximum video resolution supported by the app (e.g., 480p, 720p, 1080p, 4K).",Text[1],"App specifications, third-party reviews"
+gemini,Access to movies,Offline Downloads,Whether the app allows users to download movies for offline viewing.,Boolean[1],"App features list, user reviews"
+gemini,Access to movies,Content Library Size,Total number of movies available on the platform.,Integer[*],"App Store, Google Play Store, Third-party app analysis websites"
+gemini,Access to movies,Streaming Quality,"Maximum resolution and HDR support offered (e.g., 4K HDR, 1080p).",Text[1],"App description, official website"
+gemini,Access to movies,Ad Frequency,Number of ads displayed per hour of viewing.,Integer[1],"User reviews, personal testing"
+gemini,Access to movies,Offline Downloads,Ability to download movies for offline viewing.,Boolean[1],"App description, FAQ"
+gemini,Access to movies,Device Compatibility,"Range of devices supported (e.g., iOS, Android, Roku, Smart TVs).",Text[*],"App description, official website"
+gemini,Access to movies,User Interface,Ease of navigation and search functionality within the app.,Text[1],"User reviews, personal testing"
+gemini,Access to movies,Content Library Size,The number of movies and TV shows available on the platform.,Integer[*],"App Store, Google Play Store, independent reviews"
+gemini,Access to movies,Subscription Cost,The monthly or annual fee required to access the platform's content (if applicable).,Float[1],"App Store, Google Play Store, official website"
+gemini,Access to movies,Video Quality,"The maximum resolution supported by the platform (e.g., 480p, 720p, 1080p, 4K).",Text[1],"App Store, Google Play Store, independent reviews"
+gemini,Access to movies,Offline Downloads,Whether the platform allows users to download movies and TV shows for offline viewing.,Boolean[1],"App Store, Google Play Store, official website"
+gemini,Access to movies,User Interface,The ease of navigation and overall user experience of the app.,Text[1],"User reviews, independent reviews"
+gemini,Access to movies,Device Compatibility,"The range of devices supported by the platform (e.g., smartphones, tablets, smart TVs, streaming devices).",Text[*],"App Store, Google Play Store, official website"
+gemini,Access to movies,Ad Frequency,"The number of ads displayed per hour of viewing (for free, ad-supported platforms).",Integer[1],"User reviews, independent reviews"
+gemini,Access to movies,Original Content,The availability and quality of exclusive movies and TV shows produced by the platform.,Text[1],"App Store, Google Play Store, official website, independent reviews"
+gemini,Access to movies,Content Variety,"Breadth and depth of movie selection, including genres, new releases, and classics.",Text[*],Multiple sources
+gemini,Access to movies,Cost,"Subscription fees, free options, or ad-supported models.",Float[1],Multiple sources
+gemini,Access to movies,Offline Viewing,Ability to download movies for offline access.,Boolean[1],"Source 5, 6, 8"
+gemini,Access to movies,User Interface,Ease of navigation and overall user experience within the app.,Text[1],"Source 9, 13"
+gemini,Access to movies,Ad Frequency,How often ads are displayed during movie playback (for free services).,Integer[1],"Source 1, 16"
+gemini,Access to movies,Video Quality,"Supported streaming resolution (e.g., 4K, 1080p, 720p).",Text[1],Source 15
+gemini,Access to movies,Subtitle Availability,Availability of subtitles in multiple languages.,Boolean[1],"Source 4, 5, 13, 26"
+gemini,Access to movies,Device Compatibility,"Compatibility with various devices and platforms (e.g., Android, iOS, Roku, Smart TVs).",Text[*],Multiple sources
+gemini,Access to movies,User Ratings & Reviews,Availability of user ratings and reviews within the app.,Boolean[1],"Source 3, 14, 23, 24"
+gemini,Access to movies,Original Content,Availability of exclusive movies and TV shows produced by the streaming service.,Boolean[1],"Source 11, 22"
+gemini,Access to movies,Recommendation Engine,Quality and accuracy of movie recommendations based on viewing history.,Text[1],"Source 14, 16, 24, 27"
+gemini,Access to movies,Content Library Size,Number of movies and TV shows available on the platform.,"Integer, [1]","App Stores, Third-party app analysis sites"
+gemini,Access to movies,Streaming Quality,Maximum video resolution and audio quality supported by the app.,"Text, [1]","App descriptions, User reviews"
+gemini,Access to movies,Ad Frequency,The frequency and intrusiveness of advertisements during movie playback (for free services).,"Integer, [1]","User reviews, Personal testing"
+gemini,Access to movies,Device Compatibility,"Range of devices (smartphones, tablets, smart TVs, streaming devices) that the app supports.","Text, [*]","App Stores, Developer documentation"
+gemini,Access to movies,User Interface,"Ease of navigation, search functionality, and overall user experience within the app.","Text, [1]","User reviews, Personal testing"
+gemini,Access to movies,Cost,"Subscription fees, in-app purchases, or availability of a free, ad-supported tier.","Float, [1]","App Stores, Official website"
+gemini,Access to podcasts,User Interface,The ease of navigation and overall design of the app.,Text[1],"User reviews, app store descriptions"
+gemini,Access to podcasts,Cross-Platform Availability,"Availability on multiple operating systems (iOS, Android, Web, etc.)",Boolean[*],"App Store, Google Play Store, developer websites"
+gemini,Access to podcasts,Customization Options,"The ability to adjust playback speed, create playlists, and customize the user experience.",Integer[5],"App descriptions, tech reviews"
+gemini,Access to podcasts,Ad-Free Option,Availability of a paid version without advertisements.,Boolean[1],"App store descriptions, user reviews"
+gemini,Access to podcasts,Offline Playback,Ability to download episodes for listening without an internet connection.,Boolean[1],App features list
+gemini,Access to podcasts,User Interface,Cleanliness and ease of navigation within the app.,Text[1],"User reviews, Expert reviews"
+gemini,Access to podcasts,Cross-Platform Availability,"Availability on multiple operating systems (iOS, Android, Web, Desktop).",Boolean[*],"App Store, Google Play Store, App Website"
+gemini,Access to podcasts,Features,"Availability of features like variable playback speed, trim silence, volume boost, offline playback, sleep timer, and organizational tools.",Text[*],"App descriptions, Expert reviews"
+gemini,Access to podcasts,Price,"Cost of the app and its premium features (free, subscription, one-time purchase).",Float[1],"App Store, Google Play Store, App Website"
+gemini,Access to podcasts,Podcast Discovery,Ease of finding and discovering new podcasts.,Text[1],"User reviews, Expert reviews"
+gemini,Access to podcasts,Content Library Size,The number of podcasts and episodes available on the platform.,Integer[*],"App Stores, Third-party podcast directories"
+gemini,Access to podcasts,User Ratings,Average rating given by users in app stores.,Float[1],App Stores
+gemini,Access to podcasts,Cross-Platform Availability,"Platforms supported by the app (iOS, Android, Web, etc.).",Text[*],"App Store Descriptions, Developer Information"
+gemini,Access to podcasts,Offline Playback,Ability to download episodes for offline listening.,Boolean[1],"App Reviews, Feature Lists"
+gemini,Access to podcasts,Ad Presence,"Whether the app contains ads (and if so, how intrusive).",Text[1],"User Reviews, App Store Information"
+gemini,Access to podcasts,Podcast 2.0 Support,"Support for modern podcasting features like value for value, live streaming and community interaction.",Boolean[1],Podcasting 2.0 directory
+gemini,Access to podcasts,User Interface,"Clean, intuitive interface enhances the listening experience.",Text[1],Review articles
+gemini,Access to podcasts,Discovery Tools,Advanced search and personalized recommendations help you find new content.,Text[1],Review articles
+gemini,Access to podcasts,Playback Controls,"Features like speed adjustment, offline listening, and sleep timers provide flexibility.",Boolean[*],"Review articles, app descriptions"
+gemini,Access to podcasts,Integration,Syncing across devices and integration with other services (like smart speakers) makes for a seamless experience.,Boolean[*],"Review articles, app descriptions"
+gemini,Access to podcasts,Cross-Platform Availability,"Availability on multiple operating systems (iOS, Android, Web).",Text[*],"App stores, review articles"
+gemini,Access to podcasts,Offline Playback,Ability to download episodes for offline listening.,Boolean[1],"App descriptions, review articles"
+gemini,Access to podcasts,Ad-Free Option,Availability of a subscription or version without advertisements.,Boolean[1],"App descriptions, review articles"
+gemini,Access to podcasts,Exclusive Content,Offers exclusive podcasts or early access to episodes.,Boolean[1],"App descriptions, review articles"
+gemini,Access to podcasts,Smart Features,"Includes smart speed, voice boost, or other audio enhancement features.",Boolean[*],Review articles
+gemini,Access to podcasts,Podcast 2.0 Support,Supports podcasting 2.0 features like transcriptions from RSS feeds or commenting on episodes.,Boolean[1],Review articles
+gemini,Access to podcasts,Cross-Platform Availability,The number of different operating systems and devices the app is available on.,"Integer, [1]","App Store, Google Play Store, developer website"
+gemini,Access to podcasts,User Interface Rating,A subjective assessment of how intuitive and easy to navigate the app's user interface is.,"Float, [1]","User reviews, expert reviews"
+gemini,Access to podcasts,Offline Playback,Ability to download podcasts for listening without an internet connection.,"Boolean, [1]","App description, user reviews"
+gemini,Access to podcasts,Customization Options,"The number of settings and preferences users can adjust to tailor the app to their needs (e.g., playback speed, sleep timer).","Integer, [1]","App description, expert reviews"
+gemini,Access to podcasts,Podcast Discovery,Effectiveness of the app in helping users find new and interesting podcasts.,"Text, [1]","Expert reviews, user reviews"
+gemini,Access to podcasts,User Ratings,"Average rating given by users in app stores (e.g., Google Play Store, Apple App Store).",Float[1],"Google Play Store, Apple App Store"
+gemini,Access to podcasts,Cross-Platform Availability,"Indicates whether the app is available on multiple operating systems (e.g., iOS, Android, Web).",Boolean[1],"App Store Descriptions, Reviews"
+gemini,Access to podcasts,Offline Playback,Ability to download podcasts for listening without an internet connection.,Boolean[1],"App Store Descriptions, Reviews"
+gemini,Access to podcasts,Customization Options,"The degree to which users can customize the app's appearance and functionality (e.g., themes, playback speed).",Integer[1],"App Reviews, Expert Reviews"
+gemini,Access to podcasts,Discovery Features,Effectiveness in helping users find new and interesting podcasts.,Integer[1],"App Reviews, Expert Reviews"
+gemini,Access to podcasts,Cross-Platform Availability,"The app is available on multiple platforms (iOS, Android, Web, Desktop).",Boolean[*],"App Store, Google Play Store, Developer Website"
+gemini,Access to podcasts,User Interface,Cleanliness and ease of navigation of the app's user interface.,Text[1],"User Reviews, Expert Reviews"
+gemini,Access to podcasts,Free Features,"Availability of essential features (e.g., playback control, subscription management) in the free version.",Boolean[*],"App Store, Google Play Store, User Reviews"
+gemini,Access to podcasts,Offline Playback,Ability to download podcasts for offline listening.,Boolean[1],"App Description, User Reviews"
+gemini,Access to podcasts,Variable Speed Playback,Allows adjusting the playback speed of podcasts.,Boolean[1],"App Description, User Reviews"
+gemini,Access to podcasts,Ad-Free Option,Availability of a paid subscription to remove ads.,Boolean[1],"App Store, Google Play Store, Developer Website"
+gemini,Access to podcasts,Podcast Discovery,"Features that aid in discovering new podcasts (e.g., recommendations, curated lists).",Boolean[*],"App Description, Expert Reviews"
+gemini,Access to podcasts,Customization Options,"Extent to which the app allows customization of the listening experience (e.g., themes, playback settings).",Integer[1],"Expert Reviews, App Settings"
+gemini,Access to podcasts,Storage Management,Features that help manage downloaded podcast episodes and storage space.,Boolean[1],"App Description, User Reviews"
+gemini,Access to podcasts,Cross-Device Sync,Synchronizes listening progress and subscriptions across multiple devices.,Boolean[1],"App Description, User Reviews"
+gemini,Access to podcasts,User Interface,"The app's ease of navigation, clarity, and overall user experience.",Text[1],"User reviews, expert reviews"
+gemini,Access to podcasts,Podcast Discovery,"The effectiveness of the app's search, recommendations, and browsing features for finding new podcasts.",Text[1],"App Store descriptions, expert reviews"
+gemini,Access to podcasts,Playback Features,"Available playback options such as variable speed, silence trimming, volume boost, and sleep timer.",Boolean[*],"App specifications, expert reviews"
+gemini,Access to podcasts,Cross-Platform Availability,"Compatibility with different operating systems and devices (iOS, Android, Web, etc.).",Text[*],"App Store descriptions, expert reviews"
+gemini,Access to podcasts,Offline Playback,Ability to download episodes for listening without an internet connection.,Boolean[1],App specifications
+gemini,Access to podcasts,Subscription Management,Ease of managing podcast subscriptions and automatic downloading of new episodes.,Text[1],"User reviews, app descriptions"
+gemini,Access to podcasts,Ad-Free Option,Availability of a paid subscription or one-time purchase to remove ads.,Boolean[1],"App pricing, user reviews"
+gemini,Access to podcasts,Podcast 2.0 Support,"Support for modern podcasting features like community comments, live streaming, and value-for-value payments.",Boolean[1],"App specifications, expert reviews"
+gemini,Access to podcasts,Price,"The cost of the app, including any subscription fees or in-app purchases.",Float[1],"App Store, Google Play Store"
+gemini,Access to podcasts,Ratings and Reviews,The average rating of the app based on user reviews.,Float[1],"App Store, Google Play Store"
+gemini,Access to podcasts,User Interface,"Cleanliness and intuitiveness of the app's design, impacting ease of navigation and overall user experience.",Text[1],"User reviews, app store descriptions, expert reviews"
+gemini,Access to podcasts,Podcast Discovery,Effectiveness of search and recommendation tools for finding new podcasts based on user preferences and listening history.,Text[1],"App reviews, personal testing, feature lists"
+gemini,Access to podcasts,Playback Controls,"Flexibility in controlling playback, including features like speed adjustment, offline listening, sleep timers, and skip intro options.",Boolean[*],"App descriptions, feature lists, user reviews"
+gemini,Access to podcasts,Cross-Platform Integration,"Seamless syncing and accessibility across multiple devices (iOS, Android, web, desktop).",Boolean[1],"App specifications, user reviews, expert reviews"
+gemini,Access to podcasts,Content Library,"Breadth and depth of available podcasts, including access to exclusive content or original shows.",Integer[1],"App data, expert reviews"
+gemini,Access to podcasts,Offline Playback,The ability to download episodes for listening without an internet connection.,Boolean[1],"App features, user reviews"
+gemini,Access to podcasts,Ad-Free Option,Availability of a subscription or premium version that removes advertisements.,Boolean[1],"App pricing, user reviews"
+gemini,Access to podcasts,Customization,"Options to customize the app's appearance and behavior, such as themes, playlist creation, and queue management.",Boolean[*],"App features, user reviews"
+gemini,Access to podcasts,Price,"Cost of the app, including whether it is free, subscription-based, or offers in-app purchases.",Text[1],"App store pricing, in-app purchase information"
+gemini,Access to podcasts,Audio Quality,Quality of audio streaming and playback.,Text[1],"User reviews, expert reviews"
+gemini,Broadcast messages to multiple contacts,Reach,Number of contacts that can be reached through the app.,Integer[*],"vendor website, app store description"
+gemini,Broadcast messages to multiple contacts,Personalization Options,Availability of features to personalize messages for individual recipients.,Boolean[1],"app store description, reviews"
+gemini,Broadcast messages to multiple contacts,Automation Capabilities,Extent to which message sending and follow-up can be automated.,Text[1],"vendor website, reviews"
+gemini,Broadcast messages to multiple contacts,Pricing Model,The cost structure associated with using the app.,Text[1],"vendor website, app store"
+gemini,Broadcast messages to multiple contacts,Ease of Use,How user-friendly the app is for sending broadcast messages.,Text[1],"user reviews, app store rating"
+gemini,Broadcast messages to multiple contacts,Mass Texting Capability,"Ability to send a single message to multiple contacts simultaneously, either as individual texts or through a group chat.",Boolean [1],Multiple sources
+gemini,Broadcast messages to multiple contacts,Personalization,Allows for personalization of messages with recipient's name or other custom fields.,Boolean [1],Multiple sources
+gemini,Broadcast messages to multiple contacts,Scheduling,Ability to schedule messages to be sent at a future date and time.,Boolean [1],Multiple sources
+gemini,Broadcast messages to multiple contacts,Two-Way Messaging,"Supports two-way communication, allowing recipients to reply to messages.",Boolean [1],Multiple sources
+gemini,Broadcast messages to multiple contacts,Contact Management,Tools for managing and segmenting contacts into lists or groups.,Boolean [1],Multiple sources
+gemini,Broadcast messages to multiple contacts,Pricing,"Cost of the service, including monthly fees, per-message charges, and any additional costs for features or usage.",Float [*],Multiple sources
+gemini,Broadcast messages to multiple contacts,SMS/MMS Support,Whether the app supports sending both SMS (text) and MMS (multimedia) messages.,Boolean [1],Multiple sources
+gemini,Broadcast messages to multiple contacts,Reporting and Analytics,"Provides data and reports on message delivery, open rates, and other metrics.",Boolean [1],Multiple sources
+gemini,Broadcast messages to multiple contacts,Platform Availability,"Availability on iOS, Android, Web, or other platforms.",Text [*],Multiple sources
+gemini,Broadcast messages to multiple contacts,Integrations,"Integrates with other business tools such as CRM, email marketing, or e-commerce platforms.",Text [*],Multiple sources
+gemini,Broadcast messages to multiple contacts,User Adoption Rate,Percentage of target audience already using the app. Higher adoption reduces the barrier to entry for new group members.,"Float [0.0, 1.0]","App user statistics, market analysis reports"
+gemini,Broadcast messages to multiple contacts,Message Capacity per Broadcast,Maximum number of recipients allowed in a single broadcast message.,"Integer [1,*]","App specifications, developer documentation"
+gemini,Broadcast messages to multiple contacts,Personalization Features,"Availability and sophistication of personalization options (e.g., inserting recipient names, custom fields).","Boolean, Text[*]","App feature list, user reviews"
+gemini,Broadcast messages to multiple contacts,Scheduling Capability,Ability to schedule broadcast messages for delivery at a future time.,Boolean,"App feature list, user reviews"
+gemini,Broadcast messages to multiple contacts,Cost per Message,The cost associated with sending a single broadcast message. This is particularly relevant for apps that charge per message.,"Float [0.0,*]","App pricing plans, developer documentation"
+gemini,Broadcast messages to multiple contacts,Opt-in Requirement,Whether the app requires explicit consent from recipients before sending broadcast messages to comply with regulations.,Boolean,"App compliance documentation, user agreements"
+gemini,Broadcast messages to multiple contacts,Multimedia Support,"Types of media supported in broadcast messages (e.g., images, videos, documents).",Text[*],"App specifications, user reviews"
+gemini,Broadcast messages to multiple contacts,Automation Features,"Availability of automated responses, drip campaigns, and other automated messaging features.","Boolean, Text[*]","App feature list, developer documentation"
+gemini,Broadcast messages to multiple contacts,Integration with Other Tools,"Seamless integration with other business or productivity tools (e.g., CRM, marketing platforms).",Text[*],"App integration list, developer documentation"
+gemini,Broadcast messages to multiple contacts,Security and Privacy,Level of encryption and privacy features offered by the app.,Text,"App security policies, user reviews"
+gemini,Broadcast messages to multiple contacts,Ease of Use,How intuitive and user-friendly the app is for sending broadcast messages.,Integer [1],"User reviews, Expert reviews"
+gemini,Broadcast messages to multiple contacts,Personalization Options,"The ability to personalize messages with contact details (e.g., name) for individual sending.",Boolean [1],"App description, Feature list"
+gemini,Broadcast messages to multiple contacts,Contact Management,Features for managing and segmenting contacts for targeted broadcasting.,Boolean [1],"App description, Feature list"
+gemini,Broadcast messages to multiple contacts,Scheduling,The ability to schedule messages for sending at a later date and time.,Boolean [1],"App description, Feature list"
+gemini,Broadcast messages to multiple contacts,Pricing,"The cost-effectiveness of the app, considering free trials, subscription fees, and pay-per-message options.",Float [1],"App Store, Google Play Store, Developer Website"
+gemini,Broadcast messages to multiple contacts,Recipient Limit,Maximum number of recipients allowed per broadcast message.,Integer [1],"Terms of service, Pricing plan details"
+gemini,Broadcast messages to multiple contacts,Delivery Rate,Percentage of messages successfully delivered to recipients.,Float [1],"Service provider documentation, User feedback"
+gemini,Broadcast messages to multiple contacts,Opt-in Compliance,"Tools and features for ensuring compliance with SMS marketing regulations (e.g., opt-in/opt-out management).",Boolean [1],"App features, Legal compliance documentation"
+gemini,Broadcast messages to multiple contacts,Reporting & Analytics,"The availability of reporting and analytics on message delivery, open rates, and other key metrics.",Boolean [1],"App description, Feature list"
+gemini,Broadcast messages to multiple contacts,Integrations,"Compatibility with other CRM, marketing automation, and business tools.",Text [*],"App description, Integration list"
+gemini,Broadcast messages to multiple contacts,Ease of Use,How intuitive and user-friendly the app interface is for creating and sending broadcast messages.,Text,"User reviews, app store descriptions"
+gemini,Broadcast messages to multiple contacts,Number of Contacts,The maximum number of contacts to which a message can be broadcasted simultaneously.,Integer,"App specifications, help documentation"
+gemini,Broadcast messages to multiple contacts,Personalization Features,Availability of features like custom fields and dynamic content to personalize messages for each recipient.,Boolean,"App features list, marketing materials"
+gemini,Broadcast messages to multiple contacts,Delivery Rate,Percentage of messages successfully delivered to recipients.,Float,"Service level agreements, user reports"
+gemini,Broadcast messages to multiple contacts,Scheduling,Ability to schedule messages to be sent at a future date and time.,Boolean,"App features, tutorials"
+gemini,Broadcast messages to multiple contacts,Cost,"The pricing structure of the app, including monthly fees, per-message costs, and any additional charges.",Float,"Pricing pages, subscription details"
+gemini,Broadcast messages to multiple contacts,Contact Management,"Features for organizing and managing contacts, such as tagging, segmentation, and importing/exporting.",Text,"App descriptions, help documentation"
+gemini,Broadcast messages to multiple contacts,Reporting and Analytics,"Availability of tools to track message delivery, open rates, click-through rates, and other relevant metrics.",Boolean,"App features list, marketing materials"
+gemini,Broadcast messages to multiple contacts,Integration,"Ability to integrate with other platforms and services such as CRM, marketing automation, and e-commerce platforms.",Text,"API documentation, integration lists"
+gemini,Broadcast messages to multiple contacts,Two-Way Messaging,Capability for recipients to reply to broadcast messages and engage in a conversation.,Boolean,"App features, tutorials"
+gemini,Broadcast messages to multiple contacts,Reach,Number of contacts to whom messages can be broadcasted simultaneously.,"Integer, [1]","Vendor Documentation, App Details"
+gemini,Broadcast messages to multiple contacts,Personalization,"Ability to personalize messages with customer-specific data (e.g., name, location).","Boolean, [1]","Vendor Documentation, App Reviews"
+gemini,Broadcast messages to multiple contacts,Automation,"Availability of automated workflows, scheduling, and triggered messages.","Boolean, [1]","Vendor Documentation, App Details"
+gemini,Broadcast messages to multiple contacts,Integration,"Integration capabilities with other platforms (e.g., CRM, e-commerce).","Text, [*]","Vendor Documentation, App Details"
+gemini,Broadcast messages to multiple contacts,Analytics,"Availability of analytics and reporting on message performance (e.g., open rates, reply rates).","Boolean, [1]","Vendor Documentation, App Reviews"
+gemini,Broadcast messages to multiple contacts,Compliance,Features ensuring compliance with SMS marketing regulations.,"Boolean, [1]",Vendor Documentation
+gemini,Broadcast messages to multiple contacts,Cost,Pricing model and cost per message or subscription.,"Float, [1]",Vendor Pricing Pages
+gemini,Broadcast messages to multiple contacts,Multi-channel Support,"Supports other channels besides SMS such as Email, push notifications and other messengers.","Boolean, [1]",Vendor Documentation
+gemini,Build photo collage,Ease of Use,"Refers to the intuitiveness and simplicity of the app's interface and features, allowing users to quickly create collages without a steep learning curve.",Float [1],"User reviews, expert reviews"
+gemini,Build photo collage,Template Variety,"The number and diversity of pre-designed templates available within the app, catering to different styles and occasions.",Integer [*],"App Store description, expert reviews"
+gemini,Build photo collage,Customization Options,"The extent to which users can personalize their collages, including adjusting layouts, adding text, stickers, backgrounds, and filters.",Integer [*],"App specifications, user reviews"
+gemini,Build photo collage,Photo Editing Features,"The availability and quality of built-in photo editing tools, such as cropping, rotating, color adjustments, and special effects.",Boolean [1],"App description, expert reviews"
+gemini,Build photo collage,Social Sharing Integration,The ease with which users can share their collages on social media platforms directly from the app.,Boolean [1],"App features, user reviews"
+gemini,Build photo collage,Watermark,Whether the free version of the app adds a watermark to the created collages.,Boolean [1],"User reviews, app description"
+gemini,Build photo collage,Ads,The frequency and intrusiveness of advertisements displayed within the app.,Integer [1],User reviews
+gemini,Build photo collage,Cost,"The pricing model of the app, including whether it is free, offers in-app purchases, or requires a subscription.",Text [1],"App store, in-app information"
+gemini,Build photo collage,User Ratings & Reviews,The average rating and the general sentiment expressed in user reviews on app stores.,Float [1],App store
+gemini,Build photo collage,Advanced Features,"Availability of features like AI-powered editing, video collage creation, and object removal.",Boolean [1],App description
+gemini,Build photo collage,Ease of Use,"Refers to the intuitiveness and simplicity of the app's interface and features, allowing users to quickly create collages without a steep learning curve.",Integer[1],"User reviews, Editor reviews"
+gemini,Build photo collage,Variety of Templates and Layouts,"The number and diversity of pre-designed templates and customizable layouts offered, enabling users to find the perfect base for their collage.",Integer[*],"App description, Editor reviews"
+gemini,Build photo collage,Customization Options,"The extent to which users can personalize their collages, including options for adjusting spacing, borders, backgrounds, text, stickers, and filters.",Integer[*],"App features, User reviews"
+gemini,Build photo collage,Available Editing Tools,"The presence of built-in photo editing tools such as cropping, rotating, color adjustment, and special effects to enhance individual photos within the collage.",Boolean[1],"App description, Editor reviews"
+gemini,Build photo collage,Social Media Integration,"The ability to directly share collages to social media platforms such as Instagram, Facebook, and others.",Boolean[1],"App description, User reviews"
+gemini,Build photo collage,Free vs. Paid Features,"The balance between features available in the free version and those locked behind a premium subscription, affecting accessibility for casual users.",Text[1],"App pricing, User reviews"
+gemini,Build photo collage,AI-Powered Features,"The incorporation of AI-driven tools like automatic collage generation, smart layouts, object removal, and AI filters to streamline the collage creation process.",Boolean[1],App description
+gemini,Build photo collage,User Interface,Clean and intuitive design for ease of use.,Text[1],"User reviews, Editor reviews"
+gemini,Build photo collage,Variety of Templates and Layouts,Availability of diverse pre-designed templates and customizable layouts.,Integer[*],"App description, Editor reviews"
+gemini,Build photo collage,Editing Features,"Range of editing tools, filters, and effects for photo enhancement.",Text[*],"App description, Editor reviews"
+gemini,Build photo collage,Customization Options,"Ability to add text, stickers, backgrounds, and doodles to collages.",Boolean[1],"App description, User reviews"
+gemini,Build photo collage,Social Media Integration,Easy sharing options to various social media platforms.,Boolean[1],App description
+gemini,Build photo collage,Pricing Model,Cost of the app and available in-app purchases or subscriptions.,Text[1],"App store, User reviews"
+gemini,Build photo collage,User Ratings and Reviews,Overall app rating and user feedback on app performance and features.,Float[1],App store
+gemini,Build photo collage,Download numbers,How many times the app has been downloaded,Integer[1],App store
+gemini,Build photo collage,Ease of Use,How intuitive and simple the app is to navigate and create collages.,Float,"User reviews, Editor reviews"
+gemini,Build photo collage,Template Variety,The number and diversity of pre-designed collage templates available.,Integer,"App description, Feature list"
+gemini,Build photo collage,Customization Options,"The range of tools and features for personalizing collages (e.g., filters, stickers, text options).",Integer,"App description, Feature list"
+gemini,Build photo collage,AI Features,The presence and effectiveness of AI-powered tools for automatic collage generation and editing.,Boolean,"App description, Editor reviews"
+gemini,Build photo collage,Platform Availability,"Whether the app is available on iOS, Android, or Web.",Text,App description
+gemini,Build photo collage,Free vs. Paid Features,"The balance between free and paid features, and the value offered in the free version.",Text,"User reviews, Editor reviews, App description"
+gemini,Build photo collage,Ease of Use,"The app's interface and features should be intuitive and easy to navigate, even for users with limited experience in photo editing.",Boolean,"User reviews, app store descriptions"
+gemini,Build photo collage,Variety of Templates and Layouts,The app should offer a diverse selection of pre-designed templates and customizable layouts to suit different collage styles and photo arrangements.,Integer[*],"App features, app store descriptions"
+gemini,Build photo collage,Editing Tools,"The app should provide a range of editing tools, such as filters, cropping, text options, stickers, and background customization, to enhance the visual appeal of collages.",Text[*],"App features, app store descriptions"
+gemini,Build photo collage,Social Media Integration,"The app should allow users to easily share their collages on various social media platforms, such as Instagram, Facebook, and Twitter.",Boolean,"App features, app store descriptions"
+gemini,Build photo collage,Customization Options,"The app should offer a high degree of customization, allowing users to adjust border sizes, colors, aspect ratios, and other design elements to create unique collages.",Text[*],"App features, app store descriptions"
+gemini,Build photo collage,Performance and Stability,"The app should be stable and perform smoothly without crashing or lagging, even when working with large numbers of photos or high-resolution images.",Boolean,"User reviews, app store descriptions"
+gemini,Build photo collage,Cost and Availability,The app should be affordable (preferably free with optional in-app purchases) and readily available on both iOS and Android platforms.,"Float, Text","App store pricing, platform availability"
+gemini,Build photo collage,User Ratings and Reviews,"Reflects user satisfaction and app quality, influencing app store rankings and credibility.",Float [1],"App Store, Google Play Store"
+gemini,Build photo collage,Download Velocity,"Measures the speed at which the app gains new downloads, indicating popularity and relevance.",Integer [1],"App Store, Google Play Store"
+gemini,Build photo collage,Number of Collage Templates,The variety and number of pre-designed templates available for creating collages.,Integer [*],"App description, app features"
+gemini,Build photo collage,Editing Tools and Features,"The range of editing options such as filters, stickers, text options, and AI-powered enhancements.",Text [*],"App description, app features"
+gemini,Build photo collage,Ease of Use,"How intuitive and easy the app is to use, especially for beginners.",Boolean [1],"User reviews, expert reviews"
+gemini,Build photo collage,Customization Options,"The ability to customize layouts, backgrounds, and grid sizes.",Boolean [1],"App features, app description"
+gemini,Build photo collage,Social Integration,Integration with social media platforms for easy sharing.,Boolean [1],"App features, app description"
+gemini,Build photo collage,AI-Powered Features,Inclusion of AI tools for tasks like background removal and smart template generation.,Boolean [1],"App description, app features"
+gemini,Build photo collage,In-App Purchases and Premium Features,Availability of premium features and the cost of in-app purchases.,Float [1],"App Store, Google Play Store"
+gemini,Build photo collage,App Metadata Optimization,"Effectiveness of keyword placement in app metadata (title, subtitle, keywords).",Text [1],"App Store, App Radar"
+gemini,Build photo collage,Ease of Use,"How intuitive and easy it is for users to create collages, regardless of their experience level.",Integer[1],"User reviews, app store descriptions"
+gemini,Build photo collage,Template Variety,The number and diversity of pre-designed templates available for creating different types of collages.,Integer[*],"App features, app store descriptions"
+gemini,Build photo collage,Customization Options,"The range of options available for users to personalize their collages, including adjusting layouts, adding text, stickers, and backgrounds.",Integer[*],"App features, user reviews"
+gemini,Build photo collage,Editing Tools,"The availability and quality of built-in photo editing tools such as filters, effects, and adjustments.",Boolean[1],"App features, tech reviews"
+gemini,Build photo collage,Social Media Integration,How seamlessly the app integrates with social media platforms for sharing collages.,Boolean[1],"App features, user reviews"
+gemini,Build photo collage,Cost,"The pricing structure of the app, including whether it is free, offers in-app purchases, or requires a subscription.",Text[1],"App store descriptions, pricing information"
+gemini,Build photo collage,Ease of Use,The app's interface and features are intuitive and easy to navigate for users of all skill levels.,Boolean,"User reviews, app store descriptions, expert reviews"
+gemini,Build photo collage,Template Variety,The app offers a wide selection of pre-designed templates and layouts for different occasions and styles.,Integer[*],"App features, app store descriptions, expert reviews"
+gemini,Build photo collage,Customization Options,"The app provides a range of tools and features to customize collages, including adjusting borders, adding text, stickers, backgrounds, and filters.",Text[*],"App features, user reviews, expert reviews"
+gemini,Build photo collage,Photo Editing Tools,"The app includes built-in photo editing tools to enhance images, such as cropping, resizing, adjusting brightness and contrast, and applying filters.",Boolean,"App features, expert reviews"
+gemini,Build photo collage,Social Sharing,"The app allows users to easily share their collages on social media platforms like Instagram, Facebook, and Twitter.",Boolean,"App features, app store descriptions"
+gemini,Build photo collage,Free Features,"The app offers a sufficient set of features and templates for free, without requiring a subscription or in-app purchases.",Boolean,"User reviews, app store descriptions, expert reviews"
+gemini,Build photo collage,Maximum Photos Supported,The maximum number of photos that can be added to a single collage.,Integer[1],"App features, app descriptions"
+gemini,Build photo collage,Templates Availability,The number and variety of pre-designed templates offered by the app.,Integer[*],"Google Play Store, Apple App Store"
+gemini,Build photo collage,Customization Options,"The extent to which users can modify layouts, add text, stickers, backgrounds, and apply filters.",Integer[*],"App reviews, User feedback"
+gemini,Build photo collage,User Interface,Ease of navigation and overall user experience.,Text[1],"User reviews, App Store descriptions"
+gemini,Build photo collage,Social Integration,How seamlessly the app integrates with social media platforms for sharing collages.,Boolean[1],"App descriptions, User reviews"
+gemini,Build photo collage,Free vs. Paid Features,The balance between features available in the free version and those locked behind a subscription or purchase.,Text[1],"App Store descriptions, User reviews, In-app purchase information"
+gemini,Build photo collage,Number of Layouts/Templates,The quantity of pre-designed layouts and templates available to users for creating collages.,Integer[*],"App Store, Google Play Store, Appy Pie"
+gemini,Build photo collage,Customization Options,"The degree to which users can modify collage elements such as borders, backgrounds, text, and stickers.",Text[*],"App Store, Tom's Guide, Fotor"
+gemini,Build photo collage,Photo Editing Tools,"The availability and range of built-in tools for editing photos within the app, such as filters, cropping, and adjustments.",Text[*],"Tom's Guide, Appy Pie, CyberLink"
+gemini,Build photo collage,User Interface,The ease of use and intuitiveness of the app's interface for creating collages.,Text[1],"Appy Pie, CyberLink, Amazon Appstore"
+gemini,Build photo collage,Social Media Integration,The ability to directly share collages to social media platforms.,Boolean[1],"App Store, Google Play Store"
+gemini,Collaborate with others,Communication,"The ability to facilitate real-time and asynchronous communication among team members through features like chat, messaging, and video conferencing.",Boolean[1],Multiple sources
+gemini,Collaborate with others,Task Management,"Capabilities for creating, assigning, tracking, and managing tasks, including setting deadlines and monitoring progress.",Boolean[1],Multiple sources
+gemini,Collaborate with others,File Sharing,"Features for securely sharing and collaborating on files, documents, and other digital assets.",Boolean[1],Multiple sources
+gemini,Collaborate with others,Project Management,"Tools for planning, organizing, and managing projects, including timelines, Gantt charts, and resource allocation.",Boolean[1],Multiple sources
+gemini,Collaborate with others,Integration,"The capacity to integrate with other applications and services, such as email, CRM, and cloud storage, to streamline workflows.",Boolean[1],Multiple sources
+gemini,Collaborate with others,User Interface,"The intuitiveness and ease of use of the application's interface, affecting user adoption and efficiency.",Text[1],Multiple sources
+gemini,Collaborate with others,Real-time Collaboration,Functionality that allows multiple users to work on the same document or project simultaneously.,Boolean[1],Multiple sources
+gemini,Collaborate with others,Communication Channels,"The variety of communication methods offered, including text, audio, and video, to facilitate real-time and asynchronous discussions.",Text,Multiple
+gemini,Collaborate with others,Task Management,"Ability to organize tasks, set deadlines, assign responsibilities, and track progress to ensure projects stay on schedule.",Boolean,Multiple
+gemini,Collaborate with others,File Sharing,"Capability to easily share documents, images, and other files within the app to support collaborative work on projects and tasks.",Media[*],Multiple
+gemini,Collaborate with others,Integrations,"Seamless integration with other tools and platforms like Google Workspace, Microsoft 365, and other project management software to streamline workflows.",Text[*],Multiple
+gemini,Collaborate with others,User Interface,"The user-friendliness and intuitiveness of the app's design, impacting ease of use and overall adoption by team members.",Text,Multiple
+gemini,Collaborate with others,Customization,"The extent to which the app can be tailored to fit specific team needs and workflows, including custom fields, views, and automation options.",Boolean,Multiple
+gemini,Collaborate with others,Real-time Collaboration,"Features that enable simultaneous editing, commenting, and feedback to facilitate real-time teamwork.",Boolean,Multiple
+gemini,Collaborate with others,Video Conferencing,"Built-in or integrated video conferencing capabilities for virtual meetings, presentations, and team discussions.",Boolean,Multiple
+gemini,Collaborate with others,Mobile Accessibility,Availability of mobile apps (iOS and Android) to allow team members to stay connected and productive while on the go.,Boolean,Multiple
+gemini,Collaborate with others,Pricing,"The cost of the app, including the availability of free plans or trials, and the pricing structure for different subscription levels.",Float,Multiple
+gemini,Collaborate with others,Communication Features,"Includes features for real-time messaging, audio/video conferencing, and file sharing to facilitate seamless team communication.",Boolean[*],Multiple sources
+gemini,Collaborate with others,Project Management,"Offers tools for task management, project planning, progress tracking, and deadline management to ensure projects are completed efficiently and on time.",Boolean[*],Multiple sources
+gemini,Collaborate with others,Document Collaboration,"Enables real-time co-editing, version control, and document sharing, streamlining the collaborative creation and management of documents.",Boolean[*],Multiple sources
+gemini,Collaborate with others,Integration with Other Tools,"Seamlessly integrates with other business applications such as CRM systems, email, and file storage solutions to enhance workflow efficiency.",Text[*],Multiple sources
+gemini,Collaborate with others,User Interface,Features an intuitive and user-friendly interface that makes it easy for team members to adopt and use the tool effectively.,Text[1],Multiple sources
+gemini,Collaborate with others,Real-time Communication,"The ability to communicate with team members instantly through messaging, chat, voice, and video calls.",Boolean[1],Multiple
+gemini,Collaborate with others,File Sharing and Collaboration,"Enables users to easily share files, documents, and media with team members, with features for version control and collaborative editing.",Boolean[1],Multiple
+gemini,Collaborate with others,Task Management,"Provides tools for creating, assigning, and tracking tasks, setting deadlines, and monitoring progress.",Boolean[1],Multiple
+gemini,Collaborate with others,Project Management,"Offers features for planning, organizing, and managing projects, including Gantt charts, Kanban boards, and timeline views.",Boolean[1],Multiple
+gemini,Collaborate with others,Integrations,"Compatibility with other popular tools and platforms, such as Google Workspace, Microsoft 365, Slack, and other project management or CRM systems.",Text[*],Multiple
+gemini,Collaborate with others,User-Friendliness,"Ease of use and intuitive interface for all team members, regardless of their technical expertise.",Boolean[1],Multiple
+gemini,Collaborate with others,Customization,"The ability to tailor the app to specific team needs and workflows, including custom fields, views, and automations.",Boolean[1],Multiple
+gemini,Collaborate with others,Scalability,The capacity of the app to accommodate growing teams and increasing project complexity.,Boolean[1],Multiple
+gemini,Collaborate with others,Mobile Accessibility,"Availability of mobile apps for iOS and Android devices, ensuring team members can collaborate on the go.",Boolean[1],Multiple
+gemini,Collaborate with others,AI Integration,"AI-powered features that automate tasks, provide insights, and improve decision-making",Boolean[1],Multiple
+gemini,Collaborate with others,Real-time Communication,"Ability to communicate instantly through messaging, audio, and video calls, enabling quick feedback and decision-making.",Boolean[1],Multiple
+gemini,Collaborate with others,Task Management,"Features for creating, assigning, and tracking tasks, including setting deadlines, prioritizing tasks, and monitoring progress.",Boolean[1],Multiple
+gemini,Collaborate with others,File Sharing and Collaboration,"Securely share and collaborate on documents, presentations, and other files in real-time, with version control and access permissions.",Boolean[1],Multiple
+gemini,Collaborate with others,Project Management,"Tools for planning, organizing, and managing projects, including Gantt charts, timelines, and resource allocation.",Boolean[1],Multiple
+gemini,Collaborate with others,Integration with Other Apps,"Seamlessly integrates with other popular apps, such as Google Drive, Microsoft Office, and Salesforce, to streamline workflows and avoid app switching.",Boolean[1],Multiple
+gemini,Collaborate with others,User-Friendly Interface,Intuitive and easy-to-use interface that requires minimal training and encourages adoption among team members.,Boolean[1],Multiple
+gemini,Collaborate with others,Mobile Accessibility,"Mobile apps available for iOS and Android devices, enabling team members to collaborate on the go.",Boolean[1],Multiple
+gemini,Collaborate with others,Customization,"Ability to customize workflows, dashboards, and reports to suit the specific needs of the team and project.",Boolean[1],Multiple
+gemini,Collaborate with others,Whiteboarding,"Digital whiteboarding tools for brainstorming, ideation, and visual collaboration.",Boolean[1],Multiple
+gemini,Collaborate with others,AI Features,"Integration of AI to automate tasks, provide predictive insights, and improve workflow efficiency.",Boolean[1],Multiple
+gemini,Collaborate with others,Functionality,"The features the app provides to facilitate collaboration, including communication, file sharing, task management, and project management capabilities.",Text[*],multiple sources
+gemini,Collaborate with others,Ease of Use,How intuitive and user-friendly the app is for team members with varying technical skills.,Integer[1],multiple sources
+gemini,Collaborate with others,Integration,The ability of the app to connect and work seamlessly with other tools and platforms commonly used by teams.,Text[*],multiple sources
+gemini,Collaborate with others,Scalability,The app's capacity to accommodate the needs of growing teams and projects without compromising performance or usability.,Boolean[1],multiple sources
+gemini,Collaborate with others,Pricing,"The cost-effectiveness of the app, considering its features and the size of the team using it. Availability of free plans or trials.",Float[1],multiple sources
+gemini,Collaborate with others,Communication,"Ability to facilitate real-time and asynchronous communication among team members through messaging, audio, and video calls.",Boolean[1],"App description, user reviews"
+gemini,Collaborate with others,Task Management,"Features for organizing, assigning, and tracking tasks, deadlines, and progress.",Boolean[1],"App description, features list"
+gemini,Collaborate with others,File Sharing and Storage,"Capabilities for sharing documents, images, and other files, along with cloud storage for accessibility.",Boolean[1],"App description, features list"
+gemini,Collaborate with others,Integration with Other Tools,"Seamless integration with other commonly used apps and services (e.g., Google Drive, Microsoft Office, etc.).",Integer[*],"App description, integrations list"
+gemini,Collaborate with others,Real-time Collaboration,"Enables multiple users to work on the same document or project simultaneously, with instant updates and feedback.",Boolean[1],"App description, user reviews"
+gemini,Collaborate with others,Whiteboarding,"Provides a digital canvas for brainstorming, ideation, and visual planning.",Boolean[1],"App description, features list"
+gemini,Collaborate with others,Customization,The degree to which the tool can be tailored to fit specific team needs and workflows.,Text[1],"App description, user reviews"
+gemini,Collaborate with others,User Interface,Ease of use and intuitive design for all team members.,Text[1],"User reviews, expert reviews"
+gemini,Collaborate with others,Real-time Collaboration,Ability for multiple users to work on the same document or project simultaneously.,Boolean[1],Multiple Sources
+gemini,Collaborate with others,Task Management,"Features for creating, assigning, and tracking tasks within the app.",Boolean[1],Multiple Sources
+gemini,Collaborate with others,Communication Channels,"Availability of chat, video conferencing, or other communication tools within the app.",Text[*],Multiple Sources
+gemini,Collaborate with others,File Sharing and Storage,Ease of sharing and storing files within the app for team access.,Boolean[1],Multiple Sources
+gemini,Collaborate with others,Integrations,Number and quality of integrations with other popular apps and services.,Integer[*],Multiple Sources
+gemini,Collaborate with others,User Interface,How intuitive and easy to use the application is.,Text[1],Multiple Sources
+gemini,Collaborate with others,Customization,"Level of customization available for workflows, dashboards, and other features.",Text[1],Multiple Sources
+gemini,Collaborate with others,Cross-Platform Support,Availability and functionality of the app across different operating systems and devices.,Boolean[1],Multiple Sources
+gemini,Collaborate with others,Communication Channels,"Variety of communication methods (e.g., chat, video conferencing, direct messaging).","Text, Media[*]",Multiple sources
+gemini,Collaborate with others,Task Management,"Features for creating, assigning, and tracking tasks with deadlines and dependencies.","Text, Integer, Date",Multiple sources
+gemini,Collaborate with others,File Sharing,"Ability to easily share and manage files within the platform, with version control.",Media[*],Multiple sources
+gemini,Collaborate with others,Integrations,"Seamless integration with other business applications like email, calendar, and CRM systems.",Boolean,Multiple sources
+gemini,Collaborate with others,Customization,Allows modification of interface and functionalities to fit specific workflows.,Text[*],Multiple sources
+gemini,Collaborate with others,Real-time Collaboration,"Enable team members to communicate, share files, and work together in real-time.",Boolean,Multiple sources
+gemini,Collaborate with others,Ease of Use,Refers to how user-friendly and intuitive the software is.,Boolean,Multiple sources
+gemini,Collaborate with others,Real-time Collaboration Features,Availability of features that allow multiple users to work on the same document or project simultaneously.,Boolean[1],Multiple Sources
+gemini,Collaborate with others,Communication Channels,"The variety and effectiveness of communication methods offered within the app (e.g., chat, video conferencing, threaded conversations).",Text[*],Multiple Sources
+gemini,Collaborate with others,Task Management,"Tools for assigning tasks, setting deadlines, and tracking progress on collaborative projects.",Boolean[1],Multiple Sources
+gemini,Collaborate with others,File Sharing and Storage,The ease and security of sharing files and storing them within the app.,Boolean[1],Multiple Sources
+gemini,Collaborate with others,Integrations,The number and quality of integrations with other popular apps and services.,Integer[*],Multiple Sources
+gemini,Collaborate with others,User Interface (UI) and User Experience (UX),How intuitive and easy to use the app is for team members.,Text[1],Multiple Sources
+gemini,Collaborate with others,Customization,"The ability to customize workflows, dashboards, and notifications to fit the specific needs of the team.",Boolean[1],Multiple Sources
+gemini,Collaborate with others,Pricing and Scalability,Whether the app offers flexible pricing plans and can scale to accommodate the needs of growing teams.,Text[1],Multiple Sources
+gemini,Go Live,Audience Size,Estimated number of active users or viewers on the platform. A larger audience provides greater potential reach for live streams.,Integer[1],Various sources reporting platform user statistics
+gemini,Go Live,Monetization Options,"Methods available for creators to earn revenue, including ads, subscriptions, donations, virtual gifts, and pay-per-view.",Text[*],Various sources discussing monetization strategies for live streaming apps
+gemini,Go Live,Ease of Use,"Subjective assessment of how simple and intuitive the app is to use for both streaming and viewing, considering interface design and available features.",Text[1],App reviews and comparisons
+gemini,Go Live,Features,"Variety and quality of tools and functionalities offered, such as chat, alerts, overlays, multistreaming, and analytics.",Text[*],App descriptions and feature lists
+gemini,Go Live,Platform Compatibility,"Operating systems and devices supported by the app (e.g., iOS, Android, Windows, macOS).",Text[*],App store listings and developer information
+gemini,Go Live,Audience Size/Reach,The potential number of viewers that can be reached through the platform.,Integer[*],"Various sources depending on platform. e.g., Streams Charts, YouTube Analytics, Facebook Insights"
+gemini,Go Live,Monetization Options,"The availability and variety of methods for creators to earn revenue from their live streams (e.g., ads, subscriptions, donations).",Text[*],"Platform documentation, user reviews"
+gemini,Go Live,Ease of Use,How user-friendly the platform is for both beginners and experienced streamers.,Text[1],"User reviews, expert reviews"
+gemini,Go Live,Interactive Features,"The types of tools available for engaging with the audience in real-time (e.g., chat, polls, Q&A).",Text[*],"Platform documentation, expert reviews"
+gemini,Go Live,Content Category Suitability,The platform's primary focus and the types of content that perform best on it.,Text[*],"Platform analytics, expert reviews"
+gemini,Go Live,Streaming Quality,The maximum resolution and frame rate supported by the platform.,Text[1],"Platform documentation, user reviews"
+gemini,Go Live,Multi-Streaming Capabilities,The ability to stream to multiple platforms simultaneously.,Boolean[1],Platform documentation
+gemini,Go Live,DVR,The ability to record live streams.,Boolean[1],Platform documentation
+gemini,Go Live,Simultaneous Streams,Number of streams that can be watched at the same time.,Integer[1],Platform documentation
+gemini,Go Live,Audience Reach,The potential number of viewers that can be reached through the platform.,Integer[*],"Similarweb, Platform Statistics"
+gemini,Go Live,Video Quality,The maximum supported video resolution and frame rate for live streams.,Text[1],Platform Specifications
+gemini,Go Live,Monetization Options,The availability of features that allow creators to earn revenue from their live streams.,Boolean[*],"Platform Features, User Reviews"
+gemini,Go Live,Multi-Platform Streaming,The ability to simultaneously broadcast to multiple platforms.,Boolean[1],"Platform Specifications, User Manuals"
+gemini,Go Live,Real-Time Interaction,"The availability of features such as live chat, polls, and Q&A sessions.",Boolean[1],"Platform Features, User Reviews"
+gemini,Go Live,Mobile-Friendly,Responsiveness and usability of the platform on mobile devices.,Boolean[1],"User Reviews, App Store Ratings"
+gemini,Go Live,Ease of Use,The intuitiveness and simplicity of the platform's interface and features.,Text[1],"User Reviews, Expert Reviews"
+gemini,Go Live,Content Archiving,The ability to save and store live streams for later viewing.,Boolean[1],Platform Features
+gemini,Go Live,Analytics,The availability of data and insights on viewer behavior and stream performance.,Boolean[1],Platform Features
+gemini,Go Live,Security,"The measures taken to protect content and viewers, such as encryption and moderation tools.",Boolean[1],Platform Specifications
+gemini,Go Live,Audience Size/Reach,"Potential audience size and platform reach, considering active user base.",Integer[*],"Streams Charts, YouTube Live, Facebook Live, Instagram Live, TikTok Live"
+gemini,Go Live,Engagement Features,"Tools for interacting with viewers (chat, polls, reactions, gifts).",Text[*],"Twitch, YouTube, TikTok Live, Facebook Live"
+gemini,Go Live,Monetization Options,"Availability of monetization features (ads, subscriptions, tips, gifts).",Boolean[*],"YouTube Live, Twitch, TikTok Live, Bigo Live, Stream, JWP"
+gemini,Go Live,Ease of Use,"User-friendliness of the app, especially for beginners.",Text,"Facebook Live, Prism Live Studio, StreamYard, Go Live"
+gemini,Go Live,Multi-Platform Streaming,Ability to stream to multiple platforms simultaneously.,Boolean,"Restream, Prism Live Studio, Streamlabs"
+gemini,Go Live,Video Quality & Features,"Quality of video streaming, customization options, and special effects.",Text,"YouTube Live, Prism Live Studio, Camo Studio"
+gemini,Go Live,Professional/Business Features,"Features tailored for professional use (analytics, security, AI).",Boolean,"LinkedIn Live, Vimeo Livestream, Wowza, Dacast, IBM Video Streaming, JWP"
+gemini,Go Live,Gaming Focus,Primary focus on gaming content.,Boolean,"Twitch, Kick"
+gemini,Go Live,Community Engagement,Strength and activity of the platform's community.,Text,"Twitch, Facebook Gaming"
+gemini,Go Live,Mobile Optimization,Optimized for mobile streaming and viewing.,Boolean,"TikTok Live, Facebook, YouTube"
+gemini,Go Live,Pricing,"Pricing model, whether it is free, subscription-based, or has in-app purchases.",Text,Each App's respective app store page.
+gemini,Go Live,Platform Reach,Number of active users or potential audience on the platform.,Integer[*],"Various sources (e.g., official reports, third-party statistics)"
+gemini,Go Live,Content Focus,"Primary content type (e.g., gaming, general entertainment, music).",Text[1],"App Store/Play Store description, user reviews"
+gemini,Go Live,Monetization Options,"Availability of features like subscriptions, donations, ads.",Boolean[*],"App documentation, user testimonials"
+gemini,Go Live,Customization,"Ability to add overlays, alerts, and other graphics.",Boolean[*],"App features list, tutorials"
+gemini,Go Live,Multi-Streaming Support,Ability to stream to multiple platforms simultaneously.,Boolean[1],"App documentation, user reviews"
+gemini,Go Live,Audience Reach,Estimated number of active users on the platform.,Integer[*],Various sources based on platform analytics and reports
+gemini,Go Live,Monetization Options,"Availability of features like subscriptions, ads, donations, and virtual gifts.",Text[*],"Platform descriptions, user reviews"
+gemini,Go Live,Ease of Use,How simple it is to set up and start a live stream.,Text[1],"User reviews, app descriptions"
+gemini,Go Live,Mobile Optimization,Performance and features specific to mobile devices.,Boolean[1],"App descriptions, user reviews"
+gemini,Go Live,Community Engagement Tools,"Features available to interact with viewers (e.g., chat, polls, reactions).",Text[*],Platform descriptions
+gemini,Go Live,Audience Size,Potential reach based on the platform's user base.,Integer[*],various
+gemini,Go Live,Ease of Use,How user-friendly the app is for beginners and experienced streamers.,Text[1],"user reviews, app descriptions"
+gemini,Go Live,Features,"The range of tools and options available for customizing and enhancing live streams (e.g., overlays, chat moderation, analytics).",Text[*],"app descriptions, tech reviews"
+gemini,Go Live,Platform Compatibility,"Whether the app is available on iOS, Android, and/or desktop.",Text[*],"app stores, developer websites"
+gemini,Go Live,Monetization Options,"Opportunities for streamers to earn money through ads, subscriptions, donations, etc.",Boolean[1],"platform terms, user reports"
+gemini,Go Live,User Base,The number of active users on the platform. A larger user base provides a higher potential audience for live streams.,Integer,"Publicly available statistics, App store data"
+gemini,Go Live,Monetization Options,"The availability of features that allow creators to earn revenue from their live streams, such as subscriptions, donations, or ad revenue sharing.",Boolean,"App descriptions, User reviews"
+gemini,Go Live,Ease of Use,"The simplicity and intuitiveness of the app's interface, making it easy for creators to start and manage live streams.",Integer,"User reviews, Expert reviews"
+gemini,Go Live,Features,"Additional functionalities that enhance the live streaming experience, such as chat, filters, overlays, and analytics.",Text,"App descriptions, Expert reviews"
+gemini,Go Live,Platform Compatibility,"The number of platforms to which the app can stream (e.g., Twitch, YouTube, Facebook).",Integer,App description
+gemini,Keeping up with friends,Active Users,Number of active users on the platform; a higher number suggests a larger pool of friends to connect with.,Integer[*],"Various sources like Statista, company reports, and news articles"
+gemini,Keeping up with friends,Communication Features,"Variety of communication tools available, including text, voice, video calls, and file sharing, enriching interactions with friends.",Text[*],"App Store, Google Play Store descriptions"
+gemini,Keeping up with friends,Privacy & Security,"Level of privacy and security features such as end-to-end encryption, ensuring secure communication with friends.",Boolean,"App security policies, expert reviews"
+gemini,Keeping up with friends,Real-time Updates,"Ability to provide real-time updates on friends' activities and availability, facilitating spontaneous interactions.",Boolean,"App features, user reviews"
+gemini,Keeping up with friends,Multimedia Sharing,"Ease and variety of sharing multimedia content like photos, videos, and audio messages.",Media[*],"App reviews, user feedback"
+gemini,Keeping up with friends,Group Communication,"Capabilities for group chats and community engagement, allowing easy communication with multiple friends simultaneously.",Integer[*],"App specifications, user reviews"
+gemini,Keeping up with friends,Active User Base,Number of active users on the platform; higher user base allows for broader connection with friends.,"Integer, [1]","AppFigures, Statista"
+gemini,Keeping up with friends,Communication Features,"Variety and quality of communication tools available (e.g., text, voice, video, file sharing).","Text, [*]","App Store descriptions, Expert reviews"
+gemini,Keeping up with friends,Group Interaction Capabilities,"Features that facilitate group communication and activities (e.g., group chats, shared calendars, collaborative playlists).","Boolean, [1]","App reviews, Feature lists"
+gemini,Keeping up with friends,Privacy Controls,Options for managing privacy and controlling who can see your content and contact you.,"Boolean, [1]","App settings, Privacy policy"
+gemini,Keeping up with friends,Integration with Other Platforms,Ability to connect and share content with other social media platforms and services.,"Boolean, [1]","App descriptions, User reviews"
+gemini,Keeping up with friends,Active Users,Number of active users on the platform; a higher number indicates a larger potential audience.,Integer [1],"SOAX, AgileTech Vietnam"
+gemini,Keeping up with friends,Communication Features,"Variety of communication tools offered, such as text messaging, voice calls, video calls, and group chats.",Text [*],"AgileTech Vietnam, Firefly"
+gemini,Keeping up with friends,Content Sharing Options,"Range of content types that can be shared, including photos, videos, stories, and live streams.",Text [*],"St Christopher's Inns, Symptoms of Living"
+gemini,Keeping up with friends,Privacy Controls,"Options available for managing privacy, such as setting message expiration times and controlling who can view content.",Boolean [1],"SOAX, Symptoms of Living"
+gemini,Keeping up with friends,Unique Features,"Distinctive functionalities that differentiate the app from its competitors, such as ephemeral content, audio-first communication, or community-building tools.",Text [*],"Mashable, Hootsuite Blog"
+gemini,Keeping up with friends,User Base,Number of active users on the platform.,Integer [1],"Oberlo, Sensor Tower, AgileTech Vietnam"
+gemini,Keeping up with friends,Communication Features,"Variety of communication methods offered (text, voice, video, file sharing).",Text [*],"Sterling College, Croma Unboxed, Firefly - Sunrise Medical"
+gemini,Keeping up with friends,Privacy and Security,Level of encryption and privacy settings available.,Boolean [1],"Sterling College, Croma Unboxed"
+gemini,Keeping up with friends,Group Communication,"Features that facilitate group interactions (group chats, channels, events).",Boolean [1],Sterling College
+gemini,Keeping up with friends,Interest-Based Connections,Ability to connect with others based on shared interests and hobbies.,Boolean [1],"Moment App, UNBLND, Science of People"
+gemini,Keeping up with friends,Proximity-Based Connections,Ability to connect with people in your local area or neighborhood.,Boolean [1],"Nextdoor, Happn"
+gemini,Keeping up with friends,Unique Features,"Special or differentiating features (e.g., widgets, mini-podcasts, shared calendars, games).",Text [*],"MakeUseOf, Medicinal Media, ElderHub"
+gemini,Keeping up with friends,Platform Availability,"Availability on different operating systems (iOS, Android, Web).",Text [*],"Sterling College, Croma Unboxed"
+gemini,Keeping up with friends,Friendship Management Tools,"Tools that help manage and nurture friendships (reminders, call tracking).",Boolean [1],Trend Hunter
+gemini,Keeping up with friends,Active User Base,"Number of monthly active users on the platform, indicating popularity and reach.",Integer [1],"Sensor Tower, AgileTech Vietnam, SOAX"
+gemini,Keeping up with friends,Communication Features,"Types of communication supported (text, voice, video calls, media sharing) impacting user experience and versatility.",Text [*],"Lake Travis Community Library, Firefly - Sunrise Medical, Sunday Edit"
+gemini,Keeping up with friends,Group Interaction Capabilities,"Features for group chats, shared activities, and collaborative experiences, enhancing social bonding.",Boolean [1],"Wise, St Christopher's Inns, Firefly - Sunrise Medical"
+gemini,Keeping up with friends,Content Sharing Options,"Variety and ease of sharing different types of content (photos, videos, links, music) influencing user engagement.",Text [*],"AgileTech Vietnam, Mashable, Practical Ecommerce"
+gemini,Keeping up with friends,Real-Time Updates,"Ability to provide live or immediate updates on friends' activities, fostering a sense of presence and connection.",Boolean [1],"Symptoms of Living, Howbout"
+gemini,Keeping up with friends,Privacy Controls,"Options for managing privacy settings and content visibility, ensuring user comfort and safety.",Text [*],Monica
+gemini,Keeping up with friends,Integration with Other Platforms,"Seamless integration with other apps and services (e.g., calendars, music apps), streamlining user workflows.",Boolean [1],Soonly
+gemini,Keeping up with friends,Unique Features,"Distinctive functionalities like built-in games, location sharing, or audio-first communication that set the app apart.",Text [*],"St Christopher's Inns, Practical Ecommerce, Mashable"
+gemini,Keeping up with friends,User Interface,"Intuitive design and ease of use, leading to better user adoption and satisfaction.",Text [1],Lake Travis Community Library
+gemini,Keeping up with friends,Active User Base,Refers to the number of monthly active users on the platform. A larger user base increases the likelihood of connecting with more friends.,Integer[*],"SOAX, Doofinder"
+gemini,Keeping up with friends,Communication Features,"The variety of ways you can communicate (text, voice, video, stories, etc.) impacts how well you can keep in touch.",Text[*],"Oberlo, Sterling College"
+gemini,Keeping up with friends,Privacy Options,Privacy settings and encryption levels ensure secure conversations and control over who sees your content.,Boolean[*],"Sterling College, Oberlo"
+gemini,Keeping up with friends,Group Interaction,"The app's capabilities for group chats, events, and shared activities that help maintain connections.",Boolean[1],"The Sociable, Marmalade Trust"
+gemini,Keeping up with friends,Ease of Use,"How simple and intuitive the app is to use, which affects how likely people are to use it regularly.",Integer[1],"Elite Daily, Sterling College"
+gemini,Keeping up with friends,Real-Time Updates,Ability to see what friends are doing in real-time encourages more spontaneous interactions.,Boolean[1],"Elite Daily, Howbout"
+gemini,Keeping up with friends,Number of Active Users,The number of active users on the platform. This indicates the potential reach and likelihood of connecting with friends.,Integer[1],"Sensor Tower, AgileTech Vietnam, SOAX, Hootsuite Blog"
+gemini,Keeping up with friends,Communication Features,"The variety of communication methods available, such as text messaging, voice calls, video calls, and group chats.",Text[*],"Wise, Mashable, AgileTech Vietnam"
+gemini,Keeping up with friends,Interest-Based Communities,"Availability of groups or communities based on shared interests, hobbies, or activities.",Text[*],"Science of People, Fakir Fashion, Age Times"
+gemini,Keeping up with friends,User Friendliness,Ease of use and navigation within the app.,Text[1],"AgileTech Vietnam, Age Times"
+gemini,Keeping up with friends,Privacy Settings,The extent to which users can control their privacy and data sharing.,Boolean[1],SOAX
+gemini,Keeping up with friends,User Base,Number of active users on the platform. A larger user base increases the likelihood of connecting with more friends.,Integer[1],"Sensor Tower, AgileTech Vietnam, Hootsuite Blog"
+gemini,Keeping up with friends,Multimedia Sharing,"Ability to share photos, videos, and other media types, enhancing communication and engagement.",Boolean[1],"The Sociable, Firefly, Yabb Messenger"
+gemini,Keeping up with friends,Group Communication,"Features that facilitate group chats and calls, making it easier to connect with multiple friends simultaneously.",Boolean[1],"Wise, Yabb Messenger, Carlcare"
+gemini,Keeping up with friends,Video Calling,Availability of video call functionality for face-to-face interactions.,Boolean[1],"The Sociable, Firefly, Yabb Messenger"
+gemini,Keeping up with friends,Cross-Platform Availability,"Compatibility with multiple operating systems and devices, ensuring accessibility for all users.",Boolean[1],"Zapier, Yabb Messenger"
+gemini,Keeping up with friends,Privacy and Security,Security features such as end-to-end encryption to protect user data and conversations.,Boolean[1],"Carlcare, Zapier"
+gemini,Keeping up with friends,Unique Features,"Special functionalities like games, screen sharing, or location sharing that enhance the user experience.",Text[*],"The Sociable, Symptoms of Living, Beyond Instagram & Snapchat"
+gemini,Keeping up with friends,Active User Base,Number of monthly active users; larger user bases offer a higher chance of connecting with more friends.,Integer[*],"AppFigures, Sensor Tower, Company Reports"
+gemini,Keeping up with friends,Communication Modality,"Variety of communication methods supported (text, voice, video, file sharing) impacts richness of interaction.",Text[*],"App description, Expert reviews"
+gemini,Keeping up with friends,Privacy Controls,"Granularity of privacy settings, including audience selection and data encryption, affects user comfort and safety.",Text[*],"App description, Privacy policy"
+gemini,Keeping up with friends,Group Feature Functionality,"Tools for managing and engaging with groups, such as shared calendars, polls, or dedicated chat channels, enhance collaborative planning.",Boolean,"App description, Expert reviews"
+gemini,Keeping up with friends,Media Sharing Capability,"Ease and quality of sharing photos, videos, and other media directly within the app affects the vibrancy of content exchange.",Text[*],"App description, User reviews"
+gemini,Keeping up with friends,Active Users,Number of monthly active users on the platform. Higher is better for finding and connecting with more friends.,Integer [1],"Buffer, Exploding Topics"
+gemini,Keeping up with friends,Communication Features,"Variety of communication methods supported by the app (e.g., text, voice, video calls, direct messages, stories). More options provide flexibility.",Text [*],"App Store, Google Play Store"
+gemini,Keeping up with friends,Group Interaction,"Features that facilitate group communication and activities, such as group chats, shared calendars, and collaborative games.  Essential for staying connected with multiple friends at once.",Boolean [1],"The Sociable, Wise"
+gemini,Keeping up with friends,Content Sharing,"Ability to share various types of content (photos, videos, links, files) easily.  Enables richer and more engaging interactions.",Text [*],"App Store, Google Play Store"
+gemini,Keeping up with friends,Platform Compatibility,"Availability on multiple operating systems and devices (iOS, Android, web). Ensures accessibility for all friends, regardless of their device preferences.",Text [*],"App Store, Google Play Store"
+gemini,List items for sale,User Base,"The number of active users on the platform, indicating potential reach.",Integer[*],Various sources mentioning user statistics
+gemini,List items for sale,Fees,"Listing fees, commission fees, or transaction fees charged by the app.",Float[*],"App descriptions, Terms of Service"
+gemini,List items for sale,Category Focus,"The primary types of items the app is best suited for selling (e.g., clothing, electronics, handmade items).",Text[*],"App descriptions, user reviews"
+gemini,List items for sale,Shipping Options,"The shipping methods available for sellers (e.g., prepaid labels, seller-arranged shipping, local pickup).",Text[*],"App descriptions, user reviews"
+gemini,List items for sale,Local vs. National Reach,Whether the app primarily focuses on local sales or provides options for nationwide/global shipping.,Text[1],"App descriptions, user reviews"
+gemini,List items for sale,User Interface,Ease of use and navigation within the app.,Text[1],"User reviews, app store ratings"
+gemini,List items for sale,Safety Features,"Measures taken to ensure secure transactions and user verification (e.g., user ratings, verified profiles, safe meeting spots).",Text[*],"App descriptions, user reviews"
+gemini,List items for sale,User Base,"Number of active users on the platform, impacting potential reach.",Integer[*],"SimiCart, Greenlight, Shopify Australia, SaleHoo"
+gemini,List items for sale,Fees,"Listing fees, commission fees, and payment processing fees associated with selling on the platform.",Float[*],"SimiCart, Greenlight, Shopify Australia, SaleHoo, Supdropshipping"
+gemini,List items for sale,Target Audience,"The specific demographic or interest group the platform caters to (e.g., handmade items, fashion, electronics).",Text[*],"SimiCart, Greenlight, Shopify Australia, SaleHoo, AMZScout"
+gemini,List items for sale,Ease of Use,"The simplicity and intuitiveness of the app interface for listing items, managing sales, and communicating with buyers.",Boolean[*],"SimiCart, Greenlight, Shopify Australia, SaleHoo, Crosslist"
+gemini,List items for sale,Shipping Options,"The availability of integrated shipping tools, prepaid labels, and options for local pickup or nationwide shipping.",Boolean[*],"SimiCart, Greenlight, Shopify Australia, SaleHoo, Crosslist, Honeygain"
+gemini,List items for sale,Seller Tools,"Features and resources provided to sellers, such as analytics, marketing tools, and customer support.",Text[*],"SimiCart, Greenlight, Shopify Australia, SaleHoo, Crosslist, Billo"
+gemini,List items for sale,Payment Options,The variety of payment methods accepted and the speed of payouts to sellers.,Text[*],"SimiCart, Greenlight, Shopify Australia, SaleHoo, Mercari"
+gemini,List items for sale,Mobile Optimization,"How well the app functions on mobile devices, including listing creation, photo uploads, and order management.",Boolean[*],"SimiCart, Greenlight, Shopify Australia, SaleHoo"
+gemini,List items for sale,Customer Support,"The quality and availability of customer support for sellers, including response times and issue resolution.",Text[*],"SimiCart, Greenlight, Shopify Australia, SaleHoo"
+gemini,List items for sale,Safety and Security,"Measures taken to ensure safe transactions, verified user profiles, and protection against scams.",Boolean[*],"SimiCart, Greenlight, Shopify Australia, SaleHoo"
+gemini,List items for sale,User Base,"The number of active users on the platform, indicating potential reach.",Integer[*],Multiple
+gemini,List items for sale,Fees,"Listing fees, commission fees, or transaction fees associated with selling on the platform.",Float[*],Multiple
+gemini,List items for sale,Product Category Focus,"The primary types of items that are commonly sold on the app (e.g., clothing, electronics, handmade items).",Text[*],Multiple
+gemini,List items for sale,Shipping Options,"The availability of prepaid shipping labels, integrated shipping services, or options for local pickup.",Boolean[*],Multiple
+gemini,List items for sale,Target Audience,Demographics and interests of the app's primary user base.,Text[*],Multiple
+gemini,List items for sale,User Base,Number of active users on the platform. A larger user base increases the likelihood of a sale.,Integer[*],Multiple sources
+gemini,List items for sale,Fees,"Listing fees, commission fees, and payment processing fees charged by the app.",Float[*],Multiple sources
+gemini,List items for sale,Target Audience,"The specific demographic or type of buyer that the app caters to (e.g., fashion enthusiasts, collectors, local buyers).",Text[*],Multiple sources
+gemini,List items for sale,Ease of Use,"The simplicity and intuitiveness of the app's interface for listing items, managing inventory, and communicating with buyers.",Text[1],Multiple sources
+gemini,List items for sale,Shipping Options,"The availability of prepaid shipping labels, integrated shipping services, and options for local pickup.",Boolean[1],Multiple sources
+gemini,List items for sale,Payment Security,The security measures in place to protect sellers from fraud and ensure timely payments.,Boolean[1],Multiple sources
+gemini,List items for sale,Item categories,Types of the items that you can list on the app.,Text[*],Multiple sources
+gemini,List items for sale,Seller tools,"Tools available to sellers to help them manage their listings and sales (e.g., inventory management, analytics, marketing tools).",Text[*],Multiple sources
+gemini,List items for sale,User Base,Number of active users on the platform. A larger user base increases the potential for sales.,Integer[*],Multiple sources
+gemini,List items for sale,Fees,"The cost associated with listing and selling items on the app, including listing fees, commission fees, and transaction fees.",Float[*],Multiple sources
+gemini,List items for sale,Product Categories,"The variety of items that can be sold on the app (e.g., clothing, electronics, furniture, handmade items).",Text[*],Multiple sources
+gemini,List items for sale,Shipping Options,"The available methods for shipping items to buyers, including seller-arranged shipping, prepaid labels, and integration with shipping services.",Text[*],Multiple sources
+gemini,List items for sale,Ease of Use,"How simple and intuitive the app is to use for listing items, managing inventory, and communicating with buyers.",Text[1],Multiple sources
+gemini,List items for sale,Local vs. Global Reach,Whether the app primarily focuses on local sales or offers the ability to sell internationally.,Text[1],Multiple sources
+gemini,List items for sale,Seller Tools,"The features and resources available to sellers, such as listing templates, analytics, and advertising options.",Text[*],Multiple sources
+gemini,List items for sale,Community Focus,The extent to which the app fosters a sense of community among buyers and sellers through features like verified profiles and ratings systems.,Boolean[1],Multiple sources
+gemini,List items for sale,Payment Processing,The methods available for processing payments and how secure and efficient the payment process is.,Text[1],Multiple sources
+gemini,List items for sale,App Ratings,"The average rating of the app in app stores, reflecting user satisfaction and app quality.",Float[2],"App Store, Google Play Store"
+gemini,List items for sale,User Base,Number of active users on the platform. A larger user base increases the likelihood of sales.,Integer[*],Various sources
+gemini,List items for sale,Fees,"Listing fees, commission fees, or transaction fees charged by the app. Lower fees increase seller profit.",Float[*],Various sources
+gemini,List items for sale,Ease of Use,"How easy it is to list items, manage inventory, and communicate with buyers.",Text[1],"User reviews, app descriptions"
+gemini,List items for sale,Shipping Options,"Availability of prepaid shipping labels, integrated shipping options, and buyer-paid shipping.",Boolean[1],"App descriptions, seller information"
+gemini,List items for sale,Payment Options,Variety of payment methods accepted and ease of transferring funds to the seller.,Text[*],"App descriptions, user reviews"
+gemini,List items for sale,Target Audience,"Specific types of items or categories that the app is best suited for (e.g., fashion, electronics, handmade items).",Text[*],"App descriptions, user reviews"
+gemini,List items for sale,Global Reach,"The geographical reach of the platform, whether it's local, national, or international.",Text[1],App descriptions
+gemini,List items for sale,Seller Tools,"Availability of tools like analytics, listing templates, and automated listing renewals.",Boolean[1],App descriptions
+gemini,List items for sale,Cross-listing Capabilities,Ability to list items on multiple platforms simultaneously to increase visibility.,Boolean[1],App descriptions
+gemini,List items for sale,Specialization,"Whether the platform specializes in certain categories like luxury items, vintage goods, or electronics.",Boolean[1],App descriptions
+gemini,List items for sale,User Base,The number of active users on the platform. A larger user base increases the likelihood of a sale.,Integer[*],"Multiple sources, app stores"
+gemini,List items for sale,Fees,The commission or listing fees charged by the app. Lower fees result in higher profits for the seller.,Float[*],"App documentation, user reviews"
+gemini,List items for sale,Ease of Use,"How simple it is to list items, manage inventory, and communicate with buyers. A user-friendly interface saves time and effort.",Text[1],"User reviews, app store comments"
+gemini,List items for sale,Shipping Options,"The availability of integrated shipping solutions, prepaid labels, and options for local pickup.",Boolean[1],"App features list, official website"
+gemini,List items for sale,Payment Security,"The level of protection offered for transactions, including secure payment gateways and buyer/seller verification.",Boolean[1],"App security policies, user reviews"
+gemini,List items for sale,Category Specialization,"Whether the app focuses on a specific product category (e.g., clothing, electronics, handmade items), which can attract a more targeted audience.",Text[1],"App description, user demographics"
+gemini,List items for sale,Fees,The commission or listing fees associated with selling on the app.,Float[*],Multiple sources
+gemini,List items for sale,Target Audience,The primary demographic or interest group the app caters to.,Text[*],Multiple sources
+gemini,List items for sale,Item Categories,The range of product types that are commonly sold on the app.,Text[*],Multiple sources
+gemini,List items for sale,Shipping Options,Whether the app provides prepaid shipping labels or requires sellers to handle shipping independently.,Boolean,Multiple sources
+gemini,List items for sale,Payment Method,"How sellers receive payment for their sales (e.g., direct deposit, PayPal).",Text[*],Multiple sources
+gemini,List items for sale,User Base,The approximate number of active users on the platform.,Integer[1],Multiple sources
+gemini,List items for sale,Listing Simplicity,Ease of creating and managing product listings.,Text[1],Multiple sources
+gemini,List items for sale,Seller Protection,Policies and procedures in place to protect sellers from fraudulent buyers or transactions.,Text[1],Multiple sources
+gemini,List items for sale,User Base / Reach,The number of active users on the platform. A larger user base increases the chances of selling items quickly.,Integer[*],"AMZScout, SimiCart, SellerApp"
+gemini,List items for sale,Fees,"The costs associated with listing and selling items, including listing fees, commission fees, and transaction fees. Lower fees increase profitability.",Float[*],"AMZScout, Shopify New Zealand, Greenlight"
+gemini,List items for sale,Ease of Use,"How simple the app is to use, including listing creation, navigation, and communication with buyers. An intuitive interface saves time and effort.",Boolean[1],"AMZScout, Greenlight, Honeygain"
+gemini,List items for sale,Shipping Options,"The availability of integrated shipping labels, discounted shipping rates, and options for local pickup or delivery. Convenient shipping options attract more buyers.",Text[*],"AMZScout, Greenlight, Honeygain"
+gemini,List items for sale,Product Category Focus,"The app's specialization in specific product categories, such as fashion, electronics, or handmade goods. A focused category can attract a more targeted audience.",Text[1],"AMZScout, Shopify New Zealand, Greenlight"
+gemini,List items for sale,Fees,"The amount charged per listing or when an item sells, affecting profitability.",Float[*],Various sources
+gemini,List items for sale,Target Audience,"The specific group of buyers and sellers the app caters to (e.g., local, global, luxury, fashion, electronics).",Text[*],Various sources
+gemini,List items for sale,Ease of Use,"How simple the app is to navigate, list items, and complete transactions.",Text,Various sources
+gemini,List items for sale,Shipping Options,"The available choices for shipping items to buyers, including prepaid labels and independent shipping.",Text[*],Various sources
+gemini,List items for sale,Product Categories,"The range of items that can be sold on the app, from clothing to electronics to furniture.",Text[*],Various sources
+gemini,List items for sale,User Base,"The number of active users on the platform, influencing potential reach and sales volume.",Integer,Various sources
+gemini,Photo effects,Variety of Effects/Filters,"Number and types of available photo effects and filters (e.g., vintage, artistic, AI-powered).",Integer[*],"App Store, Google Play Store, Expert Reviews"
+gemini,Photo effects,Ease of Use,How intuitive and user-friendly the app is for applying effects.,Float[1],"User Reviews, Expert Reviews"
+gemini,Photo effects,Customization Options,The degree to which effects can be adjusted and personalized.,Boolean[1],"App Description, Expert Reviews"
+gemini,Photo effects,AI-Powered Features,Availability and quality of AI-driven effects and editing tools.,Boolean[1],"App Description, Expert Reviews"
+gemini,Photo effects,User Ratings & Reviews,Average user rating and number of reviews on app stores.,Float[1],"App Store, Google Play Store"
+gemini,Photo effects,Ease of Use,"Reflects how easy the app is to use for beginners and professionals, considering the user interface and learning curve.",Text[1],"User reviews, editor reviews"
+gemini,Photo effects,Feature Richness,"Number and quality of photo editing tools and effects available in the app (filters, AI tools, etc.).",Integer[1],"App description, editor reviews"
+gemini,Photo effects,Platform Availability,"Platforms on which the app is available (iOS, Android, Web, Windows, macOS).",Text[*],App description
+gemini,Photo effects,Pricing Model,"The cost of the app, whether free, subscription-based, or one-time purchase, including in-app purchases.",Text[1],"App store, in-app information"
+gemini,Photo effects,AI Integration,How well the app uses Artificial Intelligence to enhance or automate photo editing processes.,Boolean[1],"App description, editor reviews"
+gemini,Photo effects,Ease of Use,How intuitive and user-friendly the app is for both beginners and advanced users.,Integer[1],"User reviews, editor reviews"
+gemini,Photo effects,Variety of Effects/Filters,"The range and quality of photo effects, filters, and presets available.",Integer[*],"App description, editor reviews"
+gemini,Photo effects,Advanced Editing Tools,"Availability of advanced features such as layer editing, masking, healing, and RAW image support.",Boolean[1],"App description, editor reviews"
+gemini,Photo effects,AI-Powered Features,"The presence and effectiveness of AI-driven tools such as object removal, style transfer, and intelligent adjustments.",Boolean[1],"App description, editor reviews"
+gemini,Photo effects,Platform Availability,"Availability on both iOS and Android platforms, as well as web or desktop versions.",Text[*],App description
+gemini,Photo effects,Cost,"The app's pricing model, including whether it's free, subscription-based, or has in-app purchases.",Text[1],"App store, editor reviews"
+gemini,Photo effects,Variety of Effects,"The breadth and depth of available photo effects, including filters, overlays, and artistic styles.",Integer[*],"App Store, Google Play Store, Expert Reviews"
+gemini,Photo effects,Ease of Use,How intuitive and user-friendly the app is for applying and customizing photo effects.,Float[1],"User Reviews, Expert Reviews"
+gemini,Photo effects,Customization Options,The degree to which users can adjust and personalize effects to achieve their desired look.,Integer[1],"App Features, Expert Reviews"
+gemini,Photo effects,Performance and Stability,The app's speed and reliability in applying effects without crashing or lagging.,Float[1],"User Reviews, Performance Tests"
+gemini,Photo effects,Community and Sharing,"Availability of a built-in community for sharing and discovering new effects, as well as easy sharing to social media.",Boolean[1],"App Features, User Reviews"
+gemini,Photo effects,Number of Effects/Filters,Quantity and variety of available photo effects and filters.,Integer[*],"App Store, Google Play Store, Expert Reviews"
+gemini,Photo effects,User Interface (UI),How intuitive and user-friendly the app interface is for applying effects.,Text[1],"User Reviews, Expert Reviews"
+gemini,Photo effects,Customization Options,Extent to which effects can be customized and fine-tuned.,Boolean[1],"App Descriptions, Expert Reviews"
+gemini,Photo effects,Performance & Stability,App's speed and reliability when applying effects and editing photos.,Text[1],"User Reviews, App Store, Google Play Store"
+gemini,Photo effects,Social Sharing,Integration with social media platforms for easy sharing.,Boolean[1],App Descriptions
+gemini,Photo effects,Variety of Effects/Filters,The number and diversity of effects and filters available within the app to alter the look and feel of photos.,"Integer, [1,*]","App description, reviews"
+gemini,Photo effects,User Interface (UI),"How easy and intuitive the app is to use, including the placement of tools and navigation.","Text, [1]","Reviews, expert opinions"
+gemini,Photo effects,Customization Options,The degree to which effects and filters can be adjusted or modified to achieve a specific look.,"Boolean, [1]","App description, tutorials"
+gemini,Photo effects,Platform Availability,"The platforms (iOS, Android, Web) on which the app is available.","Text, [1]",App description
+gemini,Photo effects,Cost,"The pricing model of the app, including whether it is free, has in-app purchases, or requires a subscription.","Text, [1]","App store, reviews"
+gemini,Photo effects,Variety of Effects/Filters,"The number and types of photo effects and filters available, including artistic, vintage, and AI-powered options.",Integer[*],"App Store, Google Play Store, PCMag"
+gemini,Photo effects,User Interface (UI),The ease of use and intuitiveness of the app's interface for applying effects and editing photos.,Text[1],"Zapier, App Store reviews"
+gemini,Photo effects,Advanced Editing Tools,"Availability of advanced features like layers, curves, HSL adjustments, and masking for precise control over effects.",Boolean[1],"Zapier, PCMag"
+gemini,Photo effects,Community Features,"Presence of a social community for sharing photos, discovering new effects, and getting inspiration.",Boolean[1],"PCMag, VSCO"
+gemini,Photo effects,AI-Powered Features,"Integration of AI for automatic adjustments, object removal, style transfer, and other intelligent effects.",Boolean[1],"Imagen AI, Lensa, YouTube"
+gemini,Photo effects,Platform Availability,"Availability of the app on iOS, Android, and other platforms (e.g., desktop, web).",Text[*],"App Store, Google Play Store, PCMag"
+gemini,Photo effects,Pricing Model,"Cost of the app and its features, including free options, subscriptions, and in-app purchases.",Text[1],"Zapier, App Store, Google Play Store"
+gemini,Photo effects,File Format Support,"Compatibility with various image formats, including RAW, JPEG, and PNG.",Boolean[1],PCMag
+gemini,Photo effects,Customization,The ability to create and save custom filters and effects for consistent editing.,Boolean[1],Zapier
+gemini,Photo effects,Integration with other Apps,"The ability to directly share to social media, or integrate with other apps",Boolean[1],"App Store, Google Play Store"
+gemini,Photo effects,Ease of Use,The intuitiveness and simplicity of the app's interface and tools for creating photo effects.,Integer[1],"User reviews, app store descriptions"
+gemini,Photo effects,Variety of Effects,"The range and uniqueness of photo effects available, including filters, overlays, and artistic tools.",Integer[*],"App features list, expert reviews"
+gemini,Photo effects,Customization Options,The ability to adjust and personalize effects to achieve a desired look.,Boolean[1],"App settings, user feedback"
+gemini,Photo effects,Performance,"The app's speed, stability, and overall performance when applying effects and editing photos.",Float[1],"App store reviews, benchmark tests"
+gemini,Photo effects,Cost,"The app's pricing model, including free features and subscription costs for premium effects.",Float[1],"App store pricing, in-app purchase information"
+gemini,Photo effects,Variety of Effects/Filters,The range and uniqueness of photo effects and filters offered by the app.,Integer[*],"App Store, Google Play Store, Expert Reviews"
+gemini,Photo effects,Ease of Use,How intuitive and user-friendly the app interface is.,Float[1],"User Reviews, Personal Experience"
+gemini,Photo effects,Customization Options,The degree to which effects can be customized and fine-tuned.,Boolean[1],"App Description, Expert Reviews"
+gemini,Photo effects,Performance,App speed and stability when applying effects.,Float[1],"User Reviews, Personal Experience"
+gemini,Photo effects,Free vs. Paid Features,Balance between the features available in the free version and those locked behind a paywall.,Text[1],"App Store, Google Play Store"
+gemini,Photo effects,Number of Effects/Filters,The quantity of unique photo effects and filters available within the application.,Integer [1],"App Store, Google Play Store, App Documentation"
+gemini,Photo effects,Ease of Use,"Subjective assessment of how easy the app is to use, considering the complexity of features and user interface.",Text [1],"User Reviews, Expert Reviews"
+gemini,Photo effects,Customization Options,The degree to which effects and filters can be adjusted and personalized by the user.,Integer [1],"App Features List, Tutorials"
+gemini,Photo effects,Social Sharing Integration,The seamlessness and availability of sharing edited photos to social media platforms.,Boolean [1],"App Description, User Reviews"
+gemini,Photo effects,Advanced Editing Tools,"Availability of advanced tools like layers, masking, healing, and RAW support.",Boolean [1],"App Specifications, Expert Reviews"
+gemini,Play games,User Rating,Average rating given by users on app stores or gaming platforms. Reflects overall player satisfaction.,Float [1],"Google Play Store, Apple App Store, TapTap"
+gemini,Play games,Download Count,Number of times the game has been downloaded across all platforms. Indicates popularity and reach.,Integer [1],"AppFigures, AppMagic, Sensor Tower"
+gemini,Play games,Genre diversity,Different gameplay styles that the game offers,Text [*],Game description
+gemini,Play games,In-App Purchases,Presence and balance of in-app purchases. Games with fair monetization are preferred.,Boolean [1],"Google Play Store, Apple App Store, User Reviews"
+gemini,Play games,Graphics Quality,The visual fidelity and artistic style of the game.,Text[1],"User reviews, App Store descriptions, gaming blogs"
+gemini,Play games,Gameplay Mechanics,How engaging and innovative the core gameplay loop is.,Text[1],"Gaming blogs, User reviews, Playthrough videos"
+gemini,Play games,Replayability,The game's ability to keep players engaged over long periods.,Text[1],"User reviews, Gaming forums, App Store descriptions"
+gemini,Play games,Monetization Model,"How the game generates revenue (e.g., in-app purchases, ads) and its impact on gameplay.",Text[1],"App Store descriptions, User reviews, Gaming blogs"
+gemini,Play games,User Reviews & Ratings,Aggregated scores and feedback from players.,Float[1],"App Store, Google Play Store"
+gemini,Play games,User Rating,Average rating given by users on app stores.,Float [1],"Google Play Store, Apple App Store"
+gemini,Play games,Number of Downloads,Total number of times the app has been downloaded.,Integer [1],"Appmagic, Google Play Store, Apple App Store"
+gemini,Play games,Genre,The game's genre influences its appeal to different player tastes.,Text [1],"Google Play Store, Apple App Store"
+gemini,Play games,In-App Purchases,Availability of in-app purchases and their impact on gameplay.,Boolean,"Google Play Store, Apple App Store"
+gemini,Play games,Last Update,How recently the game was updated affects its freshness and bug fixes.,Date [1],"Google Play Store, Apple App Store"
+gemini,Play games,User Ratings,Average rating given by users in app stores.,Float [1],"Google Play Store, Apple App Store"
+gemini,Play games,Number of Downloads,Total number of times the app has been downloaded.,Integer [1],"Appfigures, AppMagic"
+gemini,Play games,Genre,The game's category or type of gameplay.,Text [1],"Google Play Store, Apple App Store"
+gemini,Play games,Monetization Model,"How the game generates revenue (e.g., free-to-play with in-app purchases, paid).",Text [1],"Google Play Store, Apple App Store, MiniReview"
+gemini,Play games,Multiplayer Capability,Ability to play with or against other players.,Boolean [1],"Game description, MiniReview"
+gemini,Play games,Graphics Quality,Visual fidelity and artistic style of the game.,Text,"User reviews, app store descriptions, game reviews"
+gemini,Play games,Gameplay Mechanics,"How engaging, innovative, and polished the game's core mechanics are.",Text,"Game reviews, gameplay videos, user feedback"
+gemini,Play games,Genre,The game's genre and its popularity among mobile gamers.,Text,"App store categories, game descriptions, market analysis"
+gemini,Play games,Monetization Model,"How the game implements in-app purchases or other monetization strategies (e.g., free-to-play, premium).",Text,"App store information, user reviews, game industry reports"
+gemini,Play games,User Reviews and Ratings,Overall sentiment and scores from user reviews on app stores.,Float [1],"App stores (e.g., Google Play Store, Apple App Store)"
+gemini,Play games,Popularity,Number of downloads and active users.,Integer[*],"App Store, Google Play Store"
+gemini,Play games,User Ratings,Average rating given by users in app stores.,Float[1],"App Store, Google Play Store"
+gemini,Play games,Revenue Generation,Total revenue generated through in-app purchases and ads.,Float[1],"AppMagic, Appfigures"
+gemini,Play games,Genre diversity,Includes a range of genres to cater to different player preferences.,Text[*],"App Store, Google Play Store"
+gemini,Play games,Game of the Year Awards,Accolades from major mobile gaming review platforms.,Boolean[1],"Google Play Store, The Game Awards"
+gemini,Play games,User Ratings,Average rating given by users in app stores.,Float[1],"Google Play Store, Apple App Store"
+gemini,Play games,Download Count,Number of times the app has been downloaded.,Integer[1],"Google Play Store, Apple App Store"
+gemini,Play games,In-App Purchases,Presence and intrusiveness of in-app purchases.,Boolean[1],"App Store Descriptions, User Reviews"
+gemini,Play games,Game Updates,Frequency of updates that improve game play.,Integer[1],App Store Update Logs
+gemini,Play games,Genre Popularity,How popular the game is in its associated genre.,Text[1],"Mobilegamer.biz, PocketGamer.biz"
+gemini,Play games,Number of Downloads,The total number of times the app has been downloaded across all platforms. A higher number indicates greater popularity and reach.,Integer,"Udonis Blog, Business of Apps"
+gemini,Play games,User Ratings and Reviews,"Average rating given by users, reflecting satisfaction and perceived quality of the app. Higher rating suggests a better user experience.",Float,"App Store, Google Play Store"
+gemini,Play games,Active User Base,The number of users actively playing the game on a daily or monthly basis. A larger active user base indicates higher engagement and community.,Integer,Apptopia
+gemini,Play games,Genre Diversity,"The variety of gameplay experiences offered, including action, puzzle, strategy, and simulation. A diverse genre selection appeals to a broader audience.",Text,"Pocket Tactics, PCMag"
+gemini,Play games,Update Frequency,"How often the app receives updates, including new content, bug fixes, and performance improvements. Regular updates indicate ongoing support and development.",Float,"App Store, Google Play Store"
+gemini,Play games,User Ratings,"Average rating given by users on app stores (e.g., Google Play Store, Apple App Store)",Float [1],"Google Play Store, Apple App Store"
+gemini,Play games,Number of Downloads,The total number of times the app has been downloaded.,Integer [1],"Google Play Store, 3rd party app analytics providers"
+gemini,Play games,Genre Popularity,"How popular the game's genre is, based on download numbers and active players.",Float [1],"Mobilegamer.biz, Internal analysis"
+gemini,Play games,Critic Reviews,Average rating assigned by professional game critics.,Float [1],"IGN, GameSpot, MiniReview"
+gemini,Play games,In-App Purchases,Presence and intrusiveness of in-app purchase options.,Boolean [1],"Google Play Store, Apple App Store, Game Reviews"
+gemini,Play games,Number of Downloads,The total number of times the app has been downloaded across all platforms. A higher number indicates greater popularity and reach.,Integer[*],"AppMagic, Google Play Store, Apple App Store"
+gemini,Play games,User Ratings,Average rating given by users. A higher rating reflects better user satisfaction.,Float[1],"Google Play Store, Apple App Store"
+gemini,Play games,Retention Rate,Percentage of users who continue to use the app over a period of time. A higher retention rate indicates greater user engagement.,Float[1],"AppMagic, Sensor Tower"
+gemini,Play games,Monetization Model,"The method by which the app generates revenue (e.g., in-app purchases, ads, subscriptions). A balanced approach enhances user experience.",Text[*],"App Store descriptions, user reviews"
+gemini,Play playlist on shuffle mode,Shuffle Algorithm Quality,"Evaluates how randomly and effectively the app shuffles songs, avoiding repetition and creating a diverse listening experience.",Text,"User reviews, app descriptions, expert reviews"
+gemini,Play playlist on shuffle mode,Playlist Management,"Assesses the app's ability to create, edit, and manage playlists, including options for sorting and shuffling.",Boolean,"App features list, user guides"
+gemini,Play playlist on shuffle mode,User Interface and Ease of Use,"Determines how intuitive and user-friendly the app is, focusing on the ease of navigating and using the shuffle function.",Text,"User reviews, app reviews"
+gemini,Play playlist on shuffle mode,Offline Playback,Indicates whether the app supports offline playback of shuffled playlists.,Boolean,"App features list, user reviews"
+gemini,Play playlist on shuffle mode,Supported Audio Formats,"Lists the variety of audio formats supported by the app, ensuring compatibility with different music libraries.",Text,App specifications
+gemini,Play playlist on shuffle mode,Customization Options,"Evaluates the availability of customization features such as themes, equalizers, and playback controls.",Boolean,"App features list, expert reviews"
+gemini,Play playlist on shuffle mode,Shuffle Algorithm Quality,How effectively the app shuffles playlists to avoid repeats or predictable patterns.,Text,"User reviews, app descriptions, expert opinions"
+gemini,Play playlist on shuffle mode,Playlist Size Handling,The app's ability to efficiently handle and shuffle large playlists (1000+ tracks).,Integer,"User reviews, performance tests"
+gemini,Play playlist on shuffle mode,Offline Playback,Whether the app supports offline playback of shuffled playlists.,Boolean,"App features, user reviews"
+gemini,Play playlist on shuffle mode,User Interface and Customization,The ease of use and available customization options for playlist shuffling.,Text,"User reviews, app reviews"
+gemini,Play playlist on shuffle mode,Additional Features,"Extra features like tag editing, gapless playback, and integration with cloud services.",Text,"App descriptions, feature lists"
+gemini,Play playlist on shuffle mode,Shuffle Algorithm Quality,"Evaluates the randomness and even distribution of songs when shuffle mode is enabled, avoiding frequent repetition or predictable patterns.",Text,"User reviews, app descriptions"
+gemini,Play playlist on shuffle mode,Playlist Management,"Assesses the ease of creating, editing, and managing playlists, including adding, removing, and reordering songs.",Integer,"App features list, user reviews"
+gemini,Play playlist on shuffle mode,Offline Playback,Determines the availability and ease of downloading songs for offline listening without an internet connection.,Boolean,"App description, user reviews"
+gemini,Play playlist on shuffle mode,User Interface,"Judges the app's design, ease of navigation, and overall user-friendliness.",Text,"User reviews, app reviews"
+gemini,Play playlist on shuffle mode,Supported Audio Formats,"Lists the variety of audio formats supported by the app (e.g., MP3, FLAC, AAC).",Text[*],App description
+gemini,Play playlist on shuffle mode,Shuffle Algorithm Quality,"Evaluates how effectively the app randomizes playlist playback, avoiding repetition and ensuring a diverse listening experience.",Text,"User reviews, app descriptions, expert opinions"
+gemini,Play playlist on shuffle mode,Playlist Management,"Assesses the ease and flexibility with which users can create, organize, and manage their playlists.",Text,"App features, user reviews"
+gemini,Play playlist on shuffle mode,Offline Playback,"Determines the availability and reliability of offline playback for downloaded songs, which is crucial for users in areas with limited connectivity.",Boolean,"App features, user reviews"
+gemini,Play playlist on shuffle mode,User Interface,"Considers the app's user interface in terms of intuitiveness, ease of navigation, and overall aesthetic appeal.",Text,"User reviews, expert reviews"
+gemini,Play playlist on shuffle mode,Audio Quality,"Measures the quality of audio playback, including support for high-resolution audio and options for audio customization.",Text,"App specifications, expert reviews"
+gemini,Play playlist on shuffle mode,Shuffle Algorithm Quality,"Evaluates how truly random the shuffle feature is, avoiding repetition and predictable patterns.",Text,"User reviews, app descriptions, expert opinions"
+gemini,Play playlist on shuffle mode,Playlist Size Handling,Assesses the app's ability to efficiently shuffle and play large playlists (1000+ tracks) without performance issues.,Integer,"User reviews, performance tests"
+gemini,Play playlist on shuffle mode,Offline Playback Support,"Indicates whether the app supports playing shuffled playlists offline, from locally stored music files.",Boolean,"App features, user reviews"
+gemini,Play playlist on shuffle mode,User Interface and Customization,"Considers the ease of use, visual appeal, and customization options available for playlist management and shuffle control.",Text,"App reviews, user feedback"
+gemini,Play playlist on shuffle mode,Format Support,"Evaluates the variety of audio formats supported by the app (e.g., MP3, FLAC, OGG, WAV).",Text,App specifications
+gemini,Play playlist on shuffle mode,Shuffle Algorithm Quality,Evaluates how well the app shuffles songs to avoid repetition and ensure randomness.,Text[1],"User reviews, app descriptions"
+gemini,Play playlist on shuffle mode,Playlist Management,"Assesses the ease of creating, managing, and shuffling playlists.",Boolean[1],"App features list, reviews"
+gemini,Play playlist on shuffle mode,Offline Playback,Determines if the app can play music offline.,Boolean[1],"App description, user reviews"
+gemini,Play playlist on shuffle mode,User Interface and Customization,Evaluates the ease of use and available customization options.,Text[1],"App reviews, app descriptions"
+gemini,Play playlist on shuffle mode,Format Support,"Checks for support for major audio formats (MP3, AAC, WAV, FLAC, etc.).",Text[*],App description
+gemini,Play playlist on shuffle mode,Shuffle Algorithm Quality,How well the app shuffles songs without repeating or playing similar artists consecutively.,"Text, [1]","User reviews, app descriptions"
+gemini,Play playlist on shuffle mode,Playlist Management,"The ability to create, manage, and shuffle playlists effectively.","Boolean, [1]","App features, user reviews"
+gemini,Play playlist on shuffle mode,User Interface,Ease of use and overall design of the app.,"Text, [1]","User reviews, app descriptions"
+gemini,Play playlist on shuffle mode,Offline Playback,Ability to play music files stored locally on the device.,"Boolean, [1]",App features
+gemini,Play playlist on shuffle mode,Customization Options,"The extent to which the app can be customized with themes, equalizers, and other settings.","Integer, [1]","App features, user reviews"
+gemini,Play playlist on shuffle mode,Shuffle Algorithm,The method used to randomize the playback order of songs in a playlist. It affects how random the shuffle feels to the user and whether songs repeat frequently.,Text[1],"Quora, Reddit"
+gemini,Play playlist on shuffle mode,Playlist Size Handling,"The ability of the app to efficiently manage and shuffle large playlists (1,000+ tracks) without performance issues or frequent repeats.",Boolean[1],Reddit
+gemini,Play playlist on shuffle mode,Offline Playback,The capability to play downloaded music files without an internet connection.,Boolean[1],"Google Play Store, App Store"
+gemini,Play playlist on shuffle mode,Smart Shuffle/Recommendations,The feature to mix personalized recommendations into the shuffled playlist based on the user's listening habits and preferences.,Boolean[1],"Spotify Support, Smart Shuffle Breathes New Life Into Your Spotify Playlists"
+gemini,Play playlist on shuffle mode,Library Management,"How well the app organizes and manages the user's music library, including sorting, tagging, and playlist creation.",Text[1],Google Play Store
+gemini,Play playlist on shuffle mode,User Interface,The design and ease of use of the app's interface.,Text[1],"Google Play Store, YouTube"
+gemini,Play playlist on shuffle mode,Format Support,"The range of audio file formats supported by the app (e.g., MP3, FLAC, WAV, AAC).",Text[*],Google Play Store
+gemini,Play playlist on shuffle mode,Ad-Free Option,Availability of a version of the app without advertisements.,Boolean[1],"How-To Geek, Yahoo"
+gemini,Play playlist on shuffle mode,Shuffle Algorithm Quality,How effectively the app shuffles songs to avoid repetition or predictable patterns.,Text,"User reviews, expert opinions"
+gemini,Play playlist on shuffle mode,Playlist Size Support,The app's ability to handle and shuffle large playlists without crashing or slowing down.,Integer,"App specifications, user reports"
+gemini,Play playlist on shuffle mode,Offline Playback,Ability to play shuffled playlists offline.,Boolean,"App features, user reviews"
+gemini,Play playlist on shuffle mode,User Interface,"Ease of use and navigation within the app, particularly regarding shuffle controls.",Text,"User reviews, app reviews"
+gemini,Play playlist on shuffle mode,Format Support,"The variety of audio formats supported by the app (e.g., MP3, FLAC, WAV).",Text,App specifications
+gemini,Rate movies,User Ratings,Allows users to rate movies on a defined scale.,Integer[1],Multiple
+gemini,Rate movies,Reviews,Enables users to write and read movie reviews.,Text[*],Multiple
+gemini,Rate movies,Watchlist,Provides a feature to create and manage a list of movies to watch.,Boolean[1],Multiple
+gemini,Rate movies,Community Features,Includes social networking aspects like following other users and commenting on reviews.,Boolean[1],Multiple
+gemini,Rate movies,Personalized Recommendations,Offers movie recommendations based on user ratings and preferences.,Boolean[1],Multiple
+gemini,Rate movies,External Ratings,"Aggregates ratings from other platforms like IMDb, Rotten Tomatoes, and Metacritic.",Float[*],Multiple
+gemini,Rate movies,Availability Tracking,Shows where a movie is available for streaming or purchase.,Text[*],Multiple
+gemini,Rate movies,User Interface and Experience,"How intuitive and user-friendly the app is, including navigation, search functionality, and overall design.",Text,"User reviews, app store descriptions, expert reviews"
+gemini,Rate movies,Community and Social Features,"Availability of social networking features such as sharing reviews, following other users, and participating in discussions.",Boolean,"App features list, user reviews, expert reviews"
+gemini,Rate movies,Rating System and Customization,"The granularity and flexibility of the rating system, including options for half-stars or detailed aspect-based ratings.",Text,"App descriptions, user reviews"
+gemini,Rate movies,Content Database,"The breadth and depth of the movie database, including information on cast, crew, trailers, and user reviews.",Integer,"App specifications, expert reviews"
+gemini,Rate movies,Personalized Recommendations,The accuracy and relevance of movie recommendations based on user ratings and preferences.,Boolean,"User reviews, app descriptions"
+gemini,Rate movies,User Ratings,Average rating provided by users. High average suggests better user satisfaction.,Float [1],"App Store, Google Play Store, Third-party review aggregators"
+gemini,Rate movies,Number of Ratings/Reviews,The total count of ratings and reviews. Higher count indicates broader user engagement and a more reliable average rating.,Integer [1],"App Store, Google Play Store, Third-party review aggregators"
+gemini,Rate movies,Critic Score,"Score assigned by professional movie critics, often aggregated from multiple sources.",Float [1],"Metacritic, Rotten Tomatoes, IMDb"
+gemini,Rate movies,Community Features,"Availability of social features like lists, friend following, and discussion forums.",Boolean [1],"App description, user reviews, expert reviews"
+gemini,Rate movies,Personalized Recommendations,Quality and accuracy of movie recommendations based on user's viewing history and preferences.,Text [1],"User reviews, expert reviews, app description"
+gemini,Rate movies,Content Coverage,"Breadth of movie database, including new releases, classics, and obscure titles.",Integer [1],"App description, database size (if available)"
+gemini,Rate movies,Ease of Use,Intuitiveness and simplicity of the app's interface and features.,Text [1],"User reviews, expert reviews"
+gemini,Rate movies,Platform Availability,Availability on iOS and Android platforms.,Boolean [1],"App Store, Google Play Store"
+gemini,Rate movies,User Ratings,Allows users to rate movies and see average user scores.,Float[*],"App Store, Google Play Store"
+gemini,Rate movies,Critic Reviews,Aggregates reviews from professional critics and provides an overall score.,Float[*],"Website, API"
+gemini,Rate movies,Watchlist,Enables users to create and manage a list of movies they want to watch.,Boolean,User Account
+gemini,Rate movies,Community Features,"Offers social networking aspects such as following friends, sharing reviews, and participating in discussions.",Boolean,User Account
+gemini,Rate movies,Personalized Recommendations,Provides movie recommendations based on user's viewing history and ratings.,Boolean,"User Account, Algorithm"
+gemini,Rate movies,Detailed Movie Information,"Offers comprehensive details about movies, including cast, crew, trailers, and trivia.",Text[*],API
+gemini,Rate movies,Streaming Availability,Indicates where movies are available for streaming.,Text[*],API
+gemini,Rate movies,Genre Filtering,Allows users to filter movies by genre.,Text[*],API
+gemini,Rate movies,User Ratings,Average rating provided by users of the app.,Float [1],"App Store, Google Play Store, Internal App Data"
+gemini,Rate movies,Critic Scores,Aggregate score from professional movie critics.,Float [1],"Rotten Tomatoes, Metacritic, IMDb"
+gemini,Rate movies,Community,Strength and activity of the app's community for discussions and reviews.,Integer [1],"App Store reviews, Reddit, Quora"
+gemini,Rate movies,Recommendation Accuracy,How well the app predicts movie preferences based on past ratings.,Float [1],"User reviews, Criticker"
+gemini,Rate movies,Content Variety,Breadth of movies and TV shows covered in the app.,Integer [1],App database size
+gemini,Rate movies,User Ratings,"Aggregated ratings from users, reflecting general audience opinion.","Float[*], Integer[*]","App Store, Google Play Store"
+gemini,Rate movies,Critic Reviews,Reviews and scores from professional movie critics.,"Text[*], Integer[*]","App's internal database, Metacritic, Rotten Tomatoes"
+gemini,Rate movies,Community Features,"Features that allow users to connect, discuss, and share movie opinions.",Boolean[1],"App description, user reviews"
+gemini,Rate movies,Recommendation Engine,Algorithm-driven movie suggestions based on user preferences and viewing history.,Boolean[1],"App's internal algorithm, user data"
+gemini,Rate movies,Watchlist,Ability to create and manage a list of movies to watch.,Boolean[1],"App description, user reviews"
+gemini,Rate movies,Movie Information,"Comprehensive details about movies, including cast, crew, synopsis, and trailers.","Text[*], Media[*]","IMDb, TMDB"
+gemini,Rate movies,Personalization,Level of customization and tailoring of the app experience to individual user tastes.,Boolean[1],"App settings, user reviews"
+gemini,Rate movies,Ease of Use,How intuitive and user-friendly the app interface is.,Text[1],"User reviews, app reviews"
+gemini,Rate movies,Cross-Platform Availability,Availability of the app on multiple operating systems and devices.,Boolean[1],"App Store, Google Play Store"
+gemini,Rate movies,Ticket Purchase,Ability to purchase movie tickets directly through the app.,Boolean[1],"App description, user reviews"
+gemini,Rate movies,User Ratings,"Aggregated scores and reviews from the general audience, reflecting overall public opinion.",Float[1],"IMDb, Letterboxd, Rotten Tomatoes"
+gemini,Rate movies,Critic Reviews,"Professional film critic scores and reviews, providing expert analysis and perspectives.",Float[1],"Rotten Tomatoes, Metacritic, IMDb"
+gemini,Rate movies,Watchlist Management,Ability to create and manage personalized lists of movies to watch.,Boolean[1],"IMDb, Letterboxd, MovieDiary"
+gemini,Rate movies,Personalized Recommendations,Suggestions for movies based on the user's viewing history and preferences.,Boolean[1],"IMDb, MovieDiary, YourNextFilm"
+gemini,Rate movies,Social Features,"Ability to connect with other users, share reviews, and follow their activity.",Boolean[1],"Letterboxd, Criticker, YourNextFilm"
+gemini,Rate movies,Streaming Service Integration,Links to streaming services where movies are available.,Boolean[1],"JustWatch, Google TV, Apple TV"
+gemini,Rate movies,In-depth Content,"Access detailed information about films and shows, including cast, crew, and trivia.",Boolean[1],"IMDb, Moviebase"
+gemini,Rate movies,Oscar Season Tracking,"Ability to track potential nominees, offering reviews that keep you in the loop.",Boolean[1],"IMDb, Moviebase"
+gemini,Rate movies,User Ratings,Average rating given by users of the app.,Float [1],"App Store, Google Play Store"
+gemini,Rate movies,Critic Score,Aggregate score from professional movie critics.,Float [1],"App's internal data, Metacritic, Rotten Tomatoes"
+gemini,Rate movies,Community,Size and engagement of the app's user community.,Integer [*],"App Store, Google Play Store, Reddit, Number of registered users"
+gemini,Rate movies,Content richness,"Availability of trailers, cast information, reviews, and related content.",Boolean [1],App's internal data
+gemini,Rate movies,Personalized recommendations,How well the app recommends movies based on user taste.,Boolean [1],"App's internal data, User reviews"
+gemini,Rate movies,User Ratings,Average rating provided by users for a movie.,Float[1],"App's internal database, APIs like TMDB, IMDb"
+gemini,Rate movies,Critic Scores,Aggregate score from professional movie critics.,Float[1],"Metacritic, Rotten Tomatoes, APIs"
+gemini,Rate movies,Number of Reviews,Total count of user and critic reviews available.,Integer[1],"App's database, APIs"
+gemini,Rate movies,Community Features,"Availability of social features like lists, reviews, and discussions.",Boolean[1],"App's feature list, user reviews"
+gemini,Rate movies,Personalized Recommendations,Algorithm-driven movie suggestions based on viewing history and preferences.,Boolean[1],"App description, user reviews"
+gemini,Rate movies,User Ratings,Average rating provided by users of the app/platform.,Float [1],"App Store, Google Play Store, Various Sources"
+gemini,Rate movies,Number of Ratings/Reviews,Total number of ratings and reviews an app has received. Higher numbers indicate broader user engagement.,Integer [1],"App Store, Google Play Store"
+gemini,Rate movies,Community,"Strength and activity of the user community (e.g., active forums, user lists, social features).",Boolean,"User reviews, app descriptions"
+gemini,Rate movies,Personalized Recommendations,Ability of the app to provide movie recommendations based on user ratings and preferences.,Boolean,"App description, user reviews"
+gemini,Rate movies,Comprehensive Information,"Availability of cast, crew, plot summaries, trailers, and other movie details.",Boolean,App description
+gemini,Rate movies,Watchlist Features,Ability to create and manage a watchlist of movies to watch.,Boolean,"App description, user reviews"
+gemini,Rate movies,Social Sharing,Functionality to share ratings and reviews on social media platforms.,Boolean,App description
+gemini,Rate movies,Critic Reviews,Integration of critic reviews and scores from various publications.,Boolean,App description
+gemini,Rate movies,Availability,"Platforms the app is available on (iOS, Android, Web).",Text [*],"App Store, Google Play Store"
+gemini,Rate movies,Ease of Use,How user-friendly and intuitive the app interface is.,Boolean,User reviews
+gemini,Search for offer on item,Price Comparison Accuracy,"Accuracy of price comparisons across multiple retailers, both online and in-store.",Float [1],"User reviews, app testing reports"
+gemini,Search for offer on item,Deal Coverage,"The breadth of deals and discounts covered, including coupons, promo codes, and cash-back offers.",Integer [*],"App description, user feedback"
+gemini,Search for offer on item,Price Drop Alerts,Effectiveness and customizability of price drop alert features.,Boolean [1],"App features list, user reviews"
+gemini,Search for offer on item,User Interface,Ease of use and navigation within the app.,Text [1],"App store reviews, user feedback"
+gemini,Search for offer on item,Barcode Scanning,Ability to scan barcodes for quick price comparisons while shopping in physical stores.,Boolean [1],App features list
+gemini,Search for offer on item,Cash Back Offers,Availability and value of cash-back rewards for purchases made through the app.,Float [*],"App description, user terms"
+gemini,Search for offer on item,Store Variety,Number of retailers included for comparison.,Integer [1],"App details, marketing material"
+gemini,Search for offer on item,Coupon Availability,Availability of coupons that are automatically applied.,Boolean [1],App details
+gemini,Search for offer on item,Price Comparison Accuracy,The app's ability to accurately compare prices across multiple retailers and product categories.,Float [1],"App Store Reviews, Google Play Store Reviews, independent reviews"
+gemini,Search for offer on item,Breadth of Retailer Coverage,The number of retailers and online stores included in the app's price comparison search.,Integer [*],"App description, independent reviews"
+gemini,Search for offer on item,Price Alert Functionality,Ability to set price alerts and receive notifications when the price of a desired item drops.,Boolean [1],"App features list, user reviews"
+gemini,Search for offer on item,Coupon and Discount Availability,"Availability of coupons, promo codes, and other discounts within the app.",Boolean [1],"App description, user reviews"
+gemini,Search for offer on item,User Interface and Experience,"Ease of use, navigation, and overall user-friendliness of the app.",Text [1],"App Store Reviews, Google Play Store Reviews, independent reviews"
+gemini,Search for offer on item,Barcode Scanning,Ability to scan barcodes of products in physical stores to compare prices online.,Boolean [1],App features list
+gemini,Search for offer on item,Cash Back Rewards,Availability of cash back rewards or rebates on purchases made through the app.,Boolean [1],"App description, independent reviews"
+gemini,Search for offer on item,Price Comparison,"Compares prices across multiple retailers, both online and local, to find the best deals for a specific item.",Boolean[1],Multiple sources
+gemini,Search for offer on item,Coupon Availability,Identifies and applies available coupons and promo codes for online and in-store purchases to maximize savings.,Boolean[1],Multiple sources
+gemini,Search for offer on item,Cash Back Rewards,Offers cash back or rebates on purchases made through the app or by submitting receipts after purchase.,Boolean[1],Multiple sources
+gemini,Search for offer on item,Barcode Scanning,Allows users to scan product barcodes to quickly compare prices and find deals.,Boolean[1],Multiple sources
+gemini,Search for offer on item,Price Drop Alerts,Notifies users when the price of a tracked item drops to a desired level.,Boolean[1],Multiple sources
+gemini,Search for offer on item,User Reviews,Provides access to product reviews from other customers to aid in purchase decisions.,Boolean[1],Multiple sources
+gemini,Search for offer on item,In-Store Deals,"Highlights local, in-store deals and offers based on the user's location.",Boolean[1],Multiple sources
+gemini,Search for offer on item,Price Comparison Accuracy,The degree to which the app provides accurate and up-to-date price comparisons across multiple retailers.,Float[1],"User reviews, independent testing"
+gemini,Search for offer on item,Breadth of Retailer Coverage,The number and variety of retailers and product categories the app searches for deals.,Integer[*],"App description, app features list"
+gemini,Search for offer on item,Deal Notification Frequency,How often the app updates and notifies users of new deals and price drops.,Text[1],"App settings, user reviews"
+gemini,Search for offer on item,User Interface and Experience,"The ease of navigation, clarity of information, and overall user-friendliness of the app.",Text[1],"User reviews, app store ratings"
+gemini,Search for offer on item,Customization Options,"The ability for users to set price alerts, customize deal preferences, and save favorite stores.",Boolean[*],"App settings, app features list"
+gemini,Search for offer on item,Price Comparison,Compares prices across different retailers for the same item.,Boolean[1],Multiple sources
+gemini,Search for offer on item,Coupon Availability,Availability of digital coupons for online and in-store use.,Boolean[1],Multiple sources
+gemini,Search for offer on item,Cashback Offers,Offers cashback on purchases made through the app.,Boolean[1],Multiple sources
+gemini,Search for offer on item,Deal Alerts,Sends notifications when the price of a tracked item drops.,Boolean[1],Multiple sources
+gemini,Search for offer on item,Barcode Scanner,Allows scanning barcodes to quickly find prices and deals.,Boolean[1],Multiple sources
+gemini,Search for offer on item,Breadth of Deals,The variety of deals and discounts available across different retailers and product categories.,Integer[*],"App Store, Google Play Store, Expert Reviews"
+gemini,Search for offer on item,User Ratings,"Average user rating from app stores, reflecting user satisfaction with the app's functionality and deal quality.",Float[1],"App Store, Google Play Store"
+gemini,Search for offer on item,Deal personalization,How well the app tailors deals to individual user preferences and shopping habits.,Boolean[1],"Expert Reviews, User Reviews"
+gemini,Search for offer on item,Ease of Use,The intuitiveness and simplicity of the app's interface and navigation.,Text[1],"User Reviews, Expert Reviews"
+gemini,Search for offer on item,Community Engagement,The level of user interaction and community-driven deal sharing within the app.,Integer[1],"App Store, Google Play Store, Expert Reviews"
+gemini,Search for offer on item,Price Comparison Accuracy,The ability of the app to accurately compare prices across multiple retailers.,Float [1],"User reviews, expert reviews, app store descriptions"
+gemini,Search for offer on item,Barcode Scanning,Availability and accuracy of barcode scanning feature for in-store price comparison.,Boolean [1],"App features list, expert reviews"
+gemini,Search for offer on item,Price Tracking & Alerts,Ability to track price changes over time and receive alerts when prices drop.,Boolean [1],"App features list, user reviews"
+gemini,Search for offer on item,Coupon Availability,Availability of coupons and promo codes within the app.,Boolean [1],"App features list, user reviews"
+gemini,Search for offer on item,Cashback Offers,Availability of cashback offers and rewards programs.,Boolean [1],"App features list, user reviews"
+gemini,Search for offer on item,User Interface,Ease of use and navigation within the app.,Text [1],"User reviews, expert reviews"
+gemini,Search for offer on item,Retailer Coverage,Number and variety of retailers included in the price comparison.,Integer [*],"App descriptions, expert reviews"
+gemini,Search for offer on item,Price Comparison Accuracy,Accuracy of price comparisons across multiple retailers and product categories.,Float [1],"User reviews, independent testing"
+gemini,Search for offer on item,Deal Coverage,"Breadth of deals and offers available, including coupons, discounts, and cashback opportunities.",Integer[*],"App description, user reviews"
+gemini,Search for offer on item,User Interface,"Ease of navigation, search functionality, and overall user experience.",Text [1],"User reviews, expert opinions"
+gemini,Search for offer on item,Price Tracking & Alerts,Ability to track prices and receive notifications when prices drop.,Boolean [1],"App features, user reviews"
+gemini,Search for offer on item,Barcode Scanning,Functionality to scan barcodes for quick price comparisons in physical stores.,Boolean [1],"App features, expert reviews"
+gemini,Search for offer on item,User Ratings,"Average rating given by users on app stores, reflecting user satisfaction.",Float[1],"Google Play Store, Apple App Store"
+gemini,Search for offer on item,Number of Downloads,"Total number of times the app has been downloaded, indicating popularity and reach.",Integer[1],"Google Play Store, Apple App Store"
+gemini,Search for offer on item,Variety of Retailers,The number of different stores and online retailers supported by the app.,Integer[1],"App description, user reviews"
+gemini,Search for offer on item,Deal Types,"Types of deals offered (e.g., cashback, coupons, discounts).",Text[*],"App description, user reviews"
+gemini,Search for offer on item,Ease of Use,Subjective assessment of how user-friendly the app interface is.,Text[1],"User reviews, expert reviews"
+gemini,Search for offer on item,Price Comparison,Compares prices across multiple retailers to find the best deals on a specific item.,Boolean[1],"App Description, User Reviews"
+gemini,Search for offer on item,Coupon Availability,Provides access to digital coupons and promo codes for additional savings.,Boolean[1],"App Description, App Features"
+gemini,Search for offer on item,Cash Back Rewards,Offers cash back on purchases made through the app.,Boolean[1],"App Description, User Reviews"
+gemini,Search for offer on item,Barcode Scanning,Allows users to scan barcodes in-store to compare prices instantly.,Boolean[1],"App Features, App Description"
+gemini,Search for offer on item,User Ratings,Reflects user satisfaction and app performance based on available reviews.,Float[1],"App Store, Google Play Store"
+gemini,Send files,File Size Limit,Maximum file size allowed for transfer in the free tier.,Float[1],"App Store, Google Play Store, Tom's Guide"
+gemini,Send files,Storage Space (Free Tier),Amount of free storage space offered by the app.,Float[1],"Tom's Guide, Google Drive Review"
+gemini,Send files,Security Features,"Security measures implemented by the app, such as encryption, password protection, and two-factor authentication.",Text[*],"Filestage, The Digital Project Manager"
+gemini,Send files,Platform Availability,"Platforms the app is available on (e.g., iOS, Android, Windows, macOS, Web).",Text[*],"App Store, Google Play Store, Send Anywhere"
+gemini,Send files,Ease of Use,How user-friendly and intuitive the app interface is.,Text[1],"Tom's Guide, Google Drive Review, Filestage"
+gemini,Send files,Security,Level of encryption and security features implemented to protect files during transfer and storage.,Text,Multiple sources
+gemini,Send files,Ease of Use,"The intuitiveness and simplicity of the app's interface, making it easy for users to share files.",Text,Multiple sources
+gemini,Send files,File Size Limit,"Maximum file size supported for transfer, impacting the ability to share large files such as videos.",Integer,Multiple sources
+gemini,Send files,Cross-Platform Compatibility,Ability to transfer files between different operating systems and devices.,Boolean,Multiple sources
+gemini,Send files,Speed and Efficiency,How quickly and efficiently the app can upload and share files.,Text,UPDF
+gemini,Send files,Integration,Compatibility with other apps and services.,Text,Multiple sources
+gemini,Send files,Pricing,"The cost of using the app, including free tiers and subscription options.",Text,Multiple sources
+gemini,Send files,File Size Limit,"Maximum file size supported for transfer, impacting the ability to send large files.",Float[1],"App Store, Google Play Store, Product Documentation"
+gemini,Send files,Security,"Security measures employed, including encryption and password protection, to ensure secure file transfer.",Text[*],"App descriptions, Security audits, User reviews"
+gemini,Send files,Cross-Platform Compatibility,"Compatibility with different operating systems (iOS, Android, Windows, macOS, Linux) for versatile file sharing.",Boolean[1],"App specifications, User reviews, Developer information"
+gemini,Send files,Ease of Use,User-friendliness of the interface and simplicity of the file transfer process.,Text[1],"User reviews, Expert reviews, App Store feedback"
+gemini,Send files,Transfer Speed,"Speed of file transfer, especially for large files, affecting efficiency.",Float[1],"Review websites, User feedback, App testing"
+gemini,Send files,Offline Capability,"Ability to transfer files without an internet connection, useful in areas with limited connectivity.",Boolean[1],"App descriptions, User reviews, Developer information"
+gemini,Send files,Free Storage,"Amount of free storage offered by the app, relevant for cloud-based solutions.",Integer[1],"App specifications, Pricing plans, Product details"
+gemini,Send files,File Size Limit,Maximum file size supported by the app.,Text[1],"vendor website, app documentation"
+gemini,Send files,Platforms Supported,"Operating systems and devices the app is compatible with (e.g., Android, iOS, Windows, macOS, web).",Text[*],"app store descriptions, vendor website"
+gemini,Send files,Security Features,"Security measures implemented by the app, such as encryption, password protection, and two-factor authentication.",Text[*],"vendor website, security audits"
+gemini,Send files,Ease of Use,Subjective assessment of the app's user-friendliness and intuitiveness of the interface.,Text[1],"user reviews, expert reviews"
+gemini,Send files,Free Storage,Amount of free storage offered by the app (if applicable).,Integer[1],"vendor website, app description"
+gemini,Send files,File Size Limit (Free Tier),Maximum file size that can be sent or shared without a paid subscription.,Float[1],"App specifications, vendor website"
+gemini,Send files,Storage Space (Free Tier),Amount of cloud storage provided for free.,Float[1],"App specifications, vendor website"
+gemini,Send files,Security Features,"Security measures implemented to protect files during transfer and storage (e.g., encryption, password protection).",Text[*],"App documentation, security audits"
+gemini,Send files,Ease of Use,"How user-friendly the app is, considering interface, navigation, and sharing process.",Text[1],"User reviews, expert reviews"
+gemini,Send files,Platform Compatibility,"Platforms the app supports (e.g., Windows, macOS, iOS, Android, web).",Text[*],"App description, vendor website"
+gemini,Send files,File Size Limit,Maximum file size that can be transferred.,Float[1],"vendor website, reviews"
+gemini,Send files,Security,Security measures employed such as encryption.,Text[*],"vendor website, reviews"
+gemini,Send files,Storage Space,Amount of storage space available for file sharing.,Integer[1],"vendor website, reviews"
+gemini,Send files,Ease of Use,How user-friendly the app is for file sharing.,Text[1],"user reviews, expert reviews"
+gemini,Send files,Platform Compatibility,"Platforms on which the app is available (e.g., iOS, Android, Windows, macOS).",Text[*],"vendor website, app store descriptions"
+gemini,Send files,File Size Limit,Maximum size of files that can be sent or shared.,"Float, [1]","Product Specifications, Reviews"
+gemini,Send files,Security,"Security measures implemented to protect files during transfer and storage, including encryption and password protection.","Text, [*]","Product Specifications, Security Audits, User Reviews"
+gemini,Send files,Ease of Use,"How easy the app is to use, including the user interface and setup process.","Text, [1]","User Reviews, Expert Reviews"
+gemini,Send files,Platform Compatibility,The range of operating systems and devices that the app supports.,"Text, [*]","Product Specifications, App Store Listings"
+gemini,Send files,Transfer Speed,The speed at which files are transferred between devices or to the cloud.,"Float, [1]","User Reviews, Expert Reviews"
+gemini,Send files,Free Storage,Amount of free storage offered by the app.,"Integer, [1]",Product Specifications
+gemini,Send files,File Size Limit,Maximum file size that can be transferred using the app.,"Float, [1]","App Store, Google Play Store, Vendor Website"
+gemini,Send files,Security,"Security measures implemented by the app to protect files during transfer and storage, including encryption and password protection.","Text, [*]","Vendor Website, Security Audits"
+gemini,Send files,Ease of Use,How intuitive and user-friendly the app is for sending and receiving files.,"Text, [1]","User Reviews, Expert Reviews"
+gemini,Send files,Storage Capacity,"Amount of storage space offered by the app, both free and paid.","Float, [1]","Vendor Website, App Store, Google Play Store"
+gemini,Send files,Platform Compatibility,The range of operating systems and devices supported by the app.,"Text, [*]","App Store, Google Play Store, Vendor Website"
+gemini,Send files,Speed,The speed at which files are transferred using the app.,"Text, [1]","User Reviews, Expert Reviews"
+gemini,Send files,Cost,"The pricing structure of the app, including free and paid options.","Text, [1]","Vendor Website, App Store, Google Play Store"
+gemini,Send files,Storage Capacity,Amount of free and paid storage available for files.,Text,Multiple sources
+gemini,Send files,Security,Level of encryption and security measures implemented to protect files during transfer and storage.,Text,Multiple sources
+gemini,Send files,Ease of Use,How user-friendly and intuitive the app interface and file-sharing process are.,Text,Multiple sources
+gemini,Send files,Platform Compatibility,The range of operating systems and devices the app supports.,Text,Multiple sources
+gemini,Send files,File Size Limit,Maximum size of files that can be transferred or shared.,Text,Multiple sources
+gemini,Send files,Transfer Speed,The speed at which files are transferred between devices or to the cloud.,Text,Multiple sources
+gemini,Send files,Cost,"The pricing structure of the app, including free and paid plans.",Text,Multiple sources
+gemini,Send files,Collaboration Features,"Tools and functionalities for team collaboration, such as commenting, version control, and real-time editing.",Text,Multiple sources
+gemini,Send files,Additional Features,Unique or standout features that enhance the file-sharing experience.,Text,Multiple sources
+gemini,Send files,File Size Limit,"Maximum file size allowed for transfer, impacting the ability to share large media files or documents.",Float[1],Multiple Sources
+gemini,Send files,Security,"Security measures, including encryption, password protection, and two-factor authentication, ensure data privacy during transfer.",Boolean[*],Multiple Sources
+gemini,Send files,Ease of Use,"Intuitive interface and simple transfer process contribute to user-friendliness, especially for non-technical users.",Boolean[1],Multiple Sources
+gemini,Send files,Platform Compatibility,"Compatibility with various operating systems (Windows, macOS, iOS, Android) ensures accessibility across different devices.",Text[*],Multiple Sources
+gemini,Send files,Free Storage,"Amount of free storage available for storing and sharing files, affecting the overall cost and convenience.",Integer[1],Multiple Sources
+gemini,Watch streams,Content Variety,"The breadth of content available, including live sports, gaming, movies, TV shows, and original content.",Text[*],Various sources
+gemini,Watch streams,Streaming Quality,"Resolution and frame rate of the streams, including support for 1080p/60fps and 4K.",Text,"PCMag, Engadget"
+gemini,Watch streams,Device Compatibility,"Availability of the app across various platforms, including phones, tablets, web browsers, gaming consoles, and media streaming devices.",Text[*],PCMag
+gemini,Watch streams,Community Engagement,"Features that facilitate interaction between streamers and viewers, such as live chats, polls, and channel points.",Text[*],"Esports Charts, Twitch Help"
+gemini,Watch streams,Monetization Options,"Availability of monetization programs for streamers, including subscriptions, ads, and donations.",Text[*],Esports Charts
+gemini,Watch streams,Sports Coverage,"Specific sports content offered, including live games, replays, and exclusive coverage.",Text[*],"PCMag, FloSports"
+gemini,Watch streams,User Interface,The ease of navigation and overall user-friendliness of the app.,Text,CNET
+gemini,Watch streams,Price,Monthly subscription cost and available free trials.,Float,"PCMag, CNET, TROYPOINT"
+gemini,Watch streams,DVR Features,Availability and robustness of DVR features for recording live streams.,Boolean,"PCMag, CNET"
+gemini,Watch streams,Esports Focus,"The platform's emphasis on esports content, including tournaments and dedicated channels.",Boolean,"Esports Charts, Movavi Video Editor"
+gemini,Watch streams,Content Variety,"The diversity of streaming content available, including live streams, movies, TV shows, and user-generated content.",Text[*],"App Store, Google Play Store, Expert Reviews"
+gemini,Watch streams,User Interface and Experience,"The ease of navigation, search functionality, and overall user-friendliness of the app.",Float[1],"User Reviews, Expert Reviews"
+gemini,Watch streams,Streaming Quality,"The resolution, stability, and buffering frequency of the streamed video.",Text[1],"User Reviews, App Specifications"
+gemini,Watch streams,Community and Interaction,"The level of community engagement, interactive features like chat, and opportunities for content creators and viewers to connect.",Boolean[1],"App Features, User Reviews"
+gemini,Watch streams,Device Compatibility,"The range of devices (smartphones, tablets, smart TVs, etc.) that the app supports.",Text[*],"App Specifications, Google Play Store, App Store"
+gemini,Watch streams,Content Variety,"Diversity of available content, including gaming, vlogging, music, and more.",Text[*],"App Store, Google Play Store, Reviews"
+gemini,Watch streams,User Engagement Features,"Availability of features like live chat, emotes, virtual gifts, and fan groups.",Text[*],"App Store, Google Play Store, Reviews"
+gemini,Watch streams,Streaming Quality,Supported resolution and frame rate for live streams.,Text,"Reviews, Technical Specifications"
+gemini,Watch streams,Platform Availability,"Compatibility with various devices, including smartphones, tablets, smart TVs, and streaming media players.",Text[*],"App Store, Google Play Store, Reviews"
+gemini,Watch streams,Monetization Options,"Opportunities for content creators to earn revenue through virtual gifts, subscriptions, or advertising.",Text[*],"App Store, Google Play Store, Reviews"
+gemini,Watch streams,Content Variety,"Range of content available, including gaming, creative, and IRL streams.",Text[*],Multiple sources
+gemini,Watch streams,Community Size,Active user base and engagement levels.,Integer[1],Multiple sources
+gemini,Watch streams,Monetization Options,"Availability of subscriptions, donations, ads, and other revenue streams for streamers.",Text[*],Multiple sources
+gemini,Watch streams,Platform Features,"Tools for moderation, viewer interaction, stream customization, and analytics.",Text[*],Multiple sources
+gemini,Watch streams,Mobile Streaming Capabilities,Functionality and ease of use for streaming from mobile devices.,Boolean[1],Multiple sources
+gemini,Watch streams,Content Variety,"Breadth of streaming categories available (e.g., gaming, music, creative, IRL).",Text[*],Multiple Sources
+gemini,Watch streams,Community Size and Engagement,"Active user base, chat engagement, and community features.",Integer,Multiple Sources
+gemini,Watch streams,Monetization Options,"Availability of subscriptions, donations, ads, and other revenue streams for streamers.",Text[*],Multiple Sources
+gemini,Watch streams,Platform Features,"Unique tools and functionalities offered to streamers and viewers (e.g., interactive elements, overlays, analytics).",Text[*],Multiple Sources
+gemini,Watch streams,Mobile Streaming Capabilities,Functionality and ease of use for streaming directly from mobile devices.,Boolean,Multiple Sources
+gemini,Watch streams,Audience Size,Estimated number of active users on the platform.,Integer,"Various sources, including platform statistics and third-party analytics."
+gemini,Watch streams,Content Focus,Primary type of content streamed on the platform.,Text,"Platform descriptions, user reviews."
+gemini,Watch streams,Monetization Options,Ways streamers can earn revenue on the platform.,Text,"Platform documentation, user reports."
+gemini,Watch streams,Ease of Use,Intuitiveness and simplicity of the app's interface and streaming setup.,Text,"User reviews, app store ratings."
+gemini,Watch streams,Mobile Streaming Capabilities,Features and performance of the app when streaming directly from a mobile device.,Boolean,"App descriptions, user reviews."
+gemini,Watch streams,Content Variety & Focus,"The range of content available (gaming, music, general entertainment, etc.) and the app's primary focus.",Text[*],"Expert reviews, user feedback, app descriptions"
+gemini,Watch streams,Audience Size & Engagement,"The typical viewership and the level of interaction features offered (chat, polls, reactions).","Integer, Text","App analytics, user reviews, community forums"
+gemini,Watch streams,Streaming Quality & Reliability,"The resolution and stability of streams, and the app's ability to handle high traffic.","Float, Boolean","User reviews, tech blogs, app specifications"
+gemini,Watch streams,Monetization Options for Streamers,"The availability of tools for streamers to earn revenue (subscriptions, donations, ads).","Boolean, Text","App features, streamer forums, app documentation"
+gemini,Watch streams,Platform Accessibility,"Availability on different devices and operating systems (iOS, Android, Web).",Text[*],"App Store listings, website information"
+gemini,Watch streams,Community Features,"The strength of community features such as channels, groups, and events.",Text[*],"App descriptions, user reviews"
+gemini,Watch streams,Content Variety,"Range of content available, including live streams, movies, TV shows, and user-generated content.",Text[*],"App Store descriptions, user reviews, expert reviews"
+gemini,Watch streams,Streaming Quality,"Resolution and stability of streams, including support for HD and 4K.",Text[1],"User reviews, expert reviews, app specifications"
+gemini,Watch streams,User Interface,"Ease of navigation, search functionality, and overall user experience.",Text[1],"User reviews, expert reviews"
+gemini,Watch streams,Features,"Unique features such as live chat, interactive elements, offline viewing, and social sharing.",Text[*],"App Store descriptions, expert reviews"
+gemini,Watch streams,Cost,"Subscription fees, in-app purchases, and availability of free content.",Float[1],"App Store pricing, official website"
+gemini,Watch streams,User Ratings,"Aggregated star ratings and review sentiments from app stores (e.g., Apple App Store, Google Play Store) and user reviews on platforms like Reddit.",Float [1],"App Store, Google Play Store, Reddit"
+gemini,Watch streams,Content Variety,"The breadth and depth of streaming content available, including live streams, pre-recorded videos, movies, TV shows, and specific categories like gaming, sports, or music.",Text [*],"App descriptions, user reviews, expert reviews"
+gemini,Watch streams,Platform Features,"Available features within the app that enhance the viewing experience, such as live chat, monetization options for streamers, community engagement tools, and cross-platform compatibility.",Text [*],"App descriptions, expert reviews, user reviews"
+gemini,Watch streams,Age Rating & Parental Controls,The app's age rating and availability of parental control features to ensure safe viewing for children and families.,Integer [1],"App Store, Google Play Store, Internet Matters"
+gemini,Watch streams,Ad Frequency,The number of advertisements displayed during streams,Integer [1],User reviews
+gemini,Watch streams,Content Variety,"Range of available streams, including live and on-demand content.",Text[*],"Various app reviews, expert opinions"
+gemini,Watch streams,User Engagement Features,"Tools for interacting with streamers and other viewers (chat, emotes, virtual gifts).",Boolean,"App descriptions, user reviews"
+gemini,Watch streams,Platform Support,Compatibility with different devices and operating systems.,Text[*],"App specifications, user feedback"
+gemini,Watch streams,Subscription Cost,Monthly or annual fee for accessing premium content or ad-free viewing.,Float[1],"App pricing details, subscription plans"
+gemini,Watch streams,Ad Frequency,How often ads are displayed during streams.,Integer,"User reviews, free tier descriptions"
+gemini,Write notes,Features & Functionality,"The range and depth of features offered, including text formatting, multimedia support, task management, and organizational tools (folders, tags, etc.).",Text[*],"App Store, G2, User Reviews"
+gemini,Write notes,Ease of Use,"The intuitiveness and simplicity of the user interface, making it easy to add, edit, organize, and retrieve notes quickly.",Float[1],"Zapier, User Reviews"
+gemini,Write notes,Cross-Platform Availability & Syncing,"Availability across multiple platforms (iOS, Android, macOS, Windows, Web) and seamless synchronization of notes across devices.",Boolean[1],"App Store, Google Play Store"
+gemini,Write notes,Organization,"The effectiveness of organizational tools such as folders, tags, notebooks, and linking capabilities for categorizing and retrieving notes.",Text[*],"PCMag, User Reviews"
+gemini,Write notes,AI Assistance,"The availability and quality of AI-powered features such as summarizing notes, generating transcripts, and improving organization.",Boolean[1],"ClickUp, Notta"
+gemini,Write notes,Collaboration Features,"The ability to share and collaborate on notes with others in real-time, including features for team collaboration and project management.",Boolean[1],"Zapier, ProofHub"
+gemini,Write notes,Pricing,"The cost of the app, considering both free and paid options, and the value offered for the price.",Float[1],"App Store, Google Play Store"
+gemini,Write notes,Ease of Use,How intuitive is the interface and how easy is it for new users to get started?,Integer[1],"User reviews, expert reviews"
+gemini,Write notes,Features,"Includes text formatting, multimedia support, tagging, organizational tools, and other key functionalities.",Text[*],"App description, expert reviews"
+gemini,Write notes,Cross-Platform Compatibility,"Can you use the app on multiple devices, like your laptop, tablet, or phone?",Boolean[1],App description
+gemini,Write notes,Collaboration,"Can you share notes with others, and if so, how well does the app support collaboration?",Boolean[1],"App description, expert reviews"
+gemini,Write notes,Pricing,"Free and paid options, including value for money.",Float[1],"App store, expert reviews"
+gemini,Write notes,Security & Privacy,Data protection and privacy options are increasingly important in today's digital world.,Text[*],"App description, expert reviews"
+gemini,Write notes,User Interface,"Cleanliness, intuitiveness, and customizability of the user interface.",Text[1],"User reviews, Expert reviews"
+gemini,Write notes,Cross-Platform Availability,"Availability and seamless syncing across multiple operating systems (iOS, Android, Windows, macOS, Web).",Boolean[*],"App Store, Google Play Store, Product Specifications"
+gemini,Write notes,Features,"Variety and usefulness of features such as text formatting, image/file attachment, task management, collaboration, and offline access.",Text[*],"App descriptions, Expert reviews"
+gemini,Write notes,Price,"Cost of the app (free, freemium, subscription) and value for money.",Float[1],"App Store, Google Play Store, In-app purchase information"
+gemini,Write notes,Syncing Reliability,Consistency and speed of syncing notes across devices.,Text[1],"User reviews, Expert reviews"
+gemini,Write notes,Organization and Categorization,"The app's ability to organize notes into notebooks, folders, tags, or other structured systems for easy retrieval.",Text[*],"App Description, User Reviews"
+gemini,Write notes,Search Functionality,"The effectiveness of the app's search feature in locating specific notes or content within notes, including keyword search and handwriting recognition.",Boolean,"App Description, User Reviews"
+gemini,Write notes,Cross-Platform Synchronization,"Seamless syncing of notes across multiple devices (desktop, mobile, web) and operating systems.",Boolean,App Description
+gemini,Write notes,Rich Text Formatting,"Availability of features such as bold, italics, headings, lists, and code blocks to format notes effectively.",Boolean,"App Description, User Reviews"
+gemini,Write notes,Multimedia Support,"The ability to embed images, audio recordings, videos, and other media within notes.",Media[*],App Description
+gemini,Write notes,Collaboration Features,"Tools for sharing notes, collaborating with others in real-time, and managing permissions.",Boolean,App Description
+gemini,Write notes,Offline Access,The ability to access and edit notes even without an internet connection.,Boolean,"App Description, User Reviews"
+gemini,Write notes,Handwriting Support,"Support for handwritten notes using styluses or touch input, with features like handwriting recognition and conversion to text.",Boolean,"App Description, User Reviews"
+gemini,Write notes,Pricing,"The cost of the app, including whether it offers a free version or requires a subscription.",Float[1],"App Store, Google Play Store"
+gemini,Write notes,User Interface,"The aesthetic appeal, ease of navigation, and overall user-friendliness of the app's interface.",Text,"User Reviews, Expert Reviews"
+gemini,Write notes,User Ratings,Average rating given by users in app stores.,Float[1],"App Store, Google Play Store"
+gemini,Write notes,Cross-Platform Availability,Availability of the app on multiple operating systems and devices.,Boolean[*],"App Store, Google Play Store, Developer Website"
+gemini,Write notes,Feature Set,"Comprehensive features offered for note-taking, including text formatting, media attachments, organization tools, and collaboration capabilities.",Text[*],"App Reviews, Developer Website"
+gemini,Write notes,AI Integration,"Availability of AI-powered features such as text summarization, voice transcription, and intelligent search.",Boolean[1],"App Reviews, Developer Website"
+gemini,Write notes,Cost,"Pricing model of the app, considering both free and premium tiers.",Text[1],"App Store, Google Play Store, Developer Website"
+gemini,Write notes,Ease of Use,How intuitive the interface is and how easy it is for new users to get started.,Integer[1],"User reviews, editor reviews"
+gemini,Write notes,Features,"Includes text formatting, multimedia support, tagging, organizational tools, and other key functionalities.",Text[*],"App description, editor reviews"
+gemini,Write notes,Cross-Platform Compatibility,"Ability to use the app on multiple devices, like laptop, tablet, or phone.",Boolean[1],App description
+gemini,Write notes,Collaboration,Ability to share notes with others and how well the app supports collaboration.,Boolean[1],"App description, editor reviews"
+gemini,Write notes,Pricing,"Availability of free and paid options, including value for money.",Float[1],"App store, editor reviews"
+gemini,Write notes,Security & Privacy,Data protection and privacy options.,Text[1],"App description, privacy policy"
+gemini,Write notes,Cross-Platform Availability,"Indicates the platforms (iOS, Android, macOS, Windows, Web) on which the app is accessible.",Text[*],"App Store, Google Play Store, Developer Website"
+gemini,Write notes,Free vs. Paid Features,Specifies which features are available in the free version and which require a subscription or one-time purchase.,Text[*],"App Store, Google Play Store, Developer Website"
+gemini,Write notes,Organization Options,"Describes the different ways notes can be organized within the app (e.g., notebooks, tags, folders).",Text[*],"App Reviews, User Manuals, App Store"
+gemini,Write notes,Media Support,"Lists the types of media that can be added to notes (e.g., images, audio, video, PDFs).",Media[*],"App Reviews, User Manuals, App Store"
+gemini,Write notes,Collaboration Features,"Details the collaboration options available, such as real-time editing, sharing notes, and task assignment.",Text[*],"App Reviews, User Manuals, Developer Website"
+gemini,Write notes,Note-Taking Capabilities,"The richness and flexibility of the note-taking tools available within the app, including text formatting, multimedia support, and organization features.",Text[*],"App Store, User Reviews, Expert Reviews"
+gemini,Write notes,User Interface,"The intuitiveness and ease of navigation within the app, affecting the speed and efficiency of note creation and retrieval.",Text[1],"User Reviews, Expert Reviews"
+gemini,Write notes,Cross-Platform Sync,The ability to seamlessly synchronize notes across multiple devices and operating systems.,Boolean[1],"App Description, User Reviews"
+gemini,Write notes,Search Functionality,The effectiveness and speed of the app's search feature in locating specific notes or information.,Text[1],"App Reviews, User Feedback"
+gemini,Write notes,Organization Features,"Tools such as folders, tags, and linking capabilities that enable users to categorize and structure their notes effectively.",Text[*],"App Description, Expert Reviews"
+gemini,Write notes,Integration Capabilities,"The app's ability to integrate with other productivity tools and services, such as calendars, project management software, and cloud storage.",Text[*],"App Description, Expert Reviews"
+gemini,Write notes,AI Assistance,"The presence and quality of AI-powered features that help summarize, generate, edit, transcribe, and organize notes.",Boolean[1],"App Description, Expert Reviews"
+gemini,Write notes,Pricing,"The cost of the app, including any subscription fees or in-app purchases, and the value provided for the price.",Float[1],"App Store, Google Play Store"
+gemini,Write notes,Cross-Platform Availability,"The ability to access and synchronize notes across multiple operating systems (Windows, macOS, Android, iOS, Linux) and devices (desktops, laptops, smartphones, tablets) via native apps or web access.",Boolean,Multiple sources
+gemini,Write notes,Organization and Searchability,"Features that allow users to structure notes using notebooks, folders, tags, and nested tags. Robust search functionality, including OCR for searching within images and handwritten notes.",Text,Multiple sources
+gemini,Write notes,User Interface and Usability,"An intuitive, clutter-free interface that is easy to navigate and customize. Quick access to essential features, smooth navigation, and a responsive, reliable performance.",Text,Multiple sources
+gemini,Write notes,Note-Taking Capabilities,"Various note-taking tools, including typing, drawing, handwriting recognition, voice recording and transcription, and the ability to add multimedia elements (images, videos, audio files, PDFs).",Text,Multiple sources
+gemini,Write notes,Collaboration Features,"The ability to share notes with others, collaborate in real-time, assign tasks, and manage team projects within the app.",Boolean,Multiple sources
+gemini,Write notes,Pricing and Value for Money,"Consideration of whether the app offers a sustainable free plan or if a paid subscription provides significant additional value through enhanced features, storage, and support.",Text,Multiple sources
+gemini,Write notes,Customization Options,"The degree to which the app allows users to personalize the interface, editor, and note organization to suit individual workflows and preferences, including themes, fonts, and editor settings.",Text,Multiple sources
+gemini,Write notes,AI Integration,"Integration of AI features, such as AI-powered writing assistance, summarization, transcription of voice notes, and intelligent search capabilities.",Boolean,Multiple sources
+gemini,Write notes,Cross-Platform Availability,"The app is available on multiple operating systems (iOS, Android, macOS, Windows, Web) for seamless syncing across devices.",Boolean,"App Store, Google Play Store, Product Website"
+gemini,Write notes,Organization Features,"The app provides multiple ways to organize notes, such as notebooks, sections, tags, and folders.",Text,"App Reviews, Product Description"
+gemini,Write notes,Free vs. Paid,Availability of a functional free version with reasonable storage or a cost-effective premium plan for enhanced features.,Categorical,"Pricing Pages, User Reviews"
+gemini,Write notes,AI Integration,"The app incorporates AI features such as handwriting recognition, text summarization, and smart organization.",Boolean,"Product Updates, Tech Blogs"
+gemini,Write notes,User Interface,The app offers an intuitive and user-friendly design that is easy to navigate and customize.,Text,"User Reviews, App Store Comments"

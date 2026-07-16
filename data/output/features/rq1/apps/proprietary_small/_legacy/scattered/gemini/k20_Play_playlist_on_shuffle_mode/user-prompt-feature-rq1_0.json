@@ -1,0 +1,63 @@
+
+{
+  "a": [
+    "Spotify",
+    "YouTube Music",
+    "Apple Music",
+    "REAL Shuffle Player",
+    "True Shuffle Player",
+    "BlackPlayer",
+    "Pulsar",
+    "Retro Music Player",
+    "Onkyo HF Player",
+    "jetAudio Music Player Plus",
+    "AIMP",
+    "Musicolet Music Player",
+    "Phonograph Music Player",
+    "Poweramp",
+    "VLC",
+    "Clementine",
+    "Smart Shuffle",
+    "Shuffle Music",
+    "Music X",
+    "Deezer"
+  ],
+  "c": [
+    {
+      "n": "Shuffle Algorithm Quality",
+      "d": "Evaluates how randomly and effectively the app shuffles songs, avoiding repetition and creating a diverse listening experience.",
+      "t": "Text",
+      "s": "User reviews, app descriptions, expert reviews"
+    },
+    {
+      "n": "Playlist Management",
+      "d": "Assesses the app's ability to create, edit, and manage playlists, including options for sorting and shuffling.",
+      "t": "Boolean",
+      "s": "App features list, user guides"
+    },
+    {
+      "n": "User Interface and Ease of Use",
+      "d": "Determines how intuitive and user-friendly the app is, focusing on the ease of navigating and using the shuffle function.",
+      "t": "Text",
+      "s": "User reviews, app reviews"
+    },
+    {
+      "n": "Offline Playback",
+      "d": "Indicates whether the app supports offline playback of shuffled playlists.",
+      "t": "Boolean",
+      "s": "App features list, user reviews"
+    },
+    {
+      "n": "Supported Audio Formats",
+      "d": "Lists the variety of audio formats supported by the app, ensuring compatibility with different music libraries.",
+      "t": "Text",
+      "s": "App specifications"
+    },
+    {
+      "n": "Customization Options",
+      "d": "Evaluates the availability of customization features such as themes, equalizers, and playback controls.",
+      "t": "Boolean",
+      "s": "App features list, expert reviews"
+    }
+  ]
+}

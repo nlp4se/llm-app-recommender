@@ -1,0 +1,57 @@
+
+{
+  "a": [
+    "Twitch",
+    "YouTube",
+    "Kick",
+    "Rumble",
+    "DLive",
+    "YouTube TV",
+    "Netflix",
+    "Hulu",
+    "Amazon Prime Video",
+    "Max",
+    "Disney+",
+    "Peacock",
+    "Paramount+",
+    "Apple TV+",
+    "Crunchyroll",
+    "Tubi",
+    "Pluto TV",
+    "Sling Freestream",
+    "Freevee",
+    "YouNow"
+  ],
+  "c": [
+    {
+      "n": "User Ratings",
+      "d": "Aggregated star ratings and review sentiments from app stores (e.g., Apple App Store, Google Play Store) and user reviews on platforms like Reddit.",
+      "t": "Float [1]",
+      "s": "App Store, Google Play Store, Reddit"
+    },
+    {
+      "n": "Content Variety",
+      "d": "The breadth and depth of streaming content available, including live streams, pre-recorded videos, movies, TV shows, and specific categories like gaming, sports, or music.",
+      "t": "Text [*]",
+      "s": "App descriptions, user reviews, expert reviews"
+    },
+    {
+      "n": "Platform Features",
+      "d": "Available features within the app that enhance the viewing experience, such as live chat, monetization options for streamers, community engagement tools, and cross-platform compatibility.",
+      "t": "Text [*]",
+      "s": "App descriptions, expert reviews, user reviews"
+    },
+    {
+      "n": "Age Rating & Parental Controls",
+      "d": "The app's age rating and availability of parental control features to ensure safe viewing for children and families.",
+      "t": "Integer [1]",
+      "s": "App Store, Google Play Store, Internet Matters"
+    },
+    {
+      "n": "Ad Frequency",
+      "d": "The number of advertisements displayed during streams",
+      "t": "Integer [1]",
+      "s": "User reviews"
+    }
+  ]
+}

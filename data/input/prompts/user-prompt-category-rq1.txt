@@ -1,1 +1,0 @@
-Recommend {k} {search} apps.

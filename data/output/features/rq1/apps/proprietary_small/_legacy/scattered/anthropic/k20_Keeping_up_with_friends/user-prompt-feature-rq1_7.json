@@ -1,0 +1,56 @@
+{
+  "a": [
+    "WhatsApp",
+    "Telegram",
+    "Discord",
+    "Snapchat",
+    "Instagram",
+    "Facebook Messenger",
+    "Signal",
+    "Marco Polo",
+    "Houseparty",
+    "GroupMe",
+    "Viber",
+    "WeChat",
+    "Line",
+    "Skype",
+    "Google Meet",
+    "Zoom",
+    "Facebook",
+    "Twitter",
+    "TikTok",
+    "Kik"
+  ],
+  "c": [
+    {
+      "n": "Daily Active Users",
+      "d": "Number of users actively engaging with the app daily, indicating platform vitality for staying connected",
+      "t": "Integer [1]",
+      "s": "App analytics platforms, company reports, market research"
+    },
+    {
+      "n": "Communication Features Variety",
+      "d": "Range of communication options available (text, voice, video, group chat, stories, etc.)",
+      "t": "Integer [1]",
+      "s": "App store descriptions, feature documentation, user reviews"
+    },
+    {
+      "n": "Cross-Platform Availability",
+      "d": "Number of platforms supported (iOS, Android, Web, Desktop) ensuring friends can connect regardless of device",
+      "t": "Integer [1]",
+      "s": "Official app stores, developer websites"
+    },
+    {
+      "n": "Privacy and Security Rating",
+      "d": "Overall security score based on encryption, data protection, and privacy policies",
+      "t": "Float [1]",
+      "s": "Security audits, privacy policy analysis, expert reviews"
+    },
+    {
+      "n": "User Satisfaction Score",
+      "d": "Average rating across app stores reflecting user experience and reliability for maintaining friendships",
+      "t": "Float [1]",
+      "s": "App Store ratings, Google Play ratings, user review aggregation"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "a": [
+    "WeTransfer",
+    "Google Drive",
+    "Dropbox",
+    "OneDrive",
+    "Send Anywhere",
+    "AirDrop",
+    "Xender",
+    "ShareIt",
+    "Files by Google",
+    "Telegram",
+    "WhatsApp",
+    "Signal",
+    "Box",
+    "pCloud",
+    "MEGA",
+    "Firefox Send",
+    "Snapdrop",
+    "FileMail",
+    "Hightail",
+    "Tresorit Send"
+  ],
+  "c": [
+    {
+      "n": "Maximum File Size Support",
+      "d": "The largest file size that can be sent through the app in a single transfer",
+      "t": "Float [1] (in GB)",
+      "s": "App specifications, official documentation, user testing"
+    },
+    {
+      "n": "Transfer Speed Performance",
+      "d": "Average upload and download speed for file transfers measured in real-world conditions",
+      "t": "Float [1] (in Mbps)",
+      "s": "Performance benchmarks, user reviews, technical testing"
+    },
+    {
+      "n": "Security and Encryption Level",
+      "d": "Strength of encryption protocols and security measures implemented for file protection",
+      "t": "Integer [1] (scale 1-10)",
+      "s": "Security audits, encryption standards documentation, privacy policies"
+    },
+    {
+      "n": "Cross-Platform Compatibility",
+      "d": "Number of different operating systems and devices the app supports for seamless file sharing",
+      "t": "Integer [1] (number of platforms)",
+      "s": "Official platform support lists, compatibility testing, user feedback"
+    },
+    {
+      "n": "User Interface Simplicity",
+      "d": "Ease of use and intuitiveness of the app interface for average users",
+      "t": "Integer [1] (scale 1-10)",
+      "s": "User experience reviews, usability testing, app store ratings"
+    },
+    {
+      "n": "Storage Duration",
+      "d": "How long files remain accessible after upload before automatic deletion",
+      "t": "Integer [1] (in days)",
+      "s": "Service terms, official documentation, user guides"
+    }
+  ]
+}

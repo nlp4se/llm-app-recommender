@@ -1,0 +1,75 @@
+
+{
+  "a": [
+    "Microsoft Teams",
+    "Slack",
+    "Zoom",
+    "Google Workspace",
+    "Trello",
+    "Asana",
+    "Monday.com",
+    "Basecamp",
+    "Flock",
+    "Rocket.Chat",
+    "Mattermost",
+    "Wrike",
+    "ClickUp",
+    "Jira",
+    "Confluence",
+    "Notion",
+    "Quip",
+    "Ryver",
+    "Glip",
+    "Samepage"
+  ],
+  "c": [
+    {
+      "n": "User Ratings",
+      "d": "Average rating of the app on various app stores and review platforms.",
+      "t": "Float [1]",
+      "s": "Google Play Store, Apple App Store, G2, Capterra"
+    },
+    {
+      "n": "Number of Active Users",
+      "d": "Total number of active users of the app.",
+      "t": "Integer [1]",
+      "s": "Official app websites, TechCrunch, Statista"
+    },
+    {
+      "n": "Feature Set",
+      "d": "Range and depth of collaboration features offered by the app.",
+      "t": "Text [1]",
+      "s": "Official app websites, G2, Capterra"
+    },
+    {
+      "n": "Integration Capabilities",
+      "d": "Number and variety of third-party integrations supported by the app.",
+      "t": "Integer [1]",
+      "s": "Official app websites, Zapier, IFTTT"
+    },
+    {
+      "n": "Cross-Platform Availability",
+      "d": "Availability of the app across different platforms (iOS, Android, Web, Desktop).",
+      "t": "Boolean [4]",
+      "s": "Official app websites, Google Play Store, Apple App Store"
+    },
+    {
+      "n": "Security and Privacy Features",
+      "d": "Strength of security and privacy measures implemented by the app.",
+      "t": "Text [1]",
+      "s": "Official app websites, Security reviews, Privacy policies"
+    },
+    {
+      "n": "Pricing and Plans",
+      "d": "Cost-effectiveness and variety of pricing plans offered by the app.",
+      "t": "Text [1]",
+      "s": "Official app websites, G2, Capterra"
+    },
+    {
+      "n": "User Interface and Experience",
+      "d": "Quality and intuitiveness of the app's user interface and overall user experience.",
+      "t": "Text [1]",
+      "s": "User reviews, Official app websites, Design critiques"
+    }
+  ]
+}

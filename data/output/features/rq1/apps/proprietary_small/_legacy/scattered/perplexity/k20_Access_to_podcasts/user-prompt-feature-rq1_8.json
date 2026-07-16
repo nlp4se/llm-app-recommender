@@ -1,0 +1,62 @@
+{
+  "a": [
+    "Pocket Casts",
+    "Player FM",
+    "Apple Podcasts",
+    "Google Podcasts",
+    "Spotify",
+    "Castbox",
+    "Podcast Republic",
+    "Overcast",
+    "Castro",
+    "Aurelian",
+    "Podcast Addict",
+    "Stitcher",
+    "AntennaPod",
+    "Podbean",
+    "Radiopublic",
+    "Downcast",
+    "TuneIn Radio",
+    "iCatcher!",
+    "Podchaser",
+    "BeyondPod"
+  ],
+  "c": [
+    {
+      "n": "Platform Compatibility",
+      "d": "Availability and synchronization across major platforms (iOS, Android, Web, Desktop)",
+      "t": "Text [3]",
+      "s": "WhatPods, Amplify Matchmaker, Descript"
+    },
+    {
+      "n": "Discovery and Recommendations",
+      "d": "Quality and personalization of podcast discovery features",
+      "t": "Text [3]",
+      "s": "Amplify Matchmaker, Descript, Lifehacker"
+    },
+    {
+      "n": "User Interface and Customization",
+      "d": "Ease of use, design, and options for customizing playback and layout",
+      "t": "Boolean/Text [4]",
+      "s": "Lifehacker, Amplify Matchmaker, Google Play Store"
+    },
+    {
+      "n": "Advanced Playback Features",
+      "d": "Presence and quality of features like voice boost, silence trimming, and cross-device sync",
+      "t": "Boolean/Text [1]",
+      "s": "Amplify Matchmaker, Lifehacker, Google Play Store"
+    },
+    {
+      "n": "Library Size and Content",
+      "d": "Number and variety of podcasts available in the app",
+      "t": "Integer/Text [3]",
+      "s": "Descript, WhatPods, Amplify Matchmaker"
+    },
+    {
+      "n": "Cost and Premium Features",
+      "d": "Availability of a free tier and value of premium features",
+      "t": "Text/Boolean [2]",
+      "s": "WhatPods, Amplify Matchmaker, Descript"
+    }
+  ]
+}

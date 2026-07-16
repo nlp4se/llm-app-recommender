@@ -1,0 +1,57 @@
+
+{
+  "a": [
+    "WhatsApp",
+    "Facebook",
+    "Instagram",
+    "Snapchat",
+    "Twitter",
+    "LinkedIn",
+    "Messenger",
+    "Telegram",
+    "Signal",
+    "Discord",
+    "Viber",
+    "WeChat",
+    "Line",
+    "Kik",
+    "TikTok",
+    "Pinterest",
+    "Reddit",
+    "Tumblr",
+    "Skype",
+    "GroupMe"
+  ],
+  "c": [
+    {
+      "n": "User Base",
+      "d": "The total number of active users on the platform.",
+      "t": "Integer [1]",
+      "s": "App Annie, Sensor Tower, SimilarWeb"
+    },
+    {
+      "n": "Engagement Rate",
+      "d": "The average time users spend on the app daily or monthly.",
+      "t": "Float [1]",
+      "s": "App Annie, Sensor Tower"
+    },
+    {
+      "n": "User Reviews",
+      "d": "The average rating and number of reviews on app stores.",
+      "t": "Float [1], Integer [1]",
+      "s": "Google Play Store, Apple App Store"
+    },
+    {
+      "n": "Messaging Features",
+      "d": "The availability and quality of messaging features such as text, voice, and video calls.",
+      "t": "Text [*]",
+      "s": "Official app websites, TechCrunch, The Verge"
+    },
+    {
+      "n": "Privacy and Security",
+      "d": "The strength of privacy policies and security measures implemented by the app.",
+      "t": "Text [*]",
+      "s": "Official app websites, Privacy International, Electronic Frontier Foundation"
+    }
+  ]
+}

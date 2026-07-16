@@ -1,0 +1,56 @@
+{
+  "a": [
+    "Yubo",
+    "Ablo",
+    "Meetup",
+    "Tastebuds",
+    "Spotafriend",
+    "HelloTalk",
+    "Making Authentic Friendships (MAF)",
+    "Alif",
+    "Bumble BFF",
+    "Nextdoor",
+    "Peanut",
+    "Twitch",
+    "Wink",
+    "Friender",
+    "LMK",
+    "Patook",
+    "Skout",
+    "Hey VINA",
+    "We3",
+    "Atleto"
+  ],
+  "c": [
+    {
+      "n": "Active User Base",
+      "d": "The number of active users on the app which impacts the ability to find and keep up with friends",
+      "t": "Integer [1]",
+      "s": "agiletech.vn"
+    },
+    {
+      "n": "Friendship Features",
+      "d": "Types of features offered such as live video calls, group chats, interest tags, event organizing, and real-time photo sharing",
+      "t": "Text [*]",
+      "s": "agiletech.vn, medicinalmedia.com, sociable.co"
+    },
+    {
+      "n": "User Safety and Authenticity",
+      "d": "Measures to ensure trustworthy connections and reduce harassment or fake profiles",
+      "t": "Boolean [1]",
+      "s": "vice.com, agiletech.vn"
+    },
+    {
+      "n": "Compatibility for Long-Distance Friendships",
+      "d": "Support for features making distant friendships easier, such as video messaging, shared experiences, and tight bonds",
+      "t": "Boolean [1]",
+      "s": "medicinalmedia.com, sociable.co"
+    },
+    {
+      "n": "User Engagement and Retention",
+      "d": "Mechanisms that keep users actively connected like games, events, or interactive content",
+      "t": "Text [*]",
+      "s": "sociable.co, agiletech.vn"
+    }
+  ]
+}

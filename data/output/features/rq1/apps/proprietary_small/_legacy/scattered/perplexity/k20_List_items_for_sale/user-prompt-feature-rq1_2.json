@@ -1,0 +1,74 @@
+{
+  "a": [
+    "Facebook Marketplace",
+    "Mercari",
+    "OfferUp",
+    "eBay",
+    "Poshmark",
+    "5miles",
+    "Amazon Seller Central",
+    "Craigslist",
+    "Chairish",
+    "CardCash",
+    "Decluttr",
+    "eCampus",
+    "Letgo",
+    "Letgo (merged with OfferUp)",
+    "Etsy",
+    "Nextdoor",
+    "VarageSale",
+    "Tradesy",
+    "Depop",
+    "Facebook Shops"
+  ],
+  "c": [
+    {
+      "n": "User Base Size",
+      "d": "The number of active users on the platform, impacting the potential reach of listings.",
+      "t": "Integer [1]",
+      "s": "AmzScout, Simicart, Greenlight, WTOP"
+    },
+    {
+      "n": "Ease of Listing Creation",
+      "d": "How simple and quick it is to create a listing, including photo uploads and description writing.",
+      "t": "Text [1]",
+      "s": "AmzScout, Greenlight"
+    },
+    {
+      "n": "Fees Structure",
+      "d": "The percentage or flat fees charged to sellers per transaction or listing.",
+      "t": "Float [1]",
+      "s": "AmzScout, Simicart, Greenlight"
+    },
+    {
+      "n": "Shipping Options",
+      "d": "Availability and flexibility of shipping methods including discounted labels, home pickup, or local delivery.",
+      "t": "Text [*]",
+      "s": "AmzScout, Greenlight"
+    },
+    {
+      "n": "Geographic Reach",
+      "d": "Whether the app supports local selling only or also national/international sales.",
+      "t": "Text [1]",
+      "s": "Simicart, Greenlight"
+    },
+    {
+      "n": "Category Specialization",
+      "d": "Types of items best suited for the platform such as clothes, electronics, collectibles, or furniture.",
+      "t": "Text [*]",
+      "s": "AmzScout, Greenlight, Simicart"
+    },
+    {
+      "n": "User Safety Features",
+      "d": "Features like user identity verification and secure payment options that enhance seller and buyer safety.",
+      "t": "Boolean [1]",
+      "s": "Simicart"
+    },
+    {
+      "n": "User Interface Quality",
+      "d": "The intuitiveness and modernity of the app interface affecting user experience.",
+      "t": "Text [1]",
+      "s": "Simicart"
+    }
+  ]
+}

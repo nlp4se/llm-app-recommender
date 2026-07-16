@@ -1,0 +1,69 @@
+
+{
+  "a": [
+    "Pic Collage",
+    "PhotoGrid",
+    "PicsArt Photo & Video Editor",
+    "Canva",
+    "Moldiv",
+    "Layout from Instagram",
+    "Diptic",
+    "Fotor",
+    "Pic Stitch",
+    "Photo & Shape Collage Maker",
+    "PiZap",
+    "Icecream Photo Editor",
+    "Adobe Express",
+    "Google Photos",
+    "Shape Collage",
+    "InCollage",
+    "Fotojet",
+    "PhotoPad",
+    "Pixlr",
+    "Z Mobile: Photo Collage Maker"
+  ],
+  "c": [
+    {
+      "n": "Ease of Use",
+      "d": "Refers to the intuitiveness and simplicity of the app's interface and features, allowing users to quickly create collages without a steep learning curve.",
+      "t": "Integer[1]",
+      "s": "User reviews, Editor reviews"
+    },
+    {
+      "n": "Variety of Templates and Layouts",
+      "d": "The number and diversity of pre-designed templates and customizable layouts offered, enabling users to find the perfect base for their collage.",
+      "t": "Integer[*]",
+      "s": "App description, Editor reviews"
+    },
+    {
+      "n": "Customization Options",
+      "d": "The extent to which users can personalize their collages, including options for adjusting spacing, borders, backgrounds, text, stickers, and filters.",
+      "t": "Integer[*]",
+      "s": "App features, User reviews"
+    },
+    {
+      "n": "Available Editing Tools",
+      "d": "The presence of built-in photo editing tools such as cropping, rotating, color adjustment, and special effects to enhance individual photos within the collage.",
+      "t": "Boolean[1]",
+      "s": "App description, Editor reviews"
+    },
+    {
+      "n": "Social Media Integration",
+      "d": "The ability to directly share collages to social media platforms such as Instagram, Facebook, and others.",
+      "t": "Boolean[1]",
+      "s": "App description, User reviews"
+    },
+    {
+      "n": "Free vs. Paid Features",
+      "d": "The balance between features available in the free version and those locked behind a premium subscription, affecting accessibility for casual users.",
+      "t": "Text[1]",
+      "s": "App pricing, User reviews"
+    },
+    {
+      "n": "AI-Powered Features",
+      "d": "The incorporation of AI-driven tools like automatic collage generation, smart layouts, object removal, and AI filters to streamline the collage creation process.",
+      "t": "Boolean[1]",
+      "s": "App description"
+    }
+  ]
+}

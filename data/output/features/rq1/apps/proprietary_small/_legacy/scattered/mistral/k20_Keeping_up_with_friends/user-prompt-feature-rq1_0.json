@@ -1,0 +1,57 @@
+
+{
+  "a": [
+    "WhatsApp",
+    "Facebook Messenger",
+    "Instagram",
+    "Snapchat",
+    "Telegram",
+    "Discord",
+    "Signal",
+    "Viber",
+    "WeChat",
+    "Line",
+    "KakaoTalk",
+    "GroupMe",
+    "Tango",
+    "Skype",
+    "Kik",
+    "Marco Polo",
+    "Houseparty",
+    "BAND",
+    "HEY",
+    "Talkray"
+  ],
+  "c": [
+    {
+      "n": "User Base",
+      "d": "The total number of active users on the platform.",
+      "t": "Integer [1]",
+      "s": "App Store, Google Play Store, Official App Websites"
+    },
+    {
+      "n": "User Ratings",
+      "d": "Average user ratings on app stores.",
+      "t": "Float [1]",
+      "s": "App Store, Google Play Store"
+    },
+    {
+      "n": "Messaging Features",
+      "d": "Availability of text, voice, and video messaging features.",
+      "t": "Boolean [3]",
+      "s": "Official App Websites, App Reviews"
+    },
+    {
+      "n": "Group Chat Support",
+      "d": "Availability and quality of group chat features.",
+      "t": "Boolean [1]",
+      "s": "Official App Websites, App Reviews"
+    },
+    {
+      "n": "Privacy and Security",
+      "d": "Level of encryption and privacy features offered.",
+      "t": "Text [1]",
+      "s": "Official App Websites, Security Reviews"
+    }
+  ]
+}

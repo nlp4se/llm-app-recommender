@@ -1,0 +1,57 @@
+
+{
+  "a": [
+    "Twitch",
+    "YouTube Gaming",
+    "Kick",
+    "Facebook Gaming",
+    "Instagram Live",
+    "TikTok LIVE",
+    "BIGO LIVE",
+    "DLive",
+    "Trovo",
+    "Vimeo",
+    "Nimo TV",
+    "Omlet Arcade",
+    "BOOYAH!",
+    "REALITY",
+    "Glip",
+    "Loco",
+    "YouNow",
+    "LiveMe",
+    "Lumia Stream",
+    "Restream"
+  ],
+  "c": [
+    {
+      "n": "Audience Size",
+      "d": "Estimated number of active users on the platform.",
+      "t": "Integer",
+      "s": "Various sources, including platform statistics and third-party analytics."
+    },
+    {
+      "n": "Content Focus",
+      "d": "Primary type of content streamed on the platform.",
+      "t": "Text",
+      "s": "Platform descriptions, user reviews."
+    },
+    {
+      "n": "Monetization Options",
+      "d": "Ways streamers can earn revenue on the platform.",
+      "t": "Text",
+      "s": "Platform documentation, user reports."
+    },
+    {
+      "n": "Ease of Use",
+      "d": "Intuitiveness and simplicity of the app's interface and streaming setup.",
+      "t": "Text",
+      "s": "User reviews, app store ratings."
+    },
+    {
+      "n": "Mobile Streaming Capabilities",
+      "d": "Features and performance of the app when streaming directly from a mobile device.",
+      "t": "Boolean",
+      "s": "App descriptions, user reviews."
+    }
+  ]
+}

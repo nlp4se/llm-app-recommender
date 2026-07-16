@@ -1,0 +1,56 @@
+{
+  "a": [
+    "Temple Run",
+    "Subway Surfers",
+    "Candy Crush Saga",
+    "Among Us",
+    "Roblox",
+    "Ludo King",
+    "Free Fire: 8th Anniversary",
+    "Clash Royale",
+    "Brawl Stars",
+    "Genshin Impact",
+    "Hearthstone",
+    "Mini Metro",
+    "Money Well",
+    "Big Buck Hunter",
+    "Angry Birds",
+    "Sky: Children of the Light",
+    "Dots & Co",
+    "Royal Match",
+    "Gardenscapes",
+    "Pokémon TCG Pocket"
+  ],
+  "c": [
+    {
+      "n": "Popularity",
+      "d": "Measured by app downloads and active user base, indicating how widespread the game is among players",
+      "t": "Integer [1]",
+      "s": "2,3"
+    },
+    {
+      "n": "Gameplay Quality",
+      "d": "Assessed by user reviews and ratings, and how engaging or entertaining the gameplay is",
+      "t": "Float [1]",
+      "s": "2,4"
+    },
+    {
+      "n": "Monetization Model",
+      "d": "Type of in-app purchases, ads or real money rewards available within the game",
+      "t": "Text [1]",
+      "s": "1,4"
+    },
+    {
+      "n": "Platform Availability",
+      "d": "Availability on major mobile platforms such as iOS and Android",
+      "t": "Text [*]",
+      "s": "2,3"
+    },
+    {
+      "n": "Revenue Generation",
+      "d": "Game’s ranking based on revenue generated, reflecting commercial success",
+      "t": "Integer [1]",
+      "s": "3"
+    }
+  ]
+}

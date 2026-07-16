@@ -1,0 +1,56 @@
+{
+  "a": [
+    "Raters",
+    "Taste: Movie & TV Suggestions",
+    "Letterboxd",
+    "SerialIzd",
+    "IMDb",
+    "Flixster",
+    "MoviePass",
+    "Moviefone",
+    "Fandango",
+    "Netflix",
+    "Trakt",
+    "Cinely",
+    "Criticker",
+    "JustWatch",
+    "MovieLens",
+    "Hobi",
+    "Popcorn",
+    "Simkl",
+    "Reelgood",
+    "Showly"
+  ],
+  "c": [
+    {
+      "n": "User Ratings",
+      "d": "Average user-generated ratings reflecting overall movie appreciation",
+      "t": "Float [1]",
+      "s": "App stores, user reviews, app descriptions"
+    },
+    {
+      "n": "Recommendation Algorithm",
+      "d": "Effectiveness of the app's algorithm in providing personalized movie suggestions based on user taste",
+      "t": "Boolean [1]",
+      "s": "App descriptions [1][2][4]"
+    },
+    {
+      "n": "Social Features",
+      "d": "Presence of social networking tools such as following users, sharing reviews, and group recommendations",
+      "t": "Boolean [1]",
+      "s": "App descriptions [1][2][5]"
+    },
+    {
+      "n": "Platform Availability",
+      "d": "Number of supported platforms and streaming services integrated for movie watching",
+      "t": "Integer [1]",
+      "s": "App descriptions [1][4]"
+    },
+    {
+      "n": "User Base Size",
+      "d": "Number of active users or downloads indicating popularity",
+      "t": "Integer [1]",
+      "s": "App store metrics [2][4]"
+    }
+  ]
+}

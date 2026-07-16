@@ -1,0 +1,2768 @@
+{
+  "rq": "rq1",
+  "family": "open",
+  "provider": "ollama",
+  "model_key": "mistral_open",
+  "model_id": "mistral",
+  "mode": "structured",
+  "k": 20,
+  "features": [
+    "Broadcast messages to multiple contacts",
+    "Send files",
+    "Watch streams",
+    "Go Live",
+    "Play playlist on shuffle mode",
+    "Access to podcasts",
+    "Build photo collage",
+    "Photo effects",
+    "Access to movies",
+    "Rate movies",
+    "Keeping up with friends",
+    "Play games",
+    "Collaborate with others",
+    "Write notes",
+    "Search for offer on item",
+    "List items for sale"
+  ],
+  "runs_per_item": 10,
+  "web_search": false,
+  "records": [
+    {
+      "feature": "Broadcast messages to multiple contacts",
+      "run": 0,
+      "payload": null,
+      "error": "Schema validation failed: ['WhatsApp', 'Telegram', 'Signal', 'Slack', 'Microsoft Teams', 'Discord', 'Google Meet', 'Skype', 'Facebook Messenger', 'LINE', 'WeChat', 'Viber', 'KakaoTalk', 'Twilio', 'Pusher', 'Firebase Cloud Messaging', 'APNS (Apple Push Notification Service)', 'GCM (Google Cloud Messaging)', 'OneSignal'] is too short"
+    },
+    {
+      "feature": "Broadcast messages to multiple contacts",
+      "run": 1,
+      "payload": null,
+      "error": "Schema validation failed: ['WhatsApp', 'Telegram', 'Signal', 'Line', 'WeChat', 'Slack', 'Microsoft Teams', 'Skype', 'Facebook Messenger', 'Google Hangouts', 'Viber', 'KakaoTalk', 'BBM', 'Threema', 'Evernote', 'GroupMe', 'Discord', 'Zoom', 'Tango'] is too short"
+    },
+    {
+      "feature": "Broadcast messages to multiple contacts",
+      "run": 2,
+      "payload": {
+        "a": [
+          "WhatsApp",
+          "Telegram",
+          "Signal",
+          "Line",
+          "WeChat",
+          "Messenger",
+          "GroupMe",
+          "Slack",
+          "Discord",
+          "Kik",
+          "Viber",
+          "Skype",
+          "Threema",
+          "DingTalk",
+          "Tencent QQ",
+          "KakaoTalk",
+          "Hangouts",
+          "Friendly",
+          "RingCentral",
+          "Fleep"
+        ],
+        "c": [
+          {
+            "n": "Broadcast Messages",
+            "d": "Ability to send messages to multiple contacts at once"
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Broadcast messages to multiple contacts",
+      "run": 3,
+      "payload": null,
+      "error": "Schema validation failed: ['WhatsApp', 'Facebook Messenger', 'Telegram', 'Signal', 'Line', 'WeChat', 'Slack', 'GroupMe', 'Threema', 'Kik', 'Viber', 'Skype', 'Discord', 'Google Hangouts', 'Tox', 'Element', 'RocketChat', 'Mattermost', 'Samaritans Radio'] is too short"
+    },
+    {
+      "feature": "Broadcast messages to multiple contacts",
+      "run": 4,
+      "payload": null,
+      "error": "Schema validation failed: ['WhatsApp', 'Facebook Messenger', 'Telegram', 'Signal', 'Slack', 'Line', 'WeChat', 'Skype', 'Google Hangouts', 'Viber', 'KakaoTalk', 'Discord', 'Twilio', 'Pusher', 'Firebase Cloud Messaging', 'Apns Services', 'OneSignal', 'Pushwoosh', 'Urban Airship'] is too short"
+    },
+    {
+      "feature": "Broadcast messages to multiple contacts",
+      "run": 5,
+      "payload": null,
+      "error": "Schema validation failed: ['WhatsApp', 'Telegram', 'Signal', 'Facebook Messenger', 'Line', 'WeChat', 'Slack', 'Google Hangouts', 'Skype', 'Discord', 'Viber', 'Kik', 'Threema', 'GroupMe', 'TextNow', 'Tango', 'ICQ', 'Jitsi Meet', 'Zoho Cliq'] is too short"
+    },
+    {
+      "feature": "Broadcast messages to multiple contacts",
+      "run": 6,
+      "payload": null,
+      "error": "Schema validation failed: ['WhatsApp', 'Telegram', 'Signal', 'Viber', 'Line', 'WeChat', 'Slack', 'Microsoft Teams', 'Google Hangouts', 'Skype', 'Facebook Messenger', 'KakaoTalk', 'Discord', 'GroupMe', 'Threema', 'ICQ', 'RingCentral', 'Zoho Cliq', 'Twilio API'] is too short"
+    },
+    {
+      "feature": "Broadcast messages to multiple contacts",
+      "run": 7,
+      "payload": null,
+      "error": "Schema validation failed: ['WhatsApp', 'Signal', 'Telegram', 'Facebook Messenger', 'Line', 'WeChat', 'GroupMe', 'Slack', 'Discord', 'Kik', 'Viber', 'Skype', 'Microsoft Teams', 'Tango', 'Threema', 'RingCentral', 'BBM', 'DingTalk', 'Zalo'] is too short"
+    },
+    {
+      "feature": "Broadcast messages to multiple contacts",
+      "run": 8,
+      "payload": null,
+      "error": "Schema validation failed: ['WhatsApp', 'Telegram', 'Signal', 'Facebook Messenger', 'Google Messages', 'Line', 'WeChat', 'Slack', 'Discord', 'Skype', 'Viber', 'KakaoTalk', 'Threema', 'TextNow', 'Tox', 'Wickr Me', 'RingCentral', 'Twilio', 'Pulse Secure'] is too short"
+    },
+    {
+      "feature": "Broadcast messages to multiple contacts",
+      "run": 9,
+      "payload": null,
+      "error": "Schema validation failed: ['WhatsApp', 'Telegram', 'Signal', 'Line', 'WeChat', 'Facebook Messenger', 'GroupMe', 'Slack', 'Discord', 'Skype', 'Google Hangouts', 'Viber', 'Kik', 'Tango', 'BBM', 'Reddit Chat', 'Twitter Direct Messages', 'LinkedIn Messaging', 'Microsoft Teams'] is too short"
+    },
+    {
+      "feature": "Send files",
+      "run": 0,
+      "payload": null,
+      "error": "Schema validation failed: ['Google Drive', 'Dropbox', 'OneDrive', 'iCloud Drive', 'Box', 'WeTransfer', 'Adobe Creative Cloud', 'WhatsApp', 'Telegram', 'Signal', 'Slack', 'Google Photos', 'AirDrop (for Apple devices)', 'FileZilla', 'SHAREit', 'Xender', 'Zapya', 'Send Anywhere', 'Email Clients (Gmail, Outlook, Yahoo Mail)'] is too short"
+    },
+    {
+      "feature": "Send files",
+      "run": 1,
+      "payload": null,
+      "error": "Schema validation failed: ['Google Drive', 'Dropbox', 'OneDrive', 'iCloud Drive', 'Box', 'WeTransfer', 'WhatsApp', 'Telegram', 'Google Photos', 'Slack', 'AirDrop (for iOS users)', 'Email clients like Gmail, Outlook, Yahoo Mail', 'Microsoft Teams', 'Mega', 'Zipfile for Android', 'Google Photosphere', 'Adobe Creative Cloud', 'APUS Cloud', 'Evernote'] is too short"
+    },
+    {
+      "feature": "Send files",
+      "run": 2,
+      "payload": null,
+      "error": "Schema validation failed: ['Google Drive', 'Dropbox', 'OneDrive', 'Box', 'iCloud Drive', 'Google Photos', 'WhatsApp', 'Telegram', 'Signal', 'Slack', 'WeTransfer', 'AirDrop (for iOS users)', 'Email Clients: Gmail, Yahoo Mail, Outlook', 'File Transfer Apps: SHAREit, Xender, Zapya', 'Google Files by Google LLC', 'Applinked', 'Adobe Creative Cloud', 'Mega', 'Coturnix'] is too short"
+    },
+    {
+      "feature": "Send files",
+      "run": 3,
+      "payload": null,
+      "error": "Schema validation failed: ['Google Drive', 'Dropbox', 'OneDrive', 'iCloud Drive', 'Box', 'WeTransfer', 'WhatsApp', 'Telegram', 'Signal', 'Slack', 'AirDrop (for Apple devices)', 'Google Photos', 'APUS Cloud', 'Zapya', 'Xender', 'SHAREit', 'Bluetooth File Transfer', 'Email apps like Gmail, Yahoo Mail, Outlook', 'FileZilla (for mobile)'] is too short"
+    },
+    {
+      "feature": "Send files",
+      "run": 4,
+      "payload": null,
+      "error": "Schema validation failed: ['Google Drive', 'Dropbox', 'OneDrive', 'Box', 'WeTransfer', 'Microsoft Teams', 'Slack', 'WhatsApp', 'Telegram', 'Signal', 'AirDrop (iOS)', 'Email clients (Gmail, Outlook, Yahoo Mail)', 'APUS Cloud', 'Zapyer', 'Mega', 'MediaFire', 'Google Photos', 'Send Anywhere', 'Xender'] is too short"
+    },
+    {
+      "feature": "Send files",
+      "run": 5,
+      "payload": null,
+      "error": "Schema validation failed: ['Google Drive', 'Dropbox', 'OneDrive', 'iCloud Drive', 'Box', 'Mega', 'WeTransfer', 'ZippyShare', 'MediaFire', 'FileZilla', 'Adobe Creative Cloud', 'Slack', 'Google Photos', 'WhatsApp', 'Telegram', 'Signal', 'Email Clients (Gmail, Outlook)', 'AirDrop (for Apple devices)', 'SHAREit'] is too short"
+    },
+    {
+      "feature": "Send files",
+      "run": 6,
+      "payload": null,
+      "error": "Schema validation failed: ['Google Drive', 'Dropbox', 'OneDrive', 'Box', 'WeTransfer', 'WhatsApp', 'Telegram', 'Signal', 'Slack', 'Email by Google', 'Gmail', 'Outlook', 'AirDrop (iOS)', 'FileExplorer File Manager', 'SHAREit', 'Xender', 'Zapya', 'Send Anywhere', 'Files by Google'] is too short"
+    },
+    {
+      "feature": "Send files",
+      "run": 7,
+      "payload": null,
+      "error": "Schema validation failed: ['Google Drive', 'Dropbox', 'OneDrive', 'iCloud Drive', 'Box', 'WeTransfer', 'WhatsApp', 'Telegram', 'Slack', 'AirDrop', 'Email Clients (Gmail, Outlook)', 'Google Photos', 'Adobe Creative Cloud', 'Microsoft Teams', 'Zip and Send - Email Attachments', 'FileMail - Large File Sender', 'Send Anywhere', 'Files by Google', 'Xender'] is too short"
+    },
+    {
+      "feature": "Send files",
+      "run": 8,
+      "payload": null,
+      "error": "Schema validation failed: ['Google Drive', 'Dropbox', 'OneDrive', 'WeTransfer', 'WhatsApp', 'Telegram', 'Slack', 'AirDrop (iOS)', 'Email Clients (Gmail, Outlook, Yahoo Mail)', 'Google Photos', 'Adobe Creative Cloud', 'Box', 'Mega', 'Sync.com', 'ZippyShare', 'MediaFire', 'SendAnywhere', 'FileZilla', 'Cyberduck'] is too short"
+    },
+    {
+      "feature": "Send files",
+      "run": 9,
+      "payload": null,
+      "error": "Schema validation failed: ['Google Drive', 'Dropbox', 'OneDrive', 'iCloud Drive', 'Box', 'WhatsApp', 'Telegram', 'Signal', 'Slack', 'WeTransfer', 'AirDrop (for Apple devices)', 'Email clients like Gmail, Outlook, and Yahoo Mail', 'Google Photos', 'Adobe Creative Cloud', 'DriveFileChecker', 'ZippyShare', 'MediaFire', 'Files by Google', 'SHAREit'] is too short"
+    },
+    {
+      "feature": "Watch streams",
+      "run": 0,
+      "payload": {
+        "a": [
+          "YouTube",
+          "Netflix",
+          "Amazon Prime Video",
+          "Hulu",
+          "Disney+",
+          "Crunchyroll",
+          "Twitch",
+          "ESPN",
+          "CBS All Access",
+          "HBO Max",
+          "Peacock TV",
+          "Pluto TV",
+          "Vudu",
+          "Tubi",
+          "Redbox",
+          "Apple TV+",
+          "DAZN",
+          "FandangoNOW",
+          "Paramount+",
+          "Sling TV"
+        ],
+        "c": [
+          {
+            "n": "Streaming Quality",
+            "d": "The quality of the video stream offered by the app, including resolution and bitrate."
+          },
+          {
+            "n": "Content Library",
+            "d": "The variety and quantity of movies, TV shows, sports, and other content available for streaming."
+          },
+          {
+            "n": "User Interface",
+            "d": "The ease of navigation and overall user experience within the app."
+          },
+          {
+            "n": "Device Compatibility",
+            "d": "The range of devices the app is compatible with, including smartphones, tablets, smart TVs, gaming consoles, etc."
+          },
+          {
+            "n": "Subscription Cost",
+            "d": "The affordability of the subscription cost compared to other streaming services."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Watch streams",
+      "run": 1,
+      "payload": null,
+      "error": "Schema validation failed: ['YouTube', 'Netflix', 'Hulu', 'Amazon Prime Video', 'Disney+', 'Twitch', 'ESPN', 'Crackle', 'CBS All Access', 'Pluto TV', 'Vudu', 'Tubi', 'Peacock', 'Apple TV+', 'HBO Max', 'Paramount+', 'DAZN', 'Red Bull TV', 'Fandor'] is too short"
+    },
+    {
+      "feature": "Watch streams",
+      "run": 2,
+      "payload": null,
+      "error": "Schema validation failed: ['YouTube', 'Netflix', 'Hulu', 'Amazon Prime Video', 'Disney+', 'ESPN', 'Crackle', 'Pluto TV', 'Tubi', 'Vudu', 'CBS All Access', 'HBO Max', 'DirecTV Now', 'Sling TV', 'Fubo TV', 'Redbox TV', 'Peacock', 'DAZN', 'Apple TV+'] is too short"
+    },
+    {
+      "feature": "Watch streams",
+      "run": 3,
+      "payload": null,
+      "error": "Schema validation failed: ['YouTube', 'Netflix', 'Hulu', 'Amazon Prime Video', 'Disney+', 'Crackle', 'Peacock TV', 'Pluto TV', 'Tubi', 'Vudu', 'CBS All Access', 'HBO Max', 'DAZN', 'ESPN+', 'Apple TV+', 'Paramount+', 'Redbox', 'Sling TV', 'FuboTV'] is too short"
+    },
+    {
+      "feature": "Watch streams",
+      "run": 4,
+      "payload": null,
+      "error": "Expecting ',' delimiter: line 22 column 10 (char 319)"
+    },
+    {
+      "feature": "Watch streams",
+      "run": 5,
+      "payload": null,
+      "error": "Schema validation failed: ['Netflix', 'YouTube', 'Hulu', 'Amazon Prime Video', 'Disney+', 'Peacock TV', 'Crackle', 'CBS All Access', 'ESPN', 'DAZN', 'Pluto TV', 'Tubi', 'Vudu', 'Redbox', 'Apple TV+', 'HBO Max', 'Paramount+', 'Showtime Anytime', 'FandangoNOW'] is too short"
+    },
+    {
+      "feature": "Watch streams",
+      "run": 6,
+      "payload": null,
+      "error": "Schema validation failed: ['YouTube', 'Netflix', 'Hulu', 'Amazon Prime Video', 'Disney+', 'Twitch', 'ESPN', 'DAZN', 'Crackle', 'Pluto TV', 'Vudu', 'Peacock TV', 'Tubi', 'Redbox', 'CBS All Access', 'HBO Max', 'Apple TV+', 'Paramount+', 'Roku Channel'] is too short"
+    },
+    {
+      "feature": "Watch streams",
+      "run": 7,
+      "payload": {
+        "a": [
+          "YouTube",
+          "Netflix",
+          "Hulu",
+          "Amazon Prime Video",
+          "Disney+",
+          "Crunchyroll",
+          "Twitch",
+          "ESPN",
+          "Vimeo",
+          "Pluto TV",
+          "DAZN",
+          "CBS All Access",
+          "HBO Max",
+          "Peacock",
+          "Tubi",
+          "Red Bull TV",
+          "Vudu",
+          "Apple TV+",
+          "Paramount+",
+          "Sling TV"
+        ],
+        "c": [
+          {
+            "n": "Streaming Quality",
+            "d": "The quality of the video stream provided by the app, including resolution and bitrate."
+          },
+          {
+            "n": "Content Library",
+            "d": "The variety and quantity of movies, TV shows, sports events, and other content available on the platform."
+          },
+          {
+            "n": "User Interface",
+            "d": "The ease of use and design of the app's interface, including navigation and search functionality."
+          },
+          {
+            "n": "Original Content",
+            "d": "The amount and quality of exclusive content produced by the service."
+          },
+          {
+            "n": "Device Compatibility",
+            "d": "The range of devices the app is compatible with, including smartphones, tablets, smart TVs, gaming consoles, etc."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Watch streams",
+      "run": 8,
+      "payload": null,
+      "error": "Schema validation failed: ['YouTube', 'Netflix', 'Hulu', 'Amazon Prime Video', 'Disney+', 'Crackle', 'Peacock TV', 'Twitch', 'Pluto TV', 'ESPN', 'DAZN', 'CBS All Access', 'HBO Max', 'Vudu', 'Tubi', 'Redbox', 'Apple TV+', 'Paramount+', 'FandangoNOW'] is too short"
+    },
+    {
+      "feature": "Watch streams",
+      "run": 9,
+      "payload": null,
+      "error": "Schema validation failed: ['YouTube', 'Netflix', 'Amazon Prime Video', 'Hulu', 'Disney+', 'Crackle', 'Peacock TV', 'Tubi', 'Vudu', 'Pluto TV', 'CBS All Access', 'ESPN', 'HBO Max', 'DAZN', 'Red Bull TV', 'Twitch', 'Vimeo', 'Fandor', 'Mubi'] is too short"
+    },
+    {
+      "feature": "Go Live",
+      "run": 0,
+      "payload": null,
+      "error": "Schema validation failed: ['YouTube Studio', 'Twitch', 'Periscope', 'Facebook Live', 'Instagram Live', 'TikTok', 'Clash of Clans', 'PUBG Mobile', 'Call of Duty: Mobile', 'Fortnite', 'Twitter', 'LinkedIn Live', 'Reddit Public Live Chat', 'Houseparty', 'Zoom', 'Microsoft Teams', 'Google Meet', 'Skype', 'Discord'] is too short"
+    },
+    {
+      "feature": "Go Live",
+      "run": 1,
+      "payload": null,
+      "error": "Schema validation failed: ['Periscope', 'Twitch', 'YouTube Live', 'Facebook Live', 'Instagram Live', 'TikTok', 'Houseparty', 'Zoom', 'Skype', 'Microsoft Teams', 'Google Meet', 'Discord', 'Twitter Spaces', 'Clubhouse', 'LinkedIn Live', 'Reddit Public Live Chat', 'Caffeine', 'Dribbble Live', 'Vimeo Live'] is too short"
+    },
+    {
+      "feature": "Go Live",
+      "run": 2,
+      "payload": null,
+      "error": "Schema validation failed: ['App Store Connect', 'Google Play Console', 'TapCart', 'Livestream', 'Periscope', 'YouNow', 'Twitch', 'Facebook Live', 'Instagram Live', 'LinkedIn Live', 'YouTube Live', 'Twitter Live', 'Dacast', 'Ustream', 'Vimeo Live', 'Wistia', 'StreamShark', 'Wowza Streaming Engine', 'Red5'] is too short"
+    },
+    {
+      "feature": "Go Live",
+      "run": 3,
+      "payload": {
+        "a": [
+          "App Store Connect",
+          "Google Play Console",
+          "Periscope",
+          "Twitch",
+          "YouTube Studio",
+          "Instagram Live",
+          "Facebook Live",
+          "LinkedIn Live",
+          "TikTok",
+          "Clubhouse",
+          "Twitter Live",
+          "Houseparty",
+          "Cameo",
+          "Streamlabs OBS",
+          "OBS Studio",
+          "XSplit Broadcaster",
+          "Wowza GoCoder",
+          "Vimeo Livestream",
+          "Zoom",
+          "Webex Meetings"
+        ],
+        "c": [
+          {
+            "n": "Go Live Feature",
+            "d": "Ability to stream live video directly from the app"
+          },
+          {
+            "n": "User Base",
+            "d": "Size and engagement of the user base, which can impact visibility and potential audience"
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Go Live",
+      "run": 4,
+      "payload": {
+        "a": [
+          "YouTube",
+          "Twitch",
+          "Instagram",
+          "TikTok",
+          "Facebook Live",
+          "Periscope",
+          "Zoom",
+          "Skype",
+          "Houseparty",
+          "Microsoft Teams",
+          "Google Meet",
+          "Discord",
+          "Twitter",
+          "Clubhouse",
+          "LinkedIn Live",
+          "Reddit Public Live Chat",
+          "Cisco Webex Meetings",
+          "Slack",
+          "Zoom Cloud Meetings",
+          "Dailymotion"
+        ],
+        "c": [
+          {
+            "n": "Go Live Feature",
+            "d": "Allows users to stream live videos directly from the app"
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Go Live",
+      "run": 5,
+      "payload": null,
+      "error": "Schema validation failed: ['YouTube', 'Facebook Live', 'Instagram Live', 'Twitch', 'Periscope', 'TikTok', 'Snapchat', 'Clubhouse', 'Zoom', 'Microsoft Teams', 'Google Meet', 'Skype', 'Webex', 'Twitter', 'LinkedIn Live', 'Vimeo Live', 'Dribbble Live', 'Reddit Public Live Chat', 'Quora Spaces'] is too short"
+    },
+    {
+      "feature": "Go Live",
+      "run": 6,
+      "payload": null,
+      "error": "Schema validation failed: ['Periscope', 'Twitch', 'YouNow', 'Instagram Live', 'Facebook Live', 'TikTok', 'Houseparty', 'Zoom', 'Microsoft Teams', 'Google Meet', 'Skype', 'Discord', 'Twitter Spaces', 'Clubhouse', 'LinkedIn Live', 'YouTube Live', 'Reddit Public Live Chat', 'Cameo', 'Meetup'] is too short"
+    },
+    {
+      "feature": "Go Live",
+      "run": 7,
+      "payload": null,
+      "error": "Schema validation failed: ['Twitch', 'YouTube Live', 'Facebook Live', 'Periscope', 'Instagram Live', 'TikTok', 'Dribbble Live', 'Reddit Public Live', 'LinkedIn Live', 'Clubhouse', 'Vimeo Live', 'Caffeine', 'Streamyard', 'Restream', 'BeLive.tv', 'Muxy', 'Zoom Meetings', 'Microsoft Teams', 'GoToWebinar'] is too short"
+    },
+    {
+      "feature": "Go Live",
+      "run": 8,
+      "payload": null,
+      "error": "Schema validation failed: ['Periscope', 'Twitch', 'YouNow', 'Facebook Live', 'Instagram Live', 'TikTok', 'Snapchat', 'YouTube Live', 'Houseparty', 'Clubhouse', 'Mixer', 'Driift', 'Streamlabs', 'Caffeine', 'Restream', 'Be.live', 'IBM Cloud Video', 'Vimeo Live', 'Wowza Streaming Engine'] is too short"
+    },
+    {
+      "feature": "Go Live",
+      "run": 9,
+      "payload": null,
+      "error": "Schema validation failed: ['Twitch', 'YouTube Live', 'Periscope', 'Facebook Live', 'Instagram Live', 'TikTok', 'Twitter Live', 'LinkedIn Live', 'Houseparty', 'Clubhouse', 'Cameo', 'Streamlabs', 'Dlive', 'Mixcro', 'Vimeo Livestream', 'Zoom', 'Microsoft Teams', 'Skype', 'Webex Meetings'] is too short"
+    },
+    {
+      "feature": "Play playlist on shuffle mode",
+      "run": 0,
+      "payload": {
+        "a": [
+          "Spotify",
+          "Apple Music",
+          "YouTube Music",
+          "Tidal",
+          "Pandora",
+          "Deezer",
+          "Google Play Music",
+          "SoundCloud",
+          "Vimeo",
+          "Amazon Music",
+          "TuneIn Radio",
+          "iHeartRadio",
+          "Slacker Radio",
+          "Last.fm",
+          "Saavn",
+          "Gaana",
+          "JioSaavn",
+          "Wynk Music",
+          "AwaTunes",
+          "MP3 Player by XMP3"
+        ],
+        "c": [
+          {
+            "n": "Shuffle Mode Availability",
+            "d": "Presence and ease of access to shuffle mode within the app's music playback features."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Play playlist on shuffle mode",
+      "run": 1,
+      "payload": {
+        "a": [
+          "Spotify",
+          "Apple Music",
+          "YouTube Music",
+          "Tidal",
+          "Pandora",
+          "Google Play Music",
+          "Deezer",
+          "SoundCloud",
+          "Amazon Music",
+          "Vimeo",
+          "TikTok",
+          "Instagram",
+          "Facebook",
+          "Snapchat",
+          "Twitch",
+          "Clubhouse",
+          "Reddit",
+          "Mixcloud",
+          "Saavn",
+          "Gaana"
+        ],
+        "c": [
+          {
+            "n": "Shuffle Mode Availability",
+            "d": "Indicates whether the app offers a shuffle mode for playlists."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Play playlist on shuffle mode",
+      "run": 2,
+      "payload": {
+        "a": [
+          "Spotify",
+          "Apple Music",
+          "YouTube Music",
+          "Tidal",
+          "Pandora",
+          "Google Play Music",
+          "Deezer",
+          "SoundCloud",
+          "Amazon Music",
+          "TuneIn Radio",
+          "Last.fm",
+          "iHeartRadio",
+          "Vimeo",
+          "Plex",
+          "JioSaavn",
+          "Gaana",
+          "Wynk Music",
+          "Boom Play Music",
+          "ClaroMusica",
+          "SAAVN"
+        ],
+        "c": [
+          {
+            "n": "Shuffle Mode",
+            "d": "The ability to play a playlist in random order, providing an unpredictable and dynamic music listening experience."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Play playlist on shuffle mode",
+      "run": 3,
+      "payload": {
+        "a": [
+          "Spotify",
+          "Apple Music",
+          "YouTube Music",
+          "Tidal",
+          "Pandora",
+          "Deezer",
+          "Google Play Music",
+          "SoundCloud",
+          "VLC Media Player",
+          "PowerAMP",
+          "Shazam",
+          "Amazon Music",
+          "Jetaudio",
+          "Wynk Music",
+          "Saavn",
+          "Gaana",
+          "Wynk TuneIn Radio",
+          "Napster",
+          "Audiomack",
+          "Slacker Radio"
+        ],
+        "c": [
+          {
+            "n": "Shuffle Play Support",
+            "d": "Ability to play a playlist in random order"
+          },
+          {
+            "n": "Library Size",
+            "d": "Number of songs available for shuffle play"
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Play playlist on shuffle mode",
+      "run": 4,
+      "payload": {
+        "a": [
+          "Spotify",
+          "Apple Music",
+          "YouTube Music",
+          "Pandora",
+          "Tidal",
+          "Google Play Music",
+          "SoundCloud",
+          "Deezer",
+          "Amazon Music",
+          "Vimeo",
+          "TikTok",
+          "Instagram Reels",
+          "Snapchat",
+          "Facebook",
+          "Twitch",
+          "Clubhouse",
+          "Mixcloud",
+          "AmpMe",
+          "Boomplay",
+          "Saavn"
+        ],
+        "c": [
+          {
+            "n": "Shuffle Mode Availability",
+            "d": "Apps that offer the option to play songs or videos in a random order, also known as shuffle mode."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Play playlist on shuffle mode",
+      "run": 5,
+      "payload": {
+        "a": [
+          "Spotify",
+          "Apple Music",
+          "YouTube Music",
+          "Tidal",
+          "Pandora",
+          "Deezer",
+          "Google Play Music",
+          "SoundCloud",
+          "Amazon Music",
+          "iHeartRadio",
+          "Slacker Radio",
+          "TuneIn Radio",
+          "SAVANNA.FM",
+          "Last.fm",
+          "Audiomack",
+          "Jiosaavn",
+          "Boomplay Music",
+          "Claro Música",
+          "Anghami",
+          "Saavn Pro"
+        ],
+        "c": [
+          {
+            "n": "Shuffle Mode Playback",
+            "d": "The ability to play the songs in a playlist randomly instead of in order"
+          },
+          {
+            "n": "User Interface",
+            "d": "Ease of use and overall design of the app"
+          },
+          {
+            "n": "Music Library",
+            "d": "Size and diversity of music library available for shuffle playback"
+          },
+          {
+            "n": "Audio Quality",
+            "d": "Quality of audio streamed in shuffle mode"
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Play playlist on shuffle mode",
+      "run": 6,
+      "payload": {
+        "a": [
+          "Spotify",
+          "Apple Music",
+          "YouTube Music",
+          "Tidal",
+          "Pandora",
+          "Google Play Music",
+          "Deezer",
+          "SoundCloud",
+          "VLC Media Player",
+          "Amazon Music",
+          "Slacker Radio",
+          "iHeartRadio",
+          "Last.fm",
+          "TuneIn Radio",
+          "Boom Play Music",
+          "Napster",
+          "Saavn (JioMusic)",
+          "Wynk Music",
+          "Gaana",
+          "Jiosaavn"
+        ],
+        "c": [
+          {
+            "n": "Shuffle Mode Availability",
+            "d": "Indicates whether the app allows playing playlists in shuffle mode."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Play playlist on shuffle mode",
+      "run": 7,
+      "payload": null,
+      "error": "Schema validation failed: ['Spotify', 'Apple Music', 'Tidal', 'YouTube Music', 'Pandora', 'Deezer', 'Google Play Music', 'Amazon Music', 'SoundCloud', 'Slacker Radio', 'iHeartRadio', 'TuneIn Radio', 'VLC media player', 'Poweramp', 'N7 Player', 'PlayerPro', 'BlackPlayer', 'Neutron Music Player', 'JetAudio'] is too short"
+    },
+    {
+      "feature": "Play playlist on shuffle mode",
+      "run": 8,
+      "payload": {
+        "a": [
+          "Spotify",
+          "Apple Music",
+          "Google Play Music",
+          "Deezer",
+          "Tidal",
+          "Pandora",
+          "SoundCloud",
+          "Amazon Music",
+          "YouTube Music",
+          "VLC Media Player",
+          "PowerAMP",
+          "JetAudio",
+          "BlackPlayer",
+          "MediaMonkey",
+          "n7player",
+          "Neutron Music Player",
+          "Phonograph",
+          "Rocket Music Player",
+          "Pulsar Music Player",
+          "PlayerPro"
+        ],
+        "c": [
+          {
+            "n": "Shuffle Mode Availability",
+            "d": "Indicates whether the app allows users to play playlists in shuffle mode"
+          },
+          {
+            "n": "User Interface",
+            "d": "Assesses the app's overall design and user experience for ease of use and navigation"
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Play playlist on shuffle mode",
+      "run": 9,
+      "payload": {
+        "a": [
+          "Spotify",
+          "Apple Music",
+          "Google Play Music",
+          "YouTube Music",
+          "Tidal",
+          "Pandora",
+          "Deezer",
+          "SoundCloud",
+          "Amazon Music",
+          "TuneIn Radio",
+          "iHeartRadio",
+          "Slacker Radio",
+          "Last.fm",
+          "Saavn",
+          "Gaana",
+          "JioSaavn",
+          "Wynk Music",
+          "Boomplay",
+          "AWA",
+          "NetEase Cloud Music"
+        ],
+        "c": [
+          {
+            "n": "Shuffle Mode Playback",
+            "d": "The ability to play a playlist in random order rather than sequentially."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Access to podcasts",
+      "run": 0,
+      "payload": {
+        "a": [
+          "Apple Podcasts",
+          "Spotify",
+          "Stitcher",
+          "Google Podcasts",
+          "Overcast",
+          "Pocket Casts",
+          "Castbox",
+          "TuneIn Radio",
+          "Podbean",
+          "Luminary",
+          "Deutschlandfunk",
+          "NPR One",
+          "RadioPublic",
+          "Acast",
+          "Podchaser",
+          "Radio.com",
+          "SoundCloud",
+          "Player FM",
+          "Breaker",
+          "Castos"
+        ],
+        "c": [
+          {
+            "n": "Availability",
+            "d": "The number of podcasts available in the app"
+          },
+          {
+            "n": "User Interface",
+            "d": "Ease of use and design aesthetics"
+          },
+          {
+            "n": "Social Integration",
+            "d": "Integration with social media platforms for sharing episodes"
+          },
+          {
+            "n": "Offline Playback",
+            "d": "Ability to download podcasts for offline listening"
+          },
+          {
+            "n": "Recommendations",
+            "d": "Quality and accuracy of episode recommendations"
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Access to podcasts",
+      "run": 1,
+      "payload": null,
+      "error": "Schema validation failed: ['Apple Podcasts', 'Spotify', 'Google Podcasts', 'Stitcher', 'Overcast', 'Pocket Casts', 'Castbox', 'TuneIn Radio', 'Podbean', 'Luminary', 'Deckertown', 'Castro', 'RadioPublic', 'SoundCloud', 'Audioboom', 'Player FM', 'Breaker', 'Podcast Addict', 'DoggCatcher'] is too short"
+    },
+    {
+      "feature": "Access to podcasts",
+      "run": 2,
+      "payload": null,
+      "error": "Schema validation failed: ['Apple Podcasts', 'Spotify', 'Stitcher', 'Google Podcasts', 'Overcast', 'Pocket Casts', 'Castbox', 'TuneIn Radio', 'Podbean', 'Player FM', 'Breaker', 'Luminary', 'RadioPublic', 'Castro', 'Downcast', 'Podkicker', 'Audioboom', 'Nodepod', 'DeckRadio'] is too short"
+    },
+    {
+      "feature": "Access to podcasts",
+      "run": 3,
+      "payload": null,
+      "error": "Schema validation failed: ['Spotify', 'Apple Podcasts', 'Google Podcasts', 'Stitcher', 'Podbean', 'Overcast', 'Pocket Casts', 'Castbox', 'TuneIn Radio', 'iHeartRadio', 'Luminary', 'RadioPublic', 'Castro', 'Downcast', 'Podcast Addict', 'Player FM', 'Breaker', 'Anchor FM', 'SoundCloud'] is too short"
+    },
+    {
+      "feature": "Access to podcasts",
+      "run": 4,
+      "payload": {
+        "a": [
+          "Apple Podcasts",
+          "Spotify",
+          "Google Podcasts",
+          "Stitcher Radio",
+          "TuneIn Radio",
+          "Overcast",
+          "Podbean",
+          "Castbox",
+          "Pocket Casts",
+          "iHeartRadio",
+          "Luminary",
+          "Podcast Addict",
+          "Player FM",
+          "Downcast",
+          "Breaker",
+          "RadioPublic",
+          "Castro",
+          "Audioboom",
+          "Buzzsprout",
+          "Podkicker"
+        ],
+        "c": [
+          {
+            "n": "Availability",
+            "d": "The app's ability to be accessed on multiple platforms (iOS, Android, Web)"
+          },
+          {
+            "n": "Library Size",
+            "d": "The number of podcasts available in the app's library"
+          },
+          {
+            "n": "User Interface",
+            "d": "The user-friendly and intuitive nature of the app's interface"
+          },
+          {
+            "n": "Download Options",
+            "d": "Whether the app allows users to download podcast episodes for offline listening"
+          },
+          {
+            "n": "Recommendation Algorithm",
+            "d": "The app's ability to recommend new podcasts based on user preferences"
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Access to podcasts",
+      "run": 5,
+      "payload": {
+        "a": [
+          "Apple Podcasts",
+          "Spotify",
+          "Google Podcasts",
+          "Stitcher",
+          "Overcast",
+          "Castbox",
+          "Pocket Casts",
+          "TuneIn Radio",
+          "Podbean",
+          "Luminary",
+          "RadioPublic",
+          "iHeartRadio",
+          "Deutsche Welle",
+          "Castro",
+          "Breaker",
+          "Audioboom",
+          "Player FM",
+          "Buzzsprout",
+          "Whooshkaa",
+          "Radio.com"
+        ],
+        "c": [
+          {
+            "n": "Availability",
+            "d": "How widely the app is available (e.g., iOS, Android, Web)"
+          },
+          {
+            "n": "User Interface",
+            "d": "The app's design and navigation, which impacts user experience"
+          },
+          {
+            "n": "Library Size",
+            "d": "Number of podcasts available on the platform"
+          },
+          {
+            "n": "Discoverability",
+            "d": "Ease with which users can find new podcasts that match their interests"
+          },
+          {
+            "n": "Social Sharing",
+            "d": "Ability to share and discuss podcast episodes on social media platforms"
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Access to podcasts",
+      "run": 6,
+      "payload": null,
+      "error": "Schema validation failed: ['Apple Podcasts', 'Spotify', 'Google Podcasts', 'Stitcher Radio', 'TuneIn Radio', 'Podbean', 'Castbox', 'Overcast', 'Pocket Casts', 'Luminary', 'Podcast Addict', 'RadioPublic', 'Audioboom', 'iHeartRadio', 'SoundCloud', 'Deezer', 'Player FM', 'Buzzsprout', 'Anchor'] is too short"
+    },
+    {
+      "feature": "Access to podcasts",
+      "run": 7,
+      "payload": {
+        "a": [
+          "Spotify",
+          "Apple Podcasts",
+          "Google Podcasts",
+          "Stitcher Radio",
+          "TuneIn Radio",
+          "Overcast",
+          "Podbean",
+          "Pocket Casts",
+          "Castbox",
+          "Luminary",
+          "Podcast Addict",
+          "RadioPublic",
+          "Player FM",
+          "Breaker",
+          "Castro",
+          "Audioboom",
+          "Buzzsprout",
+          "Anchor",
+          "Simplecast",
+          "Downcast"
+        ],
+        "c": [
+          {
+            "n": "Availability",
+            "d": "The number of platforms the app is available on"
+          },
+          {
+            "n": "User Interface",
+            "d": "The ease of use and design of the app's interface"
+          },
+          {
+            "n": "Podcast Library",
+            "d": "The size and variety of podcasts available in the app's library"
+          },
+          {
+            "n": "Download Options",
+            "d": "Whether the app allows users to download episodes for offline listening"
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Access to podcasts",
+      "run": 8,
+      "payload": null,
+      "error": "Schema validation failed: ['Apple Podcasts', 'Spotify', 'Google Podcasts', 'Stitcher Radio', 'TuneIn Radio', 'Podbean', 'Overcast', 'Castbox', 'Pocket Casts', 'Luminary', 'RadioPublic', 'NPR One', 'Deezer', 'SoundCloud', 'Audioboom', 'Breaker', 'Podcast Addict', 'Castro', 'Buzzsprout'] is too short"
+    },
+    {
+      "feature": "Access to podcasts",
+      "run": 9,
+      "payload": null,
+      "error": "Schema validation failed: ['Spotify', 'Apple Podcasts', 'Google Podcasts', 'Stitcher', 'TuneIn Radio', 'Podbean', 'Overcast', 'Castbox', 'Pocket Casts', 'Luminary', 'RadioPublic', 'Podcast Addict', 'Player FM', 'iHeartRadio', 'SoundCloud', 'Castro', 'Breaker', 'Audioboom', 'Deckertown'] is too short"
+    },
+    {
+      "feature": "Build photo collage",
+      "run": 0,
+      "payload": {
+        "a": [
+          "PhotoGrid",
+          "PicCollage",
+          "Collage Maker - Photo Grid",
+          "Layout from Adobe",
+          "PicsArt",
+          "Canva",
+          "Moldiv",
+          "Collage Maker",
+          "Fotor",
+          "Photo Collage Editor",
+          "Collage Maker by Quik",
+          "Diptic",
+          "InstaSize Pro",
+          "Collage Maker for Instagram",
+          "Frametrap",
+          "PicLab HD",
+          "Photocollage.fun",
+          "Photo collage maker",
+          "Collage Maker Free",
+          "Collage Maker: Photo Grid"
+        ],
+        "c": [
+          {
+            "n": "User Ratings",
+            "d": "The average user rating of the app on Google Play Store or Apple App Store"
+          },
+          {
+            "n": "Downloads",
+            "d": "Total number of downloads the app has had across both platforms"
+          },
+          {
+            "n": "Features",
+            "d": "Number and variety of features offered by the app for photo collage making"
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Build photo collage",
+      "run": 1,
+      "payload": {
+        "a": [
+          "Instagram",
+          "Snapchat",
+          "PicCollage",
+          "PhotoGrid",
+          "Adobe Spark",
+          "Canva",
+          "Fotor",
+          "PicsArt",
+          "Google Photos",
+          "Facebook Album",
+          "Photovisi",
+          "Frameshift",
+          "Layout from Adobe",
+          "Moldiv Premium",
+          "Collage Maker - Pic Stitch",
+          "Quik by GoPro",
+          "Diptic",
+          "Collage Maker by PhotoGrid",
+          "Photo Collage Maker",
+          "FotoRus"
+        ],
+        "c": [
+          {
+            "n": "User Base",
+            "d": "The size of the user base indicates the app's popularity and reach."
+          },
+          {
+            "n": "Ease of Use",
+            "d": "How intuitive and easy to use the app is for creating collages."
+          },
+          {
+            "n": "Quality of Output",
+            "d": "The quality of the final photo collage output in terms of image resolution, customization options, and design aesthetics."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Build photo collage",
+      "run": 2,
+      "payload": {
+        "a": [
+          "Instagram",
+          "Google Photos",
+          "Adobe Lightroom",
+          "Snapfish",
+          "PicCollage",
+          "PhotoGrid",
+          "Canva",
+          "Photos Art",
+          "Fotor",
+          "PicsArt",
+          "Framed",
+          "Collage Maker",
+          "Moldiv",
+          "Quik by GoPro",
+          "Graham",
+          "Pic Collage Maker - Photo Grid",
+          "LayOut",
+          "Photo Collage & Picture Grid",
+          "Photovisi",
+          "Photo Collage Editor"
+        ],
+        "c": [
+          {
+            "n": "User Base",
+            "d": "Popularity of the app among users as a measure of its reach and relevance"
+          },
+          {
+            "n": "Ratings & Reviews",
+            "d": "Average user ratings and quantity of reviews indicating overall satisfaction with the app's features and performance"
+          },
+          {
+            "n": "Ease of Use",
+            "d": "Simplicity in creating photo collages, including various template options and customization tools"
+          },
+          {
+            "n": "Feature Richness",
+            "d": "Offering a wide range of features like filters, fonts, frames, and editing tools for more creative control"
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Build photo collage",
+      "run": 3,
+      "payload": null,
+      "error": "Schema validation failed: ['Instagram', 'Snapchat', 'Facebook', 'WhatsApp', 'Google Photos', 'PicCollage', 'Adobe Spark Post', 'PicsArt', 'Canva', 'Moldiv', 'Photoshop Express', 'Picture Mator', 'Fotor', 'Layout from Instagram', 'Collage Maker - Photo Grid', 'HundredsKit Collage Maker', 'PhotoGrid', 'Frametype', 'Polarr'] is too short"
+    },
+    {
+      "feature": "Build photo collage",
+      "run": 4,
+      "payload": {
+        "a": [
+          "Instagram",
+          "Snapchat",
+          "Facebook",
+          "Google Photos",
+          "PicCollage",
+          "PhotoGrid",
+          "Adobe Spark Post",
+          "Moldiv",
+          "Canva",
+          "Layout from Google Photos",
+          "PhotoLab Picture Editor Pro",
+          "Diptic",
+          "Collage Maker – Photo Grid",
+          "Photogram",
+          "Quik by GoPro",
+          "PicsArt",
+          "Collage Maker - Pic Collage",
+          "Collage Maker & Photo Blender",
+          "Pic Collage Maker & Photo Editor",
+          "Frametap"
+        ],
+        "c": [
+          {
+            "n": "User Base",
+            "d": "The number of active monthly users indicates the popularity and reach of the app"
+          },
+          {
+            "n": "Review Ratings",
+            "d": "Average user ratings show how satisfied customers are with the service"
+          },
+          {
+            "n": "Features",
+            "d": "Additional features such as template variety, editing tools, and sharing options are considered"
+          },
+          {
+            "n": "Ease of Use",
+            "d": "The user-friendly interface and intuitive design make it easier for users to create collages"
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Build photo collage",
+      "run": 5,
+      "payload": null,
+      "error": "Schema validation failed: ['Instagram', 'Snapchat', 'Facebook', 'PicCollage', 'PhotoGrid', 'Adobe Spark Post', 'Moldiv - Photo Editor & Collage Maker', 'Canva', 'Photovisi', 'Photoslay', 'PicsArt', 'Collage Maker by BeFunky', 'Collage Maker & Picture Frames', 'Collage Maker - Photo Grid', 'Collage Maker & Layouts', 'Diptic', 'Photo Collage Maker by Pixel Studio HD', 'Layout from Adobe', 'Collage Maker & Photo Editor - PicLab'] is too short"
+    },
+    {
+      "feature": "Build photo collage",
+      "run": 6,
+      "payload": {
+        "a": [
+          "Adobe Spark Post",
+          "PicCollage - Photo Collage Maker & Picture Grid Arranger",
+          "PhotoGrid - Pic Collage, Video Editor & Photo Montage Maker",
+          "Canva: Design, Edit Photos & Videos",
+          "PicsArt: Photo Editor, Collage Maker & Drawing App",
+          "Layout from Instagram",
+          "Collage Maker - Photo Grid Collage",
+          "Photo Collage Maker",
+          "Collage Maker - Pic Collages",
+          "Quik by GoPro",
+          "Framed: Photo Collage, Picture Frames & Layouts",
+          "Pic Collage Maker & Picture Editor - Diptic",
+          "Moldiv - Photo editor, collage maker & filter camera",
+          "Photovisi - Free Online Collage Maker",
+          "Collage Maker Pro: Picture Grid App",
+          "Photo Collage Maker Pro",
+          "Fotor: Photo Editor & Collage Maker",
+          "Collage Maker - Pic Stitch",
+          "Picture Collage Maker Lite",
+          "Collage Maker & Pic Frame"
+        ],
+        "c": [
+          {
+            "n": "User Reviews",
+            "d": "Number and quality of user reviews reflect app's popularity and reliability"
+          },
+          {
+            "n": "Ratings",
+            "d": "Overall ratings by users help gauge an app's satisfaction level"
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Build photo collage",
+      "run": 7,
+      "payload": {
+        "a": [
+          "PhotoGrid",
+          "PicCollage",
+          "Layout from Adobe",
+          "Collage Maker by Quicks - Photo Editor & Collage Maker",
+          "PicsArt",
+          "Frametap",
+          "Canva",
+          "Collage Maker - Pic Stitch",
+          "Moldiv - Photo Editor & Collage Maker",
+          "Instasize",
+          "Photovisi",
+          "Collage Maker Pro",
+          "Adobe Spark Post",
+          "FotoRus Photo Collage Maker",
+          "Photo Collage Maker - Frame Photo Collages",
+          "Pic Collage & Photo Montage Maker",
+          "Collage Maker by EasyEdit",
+          "Collage: Pic Collage, Layout, Grid, Square",
+          "Collage Maker & Photo Editor - PiZap",
+          "Fotor - Photo Editor & Collage Maker"
+        ],
+        "c": [
+          {
+            "n": "User Reviews",
+            "d": "Average rating and number of reviews from app stores"
+          },
+          {
+            "n": "Downloads",
+            "d": "Number of downloads across all platforms"
+          },
+          {
+            "n": "Features",
+            "d": "Availability of additional features like editing tools, filters, etc."
+          },
+          {
+            "n": "Ease of Use",
+            "d": "User-friendliness and learning curve of the app"
+          },
+          {
+            "n": "Updates",
+            "d": "Frequency and quality of updates provided by the developer"
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Build photo collage",
+      "run": 8,
+      "payload": null,
+      "error": "Schema validation failed: ['Instagram', 'Snapchat', 'PicCollage', 'PhotoGrid', 'Adobe Spark Post', 'Canva', 'Layout from Instagram', 'PhotoArrangement', 'Fotor', 'Collage Maker by Quik', 'PicsArt', 'BeFunky Collage Maker', 'Photovisi', 'Collagemaker', 'Moldiv', 'Collage.com', 'Ribbon - Photo Editor & Collage Maker', 'Photo Collage Maker - Pic Moments', 'Collage Maker Pro'] is too short"
+    },
+    {
+      "feature": "Build photo collage",
+      "run": 9,
+      "payload": {
+        "a": [
+          "PhotoGrid",
+          "PicCollage",
+          "Adobe Spark Post",
+          "Collage Maker - Photo Grid",
+          "Canva",
+          "Fotor",
+          "Layout from Adobe",
+          "Photos Layout",
+          "Diptic",
+          "PicsArt",
+          "Quik",
+          "Moldiv",
+          "Collage Maker - Pic Stitch",
+          "Instasize",
+          "Photo Collage Maker",
+          "Collage Maker: Photo Grid Collages",
+          "PictaBooth",
+          "Collage Maker Pro",
+          "Fotor Collage",
+          "Collage Maker: Free Pic Collage"
+        ],
+        "c": [
+          {
+            "n": "User Reviews",
+            "d": "Number of positive reviews and ratings from users"
+          },
+          {
+            "n": "Features",
+            "d": "Availability of diverse features like filters, stickers, text overlays, etc."
+          },
+          {
+            "n": "Ease of Use",
+            "d": "Intuitive interface and ease of creating photo collages"
+          },
+          {
+            "n": "Community Support",
+            "d": "Presence of active user community for tips, tutorials, and feedback"
+          },
+          {
+            "n": "Customization Options",
+            "d": "Extensive options to customize the layout, design, and appearance of collages"
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Photo effects",
+      "run": 0,
+      "payload": {
+        "a": [
+          "Instagram",
+          "Snapseed",
+          "VSCO",
+          "Lightroom Mobile",
+          "Prisma",
+          "Adobe Photoshop Express",
+          "Fotor",
+          "PicsArt",
+          "Afterlight",
+          "Enlight Pixaloop",
+          "Google Photos",
+          "Bazaart",
+          "Polarr Photo Editor",
+          "Moldiv - Collage Maker, Photo Editor & Designer",
+          "Adobe Photoshop Camera",
+          "Camera+ 2 - Pro Camera",
+          "Fotograf",
+          "ProCam 6",
+          "Photomyx",
+          "SKRWT"
+        ],
+        "c": [
+          {
+            "n": "Integrated photo editing tools",
+            "d": "High-quality built-in editing tools that allow users to adjust colors, contrast, brightness, and more"
+          },
+          {
+            "n": "Wide variety of effects",
+            "d": "A vast collection of unique filters and effects to enhance photos and create artistic masterpieces"
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Photo effects",
+      "run": 1,
+      "payload": {
+        "a": [
+          "Instagram",
+          "Snapchat",
+          "VSCO",
+          "Lightroom",
+          "Prisma",
+          "PicsArt",
+          "Adobe Photoshop Express",
+          "FOCA",
+          "Fotor",
+          "Afterlight",
+          "Enlight",
+          "Aviary",
+          "Mextures",
+          "PixelLab",
+          "PhotoDirector",
+          "Hueless",
+          "Retrica",
+          "Camera+",
+          "Darkroom",
+          "Filterstorm"
+        ],
+        "c": [
+          {
+            "n": "Popularity",
+            "d": "Measured by the number of downloads and active users"
+          },
+          {
+            "n": "Quality of Effects",
+            "d": "Assessed by user reviews, ratings, and sample output"
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Photo effects",
+      "run": 2,
+      "payload": {
+        "a": [
+          "Snapchat",
+          "Instagram",
+          "Google Photos",
+          "Lightroom",
+          "VSCO",
+          "Prisma",
+          "FaceTune",
+          "Adobe Photoshop Express",
+          "PicsArt",
+          "Retrica",
+          "Camera+",
+          "Afterlight",
+          "Aviary",
+          "Fotor",
+          "Bazaart",
+          "Enlight Pixaloop",
+          "Snapseed",
+          "Darkroom - Pro Photo Editor",
+          "PicMonkey",
+          "PhotoDirector"
+        ],
+        "c": [
+          {
+            "n": "User Base",
+            "d": "Size of the user base for each app indicates its popularity and potential reach."
+          },
+          {
+            "n": "Ratings & Reviews",
+            "d": "Average ratings and number of reviews help measure an app's quality and satisfaction level among users."
+          },
+          {
+            "n": "Number of Downloads",
+            "d": "Total downloads show how many people have installed the app, which can indicate its overall popularity."
+          },
+          {
+            "n": "Innovation",
+            "d": "Unique photo effects, filters, or features that differentiate an app from competitors and make it stand out."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Photo effects",
+      "run": 3,
+      "payload": {
+        "a": [
+          "Instagram",
+          "Snapchat",
+          "VSCO",
+          "Prisma",
+          "Lightroom",
+          "Camera+",
+          "Afterlight",
+          "Mextures",
+          "PicsArt",
+          "Adobe Photoshop Express",
+          "Fotor",
+          "PixelLab",
+          "Photo Editor by Aviary",
+          "Enlight",
+          "Pixlr",
+          "Fotograf",
+          "Retrica",
+          "FOCUS Camera",
+          "B612 - Beauty and Filter Camera",
+          "Fotogenic"
+        ],
+        "c": [
+          {
+            "n": "User Base",
+            "d": "The size of the user base indicates the popularity of the app, which is important for photo effects apps"
+          },
+          {
+            "n": "Rating",
+            "d": "High user ratings reflect the satisfaction level with the photo effects features"
+          },
+          {
+            "n": "Variety of Effects",
+            "d": "A wide range of photo effects and filters allows users to create unique and appealing photos"
+          },
+          {
+            "n": "Ease of Use",
+            "d": "Intuitive and user-friendly interfaces make it easy for users to apply and adjust photo effects"
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Photo effects",
+      "run": 4,
+      "payload": {
+        "a": [
+          "Snapchat",
+          "Instagram",
+          "VSCO",
+          "Prisma",
+          "Lightroom",
+          "Adobe Photoshop Express",
+          "Fotor",
+          "PicsArt",
+          "Bazaart",
+          "PixelLab",
+          "PhotoGrid",
+          "Enlight",
+          "Afterlight",
+          "Rival",
+          "Moldiv",
+          "SketchBook",
+          "Adobe Photoshop Camera",
+          "Darkroom",
+          "Fotograf",
+          "Polarr"
+        ],
+        "c": [
+          {
+            "n": "User Base",
+            "d": "Number of active users indicating the app's popularity among photo enthusiasts"
+          },
+          {
+            "n": "Feature Richness",
+            "d": "Variety and quality of photo effects available for editing and enhancement"
+          },
+          {
+            "n": "Ease of Use",
+            "d": "Intuitive interface that allows users to easily apply and customize photo effects"
+          },
+          {
+            "n": "Community Engagement",
+            "d": "Level of user engagement within the app's community, such as sharing options and popular trends"
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Photo effects",
+      "run": 5,
+      "payload": {
+        "a": [
+          "Instagram",
+          "Snapchat",
+          "Vsco Cam",
+          "Lightroom Mobile",
+          "Prisma",
+          "Adobe Photoshop Express",
+          "Huidocam",
+          "FaceTune2",
+          "FOTOAPP",
+          "Enlight Quickshot",
+          "PicsArt",
+          "Aviary",
+          "Fotor",
+          "Pixlr",
+          "Afterlight",
+          "Sketchbook",
+          "Darkroom - Pro Editing",
+          "Photo Editor by Aviary",
+          "PixelLab - Text on Photo",
+          "Retrica"
+        ],
+        "c": [
+          {
+            "n": "User Base",
+            "d": "Number of active users, reflecting app popularity"
+          },
+          {
+            "n": "Feature Set",
+            "d": "Range and quality of photo effects offered by the app"
+          },
+          {
+            "n": "Ease of Use",
+            "d": "How intuitive and user-friendly the app is for applying photo effects"
+          },
+          {
+            "n": "Reviews",
+            "d": "Average ratings and reviews from users to gauge satisfaction with the app's photo effect features"
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Photo effects",
+      "run": 6,
+      "payload": {
+        "a": [
+          "Instagram",
+          "Snapchat",
+          "Vsco Cam",
+          "Lightroom",
+          "PicsArt",
+          "Prisma",
+          "Afterlight",
+          "A Color Story",
+          "VSCO",
+          "Fotor",
+          "Adobe Photoshop Express",
+          "Camera+",
+          "Manual",
+          "Darkroom",
+          "Mextures",
+          "Hueless",
+          "Enlight Pixaloop",
+          "Retrica",
+          "SKRWT",
+          "PhotoGrid"
+        ],
+        "c": [
+          {
+            "n": "User Base",
+            "d": "Number of active users"
+          },
+          {
+            "n": "Reviews",
+            "d": "Average rating and quantity of user reviews"
+          },
+          {
+            "n": "Features",
+            "d": "Range and quality of photo effects offered"
+          },
+          {
+            "n": "Ease of Use",
+            "d": "Simplicity and intuitive design for users"
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Photo effects",
+      "run": 7,
+      "payload": null,
+      "error": "Schema validation failed: ['Snapseed', 'VSCO', 'Lightroom Mobile', 'Prisma', 'Photoleap - Photo Editor & Collage Maker', 'Adobe Photoshop Express', 'PicsArt Photo Studio', 'Fotor - Photo Editor & Collage', 'PixelLab - Text on Picture', 'Retrica', 'B612 - Beauty & Filter Camera', 'Facetune2 - Photo Editor', 'Enlight Pixaloop', 'Fotograf - Pro Photography Camera', 'Hyperspec', 'Sketch Me! Photo Sketch', 'Candy Camera', 'PicsArt Animator', 'InShot - Video Editor, Photo Editor'] is too short"
+    },
+    {
+      "feature": "Photo effects",
+      "run": 8,
+      "payload": {
+        "a": [
+          "Snapchat",
+          "Instagram",
+          "VSCO",
+          "Lightroom",
+          "Prisma",
+          "Adobe Photoshop Express",
+          "Bazaart - Photo Editor & Design",
+          "Fotor",
+          "PicsArt",
+          "Fotograf",
+          "Afterlight 2",
+          "PixelLab",
+          "Enlight Pixoto",
+          "Mextures",
+          "Facetune2",
+          "Fotograf.ai",
+          "Darkroom",
+          "Retrica",
+          "Camera+",
+          "PicStitch"
+        ],
+        "c": [
+          {
+            "n": "User Base",
+            "d": "The size and popularity of the app's user base, measured by download count and active users"
+          },
+          {
+            "n": "Rating",
+            "d": "The average rating given to the app by its users on the app store"
+          },
+          {
+            "n": "Review Count",
+            "d": "The number of reviews the app has received from its users"
+          },
+          {
+            "n": "Unique Features",
+            "d": "The unique photo effect features offered by the app, such as filters, textures, or artistic styles"
+          },
+          {
+            "n": "Ease of Use",
+            "d": "How intuitive and easy to use the app's interface is for users"
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Photo effects",
+      "run": 9,
+      "payload": null,
+      "error": "Schema validation failed: ['Instagram', 'Snapchat', 'VSCO', 'Lightroom Mobile', 'Prisma', 'Adobe Photoshop Express', 'Camera+', 'Afterlight', 'PicsArt', 'Fotor', 'Mextures', 'Flickr', 'Google Photos', 'Darkroom - Pro Photo Editor', 'Enlight', 'PixelLab', 'Aviary', 'ProCam 6', 'Adobe Camera Raw'] is too short"
+    },
+    {
+      "feature": "Access to movies",
+      "run": 0,
+      "payload": null,
+      "error": "Schema validation failed: ['Netflix', 'Amazon Prime Video', 'Hulu', 'Disney+', 'YouTube Movies', 'Apple TV+', 'Crackle', 'Vudu', 'Google Play Movies & TV', 'Tubi', 'Peacock TV', 'IMDb', 'Mubi', 'PopcornFlix', 'Cineplex', 'FandangoNOW', 'Redbox', 'Pluto TV', 'Xfinity Stream'] is too short"
+    },
+    {
+      "feature": "Access to movies",
+      "run": 1,
+      "payload": null,
+      "error": "Schema validation failed: ['Netflix', 'Amazon Prime Video', 'Hulu', 'Disney+', 'YouTube Movies & Shows', 'Apple TV+', 'Crackle', 'Vudu', 'Google Play Movies & TV', 'Tubi', 'Peacock TV', 'CinemaBox HD', 'Popcorn Flix', 'Mega Box HD', 'Showbox', 'TeaTV', 'Newest Movies HD', 'Terrarium TV', 'BMovies!'] is too short"
+    },
+    {
+      "feature": "Access to movies",
+      "run": 2,
+      "payload": null,
+      "error": "Schema validation failed: ['Netflix', 'Amazon Prime Video', 'Hulu', 'Disney+', 'YouTube Movies & Shows', 'Crackle', 'Vudu', 'Tubi', 'Peacock TV', 'Apple TV+', 'Google Play Movies & TV', 'IMDb TV', 'MUBI', 'FXNOW', 'CBS All Access', 'HBO Max', 'DirectTV', 'Sling TV', 'Redbox'] is too short"
+    },
+    {
+      "feature": "Access to movies",
+      "run": 3,
+      "payload": null,
+      "error": "Schema validation failed: ['Netflix', 'Amazon Prime Video', 'Hulu', 'Disney+', 'YouTube Movies', 'Vudu', 'Crackle', 'Tubi', 'Peacock TV', 'Google Play Movies & TV'] is too short"
+    },
+    {
+      "feature": "Access to movies",
+      "run": 4,
+      "payload": null,
+      "error": "Schema validation failed: ['Netflix', 'Amazon Prime Video', 'Hulu', 'Disney+', 'YouTube Movies & Shows', 'Crackle', 'Tubi', 'Vudu', 'Peacock TV', 'Google Play Movies & TV', 'Apple TV+', 'HBO Max', 'Cinema APK', 'Popcorn Time', 'Terrarium TV (unavailable, replaced by Terrarium TV Fork)', 'Mobdro', 'Kodi', 'Showbox', 'TeaTV'] is too short"
+    },
+    {
+      "feature": "Access to movies",
+      "run": 5,
+      "payload": null,
+      "error": "Schema validation failed: ['Netflix', 'Amazon Prime Video', 'Hulu', 'YouTube Movies', 'Disney+', 'Apple TV+', 'Google Play Movies & TV', 'Vudu', 'Crackle', 'Tubi', 'Peacock TV', 'HBO Max', 'Cinema APK', 'Mobdro', 'Popcorn Time', 'Terrarium TV', 'Showbox', 'Kodi', 'TeaTV'] is too short"
+    },
+    {
+      "feature": "Access to movies",
+      "run": 6,
+      "payload": null,
+      "error": "Schema validation failed: ['Netflix', 'Amazon Prime Video', 'Hulu', 'Disney+', 'YouTube Movies & Shows', 'Crackle', 'Tubi', 'Peacock TV', 'Vudu', 'Google Play Movies & TV', 'Apple TV+', 'IMDb', 'Mubi', 'HBO Max', 'Cineplex', 'FandangoNOW', 'Xfinity Stream', 'Redbox', 'PopcornFlix'] is too short"
+    },
+    {
+      "feature": "Access to movies",
+      "run": 7,
+      "payload": null,
+      "error": "Schema validation failed: ['Netflix', 'Amazon Prime Video', 'Hulu', 'Disney+', 'YouTube Movies', 'Apple TV+', 'Crackle', 'Vudu', 'Google Play Movies & TV', 'Peacock', 'Tubi', 'Mubi', 'Cineplex', 'FandangoNOW', 'HBO Max', 'Redbox', 'IFC Films Unlimited', 'Gaia', 'CuriosityStream'] is too short"
+    },
+    {
+      "feature": "Access to movies",
+      "run": 8,
+      "payload": null,
+      "error": "Schema validation failed: ['Netflix', 'Amazon Prime Video', 'Hulu', 'Disney+', 'YouTube TV', 'Crackle', 'Vudu', 'Tubi', 'Peacock TV', 'Cinema APK', 'Popcorn Time', 'MegaBox HD', 'Terrarium TV', 'Showbox', 'TeaTV', 'G HD Stream', 'Mobdro', 'Kodi', 'Pluto TV'] is too short"
+    },
+    {
+      "feature": "Access to movies",
+      "run": 9,
+      "payload": null,
+      "error": "Schema validation failed: ['Netflix', 'Amazon Prime Video', 'Hulu', 'Disney+', 'YouTube Movies & Shows', 'Apple TV+', 'Vudu', 'Google Play Movies & TV', 'Crackle', 'Tubi', 'Peacock TV', 'Cinema APK', 'Popcorn Time', 'Kodi', 'MegaBox HD', 'Terrarium TV', 'Showbox', 'TeaTV', 'Newest Movies HD'] is too short"
+    },
+    {
+      "feature": "Rate movies",
+      "run": 0,
+      "payload": null,
+      "error": "Schema validation failed: ['IMDb', 'Rotten Tomatoes', 'Metacritic', 'Flixster', 'Movieguide', 'Letterboxd', 'Fandango', 'MovieTickets.com', 'Mubi', 'JustWatch', 'Reelgood', 'Rakuten Viki', 'Tubi', 'Peacock TV', 'Netflix', 'Amazon Prime Video', 'Hulu', 'YouTube Movies', 'Apple TV+'] is too short"
+    },
+    {
+      "feature": "Rate movies",
+      "run": 1,
+      "payload": null,
+      "error": "Schema validation failed: ['IMDb', 'Rotten Tomatoes', 'Metacritic', 'Letterboxd', 'Flixster', 'Movieapp', 'Fandango', 'JustWatch', 'Reelgood', 'MovieTickets.com', 'Cineplex', 'Regal Cinemas', 'AMC Theatres', 'Movies by Flixster', 'Movies anywhere', 'Showcase Cinemas', 'CPK Movies', 'Odeon Cinemas', 'Vue Cinemas'] is too short"
+    },
+    {
+      "feature": "Rate movies",
+      "run": 2,
+      "payload": null,
+      "error": "Schema validation failed: ['IMDb', 'Rotten Tomatoes', 'Metacritic', 'Flixster', 'Fandango', 'MovieTickets.com', 'Showtimes', 'Movieapp', 'Movie app by Flixster', 'MovieTickets by Fandango', 'Movie app by Atom Tickets', 'JustWatch', 'Reelgood', 'TMDb', 'Mubi', 'Letterboxd', 'PopcornFlix', 'Vudu', 'Crackle'] is too short"
+    },
+    {
+      "feature": "Rate movies",
+      "run": 3,
+      "payload": null,
+      "error": "Schema validation failed: ['IMDb', 'Rotten Tomatoes', 'Metacritic', 'Letterboxd', 'Moviedb', 'Flixster', 'Fandango', 'JustWatch', 'Reelgood', 'TMDb', 'Kino-teatr', 'Cineplex', 'AMC Theatres', 'Regal Cinemas', 'MovieTickets.com', 'Atom Tickets', 'FandangoNOW', 'Netflix', 'Hulu'] is too short"
+    },
+    {
+      "feature": "Rate movies",
+      "run": 4,
+      "payload": null,
+      "error": "Schema validation failed: ['IMDb', 'Rotten Tomatoes', 'Metacritic', 'Flixster', 'Fandango', 'Movie Rick', 'Letterboxd', 'JustWatch', 'Reelgood', 'MovieApp'] is too short"
+    },
+    {
+      "feature": "Rate movies",
+      "run": 5,
+      "payload": null,
+      "error": "Schema validation failed: ['IMDb', 'Rotten Tomatoes', 'Metacritic', 'Flixster', 'Fandango', 'MovieTickets.com', 'Showtimes', 'MovieWatcher', 'JustWatch', 'Letterboxd', 'Movieapp', 'Cineplex', 'Regal Cinemas', 'AMC Theatres', 'cinemaHD', 'Popcorn Time', 'Tubi', 'Vudu', 'Netflix'] is too short"
+    },
+    {
+      "feature": "Rate movies",
+      "run": 6,
+      "payload": {
+        "a": [
+          "IMDb",
+          "Rotten Tomatoes",
+          "Metacritic",
+          "Fandango",
+          "Flixster",
+          "Letterboxd",
+          "Movieguide",
+          "JustWatch",
+          "Reelgood",
+          "MUBI",
+          "Kinopoisk",
+          "Empire Online",
+          "AlloCiné",
+          "ScreenRant",
+          "FilmDaily",
+          "Taste of Cinema",
+          "Pure Cinema",
+          "The Film Stage",
+          "CineVue",
+          "IndieWire"
+        ],
+        "c": [
+          {
+            "n": "User Base",
+            "d": "Size and activity level of the user community, indicating a broader range of movie ratings"
+          },
+          {
+            "n": "Review Quality",
+            "d": "Depth and quality of user reviews, helping to provide more informed opinions"
+          },
+          {
+            "n": "Database Completeness",
+            "d": "Extensive database coverage of movies, ensuring access to a wide variety of titles"
+          },
+          {
+            "n": "Ease of Use",
+            "d": "Intuitive and simple app interface for easy navigation and rating submission"
+          },
+          {
+            "n": "Integrated Media",
+            "d": "Includes news, trailers, and discussion features that enhance the user experience"
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Rate movies",
+      "run": 7,
+      "payload": null,
+      "error": "Schema validation failed: ['IMDb', 'Rotten Tomatoes', 'Metacritic', 'Flixster', 'Letterboxd', 'MovieTickets.com', 'Fandango', 'At the Movies', 'Movieguide', 'Reelgood', 'JustWatch', 'Cinema APK', 'Showtime Anytime', 'Netflix', 'Amazon Prime Video', 'Hulu', 'Tubi TV', 'Crackle', 'Popcorn Flix'] is too short"
+    },
+    {
+      "feature": "Rate movies",
+      "run": 8,
+      "payload": null,
+      "error": "Schema validation failed: ['IMDb', 'Rotten Tomatoes', 'Metacritic', 'Letterboxd', 'Flixster', 'Fandango', 'MovieTickets.com', 'movies by Flixster', 'Movie app - IMDb', 'Movie app - Rotten Tomatoes', 'Mubi', 'JustWatch', 'TMDb (The Movie Database)', 'Reelgood', 'Kanopy', 'Netflix', 'Hulu', 'Amazon Prime Video', 'Apple TV+ Movies'] is too short"
+    },
+    {
+      "feature": "Rate movies",
+      "run": 9,
+      "payload": {
+        "a": [
+          "IMDb",
+          "Rotten Tomatoes",
+          "Metacritic",
+          "Flixster",
+          "Fandango",
+          "MovieTickets.com",
+          "Mubi",
+          "Letterboxd",
+          "JustWatch",
+          "Reelgood",
+          "Movie app by Flixable",
+          "TMDb (The Movie Database)",
+          "Cineplex",
+          "Regal Cinemas",
+          "AMC Theatres",
+          "FandangoNOW",
+          "Apple TV",
+          "Google Play Movies & TV",
+          "Netflix",
+          "Hulu"
+        ],
+        "c": [
+          {
+            "n": "User Reviews",
+            "d": "Allows users to submit and read reviews for movies"
+          },
+          {
+            "n": "Rating System",
+            "d": "Provides a system for users to rate movies on a scale"
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Keeping up with friends",
+      "run": 0,
+      "payload": {
+        "a": [
+          "Facebook",
+          "Instagram",
+          "WhatsApp",
+          "Snapchat",
+          "Twitter",
+          "TikTok",
+          "WeChat",
+          "LINE",
+          "KakaoTalk",
+          "Telegram",
+          "Discord",
+          "LinkedIn",
+          "Pinterest",
+          "Reddit",
+          "Foursquare Swarm",
+          "Meetup",
+          "Nextdoor",
+          "Skout",
+          "Bumble BFF",
+          "CAH (Cards Against Humanity)"
+        ],
+        "c": [
+          {
+            "n": "Social Network Size",
+            "d": "The number of users on the social network"
+          },
+          {
+            "n": "Frequency of Updates",
+            "d": "How often users update their profiles or post new content"
+          },
+          {
+            "n": "Interaction Features",
+            "d": "Features that facilitate interactions between friends, such as messaging, video calling, and sharing media"
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Keeping up with friends",
+      "run": 1,
+      "payload": null,
+      "error": "Schema validation failed: ['Facebook', 'Instagram', 'WhatsApp', 'Snapchat', 'TikTok', 'Twitter', 'LinkedIn', 'WeChat', 'Line', 'KakaoTalk', 'Telegram', 'Discord', 'Reddit', 'Pinterest', 'Skype', 'Viber', 'BBM', 'MeWe', 'Nextdoor'] is too short"
+    },
+    {
+      "feature": "Keeping up with friends",
+      "run": 2,
+      "payload": null,
+      "error": "Schema validation failed: ['Facebook', 'Instagram', 'WhatsApp', 'Snapchat', 'TikTok', 'Twitter', 'LinkedIn', 'WeChat', 'Line', 'KakaoTalk', 'Telegram', 'Skype', 'Discord', 'Reddit', 'Pinterest', 'Meetup', 'Nextdoor', 'Strava', 'Shapr'] is too short"
+    },
+    {
+      "feature": "Keeping up with friends",
+      "run": 3,
+      "payload": null,
+      "error": "Schema validation failed: ['Instagram', 'Facebook', 'Snapchat', 'WhatsApp', 'TikTok', 'LinkedIn', 'Twitter', 'Pinterest', 'WeChat', 'Line', 'Telegram', 'Reddit', 'Discord', 'Flickr', 'Meetup', 'Nextdoor', '500px', 'Viber', 'Skout'] is too short"
+    },
+    {
+      "feature": "Keeping up with friends",
+      "run": 4,
+      "payload": {
+        "a": [
+          "Facebook",
+          "Instagram",
+          "WhatsApp",
+          "Snapchat",
+          "Twitter",
+          "TikTok",
+          "LinkedIn",
+          "WeChat",
+          "Line",
+          "KakaoTalk",
+          "Viber",
+          "Telegram",
+          "Skype",
+          "Discord",
+          "Reddit",
+          "Pinterest",
+          "YouTube",
+          "Flickr",
+          "Meetup",
+          "Nextdoor"
+        ],
+        "c": [
+          {
+            "n": "User base",
+            "d": "The number of active users indicates the popularity and reach of the app in connecting with friends."
+          },
+          {
+            "n": "Social features",
+            "d": "Features like messaging, photo sharing, video calls, and group chats help users maintain friendships."
+          },
+          {
+            "n": "Engagement",
+            "d": "The frequency and duration of user interactions within the app show its effectiveness in facilitating social connections."
+          },
+          {
+            "n": "Integration with other platforms",
+            "d": "Ability to link accounts from multiple social media platforms, email services, or gaming apps enhances the experience of keeping up with friends."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Keeping up with friends",
+      "run": 5,
+      "payload": null,
+      "error": "Schema validation failed: ['Facebook', 'Instagram', 'Snapchat', 'WhatsApp', 'LinkedIn', 'Twitter', 'TikTok', 'WeChat', 'Line', 'Telegram', 'Skype', 'Discord', 'Pinterest', 'Reddit', 'Flickr', 'Meetup', 'Nextdoor', '500px', 'Viber'] is too short"
+    },
+    {
+      "feature": "Keeping up with friends",
+      "run": 6,
+      "payload": null,
+      "error": "Schema validation failed: ['Facebook', 'Instagram', 'Snapchat', 'WhatsApp', 'Twitter', 'LinkedIn', 'TikTok', 'WeChat', 'Line', 'Telegram', 'Discord', 'Pinterest', 'Reddit', 'YouTube', 'Flickr', 'Meetup', 'Skype', 'Viber', 'WeHeartIt'] is too short"
+    },
+    {
+      "feature": "Keeping up with friends",
+      "run": 7,
+      "payload": {
+        "a": [
+          "Facebook",
+          "Instagram",
+          "WhatsApp",
+          "Snapchat",
+          "Twitter",
+          "TikTok",
+          "WeChat",
+          "Line",
+          "Telegram",
+          "LinkedIn",
+          "Skype",
+          "Pinterest",
+          "Discord",
+          "Reddit",
+          "Weibo",
+          "Viber",
+          "KakaoTalk",
+          "QQ",
+          "Foursquare",
+          "Meetup"
+        ],
+        "c": [
+          {
+            "n": "Social Networking Users",
+            "d": "The number of active users on the social network, indicating popularity and the ability to connect with friends"
+          },
+          {
+            "n": "Direct Messaging",
+            "d": "The ability to send private messages, photos, videos, or files to individual contacts or groups"
+          },
+          {
+            "n": "Live Video Streaming",
+            "d": "The capacity for real-time video broadcasting and interaction, fostering a sense of connection with friends"
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Keeping up with friends",
+      "run": 8,
+      "payload": {
+        "a": [
+          "Facebook",
+          "Instagram",
+          "WhatsApp",
+          "Snapchat",
+          "TikTok",
+          "Twitter",
+          "WeChat",
+          "Line",
+          "Telegram",
+          "Skype",
+          "Discord",
+          "LinkedIn",
+          "Reddit",
+          "Pinterest",
+          "Weibo",
+          "QQ",
+          "KakaoTalk",
+          "Viber",
+          "Foursquare",
+          "Meetup"
+        ],
+        "c": [
+          {
+            "n": "User Base",
+            "d": "The number of active users, indicating the popularity and reach of the app among friends"
+          },
+          {
+            "n": "Social Interaction",
+            "d": "The variety and depth of social features available for connecting and interacting with friends"
+          },
+          {
+            "n": "Privacy Controls",
+            "d": "The level of control users have over their personal information and interactions, ensuring a safe and private environment"
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Keeping up with friends",
+      "run": 9,
+      "payload": null,
+      "error": "Schema validation failed: ['Facebook', 'Instagram', 'WhatsApp', 'Snapchat', 'TikTok', 'Twitter', 'LinkedIn', 'WeChat', 'Line', 'Viber', 'Telegram', 'Skype', 'Discord', 'Meetup', 'Nextdoor', 'Reddit', 'Pinterest', 'Tumblr', 'Flickr'] is too short"
+    },
+    {
+      "feature": "Play games",
+      "run": 0,
+      "payload": null,
+      "error": "Schema validation failed: ['Angry Birds', 'Candy Crush Saga', 'PUBG Mobile', 'Fortnite', 'Minecraft', 'Call of Duty: Mobile', 'Clash of Clans', 'Clash Royale', 'Asphalt 9: Legends', 'Pokemon Go', \"Alto's Odyssey\", 'Monument Valley', 'Plague Inc.', 'Minecraft: Pocket Edition', 'Plants vs. Zombies™', 'Subway Surfers', 'Temtem', 'Hearthstone', 'Roblox'] is too short"
+    },
+    {
+      "feature": "Play games",
+      "run": 1,
+      "payload": null,
+      "error": "Schema validation failed: ['Angry Birds', 'PUBG Mobile', 'Fortnite', 'Call of Duty: Mobile', 'Minecraft', 'Among Us', 'Clash of Clans', 'Candy Crush Saga', 'Subway Surfers', 'Asphalt 9: Legends', 'Roblox', 'League of Legends: Wild Rift', 'Genshin Impact', 'Pokemon Go', 'Clash Royale', 'Minecraft Dungeons', 'Plants vs. Zombies', 'Brawl Stars', \"Alto's Odyssey\"] is too short"
+    },
+    {
+      "feature": "Play games",
+      "run": 2,
+      "payload": null,
+      "error": "Schema validation failed: ['Angry Birds', 'Candy Crush Saga', 'Pokemon Go', 'Fortnite', 'Minecraft', 'Call of Duty: Mobile', 'Clash of Clans', 'Plants vs. Zombies', 'Among Us', 'Roblox', 'Asphalt 9: Legends', 'PUBG Mobile', 'League of Legends: Wild Rift', 'Genshin Impact', 'Mario Kart Tour', 'Hearthstone', 'Clash Royale', \"Alto's Odyssey\", 'Stardew Valley'] is too short"
+    },
+    {
+      "feature": "Play games",
+      "run": 3,
+      "payload": {
+        "a": [
+          "Angry Birds",
+          "PUBG Mobile",
+          "Fortnite",
+          "Clash of Clans",
+          "Call of Duty: Mobile",
+          "Minecraft",
+          "Asphalt 9: Legends",
+          "Subway Surfers",
+          "Candy Crush Saga",
+          "Plants vs. Zombies",
+          "Monument Valley",
+          "Temple Run",
+          "Pokemon Go",
+          "Genshin Impact",
+          "Roblox",
+          "Among Us",
+          "Alto's Odyssey",
+          "Minecraft Dungeons",
+          "League of Legends: Wild Rift",
+          "Brawl Stars"
+        ],
+        "c": [
+          {
+            "n": "User Engagement",
+            "d": "Measured by daily active users and average session length"
+          },
+          {
+            "n": "Graphics Quality",
+            "d": "Assessed by visual appeal, detail, and smoothness of gameplay"
+          },
+          {
+            "n": "Gameplay Innovation",
+            "d": "Evaluated based on unique mechanics, replayability, and fun factor"
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Play games",
+      "run": 4,
+      "payload": null,
+      "error": "Schema validation failed: ['Angry Birds', 'Fortnite', 'Call of Duty Mobile', 'PUBG Mobile', 'Minecraft', 'Clash of Clans', 'Candy Crush Saga', 'Roblox', \"Alto's Odyssey\", 'Subway Surfers', 'Asphalt 9: Legends', 'Plants vs. Zombies', 'Temtem', 'Stardew Valley', 'Monument Valley', 'Oxenfree', 'Minecraft Dungeons', 'Genshin Impact', 'League of Legends: Wild Rift'] is too short"
+    },
+    {
+      "feature": "Play games",
+      "run": 5,
+      "payload": {
+        "a": [
+          "Angry Birds",
+          "Candy Crush Saga",
+          "PUBG Mobile",
+          "Fortnite",
+          "Minecraft",
+          "Call of Duty: Mobile",
+          "Clash of Clans",
+          "Plant vs. Zombies",
+          "Clash Royale",
+          "Alto's Odyssey",
+          "Subway Surfers",
+          "Temple Run 2",
+          "Asphalt 9: Legends",
+          "Genshin Impact",
+          "Mario Kart Tour",
+          "Pokemon Go",
+          "Monument Valley",
+          "Minecraft Dungeons",
+          "Among Us",
+          "League of Legends: Wild Rift"
+        ],
+        "c": [
+          {
+            "n": "Game Variety",
+            "d": "Number and diversity of games available within the app"
+          },
+          {
+            "n": "User Reviews",
+            "d": "Average rating and user reviews of the game experience"
+          },
+          {
+            "n": "Graphics Quality",
+            "d": "Quality of graphics and visuals in the games"
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Play games",
+      "run": 6,
+      "payload": null,
+      "error": "Schema validation failed: ['Angry Birds', 'PUBG Mobile', 'Fortnite', 'Call of Duty: Mobile', 'Minecraft', 'Clash of Clans', 'Candy Crush Saga', 'Subway Surfers', 'Temtem', 'Genshin Impact', 'Among Us', 'Roblox', 'Mobile Legends: Bang Bang', 'Asphalt 9: Legends', 'Pokemon Go', 'League of Legends: Wild Rift', 'Brawl Stars', 'Minecraft Dungeons', 'Plants vs. Zombies™'] is too short"
+    },
+    {
+      "feature": "Play games",
+      "run": 7,
+      "payload": null,
+      "error": "Schema validation failed: ['Angry Birds', 'Candy Crush Saga', 'Pokemon Go', 'Fortnite', 'Call of Duty Mobile', 'Minecraft', 'Clash of Clans', 'Plant vs. Zombies 2', 'Roblox', 'Asphalt 9: Legends', 'Mobile Legends: Bang Bang', 'PUBG Mobile', 'Temtem', \"Alto's Odyssey\", 'Monument Valley 2', 'Brawl Stars', 'Geometry Dash', 'Minecraft Dungeons', 'League of Legends: Wild Rift'] is too short"
+    },
+    {
+      "feature": "Play games",
+      "run": 8,
+      "payload": null,
+      "error": "Schema validation failed: ['Angry Birds', 'PUBG Mobile', 'Fortnite', 'Call of Duty: Mobile', 'Minecraft', 'Clash of Clans', 'Candy Crush Saga', 'Subway Surfers', 'Temple Run 2', 'Asphalt 9: Legends', 'Pokemon Go', 'Plants vs. Zombies', 'Sonic Dash', 'Clash Royale', 'Monument Valley', \"Alto's Odyssey\", '8 Ball Pool', 'Coin Master', 'Legend of Solgard'] is too short"
+    },
+    {
+      "feature": "Play games",
+      "run": 9,
+      "payload": null,
+      "error": "Schema validation failed: ['Angry Birds', 'Candy Crush Saga', 'PUBG Mobile', 'Fortnite', 'Minecraft', 'Clash of Clans', 'Call of Duty: Mobile', 'Subway Surfers', 'Temtem', 'Among Us', 'Roblox', 'Genshin Impact', 'Pokemon Go', 'League of Legends: Wild Rift', 'Minecraft Dungeons', 'Plants vs. Zombies: Battle for Neighborville', 'Asphalt 9: Legends', \"Alto's Odyssey\", 'Monument Valley 2'] is too short"
+    },
+    {
+      "feature": "Collaborate with others",
+      "run": 0,
+      "payload": {
+        "a": [
+          "Google Docs",
+          "Slack",
+          "Trello",
+          "Microsoft Teams",
+          "Asana",
+          "Miro",
+          "Figma",
+          "Confluence",
+          "Notion",
+          "Zoom",
+          "GitHub",
+          "Dropbox",
+          "WhatsApp",
+          "Microsoft Office 365",
+          "Adobe Creative Cloud",
+          "Quip",
+          "Skype",
+          "Airtable",
+          "Jira",
+          "Apache OpenOffice"
+        ],
+        "c": [
+          {
+            "n": "Real-time Collaboration",
+            "d": "Allows multiple users to work together simultaneously on a single document, project or file."
+          },
+          {
+            "n": "Communication Tools",
+            "d": "Provides communication channels like chat, voice, and video calls for efficient team collaboration."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Collaborate with others",
+      "run": 1,
+      "payload": {
+        "a": [
+          "Google Drive",
+          "Microsoft Teams",
+          "Slack",
+          "Trello",
+          "Asana",
+          "Zoom",
+          "Miro",
+          "Figma",
+          "Notion",
+          "Confluence",
+          "WhatsApp",
+          "Microsoft Office Suite",
+          "Dropbox",
+          "Skype",
+          "GitHub",
+          "Google Docs",
+          "Adobe Creative Cloud",
+          "Jira",
+          "Kahoot!",
+          "Airtable"
+        ],
+        "c": [
+          {
+            "n": "Collaboration Features",
+            "d": "The ability for multiple users to work together on a project or task in real-time"
+          },
+          {
+            "n": "Communication Tools",
+            "d": "Built-in tools for messaging, video calls, and file sharing to facilitate communication among team members"
+          },
+          {
+            "n": "Document Co-editing",
+            "d": "Allows multiple users to edit a document simultaneously"
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Collaborate with others",
+      "run": 2,
+      "payload": null,
+      "error": "Schema validation failed: ['Google Drive', 'Slack', 'Trello', 'Miro', 'Microsoft Teams', 'Figma', 'Asana', 'Notion', 'Confluence', 'Zoom', 'Airtable', 'Mural', 'GitHub', 'WhatsApp Business', 'Dropbox', 'Microsoft OneNote', 'APUS Office Suite', 'Skype', 'Adobe Creative Cloud'] is too short"
+    },
+    {
+      "feature": "Collaborate with others",
+      "run": 3,
+      "payload": null,
+      "error": "Schema validation failed: ['Google Docs', 'Trello', 'Slack', 'Microsoft Teams', 'Zoom', 'Miro', 'Asana', 'Figma', 'Notion', 'Confluence', 'WhatsApp', 'GitHub', 'Dropbox', 'Google Drive', 'Microsoft OneDrive', 'Airtable', 'Basecamp', 'Jira', 'Skype'] is too short"
+    },
+    {
+      "feature": "Collaborate with others",
+      "run": 4,
+      "payload": null,
+      "error": "Schema validation failed: ['Google Drive', 'Trello', 'Microsoft Teams', 'Slack', 'Zoom', 'Miro', 'Notion', 'Asana', 'Figma', 'GitHub', 'Confluence', 'Dropbox', 'WhatsApp', 'Microsoft OneNote', 'Apache OpenOffice', 'Quip', 'Murals', 'Jira', 'Airtable'] is too short"
+    },
+    {
+      "feature": "Collaborate with others",
+      "run": 5,
+      "payload": null,
+      "error": "Schema validation failed: ['Google Docs', 'Trello', 'Slack', 'Microsoft Teams', 'Asana', 'Zoom', 'Miro', 'Figma', 'Notion', 'Confluence', 'GitHub', 'Dropbox', 'OneDrive', 'WhatsApp', 'Microsoft Word (online)', 'Google Sheets', 'Apache OpenOffice Writer', 'LibreOffice Writer', 'Quip'] is too short"
+    },
+    {
+      "feature": "Collaborate with others",
+      "run": 6,
+      "payload": null,
+      "error": "Schema validation failed: ['Google Drive', 'Slack', 'Trello', 'Microsoft Teams', 'Asana', 'Zoom', 'Dropbox', 'Miro', 'Notion', 'GitHub', 'Figma', 'Microsoft OneNote', 'Adobe Creative Cloud', 'Skype', 'Airtable', 'Confluence', 'Jira', 'WhatsApp Business', 'Microsoft SharePoint'] is too short"
+    },
+    {
+      "feature": "Collaborate with others",
+      "run": 7,
+      "payload": null,
+      "error": "Schema validation failed: ['Google Drive', 'Trello', 'Slack', 'Microsoft Teams', 'Asana', 'Zoom', 'Miro', 'Figma', 'Notion', 'Confluence', 'GitHub', 'Dropbox', 'WhatsApp', 'Microsoft OneNote', 'Google Docs', 'Skype', 'Mattermost', 'Jira', 'Airtable'] is too short"
+    },
+    {
+      "feature": "Collaborate with others",
+      "run": 8,
+      "payload": null,
+      "error": "Schema validation failed: ['Google Drive', 'Microsoft Teams', 'Slack', 'Trello', 'Zoom', 'Miro', 'Notion', 'Asana', 'Figma', 'GitHub', 'Confluence', 'Dropbox', 'Microsoft Office 365', 'WhatsApp', 'Facebook Workplace', 'Skype', 'Slack Drive', 'Adobe Creative Cloud', 'Google Docs'] is too short"
+    },
+    {
+      "feature": "Collaborate with others",
+      "run": 9,
+      "payload": {
+        "a": [
+          "Google Docs",
+          "Slack",
+          "Trello",
+          "Zoom",
+          "Microsoft Teams",
+          "Notion",
+          "Asana",
+          "Miro",
+          "Figma",
+          "Confluence",
+          "WhatsApp",
+          "Discord",
+          "Dropbox",
+          "GitHub",
+          "Airtable",
+          "Padlet",
+          "Quip",
+          "Gliffy",
+          "Jitsi Meet",
+          "KanbanFlow"
+        ],
+        "c": [
+          {
+            "n": "Real-time Collaboration",
+            "d": "Allows multiple users to work together simultaneously on a shared document or project."
+          },
+          {
+            "n": "Communication Features",
+            "d": "Integrated messaging and video conferencing tools for seamless collaboration."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Write notes",
+      "run": 0,
+      "payload": null,
+      "error": "Schema validation failed: ['Evernote', 'OneNote', 'Google Keep', 'Bear', 'Simplenote', 'Notion', 'Microsoft To Do', 'Todoist', 'Asana', 'Trello', 'Jotterpad', 'Zoho Notebook', 'Notability', 'Goodnotes 5', 'Easy Breezy Note', 'My Study Life', 'Mindly', 'Simplenote (GitHub)', 'Noteshelf'] is too short"
+    },
+    {
+      "feature": "Write notes",
+      "run": 1,
+      "payload": null,
+      "error": "Schema validation failed: ['Evernote', 'OneNote', 'Google Keep', 'Bear', 'Notion', 'Simplenote', 'TickTick', 'Microsoft To Do', 'JotterPad', 'Zoho Notebook', 'Noteshelf', 'Goodnotes', 'MyStudyLife', 'Cornell Note Taker', 'Notable', 'Evernote Food', 'Nimbus Notes', 'Apple Notes', 'Simplenote for Mac'] is too short"
+    },
+    {
+      "feature": "Write notes",
+      "run": 2,
+      "payload": null,
+      "error": "Schema validation failed: ['Evernote', 'OneNote', 'Google Keep', 'Bear', 'Simplenote', 'Notion', 'Microsoft To Do', 'Trello', 'Zoho Notebook', 'JotterPad', 'EasyBib Bibliography Citation Maker & Citation Generator', 'GoodNotes', 'My Study Life - Student Planner', 'X-Notes – Smart Notes', 'Notability: PDF, Handwriting & Notes', 'Simplenote - Write, Organize and Archive', 'JotForm', 'Cornell Notes Lite', 'Todoyu'] is too short"
+    },
+    {
+      "feature": "Write notes",
+      "run": 3,
+      "payload": null,
+      "error": "Schema validation failed: ['Evernote', 'OneNote', 'Google Keep', 'Bear', 'Notion', 'Simplenote', 'Microsoft To Do', 'JotterPad', 'Day One', 'Bamboo Paper', 'Goodnotes', 'My Notes', 'Notebook by Google', 'Zoho Notebook', 'M Notes', 'Quip', 'Trello', 'Everweb', 'Apple Notes'] is too short"
+    },
+    {
+      "feature": "Write notes",
+      "run": 4,
+      "payload": {
+        "a": [
+          "Evernote",
+          "OneNote",
+          "Google Keep",
+          "Bear",
+          "Simplenote",
+          "Notion",
+          "JotterPad",
+          "Trello",
+          "Microsoft To Do",
+          "Zoho Notebook",
+          "Notable",
+          "My Study Life",
+          "Apple Notes",
+          "Simplenote for Chromebook",
+          "Nimbus Note",
+          "Quip",
+          "Bamboo Paper",
+          "Goodnotes 5",
+          "JotterPad Pro",
+          "Noteshelf"
+        ],
+        "c": [
+          {
+            "n": "Cross-platform availability",
+            "d": "The apps are available across multiple platforms (iOS, Android, and sometimes Windows/Mac) for convenience."
+          },
+          {
+            "n": "Note organization",
+            "d": "The apps offer various ways to organize notes such as tags, notebooks, and folders."
+          },
+          {
+            "n": "Syncing functionality",
+            "d": "The apps provide real-time syncing of notes across all devices linked to the user's account."
+          },
+          {
+            "n": "Additional features",
+            "d": "Some of the apps offer additional features like reminders, checklists, and collaboration options."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Write notes",
+      "run": 5,
+      "payload": {
+        "a": [
+          "Evernote",
+          "OneNote",
+          "Google Keep",
+          "Bear",
+          "Simplenote",
+          "Notion",
+          "Zoho Notebook",
+          "Trello",
+          "Microsoft To Do",
+          "JotterPad",
+          "SimplyNote",
+          "Notability",
+          "Goodnotes",
+          "MyScript Calculator",
+          "Notes Plus",
+          "Easy Breezy Notes",
+          "Jotterpad X",
+          "Moleskine",
+          "Noto",
+          "Quip"
+        ],
+        "c": [
+          {
+            "n": "User base",
+            "d": "The number of active users a note-taking app has, indicating its popularity and user satisfaction."
+          },
+          {
+            "n": "Cross-platform compatibility",
+            "d": "The extent to which the app is available across various operating systems (Android, iOS, Windows, macOS) and devices."
+          },
+          {
+            "n": "Synchronicity",
+            "d": "The ability of the app to synchronize notes across multiple devices in real-time."
+          },
+          {
+            "n": "Offline Access",
+            "d": "The capability for users to access their notes without an internet connection."
+          },
+          {
+            "n": "Ease of use",
+            "d": "How intuitive and user-friendly the app is, making it easy for users to quickly write and organize notes."
+          },
+          {
+            "n": "Additional features",
+            "d": "Extra functionalities like image and audio support, search capabilities, tagging systems, and the ability to collaborate with others on shared notes."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Write notes",
+      "run": 6,
+      "payload": null,
+      "error": "Schema validation failed: ['Evernote', 'OneNote', 'Bear', 'Notion', 'Simplenote', 'Google Keep', 'Microsoft To Do', 'Zoho Notebook', 'JotterPad', 'Day One Journal', 'Apple Notes', 'Notability', 'Goodnotes', 'My Study Life', 'Todoist', 'Evernote Food', 'Simplenote (Google Play Edition)', 'Cornell Note Taker', 'Mindly'] is too short"
+    },
+    {
+      "feature": "Write notes",
+      "run": 7,
+      "payload": null,
+      "error": "Schema validation failed: ['Evernote', 'OneNote', 'Bear', 'Notion', 'Simplenote', 'Google Keep', 'Microsoft To Do', 'Trello', 'JotterPad', 'Zoho Notebook', 'Google Docs', 'Apple Notes', 'Note-taking with Microsoft Office Lens', 'Easy Breezy Note Taker', 'Jott Steroid', 'Day One Journal', 'Cornetto Notes', 'My Study Life', 'Noteshelf'] is too short"
+    },
+    {
+      "feature": "Write notes",
+      "run": 8,
+      "payload": null,
+      "error": "Schema validation failed: ['Evernote', 'OneNote', 'Google Keep', 'Bear', 'Notion', 'Simplenote', 'Microsoft To Do', 'Trello', 'Asana', 'JotterPad', 'GoodNotes', 'Notability', 'Zoho Notebook', 'Evernote Business', 'Simplenote (Simple, Focused Note Taking)', 'Cornell Notes Lite', 'NoteLedge - Diary & Journal', 'My Study Life', 'Todoist'] is too short"
+    },
+    {
+      "feature": "Write notes",
+      "run": 9,
+      "payload": {
+        "a": [
+          "Evernote",
+          "Microsoft OneNote",
+          "Google Keep",
+          "Bear",
+          "Notion",
+          "Simplenote",
+          "JotterPad",
+          "Zoho Notebook",
+          "My Study Life",
+          "Trello",
+          "GoodNotes",
+          "Notability",
+          "iA Writer",
+          "Drafts",
+          "Day One",
+          "EasyBib",
+          "Nebo",
+          "Jupyter Notebook (Android)",
+          "Simplenote for Chromebook",
+          "Notepad++ (for Android)"
+        ],
+        "c": [
+          {
+            "n": "Cross-platform availability",
+            "d": "Ability to sync notes across multiple devices and platforms"
+          },
+          {
+            "n": "Note organization",
+            "d": "Ease of categorizing, tagging, and searching notes"
+          },
+          {
+            "n": "Offline access",
+            "d": "Ability to access notes without internet connection"
+          },
+          {
+            "n": "Integration with other apps",
+            "d": "Ability to integrate with calendar, email, or task management apps for productivity enhancement"
+          },
+          {
+            "n": "Formatting and styling options",
+            "d": "Variety of formatting options to make notes visually appealing"
+          },
+          {
+            "n": "Security and privacy",
+            "d": "Encryption and password protection features for keeping notes secure"
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Search for offer on item",
+      "run": 0,
+      "payload": null,
+      "error": "Schema validation failed: ['Amazon Mobile', 'eBay', 'Walmart', 'Target', 'Best Buy', 'Craigslist', 'Flipkart', 'Shopee', 'Lazada', 'Alibaba', 'Rakuten', 'Zappos', 'Etsy', 'Newegg', 'Overstock', 'Wish', 'Groupon', 'OfferUp', 'Letgo'] is too short"
+    },
+    {
+      "feature": "Search for offer on item",
+      "run": 1,
+      "payload": null,
+      "error": "Schema validation failed: ['Amazon', 'eBay', 'Walmart', 'Target', 'Best Buy', 'Craigslist', 'OfferUp', 'Letgo', 'Poshmark', 'Depop', 'Reddit', 'Facebook Marketplace', 'Alibaba', 'Rakuten', 'Zappos', 'Overstock', 'Newegg', 'Wish', 'Jumia'] is too short"
+    },
+    {
+      "feature": "Search for offer on item",
+      "run": 2,
+      "payload": null,
+      "error": "Schema validation failed: ['Amazon Mobile', 'eBay', 'Walmart', 'Target', 'Best Buy', 'Craigslist', 'Letgo', 'OfferUp', 'Poshmark', 'Reddit', 'Facebook Marketplace', 'Instacart', 'Shipt', 'Google Shopping', 'PriceGrabber', 'Slickdeals', 'Nextdoor', 'Rakuten', 'Zulily'] is too short"
+    },
+    {
+      "feature": "Search for offer on item",
+      "run": 3,
+      "payload": null,
+      "error": "Schema validation failed: ['Amazon', 'eBay', 'Google Shopping', 'Walmart', 'Target', 'Best Buy', 'Costco', 'Home Depot', 'Lowes', 'Overstock', 'Newegg', 'AliExpress', 'Rakuten', 'Zappos', 'Etsy', 'Jumia', 'Shopee', 'Lazada', 'Flipkart'] is too short"
+    },
+    {
+      "feature": "Search for offer on item",
+      "run": 4,
+      "payload": null,
+      "error": "Schema validation failed: ['Amazon', 'eBay', 'Walmart', 'Target', 'Best Buy', 'Home Depot', 'Craigslist', 'Flipkart', 'Shopee', 'Lazada', 'AliExpress', 'Rakuten', 'Zalando', 'Farfetch', 'Priceminister', 'Groupon', 'OfferUp', 'Letgo', 'Wish'] is too short"
+    },
+    {
+      "feature": "Search for offer on item",
+      "run": 5,
+      "payload": null,
+      "error": "Schema validation failed: ['Amazon Mobile', 'eBay', 'Walmart', 'Target', 'Best Buy', 'Craigslist', 'Flipkart', 'Shopee', 'Lazada', 'AliExpress', 'Rakuten', 'Zalando', 'Etsy', 'Groupon', 'OfferUp', 'Letgo', 'Poshmark', 'Depop', 'Wish'] is too short"
+    },
+    {
+      "feature": "Search for offer on item",
+      "run": 6,
+      "payload": null,
+      "error": "Schema validation failed: ['Amazon Mobile', 'eBay', 'Walmart', 'Target', 'Best Buy', 'Craigslist', 'OfferUp', 'Letgo', 'Facebook Marketplace', 'Gumtree', 'Poshmark', 'Zillow', 'Redfin', 'Realtor.com', 'Flipkart', 'Shopee', 'Lazada', 'Rakuten', 'PriceMinister'] is too short"
+    },
+    {
+      "feature": "Search for offer on item",
+      "run": 7,
+      "payload": null,
+      "error": "Schema validation failed: ['Amazon Mobile', 'eBay', 'Walmart', 'Target', 'Best Buy', 'Craigslist', 'OfferUp', 'Letgo', 'Poshmark', 'Depop', 'Zillow', 'Redfin', 'Realtor.com', 'Rentify', 'Airbnb', 'Booking.com', 'Expedia', 'Hotels.com', 'Kayak'] is too short"
+    },
+    {
+      "feature": "Search for offer on item",
+      "run": 8,
+      "payload": {
+        "a": [
+          "Amazon Mobile",
+          "eBay",
+          "Walmart",
+          "Target",
+          "Best Buy",
+          "Craigslist",
+          "Rakuten",
+          "Zappos",
+          "Overstock",
+          "Newegg",
+          "Home Depot",
+          "Lowes",
+          "Etsy",
+          "Groupon",
+          "OfferUp",
+          "Letgo",
+          "OpenSky",
+          "Jumia",
+          "Shopee",
+          "AliExpress"
+        ],
+        "c": [
+          {
+            "n": "Universal Availability",
+            "d": "These apps are globally available in various app stores, making it easy for users worldwide to search for offers on items."
+          },
+          {
+            "n": "Search Functionality",
+            "d": "All of these apps have robust search functions allowing users to find specific items they're looking for quickly and easily."
+          },
+          {
+            "n": "Offer Filtering",
+            "d": "These apps offer various filters such as price range, category, brand, etc., which help users find the best deals on items."
+          },
+          {
+            "n": "User Ratings & Reviews",
+            "d": "Users can view and read reviews from other customers to help them make informed decisions about purchasing items."
+          },
+          {
+            "n": "Multiple Payment Options",
+            "d": "These apps support multiple payment methods like credit/debit cards, PayPal, and various local payment options."
+          }
+        ]
+      }
+    },
+    {
+      "feature": "Search for offer on item",
+      "run": 9,
+      "payload": null,
+      "error": "Schema validation failed: ['Amazon Mobile', 'eBay', 'Walmart', 'Target', 'Best Buy', 'Craigslist', 'Rakuten', 'Zappos', 'Newegg', 'Overstock', 'Home Depot', 'Lowes', 'Etsy', 'Wish', 'AliExpress', 'Shein', 'Farfetch', 'Groupon', 'Flipkart'] is too short"
+    },
+    {
+      "feature": "List items for sale",
+      "run": 0,
+      "payload": null,
+      "error": "Schema validation failed: ['eBay', 'Amazon', 'Craigslist', 'Letgo', 'OfferUp', 'Facebook Marketplace', 'Depop', 'Poshmark', 'ThredUp', 'Tradesy', 'Etsy', 'Shpock', 'Gumtree', 'VarageSale', 'BookScouter', 'Decluttr', 'BuffaloExchange', 'Rebelle', 'TheRealReal'] is too short"
+    },
+    {
+      "feature": "List items for sale",
+      "run": 1,
+      "payload": null,
+      "error": "Schema validation failed: ['eBay', 'Amazon Mobile', 'Craigslist', 'Letgo', 'OfferUp', 'Facebook Marketplace', 'Poshmark', 'Depop', 'Merch by Amazon', 'Etsy', 'Gumtree', 'Shpock', 'Mercari', 'Vinted', '5miles', 'Oodle Marketplace', 'Bonanza', 'VarageSale', 'Decluttr'] is too short"
+    },
+    {
+      "feature": "List items for sale",
+      "run": 2,
+      "payload": null,
+      "error": "Schema validation failed: ['eBay', 'Amazon Mobile', 'Craigslist', 'Letgo', 'OfferUp', 'Facebook Marketplace', 'VarageSale', 'Poshmark', 'Depop', 'ThredUp', 'Mercari', 'Etsy', 'Gumtree', 'Shpock', 'Oodle', 'Nextdoor', '5Miles', 'Buy and Sell', 'WeChat'] is too short"
+    },
+    {
+      "feature": "List items for sale",
+      "run": 3,
+      "payload": null,
+      "error": "Schema validation failed: ['eBay', 'Amazon Mobile', 'Craigslist', 'Letgo', 'OfferUp', 'Facebook Marketplace', 'Shpock', 'VarageSale', 'Depop', 'Poshmark', 'Thredup', 'Etsy', 'Gumtree', 'Olx', 'Zillow', 'Carousell', 'Bidorbuy', 'MercadoLibre', 'AliExpress'] is too short"
+    },
+    {
+      "feature": "List items for sale",
+      "run": 4,
+      "payload": null,
+      "error": "Schema validation failed: ['eBay', 'Amazon Mobile', 'Craigslist', 'OfferUp', 'Letgo', 'Facebook Marketplace', 'Poshmark', 'Depop', 'VarageSale', '5Miles', 'Offerlist', 'Gumtree', 'Oodle', 'Zillow', 'Nextdoor', 'Redfin', 'Realtor.com', 'Carousell', 'Shpock'] is too short"
+    },
+    {
+      "feature": "List items for sale",
+      "run": 5,
+      "payload": null,
+      "error": "Schema validation failed: ['eBay', 'Amazon Mobile', 'Craigslist', 'Letgo', 'OfferUp', 'Facebook Marketplace', 'Poshmark', 'Depop', 'Etsy', 'Mercari', 'Gumtree', 'Shpock', 'Oodle', 'Nextdoor', '5miles', 'VarageSale', 'Buy and Sell - Facebook Group', 'Reddit Marketplace', 'Swappa'] is too short"
+    },
+    {
+      "feature": "List items for sale",
+      "run": 6,
+      "payload": null,
+      "error": "Schema validation failed: ['eBay', 'Craigslist', 'Letgo', 'OfferUp', 'Facebook Marketplace', 'Amazon', 'Poshmark', 'Depop', 'Etsy', 'Mercari', 'Gumtree', 'Shpock', 'VarageSale', 'Nextdoor', 'Swappa', '5Miles', 'OfferUp Auto', 'Bookoo', 'Oodle'] is too short"
+    },
+    {
+      "feature": "List items for sale",
+      "run": 7,
+      "payload": null,
+      "error": "Schema validation failed: ['eBay', 'Amazon Mobile', 'Craigslist', 'Letgo', 'OfferUp', 'Facebook Marketplace', 'VarageSale', 'Depop', 'Poshmark', 'ThredUp', 'Mercari', 'Buffalo Exchange App', 'The RealReal', 'Tradesy', 'Gazelle', 'Decluttr', 'Swappa', '5Miles', 'BookScouter'] is too short"
+    },
+    {
+      "feature": "List items for sale",
+      "run": 8,
+      "payload": null,
+      "error": "Schema validation failed: ['eBay', 'Craigslist', 'Letgo', 'OfferUp', 'Facebook Marketplace', 'Amazon', 'Depop', 'Poshmark', 'Etsy', 'Shpock', 'Gumtree', 'VarageSale', 'ThredUp', 'Zillow', 'Oodle', 'Swappa', 'Bonanza', 'The RealReal', '5Miles'] is too short"
+    },
+    {
+      "feature": "List items for sale",
+      "run": 9,
+      "payload": null,
+      "error": "Schema validation failed: ['eBay', 'Amazon Mobile', 'Craigslist', 'Letgo', 'OfferUp', 'Facebook Marketplace', 'Shpock', 'Gumtree', 'VarageSale', 'Nextdoor', 'Poshmark', 'Depop', 'Etsy', 'Redbubble', 'Bonanza', 'Zibbet', 'Rakuten', 'eBid', 'Mercari'] is too short"
+    }
+  ],
+  "dataset_suite": "open_small"
+}

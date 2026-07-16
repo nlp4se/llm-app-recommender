@@ -5,8 +5,17 @@ from typing import Any
 
 
 class LLMClient(ABC):
-    def __init__(self, model: str):
+    """
+    Provider client for experiment API calls.
+
+    Proprietary runs always call ``complete(..., structured=True, schema=...)``.
+    Each implementation must use the vendor's native JSON-schema structured output
+    API (see ``code.experiments.structured_output``).
+    """
+
+    def __init__(self, model: str, *, web_search: bool = False):
         self.model = model
+        self.web_search = web_search
 
     @abstractmethod
     def complete(

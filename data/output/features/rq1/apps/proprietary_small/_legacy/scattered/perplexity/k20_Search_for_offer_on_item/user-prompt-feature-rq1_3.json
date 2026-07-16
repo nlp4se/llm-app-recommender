@@ -1,0 +1,55 @@
+{
+  "a": [
+    "ShopSavvy",
+    "The Coupons App",
+    "Sherpa Perks",
+    "BuyVia",
+    "Amazon",
+    "PriceGrabber",
+    "Purchx",
+    "ScanLife",
+    "Now Discount",
+    "Quick Scan",
+    "TTPM",
+    "Shopular",
+    "OfferUp",
+    "eBay",
+    "Google Shopper",
+    "Craigslist Mobile",
+    "Yellow Pages",
+    "Newegg Mobile",
+    "Shopping by TheFind"
+  ],
+  "c": [
+    {
+      "n": "Price Comparison Features",
+      "d": "The ability of the app to compare prices across different stores and websites",
+      "t": "Text",
+      "s": "1, 2"
+    },
+    {
+      "n": "Coupon and Discount Availability",
+      "d": "The number and variety of coupons and discounts available through the app",
+      "t": "Text",
+      "s": "1, 2"
+    },
+    {
+      "n": "User Interface and Usability",
+      "d": "The ease and intuitiveness of navigating and using the app",
+      "t": "Text",
+      "s": "1, 2, 3"
+    },
+    {
+      "n": "Local and Online Shopping Support",
+      "d": "Whether the app supports both in-person and online shopping experiences",
+      "t": "Boolean",
+      "s": "1, 2, 3"
+    },
+    {
+      "n": "Platform Availability",
+      "d": "The number of mobile platforms supported by the app (e.g., iOS, Android)",
+      "t": "Integer",
+      "s": "1, 3"
+    }
+  ]
+}

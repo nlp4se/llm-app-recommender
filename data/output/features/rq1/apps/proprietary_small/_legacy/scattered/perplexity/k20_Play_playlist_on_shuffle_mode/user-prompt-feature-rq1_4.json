@@ -1,0 +1,52 @@
+{
+  "a": [
+    "REAL Shuffle Player",
+    "Shuffle Music",
+    "Spotify (with Smart Shuffle)",
+    "Sonos App"
+  ],
+  "c": [
+    {
+      "n": "Shuffle Quality",
+      "d": "How truly random and diverse the shuffle mode is, including features to prevent repeating songs too soon or playing the same songs repeatedly",
+      "t": "Text[1], Boolean[1], Text[3], Text[2]",
+      "s": "Google Play (REAL Shuffle Player), Google Play (Shuffle Music), YouTube (Smart Shuffle Spotify)"
+    },
+    {
+      "n": "Playlist Management",
+      "d": "Ability to create, manage, and combine playlists for shuffle play",
+      "t": "Boolean[1], Text[1]",
+      "s": "Google Play (REAL Shuffle Player)"
+    },
+    {
+      "n": "Music Sources Supported",
+      "d": "Support for streaming music from various sources like cloud storage, YouTube, or local files",
+      "t": "Text[*]",
+      "s": "Google Play (REAL Shuffle Player)"
+    },
+    {
+      "n": "User Interface Responsiveness",
+      "d": "Adaptability of UI across devices such as phones and tablets",
+      "t": "Boolean[1]",
+      "s": "Google Play (REAL Shuffle Player)"
+    },
+    {
+      "n": "User Base and Reviews",
+      "d": "Number of downloads and average user rating indicating popularity and reliability",
+      "t": "Integer[1], Float[1]",
+      "s": "Google Play (REAL Shuffle Player), Google Play (Shuffle Music)"
+    },
+    {
+      "n": "Personalization Features",
+      "d": "Use of AI or user input to tailor shuffle experience based on listening habits and preferences",
+      "t": "Boolean[1], Text[1]",
+      "s": "Google Play (Shuffle Music), YouTube (Spotify Smart Shuffle)"
+    },
+    {
+      "n": "Casting and Streaming",
+      "d": "Ability to cast music to devices like Fire TV or Chromecast",
+      "t": "Boolean[1]",
+      "s": "Google Play (REAL Shuffle Player)"
+    }
+  ]
+}

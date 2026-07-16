@@ -1,0 +1,69 @@
+
+{
+  "a": [
+    "Honey",
+    "Rakuten",
+    "Ibotta",
+    "ShopSavvy",
+    "BuyVia",
+    "Flipp",
+    "RetailMeNot",
+    "The Coupons App",
+    "DealNews",
+    "Groupon",
+    "Checkout 51",
+    "Shopkick",
+    "Price.com",
+    "Amazon App",
+    "Target Circle and RedCard App",
+    "Fetch Rewards",
+    "SlickDeals",
+    "PriceSpy",
+    "Google Shopping",
+    "Temu"
+  ],
+  "c": [
+    {
+      "n": "Price Comparison",
+      "d": "Compares prices across multiple retailers, both online and local, to find the best deals for a specific item.",
+      "t": "Boolean[1]",
+      "s": "Multiple sources"
+    },
+    {
+      "n": "Coupon Availability",
+      "d": "Identifies and applies available coupons and promo codes for online and in-store purchases to maximize savings.",
+      "t": "Boolean[1]",
+      "s": "Multiple sources"
+    },
+    {
+      "n": "Cash Back Rewards",
+      "d": "Offers cash back or rebates on purchases made through the app or by submitting receipts after purchase.",
+      "t": "Boolean[1]",
+      "s": "Multiple sources"
+    },
+    {
+      "n": "Barcode Scanning",
+      "d": "Allows users to scan product barcodes to quickly compare prices and find deals.",
+      "t": "Boolean[1]",
+      "s": "Multiple sources"
+    },
+    {
+      "n": "Price Drop Alerts",
+      "d": "Notifies users when the price of a tracked item drops to a desired level.",
+      "t": "Boolean[1]",
+      "s": "Multiple sources"
+    },
+    {
+      "n": "User Reviews",
+      "d": "Provides access to product reviews from other customers to aid in purchase decisions.",
+      "t": "Boolean[1]",
+      "s": "Multiple sources"
+    },
+    {
+      "n": "In-Store Deals",
+      "d": "Highlights local, in-store deals and offers based on the user's location.",
+      "t": "Boolean[1]",
+      "s": "Multiple sources"
+    }
+  ]
+}

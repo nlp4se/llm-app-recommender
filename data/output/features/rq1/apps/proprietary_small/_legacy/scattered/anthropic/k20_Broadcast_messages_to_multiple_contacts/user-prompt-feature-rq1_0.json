@@ -1,0 +1,56 @@
+{
+  "a": [
+    "WhatsApp Business",
+    "Telegram",
+    "Signal",
+    "BulkSMS",
+    "GroupMe",
+    "Viber",
+    "LINE",
+    "WeChat",
+    "Slack",
+    "Discord",
+    "Facebook Messenger",
+    "SMS Organizer",
+    "Pulse SMS",
+    "QKSMS",
+    "Chomp SMS",
+    "Handcent Next SMS",
+    "GO SMS Pro",
+    "Textra SMS",
+    "Messages by Google",
+    "Microsoft Teams"
+  ],
+  "c": [
+    {
+      "n": "Broadcast List Capacity",
+      "d": "Maximum number of contacts that can be included in a single broadcast message",
+      "t": "Integer [1]",
+      "s": "App documentation, user manuals, official specifications"
+    },
+    {
+      "n": "Message Type Support",
+      "d": "Variety of supported message formats including text, images, videos, documents, and voice messages for broadcasts",
+      "t": "Integer [1]",
+      "s": "App features list, user interface analysis, official documentation"
+    },
+    {
+      "n": "Delivery Analytics",
+      "d": "Availability of read receipts, delivery confirmations, and detailed analytics for broadcast messages",
+      "t": "Boolean [1]",
+      "s": "App features, user reviews, official documentation"
+    },
+    {
+      "n": "Cross-Platform Compatibility",
+      "d": "Support across multiple operating systems and devices including iOS, Android, Windows, macOS, and web versions",
+      "t": "Integer [1]",
+      "s": "App store availability, official website, platform documentation"
+    },
+    {
+      "n": "User Base Size",
+      "d": "Total number of active users globally, indicating message reach potential and recipient accessibility",
+      "t": "Integer [1]",
+      "s": "Company reports, market research, official statistics"
+    }
+  ]
+}

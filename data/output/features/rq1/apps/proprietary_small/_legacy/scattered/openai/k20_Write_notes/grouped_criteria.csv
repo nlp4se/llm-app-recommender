@@ -1,0 +1,12 @@
+name,description,type,sources
+Collaboration Features,The tools and functionalities that enable multiple users to work together on notes or projects within the app.,Text [*],"Official app websites, feature comparison articles, user reviews"
+Customization and Extensibility,The extent to which the app allows customization and supports plugins or extensions.,Text [*],"Official app websites, developer documentation, user manuals, user reviews"
+Feature Set,"The variety and depth of functionalities offered by the app, such as multimedia support, collaboration tools, and integration capabilities.",Text [*],"Official app websites, feature comparison articles, tech articles, tech blogs, turn0news16, turn0news20, user manuals, user reviews"
+Integration with Other Services,"The extent to which the app integrates with other tools and services (e.g., cloud storage, calendars).",Text [*],"Official app websites, user reviews"
+Offline Access,The app's capability to function without an internet connection.,Boolean,"Official app websites, user manuals, user reviews"
+Performance and Reliability,"The app's speed, responsiveness, and stability during use.",Text [*],"User reviews, expert evaluations, performance benchmarks, professional app reviews, tech articles"
+Platform Availability,The range of operating systems and devices on which the app is available.,Text [*],"App Store listings, Official app websites, app store listings"
+Pricing Model,"The cost structure of the app, including free tiers, subscription plans, and one-time purchases.",Text [*],"App Store listings, Official app websites, app store listings, pricing pages, user reviews"
+Security and Privacy,"The measures taken by the app to protect user data, including encryption and privacy policies.",Text [*],"Official app websites, privacy policies, security audits, security whitepapers, tech articles, turn0news20"
+Synchronization and Backup,The app's ability to sync notes across devices and provide backup options.,Text [*],"Official app websites, user reviews"
+User Interface and Experience,"The design, ease of use, and overall user experience provided by the app.",Text [*],"User reviews, app store ratings, expert evaluations, professional app reviews, tech articles, tech blogs, usability studies"

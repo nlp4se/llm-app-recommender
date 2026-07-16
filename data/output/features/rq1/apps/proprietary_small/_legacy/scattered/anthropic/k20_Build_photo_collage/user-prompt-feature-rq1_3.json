@@ -1,0 +1,62 @@
+{
+  "a": [
+    "Canva",
+    "PicsArt",
+    "Adobe Photoshop Express",
+    "Pic Collage",
+    "Layout from Instagram",
+    "PhotoGrid",
+    "Fotor",
+    "VSCO",
+    "Moldiv",
+    "Photo Collage Maker",
+    "InShot",
+    "Bazaart",
+    "Unfold",
+    "Story Maker",
+    "FrameMagic",
+    "LiveCollage",
+    "Collage Maker Plus",
+    "TurboCollage",
+    "PhotoWonder",
+    "FotoJet"
+  ],
+  "c": [
+    {
+      "n": "Template Variety",
+      "d": "Number and diversity of pre-designed collage templates and layouts available",
+      "t": "Integer [1]",
+      "s": "App store descriptions, user reviews, feature listings"
+    },
+    {
+      "n": "User Rating",
+      "d": "Average user rating score on app stores reflecting overall user satisfaction",
+      "t": "Float [1]",
+      "s": "Google Play Store, Apple App Store"
+    },
+    {
+      "n": "Editing Tools Quality",
+      "d": "Comprehensiveness and sophistication of photo editing features including filters, effects, text, and adjustment tools",
+      "t": "Integer [1]",
+      "s": "App feature documentation, user reviews, hands-on testing"
+    },
+    {
+      "n": "Ease of Use",
+      "d": "Intuitiveness of user interface and simplicity of collage creation process",
+      "t": "Integer [1]",
+      "s": "User reviews, UX analysis, tutorial availability"
+    },
+    {
+      "n": "Export Quality",
+      "d": "Maximum resolution and quality options for saving and sharing completed collages",
+      "t": "Text [1]",
+      "s": "App specifications, user feedback, technical documentation"
+    },
+    {
+      "n": "Free Features Availability",
+      "d": "Extent of functionality accessible without premium subscription or in-app purchases",
+      "t": "Boolean [1]",
+      "s": "App store listings, freemium model analysis, user reports"
+    }
+  ]
+}

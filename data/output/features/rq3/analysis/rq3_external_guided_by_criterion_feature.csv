@@ -1,0 +1,257 @@
+criterion,feature,rbo
+Accessibility Features,Access to movies,0.6638963739662068
+Accessibility Features,Access to podcasts,0.589247144361365
+Accessibility Features,Broadcast messages to multiple contacts,0.496632955032848
+Accessibility Features,Build photo collage,0.2431109311894489
+Accessibility Features,Collaborate with others,0.5192534892697643
+Accessibility Features,Go Live,0.2929468711019288
+Accessibility Features,Keeping up with friends,0.5503821999448112
+Accessibility Features,List items for sale,0.4827064000687354
+Accessibility Features,Photo effects,0.2643739135004421
+Accessibility Features,Play games,0.11307061481977827
+Accessibility Features,Play playlist on shuffle mode,0.7308344418736341
+Accessibility Features,Rate movies,0.37837239416664775
+Accessibility Features,Search for offer on item,0.26653936877086265
+Accessibility Features,Send files,0.3940483774767384
+Accessibility Features,Watch streams,0.43949726496020847
+Accessibility Features,Write notes,0.5608701746888444
+Cost and Pricing,Access to movies,0.38889665791961353
+Cost and Pricing,Access to podcasts,0.5831497311880028
+Cost and Pricing,Broadcast messages to multiple contacts,0.47075320454854397
+Cost and Pricing,Build photo collage,0.21865804161344632
+Cost and Pricing,Collaborate with others,0.4433008799613183
+Cost and Pricing,Go Live,0.2332705797295073
+Cost and Pricing,Keeping up with friends,0.48512266055333597
+Cost and Pricing,List items for sale,0.40016677927540506
+Cost and Pricing,Photo effects,0.2721574095363627
+Cost and Pricing,Play games,0.16754323770280558
+Cost and Pricing,Play playlist on shuffle mode,0.5089396762366226
+Cost and Pricing,Rate movies,0.36574169092599096
+Cost and Pricing,Search for offer on item,0.1880986956137804
+Cost and Pricing,Send files,0.21860048174486688
+Cost and Pricing,Watch streams,0.3465726678077785
+Cost and Pricing,Write notes,0.5314878757684943
+Cross-Platform Synchronization,Access to movies,0.7013413858343285
+Cross-Platform Synchronization,Access to podcasts,0.5776809424662103
+Cross-Platform Synchronization,Broadcast messages to multiple contacts,0.5187228097665006
+Cross-Platform Synchronization,Build photo collage,0.33584028564543655
+Cross-Platform Synchronization,Collaborate with others,0.44028148560934166
+Cross-Platform Synchronization,Go Live,0.23710934134482284
+Cross-Platform Synchronization,Keeping up with friends,0.48787854900071104
+Cross-Platform Synchronization,List items for sale,0.49261278780765405
+Cross-Platform Synchronization,Photo effects,0.3697340860204129
+Cross-Platform Synchronization,Play games,0.2600269087179711
+Cross-Platform Synchronization,Play playlist on shuffle mode,0.7501381470149668
+Cross-Platform Synchronization,Rate movies,0.3533294843472189
+Cross-Platform Synchronization,Search for offer on item,0.1994164367307836
+Cross-Platform Synchronization,Send files,0.5035160346365471
+Cross-Platform Synchronization,Watch streams,0.3702398372487465
+Cross-Platform Synchronization,Write notes,0.6227653650874642
+Customer Support,Access to movies,0.6490065040607121
+Customer Support,Access to podcasts,0.5737441694747698
+Customer Support,Broadcast messages to multiple contacts,0.3751313621628148
+Customer Support,Build photo collage,0.2913370266582728
+Customer Support,Collaborate with others,0.6001295757268283
+Customer Support,Go Live,0.25022791430152397
+Customer Support,Keeping up with friends,0.47768367301215675
+Customer Support,List items for sale,0.42915475059956854
+Customer Support,Photo effects,0.31324833399926794
+Customer Support,Play games,0.20004506663790775
+Customer Support,Play playlist on shuffle mode,0.719410069965165
+Customer Support,Rate movies,0.31949340297999423
+Customer Support,Search for offer on item,0.2622187974701692
+Customer Support,Send files,0.37694695599104405
+Customer Support,Watch streams,0.35592248130439313
+Customer Support,Write notes,0.5756280863518944
+Customization Options,Access to movies,0.37484525063726826
+Customization Options,Access to podcasts,0.46265520326097975
+Customization Options,Broadcast messages to multiple contacts,0.3917651490800167
+Customization Options,Build photo collage,0.1968895502806502
+Customization Options,Collaborate with others,0.49468699845268166
+Customization Options,Go Live,0.24478182474732846
+Customization Options,Keeping up with friends,0.42532629160667046
+Customization Options,List items for sale,0.3672609164235209
+Customization Options,Photo effects,0.25783801602497775
+Customization Options,Play games,0.34666919386387757
+Customization Options,Play playlist on shuffle mode,0.31372538557280466
+Customization Options,Rate movies,0.2799950347325556
+Customization Options,Search for offer on item,0.16505955505554476
+Customization Options,Send files,0.21757937326586804
+Customization Options,Watch streams,0.35359971603185014
+Customization Options,Write notes,0.415328507507008
+Feature Breadth and Richness,Access to movies,0.7037304807517482
+Feature Breadth and Richness,Access to podcasts,0.5575661429998424
+Feature Breadth and Richness,Broadcast messages to multiple contacts,0.4960779858599805
+Feature Breadth and Richness,Build photo collage,0.2031801184657486
+Feature Breadth and Richness,Collaborate with others,0.5039016141728794
+Feature Breadth and Richness,Go Live,0.24716505694340252
+Feature Breadth and Richness,Keeping up with friends,0.6498648952002737
+Feature Breadth and Richness,List items for sale,0.5092727772978428
+Feature Breadth and Richness,Photo effects,0.3044692000851928
+Feature Breadth and Richness,Play games,0.17833538416436198
+Feature Breadth and Richness,Play playlist on shuffle mode,0.7526871342968551
+Feature Breadth and Richness,Rate movies,0.3966895583155449
+Feature Breadth and Richness,Search for offer on item,0.2133231764676515
+Feature Breadth and Richness,Send files,0.27361894295426525
+Feature Breadth and Richness,Watch streams,0.3994540066919496
+Feature Breadth and Richness,Write notes,0.553737281722038
+Integration with Other Services,Access to movies,0.5471147880934102
+Integration with Other Services,Access to podcasts,0.6297930182201479
+Integration with Other Services,Broadcast messages to multiple contacts,0.3717945793251163
+Integration with Other Services,Build photo collage,0.30141275222933905
+Integration with Other Services,Collaborate with others,0.5502413473614755
+Integration with Other Services,Go Live,0.26154868463114944
+Integration with Other Services,Keeping up with friends,0.5668580141003401
+Integration with Other Services,List items for sale,0.50109859801096
+Integration with Other Services,Photo effects,0.28992111782446933
+Integration with Other Services,Play games,0.2153796782220101
+Integration with Other Services,Play playlist on shuffle mode,0.736565989358037
+Integration with Other Services,Rate movies,0.3431718950306271
+Integration with Other Services,Search for offer on item,0.2140111979301941
+Integration with Other Services,Send files,0.445751641406594
+Integration with Other Services,Watch streams,0.4511250023721951
+Integration with Other Services,Write notes,0.5982344843665213
+Performance and Stability,Access to movies,0.7018356261488444
+Performance and Stability,Access to podcasts,0.6022639836722778
+Performance and Stability,Broadcast messages to multiple contacts,0.5176359306515081
+Performance and Stability,Build photo collage,0.27283412224290043
+Performance and Stability,Collaborate with others,0.4882441530460103
+Performance and Stability,Go Live,0.27823735012428785
+Performance and Stability,Keeping up with friends,0.5477614013213905
+Performance and Stability,List items for sale,0.48998634879958786
+Performance and Stability,Photo effects,0.3478289566524604
+Performance and Stability,Play games,0.23995916244759047
+Performance and Stability,Play playlist on shuffle mode,0.6879766617529024
+Performance and Stability,Rate movies,0.36128830102007486
+Performance and Stability,Search for offer on item,0.26194423147977264
+Performance and Stability,Send files,0.2582344812017491
+Performance and Stability,Watch streams,0.3965378361082619
+Performance and Stability,Write notes,0.5288828424518163
+Platform and Device Compatibility,Access to movies,0.6416464687906681
+Platform and Device Compatibility,Access to podcasts,0.5740794657085432
+Platform and Device Compatibility,Broadcast messages to multiple contacts,0.5812095449929333
+Platform and Device Compatibility,Build photo collage,0.2853464902419974
+Platform and Device Compatibility,Collaborate with others,0.4731036964066566
+Platform and Device Compatibility,Go Live,0.24628554132043196
+Platform and Device Compatibility,Keeping up with friends,0.5553392295927233
+Platform and Device Compatibility,List items for sale,0.49682229964311153
+Platform and Device Compatibility,Photo effects,0.3024515811998703
+Platform and Device Compatibility,Play games,0.3297124631160798
+Platform and Device Compatibility,Play playlist on shuffle mode,0.735105650894805
+Platform and Device Compatibility,Rate movies,0.42726398499964524
+Platform and Device Compatibility,Search for offer on item,0.218386088934837
+Platform and Device Compatibility,Send files,0.42134149942897164
+Platform and Device Compatibility,Watch streams,0.4103745449552962
+Platform and Device Compatibility,Write notes,0.5894949454611358
+Popularity and Market Reach,Access to movies,0.7123335137838952
+Popularity and Market Reach,Access to podcasts,0.6005680333936096
+Popularity and Market Reach,Broadcast messages to multiple contacts,0.5534602160083837
+Popularity and Market Reach,Build photo collage,0.1677537432029218
+Popularity and Market Reach,Collaborate with others,0.4346840402737579
+Popularity and Market Reach,Go Live,0.3792179304142768
+Popularity and Market Reach,Keeping up with friends,0.6767798139403338
+Popularity and Market Reach,List items for sale,0.42531559364017113
+Popularity and Market Reach,Photo effects,0.38794378537549346
+Popularity and Market Reach,Play games,0.4030097054731101
+Popularity and Market Reach,Play playlist on shuffle mode,0.7760116135422199
+Popularity and Market Reach,Rate movies,0.42607575562520633
+Popularity and Market Reach,Search for offer on item,0.292620870402755
+Popularity and Market Reach,Send files,0.3790805476141221
+Popularity and Market Reach,Watch streams,0.41605046439791105
+Popularity and Market Reach,Write notes,0.598600334331464
+Regional and Geographical Availability,Access to movies,0.6656599587044889
+Regional and Geographical Availability,Access to podcasts,0.6106744701065773
+Regional and Geographical Availability,Broadcast messages to multiple contacts,0.548253934351716
+Regional and Geographical Availability,Build photo collage,0.18393854976212662
+Regional and Geographical Availability,Collaborate with others,0.4415542171628224
+Regional and Geographical Availability,Go Live,0.3340591177330356
+Regional and Geographical Availability,Keeping up with friends,0.6022979108271928
+Regional and Geographical Availability,List items for sale,0.45153073136018324
+Regional and Geographical Availability,Photo effects,0.2621307808632882
+Regional and Geographical Availability,Play games,0.26491333544638673
+Regional and Geographical Availability,Play playlist on shuffle mode,0.7604428596043878
+Regional and Geographical Availability,Rate movies,0.4230484523553416
+Regional and Geographical Availability,Search for offer on item,0.24166190945401617
+Regional and Geographical Availability,Send files,0.3038935863095308
+Regional and Geographical Availability,Watch streams,0.3720969939580873
+Regional and Geographical Availability,Write notes,0.6241165733114425
+Regular Updates and Maintenance,Access to movies,0.6819623480947019
+Regular Updates and Maintenance,Access to podcasts,0.5236209656384171
+Regular Updates and Maintenance,Broadcast messages to multiple contacts,0.5305324260557893
+Regular Updates and Maintenance,Build photo collage,0.15212977560600055
+Regular Updates and Maintenance,Collaborate with others,0.49336861420654765
+Regular Updates and Maintenance,Go Live,0.3106074779563693
+Regular Updates and Maintenance,Keeping up with friends,0.5262585765153173
+Regular Updates and Maintenance,List items for sale,0.45096136912605994
+Regular Updates and Maintenance,Photo effects,0.26895512454088866
+Regular Updates and Maintenance,Play games,0.3532140382113094
+Regular Updates and Maintenance,Play playlist on shuffle mode,0.747028249331941
+Regular Updates and Maintenance,Rate movies,0.3306240650170963
+Regular Updates and Maintenance,Search for offer on item,0.17291676546924606
+Regular Updates and Maintenance,Send files,0.35001207545533775
+Regular Updates and Maintenance,Watch streams,0.4266216699492094
+Regular Updates and Maintenance,Write notes,0.5222107716629277
+Security and Privacy,Access to movies,0.6180052679150274
+Security and Privacy,Access to podcasts,0.4347529178549102
+Security and Privacy,Broadcast messages to multiple contacts,0.4807593486897459
+Security and Privacy,Build photo collage,0.24775202855730083
+Security and Privacy,Collaborate with others,0.29224921756045874
+Security and Privacy,Go Live,0.19332369795092674
+Security and Privacy,Keeping up with friends,0.45218178699790407
+Security and Privacy,List items for sale,0.4403189720826472
+Security and Privacy,Photo effects,0.21333583717965532
+Security and Privacy,Play games,0.09820849551927818
+Security and Privacy,Play playlist on shuffle mode,0.4347056155886229
+Security and Privacy,Rate movies,0.3695618822891361
+Security and Privacy,Search for offer on item,0.19074903861263767
+Security and Privacy,Send files,0.3151722551281231
+Security and Privacy,Watch streams,0.2881120097032253
+Security and Privacy,Write notes,0.36935884885462306
+User Engagement,Access to movies,0.6761785704269048
+User Engagement,Access to podcasts,0.6250375852927462
+User Engagement,Broadcast messages to multiple contacts,0.620154649117142
+User Engagement,Build photo collage,0.2253758114392273
+User Engagement,Collaborate with others,0.562200864937616
+User Engagement,Go Live,0.3464585263097959
+User Engagement,Keeping up with friends,0.6185142210731246
+User Engagement,List items for sale,0.5074499281861324
+User Engagement,Photo effects,0.3276072700931355
+User Engagement,Play games,0.4324284746288757
+User Engagement,Play playlist on shuffle mode,0.7680366615767439
+User Engagement,Rate movies,0.41152203092570244
+User Engagement,Search for offer on item,0.17241260765005123
+User Engagement,Send files,0.35057770004348543
+User Engagement,Watch streams,0.37576849524344474
+User Engagement,Write notes,0.5604558517776355
+User Interface and Experience,Access to movies,0.6704858741919506
+User Interface and Experience,Access to podcasts,0.6228042109688416
+User Interface and Experience,Broadcast messages to multiple contacts,0.5652842376474057
+User Interface and Experience,Build photo collage,0.28022340436182613
+User Interface and Experience,Collaborate with others,0.5164760564844556
+User Interface and Experience,Go Live,0.27077835589311294
+User Interface and Experience,Keeping up with friends,0.5435645605106483
+User Interface and Experience,List items for sale,0.44709314140306433
+User Interface and Experience,Photo effects,0.338851544654171
+User Interface and Experience,Play games,0.15721034424410196
+User Interface and Experience,Play playlist on shuffle mode,0.7446407354038787
+User Interface and Experience,Rate movies,0.34538094567238176
+User Interface and Experience,Search for offer on item,0.18039747506294618
+User Interface and Experience,Send files,0.31171489993044116
+User Interface and Experience,Watch streams,0.3423852261610886
+User Interface and Experience,Write notes,0.5069040546253523
+User Ratings,Access to movies,0.5768439498195942
+User Ratings,Access to podcasts,0.522371490746932
+User Ratings,Broadcast messages to multiple contacts,0.36032603157275406
+User Ratings,Build photo collage,0.17174963134410662
+User Ratings,Collaborate with others,0.4726261398451491
+User Ratings,Go Live,0.22688317814524417
+User Ratings,Keeping up with friends,0.4392089745468273
+User Ratings,List items for sale,0.3457812090683432
+User Ratings,Photo effects,0.29426159461474355
+User Ratings,Play games,0.24457623153073788
+User Ratings,Play playlist on shuffle mode,0.5183939280479124
+User Ratings,Rate movies,0.33535359400503134
+User Ratings,Search for offer on item,0.14892192387394937
+User Ratings,Send files,0.2353239166483618
+User Ratings,Watch streams,0.2913796077643508
+User Ratings,Write notes,0.4671289895480733

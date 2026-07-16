@@ -1,0 +1,62 @@
+{
+  "a": [
+    "PhotoGrid",
+    "Ribbet",
+    "Adobe Spark",
+    "Canva Collage Templates",
+    "BeFunky Collage Maker",
+    "piZap",
+    "Fotor Collage Maker",
+    "Photovisi",
+    "Google Photos",
+    "PicMonkey",
+    "PicCollage App",
+    "Collage Maker - LiveCollage",
+    "MOLDIV",
+    "InCollage",
+    "PhotoDirector",
+    "Moldiv Camera",
+    "PicsArt Collage Maker",
+    "Layout from Instagram",
+    "PicsKit",
+    "Moldiv Pro"
+  ],
+  "c": [
+    {
+      "n": "Number of templates and layouts",
+      "d": "The variety and number of photo collage templates and layouts offered by the app for creative freedom.",
+      "t": "Integer [1]",
+      "s": "Shutterfly, CyberLink, AppypieDesign"
+    },
+    {
+      "n": "Supported platforms",
+      "d": "The operating systems (iOS, Android, Web) on which the app is available.",
+      "t": "Text [*]",
+      "s": "Shutterfly, CyberLink, AppypieDesign, PhotoGrid"
+    },
+    {
+      "n": "Price model",
+      "d": "Whether the app is free, freemium, or subscription-based, including trial availability.",
+      "t": "Text [1]",
+      "s": "Shutterfly, CyberLink, AppypieDesign"
+    },
+    {
+      "n": "Editing features",
+      "d": "Availability of advanced photo editing tools such as filters, text addition, background removal, and video collage support.",
+      "t": "Text [*]",
+      "s": "Shutterfly, CyberLink, AppypieDesign"
+    },
+    {
+      "n": "AI-powered tools",
+      "d": "Presence of AI features like background removal and automatic collage generation that enhance usability.",
+      "t": "Boolean [1]",
+      "s": "AppypieDesign, PhotoGrid"
+    },
+    {
+      "n": "User interface simplicity",
+      "d": "How simple and intuitive the app interface is for users of different skill levels.",
+      "t": "Text [1]",
+      "s": "Shutterfly, CyberLink"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+
+{
+  "a": [
+    "Roblox",
+    "Honor of Kings",
+    "PUBG Mobile",
+    "Candy Crush Saga",
+    "Genshin Impact",
+    "Royal Match",
+    "Monopoly GO!",
+    "Last War: Survival",
+    "Coin Master",
+    "Block Blast",
+    "Subway Surfers",
+    "Ludo King",
+    "Brawl Stars",
+    "Marvel Snap",
+    "Pokemon GO",
+    "Vampire Survivors",
+    "Infinity Nikki",
+    "Squad Busters",
+    "Wuthering Waves",
+    "CarX Drift Racing 3"
+  ],
+  "c": [
+    {
+      "n": "User Rating",
+      "d": "Average rating given by users on app stores.",
+      "t": "Float [1]",
+      "s": "Google Play Store, Apple App Store"
+    },
+    {
+      "n": "Number of Downloads",
+      "d": "Total number of times the app has been downloaded.",
+      "t": "Integer [1]",
+      "s": "Appmagic, Google Play Store, Apple App Store"
+    },
+    {
+      "n": "Genre",
+      "d": "The game's genre influences its appeal to different player tastes.",
+      "t": "Text [1]",
+      "s": "Google Play Store, Apple App Store"
+    },
+    {
+      "n": "In-App Purchases",
+      "d": "Availability of in-app purchases and their impact on gameplay.",
+      "t": "Boolean",
+      "s": "Google Play Store, Apple App Store"
+    },
+    {
+      "n": "Last Update",
+      "d": "How recently the game was updated affects its freshness and bug fixes.",
+      "t": "Date [1]",
+      "s": "Google Play Store, Apple App Store"
+    }
+  ]
+}

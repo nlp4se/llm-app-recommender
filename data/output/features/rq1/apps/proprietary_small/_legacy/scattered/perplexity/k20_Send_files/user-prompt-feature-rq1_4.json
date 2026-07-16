@@ -1,0 +1,56 @@
+{
+  "a": [
+    "WeTransfer",
+    "SendAnywhere",
+    "Dropbox Transfer",
+    "Zapya",
+    "Bluetooth File Transfer",
+    "pCloud Transfer",
+    "Google Drive",
+    "AirDroid",
+    "SHAREit",
+    "Xender",
+    "Files by Google",
+    "Resilio Sync",
+    "SendGB",
+    "Filemail",
+    "Smash",
+    "TransferNow",
+    "Jumpshare",
+    "Hightail",
+    "Box",
+    "OneDrive"
+  ],
+  "c": [
+    {
+      "n": "File Size Limit",
+      "d": "Maximum file size allowed to be sent for free or within the app's basic plan",
+      "t": "Integer [1]",
+      "s": "anyviewer.com, tomsguide.com, dropbox.com"
+    },
+    {
+      "n": "Security Features",
+      "d": "Security measures like encryption type (e.g., end-to-end encryption, TLS, AES-256), password protection, and file access controls",
+      "t": "Text [*]",
+      "s": "anyviewer.com, tomsguide.com"
+    },
+    {
+      "n": "Cross-Platform Compatibility",
+      "d": "Support for multiple operating systems like Android, iOS, Windows, macOS, and web browsers",
+      "t": "Text [*]",
+      "s": "anyviewer.com, wondershare.com"
+    },
+    {
+      "n": "Ease of Use",
+      "d": "User-friendliness of the app, including whether registration is required and simplicity of sharing process",
+      "t": "Text [1]",
+      "s": "anyviewer.com, tomsguide.com"
+    },
+    {
+      "n": "Additional Features",
+      "d": "Extra functionalities such as collaboration tools, messaging, file preview, multi-device connection, or cloud integration",
+      "t": "Text [*]",
+      "s": "tomsguide.com, wondershare.com, dropbox.com"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "n_clusters": 14,
+  "silhouette_score": 0.24156732857227325,
+  "calinski_harabasz_score": 134.5915603965042,
+  "cluster_sizes": [
+    352,
+    106,
+    319,
+    96,
+    168,
+    193,
+    112,
+    165,
+    46,
+    154,
+    58,
+    34,
+    41,
+    52
+  ],
+  "min_cluster_size": 34,
+  "max_cluster_size": 352,
+  "avg_cluster_size": 135.42857142857142,
+  "std_cluster_size": 96.11133000381402
+}

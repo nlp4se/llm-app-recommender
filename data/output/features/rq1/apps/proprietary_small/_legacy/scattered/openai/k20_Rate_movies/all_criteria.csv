@@ -1,0 +1,79 @@
+model,feature,name,description,type,sources
+openai,Rate movies,User Ratings and Reviews,"The ability for users to rate and review movies, providing personal insights and opinions.","Text, Float [1]",User-generated content
+openai,Rate movies,Social Networking Features,"Features that allow users to connect with friends, share recommendations, and see what others are watching.",Boolean [1],App feature descriptions
+openai,Rate movies,Personalized Recommendations,The app's capability to suggest movies based on user preferences and viewing history.,Boolean [1],App feature descriptions
+openai,Rate movies,Watchlist Management,Tools for users to create and manage lists of movies they want to watch.,Boolean [1],App feature descriptions
+openai,Rate movies,Availability Information,"Information on where to stream or purchase movies, including integration with streaming services.",Boolean [1],App feature descriptions
+openai,Rate movies,User Interface and Experience,"The design and usability of the app, ensuring a seamless and engaging user experience.",Text [1],User reviews and app descriptions
+openai,Rate movies,Platform Availability,"The availability of the app across different platforms (iOS, Android, web).",Text [1],App store listings
+openai,Rate movies,Community Engagement,"The presence of active user communities, forums, or discussion boards within the app.",Boolean [1],App feature descriptions
+openai,Rate movies,Data Accuracy and Completeness,The comprehensiveness and accuracy of the movie database used by the app.,Boolean [1],App feature descriptions
+openai,Rate movies,Cost and Subscription Options,"Information on whether the app is free, offers in-app purchases, or requires a subscription.",Text [1],App store listings
+openai,Rate movies,User Ratings and Reviews,"The ability for users to rate and review movies, providing personal insights and opinions.","Text, Float [1]",User-generated content
+openai,Rate movies,Social Networking Features,"Features that allow users to connect with friends, share recommendations, and discuss movies.",Boolean [1],App feature set
+openai,Rate movies,Personalized Recommendations,The app's capability to suggest movies based on user preferences and viewing history.,Boolean [1],App algorithms
+openai,Rate movies,Watchlist Management,Tools for users to create and manage lists of movies they want to watch.,Boolean [1],App feature set
+openai,Rate movies,Availability Information,"Information on where to watch or stream movies, including links to platforms.",Boolean [1],App integrations
+openai,Rate movies,User Ratings and Reviews,"The ability for users to rate and review movies, providing personal insights and opinions.","Text, Integer [1]","User-generated content, App Store reviews"
+openai,Rate movies,Social Networking Features,"Features that allow users to connect with friends, share ratings, and discover movies through social interactions.",Boolean [1],"App feature descriptions, User testimonials"
+openai,Rate movies,Personalized Recommendations,The app's capability to suggest movies based on user preferences and viewing history.,Boolean [1],"App feature descriptions, User testimonials"
+openai,Rate movies,User Interface and Experience,"The design and usability of the app, ensuring a seamless and engaging user experience.",Text [1],"App Store reviews, User feedback"
+openai,Rate movies,Platform Availability,"The availability of the app across different platforms such as iOS, Android, and web.",Text [1],"App Store listings, Official app websites"
+openai,Rate movies,User Ratings and Reviews,The ability for users to rate and review movies within the app.,Boolean [1],"App Store, Google Play Store"
+openai,Rate movies,Social Features,"Features that allow users to connect, share, and discuss movies with friends or a community.",Boolean [1],"App Store, Google Play Store"
+openai,Rate movies,Personalized Recommendations,The app provides movie recommendations tailored to the user's preferences.,Boolean [1],"App Store, Google Play Store"
+openai,Rate movies,Streaming Integration,Integration with streaming services to watch movies directly through the app.,Boolean [1],"App Store, Google Play Store"
+openai,Rate movies,Availability on Multiple Platforms,The app is available on both iOS and Android platforms.,Boolean [1],"App Store, Google Play Store"
+openai,Rate movies,User Ratings and Reviews,The ability for users to rate and review movies within the app.,Boolean [1],"App Store, Google Play Store"
+openai,Rate movies,Social Features,"Features that allow users to connect, share, and discuss movies with friends or a community.",Boolean [1],"App Store, Google Play Store"
+openai,Rate movies,Watchlist Management,Tools for users to create and manage lists of movies they want to watch.,Boolean [1],"App Store, Google Play Store"
+openai,Rate movies,Streaming Availability Information,Information on where movies are available for streaming.,Boolean [1],"App Store, Google Play Store"
+openai,Rate movies,Personalized Recommendations,The app provides movie recommendations tailored to the user's preferences.,Boolean [1],"App Store, Google Play Store"
+openai,Rate movies,User Interface and Experience,The overall design and usability of the app.,Text [1],"App Store, Google Play Store"
+openai,Rate movies,Platform Availability,"The operating systems on which the app is available (e.g., iOS, Android).",Text [1],"App Store, Google Play Store"
+openai,Rate movies,Additional Features,Any other notable features that enhance the movie rating experience.,Text [*],"App Store, Google Play Store"
+openai,Rate movies,User Ratings,Average user rating for the app on app stores and review platforms.,Float [1],"App Store, Google Play Store, Trustpilot"
+openai,Rate movies,Number of Reviews,Total number of user reviews for the app.,Integer [1],"App Store, Google Play Store"
+openai,Rate movies,Active User Base,Estimated number of active users or downloads.,Integer [1],"App Store, Google Play Store, company reports"
+openai,Rate movies,Feature Set,"Range of features offered, such as rating, reviewing, tracking, and social sharing.",Text [*],"Official app descriptions, user manuals"
+openai,Rate movies,Platform Availability,"Availability across different platforms (iOS, Android, web).",Text [*],"Official app websites, app stores"
+openai,Rate movies,User Interface,Quality and intuitiveness of the user interface.,Text [1],"User reviews, expert reviews"
+openai,Rate movies,Community Engagement,Level of user interaction and community features within the app.,Text [1],"User reviews, app descriptions"
+openai,Rate movies,Data Accuracy,Reliability and accuracy of movie data and recommendations.,Text [1],"User reviews, expert reviews"
+openai,Rate movies,Personalization,Ability to provide personalized recommendations based on user preferences.,Text [1],"User reviews, app descriptions"
+openai,Rate movies,Integration with Streaming Services,Ability to integrate with various streaming platforms for seamless viewing.,Text [1],"App descriptions, user reviews"
+openai,Rate movies,User Ratings and Reviews,"The ability for users to rate and review movies, providing personal insights and opinions.","Text, Integer [1]","App Store, Google Play Store, Official App Websites"
+openai,Rate movies,Social Features,"Features that allow users to connect with friends, share reviews, and see what others are watching.",Boolean [1],"App Store, Google Play Store, Official App Websites"
+openai,Rate movies,Watchlist Management,Tools for users to create and manage lists of movies they want to watch.,Boolean [1],"App Store, Google Play Store, Official App Websites"
+openai,Rate movies,Streaming Availability Information,Information on where movies are available for streaming across various platforms.,Boolean [1],"App Store, Google Play Store, Official App Websites"
+openai,Rate movies,User Interface and Experience,"The design and usability of the app, ensuring a smooth and engaging user experience.",Text [1],"App Store, Google Play Store, Official App Websites"
+openai,Rate movies,User Ratings and Reviews,"The ability for users to rate and review movies, providing personal insights and opinions.","Text, Integer [*]",User-generated content
+openai,Rate movies,Social Networking Features,"Features that allow users to connect with friends, share recommendations, and see friends' ratings.",Boolean,App feature set
+openai,Rate movies,Personalized Recommendations,The app's capability to suggest movies based on user preferences and viewing history.,Boolean,App algorithms
+openai,Rate movies,Watchlist Management,Tools for users to create and manage lists of movies they want to watch.,Boolean,App feature set
+openai,Rate movies,Availability Information,"Information on where to watch or stream movies, including integration with streaming services.",Boolean,App integrations
+openai,Rate movies,User Interface and Experience,"The design and usability of the app, ensuring a seamless and engaging user experience.",Text,"User reviews, app design analysis"
+openai,Rate movies,Platform Availability,"The availability of the app across different platforms (iOS, Android, web).",Text,App store listings
+openai,Rate movies,Community Engagement,"The level of user interaction within the app, such as forums, discussions, and community events.",Boolean,App feature set
+openai,Rate movies,Data Accuracy and Completeness,The comprehensiveness and accuracy of the movie database within the app.,Boolean,App data sources
+openai,Rate movies,Cost and Subscription Options,"Information on whether the app is free, offers in-app purchases, or requires a subscription.",Text,App store listings
+openai,Rate movies,User Ratings,Average user rating of the app on app stores,Float [1],"App Store, Google Play Store"
+openai,Rate movies,Number of Reviews,Total number of user reviews for the app,Integer [1],"App Store, Google Play Store"
+openai,Rate movies,Active Users,Estimated number of active users or downloads,Integer [1],"App Store, Google Play Store, Company Reports"
+openai,Rate movies,Feature Set,"Range of features offered, such as rating, reviewing, tracking, and social sharing",Text [*],"Official App Descriptions, User Reviews"
+openai,Rate movies,Platform Availability,"Availability across different platforms (iOS, Android, Web)",Text [*],Official App Descriptions
+openai,Rate movies,User Interface,Quality and intuitiveness of the user interface,Text [1],"User Reviews, App Store Screenshots"
+openai,Rate movies,Personalization,Ability to provide personalized recommendations based on user preferences,Boolean [1],"Official App Descriptions, User Reviews"
+openai,Rate movies,Community Engagement,Presence of active user communities and social features,Boolean [1],"Official App Descriptions, User Reviews"
+openai,Rate movies,Data Accuracy,Reliability and comprehensiveness of movie data and metadata,Boolean [1],"Official App Descriptions, User Reviews"
+openai,Rate movies,Integration with Streaming Services,Ability to integrate with or provide information about streaming platforms,Boolean [1],"Official App Descriptions, User Reviews"
+openai,Rate movies,User Ratings and Reviews,"The ability for users to rate and review movies, providing personal insights and opinions.","Integer, Text [*]",User-generated content
+openai,Rate movies,Personalized Recommendations,The app's capability to suggest movies based on user preferences and viewing history.,Text [*],"App algorithms, User data"
+openai,Rate movies,Social Features,"Options to connect with friends, share ratings, and see friends' activities.",Boolean,App features
+openai,Rate movies,Watchlist Management,Tools to create and manage lists of movies to watch or already watched.,Text [*],User input
+openai,Rate movies,Availability Information,Information on where to stream or purchase movies.,Text [*],Streaming service data
+openai,Rate movies,User Interface and Experience,"The design and usability of the app, affecting ease of navigation and overall user satisfaction.",Text [*],"User feedback, App reviews"
+openai,Rate movies,Platform Availability,The availability of the app across different operating systems and devices.,Text [*],App store listings
+openai,Rate movies,Data Privacy and Security,Measures taken to protect user data and privacy.,Boolean,App privacy policies
+openai,Rate movies,Cost and Subscription Options,"Information on whether the app is free, ad-supported, or requires a subscription.",Text [*],"App store listings, App websites"
+openai,Rate movies,Integration with Other Services,"The ability to sync with other platforms or services, such as streaming accounts or social media.",Boolean,App features

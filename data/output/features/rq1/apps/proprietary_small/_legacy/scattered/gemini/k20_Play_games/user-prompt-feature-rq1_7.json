@@ -1,0 +1,57 @@
+
+{
+  "a": [
+    "Roblox",
+    "Subway Surfers",
+    "Candy Crush Saga",
+    "Garena Free Fire",
+    "PUBG Mobile",
+    "8 Ball Pool",
+    "Ludo King",
+    "My Talking Tom 2",
+    "Block Blast!",
+    "Royal Match",
+    "Call of Duty Mobile",
+    "Genshin Impact",
+    "Honkai Star Rail",
+    "Among Us",
+    "Monument Valley",
+    "League of Legends: Wild Rift",
+    "Arena of Valor",
+    "Wuthering Waves",
+    "Rocket League Sideswipe",
+    "Whiteout Survival"
+  ],
+  "c": [
+    {
+      "n": "Number of Downloads",
+      "d": "The total number of times the app has been downloaded across all platforms. A higher number indicates greater popularity and reach.",
+      "t": "Integer",
+      "s": "Udonis Blog, Business of Apps"
+    },
+    {
+      "n": "User Ratings and Reviews",
+      "d": "Average rating given by users, reflecting satisfaction and perceived quality of the app. Higher rating suggests a better user experience.",
+      "t": "Float",
+      "s": "App Store, Google Play Store"
+    },
+    {
+      "n": "Active User Base",
+      "d": "The number of users actively playing the game on a daily or monthly basis. A larger active user base indicates higher engagement and community.",
+      "t": "Integer",
+      "s": "Apptopia"
+    },
+    {
+      "n": "Genre Diversity",
+      "d": "The variety of gameplay experiences offered, including action, puzzle, strategy, and simulation. A diverse genre selection appeals to a broader audience.",
+      "t": "Text",
+      "s": "Pocket Tactics, PCMag"
+    },
+    {
+      "n": "Update Frequency",
+      "d": "How often the app receives updates, including new content, bug fixes, and performance improvements. Regular updates indicate ongoing support and development.",
+      "t": "Float",
+      "s": "App Store, Google Play Store"
+    }
+  ]
+}

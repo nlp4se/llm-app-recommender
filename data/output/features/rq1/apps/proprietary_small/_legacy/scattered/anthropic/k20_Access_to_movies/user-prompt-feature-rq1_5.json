@@ -1,0 +1,68 @@
+{
+  "a": [
+    "Netflix",
+    "Disney+",
+    "Amazon Prime Video",
+    "Hulu",
+    "HBO Max",
+    "Apple TV+",
+    "Paramount+",
+    "Peacock",
+    "Tubi",
+    "Crackle",
+    "Pluto TV",
+    "IMDb TV",
+    "Vudu",
+    "Google Play Movies & TV",
+    "iTunes Movies",
+    "YouTube Movies",
+    "Showtime",
+    "Starz",
+    "Criterion Channel",
+    "Kanopy"
+  ],
+  "c": [
+    {
+      "n": "Content Library Size",
+      "d": "Total number of movies available on the platform",
+      "t": "Integer [1]",
+      "s": "Official platform statistics, third-party tracking services, app store descriptions"
+    },
+    {
+      "n": "Content Quality Score",
+      "d": "Average rating of movies based on critical and user reviews",
+      "t": "Float [1]",
+      "s": "IMDb, Rotten Tomatoes, Metacritic, user reviews"
+    },
+    {
+      "n": "Subscription Cost",
+      "d": "Monthly subscription fee in USD",
+      "t": "Float [1]",
+      "s": "Official pricing pages, app store information"
+    },
+    {
+      "n": "Free Content Availability",
+      "d": "Whether the app offers movies without subscription",
+      "t": "Boolean [1]",
+      "s": "App features, official website, user experience"
+    },
+    {
+      "n": "Streaming Quality Options",
+      "d": "Maximum video resolution supported (4K, HD, SD)",
+      "t": "Text [1]",
+      "s": "Technical specifications, official documentation"
+    },
+    {
+      "n": "Platform Availability",
+      "d": "Number of different devices/platforms supported",
+      "t": "Integer [1]",
+      "s": "App store listings, official compatibility information"
+    },
+    {
+      "n": "User Rating",
+      "d": "Average user rating in app stores",
+      "t": "Float [1]",
+      "s": "Google Play Store, Apple App Store"
+    }
+  ]
+}

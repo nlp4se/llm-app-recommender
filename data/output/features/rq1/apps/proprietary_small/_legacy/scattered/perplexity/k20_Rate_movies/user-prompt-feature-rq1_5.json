@@ -1,0 +1,62 @@
+{
+  "a": [
+    "Raters - Movie Reviews, Ratings",
+    "Taste: Movie & TV Suggestions",
+    "Letterboxd",
+    "SerialIzd",
+    "IMDb",
+    "Rotten Tomatoes",
+    "Metacritic",
+    "Movielens",
+    "Flickmetrix",
+    "Trakt",
+    "The Movie Database (TMDb)",
+    "Moviepilot",
+    "Criticker",
+    "FilmAffinity",
+    "MoviePass",
+    "CineTrak",
+    "MovieLens",
+    "Popcorn",
+    "Moviepal",
+    "Flixster"
+  ],
+  "c": [
+    {
+      "n": "User Base Size",
+      "d": "Number of active users or downloads, indicating popularity and diversity of ratings",
+      "t": "Integer[1]",
+      "s": "App Store listings, Play Store listings"
+    },
+    {
+      "n": "Personalized Recommendation Quality",
+      "d": "Effectiveness of personalized movie recommendations based on user ratings and preferences",
+      "t": "Float[1]",
+      "s": "App descriptions, user reviews, app feature documentation"
+    },
+    {
+      "n": "Usability and User Interface",
+      "d": "Ease of rating movies, writing reviews, and navigating the app",
+      "t": "Text[1]",
+      "s": "User reviews, expert app reviews"
+    },
+    {
+      "n": "Social Features",
+      "d": "Presence of features to follow friends, share ratings, and get group recommendations",
+      "t": "Boolean[1]",
+      "s": "App descriptions and reviews"
+    },
+    {
+      "n": "Platform Availability",
+      "d": "Availability on iOS, Android, and web platforms for wider accessibility",
+      "t": "Text[1]",
+      "s": "App Store and Play Store data, official websites"
+    },
+    {
+      "n": "Rating and Review Authenticity",
+      "d": "Measures to prevent fake reviews and rating manipulation",
+      "t": "Boolean[1]",
+      "s": "App feature descriptions, privacy policies"
+    }
+  ]
+}

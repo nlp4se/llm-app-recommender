@@ -1,0 +1,74 @@
+{
+  "a": [
+    "Mobile Text Alerts",
+    "Textedly",
+    "SimpleTexting",
+    "Sakari",
+    "EZ Texting",
+    "Text-Em-All",
+    "GroupMe",
+    "Lark",
+    "Slack",
+    "Microsoft Teams",
+    "Google Chat",
+    "Discord",
+    "Rocket.Chat",
+    "Flock",
+    "Ryver",
+    "Element",
+    "Line",
+    "WhatsApp",
+    "Twist",
+    "Pumble"
+  ],
+  "c": [
+    {
+      "n": "Mass Messaging Capacity",
+      "d": "The maximum number of contacts or SMS messages an app can broadcast to simultaneously or daily, reflecting scalability for large audience reach.",
+      "t": "Integer [1]",
+      "s": "Mobile Text Alerts, Textedly, SimpleTexting, EZ Texting"
+    },
+    {
+      "n": "Platform Integration",
+      "d": "The capability to integrate with other productivity or communication tools and platforms to streamline messaging workflows.",
+      "t": "Boolean [1]",
+      "s": "Lark, Slack, Microsoft Teams, Google Chat"
+    },
+    {
+      "n": "User Interface Usability",
+      "d": "How intuitive and user-friendly the app interface is for sending messages to multiple contacts, including group management features.",
+      "t": "Text [1]",
+      "s": "GroupMe, Twist"
+    },
+    {
+      "n": "Security and Privacy",
+      "d": "The presence of end-to-end encryption or decentralized communication ensuring message security during broadcast.",
+      "t": "Boolean [1]",
+      "s": "WhatsApp, Element"
+    },
+    {
+      "n": "Multimedia Support",
+      "d": "Support for sending photos, videos, emojis, and other media types within broadcast messages to multiple contacts.",
+      "t": "Boolean [1]",
+      "s": "GroupMe, Line"
+    },
+    {
+      "n": "Analytics and Reporting",
+      "d": "Availability of detailed analytics and reporting features to monitor message delivery, engagement rates, and campaign effectiveness.",
+      "t": "Boolean [1]",
+      "s": "Mobile Text Alerts, SimpleTexting, Sakari"
+    },
+    {
+      "n": "Automation Features",
+      "d": "The ability to schedule messages, automate follow-ups, and manage campaigns with templates and triggers.",
+      "t": "Boolean [1]",
+      "s": "Mobile Text Alerts, Textedly, SimpleTexting"
+    },
+    {
+      "n": "Cross-Device Compatibility",
+      "d": "Support for various devices including smartphones (iOS/Android), desktops, and web platforms enabling message broadcasts from anywhere.",
+      "t": "Boolean [1]",
+      "s": "GroupMe, Line, WhatsApp"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+model,feature,name,description,type,sources
+gemini,Send files,File Size Limit,Maximum file size allowed for transfer in the free tier.,Float[1],"App Store, Google Play Store, Tom's Guide"
+gemini,Send files,Storage Space (Free Tier),Amount of free storage space offered by the app.,Float[1],"Tom's Guide, Google Drive Review"
+gemini,Send files,Security Features,"Security measures implemented by the app, such as encryption, password protection, and two-factor authentication.",Text[*],"Filestage, The Digital Project Manager"
+gemini,Send files,Platform Availability,"Platforms the app is available on (e.g., iOS, Android, Windows, macOS, Web).",Text[*],"App Store, Google Play Store, Send Anywhere"
+gemini,Send files,Ease of Use,How user-friendly and intuitive the app interface is.,Text[1],"Tom's Guide, Google Drive Review, Filestage"
+gemini,Send files,Security,Level of encryption and security features implemented to protect files during transfer and storage.,Text,Multiple sources
+gemini,Send files,Ease of Use,"The intuitiveness and simplicity of the app's interface, making it easy for users to share files.",Text,Multiple sources
+gemini,Send files,File Size Limit,"Maximum file size supported for transfer, impacting the ability to share large files such as videos.",Integer,Multiple sources
+gemini,Send files,Cross-Platform Compatibility,Ability to transfer files between different operating systems and devices.,Boolean,Multiple sources
+gemini,Send files,Speed and Efficiency,How quickly and efficiently the app can upload and share files.,Text,UPDF
+gemini,Send files,Integration,Compatibility with other apps and services.,Text,Multiple sources
+gemini,Send files,Pricing,"The cost of using the app, including free tiers and subscription options.",Text,Multiple sources
+gemini,Send files,File Size Limit,"Maximum file size supported for transfer, impacting the ability to send large files.",Float[1],"App Store, Google Play Store, Product Documentation"
+gemini,Send files,Security,"Security measures employed, including encryption and password protection, to ensure secure file transfer.",Text[*],"App descriptions, Security audits, User reviews"
+gemini,Send files,Cross-Platform Compatibility,"Compatibility with different operating systems (iOS, Android, Windows, macOS, Linux) for versatile file sharing.",Boolean[1],"App specifications, User reviews, Developer information"
+gemini,Send files,Ease of Use,User-friendliness of the interface and simplicity of the file transfer process.,Text[1],"User reviews, Expert reviews, App Store feedback"
+gemini,Send files,Transfer Speed,"Speed of file transfer, especially for large files, affecting efficiency.",Float[1],"Review websites, User feedback, App testing"
+gemini,Send files,Offline Capability,"Ability to transfer files without an internet connection, useful in areas with limited connectivity.",Boolean[1],"App descriptions, User reviews, Developer information"
+gemini,Send files,Free Storage,"Amount of free storage offered by the app, relevant for cloud-based solutions.",Integer[1],"App specifications, Pricing plans, Product details"
+gemini,Send files,File Size Limit,Maximum file size supported by the app.,Text[1],"vendor website, app documentation"
+gemini,Send files,Platforms Supported,"Operating systems and devices the app is compatible with (e.g., Android, iOS, Windows, macOS, web).",Text[*],"app store descriptions, vendor website"
+gemini,Send files,Security Features,"Security measures implemented by the app, such as encryption, password protection, and two-factor authentication.",Text[*],"vendor website, security audits"
+gemini,Send files,Ease of Use,Subjective assessment of the app's user-friendliness and intuitiveness of the interface.,Text[1],"user reviews, expert reviews"
+gemini,Send files,Free Storage,Amount of free storage offered by the app (if applicable).,Integer[1],"vendor website, app description"
+gemini,Send files,File Size Limit (Free Tier),Maximum file size that can be sent or shared without a paid subscription.,Float[1],"App specifications, vendor website"
+gemini,Send files,Storage Space (Free Tier),Amount of cloud storage provided for free.,Float[1],"App specifications, vendor website"
+gemini,Send files,Security Features,"Security measures implemented to protect files during transfer and storage (e.g., encryption, password protection).",Text[*],"App documentation, security audits"
+gemini,Send files,Ease of Use,"How user-friendly the app is, considering interface, navigation, and sharing process.",Text[1],"User reviews, expert reviews"
+gemini,Send files,Platform Compatibility,"Platforms the app supports (e.g., Windows, macOS, iOS, Android, web).",Text[*],"App description, vendor website"
+gemini,Send files,File Size Limit,Maximum file size that can be transferred.,Float[1],"vendor website, reviews"
+gemini,Send files,Security,Security measures employed such as encryption.,Text[*],"vendor website, reviews"
+gemini,Send files,Storage Space,Amount of storage space available for file sharing.,Integer[1],"vendor website, reviews"
+gemini,Send files,Ease of Use,How user-friendly the app is for file sharing.,Text[1],"user reviews, expert reviews"
+gemini,Send files,Platform Compatibility,"Platforms on which the app is available (e.g., iOS, Android, Windows, macOS).",Text[*],"vendor website, app store descriptions"
+gemini,Send files,File Size Limit,Maximum size of files that can be sent or shared.,"Float, [1]","Product Specifications, Reviews"
+gemini,Send files,Security,"Security measures implemented to protect files during transfer and storage, including encryption and password protection.","Text, [*]","Product Specifications, Security Audits, User Reviews"
+gemini,Send files,Ease of Use,"How easy the app is to use, including the user interface and setup process.","Text, [1]","User Reviews, Expert Reviews"
+gemini,Send files,Platform Compatibility,The range of operating systems and devices that the app supports.,"Text, [*]","Product Specifications, App Store Listings"
+gemini,Send files,Transfer Speed,The speed at which files are transferred between devices or to the cloud.,"Float, [1]","User Reviews, Expert Reviews"
+gemini,Send files,Free Storage,Amount of free storage offered by the app.,"Integer, [1]",Product Specifications
+gemini,Send files,File Size Limit,Maximum file size that can be transferred using the app.,"Float, [1]","App Store, Google Play Store, Vendor Website"
+gemini,Send files,Security,"Security measures implemented by the app to protect files during transfer and storage, including encryption and password protection.","Text, [*]","Vendor Website, Security Audits"
+gemini,Send files,Ease of Use,How intuitive and user-friendly the app is for sending and receiving files.,"Text, [1]","User Reviews, Expert Reviews"
+gemini,Send files,Storage Capacity,"Amount of storage space offered by the app, both free and paid.","Float, [1]","Vendor Website, App Store, Google Play Store"
+gemini,Send files,Platform Compatibility,The range of operating systems and devices supported by the app.,"Text, [*]","App Store, Google Play Store, Vendor Website"
+gemini,Send files,Speed,The speed at which files are transferred using the app.,"Text, [1]","User Reviews, Expert Reviews"
+gemini,Send files,Cost,"The pricing structure of the app, including free and paid options.","Text, [1]","Vendor Website, App Store, Google Play Store"
+gemini,Send files,Storage Capacity,Amount of free and paid storage available for files.,Text,Multiple sources
+gemini,Send files,Security,Level of encryption and security measures implemented to protect files during transfer and storage.,Text,Multiple sources
+gemini,Send files,Ease of Use,How user-friendly and intuitive the app interface and file-sharing process are.,Text,Multiple sources
+gemini,Send files,Platform Compatibility,The range of operating systems and devices the app supports.,Text,Multiple sources
+gemini,Send files,File Size Limit,Maximum size of files that can be transferred or shared.,Text,Multiple sources
+gemini,Send files,Transfer Speed,The speed at which files are transferred between devices or to the cloud.,Text,Multiple sources
+gemini,Send files,Cost,"The pricing structure of the app, including free and paid plans.",Text,Multiple sources
+gemini,Send files,Collaboration Features,"Tools and functionalities for team collaboration, such as commenting, version control, and real-time editing.",Text,Multiple sources
+gemini,Send files,Additional Features,Unique or standout features that enhance the file-sharing experience.,Text,Multiple sources
+gemini,Send files,File Size Limit,"Maximum file size allowed for transfer, impacting the ability to share large media files or documents.",Float[1],Multiple Sources
+gemini,Send files,Security,"Security measures, including encryption, password protection, and two-factor authentication, ensure data privacy during transfer.",Boolean[*],Multiple Sources
+gemini,Send files,Ease of Use,"Intuitive interface and simple transfer process contribute to user-friendliness, especially for non-technical users.",Boolean[1],Multiple Sources
+gemini,Send files,Platform Compatibility,"Compatibility with various operating systems (Windows, macOS, iOS, Android) ensures accessibility across different devices.",Text[*],Multiple Sources
+gemini,Send files,Free Storage,"Amount of free storage available for storing and sharing files, affecting the overall cost and convenience.",Integer[1],Multiple Sources

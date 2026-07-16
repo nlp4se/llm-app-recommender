@@ -1,0 +1,57 @@
+
+{
+  "a": [
+    "WeTransfer",
+    "Send Anywhere",
+    "Google Drive",
+    "Dropbox",
+    "Microsoft OneDrive",
+    "Hightail",
+    "Filemail",
+    "Citrix ShareFile",
+    "Smash",
+    "Box",
+    "AirDroid Personal",
+    "EasyShare",
+    "Xender",
+    "Zapya",
+    "pCloud Transfer",
+    "AnyViewer",
+    "Filestage",
+    "Tresorit",
+    "Jumpshare",
+    "MediaFire"
+  ],
+  "c": [
+    {
+      "n": "File Size Limit",
+      "d": "Maximum file size allowed for transfer, impacting the ability to share large media files or documents.",
+      "t": "Float[1]",
+      "s": "Multiple Sources"
+    },
+    {
+      "n": "Security",
+      "d": "Security measures, including encryption, password protection, and two-factor authentication, ensure data privacy during transfer.",
+      "t": "Boolean[*]",
+      "s": "Multiple Sources"
+    },
+    {
+      "n": "Ease of Use",
+      "d": "Intuitive interface and simple transfer process contribute to user-friendliness, especially for non-technical users.",
+      "t": "Boolean[1]",
+      "s": "Multiple Sources"
+    },
+    {
+      "n": "Platform Compatibility",
+      "d": "Compatibility with various operating systems (Windows, macOS, iOS, Android) ensures accessibility across different devices.",
+      "t": "Text[*]",
+      "s": "Multiple Sources"
+    },
+    {
+      "n": "Free Storage",
+      "d": "Amount of free storage available for storing and sharing files, affecting the overall cost and convenience.",
+      "t": "Integer[1]",
+      "s": "Multiple Sources"
+    }
+  ]
+}

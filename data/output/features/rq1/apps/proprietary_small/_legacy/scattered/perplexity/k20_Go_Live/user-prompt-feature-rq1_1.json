@@ -1,0 +1,56 @@
+{
+  "a": [
+    "Bigo Live",
+    "Facebook Live",
+    "YouTube Live",
+    "TikTok Live",
+    "Twitch",
+    "Instagram Live",
+    "LinkedIn Live",
+    "SwitcherStudio",
+    "StreamYard",
+    "Restream",
+    "LiveMe",
+    "Wirecast Go",
+    "Uscreen",
+    "Kick",
+    "Vimeo Livestream",
+    "Periscope",
+    "Dacast",
+    "Streamlabs",
+    "Castr",
+    "Mobcrush"
+  ],
+  "c": [
+    {
+      "n": "User Base Size",
+      "d": "The total number of active users or downloads of the app, indicating its popularity and reach.",
+      "t": "Integer[1]",
+      "s": "Bigo Live app store data, YouTube, Twitch"
+    },
+    {
+      "n": "Platform Compatibility",
+      "d": "Supported operating systems and device types (Android, iOS, Desktop, browser-based) that determine accessibility.",
+      "t": "Text[1]",
+      "s": "Dacast blog, SwitcherStudio, StreamYard"
+    },
+    {
+      "n": "Monetization Features",
+      "d": "Availability of features such as virtual gifting, subscriptions, ads, or in-app purchases to generate income for streamers.",
+      "t": "Boolean[1]",
+      "s": "Dacast blog, Bigo Live description"
+    },
+    {
+      "n": "Live Streaming Quality & Tools",
+      "d": "Includes video quality, multi-camera support, real-time editing, multi-streaming, and audience engagement tools.",
+      "t": "Text[1]",
+      "s": "SwitcherStudio, Restream, StreamYard"
+    },
+    {
+      "n": "Target Audience & Use Case",
+      "d": "Intended users (gamers, creators, businesses, casual), content type focus (music, gaming, lifestyle), and ideal use environments.",
+      "t": "Text[1]",
+      "s": "Dacast blog, Bigo Live, Uscreen"
+    }
+  ]
+}

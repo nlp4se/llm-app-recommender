@@ -1,0 +1,56 @@
+{
+  "a": [
+    "Instagram",
+    "TikTok",
+    "YouTube",
+    "Facebook",
+    "Twitch",
+    "Discord",
+    "LinkedIn",
+    "Twitter",
+    "Snapchat",
+    "Pinterest",
+    "Reddit",
+    "Clubhouse",
+    "Periscope",
+    "BIGO LIVE",
+    "Live.me",
+    "YouNow",
+    "StreamLabs",
+    "Restream",
+    "OBS Studio",
+    "Wirecast"
+  ],
+  "c": [
+    {
+      "n": "Live Streaming Capability",
+      "d": "Native built-in live streaming functionality with easy access and setup",
+      "t": "Boolean [1]",
+      "s": "App store descriptions, official documentation, feature lists"
+    },
+    {
+      "n": "Audience Reach Potential",
+      "d": "Size of active user base and discoverability features for live content",
+      "t": "Integer [1]",
+      "s": "Monthly active users statistics, app analytics, market research reports"
+    },
+    {
+      "n": "Streaming Quality Support",
+      "d": "Maximum video resolution and streaming quality options available",
+      "t": "Text [1]",
+      "s": "Technical specifications, user reviews, testing reports"
+    },
+    {
+      "n": "Monetization Features",
+      "d": "Available revenue generation options for streamers including donations, subscriptions, ads",
+      "t": "Text [*]",
+      "s": "Platform policies, creator program documentation, feature announcements"
+    },
+    {
+      "n": "Cross-Platform Integration",
+      "d": "Ability to stream simultaneously to multiple platforms or integrate with other services",
+      "t": "Boolean [1]",
+      "s": "API documentation, third-party integration lists, software compatibility"
+    }
+  ]
+}

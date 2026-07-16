@@ -1,0 +1,68 @@
+{
+  "a": [
+    "YouTube Live",
+    "Facebook Live",
+    "Twitch",
+    "TikTok",
+    "Instagram Live",
+    "LinkedIn Live",
+    "Kick",
+    "Vimeo",
+    "StreamYard",
+    "Restream",
+    "Uscreen",
+    "Sling TV",
+    "YouTube TV",
+    "FuboTV",
+    "Philo",
+    "DirecTV Stream",
+    "Hulu + Live TV",
+    "Netflix",
+    "Amazon Prime Video",
+    "HBO GO/HBO NOW"
+  ],
+  "c": [
+    {
+      "n": "User Base Size",
+      "d": "Number of active users or downloads indicating app popularity",
+      "t": "Integer [1]",
+      "s": "Switcher Studio, Google Play"
+    },
+    {
+      "n": "Streaming Content Variety",
+      "d": "Range of stream types supported (games, music, sports, podcasts, etc.)",
+      "t": "Text [1]",
+      "s": "Switcher Studio, Twitch description"
+    },
+    {
+      "n": "Multistreaming Capability",
+      "d": "Ability to broadcast streams simultaneously to multiple destinations",
+      "t": "Boolean [1]",
+      "s": "Switcher Studio"
+    },
+    {
+      "n": "Platform Availability",
+      "d": "Supported platforms (mobile, browser, desktop)",
+      "t": "Text [*]",
+      "s": "Switcher Studio, Engadget"
+    },
+    {
+      "n": "Pricing Model",
+      "d": "Free, freemium, subscription tiers, or paid-only options",
+      "t": "Text [*]",
+      "s": "Switcher Studio"
+    },
+    {
+      "n": "User Interaction Features",
+      "d": "Availability of live chat, audience engagement tools, guest collaboration",
+      "t": "Boolean [1]",
+      "s": "Switcher Studio, Twitch"
+    },
+    {
+      "n": "Content Quality and Reliability",
+      "d": "Streaming stability, video quality options, and broadcasting tools",
+      "t": "Text [1]",
+      "s": "Switcher Studio, Twitch"
+    }
+  ]
+}

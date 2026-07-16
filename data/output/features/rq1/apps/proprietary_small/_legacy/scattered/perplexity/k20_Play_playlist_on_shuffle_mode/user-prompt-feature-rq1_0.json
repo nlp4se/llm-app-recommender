@@ -1,0 +1,74 @@
+{
+  "a": [
+    "REAL Shuffle Player",
+    "Shuffle Music",
+    "Spotify",
+    "YouTube Music",
+    "Apple Music",
+    "Amazon Music",
+    "Deezer",
+    "Tidal",
+    "SoundCloud",
+    "Pandora",
+    "Google Play Music",
+    "Musicolet",
+    "BlackPlayer",
+    "Pi Music Player",
+    "Poweramp",
+    "jetAudio",
+    "PlayerPro",
+    "Foobar2000",
+    "VLC for Android",
+    "AIMP"
+  ],
+  "c": [
+    {
+      "n": "True Random Shuffle",
+      "d": "The app uses a true random algorithm or quantum random number generator to shuffle songs without repeating them frequently.",
+      "t": "Boolean[1]",
+      "s": "REAL Shuffle Player[1]"
+    },
+    {
+      "n": "Smart Shuffle",
+      "d": "Intelligent shuffle mode that prevents replaying the same songs soon and can adapt to user preferences dynamically.",
+      "t": "Boolean[1]",
+      "s": "REAL Shuffle Player[1], Spotify Smart Shuffle[2]"
+    },
+    {
+      "n": "Playlist Management",
+      "d": "Ability to create, modify, and link playlists, including features like folder-based playlists and linked playlists.",
+      "t": "Boolean[1]",
+      "s": "REAL Shuffle Player[1]"
+    },
+    {
+      "n": "Streaming Support",
+      "d": "Supports streaming music from cloud platforms or online sources like YouTube, OneDrive, Google Drive.",
+      "t": "Boolean[1]",
+      "s": "REAL Shuffle Player[1]"
+    },
+    {
+      "n": "User Base Size",
+      "d": "Number of downloads or active users indicating app popularity.",
+      "t": "Integer[1]",
+      "s": "Google Play Store data[1][3]"
+    },
+    {
+      "n": "User Rating",
+      "d": "Average user rating score indicating user satisfaction and app quality.",
+      "t": "Float[1]",
+      "s": "Google Play Store data[1][3]"
+    },
+    {
+      "n": "Ad Support",
+      "d": "Whether the app is ad-supported or ad-free, impacting user experience during playback.",
+      "t": "Boolean[1]",
+      "s": "Shuffle Music info[3]"
+    },
+    {
+      "n": "Cross-Platform Availability",
+      "d": "Availability across different devices and operating systems.",
+      "t": "Boolean[1]",
+      "s": "Common knowledge supplemented[1][2]"
+    }
+  ]
+}

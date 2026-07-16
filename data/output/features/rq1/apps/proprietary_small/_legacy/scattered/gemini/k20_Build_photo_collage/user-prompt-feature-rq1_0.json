@@ -1,0 +1,87 @@
+
+{
+  "a": [
+    "Pic Collage",
+    "PhotoGrid",
+    "Canva",
+    "Adobe Express (formerly Adobe Spark)",
+    "PicsArt",
+    "Diptic",
+    "Moldiv",
+    "PiZap",
+    "Fotor",
+    "Fotojet",
+    "PhotoPad",
+    "Pixlr",
+    "InCollage",
+    "Shape Collage",
+    "Z Mobile: Photo Collage Maker",
+    "Icecream Photo Editor",
+    "Google Photos",
+    "PicPlayPost",
+    "PicMerger",
+    "Layout for Instagram"
+  ],
+  "c": [
+    {
+      "n": "Ease of Use",
+      "d": "Refers to the intuitiveness and simplicity of the app's interface and features, allowing users to quickly create collages without a steep learning curve.",
+      "t": "Float [1]",
+      "s": "User reviews, expert reviews"
+    },
+    {
+      "n": "Template Variety",
+      "d": "The number and diversity of pre-designed templates available within the app, catering to different styles and occasions.",
+      "t": "Integer [*]",
+      "s": "App Store description, expert reviews"
+    },
+    {
+      "n": "Customization Options",
+      "d": "The extent to which users can personalize their collages, including adjusting layouts, adding text, stickers, backgrounds, and filters.",
+      "t": "Integer [*]",
+      "s": "App specifications, user reviews"
+    },
+    {
+      "n": "Photo Editing Features",
+      "d": "The availability and quality of built-in photo editing tools, such as cropping, rotating, color adjustments, and special effects.",
+      "t": "Boolean [1]",
+      "s": "App description, expert reviews"
+    },
+    {
+      "n": "Social Sharing Integration",
+      "d": "The ease with which users can share their collages on social media platforms directly from the app.",
+      "t": "Boolean [1]",
+      "s": "App features, user reviews"
+    },
+    {
+      "n": "Watermark",
+      "d": "Whether the free version of the app adds a watermark to the created collages.",
+      "t": "Boolean [1]",
+      "s": "User reviews, app description"
+    },
+    {
+      "n": "Ads",
+      "d": "The frequency and intrusiveness of advertisements displayed within the app.",
+      "t": "Integer [1]",
+      "s": "User reviews"
+    },
+    {
+      "n": "Cost",
+      "d": "The pricing model of the app, including whether it is free, offers in-app purchases, or requires a subscription.",
+      "t": "Text [1]",
+      "s": "App store, in-app information"
+    },
+    {
+      "n": "User Ratings & Reviews",
+      "d": "The average rating and the general sentiment expressed in user reviews on app stores.",
+      "t": "Float [1]",
+      "s": "App store"
+    },
+    {
+      "n": "Advanced Features",
+      "d": "Availability of features like AI-powered editing, video collage creation, and object removal.",
+      "t": "Boolean [1]",
+      "s": "App description"
+    }
+  ]
+}

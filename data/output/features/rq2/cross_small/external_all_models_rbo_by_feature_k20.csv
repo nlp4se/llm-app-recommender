@@ -1,0 +1,694 @@
+model1,model2,feature,rbo
+llama31_8b,gemma3_4b,Access to movies,0.7715204240166557
+llama31_8b,gemma3_4b,Access to podcasts,0.4804904616908
+llama31_8b,gemma3_4b,Broadcast messages to multiple contacts,0.4906102299175459
+llama31_8b,gemma3_4b,Build photo collage,0.010444279043339357
+llama31_8b,gemma3_4b,Collaborate with others,0.38048084678069044
+llama31_8b,gemma3_4b,Go Live,0.2370919802906046
+llama31_8b,gemma3_4b,Keeping up with friends,0.3972923651295514
+llama31_8b,gemma3_4b,List items for sale,0.3738733270897873
+llama31_8b,gemma3_4b,Photo effects,0.22472774506126428
+llama31_8b,gemma3_4b,Play games,0.23793476314912382
+llama31_8b,gemma3_4b,Play playlist on shuffle mode,0.646422200219885
+llama31_8b,gemma3_4b,Rate movies,0.2546804505498796
+llama31_8b,gemma3_4b,Search for offer on item,0.09704883530438
+llama31_8b,gemma3_4b,Send files,0.4649619545973364
+llama31_8b,gemma3_4b,Watch streams,0.171722955060861
+llama31_8b,gemma3_4b,Write notes,0.5045401606009122
+llama31_8b,qwen3_8b,Access to movies,0.7052253273968837
+llama31_8b,qwen3_8b,Access to podcasts,0.5652206334008598
+llama31_8b,qwen3_8b,Broadcast messages to multiple contacts,0.4356576519417599
+llama31_8b,qwen3_8b,Build photo collage,0.06019961940403332
+llama31_8b,qwen3_8b,Collaborate with others,0.46551809496125524
+llama31_8b,qwen3_8b,Go Live,0.2863982110849986
+llama31_8b,qwen3_8b,Keeping up with friends,0.6667119559157461
+llama31_8b,qwen3_8b,List items for sale,0.2425457442932485
+llama31_8b,qwen3_8b,Photo effects,0.2243447152164799
+llama31_8b,qwen3_8b,Play games,0.34015220562243764
+llama31_8b,qwen3_8b,Play playlist on shuffle mode,0.5527107107882966
+llama31_8b,qwen3_8b,Rate movies,0.43647781659649815
+llama31_8b,qwen3_8b,Search for offer on item,0.10564262900276856
+llama31_8b,qwen3_8b,Send files,0.42560378176258035
+llama31_8b,qwen3_8b,Watch streams,0.2744294542359805
+llama31_8b,qwen3_8b,Write notes,0.5155774440121003
+llama31_8b,gptoss20b,Access to movies,0.7717551492692353
+llama31_8b,gptoss20b,Access to podcasts,0.633348898509794
+llama31_8b,gptoss20b,Broadcast messages to multiple contacts,0.42361820131233263
+llama31_8b,gptoss20b,Build photo collage,0.06573181792533622
+llama31_8b,gptoss20b,Collaborate with others,0.5003564087771014
+llama31_8b,gptoss20b,Go Live,0.2253235573724182
+llama31_8b,gptoss20b,Keeping up with friends,0.5559260399473532
+llama31_8b,gptoss20b,List items for sale,0.27254369862417394
+llama31_8b,gptoss20b,Photo effects,0.22596399852775817
+llama31_8b,gptoss20b,Play games,0.17813553468114476
+llama31_8b,gptoss20b,Play playlist on shuffle mode,0.6825503316612338
+llama31_8b,gptoss20b,Rate movies,0.4899207256614563
+llama31_8b,gptoss20b,Search for offer on item,0.09221456889837197
+llama31_8b,gptoss20b,Send files,0.14081400863011148
+llama31_8b,gptoss20b,Watch streams,0.16976156846386053
+llama31_8b,gptoss20b,Write notes,0.524248722549944
+llama31_8b,mistral_open,Access to podcasts,0.5835749177021048
+llama31_8b,mistral_open,Broadcast messages to multiple contacts,0.4208333108009238
+llama31_8b,mistral_open,Build photo collage,0.02888620796196203
+llama31_8b,mistral_open,Collaborate with others,0.5132451921737489
+llama31_8b,mistral_open,Go Live,0.2247060920882375
+llama31_8b,mistral_open,Keeping up with friends,0.7525945031391654
+llama31_8b,mistral_open,Photo effects,0.17015493293689204
+llama31_8b,mistral_open,Play games,0.36988510372136424
+llama31_8b,mistral_open,Play playlist on shuffle mode,0.6738160880887873
+llama31_8b,mistral_open,Rate movies,0.3876416372171216
+llama31_8b,mistral_open,Search for offer on item,0.03406221624001534
+llama31_8b,mistral_open,Watch streams,0.09907941341711725
+llama31_8b,mistral_open,Write notes,0.6318461759079681
+llama31_8b,deepseekr1_8b,Access to movies,0.6908430221770416
+llama31_8b,deepseekr1_8b,Access to podcasts,0.5841914060145749
+llama31_8b,deepseekr1_8b,Broadcast messages to multiple contacts,0.4226965092765984
+llama31_8b,deepseekr1_8b,Build photo collage,0.036206516069789745
+llama31_8b,deepseekr1_8b,Collaborate with others,0.4395726923954639
+llama31_8b,deepseekr1_8b,Go Live,0.168215330963647
+llama31_8b,deepseekr1_8b,Keeping up with friends,0.5953448122989148
+llama31_8b,deepseekr1_8b,List items for sale,0.29801706298552166
+llama31_8b,deepseekr1_8b,Photo effects,0.1907361560692788
+llama31_8b,deepseekr1_8b,Play games,0.3163570458920224
+llama31_8b,deepseekr1_8b,Play playlist on shuffle mode,0.6570127573630075
+llama31_8b,deepseekr1_8b,Rate movies,0.46347662823925867
+llama31_8b,deepseekr1_8b,Search for offer on item,0.1291074121229232
+llama31_8b,deepseekr1_8b,Send files,0.280284263610975
+llama31_8b,deepseekr1_8b,Watch streams,0.20074388810253624
+llama31_8b,deepseekr1_8b,Write notes,0.37562658261986376
+llama31_8b,openai,Access to movies,0.8283066159681911
+llama31_8b,openai,Access to podcasts,0.5902854323423654
+llama31_8b,openai,Broadcast messages to multiple contacts,0.34270479404507653
+llama31_8b,openai,Build photo collage,0.03561594596301012
+llama31_8b,openai,Collaborate with others,0.6024881087096512
+llama31_8b,openai,Go Live,0.2871164189594116
+llama31_8b,openai,Keeping up with friends,0.21378050754846956
+llama31_8b,openai,List items for sale,0.3211469794398567
+llama31_8b,openai,Photo effects,0.3376344085612459
+llama31_8b,openai,Play games,0.00028331112646313723
+llama31_8b,openai,Play playlist on shuffle mode,0.6843191251138621
+llama31_8b,openai,Rate movies,0.21029792182915344
+llama31_8b,openai,Search for offer on item,0.13538038169711653
+llama31_8b,openai,Send files,0.45632469327214764
+llama31_8b,openai,Watch streams,0.19242105645258892
+llama31_8b,openai,Write notes,0.4467709021537805
+llama31_8b,gemini,Access to movies,0.6195858157040304
+llama31_8b,gemini,Access to podcasts,0.4814983312013069
+llama31_8b,gemini,Broadcast messages to multiple contacts,0.08032223688563551
+llama31_8b,gemini,Build photo collage,0.16872107294372493
+llama31_8b,gemini,Collaborate with others,0.5324227856691722
+llama31_8b,gemini,Go Live,0.31574221604063263
+llama31_8b,gemini,Keeping up with friends,0.49301891233660705
+llama31_8b,gemini,List items for sale,0.3776052087111071
+llama31_8b,gemini,Photo effects,0.21138054268289416
+llama31_8b,gemini,Play games,0.15803376427393234
+llama31_8b,gemini,Play playlist on shuffle mode,0.3643547512471577
+llama31_8b,gemini,Rate movies,0.451501951850158
+llama31_8b,gemini,Search for offer on item,0.10902907945344843
+llama31_8b,gemini,Send files,0.47725158522136446
+llama31_8b,gemini,Watch streams,0.42943890345888536
+llama31_8b,gemini,Write notes,0.3283997568177628
+llama31_8b,anthropic,Access to movies,0.7769381202263486
+llama31_8b,anthropic,Access to podcasts,0.5945195295853023
+llama31_8b,anthropic,Broadcast messages to multiple contacts,0.3533869650798185
+llama31_8b,anthropic,Build photo collage,0.0728191860134155
+llama31_8b,anthropic,Collaborate with others,0.5254296225605727
+llama31_8b,anthropic,Go Live,0.15400764106498413
+llama31_8b,anthropic,Keeping up with friends,0.4723859057271197
+llama31_8b,anthropic,List items for sale,0.4659280118840103
+llama31_8b,anthropic,Photo effects,0.31646827112506826
+llama31_8b,anthropic,Play games,0.36614418994160153
+llama31_8b,anthropic,Play playlist on shuffle mode,0.6882804704681156
+llama31_8b,anthropic,Rate movies,0.456610239799817
+llama31_8b,anthropic,Search for offer on item,0.15674455238946908
+llama31_8b,anthropic,Send files,0.4144225225242352
+llama31_8b,anthropic,Watch streams,0.3156937160427218
+llama31_8b,anthropic,Write notes,0.34120351979950864
+llama31_8b,mistral,Access to movies,0.7945184022321046
+llama31_8b,mistral,Access to podcasts,0.5888293764157346
+llama31_8b,mistral,Broadcast messages to multiple contacts,0.44415842347149626
+llama31_8b,mistral,Build photo collage,0.027468744716790262
+llama31_8b,mistral,Collaborate with others,0.4941336040284778
+llama31_8b,mistral,Go Live,0.28253965092995076
+llama31_8b,mistral,Keeping up with friends,0.56795883385317
+llama31_8b,mistral,List items for sale,0.3743939472532234
+llama31_8b,mistral,Photo effects,0.3829065826229619
+llama31_8b,mistral,Play games,0.23615900994518957
+llama31_8b,mistral,Play playlist on shuffle mode,0.6691717753614427
+llama31_8b,mistral,Rate movies,0.4415483521631124
+llama31_8b,mistral,Search for offer on item,0.26902822489227163
+llama31_8b,mistral,Send files,0.15194091711038593
+llama31_8b,mistral,Watch streams,0.20275290195419118
+llama31_8b,mistral,Write notes,0.4934754998304561
+gemma3_4b,qwen3_8b,Access to movies,0.7445592296747927
+gemma3_4b,qwen3_8b,Access to podcasts,0.6241887079035814
+gemma3_4b,qwen3_8b,Broadcast messages to multiple contacts,0.47799463700487577
+gemma3_4b,qwen3_8b,Build photo collage,0.24090181968547106
+gemma3_4b,qwen3_8b,Collaborate with others,0.3637728330160103
+gemma3_4b,qwen3_8b,Go Live,0.5429426050339651
+gemma3_4b,qwen3_8b,Keeping up with friends,0.4524568038090603
+gemma3_4b,qwen3_8b,List items for sale,0.6463791854334754
+gemma3_4b,qwen3_8b,Photo effects,0.2828027576022381
+gemma3_4b,qwen3_8b,Play games,0.3442098920543085
+gemma3_4b,qwen3_8b,Play playlist on shuffle mode,0.7428619101538954
+gemma3_4b,qwen3_8b,Rate movies,0.28819636623909806
+gemma3_4b,qwen3_8b,Search for offer on item,0.1557416200144071
+gemma3_4b,qwen3_8b,Send files,0.44520779063369614
+gemma3_4b,qwen3_8b,Watch streams,0.4105364925322457
+gemma3_4b,qwen3_8b,Write notes,0.7458655162383724
+gemma3_4b,gptoss20b,Access to movies,0.8581170025275497
+gemma3_4b,gptoss20b,Access to podcasts,0.5592647422068643
+gemma3_4b,gptoss20b,Broadcast messages to multiple contacts,0.4634512615820629
+gemma3_4b,gptoss20b,Build photo collage,0.26886061769700204
+gemma3_4b,gptoss20b,Collaborate with others,0.4696537253424235
+gemma3_4b,gptoss20b,Go Live,0.27594196107185415
+gemma3_4b,gptoss20b,Keeping up with friends,0.548576263419374
+gemma3_4b,gptoss20b,List items for sale,0.68393950542621
+gemma3_4b,gptoss20b,Photo effects,0.39224891759938835
+gemma3_4b,gptoss20b,Play games,0.09625079455351074
+gemma3_4b,gptoss20b,Play playlist on shuffle mode,0.8060248413059515
+gemma3_4b,gptoss20b,Rate movies,0.33466982958713826
+gemma3_4b,gptoss20b,Search for offer on item,0.15976034299576497
+gemma3_4b,gptoss20b,Send files,0.09311303241930959
+gemma3_4b,gptoss20b,Watch streams,0.5173267805091512
+gemma3_4b,gptoss20b,Write notes,0.7341368769637152
+gemma3_4b,mistral_open,Access to podcasts,0.5040754382292935
+gemma3_4b,mistral_open,Broadcast messages to multiple contacts,0.5066765015083176
+gemma3_4b,mistral_open,Build photo collage,0.22950603420442056
+gemma3_4b,mistral_open,Collaborate with others,0.521099946499154
+gemma3_4b,mistral_open,Go Live,0.19004046709398853
+gemma3_4b,mistral_open,Keeping up with friends,0.3986251780435417
+gemma3_4b,mistral_open,Photo effects,0.20253371454867092
+gemma3_4b,mistral_open,Play games,0.16797084114211042
+gemma3_4b,mistral_open,Play playlist on shuffle mode,0.8241893999318831
+gemma3_4b,mistral_open,Rate movies,0.20229848080546559
+gemma3_4b,mistral_open,Search for offer on item,0.04035562613821988
+gemma3_4b,mistral_open,Watch streams,0.5515504800935889
+gemma3_4b,mistral_open,Write notes,0.6366211055243373
+gemma3_4b,deepseekr1_8b,Access to movies,0.7989127353278879
+gemma3_4b,deepseekr1_8b,Access to podcasts,0.5064275470155123
+gemma3_4b,deepseekr1_8b,Broadcast messages to multiple contacts,0.45767755642185826
+gemma3_4b,deepseekr1_8b,Build photo collage,0.3286696222041674
+gemma3_4b,deepseekr1_8b,Collaborate with others,0.36768559901439263
+gemma3_4b,deepseekr1_8b,Go Live,0.08640166316106428
+gemma3_4b,deepseekr1_8b,Keeping up with friends,0.4342966261425427
+gemma3_4b,deepseekr1_8b,List items for sale,0.5850330666380686
+gemma3_4b,deepseekr1_8b,Photo effects,0.201208412540476
+gemma3_4b,deepseekr1_8b,Play games,0.18228953781073476
+gemma3_4b,deepseekr1_8b,Play playlist on shuffle mode,0.8175052843795865
+gemma3_4b,deepseekr1_8b,Rate movies,0.3079034234520158
+gemma3_4b,deepseekr1_8b,Search for offer on item,0.10283009864601449
+gemma3_4b,deepseekr1_8b,Send files,0.31210707244975167
+gemma3_4b,deepseekr1_8b,Watch streams,0.5340851412024755
+gemma3_4b,deepseekr1_8b,Write notes,0.669924326343458
+gemma3_4b,openai,Access to movies,0.8557617801446699
+gemma3_4b,openai,Access to podcasts,0.624086204105523
+gemma3_4b,openai,Broadcast messages to multiple contacts,0.441560013147378
+gemma3_4b,openai,Build photo collage,0.22364328098506006
+gemma3_4b,openai,Collaborate with others,0.3783580585492583
+gemma3_4b,openai,Go Live,0.4434965272151328
+gemma3_4b,openai,Keeping up with friends,0.6100433864560132
+gemma3_4b,openai,List items for sale,0.6784281666188647
+gemma3_4b,openai,Photo effects,0.3726627113158024
+gemma3_4b,openai,Play games,0.00022468967014197395
+gemma3_4b,openai,Play playlist on shuffle mode,0.7965188865383525
+gemma3_4b,openai,Rate movies,0.3374921125528039
+gemma3_4b,openai,Search for offer on item,0.21275151641183104
+gemma3_4b,openai,Send files,0.4677544066802497
+gemma3_4b,openai,Watch streams,0.171579732892609
+gemma3_4b,openai,Write notes,0.6937687937877272
+gemma3_4b,gemini,Access to movies,0.6756707522871462
+gemma3_4b,gemini,Access to podcasts,0.5900978031004845
+gemma3_4b,gemini,Broadcast messages to multiple contacts,0.11290685489452795
+gemma3_4b,gemini,Build photo collage,0.1578087366360571
+gemma3_4b,gemini,Collaborate with others,0.38130299345220303
+gemma3_4b,gemini,Go Live,0.4384480012828913
+gemma3_4b,gemini,Keeping up with friends,0.46114152435841843
+gemma3_4b,gemini,List items for sale,0.6922566765644952
+gemma3_4b,gemini,Photo effects,0.3923000293141461
+gemma3_4b,gemini,Play games,0.11243432955338925
+gemma3_4b,gemini,Play playlist on shuffle mode,0.45512387092166556
+gemma3_4b,gemini,Rate movies,0.3529014687558187
+gemma3_4b,gemini,Search for offer on item,0.1608285183818329
+gemma3_4b,gemini,Send files,0.5580168076648963
+gemma3_4b,gemini,Watch streams,0.21591018123395145
+gemma3_4b,gemini,Write notes,0.6008638563058422
+gemma3_4b,anthropic,Access to movies,0.866274862105004
+gemma3_4b,anthropic,Access to podcasts,0.6545123827433622
+gemma3_4b,anthropic,Broadcast messages to multiple contacts,0.40848599947310565
+gemma3_4b,anthropic,Build photo collage,0.3040518009266446
+gemma3_4b,anthropic,Collaborate with others,0.3934242581371856
+gemma3_4b,anthropic,Go Live,0.09484018817867343
+gemma3_4b,anthropic,Keeping up with friends,0.6524370756056159
+gemma3_4b,anthropic,List items for sale,0.5939998063619639
+gemma3_4b,anthropic,Photo effects,0.3649997920994534
+gemma3_4b,anthropic,Play games,0.1065020374547593
+gemma3_4b,anthropic,Play playlist on shuffle mode,0.8296671210254316
+gemma3_4b,anthropic,Rate movies,0.33986654106854913
+gemma3_4b,anthropic,Search for offer on item,0.139043720893837
+gemma3_4b,anthropic,Send files,0.4434232084199741
+gemma3_4b,anthropic,Watch streams,0.5464511595469292
+gemma3_4b,anthropic,Write notes,0.4677979802350832
+gemma3_4b,mistral,Access to movies,0.8782608126949518
+gemma3_4b,mistral,Access to podcasts,0.5912573872373869
+gemma3_4b,mistral,Broadcast messages to multiple contacts,0.4754292307168179
+gemma3_4b,mistral,Build photo collage,0.4765598165829875
+gemma3_4b,mistral,Collaborate with others,0.36942228742266225
+gemma3_4b,mistral,Go Live,0.09931642118358637
+gemma3_4b,mistral,Keeping up with friends,0.6405015422905547
+gemma3_4b,mistral,List items for sale,0.7511635459846004
+gemma3_4b,mistral,Photo effects,0.47598288477141204
+gemma3_4b,mistral,Play games,0.11354071873191511
+gemma3_4b,mistral,Play playlist on shuffle mode,0.892965012852661
+gemma3_4b,mistral,Rate movies,0.3162051112867864
+gemma3_4b,mistral,Search for offer on item,0.16599212250580286
+gemma3_4b,mistral,Send files,0.0734499793664383
+gemma3_4b,mistral,Watch streams,0.6176120322808767
+gemma3_4b,mistral,Write notes,0.7699598946433008
+qwen3_8b,gptoss20b,Access to movies,0.7523049838972721
+qwen3_8b,gptoss20b,Access to podcasts,0.7069633992957794
+qwen3_8b,gptoss20b,Broadcast messages to multiple contacts,0.6989378682300367
+qwen3_8b,gptoss20b,Build photo collage,0.3158983162598579
+qwen3_8b,gptoss20b,Collaborate with others,0.49383157175096715
+qwen3_8b,gptoss20b,Go Live,0.3412891659594745
+qwen3_8b,gptoss20b,Keeping up with friends,0.6131990804320862
+qwen3_8b,gptoss20b,List items for sale,0.6119551810577516
+qwen3_8b,gptoss20b,Photo effects,0.3800747668417093
+qwen3_8b,gptoss20b,Play games,0.20896168111002986
+qwen3_8b,gptoss20b,Play playlist on shuffle mode,0.6853909309681502
+qwen3_8b,gptoss20b,Rate movies,0.5530806124134527
+qwen3_8b,gptoss20b,Search for offer on item,0.31394866971780533
+qwen3_8b,gptoss20b,Send files,0.20793108592629522
+qwen3_8b,gptoss20b,Watch streams,0.44238286865734383
+qwen3_8b,gptoss20b,Write notes,0.7307779579632282
+qwen3_8b,mistral_open,Access to podcasts,0.6466999583145833
+qwen3_8b,mistral_open,Broadcast messages to multiple contacts,0.6883004082683117
+qwen3_8b,mistral_open,Build photo collage,0.17696788887372913
+qwen3_8b,mistral_open,Collaborate with others,0.49231853467155823
+qwen3_8b,mistral_open,Go Live,0.2756174459028701
+qwen3_8b,mistral_open,Keeping up with friends,0.7368959335080534
+qwen3_8b,mistral_open,Photo effects,0.39200195420432404
+qwen3_8b,mistral_open,Play games,0.3140898655584309
+qwen3_8b,mistral_open,Play playlist on shuffle mode,0.7121182308356739
+qwen3_8b,mistral_open,Rate movies,0.5309071002695958
+qwen3_8b,mistral_open,Search for offer on item,0.1454530834643932
+qwen3_8b,mistral_open,Watch streams,0.450321044611462
+qwen3_8b,mistral_open,Write notes,0.6101605358838764
+qwen3_8b,deepseekr1_8b,Access to movies,0.704956826648922
+qwen3_8b,deepseekr1_8b,Access to podcasts,0.6689043003439877
+qwen3_8b,deepseekr1_8b,Broadcast messages to multiple contacts,0.6847597761879766
+qwen3_8b,deepseekr1_8b,Build photo collage,0.3868048965912863
+qwen3_8b,deepseekr1_8b,Collaborate with others,0.4596577439002874
+qwen3_8b,deepseekr1_8b,Go Live,0.21032245579529735
+qwen3_8b,deepseekr1_8b,Keeping up with friends,0.6505186897643798
+qwen3_8b,deepseekr1_8b,List items for sale,0.5742143730869536
+qwen3_8b,deepseekr1_8b,Photo effects,0.4758144601619289
+qwen3_8b,deepseekr1_8b,Play games,0.4308760409930014
+qwen3_8b,deepseekr1_8b,Play playlist on shuffle mode,0.6975399771674441
+qwen3_8b,deepseekr1_8b,Rate movies,0.562100784728269
+qwen3_8b,deepseekr1_8b,Search for offer on item,0.2843266267399619
+qwen3_8b,deepseekr1_8b,Send files,0.43961691649033696
+qwen3_8b,deepseekr1_8b,Watch streams,0.4779419622026164
+qwen3_8b,deepseekr1_8b,Write notes,0.6446885079765061
+qwen3_8b,openai,Access to movies,0.7432504938094263
+qwen3_8b,openai,Access to podcasts,0.7797455754610277
+qwen3_8b,openai,Broadcast messages to multiple contacts,0.5316917393677527
+qwen3_8b,openai,Build photo collage,0.306589242834407
+qwen3_8b,openai,Collaborate with others,0.5038163943818329
+qwen3_8b,openai,Go Live,0.47211861933573124
+qwen3_8b,openai,Keeping up with friends,0.31919611123930625
+qwen3_8b,openai,List items for sale,0.5736066683118765
+qwen3_8b,openai,Photo effects,0.38788277146022204
+qwen3_8b,openai,Play games,3.075627998122852e-05
+qwen3_8b,openai,Play playlist on shuffle mode,0.6520436789445444
+qwen3_8b,openai,Rate movies,0.22599713614139788
+qwen3_8b,openai,Search for offer on item,0.30720114339346816
+qwen3_8b,openai,Send files,0.4340461586153424
+qwen3_8b,openai,Watch streams,0.1559696016722945
+qwen3_8b,openai,Write notes,0.66148114656668
+qwen3_8b,gemini,Access to movies,0.6317015490192371
+qwen3_8b,gemini,Access to podcasts,0.5506362819561376
+qwen3_8b,gemini,Broadcast messages to multiple contacts,0.15550676845655148
+qwen3_8b,gemini,Build photo collage,0.10037779051805519
+qwen3_8b,gemini,Collaborate with others,0.5116821104204434
+qwen3_8b,gemini,Go Live,0.45530316465610626
+qwen3_8b,gemini,Keeping up with friends,0.5575708109297282
+qwen3_8b,gemini,List items for sale,0.557454104380627
+qwen3_8b,gemini,Photo effects,0.28000623774378836
+qwen3_8b,gemini,Play games,0.16673995746852124
+qwen3_8b,gemini,Play playlist on shuffle mode,0.43237903587072174
+qwen3_8b,gemini,Rate movies,0.5160355534601465
+qwen3_8b,gemini,Search for offer on item,0.19512813952133878
+qwen3_8b,gemini,Send files,0.4635649823822204
+qwen3_8b,gemini,Watch streams,0.23499135388491713
+qwen3_8b,gemini,Write notes,0.5801557368634181
+qwen3_8b,anthropic,Access to movies,0.741768878171989
+qwen3_8b,anthropic,Access to podcasts,0.7930395819293173
+qwen3_8b,anthropic,Broadcast messages to multiple contacts,0.43980017576949393
+qwen3_8b,anthropic,Build photo collage,0.3567808321344328
+qwen3_8b,anthropic,Collaborate with others,0.5678382878348722
+qwen3_8b,anthropic,Go Live,0.1767653648499582
+qwen3_8b,anthropic,Keeping up with friends,0.5397694842115631
+qwen3_8b,anthropic,List items for sale,0.5015013849694963
+qwen3_8b,anthropic,Photo effects,0.3999906295858301
+qwen3_8b,anthropic,Play games,0.30750672368948245
+qwen3_8b,anthropic,Play playlist on shuffle mode,0.712388879051949
+qwen3_8b,anthropic,Rate movies,0.5296942652436337
+qwen3_8b,anthropic,Search for offer on item,0.4243961007723697
+qwen3_8b,anthropic,Send files,0.402702357314825
+qwen3_8b,anthropic,Watch streams,0.44606442172958366
+qwen3_8b,anthropic,Write notes,0.42835673196339913
+qwen3_8b,mistral,Access to movies,0.7566183541121296
+qwen3_8b,mistral,Access to podcasts,0.75533061299294
+qwen3_8b,mistral,Broadcast messages to multiple contacts,0.7383239936794546
+qwen3_8b,mistral,Build photo collage,0.26926155224737586
+qwen3_8b,mistral,Collaborate with others,0.6182990091452768
+qwen3_8b,mistral,Go Live,0.19725793634776628
+qwen3_8b,mistral,Keeping up with friends,0.6011233782246717
+qwen3_8b,mistral,List items for sale,0.6363212819758534
+qwen3_8b,mistral,Photo effects,0.3447555533909841
+qwen3_8b,mistral,Play games,0.40524928967564816
+qwen3_8b,mistral,Play playlist on shuffle mode,0.7438004615544438
+qwen3_8b,mistral,Rate movies,0.5458896398961912
+qwen3_8b,mistral,Search for offer on item,0.3403974893717716
+qwen3_8b,mistral,Send files,0.10487908764427763
+qwen3_8b,mistral,Watch streams,0.497751560233115
+qwen3_8b,mistral,Write notes,0.7555396076944143
+gptoss20b,mistral_open,Access to podcasts,0.7660781197887652
+gptoss20b,mistral_open,Broadcast messages to multiple contacts,0.6953245537145445
+gptoss20b,mistral_open,Build photo collage,0.1990709596678129
+gptoss20b,mistral_open,Collaborate with others,0.567274162779689
+gptoss20b,mistral_open,Go Live,0.3006127937976717
+gptoss20b,mistral_open,Keeping up with friends,0.6220763243106384
+gptoss20b,mistral_open,Photo effects,0.24122880249002082
+gptoss20b,mistral_open,Play games,0.20131073261400018
+gptoss20b,mistral_open,Play playlist on shuffle mode,0.7798582745485009
+gptoss20b,mistral_open,Rate movies,0.5695247278588522
+gptoss20b,mistral_open,Search for offer on item,0.20371334437923588
+gptoss20b,mistral_open,Watch streams,0.626037106123072
+gptoss20b,mistral_open,Write notes,0.6404583542438916
+gptoss20b,deepseekr1_8b,Access to movies,0.7960988804406969
+gptoss20b,deepseekr1_8b,Access to podcasts,0.7700471165733621
+gptoss20b,deepseekr1_8b,Broadcast messages to multiple contacts,0.6382212256072465
+gptoss20b,deepseekr1_8b,Build photo collage,0.2630931643334832
+gptoss20b,deepseekr1_8b,Collaborate with others,0.523996326359367
+gptoss20b,deepseekr1_8b,Go Live,0.40989176188880494
+gptoss20b,deepseekr1_8b,Keeping up with friends,0.5893547105374356
+gptoss20b,deepseekr1_8b,List items for sale,0.5337308956325181
+gptoss20b,deepseekr1_8b,Photo effects,0.23408785282035502
+gptoss20b,deepseekr1_8b,Play games,0.20395794613837495
+gptoss20b,deepseekr1_8b,Play playlist on shuffle mode,0.8219199964917716
+gptoss20b,deepseekr1_8b,Rate movies,0.575068530915712
+gptoss20b,deepseekr1_8b,Search for offer on item,0.22181420891921685
+gptoss20b,deepseekr1_8b,Send files,0.25193115326456417
+gptoss20b,deepseekr1_8b,Watch streams,0.6165709645669866
+gptoss20b,deepseekr1_8b,Write notes,0.6382055460556032
+gptoss20b,openai,Access to movies,0.8383406061066284
+gptoss20b,openai,Access to podcasts,0.7631647250789163
+gptoss20b,openai,Broadcast messages to multiple contacts,0.5041378155670353
+gptoss20b,openai,Build photo collage,0.4094226690261163
+gptoss20b,openai,Collaborate with others,0.6144061362608617
+gptoss20b,openai,Go Live,0.34691266007389815
+gptoss20b,openai,Keeping up with friends,0.44724509023004994
+gptoss20b,openai,List items for sale,0.6426975077332078
+gptoss20b,openai,Photo effects,0.41223060950956053
+gptoss20b,openai,Play games,0.041241601084405326
+gptoss20b,openai,Play playlist on shuffle mode,0.8070778723459289
+gptoss20b,openai,Rate movies,0.24668056178539605
+gptoss20b,openai,Search for offer on item,0.3340247585833105
+gptoss20b,openai,Send files,0.1680763479384838
+gptoss20b,openai,Watch streams,0.1549452850657018
+gptoss20b,openai,Write notes,0.6964887032950563
+gptoss20b,gemini,Access to movies,0.6665367387905045
+gptoss20b,gemini,Access to podcasts,0.5231937241997678
+gptoss20b,gemini,Broadcast messages to multiple contacts,0.15730951025784395
+gptoss20b,gemini,Build photo collage,0.1478648391445141
+gptoss20b,gemini,Collaborate with others,0.5941345493625374
+gptoss20b,gemini,Go Live,0.32319673522988296
+gptoss20b,gemini,Keeping up with friends,0.5331572558231978
+gptoss20b,gemini,List items for sale,0.6201667729808368
+gptoss20b,gemini,Photo effects,0.4208368928033907
+gptoss20b,gemini,Play games,0.09502168372157647
+gptoss20b,gemini,Play playlist on shuffle mode,0.4505243762834554
+gptoss20b,gemini,Rate movies,0.5941813818674825
+gptoss20b,gemini,Search for offer on item,0.21896983784678903
+gptoss20b,gemini,Send files,0.12326910157097781
+gptoss20b,gemini,Watch streams,0.21744283445111393
+gptoss20b,gemini,Write notes,0.6238216599572468
+gptoss20b,anthropic,Access to movies,0.8655968014913085
+gptoss20b,anthropic,Access to podcasts,0.7517752317285623
+gptoss20b,anthropic,Broadcast messages to multiple contacts,0.5152340513807847
+gptoss20b,anthropic,Build photo collage,0.48978150574140744
+gptoss20b,anthropic,Collaborate with others,0.636296218523929
+gptoss20b,anthropic,Go Live,0.4075725902984053
+gptoss20b,anthropic,Keeping up with friends,0.6058043407151782
+gptoss20b,anthropic,List items for sale,0.5167555458135407
+gptoss20b,anthropic,Photo effects,0.4435093494869085
+gptoss20b,anthropic,Play games,0.28599750785532374
+gptoss20b,anthropic,Play playlist on shuffle mode,0.8293650567161932
+gptoss20b,anthropic,Rate movies,0.5976340121196193
+gptoss20b,anthropic,Search for offer on item,0.21698021984053184
+gptoss20b,anthropic,Send files,0.24702372281513896
+gptoss20b,anthropic,Watch streams,0.5912161546462282
+gptoss20b,anthropic,Write notes,0.44323627142530664
+gptoss20b,mistral,Access to movies,0.8562665533589707
+gptoss20b,mistral,Access to podcasts,0.7597125646554166
+gptoss20b,mistral,Broadcast messages to multiple contacts,0.7237010600389506
+gptoss20b,mistral,Build photo collage,0.34890273419761736
+gptoss20b,mistral,Collaborate with others,0.5675158809366948
+gptoss20b,mistral,Go Live,0.3488912657562646
+gptoss20b,mistral,Keeping up with friends,0.658917278017287
+gptoss20b,mistral,List items for sale,0.6990968938556764
+gptoss20b,mistral,Photo effects,0.4394021226016662
+gptoss20b,mistral,Play games,0.2431544602333378
+gptoss20b,mistral,Play playlist on shuffle mode,0.8362247145330132
+gptoss20b,mistral,Rate movies,0.6147174318757077
+gptoss20b,mistral,Search for offer on item,0.17461248291027892
+gptoss20b,mistral,Send files,0.18215947637656157
+gptoss20b,mistral,Watch streams,0.6739473408723973
+gptoss20b,mistral,Write notes,0.780960394937007
+mistral_open,deepseekr1_8b,Access to podcasts,0.7044808059305934
+mistral_open,deepseekr1_8b,Broadcast messages to multiple contacts,0.6336499111224927
+mistral_open,deepseekr1_8b,Build photo collage,0.19666743259956998
+mistral_open,deepseekr1_8b,Collaborate with others,0.49130947599842306
+mistral_open,deepseekr1_8b,Go Live,0.3479763334036302
+mistral_open,deepseekr1_8b,Keeping up with friends,0.7053258635940064
+mistral_open,deepseekr1_8b,Photo effects,0.5535975419299538
+mistral_open,deepseekr1_8b,Play games,0.3705019777132673
+mistral_open,deepseekr1_8b,Play playlist on shuffle mode,0.7794002306267731
+mistral_open,deepseekr1_8b,Rate movies,0.5158320925024338
+mistral_open,deepseekr1_8b,Search for offer on item,0.16242234926941929
+mistral_open,deepseekr1_8b,Watch streams,0.6529823307127082
+mistral_open,deepseekr1_8b,Write notes,0.44235875930444024
+mistral_open,openai,Access to podcasts,0.7170387757991816
+mistral_open,openai,Broadcast messages to multiple contacts,0.5014577893199031
+mistral_open,openai,Build photo collage,0.1894779240057715
+mistral_open,openai,Collaborate with others,0.5475811932566302
+mistral_open,openai,Go Live,0.19764204912652128
+mistral_open,openai,Keeping up with friends,0.21496592611396997
+mistral_open,openai,Photo effects,0.2226647516881493
+mistral_open,openai,Play games,0.0
+mistral_open,openai,Play playlist on shuffle mode,0.7269147637578997
+mistral_open,openai,Rate movies,0.1468030429546651
+mistral_open,openai,Search for offer on item,0.019439905752927502
+mistral_open,openai,Watch streams,0.12218660586366012
+mistral_open,openai,Write notes,0.5335854241419123
+mistral_open,gemini,Access to podcasts,0.46479887993313795
+mistral_open,gemini,Broadcast messages to multiple contacts,0.14903142386155374
+mistral_open,gemini,Build photo collage,0.1652083716905106
+mistral_open,gemini,Collaborate with others,0.5234672875115015
+mistral_open,gemini,Go Live,0.2302320426909959
+mistral_open,gemini,Keeping up with friends,0.5560977863699904
+mistral_open,gemini,Photo effects,0.17141160763173616
+mistral_open,gemini,Play games,0.13205293600706058
+mistral_open,gemini,Play playlist on shuffle mode,0.43893506914528807
+mistral_open,gemini,Rate movies,0.5153768484658897
+mistral_open,gemini,Search for offer on item,0.042675708239189945
+mistral_open,gemini,Watch streams,0.1541477344539324
+mistral_open,gemini,Write notes,0.4328387367481472
+mistral_open,anthropic,Access to podcasts,0.7004354014102979
+mistral_open,anthropic,Broadcast messages to multiple contacts,0.4473398334902915
+mistral_open,anthropic,Build photo collage,0.2137192452087957
+mistral_open,anthropic,Collaborate with others,0.5198449526108421
+mistral_open,anthropic,Go Live,0.3029333428245549
+mistral_open,anthropic,Keeping up with friends,0.4549622645280311
+mistral_open,anthropic,Photo effects,0.23159610477724515
+mistral_open,anthropic,Play games,0.3916424203540558
+mistral_open,anthropic,Play playlist on shuffle mode,0.7940244591090116
+mistral_open,anthropic,Rate movies,0.4907647380843569
+mistral_open,anthropic,Search for offer on item,0.06034169314075451
+mistral_open,anthropic,Watch streams,0.5988535066740304
+mistral_open,anthropic,Write notes,0.3278677738279854
+mistral_open,mistral,Access to podcasts,0.7098115701394979
+mistral_open,mistral,Broadcast messages to multiple contacts,0.7747444365105045
+mistral_open,mistral,Build photo collage,0.280021970952661
+mistral_open,mistral,Collaborate with others,0.5386218774367754
+mistral_open,mistral,Go Live,0.3182200470665323
+mistral_open,mistral,Keeping up with friends,0.6060720494113546
+mistral_open,mistral,Photo effects,0.26375536035533453
+mistral_open,mistral,Play games,0.29556782292975153
+mistral_open,mistral,Play playlist on shuffle mode,0.8315542978745725
+mistral_open,mistral,Rate movies,0.5984343887040441
+mistral_open,mistral,Search for offer on item,0.05282678459792103
+mistral_open,mistral,Watch streams,0.74359137918289
+mistral_open,mistral,Write notes,0.5905048631365784
+deepseekr1_8b,openai,Access to movies,0.7665844673361403
+deepseekr1_8b,openai,Access to podcasts,0.6694087404497551
+deepseekr1_8b,openai,Broadcast messages to multiple contacts,0.5178620637338406
+deepseekr1_8b,openai,Build photo collage,0.27594463029565747
+deepseekr1_8b,openai,Collaborate with others,0.5195972463907486
+deepseekr1_8b,openai,Go Live,0.08218509232004305
+deepseekr1_8b,openai,Keeping up with friends,0.32658330736219
+deepseekr1_8b,openai,List items for sale,0.5312486942542213
+deepseekr1_8b,openai,Photo effects,0.23571972990888845
+deepseekr1_8b,openai,Play games,0.0
+deepseekr1_8b,openai,Play playlist on shuffle mode,0.7860577272890081
+deepseekr1_8b,openai,Rate movies,0.20984085844558634
+deepseekr1_8b,openai,Search for offer on item,0.16826426627347701
+deepseekr1_8b,openai,Send files,0.32549891993676533
+deepseekr1_8b,openai,Watch streams,0.14669727081618486
+deepseekr1_8b,openai,Write notes,0.6162169760902108
+deepseekr1_8b,gemini,Access to movies,0.6643236445059548
+deepseekr1_8b,gemini,Access to podcasts,0.4971463031108958
+deepseekr1_8b,gemini,Broadcast messages to multiple contacts,0.13784612775126642
+deepseekr1_8b,gemini,Build photo collage,0.1159051757911161
+deepseekr1_8b,gemini,Collaborate with others,0.5433595049534236
+deepseekr1_8b,gemini,Go Live,0.0987744791862346
+deepseekr1_8b,gemini,Keeping up with friends,0.5031117633916434
+deepseekr1_8b,gemini,List items for sale,0.5415647657605138
+deepseekr1_8b,gemini,Photo effects,0.17552452276695918
+deepseekr1_8b,gemini,Play games,0.14590369219402774
+deepseekr1_8b,gemini,Play playlist on shuffle mode,0.4496045940000635
+deepseekr1_8b,gemini,Rate movies,0.5013861763028732
+deepseekr1_8b,gemini,Search for offer on item,0.13269188979306748
+deepseekr1_8b,gemini,Send files,0.3250405968954221
+deepseekr1_8b,gemini,Watch streams,0.2140074452671393
+deepseekr1_8b,gemini,Write notes,0.6166409013420308
+deepseekr1_8b,anthropic,Access to movies,0.7845311606128409
+deepseekr1_8b,anthropic,Access to podcasts,0.6876482208521669
+deepseekr1_8b,anthropic,Broadcast messages to multiple contacts,0.4224170266923364
+deepseekr1_8b,anthropic,Build photo collage,0.30774289718412656
+deepseekr1_8b,anthropic,Collaborate with others,0.6455949485312625
+deepseekr1_8b,anthropic,Go Live,0.7474322813078659
+deepseekr1_8b,anthropic,Keeping up with friends,0.476921335158674
+deepseekr1_8b,anthropic,List items for sale,0.6153926747484322
+deepseekr1_8b,anthropic,Photo effects,0.2953835894964633
+deepseekr1_8b,anthropic,Play games,0.3123042008277025
+deepseekr1_8b,anthropic,Play playlist on shuffle mode,0.8303885555304792
+deepseekr1_8b,anthropic,Rate movies,0.5265866355822484
+deepseekr1_8b,anthropic,Search for offer on item,0.2910357850301322
+deepseekr1_8b,anthropic,Send files,0.3382372614469017
+deepseekr1_8b,anthropic,Watch streams,0.5962221346400057
+deepseekr1_8b,anthropic,Write notes,0.6450038849623572
+deepseekr1_8b,mistral,Access to movies,0.8025610118244674
+deepseekr1_8b,mistral,Access to podcasts,0.6758805294875149
+deepseekr1_8b,mistral,Broadcast messages to multiple contacts,0.6987036349761487
+deepseekr1_8b,mistral,Build photo collage,0.40802945652360123
+deepseekr1_8b,mistral,Collaborate with others,0.5880175654957204
+deepseekr1_8b,mistral,Go Live,0.4391795102806184
+deepseekr1_8b,mistral,Keeping up with friends,0.610547624014194
+deepseekr1_8b,mistral,List items for sale,0.571585192321825
+deepseekr1_8b,mistral,Photo effects,0.25777000102595976
+deepseekr1_8b,mistral,Play games,0.4102213144892475
+deepseekr1_8b,mistral,Play playlist on shuffle mode,0.8478096406493301
+deepseekr1_8b,mistral,Rate movies,0.5302293699328405
+deepseekr1_8b,mistral,Search for offer on item,0.27206118929927664
+deepseekr1_8b,mistral,Send files,0.05351243406627664
+deepseekr1_8b,mistral,Watch streams,0.6817541907616971
+deepseekr1_8b,mistral,Write notes,0.6832817782928292
+openai,gemini,Access to movies,0.7059627527360673
+openai,gemini,Access to podcasts,0.5420383553151659
+openai,gemini,Broadcast messages to multiple contacts,0.1609265013491422
+openai,gemini,Build photo collage,0.17832026567981277
+openai,gemini,Collaborate with others,0.7386991288124622
+openai,gemini,Go Live,0.6829098469129942
+openai,gemini,Keeping up with friends,0.38852859592375105
+openai,gemini,List items for sale,0.6363008799737301
+openai,gemini,Photo effects,0.37569099935001576
+openai,gemini,Play games,0.0005818001704822363
+openai,gemini,Play playlist on shuffle mode,0.40776651377167433
+openai,gemini,Rate movies,0.2931116746196173
+openai,gemini,Search for offer on item,0.3797393400070774
+openai,gemini,Send files,0.5494990686854478
+openai,gemini,Watch streams,0.20548361809583982
+openai,gemini,Write notes,0.6651436609978246
+openai,anthropic,Access to movies,0.8362216883953293
+openai,anthropic,Access to podcasts,0.8249509040129281
+openai,anthropic,Broadcast messages to multiple contacts,0.3715899770063054
+openai,anthropic,Build photo collage,0.4449915471515322
+openai,anthropic,Collaborate with others,0.7006962994133761
+openai,anthropic,Go Live,0.09587546475166663
+openai,anthropic,Keeping up with friends,0.5573230140628204
+openai,anthropic,List items for sale,0.5864292550609714
+openai,anthropic,Photo effects,0.3722360234323036
+openai,anthropic,Play games,0.00012660392848494868
+openai,anthropic,Play playlist on shuffle mode,0.7812552989204868
+openai,anthropic,Rate movies,0.2905154427885083
+openai,anthropic,Search for offer on item,0.3149572268242265
+openai,anthropic,Send files,0.5462282040312156
+openai,anthropic,Watch streams,0.19495718959471603
+openai,anthropic,Write notes,0.475820622792292
+openai,mistral,Access to movies,0.8784281521417977
+openai,mistral,Access to podcasts,0.8378095195649403
+openai,mistral,Broadcast messages to multiple contacts,0.511363890963219
+openai,mistral,Build photo collage,0.3095487991026111
+openai,mistral,Collaborate with others,0.5920438648942747
+openai,mistral,Go Live,0.1902117933278923
+openai,mistral,Keeping up with friends,0.48120495134803853
+openai,mistral,List items for sale,0.642189007559268
+openai,mistral,Photo effects,0.40311422303000816
+openai,mistral,Play games,0.00023471897880411233
+openai,mistral,Play playlist on shuffle mode,0.8600521719681063
+openai,mistral,Rate movies,0.2527325979271894
+openai,mistral,Search for offer on item,0.3086635207644946
+openai,mistral,Send files,0.1512654939225024
+openai,mistral,Watch streams,0.1892630074641411
+openai,mistral,Write notes,0.676370523086654
+gemini,anthropic,Access to movies,0.6460758533056095
+gemini,anthropic,Access to podcasts,0.6174876157941201
+gemini,anthropic,Broadcast messages to multiple contacts,0.1787951930562822
+gemini,anthropic,Build photo collage,0.22054307971781756
+gemini,anthropic,Collaborate with others,0.7293257924040917
+gemini,anthropic,Go Live,0.10995838281599882
+gemini,anthropic,Keeping up with friends,0.5096217120422898
+gemini,anthropic,List items for sale,0.6342121795821751
+gemini,anthropic,Photo effects,0.3567967808446667
+gemini,anthropic,Play games,0.15369799628551653
+gemini,anthropic,Play playlist on shuffle mode,0.46418133708553877
+gemini,anthropic,Rate movies,0.6398437767254275
+gemini,anthropic,Search for offer on item,0.2405540945051551
+gemini,anthropic,Send files,0.5265181484643618
+gemini,anthropic,Watch streams,0.39205625135035255
+gemini,anthropic,Write notes,0.47219071384468203
+gemini,mistral,Access to movies,0.6685076975118911
+gemini,mistral,Access to podcasts,0.520118696656769
+gemini,mistral,Broadcast messages to multiple contacts,0.14499072355600895
+gemini,mistral,Build photo collage,0.2743562311664104
+gemini,mistral,Collaborate with others,0.664354633526218
+gemini,mistral,Go Live,0.30566566792121547
+gemini,mistral,Keeping up with friends,0.536632019902163
+gemini,mistral,List items for sale,0.6707474055184811
+gemini,mistral,Photo effects,0.41034903948491924
+gemini,mistral,Play games,0.1641824325410176
+gemini,mistral,Play playlist on shuffle mode,0.4579657452059964
+gemini,mistral,Rate movies,0.632001038953105
+gemini,mistral,Search for offer on item,0.20694323309548157
+gemini,mistral,Send files,0.11215403807079875
+gemini,mistral,Watch streams,0.27714913712979533
+gemini,mistral,Write notes,0.601253456418473
+anthropic,mistral,Access to movies,0.8737525327390212
+anthropic,mistral,Access to podcasts,0.8107428921679823
+anthropic,mistral,Broadcast messages to multiple contacts,0.4525677819596579
+anthropic,mistral,Build photo collage,0.41109728137134577
+anthropic,mistral,Collaborate with others,0.7046516148953675
+anthropic,mistral,Go Live,0.4489987250974425
+anthropic,mistral,Keeping up with friends,0.6652755060939151
+anthropic,mistral,List items for sale,0.5700636034794573
+anthropic,mistral,Photo effects,0.5484364713940675
+anthropic,mistral,Play games,0.4550057335049945
+anthropic,mistral,Play playlist on shuffle mode,0.833632877540382
+anthropic,mistral,Rate movies,0.6141048482179592
+anthropic,mistral,Search for offer on item,0.5103111631858529
+anthropic,mistral,Send files,0.18211060855159522
+anthropic,mistral,Watch streams,0.7514349842115223
+anthropic,mistral,Write notes,0.5152082288398888

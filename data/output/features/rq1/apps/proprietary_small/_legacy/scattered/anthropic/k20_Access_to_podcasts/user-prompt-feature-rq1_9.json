@@ -1,0 +1,56 @@
+{
+  "a": [
+    "Spotify",
+    "Apple Podcasts",
+    "Google Podcasts",
+    "Pocket Casts",
+    "Overcast",
+    "Castbox",
+    "Stitcher",
+    "Castro",
+    "PlayerFM",
+    "Podcast Addict",
+    "AntennaPod",
+    "Breaker",
+    "RadioPublic",
+    "TuneIn Radio",
+    "Podbean",
+    "BeyondPod",
+    "DoggCatcher",
+    "Podcast Republic",
+    "iHeartRadio",
+    "Pandora"
+  ],
+  "c": [
+    {
+      "n": "Podcast Library Size",
+      "d": "Total number of available podcasts and episodes accessible through the platform",
+      "t": "Integer [1]",
+      "s": "App store descriptions, platform websites, industry reports"
+    },
+    {
+      "n": "User Interface Quality",
+      "d": "Ease of navigation, design aesthetics, and overall user experience rating",
+      "t": "Float [1]",
+      "s": "User reviews, UI/UX analysis, app store ratings"
+    },
+    {
+      "n": "Cross-Platform Sync",
+      "d": "Ability to synchronize listening progress, subscriptions, and playlists across multiple devices",
+      "t": "Boolean [1]",
+      "s": "Feature documentation, user manuals, platform specifications"
+    },
+    {
+      "n": "Discovery Features",
+      "d": "Quality and effectiveness of podcast recommendation algorithms and browsing categories",
+      "t": "Text [1]",
+      "s": "Feature analysis, user feedback, platform documentation"
+    },
+    {
+      "n": "Offline Download Capability",
+      "d": "Ability to download episodes for offline listening and storage management options",
+      "t": "Boolean [1]",
+      "s": "App specifications, user guides, feature lists"
+    }
+  ]
+}

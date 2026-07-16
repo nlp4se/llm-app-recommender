@@ -4,6 +4,7 @@
     "a": {
       "type": "array",
       "items": { "type": "string" },
+      "uniqueItems": true,
       "description": "Ordered list of app names (rank implied by position)"
     }
   },

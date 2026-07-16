@@ -1,0 +1,57 @@
+
+{
+  "a": [
+    "Pocket Casts",
+    "Overcast",
+    "Podcast Addict",
+    "Apple Podcasts",
+    "Spotify",
+    "Audials Play",
+    "Castro",
+    "Downcast",
+    "AntennaPod",
+    "Player FM",
+    "Castbox",
+    "Audible",
+    "Google Podcasts",
+    "SiriusXM",
+    "Podcast App",
+    "Podcast Player",
+    "RSSRadio",
+    "Breaker",
+    "RadioPublic",
+    "Stitcher"
+  ],
+  "c": [
+    {
+      "n": "User Interface",
+      "d": "The ease of navigation and overall design of the app.",
+      "t": "Text[1]",
+      "s": "User reviews, app store descriptions"
+    },
+    {
+      "n": "Cross-Platform Availability",
+      "d": "Availability on multiple operating systems (iOS, Android, Web, etc.)",
+      "t": "Boolean[*]",
+      "s": "App Store, Google Play Store, developer websites"
+    },
+    {
+      "n": "Customization Options",
+      "d": "The ability to adjust playback speed, create playlists, and customize the user experience.",
+      "t": "Integer[5]",
+      "s": "App descriptions, tech reviews"
+    },
+    {
+      "n": "Ad-Free Option",
+      "d": "Availability of a paid version without advertisements.",
+      "t": "Boolean[1]",
+      "s": "App store descriptions, user reviews"
+    },
+    {
+      "n": "Offline Playback",
+      "d": "Ability to download episodes for listening without an internet connection.",
+      "t": "Boolean[1]",
+      "s": "App features list"
+    }
+  ]
+}

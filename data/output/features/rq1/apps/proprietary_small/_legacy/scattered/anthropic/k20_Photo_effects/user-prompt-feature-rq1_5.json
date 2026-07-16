@@ -1,0 +1,56 @@
+{
+  "a": [
+    "VSCO",
+    "Adobe Lightroom",
+    "Snapseed",
+    "PicsArt",
+    "Canva",
+    "Adobe Photoshop Express",
+    "Facetune2",
+    "SKRWT",
+    "TouchRetouch",
+    "Prisma",
+    "Afterlight 2",
+    "RNI Films",
+    "Huji Cam",
+    "Mextures",
+    "Enlight Photofox",
+    "Lens Distortions",
+    "PhotoDirector",
+    "Lightleap",
+    "Focos",
+    "Polarr"
+  ],
+  "c": [
+    {
+      "n": "Filter Quality and Variety",
+      "d": "Range and professional quality of built-in filters, presets, and effects available",
+      "t": "Integer [1-100] scale",
+      "s": "App store descriptions, user reviews, professional photography blogs"
+    },
+    {
+      "n": "Advanced Editing Tools",
+      "d": "Availability of professional-grade editing features like curves, HSL, masking, and layer support",
+      "t": "Integer [1-10] feature count",
+      "s": "Official app documentation, feature lists, tech reviews"
+    },
+    {
+      "n": "User Rating and Reviews",
+      "d": "Overall user satisfaction reflected in app store ratings and review sentiment",
+      "t": "Float [1.0-5.0] average rating",
+      "s": "Apple App Store, Google Play Store"
+    },
+    {
+      "n": "Processing Speed and Performance",
+      "d": "App responsiveness, rendering speed, and stability during intensive editing tasks",
+      "t": "Integer [1-10] performance score",
+      "s": "User reviews, performance benchmarks, tech reviews"
+    },
+    {
+      "n": "Export Quality Options",
+      "d": "Range of output formats, resolution options, and compression settings available",
+      "t": "Integer [1-5] quality tiers",
+      "s": "App specifications, user testing, technical documentation"
+    }
+  ]
+}

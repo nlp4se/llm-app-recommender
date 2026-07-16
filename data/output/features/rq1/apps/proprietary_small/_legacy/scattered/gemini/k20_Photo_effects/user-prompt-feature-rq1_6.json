@@ -1,0 +1,87 @@
+
+{
+  "a": [
+    "Adobe Lightroom Mobile",
+    "Picsart",
+    "Polarr",
+    "Snapseed",
+    "VSCO",
+    "Afterlight",
+    "Photoleap",
+    "Darkroom",
+    "Lensa",
+    "Tezza",
+    "A Color Story",
+    "Ultrapop",
+    "Glitch Art Studio",
+    "Pixlr",
+    "FIMO - Analog Camera",
+    "NOMO CAM - Point and Shoot",
+    "Dazz Cam - Vintage Camera",
+    "Hipstamatic",
+    "Unfold: Story & Reels Maker",
+    "Canva"
+  ],
+  "c": [
+    {
+      "n": "Variety of Effects/Filters",
+      "d": "The number and types of photo effects and filters available, including artistic, vintage, and AI-powered options.",
+      "t": "Integer[*]",
+      "s": "App Store, Google Play Store, PCMag"
+    },
+    {
+      "n": "User Interface (UI)",
+      "d": "The ease of use and intuitiveness of the app's interface for applying effects and editing photos.",
+      "t": "Text[1]",
+      "s": "Zapier, App Store reviews"
+    },
+    {
+      "n": "Advanced Editing Tools",
+      "d": "Availability of advanced features like layers, curves, HSL adjustments, and masking for precise control over effects.",
+      "t": "Boolean[1]",
+      "s": "Zapier, PCMag"
+    },
+    {
+      "n": "Community Features",
+      "d": "Presence of a social community for sharing photos, discovering new effects, and getting inspiration.",
+      "t": "Boolean[1]",
+      "s": "PCMag, VSCO"
+    },
+    {
+      "n": "AI-Powered Features",
+      "d": "Integration of AI for automatic adjustments, object removal, style transfer, and other intelligent effects.",
+      "t": "Boolean[1]",
+      "s": "Imagen AI, Lensa, YouTube"
+    },
+    {
+      "n": "Platform Availability",
+      "d": "Availability of the app on iOS, Android, and other platforms (e.g., desktop, web).",
+      "t": "Text[*]",
+      "s": "App Store, Google Play Store, PCMag"
+    },
+    {
+      "n": "Pricing Model",
+      "d": "Cost of the app and its features, including free options, subscriptions, and in-app purchases.",
+      "t": "Text[1]",
+      "s": "Zapier, App Store, Google Play Store"
+    },
+    {
+      "n": "File Format Support",
+      "d": "Compatibility with various image formats, including RAW, JPEG, and PNG.",
+      "t": "Boolean[1]",
+      "s": "PCMag"
+    },
+    {
+      "n": "Customization",
+      "d": "The ability to create and save custom filters and effects for consistent editing.",
+      "t": "Boolean[1]",
+      "s": "Zapier"
+    },
+    {
+      "n": "Integration with other Apps",
+      "d": "The ability to directly share to social media, or integrate with other apps",
+      "t": "Boolean[1]",
+      "s": "App Store, Google Play Store"
+    }
+  ]
+}

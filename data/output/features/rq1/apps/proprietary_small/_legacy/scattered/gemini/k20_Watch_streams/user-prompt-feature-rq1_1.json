@@ -1,0 +1,57 @@
+
+{
+  "a": [
+    "Twitch",
+    "YouTube Live",
+    "Facebook Live",
+    "Instagram Live",
+    "TikTok Live",
+    "Bigo Live",
+    "YouNow",
+    "LiveMe",
+    "Netflix",
+    "Hulu",
+    "Disney+",
+    "Amazon Prime Video",
+    "Peacock",
+    "Paramount+",
+    "Apple TV+",
+    "Crackle",
+    "Tubi",
+    "Pluto TV",
+    "Xumo",
+    "Plex"
+  ],
+  "c": [
+    {
+      "n": "Content Variety",
+      "d": "The diversity of streaming content available, including live streams, movies, TV shows, and user-generated content.",
+      "t": "Text[*]",
+      "s": "App Store, Google Play Store, Expert Reviews"
+    },
+    {
+      "n": "User Interface and Experience",
+      "d": "The ease of navigation, search functionality, and overall user-friendliness of the app.",
+      "t": "Float[1]",
+      "s": "User Reviews, Expert Reviews"
+    },
+    {
+      "n": "Streaming Quality",
+      "d": "The resolution, stability, and buffering frequency of the streamed video.",
+      "t": "Text[1]",
+      "s": "User Reviews, App Specifications"
+    },
+    {
+      "n": "Community and Interaction",
+      "d": "The level of community engagement, interactive features like chat, and opportunities for content creators and viewers to connect.",
+      "t": "Boolean[1]",
+      "s": "App Features, User Reviews"
+    },
+    {
+      "n": "Device Compatibility",
+      "d": "The range of devices (smartphones, tablets, smart TVs, etc.) that the app supports.",
+      "t": "Text[*]",
+      "s": "App Specifications, Google Play Store, App Store"
+    }
+  ]
+}

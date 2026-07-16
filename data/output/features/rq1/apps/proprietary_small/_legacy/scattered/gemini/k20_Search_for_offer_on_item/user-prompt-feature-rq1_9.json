@@ -1,0 +1,57 @@
+
+{
+  "a": [
+    "Flipp",
+    "Slickdeals",
+    "Honey",
+    "ShopSavvy",
+    "Amazon Shopping",
+    "BuyVia",
+    "Price.com",
+    "RetailMeNot",
+    "Ibotta",
+    "Rakuten",
+    "Groupon",
+    "Google Shopping",
+    "MySupermarket",
+    "Checkout 51",
+    "Shopkick",
+    "The Coupons App",
+    "Vouchercloud",
+    "HotUKDeals",
+    "McDonald's App",
+    "Chick-fil-A App"
+  ],
+  "c": [
+    {
+      "n": "Price Comparison",
+      "d": "Compares prices across multiple retailers to find the best deals on a specific item.",
+      "t": "Boolean[1]",
+      "s": "App Description, User Reviews"
+    },
+    {
+      "n": "Coupon Availability",
+      "d": "Provides access to digital coupons and promo codes for additional savings.",
+      "t": "Boolean[1]",
+      "s": "App Description, App Features"
+    },
+    {
+      "n": "Cash Back Rewards",
+      "d": "Offers cash back on purchases made through the app.",
+      "t": "Boolean[1]",
+      "s": "App Description, User Reviews"
+    },
+    {
+      "n": "Barcode Scanning",
+      "d": "Allows users to scan barcodes in-store to compare prices instantly.",
+      "t": "Boolean[1]",
+      "s": "App Features, App Description"
+    },
+    {
+      "n": "User Ratings",
+      "d": "Reflects user satisfaction and app performance based on available reviews.",
+      "t": "Float[1]",
+      "s": "App Store, Google Play Store"
+    }
+  ]
+}

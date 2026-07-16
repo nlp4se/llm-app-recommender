@@ -1,0 +1,57 @@
+
+{
+  "a": [
+    "PicsArt",
+    "Snapseed",
+    "VSCO",
+    "Adobe Lightroom",
+    "Prisma",
+    "Afterlight",
+    "Pixlr",
+    "Fotor",
+    "Darkroom",
+    "Polarr",
+    "PhotoDirector",
+    "Retrica",
+    "Camera+",
+    "Enlight",
+    "TouchRetouch",
+    "Facetune",
+    "Lens Distortions",
+    "Mextures",
+    "Glitché",
+    "Photoshop Express"
+  ],
+  "c": [
+    {
+      "n": "User Ratings",
+      "d": "Average rating given by users on app stores.",
+      "t": "Float [1]",
+      "s": "App Store, Google Play Store"
+    },
+    {
+      "n": "Number of Downloads",
+      "d": "Total number of times the app has been downloaded.",
+      "t": "Integer [1]",
+      "s": "App Store, Google Play Store, Sensor Tower"
+    },
+    {
+      "n": "Feature Set",
+      "d": "The range and quality of photo editing features offered by the app.",
+      "t": "Text [1]",
+      "s": "Official app descriptions, expert reviews"
+    },
+    {
+      "n": "User Interface",
+      "d": "Ease of use and intuitiveness of the app's interface.",
+      "t": "Text [1]",
+      "s": "User reviews, expert reviews"
+    },
+    {
+      "n": "Update Frequency",
+      "d": "How often the app is updated with new features and bug fixes.",
+      "t": "Text [1]",
+      "s": "App Store, Google Play Store"
+    }
+  ]
+}

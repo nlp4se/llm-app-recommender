@@ -1,0 +1,74 @@
+{
+  "a": [
+    "Twitch",
+    "YouTube Live",
+    "Facebook Live",
+    "Instagram Live",
+    "LinkedIn Live",
+    "TikTok",
+    "Kick",
+    "Vimeo",
+    "StreamYard",
+    "Restream",
+    "Uscreen",
+    "Netflix",
+    "Amazon Prime Video",
+    "Hulu",
+    "HBO GO/HBO NOW",
+    "Disney Plus",
+    "YouTube",
+    "Sling TV",
+    "FuboTV",
+    "Philo"
+  ],
+  "c": [
+    {
+      "n": "User Base Size",
+      "d": "Number of active users or downloads indicating app popularity and community size",
+      "t": "Integer[1]",
+      "s": "Switcherstudio, Google Play"
+    },
+    {
+      "n": "Content Variety",
+      "d": "Range of stream genres supported, such as gaming, sports, music, podcasts, and social streams",
+      "t": "Text[1]",
+      "s": "SwitcherStudio, Twitch app description"
+    },
+    {
+      "n": "Multistreaming Capability",
+      "d": "Ability to stream simultaneously to multiple platforms",
+      "t": "Boolean[1]",
+      "s": "SwitcherStudio"
+    },
+    {
+      "n": "Free Version Availability",
+      "d": "Whether the app offers a free access tier for live streaming or watching streams",
+      "t": "Boolean[1]",
+      "s": "SwitcherStudio"
+    },
+    {
+      "n": "Platform Support",
+      "d": "Availability on mobile, browser, and smart TV devices",
+      "t": "Text[1]",
+      "s": "SwitcherStudio, Engadget"
+    },
+    {
+      "n": "Interactive Features",
+      "d": "Support for live chat, audience interaction, remote guest collaboration",
+      "t": "Boolean[1]",
+      "s": "SwitcherStudio"
+    },
+    {
+      "n": "Subscription and Pricing Options",
+      "d": "Cost structure including free tiers, subscription levels, and pay-per-use features",
+      "t": "Text[1]",
+      "s": "SwitcherStudio, CNET"
+    },
+    {
+      "n": "Content Quality and Streaming Stability",
+      "d": "Stream video quality and reliability metrics",
+      "t": "Text[1]",
+      "s": "User Reviews, CNET"
+    }
+  ]
+}

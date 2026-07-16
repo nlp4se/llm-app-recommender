@@ -1,0 +1,56 @@
+{
+  "a": [
+    "WhatsApp",
+    "Instagram",
+    "Snapchat",
+    "Facebook",
+    "Telegram",
+    "Discord",
+    "Signal",
+    "Messenger",
+    "Marco Polo",
+    "Houseparty",
+    "Viber",
+    "LINE",
+    "WeChat",
+    "Skype",
+    "GroupMe",
+    "Kik",
+    "Voxer",
+    "Between",
+    "Life360",
+    "Find My Friends"
+  ],
+  "c": [
+    {
+      "n": "Daily Active Users",
+      "d": "Number of users who actively use the app daily, indicating strong engagement for regular friend communication",
+      "t": "Integer [1]",
+      "s": "App Store analytics, Google Play Console, third-party market research reports"
+    },
+    {
+      "n": "Communication Features Variety",
+      "d": "Number of different communication methods available (text, voice, video, stories, group chat, etc.)",
+      "t": "Integer [1]",
+      "s": "App store descriptions, feature documentation, user manuals"
+    },
+    {
+      "n": "Cross-Platform Compatibility",
+      "d": "Availability across different operating systems and devices (iOS, Android, Web, Desktop)",
+      "t": "Integer [1]",
+      "s": "Official app stores, developer websites, platform documentation"
+    },
+    {
+      "n": "User Satisfaction Rating",
+      "d": "Average user rating across app stores, reflecting overall user experience and reliability",
+      "t": "Float [1]",
+      "s": "App Store ratings, Google Play Store ratings, user review aggregators"
+    },
+    {
+      "n": "Real-time Interaction Capabilities",
+      "d": "Quality and reliability of instant messaging, live video calls, and real-time features",
+      "t": "Boolean [1]",
+      "s": "App feature lists, user reviews, technical specifications"
+    }
+  ]
+}

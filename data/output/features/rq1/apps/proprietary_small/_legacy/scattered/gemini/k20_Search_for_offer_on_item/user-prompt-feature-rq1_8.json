@@ -1,0 +1,57 @@
+
+{
+  "a": [
+    "Honey",
+    "Drop",
+    "Flipp",
+    "RetailMeNot",
+    "ShopSavvy",
+    "The Coupons App",
+    "Sherpa Perks",
+    "Ibotta",
+    "Shopkick",
+    "Checkout 51",
+    "Receipt Hog",
+    "GasBuddy",
+    "GoodRx",
+    "Target Circle and RedCard",
+    "Rakuten",
+    "DealNews",
+    "iSlick",
+    "Deal Drop",
+    "Google Shopper",
+    "BuyVia"
+  ],
+  "c": [
+    {
+      "n": "User Ratings",
+      "d": "Average rating given by users on app stores, reflecting user satisfaction.",
+      "t": "Float[1]",
+      "s": "Google Play Store, Apple App Store"
+    },
+    {
+      "n": "Number of Downloads",
+      "d": "Total number of times the app has been downloaded, indicating popularity and reach.",
+      "t": "Integer[1]",
+      "s": "Google Play Store, Apple App Store"
+    },
+    {
+      "n": "Variety of Retailers",
+      "d": "The number of different stores and online retailers supported by the app.",
+      "t": "Integer[1]",
+      "s": "App description, user reviews"
+    },
+    {
+      "n": "Deal Types",
+      "d": "Types of deals offered (e.g., cashback, coupons, discounts).",
+      "t": "Text[*]",
+      "s": "App description, user reviews"
+    },
+    {
+      "n": "Ease of Use",
+      "d": "Subjective assessment of how user-friendly the app interface is.",
+      "t": "Text[1]",
+      "s": "User reviews, expert reviews"
+    }
+  ]
+}

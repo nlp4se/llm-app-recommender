@@ -1,0 +1,56 @@
+{
+  "a": [
+    "Instagram",
+    "TikTok",
+    "YouTube",
+    "Facebook",
+    "Twitch",
+    "Discord",
+    "LinkedIn",
+    "X (Twitter)",
+    "Snapchat",
+    "Pinterest",
+    "Reddit",
+    "Clubhouse",
+    "Periscope",
+    "BIGO LIVE",
+    "LiveMe",
+    "17LIVE",
+    "Streamlabs",
+    "OBS Studio",
+    "Restream",
+    "StreamYard"
+  ],
+  "c": [
+    {
+      "n": "Live Streaming Capabilities",
+      "d": "Quality and ease of live streaming features including video quality, streaming stability, and broadcasting tools",
+      "t": "Integer [1-10]",
+      "s": "App store descriptions, user reviews, feature documentation"
+    },
+    {
+      "n": "Audience Reach Potential",
+      "d": "Size of potential viewership and discoverability features for live content",
+      "t": "Integer [millions]",
+      "s": "Platform statistics, monthly active users, market research"
+    },
+    {
+      "n": "Monetization Options",
+      "d": "Available revenue generation methods for live streamers including donations, subscriptions, ads",
+      "t": "Integer [1-5]",
+      "s": "Platform policies, creator program documentation, user testimonials"
+    },
+    {
+      "n": "User Engagement Features",
+      "d": "Interactive elements like chat, reactions, polls, and audience participation tools",
+      "t": "Integer [1-10]",
+      "s": "Feature lists, user interface analysis, community feedback"
+    },
+    {
+      "n": "Technical Reliability",
+      "d": "App stability, minimal crashes, consistent performance during live broadcasts",
+      "t": "Float [1.0-5.0]",
+      "s": "User reviews, crash reports, performance testing data"
+    }
+  ]
+}

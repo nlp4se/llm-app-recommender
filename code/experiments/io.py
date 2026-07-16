@@ -1,12 +1,16 @@
 from __future__ import annotations
 
 import json
+import logging
 import re
 from pathlib import Path
 from typing import Any
 
 from jsonschema import ValidationError, validate
 
+logger = logging.getLogger(__name__)
+
+from code.experiments.criteria import criterion_id
 from code.experiments.naming import parse_bundle_filename
 
 
@@ -48,6 +52,25 @@ def _coerce_string_list(value: Any) -> list[str]:
         elif item is not None:
             out.append(str(item).strip())
     return out
+
+
+def _fit_ranked_apps_to_schema(apps: list[str], schema: dict) -> list[str]:
+    """Truncate (or leave short) the apps list to match schema minItems/maxItems on ``a``."""
+    props = schema.get("properties", {}).get("a")
+    if not isinstance(props, dict):
+        return apps
+    k_max = props.get("maxItems")
+    k_min = props.get("minItems")
+    if k_max is not None and len(apps) > k_max:
+        logger.warning(
+            "Model returned %s apps; keeping first %s to satisfy schema maxItems.",
+            len(apps),
+            k_max,
+        )
+        apps = apps[: int(k_max)]
+    if k_min is not None and len(apps) < k_min:
+        logger.warning("Model returned %s apps; schema requires at least %s.", len(apps), k_min)
+    return apps
 
 
 def _coerce_criteria_list(value: Any) -> list[dict[str, str]]:
@@ -92,7 +115,7 @@ def normalize_payload_for_schema(payload: dict, schema: dict) -> dict:
             continue
         value = payload[key]
         if key == "a":
-            extracted[key] = _coerce_string_list(value)
+            extracted[key] = _fit_ranked_apps_to_schema(_coerce_string_list(value), schema)
         elif key == "c":
             extracted[key] = _coerce_criteria_list(value)
         else:
@@ -107,8 +130,21 @@ def validate_json_response(payload: dict, schema: dict) -> None:
     validate(instance=payload, schema=schema)
 
 
+def _assert_unique_apps(apps: list[str]) -> None:
+    """Reject duplicate app names (SDK schemas may not enforce uniqueItems)."""
+    seen: set[str] = set()
+    for app in apps:
+        key = app.strip().casefold()
+        if key in seen:
+            raise ValueError(f"Duplicate app name in ranking: {app!r}")
+        seen.add(key)
+
+
 def parse_and_validate_response(content: str, schema: dict) -> dict:
     payload = normalize_payload_for_schema(parse_json_response(content), schema)
+    apps = payload.get("a")
+    if isinstance(apps, list):
+        _assert_unique_apps(apps)
     try:
         validate_json_response(payload, schema)
     except ValidationError as exc:
@@ -124,7 +160,7 @@ def record_key(record: dict[str, Any], rq_id: str) -> RecordKey:
     feature = str(record.get("feature", ""))
     run = int(record.get("run", -1))
     if rq_id == "rq3":
-        return (feature, str(record.get("criterion", "")), run)
+        return (feature, criterion_id(record.get("criterion")), run)
     return (feature, run)
 
 
@@ -159,14 +195,27 @@ def load_bundle(path: str | Path) -> dict[str, Any] | None:
     bundle_path = Path(path)
     if not bundle_path.is_file():
         return None
-    data = json.loads(bundle_path.read_text(encoding="utf-8"))
+    text = bundle_path.read_text(encoding="utf-8").strip()
+    if not text:
+        logger.warning("Bundle file is empty (likely interrupted write): %s", bundle_path)
+        return None
+    try:
+        data = json.loads(text)
+    except json.JSONDecodeError as exc:
+        logger.warning("Bundle file is not valid JSON (%s): %s", exc, bundle_path)
+        return None
     if not isinstance(data.get("records"), list):
         raise ValueError(f"Not a bundled experiment file: {bundle_path}")
     return data
 
 
 def save_bundle(path: str | Path, bundle: dict[str, Any]) -> None:
-    save_json_response(json.dumps(bundle, indent=2, ensure_ascii=False), Path(path))
+    target = Path(path)
+    target.parent.mkdir(parents=True, exist_ok=True)
+    content = json.dumps(bundle, indent=2, ensure_ascii=False)
+    tmp = target.with_suffix(target.suffix + ".tmp")
+    tmp.write_text(content, encoding="utf-8")
+    tmp.replace(target)
 
 
 def index_successful_records(records: list[dict[str, Any]], rq_id: str) -> dict[RecordKey, dict[str, Any]]:
@@ -208,7 +257,19 @@ def bundle_coverage(
         }
 
     data = load_bundle(path)
-    assert data is not None
+    if data is None:
+        return {
+            "path": str(path),
+            "exists": False,
+            "corrupt": True,
+            "expected": len(expected),
+            "successful": 0,
+            "failed": 0,
+            "missing": len(expected),
+            "missing_keys": expected,
+            "complete": False,
+        }
+
     records = data.get("records", [])
     successful = index_successful_records(records, rq_id)
     failed = [
@@ -266,6 +327,7 @@ def expand_bundled_file(file_path: str | Path, rq_id: str) -> list[dict[str, Any
         feature = record.get("feature", "")
         run = record.get("run", -1)
         criterion = record.get("criterion")
+        crit_label = criterion_id(criterion) if criterion else "na"
         rows.append(
             {
                 "family": family,
@@ -276,7 +338,7 @@ def expand_bundled_file(file_path: str | Path, rq_id: str) -> list[dict[str, Any
                 "feature": feature,
                 "run": run,
                 "criterion": criterion,
-                "prefix": f"{family}_{provider}_{model_key}_{mode}_k{k}_{feature}_{criterion or 'na'}_{run}",
+                "prefix": f"{family}_{provider}_{model_key}_{mode}_k{k}_{feature}_{crit_label}_{run}",
                 "json_data": payload,
                 "file_path": str(path),
                 "rq": rq_id,

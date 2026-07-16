@@ -1,0 +1,57 @@
+
+{
+  "a": [
+    "Google Drive",
+    "Dropbox",
+    "WeTransfer",
+    "Send Anywhere",
+    "Microsoft OneDrive",
+    "Box",
+    "iCloud Drive",
+    "Jumpshare",
+    "Egnyte",
+    "ShareFile",
+    "MediaFire",
+    "Filestage",
+    "Hightail",
+    "TransferNow",
+    "LockTransfer",
+    "BlueFiles",
+    "WeSend",
+    "Smash",
+    "Tresorit",
+    "Sync.com"
+  ],
+  "c": [
+    {
+      "n": "File Size Limit (Free Tier)",
+      "d": "Maximum file size that can be sent or shared without a paid subscription.",
+      "t": "Float[1]",
+      "s": "App specifications, vendor website"
+    },
+    {
+      "n": "Storage Space (Free Tier)",
+      "d": "Amount of cloud storage provided for free.",
+      "t": "Float[1]",
+      "s": "App specifications, vendor website"
+    },
+    {
+      "n": "Security Features",
+      "d": "Security measures implemented to protect files during transfer and storage (e.g., encryption, password protection).",
+      "t": "Text[*]",
+      "s": "App documentation, security audits"
+    },
+    {
+      "n": "Ease of Use",
+      "d": "How user-friendly the app is, considering interface, navigation, and sharing process.",
+      "t": "Text[1]",
+      "s": "User reviews, expert reviews"
+    },
+    {
+      "n": "Platform Compatibility",
+      "d": "Platforms the app supports (e.g., Windows, macOS, iOS, Android, web).",
+      "t": "Text[*]",
+      "s": "App description, vendor website"
+    }
+  ]
+}

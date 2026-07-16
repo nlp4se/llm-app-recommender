@@ -1,0 +1,75 @@
+
+{
+  "a": [
+    "IMDb",
+    "Letterboxd",
+    "Rotten Tomatoes",
+    "Criticker",
+    "MovieLens",
+    "Flixster",
+    "Raters",
+    "Moviebase",
+    "Trakt",
+    "Plugged In Movie Reviews",
+    "Movie Reviews (Voice)",
+    "MovieFone",
+    "YourNextFilm",
+    "FilmStory",
+    "ReelSpeak Movie & TV Reviews",
+    "Roger Ebert",
+    "Metacritic",
+    "SAHINAHI",
+    "The Guardian film section",
+    "Yahoo Movies"
+  ],
+  "c": [
+    {
+      "n": "User Ratings",
+      "d": "Allows users to rate movies and see average user scores.",
+      "t": "Float[*]",
+      "s": "App Store, Google Play Store"
+    },
+    {
+      "n": "Critic Reviews",
+      "d": "Aggregates reviews from professional critics and provides an overall score.",
+      "t": "Float[*]",
+      "s": "Website, API"
+    },
+    {
+      "n": "Watchlist",
+      "d": "Enables users to create and manage a list of movies they want to watch.",
+      "t": "Boolean",
+      "s": "User Account"
+    },
+    {
+      "n": "Community Features",
+      "d": "Offers social networking aspects such as following friends, sharing reviews, and participating in discussions.",
+      "t": "Boolean",
+      "s": "User Account"
+    },
+    {
+      "n": "Personalized Recommendations",
+      "d": "Provides movie recommendations based on user's viewing history and ratings.",
+      "t": "Boolean",
+      "s": "User Account, Algorithm"
+    },
+    {
+      "n": "Detailed Movie Information",
+      "d": "Offers comprehensive details about movies, including cast, crew, trailers, and trivia.",
+      "t": "Text[*]",
+      "s": "API"
+    },
+    {
+      "n": "Streaming Availability",
+      "d": "Indicates where movies are available for streaming.",
+      "t": "Text[*]",
+      "s": "API"
+    },
+    {
+      "n": "Genre Filtering",
+      "d": "Allows users to filter movies by genre.",
+      "t": "Text[*]",
+      "s": "API"
+    }
+  ]
+}

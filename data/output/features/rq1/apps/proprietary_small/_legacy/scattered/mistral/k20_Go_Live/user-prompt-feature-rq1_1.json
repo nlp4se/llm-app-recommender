@@ -1,0 +1,57 @@
+
+{
+  "a": [
+    "Twitch",
+    "Instagram",
+    "Facebook",
+    "YouNow",
+    "Periscope",
+    "TikTok",
+    "Bigo Live",
+    "Streamlabs",
+    "LiveMe",
+    " MeetMe",
+    "Periscope",
+    "Houseparty",
+    "Periscope",
+    "Hang W/",
+    "Viber",
+    "Skype",
+    "March",
+    "Caffeine",
+    "Mobcrush",
+    "IBM Video Streaming"
+  ],
+  "c": [
+    {
+      "n": "User Engagement",
+      "d": "The level of active user participation and interaction within the app, measured by metrics such as daily active users (DAU), monthly active users (MAU), and average session length.",
+      "t": "Integer[3]",
+      "s": "App Annie, Sensor Tower, App Store and Google Play Store Analytics"
+    },
+    {
+      "n": "Streaming Quality",
+      "d": "The overall quality of the live streaming experience, including video resolution, frame rate, and latency.",
+      "t": "Float[3]",
+      "s": "User reviews, Expert reviews, Technical benchmarks"
+    },
+    {
+      "n": "Content Variety",
+      "d": "The diversity and breadth of content available on the platform, including categories such as gaming, music, talk shows, and more.",
+      "t": "Text[*]",
+      "s": "App descriptions, User-generated tags, Content analysis reports"
+    },
+    {
+      "n": "Monetization Options",
+      "d": "The availability and effectiveness of monetization features, such as virtual gifts, subscriptions, and ad revenue sharing.",
+      "t": "Boolean[4]",
+      "s": "App feature lists, Monetization case studies, Developer documentation"
+    },
+    {
+      "n": "User Interface and Experience",
+      "d": "The design and usability of the app, including ease of navigation, accessibility features, and overall user satisfaction.",
+      "t": "Float[2]",
+      "s": "User reviews, UI/UX design awards, Expert critiques"
+    }
+  ]
+}

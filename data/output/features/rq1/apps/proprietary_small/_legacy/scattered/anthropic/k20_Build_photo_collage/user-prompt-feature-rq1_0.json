@@ -1,0 +1,62 @@
+{
+  "a": [
+    "Canva",
+    "PicCollage",
+    "Layout from Instagram",
+    "Adobe Photoshop Express",
+    "Pic Stitch",
+    "PhotoGrid",
+    "Moldiv",
+    "Fotor",
+    "VSCO",
+    "PicsArt",
+    "InShot",
+    "Photo Collage Maker",
+    "Diptic",
+    "RhonnaBDesigns",
+    "Unfold",
+    "StoryLuxe",
+    "Mixoo",
+    "LiveCollage",
+    "Shape Collage",
+    "Collage Maker Plus"
+  ],
+  "c": [
+    {
+      "n": "Template Variety",
+      "d": "Number and diversity of pre-designed collage templates and layouts available",
+      "t": "Integer [1]",
+      "s": "App store descriptions, user reviews, official websites"
+    },
+    {
+      "n": "User Rating",
+      "d": "Average user rating score across app stores",
+      "t": "Float [1]",
+      "s": "App Store, Google Play Store"
+    },
+    {
+      "n": "Editing Features",
+      "d": "Range of photo editing tools including filters, effects, text, stickers, and adjustment options",
+      "t": "Integer [1]",
+      "s": "App feature lists, user reviews, hands-on testing"
+    },
+    {
+      "n": "Export Quality",
+      "d": "Maximum resolution and quality options for saving and sharing collages",
+      "t": "Text [1]",
+      "s": "App specifications, user feedback, technical documentation"
+    },
+    {
+      "n": "Ease of Use",
+      "d": "User interface intuitiveness and learning curve simplicity",
+      "t": "Integer [1]",
+      "s": "User reviews, UI/UX analysis, usability testing feedback"
+    },
+    {
+      "n": "Free vs Premium Features",
+      "d": "Availability and quality of features in free version versus premium subscription requirements",
+      "t": "Text [1]",
+      "s": "App pricing pages, feature comparison charts, user reviews"
+    }
+  ]
+}

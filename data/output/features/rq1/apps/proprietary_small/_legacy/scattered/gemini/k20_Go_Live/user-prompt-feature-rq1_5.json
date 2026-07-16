@@ -1,0 +1,94 @@
+
+{
+    "a": [
+      "YouTube Live",
+      "Twitch",
+      "Facebook Live",
+      "Instagram Live",
+      "TikTok Live",
+      "Bigo Live",
+      "StreamYard",
+      "Prism Live Studio",
+      "LinkedIn Live",
+      "Restream",
+      "OBS Studio",
+      "Streamlabs",
+      "Vimeo Livestream",
+      "Wowza",
+      "Kick",
+      "Dacast",
+      "JWP (JW Player)",
+      "Camo Studio",
+      "Go Live",
+      "Periscope"
+    ],
+    "c": [
+      {
+        "n": "Audience Size/Reach",
+        "d": "Potential audience size and platform reach, considering active user base.",
+        "t": "Integer[*]",
+        "s": "Streams Charts, YouTube Live, Facebook Live, Instagram Live, TikTok Live"
+      },
+      {
+        "n": "Engagement Features",
+        "d": "Tools for interacting with viewers (chat, polls, reactions, gifts).",
+        "t": "Text[*]",
+        "s": "Twitch, YouTube, TikTok Live, Facebook Live"
+      },
+      {
+        "n": "Monetization Options",
+        "d": "Availability of monetization features (ads, subscriptions, tips, gifts).",
+        "t": "Boolean[*]",
+        "s": "YouTube Live, Twitch, TikTok Live, Bigo Live, Stream, JWP"
+      },
+      {
+        "n": "Ease of Use",
+        "d": "User-friendliness of the app, especially for beginners.",
+        "t": "Text",
+        "s": "Facebook Live, Prism Live Studio, StreamYard, Go Live"
+      },
+      {
+        "n": "Multi-Platform Streaming",
+        "d": "Ability to stream to multiple platforms simultaneously.",
+        "t": "Boolean",
+        "s": "Restream, Prism Live Studio, Streamlabs"
+      },
+      {
+        "n": "Video Quality & Features",
+        "d": "Quality of video streaming, customization options, and special effects.",
+        "t": "Text",
+        "s": "YouTube Live, Prism Live Studio, Camo Studio"
+      },
+      {
+        "n": "Professional/Business Features",
+        "d": "Features tailored for professional use (analytics, security, AI).",
+        "t": "Boolean",
+        "s": "LinkedIn Live, Vimeo Livestream, Wowza, Dacast, IBM Video Streaming, JWP"
+      },
+      {
+        "n": "Gaming Focus",
+        "d": "Primary focus on gaming content.",
+        "t": "Boolean",
+        "s": "Twitch, Kick"
+      },
+      {
+        "n": "Community Engagement",
+        "d": "Strength and activity of the platform's community.",
+        "t": "Text",
+        "s": "Twitch, Facebook Gaming"
+      },
+      {
+        "n": "Mobile Optimization",
+        "d": "Optimized for mobile streaming and viewing.",
+        "t": "Boolean",
+        "s": "TikTok Live, Facebook, YouTube"
+      },
+      {
+        "n": "Pricing",
+        "d": "Pricing model, whether it is free, subscription-based, or has in-app purchases.",
+        "t": "Text",
+        "s": "Each App's respective app store page."
+      }
+    ]
+  }
+  

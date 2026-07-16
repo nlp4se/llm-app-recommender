@@ -1,0 +1,61 @@
+model,feature,name,description,type,sources
+perplexity,Rate movies,User Reviews and Ratings,Ability for users to rate movies and write reviews that influence recommendation and ranking,Integer ratings and Text reviews [*],"App stores, official app descriptions"
+perplexity,Rate movies,Recommendation Algorithm Quality,Effectiveness of personalized movie recommendations based on user preferences and similar user tastes,Boolean/Ranking score,"App descriptions, user feedback"
+perplexity,Rate movies,Community and Social Features,"Social engagement such as following users, group recommendations, and sharing reviews",Boolean,App descriptions
+perplexity,Rate movies,Platform Availability,Availability on major platforms like iOS and Android,Text,App stores
+perplexity,Rate movies,Content Coverage,Number and variety of movies and TV shows covered for rating and recommendations,Integer range,App descriptions
+perplexity,Rate movies,User Ratings,Average user rating score of movies within the app reflecting user satisfaction,Float[1],"Raters, Taste, Letterboxd, IMDb"
+perplexity,Rate movies,Recommendation Algorithm Accuracy,Effectiveness of personalized recommendation systems based on user ratings and taste similarity,Float[1],"Raters, Taste"
+perplexity,Rate movies,Community Engagement,"Level of interaction such as reviews, comments, and social sharing features within the app",Integer[1],"Raters, Letterboxd, SerialIzd"
+perplexity,Rate movies,Content Coverage,Number of movies and shows available for rating and reviewing,Integer[1],"Letterboxd, IMDb, Taste"
+perplexity,Rate movies,Platform Availability,"Availability of the app across mobile platforms (iOS, Android) and web",Text[1],"Raters, Taste, Letterboxd"
+perplexity,Rate movies,User Ratings,Average user rating scores for movies submitted within the app,Float [1],"App stores, official app descriptions"
+perplexity,Rate movies,Personalized Recommendations,Ability to provide movie suggestions based on user taste and rating history,Boolean [1],App descriptions and features in search results
+perplexity,Rate movies,Social Interaction Features,"Options to follow friends, comment, share reviews and receive recommendations from a trusted community",Boolean [1],Descriptions of apps like Raters and Letterboxd
+perplexity,Rate movies,Cross-platform Availability,"Availability of the app on multiple platforms like iOS, Android, and web",Text [*],App listings and official sites
+perplexity,Rate movies,Content Filtering,"Filters to sort recommendations by genre, duration, release date, and other criteria",Boolean [1],Raters app description
+perplexity,Rate movies,User Ratings,Average user-generated ratings reflecting overall movie appreciation,Float [1],"App stores, user reviews, app descriptions"
+perplexity,Rate movies,Recommendation Algorithm,Effectiveness of the app's algorithm in providing personalized movie suggestions based on user taste,Boolean [1],App descriptions [1][2][4]
+perplexity,Rate movies,Social Features,"Presence of social networking tools such as following users, sharing reviews, and group recommendations",Boolean [1],App descriptions [1][2][5]
+perplexity,Rate movies,Platform Availability,Number of supported platforms and streaming services integrated for movie watching,Integer [1],App descriptions [1][4]
+perplexity,Rate movies,User Base Size,Number of active users or downloads indicating popularity,Integer [1],App store metrics [2][4]
+perplexity,Rate movies,User Rating and Review Features,Allows users to rate movies and write reviews to share their personal opinions and influence recommendations,Boolean [1],"1,2,3,4,5"
+perplexity,Rate movies,Personalized Movie Recommendations,Algorithms or community matching to suggest movies based on user taste or similar users’ preferences,Boolean [1],"1,2,4"
+perplexity,Rate movies,Social Integration,"Ability to follow friends, comment on reviews, and get recommendations within a user community","Boolean [1,2]","1,2,5"
+perplexity,Rate movies,Platform Availability,"Support for mobile platforms (iOS, Android) and web access",Text [*],"1,2,4,5"
+perplexity,Rate movies,Recommendation Filtering and Group Features,"Filters to customize recommendations by genre, duration, date, and group recommendation capabilities",Boolean [1],1
+perplexity,Rate movies,Community Size and Engagement,"Number of active users and level of engagement (reviews, comments, ratings)",Integer [1],"2,4,5"
+perplexity,Rate movies,User Base Size,"Number of active users or downloads, indicating popularity and diversity of ratings",Integer[1],"App Store listings, Play Store listings"
+perplexity,Rate movies,Personalized Recommendation Quality,Effectiveness of personalized movie recommendations based on user ratings and preferences,Float[1],"App descriptions, user reviews, app feature documentation"
+perplexity,Rate movies,Usability and User Interface,"Ease of rating movies, writing reviews, and navigating the app",Text[1],"User reviews, expert app reviews"
+perplexity,Rate movies,Social Features,"Presence of features to follow friends, share ratings, and get group recommendations",Boolean[1],App descriptions and reviews
+perplexity,Rate movies,Platform Availability,"Availability on iOS, Android, and web platforms for wider accessibility",Text[1],"App Store and Play Store data, official websites"
+perplexity,Rate movies,Rating and Review Authenticity,Measures to prevent fake reviews and rating manipulation,Boolean[1],"App feature descriptions, privacy policies"
+perplexity,Rate movies,User Ratings,Average user ratings or scores assigned to movies by app users to express their opinion.,Float [1],"App Store, Google Play"
+perplexity,Rate movies,User Reviews,"Written feedback provided by users about movies, useful for qualitative assessment.",Text [*],"App Store, Google Play, Editorial"
+perplexity,Rate movies,Recommendation Algorithm Quality,Effectiveness of the app’s movie recommendation algorithm in suggesting relevant movies based on user taste.,Text/Qualitative [1],"App descriptions, Reviews"
+perplexity,Rate movies,Social Features,"Ability to follow friends, share ratings, get group recommendations, and interact with community.",Boolean [1],App descriptions
+perplexity,Rate movies,Content Coverage,"Number of movies/shows covered and availability of metadata such as genres, release date, streaming platforms.",Integer or Text [1],App descriptions
+perplexity,Rate movies,Platform Availability,"Availability of the app on major mobile platforms (iOS, Android).",Boolean [1],App stores
+perplexity,Rate movies,User Base Size,Number of active users or downloads indicating app popularity and data richness.,Integer [1],"Google Play, App Store"
+perplexity,Rate movies,In-App Purchases and Ads,Presence of in-app purchases or ads that might affect the user experience.,Boolean [1],"Google Play, App Store"
+perplexity,Rate movies,User Ratings and Reviews,"Allows users to rate movies and write reviews, influencing overall app ratings and recommendation accuracy","Float rating, Text review [*]","Apple App Store Raters, Google Play Raters, Letterboxd"
+perplexity,Rate movies,Recommendation Algorithm,"Algorithm suggesting movies based on user taste, group preferences, and similar user profiles","Boolean (exists/does not exist), Text description [1]","Raters, Taste"
+perplexity,Rate movies,Social Integration,"Ability to follow friends and other users, share reviews, and get group recommendations",Boolean [1][2][5],"Raters, Letterboxd"
+perplexity,Rate movies,Platform Availability and Streaming Links,Provides links and suggestions on where to watch movies across multiple streaming platforms,Text list [1],Raters
+perplexity,Rate movies,User Base Size,Number of active users/downloads which can affect diversity of reviews and recommendations,Integer [2][4],"Raters (100K+), Taste (100K+)"
+perplexity,Rate movies,Content Catalog Coverage,Number and variety of movies and shows available to rate and review,Integer or Descriptive [3][5],"Letterboxd, SerialIzd"
+perplexity,Rate movies,Ad Presence and Monetization,Whether the app contains ads or in-app purchases affecting user experience,"Boolean, Text [2][4]","Raters, Taste"
+perplexity,Rate movies,User Rating Capability,Ability for users to rate movies and shows with scores or likes/dislikes,Boolean [1],"App descriptions, user reviews"
+perplexity,Rate movies,Personalized Recommendation Algorithm,Availability of personalized movie recommendations based on user tastes and ratings,Boolean [1],"Raters app description, Taste app info"
+perplexity,Rate movies,Social and Community Features,"Ability to follow friends, see friends' reviews, comment, and share ratings",Boolean [1],"Raters app, Letterboxd, Taste app descriptions"
+perplexity,Rate movies,Cross-Platform Availability,Availability on major platforms such as iOS and Android,Boolean [1],App store listings
+perplexity,Rate movies,Content Filtering Options,"Filters for genre, release date, duration, and other movie attributes to refine recommendations",Boolean [1],Raters app description
+perplexity,Rate movies,Group Recommendation Feature,Ability to get movie recommendations tailored for multiple people simultaneously,Boolean [1],Raters app description
+perplexity,Rate movies,Ad-Supported vs. Paid Options,"Whether the app is free with ads, has in-app purchases, or requires a subscription",Text [1],Google Play and Apple Store app info
+perplexity,Rate movies,User Base Size,Number of users and volume of reviews available to enhance recommendation quality,Integer [1],"App store download counts, community activity"
+perplexity,Rate movies,User Ratings and Reviews,"Ability for users to rate movies and write reviews, providing qualitative feedback and numeric ratings","Float [1], Text [*]","App Store, Google Play, Letterboxd"
+perplexity,Rate movies,Personalized Recommendations,Algorithm-based tailored movie suggestions based on user ratings and tastes,Boolean [1],"Raters, Taste, Letterboxd"
+perplexity,Rate movies,Community and Social Features,"Following users, sharing reviews, group recommendations, and social interaction within the app",Boolean [1],"Raters, Letterboxd, Taste"
+perplexity,Rate movies,Content Coverage,Range of movies and TV shows covered by the app's database and rating system,Integer [1],"IMDb, Rotten Tomatoes, Metacritic, Letterboxd"
+perplexity,Rate movies,Platform Availability,"Availability on iOS, Android, web platforms, etc.",Text [*],"App Store, Google Play, Letterboxd"

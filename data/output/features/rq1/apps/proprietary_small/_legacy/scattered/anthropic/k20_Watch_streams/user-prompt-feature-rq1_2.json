@@ -1,0 +1,62 @@
+{
+  "a": [
+    "Twitch",
+    "YouTube",
+    "Netflix",
+    "Hulu",
+    "Disney+",
+    "Amazon Prime Video",
+    "HBO Max",
+    "Apple TV+",
+    "Paramount+",
+    "Peacock",
+    "Discovery+",
+    "ESPN+",
+    "Sling TV",
+    "YouTube TV",
+    "Hulu + Live TV",
+    "FuboTV",
+    "Pluto TV",
+    "Tubi",
+    "Crackle",
+    "Vudu"
+  ],
+  "c": [
+    {
+      "n": "Content Library Size",
+      "d": "Total number of movies, TV shows, live channels, and streaming content available on the platform",
+      "t": "Integer [1]",
+      "s": "App store descriptions, official websites, streaming databases"
+    },
+    {
+      "n": "Monthly Active Users",
+      "d": "Number of unique users who actively use the streaming app per month",
+      "t": "Integer [1]",
+      "s": "Public company reports, industry analytics, market research"
+    },
+    {
+      "n": "Content Quality Score",
+      "d": "Average rating of content based on critical reviews and user ratings",
+      "t": "Float [1]",
+      "s": "IMDb, Rotten Tomatoes, user reviews, critic scores"
+    },
+    {
+      "n": "Platform Availability",
+      "d": "Number of different devices and platforms the app supports",
+      "t": "Integer [1]",
+      "s": "App stores, official compatibility lists, device manufacturer websites"
+    },
+    {
+      "n": "Streaming Quality Options",
+      "d": "Maximum video resolution and audio quality supported",
+      "t": "Text [1]",
+      "s": "Technical specifications, app settings, official documentation"
+    },
+    {
+      "n": "User Interface Rating",
+      "d": "Average user rating for app interface and user experience",
+      "t": "Float [1]",
+      "s": "App store ratings, user reviews, UX studies"
+    }
+  ]
+}

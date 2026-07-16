@@ -1,0 +1,56 @@
+{
+  "a": [
+    "Netflix",
+    "Amazon Prime Video",
+    "Disney+",
+    "HBO Max",
+    "Hulu",
+    "Apple TV+",
+    "Paramount+",
+    "Peacock",
+    "YouTube Premium",
+    "Starz",
+    "Plex",
+    "Hoopla",
+    "Qewd",
+    "JustWatch",
+    "Reelgood",
+    "TV Time",
+    "Watchworthy",
+    "Tubi",
+    "Crackle",
+    "Vudu"
+  ],
+  "c": [
+    {
+      "n": "Content Library Size",
+      "d": "The total number of movies and TV shows available to stream on the app",
+      "t": "Integer [1]",
+      "s": "Vocal Media, Plex"
+    },
+    {
+      "n": "Subscription Model",
+      "d": "Whether the app requires a paid subscription, is free with ads, or offers both options",
+      "t": "Text [1]",
+      "s": "Vocal Media, Plex"
+    },
+    {
+      "n": "Platform Availability",
+      "d": "Availability across operating systems like Android and iOS",
+      "t": "Text [*]",
+      "s": "Consumer Reports, Play Store"
+    },
+    {
+      "n": "Unique Features",
+      "d": "Features such as social sharing, watchlist synchronization across services, or original content availability",
+      "t": "Text [*]",
+      "s": "Consumer Reports, Plex, Vocal Media"
+    },
+    {
+      "n": "User Ratings and Reviews",
+      "d": "Average user rating score and number of downloads or user base size",
+      "t": "Float and Integer [1]",
+      "s": "Google Play Store, Vocal Media"
+    }
+  ]
+}

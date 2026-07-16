@@ -1,0 +1,56 @@
+{
+  "a": [
+    "eBay",
+    "Facebook Marketplace",
+    "Mercari",
+    "Poshmark",
+    "Depop",
+    "Vinted",
+    "OfferUp",
+    "Craigslist",
+    "Letgo",
+    "Etsy",
+    "Amazon Seller",
+    "Bonanza",
+    "Tradesy",
+    "The RealReal",
+    "Vestiaire Collective",
+    "Grailed",
+    "StockX",
+    "GOAT",
+    "Rebag",
+    "Chairish"
+  ],
+  "c": [
+    {
+      "n": "User Base Size",
+      "d": "Total number of active monthly users on the platform, indicating market reach and potential buyer pool",
+      "t": "Integer [1]",
+      "s": "App store analytics, company reports, market research data"
+    },
+    {
+      "n": "Seller Fee Structure",
+      "d": "Percentage of sale price or fixed fees charged to sellers, affecting profitability",
+      "t": "Float [1-3]",
+      "s": "Official platform fee schedules, seller terms of service"
+    },
+    {
+      "n": "Category Coverage",
+      "d": "Range of product categories supported for listing, determining versatility",
+      "t": "Integer [1]",
+      "s": "Platform category listings, seller guidelines"
+    },
+    {
+      "n": "Listing Creation Speed",
+      "d": "Average time required to create and publish a listing, measuring user experience efficiency",
+      "t": "Integer [1]",
+      "s": "User testing data, platform interface analysis"
+    },
+    {
+      "n": "Payment Protection",
+      "d": "Level of buyer and seller protection offered through secure payment processing",
+      "t": "Text [1]",
+      "s": "Platform policies, user protection terms"
+    }
+  ]
+}

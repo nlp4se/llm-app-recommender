@@ -1,0 +1,62 @@
+{
+  "a": [
+    "IMDb",
+    "Letterboxd",
+    "The Movie Database (TMDb)",
+    "Rotten Tomatoes",
+    "Trakt",
+    "JustWatch",
+    "Filmaffinity",
+    "Criticker",
+    "Moviebase",
+    "SeriesGuide",
+    "Flixster",
+    "Moviepilot",
+    "CineTrak",
+    "My Movies",
+    "iShows Movies",
+    "Movie Maker",
+    "Plex",
+    "Goodfilms",
+    "Movienizer",
+    "Seen"
+  ],
+  "c": [
+    {
+      "n": "User Rating Database Size",
+      "d": "Total number of user ratings and reviews available in the app's database",
+      "t": "Integer [1]",
+      "s": "App store descriptions, official websites, user communities"
+    },
+    {
+      "n": "Rating System Granularity",
+      "d": "Level of detail in rating options (1-5 stars, 1-10 scale, half-stars, etc.)",
+      "t": "Text [1]",
+      "s": "App interfaces, user reviews, feature documentation"
+    },
+    {
+      "n": "Social Features Quality",
+      "d": "Availability and quality of social features like following users, sharing lists, discussions",
+      "t": "Boolean [*]",
+      "s": "App features, user reviews, social media presence"
+    },
+    {
+      "n": "Movie Database Completeness",
+      "d": "Comprehensiveness of movie catalog including mainstream, indie, international, and classic films",
+      "t": "Integer [1]",
+      "s": "Database APIs, user feedback, content audits"
+    },
+    {
+      "n": "User Interface Quality",
+      "d": "Ease of use, visual design, navigation efficiency, and overall user experience",
+      "t": "Float [1]",
+      "s": "App store ratings, UX reviews, user feedback"
+    },
+    {
+      "n": "Cross-Platform Availability",
+      "d": "Number of platforms supported (iOS, Android, Web, Desktop)",
+      "t": "Integer [1]",
+      "s": "Official websites, app stores, platform documentation"
+    }
+  ]
+}

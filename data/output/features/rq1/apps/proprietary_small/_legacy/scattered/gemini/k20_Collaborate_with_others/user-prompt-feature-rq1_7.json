@@ -1,0 +1,75 @@
+
+{
+  "a": [
+    "Microsoft Teams",
+    "Slack",
+    "Zoom",
+    "Trello",
+    "Asana",
+    "Miro",
+    "Google Workspace (Google Docs, Sheets, Slides)",
+    "Monday.com",
+    "Basecamp",
+    "Wrike",
+    "Airtable",
+    "Notion",
+    "ClickUp",
+    "Figma",
+    "Jira",
+    "Filestage",
+    "Loom",
+    "Teamwork",
+    "Smartsheet",
+    "Confluence"
+  ],
+  "c": [
+    {
+      "n": "Real-time Collaboration",
+      "d": "Ability for multiple users to work on the same document or project simultaneously.",
+      "t": "Boolean[1]",
+      "s": "Multiple Sources"
+    },
+    {
+      "n": "Task Management",
+      "d": "Features for creating, assigning, and tracking tasks within the app.",
+      "t": "Boolean[1]",
+      "s": "Multiple Sources"
+    },
+    {
+      "n": "Communication Channels",
+      "d": "Availability of chat, video conferencing, or other communication tools within the app.",
+      "t": "Text[*]",
+      "s": "Multiple Sources"
+    },
+    {
+      "n": "File Sharing and Storage",
+      "d": "Ease of sharing and storing files within the app for team access.",
+      "t": "Boolean[1]",
+      "s": "Multiple Sources"
+    },
+    {
+      "n": "Integrations",
+      "d": "Number and quality of integrations with other popular apps and services.",
+      "t": "Integer[*]",
+      "s": "Multiple Sources"
+    },
+    {
+      "n": "User Interface",
+      "d": "How intuitive and easy to use the application is.",
+      "t": "Text[1]",
+      "s": "Multiple Sources"
+    },
+    {
+      "n": "Customization",
+      "d": "Level of customization available for workflows, dashboards, and other features.",
+      "t": "Text[1]",
+      "s": "Multiple Sources"
+    },
+    {
+      "n": "Cross-Platform Support",
+      "d": "Availability and functionality of the app across different operating systems and devices.",
+      "t": "Boolean[1]",
+      "s": "Multiple Sources"
+    }
+  ]
+}

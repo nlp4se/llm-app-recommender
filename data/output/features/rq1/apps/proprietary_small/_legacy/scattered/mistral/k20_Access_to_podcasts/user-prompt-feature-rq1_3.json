@@ -1,0 +1,75 @@
+
+{
+  "a": [
+    "Spotify",
+    "Apple Podcasts",
+    "Google Podcasts",
+    "Audible",
+    "Stitcher",
+    "Pocket Casts",
+    "Overcast",
+    "Castbox",
+    "Podbean",
+    "TuneIn Radio",
+    "iHeartRadio",
+    "Deezer",
+    "Amazon Music",
+    "Pandora",
+    "SoundCloud",
+    "Podcast Addict",
+    "Castro",
+    "Downcast",
+    "AntennaPod",
+    "Player FM"
+  ],
+  "c": [
+    {
+      "n": "User Ratings",
+      "d": "Average rating of the app on various app stores.",
+      "t": "Float [1]",
+      "s": "App Store, Google Play Store, Amazon Appstore"
+    },
+    {
+      "n": "Number of Downloads",
+      "d": "Total number of times the app has been downloaded.",
+      "t": "Integer [1]",
+      "s": "Google Play Store, App Store, Sensor Tower"
+    },
+    {
+      "n": "Content Library Size",
+      "d": "The number of podcasts available in the app's library.",
+      "t": "Integer [1]",
+      "s": "Official app websites, app descriptions"
+    },
+    {
+      "n": "User Interface and Experience",
+      "d": "Ease of use and navigation within the app.",
+      "t": "Text [1]",
+      "s": "User reviews, tech blogs, expert reviews"
+    },
+    {
+      "n": "Unique Features",
+      "d": "Special features that set the app apart from others.",
+      "t": "Text [*]",
+      "s": "Official app websites, app descriptions, user reviews"
+    },
+    {
+      "n": "Cross-Platform Availability",
+      "d": "Availability of the app on different platforms (iOS, Android, Web, etc.).",
+      "t": "Text [*]",
+      "s": "Official app websites, app store listings"
+    },
+    {
+      "n": "Integration with Other Services",
+      "d": "How well the app integrates with other services and devices.",
+      "t": "Text [*]",
+      "s": "Official app websites, user reviews, tech blogs"
+    },
+    {
+      "n": "Subscription Options",
+      "d": "Availability of free and paid subscription plans.",
+      "t": "Text [*]",
+      "s": "Official app websites, app store listings"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+
+{
+  "a": [
+    "Poweramp",
+    "BlackPlayer",
+    "AIMP",
+    "MediaMonkey",
+    "Rocket Player",
+    "Musicolet",
+    "Shuttle Music Player",
+    "REAL Shuffle Player",
+    "True Shuffle Player",
+    "Retro Music Player",
+    "KM Player",
+    "Phonograph",
+    "Pi Music Player",
+    "Indie Shuffle",
+    "Shuffle Music",
+    "Pulse Music",
+    "Mucke",
+    "Marvis",
+    "Virtual Shuffle - Truly Random (Spotify)",
+    "YouTube Music"
+  ],
+  "c": [
+    {
+      "n": "Shuffle Algorithm Quality",
+      "d": "Evaluates how truly random the shuffle feature is, avoiding repetition and predictable patterns.",
+      "t": "Text",
+      "s": "User reviews, app descriptions, expert opinions"
+    },
+    {
+      "n": "Playlist Size Handling",
+      "d": "Assesses the app's ability to efficiently shuffle and play large playlists (1000+ tracks) without performance issues.",
+      "t": "Integer",
+      "s": "User reviews, performance tests"
+    },
+    {
+      "n": "Offline Playback Support",
+      "d": "Indicates whether the app supports playing shuffled playlists offline, from locally stored music files.",
+      "t": "Boolean",
+      "s": "App features, user reviews"
+    },
+    {
+      "n": "User Interface and Customization",
+      "d": "Considers the ease of use, visual appeal, and customization options available for playlist management and shuffle control.",
+      "t": "Text",
+      "s": "App reviews, user feedback"
+    },
+    {
+      "n": "Format Support",
+      "d": "Evaluates the variety of audio formats supported by the app (e.g., MP3, FLAC, OGG, WAV).",
+      "t": "Text",
+      "s": "App specifications"
+    }
+  ]
+}

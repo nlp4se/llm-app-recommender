@@ -1,0 +1,81 @@
+
+{
+  "a": [
+    "WhatsApp",
+    "Facebook Messenger",
+    "Telegram",
+    "Snapchat",
+    "Instagram",
+    "Meetup",
+    "Bumble BFF",
+    "Nextdoor",
+    "Viber",
+    "Signal",
+    "Discord",
+    "Locket Widget",
+    "Cappuccino",
+    "Teleparty",
+    "Plato",
+    "Threads",
+    "UNBLND",
+    "Yubo",
+    "Hey! VINA",
+    "SoonCall"
+  ],
+  "c": [
+    {
+      "n": "User Base",
+      "d": "Number of active users on the platform.",
+      "t": "Integer [1]",
+      "s": "Oberlo, Sensor Tower, AgileTech Vietnam"
+    },
+    {
+      "n": "Communication Features",
+      "d": "Variety of communication methods offered (text, voice, video, file sharing).",
+      "t": "Text [*]",
+      "s": "Sterling College, Croma Unboxed, Firefly - Sunrise Medical"
+    },
+    {
+      "n": "Privacy and Security",
+      "d": "Level of encryption and privacy settings available.",
+      "t": "Boolean [1]",
+      "s": "Sterling College, Croma Unboxed"
+    },
+    {
+      "n": "Group Communication",
+      "d": "Features that facilitate group interactions (group chats, channels, events).",
+      "t": "Boolean [1]",
+      "s": "Sterling College"
+    },
+    {
+      "n": "Interest-Based Connections",
+      "d": "Ability to connect with others based on shared interests and hobbies.",
+      "t": "Boolean [1]",
+      "s": "Moment App, UNBLND, Science of People"
+    },
+    {
+      "n": "Proximity-Based Connections",
+      "d": "Ability to connect with people in your local area or neighborhood.",
+      "t": "Boolean [1]",
+      "s": "Nextdoor, Happn"
+    },
+    {
+      "n": "Unique Features",
+      "d": "Special or differentiating features (e.g., widgets, mini-podcasts, shared calendars, games).",
+      "t": "Text [*]",
+      "s": "MakeUseOf, Medicinal Media, ElderHub"
+    },
+    {
+      "n": "Platform Availability",
+      "d": "Availability on different operating systems (iOS, Android, Web).",
+      "t": "Text [*]",
+      "s": "Sterling College, Croma Unboxed"
+    },
+    {
+      "n": "Friendship Management Tools",
+      "d": "Tools that help manage and nurture friendships (reminders, call tracking).",
+      "t": "Boolean [1]",
+      "s": "Trend Hunter"
+    }
+  ]
+}

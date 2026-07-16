@@ -1,0 +1,75 @@
+
+{
+  "a": [
+    "Twitch",
+    "Instagram",
+    "Facebook",
+    "YouNow",
+    "Periscope",
+    "TikTok",
+    "Bigo Live",
+    "Streamlabs",
+    "LiveMe",
+    "VK Live",
+    "MeMe Live",
+    "Houseparty",
+    "Uplive",
+    "MeetMe",
+    "Periscope",
+    "Zoom",
+    "Google Meet",
+    "Microsoft Teams",
+    "Facebook Messenger Rooms",
+    "Cisco Webex"
+  ],
+  "c": [
+    {
+      "n": "User Base",
+      "d": "The total number of active users on the platform.",
+      "t": "Integer[1]",
+      "s": "App Annie, Sensor Tower, SimilarWeb, App Store, Google Play Store"
+    },
+    {
+      "n": "User Ratings",
+      "d": "Average rating given by users on various app stores.",
+      "t": "Float[1]",
+      "s": "App Store, Google Play Store, Amazon Appstore"
+    },
+    {
+      "n": "Stream Quality",
+      "d": "The overall quality of the live stream, including resolution and stability.",
+      "t": "Text[1]",
+      "s": "User reviews, TechRadar, CNET, Trustpilot"
+    },
+    {
+      "n": "Interactivity Features",
+      "d": "The range and effectiveness of interactive features such as chat, polls, and reactions.",
+      "t": "Text[1]",
+      "s": "Official app websites, user reviews, tech blogs"
+    },
+    {
+      "n": "Cross-Platform Availability",
+      "d": "Availability of the app across different platforms like iOS, Android, Web, etc.",
+      "t": "Boolean[1]",
+      "s": "Official app websites, App Store, Google Play Store"
+    },
+    {
+      "n": "Monetization Options",
+      "d": "The variety and effectiveness of monetization options for creators.",
+      "t": "Text[1]",
+      "s": "Official app websites, creator reviews, tech blogs"
+    },
+    {
+      "n": "Privacy and Security",
+      "d": "The measures taken to ensure user privacy and security.",
+      "t": "Text[1]",
+      "s": "Official app websites, privacy policies, security reviews"
+    },
+    {
+      "n": "Ease of Use",
+      "d": "The user-friendliness and intuitiveness of the app interface.",
+      "t": "Text[1]",
+      "s": "User reviews, tech blogs, usability studies"
+    }
+  ]
+}

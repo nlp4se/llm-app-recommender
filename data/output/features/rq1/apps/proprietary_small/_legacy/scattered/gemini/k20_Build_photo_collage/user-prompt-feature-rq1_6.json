@@ -1,0 +1,63 @@
+
+{
+  "a": [
+    "Pic Collage",
+    "Diptic",
+    "Moldiv",
+    "PicPlayPost",
+    "PicsArt",
+    "PiZap",
+    "Icecream Photo Editor",
+    "Canva",
+    "Adobe Express",
+    "Google Photos",
+    "Shape Collage",
+    "Fotor",
+    "InCollage",
+    "Fotojet",
+    "PhotoPad",
+    "Pixlr",
+    "Z Mobile: Photo Collage Maker",
+    "PhotoGrid",
+    "FotoCollage Photo Editor",
+    "Collage Maker | Photo Editor"
+  ],
+  "c": [
+    {
+      "n": "Ease of Use",
+      "d": "How intuitive and easy it is for users to create collages, regardless of their experience level.",
+      "t": "Integer[1]",
+      "s": "User reviews, app store descriptions"
+    },
+    {
+      "n": "Template Variety",
+      "d": "The number and diversity of pre-designed templates available for creating different types of collages.",
+      "t": "Integer[*]",
+      "s": "App features, app store descriptions"
+    },
+    {
+      "n": "Customization Options",
+      "d": "The range of options available for users to personalize their collages, including adjusting layouts, adding text, stickers, and backgrounds.",
+      "t": "Integer[*]",
+      "s": "App features, user reviews"
+    },
+    {
+      "n": "Editing Tools",
+      "d": "The availability and quality of built-in photo editing tools such as filters, effects, and adjustments.",
+      "t": "Boolean[1]",
+      "s": "App features, tech reviews"
+    },
+    {
+      "n": "Social Media Integration",
+      "d": "How seamlessly the app integrates with social media platforms for sharing collages.",
+      "t": "Boolean[1]",
+      "s": "App features, user reviews"
+    },
+    {
+      "n": "Cost",
+      "d": "The pricing structure of the app, including whether it is free, offers in-app purchases, or requires a subscription.",
+      "t": "Text[1]",
+      "s": "App store descriptions, pricing information"
+    }
+  ]
+}

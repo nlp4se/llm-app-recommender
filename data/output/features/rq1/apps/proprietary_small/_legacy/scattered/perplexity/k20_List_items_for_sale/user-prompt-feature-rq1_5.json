@@ -1,0 +1,68 @@
+{
+  "a": [
+    "Facebook Marketplace",
+    "OfferUp",
+    "Mercari",
+    "eBay",
+    "Poshmark",
+    "Craigslist",
+    "Chairish",
+    "Decluttr",
+    "CardCash",
+    "eCampus",
+    "Letgo",
+    "5miles",
+    "OfferUp and Letgo combined app",
+    "Bonanza",
+    "Etsy",
+    "VarageSale",
+    "Nextdoor",
+    "ThredUp",
+    "StockX",
+    "Swappa"
+  ],
+  "c": [
+    {
+      "n": "User Base Size",
+      "d": "Number of active users or downloads indicating marketplace size and audience reach",
+      "t": "Integer[1]",
+      "s": "amzscout.net, play.google.com"
+    },
+    {
+      "n": "Fee Structure",
+      "d": "Commission or listing fees percentage or fixed amount charged by the app per sale",
+      "t": "Float[1]",
+      "s": "amzscout.net, greenlight.com"
+    },
+    {
+      "n": "Ease of Listing",
+      "d": "How quickly and easily a seller can upload photos and create a listing",
+      "t": "Text[1]",
+      "s": "amzscout.net, greenlight.com"
+    },
+    {
+      "n": "Shipping Options",
+      "d": "Availability and flexibility of shipping choices such as prepaid labels, local pickup or home pickup",
+      "t": "Text[1]",
+      "s": "amzscout.net, wtop.com"
+    },
+    {
+      "n": "Category Specialization",
+      "d": "Specific niche or product categories the app is best suited for selling",
+      "t": "Text[*]",
+      "s": "amzscout.net, greenlight.com"
+    },
+    {
+      "n": "Geographic Reach",
+      "d": "Whether the app supports local, national, or international sales",
+      "t": "Text[1]",
+      "s": "greenlight.com, wtop.com"
+    },
+    {
+      "n": "User Interface and Experience",
+      "d": "Quality and user-friendliness of the app interface for buying and selling",
+      "t": "Text[1]",
+      "s": "amzscout.net, wtop.com"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+
+{
+  "a": [
+    "Spotify",
+    "Apple Music",
+    "YouTube Music",
+    "Pandora",
+    "Deezer",
+    "Tidal",
+    "Amazon Music",
+    "SoundCloud",
+    "iHeartRadio",
+    "Napster",
+    "Yandex.Music",
+    "Gaana",
+    "JioSaavn",
+    "Wynk Music",
+    "Hungama Music",
+    "Anghami",
+    "Boomplay",
+    "Qobuz",
+    "Musi",
+    "Audiomack"
+  ],
+  "c": [
+    {
+      "n": "Shuffle Mode Availability",
+      "d": "The app must support shuffle mode for playlists.",
+      "t": "Boolean [1]",
+      "s": "App store descriptions, official app websites, user reviews"
+    },
+    {
+      "n": "Music Library Size",
+      "d": "The total number of songs available in the app's library.",
+      "t": "Integer [1]",
+      "s": "Official app websites, tech reviews, app store descriptions"
+    },
+    {
+      "n": "User Interface and Experience",
+      "d": "The ease of use and navigability of the app's interface.",
+      "t": "Text [1]",
+      "s": "User reviews, tech blogs, app store ratings"
+    },
+    {
+      "n": "Playlist Features",
+      "d": "The availability and quality of playlist creation and management features.",
+      "t": "Text [1]",
+      "s": "App store descriptions, official app websites, user reviews"
+    },
+    {
+      "n": "Platform Availability",
+      "d": "The number of platforms the app is available on (iOS, Android, Web, etc.).",
+      "t": "Integer [1]",
+      "s": "App store descriptions, official app websites"
+    },
+    {
+      "n": "User Ratings",
+      "d": "The average rating of the app on various app stores.",
+      "t": "Float [1]",
+      "s": "App store ratings, user reviews"
+    },
+    {
+      "n": "Subscription Cost",
+      "d": "The cost of premium subscription plans, if applicable.",
+      "t": "Float [1]",
+      "s": "Official app websites, app store descriptions"
+    },
+    {
+      "n": "Offline Mode",
+      "d": "The ability to download songs and playlists for offline listening.",
+      "t": "Boolean [1]",
+      "s": "App store descriptions, official app websites, user reviews"
+    }
+  ]
+}

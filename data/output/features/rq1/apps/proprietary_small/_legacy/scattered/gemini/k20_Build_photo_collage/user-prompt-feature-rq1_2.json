@@ -1,0 +1,75 @@
+
+{
+  "a": [
+    "Pic Collage",
+    "PicsArt Photo & Collage Maker",
+    "Moldiv",
+    "PhotoGrid",
+    "Collage Maker - Photo Editor (Google Play)",
+    "FotoCollage Photo Editor",
+    "PiZap",
+    "Diptic",
+    "PicPlayPost",
+    "Layout for Instagram",
+    "Bazaart",
+    "PicMerger",
+    "GridMatic",
+    "Pinterest",
+    "Snapchat",
+    "Landing/Zeen",
+    "Shuffles_",
+    "Collage Maker | Photo Editor (Google Play)",
+    "Fotor Photo Editor",
+    "Canva"
+  ],
+  "c": [
+    {
+      "n": "User Interface",
+      "d": "Clean and intuitive design for ease of use.",
+      "t": "Text[1]",
+      "s": "User reviews, Editor reviews"
+    },
+    {
+      "n": "Variety of Templates and Layouts",
+      "d": "Availability of diverse pre-designed templates and customizable layouts.",
+      "t": "Integer[*]",
+      "s": "App description, Editor reviews"
+    },
+    {
+      "n": "Editing Features",
+      "d": "Range of editing tools, filters, and effects for photo enhancement.",
+      "t": "Text[*]",
+      "s": "App description, Editor reviews"
+    },
+    {
+      "n": "Customization Options",
+      "d": "Ability to add text, stickers, backgrounds, and doodles to collages.",
+      "t": "Boolean[1]",
+      "s": "App description, User reviews"
+    },
+    {
+      "n": "Social Media Integration",
+      "d": "Easy sharing options to various social media platforms.",
+      "t": "Boolean[1]",
+      "s": "App description"
+    },
+    {
+      "n": "Pricing Model",
+      "d": "Cost of the app and available in-app purchases or subscriptions.",
+      "t": "Text[1]",
+      "s": "App store, User reviews"
+    },
+    {
+      "n": "User Ratings and Reviews",
+      "d": "Overall app rating and user feedback on app performance and features.",
+      "t": "Float[1]",
+      "s": "App store"
+    },
+    {
+      "n": "Download numbers",
+      "d": "How many times the app has been downloaded",
+      "t": "Integer[1]",
+      "s": "App store"
+    }
+  ]
+}

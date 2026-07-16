@@ -1,0 +1,57 @@
+
+{
+  "a": [
+    "WhatsApp",
+    "Telegram",
+    "Signal",
+    "Threema",
+    "Bridgefy",
+    "Viber",
+    "WeChat",
+    "Line",
+    "KakaoTalk",
+    "Zalo",
+    "imessage",
+    "Google Messages",
+    "Facebook Messenger",
+    "Slack",
+    "Microsoft Teams",
+    "Skype",
+    "Discord",
+    "Band",
+    "HeyTell",
+    "Marco Polo"
+  ],
+  "c": [
+    {
+      "n": "Number of Active Users",
+      "d": "The total number of active users on the platform.",
+      "t": "Integer [1]",
+      "s": "App Annie, Sensor Tower, SimilarWeb, Apptopia"
+    },
+    {
+      "n": "User Ratings",
+      "d": "Average user ratings on various app stores.",
+      "t": "Float [1]",
+      "s": "Google Play Store, Apple App Store, Amazon Appstore"
+    },
+    {
+      "n": "Broadcast Feature Quality",
+      "d": "The effectiveness and ease of use of the broadcast feature.",
+      "t": "Text [1]",
+      "s": "Expert reviews, user reviews, tech blogs"
+    },
+    {
+      "n": "Security and Privacy",
+      "d": "The level of security and privacy features offered by the app.",
+      "t": "Text [1]",
+      "s": "App privacy policies, security audits, expert reviews"
+    },
+    {
+      "n": "Cross-Platform Availability",
+      "d": "The availability of the app across different platforms and devices.",
+      "t": "Text [1]",
+      "s": "Official app websites, app store listings"
+    }
+  ]
+}

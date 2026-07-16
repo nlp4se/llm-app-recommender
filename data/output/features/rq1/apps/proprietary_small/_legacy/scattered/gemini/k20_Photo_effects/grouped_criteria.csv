@@ -1,0 +1,13 @@
+name,description,type,sources
+Advanced Editing Tools,"Availability of advanced tools like layers, masking, healing, and RAW support.",Boolean[1],"App Specifications, App description, Expert Reviews, PCMag, Zapier, editor reviews"
+AI-Powered Features,"The presence and effectiveness of AI-driven tools such as object removal, style transfer, and intelligent adjustments.",Boolean[1],"App Description, App description, Expert Reviews, Imagen AI, Lensa, YouTube, editor reviews"
+Cost,"The app's pricing model, including whether it's free, subscription-based, or has in-app purchases.",Text[1],"App store, App store pricing, editor reviews, in-app purchase information, reviews"
+Customization Options,The degree to which effects can be adjusted and personalized.,Boolean[1],"App Description, App Descriptions, App Features, App Features List, App description, App settings, Expert Reviews, Tutorials, tutorials, user feedback"
+Ease of Use,How intuitive and user-friendly the app is for applying effects.,Float[1],"Expert Reviews, Personal Experience, User Reviews, User reviews, app store descriptions, editor reviews"
+Number of Effects/Filters,Quantity and variety of available photo effects and filters.,Integer[*],"App Documentation, App Store, Expert Reviews, Google Play Store"
+Performance,App speed and stability when applying effects.,Float[1],"App store reviews, Personal Experience, User Reviews, benchmark tests"
+Platform Availability,"The platforms (iOS, Android, Web) on which the app is available.",Text[*],"App Store, App description, Google Play Store, PCMag"
+Pricing Model,"Cost of the app and its features, including free options, subscriptions, and in-app purchases.",Text[1],"App Store, App store, Google Play Store, Zapier, in-app information"
+User Interface (UI),The ease of use and intuitiveness of the app's interface for applying effects and editing photos.,Text[1],"App Store reviews, Expert Reviews, Reviews, User Reviews, Zapier, expert opinions"
+Variety of Effects,"The range and uniqueness of photo effects available, including filters, overlays, and artistic tools.",Integer[*],"App Store, App features list, Expert Reviews, Google Play Store, expert reviews"
+Variety of Effects/Filters,"The number and types of photo effects and filters available, including artistic, vintage, and AI-powered options.",Integer[*],"App Store, App description, Expert Reviews, Google Play Store, PCMag, editor reviews, reviews"

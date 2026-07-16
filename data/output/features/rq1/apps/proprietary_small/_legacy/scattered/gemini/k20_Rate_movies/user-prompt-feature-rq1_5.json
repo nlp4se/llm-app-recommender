@@ -1,0 +1,87 @@
+
+{
+  "a": [
+    "IMDb",
+    "Letterboxd",
+    "Rotten Tomatoes",
+    "Metacritic",
+    "Criticker",
+    "MovieLens",
+    "Raters",
+    "Flixster",
+    "Moviebase",
+    "MovieFone",
+    "YourNextFilm",
+    "FilmStory",
+    "JustWatch",
+    "Movie Pal",
+    "Plugged In – Movie Reviews",
+    "Movie Reviews (Voice)",
+    "ReelSpeak Movie & TV Reviews",
+    "Roger Ebert",
+    "The Guardian film section",
+    "My Movie Review"
+  ],
+  "c": [
+    {
+      "n": "User Ratings",
+      "d": "Aggregated ratings from users, reflecting general audience opinion.",
+      "t": "Float[*], Integer[*]",
+      "s": "App Store, Google Play Store"
+    },
+    {
+      "n": "Critic Reviews",
+      "d": "Reviews and scores from professional movie critics.",
+      "t": "Text[*], Integer[*]",
+      "s": "App's internal database, Metacritic, Rotten Tomatoes"
+    },
+    {
+      "n": "Community Features",
+      "d": "Features that allow users to connect, discuss, and share movie opinions.",
+      "t": "Boolean[1]",
+      "s": "App description, user reviews"
+    },
+    {
+      "n": "Recommendation Engine",
+      "d": "Algorithm-driven movie suggestions based on user preferences and viewing history.",
+      "t": "Boolean[1]",
+      "s": "App's internal algorithm, user data"
+    },
+    {
+      "n": "Watchlist",
+      "d": "Ability to create and manage a list of movies to watch.",
+      "t": "Boolean[1]",
+      "s": "App description, user reviews"
+    },
+    {
+      "n": "Movie Information",
+      "d": "Comprehensive details about movies, including cast, crew, synopsis, and trailers.",
+      "t": "Text[*], Media[*]",
+      "s": "IMDb, TMDB"
+    },
+    {
+      "n": "Personalization",
+      "d": "Level of customization and tailoring of the app experience to individual user tastes.",
+      "t": "Boolean[1]",
+      "s": "App settings, user reviews"
+    },
+    {
+      "n": "Ease of Use",
+      "d": "How intuitive and user-friendly the app interface is.",
+      "t": "Text[1]",
+      "s": "User reviews, app reviews"
+    },
+    {
+      "n": "Cross-Platform Availability",
+      "d": "Availability of the app on multiple operating systems and devices.",
+      "t": "Boolean[1]",
+      "s": "App Store, Google Play Store"
+    },
+    {
+      "n": "Ticket Purchase",
+      "d": "Ability to purchase movie tickets directly through the app.",
+      "t": "Boolean[1]",
+      "s": "App description, user reviews"
+    }
+  ]
+}

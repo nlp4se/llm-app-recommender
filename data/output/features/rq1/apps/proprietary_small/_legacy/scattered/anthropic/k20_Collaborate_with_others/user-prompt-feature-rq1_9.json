@@ -1,0 +1,56 @@
+{
+  "a": [
+    "Slack",
+    "Microsoft Teams",
+    "Zoom",
+    "Discord",
+    "Notion",
+    "Trello",
+    "Asana",
+    "Google Workspace",
+    "Monday.com",
+    "Figma",
+    "Miro",
+    "Dropbox",
+    "Basecamp",
+    "ClickUp",
+    "Airtable",
+    "Canva",
+    "Telegram",
+    "WhatsApp Business",
+    "Jira",
+    "Confluence"
+  ],
+  "c": [
+    {
+      "n": "Active User Base",
+      "d": "Total number of monthly active users indicating platform adoption and network effect potential",
+      "t": "Integer [1]",
+      "s": "App store analytics, company reports, market research"
+    },
+    {
+      "n": "Collaboration Feature Depth",
+      "d": "Comprehensive score based on real-time editing, file sharing, communication tools, project management, and workflow integration capabilities",
+      "t": "Integer [1]",
+      "s": "Feature analysis, user reviews, product documentation"
+    },
+    {
+      "n": "Cross-Platform Compatibility",
+      "d": "Number of platforms supported including mobile, desktop, web, and seamless synchronization across devices",
+      "t": "Integer [1]",
+      "s": "App store listings, official websites, compatibility documentation"
+    },
+    {
+      "n": "User Satisfaction Rating",
+      "d": "Average rating across major app stores weighted by review volume and recency",
+      "t": "Float [1]",
+      "s": "App Store, Google Play, enterprise review platforms"
+    },
+    {
+      "n": "Enterprise Integration Capability",
+      "d": "Number of third-party integrations and API availability for business workflow automation",
+      "t": "Integer [1]",
+      "s": "Integration marketplaces, API documentation, enterprise feature lists"
+    }
+  ]
+}

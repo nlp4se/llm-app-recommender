@@ -1,0 +1,57 @@
+
+{
+  "a": [
+    "Meetup",
+    "Yubo",
+    "Bumble BFF",
+    "Hey VINA",
+    "Wink",
+    "Nextdoor",
+    "Atleto",
+    "Peanut",
+    "Skout",
+    "Friender",
+    "LMK",
+    "Twitch",
+    "Tandem",
+    "We3",
+    "RealU",
+    "Patook",
+    "Ablo",
+    "HelloTalk",
+    "UNBLND",
+    "Howbout"
+  ],
+  "c": [
+    {
+      "n": "User Engagement",
+      "d": "Measures how frequently and actively users interact with the app.",
+      "t": "Integer",
+      "s": "1, 2"
+    },
+    {
+      "n": "Community Building Features",
+      "d": "Assesses the app's ability to facilitate meaningful connections and community formation.",
+      "t": "Boolean",
+      "s": "1, 2"
+    },
+    {
+      "n": "User Interface and Experience",
+      "d": "Evaluates the app's design, usability, and overall user satisfaction.",
+      "t": "Float",
+      "s": "1, 2"
+    },
+    {
+      "n": "Target Audience Fit",
+      "d": "Determines how well the app aligns with its intended user demographic.",
+      "t": "Text",
+      "s": "1, 2"
+    },
+    {
+      "n": "Reviews and Ratings",
+      "d": "Considers the app's overall rating and user reviews.",
+      "t": "Float",
+      "s": "1, 2"
+    }
+  ]
+}

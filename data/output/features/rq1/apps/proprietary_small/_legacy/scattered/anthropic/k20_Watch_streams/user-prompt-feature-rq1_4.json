@@ -1,0 +1,62 @@
+{
+  "a": [
+    "Twitch",
+    "YouTube",
+    "Netflix",
+    "Disney+",
+    "Amazon Prime Video",
+    "Hulu",
+    "HBO Max",
+    "Apple TV+",
+    "Paramount+",
+    "Peacock",
+    "Discovery+",
+    "Crunchyroll",
+    "Funimation",
+    "Spotify",
+    "Tidal",
+    "Facebook Gaming",
+    "TikTok",
+    "Instagram",
+    "Mixer",
+    "Dailymotion"
+  ],
+  "c": [
+    {
+      "n": "Content Library Size",
+      "d": "Total number of available streams, videos, shows, and content pieces",
+      "t": "Integer [1]",
+      "s": "App store descriptions, official websites, third-party analytics"
+    },
+    {
+      "n": "User Base and Engagement",
+      "d": "Monthly active users and average session duration",
+      "t": "Integer [2]",
+      "s": "App store ratings, analytics platforms, company reports"
+    },
+    {
+      "n": "Streaming Quality Options",
+      "d": "Maximum supported video resolution and quality settings available",
+      "t": "Text [*]",
+      "s": "Technical specifications, user reviews, app features"
+    },
+    {
+      "n": "Platform Availability",
+      "d": "Number of supported devices and operating systems",
+      "t": "Integer [1]",
+      "s": "Official app stores, compatibility lists, developer websites"
+    },
+    {
+      "n": "Content Variety",
+      "d": "Range of content categories including live streams, on-demand, original content",
+      "t": "Integer [1]",
+      "s": "Content catalogs, genre classifications, platform features"
+    },
+    {
+      "n": "User Experience Rating",
+      "d": "Average user rating across app stores and review platforms",
+      "t": "Float [1]",
+      "s": "Google Play Store, Apple App Store, user review aggregators"
+    }
+  ]
+}

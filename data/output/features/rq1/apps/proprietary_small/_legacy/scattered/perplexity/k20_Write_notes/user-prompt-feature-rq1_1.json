@@ -1,0 +1,74 @@
+{
+  "a": [
+    "Microsoft OneNote",
+    "Notion",
+    "Evernote",
+    "Nebo",
+    "Apple Notes",
+    "Simplenote",
+    "Google Keep",
+    "Obsidian",
+    "GoodNotes",
+    "ClickUp Docs",
+    "Bear",
+    "Zoho Notebook",
+    "Dropbox Paper",
+    "Agenda",
+    "Standard Notes",
+    "Joplin",
+    "Roam Research",
+    "Quip",
+    "Coda",
+    "Amplenote"
+  ],
+  "c": [
+    {
+      "n": "Cross-Platform Availability",
+      "d": "The ability of the app to sync and be used seamlessly across multiple devices and operating systems, enhancing accessibility and convenience.",
+      "t": "Text, Boolean [1]",
+      "s": "ClickUp, Zapier, ScribeCount"
+    },
+    {
+      "n": "Note Format Support",
+      "d": "Types of content supported in notes such as text, handwriting, sketches, images, tables, and markdown formatting.",
+      "t": "Text, Boolean [1][2][3]",
+      "s": "ClickUp, Zapier, ScribeCount"
+    },
+    {
+      "n": "Handwriting Recognition and Stylus Support",
+      "d": "Capability to convert handwritten notes to editable text and integration with stylus devices for natural note-taking.",
+      "t": "Boolean, Text [3][4]",
+      "s": "ScribeCount, YouTube"
+    },
+    {
+      "n": "Collaboration Features",
+      "d": "Options to share notes, collaborate in real time, and manage team workflows within the app.",
+      "t": "Boolean, Text [1][2]",
+      "s": "ClickUp, Zapier"
+    },
+    {
+      "n": "Offline Functionality",
+      "d": "Ability to access and edit notes without internet connection, ensuring productivity anytime.",
+      "t": "Boolean [1][2]",
+      "s": "ClickUp, Zapier"
+    },
+    {
+      "n": "Search and Organization",
+      "d": "Effectiveness of the search function and organizational tools such as tagging, folders, and notebooks that help retrieve and structure notes.",
+      "t": "Text, Boolean [1][2][3]",
+      "s": "ClickUp, Zapier, ScribeCount"
+    },
+    {
+      "n": "Pricing Model",
+      "d": "Cost to the user, whether free, freemium, subscription-based, or one-time payment, affecting accessibility and features available.",
+      "t": "Text [1][3]",
+      "s": "ClickUp, ScribeCount"
+    },
+    {
+      "n": "User Interface and Usability",
+      "d": "Simplicity and intuitiveness of the app interface, including distraction-free modes and ease of note-taking.",
+      "t": "Text, Boolean [1][4]",
+      "s": "ClickUp, YouTube"
+    }
+  ]
+}

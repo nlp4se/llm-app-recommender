@@ -1,0 +1,56 @@
+{
+  "a": [
+    "Slack",
+    "Microsoft Teams",
+    "Zoom",
+    "Discord",
+    "Notion",
+    "Trello",
+    "Asana",
+    "Google Workspace",
+    "Monday.com",
+    "Figma",
+    "Miro",
+    "Dropbox",
+    "Basecamp",
+    "ClickUp",
+    "Airtable",
+    "Webex",
+    "Telegram",
+    "Todoist",
+    "Canva",
+    "Frame.io"
+  ],
+  "c": [
+    {
+      "n": "User Base Size",
+      "d": "Total number of active users across all platforms, indicating adoption and network effects for collaboration",
+      "t": "Integer [1]",
+      "s": "Company reports, industry analytics, third-party research"
+    },
+    {
+      "n": "Real-time Collaboration Features",
+      "d": "Number and quality of simultaneous collaboration capabilities like live editing, screen sharing, and instant messaging",
+      "t": "Integer [1]",
+      "s": "Feature documentation, app stores, user reviews"
+    },
+    {
+      "n": "Cross-platform Compatibility",
+      "d": "Number of platforms and devices supported for seamless collaboration across different environments",
+      "t": "Integer [1]",
+      "s": "Official websites, app stores, technical specifications"
+    },
+    {
+      "n": "Integration Ecosystem",
+      "d": "Number of third-party integrations and APIs available for workflow connectivity",
+      "t": "Integer [1]",
+      "s": "Integration marketplaces, developer documentation, official listings"
+    },
+    {
+      "n": "User Rating Score",
+      "d": "Average user rating across major app stores and review platforms",
+      "t": "Float [1]",
+      "s": "App Store, Google Play, Capterra, G2, Trustpilot"
+    }
+  ]
+}

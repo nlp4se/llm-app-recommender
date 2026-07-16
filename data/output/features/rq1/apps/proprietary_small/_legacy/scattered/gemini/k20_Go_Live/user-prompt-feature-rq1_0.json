@@ -1,0 +1,58 @@
+
+{
+    "a": [
+      "Twitch",
+      "YouTube Live",
+      "Facebook Live",
+      "Instagram Live",
+      "TikTok Live",
+      "Streamlabs",
+      "Bigo Live",
+      "YouNow",
+      "LiveMe",
+      "WOO TV",
+      "Vimeo Livestream",
+      "Larix Broadcaster",
+      "Wirecast Go",
+      "Switcher Studio",
+      "BoxCast",
+      "Restream",
+      "LinkedIn Live",
+      "Kick",
+      "Zoom",
+      "TVU Anywhere"
+    ],
+    "c": [
+      {
+        "n": "Audience Size",
+        "d": "Estimated number of active users or viewers on the platform. A larger audience provides greater potential reach for live streams.",
+        "t": "Integer[1]",
+        "s": "Various sources reporting platform user statistics"
+      },
+      {
+        "n": "Monetization Options",
+        "d": "Methods available for creators to earn revenue, including ads, subscriptions, donations, virtual gifts, and pay-per-view.",
+        "t": "Text[*]",
+        "s": "Various sources discussing monetization strategies for live streaming apps"
+      },
+      {
+        "n": "Ease of Use",
+        "d": "Subjective assessment of how simple and intuitive the app is to use for both streaming and viewing, considering interface design and available features.",
+        "t": "Text[1]",
+        "s": "App reviews and comparisons"
+      },
+      {
+        "n": "Features",
+        "d": "Variety and quality of tools and functionalities offered, such as chat, alerts, overlays, multistreaming, and analytics.",
+        "t": "Text[*]",
+        "s": "App descriptions and feature lists"
+      },
+      {
+        "n": "Platform Compatibility",
+        "d": "Operating systems and devices supported by the app (e.g., iOS, Android, Windows, macOS).",
+        "t": "Text[*]",
+        "s": "App store listings and developer information"
+      }
+    ]
+  }
+  

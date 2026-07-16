@@ -1,0 +1,56 @@
+{
+  "a": [
+    "Facebook Marketplace",
+    "eBay",
+    "Mercari",
+    "Poshmark",
+    "OfferUp",
+    "Depop",
+    "Vinted",
+    "ThredUp",
+    "Letgo",
+    "Craigslist",
+    "Amazon Seller",
+    "Etsy",
+    "The RealReal",
+    "Vestiaire Collective",
+    "Rebag",
+    "Grailed",
+    "StockX",
+    "GOAT",
+    "Chairish",
+    "1stDibs"
+  ],
+  "c": [
+    {
+      "n": "User Base Size",
+      "d": "Total number of active monthly users on the platform",
+      "t": "Integer [1]",
+      "s": "App store data, company reports, market research"
+    },
+    {
+      "n": "Commission Rate",
+      "d": "Percentage fee charged by the platform per successful sale",
+      "t": "Float [1]",
+      "s": "Platform fee schedules, seller terms of service"
+    },
+    {
+      "n": "Ease of Listing",
+      "d": "Simplicity and speed of creating product listings measured by steps required",
+      "t": "Integer [1]",
+      "s": "User experience testing, app interface analysis"
+    },
+    {
+      "n": "Category Coverage",
+      "d": "Number of different product categories supported for selling",
+      "t": "Integer [1]",
+      "s": "Platform category listings, seller guidelines"
+    },
+    {
+      "n": "Payment Security",
+      "d": "Level of buyer/seller protection and secure payment processing",
+      "t": "Boolean [1]",
+      "s": "Platform policies, payment provider certifications"
+    }
+  ]
+}

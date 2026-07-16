@@ -1,0 +1,57 @@
+
+{
+  "a": [
+    "Microsoft Teams",
+    "Slack",
+    "Google Workspace",
+    "Zoom",
+    "Trello",
+    "Asana",
+    "Miro",
+    "Notion",
+    "Figma",
+    "Monday.com",
+    "Basecamp",
+    "ClickUp",
+    "Jira",
+    "Confluence",
+    "Dropbox",
+    "Evernote",
+    "Skype",
+    "Discord",
+    "Google Meet",
+    "Cisco Webex"
+  ],
+  "c": [
+    {
+      "n": "User Ratings",
+      "d": "Average rating of the app on various app stores and review platforms.",
+      "t": "Float [1]",
+      "s": "App Store, Google Play, G2, Capterra"
+    },
+    {
+      "n": "Number of Active Users",
+      "d": "Total number of active users of the app.",
+      "t": "Integer [1]",
+      "s": "Company reports, Statista, SimilarWeb"
+    },
+    {
+      "n": "Feature Set",
+      "d": "Range and depth of collaboration features offered by the app.",
+      "t": "Text [1]",
+      "s": "Official app websites, TechRadar, PCMag"
+    },
+    {
+      "n": "Integration Capabilities",
+      "d": "Number and variety of third-party integrations supported by the app.",
+      "t": "Integer [1]",
+      "s": "Official app websites, Zapier, IFTTT"
+    },
+    {
+      "n": "User Interface and Experience",
+      "d": "Quality and ease of use of the app's interface and overall user experience.",
+      "t": "Text [1]",
+      "s": "User reviews, Tech blogs, Expert analyses"
+    }
+  ]
+}

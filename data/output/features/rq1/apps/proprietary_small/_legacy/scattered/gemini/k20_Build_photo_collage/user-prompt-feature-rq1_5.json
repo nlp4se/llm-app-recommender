@@ -1,0 +1,87 @@
+
+{
+  "a": [
+    "Pic Collage",
+    "PicsArt Photo & Collage Maker",
+    "FotoCollage Photo Editor",
+    "PhotoGrid",
+    "Moldiv",
+    "Diptic",
+    "PiZap",
+    "Collage Maker - Photo Editor",
+    "PicMerger",
+    "GridMatic",
+    "Layout for Instagram",
+    "Snapchat",
+    "Bazaart",
+    "Pinterest",
+    "Shuffles",
+    "Fotor Photo Collage Maker",
+    "Ribbet",
+    "BeFunky Collage Maker",
+    "Canva",
+    "Google Photos"
+  ],
+  "c": [
+    {
+      "n": "User Ratings and Reviews",
+      "d": "Reflects user satisfaction and app quality, influencing app store rankings and credibility.",
+      "t": "Float [1]",
+      "s": "App Store, Google Play Store"
+    },
+    {
+      "n": "Download Velocity",
+      "d": "Measures the speed at which the app gains new downloads, indicating popularity and relevance.",
+      "t": "Integer [1]",
+      "s": "App Store, Google Play Store"
+    },
+    {
+      "n": "Number of Collage Templates",
+      "d": "The variety and number of pre-designed templates available for creating collages.",
+      "t": "Integer [*]",
+      "s": "App description, app features"
+    },
+    {
+      "n": "Editing Tools and Features",
+      "d": "The range of editing options such as filters, stickers, text options, and AI-powered enhancements.",
+      "t": "Text [*]",
+      "s": "App description, app features"
+    },
+    {
+      "n": "Ease of Use",
+      "d": "How intuitive and easy the app is to use, especially for beginners.",
+      "t": "Boolean [1]",
+      "s": "User reviews, expert reviews"
+    },
+    {
+      "n": "Customization Options",
+      "d": "The ability to customize layouts, backgrounds, and grid sizes.",
+      "t": "Boolean [1]",
+      "s": "App features, app description"
+    },
+    {
+      "n": "Social Integration",
+      "d": "Integration with social media platforms for easy sharing.",
+      "t": "Boolean [1]",
+      "s": "App features, app description"
+    },
+    {
+      "n": "AI-Powered Features",
+      "d": "Inclusion of AI tools for tasks like background removal and smart template generation.",
+      "t": "Boolean [1]",
+      "s": "App description, app features"
+    },
+    {
+      "n": "In-App Purchases and Premium Features",
+      "d": "Availability of premium features and the cost of in-app purchases.",
+      "t": "Float [1]",
+      "s": "App Store, Google Play Store"
+    },
+    {
+      "n": "App Metadata Optimization",
+      "d": "Effectiveness of keyword placement in app metadata (title, subtitle, keywords).",
+      "t": "Text [1]",
+      "s": "App Store, App Radar"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "a": [
+    "ShopSavvy",
+    "The Coupons App",
+    "Sherpa Perks",
+    "ScanLife",
+    "PriceGrabber",
+    "BuyVia",
+    "Amazon",
+    "Purchx",
+    "Now Discount",
+    "Quick Scan",
+    "TTPM",
+    "Shopular",
+    "Shopping by TheFind",
+    "Newegg Mobile",
+    "Craigslist Mobile",
+    "eBay",
+    "Google Shopper",
+    "Yellow Pages",
+    "CardCash",
+    "Decluttr"
+  ],
+  "c": [
+    {
+      "n": "Price Comparison Accuracy",
+      "d": "How accurately the app compares prices across different stores and online platforms to find the best deals on an item",
+      "t": "Float [1]",
+      "s": "1,2,3"
+    },
+    {
+      "n": "Coupon and Discount Availability",
+      "d": "The number and quality of coupons, discount codes, or daily deals provided by the app",
+      "t": "Integer [1]",
+      "s": "1,3"
+    },
+    {
+      "n": "Barcode/QR Code Scanning",
+      "d": "Whether the app supports scanning barcodes or QR codes to instantly find deals on items",
+      "t": "Boolean [1]",
+      "s": "1,2,3,4"
+    },
+    {
+      "n": "Platform Availability",
+      "d": "Supported operating systems like iOS and Android to ensure accessibility for users",
+      "t": "Text [*]",
+      "s": "1,2,4"
+    },
+    {
+      "n": "User Interface and Ease of Use",
+      "d": "How user-friendly the app is for searching offers and navigating deals",
+      "t": "Text [1]",
+      "s": "1,3"
+    },
+    {
+      "n": "Additional Features",
+      "d": "Extra functionalities such as alerts for sales, price match guarantees, cashback offers, or gift card rewards",
+      "t": "Text [*]",
+      "s": "1,2,3,4"
+    }
+  ]
+}

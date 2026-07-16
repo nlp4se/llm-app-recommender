@@ -1,0 +1,57 @@
+
+{
+  "a": [
+    "Twitch",
+    "YouTube Live",
+    "Facebook Live",
+    "Instagram Live",
+    "TikTok Live",
+    "Streamlabs",
+    "Bigo Live",
+    "YouNow",
+    "LiveMe",
+    "Periscope",
+    "VK Live",
+    "365Scores",
+    "WatchESPN",
+    "Zoom Cloud Meetings",
+    "OBS Studio",
+    "Wirecast Go",
+    "Larix Broadcaster",
+    "Switcher Studio",
+    "BoxCast",
+    "Kick"
+  ],
+  "c": [
+    {
+      "n": "Platform Reach",
+      "d": "Number of active users or potential audience on the platform.",
+      "t": "Integer[*]",
+      "s": "Various sources (e.g., official reports, third-party statistics)"
+    },
+    {
+      "n": "Content Focus",
+      "d": "Primary content type (e.g., gaming, general entertainment, music).",
+      "t": "Text[1]",
+      "s": "App Store/Play Store description, user reviews"
+    },
+    {
+      "n": "Monetization Options",
+      "d": "Availability of features like subscriptions, donations, ads.",
+      "t": "Boolean[*]",
+      "s": "App documentation, user testimonials"
+    },
+    {
+      "n": "Customization",
+      "d": "Ability to add overlays, alerts, and other graphics.",
+      "t": "Boolean[*]",
+      "s": "App features list, tutorials"
+    },
+    {
+      "n": "Multi-Streaming Support",
+      "d": "Ability to stream to multiple platforms simultaneously.",
+      "t": "Boolean[1]",
+      "s": "App documentation, user reviews"
+    }
+  ]
+}

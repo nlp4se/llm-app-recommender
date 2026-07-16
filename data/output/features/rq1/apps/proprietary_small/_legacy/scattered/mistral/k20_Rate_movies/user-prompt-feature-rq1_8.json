@@ -1,0 +1,69 @@
+
+{
+  "a": [
+    "IMDb",
+    "Letterboxd",
+    "Rotten Tomatoes",
+    "Metacritic",
+    "Flickmetrix",
+    "MovieJoy",
+    "CinemaTrix",
+    "FilmFlow",
+    "CineRate",
+    "MovieMate",
+    "ReelRate",
+    "CinemaScore",
+    "MoviePoll",
+    "FlickPick",
+    "CineWatch",
+    "MovieBuff",
+    "ReelReview",
+    "CineLog",
+    "MovieVibe",
+    "FlickRate"
+  ],
+  "c": [
+    {
+      "n": "User Ratings",
+      "d": "The average rating given by users to the app.",
+      "t": "Float [1]",
+      "s": "App Store, Google Play Store, Sensor Tower"
+    },
+    {
+      "n": "Number of Reviews",
+      "d": "The total number of reviews the app has received.",
+      "t": "Integer [1]",
+      "s": "App Store, Google Play Store, Sensor Tower"
+    },
+    {
+      "n": "App Downloads",
+      "d": "The total number of times the app has been downloaded.",
+      "t": "Integer [1]",
+      "s": "App Store, Google Play Store, Sensor Tower"
+    },
+    {
+      "n": "User Interface Design",
+      "d": "The quality and usability of the app's user interface.",
+      "t": "Text [1]",
+      "s": "Expert reviews, user feedback"
+    },
+    {
+      "n": "Feature Set",
+      "d": "The range and usefulness of the app's features.",
+      "t": "Text [1]",
+      "s": "App descriptions, user reviews, expert analyses"
+    },
+    {
+      "n": "Update Frequency",
+      "d": "How often the app is updated with new features and bug fixes.",
+      "t": "Text [1]",
+      "s": "App Store, Google Play Store, developer blogs"
+    },
+    {
+      "n": "Community Engagement",
+      "d": "The level of interaction and engagement within the app's user community.",
+      "t": "Text [1]",
+      "s": "Social media, user forums, in-app activity"
+    }
+  ]
+}

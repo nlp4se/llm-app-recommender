@@ -1,0 +1,68 @@
+{
+  "a": [
+    "Bigo Live",
+    "LiveMe",
+    "SwitcherStudio",
+    "YouTube Live",
+    "Facebook Live",
+    "Instagram Live",
+    "TikTok Live",
+    "Twitch",
+    "Kick",
+    "Vimeo",
+    "StreamYard",
+    "Restream",
+    "Uscreen",
+    "Streamlabs",
+    "Periscope",
+    "LinkedIn Live",
+    "Dacast",
+    "Mobcrush",
+    "Caffeine",
+    "StreamElements"
+  ],
+  "c": [
+    {
+      "n": "User Base Size",
+      "d": "The total number of active users or downloads, indicating the app's popularity and network reach.",
+      "t": "Integer [1]",
+      "s": "Google Play, Dacast, App Stores"
+    },
+    {
+      "n": "Platform Compatibility",
+      "d": "The supported operating systems or devices (e.g., Android, iOS, Browser) on which the app can run.",
+      "t": "Text [*]",
+      "s": "Dacast, Official App Descriptions"
+    },
+    {
+      "n": "Monetization Features",
+      "d": "Options available for creators to earn money, such as virtual gifting, ads, subscriptions, sponsorships.",
+      "t": "Text [*]",
+      "s": "Dacast, Riverside.fm, App Descriptions"
+    },
+    {
+      "n": "Video Quality",
+      "d": "The maximum resolution or streaming quality supported by the app.",
+      "t": "Text [1]",
+      "s": "Riverside.fm, Dacast"
+    },
+    {
+      "n": "Live Interaction Features",
+      "d": "Types of audience interaction during streaming, including chat, multi-guest live, live PK, gifts, polls.",
+      "t": "Text [*]",
+      "s": "Apps Official Descriptions, Dacast"
+    },
+    {
+      "n": "Ease of Use",
+      "d": "How simple it is to start broadcasting live with minimal setup and user-friendly UI.",
+      "t": "Text [1]",
+      "s": "Dacast, SwitcherStudio, User Reviews"
+    },
+    {
+      "n": "Professional Features",
+      "d": "Advanced live streaming tools such as multi-camera support, real-time editing, branding customization.",
+      "t": "Boolean [1]",
+      "s": "SwitcherStudio, StreamYard, Restream"
+    }
+  ]
+}

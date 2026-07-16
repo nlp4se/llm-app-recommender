@@ -1,0 +1,56 @@
+{
+  "a": [
+    "Spotify",
+    "YouTube Music",
+    "Apple Music",
+    "Amazon Music",
+    "Deezer",
+    "Tidal",
+    "Pandora",
+    "SoundCloud",
+    "iHeartRadio",
+    "Shazam",
+    "PowerAmp",
+    "VLC for Mobile",
+    "Plex",
+    "JetAudio HD",
+    "PlayerPro",
+    "Musicolet",
+    "BlackPlayer",
+    "Neutron Music Player",
+    "Rocket Player",
+    "doubleTwist Music Player"
+  ],
+  "c": [
+    {
+      "n": "Shuffle Algorithm Quality",
+      "d": "Effectiveness of randomization algorithm in preventing repetition and creating truly random playback experience",
+      "t": "Integer [1-10]",
+      "s": "User reviews, app testing, algorithm documentation"
+    },
+    {
+      "n": "Playlist Management Features",
+      "d": "Comprehensive tools for creating, editing, organizing, and managing multiple playlists with ease",
+      "t": "Integer [1-10]",
+      "s": "App store descriptions, feature lists, user manuals"
+    },
+    {
+      "n": "Music Library Size",
+      "d": "Total number of songs and tracks available in the app's music catalog or supported local formats",
+      "t": "Integer [millions]",
+      "s": "Official app statistics, music licensing databases, app store information"
+    },
+    {
+      "n": "Cross-Platform Sync",
+      "d": "Ability to synchronize playlists, preferences, and playback across multiple devices and platforms",
+      "t": "Boolean [1]",
+      "s": "App specifications, user reviews, official documentation"
+    },
+    {
+      "n": "Audio Quality Options",
+      "d": "Range of audio quality settings available including lossless, high-definition, and customizable bitrate options",
+      "t": "Text [*]",
+      "s": "Technical specifications, app settings, audio format support documentation"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+
+{
+  "a": [
+    "Evernote",
+    "Notion",
+    "Microsoft OneNote",
+    "Google Keep",
+    "Apple Notes",
+    "Bear",
+    "Zoho Notebook",
+    "SimpleNote",
+    "Ulysses",
+    "GoodNotes",
+    "Notability",
+    "Joplin",
+    "Standard Notes",
+    "Roam Research",
+    "Craft",
+    "Obsidian",
+    "Day One",
+    "Turtl",
+    " Milanote",
+    "Elephant"
+  ],
+  "c": [
+    {
+      "n": "User Ratings",
+      "d": "Average user ratings on major app stores (e.g., Google Play, Apple App Store).",
+      "t": "Float [1]",
+      "s": "Google Play Store, Apple App Store, Amazon Appstore"
+    },
+    {
+      "n": "Number of Downloads",
+      "d": "Total number of downloads or installs from major app stores.",
+      "t": "Integer [1]",
+      "s": "Google Play Store, Apple App Store, Amazon Appstore"
+    },
+    {
+      "n": "Cross-Platform Availability",
+      "d": "Availability of the app across different platforms (e.g., iOS, Android, Web, Desktop).",
+      "t": "Text [*]",
+      "s": "Official app websites, app store listings"
+    },
+    {
+      "n": "Syncing Capabilities",
+      "d": "Ability to sync notes across multiple devices and platforms.",
+      "t": "Boolean [1]",
+      "s": "Official app websites, app store listings, user reviews"
+    },
+    {
+      "n": "Feature Set",
+      "d": "Range of features offered, such as text formatting, multimedia support, tagging, and organization tools.",
+      "t": "Text [*]",
+      "s": "Official app websites, app store listings, user reviews"
+    },
+    {
+      "n": "User Interface and Experience",
+      "d": "Quality and intuitiveness of the app's user interface and overall user experience.",
+      "t": "Text [1]",
+      "s": "User reviews, tech blogs, app store listings"
+    },
+    {
+      "n": "Security and Privacy",
+      "d": "Level of security and privacy features, such as encryption and secure data storage.",
+      "t": "Text [*]",
+      "s": "Official app websites, privacy policies, security audits"
+    },
+    {
+      "n": "Integration with Other Services",
+      "d": "Ability to integrate with other apps and services, such as cloud storage, calendars, and productivity tools.",
+      "t": "Text [*]",
+      "s": "Official app websites, app store listings, user reviews"
+    },
+    {
+      "n": "Pricing Model",
+      "d": "Cost of the app, including any subscription fees or in-app purchases.",
+      "t": "Text [1]",
+      "s": "Official app websites, app store listings"
+    },
+    {
+      "n": "Update Frequency",
+      "d": "Frequency of app updates and improvements.",
+      "t": "Text [1]",
+      "s": "App store listings, official app blogs"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "a": [
+    "VSCO",
+    "Adobe Lightroom",
+    "Snapseed",
+    "Adobe Photoshop Express",
+    "Canva",
+    "PicsArt",
+    "Lightroom Mobile",
+    "Facetune2",
+    "SKRWT",
+    "TouchRetouch",
+    "Prisma",
+    "Afterlight",
+    "Huji Cam",
+    "RNI Films",
+    "Filmborn",
+    "Darkroom",
+    "Photoshop Camera",
+    "Luminar AI",
+    "Pixelmator Photo",
+    "Retouch"
+  ],
+  "c": [
+    {
+      "n": "Filter Quality and Variety",
+      "d": "Range and professional quality of photo filters, effects, and presets available",
+      "t": "Integer [1-100]",
+      "s": "App store descriptions, user reviews, feature analysis"
+    },
+    {
+      "n": "Advanced Editing Tools",
+      "d": "Availability of professional editing features like curves, masking, selective adjustments, and RAW support",
+      "t": "Integer [1-50]",
+      "s": "Feature documentation, app specifications, professional reviews"
+    },
+    {
+      "n": "User Interface Quality",
+      "d": "Intuitiveness, design quality, and ease of navigation for photo editing workflow",
+      "t": "Float [1.0-5.0]",
+      "s": "User reviews, UI/UX analysis, usability testing feedback"
+    },
+    {
+      "n": "Export Quality Options",
+      "d": "Range of output formats, resolution options, and quality preservation capabilities",
+      "t": "Integer [1-20]",
+      "s": "Technical specifications, format support documentation"
+    },
+    {
+      "n": "Community and Sharing Features",
+      "d": "Social features, preset sharing, community galleries, and collaborative tools",
+      "t": "Boolean [1], Integer [0-10]",
+      "s": "Social media integration, community size metrics, sharing capabilities"
+    }
+  ]
+}

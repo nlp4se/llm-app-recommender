@@ -1,0 +1,74 @@
+{
+  "a": [
+    "Microsoft OneNote",
+    "Notion",
+    "Evernote",
+    "Simplenote",
+    "Nebo",
+    "Apple Notes",
+    "Google Keep",
+    "Obsidian",
+    "GoodNotes",
+    "ClickUp Docs",
+    "Bear",
+    "Zoho Notebook",
+    "Standard Notes",
+    "Joplin",
+    "Quip",
+    "Agenda",
+    "Boostnote",
+    "Dropbox Paper",
+    "Coda",
+    "Roam Research"
+  ],
+  "c": [
+    {
+      "n": "Cross-Platform Availability",
+      "d": "Ability of the app to sync notes and be accessible on multiple operating systems and devices",
+      "t": "Text, Boolean [1]",
+      "s": "ClickUp, Zapier"
+    },
+    {
+      "n": "Note Organization Features",
+      "d": "Support for tags, notebooks, sections, and search functionalities to organize and retrieve notes efficiently",
+      "t": "Text, Boolean [1][2]",
+      "s": "ClickUp, Zapier"
+    },
+    {
+      "n": "Input Flexibility",
+      "d": "Support for handwriting, typed text, images, sketches, diagrams, and audio notes",
+      "t": "Boolean, Text [3][2]",
+      "s": "Scribecount, Zapier"
+    },
+    {
+      "n": "Collaboration Capabilities",
+      "d": "Options for sharing, real-time collaboration, and publishing notes online",
+      "t": "Boolean [1][2]",
+      "s": "ClickUp, Zapier"
+    },
+    {
+      "n": "Price Model",
+      "d": "Free, freemium, or paid pricing plans including in-app purchases or subscriptions",
+      "t": "Text [1][3]",
+      "s": "ClickUp, Scribecount"
+    },
+    {
+      "n": "User Interface and Experience",
+      "d": "UI design quality including distraction-free modes and ease of use",
+      "t": "Text [1]",
+      "s": "ClickUp"
+    },
+    {
+      "n": "Handwriting Recognition Accuracy",
+      "d": "Ability to convert handwritten notes to editable text reliably",
+      "t": "Float [3]",
+      "s": "Scribecount"
+    },
+    {
+      "n": "Advanced Export Options",
+      "d": "Support for exporting notes into multiple formats like PDF, DOCX, Markdown, and text",
+      "t": "Text [3][1]",
+      "s": "Scribecount, ClickUp"
+    }
+  ]
+}

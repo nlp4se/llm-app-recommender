@@ -1,0 +1,74 @@
+{
+  "a": [
+    "Slack",
+    "Microsoft Teams",
+    "Asana",
+    "ClickUp",
+    "monday.com",
+    "SmartTask",
+    "Rocket.Chat",
+    "Bluescape",
+    "Zoom",
+    "Ryver",
+    "MURAL",
+    "MeisterTask",
+    "Trello",
+    "Pear Deck",
+    "Creately",
+    "Kahoot",
+    "Google Drive",
+    "Dropbox",
+    "Notion",
+    "Figma"
+  ],
+  "c": [
+    {
+      "n": "User base and popularity",
+      "d": "The size of the app's active user community and market adoption level which impacts collaboration effectiveness.",
+      "t": "Integer [1]",
+      "s": "Rocket.Chat blog, Huuray, Syskit"
+    },
+    {
+      "n": "Integration capabilities",
+      "d": "Number and quality of third-party app integrations (e.g., Gmail, Google Drive, Zoom) facilitating seamless workflow.",
+      "t": "Integer [1]",
+      "s": "Rocket.Chat blog, Huuray"
+    },
+    {
+      "n": "Communication features",
+      "d": "Includes real-time messaging, video/audio calls, file sharing, channels, and notifications that enable team interaction.",
+      "t": "Text [*]",
+      "s": "Huuray, Rocket.Chat blog"
+    },
+    {
+      "n": "Project/task management tools",
+      "d": "Capabilities such as task assignment, status tracking, checklists, boards, and reporting to organize collaborative work.",
+      "t": "Boolean [1]",
+      "s": "Rocket.Chat blog, Syskit"
+    },
+    {
+      "n": "Visual collaboration support",
+      "d": "Availability of features for visual teamwork like mind maps, diagrams, templates, and virtual whiteboards.",
+      "t": "Boolean [1]",
+      "s": "Rocket.Chat blog, Syskit"
+    },
+    {
+      "n": "Security and privacy",
+      "d": "Measures and features ensuring data protection, encryption, and compliance for sensitive collaborations.",
+      "t": "Boolean [1]",
+      "s": "Rocket.Chat blog"
+    },
+    {
+      "n": "Scalability",
+      "d": "Ability to support teams from small groups to large enterprises with flexible user limits and feature upgrades.",
+      "t": "Boolean [1]",
+      "s": "Rocket.Chat blog"
+    },
+    {
+      "n": "Ease of use and user interface",
+      "d": "How intuitive and accessible the app is for different users, promoting efficient collaboration.",
+      "t": "Text [1]",
+      "s": "Rocket.Chat blog, Huuray"
+    }
+  ]
+}

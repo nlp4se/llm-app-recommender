@@ -1,0 +1,69 @@
+
+{
+  "a": [
+    "WhatsApp",
+    "Facebook Messenger",
+    "Instagram",
+    "Snapchat",
+    "Telegram",
+    "Discord",
+    "Viber",
+    "Signal",
+    "Threads",
+    "BeReal",
+    "Locket",
+    "Houseparty",
+    "GroupMe",
+    "Marco Polo",
+    "Bunch",
+    "Skype",
+    "WeChat",
+    "Line",
+    "ooVoo",
+    "Howbout"
+  ],
+  "c": [
+    {
+      "n": "User Base",
+      "d": "Number of active users on the platform. A larger user base increases the likelihood of connecting with more friends.",
+      "t": "Integer[1]",
+      "s": "Sensor Tower, AgileTech Vietnam, Hootsuite Blog"
+    },
+    {
+      "n": "Multimedia Sharing",
+      "d": "Ability to share photos, videos, and other media types, enhancing communication and engagement.",
+      "t": "Boolean[1]",
+      "s": "The Sociable, Firefly, Yabb Messenger"
+    },
+    {
+      "n": "Group Communication",
+      "d": "Features that facilitate group chats and calls, making it easier to connect with multiple friends simultaneously.",
+      "t": "Boolean[1]",
+      "s": "Wise, Yabb Messenger, Carlcare"
+    },
+    {
+      "n": "Video Calling",
+      "d": "Availability of video call functionality for face-to-face interactions.",
+      "t": "Boolean[1]",
+      "s": "The Sociable, Firefly, Yabb Messenger"
+    },
+    {
+      "n": "Cross-Platform Availability",
+      "d": "Compatibility with multiple operating systems and devices, ensuring accessibility for all users.",
+      "t": "Boolean[1]",
+      "s": "Zapier, Yabb Messenger"
+    },
+    {
+      "n": "Privacy and Security",
+      "d": "Security features such as end-to-end encryption to protect user data and conversations.",
+      "t": "Boolean[1]",
+      "s": "Carlcare, Zapier"
+    },
+    {
+      "n": "Unique Features",
+      "d": "Special functionalities like games, screen sharing, or location sharing that enhance the user experience.",
+      "t": "Text[*]",
+      "s": "The Sociable, Symptoms of Living, Beyond Instagram & Snapchat"
+    }
+  ]
+}

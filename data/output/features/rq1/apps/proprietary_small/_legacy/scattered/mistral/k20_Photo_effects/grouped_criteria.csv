@@ -1,0 +1,10 @@
+name,description,type,sources
+Community and Support,"Availability of user community, tutorials, and customer support.",Text [1],"Customer support reviews, Official app forums, Official app websites, Social media pages, Social media platforms, customer support reviews, social media pages"
+Downloads,Total number of times the app has been downloaded.,Integer [1],"App Store, Google Play Store, Sensor Tower"
+Feature Set,Range and quality of photo editing features offered by the app.,Text [1],"App Store descriptions, Expert reviews, Official app descriptions, Official app websites, expert reviews, tech reviews, user feedback, user reviews"
+In-App Purchases,Availability and cost of in-app purchases for additional features.,Text [1],"App Store, Google Play Store"
+Number of Downloads,Total number of times the app has been downloaded.,Integer [1],"Amazon Appstore, App Annie, App Store, Apple App Store, Google Play Store, Sensor Tower"
+Social Integration,Ability to share edited photos directly to social media platforms.,Boolean [1],"Official app descriptions, expert reviews, user reviews"
+Update Frequency,How often the app is updated with new features and bug fixes.,Text [1],"App Store, App Store update history, App store update history, Apple App Store, Google Play Store, Official app blogs, Release notes, official app blogs"
+User Interface,Ease of use and intuitiveness of the app's interface.,Text [1],"Expert reviews, Tech blogs, Tech reviews, User reviews, app screenshots, app store descriptions, expert analyses, expert reviews, user feedback, user reviews"
+User Ratings,Average rating given by users on app stores.,Float [1],"Amazon Appstore, App Store, Apple App Store, Google Play Store"

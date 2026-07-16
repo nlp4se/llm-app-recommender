@@ -1,0 +1,57 @@
+
+{
+  "a": [
+    "Howbout",
+    "Marco Polo",
+    "Locket Widget",
+    "BeReal",
+    "Cappuccino",
+    "Teleparty",
+    "Airbuds",
+    "HeyTell",
+    "Garden",
+    "Cloze",
+    "WhatsApp",
+    "Instagram",
+    "Snapchat",
+    "Facebook",
+    "Discord",
+    "Telegram",
+    "Signal",
+    "GroupMe",
+    "Houseparty",
+    "Viber"
+  ],
+  "c": [
+    {
+      "n": "Active User Base",
+      "d": "Number of monthly active users; larger user bases offer a higher chance of connecting with more friends.",
+      "t": "Integer[*]",
+      "s": "AppFigures, Sensor Tower, Company Reports"
+    },
+    {
+      "n": "Communication Modality",
+      "d": "Variety of communication methods supported (text, voice, video, file sharing) impacts richness of interaction.",
+      "t": "Text[*]",
+      "s": "App description, Expert reviews"
+    },
+    {
+      "n": "Privacy Controls",
+      "d": "Granularity of privacy settings, including audience selection and data encryption, affects user comfort and safety.",
+      "t": "Text[*]",
+      "s": "App description, Privacy policy"
+    },
+    {
+      "n": "Group Feature Functionality",
+      "d": "Tools for managing and engaging with groups, such as shared calendars, polls, or dedicated chat channels, enhance collaborative planning.",
+      "t": "Boolean",
+      "s": "App description, Expert reviews"
+    },
+    {
+      "n": "Media Sharing Capability",
+      "d": "Ease and quality of sharing photos, videos, and other media directly within the app affects the vibrancy of content exchange.",
+      "t": "Text[*]",
+      "s": "App description, User reviews"
+    }
+  ]
+}

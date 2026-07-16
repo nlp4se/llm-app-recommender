@@ -1,0 +1,63 @@
+
+{
+  "a": [
+    "PicCollage",
+    "Layout from Instagram",
+    "Moldiv",
+    "PicsArt",
+    "FotoJet",
+    "Canva",
+    "PhotoGrid",
+    "Adobe Spark",
+    "Google Photos",
+    "Fotor",
+    "Ribbet",
+    "BeFunky",
+    "PiZap",
+    "Kapwing",
+    "Photo Collage Maker",
+    "Pic Stitch",
+    "Collage Maker",
+    "Diptic",
+    "PicPlayPost",
+    "Fuzel Collage"
+  ],
+  "c": [
+    {
+      "n": "User Ratings",
+      "d": "Average user ratings on app stores (e.g., Google Play, Apple App Store).",
+      "t": "Float [1]",
+      "s": "Google Play Store, Apple App Store, Amazon Appstore"
+    },
+    {
+      "n": "Number of Downloads",
+      "d": "Total number of times the app has been downloaded.",
+      "t": "Integer [1]",
+      "s": "Google Play Store, Apple App Store, Amazon Appstore, Sensor Tower"
+    },
+    {
+      "n": "Feature Set",
+      "d": "Variety and quality of features offered, such as templates, editing tools, and sharing options.",
+      "t": "Text [*]",
+      "s": "Official app websites, App Store descriptions, TechRadar, CNET"
+    },
+    {
+      "n": "User Interface",
+      "d": "Ease of use and intuitiveness of the app's interface.",
+      "t": "Text [*]",
+      "s": "User reviews, Expert reviews from tech blogs, YouTube tutorials"
+    },
+    {
+      "n": "Update Frequency",
+      "d": "How often the app is updated with new features, bug fixes, and improvements.",
+      "t": "Text [*]",
+      "s": "App Store update history, Official app blogs"
+    },
+    {
+      "n": "Cross-Platform Availability",
+      "d": "Availability of the app on different platforms (iOS, Android, Web, etc.).",
+      "t": "Text [*]",
+      "s": "Official app websites, App Store listings"
+    }
+  ]
+}

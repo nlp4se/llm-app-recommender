@@ -1,0 +1,68 @@
+model,feature,name,description,type,sources
+perplexity,Search for offer on item,Number of Retailers Supported,Number of different retail stores or online marketplaces an app can search for offers,Integer[*],"nextstepliving.com, geo-viz.com, top10.com"
+perplexity,Search for offer on item,Price Comparison Features,Ability to compare prices across multiple retailers and present the best offers,Boolean[1],"nextstepliving.com, top10.com, geo-viz.com"
+perplexity,Search for offer on item,Coupon and Deal Aggregation,"Extent of coupon, deal, or discount aggregation integrated directly into the app",Boolean[1],"nextstepliving.com, top10.com, geo-viz.com"
+perplexity,Search for offer on item,Barcode/QR Scanning,App supports instant price lookup and offer retrieval by scanning item barcodes or QR codes,Boolean[1],"nextstepliving.com, geo-viz.com, top10.com"
+perplexity,Search for offer on item,User Reviews and Ratings,Availability and quality of user reviews and app ratings influencing trust and reliability,Integer[*],"top10.com, nextstepliving.com"
+perplexity,Search for offer on item,Alert System for Deals,Capability to set up alerts for price drops or new deals on specific items,Boolean[1],"geo-viz.com, nextstepliving.com, top10.com"
+perplexity,Search for offer on item,Price Comparison Ability,Capability of the app to compare prices from multiple stores or websites for the same product to find the best deal,Boolean[1],"NextStepLiving, Top10.com"
+perplexity,Search for offer on item,Coupon and Discount Availability,"Availability of coupons, discount codes, or daily deals provided within the app for various products",Boolean[1],NextStepLiving
+perplexity,Search for offer on item,Price Alert Feature,Ability to set alerts for price drops or deals on specific items,Boolean[1],"Emizentech, FinancialPost"
+perplexity,Search for offer on item,User Ratings and Reviews,Presence of user ratings and reviews to assess trustworthiness and deal quality,Float[1],"JotformBlog, NextStepLiving"
+perplexity,Search for offer on item,Product Coverage,Range of product categories covered by the app for deal searching and price comparison,Text[1],"NextStepLiving, Top10.com"
+perplexity,Search for offer on item,Platform Availability,"Platforms supported by the app such as iOS, Android, or web",Text[*],"JotformBlog, NextStepLiving"
+perplexity,Search for offer on item,Local Deal Support,Support for finding deals or discounts from local stores or marketplaces,Boolean[1],"NextStepLiving, JotformBlog, Top10.com"
+perplexity,Search for offer on item,Price Comparison Accuracy,How accurately the app compares prices across different stores and online platforms to find the best deals on an item,Float [1],"1,2,3"
+perplexity,Search for offer on item,Coupon and Discount Availability,"The number and quality of coupons, discount codes, or daily deals provided by the app",Integer [1],"1,3"
+perplexity,Search for offer on item,Barcode/QR Code Scanning,Whether the app supports scanning barcodes or QR codes to instantly find deals on items,Boolean [1],"1,2,3,4"
+perplexity,Search for offer on item,Platform Availability,Supported operating systems like iOS and Android to ensure accessibility for users,Text [*],"1,2,4"
+perplexity,Search for offer on item,User Interface and Ease of Use,How user-friendly the app is for searching offers and navigating deals,Text [1],"1,3"
+perplexity,Search for offer on item,Additional Features,"Extra functionalities such as alerts for sales, price match guarantees, cashback offers, or gift card rewards",Text [*],"1,2,3,4"
+perplexity,Search for offer on item,Price Comparison Features,The ability of the app to compare prices across different stores and websites,Text,"1, 2"
+perplexity,Search for offer on item,Coupon and Discount Availability,The number and variety of coupons and discounts available through the app,Text,"1, 2"
+perplexity,Search for offer on item,User Interface and Usability,The ease and intuitiveness of navigating and using the app,Text,"1, 2, 3"
+perplexity,Search for offer on item,Local and Online Shopping Support,Whether the app supports both in-person and online shopping experiences,Boolean,"1, 2, 3"
+perplexity,Search for offer on item,Platform Availability,"The number of mobile platforms supported by the app (e.g., iOS, Android)",Integer,"1, 3"
+perplexity,Search for offer on item,Price Comparison Accuracy,The ability of the app to accurately compare prices of items across various retailers and online stores to find the best deal,Float[1],"NextStepLiving, Top10, EmizenTech"
+perplexity,Search for offer on item,Coupon and Discount Availability,"Number and variety of coupons, deals, and discount codes available within the app for different product categories",Integer[1],NextStepLiving
+perplexity,Search for offer on item,User Interface Usability,"How easy and intuitive the app is to use, including features like barcode scanning, filtering, and navigation",Text[1],"NextStepLiving, Top10, Jotform"
+perplexity,Search for offer on item,Platform Availability,"Availability of the app across multiple platforms such as iOS, Android, and web to allow flexible user access",Text[1],"NextStepLiving, Jotform"
+perplexity,Search for offer on item,Price Alert Functionality,Capability to set alerts for price drops or deals on specific items to notify the user when a better price is available,Boolean[1],"EmizenTech, FinancialPost"
+perplexity,Search for offer on item,Local and Online Deal Coverage,Range of deals covered by the app including both local brick-and-mortar stores and online marketplaces,Text[1],"NextStepLiving, Jotform, Top10"
+perplexity,Search for offer on item,User Ratings and Trust,"Overall user ratings and reputation for reliability, including buyer protections and potential for scams",Float[1],Jotform
+perplexity,Search for offer on item,Price Comparison Accuracy,"The ability of the app to provide accurate, up-to-date price comparisons across multiple retailers or stores.",Float[1],"nextstepliving.com, emizentech.com, top10.com"
+perplexity,Search for offer on item,Coupon and Deal Availability,"Number and quality of available coupons, discount codes, and deals provided by the app for various product categories.",Integer[1],nextstepliving.com
+perplexity,Search for offer on item,Platform Support,"Supported devices/platforms such as Android, iOS, and web which affects accessibility for users.",Text[*],"nextstepliving.com, jotform.com"
+perplexity,Search for offer on item,User Ratings,Average user ratings on app stores reflecting user satisfaction and app reliability.,Float[1],jotform.com
+perplexity,Search for offer on item,Local and Online Shopping Integration,Capability to find deals both for local brick-and-mortar stores and online shopping platforms.,Boolean[1],"nextstepliving.com, top10.com"
+perplexity,Search for offer on item,Additional Features,"Extra functionalities such as barcode scanning, price alerts, user manual downloads, or in-app messaging.",Text[*],"emizentech.com, jotform.com, nextstepliving.com"
+perplexity,Search for offer on item,Price Comparison Features,The ability of the app to compare prices across different retailers and websites.,Boolean,"ShopSavvy, PriceGrabber, ScanLife, BuyVia"
+perplexity,Search for offer on item,Discount and Coupon Availability,"The availability of discounts, coupons, and promotional offers within the app.",Boolean,"The Coupons App, Sherpa Perks, RetailMeNot"
+perplexity,Search for offer on item,User Interface and Ease of Use,How user-friendly and intuitive the app is.,Integer [1-5],General App Reviews
+perplexity,Search for offer on item,Cross-Platform Compatibility,Whether the app is available on multiple platforms such as iOS and Android.,Boolean,Device Support Information
+perplexity,Search for offer on item,Community and User Reviews,The presence and quality of user reviews and community features within the app.,Integer [1-5],App Store Reviews
+perplexity,Search for offer on item,Alerts and Notifications,The ability of the app to send alerts and notifications for sales and promotions.,Boolean,"ShopSavvy, BuyVia"
+perplexity,Search for offer on item,Barcode Scanning Capability,The ability of the app to scan barcodes for price comparison and product information.,Boolean,"ScanLife, TheFind"
+perplexity,Search for offer on item,In-Store and Online Shopping Support,Whether the app supports both in-store and online shopping experiences.,Boolean,"ShopSavvy, BuyVia"
+perplexity,Search for offer on item,Specialization in Specific Categories,Whether the app specializes in specific product categories like electronics or toys.,Text,App Descriptions
+perplexity,Search for offer on item,Price Comparison Accuracy,How precisely the app compares prices across multiple stores or platforms,Float [1],"NextStepLiving, Top10"
+perplexity,Search for offer on item,Number of Retailers Supported,Total number of stores and websites the app compares prices from,Integer [1],"NextStepLiving, EmizenTech"
+perplexity,Search for offer on item,Coupon and Discount Availability,"Availability of coupons, daily deals, or discount codes through the app",Boolean [1],"NextStepLiving, FinancialPost"
+perplexity,Search for offer on item,Price Alert Feature,Ability to set alerts for price drops or deals on specific items,Boolean [1],"EmizenTech, FinancialPost"
+perplexity,Search for offer on item,User Ratings,Average user rating on app stores indicating user satisfaction,Float [1],"Jotform, App Stores"
+perplexity,Search for offer on item,Platform Availability,"Support for major platforms such as iOS, Android, and web",Text [*],"NextStepLiving, Jotform"
+perplexity,Search for offer on item,Special Features,"Unique functionalities like barcode scanning, local store alerts, or cashback",Text [*],"NextStepLiving, Top10"
+perplexity,Search for offer on item,Price Comparison Accuracy,How precisely the app compares prices across multiple retailers and updates with the latest deals,Float[1],"nextstepliving.com, top10.com"
+perplexity,Search for offer on item,Coupon and Discount Availability,"Number and quality of coupons, discount codes, or cashback offers available via the app",Integer[1],nextstepliving.com
+perplexity,Search for offer on item,User Interface Ease of Use,How intuitive and user-friendly the app interface is for searching and finding offers,Text[1],"nextstepliving.com, theonlinemom.com"
+perplexity,Search for offer on item,Barcode/QR Code Scanning Capability,Ability to scan product barcodes or QR codes to instantly compare prices and find deals,Boolean[1],"nextstepliving.com, top10.com"
+perplexity,Search for offer on item,Local Deal Availability,Effectiveness of the app in finding offers and discounts at nearby physical stores or local sellers,Boolean[1],"nextstepliving.com, wtop.com"
+perplexity,Search for offer on item,Offer Negotiation Feature,Whether the app supports user negotiation with sellers on item prices,Boolean[1],"wtop.com, play.google.com"
+perplexity,Search for offer on item,Cross-Platform Support,"Availability of the app on major platforms (iOS, Android, others) to maximize user access",Text[1],"theonlinemom.com, nextstepliving.com"
+perplexity,Search for offer on item,Product Category Coverage,"Range of product categories covered by the app for searching offers (electronics, clothes, food, etc.)",Text[1],"nextstepliving.com, theonlinemom.com"
+perplexity,Search for offer on item,Price Comparison Accuracy,Ability of the app to compare prices from multiple retailers or sellers accurately,Float[1],"NextStepLiving, Top10, EmizenTech"
+perplexity,Search for offer on item,Coupon and Discount Availability,"Number and quality of available coupons, promo codes, and discounts for various items",Integer[1],NextStepLiving
+perplexity,Search for offer on item,User Ratings,Average user rating scores on app stores reflecting user satisfaction and reliability,Float[1],"Jotform, NextStepLiving"
+perplexity,Search for offer on item,Platform Support,"Availability of the app on multiple platforms such as iOS, Android, and web",Text[*],"Jotform, NextStepLiving"
+perplexity,Search for offer on item,Additional Features,"Features such as barcode scanning, price drop alerts, local store price checks, and cashback offers",Text[*],"NextStepLiving, Top10, EmizenTech, FinancialPost"
+perplexity,Search for offer on item,Ease of Use,User interface simplicity and speed of accessing deals and offers,Text[1],"Jotform, NextStepLiving"

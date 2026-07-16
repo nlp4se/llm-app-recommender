@@ -1,0 +1,57 @@
+
+{
+  "a": [
+    "Google Drive",
+    "Dropbox",
+    "WeTransfer",
+    "Microsoft OneDrive",
+    "Box",
+    "Send Anywhere",
+    "iCloud Drive",
+    "Filestage",
+    "Hightail",
+    "Egnyte",
+    "MediaFire",
+    "TransferNow",
+    "Filemail",
+    "Jumpshare",
+    "Sync.com",
+    "Mega",
+    "pCloud",
+    "ShareFile",
+    "Files.com",
+    "Digital Pigeon"
+  ],
+  "c": [
+    {
+      "n": "File Size Limit",
+      "d": "Maximum file size allowed for transfer in the free tier.",
+      "t": "Float[1]",
+      "s": "App Store, Google Play Store, Tom's Guide"
+    },
+    {
+      "n": "Storage Space (Free Tier)",
+      "d": "Amount of free storage space offered by the app.",
+      "t": "Float[1]",
+      "s": "Tom's Guide, Google Drive Review"
+    },
+    {
+      "n": "Security Features",
+      "d": "Security measures implemented by the app, such as encryption, password protection, and two-factor authentication.",
+      "t": "Text[*]",
+      "s": "Filestage, The Digital Project Manager"
+    },
+    {
+      "n": "Platform Availability",
+      "d": "Platforms the app is available on (e.g., iOS, Android, Windows, macOS, Web).",
+      "t": "Text[*]",
+      "s": "App Store, Google Play Store, Send Anywhere"
+    },
+    {
+      "n": "Ease of Use",
+      "d": "How user-friendly and intuitive the app interface is.",
+      "t": "Text[1]",
+      "s": "Tom's Guide, Google Drive Review, Filestage"
+    }
+  ]
+}
